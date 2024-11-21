@@ -2,5 +2,6 @@
 /input-cache
 /temp
 /template
-/fsh-generated
+# /fsh-generated
 /input/resources
+/output

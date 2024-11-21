@@ -20,8 +20,8 @@ def writeContextUidsCodeSystem( fsh_path:str ) -> None:
     with open(os.path.join(fsh_path, fsh_filename), 'w') as fsh_file:
         fsh_file.write(f'CodeSystem: {CODESYSTEM_NAME}\n')
         fsh_file.write(f'Id: {CODESYSTEM_ID}\n')
-        fsh_file.write(f'Title: "DICOM® Unique Identifiers"\n')
-        fsh_file.write(f'Description: "DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1."\n')
+        fsh_file.write(f'Title: "{CODESYSTEM_TITLE}"\n')
+        fsh_file.write(f'Description: "{CODESYSTEM_DESCRIPTION}"\n')
         # fsh_file.write('Copyright: "DICOM® is a registered trademark of the National Electrical Manufacturers Association for its standards publications relating to digital communications of medical information."\n\n')
         
         fsh_file.write('* ^caseSensitive = true\n')
@@ -40,13 +40,14 @@ def writeContextUidsCodeSystem( fsh_path:str ) -> None:
         
         value_list = getContextGroupUidValues()
         for value in value_list:
-            fsh_file.write(f'\n')
-            fsh_file.write(f'* #{value[0]} "{value[2]}" "{value[2]} with identifier {value[1]} { f'({value[3]})' if len(value[3])>0 else '' }"\n')
-            fsh_file.write(f'* #{value[0]} ^property[0].code = #identifier\n')
-            fsh_file.write(f'* #{value[0]} ^property[0].valueString  = "{value[1]}"\n')
-            fsh_file.write(f'* #{value[0]} ^property[1].code = #retired\n')
-            fsh_file.write(f'* #{value[0]} ^property[1].valueBoolean = {'true'if len(value[3])>0 else 'false' }\n')
-                
+            if len(value[0])>0:
+                fsh_file.write(f'\n')
+                fsh_file.write(f'* #{value[0]} "{value[2]}" "{f'{value[2]} with identifier {value[1]} { f'({value[3]})' if len(value[3])>0 else '' }'.strip()}"\n')
+                fsh_file.write(f'* #{value[0]} ^property[0].code = #identifier\n')
+                fsh_file.write(f'* #{value[0]} ^property[0].valueString  = "{value[1]}"\n')
+                fsh_file.write(f'* #{value[0]} ^property[1].code = #retired\n')
+                fsh_file.write(f'* #{value[0]} ^property[1].valueBoolean = {'true'if len(value[3])>0 else 'false' }\n')
+                    
 
 def getContextGroupUidValues( ) -> List[List[str]]:
     table = get_dicom_table(CI_UID_TABLE_URL)

@@ -1,0 +1,387 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "DICOM_Template_UIDs",
+  "id": "dicom-uids-templates",
+  "title": "DICOM® Template UID Values",
+  "description": "DICOM® Template UID Values from DICOM PS3.6 Table A-4.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-uids-templates",
+  "concept": [
+    {
+      "code": "1.2.840.10008.9.1",
+      "display": "Imaging Report",
+      "definition": "Imaging Report with UID type Document TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Document TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.2",
+      "display": "Clinical Information",
+      "definition": "Clinical Information with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.3",
+      "display": "Imaging Procedure Description",
+      "definition": "Imaging Procedure Description with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.4",
+      "display": "Comparison Study",
+      "definition": "Comparison Study with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.5",
+      "display": "Impression",
+      "definition": "Impression with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.6",
+      "display": "Addendum",
+      "definition": "Addendum with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.7",
+      "display": "Request",
+      "definition": "Request with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.8",
+      "display": "Radiation Exposure and Protection Information",
+      "definition": "Radiation Exposure and Protection Information with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.9",
+      "display": "Fetus Findings",
+      "definition": "Fetus Findings with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.10",
+      "display": "Labeled Subsection",
+      "definition": "Labeled Subsection with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.11",
+      "display": "Communication of Actionable Findings",
+      "definition": "Communication of Actionable Findings with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.12",
+      "display": "Recommendation",
+      "definition": "Recommendation with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.13",
+      "display": "Procedural Medication",
+      "definition": "Procedural Medication with UID type Entry TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Entry TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.14",
+      "display": "Procedure Technique",
+      "definition": "Procedure Technique with UID type Entry TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Entry TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.15",
+      "display": "Image Quality",
+      "definition": "Image Quality with UID type Entry TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Entry TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.16",
+      "display": "Study Act",
+      "definition": "Study Act with UID type Entry TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Entry TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.17",
+      "display": "Series Act",
+      "definition": "Series Act with UID type Entry TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Entry TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.18",
+      "display": "SOP Instance Observation",
+      "definition": "SOP Instance Observation with UID type Entry TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Entry TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.19",
+      "display": "Section Text",
+      "definition": "Section Text with UID type Element Set TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Element Set TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.20",
+      "display": "General Header",
+      "definition": "General Header with UID type Element Set TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Element Set TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.21",
+      "display": "Imaging Header",
+      "definition": "Imaging Header with UID type Element Set TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Element Set TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.22",
+      "display": "Parent Document",
+      "definition": "Parent Document with UID type Element Set TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Element Set TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.23",
+      "display": "General Section Entries",
+      "definition": "General Section Entries with UID type Element Set TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Element Set TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.24",
+      "display": "Imaging Addendum Report",
+      "definition": "Imaging Addendum Report with UID type Document TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Document TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": true,
+  "experimental": false,
+  "property": [
+    {
+      "code": "type",
+      "description": "UID Type",
+      "type": "string"
+    },
+    {
+      "code": "part",
+      "description": "Part",
+      "type": "string"
+    }
+  ],
+  "count": 24
+}

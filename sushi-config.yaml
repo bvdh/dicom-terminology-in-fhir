@@ -25,10 +25,10 @@ contact:
     telecom:
       - system: email
         value: jonathan.whitby@mi.medical.canon
-  - name: Brian Bialecki
+  - name: Grahame Grieve
     telecom:
       - system: email
-        value: bbialecki@acr.org
+        value: grahame@healthintersections.com.au
   - name: Bas van den Heuvel
     telecom:
       - system: email

@@ -1,0 +1,114 @@
+[
+  {
+    "outputFile": "CodeSystem-SMOMED.json",
+    "fshName": "SMOMED",
+    "fshType": "CodeSystem",
+    "fshFile": "CodeSystem-srt-code-system.fsh",
+    "startLine": 1,
+    "endLine": 1
+  },
+  {
+    "outputFile": "CodeSystem-dicom-dcm-codesystem.json",
+    "fshName": "DICOMDCMCodeSystem",
+    "fshType": "CodeSystem",
+    "fshFile": "CodeSystem-dicom-dcm-codesystem.fsh",
+    "startLine": 1,
+    "endLine": 49583
+  },
+  {
+    "outputFile": "CodeSystem-dicom-elements.json",
+    "fshName": "DICOM_Elements",
+    "fshType": "CodeSystem",
+    "fshFile": "CodeSystem-dicom-elements.fsh",
+    "startLine": 1,
+    "endLine": 41930
+  },
+  {
+    "outputFile": "CodeSystem-dicom-sop-classes-codesystem.json",
+    "fshName": "DICOMSOPClassesCodeSystem",
+    "fshType": "CodeSystem",
+    "fshFile": "CodeSystem-dicom-sop-classes-codesystem.fsh",
+    "startLine": 1,
+    "endLine": 177
+  },
+  {
+    "outputFile": "CodeSystem-dicom-uids-color-palletes.json",
+    "fshName": "DICOM_Color_Palattes_UIDs",
+    "fshType": "CodeSystem",
+    "fshFile": "CodeSystem-dicom-uids-color-palletes.fsh",
+    "startLine": 1,
+    "endLine": 44
+  },
+  {
+    "outputFile": "CodeSystem-dicom-uids-context-group.json",
+    "fshName": "DICOM_Context_Group_UIDs",
+    "fshType": "CodeSystem",
+    "fshFile": "CodeSystem-dicom-uids-context-group.fsh",
+    "startLine": 1,
+    "endLine": 8403
+  },
+  {
+    "outputFile": "CodeSystem-dicom-uids-frame-of-reference.json",
+    "fshName": "DICOM_Frame_of_Reference_UIDs",
+    "fshType": "CodeSystem",
+    "fshFile": "CodeSystem-dicom-uids-frame-of-reference.fsh",
+    "startLine": 1,
+    "endLine": 125
+  },
+  {
+    "outputFile": "CodeSystem-dicom-uids-templates.json",
+    "fshName": "DICOM_Template_UIDs",
+    "fshType": "CodeSystem",
+    "fshFile": "CodeSystem-dicom-uids-templates.fsh",
+    "startLine": 1,
+    "endLine": 159
+  },
+  {
+    "outputFile": "CodeSystem-dicom-uids.json",
+    "fshName": "DICOM_UIDs",
+    "fshType": "CodeSystem",
+    "fshFile": "CodeSystem-dicom-uids.fsh",
+    "startLine": 1,
+    "endLine": 3709
+  },
+  {
+    "outputFile": "CodeSystem-dicom-vr-encodings.json",
+    "fshName": "DICOMVRencodings",
+    "fshType": "CodeSystem",
+    "fshFile": "CodeSystem-dicom-vr-encodings.fsh",
+    "startLine": 1,
+    "endLine": 248
+  },
+  {
+    "outputFile": "ValueSet-dicom-data-elements.json",
+    "fshName": "DICOM_Data_Elements",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSet-dicom-data-elements.fsh",
+    "startLine": 1,
+    "endLine": 5205
+  },
+  {
+    "outputFile": "ValueSet-dicom-directory-structure-elements.json",
+    "fshName": "DICOM_Directory_Structure_Elements",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSet-dicom-directory-structure-elements.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "ValueSet-dicom-dynamic-rtp-payload-elements.json",
+    "fshName": "DICOM_Dynamic_RTP_Payload_Elements",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSet-dicom-dynamic-rtp-payload-elements.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-dicom-file-meta-elements.json",
+    "fshName": "DICOM_File_Meta_Elements",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSet-dicom-file-meta-elements.fsh",
+    "startLine": 1,
+    "endLine": 30
+  }
+]

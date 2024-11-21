@@ -1,0 +1,110 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "DICOM_Color_Palattes_UIDs",
+  "id": "dicom-uids-color-palletes",
+  "title": "DICOM® Standard Color Palettes",
+  "description": "DICOM® Standard Color Palettes from DICOM PS3.6 Table B-1-1.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-uids-color-palletes",
+  "concept": [
+    {
+      "code": "1.2.840.10008.1.5.1",
+      "display": "Hot Iron",
+      "definition": "Hot Iron (HOT_IRON) from section B.1.1. See also ftp://medical.nema.org/Medical/Dicom/Palettes/hotiron.dcm",
+      "property": [
+        {
+          "code": "label",
+          "valueString": "HOT_IRON"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.1.5.2",
+      "display": "PET",
+      "definition": "PET (PET) from section B.1.2. See also ftp://medical.nema.org/Medical/Dicom/Palettes/pet.dcm",
+      "property": [
+        {
+          "code": "label",
+          "valueString": "PET"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.1.5.3",
+      "display": "Hot Metal Blue",
+      "definition": "Hot Metal Blue (HOT_METAL_BLUE) from section B.1.3. See also ftp://medical.nema.org/Medical/Dicom/Palettes/hotmetalblue.dcm",
+      "property": [
+        {
+          "code": "label",
+          "valueString": "HOT_METAL_BLUE"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.1.5.4",
+      "display": "PET 20 Step",
+      "definition": "PET 20 Step (PET_20_STEP) from section B.1.4. See also ftp://medical.nema.org/Medical/Dicom/Palettes/pet20step.dcm",
+      "property": [
+        {
+          "code": "label",
+          "valueString": "PET_20_STEP"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.1.5.5",
+      "display": "Spring",
+      "definition": "Spring (SPRING) from section B.1.5. See also ftp://medical.nema.org/Medical/Dicom/Palettes/spring.dcm",
+      "property": [
+        {
+          "code": "label",
+          "valueString": "SPRING"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.1.5.6",
+      "display": "Summer",
+      "definition": "Summer (SUMMER) from section B.1.6. See also ftp://medical.nema.org/Medical/Dicom/Palettes/summer.dcm",
+      "property": [
+        {
+          "code": "label",
+          "valueString": "SUMMER"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.1.5.7",
+      "display": "Fall",
+      "definition": "Fall (FALL) from section B.1.7. See also ftp://medical.nema.org/Medical/Dicom/Palettes/fall.dcm",
+      "property": [
+        {
+          "code": "label",
+          "valueString": "FALL"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.1.5.8",
+      "display": "Winter",
+      "definition": "Winter (WINTER) from section B.1.8. See also ftp://medical.nema.org/Medical/Dicom/Palettes/winter.dcm",
+      "property": [
+        {
+          "code": "label",
+          "valueString": "WINTER"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": true,
+  "experimental": false,
+  "property": [
+    {
+      "code": "label",
+      "description": "Label for the color",
+      "type": "string"
+    }
+  ],
+  "count": 8
+}

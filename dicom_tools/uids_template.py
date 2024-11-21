@@ -32,7 +32,7 @@ def writeTemplateUidsCodeSystem( fsh_path:str ) -> None:
         fsh_file.write('* ^property[=].description = "UID Type"\n')
         fsh_file.write('* ^property[=].type = #string\n')
         
-        fsh_file.write('* ^property[+].code = #Part\n')
+        fsh_file.write('* ^property[+].code = #part\n')
         fsh_file.write('* ^property[=].description = "Part"\n')
         fsh_file.write('* ^property[=].type = #string\n')
         
@@ -41,7 +41,7 @@ def writeTemplateUidsCodeSystem( fsh_path:str ) -> None:
         value_list = getContextGroupUidValues()
         for value in value_list:
             fsh_file.write(f'\n')
-            fsh_file.write(f'* #{value[0]} "{value[1]}" "{value[1]} with UID type {value[2]} from part {value[3]}"\n')
+            fsh_file.write(f'* #{value[0]} "{value[1]}" "{f'{value[1]} with UID type {value[2]} from part {value[3]}.strip()'}"\n')
             fsh_file.write(f'* #{value[0]} ^property[0].code = #type\n')
             fsh_file.write(f'* #{value[0]} ^property[0].valueString  = "{value[2]}"\n')
             fsh_file.write(f'* #{value[0]} ^property[1].code = #part\n')

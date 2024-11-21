@@ -14,7 +14,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * ^property[=].type = #boolean
 * ^property[+].code = #vr
 * ^property[=].description = "value representation"
-* ^property[=].type = #boolean
+* ^property[=].type = #string
 
 
 * #00020000 "File Meta Information Group Length" "File Meta Information Group Length"

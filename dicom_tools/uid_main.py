@@ -6,7 +6,8 @@ from dicom_spec_parser import get_dicom_table
 UID_TABLE_URL = 'https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_A.html#table_A-1'
 CODESYSTEM_NAME = 'DICOM_UIDs'
 CODESYSTEM_ID = 'dicom-uids'
-
+CODESYSTEM_TITLE = 'DICOM® Unique Identifiers'
+CODESYSTEM_DESCRIPTION = 'DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1.'
 def writeUidsCodeSystem( fsh_path:str ) -> None:
     # Write the code system for the data elements
     # This is a helper function for writeDataElements
@@ -19,8 +20,8 @@ def writeUidsCodeSystem( fsh_path:str ) -> None:
     with open(os.path.join(fsh_path, fsh_filename), 'w') as fsh_file:
         fsh_file.write(f'CodeSystem: {CODESYSTEM_NAME}\n')
         fsh_file.write(f'Id: {CODESYSTEM_ID}\n')
-        fsh_file.write(f'Title: "DICOM® Unique Identifiers"\n')
-        fsh_file.write(f'Description: "DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1."\n')
+        fsh_file.write(f'Title: "{CODESYSTEM_TITLE}"\n')
+        fsh_file.write(f'Description: "{CODESYSTEM_DESCRIPTION}"\n')
         # fsh_file.write('Copyright: "DICOM® is a registered trademark of the National Electrical Manufacturers Association for its standards publications relating to digital communications of medical information."\n\n')
         
         fsh_file.write('* ^caseSensitive = true\n')
@@ -47,15 +48,16 @@ def writeUidsCodeSystem( fsh_path:str ) -> None:
         
         value_list = getUidValues()
         for value in value_list:
-            fsh_file.write(f'\n')
-            fsh_file.write(f'* #{value[0]} "{value[1]}" "{value[1]}"\n')
-            fsh_file.write(f'* #{value[0]} ^property[0].code = #keyword\n')
-            fsh_file.write(f'* #{value[0]} ^property[0].valueString  = "{value[2]}"\n')
-            fsh_file.write(f'* #{value[0]} ^property[1].code = #type\n')
-            fsh_file.write(f'* #{value[0]} ^property[1].valueString = "{value[3]}"\n')
-            fsh_file.write(f'* #{value[0]} ^property[2].code = #part\n')
-            fsh_file.write(f'* #{value[0]} ^property[2].valueString = "{value[4]}"\n')
-                
+            if len(value[0])>0:
+                fsh_file.write(f'\n')
+                fsh_file.write(f'* #{value[0]} "{value[1]}" "{value[1]}"\n')
+                fsh_file.write(f'* #{value[0]} ^property[0].code = #keyword\n')
+                fsh_file.write(f'* #{value[0]} ^property[0].valueString  = "{value[2]}"\n')
+                fsh_file.write(f'* #{value[0]} ^property[1].code = #type\n')
+                fsh_file.write(f'* #{value[0]} ^property[1].valueString = "{value[3]}"\n')
+                fsh_file.write(f'* #{value[0]} ^property[2].code = #part\n')
+                fsh_file.write(f'* #{value[0]} ^property[2].valueString = "{value[4]}"\n')
+                    
 
 def getUidValues( ) -> List[List[str]]:
     table = get_dicom_table(UID_TABLE_URL)
@@ -73,7 +75,7 @@ def getUidValues( ) -> List[List[str]]:
                 element_fields[1].text.strip(),
                 element_fields[2].text.replace('â\x80\x8b', '').strip(),
                 element_fields[3].text.strip(),
-                element_fields[3].text.strip()
+                element_fields[4].text.strip()
             ])
     return values
 

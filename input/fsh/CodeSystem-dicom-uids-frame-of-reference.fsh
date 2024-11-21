@@ -1,7 +1,7 @@
 CodeSystem: DICOM_Frame_of_Reference_UIDs
 Id: dicom-uids-frame-of-reference
-Title: "DICOM® Unique Identifiers"
-Description: "DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1."
+Title: "DICOM® Well-known Frames of Reference"
+Description: "DICOM® Well-known Frames of Reference from DICOM PS3.6 Table A-2."
 * ^caseSensitive = true
 * ^content = #complete
 * ^experimental = false
