@@ -1,13 +1,5 @@
 [
   {
-    "outputFile": "CodeSystem-SMOMED.json",
-    "fshName": "SMOMED",
-    "fshType": "CodeSystem",
-    "fshFile": "CodeSystem-srt-code-system.fsh",
-    "startLine": 1,
-    "endLine": 1
-  },
-  {
     "outputFile": "CodeSystem-dicom-dcm-codesystem.json",
     "fshName": "DICOMDCMCodeSystem",
     "fshType": "CodeSystem",
@@ -45,7 +37,7 @@
     "fshType": "CodeSystem",
     "fshFile": "CodeSystem-dicom-uids-context-group.fsh",
     "startLine": 1,
-    "endLine": 8403
+    "endLine": 2871
   },
   {
     "outputFile": "CodeSystem-dicom-uids-frame-of-reference.json",
@@ -78,6 +70,22 @@
     "fshFile": "CodeSystem-dicom-vr-encodings.fsh",
     "startLine": 1,
     "endLine": 248
+  },
+  {
+    "outputFile": "CodeSystem-srt-code-system.json",
+    "fshName": "SnomedRtCodesFromDicomCodeSystem",
+    "fshType": "CodeSystem",
+    "fshFile": "CodeSystem-srt-code-system.fsh",
+    "startLine": 1,
+    "endLine": 7447
+  },
+  {
+    "outputFile": "ConceptMap-SRTtoSCTmapForDicom.json",
+    "fshName": "SRTtoSCTmapForDicom",
+    "fshType": "Instance",
+    "fshFile": "ConceptMap-srt-sct-concept-map.fsh",
+    "startLine": 1,
+    "endLine": 47096
   },
   {
     "outputFile": "ValueSet-dicom-data-elements.json",

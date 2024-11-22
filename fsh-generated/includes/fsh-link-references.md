@@ -1178,7 +1178,7 @@
 [SleepStage]: ValueSet-dicom-cid-3046.html
 [SMLSizeDescriptor]: ValueSet-dicom-cid-252.html
 [SmokingHistory]: ValueSet-dicom-cid-3724.html
-[SMOMED]: CodeSystem-SMOMED.html
+[SnomedRtCodesFromDicomCodeSystem]: CodeSystem-srt-code-system.html
 [SocialHistory]: ValueSet-dicom-cid-3774.html
 [SourceImagePurposeofReference]: ValueSet-dicom-cid-7202.html
 [SourceofCTDoseInformation]: ValueSet-dicom-cid-10021.html
@@ -1201,6 +1201,7 @@
 [SpeedofSoundCorrectionMechanisms]: ValueSet-dicom-cid-11004.html
 [SpinalCordFiber]: ValueSet-dicom-cid-7707.html
 [SRDocumentPurposeofReference]: ValueSet-dicom-cid-7006.html
+[SRTtoSCTmapForDicom]: ConceptMap-SRTtoSCTmapForDicom.html
 [StaffAction]: ValueSet-dicom-cid-3404.html
 [Stage]: ValueSet-dicom-cid-3778.html
 [StainingProtocol]: ValueSet-dicom-cid-8130.html

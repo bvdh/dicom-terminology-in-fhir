@@ -1,14 +1,15 @@
 Output File                                       Name                                Type        FSH File                                         Lines
-CodeSystem-SMOMED.json                            SMOMED                              CodeSystem  CodeSystem-srt-code-system.fsh                   1 - 1
 CodeSystem-dicom-dcm-codesystem.json              DICOMDCMCodeSystem                  CodeSystem  CodeSystem-dicom-dcm-codesystem.fsh              1 - 49583
 CodeSystem-dicom-elements.json                    DICOM_Elements                      CodeSystem  CodeSystem-dicom-elements.fsh                    1 - 41930
 CodeSystem-dicom-sop-classes-codesystem.json      DICOMSOPClassesCodeSystem           CodeSystem  CodeSystem-dicom-sop-classes-codesystem.fsh      1 - 177
 CodeSystem-dicom-uids-color-palletes.json         DICOM_Color_Palattes_UIDs           CodeSystem  CodeSystem-dicom-uids-color-palletes.fsh         1 - 44
-CodeSystem-dicom-uids-context-group.json          DICOM_Context_Group_UIDs            CodeSystem  CodeSystem-dicom-uids-context-group.fsh          1 - 8403
+CodeSystem-dicom-uids-context-group.json          DICOM_Context_Group_UIDs            CodeSystem  CodeSystem-dicom-uids-context-group.fsh          1 - 2871
 CodeSystem-dicom-uids-frame-of-reference.json     DICOM_Frame_of_Reference_UIDs       CodeSystem  CodeSystem-dicom-uids-frame-of-reference.fsh     1 - 125
 CodeSystem-dicom-uids-templates.json              DICOM_Template_UIDs                 CodeSystem  CodeSystem-dicom-uids-templates.fsh              1 - 159
 CodeSystem-dicom-uids.json                        DICOM_UIDs                          CodeSystem  CodeSystem-dicom-uids.fsh                        1 - 3709
 CodeSystem-dicom-vr-encodings.json                DICOMVRencodings                    CodeSystem  CodeSystem-dicom-vr-encodings.fsh                1 - 248
+CodeSystem-srt-code-system.json                   SnomedRtCodesFromDicomCodeSystem    CodeSystem  CodeSystem-srt-code-system.fsh                   1 - 7447
+ConceptMap-SRTtoSCTmapForDicom.json               SRTtoSCTmapForDicom                 Instance    ConceptMap-srt-sct-concept-map.fsh               1 - 47096
 ValueSet-dicom-data-elements.json                 DICOM_Data_Elements                 ValueSet    ValueSet-dicom-data-elements.fsh                 1 - 5205
 ValueSet-dicom-directory-structure-elements.json  DICOM_Directory_Structure_Elements  ValueSet    ValueSet-dicom-directory-structure-elements.fsh  1 - 27
 ValueSet-dicom-dynamic-rtp-payload-elements.json  DICOM_Dynamic_RTP_Payload_Elements  ValueSet    ValueSet-dicom-dynamic-rtp-payload-elements.fsh  1 - 9

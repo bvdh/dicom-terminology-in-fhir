@@ -42,12 +42,14 @@ def writeContextUidsCodeSystem( fsh_path:str ) -> None:
         for value in value_list:
             if len(value[0])>0:
                 fsh_file.write(f'\n')
-                fsh_file.write(f'* #{value[0]} "{value[2]}" "{f'{value[2]} with identifier {value[1]} { f'({value[3]})' if len(value[3])>0 else '' }'.strip()}"\n')
-                fsh_file.write(f'* #{value[0]} ^property[0].code = #identifier\n')
-                fsh_file.write(f'* #{value[0]} ^property[0].valueString  = "{value[1]}"\n')
-                fsh_file.write(f'* #{value[0]} ^property[1].code = #retired\n')
-                fsh_file.write(f'* #{value[0]} ^property[1].valueBoolean = {'true'if len(value[3])>0 else 'false' }\n')
-                    
+                if len(value[2])>0 and len(value[3])>0 :
+                    fsh_file.write(f'* #{value[0]} "{value[2]}" "{f'{value[2]} with identifier {value[1]} { f'({value[3]})' if len(value[3])>0 else '' }'.strip()}"\n')
+                    fsh_file.write(f'* #{value[0]} ^property[0].code = #identifier\n')
+                    fsh_file.write(f'* #{value[0]} ^property[0].valueString  = "{value[1]}"\n')
+                    fsh_file.write(f'* #{value[0]} ^property[1].code = #retired\n')
+                    fsh_file.write(f'* #{value[0]} ^property[1].valueBoolean = {'true'if len(value[3])>0 else 'false' }\n')
+                else:
+                    fsh_file.write(f'* #{value[0]} "-" "-"\n')
 
 def getContextGroupUidValues( ) -> List[List[str]]:
     table = get_dicom_table(CI_UID_TABLE_URL)

@@ -9507,9 +9507,10 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/SMOMED"
+          "reference": "CodeSystem/srt-code-system"
         },
-        "name": "SMOMED",
+        "name": "SMOMED RT Code System",
+        "description": "Codes from SNOMED RT used in DICOM",
         "isExample": false
       },
       {
@@ -9686,6 +9687,13 @@
         },
         "description": "Transitive closure of CID 7006 SRDocumentPurposeofReference",
         "name": "SRDocumentPurposeofReference",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/SRTtoSCTmapForDicom"
+        },
+        "name": "SRTtoSCTmapForDicom",
         "isExample": false
       },
       {
