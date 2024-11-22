@@ -1,0 +1,54 @@
+{
+    "resourceType": "ValueSet",
+    "id": "dicom-cid-9265",
+    "url": "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9265.html",
+    "identifier": [
+        {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.2.840.10008.6.1.1464"
+        }
+    ],
+    "version": "20221225",
+    "name": "PatientPositionAcquisitionProjectionTechniques",
+    "status": "active",
+    "experimental": false,
+    "date": "2024-11-14",
+    "publisher": "NEMA MITA DICOM",
+    "description": "Transitive closure of CID 9265 PatientPositionAcquisitionProjectionTechniques",
+    "copyright": "\u00a9 2024 NEMA",
+    "compose": {
+        "include": [
+            {
+                "system": "http://dicom.nema.org/resources/ontology/DCM",
+                "concept": [
+                    {
+                        "code": "130784",
+                        "display": "RT Patient Position Acquisition, Film Cassette kV"
+                    },
+                    {
+                        "code": "121702",
+                        "display": "RT Patient Position Acquisition, single plane MV"
+                    },
+                    {
+                        "code": "130783",
+                        "display": "RT Patient Position Acquisition, Film Cassette MV"
+                    },
+                    {
+                        "code": "130782",
+                        "display": "RT Patient Position Acquisition, Integrated Dose MV"
+                    },
+                    {
+                        "code": "121704",
+                        "display": "RT Patient Position Acquisition, single plane kV"
+                    }
+                ]
+            }
+        ]
+    },
+    "title": "PatientPositionAcquisitionProjectionTechniques",
+    "versionAlgorithmCoding": {
+        "system": "http://hl7.org/fhir/version-algorithm",
+        "code": "date",
+        "display": "Date"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "resourceType": "ValueSet",
+    "id": "dicom-cid-3407",
+    "url": "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3407.html",
+    "identifier": [
+        {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.2.840.10008.6.1.72"
+        }
+    ],
+    "version": "20030327",
+    "name": "ObjectReferencePurpose",
+    "status": "active",
+    "experimental": false,
+    "date": "2024-11-14",
+    "publisher": "NEMA MITA DICOM",
+    "description": "Transitive closure of CID 3407 ObjectReferencePurpose",
+    "copyright": "\u00a9 2024 NEMA",
+    "compose": {
+        "include": [
+            {
+                "system": "http://dicom.nema.org/resources/ontology/DCM",
+                "concept": [
+                    {
+                        "code": "122075",
+                        "display": "Prior report for current patient"
+                    },
+                    {
+                        "code": "122072",
+                        "display": "Pre-procedure log"
+                    },
+                    {
+                        "code": "122073",
+                        "display": "Analysis or measurements for current procedure"
+                    }
+                ]
+            }
+        ]
+    },
+    "title": "ObjectReferencePurpose",
+    "versionAlgorithmCoding": {
+        "system": "http://hl7.org/fhir/version-algorithm",
+        "code": "date",
+        "display": "Date"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "resourceType": "ValueSet",
+    "id": "dicom-cid-703",
+    "url": "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_703.html",
+    "identifier": [
+        {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.2.840.10008.6.1.1118"
+        }
+    ],
+    "version": "20160318",
+    "name": "AssessmentBasis",
+    "status": "active",
+    "experimental": false,
+    "date": "2024-11-14",
+    "publisher": "NEMA MITA DICOM",
+    "description": "Transitive closure of CID 703 AssessmentBasis",
+    "copyright": "\u00a9 2024 NEMA",
+    "compose": {
+        "include": [
+            {
+                "system": "http://dicom.nema.org/resources/ontology/DCM",
+                "concept": [
+                    {
+                        "code": "121376",
+                        "display": "Assessment By Rules"
+                    },
+                    {
+                        "code": "121375",
+                        "display": "Assessment By Comparison"
+                    }
+                ]
+            }
+        ]
+    },
+    "title": "AssessmentBasis",
+    "versionAlgorithmCoding": {
+        "system": "http://hl7.org/fhir/version-algorithm",
+        "code": "date",
+        "display": "Date"
+    }
+}

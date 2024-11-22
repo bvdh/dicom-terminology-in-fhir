@@ -1,0 +1,42 @@
+{
+    "resourceType": "ValueSet",
+    "id": "dicom-cid-3021",
+    "url": "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3021.html",
+    "identifier": [
+        {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.2.840.10008.6.1.1430"
+        }
+    ],
+    "version": "20211114",
+    "name": "CADRADS\u2122StenosisAssessmentModifier",
+    "status": "active",
+    "experimental": false,
+    "date": "2024-11-14",
+    "publisher": "NEMA MITA DICOM",
+    "description": "Transitive closure of CID 3021 CADRADS\u2122StenosisAssessmentModifier",
+    "copyright": "\u00a9 2024 NEMA",
+    "compose": {
+        "include": [
+            {
+                "system": "http://dicom.nema.org/resources/ontology/DCM",
+                "concept": [
+                    {
+                        "code": "130729",
+                        "display": "4B - Severe stenosis"
+                    },
+                    {
+                        "code": "130728",
+                        "display": "4A - Severe stenosis"
+                    }
+                ]
+            }
+        ]
+    },
+    "title": "CADRADS\u2122StenosisAssessmentModifier",
+    "versionAlgorithmCoding": {
+        "system": "http://hl7.org/fhir/version-algorithm",
+        "code": "date",
+        "display": "Date"
+    }
+}

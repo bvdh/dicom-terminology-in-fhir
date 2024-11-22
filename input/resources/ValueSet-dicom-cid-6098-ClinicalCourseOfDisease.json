@@ -1,0 +1,42 @@
+{
+    "resourceType": "ValueSet",
+    "id": "dicom-cid-6098",
+    "url": "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6098.html",
+    "identifier": [
+        {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.2.840.10008.6.1.1277"
+        }
+    ],
+    "version": "20190125",
+    "name": "ClinicalCourseofDisease",
+    "status": "active",
+    "experimental": false,
+    "date": "2024-11-14",
+    "publisher": "NEMA MITA DICOM",
+    "description": "Transitive closure of CID 6098 ClinicalCourseofDisease",
+    "copyright": "\u00a9 2024 NEMA",
+    "compose": {
+        "include": [
+            {
+                "system": "http://ncit.nci.nih.gov",
+                "concept": [
+                    {
+                        "code": "C40413",
+                        "display": "No Evidence of Disease"
+                    },
+                    {
+                        "code": "C38155",
+                        "display": "Recurrent Disease"
+                    }
+                ]
+            }
+        ]
+    },
+    "title": "ClinicalCourseofDisease",
+    "versionAlgorithmCoding": {
+        "system": "http://hl7.org/fhir/version-algorithm",
+        "code": "date",
+        "display": "Date"
+    }
+}

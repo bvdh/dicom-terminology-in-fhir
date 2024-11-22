@@ -1,0 +1,28 @@
+{
+    "resourceType": "ValueSet",
+    "id": "dicom-cid-3747",
+    "url": "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3747.html",
+    "identifier": [
+        {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.2.840.10008.6.1.244"
+        }
+    ],
+    "version": "20030327",
+    "name": "PercutaneousClosure",
+    "status": "active",
+    "experimental": false,
+    "date": "2024-11-14",
+    "publisher": "NEMA MITA DICOM",
+    "description": "Transitive closure of CID 3747 PercutaneousClosure",
+    "copyright": "\u00a9 2024 NEMA",
+    "compose": {
+        "include": []
+    },
+    "title": "PercutaneousClosure",
+    "versionAlgorithmCoding": {
+        "system": "http://hl7.org/fhir/version-algorithm",
+        "code": "date",
+        "display": "Date"
+    }
+}

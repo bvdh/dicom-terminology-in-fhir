@@ -1,0 +1,47 @@
+{
+    "resourceType": "ValueSet",
+    "id": "dicom-cid-4403",
+    "url": "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4403.html",
+    "identifier": [
+        {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.2.840.10008.6.1.1348"
+        }
+    ],
+    "version": "20201115",
+    "name": "HistoryofMelanomainSitu",
+    "status": "active",
+    "experimental": false,
+    "date": "2024-11-14",
+    "publisher": "NEMA MITA DICOM",
+    "description": "Transitive closure of CID 4403 HistoryofMelanomainSitu",
+    "copyright": "\u00a9 2024 NEMA",
+    "compose": {
+        "include": [
+            {
+                "system": "http://snomed.info/sct",
+                "concept": [
+                    {
+                        "code": "1251000119106",
+                        "display": "History of melanoma in situ of the skin"
+                    }
+                ]
+            },
+            {
+                "system": "http://snomed.info/srt",
+                "concept": [
+                    {
+                        "code": "R-FAC47",
+                        "display": "History of melanoma in situ of the skin"
+                    }
+                ]
+            }
+        ]
+    },
+    "title": "HistoryofMelanomainSitu",
+    "versionAlgorithmCoding": {
+        "system": "http://hl7.org/fhir/version-algorithm",
+        "code": "date",
+        "display": "Date"
+    }
+}

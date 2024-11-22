@@ -1,0 +1,58 @@
+{
+    "resourceType": "ValueSet",
+    "id": "dicom-cid-9266",
+    "url": "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9266.html",
+    "identifier": [
+        {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.2.840.10008.6.1.1465"
+        }
+    ],
+    "version": "20221225",
+    "name": "PatientPositionAcquisition\u2013CTTechniques",
+    "status": "active",
+    "experimental": false,
+    "date": "2024-11-14",
+    "publisher": "NEMA MITA DICOM",
+    "description": "Transitive closure of CID 9266 PatientPositionAcquisition\u2013CTTechniques",
+    "copyright": "\u00a9 2024 NEMA",
+    "compose": {
+        "include": [
+            {
+                "system": "http://dicom.nema.org/resources/ontology/DCM",
+                "concept": [
+                    {
+                        "code": "130788",
+                        "display": "RT Patient Position Acquisition, Conventional CT MV"
+                    },
+                    {
+                        "code": "130787",
+                        "display": "RT Patient Position Acquisition, Cone-Beam CT MV"
+                    },
+                    {
+                        "code": "130786",
+                        "display": "RT Patient Position Acquisition, Conventional CT kV"
+                    },
+                    {
+                        "code": "130785",
+                        "display": "RT Patient Position Acquisition, Cone-Beam CT kV"
+                    },
+                    {
+                        "code": "121707",
+                        "display": "RT Patient Position Acquisition, CT kV"
+                    },
+                    {
+                        "code": "121708",
+                        "display": "RT Patient Position Acquisition, CT MV"
+                    }
+                ]
+            }
+        ]
+    },
+    "title": "PatientPositionAcquisition\u2013CTTechniques",
+    "versionAlgorithmCoding": {
+        "system": "http://hl7.org/fhir/version-algorithm",
+        "code": "date",
+        "display": "Date"
+    }
+}

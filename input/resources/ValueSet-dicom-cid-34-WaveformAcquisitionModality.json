@@ -1,0 +1,66 @@
+{
+    "resourceType": "ValueSet",
+    "id": "dicom-cid-34",
+    "url": "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_34.html",
+    "identifier": [
+        {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.2.840.10008.6.1.1495"
+        }
+    ],
+    "version": "20240913",
+    "name": "WaveformAcquisitionModality",
+    "status": "active",
+    "experimental": false,
+    "date": "2024-11-14",
+    "publisher": "NEMA MITA DICOM",
+    "description": "Transitive closure of CID 34 WaveformAcquisitionModality",
+    "copyright": "\u00a9 2024 NEMA",
+    "compose": {
+        "include": [
+            {
+                "system": "http://dicom.nema.org/resources/ontology/DCM",
+                "concept": [
+                    {
+                        "code": "POS",
+                        "display": "Position Sensor"
+                    },
+                    {
+                        "code": "EPS",
+                        "display": "Cardiac Electrophysiology"
+                    },
+                    {
+                        "code": "ECG",
+                        "display": "Electrocardiography"
+                    },
+                    {
+                        "code": "EEG",
+                        "display": "Electroencephalography"
+                    },
+                    {
+                        "code": "EOG",
+                        "display": "Electrooculography"
+                    },
+                    {
+                        "code": "RESP",
+                        "display": "Respiratory"
+                    },
+                    {
+                        "code": "HD",
+                        "display": "Hemodynamic"
+                    },
+                    {
+                        "code": "EMG",
+                        "display": "Electromyography"
+                    }
+                ]
+            }
+        ]
+    },
+    "title": "WaveformAcquisitionModality",
+    "versionAlgorithmCoding": {
+        "system": "http://hl7.org/fhir/version-algorithm",
+        "code": "date",
+        "display": "Date"
+    }
+}
