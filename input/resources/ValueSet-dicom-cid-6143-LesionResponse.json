@@ -1,7 +1,7 @@
 {
     "resourceType": "ValueSet",
     "id": "dicom-cid-6143",
-    "url": "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6143.html",
+    "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6143",
     "identifier": [
         {
             "system": "urn:ietf:rfc:3986",

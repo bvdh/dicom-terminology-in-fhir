@@ -10,6 +10,13 @@
             "request": "launch",
             "program": "dicom_tools/createDicomFhirResources.py",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Python Debugger: export docbook",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "dicom_tools/parseDocbook.py",
+            "console": "integratedTerminal"
         }
     ]
 }

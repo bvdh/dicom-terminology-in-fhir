@@ -7,6 +7,7 @@ from pathlib import Path
 
 from data_elements import writeDataElementsCodeSystemAndValueSets
 from dcm import writeDcmCodeSystem
+from enumarated_fields import writeEnumeratedFields
 from snomed_srt_to_sct_mapping import snomedSrtToSctMapping
 from vr_table import writeVrCodeSystem
 from uids_color_templates import writeColorPalletesCodeSystem
@@ -28,8 +29,8 @@ def main(args=None):
     args = parser.parse_args()
     fsh_path = args.fsh_path or os.path.join(Path(__file__).parent.parent, 'input', 'fsh')
     resources_path = args.fsh_path or os.path.join(Path(__file__).parent.parent, 'input', 'resources')
-    
-    snomedSrtToSctMapping( srcDir=resources_path, fsh_path=fsh_path )
+
+    writeEnumeratedFields( fsh_path=fsh_path )    
     writeDcmCodeSystem( fsh_path=fsh_path )
     writeDataElementsCodeSystemAndValueSets( fsh_path=fsh_path )
     writeSopClassesCodeSystem( fsh_path=fsh_path )
@@ -40,6 +41,7 @@ def main(args=None):
     writeTemplateUidsCodeSystem( fsh_path=fsh_path )
     writeColorPalletesCodeSystem( fsh_path=fsh_path )
     downloadAllDicomValueSets( resources_path=resources_path )
+    snomedSrtToSctMapping( srcDir=resources_path, fsh_path=fsh_path )
 
 if __name__ == '__main__':
     main()

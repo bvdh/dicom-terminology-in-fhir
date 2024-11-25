@@ -34,9 +34,9 @@ def writeVrCodeSystem( fsh_path:str ) -> None:
         value_list = getValues()
         for value in value_list:
             fsh_file.write(f'* #{value[0]} "{value[2]}" \n')
-            fsh_file.write(f'    """\n')
-            fsh_file.write(f'    {value[1]}\n')
-            fsh_file.write(f'    """\n')
+            fsh_file.write(f'"""\n')
+            fsh_file.write(f'{value[1]}\n')
+            fsh_file.write(f'"""\n')
             fsh_file.write(f'\n')    
 
 def getValues( ) -> List[List[str]]:

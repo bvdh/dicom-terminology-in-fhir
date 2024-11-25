@@ -35,6 +35,9 @@ Running _genonce.sh will compile to shorthand to FHIR resources and run the FHIR
   * feedback on design choice of having one CodeSystem for all tags and ValueSets for the parts; should we represent them in the CodeSystem as well?
   * feedback on the choice of CodeSystem properties
   * versioning approach of the artifacts - how to represent DICOM release and version of the artifact within the release.
+  * what url to use for the resources
+  * what copyright statement to attach
+  * things like author etc.
 
 * DICOM Value Set issues
   * the dicom valuesets urls (also DCM) point to an URL that does not resolve the ValueSet

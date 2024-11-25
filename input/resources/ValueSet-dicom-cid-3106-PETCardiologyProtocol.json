@@ -1,7 +1,7 @@
 {
     "resourceType": "ValueSet",
     "id": "dicom-cid-3106",
-    "url": "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3106.html",
+    "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3106",
     "identifier": [
         {
             "system": "urn:ietf:rfc:3986",

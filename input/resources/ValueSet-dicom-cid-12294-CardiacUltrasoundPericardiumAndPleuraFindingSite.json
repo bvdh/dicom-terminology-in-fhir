@@ -1,7 +1,7 @@
 {
     "resourceType": "ValueSet",
     "id": "dicom-cid-12294",
-    "url": "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12294.html",
+    "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12294",
     "identifier": [
         {
             "system": "urn:ietf:rfc:3986",

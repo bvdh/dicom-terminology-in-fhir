@@ -33,6 +33,9 @@ def downloadAllDicomValueSets(  resources_path: str ) -> None:
         jsonVs['title'] = jsonVs['name']
         jsonVs['versionAlgorithmCoding'] = {'system':'http://hl7.org/fhir/version-algorithm', 'code':'date', 'display': 'Date'}
         
+        # replace url
+        jsonVs['url'] = f'http://hl7.org/fhir/uv/dicom-terminology/ValueSet/{newId}'
+ 
         filename = f'{resources_path}/{file}'
         with open(filename, 'wb') as f:
             print(f'Downloading {filename}')
