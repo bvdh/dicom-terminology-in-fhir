@@ -8,14 +8,14 @@
             "value": "urn:oid:1.2.840.10008.6.1.70"
         }
     ],
-    "version": "20190817",
+    "version": "20250401",
     "name": "ProcedureActionValue",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 3405 ProcedureActionValue",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -123,16 +123,16 @@
                         "display": "Transcatheter deployment of detachable balloon"
                     },
                     {
+                        "code": "1296925008",
+                        "display": "Stent placement"
+                    },
+                    {
                         "code": "128955008",
                         "display": "Cardiac catheterization baseline phase"
                     },
                     {
                         "code": "433236007",
                         "display": "Transthoracic echocardiography"
-                    },
-                    {
-                        "code": "103716009",
-                        "display": "Stent placement"
                     },
                     {
                         "code": "252426003",
@@ -254,10 +254,6 @@
                     {
                         "code": "P5-3003F",
                         "display": "Right Ventriculography"
-                    },
-                    {
-                        "code": "P1-05550",
-                        "display": "Stent placement"
                     },
                     {
                         "code": "P0-05AFA",

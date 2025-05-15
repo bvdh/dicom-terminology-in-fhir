@@ -12,10 +12,10 @@
     "name": "BodySurfaceAreaEquation",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 3663 BodySurfaceAreaEquation",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -43,7 +43,7 @@
                     },
                     {
                         "code": "122243",
-                        "display": "BSA = 0.024265*WT^0.5378*HTcm^0.3964"
+                        "display": "BSA = 0.024265*WT^0.5378*HT^0.3964"
                     },
                     {
                         "code": "122244",
@@ -59,7 +59,7 @@
                     },
                     {
                         "code": "122242",
-                        "display": "BSA = 0.0235*WT^0.51456*HTcm^0.42246"
+                        "display": "BSA = 0.0235*WT^0.51456*HT^0.42246"
                     },
                     {
                         "code": "122240",

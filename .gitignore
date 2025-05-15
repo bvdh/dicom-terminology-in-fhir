@@ -1,8 +1,19 @@
+# Mac
+*.DS_STORE
 
-/input-cache
-/temp
-/template
-# /fsh-generated
-# /input/resources
-/output
-/dicom.nema.org
+# python
+env/
+
+# mkdocs
+site/
+
+.idea/
+
+# FHIR publisher 
+input-cache/
+temp/
+fsh-generated/
+template/
+output/
+dicom.nema.org/
+

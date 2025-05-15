@@ -12,10 +12,10 @@
     "name": "PerfusionAnalysisMethod",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 4105 PerfusionAnalysisMethod",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -23,11 +23,11 @@
                 "concept": [
                     {
                         "code": "126310",
-                        "display": "Least Mean Square (LMS) deconvolution"
+                        "display": "Least Mean Square deconvolution"
                     },
                     {
                         "code": "126311",
-                        "display": "Singular Value Decomposition (SVD) deconvolution"
+                        "display": "Singular Value Decomposition deconvolution"
                     }
                 ]
             }

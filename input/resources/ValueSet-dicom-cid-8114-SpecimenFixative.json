@@ -8,16 +8,25 @@
             "value": "urn:oid:1.2.840.10008.6.1.1052"
         }
     ],
-    "version": "20190124",
+    "version": "20250122",
     "name": "SpecimenFixative",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 8114 SpecimenFixative",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
+            {
+                "system": "http://ncit.nci.nih.gov",
+                "concept": [
+                    {
+                        "code": "C185113",
+                        "display": "PAXgene Tissue System"
+                    }
+                ]
+            },
             {
                 "system": "http://snomed.info/sct",
                 "concept": [

@@ -8,19 +8,23 @@
             "value": "urn:oid:1.2.840.10008.6.1.258"
         }
     ],
-    "version": "20240611",
+    "version": "20250401",
     "name": "ConcernType",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 3769 ConcernType",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
                 "system": "http://snomed.info/sct",
                 "concept": [
+                    {
+                        "code": "423690003",
+                        "display": "Functional performance and activity"
+                    },
                     {
                         "code": "55607006",
                         "display": "Problem"
@@ -36,10 +40,6 @@
                     {
                         "code": "64572001",
                         "display": "Disease"
-                    },
-                    {
-                        "code": "248536006",
-                        "display": "Functional performance and activity"
                     },
                     {
                         "code": "404684003",
@@ -63,7 +63,7 @@
                         "display": "Problem"
                     },
                     {
-                        "code": "F-03E55",
+                        "code": "F-04E56",
                         "display": "Functional performance and activity"
                     },
                     {

@@ -8,14 +8,14 @@
             "value": "urn:oid:1.2.840.10008.6.1.7"
         }
     ],
-    "version": "20240611",
+    "version": "20250401",
     "name": "ImageGuidedTherapeuticProcedure",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 9 ImageGuidedTherapeuticProcedure",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -38,12 +38,16 @@
                         "display": "Amniocentesis"
                     },
                     {
+                        "code": "265633004",
+                        "display": "Selective destruction of fetus"
+                    },
+                    {
                         "code": "240946003",
                         "display": "Percutaneous removal of intravascular foreign body"
                     },
                     {
-                        "code": "133874006",
-                        "display": "Fetocide (selective reduction)"
+                        "code": "1269276008",
+                        "display": "Amnioinfusion"
                     },
                     {
                         "code": "105373008",
@@ -82,7 +86,7 @@
                         "display": "Breech Version [Obstetrical Version]"
                     },
                     {
-                        "code": "103716009",
+                        "code": "1296925008",
                         "display": "Stent placement"
                     },
                     {
@@ -92,10 +96,6 @@
                     {
                         "code": "65659003",
                         "display": "Atherectomy by rotary cutter"
-                    },
-                    {
-                        "code": "15415002",
-                        "display": "Amnioinfusion [injection of amnion]"
                     },
                     {
                         "code": "67889009",
@@ -171,10 +171,6 @@
                         "display": "Selective embolization of artery"
                     },
                     {
-                        "code": "P1-86C50",
-                        "display": "Fetocide (selective reduction)"
-                    },
-                    {
                         "code": "P1-03176",
                         "display": "Removal of foreign body"
                     },
@@ -195,10 +191,6 @@
                         "display": "Transcatheter therapy for embolization"
                     },
                     {
-                        "code": "P1-05550",
-                        "display": "Stent placement"
-                    },
-                    {
                         "code": "P0-05AFA",
                         "display": "Percutaneous removal of intravascular foreign body"
                     },
@@ -207,8 +199,8 @@
                         "display": "Failed attempted procedure"
                     },
                     {
-                        "code": "P1-86520",
-                        "display": "Amnioinfusion [injection of amnion]"
+                        "code": "P0-00843",
+                        "display": "Selective destruction of fetus"
                     },
                     {
                         "code": "P1-86E70",

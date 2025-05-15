@@ -8,14 +8,14 @@
             "value": "urn:oid:1.2.840.10008.6.1.2"
         }
     ],
-    "version": "20220922",
+    "version": "20250401",
     "name": "AnatomicRegion",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 4 AnatomicRegion",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -638,7 +638,7 @@
                         "display": "Shoulder"
                     },
                     {
-                        "code": "118375008",
+                        "code": "312288001",
                         "display": "Vascular graft"
                     },
                     {
@@ -1923,6 +1923,10 @@
                         "display": "Renal artery"
                     },
                     {
+                        "code": "T-D000F",
+                        "display": "Vascular graft"
+                    },
+                    {
                         "code": "T-45520",
                         "display": "Circle of Willis"
                     },
@@ -2381,10 +2385,6 @@
                     {
                         "code": "T-D14AE",
                         "display": "Orbital structure"
-                    },
-                    {
-                        "code": "A-04140",
-                        "display": "Vascular graft"
                     },
                     {
                         "code": "T-12710",

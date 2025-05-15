@@ -8,14 +8,14 @@
             "value": "urn:oid:1.2.840.10008.6.1.1104"
         }
     ],
-    "version": "20230630",
+    "version": "20250401",
     "name": "TumorGraftHistologicType",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 639 TumorGraftHistologicType",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -92,10 +92,6 @@
                         "display": "Cancer of cervix"
                     },
                     {
-                        "code": "255046005",
-                        "display": "Neuroendocrine tumor"
-                    },
-                    {
                         "code": "93880001",
                         "display": "Lung cancer"
                     },
@@ -170,6 +166,10 @@
                     {
                         "code": "254938000",
                         "display": "Astrocytoma"
+                    },
+                    {
+                        "code": "1290125003",
+                        "display": "Malignant neuroendocrine tumor"
                     },
                     {
                         "code": "1187332001",
@@ -387,10 +387,6 @@
                     {
                         "code": "M-88103",
                         "display": "Fibrosarcoma"
-                    },
-                    {
-                        "code": "DF-004BC",
-                        "display": "Neuroendocrine tumor"
                     },
                     {
                         "code": "M-80463",

@@ -12,10 +12,10 @@
     "name": "mpMRIAssessmentValue",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 6335 mpMRIAssessmentValue",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -32,6 +32,14 @@
                     {
                         "code": "130593",
                         "display": "Partially encapsulated"
+                    },
+                    {
+                        "code": "130592",
+                        "display": "Non-focal abnormality"
+                    },
+                    {
+                        "code": "130591",
+                        "display": "Focal abnormality"
                     },
                     {
                         "code": "130597",
@@ -62,10 +70,6 @@
                         "display": "Lobulated"
                     },
                     {
-                        "code": "Focal abnormality",
-                        "display": "Focal abnormality"
-                    },
-                    {
                         "code": "130601",
                         "display": "Negative DCE"
                     },
@@ -88,10 +92,6 @@
                     {
                         "code": "112160",
                         "display": "Homogeneous"
-                    },
-                    {
-                        "code": "Non-focal abnormality",
-                        "display": "Non-focal abnormality"
                     }
                 ]
             },

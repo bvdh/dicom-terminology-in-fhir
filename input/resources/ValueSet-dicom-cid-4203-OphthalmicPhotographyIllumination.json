@@ -8,14 +8,14 @@
             "value": "urn:oid:1.2.840.10008.6.1.319"
         }
     ],
-    "version": "20100607",
+    "version": "20250122",
     "name": "OphthalmicPhotographyIllumination",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 4203 OphthalmicPhotographyIllumination",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -71,6 +71,10 @@
                         "display": "Indirect sclerotic scatter illumination"
                     },
                     {
+                        "code": "118340008",
+                        "display": "Pulsed laser beam"
+                    },
+                    {
                         "code": "410467002",
                         "display": "Indirect iris transillumination"
                     }
@@ -86,6 +90,10 @@
                     {
                         "code": "R-10215",
                         "display": "Indirect retroillumination from the iris"
+                    },
+                    {
+                        "code": "A-810B1",
+                        "display": "Pulsed laser beam"
                     },
                     {
                         "code": "R-10218",

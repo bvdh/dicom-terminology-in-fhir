@@ -8,38 +8,38 @@
             "value": "urn:oid:1.2.840.10008.6.1.778"
         }
     ],
-    "version": "20091021",
+    "version": "20250401",
     "name": "STSegmentLocation",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 3232 STSegmentLocation",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
                 "system": "http://snomed.info/sct",
                 "concept": [
                     {
-                        "code": "284358004",
-                        "display": "Left ventricle lateral segment"
+                        "code": "367598003",
+                        "display": "Left ventricle inferior segment"
                     },
                     {
-                        "code": "284357009",
-                        "display": "Left ventricle inferior segment"
+                        "code": "1335839000",
+                        "display": "Left ventricle anterior segment"
                     },
                     {
                         "code": "128564006",
                         "display": "Left ventricle apical segment"
                     },
                     {
-                        "code": "284356000",
+                        "code": "1335840003",
                         "display": "Left ventricle septal segment"
                     },
                     {
-                        "code": "284355001",
-                        "display": "Left ventricle anterior segment"
+                        "code": "1335824001",
+                        "display": "Left ventricle lateral segment"
                     }
                 ]
             },
@@ -47,24 +47,12 @@
                 "system": "http://snomed.info/srt",
                 "concept": [
                     {
-                        "code": "T-3260B",
-                        "display": "Left ventricle septal segment"
+                        "code": "T-32638",
+                        "display": "Left ventricle inferior segment"
                     },
                     {
                         "code": "T-32602",
                         "display": "Left ventricle apical segment"
-                    },
-                    {
-                        "code": "T-3260A",
-                        "display": "Left ventricle anterior segment"
-                    },
-                    {
-                        "code": "T-3260D",
-                        "display": "Left ventricle lateral segment"
-                    },
-                    {
-                        "code": "T-3260C",
-                        "display": "Left ventricle inferior segment"
                     }
                 ]
             }

@@ -12,10 +12,10 @@
     "name": "QTCorrectionAlgorithm",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 3678 QTCorrectionAlgorithm",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -27,7 +27,7 @@
                     },
                     {
                         "code": "122731",
-                        "display": "Hodges QT Correction Algorithm"
+                        "display": "Hodges QTc Algorithm"
                     },
                     {
                         "code": "122732",
@@ -35,7 +35,7 @@
                     },
                     {
                         "code": "122730",
-                        "display": "Bazett QT Correction Algorithm"
+                        "display": "Bazett QTc Algorithm"
                     }
                 ]
             }

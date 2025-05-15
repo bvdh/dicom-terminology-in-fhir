@@ -8,14 +8,14 @@
             "value": "urn:oid:1.2.840.10008.6.1.318"
         }
     ],
-    "version": "20100607",
+    "version": "20250127",
     "name": "OphthalmicPhotographyAcquisitionDevice",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 4202 OphthalmicPhotographyAcquisitionDevice",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -60,6 +60,10 @@
                     {
                         "code": "409901008",
                         "display": "Indirect Ophthalmoscope"
+                    },
+                    {
+                        "code": "1362124004",
+                        "display": "FLIO"
                     },
                     {
                         "code": "102321001",

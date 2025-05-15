@@ -12,10 +12,10 @@
     "name": "QuantitativeMethodUsedforPerfusionandTracerKineticModel",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 4106 QuantitativeMethodUsedforPerfusionandTracerKineticModel",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -35,11 +35,11 @@
                     },
                     {
                         "code": "126310",
-                        "display": "Least Mean Square (LMS) deconvolution"
+                        "display": "Least Mean Square deconvolution"
                     },
                     {
                         "code": "126311",
-                        "display": "Singular Value Decomposition (SVD) deconvolution"
+                        "display": "Singular Value Decomposition deconvolution"
                     },
                     {
                         "code": "126370",
@@ -79,11 +79,11 @@
                     },
                     {
                         "code": "126343",
-                        "display": "First Pass Leakage Profile (FPLP) Model"
+                        "display": "First Pass Leakage Profile Model"
                     },
                     {
                         "code": "126344",
-                        "display": "Shutter-Speed Model (SSM)"
+                        "display": "Shutter-Speed Model"
                     },
                     {
                         "code": "126300",
@@ -91,7 +91,7 @@
                     },
                     {
                         "code": "126345",
-                        "display": "Gamma Capillary Transit Time (GCTT) Model"
+                        "display": "Gamma Capillary Transit Time Model"
                     },
                     {
                         "code": "126301",
@@ -99,7 +99,7 @@
                     },
                     {
                         "code": "126346",
-                        "display": "Adiabatic Tissue Homogeneity (ATH) Model"
+                        "display": "Adiabatic Tissue Homogeneity Model"
                     },
                     {
                         "code": "126302",
@@ -107,7 +107,7 @@
                     },
                     {
                         "code": "126347",
-                        "display": "Two Compartment Exchange (2CX) Model"
+                        "display": "Two Compartment Exchange Model"
                     },
                     {
                         "code": "126303",

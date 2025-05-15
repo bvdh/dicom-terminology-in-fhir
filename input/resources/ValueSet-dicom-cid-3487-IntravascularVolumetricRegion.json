@@ -12,10 +12,10 @@
     "name": "IntravascularVolumetricRegion",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 3487 IntravascularVolumetricRegion",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -27,7 +27,7 @@
                     },
                     {
                         "code": "122384",
-                        "display": "Entire Pullback"
+                        "display": "Stented Region"
                     },
                     {
                         "code": "122385",
@@ -35,7 +35,7 @@
                     },
                     {
                         "code": "122383",
-                        "display": "Stented Region"
+                        "display": "Entire Pullback"
                     }
                 ]
             },

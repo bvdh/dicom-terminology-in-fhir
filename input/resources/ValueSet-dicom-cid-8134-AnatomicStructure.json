@@ -12,10 +12,10 @@
     "name": "AnatomicStructure",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 8134 AnatomicStructure",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -985,6 +985,10 @@
                     {
                         "code": "73959003",
                         "display": "C5/C6 disc"
+                    },
+                    {
+                        "code": "312288001",
+                        "display": "Vascular graft"
                     },
                     {
                         "code": "59752008",
@@ -4759,10 +4763,6 @@
                         "display": "Skin of intertragal incisure"
                     },
                     {
-                        "code": "118375008",
-                        "display": "Vascular graft"
-                    },
-                    {
                         "code": "128593006",
                         "display": "Mid right atrium"
                     },
@@ -7808,10 +7808,6 @@
                         "display": "Congenital coronary artery fistula to right ventricle"
                     },
                     {
-                        "code": "A-04140",
-                        "display": "Vascular graft"
-                    },
-                    {
                         "code": "T-11620",
                         "display": "C2 vertebra"
                     },
@@ -9578,6 +9574,10 @@
                     {
                         "code": "T-D0010",
                         "display": "Entire body"
+                    },
+                    {
+                        "code": "T-D000F",
+                        "display": "Vascular graft"
                     },
                     {
                         "code": "T-46970",

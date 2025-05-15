@@ -8,14 +8,14 @@
             "value": "urn:oid:1.2.840.10008.6.1.617"
         }
     ],
-    "version": "20240920",
+    "version": "20250405",
     "name": "EchocardiographyImageView",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 12226 EchocardiographyImageView",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -34,6 +34,10 @@
                         "display": "Aortic arch view"
                     },
                     {
+                        "code": "131104",
+                        "display": "Mid-esophageal 135 degree TEE"
+                    },
+                    {
                         "code": "131028",
                         "display": "Left ventricular outflow tract view"
                     },
@@ -46,16 +50,32 @@
                         "display": "Oblique short axis view at ductus arteriosus"
                     },
                     {
+                        "code": "131100",
+                        "display": "Mid-esophageal 0 degree TEE"
+                    },
+                    {
                         "code": "131024",
                         "display": "Short axis view at pulmonary artery level"
+                    },
+                    {
+                        "code": "131101",
+                        "display": "Mid-esophageal 45 degree TEE"
                     },
                     {
                         "code": "131025",
                         "display": "Three vessel view"
                     },
                     {
+                        "code": "131102",
+                        "display": "Mid-esophageal 60 degree TEE"
+                    },
+                    {
                         "code": "131026",
                         "display": "Three vessel and trachea view"
+                    },
+                    {
+                        "code": "131103",
+                        "display": "Mid-esophageal 90 degree TEE"
                     }
                 ]
             },

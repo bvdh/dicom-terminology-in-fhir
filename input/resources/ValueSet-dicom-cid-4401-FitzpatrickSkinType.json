@@ -8,22 +8,22 @@
             "value": "urn:oid:1.2.840.10008.6.1.1346"
         }
     ],
-    "version": "20201115",
+    "version": "20250122",
     "name": "FitzpatrickSkinType",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 4401 FitzpatrickSkinType",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
-                "system": "http://loinc.org",
+                "system": "http://ncit.nci.nih.gov",
                 "concept": [
                     {
-                        "code": "C74574",
-                        "display": "Fitzpatrick Skin Type VI"
+                        "code": "C74569",
+                        "display": "Fitzpatrick Skin Type I"
                     },
                     {
                         "code": "C74570",
@@ -42,8 +42,8 @@
                         "display": "Fitzpatrick Skin Type V"
                     },
                     {
-                        "code": "C74569",
-                        "display": "Fitzpatrick Skin Type I"
+                        "code": "C74574",
+                        "display": "Fitzpatrick Skin Type VI"
                     }
                 ]
             }

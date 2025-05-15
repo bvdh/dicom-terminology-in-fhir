@@ -12,10 +12,10 @@
     "name": "TestPatternCode",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 8301 TestPatternCode",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -251,7 +251,7 @@
                     },
                     {
                         "code": "109932",
-                        "display": "DIN Grayscale Pattern"
+                        "display": "DIN Geometry Pattern"
                     },
                     {
                         "code": "109814",
@@ -267,7 +267,7 @@
                     },
                     {
                         "code": "109931",
-                        "display": "DIN Geometry Pattern"
+                        "display": "DIN Grayscale Pattern"
                     },
                     {
                         "code": "109827",

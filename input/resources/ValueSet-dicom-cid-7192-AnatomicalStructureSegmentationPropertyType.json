@@ -12,10 +12,10 @@
     "name": "AnatomicalStructureSegmentationPropertyType",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 7192 AnatomicalStructureSegmentationPropertyType",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -787,6 +787,10 @@
                     {
                         "code": "414723005",
                         "display": "Middle Cerebral Artery M2 Segment"
+                    },
+                    {
+                        "code": "312288001",
+                        "display": "Vascular graft"
                     },
                     {
                         "code": "6229007",
@@ -2315,10 +2319,6 @@
                     {
                         "code": "88454005",
                         "display": "Transversus thoracis"
-                    },
-                    {
-                        "code": "118375008",
-                        "display": "Vascular graft"
                     },
                     {
                         "code": "33060004",
@@ -5274,6 +5274,10 @@
                         "display": "Right posterior AV Coronary Artery"
                     },
                     {
+                        "code": "T-D000F",
+                        "display": "Vascular graft"
+                    },
+                    {
                         "code": "T-1166B",
                         "display": "C6/C7 disc"
                     },
@@ -5692,10 +5696,6 @@
                     {
                         "code": "D4-32510",
                         "display": "Congenital coronary artery fistula to right ventricle"
-                    },
-                    {
-                        "code": "A-04140",
-                        "display": "Vascular graft"
                     },
                     {
                         "code": "T-11620",

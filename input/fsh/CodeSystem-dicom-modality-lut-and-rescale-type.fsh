@@ -7,7 +7,7 @@ Description: "DICOM® Modality LUT and Rescale Type extracted from DICOM PS3.3 T
 * ^experimental = false
 
 
-* #OD "The number in the LUT represents thousands of optical density. That is, a value of 2140 represents an optical density of 2.140."
+* #OD "The number in the LUT represents thousands of optical density. That is, a Value of 2140 represents an optical density of 2.140."
 * #HU "Hounsfield Units (CT)"
 * #US "Unspecified"
 * #MGML "mg/ml"

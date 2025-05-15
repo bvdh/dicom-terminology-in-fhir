@@ -60,8 +60,8 @@ def writeDataElementsCodeSystemAndValueSets( fsh_path:str ) -> None:
         fsh_file.write('* ^content = #complete\n')
         fsh_file.write('* ^experimental = false\n\n')
         
-        fsh_file.write('* ^property[+].code = #keyword\n')
-        fsh_file.write('* ^property[=].description = "keyword for the tag"\n')
+        fsh_file.write('* ^property[+].code = #tag\n')
+        fsh_file.write('* ^property[=].description = "tag"\n')
         fsh_file.write('* ^property[=].type = #string\n')
         fsh_file.write('* ^property[+].code = #retired\n')
         fsh_file.write('* ^property[=].description = "true when the concept is retired"\n')
@@ -74,15 +74,15 @@ def writeDataElementsCodeSystemAndValueSets( fsh_path:str ) -> None:
         
         # value_list = getDataElementsFromDicomTable()
         for value in all_value_list:
-            if ( len(value[0]) > 0 ):
+            if ( len(value[2]) > 0 ):
                 fsh_file.write(f'\n')
-                fsh_file.write(f'* #{value[0]} "{value[1]}" "{value[1]}"\n')
-                fsh_file.write(f'* #{value[0]} ^property[0].code = #keyword\n')
-                fsh_file.write(f'* #{value[0]} ^property[0].valueString  = "{value[2]}"\n')
-                fsh_file.write(f'* #{value[0]} ^property[1].code = #vr\n')
-                fsh_file.write(f'* #{value[0]} ^property[1].valueString = "{value[3]}"\n')
-                fsh_file.write(f'* #{value[0]} ^property[2].code = #retired\n')
-                fsh_file.write(f'* #{value[0]} ^property[2].valueBoolean = {value[5]}\n')
+                fsh_file.write(f'* #{value[2]} "{value[1]}" "{value[1]}"\n')
+                fsh_file.write(f'* #{value[2]} ^property[0].code = #tag\n')
+                fsh_file.write(f'* #{value[2]} ^property[0].valueString  = "{value[0]}"\n')
+                fsh_file.write(f'* #{value[2]} ^property[1].code = #vr\n')
+                fsh_file.write(f'* #{value[2]} ^property[1].valueString = "{value[3]}"\n')
+                fsh_file.write(f'* #{value[2]} ^property[2].code = #retired\n')
+                fsh_file.write(f'* #{value[2]} ^property[2].valueBoolean = {value[5]}\n')
                 
 def writeDataElementsValueSet( fsh_path:str, source, value_list:List[List[str]] ) -> None:
     fsh_filename = f'ValueSet-{source['id']}.fsh'
@@ -99,7 +99,8 @@ def writeDataElementsValueSet( fsh_path:str, source, value_list:List[List[str]] 
         fsh_file.write('* ^experimental = false\n\n')
         
         for value in value_list:
-            fsh_file.write(f'* {CODESYSTEM_NAME}#{value[0]} "{value[1]}"\n')
+            if ( len(value[2]) > 0 ): 
+                fsh_file.write(f'* {CODESYSTEM_NAME}#{value[2]} "{value[1]}"\n')
      
 
 def getDataElementsFromDicomTable( url ) -> List[List[str]]:

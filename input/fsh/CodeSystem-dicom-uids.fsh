@@ -516,6 +516,14 @@ Description: "DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1."
 * #1.2.840.10008.1.2.7.3 ^property[2].code = #part
 * #1.2.840.10008.1.2.7.3 ^property[2].valueString = "PS3.5"
 
+* #1.2.840.10008.1.2.8.1 "Deflated Image Frame Compression" "Deflated Image Frame Compression"
+* #1.2.840.10008.1.2.8.1 ^property[0].code = #keyword
+* #1.2.840.10008.1.2.8.1 ^property[0].valueString  = "DeflatedImageFrameCompression"
+* #1.2.840.10008.1.2.8.1 ^property[1].code = #type
+* #1.2.840.10008.1.2.8.1 ^property[1].valueString = "Transfer Syntax"
+* #1.2.840.10008.1.2.8.1 ^property[2].code = #part
+* #1.2.840.10008.1.2.8.1 ^property[2].valueString = "PS3.5"
+
 * #1.2.840.10008.1.3.10 "Media Storage Directory Storage" "Media Storage Directory Storage"
 * #1.2.840.10008.1.3.10 ^property[0].code = #keyword
 * #1.2.840.10008.1.3.10 ^property[0].valueString  = "MediaStorageDirectoryStorage"
@@ -1507,6 +1515,22 @@ Description: "DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1."
 * #1.2.840.10008.5.1.4.1.1.9.8.1 ^property[1].valueString = "SOP Class"
 * #1.2.840.10008.5.1.4.1.1.9.8.1 ^property[2].code = #part
 * #1.2.840.10008.5.1.4.1.1.9.8.1 ^property[2].valueString = "PS3.4"
+
+* #1.2.840.10008.5.1.4.1.1.9.100.1 "Waveform Presentation State Storage" "Waveform Presentation State Storage"
+* #1.2.840.10008.5.1.4.1.1.9.100.1 ^property[0].code = #keyword
+* #1.2.840.10008.5.1.4.1.1.9.100.1 ^property[0].valueString  = "WaveformPresentationStateStorage"
+* #1.2.840.10008.5.1.4.1.1.9.100.1 ^property[1].code = #type
+* #1.2.840.10008.5.1.4.1.1.9.100.1 ^property[1].valueString = "SOP Class"
+* #1.2.840.10008.5.1.4.1.1.9.100.1 ^property[2].code = #part
+* #1.2.840.10008.5.1.4.1.1.9.100.1 ^property[2].valueString = "PS3.4"
+
+* #1.2.840.10008.5.1.4.1.1.9.100.2 "Waveform Acquisition Presentation State Storage" "Waveform Acquisition Presentation State Storage"
+* #1.2.840.10008.5.1.4.1.1.9.100.2 ^property[0].code = #keyword
+* #1.2.840.10008.5.1.4.1.1.9.100.2 ^property[0].valueString  = "WaveformAcquisitionPresentationStateStorage"
+* #1.2.840.10008.5.1.4.1.1.9.100.2 ^property[1].code = #type
+* #1.2.840.10008.5.1.4.1.1.9.100.2 ^property[1].valueString = "SOP Class"
+* #1.2.840.10008.5.1.4.1.1.9.100.2 ^property[2].code = #part
+* #1.2.840.10008.5.1.4.1.1.9.100.2 ^property[2].valueString = "PS3.4"
 
 * #1.2.840.10008.5.1.4.1.1.10 "Standalone Modality LUT Storage (Retired)" "Standalone Modality LUT Storage (Retired)"
 * #1.2.840.10008.5.1.4.1.1.10 ^property[0].code = #keyword
@@ -2803,6 +2827,14 @@ Description: "DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1."
 * #1.2.840.10008.5.1.4.1.1.601.4 ^property[1].valueString = "SOP Class"
 * #1.2.840.10008.5.1.4.1.1.601.4 ^property[2].code = #part
 * #1.2.840.10008.5.1.4.1.1.601.4 ^property[2].valueString = "DICONDE ASTM E3440"
+
+* #1.2.840.10008.5.1.4.1.1.601.5 "Ultrasound Waveform Storage" "Ultrasound Waveform Storage"
+* #1.2.840.10008.5.1.4.1.1.601.5 ^property[0].code = #keyword
+* #1.2.840.10008.5.1.4.1.1.601.5 ^property[0].valueString  = "UltrasoundWaveformStorage"
+* #1.2.840.10008.5.1.4.1.1.601.5 ^property[1].code = #type
+* #1.2.840.10008.5.1.4.1.1.601.5 ^property[1].valueString = "SOP Class"
+* #1.2.840.10008.5.1.4.1.1.601.5 ^property[2].code = #part
+* #1.2.840.10008.5.1.4.1.1.601.5 ^property[2].valueString = "DICONDE ASTM E3440"
 
 * #1.2.840.10008.5.1.4.1.2.1.1 "Patient Root Query/Retrieve Information Model - FIND" "Patient Root Query/Retrieve Information Model - FIND"
 * #1.2.840.10008.5.1.4.1.2.1.1 ^property[0].code = #keyword

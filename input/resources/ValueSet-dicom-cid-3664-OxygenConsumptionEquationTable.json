@@ -12,10 +12,10 @@
     "name": "OxygenConsumptionEquation/Table",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 3664 OxygenConsumptionEquation/Table",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -27,11 +27,11 @@
                     },
                     {
                         "code": "122247",
-                        "display": "VO2male = BSA (138.1 - 11.49 * loge(age) + 0.378*HRf)"
+                        "display": "VO2male = BSA (138.1 - 11.49 * loge(age) + 0.378 * HRf)"
                     },
                     {
                         "code": "122248",
-                        "display": "VO2female = BSA (138.1 - 17.04 * loge(age) + 0.378*HRf)"
+                        "display": "VO2female = BSA (138.1 - 17.04 * loge(age) + 0.378 * HRf)"
                     },
                     {
                         "code": "122254",

@@ -12,10 +12,10 @@
     "name": "OphthalmicMacularGridProblem",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 4222 OphthalmicMacularGridProblem",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -27,7 +27,7 @@
                     },
                     {
                         "code": "111209",
-                        "display": "Patient Positioning Problem"
+                        "display": "Positioning"
                     },
                     {
                         "code": "110501",

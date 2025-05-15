@@ -8,14 +8,14 @@
             "value": "urn:oid:1.2.840.10008.6.1.1087"
         }
     ],
-    "version": "20220922",
+    "version": "20250401",
     "name": "MedicationTypeCodeTypefromAnesthesiaQualityInitiative",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 622 MedicationTypeCodeTypefromAnesthesiaQualityInitiative",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -162,10 +162,6 @@
                         "display": "Caloric agent"
                     },
                     {
-                        "code": "373270004",
-                        "display": "Penicillin antibiotic"
-                    },
-                    {
                         "code": "18220004",
                         "display": "Thyroid hormone"
                     },
@@ -240,6 +236,10 @@
                     {
                         "code": "372787008",
                         "display": "Vasodilator"
+                    },
+                    {
+                        "code": "764146007",
+                        "display": "Penicillin antibiotic"
                     },
                     {
                         "code": "373304005",
@@ -373,10 +373,6 @@
                     {
                         "code": "F-6196E",
                         "display": "Antiarrhythmic"
-                    },
-                    {
-                        "code": "C-0021D",
-                        "display": "Penicillin antibiotic"
                     },
                     {
                         "code": "F-61814",

@@ -12,10 +12,10 @@
     "name": "PatientTreatmentPreparationDevice",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 9573 PatientTreatmentPreparationDevice",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -43,7 +43,7 @@
                     },
                     {
                         "code": "LS",
-                        "display": "Laser Surface Scan"
+                        "display": "Laser surface scan"
                     },
                     {
                         "code": "130117",

@@ -8,23 +8,19 @@
             "value": "urn:oid:1.2.840.10008.6.1.519"
         }
     ],
-    "version": "20040112",
+    "version": "20250406",
     "name": "Sex",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 7455 Sex",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
                 "system": "http://dicom.nema.org/resources/ontology/DCM",
                 "concept": [
-                    {
-                        "code": "MP",
-                        "display": "Male Pseudohermaphrodite"
-                    },
                     {
                         "code": "U",
                         "display": "Unknown sex"
@@ -32,10 +28,6 @@
                     {
                         "code": "121103",
                         "display": "Undetermined sex"
-                    },
-                    {
-                        "code": "F",
-                        "display": "Female"
                     },
                     {
                         "code": "MC",
@@ -46,12 +38,36 @@
                         "display": "Ambiguous sex"
                     },
                     {
-                        "code": "H",
-                        "display": "Hermaphrodite"
-                    },
-                    {
                         "code": "121102",
                         "display": "Other sex"
+                    },
+                    {
+                        "code": "FC",
+                        "display": "Female changed to Male"
+                    },
+                    {
+                        "code": "131230",
+                        "display": "Female-typical"
+                    },
+                    {
+                        "code": "131231",
+                        "display": "Male-typical"
+                    },
+                    {
+                        "code": "MP",
+                        "display": "Male Pseudohermaphrodite"
+                    },
+                    {
+                        "code": "131232",
+                        "display": "Specified"
+                    },
+                    {
+                        "code": "F",
+                        "display": "Female"
+                    },
+                    {
+                        "code": "H",
+                        "display": "Hermaphrodite"
                     },
                     {
                         "code": "FP",
@@ -60,10 +76,6 @@
                     {
                         "code": "M",
                         "display": "Male"
-                    },
-                    {
-                        "code": "FC",
-                        "display": "Female changed to Male"
                     }
                 ]
             }

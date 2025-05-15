@@ -12,10 +12,10 @@
     "name": "GeneralDevice",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 4051 GeneralDevice",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -43,7 +43,7 @@
                     },
                     {
                         "code": "130541",
-                        "display": "10 cm Dosimetry Phantom"
+                        "display": "100 mm Pediatric Head CT Dosimetry Phantom"
                     },
                     {
                         "code": "113687",
@@ -59,11 +59,11 @@
                     },
                     {
                         "code": "113690",
-                        "display": "IEC Head Dosimetry Phantom"
+                        "display": "IEC 160mm Head CT Dosimetry Phantom"
                     },
                     {
                         "code": "113691",
-                        "display": "IEC Body Dosimetry Phantom"
+                        "display": "IEC 320mm Body CT Dosimetry Phantom"
                     },
                     {
                         "code": "113692",
@@ -83,24 +83,20 @@
                         "display": "Glue"
                     },
                     {
-                        "code": "102312002",
-                        "display": "Atherectomy device"
-                    },
-                    {
                         "code": "102314001",
                         "display": "Embolization coil"
-                    },
-                    {
-                        "code": "102316004",
-                        "display": "Embolization particulate"
                     },
                     {
                         "code": "706342009",
                         "display": "Phantom"
                     },
                     {
-                        "code": "38586004",
-                        "display": "Laser"
+                        "code": "462735007",
+                        "display": "Periodontal probe"
+                    },
+                    {
+                        "code": "392001008",
+                        "display": "Scanning Laser Ophthalmoscope"
                     },
                     {
                         "code": "19923001",
@@ -111,12 +107,84 @@
                         "display": "Measuring ruler"
                     },
                     {
+                        "code": "409901008",
+                        "display": "Indirect Ophthalmoscope"
+                    },
+                    {
+                        "code": "1362124004",
+                        "display": "FLIO"
+                    },
+                    {
+                        "code": "1332162007",
+                        "display": "Intraoral photography mirror"
+                    },
+                    {
                         "code": "102313007",
                         "display": "Rotational atherectomy device"
                     },
                     {
                         "code": "102317008",
                         "display": "Guiding catheter"
+                    },
+                    {
+                        "code": "409898007",
+                        "display": "Fundus Camera"
+                    },
+                    {
+                        "code": "397247004",
+                        "display": "Slit Lamp Biomicroscope"
+                    },
+                    {
+                        "code": "409902001",
+                        "display": "Ophthalmic Endoscope"
+                    },
+                    {
+                        "code": "397522002",
+                        "display": "Keratoscope"
+                    },
+                    {
+                        "code": "1332163002",
+                        "display": "Dental photography black contraster"
+                    },
+                    {
+                        "code": "102320000",
+                        "display": "Detachable balloon"
+                    },
+                    {
+                        "code": "409900009",
+                        "display": "Direct Ophthalmoscope"
+                    },
+                    {
+                        "code": "53535004",
+                        "display": "Retractor"
+                    },
+                    {
+                        "code": "39802000",
+                        "display": "Tongue blade"
+                    },
+                    {
+                        "code": "102312002",
+                        "display": "Atherectomy device"
+                    },
+                    {
+                        "code": "102316004",
+                        "display": "Embolization particulate"
+                    },
+                    {
+                        "code": "38586004",
+                        "display": "Laser"
+                    },
+                    {
+                        "code": "409903006",
+                        "display": "External Camera"
+                    },
+                    {
+                        "code": "1332164008",
+                        "display": "Photographic image fiducial marker"
+                    },
+                    {
+                        "code": "102321001",
+                        "display": "Operating Microscope"
                     },
                     {
                         "code": "102315000",
@@ -127,16 +195,20 @@
                         "display": "Percutaneous transluminal angioplasty balloon"
                     },
                     {
+                        "code": "409899004",
+                        "display": "Specular Microscope"
+                    },
+                    {
                         "code": "61968008",
                         "display": "Syringe"
                     },
                     {
-                        "code": "65818007",
-                        "display": "Stent"
+                        "code": "420827006",
+                        "display": "Pupillograph"
                     },
                     {
-                        "code": "102320000",
-                        "display": "Detachable balloon"
+                        "code": "65818007",
+                        "display": "Stent"
                     }
                 ]
             },
@@ -148,10 +220,6 @@
                         "display": "Stent"
                     },
                     {
-                        "code": "A-25600",
-                        "display": "Atherectomy device"
-                    },
-                    {
                         "code": "A-26912",
                         "display": "Percutaneous transluminal angioplasty balloon"
                     },
@@ -160,8 +228,80 @@
                         "display": "Detachable balloon"
                     },
                     {
+                        "code": "A-00FCA",
+                        "display": "Keratoscope"
+                    },
+                    {
                         "code": "A-25616",
                         "display": "Embolization particulate"
+                    },
+                    {
+                        "code": "A-26802",
+                        "display": "Guiding catheter"
+                    },
+                    {
+                        "code": "A-26800",
+                        "display": "Catheter"
+                    },
+                    {
+                        "code": "R-1021C",
+                        "display": "Specular Microscope"
+                    },
+                    {
+                        "code": "A-00E8A",
+                        "display": "Scanning Laser Ophthalmoscope"
+                    },
+                    {
+                        "code": "R-1021B",
+                        "display": "External Camera"
+                    },
+                    {
+                        "code": "R-1021A",
+                        "display": "Fundus Camera"
+                    },
+                    {
+                        "code": "A-10141",
+                        "display": "Measuring ruler"
+                    },
+                    {
+                        "code": "A-2B201",
+                        "display": "Slit Lamp Biomicroscope"
+                    },
+                    {
+                        "code": "A-81080",
+                        "display": "Laser"
+                    },
+                    {
+                        "code": "A-10146",
+                        "display": "Tongue blade"
+                    },
+                    {
+                        "code": "A-25600",
+                        "display": "Atherectomy device"
+                    },
+                    {
+                        "code": "A-00FF4",
+                        "display": "Pupillograph"
+                    },
+                    {
+                        "code": "R-1021F",
+                        "display": "Ophthalmic Endoscope"
+                    },
+                    {
+                        "code": "R-1021E",
+                        "display": "Direct Ophthalmoscope"
+                    },
+                    {
+                        "code": "R-FEF0F",
+                        "display": "Periodontal probe"
+                    },
+                    {
+                        "code": "R-1021D",
+                        "display": "Indirect Ophthalmoscope"
+                    },
+                    {
+                        "code": "A-2B210",
+                        "display": "Operating Microscope"
                     },
                     {
                         "code": "A-10150",
@@ -180,24 +320,12 @@
                         "display": "Embolization coil"
                     },
                     {
-                        "code": "A-26802",
-                        "display": "Guiding catheter"
-                    },
-                    {
                         "code": "A-25614",
                         "display": "Embolization ball"
                     },
                     {
-                        "code": "A-26800",
-                        "display": "Catheter"
-                    },
-                    {
-                        "code": "A-10141",
-                        "display": "Measuring ruler"
-                    },
-                    {
-                        "code": "A-81080",
-                        "display": "Laser"
+                        "code": "A-14040",
+                        "display": "Retractor"
                     },
                     {
                         "code": "R-FE0C7",

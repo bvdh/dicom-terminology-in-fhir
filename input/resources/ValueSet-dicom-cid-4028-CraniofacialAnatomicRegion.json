@@ -8,14 +8,14 @@
             "value": "urn:oid:1.2.840.10008.6.1.306"
         }
     ],
-    "version": "20170914",
+    "version": "20250330",
     "name": "CraniofacialAnatomicRegion",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 4028 CraniofacialAnatomicRegion",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -44,6 +44,10 @@
                     {
                         "code": "45048000",
                         "display": "Neck"
+                    },
+                    {
+                        "code": "123851003",
+                        "display": "Mouth"
                     },
                     {
                         "code": "22945000",
@@ -209,6 +213,10 @@
                     {
                         "code": "T-11160",
                         "display": "Palatine bone"
+                    },
+                    {
+                        "code": "T-D0662",
+                        "display": "Mouth"
                     },
                     {
                         "code": "T-13100",

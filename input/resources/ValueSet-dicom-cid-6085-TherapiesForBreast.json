@@ -8,19 +8,23 @@
             "value": "urn:oid:1.2.840.10008.6.1.407"
         }
     ],
-    "version": "20230630",
+    "version": "20250401",
     "name": "TherapiesforBreast",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 6085 TherapiesforBreast",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
                 "system": "http://snomed.info/sct",
                 "concept": [
+                    {
+                        "code": "1287742003",
+                        "display": "Radiation therapy"
+                    },
                     {
                         "code": "169413002",
                         "display": "Hormone therapy"
@@ -32,10 +36,6 @@
                     {
                         "code": "367336001",
                         "display": "Chemotherapy"
-                    },
-                    {
-                        "code": "108290001",
-                        "display": "Radiation therapy"
                     }
                 ]
             },
@@ -49,10 +49,6 @@
                     {
                         "code": "P1-67D40",
                         "display": "Bone marrow transplant"
-                    },
-                    {
-                        "code": "P5-C00F8",
-                        "display": "Radiation therapy"
                     },
                     {
                         "code": "P0-007AC",

@@ -12,10 +12,10 @@
     "name": "ProcedureModifiersforBreast",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 6058 ProcedureModifiersforBreast",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -139,10 +139,6 @@
                         "display": "Diagnostic"
                     },
                     {
-                        "code": "64318009",
-                        "display": "Diagnostic radiography, stereotactic localization"
-                    },
-                    {
                         "code": "360156006",
                         "display": "Screening"
                     },
@@ -173,6 +169,10 @@
                     {
                         "code": "465380004",
                         "display": "Silicone gel implant"
+                    },
+                    {
+                        "code": "428907005",
+                        "display": "Plain X-ray guided wire localization of breast lesion"
                     },
                     {
                         "code": "261199008",
@@ -224,6 +224,10 @@
                         "display": "Breast implant, type not specified"
                     },
                     {
+                        "code": "P0-00C4B",
+                        "display": "Plain X-ray guided wire localization of breast lesion"
+                    },
+                    {
                         "code": "P5-B0128",
                         "display": "Tissue Doppler Imaging"
                     },
@@ -266,10 +270,6 @@
                     {
                         "code": "P1-030C4",
                         "display": "Lumpectomy"
-                    },
-                    {
-                        "code": "P5-00032",
-                        "display": "Diagnostic radiography, stereotactic localization"
                     },
                     {
                         "code": "P5-B0700",

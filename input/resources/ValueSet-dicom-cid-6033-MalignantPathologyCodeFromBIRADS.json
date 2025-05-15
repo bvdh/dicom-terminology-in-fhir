@@ -8,14 +8,14 @@
             "value": "urn:oid:1.2.840.10008.6.1.363"
         }
     ],
-    "version": "20230630",
+    "version": "20250401",
     "name": "MalignantPathologyCodefromBIRADS\u00ae",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 6033 MalignantPathologyCodefromBIRADS\u00ae",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -179,12 +179,12 @@
                         "display": "Plasmacytoma"
                     },
                     {
-                        "code": "3839000",
-                        "display": "Lipid-rich (lipid-secreting) carcinoma"
+                        "code": "189336000",
+                        "display": "Carcinoma in situ of breast"
                     },
                     {
-                        "code": "92652009",
-                        "display": "Carcinoma in situ of male breast"
+                        "code": "3839000",
+                        "display": "Lipid-rich (lipid-secreting) carcinoma"
                     },
                     {
                         "code": "128736003",
@@ -300,10 +300,6 @@
                 "system": "http://snomed.info/srt",
                 "concept": [
                     {
-                        "code": "D7-F0902",
-                        "display": "Carcinoma in situ of male breast"
-                    },
-                    {
                         "code": "M-85023",
                         "display": "Secretory (juvenile) carcinoma of the breast"
                     },
@@ -342,6 +338,10 @@
                     {
                         "code": "M-91203",
                         "display": "Angiosarcoma"
+                    },
+                    {
+                        "code": "D1-F3507",
+                        "display": "Carcinoma in situ of breast"
                     },
                     {
                         "code": "M-85003",

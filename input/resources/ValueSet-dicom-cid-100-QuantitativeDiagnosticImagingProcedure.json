@@ -8,14 +8,14 @@
             "value": "urn:oid:1.2.840.10008.6.1.998"
         }
     ],
-    "version": "20230630",
+    "version": "20250122",
     "name": "QuantitativeDiagnosticImagingProcedure",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 100 QuantitativeDiagnosticImagingProcedure",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -127,15 +127,6 @@
                     {
                         "code": "P5-70694",
                         "display": "Dynamic magnetic resonance imaging of pelvis"
-                    }
-                ]
-            },
-            {
-                "system": "http://www.radlex.org",
-                "concept": [
-                    {
-                        "code": "RPID5427",
-                        "display": "NM head perfusion brain PET-CT AV-45"
                     }
                 ]
             }

@@ -8,14 +8,14 @@
             "value": "urn:oid:1.2.840.10008.6.1.361"
         }
     ],
-    "version": "20230630",
+    "version": "20250401",
     "name": "BenignPathologyCodefromBIRADS\u00ae",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 6031 BenignPathologyCodefromBIRADS\u00ae",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -115,6 +115,10 @@
                         "display": "Lactating adenoma"
                     },
                     {
+                        "code": "1306316005",
+                        "display": "Benign neoplasm of nipple"
+                    },
+                    {
                         "code": "1162890002",
                         "display": "Leiomyoma"
                     },
@@ -161,6 +165,10 @@
                     {
                         "code": "12402003",
                         "display": "Scar tissue"
+                    },
+                    {
+                        "code": "404035005",
+                        "display": "Granular cell tumor"
                     },
                     {
                         "code": "67617000",
@@ -247,10 +255,6 @@
                         "display": "Hemangioma - venous"
                     },
                     {
-                        "code": "12169001",
-                        "display": "Granular cell tumor"
-                    },
-                    {
                         "code": "73219006",
                         "display": "Angiolipoma"
                     },
@@ -333,10 +337,6 @@
                     {
                         "code": "27431007",
                         "display": "Fibrocystic disease of breast"
-                    },
-                    {
-                        "code": "92248004",
-                        "display": "Benign neoplasm of nipple of female breast (Nipple adenoma)"
                     }
                 ]
             },
@@ -432,10 +432,6 @@
                         "display": "Hemangioma of subcutaneous tissue"
                     },
                     {
-                        "code": "D7-F0810",
-                        "display": "Benign neoplasm of nipple of female breast (Nipple adenoma)"
-                    },
-                    {
                         "code": "M-55160",
                         "display": "Amyloid (tumor)"
                     },
@@ -492,6 +488,10 @@
                         "display": "Mammary duct ectasia"
                     },
                     {
+                        "code": "DF-006C7",
+                        "display": "Granular cell tumor"
+                    },
+                    {
                         "code": "M-73310",
                         "display": "Apocrine Metaplasia"
                     },
@@ -510,10 +510,6 @@
                     {
                         "code": "D7-90428",
                         "display": "Breast lobular hyperplasia"
-                    },
-                    {
-                        "code": "M-95800",
-                        "display": "Granular cell tumor"
                     },
                     {
                         "code": "M-33415",

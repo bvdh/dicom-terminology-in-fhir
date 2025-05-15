@@ -9,13 +9,13 @@
         }
     ],
     "version": "20240920",
-    "name": "EchoMeasuredProperty",
+    "name": "CardiovascularMeasuredProperty",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
-    "description": "Transitive closure of CID 12304 EchoMeasuredProperty",
-    "copyright": "\u00a9 2024 NEMA",
+    "description": "Transitive closure of CID 12304 CardiovascularMeasuredProperty",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -316,7 +316,7 @@
             }
         ]
     },
-    "title": "EchoMeasuredProperty",
+    "title": "CardiovascularMeasuredProperty",
     "versionAlgorithmCoding": {
         "system": "http://hl7.org/fhir/version-algorithm",
         "code": "date",

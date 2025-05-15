@@ -12,10 +12,10 @@
     "name": "MammographyPathologyCode",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 6030 MammographyPathologyCode",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -283,6 +283,10 @@
                         "display": "Hodgkin's lymphoma"
                     },
                     {
+                        "code": "404035005",
+                        "display": "Granular cell tumor"
+                    },
+                    {
                         "code": "67617000",
                         "display": "Ductal hyperplasia, Usual"
                     },
@@ -451,8 +455,8 @@
                         "display": "Fibrocystic disease of breast"
                     },
                     {
-                        "code": "92248004",
-                        "display": "Benign neoplasm of nipple of female breast (Nipple adenoma)"
+                        "code": "1306316005",
+                        "display": "Benign neoplasm of nipple"
                     },
                     {
                         "code": "63264007",
@@ -473,10 +477,6 @@
                     {
                         "code": "1187107005",
                         "display": "Plasmacytoma"
-                    },
-                    {
-                        "code": "92652009",
-                        "display": "Carcinoma in situ of male breast"
                     },
                     {
                         "code": "42385006",
@@ -559,12 +559,12 @@
                         "display": "Hemangioma - venous"
                     },
                     {
-                        "code": "1163022006",
-                        "display": "Leiomyosarcoma"
+                        "code": "189336000",
+                        "display": "Carcinoma in situ of breast"
                     },
                     {
-                        "code": "12169001",
-                        "display": "Granular cell tumor"
+                        "code": "1163022006",
+                        "display": "Leiomyosarcoma"
                     },
                     {
                         "code": "37058002",
@@ -744,10 +744,6 @@
                         "display": "Thrombophlebitis of breast (Mondor's disease)"
                     },
                     {
-                        "code": "M-95800",
-                        "display": "Granular cell tumor"
-                    },
-                    {
                         "code": "M-91203",
                         "display": "Angiosarcoma"
                     },
@@ -804,10 +800,6 @@
                         "display": "Chondroma"
                     },
                     {
-                        "code": "D7-F0902",
-                        "display": "Carcinoma in situ of male breast"
-                    },
-                    {
                         "code": "M-88610",
                         "display": "Angiolipoma"
                     },
@@ -842,6 +834,10 @@
                     {
                         "code": "M-83153",
                         "display": "Glycogen-rich carcinoma"
+                    },
+                    {
+                        "code": "D1-F3507",
+                        "display": "Carcinoma in situ of breast"
                     },
                     {
                         "code": "M-72175",
@@ -884,10 +880,6 @@
                         "display": "Hemangioma of subcutaneous tissue"
                     },
                     {
-                        "code": "D7-F0810",
-                        "display": "Benign neoplasm of nipple of female breast (Nipple adenoma)"
-                    },
-                    {
                         "code": "M-55160",
                         "display": "Amyloid (tumor)"
                     },
@@ -922,6 +914,10 @@
                     {
                         "code": "M-78060",
                         "display": "Scar tissue"
+                    },
+                    {
+                        "code": "DF-006C7",
+                        "display": "Granular cell tumor"
                     },
                     {
                         "code": "M-95401",

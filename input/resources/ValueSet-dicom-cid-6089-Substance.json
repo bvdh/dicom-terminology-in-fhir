@@ -8,14 +8,14 @@
             "value": "urn:oid:1.2.840.10008.6.1.411"
         }
     ],
-    "version": "20160314",
+    "version": "20250401",
     "name": "Substance",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 6089 Substance",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -48,6 +48,10 @@
                     {
                         "code": "387286002",
                         "display": "Methadone"
+                    },
+                    {
+                        "code": "771355003",
+                        "display": "Cannabinoid"
                     },
                     {
                         "code": "373529000",

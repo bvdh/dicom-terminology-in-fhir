@@ -8,14 +8,14 @@
             "value": "urn:oid:1.2.840.10008.6.1.1002"
         }
     ],
-    "version": "20221002",
+    "version": "20250401",
     "name": "TimePointType",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 6146 TimePointType",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -51,8 +51,8 @@
                         "display": "Recurrence of tumor"
                     },
                     {
-                        "code": "314122007",
-                        "display": "Maintenance therapy"
+                        "code": "1345242003",
+                        "display": "Maintenance antineoplastic therapy"
                     },
                     {
                         "code": "262061000",
@@ -66,10 +66,6 @@
                     {
                         "code": "R-41AEA",
                         "display": "Post-chemotherapy"
-                    },
-                    {
-                        "code": "P0-006F0",
-                        "display": "Maintenance therapy"
                     },
                     {
                         "code": "G-F517",

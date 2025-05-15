@@ -8,14 +8,14 @@
             "value": "urn:oid:1.2.840.10008.6.1.1480"
         }
     ],
-    "version": "20231115",
+    "version": "20250401",
     "name": "SpecimenStainforConfocalMicroscopy",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 4412 SpecimenStainforConfocalMicroscopy",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -34,10 +34,6 @@
                         "display": "immunofluorescent stain"
                     },
                     {
-                        "code": "7539900",
-                        "display": "citric acid"
-                    },
-                    {
                         "code": "77073008",
                         "display": "nile blue stain"
                     },
@@ -52,6 +48,10 @@
                     {
                         "code": "2869004",
                         "display": "Acetic acid"
+                    },
+                    {
+                        "code": "75399008",
+                        "display": "citric acid"
                     },
                     {
                         "code": "387372003",

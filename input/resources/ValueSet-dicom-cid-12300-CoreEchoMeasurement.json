@@ -8,14 +8,14 @@
             "value": "urn:oid:1.2.840.10008.6.1.1149"
         }
     ],
-    "version": "20211112",
+    "version": "20250122",
     "name": "CoreEchoMeasurement",
     "status": "active",
     "experimental": false,
-    "date": "2024-11-14",
+    "date": "2025-04-11",
     "publisher": "NEMA MITA DICOM",
     "description": "Transitive closure of CID 12300 CoreEchoMeasurement",
-    "copyright": "\u00a9 2024 NEMA",
+    "copyright": "\u00a9 2025 NEMA",
     "compose": {
         "include": [
             {
@@ -375,6 +375,10 @@
                         "display": "Aortic valve mean blood velocity"
                     },
                     {
+                        "code": "11720-0",
+                        "display": "Main pulmonary artery Vmax"
+                    },
+                    {
                         "code": "80071-4",
                         "display": "Mitral valve effective regurgitant orifice area (PISA)"
                     },
@@ -673,10 +677,6 @@
                     {
                         "code": "80053-2",
                         "display": "Mitral annulus VTI"
-                    },
-                    {
-                        "code": "",
-                        "display": "Main pulmonary artery Vmax"
                     },
                     {
                         "code": "80015-1",

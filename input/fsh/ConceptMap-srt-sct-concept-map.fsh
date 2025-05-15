@@ -2203,16 +2203,16 @@ Usage: #definition
 * group.element[=].target.display = "Lumpectomy"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #P5-00032
-* group.element[=].display = "Diagnostic radiography, stereotactic localization"
-* group.element[=].target.code = #64318009
-* group.element[=].target.display = "Diagnostic radiography, stereotactic localization"
-* group.element[=].target.relationship = #equivalent
-
 * group.element[+].code = #P1-4834A
 * group.element[=].display = "Quadrantectomy of breast"
 * group.element[=].target.code = #172049005
 * group.element[=].target.display = "Quadrantectomy of breast"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #P0-00C4B
+* group.element[=].display = "Plain X-ray guided wire localization of breast lesion"
+* group.element[=].target.code = #428907005
+* group.element[=].target.display = "Plain X-ray guided wire localization of breast lesion"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #P5-B0700
@@ -2383,6 +2383,12 @@ Usage: #definition
 * group.element[=].target.display = "C5/C6 disc"
 * group.element[=].target.relationship = #equivalent
 
+* group.element[+].code = #P5-0808E
+* group.element[=].display = "CT without contrast"
+* group.element[=].target.code = #399331006
+* group.element[=].target.display = "CT without contrast"
+* group.element[=].target.relationship = #equivalent
+
 * group.element[+].code = #R-404CE
 * group.element[=].display = "Posterior"
 * group.element[=].target.code = #255551008
@@ -2483,12 +2489,6 @@ Usage: #definition
 * group.element[=].display = "Post-chemotherapy"
 * group.element[=].target.code = #262502001
 * group.element[=].target.display = "Post-chemotherapy"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #P0-006F0
-* group.element[=].display = "Maintenance therapy"
-* group.element[=].target.code = #314122007
-* group.element[=].target.display = "Maintenance therapy"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #G-F517
@@ -2713,12 +2713,6 @@ Usage: #definition
 * group.element[=].target.display = "Vitreous Only"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #D7-F0902
-* group.element[=].display = "Carcinoma in situ of male breast"
-* group.element[=].target.code = #92652009
-* group.element[=].target.display = "Carcinoma in situ of male breast"
-* group.element[=].target.relationship = #equivalent
-
 * group.element[+].code = #M-85023
 * group.element[=].display = "Secretory (juvenile) carcinoma of the breast"
 * group.element[=].target.code = #41919003
@@ -2777,6 +2771,12 @@ Usage: #definition
 * group.element[=].display = "Angiosarcoma"
 * group.element[=].target.code = #39000009
 * group.element[=].target.display = "Angiosarcoma"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #D1-F3507
+* group.element[=].display = "Carcinoma in situ of breast"
+* group.element[=].target.code = #189336000
+* group.element[=].target.display = "Carcinoma in situ of breast"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #M-85003
@@ -4193,6 +4193,12 @@ Usage: #definition
 * group.element[=].display = "Upper lobe of lung"
 * group.element[=].target.code = #45653009
 * group.element[=].target.display = "Upper lobe of lung"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #P5-08123
+* group.element[=].display = "CT arteriography of abdominal aorta with contrast"
+* group.element[=].target.code = #444968003
+* group.element[=].target.display = "CT arteriography of abdominal aorta with contrast"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #P1-3160A
@@ -6643,6 +6649,90 @@ Usage: #definition
 * group.element[=].target.display = "Anterior Commissure"
 * group.element[=].target.relationship = #equivalent
 
+* group.element[+].code = #A-00FCA
+* group.element[=].display = "Keratoscope"
+* group.element[=].target.code = #397522002
+* group.element[=].target.display = "Keratoscope"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-1021C
+* group.element[=].display = "Specular Microscope"
+* group.element[=].target.code = #409899004
+* group.element[=].target.display = "Specular Microscope"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #A-00E8A
+* group.element[=].display = "Scanning Laser Ophthalmoscope"
+* group.element[=].target.code = #392001008
+* group.element[=].target.display = "Scanning Laser Ophthalmoscope"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-1021B
+* group.element[=].display = "External Camera"
+* group.element[=].target.code = #409903006
+* group.element[=].target.display = "External Camera"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-1021A
+* group.element[=].display = "Fundus Camera"
+* group.element[=].target.code = #409898007
+* group.element[=].target.display = "Fundus Camera"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #A-2B201
+* group.element[=].display = "Slit Lamp Biomicroscope"
+* group.element[=].target.code = #397247004
+* group.element[=].target.display = "Slit Lamp Biomicroscope"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #A-10146
+* group.element[=].display = "Tongue blade"
+* group.element[=].target.code = #39802000
+* group.element[=].target.display = "Tongue blade"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #A-00FF4
+* group.element[=].display = "Pupillograph"
+* group.element[=].target.code = #420827006
+* group.element[=].target.display = "Pupillograph"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-1021F
+* group.element[=].display = "Ophthalmic Endoscope"
+* group.element[=].target.code = #409902001
+* group.element[=].target.display = "Ophthalmic Endoscope"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-1021E
+* group.element[=].display = "Direct Ophthalmoscope"
+* group.element[=].target.code = #409900009
+* group.element[=].target.display = "Direct Ophthalmoscope"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-FEF0F
+* group.element[=].display = "Periodontal probe"
+* group.element[=].target.code = #462735007
+* group.element[=].target.display = "Periodontal probe"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-1021D
+* group.element[=].display = "Indirect Ophthalmoscope"
+* group.element[=].target.code = #409901008
+* group.element[=].target.display = "Indirect Ophthalmoscope"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #A-2B210
+* group.element[=].display = "Operating Microscope"
+* group.element[=].target.code = #102321001
+* group.element[=].target.display = "Operating Microscope"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #A-14040
+* group.element[=].display = "Retractor"
+* group.element[=].target.code = #53535004
+* group.element[=].target.display = "Retractor"
+* group.element[=].target.relationship = #equivalent
+
 * group.element[+].code = #R-FE0C7
 * group.element[=].display = "Phantom"
 * group.element[=].target.code = #706342009
@@ -7343,6 +7433,66 @@ Usage: #definition
 * group.element[=].display = "Amphetamine"
 * group.element[=].target.code = #703842006
 * group.element[=].target.display = "Amphetamine"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-10236
+* group.element[=].display = "left lateral"
+* group.element[=].target.code = #399173006
+* group.element[=].target.display = "left lateral"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-102C1
+* group.element[=].display = "oblique"
+* group.element[=].target.code = #399366008
+* group.element[=].target.display = "oblique"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-40783
+* group.element[=].display = "lateral oblique"
+* group.element[=].target.code = #260427002
+* group.element[=].target.display = "lateral oblique"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-40780
+* group.element[=].display = "right lateral oblique"
+* group.element[=].target.code = #260424009
+* group.element[=].target.display = "right lateral oblique"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-407A4
+* group.element[=].display = "vertex"
+* group.element[=].target.code = #260461000
+* group.element[=].target.display = "vertex"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-10202
+* group.element[=].display = "frontal"
+* group.element[=].target.code = #399033003
+* group.element[=].target.display = "frontal"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-4079D
+* group.element[=].display = "45 degree projection"
+* group.element[=].target.code = #260454004
+* group.element[=].target.display = "45 degree projection"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-10256
+* group.element[=].display = "submentovertical"
+* group.element[=].target.code = #399255003
+* group.element[=].target.display = "submentovertical"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-4077D
+* group.element[=].display = "left lateral oblique"
+* group.element[=].target.code = #260421001
+* group.element[=].target.display = "left lateral oblique"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-10232
+* group.element[=].display = "right lateral"
+* group.element[=].target.code = #399198007
+* group.element[=].target.display = "right lateral"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #G-037B
@@ -9487,12 +9637,6 @@ Usage: #definition
 * group.element[=].target.display = "Selective embolization of artery"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #P1-86C50
-* group.element[=].display = "Fetocide (selective reduction)"
-* group.element[=].target.code = #133874006
-* group.element[=].target.display = "Fetocide (selective reduction)"
-* group.element[=].target.relationship = #equivalent
-
 * group.element[+].code = #P1-03176
 * group.element[=].display = "Removal of foreign body"
 * group.element[=].target.code = #10849003
@@ -9523,12 +9667,6 @@ Usage: #definition
 * group.element[=].target.display = "Transcatheter therapy for embolization"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #P1-05550
-* group.element[=].display = "Stent placement"
-* group.element[=].target.code = #103716009
-* group.element[=].target.display = "Stent placement"
-* group.element[=].target.relationship = #equivalent
-
 * group.element[+].code = #P0-05AFA
 * group.element[=].display = "Percutaneous removal of intravascular foreign body"
 * group.element[=].target.code = #240946003
@@ -9541,10 +9679,10 @@ Usage: #definition
 * group.element[=].target.display = "Failed attempted procedure"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #P1-86520
-* group.element[=].display = "Amnioinfusion [injection of amnion]"
-* group.element[=].target.code = #15415002
-* group.element[=].target.display = "Amnioinfusion [injection of amnion]"
+* group.element[+].code = #P0-00843
+* group.element[=].display = "Selective destruction of fetus"
+* group.element[=].target.code = #265633004
+* group.element[=].target.display = "Selective destruction of fetus"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #P1-86E70
@@ -10661,6 +10799,30 @@ Usage: #definition
 * group.element[=].display = "Normal Range Lower Limit"
 * group.element[=].target.code = #385524004
 * group.element[=].target.display = "Normal Range Lower Limit"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #D0-00173
+* group.element[=].display = "Skin mark"
+* group.element[=].target.code = #276470008
+* group.element[=].target.display = "Skin mark"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #D5-10830
+* group.element[=].display = "Gingival recession"
+* group.element[=].target.code = #4356008
+* group.element[=].target.display = "Gingival recession"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #F-F0227
+* group.element[=].display = "Tattoo of skin"
+* group.element[=].target.code = #341000119102
+* group.element[=].target.display = "Tattoo of skin"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #F-DD58F
+* group.element[=].display = "Cant of occlusal plane"
+* group.element[=].target.code = #710793000
+* group.element[=].target.display = "Cant of occlusal plane"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #F-BA070
@@ -12511,6 +12673,12 @@ Usage: #definition
 * group.element[=].target.display = "C6 vertebra"
 * group.element[=].target.relationship = #equivalent
 
+* group.element[+].code = #T-D000F
+* group.element[=].display = "Vascular graft"
+* group.element[=].target.code = #312288001
+* group.element[=].target.display = "Vascular graft"
+* group.element[=].target.relationship = #equivalent
+
 * group.element[+].code = #T-46970
 * group.element[=].display = "Testicular Artery"
 * group.element[=].target.code = #27175001
@@ -12731,12 +12899,6 @@ Usage: #definition
 * group.element[=].display = "Congenital coronary artery fistula to right ventricle"
 * group.element[=].target.code = #128558004
 * group.element[=].target.display = "Congenital coronary artery fistula to right ventricle"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #A-04140
-* group.element[=].display = "Vascular graft"
-* group.element[=].target.code = #118375008
-* group.element[=].target.display = "Vascular graft"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #T-11620
@@ -13723,12 +13885,6 @@ Usage: #definition
 * group.element[=].target.display = "Thrombophlebitis of breast (Mondor's disease)"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #M-95800
-* group.element[=].display = "Granular cell tumor"
-* group.element[=].target.code = #12169001
-* group.element[=].target.display = "Granular cell tumor"
-* group.element[=].target.relationship = #equivalent
-
 * group.element[+].code = #M-72105
 * group.element[=].display = "Atypical lobular hyperplasia"
 * group.element[=].target.code = #33889003
@@ -13843,12 +13999,6 @@ Usage: #definition
 * group.element[=].target.display = "Hemangioma of subcutaneous tissue"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #D7-F0810
-* group.element[=].display = "Benign neoplasm of nipple of female breast (Nipple adenoma)"
-* group.element[=].target.code = #92248004
-* group.element[=].target.display = "Benign neoplasm of nipple of female breast (Nipple adenoma)"
-* group.element[=].target.relationship = #equivalent
-
 * group.element[+].code = #M-55160
 * group.element[=].display = "Amyloid (tumor)"
 * group.element[=].target.code = #37279009
@@ -13883,6 +14033,12 @@ Usage: #definition
 * group.element[=].display = "Radial scar"
 * group.element[=].target.code = #133855003
 * group.element[=].target.display = "Radial scar"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #DF-006C7
+* group.element[=].display = "Granular cell tumor"
+* group.element[=].target.code = #404035005
+* group.element[=].target.display = "Granular cell tumor"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #M-95401
@@ -14629,6 +14785,12 @@ Usage: #definition
 * group.element[=].target.display = "Tendon of Rotator Cuff of Shoulder"
 * group.element[=].target.relationship = #equivalent
 
+* group.element[+].code = #F-51154
+* group.element[=].display = "Centric occlusion"
+* group.element[=].target.code = #110320000
+* group.element[=].target.display = "Centric occlusion"
+* group.element[=].target.relationship = #equivalent
+
 * group.element[+].code = #P5-D6000
 * group.element[=].display = "Radioisotope study of endocrine system"
 * group.element[=].target.code = #7562007
@@ -15031,18 +15193,6 @@ Usage: #definition
 * group.element[=].target.display = "myocardium of apex of heart"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #T-32633
-* group.element[=].display = "myocardium of posterolateral region"
-* group.element[=].target.code = #33272004
-* group.element[=].target.display = "myocardium of posterolateral region"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #T-32632
-* group.element[=].display = "myocardium of diaphragmatic region"
-* group.element[=].target.code = #72542009
-* group.element[=].target.display = "myocardium of diaphragmatic region"
-* group.element[=].target.relationship = #equivalent
-
 * group.element[+].code = #F-70102
 * group.element[=].display = "Abnormal Renal Function"
 * group.element[=].target.code = #39539005
@@ -15359,72 +15509,6 @@ Usage: #definition
 * group.element[=].display = "Radiopharmaceutical Adverse Reaction"
 * group.element[=].target.code = #292094009
 * group.element[=].target.display = "Radiopharmaceutical Adverse Reaction"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #A-00FF4
-* group.element[=].display = "Pupillograph"
-* group.element[=].target.code = #420827006
-* group.element[=].target.display = "Pupillograph"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #R-1021C
-* group.element[=].display = "Specular Microscope"
-* group.element[=].target.code = #409899004
-* group.element[=].target.display = "Specular Microscope"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #A-00E8A
-* group.element[=].display = "Scanning Laser Ophthalmoscope"
-* group.element[=].target.code = #392001008
-* group.element[=].target.display = "Scanning Laser Ophthalmoscope"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #R-1021B
-* group.element[=].display = "External Camera"
-* group.element[=].target.code = #409903006
-* group.element[=].target.display = "External Camera"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #R-1021A
-* group.element[=].display = "Fundus Camera"
-* group.element[=].target.code = #409898007
-* group.element[=].target.display = "Fundus Camera"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #R-1021F
-* group.element[=].display = "Ophthalmic Endoscope"
-* group.element[=].target.code = #409902001
-* group.element[=].target.display = "Ophthalmic Endoscope"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #R-1021E
-* group.element[=].display = "Direct Ophthalmoscope"
-* group.element[=].target.code = #409900009
-* group.element[=].target.display = "Direct Ophthalmoscope"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #A-2B201
-* group.element[=].display = "Slit Lamp Biomicroscope"
-* group.element[=].target.code = #397247004
-* group.element[=].target.display = "Slit Lamp Biomicroscope"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #R-1021D
-* group.element[=].display = "Indirect Ophthalmoscope"
-* group.element[=].target.code = #409901008
-* group.element[=].target.display = "Indirect Ophthalmoscope"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #A-2B210
-* group.element[=].display = "Operating Microscope"
-* group.element[=].target.code = #102321001
-* group.element[=].target.display = "Operating Microscope"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #A-00FCA
-* group.element[=].display = "Keratoscope"
-* group.element[=].target.code = #397522002
-* group.element[=].target.display = "Keratoscope"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #R-102BF
@@ -17147,6 +17231,18 @@ Usage: #definition
 * group.element[=].display = "Skin of anterior surface of forearm"
 * group.element[=].target.code = #70559009
 * group.element[=].target.display = "Skin of anterior surface of forearm"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-52030
+* group.element[=].display = "Buccal space"
+* group.element[=].target.code = #261063000
+* group.element[=].target.display = "Buccal space"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-51004
+* group.element[=].display = "oral cavity"
+* group.element[=].target.code = #74262004
+* group.element[=].target.display = "oral cavity"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #P1-03000
@@ -34417,16 +34513,16 @@ Usage: #definition
 * group.element[=].target.display = "Oriental Horse horse breed"
 * group.element[=].target.relationship = #equivalent
 
+* group.element[+].code = #P0-004F6
+* group.element[=].display = "Transfer"
+* group.element[=].target.code = #308292007
+* group.element[=].target.display = "Transfer"
+* group.element[=].target.relationship = #equivalent
+
 * group.element[+].code = #P0-10010
 * group.element[=].display = "Elective"
 * group.element[=].target.code = #8715000
 * group.element[=].target.display = "Elective"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #P0-10210
-* group.element[=].display = "Transfer"
-* group.element[=].target.code = #4563007
-* group.element[=].target.display = "Transfer"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #P0-10800
@@ -35017,12 +35113,6 @@ Usage: #definition
 * group.element[=].target.display = "Lateral-medial"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #R-10202
-* group.element[=].display = "frontal"
-* group.element[=].target.code = #399033003
-* group.element[=].target.display = "frontal"
-* group.element[=].target.relationship = #equivalent
-
 * group.element[+].code = #G-5215
 * group.element[=].display = "Anterior projection"
 * group.element[=].target.code = #399321004
@@ -35203,12 +35293,6 @@ Usage: #definition
 * group.element[=].target.display = "verticosubmental"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #R-10256
-* group.element[=].display = "submentovertical"
-* group.element[=].target.code = #399255003
-* group.element[=].target.display = "submentovertical"
-* group.element[=].target.relationship = #equivalent
-
 * group.element[+].code = #R-10254
 * group.element[=].display = "sagittal-oblique axial"
 * group.element[=].target.code = #399325008
@@ -35237,12 +35321,6 @@ Usage: #definition
 * group.element[=].display = "Left anterior oblique"
 * group.element[=].target.code = #399074003
 * group.element[=].target.display = "Left anterior oblique"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #R-102C1
-* group.element[=].display = "oblique"
-* group.element[=].target.code = #399366008
-* group.element[=].target.display = "oblique"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #R-102C5
@@ -35299,18 +35377,6 @@ Usage: #definition
 * group.element[=].target.display = "left oblique"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #R-10236
-* group.element[=].display = "left lateral"
-* group.element[=].target.code = #399173006
-* group.element[=].target.display = "left lateral"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #R-40783
-* group.element[=].display = "lateral oblique"
-* group.element[=].target.code = #260427002
-* group.element[=].target.display = "lateral oblique"
-* group.element[=].target.relationship = #equivalent
-
 * group.element[+].code = #R-102C8
 * group.element[=].display = "parieto-orbital"
 * group.element[=].target.code = #399316002
@@ -35363,12 +35429,6 @@ Usage: #definition
 * group.element[=].display = "lateral"
 * group.element[=].target.code = #399067008
 * group.element[=].target.display = "lateral"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #R-10232
-* group.element[=].display = "right lateral"
-* group.element[=].target.code = #399198007
-* group.element[=].target.display = "right lateral"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #R-40810
@@ -35899,6 +35959,12 @@ Usage: #definition
 * group.element[=].target.display = "Indirect retroillumination from the iris"
 * group.element[=].target.relationship = #equivalent
 
+* group.element[+].code = #A-810B1
+* group.element[=].display = "Pulsed laser beam"
+* group.element[=].target.code = #118340008
+* group.element[=].target.display = "Pulsed laser beam"
+* group.element[=].target.relationship = #equivalent
+
 * group.element[+].code = #R-10218
 * group.element[=].display = "Indirect iris transillumination"
 * group.element[=].target.code = #410467002
@@ -36047,12 +36113,6 @@ Usage: #definition
 * group.element[=].display = "Core needle biopsy of breast"
 * group.element[=].target.code = #44578009
 * group.element[=].target.display = "Core needle biopsy of breast"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #P5-C00F8
-* group.element[=].display = "Radiation therapy"
-* group.element[=].target.code = #108290001
-* group.element[=].target.display = "Radiation therapy"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #T-49010
@@ -36433,12 +36493,6 @@ Usage: #definition
 * group.element[=].target.display = "Antiarrhythmic"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #C-0021D
-* group.element[=].display = "Penicillin antibiotic"
-* group.element[=].target.code = #373270004
-* group.element[=].target.display = "Penicillin antibiotic"
-* group.element[=].target.relationship = #equivalent
-
 * group.element[+].code = #F-61814
 * group.element[=].display = "Beta-blocker"
 * group.element[=].target.code = #373254001
@@ -36617,12 +36671,6 @@ Usage: #definition
 * group.element[=].display = "peripheral angiography"
 * group.element[=].target.code = #271993009
 * group.element[=].target.display = "peripheral angiography"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #P5-08123
-* group.element[=].display = "CT arteriography of abdominal aorta with contrast"
-* group.element[=].target.code = #444968003
-* group.element[=].target.display = "CT arteriography of abdominal aorta with contrast"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #P5-09011
@@ -37435,6 +37483,30 @@ Usage: #definition
 * group.element[=].target.display = "12-Lead ECG"
 * group.element[=].target.relationship = #equivalent
 
+* group.element[+].code = #P5-09051
+* group.element[=].display = "Magnetic resonance imaging guidance"
+* group.element[=].target.code = #258177008
+* group.element[=].target.display = "Magnetic resonance imaging guidance"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #P5-080FF
+* group.element[=].display = "PET/CT FDG imaging of whole body"
+* group.element[=].target.code = #443271005
+* group.element[=].target.display = "PET/CT FDG imaging of whole body"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #P5-0907F
+* group.element[=].display = "Dynamic magnetic resonance imaging of knee"
+* group.element[=].target.code = #433139009
+* group.element[=].target.display = "Dynamic magnetic resonance imaging of knee"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #P5-70694
+* group.element[=].display = "Dynamic magnetic resonance imaging of pelvis"
+* group.element[=].target.code = #446315002
+* group.element[=].target.display = "Dynamic magnetic resonance imaging of pelvis"
+* group.element[=].target.relationship = #equivalent
+
 * group.element[+].code = #C-23805
 * group.element[=].display = "Alphachloralose"
 * group.element[=].target.code = #277016007
@@ -37709,12 +37781,6 @@ Usage: #definition
 * group.element[=].display = "Adeno-associated virus group"
 * group.element[=].target.code = #112381006
 * group.element[=].target.display = "Adeno-associated virus group"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #DF-004BC
-* group.element[=].display = "Neuroendocrine tumor"
-* group.element[=].target.code = #255046005
-* group.element[=].target.display = "Neuroendocrine tumor"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #M-80463
@@ -39865,12 +39931,6 @@ Usage: #definition
 * group.element[=].target.display = "Cisterna Magna"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #T-51004
-* group.element[=].display = "oral cavity"
-* group.element[=].target.code = #74262004
-* group.element[=].target.display = "oral cavity"
-* group.element[=].target.relationship = #equivalent
-
 * group.element[+].code = #T-F1800
 * group.element[=].display = "Umbilical cord"
 * group.element[=].target.code = #29870000
@@ -40809,7 +40869,7 @@ Usage: #definition
 
 * group.element[+].code = #F-61070
 * group.element[=].display = "citric acid"
-* group.element[=].target.code = #7539900
+* group.element[=].target.code = #75399008
 * group.element[=].target.display = "citric acid"
 * group.element[=].target.relationship = #equivalent
 
@@ -41401,6 +41461,126 @@ Usage: #definition
 * group.element[=].target.display = "Staging intent"
 * group.element[=].target.relationship = #equivalent
 
+* group.element[+].code = #T-43110
+* group.element[=].display = "Left anterior descending coronary artery"
+* group.element[=].target.code = #59438005
+* group.element[=].target.display = "Left anterior descending coronary artery"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-35400
+* group.element[=].display = "Aortic valve"
+* group.element[=].target.code = #34202007
+* group.element[=].target.display = "Aortic valve"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-35321
+* group.element[=].display = "Anterior mitral valve leaflet"
+* group.element[=].target.code = #21498007
+* group.element[=].target.display = "Anterior mitral valve leaflet"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-35322
+* group.element[=].display = "Posterior mitral valve leaflet"
+* group.element[=].target.code = #57793009
+* group.element[=].target.display = "Posterior mitral valve leaflet"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-35440
+* group.element[=].display = "Aortic valve commissure"
+* group.element[=].target.code = #46396001
+* group.element[=].target.display = "Aortic valve commissure"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-35320
+* group.element[=].display = "Mitral valve leaflet"
+* group.element[=].target.code = #46807008
+* group.element[=].target.display = "Mitral valve leaflet"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-42102
+* group.element[=].display = "Aortic sinotubular junction"
+* group.element[=].target.code = #443167003
+* group.element[=].target.display = "Aortic sinotubular junction"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-46110
+* group.element[=].display = "Right subclavian artery"
+* group.element[=].target.code = #29700009
+* group.element[=].target.display = "Right subclavian artery"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-35310
+* group.element[=].display = "Mitral annulus"
+* group.element[=].target.code = #65197004
+* group.element[=].target.display = "Mitral annulus"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-35110
+* group.element[=].display = "Tricuspid annulus"
+* group.element[=].target.code = #113259005
+* group.element[=].target.display = "Tricuspid annulus"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-46120
+* group.element[=].display = "Left subclavian artery"
+* group.element[=].target.code = #85235006
+* group.element[=].target.display = "Left subclavian artery"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #G-0391
+* group.element[=].display = "Medial mitral annulus"
+* group.element[=].target.code = #399093001
+* group.element[=].target.display = "Medial mitral annulus"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #G-0392
+* group.element[=].display = "Lateral mitral annulus"
+* group.element[=].target.code = #399086000
+* group.element[=].target.display = "Lateral mitral annulus"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-35420
+* group.element[=].display = "Aortic valve cusp"
+* group.element[=].target.code = #81797008
+* group.element[=].target.display = "Aortic valve cusp"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-35300
+* group.element[=].display = "Mitral valve"
+* group.element[=].target.code = #91134007
+* group.element[=].target.display = "Mitral valve"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-32150
+* group.element[=].display = "Interatrial septum structure"
+* group.element[=].target.code = #58095006
+* group.element[=].target.display = "Interatrial septum structure"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-35340
+* group.element[=].display = "Mitral valve commissure"
+* group.element[=].target.code = #19198003
+* group.element[=].target.display = "Mitral valve commissure"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-35410
+* group.element[=].display = "Aortic valve ring"
+* group.element[=].target.code = #77583004
+* group.element[=].target.display = "Aortic valve ring"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-35170
+* group.element[=].display = "Tricuspid valve commissure"
+* group.element[=].target.code = #3462006
+* group.element[=].target.display = "Tricuspid valve commissure"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #T-43107
+* group.element[=].display = "Left main coronary artery"
+* group.element[=].target.code = #3227004
+* group.element[=].target.display = "Left main coronary artery"
+* group.element[=].target.relationship = #equivalent
+
 * group.element[+].code = #R-FC5CD
 * group.element[=].display = "Androgen Deprivation Therapy"
 * group.element[=].target.code = #707266006
@@ -41531,6 +41711,12 @@ Usage: #definition
 * group.element[=].display = "Left Ventricular Index of Myocardial Performance"
 * group.element[=].target.code = #399266005
 * group.element[=].target.display = "Left Ventricular Index of Myocardial Performance"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #P0-0081C
+* group.element[=].display = "Patient registration"
+* group.element[=].target.code = #184047000
+* group.element[=].target.display = "Patient registration"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #T-4858F
@@ -41689,34 +41875,16 @@ Usage: #definition
 * group.element[=].target.display = "MX"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #T-3260B
-* group.element[=].display = "Left ventricle septal segment"
-* group.element[=].target.code = #284356000
-* group.element[=].target.display = "Left ventricle septal segment"
+* group.element[+].code = #T-32638
+* group.element[=].display = "Left ventricle inferior segment"
+* group.element[=].target.code = #367598003
+* group.element[=].target.display = "Left ventricle inferior segment"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #T-32602
 * group.element[=].display = "Left ventricle apical segment"
 * group.element[=].target.code = #128564006
 * group.element[=].target.display = "Left ventricle apical segment"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #T-3260A
-* group.element[=].display = "Left ventricle anterior segment"
-* group.element[=].target.code = #284355001
-* group.element[=].target.display = "Left ventricle anterior segment"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #T-3260D
-* group.element[=].display = "Left ventricle lateral segment"
-* group.element[=].target.code = #284358004
-* group.element[=].target.display = "Left ventricle lateral segment"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #T-3260C
-* group.element[=].display = "Left ventricle inferior segment"
-* group.element[=].target.code = #284357009
-* group.element[=].target.display = "Left ventricle inferior segment"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #G-038A
@@ -41843,6 +42011,18 @@ Usage: #definition
 * group.element[=].display = "Ultrasonography of total body"
 * group.element[=].target.code = #24135002
 * group.element[=].target.display = "Ultrasonography of total body"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #F-618B5
+* group.element[=].display = "Nitrate vasodilator"
+* group.element[=].target.code = #372700007
+* group.element[=].target.display = "Nitrate vasodilator"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #C-80135
+* group.element[=].display = "Beta blocker"
+* group.element[=].target.code = #33252009
+* group.element[=].target.display = "Beta blocker"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #F-043E6
@@ -42577,6 +42757,18 @@ Usage: #definition
 * group.element[=].target.display = "Multifocal PVCs"
 * group.element[=].target.relationship = #equivalent
 
+* group.element[+].code = #DA-41033
+* group.element[=].display = "Bell's palsy"
+* group.element[=].target.code = #193093009
+* group.element[=].target.display = "Bell's palsy"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #F-51716
+* group.element[=].display = "Tongue thrust"
+* group.element[=].target.code = #110343009
+* group.element[=].target.display = "Tongue thrust"
+* group.element[=].target.relationship = #equivalent
+
 * group.element[+].code = #G-C52F
 * group.element[=].display = "Active Ingredient"
 * group.element[=].target.code = #127489000
@@ -42665,6 +42857,18 @@ Usage: #definition
 * group.element[=].display = "Rectal temperature"
 * group.element[=].target.code = #307047009
 * group.element[=].target.display = "Rectal temperature"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-4136A
+* group.element[=].display = "Open mouth"
+* group.element[=].target.code = #262016004
+* group.element[=].target.display = "Open mouth"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #F-A08FC
+* group.element[=].display = "Smiles"
+* group.element[=].target.code = #225583004
+* group.element[=].target.display = "Smiles"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #P2-71308
@@ -43111,9 +43315,9 @@ Usage: #definition
 * group.element[=].target.display = "Problem"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #F-03E55
+* group.element[+].code = #F-04E56
 * group.element[=].display = "Functional performance and activity"
-* group.element[=].target.code = #248536006
+* group.element[=].target.code = #423690003
 * group.element[=].target.display = "Functional performance and activity"
 * group.element[=].target.relationship = #equivalent
 
@@ -43171,6 +43375,30 @@ Usage: #definition
 * group.element[=].target.display = "Bicycle ergometer"
 * group.element[=].target.relationship = #equivalent
 
+* group.element[+].code = #D3-29052
+* group.element[=].display = "Pulmonic valve regurgitation"
+* group.element[=].target.code = #91434003
+* group.element[=].target.display = "Pulmonic valve regurgitation"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #G-E037
+* group.element[=].display = "Stroke risk"
+* group.element[=].target.code = #135877001
+* group.element[=].target.display = "Stroke risk"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #D3-29041
+* group.element[=].display = "Tricuspid valve stenosis"
+* group.element[=].target.code = #49915006
+* group.element[=].target.display = "Tricuspid valve stenosis"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #D3-20003
+* group.element[=].display = "Hypertrophic cardiomyopathy without obstruction"
+* group.element[=].target.code = #195020003
+* group.element[=].target.display = "Hypertrophic cardiomyopathy without obstruction"
+* group.element[=].target.relationship = #equivalent
+
 * group.element[+].code = #T-E0000
 * group.element[=].display = "Cell"
 * group.element[=].target.code = #4421005
@@ -43187,6 +43415,36 @@ Usage: #definition
 * group.element[=].display = "Within normal limits"
 * group.element[=].target.code = #125112009
 * group.element[=].target.display = "Within normal limits"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #A-04118
+* group.element[=].display = "Mitral valve prosthesis"
+* group.element[=].target.code = #17107009
+* group.element[=].target.display = "Mitral valve prosthesis"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-FBB69
+* group.element[=].display = "Tricuspid valve prosthesis"
+* group.element[=].target.code = #703201004
+* group.element[=].target.display = "Tricuspid valve prosthesis"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #A-04116
+* group.element[=].display = "Aortic valve prosthesis"
+* group.element[=].target.code = #84683006
+* group.element[=].target.display = "Aortic valve prosthesis"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-FFA5
+* group.element[=].display = "Mitral annuloplasty transvalvular implant"
+* group.element[=].target.code = #716779003
+* group.element[=].target.display = "Mitral annuloplasty transvalvular implant"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #R-FCF0D
+* group.element[=].display = "Mitral valve clip"
+* group.element[=].target.code = #464887003
+* group.element[=].target.display = "Mitral valve clip"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #P3-40011
@@ -43681,12 +43939,6 @@ Usage: #definition
 * group.element[=].target.display = "Diagnostic radiography with contrast media"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #P5-0808E
-* group.element[=].display = "CT without contrast"
-* group.element[=].target.code = #399331006
-* group.element[=].target.display = "CT without contrast"
-* group.element[=].target.relationship = #equivalent
-
 * group.element[+].code = #P5-08000
 * group.element[=].display = "Computed tomography"
 * group.element[=].target.code = #77477000
@@ -43745,30 +43997,6 @@ Usage: #definition
 * group.element[=].display = "Ratio of Aortic Valve Acceleration Time to Ejection Time"
 * group.element[=].target.code = #399058008
 * group.element[=].target.display = "Ratio of Aortic Valve Acceleration Time to Ejection Time"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #P5-09051
-* group.element[=].display = "Magnetic resonance imaging guidance"
-* group.element[=].target.code = #258177008
-* group.element[=].target.display = "Magnetic resonance imaging guidance"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #P5-080FF
-* group.element[=].display = "PET/CT FDG imaging of whole body"
-* group.element[=].target.code = #443271005
-* group.element[=].target.display = "PET/CT FDG imaging of whole body"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #P5-0907F
-* group.element[=].display = "Dynamic magnetic resonance imaging of knee"
-* group.element[=].target.code = #433139009
-* group.element[=].target.display = "Dynamic magnetic resonance imaging of knee"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #P5-70694
-* group.element[=].display = "Dynamic magnetic resonance imaging of pelvis"
-* group.element[=].target.code = #446315002
-* group.element[=].target.display = "Dynamic magnetic resonance imaging of pelvis"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #P1-32502
@@ -44761,12 +44989,6 @@ Usage: #definition
 * group.element[=].target.display = "class II antiarrhythmic agent"
 * group.element[=].target.relationship = #equivalent
 
-* group.element[+].code = #F-618B5
-* group.element[=].display = "Nitrate vasodilator"
-* group.element[=].target.code = #372700007
-* group.element[=].target.display = "Nitrate vasodilator"
-* group.element[=].target.relationship = #equivalent
-
 * group.element[+].code = #C-80150
 * group.element[=].display = "ACE inhibitor"
 * group.element[=].target.code = #41549009
@@ -44777,12 +44999,6 @@ Usage: #definition
 * group.element[=].display = "Angiotensin II receptor antagonist"
 * group.element[=].target.code = #96308008
 * group.element[=].target.display = "Angiotensin II receptor antagonist"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #C-80135
-* group.element[=].display = "Beta blocker"
-* group.element[=].target.code = #33252009
-* group.element[=].target.display = "Beta blocker"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #G-0383
@@ -45137,6 +45353,12 @@ Usage: #definition
 * group.element[=].display = "Quantity"
 * group.element[=].target.code = #246205007
 * group.element[=].target.display = "Quantity"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #P1-32512
+* group.element[=].display = "Bioprosthetic mitral valve prosthesis transcatheter implantation"
+* group.element[=].target.code = #1231726001
+* group.element[=].target.display = "Bioprosthetic mitral valve prosthesis transcatheter implantation"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #C-2310F
@@ -46643,12 +46865,6 @@ Usage: #definition
 * group.element[=].display = "Acute mitral regurgitation from papillary muscle rupture"
 * group.element[=].target.code = #371816003
 * group.element[=].target.display = "Acute mitral regurgitation from papillary muscle rupture"
-* group.element[=].target.relationship = #equivalent
-
-* group.element[+].code = #D3-20003
-* group.element[=].display = "Hypertrophic cardiomyopathy without obstruction"
-* group.element[=].target.code = #195020003
-* group.element[=].target.display = "Hypertrophic cardiomyopathy without obstruction"
 * group.element[=].target.relationship = #equivalent
 
 * group.element[+].code = #R-00359
