@@ -1,15 +1,17 @@
 import os
 from typing import List, Optional
+from doc_book_tools import getDataDicomTable
 
-from dicom_spec_parser import get_dicom_table
 
+PART = 'part05'
+TABLE_ID = '6.2-1'
 VR_TABLE_URL = 'https://dicom.nema.org/dicom/2013/output/chtml/part05/sect_6.2.html'
 CODESYSTEM_NAME = 'DICOMVRencodings'
 CODESYSTEM_ID   = 'dicom-vr-encodings'
 CODESYSTEM_TITLE = 'DICOM® Value Representations'
 CODESYSTEM_DESCRIPTION = 'DICOM® Value Representations extractd from (DICOM PS5.6.2 Table A-1)[https://dicom.nema.org/dicom/2013/output/chtml/part05/sect_6.2.html].'
 
-def writeVrCodeSystem( fsh_path:str ) -> None:
+def writeVrCodeSystem( fsh_path:str, dicom_path:str ) -> None:
     # Write the code system for the value respresentations
     # Input: data_elements - list of data elements
     # Output: None
@@ -31,11 +33,11 @@ def writeVrCodeSystem( fsh_path:str ) -> None:
         
         fsh_file.write('\n')
         
-        value_list = getValues()
+        title, value_list = getDataDicomTable(dicom_path, PART, TABLE_ID)
         for value in value_list:
-            fsh_file.write(f'* #{value[0]} "{value[2]}" \n')
+            fsh_file.write(f'* #{value[0]} "{value[1]}" \n')
             fsh_file.write(f'"""\n')
-            fsh_file.write(f'{value[1]}\n')
+            fsh_file.write(f'{value[2]}\n')
             fsh_file.write(f'"""\n')
             fsh_file.write(f'\n')    
 

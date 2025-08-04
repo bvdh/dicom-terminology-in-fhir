@@ -112,9 +112,9 @@ Description: "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3."
 
 * #1.2.840.10008.6.1.49 "-" "-"
 
-* #1.2.840.10008.6.1.50 "Cardiology Measurement Unit (Retired)" "Cardiology Measurement Unit (Retired) with identifier CID 3082 (RET (2011))"
+* #1.2.840.10008.6.1.50 "PS3.16" "PS3.16 with identifier PS3.16 (RET (2011))"
 * #1.2.840.10008.6.1.50 ^property[0].code = #identifier
-* #1.2.840.10008.6.1.50 ^property[0].valueString  = "CID 3082"
+* #1.2.840.10008.6.1.50 ^property[0].valueString  = "PS3.16"
 * #1.2.840.10008.6.1.50 ^property[1].code = #retired
 * #1.2.840.10008.6.1.50 ^property[1].valueBoolean = true
 
@@ -136,9 +136,9 @@ Description: "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3."
 
 * #1.2.840.10008.6.1.59 "-" "-"
 
-* #1.2.840.10008.6.1.60 "XYZ Electrode Placement Values (Retired)" "XYZ Electrode Placement Values (Retired) with identifier CID 3264 (RET (2013))"
+* #1.2.840.10008.6.1.60 "PS3.16" "PS3.16 with identifier PS3.16 (RET (2013))"
 * #1.2.840.10008.6.1.60 ^property[0].code = #identifier
-* #1.2.840.10008.6.1.60 ^property[0].valueString  = "CID 3264"
+* #1.2.840.10008.6.1.60 ^property[0].valueString  = "PS3.16"
 * #1.2.840.10008.6.1.60 ^property[1].code = #retired
 * #1.2.840.10008.6.1.60 ^property[1].valueBoolean = true
 
@@ -396,15 +396,15 @@ Description: "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3."
 
 * #1.2.840.10008.6.1.187 "-" "-"
 
-* #1.2.840.10008.6.1.188 "Diagnosis (Retired)" "Diagnosis (Retired) with identifier CID 3673 (RET (2013))"
+* #1.2.840.10008.6.1.188 "PS3.16" "PS3.16 with identifier PS3.16 (RET (2013))"
 * #1.2.840.10008.6.1.188 ^property[0].code = #identifier
-* #1.2.840.10008.6.1.188 ^property[0].valueString  = "CID 3673"
+* #1.2.840.10008.6.1.188 ^property[0].valueString  = "PS3.16"
 * #1.2.840.10008.6.1.188 ^property[1].code = #retired
 * #1.2.840.10008.6.1.188 ^property[1].valueBoolean = true
 
-* #1.2.840.10008.6.1.189 "Other Filters (Retired)" "Other Filters (Retired) with identifier CID 3675 (RET (2013))"
+* #1.2.840.10008.6.1.189 "PS3.16" "PS3.16 with identifier PS3.16 (RET (2013))"
 * #1.2.840.10008.6.1.189 ^property[0].code = #identifier
-* #1.2.840.10008.6.1.189 ^property[0].valueString  = "CID 3675"
+* #1.2.840.10008.6.1.189 ^property[0].valueString  = "PS3.16"
 * #1.2.840.10008.6.1.189 ^property[1].code = #retired
 * #1.2.840.10008.6.1.189 ^property[1].valueBoolean = true
 
@@ -414,9 +414,9 @@ Description: "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3."
 
 * #1.2.840.10008.6.1.192 "-" "-"
 
-* #1.2.840.10008.6.1.193 "ECG Morphology Description (Retired)" "ECG Morphology Description (Retired) with identifier CID 3679 (RET (2013))"
+* #1.2.840.10008.6.1.193 "PS3.16" "PS3.16 with identifier PS3.16 (RET (2013))"
 * #1.2.840.10008.6.1.193 ^property[0].code = #identifier
-* #1.2.840.10008.6.1.193 ^property[0].valueString  = "CID 3679"
+* #1.2.840.10008.6.1.193 ^property[0].valueString  = "PS3.16"
 * #1.2.840.10008.6.1.193 ^property[1].code = #retired
 * #1.2.840.10008.6.1.193 ^property[1].valueBoolean = true
 
@@ -424,33 +424,33 @@ Description: "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3."
 
 * #1.2.840.10008.6.1.195 "-" "-"
 
-* #1.2.840.10008.6.1.196 "Probability (Retired)" "Probability (Retired) with identifier CID 3682 (RET (2013))"
+* #1.2.840.10008.6.1.196 "PS3.16" "PS3.16 with identifier PS3.16 (RET (2013))"
 * #1.2.840.10008.6.1.196 ^property[0].code = #identifier
-* #1.2.840.10008.6.1.196 ^property[0].valueString  = "CID 3682"
+* #1.2.840.10008.6.1.196 ^property[0].valueString  = "PS3.16"
 * #1.2.840.10008.6.1.196 ^property[1].code = #retired
 * #1.2.840.10008.6.1.196 ^property[1].valueBoolean = true
 
-* #1.2.840.10008.6.1.197 "Modifier (Retired)" "Modifier (Retired) with identifier CID 3683 (RET (2013))"
+* #1.2.840.10008.6.1.197 "PS3.16" "PS3.16 with identifier PS3.16 (RET (2013))"
 * #1.2.840.10008.6.1.197 ^property[0].code = #identifier
-* #1.2.840.10008.6.1.197 ^property[0].valueString  = "CID 3683"
+* #1.2.840.10008.6.1.197 ^property[0].valueString  = "PS3.16"
 * #1.2.840.10008.6.1.197 ^property[1].code = #retired
 * #1.2.840.10008.6.1.197 ^property[1].valueBoolean = true
 
-* #1.2.840.10008.6.1.198 "Trend (Retired)" "Trend (Retired) with identifier CID 3684 (RET (2013))"
+* #1.2.840.10008.6.1.198 "PS3.16" "PS3.16 with identifier PS3.16 (RET (2013))"
 * #1.2.840.10008.6.1.198 ^property[0].code = #identifier
-* #1.2.840.10008.6.1.198 ^property[0].valueString  = "CID 3684"
+* #1.2.840.10008.6.1.198 ^property[0].valueString  = "PS3.16"
 * #1.2.840.10008.6.1.198 ^property[1].code = #retired
 * #1.2.840.10008.6.1.198 ^property[1].valueBoolean = true
 
-* #1.2.840.10008.6.1.199 "Conjunctive Term (Retired)" "Conjunctive Term (Retired) with identifier CID 3685 (RET (2013))"
+* #1.2.840.10008.6.1.199 "PS3.16" "PS3.16 with identifier PS3.16 (RET (2013))"
 * #1.2.840.10008.6.1.199 ^property[0].code = #identifier
-* #1.2.840.10008.6.1.199 ^property[0].valueString  = "CID 3685"
+* #1.2.840.10008.6.1.199 ^property[0].valueString  = "PS3.16"
 * #1.2.840.10008.6.1.199 ^property[1].code = #retired
 * #1.2.840.10008.6.1.199 ^property[1].valueBoolean = true
 
-* #1.2.840.10008.6.1.200 "ECG Interpretive Statement (Retired)" "ECG Interpretive Statement (Retired) with identifier CID 3686 (RET (2013))"
+* #1.2.840.10008.6.1.200 "PS3.16" "PS3.16 with identifier PS3.16 (RET (2013))"
 * #1.2.840.10008.6.1.200 ^property[0].code = #identifier
-* #1.2.840.10008.6.1.200 ^property[0].valueString  = "CID 3686"
+* #1.2.840.10008.6.1.200 ^property[0].valueString  = "PS3.16"
 * #1.2.840.10008.6.1.200 ^property[1].code = #retired
 * #1.2.840.10008.6.1.200 ^property[1].valueBoolean = true
 
@@ -494,9 +494,9 @@ Description: "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3."
 
 * #1.2.840.10008.6.1.220 "-" "-"
 
-* #1.2.840.10008.6.1.221 "Cardiac History Date (Retired)" "Cardiac History Date (Retired) with identifier CID 3720 (RET (2007))"
+* #1.2.840.10008.6.1.221 "PS3.16" "PS3.16 with identifier PS3.16 (RET (2007))"
 * #1.2.840.10008.6.1.221 ^property[0].code = #identifier
-* #1.2.840.10008.6.1.221 ^property[0].valueString  = "CID 3720"
+* #1.2.840.10008.6.1.221 ^property[0].valueString  = "PS3.16"
 * #1.2.840.10008.6.1.221 ^property[1].code = #retired
 * #1.2.840.10008.6.1.221 ^property[1].valueBoolean = true
 
@@ -1120,9 +1120,9 @@ Description: "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3."
 
 * #1.2.840.10008.6.1.531 "-" "-"
 
-* #1.2.840.10008.6.1.532 "Non-DICOM Output Types (Retired)" "Non-DICOM Output Types (Retired) with identifier CID 9232 (RET (2011))"
+* #1.2.840.10008.6.1.532 "PS3.16" "PS3.16 with identifier PS3.16 (RET (2011))"
 * #1.2.840.10008.6.1.532 ^property[0].code = #identifier
-* #1.2.840.10008.6.1.532 ^property[0].valueString  = "CID 9232"
+* #1.2.840.10008.6.1.532 ^property[0].valueString  = "PS3.16"
 * #1.2.840.10008.6.1.532 ^property[1].code = #retired
 * #1.2.840.10008.6.1.532 ^property[1].valueBoolean = true
 
@@ -2052,9 +2052,9 @@ Description: "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3."
 
 * #1.2.840.10008.6.1.1097 "-" "-"
 
-* #1.2.840.10008.6.1.1098 "Phase of Imaging Procedure Requiring Anesthesia (Retired)" "Phase of Imaging Procedure Requiring Anesthesia (Retired) with identifier CID 633 (Retired)"
+* #1.2.840.10008.6.1.1098 "PS3.16" "PS3.16 with identifier PS3.16 (Retired)"
 * #1.2.840.10008.6.1.1098 ^property[0].code = #identifier
-* #1.2.840.10008.6.1.1098 ^property[0].valueString  = "CID 633"
+* #1.2.840.10008.6.1.1098 ^property[0].valueString  = "PS3.16"
 * #1.2.840.10008.6.1.1098 ^property[1].code = #retired
 * #1.2.840.10008.6.1.1098 ^property[1].valueBoolean = true
 
@@ -2362,9 +2362,9 @@ Description: "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3."
 
 * #1.2.840.10008.6.1.1250 "-" "-"
 
-* #1.2.840.10008.6.1.1251 "Time Relative to Procedure (Retired)" "Time Relative to Procedure (Retired) with identifier CID 61 (Retired)"
+* #1.2.840.10008.6.1.1251 "PS3.16" "PS3.16 with identifier PS3.16 (Retired)"
 * #1.2.840.10008.6.1.1251 ^property[0].code = #identifier
-* #1.2.840.10008.6.1.1251 ^property[0].valueString  = "CID 61"
+* #1.2.840.10008.6.1.1251 ^property[0].valueString  = "PS3.16"
 * #1.2.840.10008.6.1.1251 ^property[1].code = #retired
 * #1.2.840.10008.6.1.1251 ^property[1].valueBoolean = true
 
@@ -2688,9 +2688,9 @@ Description: "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3."
 
 * #1.2.840.10008.6.1.1411 "-" "-"
 
-* #1.2.840.10008.6.1.1412 "Left Ventricle Myocardial Wall 16 Segment Model (Retired)" "Left Ventricle Myocardial Wall 16 Segment Model (Retired) with identifier CID 3780 (Retired)"
+* #1.2.840.10008.6.1.1412 "PS3.16" "PS3.16 with identifier PS3.16 (Retired)"
 * #1.2.840.10008.6.1.1412 ^property[0].code = #identifier
-* #1.2.840.10008.6.1.1412 ^property[0].valueString  = "CID 3780"
+* #1.2.840.10008.6.1.1412 ^property[0].valueString  = "PS3.16"
 * #1.2.840.10008.6.1.1412 ^property[1].code = #retired
 * #1.2.840.10008.6.1.1412 ^property[1].valueBoolean = true
 
@@ -2933,3 +2933,31 @@ Description: "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3."
 * #1.2.840.10008.6.1.1531 "-" "-"
 
 * #1.2.840.10008.6.1.1532 "-" "-"
+
+* #1.2.840.10008.6.1.1533 "-" "-"
+
+* #1.2.840.10008.6.1.1534 "-" "-"
+
+* #1.2.840.10008.6.1.1535 "-" "-"
+
+* #1.2.840.10008.6.1.1536 "-" "-"
+
+* #1.2.840.10008.6.1.1537 "-" "-"
+
+* #1.2.840.10008.6.1.1538 "-" "-"
+
+* #1.2.840.10008.6.1.1539 "-" "-"
+
+* #1.2.840.10008.6.1.1540 "-" "-"
+
+* #1.2.840.10008.6.1.1541 "-" "-"
+
+* #1.2.840.10008.6.1.1542 "-" "-"
+
+* #1.2.840.10008.6.1.1543 "-" "-"
+
+* #1.2.840.10008.6.1.1544 "-" "-"
+
+* #1.2.840.10008.6.1.1545 "-" "-"
+
+* #1.2.840.10008.6.1.1546 "-" "-"

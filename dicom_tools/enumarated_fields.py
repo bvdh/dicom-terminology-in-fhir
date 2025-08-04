@@ -1,15 +1,16 @@
 import os
-from dicom_spec_parser import get_dicom_enumeration
+from doc_book_tools import getDataDicomTable
 
-
-TABLE_URI = 'https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.11.html#sect_C.11.1.1.2'
-CODESYSTEM_NAME = 'DICOMModalityLutAndRescaleType'
-CODESYSTEM_ID   = 'dicom-modality-lut-and-rescale-type'
-CODESYSTEM_TITLE = 'DICOM® Modality LUT and Rescale Type'
+PART                   = 'part03'
+TABLE_ID               = 'C.11-1'
+TABLE_URI              = 'https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.11.html#sect_C.11.1.1.2'
+CODESYSTEM_NAME        = 'DICOMModalityLutAndRescaleType'
+CODESYSTEM_ID          = 'dicom-modality-lut-and-rescale-type'
+CODESYSTEM_TITLE       = 'DICOM® Modality LUT and Rescale Type'
 CODESYSTEM_DESCRIPTION = 'DICOM® Modality LUT and Rescale Type extracted from DICOM PS3.3 Table C.11-1.'
 
-def writeEnumeratedFields( fsh_path:str ):
-    values = get_dicom_enumeration( TABLE_URI)
+def writeEnumeratedFields( fsh_path:str, dicom_path:str ):
+    title, values = getDataDicomTable( dicom_path, 'part03', 'C.11-1')
     
     fsh_filename = f'CodeSystem-{CODESYSTEM_ID}.fsh'
     print(f'Generating FHIR Shorthand CodeSystem {CODESYSTEM_ID} in {fsh_path}/{fsh_filename}')

@@ -1,14 +1,17 @@
 import os
 from typing import List, Optional
 from dicom_spec_parser import get_dicom_table
+from doc_book_tools import getDataDicomTable
 
+PART = 'part06'
+TABLE_ID = 'A-3'
 CI_UID_TABLE_URL = 'https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_A.html#table_A-3'
 CODESYSTEM_NAME = 'DICOM_Context_Group_UIDs'
 CODESYSTEM_ID = 'dicom-uids-context-group'
 CODESYSTEM_TITLE = 'DICOM® Context Group UID Values'
 CODESYSTEM_DESCRIPTION = 'DICOM® Context Group UID Values from DICOM PS3.6 Table A-3.'
 
-def writeContextUidsCodeSystem( fsh_path:str ) -> None:
+def writeContextUidsCodeSystem( fsh_path:str, dicom_path:str ) -> None:
     # Write the code system for the data elements
     # This is a helper function for writeDataElements
     # Input: data_elements - list of data elements
@@ -38,7 +41,8 @@ def writeContextUidsCodeSystem( fsh_path:str ) -> None:
         
         fsh_file.write('\n')
         
-        value_list = getContextGroupUidValues()
+        title, value_list = getDataDicomTable(dicom_path, PART, TABLE_ID)
+
         for value in value_list:
             if len(value[0])>0:
                 fsh_file.write(f'\n')
@@ -51,40 +55,40 @@ def writeContextUidsCodeSystem( fsh_path:str ) -> None:
                 else:
                     fsh_file.write(f'* #{value[0]} "-" "-"\n')
 
-def getContextGroupUidValues( ) -> List[List[str]]:
-    table = get_dicom_table(CI_UID_TABLE_URL)
-    values: List[List[str]] = []
+# def getContextGroupUidValues( ) -> List[List[str]]:
+#     table = get_dicom_table(CI_UID_TABLE_URL)
+#     values: List[List[str]] = []
     
-    if not table:
-        print('Error: Could not find uid table')
-        return []
+#     if not table:
+#         print('Error: Could not find uid table')
+#         return []
     
-    for element in table.find_all('tr'):
-        element_fields = element.find_all('td')
-        if len(element_fields):
-            values.append([
-                element_fields[0].text.encode("ascii",'ignore').decode('ascii').strip(),
-                element_fields[1].text.encode("ascii",'ignore').decode('ascii').strip(),
-                element_fields[2].text.encode("ascii",'ignore').decode('ascii').strip(),
-                element_fields[3].text.encode("ascii",'ignore').decode('ascii').strip(),
-            ])
-    return values
+#     for element in table.find_all('tr'):
+#         element_fields = element.find_all('td')
+#         if len(element_fields):
+#             values.append([
+#                 element_fields[0].text.encode("ascii",'ignore').decode('ascii').strip(),
+#                 element_fields[1].text.encode("ascii",'ignore').decode('ascii').strip(),
+#                 element_fields[2].text.encode("ascii",'ignore').decode('ascii').strip(),
+#                 element_fields[3].text.encode("ascii",'ignore').decode('ascii').strip(),
+#             ])
+#     return values
 
-def getFrameOfReferenceUidValues( ) -> List[List[str]]:
-    table = get_dicom_table(FR_UID_TABLE_URL)
-    values: List[List[str]] = []
+# def getFrameOfReferenceUidValues( ) -> List[List[str]]:
+#     table = get_dicom_table(FR_UID_TABLE_URL)
+#     values: List[List[str]] = []
     
-    if not table:
-        print('Error: Could not find uid table')
-        return []
+#     if not table:
+#         print('Error: Could not find uid table')
+#         return []
     
-    for element in table.find_all('tr'):
-        element_fields = element.find_all('td')
-        if len(element_fields):
-            values.append([
-                element_fields[0].text.replace('â\x80\x8b', '').strip(),
-                element_fields[1].text.strip(),
-                element_fields[2].text.replace('â\x80\x8b', '').strip(),
-                element_fields[3].text.strip()
-            ])
-    return values
+#     for element in table.find_all('tr'):
+#         element_fields = element.find_all('td')
+#         if len(element_fields):
+#             values.append([
+#                 element_fields[0].text.replace('â\x80\x8b', '').strip(),
+#                 element_fields[1].text.strip(),
+#                 element_fields[2].text.replace('â\x80\x8b', '').strip(),
+#                 element_fields[3].text.strip()
+#             ])
+#     return values

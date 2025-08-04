@@ -5929,7 +5929,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #IndependentVariableForPolynomialFit ^property[2].code = #retired
 * #IndependentVariableForPolynomialFit ^property[2].valueBoolean = false
 
-* #PolynomialCoefficients "PolynomialâCoefficients" "PolynomialâCoefficients"
+* #PolynomialCoefficients "PolynomialCoefficients" "PolynomialCoefficients"
 * #PolynomialCoefficients ^property[0].code = #tag
 * #PolynomialCoefficients ^property[0].valueString  = "0014605F"
 * #PolynomialCoefficients ^property[1].code = #vr
@@ -6169,7 +6169,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RecommendedExposureIndex ^property[2].code = #retired
 * #RecommendedExposureIndex ^property[2].valueBoolean = false
 
-* #ISOSpeed "ISO Speedâ" "ISO Speedâ"
+* #ISOSpeed "ISO Speed" "ISO Speed"
 * #ISOSpeed ^property[0].code = #tag
 * #ISOSpeed ^property[0].valueString  = "0016001D"
 * #ISOSpeed ^property[1].code = #vr
@@ -6177,7 +6177,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ISOSpeed ^property[2].code = #retired
 * #ISOSpeed ^property[2].valueBoolean = false
 
-* #ISOSpeedLatitudeyyy "ISO Speedââ Latitude yyy" "ISO Speedââ Latitude yyy"
+* #ISOSpeedLatitudeyyy "ISO Speed Latitude yyy" "ISO Speed Latitude yyy"
 * #ISOSpeedLatitudeyyy ^property[0].code = #tag
 * #ISOSpeedLatitudeyyy ^property[0].valueString  = "0016001E"
 * #ISOSpeedLatitudeyyy ^property[1].code = #vr
@@ -6185,7 +6185,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ISOSpeedLatitudeyyy ^property[2].code = #retired
 * #ISOSpeedLatitudeyyy ^property[2].valueBoolean = false
 
-* #ISOSpeedLatitudezzz "ISO Speedââ Latitude zzz" "ISO Speedââ Latitude zzz"
+* #ISOSpeedLatitudezzz "ISO Speed Latitude zzz" "ISO Speed Latitude zzz"
 * #ISOSpeedLatitudezzz ^property[0].code = #tag
 * #ISOSpeedLatitudezzz ^property[0].valueString  = "0016001F"
 * #ISOSpeedLatitudezzz ^property[1].code = #vr
@@ -6417,7 +6417,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #DigitalZoomRatio ^property[2].code = #retired
 * #DigitalZoomRatio ^property[2].valueBoolean = false
 
-* #FocalLengthIn35mmFilm "Focal Length In 35mmâ Film" "Focal Length In 35mmâ Film"
+* #FocalLengthIn35mmFilm "Focal Length In 35mm Film" "Focal Length In 35mm Film"
 * #FocalLengthIn35mmFilm ^property[0].code = #tag
 * #FocalLengthIn35mmFilm ^property[0].valueString  = "00160045"
 * #FocalLengthIn35mmFilm ^property[1].code = #vr
@@ -6545,7 +6545,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSVersionID ^property[2].code = #retired
 * #GPSVersionID ^property[2].valueBoolean = false
 
-* #GPSLatitudeRef "GPS Latitudeâ Ref" "GPS Latitudeâ Ref"
+* #GPSLatitudeRef "GPS Latitude Ref" "GPS Latitude Ref"
 * #GPSLatitudeRef ^property[0].code = #tag
 * #GPSLatitudeRef ^property[0].valueString  = "00160071"
 * #GPSLatitudeRef ^property[1].code = #vr
@@ -6553,7 +6553,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSLatitudeRef ^property[2].code = #retired
 * #GPSLatitudeRef ^property[2].valueBoolean = false
 
-* #GPSLatitude "GPS Latitudeâ" "GPS Latitudeâ"
+* #GPSLatitude "GPS Latitude" "GPS Latitude"
 * #GPSLatitude ^property[0].code = #tag
 * #GPSLatitude ^property[0].valueString  = "00160072"
 * #GPSLatitude ^property[1].code = #vr
@@ -6577,7 +6577,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSLongitude ^property[2].code = #retired
 * #GPSLongitude ^property[2].valueBoolean = false
 
-* #GPSAltitudeRef "GPS Altitudeâ Ref" "GPS Altitudeâ Ref"
+* #GPSAltitudeRef "GPS Altitude Ref" "GPS Altitude Ref"
 * #GPSAltitudeRef ^property[0].code = #tag
 * #GPSAltitudeRef ^property[0].valueString  = "00160075"
 * #GPSAltitudeRef ^property[1].code = #vr
@@ -6585,7 +6585,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSAltitudeRef ^property[2].code = #retired
 * #GPSAltitudeRef ^property[2].valueBoolean = false
 
-* #GPSAltitude "GPS Altitudeâ" "GPS Altitudeâ"
+* #GPSAltitude "GPS Altitude" "GPS Altitude"
 * #GPSAltitude ^property[0].code = #tag
 * #GPSAltitude ^property[0].valueString  = "00160076"
 * #GPSAltitude ^property[1].code = #vr
@@ -6593,7 +6593,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSAltitude ^property[2].code = #retired
 * #GPSAltitude ^property[2].valueBoolean = false
 
-* #GPSTimeStamp "GPS Timeâ Stamp" "GPS Timeâ Stamp"
+* #GPSTimeStamp "GPS Time Stamp" "GPS Time Stamp"
 * #GPSTimeStamp ^property[0].code = #tag
 * #GPSTimeStamp ^property[0].valueString  = "00160077"
 * #GPSTimeStamp ^property[1].code = #vr
@@ -6617,7 +6617,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSStatus ^property[2].code = #retired
 * #GPSStatus ^property[2].valueBoolean = false
 
-* #GPSMeasureMode "GPS Measure âMode" "GPS Measure âMode"
+* #GPSMeasureMode "GPS Measure Mode" "GPS Measure Mode"
 * #GPSMeasureMode ^property[0].code = #tag
 * #GPSMeasureMode ^property[0].valueString  = "0016007A"
 * #GPSMeasureMode ^property[1].code = #vr
@@ -6633,7 +6633,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSDOP ^property[2].code = #retired
 * #GPSDOP ^property[2].valueBoolean = false
 
-* #GPSSpeedRef "GPS Speedâ Ref" "GPS Speedâ Ref"
+* #GPSSpeedRef "GPS Speed Ref" "GPS Speed Ref"
 * #GPSSpeedRef ^property[0].code = #tag
 * #GPSSpeedRef ^property[0].valueString  = "0016007C"
 * #GPSSpeedRef ^property[1].code = #vr
@@ -6641,7 +6641,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSSpeedRef ^property[2].code = #retired
 * #GPSSpeedRef ^property[2].valueBoolean = false
 
-* #GPSSpeed "GPS Speedâ" "GPS Speedâ"
+* #GPSSpeed "GPS Speed" "GPS Speed"
 * #GPSSpeed ^property[0].code = #tag
 * #GPSSpeed ^property[0].valueString  = "0016007D"
 * #GPSSpeed ^property[1].code = #vr
@@ -6649,7 +6649,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSSpeed ^property[2].code = #retired
 * #GPSSpeed ^property[2].valueBoolean = false
 
-* #GPSTrackRef "GPS Track âRef" "GPS Track âRef"
+* #GPSTrackRef "GPS Track Ref" "GPS Track Ref"
 * #GPSTrackRef ^property[0].code = #tag
 * #GPSTrackRef ^property[0].valueString  = "0016007E"
 * #GPSTrackRef ^property[1].code = #vr
@@ -6665,7 +6665,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSTrack ^property[2].code = #retired
 * #GPSTrack ^property[2].valueBoolean = false
 
-* #GPSImgDirectionRef "GPS Imgâ Direction Ref" "GPS Imgâ Direction Ref"
+* #GPSImgDirectionRef "GPS Img Direction Ref" "GPS Img Direction Ref"
 * #GPSImgDirectionRef ^property[0].code = #tag
 * #GPSImgDirectionRef ^property[0].valueString  = "00160080"
 * #GPSImgDirectionRef ^property[1].code = #vr
@@ -6673,7 +6673,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSImgDirectionRef ^property[2].code = #retired
 * #GPSImgDirectionRef ^property[2].valueBoolean = false
 
-* #GPSImgDirection "GPS Imgâ Direction" "GPS Imgâ Direction"
+* #GPSImgDirection "GPS Img Direction" "GPS Img Direction"
 * #GPSImgDirection ^property[0].code = #tag
 * #GPSImgDirection ^property[0].valueString  = "00160081"
 * #GPSImgDirection ^property[1].code = #vr
@@ -6681,7 +6681,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSImgDirection ^property[2].code = #retired
 * #GPSImgDirection ^property[2].valueBoolean = false
 
-* #GPSMapDatum "GPS Mapâ Datum" "GPS Mapâ Datum"
+* #GPSMapDatum "GPS Map Datum" "GPS Map Datum"
 * #GPSMapDatum ^property[0].code = #tag
 * #GPSMapDatum ^property[0].valueString  = "00160082"
 * #GPSMapDatum ^property[1].code = #vr
@@ -6689,7 +6689,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSMapDatum ^property[2].code = #retired
 * #GPSMapDatum ^property[2].valueBoolean = false
 
-* #GPSDestLatitudeRef "GPS Dest âLatitude Ref" "GPS Dest âLatitude Ref"
+* #GPSDestLatitudeRef "GPS Dest Latitude Ref" "GPS Dest Latitude Ref"
 * #GPSDestLatitudeRef ^property[0].code = #tag
 * #GPSDestLatitudeRef ^property[0].valueString  = "00160083"
 * #GPSDestLatitudeRef ^property[1].code = #vr
@@ -6697,7 +6697,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSDestLatitudeRef ^property[2].code = #retired
 * #GPSDestLatitudeRef ^property[2].valueBoolean = false
 
-* #GPSDestLatitude "GPS Destâ Latitude" "GPS Destâ Latitude"
+* #GPSDestLatitude "GPS Dest Latitude" "GPS Dest Latitude"
 * #GPSDestLatitude ^property[0].code = #tag
 * #GPSDestLatitude ^property[0].valueString  = "00160084"
 * #GPSDestLatitude ^property[1].code = #vr
@@ -6705,7 +6705,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSDestLatitude ^property[2].code = #retired
 * #GPSDestLatitude ^property[2].valueBoolean = false
 
-* #GPSDestLongitudeRef "GPS Destâ Longitude Ref" "GPS Destâ Longitude Ref"
+* #GPSDestLongitudeRef "GPS Dest Longitude Ref" "GPS Dest Longitude Ref"
 * #GPSDestLongitudeRef ^property[0].code = #tag
 * #GPSDestLongitudeRef ^property[0].valueString  = "00160085"
 * #GPSDestLongitudeRef ^property[1].code = #vr
@@ -6713,7 +6713,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSDestLongitudeRef ^property[2].code = #retired
 * #GPSDestLongitudeRef ^property[2].valueBoolean = false
 
-* #GPSDestLongitude "GPS Dest âLongitude" "GPS Dest âLongitude"
+* #GPSDestLongitude "GPS Dest Longitude" "GPS Dest Longitude"
 * #GPSDestLongitude ^property[0].code = #tag
 * #GPSDestLongitude ^property[0].valueString  = "00160086"
 * #GPSDestLongitude ^property[1].code = #vr
@@ -6721,7 +6721,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSDestLongitude ^property[2].code = #retired
 * #GPSDestLongitude ^property[2].valueBoolean = false
 
-* #GPSDestBearingRef "GPS Dest âBearing Ref" "GPS Dest âBearing Ref"
+* #GPSDestBearingRef "GPS Dest Bearing Ref" "GPS Dest Bearing Ref"
 * #GPSDestBearingRef ^property[0].code = #tag
 * #GPSDestBearingRef ^property[0].valueString  = "00160087"
 * #GPSDestBearingRef ^property[1].code = #vr
@@ -6729,7 +6729,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSDestBearingRef ^property[2].code = #retired
 * #GPSDestBearingRef ^property[2].valueBoolean = false
 
-* #GPSDestBearing "GPS Dest âBearing" "GPS Dest âBearing"
+* #GPSDestBearing "GPS Dest Bearing" "GPS Dest Bearing"
 * #GPSDestBearing ^property[0].code = #tag
 * #GPSDestBearing ^property[0].valueString  = "00160088"
 * #GPSDestBearing ^property[1].code = #vr
@@ -6737,7 +6737,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSDestBearing ^property[2].code = #retired
 * #GPSDestBearing ^property[2].valueBoolean = false
 
-* #GPSDestDistanceRef "GPS Dest âDistance Ref" "GPS Dest âDistance Ref"
+* #GPSDestDistanceRef "GPS Dest Distance Ref" "GPS Dest Distance Ref"
 * #GPSDestDistanceRef ^property[0].code = #tag
 * #GPSDestDistanceRef ^property[0].valueString  = "00160089"
 * #GPSDestDistanceRef ^property[1].code = #vr
@@ -6745,7 +6745,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSDestDistanceRef ^property[2].code = #retired
 * #GPSDestDistanceRef ^property[2].valueBoolean = false
 
-* #GPSDestDistance "GPS Destâ Distance" "GPS Destâ Distance"
+* #GPSDestDistance "GPS Dest Distance" "GPS Dest Distance"
 * #GPSDestDistance ^property[0].code = #tag
 * #GPSDestDistance ^property[0].valueString  = "0016008A"
 * #GPSDestDistance ^property[1].code = #vr
@@ -6753,7 +6753,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSDestDistance ^property[2].code = #retired
 * #GPSDestDistance ^property[2].valueBoolean = false
 
-* #GPSProcessingMethod "GPS Processingâ Method" "GPS Processingâ Method"
+* #GPSProcessingMethod "GPS Processing Method" "GPS Processing Method"
 * #GPSProcessingMethod ^property[0].code = #tag
 * #GPSProcessingMethod ^property[0].valueString  = "0016008B"
 * #GPSProcessingMethod ^property[1].code = #vr
@@ -6761,7 +6761,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSProcessingMethod ^property[2].code = #retired
 * #GPSProcessingMethod ^property[2].valueBoolean = false
 
-* #GPSAreaInformation "GPS Area âInformation" "GPS Area âInformation"
+* #GPSAreaInformation "GPS Area Information" "GPS Area Information"
 * #GPSAreaInformation ^property[0].code = #tag
 * #GPSAreaInformation ^property[0].valueString  = "0016008C"
 * #GPSAreaInformation ^property[1].code = #vr
@@ -6769,7 +6769,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GPSAreaInformation ^property[2].code = #retired
 * #GPSAreaInformation ^property[2].valueBoolean = false
 
-* #GPSDateStamp "GPS Dateâ Stamp" "GPS Dateâ Stamp"
+* #GPSDateStamp "GPS Date Stamp" "GPS Date Stamp"
 * #GPSDateStamp ^property[0].code = #tag
 * #GPSDateStamp ^property[0].valueString  = "0016008D"
 * #GPSDateStamp ^property[1].code = #vr
@@ -8001,7 +8001,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #Exposure ^property[2].code = #retired
 * #Exposure ^property[2].valueBoolean = false
 
-* #ExposureInuAs "Exposure in ÂµAs" "Exposure in ÂµAs"
+* #ExposureInuAs "Exposure in As" "Exposure in As"
 * #ExposureInuAs ^property[0].code = #tag
 * #ExposureInuAs ^property[0].valueString  = "00181153"
 * #ExposureInuAs ^property[1].code = #vr
@@ -10065,7 +10065,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PhototimerSetting ^property[2].code = #retired
 * #PhototimerSetting ^property[2].valueBoolean = false
 
-* #ExposureTimeInuS "Exposure Time in ÂµS" "Exposure Time in ÂµS"
+* #ExposureTimeInuS "Exposure Time in S" "Exposure Time in S"
 * #ExposureTimeInuS ^property[0].code = #tag
 * #ExposureTimeInuS ^property[0].valueString  = "00188150"
 * #ExposureTimeInuS ^property[1].code = #vr
@@ -10073,7 +10073,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ExposureTimeInuS ^property[2].code = #retired
 * #ExposureTimeInuS ^property[2].valueBoolean = false
 
-* #XRayTubeCurrentInuA "X-Ray Tube Current in ÂµA" "X-Ray Tube Current in ÂµA"
+* #XRayTubeCurrentInuA "X-Ray Tube Current in A" "X-Ray Tube Current in A"
 * #XRayTubeCurrentInuA ^property[0].code = #tag
 * #XRayTubeCurrentInuA ^property[0].valueString  = "00188151"
 * #XRayTubeCurrentInuA ^property[1].code = #vr
@@ -23321,6 +23321,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #OrganizationalRoleCodeSequence ^property[2].code = #retired
 * #OrganizationalRoleCodeSequence ^property[2].valueBoolean = false
 
+* #RTAssertionsSequence "RT Assertions Sequence" "RT Assertions Sequence"
+* #RTAssertionsSequence ^property[0].code = #tag
+* #RTAssertionsSequence ^property[0].valueString  = "00440110"
+* #RTAssertionsSequence ^property[1].code = #vr
+* #RTAssertionsSequence ^property[1].valueString = "SQ"
+* #RTAssertionsSequence ^property[2].code = #retired
+* #RTAssertionsSequence ^property[2].valueBoolean = false
+
 * #LensDescription "Lens Description" "Lens Description"
 * #LensDescription ^property[0].code = #tag
 * #LensDescription ^property[0].valueString  = "00460012"
@@ -28433,7 +28441,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #HangingProtocolCreator ^property[2].code = #retired
 * #HangingProtocolCreator ^property[2].valueBoolean = false
 
-* #HangingProtocolCreationDateTime "Hanging Protocol Creation DateâTime" "Hanging Protocol Creation DateâTime"
+* #HangingProtocolCreationDateTime "Hanging Protocol Creation DateTime" "Hanging Protocol Creation DateTime"
 * #HangingProtocolCreationDateTime ^property[0].code = #tag
 * #HangingProtocolCreationDateTime ^property[0].valueString  = "0072000A"
 * #HangingProtocolCreationDateTime ^property[1].code = #vr
@@ -38265,7 +38273,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SourceRollAngle ^property[2].code = #retired
 * #SourceRollAngle ^property[2].valueBoolean = false
 
-* #RadiationGenerationModeSequence "Radiation GenerationâMode Sequence" "Radiation GenerationâMode Sequence"
+* #RadiationGenerationModeSequence "Radiation GenerationMode Sequence" "Radiation GenerationMode Sequence"
 * #RadiationGenerationModeSequence ^property[0].code = #tag
 * #RadiationGenerationModeSequence ^property[0].valueString  = "300A067B"
 * #RadiationGenerationModeSequence ^property[1].code = #vr
@@ -38273,7 +38281,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RadiationGenerationModeSequence ^property[2].code = #retired
 * #RadiationGenerationModeSequence ^property[2].valueBoolean = false
 
-* #RadiationGenerationModeLabel "Radiation GenerationâMode Label" "Radiation GenerationâMode Label"
+* #RadiationGenerationModeLabel "Radiation GenerationMode Label" "Radiation GenerationMode Label"
 * #RadiationGenerationModeLabel ^property[0].code = #tag
 * #RadiationGenerationModeLabel ^property[0].valueString  = "300A067C"
 * #RadiationGenerationModeLabel ^property[1].code = #vr
@@ -38281,7 +38289,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RadiationGenerationModeLabel ^property[2].code = #retired
 * #RadiationGenerationModeLabel ^property[2].valueBoolean = false
 
-* #RadiationGenerationModeDescription "Radiation GenerationâMode Description" "Radiation GenerationâMode Description"
+* #RadiationGenerationModeDescription "Radiation GenerationMode Description" "Radiation GenerationMode Description"
 * #RadiationGenerationModeDescription ^property[0].code = #tag
 * #RadiationGenerationModeDescription ^property[0].valueString  = "300A067D"
 * #RadiationGenerationModeDescription ^property[1].code = #vr
@@ -38289,7 +38297,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RadiationGenerationModeDescription ^property[2].code = #retired
 * #RadiationGenerationModeDescription ^property[2].valueBoolean = false
 
-* #RadiationGenerationModeMachineCodeSequence "Radiation GenerationâMode Machine Code Sequence" "Radiation GenerationâMode Machine Code Sequence"
+* #RadiationGenerationModeMachineCodeSequence "Radiation GenerationMode Machine Code Sequence" "Radiation GenerationMode Machine Code Sequence"
 * #RadiationGenerationModeMachineCodeSequence ^property[0].code = #tag
 * #RadiationGenerationModeMachineCodeSequence ^property[0].valueString  = "300A067E"
 * #RadiationGenerationModeMachineCodeSequence ^property[1].code = #vr
@@ -38345,7 +38353,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #EnergyUnitCodeSequence ^property[2].code = #retired
 * #EnergyUnitCodeSequence ^property[2].valueBoolean = false
 
-* #NumberOfRadiationGenerationModes "Number of Radiation GenerationâModes" "Number of Radiation GenerationâModes"
+* #NumberOfRadiationGenerationModes "Number of Radiation GenerationModes" "Number of Radiation GenerationModes"
 * #NumberOfRadiationGenerationModes ^property[0].code = #tag
 * #NumberOfRadiationGenerationModes ^property[0].valueString  = "300A0685"
 * #NumberOfRadiationGenerationModes ^property[1].code = #vr
@@ -42269,7 +42277,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #Item ^property[0].code = #tag
 * #Item ^property[0].valueString  = "FFFEE000"
 * #Item ^property[1].code = #vr
-* #Item ^property[1].valueString = "See Note 2"
+* #Item ^property[1].valueString = "See Note"
 * #Item ^property[2].code = #retired
 * #Item ^property[2].valueBoolean = false
 
@@ -42277,7 +42285,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ItemDelimitationItem ^property[0].code = #tag
 * #ItemDelimitationItem ^property[0].valueString  = "FFFEE00D"
 * #ItemDelimitationItem ^property[1].code = #vr
-* #ItemDelimitationItem ^property[1].valueString = "See Note 2"
+* #ItemDelimitationItem ^property[1].valueString = "See Note"
 * #ItemDelimitationItem ^property[2].code = #retired
 * #ItemDelimitationItem ^property[2].valueBoolean = false
 
@@ -42285,6 +42293,6 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SequenceDelimitationItem ^property[0].code = #tag
 * #SequenceDelimitationItem ^property[0].valueString  = "FFFEE0DD"
 * #SequenceDelimitationItem ^property[1].code = #vr
-* #SequenceDelimitationItem ^property[1].valueString = "See Note 2"
+* #SequenceDelimitationItem ^property[1].valueString = "See Note"
 * #SequenceDelimitationItem ^property[2].code = #retired
 * #SequenceDelimitationItem ^property[2].valueBoolean = false

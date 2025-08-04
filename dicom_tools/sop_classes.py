@@ -1,15 +1,16 @@
 import os
 from typing import List, Optional
 
-from dicom_spec_parser import get_dicom_table
+from doc_book_tools import getDataDicomTable
 
-UID_TABLE_URL = 'https://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_b.5.html'
+PART            = 'part04'
+TABLE_ID        = 'B.5-1'
 CODESYSTEM_NAME = 'DICOMSOPClassesCodeSystem'
 CODESYSTEM_ID   = 'dicom-sop-classes-codesystem'
 CODESYSTEM_TITLE = 'DICOM® SOP Classes'
 CODESYSTEM_DESCRIPTION = 'DICOM® SOP Classes extracted from DICOM PS3.6 Table A-1.'
 
-def writeSopClassesCodeSystem( fsh_path:str ) -> None:
+def writeSopClassesCodeSystem( fsh_path:str, dicom_path:str ) -> None:
     # Write the code system for the data elements
     # This is a helper function for writeDataElements
     # Input: data_elements - list of data elements
@@ -30,27 +31,27 @@ def writeSopClassesCodeSystem( fsh_path:str ) -> None:
         fsh_file.write('* ^experimental = false\n\n')
         
         fsh_file.write('\n')
-        
-        value_list = getValues()
+
+        title, value_list = getDataDicomTable(dicom_path, PART, TABLE_ID)
         for value in value_list:
             fsh_file.write(f'* #{value[1]} "{value[0]}" "{value[0]} from {value[2]}"\n')
                 
 
-def getValues( ) -> List[List[str]]:
-    table = get_dicom_table(UID_TABLE_URL)
-    values: List[List[str]] = []
+# def getValues( ) -> List[List[str]]:
+#     table = get_dicom_table(UID_TABLE_URL)
+#     values: List[List[str]] = []
     
-    if not table:
-        print('Error: Could not find sop class table')
-        return []
+#     if not table:
+#         print('Error: Could not find sop class table')
+#         return []
     
-    for element in table.find_all('tr'):
-        element_fields = element.find_all('td')
-        if len(element_fields):
-            values.append([
-                element_fields[0].text.strip(),
-                element_fields[1].text.strip().encode("ascii",'ignore').decode('ascii'),
-                element_fields[2].text.strip(),
-                element_fields[3].text.strip()
-            ])
-    return values
+#     for element in table.find_all('tr'):
+#         element_fields = element.find_all('td')
+#         if len(element_fields):
+#             values.append([
+#                 element_fields[0].text.strip(),
+#                 element_fields[1].text.strip().encode("ascii",'ignore').decode('ascii'),
+#                 element_fields[2].text.strip(),
+#                 element_fields[3].text.strip()
+#             ])
+#     return values

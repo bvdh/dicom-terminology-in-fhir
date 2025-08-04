@@ -1,14 +1,17 @@
 import os
 from typing import List, Optional
 from dicom_spec_parser import get_dicom_table
+from doc_book_tools import getDataDicomTable
 
+PART = 'part06'
+TABLE_ID = 'A-4'
 CI_UID_TABLE_URL = 'https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_A.html#table_A-4'
 CODESYSTEM_NAME = 'DICOM_Template_UIDs'
 CODESYSTEM_ID = 'dicom-uids-templates'
 CODESYSTEM_TITLE = 'DICOM® Template UID Values'
 CODESYSTEM_DESCRIPTION = 'DICOM® Template UID Values from DICOM PS3.6 Table A-4.'
 
-def writeTemplateUidsCodeSystem( fsh_path:str ) -> None:
+def writeTemplateUidsCodeSystem( fsh_path:str, dicom_path:str ) -> None:
     # Write the code system for the data elements
     # This is a helper function for writeDataElements
     # Input: data_elements - list of data elements
@@ -38,7 +41,7 @@ def writeTemplateUidsCodeSystem( fsh_path:str ) -> None:
         
         fsh_file.write('\n')
         
-        value_list = getContextGroupUidValues()
+        title, value_list = getDataDicomTable(dicom_path, PART, TABLE_ID)
         for value in value_list:
             fsh_file.write(f'\n')
             fsh_file.write(f'* #{value[0]} "{value[1]}" "{f'{value[1]} with UID type {value[2]} from part {value[3]}.strip()'}"\n')

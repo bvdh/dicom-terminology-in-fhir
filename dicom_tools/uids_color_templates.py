@@ -1,14 +1,17 @@
 import os
 from typing import List, Optional
 from dicom_spec_parser import get_dicom_table
+from doc_book_tools import getDataDicomTable
 
+PART = 'part06'
+TABLE_ID = 'B.1-1'
 TABLE_URL = 'https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_B.html'
 CODESYSTEM_NAME = 'DICOM_Color_Palattes_UIDs'
 CODESYSTEM_ID = 'dicom-uids-color-palletes'
 CODESYSTEM_TITLE = 'DICOM® Standard Color Palettes'
 CODESYSTEM_DESCRIPTION = 'DICOM® Standard Color Palettes from DICOM PS3.6 Table B-1-1.'
 
-def writeColorPalletesCodeSystem( fsh_path:str ) -> None:
+def writeColorPalletesCodeSystem( fsh_path:str, dicom_path:str ) -> None:
 
     fsh_filename = f'CodeSystem-{CODESYSTEM_ID}.fsh'
     print(f'Generating FHIR Shorthand in {fsh_path}/{fsh_filename}')
@@ -30,7 +33,7 @@ def writeColorPalletesCodeSystem( fsh_path:str ) -> None:
         
         fsh_file.write('\n')
         
-        value_list = getUidValues()
+        title, value_list = getDataDicomTable(dicom_path, PART, TABLE_ID)
         for value in value_list:
             description = f'{value[2]} ({value[1]}) from section {value[3]}. See also {value[4]}'.strip()
             fsh_file.write(f'\n')
