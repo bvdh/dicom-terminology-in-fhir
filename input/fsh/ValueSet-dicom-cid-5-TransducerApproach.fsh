@@ -1,15 +1,14 @@
-ValueSet: CID_5
-* id = dicom-cid-5-TransducerApproach
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.3"
-* version = "20220628"
-* title = "Transducer Approach"
-* name = "TransducerApproach"
-* description = 
+ValueSet    : CID_5
+Id          : dicom-cid-5-TransducerApproach
+Description :
 """
       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Right   SCT  Left   SCT  Lateral   SCT  Anterior   SCT  Posterior   SCT  Caudal   SCT  Medial   SCT  Central   SCT  Peripheral   SCT  External   SCT  Internal   SCT  Inferior   SCT  Superior   SCT  Transverse   SCT  Proximal   SCT  Distal   SCT  Apical   SCT  Surface   SCT  Ascending   SCT  Descending   SCT  Subcutaneous tissue   SCT  Dura mater   SCT  Pia mater   SCT  External prosthesis for sonographic procedure [Stand-off]   SCT  Water bag prosthesis for imaging procedure   SCT  Saline bag prosthesis for imaging procedure   SCT  Gel prosthesis for imaging procedure   SCT  Cranial   SCT  Midline   SCT  Mid-longitudinal   SCT  Parasagittal   SCT  Intraluminal   SCT  Capsular   SCT  Lumen   SCT  Contact with   SCT  Parenchyma   SCT  Intercostal   SCT  Subcostal   SCT  First Intercostal Space   SCT  Second Intercostal Space   SCT  Third Intercostal Space   SCT  Fourth Intercostal Space   SCT  Fifth Intercostal Space   SCT  Sixth Intercostal Space   SCT  Seventh Intercostal Space   SCT  Eighth Intercostal Space   SCT  Ninth Intercostal Space   SCT  Tenth Intercostal Space   SCT  Eleventh Intercostal Space   In a prior version of this Context Group, the codes G-A11A, G-A11B, G-A12A, G-A16A, G-A16B, G-A16C, and G-A16D were specified for various concepts. The use of some of those codes conflicts with their assignment to other concepts in SNOMED, and their use in this context is deprecated. Although there is minimal possibility of misinterpretation with SOP Instances that may include the deprecated use, receiving applications should be aware of this change; see
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.3"
+* ^version = "20220628"
+* ^title = "Transducer Approach"
+* ^name = "TransducerApproach"
 * http://snomed.info/sct#24028007 "Right" 
 * http://snomed.info/srt#G-A100 "Right" 
 * http://terminology.hl7.org/CodeSystem/umls#C0205090 "Right" 

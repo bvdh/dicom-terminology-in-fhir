@@ -1,15 +1,14 @@
-CodeSystem: DigitalAnatomistFoundationalModelOfAnatomyCodeSystem
+CodeSystem: FMA
 Id: dicom-codesystem-FMA
 Title: "FMA"
-Description: "FMA"
+Description: "Digital Anatomist Foundational Model of Anatomy"
 * ^caseSensitive = true
 * ^content = #part
 * ^experimental = false
 
 
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:2.16.840.1.113883.6.119"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:{uid}"
 
 * #264776 "Bregma" "Bregma"
 * #264773 "Lambda" "Lambda"

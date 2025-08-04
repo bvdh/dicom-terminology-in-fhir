@@ -1,15 +1,14 @@
-CodeSystem: NeuroNamesCodeSystem
+CodeSystem: NEU
 Id: dicom-codesystem-NEU
 Title: "NEU"
-Description: "NeuroNames"
+Description: "The numeric brainInfoID is used as the Code Value."
 * ^caseSensitive = true
 * ^content = #part
 * ^experimental = false
 
 
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:2.16.840.1.113883.6.210"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:{uid}"
 
 * #1319 "corticobulbar tract" "corticobulbar tract"
 * #1320 "corticospinal tract" "corticospinal tract"

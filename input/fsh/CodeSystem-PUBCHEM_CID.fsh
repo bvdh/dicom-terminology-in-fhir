@@ -1,14 +1,13 @@
-CodeSystem: PUBCHEM_CodeSystem
-Id: dicom-codesystem-PUBCHEM_CID
+CodeSystem: PUBCHEM_CID
+Id: dicom-codesystem-PUBCHEM-CID
 Title: "PUBCHEM_CID"
-Description: "PubChem"
+Description: "US National Center for Biotechnology Information (NCBI) PubChem Compound CID."
 * ^caseSensitive = true
 * ^content = #part
 * ^experimental = false
 
 
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.2.16.9"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:{uid}"
 
 * #4624 "6-hydroxydopamine" "6-hydroxydopamine"

@@ -1,15 +1,14 @@
-ValueSet: CID_9
-* id = dicom-cid-9-ImageGuidedTherapeuticProcedure
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.7"
-* version = "20250401"
-* title = "Image Guided Therapeutic Procedure"
-* name = "ImageGuidedTherapeuticProcedure"
-* description = 
+ValueSet    : CID_9
+Id          : dicom-cid-9-ImageGuidedTherapeuticProcedure
+Description :
 """
       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Vasoconstriction   SCT  Vasodilatation   SCT  Biopsy   SCT  Removal of foreign body   SCT  Intra-arterial infusion of thrombolytic agent   SCT  Irrigation   SCT  Catheterization   SCT  Atherectomy   SCT  Atherectomy by rotary cutter   SCT  Atherectomy by laser   SCT  Selective embolization of artery   SCT  Percutaneous transluminal balloon angioplasty   SCT  Transcatheter therapy for embolization   SCT  Percutaneous removal of intravascular foreign body   SCT  Failed attempted procedure   SCT  Stent placement   SCT  Catheter manipulation   SCT  Catheter replacement   SCT  Occlusion of catheter   SCT  Removal of catheter   SCT  Transcatheter deployment of detachable balloon   SCT  Percutaneous insertion of intravascular filter   SCT  Amniocentesis   SCT  Ultrasonic guidance for amniocentesis   SCT  Amnioinfusion   SCT  Intrauterine cordocentesis   SCT  Thoracentesis   SCT  Breech Version [Obstetrical Version]   SCT  Intrauterine transfusion   SCT  Selective destruction of fetus   SCT  Prostaglandin injection  
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.7"
+* ^version = "20250401"
+* ^title = "Image Guided Therapeutic Procedure"
+* ^name = "ImageGuidedTherapeuticProcedure"
 * http://snomed.info/sct#32318003 "Vasoconstriction" 
 * http://snomed.info/srt#F-39780 "Vasoconstriction" 
 * http://terminology.hl7.org/CodeSystem/umls#C0042396 "Vasoconstriction" 

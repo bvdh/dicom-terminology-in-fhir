@@ -1,15 +1,14 @@
-ValueSet: CID_31
-* id = dicom-cid-31-AbstractPrior
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.21"
-* version = "20170914"
-* title = "Abstract Prior"
-* name = "AbstractPrior"
-* description = 
+ValueSet    : CID_31
+Id          : dicom-cid-31-AbstractPrior
+Description :
 """
 This Context Group includes codes that may be used to identify imaging procedures that may be referred to as priors for the purpose of image set selection in Hanging Protocols.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  On admission   SCT  Intraoperative   SCT  Pre-admission   SCT  Pre-dose   SCT  Post-dose   SCT  Pre-operative   SCT  Post-operative   DCM  On admission to unit   DCM  On discharge   DCM  On discharge from unit   DCM  Pre-intervention   DCM  Post-intervention   DCM  At last appointment  
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.21"
+* ^version = "20170914"
+* ^title = "Abstract Prior"
+* ^name = "AbstractPrior"
 * http://snomed.info/sct#278307001 "On admission" 
 * http://snomed.info/srt#R-40553 "On admission" 
 * http://terminology.hl7.org/CodeSystem/umls#C0457453 "On admission" 

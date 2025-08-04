@@ -1,15 +1,14 @@
-ValueSet: CID_7
-* id = dicom-cid-7-UltrasoundBeamPath
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.5"
-* version = "20191108"
-* title = "Ultrasound Beam Path"
-* name = "UltrasoundBeamPath"
-* description = 
+ValueSet    : CID_7
+Id          : dicom-cid-7-UltrasoundBeamPath
+Description :
 """
       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Trans-hepatic   SCT  Trans-gastric   SCT  Trans-pleural   SCT  Trans-mural   SCT  Trans-orbital   SCT  Trans-pancreatic   SCT  Trans-rectal   SCT  Trans-renal   SCT  Trans-temporal   SCT  Trans-thecal   SCT  Trans-urethral   SCT  Trans-vesical   SCT  Trans-splenic   SCT  Trans-esophageal   SCT  Trans-abdominal   SCT  Trans-vaginal  
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.5"
+* ^version = "20191108"
+* ^title = "Ultrasound Beam Path"
+* ^name = "UltrasoundBeamPath"
 * http://snomed.info/sct#103381007 "Trans-hepatic" 
 * http://snomed.info/srt#G-D027 "Trans-hepatic" 
 * http://terminology.hl7.org/CodeSystem/umls#C0522516 "Trans-hepatic" 

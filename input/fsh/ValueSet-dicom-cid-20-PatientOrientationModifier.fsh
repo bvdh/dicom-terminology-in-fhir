@@ -1,15 +1,14 @@
-ValueSet: CID_20
-* id = dicom-cid-20-PatientOrientationModifier
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.14"
-* version = "20070524"
-* title = "Patient Orientation Modifier"
-* name = "PatientOrientationModifier"
-* description = 
+ValueSet    : CID_20
+Id          : dicom-cid-20-PatientOrientationModifier
+Description :
 """
       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  prone   SCT  semi-prone   SCT  lateral decubitus   SCT  standing   SCT  anatomical   SCT  kneeling   SCT  knee-chest   SCT  supine   SCT  lithotomy   SCT  Trendelenburg   SCT  inverse Trendelenburg   SCT  frog   SCT  stooped-over   SCT  sitting   SCT  curled-up   SCT  right lateral decubitus   SCT  left lateral decubitus   SCT  lordotic  
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.14"
+* ^version = "20070524"
+* ^title = "Patient Orientation Modifier"
+* ^name = "PatientOrientationModifier"
 * http://snomed.info/sct#1240000 "prone" 
 * http://snomed.info/srt#F-10310 "prone" 
 * http://terminology.hl7.org/CodeSystem/umls#C0033422 "prone" 

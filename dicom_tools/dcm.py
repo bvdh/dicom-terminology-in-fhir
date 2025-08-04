@@ -2,7 +2,7 @@ import re
 import os
 from typing import List, Optional
 
-from doc_book_tools import getDataDicomTable
+from doc_book_tools import getDataDicomTable, toCamelCase
 
 
 TABLE_URL = 'https://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_D.html#table_D-1'
@@ -86,9 +86,3 @@ def writeDcmCodeSystem( fsh_path:str, dicom_path:str ) -> None:
 #             ])
 #     return values
 
-def toCamelCase( str: str ) -> str:
-    words = str.strip().split(' ')
-    camelStr = ''
-    for word in words :
-        camelStr+=word.capitalize()
-    return camelStr

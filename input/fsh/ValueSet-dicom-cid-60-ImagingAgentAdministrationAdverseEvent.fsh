@@ -1,15 +1,14 @@
-ValueSet: CID_60
-* id = dicom-cid-60-ImagingAgentAdministrationAdverseEvent
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.1250"
-* version = "20190817"
-* title = "Imaging Agent Administration Adverse Event"
-* name = "ImagingAgentAdministrationAdverseEvent"
-* description = 
+ValueSet    : CID_60
+Id          : dicom-cid-60-ImagingAgentAdministrationAdverseEvent
+Description :
 """
 This Context Group includes contrast reactions listed in the ACR Manual of Contrast Media.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Nausea and vomiting   SCT  Taste sense altered   SCT  Sweating   SCT  Cough   SCT  Itching   SCT  Drug Rash   SCT 724232004 Sensation of being warm (finding)  SCT  Pallor (Pale Complexion)   SCT  Nasal Congestion   SCT  Headache   SCT  Drug induced Flushing   SCT  Facial Swelling   SCT  Drug Induced Dizziness   SCT  Chills and fever   SCT  Anxiety   SCT  Shaking   SCT  Tachycardia-bradycardia   SCT  Bronchospasm   SCT  Hypertension   SCT  Laryngeal edema   SCT  Diffuse inflammatory erythema   SCT  Drug-induced hypotension   SCT  Dyspnea   SCT  Epileptic convulsions   SCT  Hypotension   SCT  No motor response to command   SCT  Cardiac Arrhythmia   SCT  Cardiorespiratory arrest   SCT  Injection Site Extravasation   DCM  Patient condition prevented continuing 
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1250"
+* ^version = "20190817"
+* ^title = "Imaging Agent Administration Adverse Event"
+* ^name = "ImagingAgentAdministrationAdverseEvent"
 * http://snomed.info/sct#16932000 "Nausea and vomiting" 
 * http://snomed.info/srt#F-52840 "Nausea and vomiting" 
 * http://terminology.hl7.org/CodeSystem/umls#C0027498 "Nausea and vomiting" 
@@ -126,5 +125,5 @@ This Context Group includes contrast reactions listed in the ACR Manual of Contr
 
 * DICOMDCMCodeSystem#110515 "Patient condition prevented continuing" 
 
-* include codes from CID_10043
+* include codes from valueset CID_10043
 

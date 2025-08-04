@@ -1,4 +1,4 @@
-CodeSystem: IBSICodeSystem
+CodeSystem: IBSI
 Id: dicom-codesystem-IBSI
 Title: "IBSI"
 Description: "Image Biomarker Standardisation Initiative"
@@ -7,9 +7,8 @@ Description: "Image Biomarker Standardisation Initiative"
 * ^experimental = false
 
 
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.2.16.13"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:{uid}"
 
 * #TU9B "Joint Entropy of GLCM" "Joint Entropy of GLCM"
 * #WF0Z "Inverse Difference Moment of GLCM" "Inverse Difference Moment of GLCM"

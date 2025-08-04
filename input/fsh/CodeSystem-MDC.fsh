@@ -1,15 +1,14 @@
-CodeSystem: urn:iso:std:iso:11073:10101
+CodeSystem: MDC
 Id: dicom-codesystem-MDC
 Title: "MDC"
-Description: ""
+Description: "ISO/IEEE 11073 Medical Device Nomenclature, including all its subsections ("
 * ^caseSensitive = true
 * ^content = #part
 * ^experimental = false
 
 
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:2.16.840.1.113883.6.24"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:{uid}"
 
 * #2:71 "Lead A (Nehb - Anterior)" "Lead A (Nehb - Anterior)"
 * #2:75 "Auxiliary unipolar lead 1" "Auxiliary unipolar lead 1"

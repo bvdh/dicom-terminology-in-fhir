@@ -1,7 +1,7 @@
-CodeSystem: BICodeSystem
+CodeSystem: BI
 Id: dicom-codesystem-BI
 Title: "BI"
-Description: "BI-RADS"
+Description: "In the HL7 registry, the abbreviation BI is assigned to a different Coding Scheme, specifically the Beth Israel problem list."
 * ^caseSensitive = true
 * ^content = #part
 * ^experimental = false

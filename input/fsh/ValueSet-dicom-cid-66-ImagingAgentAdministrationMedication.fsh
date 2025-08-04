@@ -1,15 +1,14 @@
-ValueSet: CID_66
-* id = dicom-cid-66-ImagingAgentAdministrationMedication
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.1256"
-* version = "20181115"
-* title = "Imaging Agent Administration Medication"
-* name = "ImagingAgentAdministrationMedication"
-* description = 
+ValueSet    : CID_66
+Id          : dicom-cid-66-ImagingAgentAdministrationMedication
+Description :
 """
       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Propofol   SCT  Midazolam   SCT  Sufentanil   SCT  Remifentanil   SCT  Alfentanil  
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1256"
+* ^version = "20181115"
+* ^title = "Imaging Agent Administration Medication"
+* ^name = "ImagingAgentAdministrationMedication"
 * http://snomed.info/sct#387423006 "Propofol" 
 * http://snomed.info/srt#F-61B48 "Propofol" 
 * http://terminology.hl7.org/CodeSystem/umls#C0033487 "Propofol" 

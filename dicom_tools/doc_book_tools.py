@@ -80,7 +80,10 @@ def getDataDicomTable(dicom_path: str, part: str, table_id: str):
                     for para in para_elements:
                         field_text = getParaText(para)
 
-                    row_fields.append(link_text or field_text )        
+                    field_text = field_text or link_text
+                    field_text = field_text.replace('"','')
+                    
+                    row_fields.append( field_text )        
 
                 table_elements.append(row_fields)
             
@@ -95,6 +98,13 @@ def getDataDicomTable(dicom_path: str, part: str, table_id: str):
     
     # Table not found
     return None, None
+
+def toCamelCase( str: str ) -> str:
+    words = str.strip().split(' ')
+    camelStr = ''
+    for word in words :
+        camelStr+=word.capitalize()
+    return camelStr
 
 def getParaText( element ):
     para_text = cleanTextFromElement(element)

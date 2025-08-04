@@ -1,6 +1,6 @@
 import os
 from typing import List, Optional
-from doc_book_tools import getDataDicomTable
+from doc_book_tools import getDataDicomTable, toCamelCase
 
 
 PART = 'part05'
@@ -35,8 +35,9 @@ def writeVrCodeSystem( fsh_path:str, dicom_path:str ) -> None:
         
         title, value_list = getDataDicomTable(dicom_path, PART, TABLE_ID)
         for value in value_list:
-            fsh_file.write(f'* #{value[0]} "{value[1]}" \n')
+            fsh_file.write(f'* #{toCamelCase(value[0])} "{value[0]}" \n')
             fsh_file.write(f'"""\n')
+            fsh_file.write(f'{value[1]}\n')
             fsh_file.write(f'{value[2]}\n')
             fsh_file.write(f'"""\n')
             fsh_file.write(f'\n')    

@@ -1,15 +1,14 @@
-ValueSet: CID_74
-* id = dicom-cid-74-ImagingAgentAdministrationConsumableCatheterType
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.1264"
-* version = "20181115"
-* title = "Imaging Agent Administration Consumable Catheter Type"
-* name = "ImagingAgentAdministrationConsumableCatheterType"
-* description = 
+ValueSet    : CID_74
+Id          : dicom-cid-74-ImagingAgentAdministrationConsumableCatheterType
+Description :
 """
       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Peripheral intravenous catheter   SCT  Central venous catheter   SCT  Implantable venous access port   SCT  Peripherally inserted central catheter   SCT  Rectal Catheter  
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1264"
+* ^version = "20181115"
+* ^title = "Imaging Agent Administration Consumable Catheter Type"
+* ^name = "ImagingAgentAdministrationConsumableCatheterType"
 * http://snomed.info/sct#82449006 "Peripheral intravenous catheter" 
 * http://snomed.info/srt#A-26836 "Peripheral intravenous catheter" 
 * http://terminology.hl7.org/CodeSystem/umls#C0179768 "Peripheral intravenous catheter" 

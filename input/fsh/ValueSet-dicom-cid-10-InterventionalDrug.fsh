@@ -1,15 +1,14 @@
-ValueSet: CID_10
-* id = dicom-cid-10-InterventionalDrug
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.8"
-* version = "20200117"
-* title = "Interventional Drug"
-* name = "InterventionalDrug"
-* description = 
+ValueSet    : CID_10
+Id          : dicom-cid-10-InterventionalDrug
+Description :
 """
       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Ethanol   SCT  Methylene blue   SCT  Antihistamine   SCT  Atropine   SCT  Diuretic   SCT  Antiarrhythmic drug   SCT  Inotropic agent   NCIt  Cardiotonic agent   SCT  Cardiac adrenergic blocking agent   SCT  Alpha-adrenergic blocking agent   SCT  beta-Adrenergic blocking agent   SCT  Digoxin   SCT  Lidocaine   SCT  Lidocaine hydrochloride   SCT  Nifedipine   SCT  Propranolol   SCT  Quinidine   SCT  Verapamil   SCT  Hypotensive agent   SCT  Centrally acting hypotensive agent   SCT  Nitroglycerin   SCT  Glucagon preparation   SCT  Anticoagulant   SCT  Warfarin   SCT  Heparin   SCT  Anti-heparin agent   SCT  Protamine sulfate   SCT  Coagulant   SCT  Human fibrinogen   SCT  Hemostatic agent   SCT  Astringent drug   SCT  Antihemophilic factor preparation   SCT  Thrombin preparation   SCT  Thromboplastin   SCT  Dextran   SCT  Thrombolytic agent   SCT  Streptokinase   SCT  Urokinase preparation   SCT  Fibrinolysin   SCT  Tolazoline hydrocholoride   SCT  Epinephrine   SCT  Vasodilator   SCT  Papaverine   SCT  Phentolamine   SCT  Prostaglandin E1  
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.8"
+* ^version = "20200117"
+* ^title = "Interventional Drug"
+* ^name = "InterventionalDrug"
 * http://snomed.info/sct#419442005 "Ethanol" 
 * http://snomed.info/srt#C-21047 "Ethanol" 
 * http://terminology.hl7.org/CodeSystem/umls#C0001962 "Ethanol" 

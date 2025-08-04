@@ -1,15 +1,14 @@
-ValueSet: CID_27
-* id = dicom-cid-27-BasicCardiacView
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.957"
-* version = "20120822"
-* title = "Basic Cardiac View"
-* name = "BasicCardiacView"
-* description = 
+ValueSet    : CID_27
+Id          : dicom-cid-27-BasicCardiacView
+Description :
 """
       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Short Axis   SCT  Vertical Long Axis   SCT  Horizontal Long Axis  
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.957"
+* ^version = "20120822"
+* ^title = "Basic Cardiac View"
+* ^name = "BasicCardiacView"
 * http://snomed.info/sct#103340004 "Short Axis" 
 * http://snomed.info/srt#G-A186 "Short Axis" 
 * http://terminology.hl7.org/CodeSystem/umls#C0522488 "Short Axis" 

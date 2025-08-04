@@ -1,16 +1,15 @@
-ValueSet: CID_42
-* id = dicom-cid-42-NumericValueQualifier
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.22"
-* version = "20020114"
-* title = "Numeric Value Qualifier"
-* name = "NumericValueQualifier"
-* description = 
+ValueSet    : CID_42
+Id          : dicom-cid-42-NumericValueQualifier
+Description :
 """
       Coding Scheme Designator Code Value Code Meaning  
 """
-* include codes from CID_43
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.22"
+* ^version = "20020114"
+* ^title = "Numeric Value Qualifier"
+* ^name = "NumericValueQualifier"
+* include codes from valueset CID_43
 
-* include codes from CID_44
+* include codes from valueset CID_44
 

@@ -1,15 +1,14 @@
-CodeSystem: UNSCodeSystem
+CodeSystem: UNS
 Id: dicom-codesystem-UNS
 Title: "UNS"
-Description: "UNS"
+Description: "Unified numbering system (UNS) for metals and alloys"
 * ^caseSensitive = true
 * ^content = #part
 * ^experimental = false
 
 
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.2.16.17"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:{uid}"
 
 * #S31673 "Stainless steel (SS316L)" "Stainless steel (SS316L)"
 * #R50250 "Titanium" "Titanium"

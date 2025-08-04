@@ -1,15 +1,14 @@
-ValueSet: CID_19
-* id = dicom-cid-19-PatientOrientation
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.13"
-* version = "20160314"
-* title = "Patient Orientation"
-* name = "PatientOrientation"
-* description = 
+ValueSet    : CID_19
+Id          : dicom-cid-19-PatientOrientation
+Description :
 """
       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCIt  erect   SCT  recumbent   SCT  semi-erect   In a prior version of this Context Group
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.13"
+* ^version = "20160314"
+* ^title = "Patient Orientation"
+* ^name = "PatientOrientation"
 * http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C86043 "erect" 
 * http://terminology.hl7.org/CodeSystem/umls#C0522015 "erect" 
 

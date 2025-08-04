@@ -1,7 +1,7 @@
-CodeSystem: BARICodeSystem
+CodeSystem: BARI
 Id: dicom-codesystem-BARI
 Title: "BARI"
-Description: "BARI"
+Description: "Bypass Angioplasty Revascularization Investigation"
 * ^caseSensitive = true
 * ^content = #part
 * ^experimental = false

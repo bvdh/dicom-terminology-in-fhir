@@ -1,4 +1,4 @@
-CodeSystem: http://snomed.info/srt
+CodeSystem: SRT
 Id: dicom-codesystem-SRT
 Title: "SRT"
 Description: "SNOMED CT"
@@ -7,9 +7,8 @@ Description: "SNOMED CT"
 * ^experimental = false
 
 
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:2.16.840.1.113883.6.96"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:{uid}"
 
 * #G-A100 "Right" "Right"
 * #G-A101 "Left" "Left"

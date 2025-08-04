@@ -1,15 +1,14 @@
-ValueSet: CID_2
-* id = dicom-cid-2-AnatomicModifier
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.1"
-* version = "20190118"
-* title = "Anatomic Modifier"
-* name = "AnatomicModifier"
-* description = 
+ValueSet    : CID_2
+Id          : dicom-cid-2-AnatomicModifier
+Description :
 """
       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Right   SCT  Left   SCT  Bilateral   SCT  Unilateral   SCT  Lateral   DCM  Median   SCT  Anterior   SCT  Posterior   SCT  Cephalic   SCT  Caudal   SCT  Medial   SCT  Central   SCT  Peripheral   SCT  External   SCT  Internal   SCT  Intermediate   SCT  Inferior   SCT  Superior   SCT  Transverse   SCT  Proximal   SCT  Distal   SCT  Postaxial   SCT  Preaxial   SCT  Apical   SCT  Basal   SCT  Afferent   SCT  Efferent   SCT  Coronal   SCT  Superficial   SCT  Deep   SCT  Horizontal   SCT  Longitudinal   SCT  Vertical   SCT  Sagittal   SCT  Axial   SCT  Extra-articular   SCT  Surface   SCT  Gutter   SCT  Hilar   SCT  Capsular   SCT  Subcapsular   SCT  Edge   SCT  Anterolateral   SCT  Posterolateral   SCT  Intra-articular   SCT  Marginal  
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1"
+* ^version = "20190118"
+* ^title = "Anatomic Modifier"
+* ^name = "AnatomicModifier"
 * http://snomed.info/sct#24028007 "Right" 
 * http://snomed.info/srt#G-A100 "Right" 
 * http://terminology.hl7.org/CodeSystem/umls#C0205090 "Right" 

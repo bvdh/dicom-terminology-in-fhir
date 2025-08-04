@@ -1,15 +1,14 @@
-ValueSet: CID_13
-* id = dicom-cid-13-ImagingContrastAgentIngredient
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.11"
-* version = "20190817"
-* title = "Imaging Contrast Agent Ingredient"
-* name = "ImagingContrastAgentIngredient"
-* description = 
+ValueSet    : CID_13
+Id          : dicom-cid-13-ImagingContrastAgentIngredient
+Description :
 """
       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Iodine   SCT  Gadolinium   SCT  Carbon Dioxide   SCT  Barium   SCT  Xenon   SCT  Air   SCT  Oxygen   SCT  Water   SCT  Iron  
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.11"
+* ^version = "20190817"
+* ^title = "Imaging Contrast Agent Ingredient"
+* ^name = "ImagingContrastAgentIngredient"
 * http://snomed.info/sct#44588005 "Iodine" 
 * http://snomed.info/srt#C-11400 "Iodine" 
 * http://terminology.hl7.org/CodeSystem/umls#C0021968 "Iodine" 

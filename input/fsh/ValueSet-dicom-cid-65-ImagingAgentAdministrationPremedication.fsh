@@ -1,15 +1,14 @@
-ValueSet: CID_65
-* id = dicom-cid-65-ImagingAgentAdministrationPremedication
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.1255"
-* version = "20190817"
-* title = "Imaging Agent Administration Premedication"
-* name = "ImagingAgentAdministrationPremedication"
-* description = 
+ValueSet    : CID_65
+Id          : dicom-cid-65-ImagingAgentAdministrationPremedication
+Description :
 """
 The following list of pre-medication agents was obtained from the ACR Manual of Contrast Media.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Trade Name (Informative) SCT  Prednisone   SCT  Diphenhydramine   Benadryl SCT  Methylprednisolone   SCT  Methylprednisolone sodium phosphate   Solu-Medrol SCT  Hydrocortisone sodium succinate   Solu-Cortef SCT  Dexamethasone sodium sulfate   Decadron SCT  H-1 Antihistamine   SCT  Ephedrine   SCT  Papaverine   
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1255"
+* ^version = "20190817"
+* ^title = "Imaging Agent Administration Premedication"
+* ^name = "ImagingAgentAdministrationPremedication"
 * http://snomed.info/sct#116602009 "Prednisone" 
 * http://snomed.info/srt#C-37138 "Prednisone" 
 * http://terminology.hl7.org/CodeSystem/umls#C0032952 "Prednisone" 
@@ -46,5 +45,5 @@ The following list of pre-medication agents was obtained from the ACR Manual of 
 * http://snomed.info/srt#F-61955 "Papaverine" 
 * http://terminology.hl7.org/CodeSystem/umls#C0030350 "Papaverine" 
 
-* include codes from CID_66
+* include codes from valueset CID_66
 

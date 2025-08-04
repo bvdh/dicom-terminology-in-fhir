@@ -83,15 +83,15 @@ Description: "DICOM® Well-known Frames of Reference from DICOM PS3.6 Table A-2.
 * #1.2.840.10008.1.4.1.18 ^property[0].code = #keyword
 * #1.2.840.10008.1.4.1.18 ^property[0].valueString  = "SPM2SINGLESUBJT1"
 
-* #1.2.840.10008.1.4.2.1 "ICBM 452 T1 Frame of Reference" "ICBM 452 T1 Frame of Reference (ICBM452T1) from http://resource.loni.usc.edu/atlasfiles/ICBM_452_T1_Atlas_Affine_Transformations.ziphttp://resource.loni.usc.edu/atlasfiles/ICBM_452_T1_Atlas_Affine_Transformations.zip"
+* #1.2.840.10008.1.4.2.1 "ICBM 452 T1 Frame of Reference" "ICBM 452 T1 Frame of Reference (ICBM452T1) from ICBM452 T1 Atlas"
 * #1.2.840.10008.1.4.2.1 ^property[0].code = #keyword
 * #1.2.840.10008.1.4.2.1 ^property[0].valueString  = "ICBM452T1"
 
-* #1.2.840.10008.1.4.2.2 "ICBM Single Subject MRI Frame of Reference" "ICBM Single Subject MRI Frame of Reference (ICBMSingleSubjectMRI) from http://resource.loni.usc.edu/atlasfiles/ICBM_Single_Subject_MRI_Anatomical_Template.ziphttp://resource.loni.usc.edu/atlasfiles/ICBM_Single_Subject_MRI_Anatomical_Template.zip"
+* #1.2.840.10008.1.4.2.2 "ICBM Single Subject MRI Frame of Reference" "ICBM Single Subject MRI Frame of Reference (ICBMSingleSubjectMRI) from ICBM Single Subject MRI Anatomical Template"
 * #1.2.840.10008.1.4.2.2 ^property[0].code = #keyword
 * #1.2.840.10008.1.4.2.2 ^property[0].valueString  = "ICBMSingleSubjectMRI"
 
-* #1.2.840.10008.1.4.3.1 "IEC 61217 Fixed Coordinate System Frame of Reference" "IEC 61217 Fixed Coordinate System Frame of Reference (IEC61217FixedCoordinateSystem) from Fixed coordinate system ("f") of"
+* #1.2.840.10008.1.4.3.1 "IEC 61217 Fixed Coordinate System Frame of Reference" "IEC 61217 Fixed Coordinate System Frame of Reference (IEC61217FixedCoordinateSystem) from Fixed coordinate system (f) of"
 * #1.2.840.10008.1.4.3.1 ^property[0].code = #keyword
 * #1.2.840.10008.1.4.3.1 ^property[0].valueString  = "IEC61217FixedCoordinateSystem"
 
@@ -99,7 +99,7 @@ Description: "DICOM® Well-known Frames of Reference from DICOM PS3.6 Table A-2.
 * #1.2.840.10008.1.4.3.2 ^property[0].code = #keyword
 * #1.2.840.10008.1.4.3.2 ^property[0].valueString  = "StandardRoboticArmCoordinateSystem"
 
-* #1.2.840.10008.1.4.3.3 "IEC 61217 Table Top Coordinate System Frame of Reference" "IEC 61217 Table Top Coordinate System Frame of Reference (IEC61217TableTopCoordinateSystem) from Table top coordinate system ("t") of"
+* #1.2.840.10008.1.4.3.3 "IEC 61217 Table Top Coordinate System Frame of Reference" "IEC 61217 Table Top Coordinate System Frame of Reference (IEC61217TableTopCoordinateSystem) from Table top coordinate system (t) of"
 * #1.2.840.10008.1.4.3.3 ^property[0].code = #keyword
 * #1.2.840.10008.1.4.3.3 ^property[0].valueString  = "IEC61217TableTopCoordinateSystem"
 

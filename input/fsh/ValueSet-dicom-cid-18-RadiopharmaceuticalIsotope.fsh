@@ -1,15 +1,14 @@
-ValueSet: CID_18
-* id = dicom-cid-18-RadiopharmaceuticalIsotope
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.12"
-* version = "20201116"
-* title = "Radiopharmaceutical Isotope"
-* name = "RadiopharmaceuticalIsotope"
-* description = 
+ValueSet    : CID_18
+Id          : dicom-cid-18-RadiopharmaceuticalIsotope
+Description :
 """
       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  ^14^Carbon   SCT  ^18^Fluorine   SCT  ^22^Sodium   SCT  ^24^Sodium   SCT  ^32^Phosphorus   SCT  ^42^Potassium   SCT  ^43^Potassium   SCT  ^51^Chromium   SCT  ^57^Cobalt   SCT  ^58^Cobalt   SCT  ^59^Iron   SCT  ^60^Cobalt   SCT  ^64^Copper   SCT  ^67^Copper   SCT  ^67^Gallium   SCT  ^75^Selenium   SCT  ^81m^Krypton   SCT  ^85^Krypton   SCT  ^85^Strontium   SCT  ^87m^Strontium   SCT  ^89^Strontium   SCT  ^90^Yttrium   SCT  ^97^Ruthenium   SCT  ^99m^Technetium   SCT  ^111^Indium   SCT  ^113m^Indium   SCT  ^123^Iodine   SCT  ^125^Iodine   SCT  ^127^Xenon   SCT  ^131^Iodine   SCT  ^133^Barium   SCT  ^133^Xenon   SCT  ^153^Gadolinium   SCT  ^153^Samarium   NCIt  ^166^Holmium   SCT  ^169^Ytterbium   SCT  ^177^Lutetium   SCT  ^178^Tantalum   SCT  ^186^Rhenium   SCT  ^188^Rhenium   DCM  ^191m^Iridium   SCT  ^198^Gold   SCT  ^199^Gold   SCT  ^201^Thallium   SCT  ^203^Lead   SCT  ^223^Radium  
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.12"
+* ^version = "20201116"
+* ^title = "Radiopharmaceutical Isotope"
+* ^name = "RadiopharmaceuticalIsotope"
 * http://snomed.info/sct#71647005 "^14^Carbon" 
 * http://snomed.info/srt#C-105A2 "^14^Carbon" 
 * http://terminology.hl7.org/CodeSystem/umls#C0302945 "^14^Carbon" 

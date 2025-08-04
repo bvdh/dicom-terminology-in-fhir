@@ -1,15 +1,14 @@
-ValueSet: CID_64
-* id = dicom-cid-64-ImagingAgentAdministrationPatientState
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.1254"
-* version = "20230630"
-* title = "Imaging Agent Administration Patient State"
-* name = "ImagingAgentAdministrationPatientState"
-* description = 
+ValueSet    : CID_64
+Id          : dicom-cid-64-ImagingAgentAdministrationPatientState
+Description :
 """
       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Abnormal Renal Function   DCM  Acute unilateral renal blockage DCM  Low Thyroid Uptake DCM  High Thyroid Uptake DCM  Severely Jaundiced SCT  History of renal failure   SCT  History of diabetes mellitus   SCT  Asthma   SCT  Aortic stenosis   SCT  Angina pectoris   SCT  History of congestive heart failure   SCT  History of Hypertension   SCT  Pulmonary hypertension   SCT  Cardiomyopathy   SCT  Anxiety   SCT  Paraproteinemia   SCT  Multiple myeloma   SCT  History of Beta-blocking agents therapy   SCT  Malignant epithelial neoplasm of thyroid   DCM  Patient allergic to media/contrast
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1254"
+* ^version = "20230630"
+* ^title = "Imaging Agent Administration Patient State"
+* ^name = "ImagingAgentAdministrationPatientState"
 * http://snomed.info/sct#39539005 "Abnormal Renal Function" 
 * http://snomed.info/srt#F-70102 "Abnormal Renal Function" 
 * http://terminology.hl7.org/CodeSystem/umls#C0151746 "Abnormal Renal Function" 

@@ -1,15 +1,14 @@
-ValueSet: CID_11
-* id = dicom-cid-11-AdministrationRoute
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.9"
-* version = "20240611"
-* title = "Administration Route"
-* name = "AdministrationRoute"
-* description = 
+ValueSet    : CID_11
+Id          : dicom-cid-11-AdministrationRoute
+Description :
 """
       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Intravenous route   SCT  Intra-arterial route   SCT  Intramuscular route   SCT  Subcutaneous route   SCT  Intracutaneous route   SCT  Intraperitoneal route   SCT  Intramedullary route   SCT  Intrathecal route   SCT  Intra-articular route   NCIt  Intraepithelial route   SCT  Topical route   SCT  Oral route   NCIt  Transluminal route   SCT  Intraluminal route   NCIt  Extraluminal route   SCT  By inhalation   SCT  Per rectum   SCT  Vaginal route   SCT  Intracoronary route   SCT  Intracardiac route   SCT  Intraventricular route - cardiac   DCM  Retro-orbital route   SCT  Nasal route   SCT  Intradermal route   SCT  Intratumor route   SCT  Intracorpus cavernosum route  
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.9"
+* ^version = "20240611"
+* ^title = "Administration Route"
+* ^name = "AdministrationRoute"
 * http://snomed.info/sct#47625008 "Intravenous route" 
 * http://snomed.info/srt#G-D101 "Intravenous route" 
 * http://terminology.hl7.org/CodeSystem/umls#C1522726 "Intravenous route" 

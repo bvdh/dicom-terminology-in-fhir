@@ -1,15 +1,14 @@
-ValueSet: CID_6
-* id = dicom-cid-6-TransducerOrientation
-* identifier
-  * system = "urn:ietf:rfc:3986"
-  * value  = "urn:oid:1.2.840.10008.6.1.4"
-* version = "20190817"
-* title = "Transducer Orientation"
-* name = "TransducerOrientation"
-* description = 
+ValueSet    : CID_6
+Id          : dicom-cid-6-TransducerOrientation
+Description :
 """
       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Coronal   SCT  Longitudinal   SCT  Sagittal   SCT  Parasagittal   SCT  Oblique   SCT  Long axis   SCT  Off axis   SCT  Short axis   SCT  Five chamber   SCT  Two chamber   SCT  Four chamber   SCT  Transverse   In a prior version of this table, the code G-A11B was specified for the concept Parasagittal. The use of this code conflicts with its assignment to another concept in SNOMED, and its use in this context is deprecated. Although there is minimal possibility of misinterpretation with SOP Instances that may include the deprecated use, receiving applications should be aware of this change; see In a prior version of this table, the code G-A13B was specified for the concept of "Off axis", whereas that code actually means "Unilateral left (qualifier value)".
 """
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.4"
+* ^version = "20190817"
+* ^title = "Transducer Orientation"
+* ^name = "TransducerOrientation"
 * http://snomed.info/sct#81654009 "Coronal" 
 * http://snomed.info/srt#G-A138 "Coronal" 
 * http://terminology.hl7.org/CodeSystem/umls#C0205123 "Coronal" 

@@ -98,19 +98,18 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
 
                 # write value sets
                 with open(os.path.join(fsh_path, fsh_filename), 'w') as fsh_file:
-                    fsh_file.write(f'ValueSet: {section_label.replace(' ','_')}\n')
-                    fsh_file.write(f'* id = {fhir_id}\n')
-                    for uid in uids:
-                        fsh_file.write(f'* identifier\n')
-                        fsh_file.write(f'  * system = "urn:ietf:rfc:3986"\n')
-                        fsh_file.write(f'  * value  = "urn:oid:{uid}"\n')
-                    fsh_file.write(f'* version = "{version}"\n')
-                    fsh_file.write(f'* title = "{title_text}"\n')
-                    fsh_file.write(f'* name = "{keyword}"\n')
-                    fsh_file.write(f'* description = \n')
+                    fsh_file.write(f'ValueSet    : {section_label.replace(' ','_')}\n')
+                    fsh_file.write(f'Id          : {fhir_id}\n')
+                    fsh_file.write(f'Description :\n')
                     fsh_file.write(f'"""\n')
                     fsh_file.write(f'{description_text}\n')
                     fsh_file.write(f'"""\n')
+                    for uid in uids:
+                        fsh_file.write(f'* ^identifier.system = "urn:ietf:rfc:3986"\n')
+                        fsh_file.write(f'* ^identifier.value  = "urn:oid:{uid}"\n')
+                    fsh_file.write(f'* ^version = "{version}"\n')
+                    fsh_file.write(f'* ^title = "{title_text}"\n')
+                    fsh_file.write(f'* ^name = "{keyword}"\n')
 
                     includes = []
 
@@ -119,7 +118,7 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
                         if ( value[0].startswith('Include') ):
                             include = value[0].replace('Include (', '').replace(')', '').strip()
                             includes.append(include)
-                            fsh_file.write(f'* include codes from {include.replace('sect_','')}\n\n')
+                            fsh_file.write(f'* include codes from valueset {include.replace('sect_','')}\n\n')
                         else:
                             if codingSchemeIndex >= 0 and codeValueIndex >= 0 and codeMeaningIndex >= 0:
                                 coding_scheme = value[codingSchemeIndex].strip()
@@ -156,7 +155,9 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
         system = FHIR_SYSTEM_DICTIONARY[dicomSystem]
         if ( not system.startswith('http') and len(allcodes[dicomSystem]) > 0 and dicomSystem != 'DCM' ):
             uid = dicomTerminologyData.get(dicomSystem)[1]
-            description = dicomTerminologyData.get(dicomSystem)[2]
+            description = dicomTerminologyData.get(dicomSystem)[5]
+            if not description or len(description) == 0:
+                description = dicomTerminologyData.get(dicomSystem)[2]
             writeCodeSystemPart( fsh_path, dicomSystem, system, uid, description, allcodes[dicomSystem] )
     
     writeCodeSystemPart( fsh_path, 'SRT', FHIR_SYSTEM_DICTIONARY['SRT'], dicomTerminologyData.get('SRT')[1], dicomTerminologyData.get('SRT')[2], allcodes['SRT'] )
@@ -193,19 +194,22 @@ def writeTerminologyCodeSystem( fsh_path, title, values):
             description = value[2]
             if ( len(value) > 2 and len(value[1])>0 ):
                 description += f" (UID={value[1].strip()})"
+            
             fsh_file.write(f'* #{value[0]} "{value[0]}" "{description}"\n')
-            fsh_file.write(f'* #{value[0]} ^property[0].code = #uid\n')
-            fsh_file.write(f'* #{value[0]} ^property[0].valueString  = {value[1]}\n')
+            
+            if len( value[1] ) > 0:
+                fsh_file.write(f'* #{value[0]} ^property[0].code = #uid\n')
+                fsh_file.write(f'* #{value[0]} ^property[0].valueString  = "{value[1]}"\n'    )
             fsh_file.write(f'\n')
                 
 
 def writeCodeSystemPart(fsh_path, dicomSystem, system, uid, description, items):
     fsh_filename = f'CodeSystem-{dicomSystem}.fsh'
-    print(f'Generating FHIR Shorthand for uids in {fsh_path}/{fsh_filename}')
+    print(f'Generating FHIR Shorthand for codes in {fsh_path}/{fsh_filename}')
 
     with open(os.path.join(fsh_path, fsh_filename), 'w') as fsh_file:
-        fsh_file.write(f'CodeSystem: {system}\n')
-        fsh_file.write(f'Id: dicom-codesystem-{dicomSystem}\n')
+        fsh_file.write(f'CodeSystem: {dicomSystem}\n')
+        fsh_file.write(f'Id: dicom-codesystem-{dicomSystem.replace("_","-")}\n')
         fsh_file.write(f'Title: "{dicomSystem}"\n')
         fsh_file.write(f'Description: "{description}"\n')
         
@@ -215,9 +219,8 @@ def writeCodeSystemPart(fsh_path, dicomSystem, system, uid, description, items):
         fsh_file.write('\n')
     
         if uid and len(uid) > 0:
-            fsh_file.write('* identifier\n')
-            fsh_file.write(f'  * system = "urn:ietf:rfc:3986"\n')
-            fsh_file.write(f'  * value  = "urn:oid:{uid}"\n')
+            fsh_file.write('* ^identifier.system = "urn:ietf:rfc:3986"\n')
+            fsh_file.write('* ^identifier.value  = "urn:oid:{uid}"\n')
             fsh_file.write('\n')
         
 

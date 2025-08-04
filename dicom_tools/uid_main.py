@@ -48,7 +48,7 @@ def writeUidsCodeSystem( fsh_path:str, dicom_path:str ) -> None:
 
         fsh_file.write('\n')
         
-        value_list = getDataDicomTable(dicom_path, PART, TABLE_ID)
+        title, value_list = getDataDicomTable(dicom_path, PART, TABLE_ID)
         for value in value_list:
             if len(value[0])>0:
                 fsh_file.write(f'\n')
