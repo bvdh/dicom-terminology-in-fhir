@@ -2,7 +2,7 @@ ValueSet    : CID_12301
 Id          : dicom-cid-12301-MeasurementSelectionReason
 Description :
 """
-The codes in this Context Group describe the reason that a value was selected as the preferred value. E.g.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Maximum   SCT  Minimum   DCM  User chosen value   DCM  Most recent value chosen   DCM  Mean value chosen  
+The codes in this Context Group describe the reason that a value was selected as the preferred value. E.g.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Maximum   SCT  Minimum   DCM  User chosen value   DCM  Most recent value chosen   DCM  Mean value chosen
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1142"

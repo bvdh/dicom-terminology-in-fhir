@@ -2,7 +2,7 @@ ValueSet    : CID_7452
 Id          : dicom-cid-7452-OrganizationalRole
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Medical Practitioner   SCT  Physician   DCM  Head of Radiology DCM  Chair of Protocol Committee DCM  Representative of Protocol Committee DCM  Representative of Ethics Committee DCM  Head of Cardiology DCM  Administrator of Radiology Department SCT  Nurse   SCT  Radiologic Technologist   DCM  Lead Radiologic Technologist SCT  Radiation Therapist   SCT  Radiographer   UMLS  Intern   SCT  Resident   SCT  Registrar   DCM  Fellow   SCT  Attending   SCT  Consultant   UMLS  Consulting Physician   SCT  Scrub nurse   SCT  Surgeon   DCM  Sonologist   UMLS  Sonographer   UMLS  Radiation Physicist   UMLS  Medical Physicist   The distinction between a "physician" and a "surgeon" and a "medical practitioner" is subject to regional variation. In the US, "physician" is often equated with "medical practitioner", and a "surgeon" is considered to be a "physician". In the UK, a "surgeon" is a "medical practitioner" but is not a "physician". In SNOMED, "physician" and "surgeon" are distinct siblings with no direct relationship, and both are children of "medical practitioner". It is recommended that "medical practitioner" be used rather than "physician" when there is uncertainty over whether the person is or is not a "surgeon". There is no distinction between a "radiographer" and a "radiologic technologist", hence the same SNOMED concept is used for both, and "radiologic technologist" is provided as a synonym for use in the US. In the US, the medical practitioner not in training responsible for the care of a hospital patient is referred to as an "attending". In the UK they are referred to as a "consultant". Though these two concepts are essentially the same, they are separate concepts in SNOMED, which defines no explicit relationship between them. 4. A distinction is made between a Consultant and a Consulting Physician since these are separate concepts in UMLS. A Consultant is defined as "individuals referred to for expert or professional advice or services" (MSH) whereas a Consulting Physician is defined as "a physician that has expertise in a specific medical discipline that can offer expertise or advice to other physicians and healthcare providers" (from NCI/PT). In UK practice a "consultant" is always a medical practitioner. In SNOMED,
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Medical Practitioner   SCT  Physician   DCM  Head of Radiology DCM  Chair of Protocol Committee DCM  Representative of Protocol Committee DCM  Representative of Ethics Committee DCM  Head of Cardiology DCM  Administrator of Radiology Department SCT  Nurse   SCT  Radiologic Technologist   DCM  Lead Radiologic Technologist SCT  Radiation Therapist   SCT  Radiographer   UMLS  Intern   SCT  Resident   SCT  Registrar   DCM  Fellow   SCT  Attending   SCT  Consultant   UMLS  Consulting Physician   SCT  Scrub nurse   SCT  Surgeon   DCM  Sonologist   UMLS  Sonographer   UMLS  Radiation Physicist   UMLS  Medical Physicist   The distinction between a "physician" and a "surgeon" and a "medical practitioner" is subject to regional variation. In the US, "physician" is often equated with "medical practitioner", and a "surgeon" is considered to be a "physician". In the UK, a "surgeon" is a "medical practitioner" but is not a "physician". In SNOMED, "physician" and "surgeon" are distinct siblings with no direct relationship, and both are children of "medical practitioner". It is recommended that "medical practitioner" be used rather than "physician" when there is uncertainty over whether the person is or is not a "surgeon". There is no distinction between a "radiographer" and a "radiologic technologist", hence the same SNOMED concept is used for both, and "radiologic technologist" is provided as a synonym for use in the US. In the US, the medical practitioner not in training responsible for the care of a hospital patient is referred to as an "attending". In the UK they are referred to as a "consultant". Though these two concepts are essentially the same, they are separate concepts in SNOMED, which defines no explicit relationship between them. 4. A distinction is made between a Consultant and a Consulting Physician since these are separate concepts in UMLS. A Consultant is defined as "individuals referred to for expert or professional advice or services" (MSH) whereas a Consulting Physician is defined as "a physician that has expertise in a specific medical discipline that can offer expertise or advice to other physicians and healthcare providers" (from NCI/PT). In UK practice a "consultant" is always a medical practitioner. In SNOMED,
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.516"
@@ -43,12 +43,12 @@ Description :
 * http://snomed.info/srt#J-06173 "Radiation Therapist" 
 * http://terminology.hl7.org/CodeSystem/umls#C0278604 "Radiation Therapist" 
 
-* http://snomed.info/sct#159016003 "Radiographer" 
-* http://snomed.info/srt#J-00187 "Radiographer" 
-* http://terminology.hl7.org/CodeSystem/umls#C0402007 "Radiographer" 
+// * http://snomed.info/sct#159016003 "Radiographer" 
+// * http://snomed.info/srt#J-00187 "Radiographer" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0402007 "Radiographer" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C1144859 "Intern" 
-* http://terminology.hl7.org/CodeSystem/umls#C1144859 "Intern" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1144859 "Intern" 
 
 * http://snomed.info/sct#405277009 "Resident" 
 * http://snomed.info/srt#J-005E6 "Resident" 
@@ -69,7 +69,7 @@ Description :
 * http://terminology.hl7.org/CodeSystem/umls#C0586911 "Consultant" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C1441532 "Consulting Physician" 
-* http://terminology.hl7.org/CodeSystem/umls#C1441532 "Consulting Physician" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1441532 "Consulting Physician" 
 
 * http://snomed.info/sct#415506007 "Scrub nurse" 
 * http://snomed.info/srt#J-0714A "Scrub nurse" 
@@ -82,11 +82,11 @@ Description :
 * DICOMDCMCodeSystem#121092 "Sonologist" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C1954848 "Sonographer" 
-* http://terminology.hl7.org/CodeSystem/umls#C1954848 "Sonographer" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1954848 "Sonographer" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C2985483 "Radiation Physicist" 
-* http://terminology.hl7.org/CodeSystem/umls#C2985483 "Radiation Physicist" 
+// * http://terminology.hl7.org/CodeSystem/umls#C2985483 "Radiation Physicist" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C1708969 "Medical Physicist" 
-* http://terminology.hl7.org/CodeSystem/umls#C1708969 "Medical Physicist" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1708969 "Medical Physicist" 
 

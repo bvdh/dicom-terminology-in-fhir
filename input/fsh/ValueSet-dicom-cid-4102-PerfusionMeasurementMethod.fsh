@@ -2,7 +2,7 @@ ValueSet    : CID_4102
 Id          : dicom-cid-4102-PerfusionMeasurementMethod
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Perfusion analysis by Stable Xenon CT technique DCM  Perfusion analysis by IV Iodinated Contrast CT technique DCM  Perfusion analysis by Arterial Spin Labeling MR technique DCM  Perfusion analysis by Susceptibility MR technique
+Coding Scheme Designator Code Value Code Meaning DCM  Perfusion analysis by Stable Xenon CT technique DCM  Perfusion analysis by IV Iodinated Contrast CT technique DCM  Perfusion analysis by Arterial Spin Labeling MR technique DCM  Perfusion analysis by Susceptibility MR technique
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.987"

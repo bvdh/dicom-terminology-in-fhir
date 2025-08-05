@@ -2,7 +2,7 @@ ValueSet    : CID_108
 Id          : dicom-cid-108-DiagnosticImagingProcedureWithoutIVContrast
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  CT without contrast   SCT  CT of abdominal aorta without contrast  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  CT without contrast   SCT  CT of abdominal aorta without contrast
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1514"

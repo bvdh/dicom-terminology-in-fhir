@@ -2,7 +2,7 @@ ValueSet    : CID_6050
 Id          : dicom-cid-6050-BreastProcedureReported
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Film Screen Mammography   SCT  Ultrasonography of breast   SCT  MRI of breast   SCT  Pre-biopsy localization of breast lesion   SCT  Fine needle aspiration of breast   SCT  Diagnostic aspiration of breast cyst   SCT  Core needle biopsy of breast   SCT  Breast - surgical biopsy   SCT  Mammary ductogram   SCT  CT of breast   SCT  Radionuclide localization of tumor, limited area   SCT  Specimen radiography of breast   SCT  Examination of breast   DCM  Surgical consult   DCM  Mammography CAD   SCT  Sentinel lymph node biopsy   SCT  Radioisotope scan of lymphatic system   DCM  Marker placement   SCT  Insertion of catheter   LN  breast - bilateral mammogram   LN  breast - bilateral mr   LN  breast - bilateral mr w contrast iv   LN  breast - bilateral mr wo and w contrast iv   LN  breast ffd mammogram   LN  breast - left mammogram   LN  breast - left mr   LN  breast - left mr w contrast iv   LN  breast - left mr wo and w contrast iv   LN  breast mr w contrast iv   LN  breast mr wo and w contrast iv   LN  breast - right mammogram   LN  breast - right mr   LN  breast - right mr w contrast iv   LN  breast - right mr wo and w contrast iv   LN  breast - right mr wo and w contrast iv   LN  breast - unilateral mammogram   LN  breast - unilateral mr   LN  breast - unilateral mr w contrast iv   LN  breast - unilateral mr wo and w contrast iv   LN  breast - unilateral mr wo contrast   LN  whole body ct   LN  whole body pt w rnc iv    
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Film Screen Mammography   SCT  Ultrasonography of breast   SCT  MRI of breast   SCT  Pre-biopsy localization of breast lesion   SCT  Fine needle aspiration of breast   SCT  Diagnostic aspiration of breast cyst   SCT  Core needle biopsy of breast   SCT  Breast - surgical biopsy   SCT  Mammary ductogram   SCT  CT of breast   SCT  Radionuclide localization of tumor, limited area   SCT  Specimen radiography of breast   SCT  Examination of breast   DCM  Surgical consult   DCM  Mammography CAD   SCT  Sentinel lymph node biopsy   SCT  Radioisotope scan of lymphatic system   DCM  Marker placement   SCT  Insertion of catheter   LN  breast - bilateral mammogram   LN  breast - bilateral mr   LN  breast - bilateral mr w contrast iv   LN  breast - bilateral mr wo and w contrast iv   LN  breast ffd mammogram   LN  breast - left mammogram   LN  breast - left mr   LN  breast - left mr w contrast iv   LN  breast - left mr wo and w contrast iv   LN  breast mr w contrast iv   LN  breast mr wo and w contrast iv   LN  breast - right mammogram   LN  breast - right mr   LN  breast - right mr w contrast iv   LN  breast - right mr wo and w contrast iv   LN  breast - right mr wo and w contrast iv   LN  breast - unilateral mammogram   LN  breast - unilateral mr   LN  breast - unilateral mr w contrast iv   LN  breast - unilateral mr wo and w contrast iv   LN  breast - unilateral mr wo contrast   LN  whole body ct   LN  whole body pt w rnc iv
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.379"
@@ -122,8 +122,8 @@ Description :
 * http://loinc.org#36279-8 "breast - right mr wo and w contrast iv" 
 * http://terminology.hl7.org/CodeSystem/umls#C1524127 "breast - right mr wo and w contrast iv" 
 
-* http://loinc.org#36279-8 "breast - right mr wo and w contrast iv" 
-* http://terminology.hl7.org/CodeSystem/umls#C1524127 "breast - right mr wo and w contrast iv" 
+// * http://loinc.org#36279-8 "breast - right mr wo and w contrast iv" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1524127 "breast - right mr wo and w contrast iv" 
 
 * http://loinc.org#46339-8 "breast - unilateral mammogram" 
 * http://terminology.hl7.org/CodeSystem/umls#C1830240 "breast - unilateral mammogram" 

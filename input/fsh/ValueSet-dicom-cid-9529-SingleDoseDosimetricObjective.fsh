@@ -2,7 +2,7 @@ ValueSet    : CID_9529
 Id          : dicom-cid-9529-SingleDoseDosimetricObjective
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Minimum Surface Radiation Dose DCM  Maximum Surface Radiation Dose DCM  Minimum Radiation Dose DCM  Maximum Radiation Dose DCM  Minimum Mean Radiation Dose DCM  Maximum Mean Radiation Dose DCM  Minimum Equivalent Uniform Dose DCM  Maximum Equivalent Uniform Dose DCM  Prescription Radiation Dose
+Coding Scheme Designator Code Value Code Meaning DCM  Minimum Surface Radiation Dose DCM  Maximum Surface Radiation Dose DCM  Minimum Radiation Dose DCM  Maximum Radiation Dose DCM  Minimum Mean Radiation Dose DCM  Maximum Mean Radiation Dose DCM  Minimum Equivalent Uniform Dose DCM  Maximum Equivalent Uniform Dose DCM  Prescription Radiation Dose
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1239"

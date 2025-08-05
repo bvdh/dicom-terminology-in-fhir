@@ -2,7 +2,7 @@ ValueSet    : CID_3020
 Id          : dicom-cid-3020-AssessmentFromCADRADS
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  0 - Documented absence of CAD DCM  1 - Minimal non-obstructive CAD DCM  2 - Mild non-obstructive CAD DCM  3 - Moderate stenosis DCM  4 - Severe stenosis DCM  5 - Total coronary occlusion DCM  N - Non-diagnostic study
+Coding Scheme Designator Code Value Code Meaning DCM  0 - Documented absence of CAD DCM  1 - Minimal non-obstructive CAD DCM  2 - Mild non-obstructive CAD DCM  3 - Moderate stenosis DCM  4 - Severe stenosis DCM  5 - Total coronary occlusion DCM  N - Non-diagnostic study
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1429"

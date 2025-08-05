@@ -1,8 +1,8 @@
 ValueSet    : CID_12286
-Id          : dicom-cid-12286-CardiacUltrasoundInterventricularSeptumFindingSite
+Id          : dicom-cid-12286-CardiacUltrasoundInterventricularSeptumFindingSi
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Interventricular Septum   SCT  Ventricular Septal Defect   SCT  Bulboventricular Foramen  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Interventricular Septum   SCT  Ventricular Septal Defect   SCT  Bulboventricular Foramen
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.866"

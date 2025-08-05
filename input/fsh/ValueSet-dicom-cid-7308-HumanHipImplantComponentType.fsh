@@ -2,7 +2,7 @@ ValueSet    : CID_7308
 Id          : dicom-cid-7308-HumanHipImplantComponentType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Acetabular Cup Shell   DCM  Acetabular Cup Insert   DCM  Acetabular Cup Monoblock   SCT  Femoral Head Prosthesis   DCM  Femoral Head Ball Component   DCM  Femoral Head Cone Taper Component   DCM  Femoral Stem   DCM  Femoral Stem Distal Component   DCM  Femoral Stem Proximal Component   DCM  Femoral Stem Component   DCM  Neck Component   DCM  Monoblock Stem   DCM  Distal Centralizer   DCM  Prosthetic Shaft Augment   DCM  Femoral Head Resurfacing Component  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Acetabular Cup Shell   DCM  Acetabular Cup Insert   DCM  Acetabular Cup Monoblock   SCT  Femoral Head Prosthesis   DCM  Femoral Head Ball Component   DCM  Femoral Head Cone Taper Component   DCM  Femoral Stem   DCM  Femoral Stem Distal Component   DCM  Femoral Stem Proximal Component   DCM  Femoral Stem Component   DCM  Neck Component   DCM  Monoblock Stem   DCM  Distal Centralizer   DCM  Prosthetic Shaft Augment   DCM  Femoral Head Resurfacing Component
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1039"

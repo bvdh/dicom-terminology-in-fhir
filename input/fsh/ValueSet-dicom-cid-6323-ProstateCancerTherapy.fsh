@@ -2,7 +2,7 @@ ValueSet    : CID_6323
 Id          : dicom-cid-6323-ProstateCancerTherapy
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Androgen Deprivation Therapy   SCT  Implantation of radioactive seed into prostate   SCT  Prostatectomy  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Androgen Deprivation Therapy   SCT  Implantation of radioactive seed into prostate   SCT  Prostatectomy
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1380"

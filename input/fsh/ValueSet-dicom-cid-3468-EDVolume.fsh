@@ -2,7 +2,7 @@ ValueSet    : CID_3468
 Id          : dicom-cid-3468-EDVolume
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Left Ventricular ED Volume  LN  Right Ventricular ED Volume  DCM  Left Atrial ED Volume 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Left Ventricular ED Volume  LN  Right Ventricular ED Volume  DCM  Left Atrial ED Volume
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.110"

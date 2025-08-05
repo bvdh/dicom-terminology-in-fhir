@@ -2,7 +2,7 @@ ValueSet    : CID_3723
 Id          : dicom-cid-3723-MIType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR [2.0b] Equivalent SCT  Non ST Elevation Myocardial Infarction   94-1 SCT  ST Elevation Myocardial Infarction   94-2 In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR [2.0b] Equivalent SCT  Non ST Elevation Myocardial Infarction   94-1 SCT  ST Elevation Myocardial Infarction   94-2 In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.224"

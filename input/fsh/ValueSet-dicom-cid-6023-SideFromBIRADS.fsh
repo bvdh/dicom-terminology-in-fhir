@@ -2,7 +2,7 @@ ValueSet    : CID_6023
 Id          : dicom-cid-6023-SideFromBIRADS
 Description :
 """
-From BI-RADS Third Edition (National Mammography Database, E98)       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Left breast   SCT  Right breast   SCT  Both breasts  
+From BI-RADS Third Edition (National Mammography Database, E98)       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Left breast   SCT  Right breast   SCT  Both breasts
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.353"

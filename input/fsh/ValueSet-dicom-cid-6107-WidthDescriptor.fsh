@@ -2,7 +2,7 @@ ValueSet    : CID_6107
 Id          : dicom-cid-6107-WidthDescriptor
 Description :
 """
-Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Enlarged   SCT  Narrow   DCM  Vasoconstriction   DCM  Vasodilation  
+Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Enlarged   SCT  Narrow   DCM  Vasoconstriction   DCM  Vasodilation
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.427"

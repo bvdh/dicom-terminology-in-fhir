@@ -2,7 +2,7 @@ ValueSet    : CID_6210
 Id          : dicom-cid-6210-LocationInIntestinalTract
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Rectum   SCT  Sigmoid colon   SCT  Descending colon   SCT  Transverse colon   SCT  Ascending colon   SCT  Cecum   SCT  Splenic flexure of colon   SCT  Hepatic flexure of colon  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Rectum   SCT  Sigmoid colon   SCT  Descending colon   SCT  Transverse colon   SCT  Ascending colon   SCT  Cecum   SCT  Splenic flexure of colon   SCT  Hepatic flexure of colon
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.797"

@@ -2,7 +2,7 @@ ValueSet    : CID_4272
 Id          : dicom-cid-4272-OPTScanPatternType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Cube B-scan pattern DCM  Raster B-scan pattern DCM  Line B-scan pattern DCM  Radial B-scan pattern DCM  Cross B-scan pattern DCM  Circle B-scan pattern DCM  Concentric circle B-scan pattern DCM  Circle-raster B-scan pattern DCM  Circle-radial B-scan pattern DCM  Grid B-scan pattern
+Coding Scheme Designator Code Value Code Meaning DCM  Cube B-scan pattern DCM  Raster B-scan pattern DCM  Line B-scan pattern DCM  Radial B-scan pattern DCM  Cross B-scan pattern DCM  Circle B-scan pattern DCM  Concentric circle B-scan pattern DCM  Circle-raster B-scan pattern DCM  Circle-radial B-scan pattern DCM  Grid B-scan pattern
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1152"

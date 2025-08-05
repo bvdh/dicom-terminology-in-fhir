@@ -2,7 +2,7 @@ ValueSet    : CID_6211
 Id          : dicom-cid-6211-ColonCADMaterialDescription
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Soft tissue   SCT  Fat   SCT  Air   SCT  Bone matrix  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Soft tissue   SCT  Fat   SCT  Air   SCT  Bone matrix
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.798"

@@ -2,7 +2,7 @@ ValueSet    : CID_6056
 Id          : dicom-cid-6056-AssociatedFindingForBreast
 Description :
 """
-These terms were obtained from BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Breast hematoma   SCT  Surgical scar   SCT  Nipple retraction   
+These terms were obtained from BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Breast hematoma   SCT  Surgical scar   SCT  Nipple retraction
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.385"

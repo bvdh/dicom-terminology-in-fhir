@@ -2,7 +2,7 @@ ValueSet    : CID_12204
 Id          : dicom-cid-12204-EchocardiographyRightVentricleMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID   SCT  RV Stroke Volume   SCT  RV Cardiac Output   SCT  RV Cardiac Index   SCT  RV Stroke Index   LN  Right Ventricular Internal Diastolic Dimension   LN  Right Ventricular Internal Systolic Dimension   SCT  Right Ventricular Index of Myocardial Performance   SCT  Right Ventricular Peak Systolic Pressure   LN  Right Ventricular Anterior Wall Diastolic Thickness   LN  Right Ventricular Anterior Wall Systolic Thickness  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID   SCT  RV Stroke Volume   SCT  RV Cardiac Output   SCT  RV Cardiac Index   SCT  RV Stroke Index   LN  Right Ventricular Internal Diastolic Dimension   LN  Right Ventricular Internal Systolic Dimension   SCT  Right Ventricular Index of Myocardial Performance   SCT  Right Ventricular Peak Systolic Pressure   LN  Right Ventricular Anterior Wall Diastolic Thickness   LN  Right Ventricular Anterior Wall Systolic Thickness
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.597"

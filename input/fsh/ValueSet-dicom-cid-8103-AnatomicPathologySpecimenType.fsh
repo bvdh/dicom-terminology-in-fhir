@@ -2,7 +2,7 @@ ValueSet    : CID_8103
 Id          : dicom-cid-8103-AnatomicPathologySpecimenType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Entire body   SCT  Body substance sample   SCT  Body fluid sample   SCT  Tissue specimen   SCT  Gross specimen   SCT  Tissue section   SCT  Core sample of tissue block   SCT  Tissue spot   SCT  Slide   SCT  Smear sample   SCT  Touch preparation cytologic material   SCT  Liquid based cytologic material   SCT  Aspirate   SCT  Genetic sample    The SNOMED CT concepts for specimens rather than corresponding concepts for physical objects are used in this Context Group.
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Entire body   SCT  Body substance sample   SCT  Body fluid sample   SCT  Tissue specimen   SCT  Gross specimen   SCT  Tissue section   SCT  Core sample of tissue block   SCT  Tissue spot   SCT  Slide   SCT  Smear sample   SCT  Touch preparation cytologic material   SCT  Liquid based cytologic material   SCT  Aspirate   SCT  Genetic sample    The SNOMED CT concepts for specimens rather than corresponding concepts for physical objects are used in this Context Group.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1045"

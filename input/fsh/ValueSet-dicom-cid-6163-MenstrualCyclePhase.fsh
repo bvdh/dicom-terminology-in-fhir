@@ -2,7 +2,7 @@ ValueSet    : CID_6163
 Id          : dicom-cid-6163-MenstrualCyclePhase
 Description :
 """
-From BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  1st week   DCM  2nd week   DCM  3rd week   SCT  Menstruation present  
+From BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  1st week   DCM  2nd week   DCM  3rd week   SCT  Menstruation present
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.477"

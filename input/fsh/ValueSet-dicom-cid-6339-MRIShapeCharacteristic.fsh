@@ -2,7 +2,7 @@ ValueSet    : CID_6339
 Id          : dicom-cid-6339-MRIShapeCharacteristic
 Description :
 """
-Characteristics of shape that can be identified from mpMRI.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID 
+Characteristics of shape that can be identified from mpMRI.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1396"

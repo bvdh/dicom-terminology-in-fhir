@@ -2,7 +2,7 @@ ValueSet    : CID_12104
 Id          : dicom-cid-12104-ExtracranialArtery
 Description :
 """
-This Context Group specifies the anatomic location for vascular observations       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Carotid Bifurcation   SCT  Carotid Bulb   SCT  Common Carotid Artery   SCT  External Carotid Artery   SCT  Internal Carotid Artery   SCT  Subclavian Artery   SCT  Vertebral Artery  
+This Context Group specifies the anatomic location for vascular observations       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Carotid Bifurcation   SCT  Carotid Bulb   SCT  Common Carotid Artery   SCT  External Carotid Artery   SCT  Internal Carotid Artery   SCT  Subclavian Artery   SCT  Vertebral Artery
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.571"

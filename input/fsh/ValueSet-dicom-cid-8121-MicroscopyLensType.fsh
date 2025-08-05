@@ -2,7 +2,7 @@ ValueSet    : CID_8121
 Id          : dicom-cid-8121-MicroscopyLensType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  High power non-immersion lens   SCT  Oil immersion lens   SCT  Slide overview lens  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  High power non-immersion lens   SCT  Oil immersion lens   SCT  Slide overview lens
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.898"

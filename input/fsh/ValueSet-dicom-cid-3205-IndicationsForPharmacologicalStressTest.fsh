@@ -2,7 +2,7 @@ ValueSet    : CID_3205
 Id          : dicom-cid-3205-IndicationsForPharmacologicalStressTest
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Left bundle branch block   SCT  Patient has pacemaker   SCT  Paralytic syndrome   SCT  Ataxia or incoordination   SCT  Peripheral vascular disease   SCT  Pulmonary disease   SCT  Gait problem   SCT  Transient limb paralysis   SCT  Asthenia (debility)   SCT  Cachexia   SCT  Fracture of lower limb   SCT  Open wound of lower limb   SCT  Lower limb amputation   SCT  Request by Physician   SCT  Dependence on enabling machine or device   SCT  Recent Myocardial infarction   SCT  Cannot reach target heart rate   DCM  Patient weight exceeds equipment limit  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Left bundle branch block   SCT  Patient has pacemaker   SCT  Paralytic syndrome   SCT  Ataxia or incoordination   SCT  Peripheral vascular disease   SCT  Pulmonary disease   SCT  Gait problem   SCT  Transient limb paralysis   SCT  Asthenia (debility)   SCT  Cachexia   SCT  Fracture of lower limb   SCT  Open wound of lower limb   SCT  Lower limb amputation   SCT  Request by Physician   SCT  Dependence on enabling machine or device   SCT  Recent Myocardial infarction   SCT  Cannot reach target heart rate   DCM  Patient weight exceeds equipment limit
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.760"

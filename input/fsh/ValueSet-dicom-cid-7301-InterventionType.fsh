@@ -2,7 +2,7 @@ ValueSet    : CID_7301
 Id          : dicom-cid-7301-InterventionType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Hip joint reconstruction   SCT  Insertion of hip prosthesis   SCT  Resurfacing of the femoral head   SCT  Resurfacing of the patella  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Hip joint reconstruction   SCT  Insertion of hip prosthesis   SCT  Resurfacing of the femoral head   SCT  Resurfacing of the patella
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1032"

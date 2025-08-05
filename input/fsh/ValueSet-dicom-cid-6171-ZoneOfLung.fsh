@@ -2,7 +2,7 @@ ValueSet    : CID_6171
 Id          : dicom-cid-6171-ZoneOfLung
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Upper zone of lung   SCT  Middle zone of lung   SCT  Lower zone of lung  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Upper zone of lung   SCT  Middle zone of lung   SCT  Lower zone of lung
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1483"

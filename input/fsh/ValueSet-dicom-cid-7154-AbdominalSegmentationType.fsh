@@ -2,7 +2,7 @@ ValueSet    : CID_7154
 Id          : dicom-cid-7154-AbdominalSegmentationType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Abdomen   SCT  Abdominopelvic cavity   SCT  Abdominal wall muscle   SCT  Adrenal gland   SCT  Abdominal aorta   SCT  Bile Duct   SCT  Biliary tract   SCT  Gallbladder   SCT  Inferior vena cava   SCT  Kidney   SCT  Liver   FMA  Lumen of gallbladder   SCT  Omentum   SCT  Pancreas   SCT  Pancreatic duct   SCT  Pancreatic duct and bile duct systems T-65600  SCT  Peritoneal cavity   SCT  Peritioneum   SCT  Retroperitoneal space   SCT  Skin of abdomen   SCT  Small Intestine   SCT  Spleen   SCT  Urinary system   FMA  Wall of gallbladder   
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Abdomen   SCT  Abdominopelvic cavity   SCT  Abdominal wall muscle   SCT  Adrenal gland   SCT  Abdominal aorta   SCT  Bile Duct   SCT  Biliary tract   SCT  Gallbladder   SCT  Inferior vena cava   SCT  Kidney   SCT  Liver   FMA  Lumen of gallbladder   SCT  Omentum   SCT  Pancreas   SCT  Pancreatic duct   SCT  Pancreatic duct and bile duct systems T-65600  SCT  Peritoneal cavity   SCT  Peritioneum   SCT  Retroperitoneal space   SCT  Skin of abdomen   SCT  Small Intestine   SCT  Spleen   SCT  Urinary system   FMA  Wall of gallbladder
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.500"

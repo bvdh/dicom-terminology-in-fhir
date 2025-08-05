@@ -2,7 +2,7 @@ ValueSet    : CID_3612
 Id          : dicom-cid-3612-BloodVelocityMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Diastolic blood velocity, mean DCM  Diastolic blood velocity, peak DCM  Systolic blood velocity, mean DCM  Systolic blood velocity, peak DCM  Blood velocity, mean DCM  Blood velocity, minimum DCM  Blood velocity, peak
+Coding Scheme Designator Code Value Code Meaning DCM  Diastolic blood velocity, mean DCM  Diastolic blood velocity, peak DCM  Systolic blood velocity, mean DCM  Systolic blood velocity, peak DCM  Blood velocity, mean DCM  Blood velocity, minimum DCM  Blood velocity, peak
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.162"

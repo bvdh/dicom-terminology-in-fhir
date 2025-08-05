@@ -2,7 +2,7 @@ ValueSet    : CID_4282
 Id          : dicom-cid-4282-RetinalSectorMethods
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Semicircular sectors DCM  Quadrant sectors DCM  SNIT rectangular sectors DCM  Garway-Heath sectors DCM  Quadrant-octant sectors
+Coding Scheme Designator Code Value Code Meaning DCM  Semicircular sectors DCM  Quadrant sectors DCM  SNIT rectangular sectors DCM  Garway-Heath sectors DCM  Quadrant-octant sectors
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1535"

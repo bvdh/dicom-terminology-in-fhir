@@ -2,7 +2,7 @@ ValueSet    : CID_12006
 Id          : dicom-cid-12006-FetalLongBonesBiometryMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Humerus length  LN  Radius length  LN  Ulna length  LN  Tibia length  LN  Fibula length  LN  Clavicle length  LN  Femur Length 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Humerus length  LN  Radius length  LN  Ulna length  LN  Tibia length  LN  Fibula length  LN  Clavicle length  LN  Femur Length
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.555"

@@ -2,7 +2,7 @@ ValueSet    : CID_12118
 Id          : dicom-cid-12118-MeasurementOrientation
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Anterior-Posterior   SCT  Transverse   SCT  Longitudinal  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Anterior-Posterior   SCT  Transverse   SCT  Longitudinal
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.926"

@@ -2,7 +2,7 @@ ValueSet    : CID_240
 Id          : dicom-cid-240-PresentAbsent
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Present   SCT  Absent   SCT  Undetermined   In a previous version of this Context Group
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Present   SCT  Absent   SCT  Undetermined   In a previous version of this Context Group
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.35"

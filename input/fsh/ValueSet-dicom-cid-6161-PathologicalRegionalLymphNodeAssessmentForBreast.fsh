@@ -2,7 +2,7 @@ ValueSet    : CID_6161
 Id          : dicom-cid-6161-PathologicalRegionalLymphNodeAssessmentForBreast
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  pNX   SCT  pN0   SCT  pN1   SCT  pN2   SCT  pN2a   SCT  pN2b   SCT  pN3   SCT  pN3a   SCT  pN3b   SCT  pN3c  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  pNX   SCT  pN0   SCT  pN1   SCT  pN2   SCT  pN2a   SCT  pN2b   SCT  pN3   SCT  pN3a   SCT  pN3b   SCT  pN3c
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.475"

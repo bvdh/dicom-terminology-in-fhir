@@ -2,7 +2,7 @@ ValueSet    : CID_6129
 Id          : dicom-cid-6129-ChestSiteInvolvement
 Description :
 """
-Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Lung   SCT  Mediastinum   DCM  Lobar   SCT  Interstitial tissue   SCT  Bronchial   SCT  Hilum of lung   SCT  Aorta   SCT  Pleural structure   SCT  Chest wall   SCT  Upper abdomen  
+Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Lung   SCT  Mediastinum   DCM  Lobar   SCT  Interstitial tissue   SCT  Bronchial   SCT  Hilum of lung   SCT  Aorta   SCT  Pleural structure   SCT  Chest wall   SCT  Upper abdomen
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.449"

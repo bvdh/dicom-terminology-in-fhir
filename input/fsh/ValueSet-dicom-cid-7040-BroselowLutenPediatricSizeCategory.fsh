@@ -2,7 +2,7 @@ ValueSet    : CID_7040
 Id          : dicom-cid-7040-BroselowLutenPediatricSizeCategory
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Broselow Luten Pink Zone (6-7 kg)   SCT  Broselow Luten Red Zone (8-9 kg)   SCT  Broselow Luten Purple Zone (10-11 kg)   SCT  Broselow Luten Yellow Zone (12-14 kg)   SCT  Broselow Luten White Zone (15-18 kg)   SCT  Broselow Luten Blue Zone (19-23 kg)   SCT  Broselow Luten Orange Zone (24-29 kg)   SCT  Broselow Luten Green Zone (30-36 kg)  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Broselow Luten Pink Zone (6-7 kg)   SCT  Broselow Luten Red Zone (8-9 kg)   SCT  Broselow Luten Purple Zone (10-11 kg)   SCT  Broselow Luten Yellow Zone (12-14 kg)   SCT  Broselow Luten White Zone (15-18 kg)   SCT  Broselow Luten Blue Zone (19-23 kg)   SCT  Broselow Luten Orange Zone (24-29 kg)   SCT  Broselow Luten Green Zone (30-36 kg)
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.824"

@@ -2,7 +2,7 @@ ValueSet    : CID_7466
 Id          : dicom-cid-7466-PETRegionOfInterestMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Metabolic Volume DCM  Total Lesion Glycolysis DCM  Glycolysis DCM  Total Lesion Proliferation DCM  Proliferative Activity DCM  Standardized Added Metabolic Activity DCM  Standardized Added Metabolic Activity Background DCM  Lesion to Background SUV Ratio DCM  Background for Lesion to Background SUV Ratio
+Coding Scheme Designator Code Value Code Meaning DCM  Metabolic Volume DCM  Total Lesion Glycolysis DCM  Glycolysis DCM  Total Lesion Proliferation DCM  Proliferative Activity DCM  Standardized Added Metabolic Activity DCM  Standardized Added Metabolic Activity Background DCM  Lesion to Background SUV Ratio DCM  Background for Lesion to Background SUV Ratio
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.999"

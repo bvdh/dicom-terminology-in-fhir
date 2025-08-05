@@ -2,7 +2,7 @@ ValueSet    : CID_9515
 Id          : dicom-cid-9515-RTPatientSupportDevice
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Table   SCT  Chair   SCT  Stretcher   SCT  Wall   SCT  Floor  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Table   SCT  Chair   SCT  Stretcher   SCT  Wall   SCT  Floor
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1225"

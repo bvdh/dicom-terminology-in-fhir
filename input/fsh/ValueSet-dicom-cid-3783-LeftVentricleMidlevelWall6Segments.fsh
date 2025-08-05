@@ -2,7 +2,7 @@ ValueSet    : CID_3783
 Id          : dicom-cid-3783-LeftVentricleMidlevelWall6Segments
 Description :
 """
-This 6-segment model of the midlevel left ventricular myocardial wall uses the terminology specified in       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  left ventricle mid anterior segment   SCT  left ventricle mid anteroseptal segment   SCT  left ventricle mid inferoseptal segment   SCT  left ventricle mid inferior segment   SCT  left ventricle mid inferolateral segment   SCT  left ventricle mid anterolateral segment  
+This 6-segment model of the midlevel left ventricular myocardial wall uses the terminology specified in       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  left ventricle mid anterior segment   SCT  left ventricle mid anteroseptal segment   SCT  left ventricle mid inferoseptal segment   SCT  left ventricle mid inferior segment   SCT  left ventricle mid inferolateral segment   SCT  left ventricle mid anterolateral segment
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1415"

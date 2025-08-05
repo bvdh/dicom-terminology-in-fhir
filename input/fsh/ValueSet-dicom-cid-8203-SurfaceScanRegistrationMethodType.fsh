@@ -2,7 +2,7 @@ ValueSet    : CID_8203
 Id          : dicom-cid-8203-SurfaceScanRegistrationMethodType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Iterative Closest Point DCM  Fiducial Alignment DCM  Freehand
+Coding Scheme Designator Code Value Code Meaning DCM  Iterative Closest Point DCM  Fiducial Alignment DCM  Freehand
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.956"

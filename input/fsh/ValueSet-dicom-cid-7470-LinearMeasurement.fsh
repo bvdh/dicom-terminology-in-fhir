@@ -2,7 +2,7 @@ ValueSet    : CID_7470
 Id          : dicom-cid-7470-LinearMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Length   DCM  Path length   DCM  Distance   SCT  Width   SCT  Depth   SCT  Diameter   SCT  Long Axis   SCT  Short Axis   SCT  Major Axis   SCT  Minor Axis   SCT  Perpendicular Axis   SCT  Radius   SCT  Perimeter   SCT  Circumference   SCT  Diameter of circumscribed circle   DCM  Height   DCM  Line segment length   IBSI L0JK Maximum 3D Diameter of a Mesh   IBSI TDIC Major Axis in 3D Length   IBSI P9VJ Minor Axis in 3D Length   IBSI 7J51 Least Axis in 3D Length  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Length   DCM  Path length   DCM  Distance   SCT  Width   SCT  Depth   SCT  Diameter   SCT  Long Axis   SCT  Short Axis   SCT  Major Axis   SCT  Minor Axis   SCT  Perpendicular Axis   SCT  Radius   SCT  Perimeter   SCT  Circumference   SCT  Diameter of circumscribed circle   DCM  Height   DCM  Line segment length   IBSI L0JK Maximum 3D Diameter of a Mesh   IBSI TDIC Major Axis in 3D Length   IBSI P9VJ Minor Axis in 3D Length   IBSI 7J51 Least Axis in 3D Length
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.524"

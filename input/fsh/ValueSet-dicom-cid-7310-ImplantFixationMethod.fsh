@@ -2,7 +2,7 @@ ValueSet    : CID_7310
 Id          : dicom-cid-7310-ImplantFixationMethod
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anchoring   SCT  Fusion   SCT  Gluing   SCT  Internal skeletal fixation   SCT  Internal fixation using plate   SCT  Internal fixation using screw   SCT  Internal fixation using staple   SCT  Cemented component fixation   SCT  Uncemented component fixation   SCT  Repair by nailing   DCM  Pinning   DCM  Sewing   DCM  Bolting   DCM  Wedging  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anchoring   SCT  Fusion   SCT  Gluing   SCT  Internal skeletal fixation   SCT  Internal fixation using plate   SCT  Internal fixation using screw   SCT  Internal fixation using staple   SCT  Cemented component fixation   SCT  Uncemented component fixation   SCT  Repair by nailing   DCM  Pinning   DCM  Sewing   DCM  Bolting   DCM  Wedging
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1041"

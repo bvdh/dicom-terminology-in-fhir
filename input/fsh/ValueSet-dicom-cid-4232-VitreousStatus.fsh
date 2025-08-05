@@ -2,7 +2,7 @@ ValueSet    : CID_4232
 Id          : dicom-cid-4232-VitreousStatus
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Gas in vitreous cavity   SCT  Post-Vitrectomy   SCT  Silicone Oil   SCT  Vitreous Only  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Gas in vitreous cavity   SCT  Post-Vitrectomy   SCT  Silicone Oil   SCT  Vitreous Only
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.878"

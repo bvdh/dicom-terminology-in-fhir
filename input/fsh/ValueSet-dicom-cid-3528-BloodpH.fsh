@@ -2,7 +2,7 @@ ValueSet    : CID_3528
 Id          : dicom-cid-3528-BloodpH
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Blood pH  LN  Arterial Blood pH  LN  Venous Blood pH 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Blood pH  LN  Arterial Blood pH  LN  Venous Blood pH
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.142"

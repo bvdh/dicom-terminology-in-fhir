@@ -2,7 +2,7 @@ ValueSet    : CID_241
 Id          : dicom-cid-241-PresentAbsentOnly
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Present   SCT  Absent   This Context Group is intended for use rather than CID 240 "Normal-Abnormal" when the value
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Present   SCT  Absent   This Context Group is intended for use rather than CID 240 "Normal-Abnormal" when the value
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1113"

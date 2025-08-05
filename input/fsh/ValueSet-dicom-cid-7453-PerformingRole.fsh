@@ -2,7 +2,7 @@ ValueSet    : CID_7453
 Id          : dicom-cid-7453-PerformingRole
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Performing   UMLS  Referring   DCM  Requesting   DCM  Recording   DCM  Verifying   DCM  Assisting   SCT  Circulating Nurse   DCM  Standby   DCM  Irradiation Authorizing   DCM  Irradiation Administering   NCIt  Reader   DCM  Eligibility Reader   NCIt  Adjudicator   NCIt  Reviewer   DCM  Designator   DCM  Image Quality Controller   DCM  Results Quality Controller  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Performing   UMLS  Referring   DCM  Requesting   DCM  Recording   DCM  Verifying   DCM  Assisting   SCT  Circulating Nurse   DCM  Standby   DCM  Irradiation Authorizing   DCM  Irradiation Administering   NCIt  Reader   DCM  Eligibility Reader   NCIt  Adjudicator   NCIt  Reviewer   DCM  Designator   DCM  Image Quality Controller   DCM  Results Quality Controller
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.517"
@@ -12,7 +12,7 @@ Description :
 * DICOMDCMCodeSystem#121094 "Performing" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C1709880 "Referring" 
-* http://terminology.hl7.org/CodeSystem/umls#C1709880 "Referring" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1709880 "Referring" 
 
 * DICOMDCMCodeSystem#121096 "Requesting" 
 

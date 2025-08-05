@@ -2,7 +2,7 @@ ValueSet    : CID_12018
 Id          : dicom-cid-12018-OBGYNSummary
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Number of Fetuses by US  LN  Gestational Age by ovulation date 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Number of Fetuses by US  LN  Gestational Age by ovulation date
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.566"

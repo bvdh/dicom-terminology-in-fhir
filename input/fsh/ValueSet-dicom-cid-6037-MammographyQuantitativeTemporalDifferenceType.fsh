@@ -2,7 +2,7 @@ ValueSet    : CID_6037
 Id          : dicom-cid-6037-MammographyQuantitativeTemporalDifferenceType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Difference in size   SCT  Difference in opacity   SCT  Difference in location   SCT  Difference in spatial proximity   SCT  Difference in number of calcifications  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Difference in size   SCT  Difference in opacity   SCT  Difference in location   SCT  Difference in spatial proximity   SCT  Difference in number of calcifications
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.367"

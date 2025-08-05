@@ -2,7 +2,7 @@ ValueSet    : CID_3742
 Id          : dicom-cid-3742-PCIMedicationAdministration
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR Equivalent SCT  Not Administered    SCT  Contraindicated   59-1 SCT  Administered Prior to Percutaneous Coronary Intervention   59-2 SCT  Administered During Percutaneous Coronary Intervention   59-3 SCT  Administered After Percutaneous Coronary Intervention   59-4
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR Equivalent SCT  Not Administered    SCT  Contraindicated   59-1 SCT  Administered Prior to Percutaneous Coronary Intervention   59-2 SCT  Administered During Percutaneous Coronary Intervention   59-3 SCT  Administered After Percutaneous Coronary Intervention   59-4
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.239"

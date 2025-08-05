@@ -2,7 +2,7 @@ ValueSet    : CID_7152
 Id          : dicom-cid-7152-CardiacStructureSegmentationType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Heart   SCT  Aorta   SCT  Left Ventricle   SCT  Right Ventricle   SCT  Pericardium   SCT  Pericardial cavity  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Heart   SCT  Aorta   SCT  Left Ventricle   SCT  Right Ventricle   SCT  Pericardium   SCT  Pericardial cavity
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.498"

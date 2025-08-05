@@ -1,8 +1,8 @@
 ValueSet    : CID_617
-Id          : dicom-cid-617-AirwayManagementMethodCodeTypeForSmallAnimalAnesthesia
+Id          : dicom-cid-617-AirwayManagementMethodCodeTypeForSmallAnimalAnesth
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  DCM  Nose cone  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  DCM  Nose cone
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1082"

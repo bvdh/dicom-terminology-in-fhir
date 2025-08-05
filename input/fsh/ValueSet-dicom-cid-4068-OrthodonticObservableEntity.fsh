@@ -2,7 +2,7 @@ ValueSet    : CID_4068
 Id          : dicom-cid-4068-OrthodonticObservableEntity
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Bell's palsy   SCT  Tongue thrust  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Bell's palsy   SCT  Tongue thrust
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1508"

@@ -2,7 +2,7 @@ ValueSet    : CID_3651
 Id          : dicom-cid-3651-HemodynamicMeasurementPhase
 Description :
 """
-This Context Group is a subset of       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Cardiac catheterization baseline phase   SCT  Cardiac catheterization post contrast phase   SCT  Cardiac catheterization post-intervention phase   SCT  Cardiac catheterization test/challenge phase   SCT  Cardiac catheterization gradient assessment phase   SCT  Drug Infusion Challenge   SCT  Exercise challenge   SCT  Resting State  
+This Context Group is a subset of       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Cardiac catheterization baseline phase   SCT  Cardiac catheterization post contrast phase   SCT  Cardiac catheterization post-intervention phase   SCT  Cardiac catheterization test/challenge phase   SCT  Cardiac catheterization gradient assessment phase   SCT  Drug Infusion Challenge   SCT  Exercise challenge   SCT  Resting State
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.179"

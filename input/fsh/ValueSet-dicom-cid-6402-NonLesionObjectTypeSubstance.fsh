@@ -2,7 +2,7 @@ ValueSet    : CID_6402
 Id          : dicom-cid-6402-NonLesionObjectTypeSubstance
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Contrast agent  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Contrast agent
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1186"

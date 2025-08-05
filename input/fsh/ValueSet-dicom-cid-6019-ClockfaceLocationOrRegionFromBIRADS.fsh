@@ -2,7 +2,7 @@ ValueSet    : CID_6019
 Id          : dicom-cid-6019-ClockfaceLocationOrRegionFromBIRADS
 Description :
 """
-From BI-RADS 3.1, with Addendum 3.1 (National Mammography Database, E96)       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  1 o'clock position   SCT  2 o'clock position   SCT  3 o'clock position   SCT  4 o'clock position   SCT  5 o'clock position   SCT  6 o'clock position   SCT  7 o'clock position   SCT  8 o'clock position   SCT  9 o'clock position   SCT  10 o'clock position   SCT  11 o'clock position   SCT  12 o'clock position   SCT  Subareolar region   SCT  Axillary tail region   SCT  Central region of breast   SCT  Axilla region  
+From BI-RADS 3.1, with Addendum 3.1 (National Mammography Database, E96)       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  1 o'clock position   SCT  2 o'clock position   SCT  3 o'clock position   SCT  4 o'clock position   SCT  5 o'clock position   SCT  6 o'clock position   SCT  7 o'clock position   SCT  8 o'clock position   SCT  9 o'clock position   SCT  10 o'clock position   SCT  11 o'clock position   SCT  12 o'clock position   SCT  Subareolar region   SCT  Axillary tail region   SCT  Central region of breast   SCT  Axilla region
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.349"

@@ -2,7 +2,7 @@ ValueSet    : CID_4261
 Id          : dicom-cid-4261-OphthalmicMappingAcquisitionMethod
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Time domain DCM  Spectral domain DCM  No corneal compensation DCM  Corneal birefringence compensation DCM  Retinal topography
+Coding Scheme Designator Code Value Code Meaning DCM  Time domain DCM  Spectral domain DCM  No corneal compensation DCM  Corneal birefringence compensation DCM  Retinal topography
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.937"

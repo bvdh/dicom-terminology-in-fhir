@@ -2,7 +2,7 @@ ValueSet    : CID_10045
 Id          : dicom-cid-10045-RadiopharmaceuticalPatientState
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  Abnormal Renal Function   DCM  Acute unilateral renal blockage   DCM  Low Thyroid Uptake   DCM  High Thyroid Uptake   DCM  Severely Jaundiced  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  Abnormal Renal Function   DCM  Acute unilateral renal blockage   DCM  Low Thyroid Uptake   DCM  High Thyroid Uptake   DCM  Severely Jaundiced
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.977"

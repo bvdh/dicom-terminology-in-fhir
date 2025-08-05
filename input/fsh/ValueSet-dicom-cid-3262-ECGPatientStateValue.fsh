@@ -2,7 +2,7 @@ ValueSet    : CID_3262
 Id          : dicom-cid-3262-ECGPatientStateValue
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Baseline state   SCT  Exercise state   SCT  Post-exercise state   SCT  Resting state   SCT  Supine body position  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Baseline state   SCT  Exercise state   SCT  Post-exercise state   SCT  Resting state   SCT  Supine body position
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.58"

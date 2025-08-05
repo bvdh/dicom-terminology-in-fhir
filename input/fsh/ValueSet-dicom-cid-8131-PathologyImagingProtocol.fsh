@@ -2,7 +2,7 @@ ValueSet    : CID_8131
 Id          : dicom-cid-8131-PathologyImagingProtocol
 Description :
 """
-This Context Group is intended for use in the Scheduled Protocol Code Sequence (0040,0008) and the Performed Protocol Code Sequence (0040,0260). When so used, an Item with value       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Peri-operative Photographic Imaging   DCM  Slide Microscopy   DCM  Whole Slide Imaging   DCM  WSI 20X RGB   DCM  WSI 40X RGB   SCT  Histology   SCT  Histopathology   SCT  Microscopy   SCT  Light microscopy   SCT  Photomicrography   SCT  Photography of patient   SCT  Photography of gross organ   SCT  Gross pathology request   SCT  Immunohistochemistry  
+This Context Group is intended for use in the Scheduled Protocol Code Sequence (0040,0008) and the Performed Protocol Code Sequence (0040,0260). When so used, an Item with value       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Peri-operative Photographic Imaging   DCM  Slide Microscopy   DCM  Whole Slide Imaging   DCM  WSI 20X RGB   DCM  WSI 40X RGB   SCT  Histology   SCT  Histopathology   SCT  Microscopy   SCT  Light microscopy   SCT  Photomicrography   SCT  Photography of patient   SCT  Photography of gross organ   SCT  Gross pathology request   SCT  Immunohistochemistry
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.948"

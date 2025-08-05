@@ -2,7 +2,7 @@ ValueSet    : CID_12320
 Id          : dicom-cid-12320-GeneralUltrasoundReportDocumentTitle
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  Ultrasound Report   LN  US Tendon Report   LN  US Breast Report   LN  US Kidney Report   LN  US Liver Report   LN  US Prostate (transrectal) Report   LN  US Pancreas Report   LN  US Spleen Report   LN  US Shoulder Report   LN  US Scrotum and Testicle Report   LN  US Thyroid Report  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  Ultrasound Report   LN  US Tendon Report   LN  US Breast Report   LN  US Kidney Report   LN  US Liver Report   LN  US Prostate (transrectal) Report   LN  US Pancreas Report   LN  US Spleen Report   LN  US Shoulder Report   LN  US Scrotum and Testicle Report   LN  US Thyroid Report
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1447"

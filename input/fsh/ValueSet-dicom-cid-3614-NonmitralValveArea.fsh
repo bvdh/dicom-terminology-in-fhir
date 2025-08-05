@@ -2,7 +2,7 @@ ValueSet    : CID_3614
 Id          : dicom-cid-3614-NonmitralValveArea
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Aortic Valve Area   SCT  Pulmonic Valve Area   SCT  Tricuspid Valve Area   DCM  Derived Non-Valve Area  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Aortic Valve Area   SCT  Pulmonic Valve Area   SCT  Tricuspid Valve Area   DCM  Derived Non-Valve Area
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.164"

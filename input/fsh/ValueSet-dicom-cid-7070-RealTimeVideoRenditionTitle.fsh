@@ -2,7 +2,7 @@ ValueSet    : CID_7070
 Id          : dicom-cid-7070-RealTimeVideoRenditionTitle
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  RTV Rendition DCM  RTV Audio and Video Rendition DCM  RTV Stereo Video Rendition DCM  RTV Audio and Stereo Video Rendition
+Coding Scheme Designator Code Value Code Meaning DCM  RTV Rendition DCM  RTV Audio and Video Rendition DCM  RTV Stereo Video Rendition DCM  RTV Audio and Stereo Video Rendition
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1303"

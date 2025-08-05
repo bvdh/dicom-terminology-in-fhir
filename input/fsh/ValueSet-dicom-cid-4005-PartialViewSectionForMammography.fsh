@@ -2,7 +2,7 @@ ValueSet    : CID_4005
 Id          : dicom-cid-4005-PartialViewSectionForMammography
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anterior   SCT  Posterior   SCT  Superior   SCT  Inferior   SCT  Medial   SCT  Lateral   SCT  Central  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anterior   SCT  Posterior   SCT  Superior   SCT  Inferior   SCT  Medial   SCT  Lateral   SCT  Central
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.292"

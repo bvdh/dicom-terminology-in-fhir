@@ -2,7 +2,7 @@ ValueSet    : CID_6081
 Id          : dicom-cid-6081-BreastCancerRiskFactor
 Description :
 """
-Some of these terms were obtained from BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Personal breast cancer history   DCM  History of endometrial cancer   DCM  History of ovarian cancer   DCM  History of high risk lesion on previous biopsy   DCM  Post menopausal patient   SCT  Nulliparous   DCM  Late child bearing (after 30)   DCM  BRCA1 breast cancer gene   DCM  BRCA2 breast cancer gene   DCM  BRCA3 breast cancer gene   SCT  Family history of breast cancer   DCM  Weak family history of breast cancer   DCM  Intermediate family history of breast cancer   DCM  Very strong family history of breast cancer   DCM  Family history of prostate cancer   DCM  Family history unknown   SCT  No family history of breast carcinoma  
+Some of these terms were obtained from BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Personal breast cancer history   DCM  History of endometrial cancer   DCM  History of ovarian cancer   DCM  History of high risk lesion on previous biopsy   DCM  Post menopausal patient   SCT  Nulliparous   DCM  Late child bearing (after 30)   DCM  BRCA1 breast cancer gene   DCM  BRCA2 breast cancer gene   DCM  BRCA3 breast cancer gene   SCT  Family history of breast cancer   DCM  Weak family history of breast cancer   DCM  Intermediate family history of breast cancer   DCM  Very strong family history of breast cancer   DCM  Family history of prostate cancer   DCM  Family history unknown   SCT  No family history of breast carcinoma
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.403"

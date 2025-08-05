@@ -2,7 +2,7 @@ ValueSet    : CID_7183
 Id          : dicom-cid-7183-AbstractMultiDimensionalImageModelDimensionUnit
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning  UCUM ms Millisecond UCUM s Second UCUM deg Degree UCUM rad Radian
+Coding Scheme Designator Code Value Code Meaning  UCUM ms Millisecond UCUM s Second UCUM deg Degree UCUM rad Radian
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.920"

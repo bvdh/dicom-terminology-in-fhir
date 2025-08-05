@@ -2,7 +2,7 @@ ValueSet    : CID_10013
 Id          : dicom-cid-10013-CTAcquisitionType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Sequenced Acquisition   SCT  Spiral Acquisition   DCM  Constant Angle Acquisition   DCM  Stationary Acquisition   DCM  Free Acquisition   SCT  Cone Beam Acquisition  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Sequenced Acquisition   SCT  Spiral Acquisition   DCM  Constant Angle Acquisition   DCM  Stationary Acquisition   DCM  Free Acquisition   SCT  Cone Beam Acquisition
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.545"

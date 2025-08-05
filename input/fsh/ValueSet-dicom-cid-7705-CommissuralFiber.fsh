@@ -2,7 +2,7 @@ ValueSet    : CID_7705
 Id          : dicom-cid-7705-CommissuralFiber
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  anterior commissure   SCT  corpus callosum   SCT  genu of corpus callosum   SCT  splenium of corpus callosum   SCT  tapetum of corpus callosum   SCT  forceps minor   SCT  forceps major   SCT  posterior commissure   SCT  habenular commissure  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  anterior commissure   SCT  corpus callosum   SCT  genu of corpus callosum   SCT  splenium of corpus callosum   SCT  tapetum of corpus callosum   SCT  forceps minor   SCT  forceps major   SCT  posterior commissure   SCT  habenular commissure
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1017"

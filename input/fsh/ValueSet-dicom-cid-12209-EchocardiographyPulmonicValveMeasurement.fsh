@@ -2,7 +2,7 @@ ValueSet    : CID_12209
 Id          : dicom-cid-12209-EchocardiographyPulmonicValveMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID   LN  Pulmonic Valve Area by continuity   LN  Pulmonic Valve Ejection Time   SCT  Ratio of Pulmonic Valve Acceleration Time to Ejection Time   LN  Time from Q wave to Pulmonic Valve Closes  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID   LN  Pulmonic Valve Area by continuity   LN  Pulmonic Valve Ejection Time   SCT  Ratio of Pulmonic Valve Acceleration Time to Ejection Time   LN  Time from Q wave to Pulmonic Valve Closes
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.602"

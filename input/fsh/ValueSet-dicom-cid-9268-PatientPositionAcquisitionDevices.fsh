@@ -2,7 +2,7 @@ ValueSet    : CID_9268
 Id          : dicom-cid-9268-PatientPositionAcquisitionDevices
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Digital imaging scanner, computed radiography   SCT  Digital imager, radiation therapy   SCT  X-Ray film cassette, manual   SCT  Magnetic resonance imaging unit  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Digital imaging scanner, computed radiography   SCT  Digital imager, radiation therapy   SCT  X-Ray film cassette, manual   SCT  Magnetic resonance imaging unit
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1467"

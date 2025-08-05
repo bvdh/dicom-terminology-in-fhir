@@ -2,7 +2,7 @@ ValueSet    : CID_10003
 Id          : dicom-cid-10003-EquipmentPlaneIdentification
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Plane A DCM  Plane B DCM  Single Plane DCM  All Planes
+Coding Scheme Designator Code Value Code Meaning DCM  Plane A DCM  Plane B DCM  Single Plane DCM  All Planes
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.537"

@@ -2,7 +2,7 @@ ValueSet    : CID_6204
 Id          : dicom-cid-6204-AnatomicNoncolonFinding
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Liver   SCT  Spleen   SCT  Kidney   SCT  Adrenal gland   SCT  Aorta   SCT  Inferior vena cava   SCT  Lung   SCT  Bone   SCT  Testis   SCT  Uterus   SCT  Ovary   SCT  Cervix   SCT  Prostate   SCT  Seminal Vesicle   SCT  Rectum   SCT  Bladder   SCT  Muscle   SCT  Blood Vessel   SCT  Appendix   SCT  Appendiceal stump  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Liver   SCT  Spleen   SCT  Kidney   SCT  Adrenal gland   SCT  Aorta   SCT  Inferior vena cava   SCT  Lung   SCT  Bone   SCT  Testis   SCT  Uterus   SCT  Ovary   SCT  Cervix   SCT  Prostate   SCT  Seminal Vesicle   SCT  Rectum   SCT  Bladder   SCT  Muscle   SCT  Blood Vessel   SCT  Appendix   SCT  Appendiceal stump
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.791"

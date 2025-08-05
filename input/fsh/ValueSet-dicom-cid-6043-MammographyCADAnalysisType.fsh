@@ -2,7 +2,7 @@ ValueSet    : CID_6043
 Id          : dicom-cid-6043-MammographyCADAnalysisType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Notes SCT  Spatial collocation analysis   See Note 1 SCT  Spatial proximity analysis   See Note 2 SCT  Temporal correlation    SCT  Image quality analysis    SCT  Focal asymmetric density analysis    SCT  Asymmetric breast tissue analysis    SCT  Breast composition analysis    DCM  Individual Impression/Recommendation Analysis    DCM  Overall Impression/Recommendation Analysis    Spatial Collocation Analysis is used to identify features that are the same or located in the same place. Spatial Proximity Analysis is used to identify features that are related spatially, such as nipple retraction associated with a spiculated mass.
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Notes SCT  Spatial collocation analysis   See Note 1 SCT  Spatial proximity analysis   See Note 2 SCT  Temporal correlation    SCT  Image quality analysis    SCT  Focal asymmetric density analysis    SCT  Asymmetric breast tissue analysis    SCT  Breast composition analysis    DCM  Individual Impression/Recommendation Analysis    DCM  Overall Impression/Recommendation Analysis    Spatial Collocation Analysis is used to identify features that are the same or located in the same place. Spatial Proximity Analysis is used to identify features that are related spatially, such as nipple retraction associated with a spiculated mass.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.373"

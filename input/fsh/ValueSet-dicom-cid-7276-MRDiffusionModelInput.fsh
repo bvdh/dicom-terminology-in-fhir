@@ -2,7 +2,7 @@ ValueSet    : CID_7276
 Id          : dicom-cid-7276-MRDiffusionModelInput
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning Units DCM  Source image diffusion b-value DT (s/mm2, UCUM, "s/mm2")
+Coding Scheme Designator Code Value Code Meaning Units DCM  Source image diffusion b-value DT (s/mm2, UCUM, "s/mm2")
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1171"

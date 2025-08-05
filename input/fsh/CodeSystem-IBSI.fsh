@@ -1,4 +1,4 @@
-CodeSystem: IBSI
+CodeSystem: IBSICodeSystem
 Id: dicom-codesystem-IBSI
 Title: "IBSI"
 Description: "Image Biomarker Standardisation Initiative"

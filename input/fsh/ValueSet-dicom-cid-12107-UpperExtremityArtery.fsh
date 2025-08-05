@@ -2,7 +2,7 @@ ValueSet    : CID_12107
 Id          : dicom-cid-12107-UpperExtremityArtery
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Axillary Artery   SCT  Brachial Artery   SCT  Deep Palmar Arch of Radial Artery   SCT  Innominate Artery   SCT  Radial Artery   SCT  Subclavian Artery   SCT  Superficial Palmar Arch   SCT  Ulnar Artery   SCT  Digital artery of hand  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Axillary Artery   SCT  Brachial Artery   SCT  Deep Palmar Arch of Radial Artery   SCT  Innominate Artery   SCT  Radial Artery   SCT  Subclavian Artery   SCT  Superficial Palmar Arch   SCT  Ulnar Artery   SCT  Digital artery of hand
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.574"

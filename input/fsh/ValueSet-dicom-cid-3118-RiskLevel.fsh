@@ -2,7 +2,7 @@ ValueSet    : CID_3118
 Id          : dicom-cid-3118-RiskLevel
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Normal risk   SCT  Low risk   SCT  Low to moderate risk   SCT  Moderate risk   SCT  Moderate to high risk   SCT  High risk   SCT  Uncertain risk  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Normal risk   SCT  Low risk   SCT  Low to moderate risk   SCT  Moderate risk   SCT  Moderate to high risk   SCT  High risk   SCT  Uncertain risk
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.750"

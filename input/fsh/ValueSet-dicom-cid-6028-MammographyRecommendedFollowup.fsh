@@ -2,7 +2,7 @@ ValueSet    : CID_6028
 Id          : dicom-cid-6028-MammographyRecommendedFollowup
 Description :
 """
-In future extensions, Mammography Recommended Follow-up terms that are not derived from BI-RADS should be added to this Context Group.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  DCM  Follow-up post biopsy as directed by clinician   SCT  Nuclear medicine procedure   SCT  Evaluation procedure   DCM  Surgical consult  
+In future extensions, Mammography Recommended Follow-up terms that are not derived from BI-RADS should be added to this Context Group.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  DCM  Follow-up post biopsy as directed by clinician   SCT  Nuclear medicine procedure   SCT  Evaluation procedure   DCM  Surgical consult
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.358"

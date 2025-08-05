@@ -2,7 +2,7 @@ ValueSet    : CID_7160
 Id          : dicom-cid-7160-PelvicOrganSegmentationType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Bladder   SCT  Cervix   SCT  Fallopian tube   SCT  Vulva   SCT  Female internal genitalia   SCT  Male external genitalia   SCT  Male internal genitalia   SCT  Ovary   SCT  Pelvis   SCT  Pelvic cavity, false and/or true   SCT  Pelvic cavity, false   SCT  Pelvic cavity, true   SCT  Prostate   SCT  Rectum   SCT  Seminal Vesicle   SCT  Testis   SCT  Uterus   SCT  Vagina   SCT  Vas deferens  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Bladder   SCT  Cervix   SCT  Fallopian tube   SCT  Vulva   SCT  Female internal genitalia   SCT  Male external genitalia   SCT  Male internal genitalia   SCT  Ovary   SCT  Pelvis   SCT  Pelvic cavity, false and/or true   SCT  Pelvic cavity, false   SCT  Pelvic cavity, true   SCT  Prostate   SCT  Rectum   SCT  Seminal Vesicle   SCT  Testis   SCT  Uterus   SCT  Vagina   SCT  Vas deferens
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.506"

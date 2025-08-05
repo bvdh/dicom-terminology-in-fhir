@@ -2,7 +2,7 @@ ValueSet    : CID_7468
 Id          : dicom-cid-7468-TextureMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning        DCM  Fractal Dimension
+Coding Scheme Designator Code Value Code Meaning        DCM  Fractal Dimension
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1001"

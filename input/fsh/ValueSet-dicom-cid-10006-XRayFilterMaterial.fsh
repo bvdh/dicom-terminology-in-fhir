@@ -2,7 +2,7 @@ ValueSet    : CID_10006
 Id          : dicom-cid-10006-XRayFilterMaterial
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Molybdenum   SCT  Aluminum   SCT  Copper   SCT  Rhodium   SCT  Niobium   SCT  Europium   SCT  Lead   SCT  Tantalum   SCT  Silver   SCT  Tin  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Molybdenum   SCT  Aluminum   SCT  Copper   SCT  Rhodium   SCT  Niobium   SCT  Europium   SCT  Lead   SCT  Tantalum   SCT  Silver   SCT  Tin
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.539"

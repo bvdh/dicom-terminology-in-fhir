@@ -2,7 +2,7 @@ ValueSet    : CID_3401
 Id          : dicom-cid-3401-LogNoteType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Tech Note DCM  Nursing Note DCM  Physician Note DCM  Procedure Note DCM  Patient Status or Event
+Coding Scheme Designator Code Value Code Meaning DCM  Tech Note DCM  Nursing Note DCM  Physician Note DCM  Procedure Note DCM  Patient Status or Event
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.66"

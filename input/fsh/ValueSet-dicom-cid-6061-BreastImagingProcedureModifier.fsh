@@ -2,7 +2,7 @@ ValueSet    : CID_6061
 Id          : dicom-cid-6061-BreastImagingProcedureModifier
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Screening   SCT  Diagnostic   DCM  Targeted   DCM  Survey   DCM  Calibration   DCM  Quality Control   DCM  Needle localization and biopsy   DCM  Marker placement  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Screening   SCT  Diagnostic   DCM  Targeted   DCM  Survey   DCM  Calibration   DCM  Quality Control   DCM  Needle localization and biopsy   DCM  Marker placement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.390"

@@ -2,7 +2,7 @@ ValueSet    : CID_12267
 Id          : dicom-cid-12267-CardiacUltrasoundTricuspidValveMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID         SCT  Tricuspid Diastolic Filling Period (DFPt)   LN  Time from Q wave to Tricuspid Valve Opens  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID         SCT  Tricuspid Diastolic Filling Period (DFPt)   LN  Time from Q wave to Tricuspid Valve Opens
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.848"

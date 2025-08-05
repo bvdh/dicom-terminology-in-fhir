@@ -1,6 +1,6 @@
-CodeSystem: SRT
-Id: dicom-codesystem-SRT
-Title: "SRT"
+CodeSystem: SnomedSrt
+Id: dicom-codesystem-snomed-srt
+Title: "SNOMED SRT partial"
 Description: "SNOMED CT"
 * ^caseSensitive = true
 * ^content = #part
@@ -3595,6 +3595,11 @@ Description: "SNOMED CT"
 * #T-90020 "Male internal genitalia" "Male internal genitalia"
 * #T-96000 "Vas deferens" "Vas deferens"
 * #R-0039F "Perfusion" "Perfusion"
+* #T-D05A1 "Glandular structure of breast" "Glandular structure of breast"
+* #T-04430 "Fatty tissue of breast" "Fatty tissue of breast"
+* #T-04500 "Interlobular mammary connective tissue" "Interlobular mammary connective tissue"
+* #T-D0601 "Connective tissue of breast" "Connective tissue of breast"
+* #T-04211 "Areolar tissue of breast" "Areolar tissue of breast"
 * #F-61779 "Waste Material" "Waste Material"
 * #T-C2000 "Blood" "Blood"
 * #T-1A010 "Fat" "Fat"

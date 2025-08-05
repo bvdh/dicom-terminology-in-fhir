@@ -2,7 +2,7 @@ ValueSet    : CID_10073
 Id          : dicom-cid-10073-ValueTiming
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Duration of Time Period DCM  Beginning of Time Period DCM  End of Time Period DCM  Middle of Time Period
+Coding Scheme Designator Code Value Code Meaning DCM  Duration of Time Period DCM  Beginning of Time Period DCM  End of Time Period DCM  Middle of Time Period
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1363"

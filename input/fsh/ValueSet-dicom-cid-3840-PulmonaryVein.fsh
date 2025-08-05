@@ -2,7 +2,7 @@ ValueSet    : CID_3840
 Id          : dicom-cid-3840-PulmonaryVein
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Pulmonary Vein   SCT  Left Pulmonary Vein   SCT  Inferior Left Pulmonary Vein   SCT  Superior Left Pulmonary Vein   SCT  Right Pulmonary Vein   SCT  Inferior Right Pulmonary Vein   SCT  Superior Right Pulmonary Vein   A previous version of this Context Group used terms with the SNOMED concept "entire" (see PS3.16-2011). The use of "structure" concepts rather than "entire" is described in
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Pulmonary Vein   SCT  Left Pulmonary Vein   SCT  Inferior Left Pulmonary Vein   SCT  Superior Left Pulmonary Vein   SCT  Right Pulmonary Vein   SCT  Inferior Right Pulmonary Vein   SCT  Superior Right Pulmonary Vein   A previous version of this Context Group used terms with the SNOMED concept "entire" (see PS3.16-2011). The use of "structure" concepts rather than "entire" is described in
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.290"

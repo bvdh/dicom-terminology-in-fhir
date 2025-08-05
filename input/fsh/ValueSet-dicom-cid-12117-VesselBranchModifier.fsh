@@ -2,7 +2,7 @@ ValueSet    : CID_12117
 Id          : dicom-cid-12117-VesselBranchModifier
 Description :
 """
-This Context Group is the set of modifiers to specify a particular vessel segment or branch.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Collateral branch of vessel   SCT  Inferior   SCT  Lateral   SCT  Left   SCT  Main   SCT  Medial   NCIt  Middle   SCT  Right   SCT  Superior  
+This Context Group is the set of modifiers to specify a particular vessel segment or branch.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Collateral branch of vessel   SCT  Inferior   SCT  Lateral   SCT  Left   SCT  Main   SCT  Medial   NCIt  Middle   SCT  Right   SCT  Superior
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.584"

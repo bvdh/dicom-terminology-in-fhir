@@ -2,7 +2,7 @@ ValueSet    : CID_10047
 Id          : dicom-cid-10047-GFRMeasurementMethod
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Cockroft-Gault Formula estimation of GFR DCM  CKD-EPI Formula estimation of GFR DCM  Glomerular Filtration Rate (MDRD) DCM  Glomerular Filtration Rate non-black (MDRD) DCM  Glomerular Filtration Rate black (MDRD) DCM  Glomerular Filtration Rate female (MDRD) DCM  Glomerular Filtration Rate Cystatin-based formula DCM  Glomerular Filtration Rate Creatinine-based formula (Schwartz)
+Coding Scheme Designator Code Value Code Meaning DCM  Cockroft-Gault Formula estimation of GFR DCM  CKD-EPI Formula estimation of GFR DCM  Glomerular Filtration Rate (MDRD) DCM  Glomerular Filtration Rate non-black (MDRD) DCM  Glomerular Filtration Rate black (MDRD) DCM  Glomerular Filtration Rate female (MDRD) DCM  Glomerular Filtration Rate Cystatin-based formula DCM  Glomerular Filtration Rate Creatinine-based formula (Schwartz)
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.979"

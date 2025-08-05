@@ -2,7 +2,7 @@ ValueSet    : CID_6036
 Id          : dicom-cid-6036-FeatureScope
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Feature detected on the only image DCM  Feature detected on only one of the images DCM  Feature detected on multiple images DCM  Feature detected on images from multiple modalities
+Coding Scheme Designator Code Value Code Meaning DCM  Feature detected on the only image DCM  Feature detected on only one of the images DCM  Feature detected on multiple images DCM  Feature detected on images from multiple modalities
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.366"

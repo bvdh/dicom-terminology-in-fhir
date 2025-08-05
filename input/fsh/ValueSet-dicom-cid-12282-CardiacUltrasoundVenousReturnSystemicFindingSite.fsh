@@ -2,7 +2,7 @@ ValueSet    : CID_12282
 Id          : dicom-cid-12282-CardiacUltrasoundVenousReturnSystemicFindingSite
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Superior Vena Cava   SCT  Right Superior Vena Cava   SCT  Left Superior Vena Cava   SCT  Inferior Vena Cava   SCT  Hepatic Vein   SCT  Hemi-Fontan Pathway   SCT  Glenn Pathway   SCT  Fontan Pathway   SCT  Fontan Inferior Vena Cava Pathway   SCT  Fontan Fenestration   SCT  Fontan Pulmonary Artery Connection   SCT  Fontan Baffle Leak   SCT  Mustard or Senning Superior Vena Cava Pathway   SCT  Mustard or Senning Inferior Vena Cava Pathway   SCT  Mustard or Senning Common Systemic Venous Pathway  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Superior Vena Cava   SCT  Right Superior Vena Cava   SCT  Left Superior Vena Cava   SCT  Inferior Vena Cava   SCT  Hepatic Vein   SCT  Hemi-Fontan Pathway   SCT  Glenn Pathway   SCT  Fontan Pathway   SCT  Fontan Inferior Vena Cava Pathway   SCT  Fontan Fenestration   SCT  Fontan Pulmonary Artery Connection   SCT  Fontan Baffle Leak   SCT  Mustard or Senning Superior Vena Cava Pathway   SCT  Mustard or Senning Inferior Vena Cava Pathway   SCT  Mustard or Senning Common Systemic Venous Pathway
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.862"

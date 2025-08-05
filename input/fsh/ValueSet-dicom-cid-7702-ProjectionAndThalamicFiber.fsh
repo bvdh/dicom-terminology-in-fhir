@@ -2,17 +2,17 @@ ValueSet    : CID_7702
 Id          : dicom-cid-7702-ProjectionAndThalamicFiber
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NEU  corticobulbar tract   NEU  corticospinal tract   SCT  internal capsule   SCT  external capsule   SCT  auditory radiation   SCT  optic radiation   NEU 1466 inferior optic radiation (Meyer's loop)   NEU 3473 superior optic radiation (Baum's loop)   NEU  anterior thalamic radiation   NEU  superior thalamic radiation   NEU  inferior thalamic radiation   NEU  posterior thalamic radiation   SNOMED has codes for the corticobulbar and corticospinal tracts and thalamic radiations in specific regions (e.g., internal capsule), but not generic codes independent of their regional location, so they are not used.  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NEU  corticobulbar tract   NEU  corticospinal tract   SCT  internal capsule   SCT  external capsule   SCT  auditory radiation   SCT  optic radiation   NEU 1466 inferior optic radiation (Meyer's loop)   NEU 3473 superior optic radiation (Baum's loop)   NEU  anterior thalamic radiation   NEU  superior thalamic radiation   NEU  inferior thalamic radiation   NEU  posterior thalamic radiation   SNOMED has codes for the corticobulbar and corticospinal tracts and thalamic radiations in specific regions (e.g., internal capsule), but not generic codes independent of their regional location, so they are not used.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1014"
 * ^version = "20160314"
 * ^title = "Projection and Thalamic Fiber"
 * ^name = "ProjectionAndThalamicFiber"
-* NeuroNamesCodeSystem#1319 "corticobulbar tract" 
+* NEUCodeSystem#1319 "corticobulbar tract" 
 * http://terminology.hl7.org/CodeSystem/umls#C1184617 "corticobulbar tract" 
 
-* NeuroNamesCodeSystem#1320 "corticospinal tract" 
+* NEUCodeSystem#1320 "corticospinal tract" 
 * http://terminology.hl7.org/CodeSystem/umls#C0936236 "corticospinal tract" 
 
 * http://snomed.info/sct#85637007 "internal capsule" 
@@ -31,21 +31,21 @@ Description :
 * http://snomed.info/srt#T-A2880 "optic radiation" 
 * http://terminology.hl7.org/CodeSystem/umls#C0228277 "optic radiation" 
 
-* NeuroNamesCodeSystem#1466 "inferior optic radiation (Meyer's loop)" 
+* NEUCodeSystem#1466 "inferior optic radiation (Meyer's loop)" 
 * http://terminology.hl7.org/CodeSystem/umls#C3498430 "inferior optic radiation (Meyer's loop)" 
 
-* NeuroNamesCodeSystem#3473 "superior optic radiation (Baum's loop)" 
+* NEUCodeSystem#3473 "superior optic radiation (Baum's loop)" 
 * http://terminology.hl7.org/CodeSystem/umls#C4020527 "superior optic radiation (Baum's loop)" 
 
-* NeuroNamesCodeSystem#1726 "anterior thalamic radiation" 
+* NEUCodeSystem#1726 "anterior thalamic radiation" 
 * http://terminology.hl7.org/CodeSystem/umls#C2338170 "anterior thalamic radiation" 
 
-* NeuroNamesCodeSystem#2081 "superior thalamic radiation" 
+* NEUCodeSystem#2081 "superior thalamic radiation" 
 * http://terminology.hl7.org/CodeSystem/umls#C3498751 "superior thalamic radiation" 
 
-* NeuroNamesCodeSystem#2082 "inferior thalamic radiation" 
+* NEUCodeSystem#2082 "inferior thalamic radiation" 
 * http://terminology.hl7.org/CodeSystem/umls#C2332665 "inferior thalamic radiation" 
 
-* NeuroNamesCodeSystem#2083 "posterior thalamic radiation" 
+* NEUCodeSystem#2083 "posterior thalamic radiation" 
 * http://terminology.hl7.org/CodeSystem/umls#C2336194 "posterior thalamic radiation" 
 

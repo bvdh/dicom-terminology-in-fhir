@@ -2,7 +2,7 @@ ValueSet    : CID_6338
 Id          : dicom-cid-6338-mpMRIBenignProstateAbnormalityFromPIRADS
 Description :
 """
-The list of benign abnormalities includes those in PI-RADS listed in the Weinreb et al. manuscript       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID RADLEX Code Value UMLS Concept Unique ID SCT  Benign Prostate Hyperplasia    SCT  Hemorrhage    SCT  Cyst    SCT  Pathologic calcification    SCT  Prostatitis    SCT  Atrophy    SCT  Fibrosis   
+The list of benign abnormalities includes those in PI-RADS listed in the Weinreb et al. manuscript       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID RADLEX Code Value UMLS Concept Unique ID SCT  Benign Prostate Hyperplasia    SCT  Hemorrhage    SCT  Cyst    SCT  Pathologic calcification    SCT  Prostatitis    SCT  Atrophy    SCT  Fibrosis
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1395"

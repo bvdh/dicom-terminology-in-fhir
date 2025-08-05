@@ -2,7 +2,7 @@ ValueSet    : CID_280
 Id          : dicom-cid-280-LongitudinalTemporalEventType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCIt  Enrollment   UMLS  Baseline  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCIt  Enrollment   UMLS  Baseline
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1184"
@@ -13,5 +13,5 @@ Description :
 * http://terminology.hl7.org/CodeSystem/umls#C1516879 "Enrollment" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C1442488 "Baseline" 
-* http://terminology.hl7.org/CodeSystem/umls#C1442488 "Baseline" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1442488 "Baseline" 
 

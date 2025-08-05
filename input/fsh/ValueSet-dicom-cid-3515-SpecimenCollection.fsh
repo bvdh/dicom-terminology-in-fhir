@@ -2,7 +2,7 @@ ValueSet    : CID_3515
 Id          : dicom-cid-3515-SpecimenCollection
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  specimen collection   SCT  collection of blood specimen for laboratory   SCT  blood sampling from extracorporeal blood circuit  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  specimen collection   SCT  collection of blood specimen for laboratory   SCT  blood sampling from extracorporeal blood circuit
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.136"

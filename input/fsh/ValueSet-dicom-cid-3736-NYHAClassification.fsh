@@ -2,7 +2,7 @@ ValueSet    : CID_3736
 Id          : dicom-cid-3736-NYHAClassification
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR [2.0b] Equivalent SCT  NYHA Class I   47-I SCT  NYHA Class II   47-II SCT  NYHA Class III   47-III SCT  NYHA Class IV   47-IV In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR [2.0b] Equivalent SCT  NYHA Class I   47-I SCT  NYHA Class II   47-II SCT  NYHA Class III   47-III SCT  NYHA Class IV   47-IV In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.233"

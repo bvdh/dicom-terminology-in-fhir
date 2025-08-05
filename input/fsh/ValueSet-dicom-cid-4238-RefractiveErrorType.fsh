@@ -2,7 +2,7 @@ ValueSet    : CID_4238
 Id          : dicom-cid-4238-RefractiveErrorType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Myopia   SCT  Hyperopia  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Myopia   SCT  Hyperopia
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.884"

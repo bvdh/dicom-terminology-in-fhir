@@ -2,7 +2,7 @@ ValueSet    : CID_12124
 Id          : dicom-cid-12124-RenalRatio
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Renal Artery/Aorta velocity ratio 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Renal Artery/Aorta velocity ratio
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.590"

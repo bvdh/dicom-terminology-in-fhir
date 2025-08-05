@@ -2,7 +2,7 @@ ValueSet    : CID_12140
 Id          : dicom-cid-12140-PelvicVasculatureAnatomicalLocation
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Umbilical Artery   SCT  Umbilical Vein   SCT  Ovarian Artery   SCT  Ovarian Vein   SCT  Uterine Artery   SCT  Uterine Vein   SCT  Vitelline Artery of Placenta   SCT  Vitelline Vein of Placenta   SCT  Common Iliac Artery  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Umbilical Artery   SCT  Umbilical Vein   SCT  Ovarian Artery   SCT  Ovarian Vein   SCT  Uterine Artery   SCT  Uterine Vein   SCT  Vitelline Artery of Placenta   SCT  Vitelline Vein of Placenta   SCT  Common Iliac Artery
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.591"

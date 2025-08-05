@@ -2,7 +2,7 @@ ValueSet    : CID_3429
 Id          : dicom-cid-3429-CatheterizationDevice
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Intra-Aortic Balloon Pump (IABP)   SCT  Fluid filled catheter   SCT  Fiberoptic catheter   SCT  Thermistor catheter   SCT  Tip manometer   SCT  Swann-Ganz catheter   SCT  Sheath   SCT  Transseptal catheter   DCM  Bioptome   
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Intra-Aortic Balloon Pump (IABP)   SCT  Fluid filled catheter   SCT  Fiberoptic catheter   SCT  Thermistor catheter   SCT  Tip manometer   SCT  Swann-Ganz catheter   SCT  Sheath   SCT  Transseptal catheter   DCM  Bioptome
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.91"

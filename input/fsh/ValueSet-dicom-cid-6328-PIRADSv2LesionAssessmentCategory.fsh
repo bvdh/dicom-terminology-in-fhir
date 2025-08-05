@@ -2,7 +2,7 @@ ValueSet    : CID_6328
 Id          : dicom-cid-6328-PIRADSv2LesionAssessmentCategory
 Description :
 """
-The codes in this Context Group describe the overall lesion assessment, based on assessment of the individual image types considered in the evaluation. The use of "Lesion" as opposed to "Finding" is done to follow the conventions already implemented in RADLEX.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID RADLEX  PI-RADS 1 - Very low (lesion)   RADLEX  PI-RADS 2 - Low (lesion)   RADLEX  PI-RADS 3 - Intermediate (lesion)   RADLEX  PI-RADS 4 - High (lesion)   RADLEX  PI-RADS 5 - Very high (lesion)   RADLEX  PI-RADS X - Inadequate or absent (lesion)  
+The codes in this Context Group describe the overall lesion assessment, based on assessment of the individual image types considered in the evaluation. The use of "Lesion" as opposed to "Finding" is done to follow the conventions already implemented in RADLEX.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID RADLEX  PI-RADS 1 - Very low (lesion)   RADLEX  PI-RADS 2 - Low (lesion)   RADLEX  PI-RADS 3 - Intermediate (lesion)   RADLEX  PI-RADS 4 - High (lesion)   RADLEX  PI-RADS 5 - Very high (lesion)   RADLEX  PI-RADS X - Inadequate or absent (lesion)
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1385"

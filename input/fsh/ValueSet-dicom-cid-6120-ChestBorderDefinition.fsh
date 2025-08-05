@@ -2,7 +2,7 @@ ValueSet    : CID_6120
 Id          : dicom-cid-6120-ChestBorderDefinition
 Description :
 """
-Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Well defined   DCM  Sharply defined   SCT  Poorly defined   DCM  Distinctly defined   DCM  Well demarcated   DCM  Sharply demarcated   DCM  Poorly demarcated   SCT  Circumscribed  
+Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Well defined   DCM  Sharply defined   SCT  Poorly defined   DCM  Distinctly defined   DCM  Well demarcated   DCM  Sharply demarcated   DCM  Poorly demarcated   SCT  Circumscribed
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.440"

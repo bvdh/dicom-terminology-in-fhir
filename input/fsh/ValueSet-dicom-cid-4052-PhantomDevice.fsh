@@ -2,7 +2,7 @@ ValueSet    : CID_4052
 Id          : dicom-cid-4052-PhantomDevice
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  Phantom   DCM  ACR Accreditation Phantom - CT   DCM  ACR Accreditation Phantom - MR   DCM  ACR Accreditation Phantom - Mammography   DCM  ACR Accreditation Phantom - Stereotactic Breast Biopsy   DCM  ACR Accreditation Phantom - ECT   DCM  ACR Accreditation Phantom - PET   DCM  ACR Accreditation Phantom - ECT/PET   DCM  ACR Accreditation Phantom - PET Faceplate   DCM  NEMA XR21-2000 Phantom  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  Phantom   DCM  ACR Accreditation Phantom - CT   DCM  ACR Accreditation Phantom - MR   DCM  ACR Accreditation Phantom - Mammography   DCM  ACR Accreditation Phantom - Stereotactic Breast Biopsy   DCM  ACR Accreditation Phantom - ECT   DCM  ACR Accreditation Phantom - PET   DCM  ACR Accreditation Phantom - ECT/PET   DCM  ACR Accreditation Phantom - PET Faceplate   DCM  NEMA XR21-2000 Phantom
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.315"

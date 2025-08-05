@@ -2,7 +2,7 @@ ValueSet    : CID_7016
 Id          : dicom-cid-7016-LevelOfDifficulty
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Primary level DCM  Intermediate level DCM  Advanced level
+Coding Scheme Designator Code Value Code Meaning DCM  Primary level DCM  Intermediate level DCM  Advanced level
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1180"

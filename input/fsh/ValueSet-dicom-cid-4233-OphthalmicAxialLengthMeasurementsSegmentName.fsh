@@ -2,7 +2,7 @@ ValueSet    : CID_4233
 Id          : dicom-cid-4233-OphthalmicAxialLengthMeasurementsSegmentName
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Cornea   SCT  Anterior Chamber   DCM  Single or Anterior Lens   DCM  Posterior Lens   SCT  Vitreous Cavity  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Cornea   SCT  Anterior Chamber   DCM  Single or Anterior Lens   DCM  Posterior Lens   SCT  Vitreous Cavity
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.879"

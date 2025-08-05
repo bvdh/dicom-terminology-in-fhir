@@ -2,7 +2,7 @@ ValueSet    : CID_6119
 Id          : dicom-cid-6119-ChestBorderShape
 Description :
 """
-Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Round shape   DCM  Elliptic   SCT  Irregular   DCM  Lobulated   DCM  Spiculated  
+Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Round shape   DCM  Elliptic   SCT  Irregular   DCM  Lobulated   DCM  Spiculated
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.439"

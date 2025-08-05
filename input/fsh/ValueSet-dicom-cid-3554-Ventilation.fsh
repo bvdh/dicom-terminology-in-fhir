@@ -2,7 +2,7 @@ ValueSet    : CID_3554
 Id          : dicom-cid-3554-Ventilation
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Ambu Bag   SCT  Pressure Support Ventilator   SCT  Volume Support Ventilator  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Ambu Bag   SCT  Pressure Support Ventilator   SCT  Volume Support Ventilator
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.150"

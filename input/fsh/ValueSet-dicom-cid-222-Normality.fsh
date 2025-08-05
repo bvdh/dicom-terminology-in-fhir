@@ -2,7 +2,7 @@ ValueSet    : CID_222
 Id          : dicom-cid-222-Normality
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Normal   SCT  Abnormal   SCT  Abnormally High   SCT  Abnormally Low   SCT  Normality Undetermined   SCT  Borderline high   SCT  Borderline low   SCT  Outside reference range   SCT  Above reference range   SCT  Below reference range   SCT  Within reference range  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Normal   SCT  Abnormal   SCT  Abnormally High   SCT  Abnormally Low   SCT  Normality Undetermined   SCT  Borderline high   SCT  Borderline low   SCT  Outside reference range   SCT  Above reference range   SCT  Below reference range   SCT  Within reference range
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.27"

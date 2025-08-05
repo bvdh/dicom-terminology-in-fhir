@@ -2,7 +2,7 @@ ValueSet    : CID_3833
 Id          : dicom-cid-3833-CardiacEjectionFraction
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Left ventricular ejection fraction by CT  LN  Right ventricular ejection fraction by CT  LN  Left ventricular ejection fraction by MR  LN  Right ventricular ejection fraction by MR 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Left ventricular ejection fraction by CT  LN  Right ventricular ejection fraction by CT  LN  Left ventricular ejection fraction by MR  LN  Right ventricular ejection fraction by MR
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.284"

@@ -2,7 +2,7 @@ ValueSet    : CID_219
 Id          : dicom-cid-219-GeometryGraphicalRepresentation
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Bounded by   DCM  Center   DCM  Geometric Centerpoint   DCM  Center of Mass   DCM  Outline   DCM  Centerline   DCM  Seed point   DCM  Representative point   DCM  Boundary point  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Bounded by   DCM  Center   DCM  Geometric Centerpoint   DCM  Center of Mass   DCM  Outline   DCM  Centerline   DCM  Seed point   DCM  Representative point   DCM  Boundary point
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1304"

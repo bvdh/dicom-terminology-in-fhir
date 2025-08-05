@@ -2,7 +2,7 @@ ValueSet    : CID_3808
 Id          : dicom-cid-3808-AneurysmType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  dissecting aneurysm   SCT  inflammatory abdominal aortic aneurysm   SCT  ruptured aneurysm   SCT  mixed aneurysm   SCT  racemose aneurysm   SCT  cirsoid aneurysm   SCT  mycotic aneurysm   SCT  miliary aneurysm   SCT  saccular aneurysm   SCT  varicose aneurysm   SCT  fusiform aneurysm   SCT  traumatic aneurysm   SCT  thrombosed aneurysm   SCT  expanding aneurysm   SCT  calcified aneurysm   SCT  multiple aneurysm   SCT  cylindroid aneurysm   SCT  serpentine aneurysm  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  dissecting aneurysm   SCT  inflammatory abdominal aortic aneurysm   SCT  ruptured aneurysm   SCT  mixed aneurysm   SCT  racemose aneurysm   SCT  cirsoid aneurysm   SCT  mycotic aneurysm   SCT  miliary aneurysm   SCT  saccular aneurysm   SCT  varicose aneurysm   SCT  fusiform aneurysm   SCT  traumatic aneurysm   SCT  thrombosed aneurysm   SCT  expanding aneurysm   SCT  calcified aneurysm   SCT  multiple aneurysm   SCT  cylindroid aneurysm   SCT  serpentine aneurysm
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.269"
@@ -31,7 +31,7 @@ Description :
 
 * http://snomed.info/sct#233982006 "cirsoid aneurysm" 
 * http://snomed.info/srt#D3-80002 "cirsoid aneurysm" 
-* http://terminology.hl7.org/CodeSystem/umls#C0334533 "cirsoid aneurysm" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0334533 "cirsoid aneurysm" 
 
 * http://snomed.info/sct#51668007 "mycotic aneurysm" 
 * http://snomed.info/srt#M-32320 "mycotic aneurysm" 

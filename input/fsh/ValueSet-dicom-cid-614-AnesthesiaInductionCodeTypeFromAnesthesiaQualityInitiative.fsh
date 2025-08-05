@@ -1,8 +1,8 @@
 ValueSet    : CID_614
-Id          : dicom-cid-614-AnesthesiaInductionCodeTypeFromAnesthesiaQualityInitiative
+Id          : dicom-cid-614-AnesthesiaInductionCodeTypeFromAnesthesiaQualityIn
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  By inhalation   SCT  Intravenous route   SCT  Per rectum   SCT  Intramuscular route   This Context Group contains SNOMED administration route code equivalents of enumerated string concepts for the
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  By inhalation   SCT  Intravenous route   SCT  Per rectum   SCT  Intramuscular route   This Context Group contains SNOMED administration route code equivalents of enumerated string concepts for the
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1079"

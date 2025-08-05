@@ -2,7 +2,7 @@ ValueSet    : CID_9565
 Id          : dicom-cid-9565-TreatmentToleranceViolationCause
 Description :
 """
-           DCM  Inappropriate Patient Orientation DCM  Inappropriate Patient Position DCM  Machine Not Available DCM  Change in Patient Anatomy DCM  Machine Calibration Adjustment DCM  Unavailability of a Beam Modifier DCM  Machine Capability License Expired
+DCM  Inappropriate Patient Orientation DCM  Inappropriate Patient Position DCM  Machine Not Available DCM  Change in Patient Anatomy DCM  Machine Calibration Adjustment DCM  Unavailability of a Beam Modifier DCM  Machine Capability License Expired
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1322"

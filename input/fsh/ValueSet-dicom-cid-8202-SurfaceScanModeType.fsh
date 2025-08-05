@@ -2,7 +2,7 @@ ValueSet    : CID_8202
 Id          : dicom-cid-8202-SurfaceScanModeType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Turntable Scan Method DCM  High resolution DCM  Fast mode DCM  Checkerboard
+Coding Scheme Designator Code Value Code Meaning DCM  Turntable Scan Method DCM  High resolution DCM  Fast mode DCM  Checkerboard
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.954"

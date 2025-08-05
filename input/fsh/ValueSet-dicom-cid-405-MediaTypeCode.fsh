@@ -2,7 +2,7 @@ ValueSet    : CID_405
 Id          : dicom-cid-405-MediaTypeCode
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  USB Disk Emulation DCM  Email DCM  CD DCM  DVD DCM  Compact Flash DCM  Multi-media Card DCM  Secure Digital Card DCM  URI DCM  Film DCM  Paper Document
+Coding Scheme Designator Code Value Code Meaning DCM  USB Disk Emulation DCM  Email DCM  CD DCM  DVD DCM  Compact Flash DCM  Multi-media Card DCM  Secure Digital Card DCM  URI DCM  Film DCM  Paper Document
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.908"

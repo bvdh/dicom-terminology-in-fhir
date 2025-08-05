@@ -2,7 +2,7 @@ ValueSet    : CID_3761
 Id          : dicom-cid-3761-AntilipemicAgent
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anion exchange resin   SCT  Bile acid sequestrant   NCIt  Fibrate   SCT  Fish oils   SCT  Statins  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anion exchange resin   SCT  Bile acid sequestrant   NCIt  Fibrate   SCT  Fish oils   SCT  Statins
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.255"

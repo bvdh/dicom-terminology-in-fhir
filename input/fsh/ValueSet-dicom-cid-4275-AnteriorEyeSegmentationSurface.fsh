@@ -2,7 +2,7 @@ ValueSet    : CID_4275
 Id          : dicom-cid-4275-AnteriorEyeSegmentationSurface
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Corneal epithelium   SCT  Corneal endothelium   SCT  Anterior surface of iris   SCT  Posterior surface of iris   SCT  Anterior surface of lens   SCT  Posterior surface of lens   SCT  Bowman's layer   SCT  Stroma of cornea   SCT  Descemet's membrane   SCT  Inner surface of sclera   SCT  External surface of sclera  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Corneal epithelium   SCT  Corneal endothelium   SCT  Anterior surface of iris   SCT  Posterior surface of iris   SCT  Anterior surface of lens   SCT  Posterior surface of lens   SCT  Bowman's layer   SCT  Stroma of cornea   SCT  Descemet's membrane   SCT  Inner surface of sclera   SCT  External surface of sclera
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1497"

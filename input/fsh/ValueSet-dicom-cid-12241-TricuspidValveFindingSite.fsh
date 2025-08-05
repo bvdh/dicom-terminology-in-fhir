@@ -2,7 +2,7 @@ ValueSet    : CID_12241
 Id          : dicom-cid-12241-TricuspidValveFindingSite
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Tricuspid Annulus  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Tricuspid Annulus
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.632"

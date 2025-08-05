@@ -2,7 +2,7 @@ ValueSet    : CID_3664
 Id          : dicom-cid-3664-OxygenConsumptionEquationTable
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  VO2male = BSA (138.1 - 11.49 * loge(age) + 0.378 * HRf) DCM  VO2female = BSA (138.1 - 17.04 * loge(age) + 0.378 * HRf) DCM  VO2 = VeSTPD * 10 * (FIO2 - FE02) DCM  VO2 = 152 * BSA DCM  VO2 = 175 * BSA DCM  VO2 = 176 * BSA DCM  Robertson & Reid table DCM  Fleisch table DCM  Boothby table
+Coding Scheme Designator Code Value Code Meaning DCM  VO2male = BSA (138.1 - 11.49 * loge(age) + 0.378 * HRf) DCM  VO2female = BSA (138.1 - 17.04 * loge(age) + 0.378 * HRf) DCM  VO2 = VeSTPD * 10 * (FIO2 - FE02) DCM  VO2 = 152 * BSA DCM  VO2 = 175 * BSA DCM  VO2 = 176 * BSA DCM  Robertson & Reid table DCM  Fleisch table DCM  Boothby table
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.181"

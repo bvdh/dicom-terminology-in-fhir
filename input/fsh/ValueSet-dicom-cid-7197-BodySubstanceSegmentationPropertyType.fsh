@@ -2,7 +2,7 @@ ValueSet    : CID_7197
 Id          : dicom-cid-7197-BodySubstanceSegmentationPropertyType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Bile   SCT  Body fluid   SCT  Feces   SCT  Gas   SCT  Urine  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Bile   SCT  Body fluid   SCT  Feces   SCT  Gas   SCT  Urine
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1196"

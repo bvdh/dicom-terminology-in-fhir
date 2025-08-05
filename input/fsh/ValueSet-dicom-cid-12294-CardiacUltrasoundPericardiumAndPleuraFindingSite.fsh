@@ -2,7 +2,7 @@ ValueSet    : CID_12294
 Id          : dicom-cid-12294-CardiacUltrasoundPericardiumAndPleuraFindingSite
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Pericardium   SCT  Pleura   SCT  Left Pleura   SCT  Right Pleura  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Pericardium   SCT  Pleura   SCT  Left Pleura   SCT  Right Pleura
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.874"

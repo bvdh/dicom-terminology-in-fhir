@@ -1,8 +1,8 @@
 ValueSet    : CID_68
-Id          : dicom-cid-68-ImagingAgentAdministrationPharmaceuticalPresentationUnit
+Id          : dicom-cid-68-ImagingAgentAdministrationPharmaceuticalPresentatio
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT 733020007 Syringe   SCT  Cartridge   SCT  Parenteral/enteral solution bag   SCT  Bottle   The concept for syringe (unit of presentation) is used in this Context Group as distinct from syringe (physical object), which is used in
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT 733020007 Syringe   SCT  Cartridge   SCT  Parenteral/enteral solution bag   SCT  Bottle   The concept for syringe (unit of presentation) is used in this Context Group as distinct from syringe (physical object), which is used in
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1258"

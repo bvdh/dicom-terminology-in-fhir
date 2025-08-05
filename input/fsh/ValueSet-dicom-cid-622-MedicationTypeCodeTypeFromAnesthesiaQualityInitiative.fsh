@@ -1,8 +1,8 @@
 ValueSet    : CID_622
-Id          : dicom-cid-622-MedicationTypeCodeTypeFromAnesthesiaQualityInitiative
+Id          : dicom-cid-622-MedicationTypeCodeTypeFromAnesthesiaQualityInitiat
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Adrenergic agent   SCT  Aminoglycoside antibiotic   SCT  Analgesic   SCT  Antiarrhythmic   SCT  Antibiotic   SCT  Anticholinergic   SCT  Anticholinergic agent   SCT  Anticoagulant   SCT  Anticonvulsant   SCT  Anticonvulsant   SCT  Antidiuretic hormone   SCT  Antiemetic   SCT  Antifungal   SCT  Anti-heparin agent   SCT  Antihistamine   SCT  Antihypertensive   UMLS  Antihypoglycemic   SCT  Barbiturate   SCT  Benzodiazepine   SCT  Benzodiazepine antagonist   SCT  Beta-blocker   SCT  Beta-Lactam antibiotic   SCT  Blood product   SCT  Bronchodilator   SCT  Calcium   SCT  Calcium channel blocker   SCT  Caloric agent   SCT  Carbapenem antibiotic   SCT  Cephalosporin antibiotic   SCT  Cholinergic agent   SCT  Diuretic   SCT  Drug diluent   SCT  Estrogen   SCT  Gastrointestinal prokinetic   SCT  General anesthetic   UMLS  H2 antagonist   SCT  Hemostatic agent   SCT  Hypoglycemic   SCT  Inotropic agent   SCT  Lincomycin antibiotic   SCT  Linezolid antibiotic   SCT  Local anesthetic   SCT  Low Molecular Weight Heparin   SCT  Macrolide antibiotic   SCT  Magnesium   SCT  Metronidazole antibiotic   SCT  Narcotic (opiate) antagonist   UMLS  Narcotic analgesic   SCT  Decongestant   SCT  NeuroMuscular Blocking (NMB) - depolarizing   SCT  NeuroMuscular Blocking (NMB) - non depolarizing   SCT  NSAID   SCT  Ocular Lubricant   SCT  Oxytocic   SCT  Penicillin antibiotic   SCT  Plasma Expander   SCT  Potassium   SCT  Quinolone antibiotic   SCT  Respiratory stimulant   SCT  Skeletal muscle relaxant   SCT  Steroid   SCT  Sulfonamide antibiotic   SCT  Tetracycline antibiotic   SCT  Thyroid hormone   SCT  Vancomycin antibiotic   SCT  Vasoconstrictor   SCT  Vasodilator   SCT  Vitamin   This Context Group contains SNOMED substance or product code equivalents of enumerated string concepts for the The AQI value "ABX-Miscellaneous" corresponds to No equivalent concepts are included for MedicationTypeCodeType values of NonFormulary antibiotic, Dye, Indigo Carmine Red, and Non-Formulary.
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Adrenergic agent   SCT  Aminoglycoside antibiotic   SCT  Analgesic   SCT  Antiarrhythmic   SCT  Antibiotic   SCT  Anticholinergic   SCT  Anticholinergic agent   SCT  Anticoagulant   SCT  Anticonvulsant   SCT  Anticonvulsant   SCT  Antidiuretic hormone   SCT  Antiemetic   SCT  Antifungal   SCT  Anti-heparin agent   SCT  Antihistamine   SCT  Antihypertensive   UMLS  Antihypoglycemic   SCT  Barbiturate   SCT  Benzodiazepine   SCT  Benzodiazepine antagonist   SCT  Beta-blocker   SCT  Beta-Lactam antibiotic   SCT  Blood product   SCT  Bronchodilator   SCT  Calcium   SCT  Calcium channel blocker   SCT  Caloric agent   SCT  Carbapenem antibiotic   SCT  Cephalosporin antibiotic   SCT  Cholinergic agent   SCT  Diuretic   SCT  Drug diluent   SCT  Estrogen   SCT  Gastrointestinal prokinetic   SCT  General anesthetic   UMLS  H2 antagonist   SCT  Hemostatic agent   SCT  Hypoglycemic   SCT  Inotropic agent   SCT  Lincomycin antibiotic   SCT  Linezolid antibiotic   SCT  Local anesthetic   SCT  Low Molecular Weight Heparin   SCT  Macrolide antibiotic   SCT  Magnesium   SCT  Metronidazole antibiotic   SCT  Narcotic (opiate) antagonist   UMLS  Narcotic analgesic   SCT  Decongestant   SCT  NeuroMuscular Blocking (NMB) - depolarizing   SCT  NeuroMuscular Blocking (NMB) - non depolarizing   SCT  NSAID   SCT  Ocular Lubricant   SCT  Oxytocic   SCT  Penicillin antibiotic   SCT  Plasma Expander   SCT  Potassium   SCT  Quinolone antibiotic   SCT  Respiratory stimulant   SCT  Skeletal muscle relaxant   SCT  Steroid   SCT  Sulfonamide antibiotic   SCT  Tetracycline antibiotic   SCT  Thyroid hormone   SCT  Vancomycin antibiotic   SCT  Vasoconstrictor   SCT  Vasodilator   SCT  Vitamin   This Context Group contains SNOMED substance or product code equivalents of enumerated string concepts for the The AQI value "ABX-Miscellaneous" corresponds to No equivalent concepts are included for MedicationTypeCodeType values of NonFormulary antibiotic, Dye, Indigo Carmine Red, and Non-Formulary.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1087"
@@ -33,9 +33,9 @@ Description :
 * http://snomed.info/srt#F-6180B "Anticholinergic" 
 * http://terminology.hl7.org/CodeSystem/umls#C0242896 "Anticholinergic" 
 
-* http://snomed.info/sct#373246003 "Anticholinergic agent" 
-* http://snomed.info/srt#F-6180B "Anticholinergic agent" 
-* http://terminology.hl7.org/CodeSystem/umls#C0242896 "Anticholinergic agent" 
+// * http://snomed.info/sct#373246003 "Anticholinergic agent" 
+// * http://snomed.info/srt#F-6180B "Anticholinergic agent" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0242896 "Anticholinergic agent" 
 
 * http://snomed.info/sct#372862008 "Anticoagulant" 
 * http://snomed.info/srt#F-6199A "Anticoagulant" 
@@ -45,9 +45,9 @@ Description :
 * http://snomed.info/srt#R-F1216 "Anticonvulsant" 
 * http://terminology.hl7.org/CodeSystem/umls#C0003286 "Anticonvulsant" 
 
-* http://snomed.info/sct#255632006 "Anticonvulsant" 
-* http://snomed.info/srt#R-F1216 "Anticonvulsant" 
-* http://terminology.hl7.org/CodeSystem/umls#C0003286 "Anticonvulsant" 
+// * http://snomed.info/sct#255632006 "Anticonvulsant" 
+// * http://snomed.info/srt#R-F1216 "Anticonvulsant" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0003286 "Anticonvulsant" 
 
 * http://snomed.info/sct#77671006 "Antidiuretic hormone" 
 * http://snomed.info/srt#F-B1810 "Antidiuretic hormone" 
@@ -74,7 +74,7 @@ Description :
 * http://terminology.hl7.org/CodeSystem/umls#C0003364 "Antihypertensive" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C1579431 "Antihypoglycemic" 
-* http://terminology.hl7.org/CodeSystem/umls#C1579431 "Antihypoglycemic" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1579431 "Antihypoglycemic" 
 
 * http://snomed.info/sct#372798009 "Barbiturate" 
 * http://snomed.info/srt#R-F2B23 "Barbiturate" 
@@ -147,7 +147,7 @@ Description :
 * http://terminology.hl7.org/CodeSystem/umls#C0017302 "General anesthetic" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C0019593 "H2 antagonist" 
-* http://terminology.hl7.org/CodeSystem/umls#C0019593 "H2 antagonist" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0019593 "H2 antagonist" 
 
 * http://snomed.info/sct#372681003 "Hemostatic agent" 
 * http://snomed.info/srt#F-618A5 "Hemostatic agent" 
@@ -194,7 +194,7 @@ Description :
 * http://terminology.hl7.org/CodeSystem/umls#C0027410 "Narcotic (opiate) antagonist" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C0027409 "Narcotic analgesic" 
-* http://terminology.hl7.org/CodeSystem/umls#C0027409 "Narcotic analgesic" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0027409 "Narcotic analgesic" 
 
 * http://snomed.info/sct#96328007 "Decongestant" 
 * http://snomed.info/srt#C-97301 "Decongestant" 

@@ -2,7 +2,7 @@ ValueSet    : CID_1006
 Id          : dicom-cid-1006-AnatomicalReferenceBasisExtremity
 Description :
 """
-The items in this Context Group are body structures in the extremities commonly used as a reference basis for imaging.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Ankle joint   SCT  Elbow joint   SCT  Foot   SCT  Knee joint   SCT  Malleolar structure of tibia   SCT  Metacarpal   SCT  Patella   SCT  Scaphoid   SCT  Talus   SCT  Tibial Plateau   SCT  Toe   SCT  Wrist joint   
+The items in this Context Group are body structures in the extremities commonly used as a reference basis for imaging.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Ankle joint   SCT  Elbow joint   SCT  Foot   SCT  Knee joint   SCT  Malleolar structure of tibia   SCT  Metacarpal   SCT  Patella   SCT  Scaphoid   SCT  Talus   SCT  Tibial Plateau   SCT  Toe   SCT  Wrist joint
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1127"

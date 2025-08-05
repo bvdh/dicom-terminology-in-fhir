@@ -2,7 +2,7 @@ ValueSet    : CID_8300
 Id          : dicom-cid-8300-VisualEvaluationMethod
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Overall image quality evaluation DCM  Grayscale resolution evaluation DCM  Luminance response evaluation DCM  Luminance uniformity evaluation DCM  Chromaticity evaluation DCM  Pixel faults evaluation DCM  Veiling glare evaluation DCM  Geometrical image evaluation DCM  Angular viewing evaluation DCM  Clinical evaluation
+Coding Scheme Designator Code Value Code Meaning DCM  Overall image quality evaluation DCM  Grayscale resolution evaluation DCM  Luminance response evaluation DCM  Luminance uniformity evaluation DCM  Chromaticity evaluation DCM  Pixel faults evaluation DCM  Veiling glare evaluation DCM  Geometrical image evaluation DCM  Angular viewing evaluation DCM  Clinical evaluation
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.980"

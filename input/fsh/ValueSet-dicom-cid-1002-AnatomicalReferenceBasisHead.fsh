@@ -2,7 +2,7 @@ ValueSet    : CID_1002
 Id          : dicom-cid-1002-AnatomicalReferenceBasisHead
 Description :
 """
-The items in this Context Group are body structures in the head commonly used as a reference basis for imaging.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Carotid Artery   SCT  External Auditory Meatus   SCT  Foramen Magnum   SCT  Frontal sinus   SCT  Internal Auditory Meatus   SCT  Lateral Canthus   SCT  Mandible   SCT  Mastoid bone   SCT  Mastoid cells and antra   SCT  Maxillary sinus   FMA  Nasion  SCT  Orbital structure   SCT  Pituitary Fossa   SCT  Skull   SCT  Temporal Bone   SCT  Vertex of Head     
+The items in this Context Group are body structures in the head commonly used as a reference basis for imaging.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Carotid Artery   SCT  External Auditory Meatus   SCT  Foramen Magnum   SCT  Frontal sinus   SCT  Internal Auditory Meatus   SCT  Lateral Canthus   SCT  Mandible   SCT  Mastoid bone   SCT  Mastoid cells and antra   SCT  Maxillary sinus   FMA  Nasion  SCT  Orbital structure   SCT  Pituitary Fossa   SCT  Skull   SCT  Temporal Bone   SCT  Vertex of Head
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1123"

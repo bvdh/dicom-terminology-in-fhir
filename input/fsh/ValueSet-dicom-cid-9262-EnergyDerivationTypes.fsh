@@ -2,7 +2,7 @@ ValueSet    : CID_9262
 Id          : dicom-cid-9262-EnergyDerivationTypes
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Configured Lowest Imaging Energy DCM  Configured Default Imaging Energy
+Coding Scheme Designator Code Value Code Meaning DCM  Configured Lowest Imaging Energy DCM  Configured Default Imaging Energy
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1461"

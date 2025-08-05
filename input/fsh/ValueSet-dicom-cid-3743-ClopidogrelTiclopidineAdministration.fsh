@@ -2,7 +2,7 @@ ValueSet    : CID_3743
 Id          : dicom-cid-3743-ClopidogrelTiclopidineAdministration
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR Equivalent SCT  Not Administered   60-1 SCT  Contraindicated   60-2 SCT  Administered Less than 72 Hours before PCI   60-3 SCT  Administered After Percutaneous Coronary Intervention   60-4
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR Equivalent SCT  Not Administered   60-1 SCT  Contraindicated   60-2 SCT  Administered Less than 72 Hours before PCI   60-3 SCT  Administered After Percutaneous Coronary Intervention   60-4
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.240"

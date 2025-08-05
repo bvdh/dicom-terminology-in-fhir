@@ -2,7 +2,7 @@ ValueSet    : CID_12214
 Id          : dicom-cid-12214-EchocardiographyPulmonaryVeinMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  LN  Pulmonary Vein Systolic Peak Velocity   LN  Pulmonary Vein Diastolic Peak Velocity   LN  Pulmonary Vein Systolic to Diastolic Ratio   LN  Pulmonary Vein Atrial Contraction Reversal Peak Velocity   SCT  Pulmonary Vein A-Wave Duration   SCT  Pulmonary Vein D-Wave Velocity Time Integral   SCT  Pulmonary Vein S-Wave Velocity Time Integral  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  LN  Pulmonary Vein Systolic Peak Velocity   LN  Pulmonary Vein Diastolic Peak Velocity   LN  Pulmonary Vein Systolic to Diastolic Ratio   LN  Pulmonary Vein Atrial Contraction Reversal Peak Velocity   SCT  Pulmonary Vein A-Wave Duration   SCT  Pulmonary Vein D-Wave Velocity Time Integral   SCT  Pulmonary Vein S-Wave Velocity Time Integral
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.606"

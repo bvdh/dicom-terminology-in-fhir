@@ -2,7 +2,7 @@ ValueSet    : CID_3719
 Id          : dicom-cid-3719-CanadianClinicalClassification
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR [2.0b] Equivalent SCT  Chest pain not present   50-0 SCT  Angina Class I   50-I SCT  Angina Class II   50-II SCT  Angina Class III   50-IIII SCT  Angina Class IV   50-IV In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR [2.0b] Equivalent SCT  Chest pain not present   50-0 SCT  Angina Class I   50-I SCT  Angina Class II   50-II SCT  Angina Class III   50-IIII SCT  Angina Class IV   50-IV In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.220"

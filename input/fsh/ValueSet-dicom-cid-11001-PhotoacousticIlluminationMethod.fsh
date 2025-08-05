@@ -2,7 +2,7 @@ ValueSet    : CID_11001
 Id          : dicom-cid-11001-PhotoacousticIlluminationMethod
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Single-side illumination DCM  Dual-side illumination DCM  Multi-side illumination DCM  Through-transducer illumination DCM  Interstitial illumination
+Coding Scheme Designator Code Value Code Meaning DCM  Single-side illumination DCM  Dual-side illumination DCM  Multi-side illumination DCM  Through-transducer illumination DCM  Interstitial illumination
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1471"

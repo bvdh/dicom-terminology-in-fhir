@@ -2,7 +2,7 @@ ValueSet    : CID_3482
 Id          : dicom-cid-3482-IVUSAreaMeasurement
 Description :
 """
-This Context Group is the set of cross-sectional area measurements made in an IVUS procedure.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  EEM Cross-Sectional Area   SCT  Vessel lumen cross-sectional area   SCT  Stent Cross-Sectional Area   DCM  Plaque plus Media Cross-Sectional Area   DCM  In-Stent Neointimal Cross-Sectional Area  
+This Context Group is the set of cross-sectional area measurements made in an IVUS procedure.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  EEM Cross-Sectional Area   SCT  Vessel lumen cross-sectional area   SCT  Stent Cross-Sectional Area   DCM  Plaque plus Media Cross-Sectional Area   DCM  In-Stent Neointimal Cross-Sectional Area
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.117"

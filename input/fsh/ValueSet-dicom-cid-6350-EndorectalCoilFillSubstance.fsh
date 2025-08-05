@@ -2,7 +2,7 @@ ValueSet    : CID_6350
 Id          : dicom-cid-6350-EndorectalCoilFillSubstance
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Air   SCT  Water   DCM  Perfluorocarbon   RADLEX  Barium sulfate suspension  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Air   SCT  Water   DCM  Perfluorocarbon   RADLEX  Barium sulfate suspension
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1407"

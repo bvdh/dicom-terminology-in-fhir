@@ -2,7 +2,7 @@ ValueSet    : CID_6320
 Id          : dicom-cid-6320-AbdominopelvicIntervention
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Operation on pelvic region of trunk   SCT  Prostatectomy   NCIt  Cryoablation   NCIt  Irreversible electroporation   NCIt  Focused ultrasound ablation  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Operation on pelvic region of trunk   SCT  Prostatectomy   NCIt  Cryoablation   NCIt  Irreversible electroporation   NCIt  Focused ultrasound ablation
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1377"

@@ -2,7 +2,7 @@ ValueSet    : CID_10074
 Id          : dicom-cid-10074-RDSRFrameOfReferenceOrigin
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Room Origin DCM  Equipment Origin DCM  Patient Support Origin DCM  Isocenter Origin DCM  Patient Coordinate System Origin
+Coding Scheme Designator Code Value Code Meaning DCM  Room Origin DCM  Equipment Origin DCM  Patient Support Origin DCM  Isocenter Origin DCM  Patient Coordinate System Origin
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1364"

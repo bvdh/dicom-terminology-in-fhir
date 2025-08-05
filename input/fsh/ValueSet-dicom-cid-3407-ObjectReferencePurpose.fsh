@@ -2,7 +2,7 @@ ValueSet    : CID_3407
 Id          : dicom-cid-3407-ObjectReferencePurpose
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Pre-procedure log DCM  Current procedure evidence DCM  Prior report for current patient
+Coding Scheme Designator Code Value Code Meaning DCM  Pre-procedure log DCM  Current procedure evidence DCM  Prior report for current patient
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.72"

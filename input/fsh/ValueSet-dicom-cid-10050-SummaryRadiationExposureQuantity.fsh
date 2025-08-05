@@ -2,7 +2,7 @@ ValueSet    : CID_10050
 Id          : dicom-cid-10050-SummaryRadiationExposureQuantity
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Entrance Exposure at RP DCM  Accumulated Average Glandular Dose DCM  Dose Area Product Total DCM  Fluoro Dose Area Product Total DCM  Acquisition Dose Area Product Total DCM  Total Fluoro Time DCM  Total Number of Radiographic Frames DCM  Administered activity DCM  CT Dose Length Product Total DCM  CT Dose Length Product Sub-Total DCM  Mean CTDIvol DCM  Effective Dose
+Coding Scheme Designator Code Value Code Meaning DCM  Entrance Exposure at RP DCM  Accumulated Average Glandular Dose DCM  Dose Area Product Total DCM  Fluoro Dose Area Product Total DCM  Acquisition Dose Area Product Total DCM  Total Fluoro Time DCM  Total Number of Radiographic Frames DCM  Administered activity DCM  CT Dose Length Product Total DCM  CT Dose Length Product Sub-Total DCM  Mean CTDIvol DCM  Effective Dose
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1028"

@@ -2,7 +2,7 @@ ValueSet    : CID_4231
 Id          : dicom-cid-4231-LensStatus
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Aphakic   SCT  Crystalline lens   SCT  Phakic IOL   SCT  Piggyback IOL   SCT  Pseudophakia  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Aphakic   SCT  Crystalline lens   SCT  Phakic IOL   SCT  Piggyback IOL   SCT  Pseudophakia
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.877"

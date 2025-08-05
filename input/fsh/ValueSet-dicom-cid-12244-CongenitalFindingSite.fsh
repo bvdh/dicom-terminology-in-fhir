@@ -2,7 +2,7 @@ ValueSet    : CID_12244
 Id          : dicom-cid-12244-CongenitalFindingSite
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Ventricular Septal Defect   SCT  Atrial Septal Defect  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Ventricular Septal Defect   SCT  Atrial Septal Defect
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.635"

@@ -2,7 +2,7 @@ ValueSet    : CID_7486
 Id          : dicom-cid-7486-MixedBreed
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Mixed breed cat   SCT  Mixed breed goat   SCT  Mixed breed dog   SCT  Mixed breed horse   SCT  Mixed breed sheep   SCT  Mixed breed chicken   SCT  Mixed breed cattle   SCT  Mixed breed pig  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Mixed breed cat   SCT  Mixed breed goat   SCT  Mixed breed dog   SCT  Mixed breed horse   SCT  Mixed breed sheep   SCT  Mixed breed chicken   SCT  Mixed breed cattle   SCT  Mixed breed pig
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.823"

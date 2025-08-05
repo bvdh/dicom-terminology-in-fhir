@@ -2,7 +2,7 @@ ValueSet    : CID_7061
 Id          : dicom-cid-7061-ModelDocumentTitle
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Source image LN  MR 3D CAM model   LN  CT 3D CAM model   DCM  US 3D CAM model   DCM  Mixed Modality 3D CAM model   DCM  Photogrammetric Imaging 3D CAM model   DCM  Laser Scanning 3D CAM model  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Source image LN  MR 3D CAM model   LN  CT 3D CAM model   DCM  US 3D CAM model   DCM  Mixed Modality 3D CAM model   DCM  Photogrammetric Imaging 3D CAM model   DCM  Laser Scanning 3D CAM model
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1202"

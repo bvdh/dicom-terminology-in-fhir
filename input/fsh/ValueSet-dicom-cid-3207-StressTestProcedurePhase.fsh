@@ -2,7 +2,7 @@ ValueSet    : CID_3207
 Id          : dicom-cid-3207-StressTestProcedurePhase
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Resting State   SCT  Cardiac stress state   SCT  Peak cardiac stress state   SCT  Cardiac stress recovery state   SCT  Hyperventilation  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Resting State   SCT  Cardiac stress state   SCT  Peak cardiac stress state   SCT  Cardiac stress recovery state   SCT  Hyperventilation
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.637"

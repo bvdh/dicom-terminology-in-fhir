@@ -2,7 +2,7 @@ ValueSet    : CID_12240
 Id          : dicom-cid-12240-LeftVentricleAreaMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Left Ventricular Systolic Area   SCT  Left Ventricular Diastolic Area   SCT  Left Ventricular Fractional Area Change   SCT  Left Ventricle Epicardial Diastolic Area, psax pap view  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Left Ventricular Systolic Area   SCT  Left Ventricular Diastolic Area   SCT  Left Ventricular Fractional Area Change   SCT  Left Ventricle Epicardial Diastolic Area, psax pap view
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.631"

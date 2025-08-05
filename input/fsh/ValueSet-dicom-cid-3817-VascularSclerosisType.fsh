@@ -2,7 +2,7 @@ ValueSet    : CID_3817
 Id          : dicom-cid-3817-VascularSclerosisType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  adventitial degeneration   SCT  arteriosclerosis with fibrinoid necrosis   SCT  arteriolosclerosis   SCT  arteriosclerosis   SCT  atheroma   SCT  atherosclerotic fibrous plaque   SCT  calcified atheromatous plaque   SCT  complicated atheromatous plaque   SCT  cystic medical necrosis   SCT  elastic vascular sclerosis   SCT  fatty streaks   SCT  fibroelastosis   SCT  diffuse fibroelastosis   SCT  focal fibroelastosis   SCT  phlebosclerosis   SCT  ulcerated atheromatous plaque   SCT  vascular wall degeneration  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  adventitial degeneration   SCT  arteriosclerosis with fibrinoid necrosis   SCT  arteriolosclerosis   SCT  arteriosclerosis   SCT  atheroma   SCT  atherosclerotic fibrous plaque   SCT  calcified atheromatous plaque   SCT  complicated atheromatous plaque   SCT  cystic medical necrosis   SCT  elastic vascular sclerosis   SCT  fatty streaks   SCT  fibroelastosis   SCT  diffuse fibroelastosis   SCT  focal fibroelastosis   SCT  phlebosclerosis   SCT  ulcerated atheromatous plaque   SCT  vascular wall degeneration
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.275"

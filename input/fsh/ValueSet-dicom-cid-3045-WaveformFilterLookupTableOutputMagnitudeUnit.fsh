@@ -2,7 +2,7 @@ ValueSet    : CID_3045
 Id          : dicom-cid-3045-WaveformFilterLookupTableOutputMagnitudeUnit
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UCUM dB[uV] dB(V) UCUM dB[mV] dB(mV) DCM  Magnitude normalized UCUM mV mV UCUM uV V
+Coding Scheme Designator Code Value Code Meaning UCUM dB[uV] dB(V) UCUM dB[mV] dB(mV) DCM  Magnitude normalized UCUM mV mV UCUM uV V
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1456"

@@ -2,7 +2,7 @@ ValueSet    : CID_609
 Id          : dicom-cid-609-AnimalFeedingMethod
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCIt  ad libitum   UMLS C0425422 Restricted diet  DCM  Food treat SCT  Gavage   
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCIt  ad libitum   UMLS C0425422 Restricted diet  DCM  Food treat SCT  Gavage
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1074"
@@ -13,7 +13,7 @@ Description :
 * http://terminology.hl7.org/CodeSystem/umls#C1879743 "ad libitum" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C0425422 "Restricted diet" 
-* http://terminology.hl7.org/CodeSystem/umls#C0425422 "Restricted diet" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0425422 "Restricted diet" 
 
 * DICOMDCMCodeSystem#127391 "Food treat" 
 

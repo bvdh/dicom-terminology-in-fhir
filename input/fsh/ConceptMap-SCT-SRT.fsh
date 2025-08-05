@@ -21516,6 +21516,36 @@ Usage: #definition
 * group.element[=].target.display = "Perfusion"
 * group.element[=].target.relationship = #equivalent
 
+* group.element[+].code = #279009002
+* group.element[=].display = "Glandular structure of breast"
+* group.element[=].target.code = #T-D05A1
+* group.element[=].target.display = "Glandular structure of breast"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #89749009
+* group.element[=].display = "Fatty tissue of breast"
+* group.element[=].target.code = #T-04430
+* group.element[=].target.display = "Fatty tissue of breast"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #58549005
+* group.element[=].display = "Interlobular mammary connective tissue"
+* group.element[=].target.code = #T-04500
+* group.element[=].target.display = "Interlobular mammary connective tissue"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #314375000
+* group.element[=].display = "Connective tissue of breast"
+* group.element[=].target.code = #T-D0601
+* group.element[=].target.display = "Connective tissue of breast"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #68192009
+* group.element[=].display = "Areolar tissue of breast"
+* group.element[=].target.code = #T-04211
+* group.element[=].target.display = "Areolar tissue of breast"
+* group.element[=].target.relationship = #equivalent
+
 * group.element[+].code = #289925000
 * group.element[=].display = "Waste Material"
 * group.element[=].target.code = #F-61779

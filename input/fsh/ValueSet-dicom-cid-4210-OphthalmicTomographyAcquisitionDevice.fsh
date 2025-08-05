@@ -2,7 +2,7 @@ ValueSet    : CID_4210
 Id          : dicom-cid-4210-OphthalmicTomographyAcquisitionDevice
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Optical Coherence Tomography Scanner   SCT  Retinal Thickness Analyzer   SCT  Confocal Scanning Laser Ophthalmoscope   DCM  Scheimpflug Camera   SCT  Scanning Laser Polarimeter   DCM  Elevation-based corneal tomographer   DCM  Reflection-based corneal topographer   DCM  Interferometry-based corneal tomographer  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Optical Coherence Tomography Scanner   SCT  Retinal Thickness Analyzer   SCT  Confocal Scanning Laser Ophthalmoscope   DCM  Scheimpflug Camera   SCT  Scanning Laser Polarimeter   DCM  Elevation-based corneal tomographer   DCM  Reflection-based corneal topographer   DCM  Interferometry-based corneal tomographer
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.326"

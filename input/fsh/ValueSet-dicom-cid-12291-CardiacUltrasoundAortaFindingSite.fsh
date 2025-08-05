@@ -2,7 +2,7 @@ ValueSet    : CID_12291
 Id          : dicom-cid-12291-CardiacUltrasoundAortaFindingSite
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Left ventricle outflow tract   SCT  Aortic Valve   SCT  Root of Aorta   SCT  Structure Sinus of Valsalva   SCT  Left Sinus of Valsalva   SCT  Right Sinus of Valsalva   SCT  Non-coronary Sinus   SCT  Aortic Sinotubular Junction   SCT  Ascending Aorta   SCT  Aortic Arch   SCT  Aortic Isthmus   SCT  Coarctation of Aorta   SCT  Descending Aorta   SCT  Descending Thoracic Aorta   SCT  Thoracic Aorta   SCT  Abdominal Aorta   SCT  Supra Renal Aorta   SCT  Infra-Renal Aorta   SCT  Innominate Artery   SCT  Right Common Carotid Artery   SCT  Right Subclavian Artery   SCT  Left Common Carotid Artery   SCT  Left Subclavian Artery  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Left ventricle outflow tract   SCT  Aortic Valve   SCT  Root of Aorta   SCT  Structure Sinus of Valsalva   SCT  Left Sinus of Valsalva   SCT  Right Sinus of Valsalva   SCT  Non-coronary Sinus   SCT  Aortic Sinotubular Junction   SCT  Ascending Aorta   SCT  Aortic Arch   SCT  Aortic Isthmus   SCT  Coarctation of Aorta   SCT  Descending Aorta   SCT  Descending Thoracic Aorta   SCT  Thoracic Aorta   SCT  Abdominal Aorta   SCT  Supra Renal Aorta   SCT  Infra-Renal Aorta   SCT  Innominate Artery   SCT  Right Common Carotid Artery   SCT  Right Subclavian Artery   SCT  Left Common Carotid Artery   SCT  Left Subclavian Artery
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.871"

@@ -2,7 +2,7 @@ ValueSet    : CID_12112
 Id          : dicom-cid-12112-AbdominopelvicArteryUnpaired
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Abdominal aorta   SCT  Infra-renal Aorta   SCT  Supra-renal Aorta   SCT  Celiac Axis   SCT  Common Hepatic Artery   SCT  Gastroduodenal Artery   SCT  Inferior Mesenteric Artery   SCT  Proper Hepatic Artery   SCT  Right Branch of Hepatic Artery   SCT  Left Branch of Hepatic Artery   SCT  Splenic Artery   SCT  Superior Mesenteric Artery  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Abdominal aorta   SCT  Infra-renal Aorta   SCT  Supra-renal Aorta   SCT  Celiac Axis   SCT  Common Hepatic Artery   SCT  Gastroduodenal Artery   SCT  Inferior Mesenteric Artery   SCT  Proper Hepatic Artery   SCT  Right Branch of Hepatic Artery   SCT  Left Branch of Hepatic Artery   SCT  Splenic Artery   SCT  Superior Mesenteric Artery
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.579"

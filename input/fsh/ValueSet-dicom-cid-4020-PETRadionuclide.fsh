@@ -2,7 +2,7 @@ ValueSet    : CID_4020
 Id          : dicom-cid-4020-PETRadionuclide
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  ^11^Carbon   SCT  ^13^Nitrogen   SCT  ^14^Oxygen   SCT  ^15^Oxygen   SCT  ^18^Fluorine   SCT  ^22^Sodium   SCT  ^38^Potassium   DCM  ^43^Scandium   DCM  ^44^Scandium   SCT  ^45^Titanium   DCM  ^51^Manganese   SCT  ^52^Iron   SCT  ^52^Manganese   DCM  ^52m^Manganese   SCT  ^60^Copper   SCT  ^61^Copper   SCT  ^62^Copper   SCT  ^62^Zinc   SCT  ^64^Copper   SCT  ^66^Gallium   SCT  ^68^Gallium   SCT  ^68^Germanium   DCM  ^70^Arsenic   SCT  ^72^Arsenic   SCT  ^73^Selenium   SCT  ^75^Bromine   SCT  ^76^Bromine   SCT  ^77^Bromine   SCT  ^82^Rubidium   SCT  ^86^Yttrium   SCT  ^89^Zirconium   DCM  ^90^Niobium   SCT  ^90^Yttrium   SCT  ^94m^Technetium   SCT  ^124^Iodine   DCM  ^152^Terbium  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  ^11^Carbon   SCT  ^13^Nitrogen   SCT  ^14^Oxygen   SCT  ^15^Oxygen   SCT  ^18^Fluorine   SCT  ^22^Sodium   SCT  ^38^Potassium   DCM  ^43^Scandium   DCM  ^44^Scandium   SCT  ^45^Titanium   DCM  ^51^Manganese   SCT  ^52^Iron   SCT  ^52^Manganese   DCM  ^52m^Manganese   SCT  ^60^Copper   SCT  ^61^Copper   SCT  ^62^Copper   SCT  ^62^Zinc   SCT  ^64^Copper   SCT  ^66^Gallium   SCT  ^68^Gallium   SCT  ^68^Germanium   DCM  ^70^Arsenic   SCT  ^72^Arsenic   SCT  ^73^Selenium   SCT  ^75^Bromine   SCT  ^76^Bromine   SCT  ^77^Bromine   SCT  ^82^Rubidium   SCT  ^86^Yttrium   SCT  ^89^Zirconium   DCM  ^90^Niobium   SCT  ^90^Yttrium   SCT  ^94m^Technetium   SCT  ^124^Iodine   DCM  ^152^Terbium
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.304"

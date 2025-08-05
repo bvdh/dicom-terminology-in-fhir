@@ -2,7 +2,7 @@ ValueSet    : CID_4064
 Id          : dicom-cid-4064-VLViewModifier
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Mirrored image uncorrected   SCT  Mirrored image uncorrected flipped horizontally   SCT  Mirrored image uncorrected flipped horizontally and vertically   SCT  Mirrored image uncorrected flipped vertically  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Mirrored image uncorrected   SCT  Mirrored image uncorrected flipped horizontally   SCT  Mirrored image uncorrected flipped horizontally and vertically   SCT  Mirrored image uncorrected flipped vertically
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1504"

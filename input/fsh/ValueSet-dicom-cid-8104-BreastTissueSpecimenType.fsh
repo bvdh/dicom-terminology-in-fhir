@@ -2,7 +2,7 @@ ValueSet    : CID_8104
 Id          : dicom-cid-8104-BreastTissueSpecimenType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  breast duct sample   SCT  frozen section breast sample   SCT  lumpectomy breast sample   SCT  specimen from breast obtained by excision   SCT  specimen from breast obtained by total mastectomy   SCT  segmentectomy breast sample   SCT  breast tru-cut biopsy sample   SCT  specimen from breast obtained by core needle biopsy   SCT  specimen from breast, stereotactically guided core needle biopsy   SCT  specimen from breast by incisional biopsy of breast mass   SCT  specimen from breast obtained by image guided core biopsy  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  breast duct sample   SCT  frozen section breast sample   SCT  lumpectomy breast sample   SCT  specimen from breast obtained by excision   SCT  specimen from breast obtained by total mastectomy   SCT  segmentectomy breast sample   SCT  breast tru-cut biopsy sample   SCT  specimen from breast obtained by core needle biopsy   SCT  specimen from breast, stereotactically guided core needle biopsy   SCT  specimen from breast by incisional biopsy of breast mass   SCT  specimen from breast obtained by image guided core biopsy
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1046"

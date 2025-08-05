@@ -119,7 +119,7 @@ This Context Group comprises the nomenclature of ISO/IEEE 11073-10102, limited t
 
 * urn:iso:std:iso:11073:10101#10:8960 "transthoracic Defibrillation spike" 
 
-* urn:iso:std:iso:11073:10101#10:8192 "Heart beat" 
+// * urn:iso:std:iso:11073:10101#10:8192 "Heart beat" 
 
 * urn:iso:std:iso:11073:10101#10:8208 "Normal beat (sinus beat, normal conduction)" 
 
@@ -151,7 +151,7 @@ This Context Group comprises the nomenclature of ISO/IEEE 11073-10102, limited t
 
 * urn:iso:std:iso:11073:10101#10:8432 "Ventricular escape beat" 
 
-* urn:iso:std:iso:11073:10101#10:8448 "Bundle branch block beat" 
+// * urn:iso:std:iso:11073:10101#10:8448 "Bundle branch block beat" 
 
 * urn:iso:std:iso:11073:10101#10:8464 "Left bundle branch block beat" 
 
@@ -183,7 +183,7 @@ This Context Group comprises the nomenclature of ISO/IEEE 11073-10102, limited t
 
 * urn:iso:std:iso:11073:10101#10:8688 "Lown-Ganong-Levine syndrome" 
 
-* urn:iso:std:iso:11073:10101#10:8704 "Paced beat" 
+// * urn:iso:std:iso:11073:10101#10:8704 "Paced beat" 
 
 * urn:iso:std:iso:11073:10101#10:8720 "Pacemaker Fusion beat" 
 

@@ -2,7 +2,7 @@ ValueSet    : CID_12008
 Id          : dicom-cid-12008-OBGYNAmnioticSacMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  First Quadrant Diameter   LN  Second Quadrant Diameter   LN  Third Quadrant Diameter   LN  Fourth Quadrant Diameter   SCT  Diameter   LN  Amniotic Fluid Index  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  First Quadrant Diameter   LN  Second Quadrant Diameter   LN  Third Quadrant Diameter   LN  Fourth Quadrant Diameter   SCT  Diameter   LN  Amniotic Fluid Index
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.557"

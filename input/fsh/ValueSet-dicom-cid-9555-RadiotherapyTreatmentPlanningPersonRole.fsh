@@ -2,7 +2,7 @@ ValueSet    : CID_9555
 Id          : dicom-cid-9555-RadiotherapyTreatmentPlanningPersonRole
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT Concept ID UMLS Concept Unique ID SCT  Medical Practitioner   SCT  Physician   NCIt  Dosimetrist  SCT  Resident   UMLS  Consulting Physician  UMLS  Radiation Physicist  DCM 128678 Physics Assistant UMLS  Medical Physicist 
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT Concept ID UMLS Concept Unique ID SCT  Medical Practitioner   SCT  Physician   NCIt  Dosimetrist  SCT  Resident   UMLS  Consulting Physician  UMLS  Radiation Physicist  DCM 128678 Physics Assistant UMLS  Medical Physicist
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1302"
@@ -22,13 +22,13 @@ Description :
 * http://terminology.hl7.org/CodeSystem/umls#C1320928 "Resident" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C1441532 "Consulting Physician" 
-* http://terminology.hl7.org/CodeSystem/umls#C1441532 "Consulting Physician" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1441532 "Consulting Physician" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C2985483 "Radiation Physicist" 
-* http://terminology.hl7.org/CodeSystem/umls#C2985483 "Radiation Physicist" 
+// * http://terminology.hl7.org/CodeSystem/umls#C2985483 "Radiation Physicist" 
 
 * DICOMDCMCodeSystem#128678 "Physics Assistant" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C1708969 "Medical Physicist" 
-* http://terminology.hl7.org/CodeSystem/umls#C1708969 "Medical Physicist" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1708969 "Medical Physicist" 
 

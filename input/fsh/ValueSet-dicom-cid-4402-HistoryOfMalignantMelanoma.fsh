@@ -2,7 +2,7 @@ ValueSet    : CID_4402
 Id          : dicom-cid-4402-HistoryOfMalignantMelanoma
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  History of malignant melanoma   SCT  History of malignant melanoma of the skin  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  History of malignant melanoma   SCT  History of malignant melanoma of the skin
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1347"

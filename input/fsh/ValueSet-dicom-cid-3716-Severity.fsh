@@ -2,7 +2,7 @@ ValueSet    : CID_3716
 Id          : dicom-cid-3716-Severity
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  None   SCT  Mild   SCT  Mild to Moderate   SCT  Moderate   SCT  Moderate to Severe   SCT  Severe   SCT  Fatal  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  None   SCT  Mild   SCT  Mild to Moderate   SCT  Moderate   SCT  Moderate to Severe   SCT  Severe   SCT  Fatal
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.217"

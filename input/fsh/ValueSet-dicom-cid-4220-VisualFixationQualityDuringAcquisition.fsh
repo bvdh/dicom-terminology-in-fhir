@@ -2,7 +2,7 @@ ValueSet    : CID_4220
 Id          : dicom-cid-4220-VisualFixationQualityDuringAcquisition
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Steady   SCT  Not Steady   SCT  Indeterminate  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Steady   SCT  Not Steady   SCT  Indeterminate
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.819"

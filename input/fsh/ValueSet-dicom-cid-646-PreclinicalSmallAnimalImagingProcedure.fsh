@@ -2,7 +2,7 @@ ValueSet    : CID_646
 Id          : dicom-cid-646-PreclinicalSmallAnimalImagingProcedure
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  Whole body CT   LN  Head CT   LN  MRI whole body   LN  Brain MRI   LN  PET whole body   LN  Brain PET   LN  Radionuclide scan of whole body   LN  Radionuclide brain scan   DCM  SPECT of whole body   LN  Brain SPECT   DCM  SPECT CT of whole body   SCT  Ultrasonography of total body   The inconsistent pattern of modality and anatomy in the code meaning is present in the source Coding Scheme (e.g., "Whole body CT" versus "PET whole body"), and not changed, except where necessary (e.g., The UMLS codes that map to the SNOMED concepts, when present, are shown, in the cases when UMLS is lacking a mapping between the LOINC and SNOMED codes. E.g.,
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  Whole body CT   LN  Head CT   LN  MRI whole body   LN  Brain MRI   LN  PET whole body   LN  Brain PET   LN  Radionuclide scan of whole body   LN  Radionuclide brain scan   DCM  SPECT of whole body   LN  Brain SPECT   DCM  SPECT CT of whole body   SCT  Ultrasonography of total body   The inconsistent pattern of modality and anatomy in the code meaning is present in the source Coding Scheme (e.g., "Whole body CT" versus "PET whole body"), and not changed, except where necessary (e.g., The UMLS codes that map to the SNOMED concepts, when present, are shown, in the cases when UMLS is lacking a mapping between the LOINC and SNOMED codes. E.g.,
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1111"

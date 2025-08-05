@@ -1,4 +1,4 @@
-CodeSystem: PUBCHEM_CID
+CodeSystem: PUBCHEM_CodeSystem
 Id: dicom-codesystem-PUBCHEM-CID
 Title: "PUBCHEM_CID"
 Description: "US National Center for Biotechnology Information (NCBI) PubChem Compound CID."

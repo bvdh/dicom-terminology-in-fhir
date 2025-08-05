@@ -2,7 +2,7 @@ ValueSet    : CID_6005
 Id          : dicom-cid-6005-ShapeCharacteristicFromBIRADS
 Description :
 """
-From BI-RADS Third Edition (National Mammography Database, E80)       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Round shape   SCT  Ovoid shape (Oval)   SCT  Lobular   SCT  Irregular  
+From BI-RADS Third Edition (National Mammography Database, E80)       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Round shape   SCT  Ovoid shape (Oval)   SCT  Lobular   SCT  Irregular
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.335"

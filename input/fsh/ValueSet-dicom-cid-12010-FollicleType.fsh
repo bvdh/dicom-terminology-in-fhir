@@ -2,7 +2,7 @@ ValueSet    : CID_12010
 Id          : dicom-cid-12010-FollicleType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID DCM  Dominant Follicle  DCM  Antral Follicle  DCM  Secondary Follicle  DCM  Primary Follicle  DCM  Primordial Follicle 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID DCM  Dominant Follicle  DCM  Antral Follicle  DCM  Secondary Follicle  DCM  Primary Follicle  DCM  Primordial Follicle
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1491"

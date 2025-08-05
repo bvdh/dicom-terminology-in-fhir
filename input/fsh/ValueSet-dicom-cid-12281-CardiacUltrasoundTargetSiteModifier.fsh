@@ -2,7 +2,7 @@ ValueSet    : CID_12281
 Id          : dicom-cid-12281-CardiacUltrasoundTargetSiteModifier
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Lateral   SCT  Medial   NCIt  Middle   SCT  Anterior   SCT  Posterior   SCT  Inferior   SCT  Distal   SCT  Proximal  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Lateral   SCT  Medial   NCIt  Middle   SCT  Anterior   SCT  Posterior   SCT  Inferior   SCT  Distal   SCT  Proximal
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.861"

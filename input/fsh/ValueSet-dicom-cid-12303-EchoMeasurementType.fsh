@@ -2,7 +2,7 @@ ValueSet    : CID_12303
 Id          : dicom-cid-12303-EchoMeasurementType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Indexed   SCT  Ratio   DCM  Fractional Change   DCM  Calculated   DCM  Manual Entry   DCM  Directly measured  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Indexed   SCT  Ratio   DCM  Fractional Change   DCM  Calculated   DCM  Manual Entry   DCM  Directly measured
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1144"

@@ -2,7 +2,7 @@ ValueSet    : CID_12302
 Id          : dicom-cid-12302-EchoFindingObservationType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Structure of the Finding Site   DCM  Behavior of the Finding Site   SCT  Hemodynamic Measurements  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Structure of the Finding Site   DCM  Behavior of the Finding Site   SCT  Hemodynamic Measurements
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1143"

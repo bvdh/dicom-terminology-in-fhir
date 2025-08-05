@@ -2,7 +2,7 @@ ValueSet    : CID_3237
 Id          : dicom-cid-3237-WallMotionComparisonFinding
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  No change   SCT  New wall motion abnormality   SCT  Improvement of wall motion  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  No change   SCT  New wall motion abnormality   SCT  Improvement of wall motion
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.783"

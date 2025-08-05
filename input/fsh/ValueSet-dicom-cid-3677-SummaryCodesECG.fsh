@@ -2,7 +2,7 @@ ValueSet    : CID_3677
 Id          : dicom-cid-3677-SummaryCodesECG
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Normal ECG   SCT  Abnormal ECG   SCT  Borderline Normal ECG   SCT  ECG Equivocal   DCM  Non-diagnostic ECG   A prior version of this Context Group used codes from the SCP-ECG vocabulary.
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Normal ECG   SCT  Abnormal ECG   SCT  Borderline Normal ECG   SCT  ECG Equivocal   DCM  Non-diagnostic ECG   A prior version of this Context Group used codes from the SCP-ECG vocabulary.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.191"

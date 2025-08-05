@@ -2,7 +2,7 @@ ValueSet    : CID_12344
 Id          : dicom-cid-12344-StructuralHeartMeasurementReportDocumentTitle
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Pre-procedural Structural Heart Measurement Report   DCM  Intra-procedural Structural Heart Measurement Report   DCM  Post-procedural Structural Heart Measurement Report  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Pre-procedural Structural Heart Measurement Report   DCM  Intra-procedural Structural Heart Measurement Report   DCM  Post-procedural Structural Heart Measurement Report
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1528"

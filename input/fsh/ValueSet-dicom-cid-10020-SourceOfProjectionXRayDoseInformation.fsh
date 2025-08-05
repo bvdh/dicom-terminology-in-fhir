@@ -2,7 +2,7 @@ ValueSet    : CID_10020
 Id          : dicom-cid-10020-SourceOfProjectionXRayDoseInformation
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Automated Data Collection   DCM  Manual Entry   DCM  MPPS Content   SCT  Dosimeter   DCM  Copied From Image Attributes   DCM  Computed From Image Attributes   DCM  Derived From Human-Readable Reports   DCM  System Calculated  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Automated Data Collection   DCM  Manual Entry   DCM  MPPS Content   SCT  Dosimeter   DCM  Copied From Image Attributes   DCM  Computed From Image Attributes   DCM  Derived From Human-Readable Reports   DCM  System Calculated
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1054"

@@ -2,7 +2,7 @@ ValueSet    : CID_3733
 Id          : dicom-cid-3733-PrimaryCauseOfDeath
 Description :
 """
-      Coding Scheme Designator Coding Scheme Version Code Value Code Meaning NCDR 2.0b 25-1 Cardiac NCDR 2.0b 25-2 Neurologic NCDR 2.0b 25-3 Renal NCDR 2.0b 25-4 Vascular NCDR 2.0b 25-5 Infection NCDR 2.0b 25-6 Pulmonary NCDR 2.0b 25-7 Valvular NCDR 2.0b 25-8 Other
+Coding Scheme Designator Coding Scheme Version Code Value Code Meaning NCDR 2.0b 25-1 Cardiac NCDR 2.0b 25-2 Neurologic NCDR 2.0b 25-3 Renal NCDR 2.0b 25-4 Vascular NCDR 2.0b 25-5 Infection NCDR 2.0b 25-6 Pulmonary NCDR 2.0b 25-7 Valvular NCDR 2.0b 25-8 Other
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.231"

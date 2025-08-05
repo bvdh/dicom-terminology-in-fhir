@@ -2,7 +2,7 @@ ValueSet    : CID_4204
 Id          : dicom-cid-4204-OphthalmicFilter
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Green optical filter   SCT  Red optical filter   SCT  Blue optical filter   SCT  Yellow-green optical filter   SCT  Blue-green optical filter   SCT  Infrared optical filter   SCT  Polarizing optical filter   DCM  No filter  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Green optical filter   SCT  Red optical filter   SCT  Blue optical filter   SCT  Yellow-green optical filter   SCT  Blue-green optical filter   SCT  Infrared optical filter   SCT  Polarizing optical filter   DCM  No filter
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.320"

@@ -2,7 +2,7 @@ ValueSet    : CID_3440
 Id          : dicom-cid-3440-PeripheralPulseLocation
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Brachial Artery   SCT  Carotid Artery   SCT  Dorsalis Pedis Artery   SCT  Femoral Artery   SCT  Popliteal Artery   SCT  Posterior Tibial Artery   SCT  Radial Artery   SCT  Ulnar Artery  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Brachial Artery   SCT  Carotid Artery   SCT  Dorsalis Pedis Artery   SCT  Femoral Artery   SCT  Popliteal Artery   SCT  Posterior Tibial Artery   SCT  Radial Artery   SCT  Ulnar Artery
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.93"

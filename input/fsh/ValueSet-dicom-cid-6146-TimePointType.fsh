@@ -2,7 +2,7 @@ ValueSet    : CID_6146
 Id          : dicom-cid-6146-TimePointType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID UMLS  Baseline   UMLS  Pretreatment   DCM  Posttreatment   DCM  Eligibility   UMLS  Unscheduled   UMLS  Nadir   SCT  Pre-operative   SCT  Post-operative   SCT  Post-radiation   SCT  Post-chemotherapy   SCT  Maintenance antineoplastic therapy   SCT  Recurrence of tumor     
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID UMLS  Baseline   UMLS  Pretreatment   DCM  Posttreatment   DCM  Eligibility   UMLS  Unscheduled   UMLS  Nadir   SCT  Pre-operative   SCT  Post-operative   SCT  Post-radiation   SCT  Post-chemotherapy   SCT  Maintenance antineoplastic therapy   SCT  Recurrence of tumor
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1002"
@@ -10,10 +10,10 @@ Description :
 * ^title = "Time Point Type"
 * ^name = "TimePointType"
 * http://terminology.hl7.org/CodeSystem/umls#C1442488 "Baseline" 
-* http://terminology.hl7.org/CodeSystem/umls#C1442488 "Baseline" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1442488 "Baseline" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C3539075 "Pretreatment" 
-* http://terminology.hl7.org/CodeSystem/umls#C3539075 "Pretreatment" 
+// * http://terminology.hl7.org/CodeSystem/umls#C3539075 "Pretreatment" 
 
 * DICOMDCMCodeSystem#126074 "Posttreatment" 
 

@@ -2,7 +2,7 @@ ValueSet    : CID_3701
 Id          : dicom-cid-3701-CardiacValveTract
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Mitral Valve   SCT  Aortic Valve   SCT  Tricuspid valve   SCT  Pulmonary valve   SCT  Left ventricle outflow tract  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Mitral Valve   SCT  Aortic Valve   SCT  Tricuspid valve   SCT  Pulmonary valve   SCT  Left ventricle outflow tract
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.204"

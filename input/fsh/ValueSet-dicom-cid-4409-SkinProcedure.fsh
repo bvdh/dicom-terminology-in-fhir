@@ -2,7 +2,7 @@ ValueSet    : CID_4409
 Id          : dicom-cid-4409-SkinProcedure
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Cryotherapy to skin lesion   SCT  Biopsy of skin   SCT  Photodynamic therapy of skin   SCT  Topical chemotherapy for malignant neoplasm   SCT  Excision of skin   SCT  Laser procedure on skin   SCT  Radiofrequency ablation  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Cryotherapy to skin lesion   SCT  Biopsy of skin   SCT  Photodynamic therapy of skin   SCT  Topical chemotherapy for malignant neoplasm   SCT  Excision of skin   SCT  Laser procedure on skin   SCT  Radiofrequency ablation
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1534"

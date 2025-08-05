@@ -2,7 +2,7 @@ ValueSet    : CID_23
 Id          : dicom-cid-23-CranioCaudadAngulation
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Cephalic   SCT  Caudal  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Cephalic   SCT  Caudal
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.16"

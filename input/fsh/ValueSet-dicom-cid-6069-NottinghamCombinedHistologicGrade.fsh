@@ -2,7 +2,7 @@ ValueSet    : CID_6069
 Id          : dicom-cid-6069-NottinghamCombinedHistologicGrade
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Nottingham Combined Grade cannot be determined   SCT  Nottingham Combined Grade I: 3-5 points   SCT  Nottingham Combined Grade II: 6-7 points   SCT  Nottingham Combined Grade III: 8-9 points  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Nottingham Combined Grade cannot be determined   SCT  Nottingham Combined Grade I: 3-5 points   SCT  Nottingham Combined Grade II: 6-7 points   SCT  Nottingham Combined Grade III: 8-9 points
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.398"

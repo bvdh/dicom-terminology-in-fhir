@@ -2,7 +2,7 @@ ValueSet    : CID_9564
 Id          : dicom-cid-9564-TreatmentSessionConfirmationAssertion
 Description :
 """
-           DCM  Bolus Present DCM  Cone Present DCM  Block Present DCM  Applicator Present DCM  Headframe Present
+DCM  Bolus Present DCM  Cone Present DCM  Block Present DCM  Applicator Present DCM  Headframe Present
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1321"

@@ -2,7 +2,7 @@ ValueSet    : CID_9562
 Id          : dicom-cid-9562-RadiotherapyTreatmentDeliveryPersonRole
 Description :
 """
-           SCT  Radiation Therapist   SCT  Medical Practitioner   SCT  Physician   NCIt  Dosimetrist   SCT  Resident   UMLS  Consulting Physician   UMLS  Radiation Physicist   DCM  Physics Assistant UMLS  Medical Physicist  
+SCT  Radiation Therapist   SCT  Medical Practitioner   SCT  Physician   NCIt  Dosimetrist   SCT  Resident   UMLS  Consulting Physician   UMLS  Radiation Physicist   DCM  Physics Assistant UMLS  Medical Physicist
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1319"
@@ -29,13 +29,13 @@ Description :
 * http://terminology.hl7.org/CodeSystem/umls#C1320928 "Resident" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C1441532 "Consulting Physician" 
-* http://terminology.hl7.org/CodeSystem/umls#C1441532 "Consulting Physician" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1441532 "Consulting Physician" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C2985483 "Radiation Physicist" 
-* http://terminology.hl7.org/CodeSystem/umls#C2985483 "Radiation Physicist" 
+// * http://terminology.hl7.org/CodeSystem/umls#C2985483 "Radiation Physicist" 
 
 * DICOMDCMCodeSystem#128678 "Physics Assistant" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C1708969 "Medical Physicist" 
-* http://terminology.hl7.org/CodeSystem/umls#C1708969 "Medical Physicist" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1708969 "Medical Physicist" 
 

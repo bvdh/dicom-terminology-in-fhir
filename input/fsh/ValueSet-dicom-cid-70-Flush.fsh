@@ -2,7 +2,7 @@ ValueSet    : CID_70
 Id          : dicom-cid-70-Flush
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Dextran   SCT  Saline   MSH  Lactated Ringer's  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Dextran   SCT  Saline   MSH  Lactated Ringer's
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1260"

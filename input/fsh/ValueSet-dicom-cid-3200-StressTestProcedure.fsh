@@ -2,7 +2,7 @@ ValueSet    : CID_3200
 Id          : dicom-cid-3200-StressTestProcedure
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Exercise stress test   SCT  Pharmacologic stress test   SCT  Pharmacologic and exercise stress test   SCT  Paced stress test  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Exercise stress test   SCT  Pharmacologic stress test   SCT  Pharmacologic and exercise stress test   SCT  Paced stress test
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.755"

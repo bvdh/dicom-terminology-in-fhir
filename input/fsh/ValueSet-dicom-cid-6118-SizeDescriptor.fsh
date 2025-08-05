@@ -2,7 +2,7 @@ ValueSet    : CID_6118
 Id          : dicom-cid-6118-SizeDescriptor
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Extremely small   DCM  Very small   SCT  Small   SCT  Medium   SCT  Large   SCT  Enlarged   DCM  Too small  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Extremely small   DCM  Very small   SCT  Small   SCT  Medium   SCT  Large   SCT  Enlarged   DCM  Too small
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.438"

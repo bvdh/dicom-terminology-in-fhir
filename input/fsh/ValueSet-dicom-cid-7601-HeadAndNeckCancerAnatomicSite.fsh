@@ -2,7 +2,7 @@ ValueSet    : CID_7601
 Id          : dicom-cid-7601-HeadAndNeckCancerAnatomicSite
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  base of tongue   SCT  buccal mucosa   SCT  floor of mouth   SCT  glottis   SCT  hypopharynx   SCT  larynx   SCT  lingual tonsil   SCT  lip   SCT  alveolar process of mandible   SCT  maxillary sinus   SCT  nasal cavity   SCT  nasopharynx   SCT  oral cavity   SCT  oropharyngeal tonsil   SCT  oropharynx   SCT  palatine tonsil   SCT  paranasal sinus   SCT  pharyngeal recess   SCT  pharyngeal tonsil   SCT  pharyngotympanic tube   SCT  pyriform sinus   SCT  retromolar trigone   SCT  salivary gland   SCT  supraglottis   SCT  tongue   SCT  tonsil and adenoid   FMA  torus of pharyngotympanic tube   SCT  tubal tonsil   UMLS  unknown primary neoplasia site   SCT  uvula  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  base of tongue   SCT  buccal mucosa   SCT  floor of mouth   SCT  glottis   SCT  hypopharynx   SCT  larynx   SCT  lingual tonsil   SCT  lip   SCT  alveolar process of mandible   SCT  maxillary sinus   SCT  nasal cavity   SCT  nasopharynx   SCT  oral cavity   SCT  oropharyngeal tonsil   SCT  oropharynx   SCT  palatine tonsil   SCT  paranasal sinus   SCT  pharyngeal recess   SCT  pharyngeal tonsil   SCT  pharyngotympanic tube   SCT  pyriform sinus   SCT  retromolar trigone   SCT  salivary gland   SCT  supraglottis   SCT  tongue   SCT  tonsil and adenoid   FMA  torus of pharyngotympanic tube   SCT  tubal tonsil   UMLS  unknown primary neoplasia site   SCT  uvula
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1012"
@@ -121,7 +121,7 @@ Description :
 * http://terminology.hl7.org/CodeSystem/umls#C0229883 "tubal tonsil" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C0221297 "unknown primary neoplasia site" 
-* http://terminology.hl7.org/CodeSystem/umls#C0221297 "unknown primary neoplasia site" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0221297 "unknown primary neoplasia site" 
 
 * http://snomed.info/sct#26140008 "uvula" 
 * http://snomed.info/srt#T-51130 "uvula" 

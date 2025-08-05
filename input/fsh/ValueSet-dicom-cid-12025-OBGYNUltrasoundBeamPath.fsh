@@ -2,7 +2,7 @@ ValueSet    : CID_12025
 Id          : dicom-cid-12025-OBGYNUltrasoundBeamPath
 Description :
 """
-           SCT  Trans-abdominal   SCT  Trans-vaginal  
+SCT  Trans-abdominal   SCT  Trans-vaginal
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1320"

@@ -2,7 +2,7 @@ ValueSet    : CID_10068
 Id          : dicom-cid-10068-EstimateMethodType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID MSH  Monte Carlo Method   DCM  Tabular Data Algorithm   DCM  Analytical Algorithm   DCM  Empirical Algorithm  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID MSH  Monte Carlo Method   DCM  Tabular Data Algorithm   DCM  Analytical Algorithm   DCM  Empirical Algorithm
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1162"

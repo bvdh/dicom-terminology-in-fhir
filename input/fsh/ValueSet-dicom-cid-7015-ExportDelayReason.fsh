@@ -2,7 +2,7 @@ ValueSet    : CID_7015
 Id          : dicom-cid-7015-ExportDelayReason
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Delay export until final report is available DCM  Delay export until clinical information is available DCM  Delay export until confirmation of diagnosis is available DCM  Delay export until histopathology is available DCM  Delay export until other laboratory results are available DCM  Delay export until patient is discharged DCM  Delay export until patient dies DCM  Delay export until expert review is available
+Coding Scheme Designator Code Value Code Meaning DCM  Delay export until final report is available DCM  Delay export until clinical information is available DCM  Delay export until confirmation of diagnosis is available DCM  Delay export until histopathology is available DCM  Delay export until other laboratory results are available DCM  Delay export until patient is discharged DCM  Delay export until patient dies DCM  Delay export until expert review is available
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1179"

@@ -2,7 +2,7 @@ ValueSet    : CID_602
 Id          : dicom-cid-602-BiosafetyControlReason
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Biohazardous material   SCT  Carcinogen   SCT  Patient immunocompromised   UMLS  Transgenic animal  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Biohazardous material   SCT  Carcinogen   SCT  Patient immunocompromised   UMLS  Transgenic animal
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1066"
@@ -22,5 +22,5 @@ Description :
 * http://terminology.hl7.org/CodeSystem/umls#C0085393 "Patient immunocompromised" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C0003069 "Transgenic animal" 
-* http://terminology.hl7.org/CodeSystem/umls#C0003069 "Transgenic animal" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0003069 "Transgenic animal" 
 

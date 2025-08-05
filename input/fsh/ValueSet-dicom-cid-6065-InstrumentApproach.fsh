@@ -2,7 +2,7 @@ ValueSet    : CID_6065
 Id          : dicom-cid-6065-InstrumentApproach
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Medial   SCT  Lateral   SCT  Superior   SCT  Inferior   DCM  Inferolateral to superomedial   DCM  Inferomedial to superolateral   DCM  Superolateral to inferomedial   DCM  Superomedial to inferolateral  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Medial   SCT  Lateral   SCT  Superior   SCT  Inferior   DCM  Inferolateral to superomedial   DCM  Inferomedial to superolateral   DCM  Superolateral to inferomedial   DCM  Superomedial to inferolateral
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.394"

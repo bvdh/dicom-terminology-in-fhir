@@ -2,7 +2,7 @@ ValueSet    : CID_4062
 Id          : dicom-cid-4062-VLView
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  frontal   SCT  left lateral   SCT  left lateral oblique   SCT  right lateral   SCT  right lateral oblique   SCT  oblique   SCT  45 degree projection   SCT  lateral oblique   SCT  submentovertical   SCT  vertex  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  frontal   SCT  left lateral   SCT  left lateral oblique   SCT  right lateral   SCT  right lateral oblique   SCT  oblique   SCT  45 degree projection   SCT  lateral oblique   SCT  submentovertical   SCT  vertex
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1502"

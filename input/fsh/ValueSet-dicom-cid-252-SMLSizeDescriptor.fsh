@@ -2,7 +2,7 @@ ValueSet    : CID_252
 Id          : dicom-cid-252-SMLSizeDescriptor
 Description :
 """
-       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Small   SCT  Medium   SCT  Large  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Small   SCT  Medium   SCT  Large
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.735"

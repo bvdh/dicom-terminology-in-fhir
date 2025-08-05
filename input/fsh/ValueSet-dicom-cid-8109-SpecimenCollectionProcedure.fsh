@@ -2,7 +2,7 @@ ValueSet    : CID_8109
 Id          : dicom-cid-8109-SpecimenCollectionProcedure
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Aspiration   SCT  Biopsy   SCT  Excision   SCT  Harvesting of tissue   SCT  Removal of device   SCT  Venipuncture   SCT  Taking of swab   SCT  Specimen collection   SCT  Scraping  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Aspiration   SCT  Biopsy   SCT  Excision   SCT  Harvesting of tissue   SCT  Removal of device   SCT  Venipuncture   SCT  Taking of swab   SCT  Specimen collection   SCT  Scraping
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1047"

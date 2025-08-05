@@ -2,7 +2,7 @@ ValueSet    : CID_6201
 Id          : dicom-cid-6201-ColonFindingOrFeature
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Image quality   DCM  Selected region   SCT  Polyp of colon   SCT  Tumor of colon   SCT  Rectal mass   SCT  Diverticulum   SCT  Colonic haustra   SCT  Feces   SCT  Lipoma   SCT  Intraluminal fluid   SCT  Contrast media   SCT  Ileocecal valve   SCT  Inverted diverticulum   SCT  Operative Site   DCM  Non-lesion   DCM  Anatomic non-colon  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Image quality   DCM  Selected region   SCT  Polyp of colon   SCT  Tumor of colon   SCT  Rectal mass   SCT  Diverticulum   SCT  Colonic haustra   SCT  Feces   SCT  Lipoma   SCT  Intraluminal fluid   SCT  Contrast media   SCT  Ileocecal valve   SCT  Inverted diverticulum   SCT  Operative Site   DCM  Non-lesion   DCM  Anatomic non-colon
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.788"

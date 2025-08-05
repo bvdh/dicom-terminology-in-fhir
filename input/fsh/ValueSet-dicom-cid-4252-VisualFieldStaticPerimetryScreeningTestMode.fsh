@@ -2,7 +2,7 @@ ValueSet    : CID_4252
 Id          : dicom-cid-4252-VisualFieldStaticPerimetryScreeningTestMode
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Age corrected DCM  Threshold related DCM  Single luminance DCM  Foveal sensitivity related DCM  Related to non macular sensitivity DCM  User chosen value
+Coding Scheme Designator Code Value Code Meaning DCM  Age corrected DCM  Threshold related DCM  Single luminance DCM  Foveal sensitivity related DCM  Related to non macular sensitivity DCM  User chosen value
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.911"

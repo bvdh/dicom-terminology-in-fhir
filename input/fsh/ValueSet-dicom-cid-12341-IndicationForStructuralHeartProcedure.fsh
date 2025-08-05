@@ -2,7 +2,7 @@ ValueSet    : CID_12341
 Id          : dicom-cid-12341-IndicationForStructuralHeartProcedure
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Aortic stenosis   SCT  Mitral stenosis   SCT  Mitral valve disease   SCT  Mitral stenosis   SCT  Mitral regurgitation   SCT  Acute mitral regurgitation   SCT  Mitral valve prolapse   SCT  Hypertrophic cardiomyopathy without obstruction   SCT  Tricuspid valve disease   SCT  Tricuspid regurgitation   SCT  Tricuspid valve stenosis   SCT  Aortic valve disease   SCT  Aortic insufficiency   SCT  Aortic regurgitation   SCT  Aortic valve stenosis   SCT  Atrial septal defect   SCT  Pulmonic valve disease   SCT  Pulmonic valve stenosis   SCT  Pulmonic valve regurgitation   SCT  Ventricular septal defect   UMLS  Left atrial dilation   SCT  Impaired left ventricular function   SCT  Atrial fibrillation   SCT  Stroke risk   UMLS  Intolerance to anticoagulation  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Aortic stenosis   SCT  Mitral stenosis   SCT  Mitral valve disease   SCT  Mitral stenosis   SCT  Mitral regurgitation   SCT  Acute mitral regurgitation   SCT  Mitral valve prolapse   SCT  Hypertrophic cardiomyopathy without obstruction   SCT  Tricuspid valve disease   SCT  Tricuspid regurgitation   SCT  Tricuspid valve stenosis   SCT  Aortic valve disease   SCT  Aortic insufficiency   SCT  Aortic regurgitation   SCT  Aortic valve stenosis   SCT  Atrial septal defect   SCT  Pulmonic valve disease   SCT  Pulmonic valve stenosis   SCT  Pulmonic valve regurgitation   SCT  Ventricular septal defect   UMLS  Left atrial dilation   SCT  Impaired left ventricular function   SCT  Atrial fibrillation   SCT  Stroke risk   UMLS  Intolerance to anticoagulation
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1525"
@@ -21,9 +21,9 @@ Description :
 * http://snomed.info/srt#D3-29010 "Mitral valve disease" 
 * http://terminology.hl7.org/CodeSystem/umls#C0026265 "Mitral valve disease" 
 
-* http://snomed.info/sct#79619009 "Mitral stenosis" 
-* http://snomed.info/srt#D3-29011 "Mitral stenosis" 
-* http://terminology.hl7.org/CodeSystem/umls#C0026269 "Mitral stenosis" 
+// * http://snomed.info/sct#79619009 "Mitral stenosis" 
+// * http://snomed.info/srt#D3-29011 "Mitral stenosis" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0026269 "Mitral stenosis" 
 
 * http://snomed.info/sct#48724000 "Mitral regurgitation" 
 * http://snomed.info/srt#D3-29012 "Mitral regurgitation" 
@@ -65,9 +65,9 @@ Description :
 * http://snomed.info/srt#D3-29022 "Aortic regurgitation" 
 * http://terminology.hl7.org/CodeSystem/umls#C0003504 "Aortic regurgitation" 
 
-* http://snomed.info/sct#60573004 "Aortic valve stenosis" 
-* http://snomed.info/srt#D3-29021 "Aortic valve stenosis" 
-* http://terminology.hl7.org/CodeSystem/umls#C0003507 "Aortic valve stenosis" 
+// * http://snomed.info/sct#60573004 "Aortic valve stenosis" 
+// * http://snomed.info/srt#D3-29021 "Aortic valve stenosis" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0003507 "Aortic valve stenosis" 
 
 * http://snomed.info/sct#70142008 "Atrial septal defect" 
 * http://snomed.info/srt#D4-31220 "Atrial septal defect" 
@@ -90,7 +90,7 @@ Description :
 * http://terminology.hl7.org/CodeSystem/umls#C0018818 "Ventricular septal defect" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C4015487 "Left atrial dilation" 
-* http://terminology.hl7.org/CodeSystem/umls#C4015487 "Left atrial dilation" 
+// * http://terminology.hl7.org/CodeSystem/umls#C4015487 "Left atrial dilation" 
 
 * http://snomed.info/sct#275514001 "Impaired left ventricular function" 
 * http://snomed.info/srt#C0242698 "Impaired left ventricular function" 
@@ -102,8 +102,8 @@ Description :
 
 * http://snomed.info/sct#135877001 "Stroke risk" 
 * http://snomed.info/srt#G-E037 "Stroke risk" 
-* http://terminology.hl7.org/CodeSystem/umls#C1277291 "Stroke risk" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1277291 "Stroke risk" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C3468959 "Intolerance to anticoagulation" 
-* http://terminology.hl7.org/CodeSystem/umls#C3468959 "Intolerance to anticoagulation" 
+// * http://terminology.hl7.org/CodeSystem/umls#C3468959 "Intolerance to anticoagulation" 
 

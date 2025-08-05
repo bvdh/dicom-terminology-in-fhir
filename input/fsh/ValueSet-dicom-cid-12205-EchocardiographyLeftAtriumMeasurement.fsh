@@ -2,7 +2,7 @@ ValueSet    : CID_12205
 Id          : dicom-cid-12205-EchocardiographyLeftAtriumMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  LN  Left Atrium Antero-posterior Systolic Dimension   LN  Left Atrium to Aortic Root Ratio   LN  Left Atrial Appendage Peak Velocity   LN  Left Atrium Area A4C view   SCT  Left Atrium Systolic Volume  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  LN  Left Atrium Antero-posterior Systolic Dimension   LN  Left Atrium to Aortic Root Ratio   LN  Left Atrial Appendage Peak Velocity   LN  Left Atrium Area A4C view   SCT  Left Atrium Systolic Volume
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.598"

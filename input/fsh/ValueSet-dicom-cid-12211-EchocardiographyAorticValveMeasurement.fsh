@@ -2,7 +2,7 @@ ValueSet    : CID_12211
 Id          : dicom-cid-12211-EchocardiographyAorticValveMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID   LN  Aortic Valve Cusp Separation   LN  Aortic Valve Ejection Time   SCT  Ratio of Aortic Valve Acceleration Time to Ejection Time  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID   LN  Aortic Valve Cusp Separation   LN  Aortic Valve Ejection Time   SCT  Ratio of Aortic Valve Acceleration Time to Ejection Time
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.604"

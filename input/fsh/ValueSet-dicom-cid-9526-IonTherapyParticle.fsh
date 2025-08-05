@@ -2,7 +2,7 @@ ValueSet    : CID_9526
 Id          : dicom-cid-9526-IonTherapyParticle
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCIt  Ion   SCT  Proton   DCM  ^3^Helium nucleus DCM  ^4^Helium nucleus DCM  ^12^Carbon nucleus DCM  ^16^Oxygen nucleus
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCIt  Ion   SCT  Proton   DCM  ^3^Helium nucleus DCM  ^4^Helium nucleus DCM  ^12^Carbon nucleus DCM  ^16^Oxygen nucleus
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1236"

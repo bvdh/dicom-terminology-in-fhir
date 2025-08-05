@@ -2,7 +2,7 @@ ValueSet    : CID_3670
 Id          : dicom-cid-3670-ECGProcedureType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  12-Lead ECG   SCT  15-Lead ECG   SCT  18-Lead ECG  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  12-Lead ECG   SCT  15-Lead ECG   SCT  18-Lead ECG
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.185"

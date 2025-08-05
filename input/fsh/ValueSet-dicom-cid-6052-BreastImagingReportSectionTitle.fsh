@@ -2,7 +2,7 @@ ValueSet    : CID_6052
 Id          : dicom-cid-6052-BreastImagingReportSectionTitle
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Physical Examination Results   DCM  Comparison to previous studies   LN  Findings   LN  Impressions   LN  Recommendations   LN  Conclusions   LN  Addendum   SCT  Breast composition   DCM  Overall Assessment   DCM  Procedure reported   LN  Indications for Procedure  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Physical Examination Results   DCM  Comparison to previous studies   LN  Findings   LN  Impressions   LN  Recommendations   LN  Conclusions   LN  Addendum   SCT  Breast composition   DCM  Overall Assessment   DCM  Procedure reported   LN  Indications for Procedure
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.381"

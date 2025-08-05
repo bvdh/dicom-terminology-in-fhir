@@ -2,7 +2,7 @@ ValueSet    : CID_634
 Id          : dicom-cid-634-AnimalHandlingPhase
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  In home cage   DCM  During transport   DCM  Staging prior to imaging   DCM  Preparation for imaging   SCT  Anesthesia induction   SCT  Imaging procedure   UMLS  Anesthesia recovery period  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  In home cage   DCM  During transport   DCM  Staging prior to imaging   DCM  Preparation for imaging   SCT  Anesthesia induction   SCT  Imaging procedure   UMLS  Anesthesia recovery period
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1099"
@@ -26,5 +26,5 @@ Description :
 * http://terminology.hl7.org/CodeSystem/umls#C0011923 "Imaging procedure" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C0002908 "Anesthesia recovery period" 
-* http://terminology.hl7.org/CodeSystem/umls#C0002908 "Anesthesia recovery period" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0002908 "Anesthesia recovery period" 
 

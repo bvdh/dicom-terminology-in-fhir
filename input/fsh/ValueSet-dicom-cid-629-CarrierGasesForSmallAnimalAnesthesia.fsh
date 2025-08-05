@@ -2,7 +2,7 @@ ValueSet    : CID_629
 Id          : dicom-cid-629-CarrierGasesForSmallAnimalAnesthesia
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Oxygen gas   SCT  Medical air   UMLS  Room air   In this Context Group, though SNOMED substance codes are normally used in preference to product codes, in the case of
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Oxygen gas   SCT  Medical air   UMLS  Room air   In this Context Group, though SNOMED substance codes are normally used in preference to product codes, in the case of
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1094"
@@ -18,5 +18,5 @@ Description :
 * http://terminology.hl7.org/CodeSystem/umls#C3536832 "Medical air" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C3846005 "Room air" 
-* http://terminology.hl7.org/CodeSystem/umls#C3846005 "Room air" 
+// * http://terminology.hl7.org/CodeSystem/umls#C3846005 "Room air" 
 

@@ -2,7 +2,7 @@ ValueSet    : CID_7017
 Id          : dicom-cid-7017-CategoryOfTeachingMaterialImaging
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Musculoskeletal imaging subject matter DCM  Pulmonary imaging subject matter DCM  Cardiovascular imaging subject matter DCM  Gastrointestinal imaging subject matter DCM  Genitourinary imaging subject matter DCM  Neuroimaging subject matter DCM  Vascular and interventional imaging subject matter DCM  Nuclear medicine imaging subject matter DCM  Ultrasound imaging subject matter DCM  Pediatric imaging subject matter DCM  Breast imaging subject matter The contents of this Context Group correspond to the American Board of Radiology categories in use at the time the IHE TCE Profile was developed.
+Coding Scheme Designator Code Value Code Meaning DCM  Musculoskeletal imaging subject matter DCM  Pulmonary imaging subject matter DCM  Cardiovascular imaging subject matter DCM  Gastrointestinal imaging subject matter DCM  Genitourinary imaging subject matter DCM  Neuroimaging subject matter DCM  Vascular and interventional imaging subject matter DCM  Nuclear medicine imaging subject matter DCM  Ultrasound imaging subject matter DCM  Pediatric imaging subject matter DCM  Breast imaging subject matter The contents of this Context Group correspond to the American Board of Radiology categories in use at the time the IHE TCE Profile was developed.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1181"

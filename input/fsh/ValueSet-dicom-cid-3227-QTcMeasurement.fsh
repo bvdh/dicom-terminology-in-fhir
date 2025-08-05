@@ -15,11 +15,11 @@ This Context Group include both global and per lead corrected QT measurements sp
 
 * urn:iso:std:iso:11073:10101#2:15880 "QTc global using Bazett formula" 
 
-* urn:iso:std:iso:11073:10101#2:15880 "QTc global using Framingham formula" 
+// * urn:iso:std:iso:11073:10101#2:15880 "QTc global using Framingham formula" 
 
 * urn:iso:std:iso:11073:10101#2:15892 "QTc global using Fredericia formula" 
 
-* urn:iso:std:iso:11073:10101#2:15892 "QTc global using Hodges formula" 
+// * urn:iso:std:iso:11073:10101#2:15892 "QTc global using Hodges formula" 
 
 * urn:iso:std:iso:11073:10101#2:34048 "QTc per lead using Bazett formula" 
 

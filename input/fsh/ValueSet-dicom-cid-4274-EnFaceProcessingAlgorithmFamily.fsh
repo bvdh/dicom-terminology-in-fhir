@@ -2,7 +2,7 @@ ValueSet    : CID_4274
 Id          : dicom-cid-4274-EnFaceProcessingAlgorithmFamily
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning  DCM  Maximum intensity projection DCM  Minimum intensity projection DCM  Mean intensity projection DCM  Median intensity projection DCM  Summation projection
+Coding Scheme Designator Code Value Code Meaning  DCM  Maximum intensity projection DCM  Minimum intensity projection DCM  Mean intensity projection DCM  Median intensity projection DCM  Summation projection
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1496"

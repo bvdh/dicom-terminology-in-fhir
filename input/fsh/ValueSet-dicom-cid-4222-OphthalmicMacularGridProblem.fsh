@@ -2,7 +2,7 @@ ValueSet    : CID_4222
 Id          : dicom-cid-4222-OphthalmicMacularGridProblem
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  Constricted Pupil   SCT  Lens Opacity   SCT  Corneal Opacity   SCT  Vitreous Opacity   SCT  Poor Visual Fixation   SCT  Eyelid Disease   DCM  Interfering Tears or Drops   SCT  Refractive Error   DCM  Positioning   SCT  Dry Eyes Problem  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  Constricted Pupil   SCT  Lens Opacity   SCT  Corneal Opacity   SCT  Vitreous Opacity   SCT  Poor Visual Fixation   SCT  Eyelid Disease   DCM  Interfering Tears or Drops   SCT  Refractive Error   DCM  Positioning   SCT  Dry Eyes Problem
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.821"

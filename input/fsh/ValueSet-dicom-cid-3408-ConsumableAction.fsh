@@ -2,7 +2,7 @@ ValueSet    : CID_3408
 Id          : dicom-cid-3408-ConsumableAction
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Consumable taken from inventory DCM  Consumable returned to inventory DCM  Remaining consumable disposed DCM  Consumable unusable
+Coding Scheme Designator Code Value Code Meaning DCM  Consumable taken from inventory DCM  Consumable returned to inventory DCM  Remaining consumable disposed DCM  Consumable unusable
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.73"

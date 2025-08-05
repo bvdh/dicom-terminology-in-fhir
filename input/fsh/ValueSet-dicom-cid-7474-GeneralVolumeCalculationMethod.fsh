@@ -2,7 +2,7 @@ ValueSet    : CID_7474
 Id          : dicom-cid-7474-GeneralVolumeCalculationMethod
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Integration of sum of closed areas on contiguous slices method for volume DCM  Sum of segmented voxel method for volume DCM  LWH method for volume of ellipsoid
+Coding Scheme Designator Code Value Code Meaning DCM  Integration of sum of closed areas on contiguous slices method for volume DCM  Sum of segmented voxel method for volume DCM  LWH method for volume of ellipsoid
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.528"

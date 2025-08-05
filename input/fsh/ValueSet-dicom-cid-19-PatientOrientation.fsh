@@ -2,7 +2,7 @@ ValueSet    : CID_19
 Id          : dicom-cid-19-PatientOrientation
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCIt  erect   SCT  recumbent   SCT  semi-erect   In a prior version of this Context Group
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCIt  erect   SCT  recumbent   SCT  semi-erect   In a prior version of this Context Group
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.13"

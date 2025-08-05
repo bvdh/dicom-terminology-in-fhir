@@ -2,7 +2,7 @@ ValueSet    : CID_3744
 Id          : dicom-cid-3744-EFTestingMethod
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Cardiac ventriculography   SCT  Radionuclide ventriculography   SCT  Echocardiography   Previously, a non-existent SNOMED code, (P5-B3081, SRT, "Adult echocardiography"), was used in this Context Group. It has been replaced with the more generic (40701008, SCT, "Echocardiography") (rather than replacement with (252418006, SCT, "Transthoracic echocardiography"); see
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Cardiac ventriculography   SCT  Radionuclide ventriculography   SCT  Echocardiography   Previously, a non-existent SNOMED code, (P5-B3081, SRT, "Adult echocardiography"), was used in this Context Group. It has been replaced with the more generic (40701008, SCT, "Echocardiography") (rather than replacement with (252418006, SCT, "Transthoracic echocardiography"); see
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.241"

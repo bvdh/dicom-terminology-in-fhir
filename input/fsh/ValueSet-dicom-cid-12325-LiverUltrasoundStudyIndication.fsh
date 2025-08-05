@@ -2,7 +2,7 @@ ValueSet    : CID_12325
 Id          : dicom-cid-12325-LiverUltrasoundStudyIndication
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Alcoholic liver disease   SCT  Cirrhosis of liver   SCT  Hepatitis   SCT  Hepatitis B   SCT  Hepatitis C   SCT  Hepatomegaly   SCT  Jaundice   SCT  Nonalcoholic fatty liver disease (NAFLD)   SCT  Nonalcoholic fatty liver (NAFL)   SCT  Nonalcoholic steatohepatitis (NASH)   SCT  Serum alanine aminotransferase level raised   SCT  Serum albumin below reference range   SCT  Serum bilirubin raised  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Alcoholic liver disease   SCT  Cirrhosis of liver   SCT  Hepatitis   SCT  Hepatitis B   SCT  Hepatitis C   SCT  Hepatomegaly   SCT  Jaundice   SCT  Nonalcoholic fatty liver disease (NAFLD)   SCT  Nonalcoholic fatty liver (NAFL)   SCT  Nonalcoholic steatohepatitis (NASH)   SCT  Serum alanine aminotransferase level raised   SCT  Serum albumin below reference range   SCT  Serum bilirubin raised
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1452"

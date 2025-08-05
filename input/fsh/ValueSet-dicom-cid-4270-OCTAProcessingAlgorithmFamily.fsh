@@ -2,7 +2,7 @@ ValueSet    : CID_4270
 Id          : dicom-cid-4270-OCTAProcessingAlgorithmFamily
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  OCT-A amplitude decorrelation DCM  OCT-A complex variance DCM  OCT-A speckle variance DCM  OCT-A correlation mapping DCM  Doppler OCT-A DCM  OCT-A one-sided ratio (lesser) DCM  OCT-A one-sided ratio (greater)
+Coding Scheme Designator Code Value Code Meaning DCM  OCT-A amplitude decorrelation DCM  OCT-A complex variance DCM  OCT-A speckle variance DCM  OCT-A correlation mapping DCM  Doppler OCT-A DCM  OCT-A one-sided ratio (lesser) DCM  OCT-A one-sided ratio (greater)
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1150"

@@ -2,7 +2,7 @@ ValueSet    : CID_4236
 Id          : dicom-cid-4236-IOLCalculationFormula
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Haigis DCM  Haigis-L DCM  Holladay 1 DCM  Holladay 2 DCM  Hoffer Q DCM  Olsen DCM  SRKII DCM  SRK-T DCM  Haigis Toric DCM  Haigis-L Toric DCM  Barrett Toric DCM  Barrett True-K DCM  Barrett True-K Toric DCM  Barrett Universal II DCM  Kane DCM  Kane Toric DCM  Kane Keratoconus DCM  Barrett Keratoconus DCM  Barrett Rx DCM  EVO DCM  Shammas No-History DCM  Camellin-Calossi DCM  Hill RBF 3.0 DCM  PEARL-DGS
+Coding Scheme Designator Code Value Code Meaning DCM  Haigis DCM  Haigis-L DCM  Holladay 1 DCM  Holladay 2 DCM  Hoffer Q DCM  Olsen DCM  SRKII DCM  SRK-T DCM  Haigis Toric DCM  Haigis-L Toric DCM  Barrett Toric DCM  Barrett True-K DCM  Barrett True-K Toric DCM  Barrett Universal II DCM  Kane DCM  Kane Toric DCM  Kane Keratoconus DCM  Barrett Keratoconus DCM  Barrett Rx DCM  EVO DCM  Shammas No-History DCM  Camellin-Calossi DCM  Hill RBF 3.0 DCM  PEARL-DGS
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.882"

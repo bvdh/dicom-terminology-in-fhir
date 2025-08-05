@@ -2,7 +2,7 @@ ValueSet    : CID_7260
 Id          : dicom-cid-7260-DiffusionAcquisitionValueType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  HARDI DCM  DKI DCM  DTI DCM  DSI DCM  LSDI DCM  Single Shot EPI DCM  Multiple Shot EPI DCM  Parallel Imaging
+Coding Scheme Designator Code Value Code Meaning DCM  HARDI DCM  DKI DCM  DTI DCM  DSI DCM  LSDI DCM  Single Shot EPI DCM  Multiple Shot EPI DCM  Parallel Imaging
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1059"

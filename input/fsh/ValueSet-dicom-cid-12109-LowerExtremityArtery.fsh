@@ -2,7 +2,7 @@ ValueSet    : CID_12109
 Id          : dicom-cid-12109-LowerExtremityArtery
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Common Iliac Artery   SCT  Common Iliac Artery Bifurcation   SCT  Anterior Tibial Artery   SCT  Common Femoral Artery   SCT  Dorsalis Pedis Artery   SCT  External Iliac Artery   SCT  Internal Iliac Artery   SCT  Peroneal Artery   SCT  Plantar Arterial Arch   SCT  Popliteal Artery   SCT  Posterior Tibial Artery   SCT  Profunda Femoris Artery   SCT  Superficial Femoral Artery  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Common Iliac Artery   SCT  Common Iliac Artery Bifurcation   SCT  Anterior Tibial Artery   SCT  Common Femoral Artery   SCT  Dorsalis Pedis Artery   SCT  External Iliac Artery   SCT  Internal Iliac Artery   SCT  Peroneal Artery   SCT  Plantar Arterial Arch   SCT  Popliteal Artery   SCT  Posterior Tibial Artery   SCT  Profunda Femoris Artery   SCT  Superficial Femoral Artery
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.576"

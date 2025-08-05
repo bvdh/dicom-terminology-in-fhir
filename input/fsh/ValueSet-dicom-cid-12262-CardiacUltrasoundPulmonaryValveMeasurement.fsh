@@ -2,7 +2,7 @@ ValueSet    : CID_12262
 Id          : dicom-cid-12262-CardiacUltrasoundPulmonaryValveMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID        LN  Pulmonary Artery Pressure using Accel Time  LN  Time from Q wave to Pulmonic Valve Closes  LN  A-Wave Amplitude  LN  B-C Slope 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID        LN  Pulmonary Artery Pressure using Accel Time  LN  Time from Q wave to Pulmonic Valve Closes  LN  A-Wave Amplitude  LN  B-C Slope
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.843"

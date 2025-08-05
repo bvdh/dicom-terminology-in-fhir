@@ -2,7 +2,7 @@ ValueSet    : CID_12279
 Id          : dicom-cid-12279-CardiacUltrasoundFetalGeneralMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  Thoracic Circumference   LN  Thoracic Area   LN  Cardiac Circumference, transverse by US   LN  Cardiothoracic Circumference Ratio   LN  Cardiac Cross-sectional Area, transverse by US   LN  Cardiothoracic Area Ratio   LN  Transverse Thoracic Diameter   LN  Foramen Ovale Diameter/Aortic Root Diameter   LN  Left Ventricle/Right Ventricle Diameter Ratio   SCT  Number of umbilical arteries  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  Thoracic Circumference   LN  Thoracic Area   LN  Cardiac Circumference, transverse by US   LN  Cardiothoracic Circumference Ratio   LN  Cardiac Cross-sectional Area, transverse by US   LN  Cardiothoracic Area Ratio   LN  Transverse Thoracic Diameter   LN  Foramen Ovale Diameter/Aortic Root Diameter   LN  Left Ventricle/Right Ventricle Diameter Ratio   SCT  Number of umbilical arteries
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.859"

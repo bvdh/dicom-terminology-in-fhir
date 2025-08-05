@@ -2,7 +2,7 @@ ValueSet    : CID_12020
 Id          : dicom-cid-12020-FetalBiometryAnatomicSite
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Abdomen   SCT  Cerebellum   SCT  Cisterna Magna   SCT  Femur   SCT  Foot   SCT  Kidney   SCT  Skull   SCT  Thorax   SCT  Trunk  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Abdomen   SCT  Cerebellum   SCT  Cisterna Magna   SCT  Femur   SCT  Foot   SCT  Kidney   SCT  Skull   SCT  Thorax   SCT  Trunk
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1005"

@@ -1,8 +1,8 @@
 ValueSet    : CID_4026
-Id          : dicom-cid-4026-PrimaryAnatomicStructureForIntraoralAndCraniofacialRadiographyTeeth
+Id          : dicom-cid-4026-PrimaryAnatomicStructureForIntraoralAndCraniofaci
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning   
+Coding Scheme Designator Code Value Code Meaning
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1022"

@@ -2,7 +2,7 @@ ValueSet    : CID_6067
 Id          : dicom-cid-6067-FluidColor
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  White color   SCT  Yellow color   DCM  Light brown color   SCT  Green color   SCT  Gray color   DCM  Dark red color   DCM  Dark brown color   SCT  Clear   SCT  Brown color   DCM  Bright red color   DCM  Blood tinged color   SCT  Black color  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  White color   SCT  Yellow color   DCM  Light brown color   SCT  Green color   SCT  Gray color   DCM  Dark red color   DCM  Dark brown color   SCT  Clear   SCT  Brown color   DCM  Bright red color   DCM  Blood tinged color   SCT  Black color
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.396"

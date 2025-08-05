@@ -2,7 +2,7 @@ ValueSet    : CID_3529
 Id          : dicom-cid-3529-ArterialVenousContent
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Arterial Content (FCa)  LN  Venous Content (FCv)  DCM  Pulmonary Arterial Content (FCpa)  DCM  Pulmonary Venous Content (FCpv) 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Arterial Content (FCa)  LN  Venous Content (FCv)  DCM  Pulmonary Arterial Content (FCpa)  DCM  Pulmonary Venous Content (FCpv)
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.143"

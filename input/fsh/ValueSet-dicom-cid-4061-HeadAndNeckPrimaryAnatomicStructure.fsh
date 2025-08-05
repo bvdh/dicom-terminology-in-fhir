@@ -2,7 +2,7 @@ ValueSet    : CID_4061
 Id          : dicom-cid-4061-HeadAndNeckPrimaryAnatomicStructure
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Face   SCT  oral cavity   SCT  Mandibular dental arch   SCT  Maxillary dental arch   SCT  Buccal space   SCT  Buccal space  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Face   SCT  oral cavity   SCT  Mandibular dental arch   SCT  Maxillary dental arch   SCT  Buccal space   SCT  Buccal space
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1501"

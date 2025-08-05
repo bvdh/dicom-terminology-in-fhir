@@ -2,7 +2,7 @@ ValueSet    : CID_12266
 Id          : dicom-cid-12266-CardiacUltrasoundMitralValveMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID         LN  Mitral Regurgitation dP/dt derived from Mitral Reg. velocity  LN  Mitral Valve E-septal Separation  LN  Mitral Valve EPSS, E wave 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID         LN  Mitral Regurgitation dP/dt derived from Mitral Reg. velocity  LN  Mitral Valve E-septal Separation  LN  Mitral Valve EPSS, E wave
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.847"

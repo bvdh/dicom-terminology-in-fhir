@@ -2,7 +2,7 @@ ValueSet    : CID_3610
 Id          : dicom-cid-3610-GradientSourceLocation
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Mitral Valve   SCT  Aortic Valve   SCT  Tricuspid valve   SCT  Pulmonary valve   SCT  Pulmonary artery   SCT  Left ventricle outflow tract   SCT  Right ventricle outflow tract   SCT  Ventricular Septal defect   SCT  Atrial Septal defect   SCT  Coarctation of aorta  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Mitral Valve   SCT  Aortic Valve   SCT  Tricuspid valve   SCT  Pulmonary valve   SCT  Pulmonary artery   SCT  Left ventricle outflow tract   SCT  Right ventricle outflow tract   SCT  Ventricular Septal defect   SCT  Atrial Septal defect   SCT  Coarctation of aorta
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.160"

@@ -2,7 +2,7 @@ ValueSet    : CID_8113
 Id          : dicom-cid-8113-SpecimenPreparationStep
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Specimen microwave heating   SCT  Specimen steam heating   SCT  Protease digestion of tissue specimen   SCT  Specimen dehydration   SCT  Specimen freezing   SCT  Specimen clearing  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Specimen microwave heating   SCT  Specimen steam heating   SCT  Protease digestion of tissue specimen   SCT  Specimen dehydration   SCT  Specimen freezing   SCT  Specimen clearing
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1051"

@@ -171,7 +171,7 @@ def getTableData( element: ET.Element  )-> (List[List[str]], List[List[str]]):
     """
     table = element.find(f".//db:table", ns)
     if table is None:
-        return []
+        return [], []
 
     thead = table.find('.//db:thead', ns)
     tbody = table.find('.//db:tbody', ns)
@@ -206,6 +206,7 @@ def getTableData( element: ET.Element  )-> (List[List[str]], List[List[str]]):
 
             td_values.append(para_text or link_text) 
         values.append(td_values)
+
     return headers, values
 
 def getRowValues( element: ET.Element ) -> List[List[str]]:

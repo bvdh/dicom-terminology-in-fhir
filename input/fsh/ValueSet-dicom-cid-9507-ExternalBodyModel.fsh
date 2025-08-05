@@ -2,7 +2,7 @@ ValueSet    : CID_9507
 Id          : dicom-cid-9507-ExternalBodyModel
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Patient Anatomy Model DCM  Extended Patient Anatomy Model
+Coding Scheme Designator Code Value Code Meaning DCM  Patient Anatomy Model DCM  Extended Patient Anatomy Model
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1217"

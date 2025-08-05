@@ -2,7 +2,7 @@ ValueSet    : CID_210
 Id          : dicom-cid-210-QualitativeEvaluationModifierType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Laterality   SCT  Topographical modifier  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Laterality   SCT  Topographical modifier
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1285"

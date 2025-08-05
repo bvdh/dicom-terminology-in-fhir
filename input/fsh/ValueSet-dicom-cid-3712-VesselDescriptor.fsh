@@ -2,7 +2,7 @@ ValueSet    : CID_3712
 Id          : dicom-cid-3712-VesselDescriptor
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Ulcerated   SCT  Restenotic   SCT  Bifurcation   SCT  Culprit   SCT  Aneurysmal   SCT  Diffuse Disease   SCT  Luminal Irregularities   SCT  Muscle Bridge   SCT  Stenotic   SCT  Ectatic   SCT  Calcified   SCT  Thrombus   SCT  Tortuous   SCT  Stented  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Ulcerated   SCT  Restenotic   SCT  Bifurcation   SCT  Culprit   SCT  Aneurysmal   SCT  Diffuse Disease   SCT  Luminal Irregularities   SCT  Muscle Bridge   SCT  Stenotic   SCT  Ectatic   SCT  Calcified   SCT  Thrombus   SCT  Tortuous   SCT  Stented
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.213"

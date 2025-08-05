@@ -2,7 +2,7 @@ ValueSet    : CID_9000
 Id          : dicom-cid-9000-PhysicalQuantityDescriptor
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Quantity   DCM  Derivation   SCT  Measurement Method   SCT  Finding Site   DCM  Finding   NCIt  Reference Region   DCM  Model fitting method DCM  Source image diffusion b-value DCM  Equivalent Meaning of Concept Name The concept
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Quantity   DCM  Derivation   SCT  Measurement Method   SCT  Finding Site   DCM  Finding   NCIt  Reference Region   DCM  Model fitting method DCM  Source image diffusion b-value DCM  Equivalent Meaning of Concept Name The concept
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1010"

@@ -2,7 +2,7 @@ ValueSet    : CID_6136
 Id          : dicom-cid-6136-ChestTypesOfQualityControlStandard
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Performance of Pediatric and Adult Chest Radiography, ACR DCM  ACR Position Statement DCM  Institutionally defined quality control standard DCM  Performance of Pediatric and Adult Thoracic CT DCM  Performance of CT for Detection of Pulmonary Embolism in Adults DCM  Performance of High-Resolution CT of the Lungs in Adults
+Coding Scheme Designator Code Value Code Meaning DCM  Performance of Pediatric and Adult Chest Radiography, ACR DCM  ACR Position Statement DCM  Institutionally defined quality control standard DCM  Performance of Pediatric and Adult Thoracic CT DCM  Performance of CT for Detection of Pulmonary Embolism in Adults DCM  Performance of High-Resolution CT of the Lungs in Adults
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.456"

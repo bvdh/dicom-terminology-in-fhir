@@ -2,7 +2,7 @@ ValueSet    : CID_3774
 Id          : dicom-cid-3774-SocialHistory
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Tobacco Smoking Behavior   SCT  Drug misuse behavior   SCT  Exercise   SCT  Nutrition   SCT  Alcohol consumption  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Tobacco Smoking Behavior   SCT  Drug misuse behavior   SCT  Exercise   SCT  Nutrition   SCT  Alcohol consumption
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.262"

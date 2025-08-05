@@ -2,7 +2,7 @@ ValueSet    : CID_6091
 Id          : dicom-cid-6091-RelativeFrequencyOfEventValue
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Continuous   SCT  Frequent   SCT  Mid-frequency   SCT  Infrequent   SCT  As required   SCT  Single event  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Continuous   SCT  Frequent   SCT  Mid-frequency   SCT  Infrequent   SCT  As required   SCT  Single event
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.413"

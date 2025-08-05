@@ -2,7 +2,7 @@ ValueSet    : CID_3807
 Id          : dicom-cid-3807-VolumeMeasurementMethod
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Area Based Method DCM  Diameter Based Method DCM  Volume Based Method
+Coding Scheme Designator Code Value Code Meaning DCM  Area Based Method DCM  Diameter Based Method DCM  Volume Based Method
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.268"

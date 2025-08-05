@@ -2,7 +2,7 @@ ValueSet    : CID_6130
 Id          : dicom-cid-6130-SeverityDescriptor
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Mild   SCT  Moderate   SCT  Severe   SCT  Acute onset   SCT  Chronic   DCM  Hyper-acute   SCT  Subacute  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Mild   SCT  Moderate   SCT  Severe   SCT  Acute onset   SCT  Chronic   DCM  Hyper-acute   SCT  Subacute
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.450"

@@ -2,7 +2,7 @@ ValueSet    : CID_9567
 Id          : dicom-cid-9567-MachineToleranceViolationType
 Description :
 """
-           DCM  Jaw Position Tolerance Violation DCM  MLC Position Tolerance Violation DCM  Source Position Tolerance Violation DCM  Dose Rate Tolerance Violation
+DCM  Jaw Position Tolerance Violation DCM  MLC Position Tolerance Violation DCM  Source Position Tolerance Violation DCM  Dose Rate Tolerance Violation
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1324"

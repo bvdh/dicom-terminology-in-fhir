@@ -2,7 +2,7 @@ ValueSet    : CID_4205
 Id          : dicom-cid-4205-OphthalmicLens
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Indirect ophthalmoscopy lens   SCT  Concave contact fundus lens   SCT  Concave noncontact fundus lens   SCT  Contact fundus lens   SCT  Goniolens   SCT  Convex noncontact fundus lens   SCT  Noncontact fundus lens   SCT  Convex contact fundus lens  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Indirect ophthalmoscopy lens   SCT  Concave contact fundus lens   SCT  Concave noncontact fundus lens   SCT  Contact fundus lens   SCT  Goniolens   SCT  Convex noncontact fundus lens   SCT  Noncontact fundus lens   SCT  Convex contact fundus lens
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.321"

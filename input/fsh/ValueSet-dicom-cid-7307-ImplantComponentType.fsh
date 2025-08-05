@@ -2,7 +2,7 @@ ValueSet    : CID_7307
 Id          : dicom-cid-7307-ImplantComponentType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning  
+Coding Scheme Designator Code Value Code Meaning
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1038"

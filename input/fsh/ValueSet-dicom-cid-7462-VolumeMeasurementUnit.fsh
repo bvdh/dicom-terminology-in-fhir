@@ -2,7 +2,7 @@ ValueSet    : CID_7462
 Id          : dicom-cid-7462-VolumeMeasurementUnit
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UCUM dm3 cubic decimeter UCUM cm3 cubic centimeter UCUM mm3 cubic millimeter UCUM um3 cubic micrometer A "cubic decimeter" is a "liter", just as a "cubic centimeter" is a "milliliter" (of water). Though there are specific units "l" and "ml" in UCUM, only one form is included here, since this Context Group is intended for use for volume measurements of a physical object derived from one or more images, rather than of fluid volume.
+Coding Scheme Designator Code Value Code Meaning UCUM dm3 cubic decimeter UCUM cm3 cubic centimeter UCUM mm3 cubic millimeter UCUM um3 cubic micrometer A "cubic decimeter" is a "liter", just as a "cubic centimeter" is a "milliliter" (of water). Though there are specific units "l" and "ml" in UCUM, only one form is included here, since this Context Group is intended for use for volume measurements of a physical object derived from one or more images, rather than of fluid volume.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.523"

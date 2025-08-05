@@ -2,7 +2,7 @@ ValueSet    : CID_225
 Id          : dicom-cid-225-MeasurementUncertaintyConcept
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  +/-, range of measurement uncertainty   SCT  +, range of upper measurement uncertainty   SCT  -, range of lower measurement uncertainty  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  +/-, range of measurement uncertainty   SCT  +, range of upper measurement uncertainty   SCT  -, range of lower measurement uncertainty
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.30"

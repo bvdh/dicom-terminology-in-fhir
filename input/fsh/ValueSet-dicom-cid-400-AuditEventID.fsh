@@ -2,7 +2,7 @@ ValueSet    : CID_400
 Id          : dicom-cid-400-AuditEventID
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Application Activity DCM  Audit Log Used DCM  Begin Transferring DICOM Instances DCM  DICOM Instances Accessed DCM  DICOM Instances Transferred DCM  DICOM Study Deleted DCM  Export DCM  Import DCM  Network Entry DCM  Order Record DCM  Patient Record DCM  Procedure Record DCM  Query DCM  Security Alert DCM  User Authentication
+Coding Scheme Designator Code Value Code Meaning DCM  Application Activity DCM  Audit Log Used DCM  Begin Transferring DICOM Instances DCM  DICOM Instances Accessed DCM  DICOM Instances Transferred DCM  DICOM Study Deleted DCM  Export DCM  Import DCM  Network Entry DCM  Order Record DCM  Patient Record DCM  Procedure Record DCM  Query DCM  Security Alert DCM  User Authentication
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.903"

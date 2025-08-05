@@ -2,7 +2,7 @@ ValueSet    : CID_12022
 Id          : dicom-cid-12022-FetalCraniumAnatomicSite
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anterior Horn Lateral Ventricle   SCT  Cerebellum   SCT  Cerebral hemisphere   SCT  Cisterna magna   SCT  Lateral Ventricle   SCT  Occipital region of scalp   SCT  Orbit   SCT  Posterior Horn Lateral Ventricle  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anterior Horn Lateral Ventricle   SCT  Cerebellum   SCT  Cerebral hemisphere   SCT  Cisterna magna   SCT  Lateral Ventricle   SCT  Occipital region of scalp   SCT  Orbit   SCT  Posterior Horn Lateral Ventricle
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1007"

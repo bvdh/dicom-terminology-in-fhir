@@ -2,7 +2,7 @@ ValueSet    : CID_12004
 Id          : dicom-cid-12004-FetalBiometryRatio
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  HC/AC  LN  FL/AC  LN  FL/BPD  LN  Cephalic Index  LN  FL/HC 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  HC/AC  LN  FL/AC  LN  FL/BPD  LN  Cephalic Index  LN  FL/HC
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.553"

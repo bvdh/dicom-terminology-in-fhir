@@ -2,7 +2,7 @@ ValueSet    : CID_6159
 Id          : dicom-cid-6159-MalignancyType
 Description :
 """
-From BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Invasive breast carcinoma   SCT  Non-infiltrating intraductal carcinoma   DCM  Other malignancy type  
+From BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Invasive breast carcinoma   SCT  Non-infiltrating intraductal carcinoma   DCM  Other malignancy type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.473"

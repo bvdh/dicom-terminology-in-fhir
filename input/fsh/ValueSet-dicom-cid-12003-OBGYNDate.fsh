@@ -2,7 +2,7 @@ ValueSet    : CID_12003
 Id          : dicom-cid-12003-OBGYNDate
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  EDD  LN  EDD from LMP  LN  EDD from average ultrasound age  LN  EDD from ovulation date  LN  LMP  LN  Estimated LMP by EDD  LN  Ovulation date  LN  Conception Date 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  EDD  LN  EDD from LMP  LN  EDD from average ultrasound age  LN  EDD from ovulation date  LN  LMP  LN  Estimated LMP by EDD  LN  Ovulation date  LN  Conception Date
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.552"

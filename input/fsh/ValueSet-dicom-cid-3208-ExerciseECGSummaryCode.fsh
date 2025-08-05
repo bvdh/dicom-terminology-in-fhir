@@ -2,7 +2,7 @@ ValueSet    : CID_3208
 Id          : dicom-cid-3208-ExerciseECGSummaryCode
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Exercise ECG normal   SCT  Exercise ECG abnormal   SCT  Exercise ECG equivocal   SCT  Not performed  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Exercise ECG normal   SCT  Exercise ECG abnormal   SCT  Exercise ECG equivocal   SCT  Not performed
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.763"

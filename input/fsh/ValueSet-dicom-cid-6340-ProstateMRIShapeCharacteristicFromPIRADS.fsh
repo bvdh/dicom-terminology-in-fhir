@@ -2,7 +2,7 @@ ValueSet    : CID_6340
 Id          : dicom-cid-6340-ProstateMRIShapeCharacteristicFromPIRADS
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID RADLEX Code Value UMLS Concept Unique ID SCT  Round    SCT  Ovoid shape    RADLEX  Lenticular    DCM  Lobulated    SCT  Drop-shaped    SCT  Wedge-shaped    DCM  Linear    SCT  Irregular    
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID RADLEX Code Value UMLS Concept Unique ID SCT  Round    SCT  Ovoid shape    RADLEX  Lenticular    DCM  Lobulated    SCT  Drop-shaped    SCT  Wedge-shaped    DCM  Linear    SCT  Irregular
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1397"

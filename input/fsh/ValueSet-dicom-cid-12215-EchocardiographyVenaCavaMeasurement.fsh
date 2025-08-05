@@ -2,7 +2,7 @@ ValueSet    : CID_12215
 Id          : dicom-cid-12215-EchocardiographyVenaCavaMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID  LN  Inferior Vena Cava Diameter  LN  Inferior Vena Cava % Collapse 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID  LN  Inferior Vena Cava Diameter  LN  Inferior Vena Cava % Collapse
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.607"

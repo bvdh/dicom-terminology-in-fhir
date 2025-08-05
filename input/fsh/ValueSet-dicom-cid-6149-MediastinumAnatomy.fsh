@@ -2,7 +2,7 @@ ValueSet    : CID_6149
 Id          : dicom-cid-6149-MediastinumAnatomy
 Description :
 """
-Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Axillary Fascia   SCT  Carina   SCT  Carotid Body   SCT  Costal Cartilage   SCT  Esophageal Hiatus   SCT  Esophagus   SCT  Heart   SCT  Left main bronchus   SCT  Ligamentum arteriosum   SCT  Lymph node   SCT  Mitral Valve   SCT  Pulmonary valve   SCT  Right main bronchus   SCT  Thoracic Duct   SCT  Thymus Gland   SCT  Thyroid   SCT  Trachea   SCT  Trapezius muscle   SCT  Tricuspid Valve   SCT  Ventricle  
+Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Axillary Fascia   SCT  Carina   SCT  Carotid Body   SCT  Costal Cartilage   SCT  Esophageal Hiatus   SCT  Esophagus   SCT  Heart   SCT  Left main bronchus   SCT  Ligamentum arteriosum   SCT  Lymph node   SCT  Mitral Valve   SCT  Pulmonary valve   SCT  Right main bronchus   SCT  Thoracic Duct   SCT  Thymus Gland   SCT  Thyroid   SCT  Trachea   SCT  Trapezius muscle   SCT  Tricuspid Valve   SCT  Ventricle
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1314"

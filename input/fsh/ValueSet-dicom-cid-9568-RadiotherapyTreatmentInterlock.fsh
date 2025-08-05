@@ -2,7 +2,7 @@ ValueSet    : CID_9568
 Id          : dicom-cid-9568-RadiotherapyTreatmentInterlock
 Description :
 """
-           DCM  Primary Fluence Monitoring System Interlock DCM  Secondary Fluence Monitoring System Interlock DCM  Timer Interlock DCM  Door Interlock DCM  Patient Motion Interlock DCM  Dose Limit Interlock DCM  Clearance Interlock DCM  Machine Clearance Interlock DCM  Patient Clearance Interlock DCM  Accessory Clearance Interlock DCM  Out of Tolerance Interlock DCM  Scan Spot Interlock DCM  Scan Spot Position Interlock DCM  Scan Spot Size Interlock DCM  Scan Spot Meterset Interlock DCM  Radiation Detected During Beam Hold Interlock DCM  MLC Position Interlock DCM  Meterset Rate Interlock DCM  Beam Energy Interlock
+DCM  Primary Fluence Monitoring System Interlock DCM  Secondary Fluence Monitoring System Interlock DCM  Timer Interlock DCM  Door Interlock DCM  Patient Motion Interlock DCM  Dose Limit Interlock DCM  Clearance Interlock DCM  Machine Clearance Interlock DCM  Patient Clearance Interlock DCM  Accessory Clearance Interlock DCM  Out of Tolerance Interlock DCM  Scan Spot Interlock DCM  Scan Spot Position Interlock DCM  Scan Spot Size Interlock DCM  Scan Spot Meterset Interlock DCM  Radiation Detected During Beam Hold Interlock DCM  MLC Position Interlock DCM  Meterset Rate Interlock DCM  Beam Energy Interlock
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1325"

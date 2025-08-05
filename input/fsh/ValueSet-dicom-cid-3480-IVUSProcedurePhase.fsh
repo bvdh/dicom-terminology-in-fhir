@@ -2,7 +2,7 @@ ValueSet    : CID_3480
 Id          : dicom-cid-3480-IVUSProcedurePhase
 Description :
 """
-This Context Group outlines the phases of a catheterization procedure in which measurements are performed.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Cardiac catheterization post-intervention phase   SCT  Cardiac catheterization pre-intervention phase  
+This Context Group outlines the phases of a catheterization procedure in which measurements are performed.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Cardiac catheterization post-intervention phase   SCT  Cardiac catheterization pre-intervention phase
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.115"

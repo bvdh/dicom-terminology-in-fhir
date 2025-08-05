@@ -2,7 +2,7 @@ ValueSet    : CID_9503
 Id          : dicom-cid-9503-RadiotherapyTherapeuticRoleCategory
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Segment Annotation Type and Therapeutic Role Type Context Group DCM  RT Target    DCM  RT Dose Calculation Structure    DCM  RT Registration Mark   
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Segment Annotation Type and Therapeutic Role Type Context Group DCM  RT Target    DCM  RT Dose Calculation Structure    DCM  RT Registration Mark
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1213"

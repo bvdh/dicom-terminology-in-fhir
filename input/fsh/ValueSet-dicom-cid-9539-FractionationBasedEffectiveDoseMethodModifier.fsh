@@ -2,7 +2,7 @@ ValueSet    : CID_9539
 Id          : dicom-cid-9539-FractionationBasedEffectiveDoseMethodModifier
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Equivalent 2-Gray Fractions Model DCM  Linear-Quadratic Model DCM  Linear-Quadratic Model with Time Factor DCM  Linear-Quadratic-Linear Model DCM  Linear-Quadratic Model for Low-Dose Rate Brachytherapy
+Coding Scheme Designator Code Value Code Meaning DCM  Equivalent 2-Gray Fractions Model DCM  Linear-Quadratic Model DCM  Linear-Quadratic Model with Time Factor DCM  Linear-Quadratic-Linear Model DCM  Linear-Quadratic Model for Low-Dose Rate Brachytherapy
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1249"

@@ -2,7 +2,7 @@ ValueSet    : CID_12253
 Id          : dicom-cid-12253-CardiacUltrasoundAreaMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  Flow Area   SCT  Area   LN  Jet Area  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  Flow Area   SCT  Area   LN  Jet Area
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.834"

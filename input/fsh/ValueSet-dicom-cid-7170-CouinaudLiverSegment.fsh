@@ -2,7 +2,7 @@ ValueSet    : CID_7170
 Id          : dicom-cid-7170-CouinaudLiverSegment
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Couinaud hepatic segment I   SCT  Couinaud hepatic segment II   SCT  Couinaud hepatic segment III   SCT  Couinaud hepatic segment IV   SCT  Couinaud hepatic segment V   SCT  Couinaud hepatic segment VI   SCT  Couinaud hepatic segment VII   SCT  Couinaud hepatic segment VIII  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Couinaud hepatic segment I   SCT  Couinaud hepatic segment II   SCT  Couinaud hepatic segment III   SCT  Couinaud hepatic segment IV   SCT  Couinaud hepatic segment V   SCT  Couinaud hepatic segment VI   SCT  Couinaud hepatic segment VII   SCT  Couinaud hepatic segment VIII
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1358"

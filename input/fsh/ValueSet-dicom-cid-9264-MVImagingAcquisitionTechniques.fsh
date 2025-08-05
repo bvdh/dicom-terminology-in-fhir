@@ -2,7 +2,7 @@ ValueSet    : CID_9264
 Id          : dicom-cid-9264-MVImagingAcquisitionTechniques
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  RT Patient Position Acquisition, single plane MV DCM  RT Patient Position Acquisition, CT MV DCM  RT Patient Position Acquisition, Cone-Beam CT MV DCM  RT Patient Position Acquisition, Conventional CT MV DCM  RT Patient Position Acquisition, Integrated Dose MV DCM  RT Patient Position Acquisition, Film Cassette MV
+Coding Scheme Designator Code Value Code Meaning DCM  RT Patient Position Acquisition, single plane MV DCM  RT Patient Position Acquisition, CT MV DCM  RT Patient Position Acquisition, Cone-Beam CT MV DCM  RT Patient Position Acquisition, Conventional CT MV DCM  RT Patient Position Acquisition, Integrated Dose MV DCM  RT Patient Position Acquisition, Film Cassette MV
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1463"

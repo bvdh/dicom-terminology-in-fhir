@@ -1,8 +1,8 @@
 ValueSet    : CID_12293
-Id          : dicom-cid-12293-CardiacUltrasoundAortopulmonaryConnectionFindingSite
+Id          : dicom-cid-12293-CardiacUltrasoundAortopulmonaryConnectionFinding
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Patent Ductus Arteriosus   SCT  Aorta to Pulmonary Artery Connection   SCT  Arteriovenous Fistula  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Patent Ductus Arteriosus   SCT  Aorta to Pulmonary Artery Connection   SCT  Arteriovenous Fistula
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.873"

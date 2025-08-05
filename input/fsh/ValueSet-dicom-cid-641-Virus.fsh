@@ -2,7 +2,7 @@ ValueSet    : CID_641
 Id          : dicom-cid-641-Virus
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Theiler's murine encephalomyelitis virus   SCT  Adeno-associated virus group  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Theiler's murine encephalomyelitis virus   SCT  Adeno-associated virus group
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1106"

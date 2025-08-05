@@ -2,7 +2,7 @@ ValueSet    : CID_6070
 Id          : dicom-cid-6070-BloomRichardsonHistologicGrade
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Grade 1: well differentiated   SCT  Grade 2: moderately differentiated   SCT  Grade 3: poorly differentiated   SCT  Grade 4: undifferentiated  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Grade 1: well differentiated   SCT  Grade 2: moderately differentiated   SCT  Grade 3: poorly differentiated   SCT  Grade 4: undifferentiated
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.399"

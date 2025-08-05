@@ -2,7 +2,7 @@ ValueSet    : CID_3778
 Id          : dicom-cid-3778-Stage
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Stage 0   SCT  Stage 1   SCT  Stage 2   SCT  Stage 3   SCT  Stage 4   SCT  Stage 5  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Stage 0   SCT  Stage 1   SCT  Stage 2   SCT  Stage 3   SCT  Stage 4   SCT  Stage 5
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.638"

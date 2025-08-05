@@ -2,7 +2,7 @@ ValueSet    : CID_6057
 Id          : dicom-cid-6057-DuctographyFindingForBreast
 Description :
 """
-These terms were obtained from BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Normal breast tissue   DCM  Intraluminal filling defect   SCT  Mammary duct ectasia   DCM  Multiple filling defect   DCM  Abrupt duct termination   DCM  Extravasation   DCM  Duct narrowing   DCM  Cyst fill  
+These terms were obtained from BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Normal breast tissue   DCM  Intraluminal filling defect   SCT  Mammary duct ectasia   DCM  Multiple filling defect   DCM  Abrupt duct termination   DCM  Extravasation   DCM  Duct narrowing   DCM  Cyst fill
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.386"

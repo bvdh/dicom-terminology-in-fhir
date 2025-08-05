@@ -2,7 +2,7 @@ ValueSet    : CID_4404
 Id          : dicom-cid-4404-HistoryOfNonMelanomaSkinCancer
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  History of malignant basal cell neoplasm of skin   SCT  History of squamous cell carcinoma of skin   SCT  History of malignant neoplasm of skin excluding melanoma  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  History of malignant basal cell neoplasm of skin   SCT  History of squamous cell carcinoma of skin   SCT  History of malignant neoplasm of skin excluding melanoma
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1349"

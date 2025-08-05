@@ -2,7 +2,7 @@ ValueSet    : CID_12115
 Id          : dicom-cid-12115-RenalVessel
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Renal Artery   SCT  Hilar Artery   SCT  Segmental Artery   SCT  Lobar Artery   SCT  Arcuate Artery of the Kidney   SCT  Interlobar Artery of Kidney   SCT  Interlobular Artery of Kidney   SCT  Accessory Renal Artery   SCT  Perforating Artery of Kidney   SCT  Renal Vein  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Renal Artery   SCT  Hilar Artery   SCT  Segmental Artery   SCT  Lobar Artery   SCT  Arcuate Artery of the Kidney   SCT  Interlobar Artery of Kidney   SCT  Interlobular Artery of Kidney   SCT  Accessory Renal Artery   SCT  Perforating Artery of Kidney   SCT  Renal Vein
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.582"

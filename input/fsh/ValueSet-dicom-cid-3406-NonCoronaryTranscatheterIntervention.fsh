@@ -2,7 +2,7 @@ ValueSet    : CID_3406
 Id          : dicom-cid-3406-NonCoronaryTranscatheterIntervention
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Valvular Intervention DCM  Aortic Intervention DCM  Septal Defect Intervention DCM  Vascular Intervention DCM  Myocardial biopsy
+Coding Scheme Designator Code Value Code Meaning DCM  Valvular Intervention DCM  Aortic Intervention DCM  Septal Defect Intervention DCM  Vascular Intervention DCM  Myocardial biopsy
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.71"

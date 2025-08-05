@@ -2,7 +2,7 @@ ValueSet    : CID_3204
 Id          : dicom-cid-3204-StressAgent
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Trade Name (Informative) SCT  Dipyridamole   Persantine SCT  Dobutamine    SCT  Adenosine    SCT  Atropine    SCT  Adenosine A2 receptor agonist   Regadenoson
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Trade Name (Informative) SCT  Dipyridamole   Persantine SCT  Dobutamine    SCT  Adenosine    SCT  Atropine    SCT  Adenosine A2 receptor agonist   Regadenoson
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.759"

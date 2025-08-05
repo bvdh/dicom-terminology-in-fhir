@@ -2,7 +2,7 @@ ValueSet    : CID_6080
 Id          : dicom-cid-6080-GynecologicalHormone
 Description :
 """
-Some of these terms were obtained from BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Contraceptives   SCT  Estrogen product   SCT  Progesterone product   SCT  Tamoxifen   DCM  Unspecified gynecological hormone   SCT  Raloxifene   SCT  Anastrozole  
+Some of these terms were obtained from BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Contraceptives   SCT  Estrogen product   SCT  Progesterone product   SCT  Tamoxifen   DCM  Unspecified gynecological hormone   SCT  Raloxifene   SCT  Anastrozole
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.402"

@@ -2,7 +2,7 @@ ValueSet    : CID_3524
 Id          : dicom-cid-3524-BloodGasPressure
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Blood Carbon dioxide partial pressure  LN  Arterial Blood Carbon dioxide partial pressure  LN  Venous Blood Carbon dioxide partial pressure  LN  Blood Oxygen partial pressure  LN  Arterial Oxygen partial pressure  LN  Venous Oxygen partial pressure  LN  Oxygen partial pressure at 50% saturation (P50)  LN  Arterial Oxygen partial pressure at 50% saturation  LN  Venous Oxygen partial pressure at 50% saturation 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Blood Carbon dioxide partial pressure  LN  Arterial Blood Carbon dioxide partial pressure  LN  Venous Blood Carbon dioxide partial pressure  LN  Blood Oxygen partial pressure  LN  Arterial Oxygen partial pressure  LN  Venous Oxygen partial pressure  LN  Oxygen partial pressure at 50% saturation (P50)  LN  Arterial Oxygen partial pressure at 50% saturation  LN  Venous Oxygen partial pressure at 50% saturation
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.138"

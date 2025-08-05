@@ -2,7 +2,7 @@ ValueSet    : CID_12246
 Id          : dicom-cid-12246-CardiacUltrasoundIndicationForStudy
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Fever   SCT  Hemoptysis   SCT  Murmur   SCT  Congenital heart disease   SCT  Chest Pain   SCT  Coronary Artery Disease   SCT  Heart disease risk factors   SCT  Dyspnea   SCT  Abnormal ECG   SCT  Arrhythmia   SCT  Angina pectoris   SCT  Hypertension   SCT  Palpitations   SCT  Supraventricular tachycardia   SCT  Syncope   SCT  Left bundle branch block   SCT  Valvular heart disease   SCT  Imaging guidance  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Fever   SCT  Hemoptysis   SCT  Murmur   SCT  Congenital heart disease   SCT  Chest Pain   SCT  Coronary Artery Disease   SCT  Heart disease risk factors   SCT  Dyspnea   SCT  Abnormal ECG   SCT  Arrhythmia   SCT  Angina pectoris   SCT  Hypertension   SCT  Palpitations   SCT  Supraventricular tachycardia   SCT  Syncope   SCT  Left bundle branch block   SCT  Valvular heart disease   SCT  Imaging guidance
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.827"

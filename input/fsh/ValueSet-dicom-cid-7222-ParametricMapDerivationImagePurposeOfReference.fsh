@@ -2,7 +2,7 @@ ValueSet    : CID_7222
 Id          : dicom-cid-7222-ParametricMapDerivationImagePurposeOfReference
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Source Image for Image Processing Operation
+Coding Scheme Designator Code Value Code Meaning DCM  Source Image for Image Processing Operation
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1009"

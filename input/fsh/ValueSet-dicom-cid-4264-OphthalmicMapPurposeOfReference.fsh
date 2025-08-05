@@ -2,7 +2,7 @@ ValueSet    : CID_4264
 Id          : dicom-cid-4264-OphthalmicMapPurposeOfReference
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Localizer DCM  Source image for image processing operation DCM  Related ophthalmic thickness map
+Coding Scheme Designator Code Value Code Meaning DCM  Localizer DCM  Source image for image processing operation DCM  Related ophthalmic thickness map
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.940"

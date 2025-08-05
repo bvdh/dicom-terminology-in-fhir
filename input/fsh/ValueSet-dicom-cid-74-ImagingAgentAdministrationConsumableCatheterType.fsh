@@ -2,7 +2,7 @@ ValueSet    : CID_74
 Id          : dicom-cid-74-ImagingAgentAdministrationConsumableCatheterType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Peripheral intravenous catheter   SCT  Central venous catheter   SCT  Implantable venous access port   SCT  Peripherally inserted central catheter   SCT  Rectal Catheter  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Peripheral intravenous catheter   SCT  Central venous catheter   SCT  Implantable venous access port   SCT  Peripherally inserted central catheter   SCT  Rectal Catheter
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1264"
@@ -21,9 +21,9 @@ Description :
 * http://snomed.info/srt#A-1450B "Implantable venous access port" 
 * http://terminology.hl7.org/CodeSystem/umls#C1275732 "Implantable venous access port" 
 
-* http://snomed.info/sct#52124006 "Peripherally inserted central catheter" 
-* http://snomed.info/srt#A-26810 "Peripherally inserted central catheter" 
-* http://terminology.hl7.org/CodeSystem/umls#C1145640 "Peripherally inserted central catheter" 
+// * http://snomed.info/sct#52124006 "Peripherally inserted central catheter" 
+// * http://snomed.info/srt#A-26810 "Peripherally inserted central catheter" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1145640 "Peripherally inserted central catheter" 
 
 * http://snomed.info/sct#705541005 "Rectal Catheter" 
 * http://snomed.info/srt#R-FEAEC "Rectal Catheter" 

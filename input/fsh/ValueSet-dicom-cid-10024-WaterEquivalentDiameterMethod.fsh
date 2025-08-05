@@ -2,7 +2,7 @@ ValueSet    : CID_10024
 Id          : dicom-cid-10024-WaterEquivalentDiameterMethod
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Water Equivalent Diameter Representative Value DCM  Water Equivalent Diameter Integrated Across Scan Range DCM  Water Equivalent Diameter From Raw Data DCM  Water Equivalent Diameter From Localizer
+Coding Scheme Designator Code Value Code Meaning DCM  Water Equivalent Diameter Representative Value DCM  Water Equivalent Diameter Integrated Across Scan Range DCM  Water Equivalent Diameter From Raw Data DCM  Water Equivalent Diameter From Localizer
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1114"

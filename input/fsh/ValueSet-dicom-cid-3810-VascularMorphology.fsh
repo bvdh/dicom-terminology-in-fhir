@@ -2,7 +2,7 @@ ValueSet    : CID_3810
 Id          : dicom-cid-3810-VascularMorphology
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  plaque   SCT  stenosis   SCT  aneurysm   SCT  arterial dissection   SCT  stent   SCT  occlusion   SCT  arteriovenous fistula   SCT  angioma   SCT  dilatation   SCT  vascular coiling   SCT  tortuosity   SCT  diverticulum   SCT  vascular sclerosis   SCT  thrombus   SCT  pseudoaneurysm   SCT  embolism   SCT  fibromuscular dysplasia  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  plaque   SCT  stenosis   SCT  aneurysm   SCT  arterial dissection   SCT  stent   SCT  occlusion   SCT  arteriovenous fistula   SCT  angioma   SCT  dilatation   SCT  vascular coiling   SCT  tortuosity   SCT  diverticulum   SCT  vascular sclerosis   SCT  thrombus   SCT  pseudoaneurysm   SCT  embolism   SCT  fibromuscular dysplasia
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.271"

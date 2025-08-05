@@ -2,7 +2,7 @@ ValueSet    : CID_3703
 Id          : dicom-cid-3703-WallMotion
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Not Evaluated   SCT  Unknown   DCM  Not visualized   SCT  Normal wall motion   SCT  Hyperkinetic region   SCT  Hypokinesis   SCT  Mild Hypokinesis   SCT  Moderate Hypokinesis   SCT  Severe Hypokinesis   SCT  Akinesis   SCT  Dyskinesis   In prior editions, this Context Group included incorrect codes for "Hypokinesis" and "Mild Hypokinesis" (see PS3.16-2011).
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Not Evaluated   SCT  Unknown   DCM  Not visualized   SCT  Normal wall motion   SCT  Hyperkinetic region   SCT  Hypokinesis   SCT  Mild Hypokinesis   SCT  Moderate Hypokinesis   SCT  Severe Hypokinesis   SCT  Akinesis   SCT  Dyskinesis   In prior editions, this Context Group included incorrect codes for "Hypokinesis" and "Mild Hypokinesis" (see PS3.16-2011).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.205"

@@ -1,8 +1,8 @@
 ValueSet    : CID_8120
-Id          : dicom-cid-8120-WholeSlideMicroscopyImageReferencedImagePurposeOfReference
+Id          : dicom-cid-8120-WholeSlideMicroscopyImageReferencedImagePurposeOf
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Localizer DCM  Same acquisition at lower resolution DCM  Same acquisition at higher resolution DCM  Same acquisition at different focal depth DCM  Same acquisition at different spectral band DCM  Imaged container label
+Coding Scheme Designator Code Value Code Meaning DCM  Localizer DCM  Same acquisition at lower resolution DCM  Same acquisition at higher resolution DCM  Same acquisition at different focal depth DCM  Same acquisition at different spectral band DCM  Imaged container label
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.897"

@@ -2,7 +2,7 @@ ValueSet    : CID_12274
 Id          : dicom-cid-12274-CardiacUltrasoundAortaMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning      DCM  Left Atrium-Descending Aorta Distance DCM  Post-Left Atrium Space Index
+Coding Scheme Designator Code Value Code Meaning      DCM  Left Atrium-Descending Aorta Distance DCM  Post-Left Atrium Space Index
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.855"

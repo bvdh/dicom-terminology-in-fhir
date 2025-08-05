@@ -2,7 +2,7 @@ ValueSet    : CID_12030
 Id          : dicom-cid-12030-UltrasoundContrastBolusAgent
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  CARDIOsphere NDC 11994-011-04 Definity DCM  Echovist DCM  Imagify DCM  Levovist NDC 0407-2707-03 Optison DCM  Sonazoid DCM  SonoVue DCM  Targestar-B DCM  Targestar-P See Controlled Terminology descriptions in The generic formulation is not used for Code Meaning (0008,0104) because for ultrasonic contrast agents the physical properties of the agent are more significant than chemical formula in determining its acoustic properties.
+Coding Scheme Designator Code Value Code Meaning DCM  CARDIOsphere NDC 11994-011-04 Definity DCM  Echovist DCM  Imagify DCM  Levovist NDC 0407-2707-03 Optison DCM  Sonazoid DCM  SonoVue DCM  Targestar-B DCM  Targestar-P See Controlled Terminology descriptions in The generic formulation is not used for Code Meaning (0008,0104) because for ultrasonic contrast agents the physical properties of the agent are more significant than chemical formula in determining its acoustic properties.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.805"

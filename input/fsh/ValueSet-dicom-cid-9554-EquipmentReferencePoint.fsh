@@ -2,7 +2,7 @@ ValueSet    : CID_9554
 Id          : dicom-cid-9554-EquipmentReferencePoint
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning  DCM  Fixed Laser Setup Point
+Coding Scheme Designator Code Value Code Meaning  DCM  Fixed Laser Setup Point
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1301"

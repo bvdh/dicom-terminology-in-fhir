@@ -2,7 +2,7 @@ ValueSet    : CID_6062
 Id          : dicom-cid-6062-InterventionalProcedureComplication
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Hemorrhage postprocedure   DCM  Abnormal discharge   SCT  Hematoma - postoperative   SCT  Weal   SCT  Healthcare associated infection   SCT  Persistent pain following procedure   SCT  Pneumothorax   SCT  Rash   SCT  Swelling   SCT  Vasovagal syncope   DCM  No complications  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Hemorrhage postprocedure   DCM  Abnormal discharge   SCT  Hematoma - postoperative   SCT  Weal   SCT  Healthcare associated infection   SCT  Persistent pain following procedure   SCT  Pneumothorax   SCT  Rash   SCT  Swelling   SCT  Vasovagal syncope   DCM  No complications
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.391"

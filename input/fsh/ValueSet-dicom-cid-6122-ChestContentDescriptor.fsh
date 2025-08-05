@@ -2,7 +2,7 @@ ValueSet    : CID_6122
 Id          : dicom-cid-6122-ChestContentDescriptor
 Description :
 """
-Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Air   SCT  Fat   SCT  Soft tissue   DCM  Calcium   SCT  Foreign material (iodized oil, mercury,talc)  
+Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Air   SCT  Fat   SCT  Soft tissue   DCM  Calcium   SCT  Foreign material (iodized oil, mercury,talc)
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.442"

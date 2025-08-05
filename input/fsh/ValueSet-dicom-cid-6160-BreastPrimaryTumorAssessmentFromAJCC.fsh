@@ -2,7 +2,7 @@ ValueSet    : CID_6160
 Id          : dicom-cid-6160-BreastPrimaryTumorAssessmentFromAJCC
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  pTX   SCT  pT0   SCT  pTis   SCT  pTis (DCIS)   SCT  pTis (Paget)   SCT  pT1   SCT  pT1mi   SCT  pT1a   SCT  pT1b   SCT  pT1c   SCT  pT2   SCT  pT3   SCT  pT4   SCT  pT4a   SCT  pT4b   SCT  pT4c   SCT  pT4d  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  pTX   SCT  pT0   SCT  pTis   SCT  pTis (DCIS)   SCT  pTis (Paget)   SCT  pT1   SCT  pT1mi   SCT  pT1a   SCT  pT1b   SCT  pT1c   SCT  pT2   SCT  pT3   SCT  pT4   SCT  pT4a   SCT  pT4b   SCT  pT4c   SCT  pT4d
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.474"

@@ -2,7 +2,7 @@ ValueSet    : CID_6038
 Id          : dicom-cid-6038-MammographyQualitativeTemporalDifferenceType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Difference in shape   SCT  Difference in margin   SCT  Difference in symmetry  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Difference in shape   SCT  Difference in margin   SCT  Difference in symmetry
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.368"

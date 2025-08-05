@@ -2,7 +2,7 @@ ValueSet    : CID_6114
 Id          : dicom-cid-6114-OsseousAnatomyFindingOrFeature
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Clavicle   SCT  Humerus   SCT  Rib   SCT  Scapula   SCT  Spine   SCT  Sternum   SCT  Vertebra  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Clavicle   SCT  Humerus   SCT  Rib   SCT  Scapula   SCT  Spine   SCT  Sternum   SCT  Vertebra
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.434"

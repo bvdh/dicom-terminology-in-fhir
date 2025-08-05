@@ -2,7 +2,7 @@ ValueSet    : CID_3019
 Id          : dicom-cid-3019-CardiovascularAnatomicStructureModifier
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID   SCT  Graft to distal anastomosis   SCT  Graft to proximal anastomosis   SCT  Ostium   SCT  Entire Vessel   DCM  Aneurysm on cited vessel   DCM  Graft to cited segment, proximal section   DCM  Graft to cited segment, mid section   DCM  Graft to cited segment, distal section  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID   SCT  Graft to distal anastomosis   SCT  Graft to proximal anastomosis   SCT  Ostium   SCT  Entire Vessel   DCM  Aneurysm on cited vessel   DCM  Graft to cited segment, proximal section   DCM  Graft to cited segment, mid section   DCM  Graft to cited segment, distal section
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.49"

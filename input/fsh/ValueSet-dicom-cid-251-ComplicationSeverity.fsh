@@ -2,7 +2,7 @@ ValueSet    : CID_251
 Id          : dicom-cid-251-ComplicationSeverity
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Major   SCT  Minor  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Major   SCT  Minor
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.39"

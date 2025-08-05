@@ -14,7 +14,7 @@ Some of these terms were obtained from BI-RADS       Coding Scheme Designator Co
 * http://terminology.hl7.org/CodeSystem/umls#C0851238 "Lumpectomy" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C0024881 "Mastectomy" 
-* http://terminology.hl7.org/CodeSystem/umls#C0024881 "Mastectomy" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0024881 "Mastectomy" 
 
 * http://snomed.info/sct#172049005 "Quadrantectomy of breast" 
 * http://snomed.info/srt#P1-4834A "Quadrantectomy of breast" 

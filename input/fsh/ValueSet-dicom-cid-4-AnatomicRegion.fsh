@@ -2,7 +2,7 @@ ValueSet    : CID_4
 Id          : dicom-cid-4-AnatomicRegion
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID    SCT  Atrium   SCT  Axilla   SCT  Back   SCT  Broad ligament   SCT  Buttock   SCT  Calyx   SCT  Cheek   SCT  Cornea   SCT  Ear   SCT  Endo-arterial   SCT  Endo-cardiac   SCT  Endo-esophageal   SCT  Endo-nasal   SCT  Endo-nasopharyngeal   SCT  Endo-rectal   SCT  Endo-renal   SCT  Endo-ureteric   SCT  Endo-urethral   SCT  Endo-vaginal   SCT  Endo-vascular   SCT  Endo-venous   SCT  Endo-vesical   SCT  Epigastric region   SCT  Eyelid   SCT  Face   SCT  Flank   SCT  Fontanel of skull   SCT  Gluteal region   SCT  Hip joint   SCT  Hypogastric region   SCT  Submental   SCT  Hypopharynx   SCT  Intra-articular   SCT  Intracranial   SCT  Intra-esophageal   SCT  Left hypochondriac region   SCT  Left inguinal region   SCT  Left lower quadrant of abdomen   SCT  Left lumbar region   SCT  Left upper quadrant of abdomen   SCT  Lower inner quadrant of breast   SCT  Lower outer quadrant of breast   SCT  Lumbar region   SCT  Lung   SCT  Mouth   SCT  Nose   SCT  Omental bursa   SCT  Omentum   SCT  Ovary   SCT  Parasternal   SCT  Penis   SCT  Perineum   SCT  Popliteal fossa   SCT  Renal pelvis   SCT  Retroperitoneum   SCT  Right hypochondriac region   SCT  Right inguinal region   SCT  Right lower quadrant of abdomen   SCT  Right lumbar region   SCT  Right upper quadrant of abdomen   SCT  Scalp   SCT  Sclera   SCT  Scrotum   SCT  Spinal cord   SCT  Subcostal   SCT  Submandibular area   SCT  Subxiphoid   SCT  Supraclavicular region of neck   SCT  Suprapubic region   SCT  Suprasternal notch   SCT  Thigh   SCT  Thorax   SCT  Tongue   SCT  Umbilical region   SCT  Upper inner quadrant of breast   SCT  Upper outer quadrant of breast   SCT  Vagina   SCT  Vascular graft   SCT  Ventricle   SCT  Vulva   SCT  Wrist joint  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID    SCT  Atrium   SCT  Axilla   SCT  Back   SCT  Broad ligament   SCT  Buttock   SCT  Calyx   SCT  Cheek   SCT  Cornea   SCT  Ear   SCT  Endo-arterial   SCT  Endo-cardiac   SCT  Endo-esophageal   SCT  Endo-nasal   SCT  Endo-nasopharyngeal   SCT  Endo-rectal   SCT  Endo-renal   SCT  Endo-ureteric   SCT  Endo-urethral   SCT  Endo-vaginal   SCT  Endo-vascular   SCT  Endo-venous   SCT  Endo-vesical   SCT  Epigastric region   SCT  Eyelid   SCT  Face   SCT  Flank   SCT  Fontanel of skull   SCT  Gluteal region   SCT  Hip joint   SCT  Hypogastric region   SCT  Submental   SCT  Hypopharynx   SCT  Intra-articular   SCT  Intracranial   SCT  Intra-esophageal   SCT  Left hypochondriac region   SCT  Left inguinal region   SCT  Left lower quadrant of abdomen   SCT  Left lumbar region   SCT  Left upper quadrant of abdomen   SCT  Lower inner quadrant of breast   SCT  Lower outer quadrant of breast   SCT  Lumbar region   SCT  Lung   SCT  Mouth   SCT  Nose   SCT  Omental bursa   SCT  Omentum   SCT  Ovary   SCT  Parasternal   SCT  Penis   SCT  Perineum   SCT  Popliteal fossa   SCT  Renal pelvis   SCT  Retroperitoneum   SCT  Right hypochondriac region   SCT  Right inguinal region   SCT  Right lower quadrant of abdomen   SCT  Right lumbar region   SCT  Right upper quadrant of abdomen   SCT  Scalp   SCT  Sclera   SCT  Scrotum   SCT  Spinal cord   SCT  Subcostal   SCT  Submandibular area   SCT  Subxiphoid   SCT  Supraclavicular region of neck   SCT  Suprapubic region   SCT  Suprasternal notch   SCT  Thigh   SCT  Thorax   SCT  Tongue   SCT  Umbilical region   SCT  Upper inner quadrant of breast   SCT  Upper outer quadrant of breast   SCT  Vagina   SCT  Vascular graft   SCT  Ventricle   SCT  Vulva   SCT  Wrist joint
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.2"
@@ -123,9 +123,9 @@ Description :
 * http://snomed.info/srt#T-15200 "Fontanel of skull" 
 * http://terminology.hl7.org/CodeSystem/umls#C0224548 "Fontanel of skull" 
 
-* http://snomed.info/sct#46862004 "Gluteal region" 
-* http://snomed.info/srt#T-D2600 "Gluteal region" 
-* http://terminology.hl7.org/CodeSystem/umls#C0006497 "Gluteal region" 
+// * http://snomed.info/sct#46862004 "Gluteal region" 
+// * http://snomed.info/srt#T-D2600 "Gluteal region" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0006497 "Gluteal region" 
 
 * http://snomed.info/sct#24136001 "Hip joint" 
 * http://snomed.info/srt#T-15710 "Hip joint" 
@@ -151,9 +151,9 @@ Description :
 * http://snomed.info/srt#T-D1400 "Intracranial" 
 * http://terminology.hl7.org/CodeSystem/umls#C0230041 "Intracranial" 
 
-* http://snomed.info/sct#32849002 "Intra-esophageal" 
-* http://snomed.info/srt#T-56000 "Intra-esophageal" 
-* http://terminology.hl7.org/CodeSystem/umls#C0014876 "Intra-esophageal" 
+// * http://snomed.info/sct#32849002 "Intra-esophageal" 
+// * http://snomed.info/srt#T-56000 "Intra-esophageal" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0014876 "Intra-esophageal" 
 
 * http://snomed.info/sct#133945003 "Left hypochondriac region" 
 * http://snomed.info/srt#T-D4211 "Left hypochondriac region" 
@@ -285,9 +285,9 @@ Description :
 * http://snomed.info/srt#T-D1620 "Supraclavicular region of neck" 
 * http://terminology.hl7.org/CodeSystem/umls#C0230078 "Supraclavicular region of neck" 
 
-* http://snomed.info/sct#11708003 "Suprapubic region" 
-* http://snomed.info/srt#T-D4240 "Suprapubic region" 
-* http://terminology.hl7.org/CodeSystem/umls#C0230189 "Suprapubic region" 
+// * http://snomed.info/sct#11708003 "Suprapubic region" 
+// * http://snomed.info/srt#T-D4240 "Suprapubic region" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0230189 "Suprapubic region" 
 
 * http://snomed.info/sct#26493002 "Suprasternal notch" 
 * http://snomed.info/srt#T-11218 "Suprasternal notch" 
@@ -315,9 +315,9 @@ Description :
 * http://snomed.info/srt#T-04004 "Upper outer quadrant of breast" 
 * http://terminology.hl7.org/CodeSystem/umls#C0222598 "Upper outer quadrant of breast" 
 
-* http://snomed.info/sct#76784001 "Vagina" 
-* http://snomed.info/srt#T-82000 "Vagina" 
-* http://terminology.hl7.org/CodeSystem/umls#C0042232 "Vagina" 
+// * http://snomed.info/sct#76784001 "Vagina" 
+// * http://snomed.info/srt#T-82000 "Vagina" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0042232 "Vagina" 
 
 * http://snomed.info/sct#312288001 "Vascular graft" 
 * http://snomed.info/srt#T-D000F "Vascular graft" 

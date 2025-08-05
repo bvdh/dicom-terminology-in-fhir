@@ -2,7 +2,7 @@ ValueSet    : CID_1201
 Id          : dicom-cid-1201-ContraindicationsForXAImaging
 Description :
 """
-The items in this Context Group identify possible contraindications for specific XA imaging protocols. Contraindications for XA imaging in general, irrespective of the Protocol used, are not included here.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Contrast Media Allergy   SCT  Patient currently pregnant   SCT  Impaired Renal Function   SCT  Blood Coagulation Disorders   SCT  Cardiac Arrhythmia   SCT  Sepsis  
+The items in this Context Group identify possible contraindications for specific XA imaging protocols. Contraindications for XA imaging in general, irrespective of the Protocol used, are not included here.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Contrast Media Allergy   SCT  Patient currently pregnant   SCT  Impaired Renal Function   SCT  Blood Coagulation Disorders   SCT  Cardiac Arrhythmia   SCT  Sepsis
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1360"

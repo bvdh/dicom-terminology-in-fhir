@@ -2,7 +2,7 @@ ValueSet    : CID_7272
 Id          : dicom-cid-7272-MRDiffusionModelParameter
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Units DCM  Apparent Diffusion Coefficient   D DCM  Diffusion Coefficient   D DCM  Mono-exponential Apparent Diffusion Coefficient   D DCM  Slow Diffusion Coefficient   D DCM  Fast Diffusion Coefficient   D DCM  Fast Diffusion Coefficient Fraction   DT ({0:1}, UCUM, "range 0:1") DCM  Kurtosis Diffusion Coefficient   D DCM  Gamma Distribution Scale Parameter   DT (1, UCUM, "no units") DCM  Gamma Distribution Shape Parameter   DT (1, UCUM, "no units") DCM  Gamma Distribution Mode   DT (1, UCUM, "no units") DCM  Distributed Diffusion Coefficient   D DCM  Anomalous Exponent Parameter   DT ({0:1}, UCUM, "range 0:1")
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Units DCM  Apparent Diffusion Coefficient   D DCM  Diffusion Coefficient   D DCM  Mono-exponential Apparent Diffusion Coefficient   D DCM  Slow Diffusion Coefficient   D DCM  Fast Diffusion Coefficient   D DCM  Fast Diffusion Coefficient Fraction   DT ({0:1}, UCUM, "range 0:1") DCM  Kurtosis Diffusion Coefficient   D DCM  Gamma Distribution Scale Parameter   DT (1, UCUM, "no units") DCM  Gamma Distribution Shape Parameter   DT (1, UCUM, "no units") DCM  Gamma Distribution Mode   DT (1, UCUM, "no units") DCM  Distributed Diffusion Coefficient   D DCM  Anomalous Exponent Parameter   DT ({0:1}, UCUM, "range 0:1")
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1167"

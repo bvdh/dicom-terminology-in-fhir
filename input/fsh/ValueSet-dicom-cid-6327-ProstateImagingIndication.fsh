@@ -2,7 +2,7 @@ ValueSet    : CID_6327
 Id          : dicom-cid-6327-ProstateImagingIndication
 Description :
 """
-This CID contains terms that are used by       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Active surveillance of prostate cancer   DCM  Family history of prostate cancer   SCT  Staging   DCM  Assess change   I10 R97.20 Elevated Prostate Specific Antigen   DCM  Review of an outside study   SCT  Brachytherapy   DCM  Pre-biopsy localization of prostate lesion  
+This CID contains terms that are used by       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Active surveillance of prostate cancer   DCM  Family history of prostate cancer   SCT  Staging   DCM  Assess change   I10 R97.20 Elevated Prostate Specific Antigen   DCM  Review of an outside study   SCT  Brachytherapy   DCM  Pre-biopsy localization of prostate lesion
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1384"

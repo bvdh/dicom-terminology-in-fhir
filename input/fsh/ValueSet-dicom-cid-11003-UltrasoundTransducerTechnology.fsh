@@ -2,7 +2,7 @@ ValueSet    : CID_11003
 Id          : dicom-cid-11003-UltrasoundTransducerTechnology
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Piezocomposite Transducer DCM  MEMS-based Transducer DCM  Interferometric Transducer
+Coding Scheme Designator Code Value Code Meaning DCM  Piezocomposite Transducer DCM  MEMS-based Transducer DCM  Interferometric Transducer
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1473"

@@ -2,7 +2,7 @@ ValueSet    : CID_6162
 Id          : dicom-cid-6162-AssessmentOfMetastasisForBreast
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  MX   SCT  cM0   SCT  pM1  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  MX   SCT  cM0   SCT  pM1
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.476"

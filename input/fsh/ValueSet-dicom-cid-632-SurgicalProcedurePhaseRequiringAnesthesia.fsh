@@ -2,7 +2,7 @@ ValueSet    : CID_632
 Id          : dicom-cid-632-SurgicalProcedurePhaseRequiringAnesthesia
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Preoperative   SCT  Intraoperative   SCT  Postoperative  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Preoperative   SCT  Intraoperative   SCT  Postoperative
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1097"

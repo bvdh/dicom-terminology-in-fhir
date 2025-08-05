@@ -2,7 +2,7 @@ ValueSet    : CID_3451
 Id          : dicom-cid-3451-CalibrationObject
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Catheter   SCT  Measuring Ruler   DCM  Sphere  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Catheter   SCT  Measuring Ruler   DCM  Sphere
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.98"

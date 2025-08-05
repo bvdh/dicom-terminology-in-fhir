@@ -2,7 +2,7 @@ ValueSet    : CID_4105
 Id          : dicom-cid-4105-PerfusionAnalysisMethod
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Least Mean Square deconvolution DCM  Singular Value Decomposition deconvolution
+Coding Scheme Designator Code Value Code Meaning DCM  Least Mean Square deconvolution DCM  Singular Value Decomposition deconvolution
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.990"

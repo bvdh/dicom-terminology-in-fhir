@@ -2,7 +2,7 @@ ValueSet    : CID_6015
 Id          : dicom-cid-6015-SingleImageFindingFromBIRADS
 Description :
 """
-Collected from BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Mammography breast density   SCT  Individual Calcification   SCT  Calcification Cluster   SCT  Architectural distortion of breast   SCT  Tubular density   SCT  Intramammary lymph node   SCT  Trabecular thickening of breast   SCT  Breast composition   SCT  Skin retraction of breast   SCT  Skin thickening of breast   SCT  Axillary adenopathy   SCT  Skin lesion   DCM  Cooper's ligament changes   SCT  Edema   DCM  Mass in the skin   DCM  Mass on the skin   SCT  Axillary lymph node  
+Collected from BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Mammography breast density   SCT  Individual Calcification   SCT  Calcification Cluster   SCT  Architectural distortion of breast   SCT  Tubular density   SCT  Intramammary lymph node   SCT  Trabecular thickening of breast   SCT  Breast composition   SCT  Skin retraction of breast   SCT  Skin thickening of breast   SCT  Axillary adenopathy   SCT  Skin lesion   DCM  Cooper's ligament changes   SCT  Edema   DCM  Mass in the skin   DCM  Mass on the skin   SCT  Axillary lymph node
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.345"

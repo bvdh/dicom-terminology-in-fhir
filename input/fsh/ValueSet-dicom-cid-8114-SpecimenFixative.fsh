@@ -2,7 +2,7 @@ ValueSet    : CID_8114
 Id          : dicom-cid-8114-SpecimenFixative
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Neutral Buffered Formalin   SCT  Bouin's fluid   SCT  Formalin   SCT  Carnoy's fluid   SCT  Formol sublimate   SCT  Helly's fluid   SCT  Michel's medium   SCT  Zenker's fluid   SCT  Paraformaldehyde   SCT  Acetic acid   SCT  Chloroform   SCT  Chromium trioxide   SCT  Ethanol   SCT  Formaldehyde   SCT  Mercuric chloride   SCT  Methanol   SCT  Osmium tetroxide   SCT  Picric acid   SCT  Potassium dichromate   NCIt  PAXgene Tissue System  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Neutral Buffered Formalin   SCT  Bouin's fluid   SCT  Formalin   SCT  Carnoy's fluid   SCT  Formol sublimate   SCT  Helly's fluid   SCT  Michel's medium   SCT  Zenker's fluid   SCT  Paraformaldehyde   SCT  Acetic acid   SCT  Chloroform   SCT  Chromium trioxide   SCT  Ethanol   SCT  Formaldehyde   SCT  Mercuric chloride   SCT  Methanol   SCT  Osmium tetroxide   SCT  Picric acid   SCT  Potassium dichromate   NCIt  PAXgene Tissue System
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1052"

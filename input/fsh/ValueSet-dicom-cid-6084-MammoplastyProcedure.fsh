@@ -2,7 +2,7 @@ ValueSet    : CID_6084
 Id          : dicom-cid-6084-MammoplastyProcedure
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Breast prosthesis insertion   SCT  Reduction mammoplasty   SCT  Breast reconstruction   SCT  Removal of breast implant  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Breast prosthesis insertion   SCT  Reduction mammoplasty   SCT  Breast reconstruction   SCT  Removal of breast implant
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.406"

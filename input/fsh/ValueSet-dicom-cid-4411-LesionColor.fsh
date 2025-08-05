@@ -2,7 +2,7 @@ ValueSet    : CID_4411
 Id          : dicom-cid-4411-LesionColor
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Red   SCT  Orange   SCT  Pink   SCT  Yellow   SCT  Purple   SCT  White   SCT  Black   SCT  Gray   SCT  Brown   SCT  Blue  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Red   SCT  Orange   SCT  Pink   SCT  Yellow   SCT  Purple   SCT  White   SCT  Black   SCT  Gray   SCT  Brown   SCT  Blue
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1479"

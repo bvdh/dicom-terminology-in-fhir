@@ -2,7 +2,7 @@ ValueSet    : CID_9272
 Id          : dicom-cid-9272-RTROIImageAcquisitionContext
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  DCM  Prior to voiding   DCM  Post voiding   SCT  Full Rectum   SCT  Empty Rectum   DCM  Pre-surgical anatomy   SCT  Post-surgical anatomy  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  DCM  Prior to voiding   DCM  Post voiding   SCT  Full Rectum   SCT  Empty Rectum   DCM  Pre-surgical anatomy   SCT  Post-surgical anatomy
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1481"

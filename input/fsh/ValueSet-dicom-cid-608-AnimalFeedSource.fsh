@@ -2,7 +2,7 @@ ValueSet    : CID_608
 Id          : dicom-cid-608-AnimalFeedSource
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID UMLS  Commercial product   DCM  Locally manufactured product   
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID UMLS  Commercial product   DCM  Locally manufactured product
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1073"
@@ -10,7 +10,7 @@ Description :
 * ^title = "Animal Feed Source"
 * ^name = "AnimalFeedSource"
 * http://terminology.hl7.org/CodeSystem/umls#C1547887 "Commercial product" 
-* http://terminology.hl7.org/CodeSystem/umls#C1547887 "Commercial product" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1547887 "Commercial product" 
 
 * DICOMDCMCodeSystem#127390 "Locally manufactured product" 
 

@@ -2,7 +2,7 @@ ValueSet    : CID_3494
 Id          : dicom-cid-3494-IVUSNonMorphologicalFinding
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  True Lumen   SCT  Arterial Blood Stasis   SCT  Incomplete Stent apposition   SCT  Acquired Incomplete stent apposition  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  True Lumen   SCT  Arterial Blood Stasis   SCT  Incomplete Stent apposition   SCT  Acquired Incomplete stent apposition
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.128"

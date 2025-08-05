@@ -2,7 +2,7 @@ ValueSet    : CID_13
 Id          : dicom-cid-13-ImagingContrastAgentIngredient
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Iodine   SCT  Gadolinium   SCT  Carbon Dioxide   SCT  Barium   SCT  Xenon   SCT  Air   SCT  Oxygen   SCT  Water   SCT  Iron  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Iodine   SCT  Gadolinium   SCT  Carbon Dioxide   SCT  Barium   SCT  Xenon   SCT  Air   SCT  Oxygen   SCT  Water   SCT  Iron
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.11"

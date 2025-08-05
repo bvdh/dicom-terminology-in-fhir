@@ -2,7 +2,7 @@ ValueSet    : CID_94
 Id          : dicom-cid-94-PhysicalForceAppliedDuringAcquisition
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Traction - action   SCT  Compression - action   SCT  Rotation - action  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Traction - action   SCT  Compression - action   SCT  Rotation - action
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.894"

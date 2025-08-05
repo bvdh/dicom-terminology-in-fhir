@@ -1,4 +1,4 @@
-CodeSystem: NEU
+CodeSystem: NEUCodeSystem
 Id: dicom-codesystem-NEU
 Title: "NEU"
 Description: "The numeric brainInfoID is used as the Code Value."

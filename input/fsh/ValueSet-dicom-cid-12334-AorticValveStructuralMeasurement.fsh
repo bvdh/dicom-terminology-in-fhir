@@ -12,7 +12,7 @@ The Units column contains the proper UCUM representation of the recommended unit
 * DICOMDCMCodeSystem#131140 "Aorta sinotubular junction area" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C2059685 "Aortic annulus area" 
-* http://terminology.hl7.org/CodeSystem/umls#C2059685 "Aortic annulus area" 
+// * http://terminology.hl7.org/CodeSystem/umls#C2059685 "Aortic annulus area" 
 
 * DICOMDCMCodeSystem#131143 "Aortic annulus max diameter" 
 
@@ -29,7 +29,7 @@ The Units column contains the proper UCUM representation of the recommended unit
 * DICOMDCMCodeSystem#131150 "Aortic sinus of valsalva area" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C2059455 "Aortic sinus of valsalva diameter" 
-* http://terminology.hl7.org/CodeSystem/umls#C2059455 "Aortic sinus of valsalva diameter" 
+// * http://terminology.hl7.org/CodeSystem/umls#C2059455 "Aortic sinus of valsalva diameter" 
 
 * DICOMDCMCodeSystem#131152 "Aortic valve coaptation length" 
 

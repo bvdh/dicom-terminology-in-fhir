@@ -2,7 +2,7 @@ ValueSet    : CID_12031
 Id          : dicom-cid-12031-ProtocolIntervalEvent
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Start of drug dose administration DCM  Start of contrast agent administration DCM  Destruction of microbubbles DCM  Onset of exercise DCM  Cessation of exercise DCM  Onset of stimulation DCM  Cessation of stimulation
+Coding Scheme Designator Code Value Code Meaning DCM  Start of drug dose administration DCM  Start of contrast agent administration DCM  Destruction of microbubbles DCM  Onset of exercise DCM  Cessation of exercise DCM  Onset of stimulation DCM  Cessation of stimulation
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.806"

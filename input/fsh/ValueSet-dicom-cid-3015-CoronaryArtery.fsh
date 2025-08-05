@@ -2,7 +2,7 @@ ValueSet    : CID_3015
 Id          : dicom-cid-3015-CoronaryArtery
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID   SCT  Left Posterolateral Circumflex Coronary Artery   SCT  Posterolateral branch of right Coronary Artery   SCT  Coronary Artery Graft  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID   SCT  Left Posterolateral Circumflex Coronary Artery   SCT  Posterolateral branch of right Coronary Artery   SCT  Coronary Artery Graft
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.48"

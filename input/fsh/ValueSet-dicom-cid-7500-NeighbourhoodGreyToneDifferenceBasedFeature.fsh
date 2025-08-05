@@ -2,7 +2,7 @@ ValueSet    : CID_7500
 Id          : dicom-cid-7500-NeighbourhoodGreyToneDifferenceBasedFeature
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning IBSI QCDE Coarseness of NGTDM IBSI 65HE Contrast of NGTDM IBSI NQ30 Busyness of NGTDM IBSI HDEZ Complexity of NGTDM IBSI 1X9X Strength of NGTDM
+Coding Scheme Designator Code Value Code Meaning IBSI QCDE Coarseness of NGTDM IBSI 65HE Contrast of NGTDM IBSI NQ30 Busyness of NGTDM IBSI HDEZ Complexity of NGTDM IBSI 1X9X Strength of NGTDM
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1273"

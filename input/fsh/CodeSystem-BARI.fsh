@@ -1,4 +1,4 @@
-CodeSystem: BARI
+CodeSystem: BARICodeSystem
 Id: dicom-codesystem-BARI
 Title: "BARI"
 Description: "Bypass Angioplasty Revascularization Investigation"

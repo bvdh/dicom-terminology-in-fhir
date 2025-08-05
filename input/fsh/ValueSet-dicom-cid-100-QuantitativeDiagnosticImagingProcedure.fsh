@@ -2,7 +2,7 @@ ValueSet    : CID_100
 Id          : dicom-cid-100-QuantitativeDiagnosticImagingProcedure
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Imaging procedure   SCT  Magnetic resonance imaging guidance   DCM  Multiparametric MRI   SCT  Multiparametric MRI of prostate   DCM  Multiparametric MRI of whole body   SCT  Dynamic magnetic resonance imaging of knee   SCT  Dynamic magnetic resonance imaging of pelvis   LN  CT unspecified body region   LN  MRI unspecified body region   LN  NM unspecified body region   LN  PET unspecified body region   LN  XR unspecified body region   SCT  Angiography   LN  PET whole body   SCT  PET/CT FDG imaging of whole body   SCT  PET/CT MET imaging of whole body   LN  CT perfusion head with contrast IV   LN  SPECT brain  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Imaging procedure   SCT  Magnetic resonance imaging guidance   DCM  Multiparametric MRI   SCT  Multiparametric MRI of prostate   DCM  Multiparametric MRI of whole body   SCT  Dynamic magnetic resonance imaging of knee   SCT  Dynamic magnetic resonance imaging of pelvis   LN  CT unspecified body region   LN  MRI unspecified body region   LN  NM unspecified body region   LN  PET unspecified body region   LN  XR unspecified body region   SCT  Angiography   LN  PET whole body   SCT  PET/CT FDG imaging of whole body   SCT  PET/CT MET imaging of whole body   LN  CT perfusion head with contrast IV   LN  SPECT brain
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.998"

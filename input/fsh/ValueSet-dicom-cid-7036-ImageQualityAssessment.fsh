@@ -2,7 +2,7 @@ ValueSet    : CID_7036
 Id          : dicom-cid-7036-ImageQualityAssessment
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning RADLEX  Diagnostic quality RADLEX  Limited quality RADLEX  Non-diagnostic quality
+Coding Scheme Designator Code Value Code Meaning RADLEX  Diagnostic quality RADLEX  Limited quality RADLEX  Non-diagnostic quality
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1027"

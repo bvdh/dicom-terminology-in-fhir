@@ -2,7 +2,7 @@ ValueSet    : CID_637
 Id          : dicom-cid-637-ExogenousSubstanceType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Graft material   DCM  Tumor Graft   SCT  Fibril   SCT  Virus   SCT  Cytokine   SCT  Toxin   The specific concept
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Graft material   DCM  Tumor Graft   SCT  Fibril   SCT  Virus   SCT  Cytokine   SCT  Toxin   The specific concept
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1102"

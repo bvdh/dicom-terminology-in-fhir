@@ -2,7 +2,7 @@ ValueSet    : CID_12120
 Id          : dicom-cid-12120-UltrasoundBloodVelocityMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  End Diastolic Velocity  LN  Minimum Diastolic Velocity  LN  Peak Systolic Velocity  LN  Peak Blood Velocity  LN  Time averaged mean velocity  LN  Time averaged peak velocity  LN  Velocity Time Integral  DCM 110828 Flow velocity
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  End Diastolic Velocity  LN  Minimum Diastolic Velocity  LN  Peak Systolic Velocity  LN  Peak Blood Velocity  LN  Time averaged mean velocity  LN  Time averaged peak velocity  LN  Velocity Time Integral  DCM 110828 Flow velocity
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.586"

@@ -2,7 +2,7 @@ ValueSet    : CID_3676
 Id          : dicom-cid-3676-LeadMeasurementTechnique
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Averaged   SCT  Routine   SCT  Median   SCT  Representative   SCT  Single Beats  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Averaged   SCT  Routine   SCT  Median   SCT  Representative   SCT  Single Beats
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.190"

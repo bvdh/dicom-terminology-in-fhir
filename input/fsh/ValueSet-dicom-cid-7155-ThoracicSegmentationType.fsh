@@ -2,7 +2,7 @@ ValueSet    : CID_7155
 Id          : dicom-cid-7155-ThoracicSegmentationType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Blood Vessel   SCT  Bone of thorax   SCT  Bronchus   SCT  Chest cavity   SCT  Chest wall muscle   SCT  Clavicle   SCT  Diaphragm   SCT  Esophagus   SCT  Lung   SCT  Mediastinum   SCT  Pleura   SCT  Rib   SCT  Skin of chest   SCT  Sternum   SCT  Thoracic spine   SCT  Thorax   SCT  Trachea   SCT  Thymus     
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Blood Vessel   SCT  Bone of thorax   SCT  Bronchus   SCT  Chest cavity   SCT  Chest wall muscle   SCT  Clavicle   SCT  Diaphragm   SCT  Esophagus   SCT  Lung   SCT  Mediastinum   SCT  Pleura   SCT  Rib   SCT  Skin of chest   SCT  Sternum   SCT  Thoracic spine   SCT  Thorax   SCT  Trachea   SCT  Thymus
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.501"

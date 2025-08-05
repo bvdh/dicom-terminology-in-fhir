@@ -2,7 +2,7 @@ ValueSet    : CID_3805
 Id          : dicom-cid-3805-StenosisType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  arteriosclerotic vascular disease   SCT  compression   SCT  fibrous   SCT  Raynaud's disease   SCT  entrapment   SCT  vasculitis   SCT  thrombosis   SCT  embolism   SCT  cystic adventitial disease  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  arteriosclerotic vascular disease   SCT  compression   SCT  fibrous   SCT  Raynaud's disease   SCT  entrapment   SCT  vasculitis   SCT  thrombosis   SCT  embolism   SCT  cystic adventitial disease
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.266"

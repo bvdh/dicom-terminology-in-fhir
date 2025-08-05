@@ -2,7 +2,7 @@ ValueSet    : CID_3641
 Id          : dicom-cid-3641-HemodynamicAssessment
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Left Ventricular Systolic Pressure   SCT  Left Ventricular End-Diastolic Pressure   SCT  Pulmonary Artery Pressure   SCT  Pulmonary Vascular Resistance   SCT  Pulmonary Capillary Wedge Pressure   SCT  Right Ventricular Systolic Pressure   SCT  Right Ventricular End-Diastolic Pressure   SCT  Right Atrial Pressure   SCT  Vascular Resistance   SCT  Diastolic Pressure  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Left Ventricular Systolic Pressure   SCT  Left Ventricular End-Diastolic Pressure   SCT  Pulmonary Artery Pressure   SCT  Pulmonary Vascular Resistance   SCT  Pulmonary Capillary Wedge Pressure   SCT  Right Ventricular Systolic Pressure   SCT  Right Ventricular End-Diastolic Pressure   SCT  Right Atrial Pressure   SCT  Vascular Resistance   SCT  Diastolic Pressure
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.177"

@@ -2,7 +2,7 @@ ValueSet    : CID_3627
 Id          : dicom-cid-3627-MeasurementType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Best value   SCT  Mean   SCT  Median   SCT  Mode   SCT  Point source measurement   SCT  Peak to peak   SCT  Visual estimation   SCT  Estimated   SCT  Calculated   SCT  Measured  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Best value   SCT  Mean   SCT  Median   SCT  Mode   SCT  Point source measurement   SCT  Peak to peak   SCT  Visual estimation   SCT  Estimated   SCT  Calculated   SCT  Measured
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.172"

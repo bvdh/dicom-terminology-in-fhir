@@ -2,7 +2,7 @@ ValueSet    : CID_3814
 Id          : dicom-cid-3814-StentComposition
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  metal stent   SCT  plastic stent  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  metal stent   SCT  plastic stent
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.273"

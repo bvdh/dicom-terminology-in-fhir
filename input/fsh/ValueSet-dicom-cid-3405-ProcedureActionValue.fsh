@@ -2,7 +2,7 @@ ValueSet    : CID_3405
 Id          : dicom-cid-3405-ProcedureActionValue
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Atherectomy   SCT  Atherectomy by rotary cutter   SCT  Atherectomy by laser   SCT  Selective embolization of artery   SCT  Percutaneous transluminal balloon angioplasty   SCT  Transcatheter therapy for embolization   SCT  Percutaneous removal of intravascular foreign body   SCT  Stent placement   SCT  Transcatheter deployment of detachable balloon   SCT  Percutaneous insertion of intravascular filter     
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Atherectomy   SCT  Atherectomy by rotary cutter   SCT  Atherectomy by laser   SCT  Selective embolization of artery   SCT  Percutaneous transluminal balloon angioplasty   SCT  Transcatheter therapy for embolization   SCT  Percutaneous removal of intravascular foreign body   SCT  Stent placement   SCT  Transcatheter deployment of detachable balloon   SCT  Percutaneous insertion of intravascular filter
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.70"

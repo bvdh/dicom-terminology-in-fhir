@@ -2,7 +2,7 @@ ValueSet    : CID_4405
 Id          : dicom-cid-4405-SkinDisorder
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Solar degeneration   SCT  Atypical mole syndrome   SCT  Telangiectasia, cutaneous, cancer syndrome, familial   SCT  Gorlin syndrome   SCT  PTEN hamartoma tumor syndrome   SCT  Rombo syndrome   SCT  Rosacea   SCT  Eczema   SCT  Psoriasis   SCT  Lupus erythematosus   SCT  Atopic dermatitis   SCT  Actinic keratosis  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Solar degeneration   SCT  Atypical mole syndrome   SCT  Telangiectasia, cutaneous, cancer syndrome, familial   SCT  Gorlin syndrome   SCT  PTEN hamartoma tumor syndrome   SCT  Rombo syndrome   SCT  Rosacea   SCT  Eczema   SCT  Psoriasis   SCT  Lupus erythematosus   SCT  Atopic dermatitis   SCT  Actinic keratosis
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1350"

@@ -2,7 +2,7 @@ ValueSet    : CID_4209
 Id          : dicom-cid-4209-OphthalmicAnatomicStructureImaged
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anterior chamber of eye   SCT  Both eyes   SCT  Choroid of eye   SCT  Ciliary body   SCT  Conjunctiva   SCT  Cornea   SCT  Eye   SCT  Eyelid   SCT  Fovea centralis   SCT  Iris   SCT  Lacrimal caruncle   SCT  Lacrimal gland   SCT  Lacrimal sac   SCT  Lens   SCT  Lower Eyelid   SCT  Ophthalmic artery   SCT  Optic nerve head   SCT  Retina   SCT  Sclera   SCT  Upper Eyelid  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anterior chamber of eye   SCT  Both eyes   SCT  Choroid of eye   SCT  Ciliary body   SCT  Conjunctiva   SCT  Cornea   SCT  Eye   SCT  Eyelid   SCT  Fovea centralis   SCT  Iris   SCT  Lacrimal caruncle   SCT  Lacrimal gland   SCT  Lacrimal sac   SCT  Lens   SCT  Lower Eyelid   SCT  Ophthalmic artery   SCT  Optic nerve head   SCT  Retina   SCT  Sclera   SCT  Upper Eyelid
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.325"

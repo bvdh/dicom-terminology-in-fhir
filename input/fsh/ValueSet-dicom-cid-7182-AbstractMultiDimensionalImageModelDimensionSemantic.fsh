@@ -1,8 +1,8 @@
 ValueSet    : CID_7182
-Id          : dicom-cid-7182-AbstractMultiDimensionalImageModelDimensionSemantic
+Id          : dicom-cid-7182-AbstractMultiDimensionalImageModelDimensionSemant
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Linear Displacement DCM  Photon Energy DCM  Time DCM  Angle
+Coding Scheme Designator Code Value Code Meaning DCM  Linear Displacement DCM  Photon Energy DCM  Time DCM  Angle
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.919"

@@ -2,7 +2,7 @@ ValueSet    : CID_3111
 Id          : dicom-cid-3111-NuclearCardiologyRadiopharmaceutical
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Thallium-201   SCT  Tc-99m sestamibi   SCT  Tc-99m tetrofosmin  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Thallium-201   SCT  Tc-99m sestamibi   SCT  Tc-99m tetrofosmin
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.743"

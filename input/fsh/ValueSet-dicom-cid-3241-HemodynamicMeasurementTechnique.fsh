@@ -2,7 +2,7 @@ ValueSet    : CID_3241
 Id          : dicom-cid-3241-HemodynamicMeasurementTechnique
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Averaged hemodynamic measurement method   SCT  Composite hemodynamic measurement method   SCT  Computed hemodynamic measurement method   SCT  Conductance catheter method   SCT  Doppler catheter method   SCT  Dual catheter method   SCT  Fluid filled catheter method   SCT  Fiberoptic catheter method   SCT  Pullback method   SCT  Pulmonary capillary wedge method   SCT  Static catheter method   SCT  Thermistor catheter method   SCT  Tip manometer method   SCT  Wedge method  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Averaged hemodynamic measurement method   SCT  Composite hemodynamic measurement method   SCT  Computed hemodynamic measurement method   SCT  Conductance catheter method   SCT  Doppler catheter method   SCT  Dual catheter method   SCT  Fluid filled catheter method   SCT  Fiberoptic catheter method   SCT  Pullback method   SCT  Pulmonary capillary wedge method   SCT  Static catheter method   SCT  Thermistor catheter method   SCT  Tip manometer method   SCT  Wedge method
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.54"

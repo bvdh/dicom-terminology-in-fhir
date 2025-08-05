@@ -2,7 +2,7 @@ ValueSet    : CID_6330
 Id          : dicom-cid-6330-PIRADSv2T2WITZLesionAssessmentCategory
 Description :
 """
-The codes in this CID describe lesion assessment in T2-weighted MR images for the lesions located in the transitional zone of the prostate.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID RADLEX  PI-RADS 1 - T2WI TZ Very low   RADLEX  PI-RADS 2 - T2WI TZ Low   RADLEX  PI-RADS 3 - T2WI TZ Intermediate   RADLEX  PI-RADS 4 - T2WI TZ High   RADLEX  PI-RADS 5 - T2WI TZ Very high   RADLEX  PI-RADS X - T2WI TZ Inadequate or absent  
+The codes in this CID describe lesion assessment in T2-weighted MR images for the lesions located in the transitional zone of the prostate.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID RADLEX  PI-RADS 1 - T2WI TZ Very low   RADLEX  PI-RADS 2 - T2WI TZ Low   RADLEX  PI-RADS 3 - T2WI TZ Intermediate   RADLEX  PI-RADS 4 - T2WI TZ High   RADLEX  PI-RADS 5 - T2WI TZ Very high   RADLEX  PI-RADS X - T2WI TZ Inadequate or absent
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1387"

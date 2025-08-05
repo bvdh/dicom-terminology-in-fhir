@@ -2,7 +2,7 @@ ValueSet    : CID_6352
 Id          : dicom-cid-6352-ProstateCancerDiagnosticBloodLabMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Units LN  Prostate Cancer Antigen   (ng/mL, UCUM, "ng/mL") LN  Prostate specific Antigen Density   ({ratio}, UCUM, "ratio") NCIt  4Kscore   (%, UCUM, "%")
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Units LN  Prostate Cancer Antigen   (ng/mL, UCUM, "ng/mL") LN  Prostate specific Antigen Density   ({ratio}, UCUM, "ratio") NCIt  4Kscore   (%, UCUM, "%")
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1409"

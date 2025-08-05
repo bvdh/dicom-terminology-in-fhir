@@ -2,7 +2,7 @@ ValueSet    : CID_3489
 Id          : dicom-cid-3489-CalciumDistribution
 Description :
 """
-This Context Group is a set of modifiers specifying the distribution of a calcium deposit in an arc of calcium measurement.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Superficial   SCT  Deep  
+This Context Group is a set of modifiers specifying the distribution of a calcium deposit in an arc of calcium measurement.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Superficial   SCT  Deep
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.124"

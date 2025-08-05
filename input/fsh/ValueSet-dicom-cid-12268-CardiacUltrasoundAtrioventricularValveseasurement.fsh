@@ -1,8 +1,8 @@
 ValueSet    : CID_12268
-Id          : dicom-cid-12268-CardiacUltrasoundAtrioventricularValveseasurement
+Id          : dicom-cid-12268-CardiacUltrasoundAtrioventricularValveseasuremen
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning  
+Coding Scheme Designator Code Value Code Meaning
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.849"

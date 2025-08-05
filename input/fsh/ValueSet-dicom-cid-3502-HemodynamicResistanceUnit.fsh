@@ -2,7 +2,7 @@ ValueSet    : CID_3502
 Id          : dicom-cid-3502-HemodynamicResistanceUnit
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UCUM [PRU] P.R.U. UCUM [wood'U] Wood U UCUM dyn.s.cm-5 dyn.s.cm-5 P.R.U. is in units of mm[Hg].s/ml; Wood Units is in mm[Hg].min/l
+Coding Scheme Designator Code Value Code Meaning UCUM [PRU] P.R.U. UCUM [wood'U] Wood U UCUM dyn.s.cm-5 dyn.s.cm-5 P.R.U. is in units of mm[Hg].s/ml; Wood Units is in mm[Hg].min/l
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.133"

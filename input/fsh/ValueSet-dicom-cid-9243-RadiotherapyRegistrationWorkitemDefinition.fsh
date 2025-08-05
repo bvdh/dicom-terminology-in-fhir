@@ -2,7 +2,7 @@ ValueSet    : CID_9243
 Id          : dicom-cid-9243-RadiotherapyRegistrationWorkitemDefinition
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  RT Patient Position Registration, single plane DCM  RT Patient Position Registration, dual plane DCM  RT Patient Position Registration, 3D CT general DCM  RT Patient Position Registration, 3D CT marker-based DCM  RT Patient Position Registration, 3D CT volume-based DCM  RT Patient Position Registration, 3D on 2D reference DCM  RT Patient Position Registration, 2D on 3D reference DCM  RT Patient Position Registration, Optical DCM  RT Patient Position Registration, Ultrasound DCM  RT Patient Position Registration, Spatial Fiducials DCM  RT Patient Position Registration, MR
+Coding Scheme Designator Code Value Code Meaning DCM  RT Patient Position Registration, single plane DCM  RT Patient Position Registration, dual plane DCM  RT Patient Position Registration, 3D CT general DCM  RT Patient Position Registration, 3D CT marker-based DCM  RT Patient Position Registration, 3D CT volume-based DCM  RT Patient Position Registration, 3D on 2D reference DCM  RT Patient Position Registration, 2D on 3D reference DCM  RT Patient Position Registration, Optical DCM  RT Patient Position Registration, Ultrasound DCM  RT Patient Position Registration, Spatial Fiducials DCM  RT Patient Position Registration, MR
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.933"

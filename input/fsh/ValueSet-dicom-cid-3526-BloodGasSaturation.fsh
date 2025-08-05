@@ -2,7 +2,7 @@ ValueSet    : CID_3526
 Id          : dicom-cid-3526-BloodGasSaturation
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID DCM  Blood Carbon dioxide saturation  LN  Blood Oxygen saturation  LN  Arterial Oxygen saturation  LN  Venous Oxygen saturation  LN  Capillary Blood Oxygen Saturation  LN  Capillary Blood Oxygen Saturation, by Oximetry 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID DCM  Blood Carbon dioxide saturation  LN  Blood Oxygen saturation  LN  Arterial Oxygen saturation  LN  Venous Oxygen saturation  LN  Capillary Blood Oxygen Saturation  LN  Capillary Blood Oxygen Saturation, by Oximetry
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.140"

@@ -1,8 +1,8 @@
 ValueSet    : CID_624
-Id          : dicom-cid-624-InhalationalAnesthesiaAgentForSmallAnimalAnesthesia
+Id          : dicom-cid-624-InhalationalAnesthesiaAgentForSmallAnimalAnesthesi
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Carbon dioxide   SCT  Chloroform   SCT  Desflurane   SCT  Diethyl ether   SCT  Enflurane   SCT  Halothane   SCT  Isoflurane   SCT  Methoxyflurane   SCT  Nitrous oxide   SCT  Sevoflurane   In this Context Group, SNOMED substance codes are used in preference to product codes, since there is no need to refer to specific products or preparations. SNOMED codes are used in preference to other potential sources of pharmaceutical related codes, such as from the National Drug Code (NDC) directory.
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Carbon dioxide   SCT  Chloroform   SCT  Desflurane   SCT  Diethyl ether   SCT  Enflurane   SCT  Halothane   SCT  Isoflurane   SCT  Methoxyflurane   SCT  Nitrous oxide   SCT  Sevoflurane   In this Context Group, SNOMED substance codes are used in preference to product codes, since there is no need to refer to specific products or preparations. SNOMED codes are used in preference to other potential sources of pharmaceutical related codes, such as from the National Drug Code (NDC) directory.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1089"

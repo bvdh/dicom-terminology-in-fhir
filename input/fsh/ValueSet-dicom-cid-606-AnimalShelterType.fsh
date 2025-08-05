@@ -2,7 +2,7 @@ ValueSet    : CID_606
 Id          : dicom-cid-606-AnimalShelterType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  None   DCM  Igloo   DCM  Red translucent igloo  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  None   DCM  Igloo   DCM  Red translucent igloo
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1071"

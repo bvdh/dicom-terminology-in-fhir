@@ -2,7 +2,7 @@ ValueSet    : CID_6064
 Id          : dicom-cid-6064-UltrasoundFindingForBreast
 Description :
 """
-These terms were obtained from BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Ultrasound scan normal   SCT  Cyst of breast   DCM  Complex cyst   DCM  Intracystic lesion   SCT  Mammary duct ectasia   DCM  Solid mass   SCT  Lymph node   SCT  Sebaceous cyst of skin of breast   DCM  Clustered microcysts   DCM  Complicated cyst   SCT  Foreign body  
+These terms were obtained from BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Ultrasound scan normal   SCT  Cyst of breast   DCM  Complex cyst   DCM  Intracystic lesion   SCT  Mammary duct ectasia   DCM  Solid mass   SCT  Lymph node   SCT  Sebaceous cyst of skin of breast   DCM  Clustered microcysts   DCM  Complicated cyst   SCT  Foreign body
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.393"

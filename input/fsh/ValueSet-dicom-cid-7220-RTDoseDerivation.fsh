@@ -2,7 +2,7 @@ ValueSet    : CID_7220
 Id          : dicom-cid-7220-RTDoseDerivation
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Composed from prior doses DCM  Composed from prior doses and current plan DCM  Composed with radiobiological effects DCM  Composed with weighting for fractions delivered
+Coding Scheme Designator Code Value Code Meaning DCM  Composed from prior doses DCM  Composed from prior doses and current plan DCM  Composed with radiobiological effects DCM  Composed with weighting for fractions delivered
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.968"

@@ -2,7 +2,7 @@ ValueSet    : CID_12009
 Id          : dicom-cid-12009-EarlyGestationBiometryMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Crown Rump Length  LN  Gestational Sac Diameter  LN  Spine Length  LN  Yolk Sac length  LN  Nuchal Translucency 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Crown Rump Length  LN  Gestational Sac Diameter  LN  Spine Length  LN  Yolk Sac length  LN  Nuchal Translucency
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.558"

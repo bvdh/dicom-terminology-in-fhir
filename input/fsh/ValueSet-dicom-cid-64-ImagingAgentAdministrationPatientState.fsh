@@ -2,7 +2,7 @@ ValueSet    : CID_64
 Id          : dicom-cid-64-ImagingAgentAdministrationPatientState
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Abnormal Renal Function   DCM  Acute unilateral renal blockage DCM  Low Thyroid Uptake DCM  High Thyroid Uptake DCM  Severely Jaundiced SCT  History of renal failure   SCT  History of diabetes mellitus   SCT  Asthma   SCT  Aortic stenosis   SCT  Angina pectoris   SCT  History of congestive heart failure   SCT  History of Hypertension   SCT  Pulmonary hypertension   SCT  Cardiomyopathy   SCT  Anxiety   SCT  Paraproteinemia   SCT  Multiple myeloma   SCT  History of Beta-blocking agents therapy   SCT  Malignant epithelial neoplasm of thyroid   DCM  Patient allergic to media/contrast
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Abnormal Renal Function   DCM  Acute unilateral renal blockage DCM  Low Thyroid Uptake DCM  High Thyroid Uptake DCM  Severely Jaundiced SCT  History of renal failure   SCT  History of diabetes mellitus   SCT  Asthma   SCT  Aortic stenosis   SCT  Angina pectoris   SCT  History of congestive heart failure   SCT  History of Hypertension   SCT  Pulmonary hypertension   SCT  Cardiomyopathy   SCT  Anxiety   SCT  Paraproteinemia   SCT  Multiple myeloma   SCT  History of Beta-blocking agents therapy   SCT  Malignant epithelial neoplasm of thyroid   DCM  Patient allergic to media/contrast
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1254"

@@ -2,7 +2,7 @@ ValueSet    : CID_11
 Id          : dicom-cid-11-AdministrationRoute
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Intravenous route   SCT  Intra-arterial route   SCT  Intramuscular route   SCT  Subcutaneous route   SCT  Intracutaneous route   SCT  Intraperitoneal route   SCT  Intramedullary route   SCT  Intrathecal route   SCT  Intra-articular route   NCIt  Intraepithelial route   SCT  Topical route   SCT  Oral route   NCIt  Transluminal route   SCT  Intraluminal route   NCIt  Extraluminal route   SCT  By inhalation   SCT  Per rectum   SCT  Vaginal route   SCT  Intracoronary route   SCT  Intracardiac route   SCT  Intraventricular route - cardiac   DCM  Retro-orbital route   SCT  Nasal route   SCT  Intradermal route   SCT  Intratumor route   SCT  Intracorpus cavernosum route  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Intravenous route   SCT  Intra-arterial route   SCT  Intramuscular route   SCT  Subcutaneous route   SCT  Intracutaneous route   SCT  Intraperitoneal route   SCT  Intramedullary route   SCT  Intrathecal route   SCT  Intra-articular route   NCIt  Intraepithelial route   SCT  Topical route   SCT  Oral route   NCIt  Transluminal route   SCT  Intraluminal route   NCIt  Extraluminal route   SCT  By inhalation   SCT  Per rectum   SCT  Vaginal route   SCT  Intracoronary route   SCT  Intracardiac route   SCT  Intraventricular route - cardiac   DCM  Retro-orbital route   SCT  Nasal route   SCT  Intradermal route   SCT  Intratumor route   SCT  Intracorpus cavernosum route
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.9"
@@ -96,9 +96,9 @@ Description :
 * http://snomed.info/srt#G-D172 "Nasal route" 
 * http://terminology.hl7.org/CodeSystem/umls#C1522019 "Nasal route" 
 
-* http://snomed.info/sct#372464004 "Intradermal route" 
-* http://snomed.info/srt#G-D17D "Intradermal route" 
-* http://terminology.hl7.org/CodeSystem/umls#C1522475 "Intradermal route" 
+// * http://snomed.info/sct#372464004 "Intradermal route" 
+// * http://snomed.info/srt#G-D17D "Intradermal route" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1522475 "Intradermal route" 
 
 * http://snomed.info/sct#447122006 "Intratumor route" 
 * http://snomed.info/srt#R-F2CD4 "Intratumor route" 

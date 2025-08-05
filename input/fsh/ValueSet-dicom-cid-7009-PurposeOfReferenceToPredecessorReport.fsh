@@ -2,7 +2,7 @@ ValueSet    : CID_7009
 Id          : dicom-cid-7009-PurposeOfReferenceToPredecessorReport
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Replaced report DCM  Addended report DCM  Preliminary report DCM  Partial report DCM  Current procedure evidence The concepts of replaced and addended correspond to REPLACEMENT and ADDENDUM in HL7 V2.6 Chapter 9, with the exception that an EDITED value is not supported due to incompatibility with HL7 CDA.
+Coding Scheme Designator Code Value Code Meaning DCM  Replaced report DCM  Addended report DCM  Preliminary report DCM  Partial report DCM  Current procedure evidence The concepts of replaced and addended correspond to REPLACEMENT and ADDENDUM in HL7 V2.6 Chapter 9, with the exception that an EDITED value is not supported due to incompatibility with HL7 CDA.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.818"

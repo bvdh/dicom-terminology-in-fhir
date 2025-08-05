@@ -1,8 +1,8 @@
 ValueSet    : CID_12285
-Id          : dicom-cid-12285-CardiacUltrasoundAtrioventricularValveFindingSite
+Id          : dicom-cid-12285-CardiacUltrasoundAtrioventricularValveFindingSit
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Mitral Valve   SCT  Tricuspid Valve   SCT  Common non-mitral non-tricuspid Atrioventricular Valve Structure  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Mitral Valve   SCT  Tricuspid Valve   SCT  Common non-mitral non-tricuspid Atrioventricular Valve Structure
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.865"

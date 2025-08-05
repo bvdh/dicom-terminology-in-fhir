@@ -2,7 +2,7 @@ ValueSet    : CID_3739
 Id          : dicom-cid-3739-CathProcedureType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR Equivalent SCT  Catheterization of right heart   54-1 SCT  Catheterization of left heart   54-2 SCT  Catheterization of both left and right heart with graft    SCT  Catheterization of both left and right heart without graft    DCM  Percutaneous Coronary Intervention   54-3
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR Equivalent SCT  Catheterization of right heart   54-1 SCT  Catheterization of left heart   54-2 SCT  Catheterization of both left and right heart with graft    SCT  Catheterization of both left and right heart without graft    DCM  Percutaneous Coronary Intervention   54-3
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.236"

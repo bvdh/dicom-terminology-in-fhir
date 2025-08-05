@@ -2,7 +2,7 @@ ValueSet    : CID_6401
 Id          : dicom-cid-6401-NonLesionObjectTypePhysicalObject
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  BB shot (Lead Pellet)   SCT  Bullet   SCT  Catheter   SCT  Clip   SCT  Collimator   SCT  Compression paddle   SCT  ID Plate   SCT  Implant   SCT  J Wire   SCT  Opaque Marker   DCM  Other Marker   SCT  Staple   SCT  Suture   SCT  Spacer   This Context Group formerly included SNOMED code J-83250, which has been replaced with A-00D7B. See
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  BB shot (Lead Pellet)   SCT  Bullet   SCT  Catheter   SCT  Clip   SCT  Collimator   SCT  Compression paddle   SCT  ID Plate   SCT  Implant   SCT  J Wire   SCT  Opaque Marker   DCM  Other Marker   SCT  Staple   SCT  Suture   SCT  Spacer   This Context Group formerly included SNOMED code J-83250, which has been replaced with A-00D7B. See
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1185"

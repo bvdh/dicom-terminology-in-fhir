@@ -2,7 +2,7 @@ ValueSet    : CID_9570
 Id          : dicom-cid-9570-RTOverriddenTreatmentParameter
 Description :
 """
-           Include Include
+Include Include
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1327"

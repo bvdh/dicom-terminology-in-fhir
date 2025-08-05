@@ -2,7 +2,7 @@ ValueSet    : CID_4262
 Id          : dicom-cid-4262-RetinalThicknessDefinition
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Retinal nerve fiber layer thickness DCM  Ganglion cell complex thickness DCM  Total retinal thickness (ILM to IS-OS) DCM  Total retinal thickness (ILM to RPE) DCM  Total retinal thickness (ILM to BM)
+Coding Scheme Designator Code Value Code Meaning DCM  Retinal nerve fiber layer thickness DCM  Ganglion cell complex thickness DCM  Total retinal thickness (ILM to IS-OS) DCM  Total retinal thickness (ILM to RPE) DCM  Total retinal thickness (ILM to BM)
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.938"

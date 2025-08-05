@@ -2,7 +2,7 @@ ValueSet    : CID_3531
 Id          : dicom-cid-3531-OxygenAdministration
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Oxygen Administration by nasal cannula   SCT  Oxygen Administration by mask   DCM  Oxygen Administration by ventilator  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Oxygen Administration by nasal cannula   SCT  Oxygen Administration by mask   DCM  Oxygen Administration by ventilator
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.145"

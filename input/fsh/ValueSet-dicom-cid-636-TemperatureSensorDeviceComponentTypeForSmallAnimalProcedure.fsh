@@ -1,8 +1,8 @@
 ValueSet    : CID_636
-Id          : dicom-cid-636-TemperatureSensorDeviceComponentTypeForSmallAnimalProcedure
+Id          : dicom-cid-636-TemperatureSensorDeviceComponentTypeForSmallAnimal
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Rectal temperature   UMLS  Thermography   DCM  Carrier temperature sensor   
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Rectal temperature   UMLS  Thermography   DCM  Carrier temperature sensor
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1101"
@@ -14,7 +14,7 @@ Description :
 * http://terminology.hl7.org/CodeSystem/umls#C0489749 "Rectal temperature" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C0039810 "Thermography" 
-* http://terminology.hl7.org/CodeSystem/umls#C0039810 "Thermography" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0039810 "Thermography" 
 
 * DICOMDCMCodeSystem#127240 "Carrier temperature sensor" 
 

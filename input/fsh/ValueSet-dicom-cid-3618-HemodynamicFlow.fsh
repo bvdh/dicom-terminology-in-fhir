@@ -2,7 +2,7 @@ ValueSet    : CID_3618
 Id          : dicom-cid-3618-HemodynamicFlow
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Pulmonary Flow DCM  Systemic Flow
+Coding Scheme Designator Code Value Code Meaning DCM  Pulmonary Flow DCM  Systemic Flow
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.168"

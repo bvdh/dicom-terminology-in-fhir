@@ -2,7 +2,7 @@ ValueSet    : CID_3112
 Id          : dicom-cid-3112-AttenuationCorrection
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Algorithmic Attenuation Correction DCM  NM Transmission Attenuation Correction DCM  CT-based Attenuation Correction DCM  No Attenuation Correction
+Coding Scheme Designator Code Value Code Meaning DCM  Algorithmic Attenuation Correction DCM  NM Transmission Attenuation Correction DCM  CT-based Attenuation Correction DCM  No Attenuation Correction
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.744"

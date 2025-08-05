@@ -2,7 +2,7 @@ ValueSet    : CID_7274
 Id          : dicom-cid-7274-MRDiffusionModelFittingMethod
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Log of ratio of two samples DCM  Least squares fit of multiple samples DCM  Levenberg-Marquardt DCM  Trust-Region DCM  Fixed-Dp DCM  Segmented-Unconstrained DCM  Segmented-Constrained DCM  Bayesian-Probability
+Coding Scheme Designator Code Value Code Meaning DCM  Log of ratio of two samples DCM  Least squares fit of multiple samples DCM  Levenberg-Marquardt DCM  Trust-Region DCM  Fixed-Dp DCM  Segmented-Unconstrained DCM  Segmented-Constrained DCM  Bayesian-Probability
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1169"

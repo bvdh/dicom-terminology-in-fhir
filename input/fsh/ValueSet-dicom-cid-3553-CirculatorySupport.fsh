@@ -2,7 +2,7 @@ ValueSet    : CID_3553
 Id          : dicom-cid-3553-CirculatorySupport
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Intra-Aortic Balloon Pump   SCT  External Counter-Pulsation   SCT  Left Ventricular Assist Device   SCT  Extra-corporeal circulation   SCT  Cardiopulmonary bypass  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Intra-Aortic Balloon Pump   SCT  External Counter-Pulsation   SCT  Left Ventricular Assist Device   SCT  Extra-corporeal circulation   SCT  Cardiopulmonary bypass
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.149"

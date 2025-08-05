@@ -2,7 +2,7 @@ ValueSet    : CID_7483
 Id          : dicom-cid-7483-CommonAnatomicRegionsForAnimal
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Notes SCT  Abdomen    SCT  All legs    SCT  Atlantal-axial joint    SCT  Atlanto-occipital joint    SCT  Bladder    SCT  Calcaneal tubercle   See Note 1. SCT  Carpus   See Note 2. SCT  Cervical spine    SCT  Cervico-thoracic spine    SCT  Chest    SCT  Chest and Abdomen    SCT  Coccygeal vertrebrae   See Note 3. SCT  Colon    SCT  Digit    UMLS  Distal phalanx    SCT  Elbow joint    SCT  Entire body    SCT  Esophagus    SCT  Femur    SCT  Fetlock of forelimb    SCT  Fetlock of hindlimb    SCT  Forefoot    SCT  Frontal sinus    SCT  Hindfoot    SCT  Hip joint    SCT  Humerus    SCT  Lumbar spine    SCT  Lumbo-sacral spine    SCT  Mandible    SCT  Mandibular dental arch    SCT  Mandibular incisor teeth    SCT  Maxillary dental arch    SCT  Maxillary incisor teeth    SCT  Metacarpus    SCT  Metatarsus    SCT  Nasal sinus    SCT  Navicular of forefoot   See Note 4. SCT  Navicular of hindfoot   See Note 4. SCT  Orbital structure    SCT  Pastern of forefoot    SCT  Pastern of hindfoot    SCT  Patella    SCT  Pelvis    SCT  Radius and ulna    SCT  Sacrum    SCT  Shoulder    SCT  Skull    SCT  Stiffle    SCT  Tarsus   See Note 5. SCT  Thoracic spine    SCT  Thoraco-lumbar spine    SCT  Tibia and fibula    SCT  Upper gastro-intestinal tract    SCT  Urethra    SCT  Urinary tract    SCT  Wing         In a prior version of this table, the code SRT: T-D8300 was used for
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Notes SCT  Abdomen    SCT  All legs    SCT  Atlantal-axial joint    SCT  Atlanto-occipital joint    SCT  Bladder    SCT  Calcaneal tubercle   See Note 1. SCT  Carpus   See Note 2. SCT  Cervical spine    SCT  Cervico-thoracic spine    SCT  Chest    SCT  Chest and Abdomen    SCT  Coccygeal vertrebrae   See Note 3. SCT  Colon    SCT  Digit    UMLS  Distal phalanx    SCT  Elbow joint    SCT  Entire body    SCT  Esophagus    SCT  Femur    SCT  Fetlock of forelimb    SCT  Fetlock of hindlimb    SCT  Forefoot    SCT  Frontal sinus    SCT  Hindfoot    SCT  Hip joint    SCT  Humerus    SCT  Lumbar spine    SCT  Lumbo-sacral spine    SCT  Mandible    SCT  Mandibular dental arch    SCT  Mandibular incisor teeth    SCT  Maxillary dental arch    SCT  Maxillary incisor teeth    SCT  Metacarpus    SCT  Metatarsus    SCT  Nasal sinus    SCT  Navicular of forefoot   See Note 4. SCT  Navicular of hindfoot   See Note 4. SCT  Orbital structure    SCT  Pastern of forefoot    SCT  Pastern of hindfoot    SCT  Patella    SCT  Pelvis    SCT  Radius and ulna    SCT  Sacrum    SCT  Shoulder    SCT  Skull    SCT  Stiffle    SCT  Tarsus   See Note 5. SCT  Thoracic spine    SCT  Thoraco-lumbar spine    SCT  Tibia and fibula    SCT  Upper gastro-intestinal tract    SCT  Urethra    SCT  Urinary tract    SCT  Wing         In a prior version of this table, the code SRT: T-D8300 was used for
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.815"
@@ -60,7 +60,7 @@ Description :
 * http://terminology.hl7.org/CodeSystem/umls#C0582802 "Digit" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C3669027 "Distal phalanx" 
-* http://terminology.hl7.org/CodeSystem/umls#C3669027 "Distal phalanx" 
+// * http://terminology.hl7.org/CodeSystem/umls#C3669027 "Distal phalanx" 
 
 * http://snomed.info/sct#16953009 "Elbow joint" 
 * http://snomed.info/srt#T-15430 "Elbow joint" 

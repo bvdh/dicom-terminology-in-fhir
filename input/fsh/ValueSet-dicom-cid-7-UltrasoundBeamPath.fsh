@@ -2,7 +2,7 @@ ValueSet    : CID_7
 Id          : dicom-cid-7-UltrasoundBeamPath
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Trans-hepatic   SCT  Trans-gastric   SCT  Trans-pleural   SCT  Trans-mural   SCT  Trans-orbital   SCT  Trans-pancreatic   SCT  Trans-rectal   SCT  Trans-renal   SCT  Trans-temporal   SCT  Trans-thecal   SCT  Trans-urethral   SCT  Trans-vesical   SCT  Trans-splenic   SCT  Trans-esophageal   SCT  Trans-abdominal   SCT  Trans-vaginal  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Trans-hepatic   SCT  Trans-gastric   SCT  Trans-pleural   SCT  Trans-mural   SCT  Trans-orbital   SCT  Trans-pancreatic   SCT  Trans-rectal   SCT  Trans-renal   SCT  Trans-temporal   SCT  Trans-thecal   SCT  Trans-urethral   SCT  Trans-vesical   SCT  Trans-splenic   SCT  Trans-esophageal   SCT  Trans-abdominal   SCT  Trans-vaginal
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.5"

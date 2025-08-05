@@ -2,7 +2,7 @@ ValueSet    : CID_6098
 Id          : dicom-cid-6098-ClinicalCourseOfDisease
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCIt  No Evidence of Disease   NCIt  Recurrent Disease  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCIt  No Evidence of Disease   NCIt  Recurrent Disease
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1277"

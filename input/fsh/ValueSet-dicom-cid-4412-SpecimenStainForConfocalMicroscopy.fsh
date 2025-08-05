@@ -2,7 +2,7 @@ ValueSet    : CID_4412
 Id          : dicom-cid-4412-SpecimenStainForConfocalMicroscopy
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  aluminum chloride   SCT  fluorescein stain   SCT  immunofluorescent stain   SCT  citric acid   SCT  methyl blue stain   SCT  toluidine blue stain   SCT  nile blue stain   SCT  patent blue V sodium salt stain   SCT  acridine orange stain   SCT  Acetic acid  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  aluminum chloride   SCT  fluorescein stain   SCT  immunofluorescent stain   SCT  citric acid   SCT  methyl blue stain   SCT  toluidine blue stain   SCT  nile blue stain   SCT  patent blue V sodium salt stain   SCT  acridine orange stain   SCT  Acetic acid
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1480"

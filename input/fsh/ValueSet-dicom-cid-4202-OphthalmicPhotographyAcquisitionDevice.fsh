@@ -2,7 +2,7 @@ ValueSet    : CID_4202
 Id          : dicom-cid-4202-OphthalmicPhotographyAcquisitionDevice
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Fundus Camera   SCT  Slit Lamp Biomicroscope   SCT  External Camera   SCT  Specular Microscope   SCT  Operating Microscope   SCT  Scanning Laser Ophthalmoscope   SCT  Indirect Ophthalmoscope   SCT  Direct Ophthalmoscope   SCT  Ophthalmic Endoscope   SCT  Keratoscope   SCT  Pupillograph   SCT  FLIO  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Fundus Camera   SCT  Slit Lamp Biomicroscope   SCT  External Camera   SCT  Specular Microscope   SCT  Operating Microscope   SCT  Scanning Laser Ophthalmoscope   SCT  Indirect Ophthalmoscope   SCT  Direct Ophthalmoscope   SCT  Ophthalmic Endoscope   SCT  Keratoscope   SCT  Pupillograph   SCT  FLIO
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.318"

@@ -2,7 +2,7 @@ ValueSet    : CID_12234
 Id          : dicom-cid-12234-RespirationState
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Inspiration   SCT  Expiration  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Inspiration   SCT  Expiration
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.625"

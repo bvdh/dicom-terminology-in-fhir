@@ -2,7 +2,7 @@ ValueSet    : CID_7471
 Id          : dicom-cid-7471-AreaMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Area   SCT  Area of defined region   IBSI C0JK Surface Area of Mesh  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Area   SCT  Area of defined region   IBSI C0JK Surface Area of Mesh
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.525"

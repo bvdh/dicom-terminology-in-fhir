@@ -2,7 +2,7 @@ ValueSet    : CID_12224
 Id          : dicom-cid-12224-UltrasoundImageMode
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  2D mode   SCT  Doppler Color Flow   SCT  M mode   SCT  Doppler Pulsed   SCT  Doppler Continuous Wave   SCT  Power Doppler   SCT  3D mode   SCT  Tissue Doppler Imaging   SCT  B mode   DCM  Point Shear Wave Elastography   DCM  2D Shear Wave Elastography   DCM  3D Shear Wave Elastography   DCM  2D Speckle Tracking   DCM  3D Speckle Tracking  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  2D mode   SCT  Doppler Color Flow   SCT  M mode   SCT  Doppler Pulsed   SCT  Doppler Continuous Wave   SCT  Power Doppler   SCT  3D mode   SCT  Tissue Doppler Imaging   SCT  B mode   DCM  Point Shear Wave Elastography   DCM  2D Shear Wave Elastography   DCM  3D Shear Wave Elastography   DCM  2D Speckle Tracking   DCM  3D Speckle Tracking
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.616"

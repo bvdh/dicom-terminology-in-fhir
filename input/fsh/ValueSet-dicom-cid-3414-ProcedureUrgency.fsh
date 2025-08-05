@@ -2,7 +2,7 @@ ValueSet    : CID_3414
 Id          : dicom-cid-3414-ProcedureUrgency
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR Equivalents SCT  Elective Procedure   21-1, 78-1, 92-1 SCT  Urgent Procedure   21-2, 78-2, 92-2 SCT  Emergent Procedure   21-3, 78-3, 92-3 SCT  Salvage Procedure   21-4, 78-4, 92-4
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR Equivalents SCT  Elective Procedure   21-1, 78-1, 92-1 SCT  Urgent Procedure   21-2, 78-2, 92-2 SCT  Emergent Procedure   21-3, 78-3, 92-3 SCT  Salvage Procedure   21-4, 78-4, 92-4
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.79"

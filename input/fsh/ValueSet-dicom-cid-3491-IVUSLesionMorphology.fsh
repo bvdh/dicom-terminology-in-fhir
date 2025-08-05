@@ -2,7 +2,7 @@ ValueSet    : CID_3491
 Id          : dicom-cid-3491-IVUSLesionMorphology
 Description :
 """
-This Context Group is a set of qualitative assessments for lesion morphology.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  DCM  Soft plaque   DCM  In-Stent Neointima   SCT  Arterial (True) Aneurysm   SCT  Pseudo Aneurysm   DCM  False Lumen   SCT  Concentric   SCT  Eccentric   SCT  Plaque Ulceration   DCM  Plaque Rupture   DCM  Vulnerable Plaque   DCM  Eroded Plaque  
+This Context Group is a set of qualitative assessments for lesion morphology.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  DCM  Soft plaque   DCM  In-Stent Neointima   SCT  Arterial (True) Aneurysm   SCT  Pseudo Aneurysm   DCM  False Lumen   SCT  Concentric   SCT  Eccentric   SCT  Plaque Ulceration   DCM  Plaque Rupture   DCM  Vulnerable Plaque   DCM  Eroded Plaque
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.125"

@@ -1,8 +1,8 @@
 ValueSet    : CID_7553
-Id          : dicom-cid-7553-GenericPurposeOfReferenceToCoordinatesInMeasurement
+Id          : dicom-cid-7553-GenericPurposeOfReferenceToCoordinatesInMeasureme
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Arm of angle   DCM  Vector   DCM  Approximate spatial location  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Arm of angle   DCM  Vector   DCM  Approximate spatial location
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1345"

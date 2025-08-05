@@ -2,7 +2,7 @@ ValueSet    : CID_12102
 Id          : dicom-cid-12102-TemporalPeriodRelatingToProcedureOrTherapy
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  After Procedure   SCT  During Procedure   SCT  Before Procedure   The concepts used in this Context Group are not specific to any particular type of procedure. SNOMED does have procedure-specific concepts that are child concepts of these concepts, including the surgery-specific concepts used in This Context Group supersedes retired
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  After Procedure   SCT  During Procedure   SCT  Before Procedure   The concepts used in this Context Group are not specific to any particular type of procedure. SNOMED does have procedure-specific concepts that are child concepts of these concepts, including the surgery-specific concepts used in This Context Group supersedes retired
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.569"

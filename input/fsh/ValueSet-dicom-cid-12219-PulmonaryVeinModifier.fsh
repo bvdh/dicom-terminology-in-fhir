@@ -2,7 +2,7 @@ ValueSet    : CID_12219
 Id          : dicom-cid-12219-PulmonaryVeinModifier
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Right Upper Segment   SCT  Right Lower Segment   SCT  Left Upper Segment   SCT  Left Lower Segment  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Right Upper Segment   SCT  Right Lower Segment   SCT  Left Upper Segment   SCT  Left Lower Segment
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.611"

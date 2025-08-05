@@ -2,7 +2,7 @@ ValueSet    : CID_4237
 Id          : dicom-cid-4237-LensConstantType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  A-Constant   DCM  ACD Constant   DCM  Haigis a0   DCM  Haigis a1   DCM  Haigis a2   DCM  Hoffer pACD Constant   DCM  Surgeon Factor   DCM  Barrett Lens Factor DCM  Barrett Design Factor
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  A-Constant   DCM  ACD Constant   DCM  Haigis a0   DCM  Haigis a1   DCM  Haigis a2   DCM  Hoffer pACD Constant   DCM  Surgeon Factor   DCM  Barrett Lens Factor DCM  Barrett Design Factor
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.883"

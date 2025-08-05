@@ -2,7 +2,7 @@ ValueSet    : CID_12100
 Id          : dicom-cid-12100-VascularUltrasoundReportDocumentTitle
 Description :
 """
-           LN  US Carotid Arteries Report   LN  US Artery Report   LN  US Vein Report   LN  US Doppler Vessels Report   LN  US Doppler Abdominal Vessels Report   LN  US Doppler Extremity Vessels Report   LN  US Doppler Head Vessels Report   LN  US Doppler Lower Extremity Vessels Report   LN  US Doppler Upper Extremity Vessels Report   SCT   
+LN  US Carotid Arteries Report   LN  US Artery Report   LN  US Vein Report   LN  US Doppler Vessels Report   LN  US Doppler Abdominal Vessels Report   LN  US Doppler Extremity Vessels Report   LN  US Doppler Head Vessels Report   LN  US Doppler Lower Extremity Vessels Report   LN  US Doppler Upper Extremity Vessels Report   SCT
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1315"

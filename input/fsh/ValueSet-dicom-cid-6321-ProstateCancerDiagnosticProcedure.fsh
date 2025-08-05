@@ -2,7 +2,7 @@ ValueSet    : CID_6321
 Id          : dicom-cid-6321-ProstateCancerDiagnosticProcedure
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Prostate Cancer Antigen Measurement   SCT  Digital Examination of Rectum  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Prostate Cancer Antigen Measurement   SCT  Digital Examination of Rectum
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1378"

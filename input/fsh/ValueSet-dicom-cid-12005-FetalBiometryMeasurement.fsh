@@ -2,7 +2,7 @@ ValueSet    : CID_12005
 Id          : dicom-cid-12005-FetalBiometryMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Abdominal Circumference  LN  Anterior-Posterior Abdominal Diameter  LN  Anterior-Posterior Trunk Diameter  LN  Biparietal Diameter  LN  BPD area corrected  LN  Cisterna Magna Length  LN  Femur Length  LN  Foot length  LN  Head Circumference  LN  Left Fetal Ear Length  LN  Occipital-Frontal Diameter  LN  Right Fetal Ear Length  LN  Thoracic Circumference  LN  Thoracic Area  LN  Transverse Abdominal Diameter  LN  Transverse Cerebellar Diameter  LN  Transverse Thoracic Diameter  LN  Left Kidney thickness  LN  Left Kidney length  LN  Left Kidney width  LN  Right Kidney thickness  LN  Right Kidney length  LN  Right Kidney width  LN  APAD * TAD 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Abdominal Circumference  LN  Anterior-Posterior Abdominal Diameter  LN  Anterior-Posterior Trunk Diameter  LN  Biparietal Diameter  LN  BPD area corrected  LN  Cisterna Magna Length  LN  Femur Length  LN  Foot length  LN  Head Circumference  LN  Left Fetal Ear Length  LN  Occipital-Frontal Diameter  LN  Right Fetal Ear Length  LN  Thoracic Circumference  LN  Thoracic Area  LN  Transverse Abdominal Diameter  LN  Transverse Cerebellar Diameter  LN  Transverse Thoracic Diameter  LN  Left Kidney thickness  LN  Left Kidney length  LN  Left Kidney width  LN  Right Kidney thickness  LN  Right Kidney length  LN  Right Kidney width  LN  APAD * TAD
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.554"

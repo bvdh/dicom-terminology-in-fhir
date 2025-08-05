@@ -1,8 +1,8 @@
 ValueSet    : CID_4245
-Id          : dicom-cid-4245-WideFieldOphthalmicPhotographyTransformationMethod
+Id          : dicom-cid-4245-WideFieldOphthalmicPhotographyTransformationMetho
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Spherical projection DCM  Surface contour mapping
+Coding Scheme Designator Code Value Code Meaning DCM  Spherical projection DCM  Surface contour mapping
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1029"

@@ -2,7 +2,7 @@ ValueSet    : CID_4255
 Id          : dicom-cid-4255-VisualFieldIlluminationColor
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Yellow   SCT  White   SCT  Red   SCT  Blue   SCT  Green  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Yellow   SCT  White   SCT  Red   SCT  Blue   SCT  Green
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.914"

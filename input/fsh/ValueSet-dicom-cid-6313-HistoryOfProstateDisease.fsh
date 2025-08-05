@@ -2,7 +2,7 @@ ValueSet    : CID_6313
 Id          : dicom-cid-6313-HistoryOfProstateDisease
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Prostatitis   SCT  Prostate cancer   SCT  Benign Prostate Hyperplasia   DCM  Utricle cyst  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Prostatitis   SCT  Prostate cancer   SCT  Benign Prostate Hyperplasia   DCM  Utricle cyst
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1370"

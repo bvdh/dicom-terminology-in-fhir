@@ -2,7 +2,7 @@ ValueSet    : CID_6004
 Id          : dicom-cid-6004-MammographyShapeCharacteristic
 Description :
 """
-In future extensions, Mammography Characteristics of Shape terms that are not derived from BI-RADS should be added to this Context Group.       Coding Scheme Designator Code Value Code Meaning 
+In future extensions, Mammography Characteristics of Shape terms that are not derived from BI-RADS should be added to this Context Group.       Coding Scheme Designator Code Value Code Meaning
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.334"

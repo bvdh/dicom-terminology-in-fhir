@@ -2,7 +2,7 @@ ValueSet    : CID_6011
 Id          : dicom-cid-6011-CalcificationTypeFromBIRADS
 Description :
 """
-From BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Coarse (popcorn-like) calcification   SCT  Dystrophic calcification   SCT  Eggshell calcification   SCT  Large rod-like calcification   SCT  Milk of calcium calcification   SCT  Lucent-centered calcification   SCT  Punctate calcification   SCT  Round shaped calcification   SCT  Calcified skin of breast   SCT  Calcified suture material   SCT  Vascular calcification   SCT  Amorphous calcification   SCT  Fine, linear (casting) calcification   SCT  Fine linear, branching (casting) calcification   SCT  Heterogeneous calcification   DCM  Fine pleomorphic calcification   SCT  Microcalcifications of the breast   DCM  Macrocalcifications  
+From BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Coarse (popcorn-like) calcification   SCT  Dystrophic calcification   SCT  Eggshell calcification   SCT  Large rod-like calcification   SCT  Milk of calcium calcification   SCT  Lucent-centered calcification   SCT  Punctate calcification   SCT  Round shaped calcification   SCT  Calcified skin of breast   SCT  Calcified suture material   SCT  Vascular calcification   SCT  Amorphous calcification   SCT  Fine, linear (casting) calcification   SCT  Fine linear, branching (casting) calcification   SCT  Heterogeneous calcification   DCM  Fine pleomorphic calcification   SCT  Microcalcifications of the breast   DCM  Macrocalcifications
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.341"

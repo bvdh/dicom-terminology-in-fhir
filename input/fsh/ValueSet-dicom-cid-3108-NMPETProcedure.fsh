@@ -2,7 +2,7 @@ ValueSet    : CID_3108
 Id          : dicom-cid-3108-NMPETProcedure
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Nuclear medicine cardiovascular study   SCT  PET heart study   SCT  Radioisotope study of endocrine system   SCT  Radioisotope study of hematopoietic system   SCT  Radioisotope study of gastrointestinal system   SCT  Radionuclide study for localization of inflammatory disease   SCT  Radioisotope study of musculoskeletal system   SCT  Radionuclide localization of tumor   SCT  Radioisotope study of respiratory system   SCT  Radioisotope study of genitourinary system   SCT  PET brain study   SCT  PET breast study   SCT  PET study for localization of tumor  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Nuclear medicine cardiovascular study   SCT  PET heart study   SCT  Radioisotope study of endocrine system   SCT  Radioisotope study of hematopoietic system   SCT  Radioisotope study of gastrointestinal system   SCT  Radionuclide study for localization of inflammatory disease   SCT  Radioisotope study of musculoskeletal system   SCT  Radionuclide localization of tumor   SCT  Radioisotope study of respiratory system   SCT  Radioisotope study of genitourinary system   SCT  PET brain study   SCT  PET breast study   SCT  PET study for localization of tumor
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.741"

@@ -2,7 +2,7 @@ ValueSet    : CID_9574
 Id          : dicom-cid-9574-PatientPositionDisplacementReferencePoint
 Description :
 """
-            DCM  Patient Setup Point DCM  Room Laser Patient Setup Point DCM  Moveable Laser Patient Setup Point
+DCM  Patient Setup Point DCM  Room Laser Patient Setup Point DCM  Moveable Laser Patient Setup Point
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1421"

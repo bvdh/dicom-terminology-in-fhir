@@ -2,7 +2,7 @@ ValueSet    : CID_250
 Id          : dicom-cid-250-PositiveNegative
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Positive   SCT  Negative  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Positive   SCT  Negative
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.38"

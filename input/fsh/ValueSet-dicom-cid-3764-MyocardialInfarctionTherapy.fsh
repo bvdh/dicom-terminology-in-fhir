@@ -2,7 +2,7 @@ ValueSet    : CID_3764
 Id          : dicom-cid-3764-MyocardialInfarctionTherapy
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Percutaneous coronary intervention   SCT  Insertion of coronary artery stent   SCT  Coronary artery bypass graft   SCT  Thrombolytic therapy  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Percutaneous coronary intervention   SCT  Insertion of coronary artery stent   SCT  Coronary artery bypass graft   SCT  Thrombolytic therapy
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.257"

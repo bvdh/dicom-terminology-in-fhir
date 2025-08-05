@@ -2,7 +2,7 @@ ValueSet    : CID_6063
 Id          : dicom-cid-6063-InterventionalProcedureResult
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Benign   SCT  High risk tumor   SCT  Malignant   SCT  Insufficient sample   SCT  Indeterminate result  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Benign   SCT  High risk tumor   SCT  Malignant   SCT  Insufficient sample   SCT  Indeterminate result
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.392"

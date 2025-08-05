@@ -2,7 +2,7 @@ ValueSet    : CID_6322
 Id          : dicom-cid-6322-ProstateCancerFamilyHistory
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Family history of prostate cancer   DCM  No family history of prostate cancer   SCT  Family history unknown  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Family history of prostate cancer   DCM  No family history of prostate cancer   SCT  Family history unknown
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1379"

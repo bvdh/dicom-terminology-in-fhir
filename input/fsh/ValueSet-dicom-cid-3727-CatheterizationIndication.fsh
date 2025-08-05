@@ -2,7 +2,7 @@ ValueSet    : CID_3727
 Id          : dicom-cid-3727-CatheterizationIndication
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  cardiogenic shock   SCT  valvular heart disease   SCT  Arrhythmia   SCT  ischemic heart disease   SCT  cardiac function test abnormal   SCT  heart transplant   SCT  heart disease - congenital   SCT  cardiomyopathy   SCT  heart disease    In prior editions, this Context Group included NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes (see PS3.16-2011).
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  cardiogenic shock   SCT  valvular heart disease   SCT  Arrhythmia   SCT  ischemic heart disease   SCT  cardiac function test abnormal   SCT  heart transplant   SCT  heart disease - congenital   SCT  cardiomyopathy   SCT  heart disease    In prior editions, this Context Group included NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes (see PS3.16-2011).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.227"

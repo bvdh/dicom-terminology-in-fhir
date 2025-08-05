@@ -1,4 +1,4 @@
-CodeSystem: FMA
+CodeSystem: DigitalAnatomistFoundationalModelOfAnatomyCodeSystem
 Id: dicom-codesystem-FMA
 Title: "FMA"
 Description: "Digital Anatomist Foundational Model of Anatomy"

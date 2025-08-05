@@ -2,7 +2,7 @@ ValueSet    : CID_10061
 Id          : dicom-cid-10061-AbsorbedRadiationDoseType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Maximum Absorbed Radiation Dose DCM  Minimum Absorbed Radiation Dose DCM  Mean Absorbed Radiation Dose DCM  Mode Absorbed Radiation Dose DCM  Median Absorbed Radiation Dose
+Coding Scheme Designator Code Value Code Meaning DCM  Maximum Absorbed Radiation Dose DCM  Minimum Absorbed Radiation Dose DCM  Mean Absorbed Radiation Dose DCM  Mode Absorbed Radiation Dose DCM  Median Absorbed Radiation Dose
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1155"

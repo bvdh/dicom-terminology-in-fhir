@@ -2,7 +2,7 @@ ValueSet    : CID_9301
 Id          : dicom-cid-9301-ModalityPPSDiscontinuationReason
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Doctor canceled procedure   DCM  Equipment failure   DCM  Incorrect procedure ordered   DCM  Patient allergic to media/contrast   DCM  Patient died   DCM  Patient refused to continue procedure   DCM  Patient taken for treatment or surgery   DCM  Patient did not arrive   DCM  Patient pregnant   DCM  Change of procedure for correct charging   DCM  Duplicate order   DCM  Nursing unit cancel   DCM  Incorrect side ordered   DCM  Discontinued for unspecified reason   DCM  Incorrect worklist entry selected   DCM  Patient condition prevented continuing   DCM  Equipment change   SCT  Injection Site Extravasation   SCT  Radiopharmaceutical Adverse Reaction  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Doctor canceled procedure   DCM  Equipment failure   DCM  Incorrect procedure ordered   DCM  Patient allergic to media/contrast   DCM  Patient died   DCM  Patient refused to continue procedure   DCM  Patient taken for treatment or surgery   DCM  Patient did not arrive   DCM  Patient pregnant   DCM  Change of procedure for correct charging   DCM  Duplicate order   DCM  Nursing unit cancel   DCM  Incorrect side ordered   DCM  Discontinued for unspecified reason   DCM  Incorrect worklist entry selected   DCM  Patient condition prevented continuing   DCM  Equipment change   SCT  Injection Site Extravasation   SCT  Radiopharmaceutical Adverse Reaction
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.812"

@@ -2,7 +2,7 @@ ValueSet    : CID_4203
 Id          : dicom-cid-4203-OphthalmicPhotographyIllumination
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Dual diffuse direct illumination   SCT  Fine slit beam direct illumination   SCT  Broad tangential direct illumination   SCT  Indirect sclerotic scatter illumination   SCT  Indirect retroillumination from the iris   SCT  Indirect retroillumination from the retina   SCT  Indirect iris transillumination   DCM  Diffuse direct illumination   DCM  Scotopic light   DCM  Mesopic light   DCM  Photopic light   DCM  Dynamic light   SCT  Pulsed laser beam   Reference: From the OPS web site:
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Dual diffuse direct illumination   SCT  Fine slit beam direct illumination   SCT  Broad tangential direct illumination   SCT  Indirect sclerotic scatter illumination   SCT  Indirect retroillumination from the iris   SCT  Indirect retroillumination from the retina   SCT  Indirect iris transillumination   DCM  Diffuse direct illumination   DCM  Scotopic light   DCM  Mesopic light   DCM  Photopic light   DCM  Dynamic light   SCT  Pulsed laser beam   Reference: From the OPS web site:
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.319"

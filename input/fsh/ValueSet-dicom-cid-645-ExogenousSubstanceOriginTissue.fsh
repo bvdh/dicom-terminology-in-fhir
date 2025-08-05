@@ -2,7 +2,7 @@ ValueSet    : CID_645
 Id          : dicom-cid-645-ExogenousSubstanceOriginTissue
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anus   SCT  Ascitic fluid   SCT  Bladder   SCT  Bone   DCM  Bone and soft tissue   SCT  Brain   SCT  Breast   SCT  Central nervous system   SCT  Cervix   SCT  Colon   SCT  Connective tissue   DCM  Embryonic kidney   SCT  Head and neck   SCT  Kidney   SCT  Larynx   SCT  Lung   SCT  Lymph   SCT  Lymphoid tissue   SCT  Lymph Node   SCT  Mesothelium   SCT  Metastasis   SCT  Mouth   SCT  Ovary   SCT  Pancreas   SCT  Peripheral nerve myelin sheath   SCT  Pleural effusion   SCT  Prostate   SCT  Pulmonary metastasis   SCT  Rectum   SCT  Salivary gland   SCT  Skin   SCT  Soft tissue   SCT  Thyroid   SCT  Uterus  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anus   SCT  Ascitic fluid   SCT  Bladder   SCT  Bone   DCM  Bone and soft tissue   SCT  Brain   SCT  Breast   SCT  Central nervous system   SCT  Cervix   SCT  Colon   SCT  Connective tissue   DCM  Embryonic kidney   SCT  Head and neck   SCT  Kidney   SCT  Larynx   SCT  Lung   SCT  Lymph   SCT  Lymphoid tissue   SCT  Lymph Node   SCT  Mesothelium   SCT  Metastasis   SCT  Mouth   SCT  Ovary   SCT  Pancreas   SCT  Peripheral nerve myelin sheath   SCT  Pleural effusion   SCT  Prostate   SCT  Pulmonary metastasis   SCT  Rectum   SCT  Salivary gland   SCT  Skin   SCT  Soft tissue   SCT  Thyroid   SCT  Uterus
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1110"

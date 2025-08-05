@@ -2,7 +2,7 @@ ValueSet    : CID_3760
 Id          : dicom-cid-3760-HypertensionTherapy
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Beta blocker   SCT  Calcium channel blocker   SCT  Nitrate vasodilator   SCT  ACE inhibitor   SCT  Angiotensin II receptor antagonist   SCT  Diuretic  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Beta blocker   SCT  Calcium channel blocker   SCT  Nitrate vasodilator   SCT  ACE inhibitor   SCT  Angiotensin II receptor antagonist   SCT  Diuretic
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.254"

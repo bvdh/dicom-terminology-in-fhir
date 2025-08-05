@@ -2,7 +2,7 @@ ValueSet    : CID_3836
 Id          : dicom-cid-3836-TimeBasedPerfusionMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Signal Earliest Peak Time DCM  Signal Increase Start Time DCM  Signal Time to Peak DCM  Signal Baseline Start DCM  Signal Baseline End
+Coding Scheme Designator Code Value Code Meaning DCM  Signal Earliest Peak Time DCM  Signal Increase Start Time DCM  Signal Time to Peak DCM  Signal Baseline Start DCM  Signal Baseline End
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.286"

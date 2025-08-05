@@ -2,7 +2,7 @@ ValueSet    : CID_4067
 Id          : dicom-cid-4067-OrthodonticFindingByInspection
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Skin mark   SCT  Tattoo of skin   SCT  Gingival recession   SCT  Cant of occlusal plane   SCT  Tattoo of left buccal mucosa   SCT  Tattoo of right buccal mucosa   SCT  Tattoo of mucosa of soft palate   SCT  Tattoo of labial mucosa of lower lip   SCT  Tattoo of labial mucosa of upper lip  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Skin mark   SCT  Tattoo of skin   SCT  Gingival recession   SCT  Cant of occlusal plane   SCT  Tattoo of left buccal mucosa   SCT  Tattoo of right buccal mucosa   SCT  Tattoo of mucosa of soft palate   SCT  Tattoo of labial mucosa of lower lip   SCT  Tattoo of labial mucosa of upper lip
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1507"

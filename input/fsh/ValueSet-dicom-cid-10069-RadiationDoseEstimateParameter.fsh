@@ -2,7 +2,7 @@ ValueSet    : CID_10069
 Id          : dicom-cid-10069-RadiationDoseEstimateParameter
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Breast Thickness   DCM  Half Value Layer   DCM  Percent Fibroglandular Tissue   DCM  DgN   DCM  Patient AP Dimension   DCM  Patient Lateral Dimension   DCM  SSDE Conversion Factor   DCM  Backscatter   DCM  Water Equivalent Diameter Representative Value   DCM  Water Equivalent Diameter Integrated Across Scan Range   DCM  Water Equivalent Diameter From Raw Data   DCM  Water Equivalent Diameter From Localizer   DCM  Tissue Air Ratio   DCM  Correction Factor   DCM  Curve Fit Parameter   DCM  Homogeneity Factor   DCM  Normalization Factor   DCM  Offset Factor   DCM  Attenuation Coefficient   DCM  Tissue Fraction   DCM  Distance Correction   NCIt  Unit Conversion Factor   DCM  Distance  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Breast Thickness   DCM  Half Value Layer   DCM  Percent Fibroglandular Tissue   DCM  DgN   DCM  Patient AP Dimension   DCM  Patient Lateral Dimension   DCM  SSDE Conversion Factor   DCM  Backscatter   DCM  Water Equivalent Diameter Representative Value   DCM  Water Equivalent Diameter Integrated Across Scan Range   DCM  Water Equivalent Diameter From Raw Data   DCM  Water Equivalent Diameter From Localizer   DCM  Tissue Air Ratio   DCM  Correction Factor   DCM  Curve Fit Parameter   DCM  Homogeneity Factor   DCM  Normalization Factor   DCM  Offset Factor   DCM  Attenuation Coefficient   DCM  Tissue Fraction   DCM  Distance Correction   NCIt  Unit Conversion Factor   DCM  Distance
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1163"

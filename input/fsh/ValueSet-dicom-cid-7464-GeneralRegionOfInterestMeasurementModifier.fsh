@@ -2,7 +2,7 @@ ValueSet    : CID_7464
 Id          : dicom-cid-7464-GeneralRegionOfInterestMeasurementModifier
 Description :
 """
-This Context Group contains modifiers of measurements of ROIs.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  Standard Deviation   SCT  Total   SCT  Median   SCT  Mode   DCM  Peak Value Within ROI   UMLS  Coefficient of Variance   DCM  Skewness   DCM  Kurtosis   UMLS  Variance   UMLS  Root Mean Square  
+This Context Group contains modifiers of measurements of ROIs.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  Standard Deviation   SCT  Total   SCT  Median   SCT  Mode   DCM  Peak Value Within ROI   UMLS  Coefficient of Variance   DCM  Skewness   DCM  Kurtosis   UMLS  Variance   UMLS  Root Mean Square
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.951"
@@ -30,15 +30,15 @@ This Context Group contains modifiers of measurements of ROIs.       Coding Sche
 * DICOMDCMCodeSystem#126031 "Peak Value Within ROI" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C0681921 "Coefficient of Variance" 
-* http://terminology.hl7.org/CodeSystem/umls#C0681921 "Coefficient of Variance" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0681921 "Coefficient of Variance" 
 
 * DICOMDCMCodeSystem#126051 "Skewness" 
 
 * DICOMDCMCodeSystem#126052 "Kurtosis" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C1711260 "Variance" 
-* http://terminology.hl7.org/CodeSystem/umls#C1711260 "Variance" 
+// * http://terminology.hl7.org/CodeSystem/umls#C1711260 "Variance" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C2347976 "Root Mean Square" 
-* http://terminology.hl7.org/CodeSystem/umls#C2347976 "Root Mean Square" 
+// * http://terminology.hl7.org/CodeSystem/umls#C2347976 "Root Mean Square" 
 

@@ -2,7 +2,7 @@ ValueSet    : CID_3049
 Id          : dicom-cid-3049-EEGProcedure
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  EEG   SCT  Ambulatory EEG   SCT  Scalp EEG   SCT  Sleep EEG   SCT  Video EEG  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  EEG   SCT  Ambulatory EEG   SCT  Scalp EEG   SCT  Sleep EEG   SCT  Video EEG
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1489"

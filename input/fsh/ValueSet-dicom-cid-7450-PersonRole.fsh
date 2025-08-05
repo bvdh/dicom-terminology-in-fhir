@@ -2,7 +2,7 @@ ValueSet    : CID_7450
 Id          : dicom-cid-7450-PersonRole
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Patient   SCT  Healthcare professional   SCT  Friend    
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Patient   SCT  Healthcare professional   SCT  Friend
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.514"

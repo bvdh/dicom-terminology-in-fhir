@@ -2,7 +2,7 @@ ValueSet    : CID_12216
 Id          : dicom-cid-12216-EchocardiographyHepaticVeinMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID  LN  Hepatic Vein Systolic Peak Velocity  LN  Hepatic Vein Diastolic Peak Velocity  LN  Hepatic Vein Systolic to Diastolic Ratio  LN  Hepatic Vein Atrial Contraction Reversal Peak Velocity 
+Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID  LN  Hepatic Vein Systolic Peak Velocity  LN  Hepatic Vein Diastolic Peak Velocity  LN  Hepatic Vein Systolic to Diastolic Ratio  LN  Hepatic Vein Atrial Contraction Reversal Peak Velocity
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.608"

@@ -2,7 +2,7 @@ ValueSet    : CID_12227
 Id          : dicom-cid-12227-EchocardiographyMeasurementMethod
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning       DCM  Inlet Included DCM  Free Cord Loop Method DCM  Directly measured
+Coding Scheme Designator Code Value Code Meaning       DCM  Inlet Included DCM  Free Cord Loop Method DCM  Directly measured
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.618"

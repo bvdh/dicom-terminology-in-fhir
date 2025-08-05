@@ -2,7 +2,7 @@ ValueSet    : CID_6140
 Id          : dicom-cid-6140-CalculationMethod
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Estimated   DCM  Unspecified method of calculation   DCM  Agatston scoring method   DCM  Volume scoring method   DCM  Mass scoring method   DCM  Two-dimensional method   DCM  Three-dimensional method  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Estimated   DCM  Unspecified method of calculation   DCM  Agatston scoring method   DCM  Volume scoring method   DCM  Mass scoring method   DCM  Two-dimensional method   DCM  Three-dimensional method
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.460"

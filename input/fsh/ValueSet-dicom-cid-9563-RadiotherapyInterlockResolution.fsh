@@ -2,7 +2,7 @@ ValueSet    : CID_9563
 Id          : dicom-cid-9563-RadiotherapyInterlockResolution
 Description :
 """
-           DCM  Treatment Terminated DCM  Interlock Overridden DCM  Patient Repositioned DCM  Interlock Resolved
+DCM  Treatment Terminated DCM  Interlock Overridden DCM  Patient Repositioned DCM  Interlock Resolved
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1320"

@@ -2,7 +2,7 @@ ValueSet    : CID_3215
 Id          : dicom-cid-3215-PerfusionFindingMethod
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  ECG analysis   SCT  Image analysis  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  ECG analysis   SCT  Image analysis
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.769"

@@ -2,7 +2,7 @@ ValueSet    : CID_220
 Id          : dicom-cid-220-SignificanceLevel
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Most significant   SCT  Highly significant   SCT  Significant   SCT  Not significant   SCT  Significance Undetermined  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Most significant   SCT  Highly significant   SCT  Significant   SCT  Not significant   SCT  Significance Undetermined
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.25"

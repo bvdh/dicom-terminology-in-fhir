@@ -2,7 +2,7 @@ ValueSet    : CID_10022
 Id          : dicom-cid-10022-LabelType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Series Number DCM  Acquisition Number DCM  Instance Number
+Coding Scheme Designator Code Value Code Meaning DCM  Series Number DCM  Acquisition Number DCM  Instance Number
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.935"

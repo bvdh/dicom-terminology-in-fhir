@@ -2,7 +2,7 @@ ValueSet    : CID_6206
 Id          : dicom-cid-6206-RecumbentPatientOrientationForColon
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Prone   SCT  Supine   SCT  right lateral decubitus   SCT  left lateral decubitus  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Prone   SCT  Supine   SCT  right lateral decubitus   SCT  left lateral decubitus
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.793"

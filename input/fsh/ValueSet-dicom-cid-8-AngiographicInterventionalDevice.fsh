@@ -2,7 +2,7 @@ ValueSet    : CID_8
 Id          : dicom-cid-8-AngiographicInterventionalDevice
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Stent   SCT  Catheter   SCT  Laser   SCT  Glue   SCT  Atherectomy device   SCT  Embolization ball   SCT  Percutaneous transluminal angioplasty balloon   SCT  Embolization coil   SCT  Gianturco coil   SCT  Detachable balloon   SCT  Guiding catheter   SCT  Embolization particulate   SCT  Rotational atherectomy device   SCT  Measuring ruler   DCM  Sphere  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Stent   SCT  Catheter   SCT  Laser   SCT  Glue   SCT  Atherectomy device   SCT  Embolization ball   SCT  Percutaneous transluminal angioplasty balloon   SCT  Embolization coil   SCT  Gianturco coil   SCT  Detachable balloon   SCT  Guiding catheter   SCT  Embolization particulate   SCT  Rotational atherectomy device   SCT  Measuring ruler   DCM  Sphere
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.6"
@@ -41,9 +41,9 @@ Description :
 * http://snomed.info/srt#A-25612 "Embolization coil" 
 * http://terminology.hl7.org/CodeSystem/umls#C0522644 "Embolization coil" 
 
-* http://snomed.info/sct#102314001 "Gianturco coil" 
-* http://snomed.info/srt#A-25612 "Gianturco coil" 
-* http://terminology.hl7.org/CodeSystem/umls#C0522644 "Gianturco coil" 
+// * http://snomed.info/sct#102314001 "Gianturco coil" 
+// * http://snomed.info/srt#A-25612 "Gianturco coil" 
+// * http://terminology.hl7.org/CodeSystem/umls#C0522644 "Gianturco coil" 
 
 * http://snomed.info/sct#102320000 "Detachable balloon" 
 * http://snomed.info/srt#A-27322 "Detachable balloon" 

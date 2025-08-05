@@ -2,7 +2,7 @@ ValueSet    : CID_300
 Id          : dicom-cid-300-MultienergyRelevantMaterial
 Description :
 """
-Concepts for materials relevant to Multi-energy Imaging.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Aluminum Oxide   SCT  Barium   SCT  Bismuth   SCT  Calcium   SCT  Calcium Hydroxyapatite   SCT  Cobalt-chromium alloy   SCT  Fat   SCT  Gadolinium   SCT  Gold   SCT  Hafnium   SCT  Iodine   SCT  Iron   SCT  Nickel cobalt chromium   SCT  Platinum   SCT  Renal stone   SCT  Silicon   SCT  Silicone   SCT  Silver   SCT  Tantalum   SCT  Titanium   SCT  Uric Acid   SCT  Water   SCT  Yttrium  
+Concepts for materials relevant to Multi-energy Imaging.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Aluminum Oxide   SCT  Barium   SCT  Bismuth   SCT  Calcium   SCT  Calcium Hydroxyapatite   SCT  Cobalt-chromium alloy   SCT  Fat   SCT  Gadolinium   SCT  Gold   SCT  Hafnium   SCT  Iodine   SCT  Iron   SCT  Nickel cobalt chromium   SCT  Platinum   SCT  Renal stone   SCT  Silicon   SCT  Silicone   SCT  Silver   SCT  Tantalum   SCT  Titanium   SCT  Uric Acid   SCT  Water   SCT  Yttrium
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1208"

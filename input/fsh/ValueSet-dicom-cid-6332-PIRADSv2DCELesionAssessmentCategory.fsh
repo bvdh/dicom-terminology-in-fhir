@@ -2,7 +2,7 @@ ValueSet    : CID_6332
 Id          : dicom-cid-6332-PIRADSv2DCELesionAssessmentCategory
 Description :
 """
-The codes in this CID describe lesion assessment in the dynamic contrast-enhanced MR images.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID RADLEX  PI-RADS DCE -ve   RADLEX  PI-RADS DCE +ve   RADLEX  PI-RADS X - DCE Inadequate or absent  
+The codes in this CID describe lesion assessment in the dynamic contrast-enhanced MR images.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID RADLEX  PI-RADS DCE -ve   RADLEX  PI-RADS DCE +ve   RADLEX  PI-RADS X - DCE Inadequate or absent
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1389"

@@ -2,7 +2,7 @@ ValueSet    : CID_3671
 Id          : dicom-cid-3671-ReasonForECGStudy
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Emergency procedure   SCT  Pre-Surgery testing   SCT  Outpatient procedure   SCT  Procedure in Cardiac Care Unit   SCT  Emergency Department patient visit   SCT  Evaluation of murmur   SCT  Routine procedure  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Emergency procedure   SCT  Pre-Surgery testing   SCT  Outpatient procedure   SCT  Procedure in Cardiac Care Unit   SCT  Emergency Department patient visit   SCT  Evaluation of murmur   SCT  Routine procedure
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.186"

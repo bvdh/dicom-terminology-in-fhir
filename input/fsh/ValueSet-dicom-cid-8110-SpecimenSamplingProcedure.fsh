@@ -2,7 +2,7 @@ ValueSet    : CID_8110
 Id          : dicom-cid-8110-SpecimenSamplingProcedure
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Dissection   DCM  Dissection with entire specimen submission   DCM  Dissection with representative sections submission   SCT  Core sampling   SCT  Block sectioning   SCT  Laser microdissection   SCT  Block surface recut   SCT  Block step sectioning   SCT  Touch preparation (procedure)   SCT  Smear procedure  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Dissection   DCM  Dissection with entire specimen submission   DCM  Dissection with representative sections submission   SCT  Core sampling   SCT  Block sectioning   SCT  Laser microdissection   SCT  Block surface recut   SCT  Block step sectioning   SCT  Touch preparation (procedure)   SCT  Smear procedure
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1048"

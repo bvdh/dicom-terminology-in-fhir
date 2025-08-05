@@ -2,7 +2,7 @@ ValueSet    : CID_4235
 Id          : dicom-cid-4235-KeratometryDescriptor
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Manual Keratometry DCM  Auto Keratometry DCM  Simulated Keratometry DCM  Equivalent K-reading
+Coding Scheme Designator Code Value Code Meaning DCM  Manual Keratometry DCM  Auto Keratometry DCM  Simulated Keratometry DCM  Equivalent K-reading
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.881"

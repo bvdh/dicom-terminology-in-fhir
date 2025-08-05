@@ -2,7 +2,7 @@ ValueSet    : CID_12016
 Id          : dicom-cid-12016-EstimatedFetalWeightPercentileEquationTable
 Description :
 """
-These terms specify the population distribution for use in Z-score and percentile rank.       Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID DCM  FWP by GA, Campbell, 1991  DCM  FWP by GA, Hadlock, 1991  LN  FWP by GA, Williams, 1982  LN  FWP by GA, Alexander, 1996  LN  Male Singleton BWP by GA, Arbuckle 1993  LN  Female Singleton BWP by GA, Arbuckle 1993  LN  Male Twins BWP by GA, Arbuckle 1993  LN  Female Twins BWP by GA, Arbuckle 1993  LN  FWP by GA, Brenner 1976  LN  FWP by GA, Hadlock 1985  
+These terms specify the population distribution for use in Z-score and percentile rank.       Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID DCM  FWP by GA, Campbell, 1991  DCM  FWP by GA, Hadlock, 1991  LN  FWP by GA, Williams, 1982  LN  FWP by GA, Alexander, 1996  LN  Male Singleton BWP by GA, Arbuckle 1993  LN  Female Singleton BWP by GA, Arbuckle 1993  LN  Male Twins BWP by GA, Arbuckle 1993  LN  Female Twins BWP by GA, Arbuckle 1993  LN  FWP by GA, Brenner 1976  LN  FWP by GA, Hadlock 1985
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.564"

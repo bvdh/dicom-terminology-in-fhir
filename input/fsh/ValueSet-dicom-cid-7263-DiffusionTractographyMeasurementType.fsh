@@ -2,7 +2,7 @@ ValueSet    : CID_7263
 Id          : dicom-cid-7263-DiffusionTractographyMeasurementType
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning DCM  Trace DCM  Mean Diffusivity DCM  Apparent Diffusion Coefficient DCM  Fractional Anisotropy DCM  Relative Anisotropy DCM  Radial Diffusivity DCM  Axial Diffusivity DCM  Mean Kurtosis DCM  Apparent Kurtosis Coefficient DCM  Radial Kurtosis DCM  Axial Kurtosis DCM  Fractional Kurtosis Anisotropy DCM  Volumetric Diffusion Dxx Component DCM  Volumetric Diffusion Dxy Component DCM  Volumetric Diffusion Dxz Component DCM  Volumetric Diffusion Dyy Component DCM  Volumetric Diffusion Dyz Component DCM  Volumetric Diffusion Dzz Component
+Coding Scheme Designator Code Value Code Meaning DCM  Trace DCM  Mean Diffusivity DCM  Apparent Diffusion Coefficient DCM  Fractional Anisotropy DCM  Relative Anisotropy DCM  Radial Diffusivity DCM  Axial Diffusivity DCM  Mean Kurtosis DCM  Apparent Kurtosis Coefficient DCM  Radial Kurtosis DCM  Axial Kurtosis DCM  Fractional Kurtosis Anisotropy DCM  Volumetric Diffusion Dxx Component DCM  Volumetric Diffusion Dxy Component DCM  Volumetric Diffusion Dxz Component DCM  Volumetric Diffusion Dyy Component DCM  Volumetric Diffusion Dyz Component DCM  Volumetric Diffusion Dzz Component
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1062"

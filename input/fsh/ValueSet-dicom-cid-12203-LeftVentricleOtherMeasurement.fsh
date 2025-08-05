@@ -2,7 +2,7 @@ ValueSet    : CID_12203
 Id          : dicom-cid-12203-LeftVentricleOtherMeasurement
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  Left Ventricle Mass   LN  Left Ventricular Isovolumic Relaxation Time   SCT  Left Ventricular Isovolumic Contraction Time   SCT  Left Ventricular Peak Early Diastolic Tissue Velocity   SCT  Ratio of MV Peak Velocity to LV Peak Tissue Velocity E-Wave   SCT  LV Peak Diastolic Tissue Velocity During Atrial Systole   SCT  Left Ventricular Peak Systolic Tissue Velocity   SCT  Left Ventricular Index of Myocardial Performance  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  Left Ventricle Mass   LN  Left Ventricular Isovolumic Relaxation Time   SCT  Left Ventricular Isovolumic Contraction Time   SCT  Left Ventricular Peak Early Diastolic Tissue Velocity   SCT  Ratio of MV Peak Velocity to LV Peak Tissue Velocity E-Wave   SCT  LV Peak Diastolic Tissue Velocity During Atrial Systole   SCT  Left Ventricular Peak Systolic Tissue Velocity   SCT  Left Ventricular Index of Myocardial Performance
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.596"

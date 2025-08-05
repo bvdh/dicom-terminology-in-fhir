@@ -2,7 +2,7 @@ ValueSet    : CID_7458
 Id          : dicom-cid-7458-PersonGenderIdentity
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Identifies as female gender   SCT  Identifies as male gender   SCT  Identifies as nonbinary gender  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Identifies as female gender   SCT  Identifies as male gender   SCT  Identifies as nonbinary gender
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1529"

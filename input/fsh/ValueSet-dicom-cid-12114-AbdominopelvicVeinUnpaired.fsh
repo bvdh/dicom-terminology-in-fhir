@@ -2,7 +2,7 @@ ValueSet    : CID_12114
 Id          : dicom-cid-12114-AbdominopelvicVeinUnpaired
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Hepatic Vein   SCT  Inferior Right Hepatic Vein   SCT  Left Hepatic Vein   SCT  Middle Hepatic Vein   SCT  Right Hepatic Vein   SCT  Portal Vein   SCT  Left Main Branch of Portal Vein   SCT  Right Main Branch of Portal Vein   SCT  Inferior Mesenteric Vein   SCT  Inferior Vena Cava   SCT  Splenic Vein   SCT  Superior Mesenteric Vein   SCT  Transjugular Intrahepatic Portosystemic Shunt   SCT  Umbilical Vein  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Hepatic Vein   SCT  Inferior Right Hepatic Vein   SCT  Left Hepatic Vein   SCT  Middle Hepatic Vein   SCT  Right Hepatic Vein   SCT  Portal Vein   SCT  Left Main Branch of Portal Vein   SCT  Right Main Branch of Portal Vein   SCT  Inferior Mesenteric Vein   SCT  Inferior Vena Cava   SCT  Splenic Vein   SCT  Superior Mesenteric Vein   SCT  Transjugular Intrahepatic Portosystemic Shunt   SCT  Umbilical Vein
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.581"

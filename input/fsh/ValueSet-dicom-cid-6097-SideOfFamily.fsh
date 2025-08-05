@@ -2,7 +2,7 @@ ValueSet    : CID_6097
 Id          : dicom-cid-6097-SideOfFamily
 Description :
 """
-      Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Maternal   SCT  Paternal  
+Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Maternal   SCT  Paternal
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.419"
