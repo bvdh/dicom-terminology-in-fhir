@@ -3,7 +3,7 @@ Id: dicom-codesystem-UNS
 Title: "UNS"
 Description: "Unified numbering system (UNS) for metals and alloys"
 * ^caseSensitive = true
-* ^content = #part
+* ^content = #fragment
 * ^experimental = false
 
 

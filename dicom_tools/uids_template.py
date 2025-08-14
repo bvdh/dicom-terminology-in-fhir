@@ -1,6 +1,5 @@
 import os
 from typing import List, Optional
-from dicom_spec_parser import get_dicom_table
 from doc_book_tools import getDataDicomTable
 
 PART = 'part06'

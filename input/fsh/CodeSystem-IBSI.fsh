@@ -3,7 +3,7 @@ Id: dicom-codesystem-IBSI
 Title: "IBSI"
 Description: "Image Biomarker Standardisation Initiative"
 * ^caseSensitive = true
-* ^content = #part
+* ^content = #fragment
 * ^experimental = false
 
 

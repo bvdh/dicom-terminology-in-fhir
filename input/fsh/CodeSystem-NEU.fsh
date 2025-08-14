@@ -3,7 +3,7 @@ Id: dicom-codesystem-NEU
 Title: "NEU"
 Description: "The numeric brainInfoID is used as the Code Value."
 * ^caseSensitive = true
-* ^content = #part
+* ^content = #fragment
 * ^experimental = false
 
 

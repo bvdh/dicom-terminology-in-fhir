@@ -3,7 +3,7 @@ Id: dicom-codesystem-BI
 Title: "BI"
 Description: "In the HL7 registry, the abbreviation BI is assigned to a different Coding Scheme, specifically the Beth Israel problem list."
 * ^caseSensitive = true
-* ^content = #part
+* ^content = #fragment
 * ^experimental = false
 
 

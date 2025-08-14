@@ -7,8 +7,8 @@ The list of abnormalities includes both those that are explicitly mentioned in t
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1394"
 * ^version = "20250122"
-* ^title = "mpMRI Prostate Abnormality from PI-RADS"
-* ^name = "mpMRIProstateAbnormalityFromPIRADS"
+* ^title = "MpMRI Prostate Abnormality from PI-RADS"
+* ^name = "MpMRIProstateAbnormalityFromPIRADS"
 * DICOMDCMCodeSystem#130591 "Focal abnormality" 
 
 * http://snomed.info/sct#87017008 "Focal" 

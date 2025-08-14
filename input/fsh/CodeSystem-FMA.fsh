@@ -3,7 +3,7 @@ Id: dicom-codesystem-FMA
 Title: "FMA"
 Description: "Digital Anatomist Foundational Model of Anatomy"
 * ^caseSensitive = true
-* ^content = #part
+* ^content = #fragment
 * ^experimental = false
 
 

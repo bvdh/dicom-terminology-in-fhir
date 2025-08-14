@@ -3,7 +3,7 @@ Id: dicom-codesystem-snomed-srt
 Title: "SNOMED SRT partial"
 Description: "SNOMED CT"
 * ^caseSensitive = true
-* ^content = #part
+* ^content = #fragment
 * ^experimental = false
 
 

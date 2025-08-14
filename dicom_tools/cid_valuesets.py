@@ -61,7 +61,8 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
             # Extract title
             title_element = section.find('.//db:title', ns)
             title_text = cleanTextFromElement(title_element)
-            
+            title_text  = title_text[:1].upper() + title_text[1:]
+
             # Extract caption
             caption_element = section.find('.//db:caption', ns)
             caption_text = cleanTextFromElement( caption_element )
@@ -75,6 +76,7 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
             defined_terms = getVariableListEntries(section )
             keywords = defined_terms.get('Keyword:', [])
             keyword  = keywords[0] if isinstance(keywords, List) and len(keywords) > 0 else f'{toCamelCase(section_label)}'
+            keyword  = keyword[:1].upper() + keyword[1:]
             fhir_ids = defined_terms.get('FHIR Keyword:',[])
             fhir_id  = fhir_ids[0] if isinstance(fhir_ids, List) and len(fhir_ids) > 0 else f'dicom-{toCamelCase(section_label).lower()}'
             versions = defined_terms.get('Version:', [])
@@ -231,7 +233,7 @@ def writeCodeSystemPart(fsh_path, dicomSystem, system, uid, description, items):
         fsh_file.write(f'Description: "{description}"\n')
         
         fsh_file.write('* ^caseSensitive = true\n')
-        fsh_file.write('* ^content = #part\n')
+        fsh_file.write('* ^content = #fragment\n')
         fsh_file.write('* ^experimental = false\n\n')
         fsh_file.write('\n')
     
@@ -256,7 +258,7 @@ def writeSrtCodeSystemPart(fsh_path, uid, description, items):
         fsh_file.write(f'Description: "{description}"\n')
         
         fsh_file.write('* ^caseSensitive = true\n')
-        fsh_file.write('* ^content = #part\n')
+        fsh_file.write('* ^content = #fragment\n')
         fsh_file.write('* ^experimental = false\n\n')
         fsh_file.write('\n')
     
