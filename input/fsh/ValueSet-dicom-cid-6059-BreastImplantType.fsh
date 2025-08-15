@@ -2,7 +2,7 @@ ValueSet    : CID_6059
 Id          : dicom-cid-6059-BreastImplantType
 Description :
 """
-Some of these terms were obtained from BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Breast implant, type not specified   SCT  Silicone gel implant   DCM  Saline implant   DCM  Polyurethane implant   DCM  Percutaneous silicone injection   DCM  Combination implant   DCM  Pre-pectoral implant   DCM  Retro-pectoral implant
+Some of these terms were obtained from BI-RADS
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.388"

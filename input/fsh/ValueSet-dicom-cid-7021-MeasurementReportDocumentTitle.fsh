@@ -2,7 +2,7 @@ ValueSet    : CID_7021
 Id          : dicom-cid-7021-MeasurementReportDocumentTitle
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Imaging Measurement Report DCM  Oncology Measurement Report DCM  Dynamic Contrast MR Measurement Report DCM  PET Measurement Report
+Measurement Report Document Title
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.997"

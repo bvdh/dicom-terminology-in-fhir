@@ -2,7 +2,7 @@ ValueSet    : CID_223
 Id          : dicom-cid-223-NormalRangeValue
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Normal Range Upper Limit   SCT  Normal Range Lower Limit
+Normal Range Value
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.28"

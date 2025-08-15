@@ -2,7 +2,7 @@ ValueSet    : CID_10023
 Id          : dicom-cid-10023-SizeSpecificDoseEstimationMethodForCT
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  AAPM 204 Lateral Dimension DCM  AAPM 204 AP Dimension DCM  AAPM 204 Sum of Lateral and AP Dimension DCM  AAPM 204 Effective Diameter Estimated From Patient Age DCM  Estimated from Water Equivalent Diameter DCM  Arithmetic Average of SSDE(z)
+Size Specific Dose Estimation Method for CT
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.947"

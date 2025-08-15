@@ -2,7 +2,7 @@ ValueSet    : CID_3839
 Id          : dicom-cid-3839-CoronaryVein
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Azygos Vein   SCT  Coronary Sinus   SCT  Great Cardiac Vein   SCT  Small Cardiac Vein   SCT  Anterior Cardiac Vein   SCT  Atrial Vein   SCT  Atrioventricular Vein   SCT  Middle Cardiac Vein   SCT  Ventricular Vein   SCT  Smallest Cardiac Vein   A previous version of this Context Group used terms with the SNOMED concept "entire" (see PS3.16-2011). The use of "structure" concepts rather than "entire" is described in
+A previous version of this Context Group used terms with the SNOMED concept "entire" (see PS3.16-2011). The use of "structure" concepts rather than "entire" is described in
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.289"

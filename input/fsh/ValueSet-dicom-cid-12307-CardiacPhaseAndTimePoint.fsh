@@ -2,7 +2,7 @@ ValueSet    : CID_12307
 Id          : dicom-cid-12307-CardiacPhaseAndTimePoint
 Description :
 """
-The following codes are intended for use in a post-coordinated context. For example, the E-wave refers to the period of diastolic rapid inflow as experienced at the post-coordinated finding site, such as the mitral valve or the tricuspid valve. The table is organized in time sequence based on the start of the coded period. As indicated in       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Electromechanical Delay   DCM  Pre-ejection Period   SCT  Systole   SCT  Ventricular Isovolumic Contraction   SCT  Ventricular Ejection (S-wave)   SCT  End Systole   SCT  Diastole   SCT  Ventricular Isovolumic Relaxation   DCM  Atrial Diastolic Filling (D-wave)   SCT  Diastolic Rapid Inflow (E-wave)   SCT  Diastasis   SCT  Atrial Systole (A-wave)   DCM  AR-wave   SCT  End Diastole   DCM  Full Cardiac Cycle   DCM  Aortic Valve Closure   DCM  Aortic Valve Opening   DCM  Mitral Valve Closure   DCM  Mitral Valve Opening
+Cardiac Phase and Time Point
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1148"

@@ -2,7 +2,7 @@ ValueSet    : CID_3748
 Id          : dicom-cid-3748-AngiographicEFTestingMethod
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Single plane Angiography DCM  Bi-plane Angiography
+Angiographic EF Testing Method
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.245"

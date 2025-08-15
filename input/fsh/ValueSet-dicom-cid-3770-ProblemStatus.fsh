@@ -2,7 +2,7 @@ ValueSet    : CID_3770
 Id          : dicom-cid-3770-ProblemStatus
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Active problem   SCT  Chronic   SCT  Intermittent   SCT  Recurrent   SCT  Suspected   SCT  Inactive problem   SCT  Problem resolved   SCT  Known absent   SCT  Well controlled
+Problem Status
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.259"

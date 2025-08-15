@@ -2,7 +2,7 @@ ValueSet    : CID_3101
 Id          : dicom-cid-3101-CardiacProceduralStateValue
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Resting State   SCT  Cardiac Stress State   DCM  Reinjection State   DCM  Redistribution State   DCM  Delayed Redistribution State
+Cardiac Procedural State Value
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.52"

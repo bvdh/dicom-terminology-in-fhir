@@ -2,7 +2,7 @@ ValueSet    : CID_9500
 Id          : dicom-cid-9500-DosimetricObjectiveType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning     DCM  Specified Conformity Index DCM  Specified Healthy Tissue Conformity Index DCM  Specified Conformation Number DCM  Specified Homogeneity Index
+Dosimetric Objective Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1210"

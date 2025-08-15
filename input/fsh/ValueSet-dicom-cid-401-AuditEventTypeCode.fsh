@@ -2,7 +2,7 @@ ValueSet    : CID_401
 Id          : dicom-cid-401-AuditEventTypeCode
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Application Start DCM  Application Stop DCM  Login DCM  Logout DCM  Attach DCM  Detach DCM  Node Authentication DCM  Emergency Override Started DCM  Network Configuration DCM  Security Configuration DCM  Hardware Configuration DCM  Software Configuration DCM  Use of Restricted Function DCM  Audit Recording Stopped DCM  Audit Recording Started DCM  Object Security Attributes Changed DCM  Security Roles Changed DCM  User Security Attributes Changed DCM  Emergency Override Stopped DCM  Remote Service Operation Started DCM  Remote Service Operation Stopped DCM  Local Service Operation Started DCM  Local Service Operation Stopped DCM  Authentication Decision DCM  Authorization Decision DCM  Session start DCM  Session stop DCM  Access Control Decision
+Audit Event Type Code
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.904"

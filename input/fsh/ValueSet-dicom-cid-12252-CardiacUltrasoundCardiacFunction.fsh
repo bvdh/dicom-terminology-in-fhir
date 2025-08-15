@@ -2,7 +2,7 @@ ValueSet    : CID_12252
 Id          : dicom-cid-12252-CardiacUltrasoundCardiacFunction
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Cardiac ejection fraction   LN  Mean Velocity of Circumferential Fiber Shortening (Mean VcFv)   LN  HR-Corrected Mean Velocity of Circumferential Fiber Shortening   LN  % Thickening   LN  Fractional Shortening
+Cardiac Ultrasound Cardiac Function
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.833"

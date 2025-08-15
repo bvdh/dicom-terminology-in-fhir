@@ -2,7 +2,7 @@ ValueSet    : CID_4214
 Id          : dicom-cid-4214-OphthalmicHorizontalDirection
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Inward   SCT  Outward
+Ophthalmic Horizontal Direction
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.800"

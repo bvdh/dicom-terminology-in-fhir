@@ -2,7 +2,7 @@ ValueSet    : CID_3806
 Id          : dicom-cid-3806-StenosisShape
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  concentric   SCT  eccentric
+Stenosis Shape
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.267"

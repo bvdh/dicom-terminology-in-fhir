@@ -2,7 +2,7 @@ ValueSet    : CID_4100
 Id          : dicom-cid-4100-T1MeasurementMethod
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  T1 by Multiple Flip Angles DCM  T1 by Inversion Recovery DCM  T1 by Fixed Value
+T1 Measurement Method
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.985"

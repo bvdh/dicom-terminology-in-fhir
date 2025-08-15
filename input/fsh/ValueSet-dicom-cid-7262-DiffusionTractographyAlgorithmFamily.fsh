@@ -2,7 +2,7 @@ ValueSet    : CID_7262
 Id          : dicom-cid-7262-DiffusionTractographyAlgorithmFamily
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Deterministic DCM  Probabilistic DCM  Global DCM  FACT DCM  Streamline DCM  TEND DCM  Bootstrap DCM  Euler DCM  Runge-Kutta
+Diffusion Tractography Algorithm Family
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1061"

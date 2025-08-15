@@ -2,7 +2,7 @@ ValueSet    : CID_6085
 Id          : dicom-cid-6085-TherapiesForBreast
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Chemotherapy   SCT  Radiation therapy   SCT  Hormone therapy   SCT  Bone marrow transplant
+Therapies for Breast
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.407"

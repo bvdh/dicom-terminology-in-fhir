@@ -2,7 +2,7 @@ ValueSet    : CID_9551
 Id          : dicom-cid-9551-TreatmentDeliveryDeviceType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Radiotherapy Treatment Device
+Treatment Delivery Device Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1298"

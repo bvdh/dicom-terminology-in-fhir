@@ -2,7 +2,7 @@ ValueSet    : CID_3823
 Id          : dicom-cid-3823-RespiratoryStatus
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  inspiration   SCT  expiration   SCT  autonomous breathing   SCT  Valsalva maneuver   DCM  central breathing position   SCT  shallow breathing
+Respiratory Status
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.278"

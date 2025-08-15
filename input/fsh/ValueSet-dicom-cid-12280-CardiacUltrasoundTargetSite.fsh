@@ -2,7 +2,7 @@ ValueSet    : CID_12280
 Id          : dicom-cid-12280-CardiacUltrasoundTargetSite
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anterior Wall   SCT  Posterior Wall   SCT  Cardiac valve annulus   SCT  Preductal region of aortic arch   SCT  Postductal region of aortic arch   SCT  Vena Contracta   SCT  Transverse Aortic Arch   SCT  Effusion   SCT  Cardiac Valve Leaflet   SCT  Right Pulmonary Artery   SCT  Left Pulmonary Artery   SCT  Right Ventricle Outflow Tract   SCT  Left Ventricle Outflow Tract   SCT  Right Superior Pulmonary Vein   SCT  Right Inferior Pulmonary Vein   SCT  Left Superior Pulmonary Vein   SCT  Left Inferior Pulmonary Vein   SCT  Pulmonary Vein Common Left Segment   SCT  Pulmonary Vein Common Right Segment   SCT  Pulmonary Vein confluence to Atrium Connection
+Cardiac Ultrasound Target Site
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.860"

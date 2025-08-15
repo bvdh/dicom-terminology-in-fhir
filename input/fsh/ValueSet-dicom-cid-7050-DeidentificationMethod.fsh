@@ -2,7 +2,7 @@ ValueSet    : CID_7050
 Id          : dicom-cid-7050-DeidentificationMethod
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Basic Application Confidentiality Profile DCM  Clean Pixel Data Option DCM  Clean Recognizable Visual Features Option DCM  Clean Graphics Option DCM  Clean Structured Content Option DCM  Clean Descriptors Option DCM  Retain Longitudinal Temporal Information Full Dates Option DCM  Retain Longitudinal Temporal Information Modified Dates Option DCM  Retain Patient Characteristics Option DCM  Retain Device Identity Option DCM  Retain UIDs Option DCM  Retain Safe Private Option DCM  Retain Institution Identity Option
+De-identification Method
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.925"

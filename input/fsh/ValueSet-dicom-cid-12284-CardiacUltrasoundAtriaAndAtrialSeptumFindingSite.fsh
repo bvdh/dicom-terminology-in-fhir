@@ -2,7 +2,7 @@ ValueSet    : CID_12284
 Id          : dicom-cid-12284-CardiacUltrasoundAtriaAndAtrialSeptumFindingSite
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Right Atrium   SCT  Left Atrium   SCT  Common Atrium   SCT  Left Auricular Appendage   SCT  Right Auricular Appendage   SCT  Interatrial Septum Structure   SCT  Atrial Septal Defect   SCT  Limbus of Fossa Ovalis   SCT  Patent Foramen Ovale   SCT  Fontan Fenestration   SCT  Fontan Baffle Leak
+Cardiac Ultrasound Atria and Atrial Septum Finding Site
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.864"

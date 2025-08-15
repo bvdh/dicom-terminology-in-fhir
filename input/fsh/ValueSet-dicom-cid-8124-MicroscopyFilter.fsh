@@ -2,7 +2,7 @@ ValueSet    : CID_8124
 Id          : dicom-cid-8124-MicroscopyFilter
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Green optical filter   SCT  Red optical filter   SCT  Blue optical filter   SCT  Infrared optical filter   SCT  Polarizing optical filter   SCT  Violet optical filter   SCT  Ultraviolet optical filter   SCT  Dichroic beamsplitter   SCT  Hoffman modulator   SCT  Darkfield stop   SCT  Rheinberg filter   SCT  Phase contrast plate   SCT  Condenser annulus   SCT  Nomarski prism   SCT  de Snarmont compensator   DCM  No filter
+Microscopy Filter
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.901"

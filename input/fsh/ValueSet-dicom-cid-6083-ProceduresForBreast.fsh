@@ -2,7 +2,7 @@ ValueSet    : CID_6083
 Id          : dicom-cid-6083-ProceduresForBreast
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Nipple discharge cytology
+Procedures for Breast
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.405"

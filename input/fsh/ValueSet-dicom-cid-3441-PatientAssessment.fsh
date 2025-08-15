@@ -2,7 +2,7 @@ ValueSet    : CID_3441
 Id          : dicom-cid-3441-PatientAssessment
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  Cardiac Rhythm   LN  Respiration Rhythm   SCT  Skin condition assessment   SCT  Respiration assessment   SCT  Patient mental state assessment
+Patient Assessment
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.94"

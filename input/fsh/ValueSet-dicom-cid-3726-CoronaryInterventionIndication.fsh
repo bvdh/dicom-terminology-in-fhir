@@ -2,7 +2,7 @@ ValueSet    : CID_3726
 Id          : dicom-cid-3726-CoronaryInterventionIndication
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR Equivalent DCM  Coronary lesion > = 50% stenosis    SCT  Cardiogenic Shock   123
+Coronary Intervention Indication
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.226"

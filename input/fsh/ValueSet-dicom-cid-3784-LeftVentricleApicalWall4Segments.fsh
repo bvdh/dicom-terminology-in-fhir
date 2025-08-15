@@ -2,7 +2,7 @@ ValueSet    : CID_3784
 Id          : dicom-cid-3784-LeftVentricleApicalWall4Segments
 Description :
 """
-This 4-segment model of the apical left ventricular myocardial wall uses the terminology specified in       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  left ventricle apical anterior segment   SCT  left ventricle apical septal segment   SCT  left ventricle apical inferior segment   SCT  left ventricle apical lateral segment
+Left Ventricle Apical Wall 4 Segments
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1416"

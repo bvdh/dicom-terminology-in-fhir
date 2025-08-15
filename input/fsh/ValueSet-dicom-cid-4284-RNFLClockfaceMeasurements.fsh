@@ -2,7 +2,7 @@ ValueSet    : CID_4284
 Id          : dicom-cid-4284-RNFLClockfaceMeasurements
 Description :
 """
-Positions in the right eye proceed in the clockwise direction as viewed from the anterior position, while positions in the left eye proceed in the counter-clockwise direction.       Coding Scheme Designator Code Value Code Meaning Units DCM  Retinal ROI width (mm, UCUM, "mm") DCM  RNFL clockface position 1 thickness (um, UCUM, "um") DCM  RNFL clockface position 2 thickness (um, UCUM, "um") DCM  RNFL clockface position 3 thickness (um, UCUM, "um") DCM  RNFL clockface position 4 thickness (um, UCUM, "um") DCM  RNFL clockface position 5 thickness (um, UCUM, "um") DCM  RNFL clockface position 6 thickness (um, UCUM, "um") DCM  RNFL clockface position 7 thickness (um, UCUM, "um") DCM  RNFL clockface position 8 thickness (um, UCUM, "um") DCM  RNFL clockface position 8 thickness (um, UCUM, "um") DCM  RNFL clockface position 10 thickness (um, UCUM, "um") DCM  RNFL clockface position 11 thickness (um, UCUM, "um") DCM  RNFL clockface position 12 thickness (um, UCUM, "um")
+RNFL Clockface Measurements
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1537"

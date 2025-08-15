@@ -2,7 +2,7 @@ ValueSet    : CID_4070
 Id          : dicom-cid-4070-OrthodonticTreatmentProgress
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  Patient registration   SCT  Orthodontic Treatment started   SCT  Orthodontic Treatment stopped
+Orthodontic Treatment Progress
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1510"

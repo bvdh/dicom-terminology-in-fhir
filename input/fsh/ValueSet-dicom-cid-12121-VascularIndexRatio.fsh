@@ -2,7 +2,7 @@ ValueSet    : CID_12121
 Id          : dicom-cid-12121-VascularIndexRatio
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  Acceleration Index   SCT  Lumen Area Stenosis   SCT  Lumen Diameter Stenosis   LN  Pulsatility Index   LN  Resistivity Index   LN  Systolic to Diastolic Velocity Ratio   LN  Velocity ratio   This Context Group formerly included SNOMED codes G-0371 and G-0372, which have been replaced by
+This Context Group formerly included SNOMED codes G-0371 and G-0372, which have been replaced by
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.587"

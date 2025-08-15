@@ -2,7 +2,7 @@ ValueSet    : CID_12033
 Id          : dicom-cid-12033-UltrasoundTransducerGeometry
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Non-imaging Doppler ultrasound transducer geometry DCM  Linear ultrasound transducer geometry DCM  Curved linear ultrasound transducer geometry DCM  Sector ultrasound transducer geometry DCM  Radial ultrasound transducer geometry DCM  Ring ultrasound transducer geometry DCM  Planar matrix ultrasound transducer geometry DCM  Hemispherical ultrasound transducer geometry
+Ultrasound Transducer Geometry
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.808"

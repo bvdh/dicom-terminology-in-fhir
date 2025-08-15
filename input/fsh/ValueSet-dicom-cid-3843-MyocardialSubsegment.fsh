@@ -2,7 +2,7 @@ ValueSet    : CID_3843
 Id          : dicom-cid-3843-MyocardialSubsegment
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  endocardial   SCT  epicardial
+Myocardial Subsegment
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.291"

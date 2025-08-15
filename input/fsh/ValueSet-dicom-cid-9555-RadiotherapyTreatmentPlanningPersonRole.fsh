@@ -2,7 +2,7 @@ ValueSet    : CID_9555
 Id          : dicom-cid-9555-RadiotherapyTreatmentPlanningPersonRole
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT Concept ID UMLS Concept Unique ID SCT  Medical Practitioner   SCT  Physician   NCIt  Dosimetrist  SCT  Resident   UMLS  Consulting Physician  UMLS  Radiation Physicist  DCM 128678 Physics Assistant UMLS  Medical Physicist
+Radiotherapy Treatment Planning Person Role
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1302"

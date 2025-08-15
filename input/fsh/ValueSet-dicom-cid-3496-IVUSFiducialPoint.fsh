@@ -2,7 +2,7 @@ ValueSet    : CID_3496
 Id          : dicom-cid-3496-IVUSFiducialPoint
 Description :
 """
-This Context Group is a set of fiducial points (anatomical markers). Fiducial points are used as identifiable axial landmarks in determining the location of a measurement in a vessel.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Collateral Branch of vessel   SCT  Stent   SCT  Vascular Calcification   SCT  Fibrous Plaque   SCT  Vein   SCT  Vessel Origin
+IVUS Fiducial Point
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.130"

@@ -2,7 +2,7 @@ ValueSet    : CID_4283
 Id          : dicom-cid-4283-RNFLSectorMeasurements
 Description :
 """
-This Context Group includes measurements of the circumpapillary retinal nerve fiber layer (cpRNFL) globally across the entire ROI and in each ROI sector, with the span of each sector defined by the context of usage.       Coding Scheme Designator Code Value Code Meaning Units DCM  RNFL average thickness (um, UCUM, "um") DCM  RNFL inferior sector thickness (um, UCUM, "um") DCM  RNFL superior sector thickness (um, UCUM, "um") DCM  RNFL temporal sector thickness (um, UCUM, "um") DCM  RNFL nasal sector thickness (um, UCUM, "um") DCM  RNFL nasal-superior sector thickness (um, UCUM, "um") DCM  RNFL nasal-inferior sector thickness (um, UCUM, "um") DCM  RNFL temporal-inferior sector thickness (um, UCUM, "um") DCM  RNFL temporal-superior sector thickness (um, UCUM, "um")
+RNFL Sector Measurements
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1536"

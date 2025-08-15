@@ -2,7 +2,7 @@ ValueSet    : CID_3481
 Id          : dicom-cid-3481-IVUSDistanceMeasurement
 Description :
 """
-This Context Group is the set of distance measurements made in an IVUS procedure.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  EEM Diameter   SCT  Vessel lumen diameter   SCT  Stent Diameter   DCM  Plaque Plus Media Thickness   DCM  Lumen Perimeter
+IVUS Distance Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.116"

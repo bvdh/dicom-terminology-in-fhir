@@ -2,7 +2,7 @@ ValueSet    : CID_3448
 Id          : dicom-cid-3448-AirwayAssessment
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  airway unobstructed DCM  airway partially obstructed DCM  airway severely obstructed
+Airway Assessment
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.97"

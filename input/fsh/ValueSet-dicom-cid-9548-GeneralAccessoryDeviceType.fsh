@@ -2,7 +2,7 @@ ValueSet    : CID_9548
 Id          : dicom-cid-9548-GeneralAccessoryDeviceType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Graticule DCM  Reticle DCM  Image Detector DCM  Film Holder DCM  Winston-Lutz Pointer DCM  Bowtie Filter
+General Accessory Device Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1295"

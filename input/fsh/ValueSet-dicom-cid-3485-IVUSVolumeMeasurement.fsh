@@ -2,7 +2,7 @@ ValueSet    : CID_3485
 Id          : dicom-cid-3485-IVUSVolumeMeasurement
 Description :
 """
-This Context Group is the set of volume measurements made from an IVUS procedure.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  EEM Volume   DCM  Lumen Volume   SCT  Stent Volume   DCM  In-Stent Neointimal Volume   DCM  Native Plaque Volume   DCM  Total Plaque Volume
+IVUS Volume Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.120"

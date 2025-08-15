@@ -2,7 +2,7 @@ ValueSet    : CID_6348
 Id          : dicom-cid-6348-ProstateMRIAssessmentOfExtraprostaticAnatomicSite
 Description :
 """
-This Context Group includes codes for extra-prostatic areas that may be evaluated as part of the prostate MRI assessment and reporting process.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID RADLEX Code Value UMLS Concept Unique ID SCT  Male external urethral sphincter    RADLEX  Neurovascular bundle of prostate    SCT  Seminal vesicle    SCT  Lymph node    SCT  Rectum
+Prostate MRI Assessment of Extra-prostatic Anatomic Site
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1405"

@@ -2,7 +2,7 @@ ValueSet    : CID_3769
 Id          : dicom-cid-3769-ConcernType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Complaint   SCT  Disease   SCT  Finding   SCT  Finding reported by patient/informant   SCT  Functional performance and activity   SCT  Problem
+Concern Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.258"

@@ -2,7 +2,7 @@ ValueSet    : CID_109
 Id          : dicom-cid-109-DiagnosticImagingProcedureWithIVContrast
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  CT with contrast   SCT  CT arteriography of abdominal aorta with contrast   LN  CT perfusion head with contrast IV   SCT  Plain X-ray with contrast   SCT  Fluoroscopy using contrast
+Diagnostic Imaging Procedure with IV Contrast
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1515"

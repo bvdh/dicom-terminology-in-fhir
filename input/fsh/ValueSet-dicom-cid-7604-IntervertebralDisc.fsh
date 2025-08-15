@@ -2,7 +2,7 @@ ValueSet    : CID_7604
 Id          : dicom-cid-7604-IntervertebralDisc
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  C2/C3 disc   SCT  C3/C4 disc   SCT  C4/C5 disc   SCT  C5/C6 disc   SCT  C6/C7 disc   SCT  C7/T1 disc   SCT  T1/T2 disc   SCT  T2/T3 disc   SCT  T3/T4 disc   SCT  T4/T5 disc   SCT  T5/T6 disc   SCT  T6/T7 disc   SCT  T7/T8 disc   SCT  T8/T9 disc   SCT  T9/T10 disc   SCT  T10/T11 disc   SCT  T11/T12 disc   SCT  T12/L1 disc   SCT  L1/L2 disc   SCT  L2/L3 disc   SCT  L3/L4 disc   SCT  L4/L5 disc   SCT  L5/S1 disc   The intervertebral discs described in this Context Group are the structures themselves, as distinct from the disk space, or the anatomical planes through the levels of the discs defined in
+The intervertebral discs described in this Context Group are the structures themselves, as distinct from the disk space, or the anatomical planes through the levels of the discs defined in
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1435"

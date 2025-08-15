@@ -2,7 +2,7 @@ ValueSet    : CID_3250
 Id          : dicom-cid-3250-CatheterizationProcedurePhase
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Cardiac catheterization bailout phase   SCT  Cardiac catheterization baseline phase   SCT  Cardiac catheterization image acquisition phase   SCT  Cardiac catheterization intervention phase   SCT  Cardiac catheterization post contrast phase   SCT  Cardiac catheterization post-intervention phase   SCT  Cardiac catheterization pre-intervention phase   SCT  Cardiac catheterization test/challenge phase   SCT  Cardiac catheterization therapy phase   SCT  Catheterization of both left and right heart with graft   SCT  Catheterization of both left and right heart without graft   SCT  Catheterization of left heart   SCT  Catheterization of right heart   SCT  Transseptal catheterization   SCT  Drug Infusion Challenge   SCT  Exercise challenge   SCT  Resting State
+Catheterization Procedure Phase
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.55"

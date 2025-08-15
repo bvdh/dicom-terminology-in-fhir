@@ -2,7 +2,7 @@ ValueSet    : CID_6096
 Id          : dicom-cid-6096-PregnancyStatus
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  not pregnant   SCT  possible pregnancy   SCT  patient currently pregnant   SCT  Unknown
+Pregnancy Status
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.418"

@@ -2,7 +2,7 @@ ValueSet    : CID_10031
 Id          : dicom-cid-10031-CRDRMechanicalConfiguration
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Unmounted Detector DCM  Table Mount DCM  Upright Stand Mount DCM  C-Arm Mount
+CR/DR Mechanical Configuration
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.960"

@@ -2,7 +2,7 @@ ValueSet    : CID_12343
 Id          : dicom-cid-12343-TransesophagealEchocardiographyScanPlane
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Mid-esophageal 0 degree TEE   DCM  Mid-esophageal 45 degree TEE   DCM  Mid-esophageal 60 degree TEE   DCM  Mid-esophageal 90 degree TEE   DCM  Mid-esophageal 135 degree TEE
+Transesophageal Echocardiography Scan Plane
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1527"

@@ -2,7 +2,7 @@ ValueSet    : CID_3722
 Id          : dicom-cid-3722-DiabeticTherapy
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Diabetic on Dietary Treatment   SCT  Diabetic on Oral Treatment   SCT  Diabetic on Insulin   In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
+In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.223"

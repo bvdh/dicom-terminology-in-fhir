@@ -2,7 +2,7 @@ ValueSet    : CID_12002
 Id          : dicom-cid-12002-UltrasoundProtocolStageType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID   SCT  Cardiac pacing   SCT  Hand grip   SCT  Valsalva maneuver   A prior version of this Context Group used many codes that are not actually in SNOMED. Although there is minimal possibility of misinterpretation with SOP Instances that may include the deprecated use, receiving applications should be aware of this change; see
+A prior version of this Context Group used many codes that are not actually in SNOMED. Although there is minimal possibility of misinterpretation with SOP Instances that may include the deprecated use, receiving applications should be aware of this change; see
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.551"

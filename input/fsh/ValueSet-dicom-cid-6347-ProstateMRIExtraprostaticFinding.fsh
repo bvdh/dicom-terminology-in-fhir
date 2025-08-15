@@ -2,7 +2,7 @@ ValueSet    : CID_6347
 Id          : dicom-cid-6347-ProstateMRIExtraprostaticFinding
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Bony metastasis   SCT  Lymphadenopathy   SCT  Entire
+Prostate MRI Extra-prostatic Finding
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1404"

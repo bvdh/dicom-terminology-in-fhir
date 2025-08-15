@@ -2,7 +2,7 @@ ValueSet    : CID_603
 Id          : dicom-cid-603-AnimalRoomType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Animal housing room   DCM  Preparation room   DCM  Imaging procedure room   SCT  Induction room   SCT  Recovery room   SCT  Isolation room   Only rooms appropriate for animals in the context of in vivo imaging are described (e.g., not necropsy rooms, etc.) (398161000, SCT, "Recovery room" (synonym of "postoperative anesthesia care unit") is reused here even though its parent is "Location within hospital premises (environment)", which is arguably specifically human. The same is true for
+Only rooms appropriate for animals in the context of in vivo imaging are described (e.g., not necropsy rooms, etc.) (398161000, SCT, "Recovery room" (synonym of "postoperative anesthesia care unit") is reused here even though its parent is "Location within hospital premises (environment)", which is arguably specifically human. The same is true for
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1068"

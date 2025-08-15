@@ -2,7 +2,7 @@ ValueSet    : CID_12221
 Id          : dicom-cid-12221-FlowDirection
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Antegrade Flow   SCT  Retrograde Flow   SCT  Regurgitant Flow   SCT  Left to right cardiovascular shunt   SCT  Right to left cardiovascular shunt   In a prior version of this Context Group, the code SRT: R-42E61 was specified for Regurgitant Flow. This has been corrected to be Retrograde Flow. Some applications might continue to send code SRT: R-42E61 instead of
+In a prior version of this Context Group, the code SRT: R-42E61 was specified for Regurgitant Flow. This has been corrected to be Retrograde Flow. Some applications might continue to send code SRT: R-42E61 instead of
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.613"

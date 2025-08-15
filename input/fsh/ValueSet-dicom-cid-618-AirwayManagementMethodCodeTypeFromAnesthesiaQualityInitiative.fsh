@@ -2,7 +2,7 @@ ValueSet    : CID_618
 Id          : dicom-cid-618-AirwayManagementMethodCodeTypeFromAnesthesiaQualit
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Controlled Ventilation   SCT  Artificial Respiration   SCT  Oxygen Therapy   SCT  Laryngeal Mask Airway (LMA)   SCT  Intubation of respiratory tract   SCT  Anesthetic face mask   SCT  Anesthetic face mask   DCM  Nasal cannula   SCT  Via tracheostomy   This Context Group contains SNOMED procedure or physical object or qualifier value code equivalents of enumerated string concepts for the
+This Context Group contains SNOMED procedure or physical object or qualifier value code equivalents of enumerated string concepts for the
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1083"

@@ -2,7 +2,7 @@ ValueSet    : CID_3813
 Id          : dicom-cid-3813-StentFinding
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  hypoplasia   SCT  stenosis   DCM  endoleak   SCT  migration of implant or internal device   DCM  stent disintegration   DCM  stent fracture
+Stent Finding
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.272"

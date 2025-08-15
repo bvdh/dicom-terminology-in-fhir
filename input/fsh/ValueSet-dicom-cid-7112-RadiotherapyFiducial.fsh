@@ -2,7 +2,7 @@ ValueSet    : CID_7112
 Id          : dicom-cid-7112-RadiotherapyFiducial
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Coil Marker   DCM  Sphere   DCM  Cylinder Marker   SCT  BB Shot (Lead Pellet)   DCM  Wire Marker   DCM  Transponder Marker   SCT  Radioactive implant   DCM  MR Marker   DCM  Infrared Reflector Marker   DCM  Visible Reflector Marker   SCT  Clip   SCT  Catheter   SCT  Contrast media
+Radiotherapy Fiducial
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1207"

@@ -2,7 +2,7 @@ ValueSet    : CID_9509
 Id          : dicom-cid-9509-PurposeOfReferenceForRTPhysicianIntentInput
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Historical RT Prescription DCM  Diagnostic Source Images DCM  Segmentation Result DCM  Registration Result DCM  RT Prescription Input Images LN  Relevant Diagnostic Tests and/or Laboratory Data
+Purpose of Reference for RT Physician Intent Input
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1219"

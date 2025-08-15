@@ -2,7 +2,7 @@ ValueSet    : CID_9576
 Id          : dicom-cid-9576-ReasonsForRTRadiationTreatmentOmission
 Description :
 """
-DCM  RT Radiation previously delivered DCM  Treatment unnecessary DCM  Treatment exceeds patient tolerance
+Reasons for RT Radiation Treatment Omission
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1423"

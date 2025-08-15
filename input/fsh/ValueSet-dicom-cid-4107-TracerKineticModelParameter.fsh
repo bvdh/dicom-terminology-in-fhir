@@ -2,7 +2,7 @@ ValueSet    : CID_4107
 Id          : dicom-cid-4107-TracerKineticModelParameter
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning Units DCM  Ktrans DT (/min, UCUM, "/min") DCM  kep DT (/min, UCUM, "/min") DCM  ve DT ({ratio}, UCUM, "ratio") DCM  tau_m DT (s, UCUM, "s") DCM  vp DT ({ratio}, UCUM, "ratio")
+Tracer Kinetic Model Parameter
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.992"

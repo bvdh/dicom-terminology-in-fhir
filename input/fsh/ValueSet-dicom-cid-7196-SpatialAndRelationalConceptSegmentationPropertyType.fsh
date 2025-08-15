@@ -2,7 +2,7 @@ ValueSet    : CID_7196
 Id          : dicom-cid-7196-SpatialAndRelationalConceptSegmentationPropertyTy
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Interface DCM  Line DCM  Lucency  Some of the concepts in this Context Group are derived from
+Some of the concepts in this Context Group are derived from
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1195"

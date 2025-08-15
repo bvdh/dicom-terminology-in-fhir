@@ -2,7 +2,7 @@ ValueSet    : CID_6212
 Id          : dicom-cid-6212-CalculatedValueForColonFinding
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Polyp stalk length   SCT  Polyp size, largest dimension   DCM  Polyp stalk width   DCM  Distance from anus
+Calculated Value for Colon Finding
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.799"

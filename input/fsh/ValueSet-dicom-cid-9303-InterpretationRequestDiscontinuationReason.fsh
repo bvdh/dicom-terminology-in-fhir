@@ -2,7 +2,7 @@ ValueSet    : CID_9303
 Id          : dicom-cid-9303-InterpretationRequestDiscontinuationReason
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Resource pre-empted DCM  Doctor canceled procedure DCM  Incorrect procedure ordered DCM  Patient died DCM  Change of procedure for correct charging DCM  Duplicate order DCM  Discontinued for unspecified reason DCM  Workitem assignment rejected by assigned resource DCM  Object Set incomplete DCM  Insufficient quality for interpretation DCM  Interpretation requires specialist expertise
+Interpretation Request Discontinuation Reason
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1198"

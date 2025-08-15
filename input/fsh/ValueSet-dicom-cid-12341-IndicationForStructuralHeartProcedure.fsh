@@ -2,7 +2,7 @@ ValueSet    : CID_12341
 Id          : dicom-cid-12341-IndicationForStructuralHeartProcedure
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Aortic stenosis   SCT  Mitral stenosis   SCT  Mitral valve disease   SCT  Mitral stenosis   SCT  Mitral regurgitation   SCT  Acute mitral regurgitation   SCT  Mitral valve prolapse   SCT  Hypertrophic cardiomyopathy without obstruction   SCT  Tricuspid valve disease   SCT  Tricuspid regurgitation   SCT  Tricuspid valve stenosis   SCT  Aortic valve disease   SCT  Aortic insufficiency   SCT  Aortic regurgitation   SCT  Aortic valve stenosis   SCT  Atrial septal defect   SCT  Pulmonic valve disease   SCT  Pulmonic valve stenosis   SCT  Pulmonic valve regurgitation   SCT  Ventricular septal defect   UMLS  Left atrial dilation   SCT  Impaired left ventricular function   SCT  Atrial fibrillation   SCT  Stroke risk   UMLS  Intolerance to anticoagulation
+Indication for Structural Heart Procedure
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1525"

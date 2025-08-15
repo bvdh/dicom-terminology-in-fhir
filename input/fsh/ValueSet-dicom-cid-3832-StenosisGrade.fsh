@@ -2,7 +2,7 @@ ValueSet    : CID_3832
 Id          : dicom-cid-3832-StenosisGrade
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  severe   SCT  moderate   SCT  mild
+Stenosis Grade
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.283"

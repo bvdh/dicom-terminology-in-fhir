@@ -2,7 +2,7 @@ ValueSet    : CID_10065
 Id          : dicom-cid-10065-RadiationTransportModelType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Geometric Radiation Transport Model DCM  Voxelized Radiation Transport Model DCM  Mesh Radiation Transport Model DCM  NURBS Radiation Transport Model DCM  Measured Radiation Dose DCM  BREP Radiation Transport Model
+Radiation Transport Model Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1159"

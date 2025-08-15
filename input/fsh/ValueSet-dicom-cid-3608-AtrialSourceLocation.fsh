@@ -2,7 +2,7 @@ ValueSet    : CID_3608
 Id          : dicom-cid-3608-AtrialSourceLocation
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Baffle   SCT  Common atrium   SCT  Coronary sinus   SCT  Juxtaposed appendage   SCT  Left atrium   SCT  Pulmonary artery wedge   SCT  Pulmonary capillary wedge   SCT  Pulmonary venous atrium   SCT  Pulmonary chamber in cor triatriatum   SCT  Right Atrium   SCT  Systemic venous atrium
+Atrial Source Location
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.158"

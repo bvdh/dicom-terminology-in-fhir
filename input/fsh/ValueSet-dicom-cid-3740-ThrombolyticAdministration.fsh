@@ -2,7 +2,7 @@ ValueSet    : CID_3740
 Id          : dicom-cid-3740-ThrombolyticAdministration
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR Equivalent SCT  Contraindicated   57-1 SCT  Administered less than 3 hours before PCI   57-2 SCT  Administered between 3 and 6 hours before PCI   57-3 SCT  Administered between 6 hours and 7 days before PCI   57-4
+Thrombolytic Administration
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.237"

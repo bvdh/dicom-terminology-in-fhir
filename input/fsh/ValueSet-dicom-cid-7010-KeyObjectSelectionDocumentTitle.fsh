@@ -2,7 +2,7 @@ ValueSet    : CID_7010
 Id          : dicom-cid-7010-KeyObjectSelectionDocumentTitle
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Of Interest DCM  Rejected for Quality Reasons DCM  For Referring Provider DCM  For Surgery DCM  For Teaching DCM  For Conference DCM  For Therapy DCM  For Patient DCM  For Peer Review DCM  For Research DCM  Quality Issue DCM  Best In Set DCM  For Printing DCM  For Report Attachment DCM  For Litigation DCM  Manifest DCM  Signed Manifest DCM  Complete Study Content DCM  Signed Complete Study Content DCM  Complete Acquisition Content DCM  Signed Complete Acquisition Content DCM  Group of Frames for Display DCM  Rejected for Patient Safety Reasons DCM  Incorrect Modality Worklist Entry DCM  Data Retention Policy Expired DCM  Collection of Presentation States DCM  Diagnostic Source Images DCM  Segmentation Result DCM  Registration Result DCM  For Diagnosis DCM  Diagnosis Input Used DCM  For Segmentation DCM  Contouring Input Used DCM  For Plan Comparison DCM  Plan Comparison Input Used DCM  For Tumor Board DCM  Tumor Board Input Used DCM  For Tumor Registry DCM  Tumor Registry Input Used DCM  For Clinical Trial Submission DCM  Clinical Trial Submission Input Used
+Key Object Selection Document Title
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.490"

@@ -2,7 +2,7 @@ ValueSet    : CID_3466
 Id          : dicom-cid-3466-PlaneIdentification
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Right Anterior Oblique   SCT  Left Anterior Oblique   SCT  Antero-posterior   SCT  Left Lateral   SCT  Cranial LAO   SCT  Cranial RAO   SCT  Caudal LAO   SCT  Caudal RAO   In a prior version of this Context Group, "right anterior oblique" was assigned the code SRT: R-10218, which in SNOMED is actually "Indirect iris transillumination"; this code has been replaced with the correct code
+In a prior version of this Context Group, "right anterior oblique" was assigned the code SRT: R-10218, which in SNOMED is actually "Indirect iris transillumination"; this code has been replaced with the correct code
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.108"

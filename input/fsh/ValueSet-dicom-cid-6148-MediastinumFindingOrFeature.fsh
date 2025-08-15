@@ -2,7 +2,7 @@ ValueSet    : CID_6148
 Id          : dicom-cid-6148-MediastinumFindingOrFeature
 Description :
 """
-Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Atrial Septal Defect   DCM  Azygoesophageal recess interface   SCT  Fascial layer   DCM  Hiatus   DCM  Paraspinal line   DCM  Posterior tracheal stripe   DCM  Right tracheal stripe   DCM  Stripe
+Original source of terms is [Fraser and Pare].
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1313"

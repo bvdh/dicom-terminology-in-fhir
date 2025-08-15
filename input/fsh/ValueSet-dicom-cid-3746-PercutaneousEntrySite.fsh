@@ -2,7 +2,7 @@ ValueSet    : CID_3746
 Id          : dicom-cid-3746-PercutaneousEntrySite
 Description :
 """
-This Context Group includes concepts for Percutaneous entry that are the most relevant children of SNOMED concept 297211001 "transvascular approach". Other concepts from that hierarchy may be used as local extensions to this Context Group.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Via femoral artery   SCT  Via radial artery   SCT  Via brachial artery   SCT  Via artery   SCT  Via arm vein   SCT  Via femoral vein   SCT  Via vein   In prior editions, this Context Group included NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes (see PS3.16-2009).
+In prior editions, this Context Group included NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes (see PS3.16-2009).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.243"

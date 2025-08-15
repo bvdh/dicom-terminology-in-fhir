@@ -2,7 +2,7 @@ ValueSet    : CID_6155
 Id          : dicom-cid-6155-PosteriorAcousticFeature
 Description :
 """
-From BI-RADS       Coding Scheme Designator Code Value Code Meaning DCM  No posterior acoustic features DCM  Posterior enhancement DCM  Posterior shadowing DCM  Combined posterior enhancement and shadowing
+From BI-RADS
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.470"

@@ -2,7 +2,7 @@ ValueSet    : CID_7230
 Id          : dicom-cid-7230-AutomationOfMeasurement
 Description :
 """
-SCT  Automated   SCT  Manual
+Automation of Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1319"

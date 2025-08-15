@@ -2,7 +2,7 @@ ValueSet    : CID_4286
 Id          : dicom-cid-4286-GanglionCellMeasurementExtent
 Description :
 """
-This Context Group specifies the retinal layers included in the ganglion cell measurements.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Ganglion cell layer   DCM  Ganglion cell and inner plexiform layers DCM  Ganglion cell complex
+Ganglion Cell Measurement Extent
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1539"

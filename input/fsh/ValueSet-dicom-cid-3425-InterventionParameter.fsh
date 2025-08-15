@@ -2,7 +2,7 @@ ValueSet    : CID_3425
 Id          : dicom-cid-3425-InterventionParameter
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Angioplasty Inflation pressure   SCT  Angioplasty Inflation duration   SCT  Rotational Atherectomy Speed   SCT  Delivered Radiation Dose   SCT  Ablation power   SCT  Ablation frequency
+Intervention Parameter
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.87"

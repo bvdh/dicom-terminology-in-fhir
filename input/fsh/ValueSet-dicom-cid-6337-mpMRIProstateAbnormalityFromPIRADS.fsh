@@ -2,7 +2,7 @@ ValueSet    : CID_6337
 Id          : dicom-cid-6337-mpMRIProstateAbnormalityFromPIRADS
 Description :
 """
-The list of abnormalities includes both those that are explicitly mentioned in the PI-RADS v2 lexicon (Appendix III), and the benign abnormalities that are listed in the Weinreb et al. manuscript       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID RADLEX Code Value UMLS Concept Unique ID DCM  Focal abnormality    SCT  Focal    NCIt  Index lesion    SCT  Lesion    SCT  Mass    SCT  Nodule    DCM  Non-focal abnormality    SCT  Diffuse    SCT  Multifocal    SCT  Regional
+mpMRI Prostate Abnormality from PI-RADS
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1394"

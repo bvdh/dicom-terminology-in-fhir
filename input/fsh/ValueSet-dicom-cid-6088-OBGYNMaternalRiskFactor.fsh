@@ -2,7 +2,7 @@ ValueSet    : CID_6088
 Id          : dicom-cid-6088-OBGYNMaternalRiskFactor
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  History of - diabetes mellitus   SCT  History of - hypertension   SCT  History of - obesity   SCT  History of - regular medication   SCT  History of substance abuse   SCT  History of - cardiovascular disease   DCM  Uterine malformations   SCT  History of - ectopic pregnancy   DCM  Spontaneous Abortion   DCM  Gynecologic condition   DCM  Gynecologic surgery   SCT  History of - eclampsia   SCT  History of - severe pre-eclampsia   DCM  Previous LBW or IUGR birth   DCM  Previous fetal malformation/syndrome   SCT  History of - premature delivery   DCM  Previous RH negative or blood dyscrasia at birth   SCT  History of infertility   DCM  History of multiple fetuses   SCT  Multiple pregnancy   DCM  Current pregnancy, known or suspected malformations/syndromes   DCM  Family history, fetal malformation/syndrome
+OB-GYN Maternal Risk Factor
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.410"

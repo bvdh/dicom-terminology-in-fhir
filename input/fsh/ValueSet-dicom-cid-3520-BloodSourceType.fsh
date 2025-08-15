@@ -2,7 +2,7 @@ ValueSet    : CID_3520
 Id          : dicom-cid-3520-BloodSourceType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Systemic Artery Blood   SCT  Mixed Venous Blood   SCT  Pulmonary Artery Blood   SCT  Pulmonary Vein Blood
+Blood Source Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.137"

@@ -2,7 +2,7 @@ ValueSet    : CID_4072
 Id          : dicom-cid-4072-DevicesForThePurposeOfDentalPhotography
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Periodontal probe   SCT  Measuring Ruler   SCT  Tongue blade   SCT  Retractor   SCT  Intraoral photography mirror   SCT  Dental photography black contraster   SCT  Photographic image fiducial marker
+Devices for the Purpose of Dental Photography
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1512"

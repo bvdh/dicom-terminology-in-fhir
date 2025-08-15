@@ -2,7 +2,7 @@ ValueSet    : CID_7185
 Id          : dicom-cid-7185-AbstractMultiDimensionalImageModelAxisOrientation
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Right To Left DCM  Left To Right DCM  Head To Foot DCM  Foot To Head DCM  Anterior To Posterior DCM  Posterior To Anterior DCM  Apex To Base DCM  Base To Apex DCM  Anterior To Inferior DCM  Inferior To Anterior DCM  Septum To Wall DCM  Wall To Septum
+Abstract Multi-dimensional Image Model Axis Orientation
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.922"

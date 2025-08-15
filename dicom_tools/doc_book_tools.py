@@ -106,15 +106,29 @@ def toCamelCase( str: str ) -> str:
         camelStr+=word.capitalize()
     return camelStr
 
+def getElementText( element ):
+    elementText = '' 
+    paraNodes = element.findall( './/db:para', ns) if element != None else []
+    for paraNode in paraNodes:
+        para_text = getParaText(paraNode)
+        if para_text and len(para_text) > 0:
+            if ( elementText):
+                elementText += ' '
+            elementText += para_text
+    return elementText
+
 def getParaText( element ):
     para_text = cleanTextFromElement(element)
     field_text = para_text
                         
-                        # Check for emphasis
+    # Check for emphasis
     emphasis_element = element.find('.//db:emphasis', ns  )
     emphasis_text = cleanTextFromElement( emphasis_element )
+    emphasis_link_text = getLinks( emphasis_element )
+    if emphasis_link_text and len(emphasis_link_text) > 0:
+        emphasis_text = emphasis_text + ' ' + emphasis_link_text
                         
-                        # check for olink
+    # check for olink
     olink_element = element.find('.//db:olink', ns)
     olink_text = ''
     if olink_element is not None:
@@ -123,7 +137,7 @@ def getParaText( element ):
                             
         olink_text = ( olink_targetdoc+' '+olink_ptr ).strip()           
 
-                        # check for xref
+    # check for xref
     xref_element = element.find('.//db:xref', ns)
     xref_text = ''
     if (xref_element is not None):
@@ -134,7 +148,18 @@ def getParaText( element ):
         field_text = olink_text + xref_text
     return field_text
 
+def getLinks( element ):
+    link_elements = element.findall('.//db:link', ns) if element != None else []
 
+    link_text = ''
+    for link in link_elements:
+        if link is not None:
+            text = cleanText( link.text )
+            href = cleanText( link.get('{http://www.w3.org/1999/xlink}href') )
+            show = cleanText( link.get('{http://www.w3.org/1999/xlink}show') )
+            link_text = text or href or show
+
+    return link_text
 
 def getVariableListEntries( element: ET.Element ) -> Dict[str, List[str]]:
     variableLists = element.findall(".//db:variablelist", ns)

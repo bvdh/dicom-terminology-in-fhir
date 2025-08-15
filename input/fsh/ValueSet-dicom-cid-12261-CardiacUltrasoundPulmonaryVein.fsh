@@ -2,7 +2,7 @@ ValueSet    : CID_12261
 Id          : dicom-cid-12261-CardiacUltrasoundPulmonaryVein
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID     LN  Pulmonary Vein A Duration Mitral Valve A Duration Ratio  LN  Pulmonary Vein A VTI to Mitral Valve VTI Ratio  LN  Pulm Vein A duration to MV A duration difference
+Cardiac Ultrasound Pulmonary Vein
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.842"

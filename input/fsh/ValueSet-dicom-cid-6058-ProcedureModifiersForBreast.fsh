@@ -2,7 +2,7 @@ ValueSet    : CID_6058
 Id          : dicom-cid-6058-ProcedureModifiersForBreast
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning
+Procedure Modifiers for Breast
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.387"

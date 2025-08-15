@@ -2,7 +2,7 @@ ValueSet    : CID_6089
 Id          : dicom-cid-6089-Substance
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Ethyl alcohol   SCT  Amphetamine   SCT  Marijuana   SCT  Cocaine   SCT  Heroin   SCT  Lysergic acid diethlyamide   SCT  Mescaline   SCT  Phencyclidine   SCT  Methadone   SCT  Morphine   SCT  Methlyphenidate   SCT  Chewing tobacco   SCT  Cigarette smoking tobacco   SCT  Caffeine   SCT  Cannabinoid
+Substance
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.411"

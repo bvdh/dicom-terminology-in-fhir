@@ -2,7 +2,7 @@ ValueSet    : CID_6132
 Id          : dicom-cid-6132-ChestCalcificationDescriptor
 Description :
 """
-Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Eggshell calcification   SCT  Coarse (popcorn-like) calcification   DCM  Target   SCT  Laminated   DCM  Fibrocalcific   DCM  Flocculent   SCT  Nodular   SCT  Ossification  83323007
+Original source of terms is [Fraser and Pare].
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.452"

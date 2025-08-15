@@ -2,7 +2,7 @@ ValueSet    : CID_9566
 Id          : dicom-cid-9566-ClinicalToleranceViolationType
 Description :
 """
-DCM  Beam Targeting Tolerance Violation DCM  Meterset Tolerance Violation DCM  Delivery Rate Tolerance Violation
+Clinical Tolerance Violation Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1323"

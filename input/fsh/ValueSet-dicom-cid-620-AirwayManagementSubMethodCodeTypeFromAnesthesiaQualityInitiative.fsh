@@ -2,7 +2,7 @@ ValueSet    : CID_620
 Id          : dicom-cid-620-AirwayManagementSubMethodCodeTypeFromAnesthesiaQua
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID UMLS  Inverse ratio ventilation   SCT  High frequency ventilation   SCT  Transtracheal jet ventilation   SCT  Continuous flow apneic ventilation   This Context Group contains SNOMED procedure code equivalents of enumerated string concepts for the
+This Context Group contains SNOMED procedure code equivalents of enumerated string concepts for the
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1085"

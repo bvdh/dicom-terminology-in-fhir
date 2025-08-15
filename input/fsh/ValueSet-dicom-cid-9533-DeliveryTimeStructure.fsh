@@ -2,7 +2,7 @@ ValueSet    : CID_9533
 Id          : dicom-cid-9533-DeliveryTimeStructure
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Single Fraction DCM  Standard Fractionation DCM  Hypo-fractionation DCM  Hyper-fractionation DCM  Continuous Temporary DCM  Continuous Permanent
+Delivery Time Structure
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1243"

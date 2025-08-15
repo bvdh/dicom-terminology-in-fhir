@@ -2,7 +2,7 @@ ValueSet    : CID_10071
 Id          : dicom-cid-10071-RadiationDoseUnit
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UCUM Gy Gy UCUM Sv Sv
+Radiation Dose Unit
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1206"

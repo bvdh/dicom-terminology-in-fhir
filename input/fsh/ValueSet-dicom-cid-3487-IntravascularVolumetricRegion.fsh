@@ -2,7 +2,7 @@ ValueSet    : CID_3487
 Id          : dicom-cid-3487-IntravascularVolumetricRegion
 Description :
 """
-This Context Group is the set of regions where intravascular volumetric measurements can be made.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Entire Pullback   DCM  Stented Region   DCM  Proximal Stent Margin   DCM  Distal Stent Margin   SCT  Morphologically Abnormal Structure   SCT  Lesion   SCT  Culprit Lesion
+Intravascular Volumetric Region
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.122"

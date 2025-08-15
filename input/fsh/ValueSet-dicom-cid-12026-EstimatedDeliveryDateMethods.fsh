@@ -2,7 +2,7 @@ ValueSet    : CID_12026
 Id          : dicom-cid-12026-EstimatedDeliveryDateMethods
 Description :
 """
-LN  Delivery date estimated from last menstrual period   LN  Delivery date estimated from ovulation date   LN  Delivery date ultrasound composite estimate   LN  Delivery date estimated from conception date   LN  Delivery date estimated from prior gestational age assessment   LN  Delivery date estimated from quickening date   LN  Delivery date estimated from date fundal height reach umbilicus   LN  Delivery date estimated from physical examination
+Estimated Delivery Date Methods
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1546"

@@ -2,7 +2,7 @@ ValueSet    : CID_1004
 Id          : dicom-cid-1004-AnatomicalReferenceBasisChest
 Description :
 """
-The items in this Context Group are body structures in the chest commonly used as a reference basis for imaging.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Acromioclavicular Joint   SCT  Aortic Arch   SCT  Apex of heart   SCT  Carina   SCT  Coronary artery graft   SCT  Diaphragm   SCT  Heart   SCT  Lung   SCT  Scapula   SCT  Shoulder region structure   SCT  Sternoclavicular Joint   SCT  Sternum   SCT  Suprasternal Notch   SCT  Thoracic Inlet   SCT  Xiphoid Process
+Anatomical Reference Basis - Chest
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1125"

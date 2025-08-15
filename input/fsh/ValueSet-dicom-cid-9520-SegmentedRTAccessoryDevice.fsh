@@ -2,7 +2,7 @@ ValueSet    : CID_9520
 Id          : dicom-cid-9520-SegmentedRTAccessoryDevice
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning     Include
+Segmented RT Accessory Device
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1230"

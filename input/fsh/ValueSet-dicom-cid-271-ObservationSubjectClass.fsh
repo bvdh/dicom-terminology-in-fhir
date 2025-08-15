@@ -2,7 +2,7 @@ ValueSet    : CID_271
 Id          : dicom-cid-271-ObservationSubjectClass
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Patient DCM  Fetus DCM  Specimen DCM  Device Subject
+Observation Subject Class
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.41"

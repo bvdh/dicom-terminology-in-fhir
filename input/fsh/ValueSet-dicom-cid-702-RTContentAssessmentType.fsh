@@ -2,7 +2,7 @@ ValueSet    : CID_702
 Id          : dicom-cid-702-RTContentAssessmentType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  RT Pre-Treatment Dose Check DCM  RT Pre-Treatment Consistency Check
+RT Content Assessment Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1117"

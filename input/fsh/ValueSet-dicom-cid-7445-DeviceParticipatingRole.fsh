@@ -2,7 +2,7 @@ ValueSet    : CID_7445
 Id          : dicom-cid-7445-DeviceParticipatingRole
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Irradiating Device DCM  Recording DCM  X-Ray Reading Device
+Device Participating Role
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1042"

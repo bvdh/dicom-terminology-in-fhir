@@ -2,7 +2,7 @@ ValueSet    : CID_3804
 Id          : dicom-cid-3804-StenosisMeasurementMethod
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  NASCET DCM  ECST DCM  Area Based Method DCM  Diameter Based Method
+Stenosis Measurement Method
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.265"

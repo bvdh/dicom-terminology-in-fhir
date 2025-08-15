@@ -2,7 +2,7 @@ ValueSet    : CID_84
 Id          : dicom-cid-84-PETUnit
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning  UCUM {counts} Counts UCUM {counts}/s Counts per second UCUM {propcounts} Proportional to counts UCUM {propcounts}/s Proportional to counts per second UCUM cm2 Centimeter**2 UCUM cm2/ml Centimeter**2/milliliter UCUM % Percent UCUM Bq/ml Becquerels/milliliter UCUM mg/min/ml Milligrams/minute/milliliter UCUM umol/min/ml Micromole/minute/milliliter UCUM ml/min/g Milliliter/minute/gram UCUM ml/g Milliliter/gram UCUM /cm /Centimeter UCUM umol/ml Micromole/milliliter
+PET Unit
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1030"

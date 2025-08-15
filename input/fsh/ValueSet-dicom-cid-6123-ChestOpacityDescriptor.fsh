@@ -2,7 +2,7 @@ ValueSet    : CID_6123
 Id          : dicom-cid-6123-ChestOpacityDescriptor
 Description :
 """
-Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning DCM  Acinar DCM  Air space DCM  Fibronodular DCM  Fluffy DCM  Linear DCM  Profusion DCM  Silhouette sign
+Original source of terms is [Fraser and Pare].
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.443"

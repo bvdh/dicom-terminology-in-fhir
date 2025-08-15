@@ -2,7 +2,7 @@ ValueSet    : CID_9572
 Id          : dicom-cid-9572-PatientShieldingDevice
 Description :
 """
-SCT  Gonad radiation shield   SCT  Eye radiation shield   DCM  Cavity radiation shield DCM  Independent radiation shield
+Patient Shielding Device
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1419"

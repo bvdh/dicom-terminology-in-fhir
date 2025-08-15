@@ -2,7 +2,7 @@ ValueSet    : CID_4250
 Id          : dicom-cid-4250-VisualFieldStaticPerimetryTestPattern
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Visual Field 24-2 Test Pattern DCM  Visual Field 10-2 Test Pattern DCM  Visual Field 30-2 Test Pattern DCM  Visual Field 60-4 Test Pattern DCM  Visual Field Macula Test Pattern DCM  Visual Field Central 40 Point Test Pattern DCM  Visual Field Central 76 Point Test Pattern DCM  Visual Field Peripheral 60 Point Test Pattern DCM  Visual Field Full Field 81 Point Test Pattern DCM  Visual Field Full Field 120 Point Test Pattern DCM  Visual Field G Test Pattern DCM  Visual Field M Test Pattern DCM  Visual Field 07 Test Pattern DCM  Visual Field LVC Test Pattern DCM  Visual Field Central Test Pattern
+Visual Field Static Perimetry Test Pattern
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.909"

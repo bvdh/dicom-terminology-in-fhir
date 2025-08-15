@@ -2,7 +2,7 @@ ValueSet    : CID_3495
 Id          : dicom-cid-3495-IVUSPlaqueComposition
 Description :
 """
-This Context Group is a set of qualitative assessments defining the composition of plaque.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Fibrous Plaque   SCT  Vascular Calcification   SCT  Thrombus   DCM  Fibro-Lipidic Plaque   DCM  Necrotic-Lipidic Plaque
+IVUS Plaque Composition
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.129"

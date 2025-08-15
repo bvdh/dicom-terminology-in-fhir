@@ -2,7 +2,7 @@ ValueSet    : CID_3403
 Id          : dicom-cid-3403-PercutaneousEntry
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning
+Percutaneous Entry
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.68"

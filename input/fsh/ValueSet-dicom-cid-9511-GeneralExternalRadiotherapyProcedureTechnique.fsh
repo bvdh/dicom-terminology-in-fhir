@@ -2,7 +2,7 @@ ValueSet    : CID_9511
 Id          : dicom-cid-9511-GeneralExternalRadiotherapyProcedureTechnique
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Static Beam DCM  Arc Beam DCM  Conformal Arc Beam DCM  Step and Shoot Beam DCM  Sliding Window Beam DCM  VMAT
+General External Radiotherapy Procedure Technique
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1221"

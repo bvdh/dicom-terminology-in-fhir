@@ -2,7 +2,7 @@ ValueSet    : CID_3488
 Id          : dicom-cid-3488-MinMaxMean
 Description :
 """
-This Context Group contains modifiers that indicate whether the measurement is a minimum, maximum or averaged value.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Maximum   SCT  Minimum   SCT  Mean
+Min/Max/Mean
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.123"

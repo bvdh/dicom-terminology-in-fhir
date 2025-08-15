@@ -2,7 +2,7 @@ ValueSet    : CID_12007
 Id          : dicom-cid-12007-FetalCraniumMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Lateral Ventricle width  LN  Cisterna Magna length  LN  Nuchal Fold thickness  LN  Inner Orbital Diameter  LN  Outer Orbital Diameter  LN  Transverse Cerebellar Diameter  LN  Nuchal Translucency  LN  Anterior Horn Lateral ventricular width  LN  Posterior Horn Lateral ventricular width  LN  Width of Hemisphere
+Fetal Cranium Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.556"

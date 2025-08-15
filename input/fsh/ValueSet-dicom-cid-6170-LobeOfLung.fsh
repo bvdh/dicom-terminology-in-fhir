@@ -2,7 +2,7 @@ ValueSet    : CID_6170
 Id          : dicom-cid-6170-LobeOfLung
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Upper lobe of lung   SCT  Middle lobe of right lung   SCT  Lower lobe of lung   The middle lobe of the right lung is an unpaired structure.
+The middle lobe of the right lung is an unpaired structure.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1482"

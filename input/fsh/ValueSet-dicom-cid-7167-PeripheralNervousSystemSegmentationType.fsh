@@ -2,7 +2,7 @@ ValueSet    : CID_7167
 Id          : dicom-cid-7167-PeripheralNervousSystemSegmentationType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Peripheral nervous system   SCT  Peripheral nerve   SCT  Cranial nerve   SCT  Vagus nerve   SCT  Autonomic nerve   SCT  Sympathetic trunk
+Peripheral Nervous System Segmentation Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.964"

@@ -2,7 +2,7 @@ ValueSet    : CID_9263
 Id          : dicom-cid-9263-KVImagingAcquisitionTechniques
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  RT Patient Position Acquisition, single plane kV DCM  RT Patient Position Acquisition, CT kV DCM  RT Patient Position Acquisition, Cone-Beam CT kV DCM  RT Patient Position Acquisition, Conventional CT kV DCM  RT Patient Position Acquisition, Film Cassette kV
+KV Imaging Acquisition Techniques
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1462"

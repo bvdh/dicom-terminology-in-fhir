@@ -2,7 +2,7 @@ ValueSet    : CID_3337
 Id          : dicom-cid-3337-HemodynamicAnnotation
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  35% of thermal/dye dilution CO   DCM  70% of thermal/dye dilution CO   DCM  A wave peak pressure   DCM  A wave pressure, average   DCM  Beat detected (accepted)   DCM  Beat detected (rejected)   SCT  Average diastolic blood pressure   SCT  Minimum diastolic blood pressure   SCT  End diastole   DCM  End of expiration   DCM  End of inspiration   DCM  End of systole   DCM  Indicator mean transit time   DCM  Max dp/dt   DCM  Max neg dp/dt   SCT  Mean blood pressure   DCM  Peak of thermal cardiac output bolus   DCM  Start of expiration   DCM  Start of inspiration   DCM  Start of thermal CO   SCT  Average systolic blood pressure   SCT  Maximum systolic blood pressure   DCM  Tau   DCM  V max myocardial   DCM  V wave peak pressure   DCM  V wave pressure, average   DCM  Valve close   DCM  Valve open
+Hemodynamic Annotation
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.63"

@@ -2,7 +2,7 @@ ValueSet    : CID_3617
 Id          : dicom-cid-3617-ValveFlow
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Aortic Valve Flow   SCT  Mitral Valve Flow   SCT  Pulmonary Valve Flow   SCT  Tricuspid Valve Flow   SCT  Derived Flow, Non-Valve
+Valve Flow
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.167"

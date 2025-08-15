@@ -2,7 +2,7 @@ ValueSet    : CID_3525
 Id          : dicom-cid-3525-BloodGasContent
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Blood Carbon dioxide content  LN  Arterial Blood Carbon dioxide content  LN  Venous Blood Carbon dioxide content  DCM  Blood Oxygen content  LN  Arterial Oxygen content  LN  Venous Oxygen content  LN  Aortic Root Oxygen content  LN  Pulmonary Artery Main Oxygen content  LN  Pulmonary Wedge Oxygen content
+Blood Gas Content
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.139"

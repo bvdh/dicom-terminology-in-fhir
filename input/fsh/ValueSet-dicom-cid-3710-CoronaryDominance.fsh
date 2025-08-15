@@ -2,7 +2,7 @@ ValueSet    : CID_3710
 Id          : dicom-cid-3710-CoronaryDominance
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Left Coronary Dominance   SCT  Right Coronary Dominance   SCT  Balanced Coronary Dominance   In prior editions, this Context Group included NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes (see PS3.16-2011).
+In prior editions, this Context Group included NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes (see PS3.16-2011).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.211"

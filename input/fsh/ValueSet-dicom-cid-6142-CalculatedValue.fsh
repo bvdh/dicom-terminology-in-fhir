@@ -2,7 +2,7 @@ ValueSet    : CID_6142
 Id          : dicom-cid-6142-CalculatedValue
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Cavity extent as percent of volume DCM  Calcification extent as percent of surface DCM  Calcification extent as percent of volume SCT  Coronary artery calcium score   DCM  Breast tissue density DCM  Volume of parenchymal tissue DCM  Volume of breast DCM  Mass of parenchymal tissue DCM  Mass of breast DCM  Area of Vascular Calcification DCM  Volume of Vascular Calcification DCM  Percentage of Vascular Calcification DCM  Mass of Vascular Calcification DCM  Average calcification distance in a calcification cluster DCM  Standard deviation distance of calcifications in a cluster
+Calculated Value
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.462"

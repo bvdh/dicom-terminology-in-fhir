@@ -2,7 +2,7 @@ ValueSet    : CID_7261
 Id          : dicom-cid-7261-DiffusionModelValueType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Single Tensor DCM  Multi Tensor DCM  Model Free DCM  CHARMED DCM  DSI DCM  DOT DCM  PAS DCM  Spherical Deconvolution
+Diffusion Model Value Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1060"

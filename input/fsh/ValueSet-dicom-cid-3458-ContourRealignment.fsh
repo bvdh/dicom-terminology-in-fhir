@@ -2,7 +2,7 @@ ValueSet    : CID_3458
 Id          : dicom-cid-3458-ContourRealignment
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Center of Gravity DCM  Long Axis Based DCM  No Realignment
+Contour Realignment
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.103"

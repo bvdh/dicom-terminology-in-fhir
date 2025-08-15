@@ -2,7 +2,7 @@ ValueSet    : CID_7158
 Id          : dicom-cid-7158-ArtifactSegmentationType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Clothing   SCT  Foreign body   SCT  Table
+Artifact Segmentation Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.504"

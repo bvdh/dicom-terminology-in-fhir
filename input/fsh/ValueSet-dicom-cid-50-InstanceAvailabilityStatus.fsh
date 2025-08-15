@@ -2,7 +2,7 @@ ValueSet    : CID_50
 Id          : dicom-cid-50-InstanceAvailabilityStatus
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Nearline DCM  Offline DCM  Online DCM  Unavailable
+Instance Availability Status
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.811"

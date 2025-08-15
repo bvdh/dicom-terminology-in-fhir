@@ -2,7 +2,7 @@ ValueSet    : CID_4253
 Id          : dicom-cid-4253-VisualFieldStaticPerimetryFixationStrategy
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Automated Optical   DCM  Blind Spot Monitoring   DCM  Macular Fixation Testing   DCM  Observation by Examiner   SCT  None
+Visual Field Static Perimetry Fixation Strategy
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.912"

@@ -2,7 +2,7 @@ ValueSet    : CID_12288
 Id          : dicom-cid-12288-CardiacUltrasoundOutflowTractFindingSite
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Left Ventricle   SCT  Right Ventricle   SCT  Rastelli Interventricular Tunnel   SCT  Right Ventricle to Pulmonary Artery Conduit Anastomosis   SCT  Left Ventricle to Pulmonary Artery Conduit Anastomosis   SCT  Aortic Valve   SCT  Pulmonic Valve
+Cardiac Ultrasound Outflow Tract Finding Site
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.868"

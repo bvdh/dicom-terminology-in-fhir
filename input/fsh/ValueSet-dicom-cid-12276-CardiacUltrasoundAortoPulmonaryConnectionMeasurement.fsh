@@ -2,7 +2,7 @@ ValueSet    : CID_12276
 Id          : dicom-cid-12276-CardiacUltrasoundAortoPulmonaryConnectionMeasure
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID    LN  Pulmonary-to-Systemic Shunt Flow Ratio
+Cardiac Ultrasound Aorto Pulmonary Connection Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.857"

@@ -2,7 +2,7 @@ ValueSet    : CID_3527
 Id          : dicom-cid-3527-BloodBaseExcess
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Blood Base Excess  LN  Arterial Blood Base Excess  LN  Venous Blood Base Excess
+Blood Base Excess
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.141"

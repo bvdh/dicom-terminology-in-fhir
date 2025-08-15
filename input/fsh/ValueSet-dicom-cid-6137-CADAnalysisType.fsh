@@ -2,7 +2,7 @@ ValueSet    : CID_6137
 Id          : dicom-cid-6137-CADAnalysisType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Notes SCT  Spatial collocation analysis   See Note 1 SCT  Spatial proximity analysis   See Note 2 SCT  Temporal correlation    SCT  Image quality analysis    Spatial Co-location Analysis is used to identify features that are the same or located in the same place. Spatial Proximity Analysis is used to identify different features that are related spatially.
+Spatial Co-location Analysis is used to identify features that are the same or located in the same place. Spatial Proximity Analysis is used to identify different features that are related spatially.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.457"

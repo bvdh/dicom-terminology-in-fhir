@@ -2,7 +2,7 @@ ValueSet    : CID_6134
 Id          : dicom-cid-6134-ChestQualitativeTemporalDifferenceType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Difference in border shape   SCT  Difference in border definition   SCT  Difference in distribution   SCT  Difference in site involvement   SCT  Difference in substance   SCT  Difference in Texture   SCT  Finding partially removed   SCT  No significant changes in the finding   SCT  Increase in size   SCT  Decrease in size   SCT  Less defined   SCT  More defined
+Chest Qualitative Temporal Difference Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.454"

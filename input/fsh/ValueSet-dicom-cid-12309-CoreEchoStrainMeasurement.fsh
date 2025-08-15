@@ -2,7 +2,7 @@ ValueSet    : CID_12309
 Id          : dicom-cid-12309-CoreEchoStrainMeasurement
 Description :
 """
-The Units column contains the proper UCUM representation of the recommended units for the measured property.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Units DCM  LV End-systolic GLS Multiview Mean (Endocardial)   (%, UCUM, "%") DCM  LV End-systolic GLS 4CH (Endocardial)   (%, UCUM, "%") DCM  LV End-systolic GLS 2CH (Endocardial)   (%, UCUM, "%") DCM  LV End-systolic GLS ALAX (Endocardial)   (%, UCUM, "%") DCM  LV End-systolic Mechanical Dispersion   (ms, UCUM, "ms") DCM  LV Peak Systolic GLS Multiview Mean (Endocardial)   (%, UCUM, "%") DCM  LV Peak Systolic GLS 4CH (Endocardial)   (%, UCUM, "%") DCM  LV Peak Systolic GLS 2CH (Endocardial)   (%, UCUM, "%") DCM  LV Peak Systolic GLS ALAX (Endocardial)   (%, UCUM, "%") DCM  LV Peak GLS Multiview Mean (Endocardial)   (%, UCUM, "%") DCM  LV Peak GLS 4CH (Endocardial)   (%, UCUM, "%") DCM  LV Peak GLS 2CH (Endocardial)   (%, UCUM, "%") DCM  LV Peak GLS ALAX (Endocardial)   (%, UCUM, "%")
+Core Echo Strain Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1426"

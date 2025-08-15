@@ -2,7 +2,7 @@ ValueSet    : CID_9549
 Id          : dicom-cid-9549-RadiationGenerationModeType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Flattening Filter Beam DCM  Non-Flattening Filter Beam DCM  Partial Flattening Filter Beam
+Radiation Generation Mode Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1296"

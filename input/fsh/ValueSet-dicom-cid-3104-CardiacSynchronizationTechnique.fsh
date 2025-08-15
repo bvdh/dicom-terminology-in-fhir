@@ -2,7 +2,7 @@ ValueSet    : CID_3104
 Id          : dicom-cid-3104-CardiacSynchronizationTechnique
 Description :
 """
-This Context Group corresponds to the Enumerated Values of Cardiac Synchronization Technique (0018,9037) (see       Coding Scheme Designator Code Value Code Meaning DCM  Real time acquisition DCM  Prospective gating DCM  Retrospective gating DCM  Paced
+Cardiac Synchronization Technique
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.943"

@@ -2,7 +2,7 @@ ValueSet    : CID_212
 Id          : dicom-cid-212-GenericAnatomicLocationModifier
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anterior   SCT  Central   SCT  Distal   SCT  Inferior   SCT  Lateral   DCM  Median   NCIt  Middle   SCT  Mid-longitudinal   SCT  Posterior   SCT  Proximal   SCT  Superior
+Generic Anatomic Location Modifier
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1287"

@@ -2,7 +2,7 @@ ValueSet    : CID_6117
 Id          : dicom-cid-6117-VascularAnatomy
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  Aortic arch   SCT  Aortic isthmus   DCM  Aortic knob   DCM  Arch of the Azygos vein   SCT  Ascending aorta   SCT  Axillary Artery   SCT  Axillary vein   SCT  Azygos vein   SCT  Brachial artery   SCT  Brachiocephalic trunk   SCT  Brachiocephalic vein   SCT  Bronchial artery   SCT  Common carotid artery   SCT  Costocervical trunk   SCT  Descending aorta   SCT  Dorsal scapular artery   SCT  Esophageal artery   SCT  External jugular vein   SCT  Inferior phrenic artery   SCT  Inferior vena cava   SCT  Intercostal artery   SCT  Internal jugular vein   SCT  Internal thoracic artery   SCT  Pericardiophrenic Artery   SCT  Pulmonary artery   SCT  Pulmonary trunk   SCT  Pulmonary vein   SCT  Subclavian artery   SCT  Subclavian vein   SCT  Superior phrenic artery   SCT  Superior vena cava   SCT  Thyrocervical trunk   SCT  Vertebral artery   In a prior version of this Context Group the code
+In a prior version of this Context Group the code
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.437"

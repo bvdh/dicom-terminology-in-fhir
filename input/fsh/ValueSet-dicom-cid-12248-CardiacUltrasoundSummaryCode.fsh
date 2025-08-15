@@ -2,7 +2,7 @@ ValueSet    : CID_12248
 Id          : dicom-cid-12248-CardiacUltrasoundSummaryCode
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Congenital stenosis of aortic valve   SCT  Atrial Septal Defect   SCT  Aortic regurgitation   SCT  Aortic stenosis   SCT  Cardiomegaly   SCT  Coarctation of the Aorta   SCT  Common atrioventricular canal   SCT  Complete transposition of great vessels   SCT  Cyanosis   SCT  Dextrocardia   SCT  Interrupted Aortic Arch   SCT  Mesocardia   SCT  Acute febrile mucocutaneous lymph node syndrome   SCT  Mitral valve prolapse   SCT  Mitral regurgitation   SCT  Mitral stenosis   SCT  Partial anomalous pulmonary venous connection   SCT  Atrial septal defect with endocardial cushion defect, partial   SCT  Pulmonic valve stenosis   SCT  Rheumatic Fever   SCT  Tetralogy of Fallot   SCT  Ventricular Septal Defect   SCT  Corrected transposition of great vessels   SCT  Pulmonary atresia with intact ventricular septum   SCT  Pulmonary atresia with ventricular septal defect   SCT  Hypoplastic left heart syndrome   SCT  Functional Single Ventricle
+Cardiac Ultrasound Summary Code
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.829"

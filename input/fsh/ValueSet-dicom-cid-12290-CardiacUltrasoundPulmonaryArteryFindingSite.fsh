@@ -2,7 +2,7 @@ ValueSet    : CID_12290
 Id          : dicom-cid-12290-CardiacUltrasoundPulmonaryArteryFindingSite
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Pulmonary Trunk   SCT  Left pulmonary artery   SCT  Right pulmonary artery   SCT  Pulmonary Artery   SCT  Aorta to Pulmonary Artery Connection   SCT  Ductus arteriosus
+Cardiac Ultrasound Pulmonary Artery Finding Site
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.870"

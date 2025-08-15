@@ -2,7 +2,7 @@ ValueSet    : CID_12202
 Id          : dicom-cid-12202-LeftVentricleVolumeMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Left Ventricular End Diastolic Volume  LN  Left Ventricular End Systolic Volume  LN  Left Ventricular Ejection Fraction by US
+Left Ventricle Volume Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.595"

@@ -2,7 +2,7 @@ ValueSet    : CID_6404
 Id          : dicom-cid-6404-ChestNonLesionObjectTypePhysicalObject
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Bullet   SCT  Cardiac Pacemaker   SCT  Cardiac pacemaker lead   SCT  Catheter   DCM  Central line   SCT  Cervical collar   DCM  Chest tube   DCM  Coin   SCT  Endotracheal tube   SCT  Feeding tube   DCM  Fiducial mark   SCT  Heart valve prosthesis   SCT  Jejunostomy tube   SCT  Jewelry   DCM  Kidney stent   SCT  Needle   DCM  Nipple ring   DCM  Pancreatic stent   SCT  Pin   DCM  Portacath   SCT  Prosthesis   SCT  Staple   SCT  Suture   SCT  Tracheotomy   SCT  Ureteric stent   SCT  Vena cava filter
+Chest Non-lesion Object Type - Physical Object
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1188"

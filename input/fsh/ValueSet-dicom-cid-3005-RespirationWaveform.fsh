@@ -2,7 +2,7 @@ ValueSet    : CID_3005
 Id          : dicom-cid-3005-RespirationWaveform
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Respiration Waveform DCM  Airflow Thermistor DCM  Airflow Thermocouple DCM  Airflow Nasal Prong DCM  Airflow PVDF DCM  Airflow CPAP DCM  Airflow DCM  PAP Pressure DCM  PAP Leak Pressure DCM  PAP Tidal Volume DCM  Esophageal Pressure DCM  Respiratory Pressure DCM  Thoracic Respiratory Inductance DCM  Abdominal Respiratory Inductance DCM  Thoracic Respiratory PVDF DCM  Abdominal Respiratory PVDF DCM  Thoracic Respiratory Effort DCM  Abdominal Respiratory Effort DCM  Respiratory Effort DCM  CO2 Transcutaneous DCM  CO2 Waveform End-tidal Main-stream DCM  CO2 Trend End-tidal Main-stream DCM  CO2 Waveform End-tidal Side-stream DCM  CO2 Trend End-tidal Side-stream DCM  CO2 Waveform Main-stream DCM  CO2 Waveform Side-stream DCM  CO2 Trend Main-stream DCM  CO2 Trend Side-stream DCM  CO2 Respiration
+Respiration Waveform
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.804"

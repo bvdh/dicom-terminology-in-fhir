@@ -2,7 +2,7 @@ ValueSet    : CID_9271
 Id          : dicom-cid-9271-RTImagePatientPositionAcquisitionDevices
 Description :
 """
-This Context Group includes physical imaging devices that performed acquisition or virtual imaging devices for which acquisition was simulated.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Digital imager, radiation therapy   SCT  X-Ray film cassette, manual
+RT Image Patient Position Acquisition Devices
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1470"

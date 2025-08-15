@@ -2,7 +2,7 @@ ValueSet    : CID_6053
 Id          : dicom-cid-6053-BreastImagingReportElement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Physical Examination Results   DCM  Comparison to previous studies   DCM  Finding   DCM  Impression   DCM  Recommendation   DCM  Conclusion   SCT  Breast composition   DCM  Overall Assessment   DCM  Procedure reported   LN  Indications for Procedure
+Breast Imaging Report Element
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.382"

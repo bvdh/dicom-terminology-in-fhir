@@ -2,7 +2,7 @@ ValueSet    : CID_7456
 Id          : dicom-cid-7456-AgeUnit
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UCUM a year UCUM mo month UCUM wk week UCUM d day UCUM h hour UCUM min minute
+Age Unit
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.520"

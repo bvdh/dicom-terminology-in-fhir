@@ -2,7 +2,7 @@ ValueSet    : CID_4201
 Id          : dicom-cid-4201-PatientEyeMovementCommand
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Primary gaze   SCT  Upward gaze   SCT  Left upgaze   SCT  Left gaze   SCT  Left downgaze   SCT  Downgaze   SCT  Right downgaze   SCT  Right gaze   SCT  Right upgaze   SCT  Convergent gaze
+Patient Eye Movement Command
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.317"

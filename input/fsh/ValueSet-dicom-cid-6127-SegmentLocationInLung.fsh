@@ -2,7 +2,7 @@ ValueSet    : CID_6127
 Id          : dicom-cid-6127-SegmentLocationInLung
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anterior segment of right upper lobe   SCT  Anterior segment of left upper lobe   SCT  Posterior segment of right upper lobe
+Segment Location in Lung
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.447"

@@ -2,7 +2,7 @@ ValueSet    : CID_11002
 Id          : dicom-cid-11002-AcousticCouplingMedium
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Water   SCT  Deuterium oxide   SCT  Ultrasound coupling gel   SCT  Air
+Acoustic Coupling Medium
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1472"

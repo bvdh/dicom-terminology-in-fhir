@@ -2,7 +2,7 @@ ValueSet    : CID_3261
 Id          : dicom-cid-3261-StressProtocol
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Balke protocol   SCT  Bruce protocol   SCT  Ellestad protocol   SCT  Modified Bruce protocol   SCT  Modified Naughton protocol   SCT  Naughton protocol   SCT  Pepper protocol   SCT  Ramp protocol   SCT  Exercise stress ECG test   SCT  Stress test using Bicycle Ergometer   SCT  Pharmacologic Stress protocol   SCT  Dipyridamole Stress protocol   SCT  Adenosine Stress protocol   SCT  Dobutamine Stress protocol   SCT  Pharmacologic and exercise stress test   SCT  Stress test using cardiac pacing
+Stress Protocol
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.57"

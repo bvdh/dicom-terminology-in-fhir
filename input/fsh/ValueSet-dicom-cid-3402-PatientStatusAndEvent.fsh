@@ -2,7 +2,7 @@ ValueSet    : CID_3402
 Id          : dicom-cid-3402-PatientStatusAndEvent
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Patient called to procedure room DCM  Patient admitted to procedure room DCM  Patient given pre-procedure instruction DCM  Patient informed consent given DCM  Patient advance directive given DCM  Nil Per Os (NPO) status confirmed DCM  Patient assisted to table DCM  Patient prepped and draped DCM  Patient connected to continuous monitoring DCM  Patient transferred to holding area DCM  Patient transferred to surgery DCM  Patient transferred to CCU DCM  Patient disoriented DCM  Patient reports nausea DCM  Patient reports discomfort DCM  Patient reports chest pain DCM  Patient reports no pain DCM  Patient alert DCM  Patient restless DCM  Patient sedated DCM  Patient asleep DCM  Patient unresponsive DCM  Patient has respiratory difficulty DCM  Patient coughed DCM  Patient disconnected from continuous monitoring DCM  Hemostasis achieved DCM  Hemostasis not achieved - oozing DCM  Hemostasis not achieved - actively bleeding DCM  Patient given post-procedure instruction DCM  Patient pronounced dead DCM  Patient transferred to morgue DCM  Patient discharged from department
+Patient Status and Event
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.67"

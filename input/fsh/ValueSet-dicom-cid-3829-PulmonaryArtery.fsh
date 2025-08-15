@@ -2,7 +2,7 @@ ValueSet    : CID_3829
 Id          : dicom-cid-3829-PulmonaryArtery
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Trunk of pulmonary artery   SCT  Suprapulmonic valve area   SCT  pulmonary valve sinuses   SCT  Left pulmonary artery   SCT  Right pulmonary artery   A previous version of this Context Group used terms with the SNOMED concept "entire" (see PS3.16-2011). The use of "structure" concepts rather than "entire" is described in
+A previous version of this Context Group used terms with the SNOMED concept "entire" (see PS3.16-2011). The use of "structure" concepts rather than "entire" is described in
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.281"

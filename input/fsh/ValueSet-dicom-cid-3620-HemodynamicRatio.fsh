@@ -2,7 +2,7 @@ ValueSet    : CID_3620
 Id          : dicom-cid-3620-HemodynamicRatio
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  Tibial/brachial index   SCT  Pulmonary/Systemic Flow Ratio   DCM  Coronary Flow reserve   DCM  Diastolic/Systolic velocity ratio   DCM  Hyperemic ratio   SCT  Pulsatility Index   DCM  Hemodynamic Resistance Index
+Hemodynamic Ratio
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.170"

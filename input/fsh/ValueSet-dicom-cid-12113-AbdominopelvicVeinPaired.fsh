@@ -2,7 +2,7 @@ ValueSet    : CID_12113
 Id          : dicom-cid-12113-AbdominopelvicVeinPaired
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Common iliac vein   SCT  Gastric vein   SCT  Ileal vein   SCT  Ovarian vein   SCT  Testicular Vein
+Abdominopelvic Vein (Paired)
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.580"

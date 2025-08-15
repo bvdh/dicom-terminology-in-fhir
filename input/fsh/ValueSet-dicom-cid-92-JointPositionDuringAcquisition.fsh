@@ -2,7 +2,7 @@ ValueSet    : CID_92
 Id          : dicom-cid-92-JointPositionDuringAcquisition
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Neutral musculoskeletal position   SCT  Flexion   SCT  Extension   SCT  Abduction   SCT  Adduction   SCT  Internal rotation   SCT  External rotation   SCT  Supination   SCT  Pronation   SCT  Torsion
+Joint Position During Acquisition
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.892"

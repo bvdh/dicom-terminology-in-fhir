@@ -2,7 +2,7 @@ ValueSet    : CID_74
 Id          : dicom-cid-74-ImagingAgentAdministrationConsumableCatheterType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Peripheral intravenous catheter   SCT  Central venous catheter   SCT  Implantable venous access port   SCT  Peripherally inserted central catheter   SCT  Rectal Catheter
+Imaging Agent Administration Consumable Catheter Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1264"

@@ -2,7 +2,7 @@ ValueSet    : CID_12259
 Id          : dicom-cid-12259-CardiacUltrasoundVentriclesMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning
+Cardiac Ultrasound Ventricles Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.840"

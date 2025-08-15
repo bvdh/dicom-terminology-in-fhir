@@ -2,7 +2,7 @@ ValueSet    : CID_4256
 Id          : dicom-cid-4256-VisualFieldProcedureModifier
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Screening   SCT  Diagnostic
+Visual Field Procedure Modifier
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.915"

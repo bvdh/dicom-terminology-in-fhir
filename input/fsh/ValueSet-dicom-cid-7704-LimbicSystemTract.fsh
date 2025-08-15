@@ -2,7 +2,7 @@ ValueSet    : CID_7704
 Id          : dicom-cid-7704-LimbicSystemTract
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  cingulum   SCT  fornix   NEU  stria terminalis
+Limbic System Tract
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1016"

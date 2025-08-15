@@ -2,7 +2,7 @@ ValueSet    : CID_701
 Id          : dicom-cid-701-ContentAssessmentType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning
+Content Assessment Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1116"

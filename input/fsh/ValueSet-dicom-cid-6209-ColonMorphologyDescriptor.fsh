@@ -2,7 +2,7 @@ ValueSet    : CID_6209
 Id          : dicom-cid-6209-ColonMorphologyDescriptor
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Sessile   SCT  Pedunculated   SCT  Flat   SCT  Circumferential   SCT  Ulcer
+Colon Morphology Descriptor
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.796"

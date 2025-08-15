@@ -2,7 +2,7 @@ ValueSet    : CID_10063
 Id          : dicom-cid-10063-RadiationDoseEstimateDistributionRepresentation
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Isodose DCM  Skin Dose Map DCM  3D Dose Map DCM  Dose Gradient DCM  Dose Point Cloud DCM  Dose Image
+Radiation Dose Estimate Distribution Representation
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1157"

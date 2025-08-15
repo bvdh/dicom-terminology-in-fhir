@@ -2,7 +2,7 @@ ValueSet    : CID_9575
 Id          : dicom-cid-9575-PatientAlignmentDevice
 Description :
 """
-DCM  Laser Cross-hairs DCM  Optical Distance Meter DCM  Mechanical Pointer DCM  Radiofrequency Transponder DCM  Optical Surface Scanner DCM  Laser surface scan DCM  Infrared Marker DCM  Radioactive Marker DCM  Thermal Imager DCM  Combined Structured Light/Thermal Imager DCM  Ocular Fixation Light
+Patient Alignment Device
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1422"

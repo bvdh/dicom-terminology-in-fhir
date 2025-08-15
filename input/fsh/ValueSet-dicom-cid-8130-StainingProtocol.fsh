@@ -2,7 +2,7 @@ ValueSet    : CID_8130
 Id          : dicom-cid-8130-StainingProtocol
 Description :
 """
-This Context Group is intended for use in the Scheduled Protocol Code Sequence (0040,0008) and the Performed Protocol Code Sequence (0040,0260) Attributes for an automated slide stainer. When so used, an Item with value       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Staining   SCT  Hematoxylin and eosin stain method   SCT  Acid fast stain method
+Staining Protocol
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.944"

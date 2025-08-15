@@ -2,7 +2,7 @@ ValueSet    : CID_7706
 Id          : dicom-cid-7706-CranialNerve
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  olfactory tract   SCT  optic nerve   SCT  oculomotor nerve   SCT  trochlear nerve   SCT  trigeminal nerve   SCT  abducens nerve   SCT  facial nerve   SCT  vestibulocochlear nerve   SCT  glossopharyngeal nerve   SCT  vagus nerve   SCT  accessory nerve   SCT  hypoglossal nerve
+Cranial Nerve
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1018"

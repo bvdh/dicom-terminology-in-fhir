@@ -2,7 +2,7 @@ ValueSet    : CID_3738
 Id          : dicom-cid-3738-PreCathAnginaType
 Description :
 """
-Coding Scheme Designator Coding Scheme Version Code Value Code Meaning NCDR 2.0b 49-I Atypical Chest Pain NCDR 2.0b 49-II Stable Angina NCDR 2.0b 49-IIIa Acute Coronary Syndrome: Unstable Angina NCDR 2.0b 49-IIIb Acute Coronary Syndrome: Non ST-Elevation Myocardial Infarction NCDR 2.0b 49-IIIc Acute Coronary Syndrome: ST-Elevation Myocardial Infarction
+Pre-Cath Angina Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.235"

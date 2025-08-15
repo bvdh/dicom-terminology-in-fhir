@@ -2,7 +2,7 @@ ValueSet    : CID_3827
 Id          : dicom-cid-3827-VesselSegment
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning
+Vessel Segment
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.280"

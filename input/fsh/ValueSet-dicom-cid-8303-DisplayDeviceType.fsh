@@ -2,7 +2,7 @@ ValueSet    : CID_8303
 Id          : dicom-cid-8303-DisplayDeviceType
 Description :
 """
-The type of image display device.       Coding Scheme Designator Code Value Code Meaning DCM  CRT Display DCM  Liquid Crystal Display DCM  Plasma Display DCM  OLED DCM  DLP Rear Projection System DCM  DLP Front Projection System DCM  CRT Rear Projection System DCM  CRT Front Projection System
+Display Device Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.983"

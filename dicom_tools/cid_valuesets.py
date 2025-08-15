@@ -2,7 +2,7 @@ import os
 from typing import List
 import xml.etree.ElementTree as ET
 
-from doc_book_tools import cleanTextFromElement, getDataDicomTable, getTableData,  getVariableListEntries, toCamelCase
+from doc_book_tools import cleanTextFromElement, getDataDicomTable, getElementText, getTableData,  getVariableListEntries, toCamelCase
 
 FHIR_SYSTEM_DICTIONARY = dict(
             ACR  = 'http://terminology.hl7.org/CodeSystem/ACR',
@@ -50,6 +50,7 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
     
     snomedSct2RtMapping = dict()
     snomedCt2UmlsMapping = dict()
+    umls2snomedCTMapping = dict()
 
     # Search for the CID sections
     for section in section_elements:
@@ -66,11 +67,17 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
             # Extract caption
             caption_element = section.find('.//db:caption', ns)
             caption_text = cleanTextFromElement( caption_element )
-            
+
+            # Extract note
+            note_element = section.find('.//db:note', ns)
+            note_text = getElementText(note_element)
+
             # Extract description
             description_elements = section.findall('.//db:para', ns)
-            description_text = ' '.join([cleanTextFromElement(desc) for desc in description_elements])
-            description_text = description_text.strip() if description_text and len(description_text.strip()) > 0 else '-'
+            # description_text = ' '.join([cleanTextFromElement(desc) for desc in description_elements])
+            description_text = caption_text
+            if note_text and len(note_text) > 0:
+                description_text = note_text
 
             # get keywords
             defined_terms = getVariableListEntries(section )
@@ -159,7 +166,9 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
                                         fsh_file.write(f'// * {codeExpression} "{codeMeaning}" \n')
                                     writtenCodes.add(codeExpression)
                                     allcodes['UMLS'][value[umlsConceptUniqueIdIndex]] = codeMeaning
-                                    snomedCt2UmlsMapping[code] = value[umlsConceptUniqueIdIndex].strip()
+
+                                    if ( snomedCt2UmlsMapping.get(code) is None ):
+                                        snomedCt2UmlsMapping[code] = value[umlsConceptUniqueIdIndex].strip()
 
                             fsh_file.write('\n')    
 

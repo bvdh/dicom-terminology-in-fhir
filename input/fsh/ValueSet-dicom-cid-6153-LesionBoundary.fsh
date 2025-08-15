@@ -2,7 +2,7 @@ ValueSet    : CID_6153
 Id          : dicom-cid-6153-LesionBoundary
 Description :
 """
-From BI-RADS       Coding Scheme Designator Code Value Code Meaning DCM  Abrupt interface DCM  Echogenic halo
+From BI-RADS
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.468"

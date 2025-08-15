@@ -2,7 +2,7 @@ ValueSet    : CID_12111
 Id          : dicom-cid-12111-AbdominopelvicArteryPaired
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Accessory Renal Artery   SCT  Common Iliac Artery   SCT  Gastric Artery   SCT  Lumbar Artery   SCT  First Lumbar Artery   SCT  Second Lumbar Artery   SCT  Third Lumbar Artery   SCT  Fourth Lumbar Artery   SCT  Fifth Lumbar Artery   SCT  Sixth Lumbar Artery   SCT  Ovarian Artery   SCT  Testicular Artery   SCT  Umbilical Artery   SCT  Uterine Artery
+Abdominopelvic Artery (Paired)
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.578"

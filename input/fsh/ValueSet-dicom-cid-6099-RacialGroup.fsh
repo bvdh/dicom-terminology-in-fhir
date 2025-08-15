@@ -2,7 +2,7 @@ ValueSet    : CID_6099
 Id          : dicom-cid-6099-RacialGroup
 Description :
 """
-This Context Group is intended to be a set of values that is the union of concepts used in various jurisdictions. It does not distinguish race from ethnic group.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  African race   SCT  Asian race   SCT  Caucasian race   SCT  American Indian or Alaska native   NCIt  Native Hawaiian or other Pacific Islander   SCT  Asian or Pacific Islander race   SCT  Australian aborigine race   SCT  Indian race   SCT  Hispanic   UMLS  Middle Eastern or North African   SCT  Mixed racial group
+This Context Group is intended to be a set of values that is the union of concepts used in various jurisdictions. It does not distinguish race from ethnic group.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1278"

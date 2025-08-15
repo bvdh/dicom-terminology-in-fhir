@@ -2,7 +2,7 @@ ValueSet    : CID_4273
 Id          : dicom-cid-4273-RetinalSegmentationSurface
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  ILM - Internal limiting membrane   DCM  Outer surface of RNFL DCM  Outer surface of GCL DCM  Outer surface of IPL DCM  Outer surface of INL DCM  Outer surface of OPL DCM  Outer surface of HFL SCT  ELM - External limiting membrane   DCM  Inner surface of the RPE DCM  Surface of the center of the RPE DCM  Outer surface of the RPE DCM  Outer surface of Bruchs Membrane DCM  Surface of the choroid-sclera interface DCM  Outer surface of the CC SCT  Lamina cribrosa of sclera   DCM  Inner surface of the ellipsoid zone DCM  Midline of the ellipsoid zone DCM  Outer surface of the ellipsoid zone DCM  Inner surface of the interdigitation zone DCM  Outer surface of the interdigitation zone
+Retinal Segmentation Surface
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1153"

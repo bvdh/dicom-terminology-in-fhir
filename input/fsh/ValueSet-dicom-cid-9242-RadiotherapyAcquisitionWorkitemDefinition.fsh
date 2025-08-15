@@ -2,7 +2,7 @@ ValueSet    : CID_9242
 Id          : dicom-cid-9242-RadiotherapyAcquisitionWorkitemDefinition
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning    DCM  RT Patient Position Acquisition, Optical DCM  RT Patient Position Acquisition, Ultrasound DCM  RT Patient Position Acquisition, Spatial Fiducials
+Radiotherapy Acquisition Workitem Definition
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.932"

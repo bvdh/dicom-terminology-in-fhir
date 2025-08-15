@@ -2,7 +2,7 @@ ValueSet    : CID_3271
 Id          : dicom-cid-3271-HemodynamicPhysiologicalChallenge
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Drug infusion   SCT  Exercise challenge   SCT  Handgrip   SCT  Head up   SCT  Held inspiration   SCT  Held ventilation   SCT  Leg up   SCT  Negative lower body pressure   SCT  Pacing   SCT  Post volume challenge   SCT  Vagal stimulation   SCT  Valsalva maneuver
+Hemodynamic Physiological Challenge
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.61"

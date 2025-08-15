@@ -2,7 +2,7 @@ ValueSet    : CID_12322
 Id          : dicom-cid-12322-ElastographyMeasurementSite
 Description :
 """
-This Context Group contains codes to identify the anatomical location of a specific elastography measurement, such as a specific segment within the liver. Codes for the organ/tissue that is the subject of the elastography study are contained in       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Background   SCT  Thyroid Nodule
+Elastography Measurement Site
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1449"

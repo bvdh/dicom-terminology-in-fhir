@@ -2,7 +2,7 @@ ValueSet    : CID_12014
 Id          : dicom-cid-12014-OBFetalBodyWeightEquationTable
 Description :
 """
-These terms define a functional relationship to estimated fetal body mass from a biometric measurement.       Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  EFW by AC, Campbell 1975  LN  EFW by AC, BPD, Hadlock 1984  LN  EFW by AC, BPD, FL, Hadlock 1984  LN  EFW by AC, BPD, FL, Hadlock 1985  LN  EFW by AC, BPD, FL, HC, Hadlock 1985  LN  EFW by AC, FL, Hadlock 1984  LN  EFW by AC, FL, Hadlock 1985  LN  EFW by AC, FL, HC, Hadlock 1985  LN  EFW by AC, HC Hadlock 1984  LN  EFW by BPD, TTD, Hansmann 1986  LN  EFW by AC and BPD, Shepard 1982  LN  EFW by BPD, FTA, FL, Osaka 1990  LN  EFW1 by Shinozuka 1996  LN  EFW2 by Shinozuka 1996  LN  EFW3 by Shinozuka 1996  LN  EFW by BPD, APAD, TAD, FL, Tokyo 1987
+OB Fetal Body Weight Equation/Table
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.562"

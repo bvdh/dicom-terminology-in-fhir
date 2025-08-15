@@ -2,7 +2,7 @@ ValueSet    : CID_4280
 Id          : dicom-cid-4280-VisualFieldMeasurements
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning Units DCM  Visual Field Index (%, UCUM, "%") DCM  Visual Field Loss Due to Diffuse Defect (%, UCUM, "%") DCM  Visual Field Loss Due to Local Defect (%, UCUM, "%")
+Visual Field Measurements
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1533"

@@ -2,7 +2,7 @@ ValueSet    : CID_12024
 Id          : dicom-cid-12024-OBGYNUltrasoundReportDocumentTitle
 Description :
 """
-DCM  OB-GYN Ultrasound Procedure Report   LN  US Pelvis   SCT
+Vascular Ultrasound Report Document Title
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1318"

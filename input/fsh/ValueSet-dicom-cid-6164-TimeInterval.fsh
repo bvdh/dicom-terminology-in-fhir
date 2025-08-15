@@ -2,7 +2,7 @@ ValueSet    : CID_6164
 Id          : dicom-cid-6164-TimeInterval
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  < 3 months ago DCM  4 months to 1 year ago DCM  > 1 year ago DCM  Timeframe uncertain
+Time Interval
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.478"

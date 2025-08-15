@@ -2,7 +2,7 @@ ValueSet    : CID_7003
 Id          : dicom-cid-7003-DiagnosticImagingReportPurposeOfReference
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS  Baseline DCM  Best illustration of finding DCM  Source of Measurement DCM  Illustration of ROI
+Diagnostic Imaging Report Purpose of Reference
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.484"

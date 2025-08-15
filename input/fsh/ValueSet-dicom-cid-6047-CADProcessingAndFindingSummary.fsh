@@ -2,7 +2,7 @@ ValueSet    : CID_6047
 Id          : dicom-cid-6047-CADProcessingAndFindingSummary
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  All algorithms succeeded; without findings DCM  All algorithms succeeded; with findings DCM  Not all algorithms succeeded; without findings DCM  Not all algorithms succeeded; with findings DCM  No algorithms succeeded; without findings
+CAD Processing and Finding Summary
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.377"

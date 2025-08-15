@@ -2,7 +2,7 @@ ValueSet    : CID_72
 Id          : dicom-cid-72-ImagingAgentAdministrationStepType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Patency Test Injection DCM  Transit Time Test Injection DCM  Diagnostic Administration DCM  Flush Administration
+Imaging Agent Administration Step Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1262"

@@ -2,7 +2,7 @@ ValueSet    : CID_12001
 Id          : dicom-cid-12001-UltrasoundProtocolType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Echocardiography   SCT  Transesophageal echocardiography   SCT  Transthoracic echocardiography   SCT  Epicardial echocardiography   SCT  Intravascular echocardiography   SCT  Intracardiac echocardiography   SCT  Exercise stress echocardiography   SCT  Pediatric echocardiography   SCT  Intraoperative echocardiography   SCT  Contrast echocardiography   SCT  Fetal echocardiography    In a prior version of this Context Group, Transthoracic echocardiography was assigned the code P5-B3003 and Epicardial echocardiography was assigned the code P5-B3004; these codes conflict with other SNOMED code assignments. In addition, the prior version used many codes that are not actually in SNOMED. Receiving applications should be aware of this change, and the possibility of misinterpretation of SOP Instances that may include the deprecated codes; see
+In a prior version of this Context Group, Transthoracic echocardiography was assigned the code P5-B3003 and Epicardial echocardiography was assigned the code P5-B3004; these codes conflict with other SNOMED code assignments. In addition, the prior version used many codes that are not actually in SNOMED. Receiving applications should be aware of this change, and the possibility of misinterpretation of SOP Instances that may include the deprecated codes; see
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.550"

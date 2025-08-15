@@ -2,7 +2,7 @@ ValueSet    : CID_3416
 Id          : dicom-cid-3416-RespirationRhythm
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  normal respiratory rhythm   SCT  irregular breathing   SCT  gasping respiration   SCT  abnormal respiratory rhythm   SCT  respiration intermittent
+Respiration Rhythm
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.81"

@@ -2,7 +2,7 @@ ValueSet    : CID_12313
 Id          : dicom-cid-12313-CardiacUltrasoundFetalArrhythmiaMeasurements
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID MDC 2:16020 Atrial Heart Rate   MDC 2:16016 Ventricular Heart Rate   DCM  Atrioventricular time interval   DCM  Ventriculoatrial time interval
+Cardiac Ultrasound Fetal Arrhythmia Measurements
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1499"

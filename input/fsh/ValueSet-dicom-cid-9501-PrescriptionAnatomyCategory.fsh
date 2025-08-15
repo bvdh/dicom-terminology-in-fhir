@@ -2,7 +2,7 @@ ValueSet    : CID_9501
 Id          : dicom-cid-9501-PrescriptionAnatomyCategory
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anatomical Structure   DCM  External Body Model SCT  Physical object   DCM  Non-specific Volume
+Prescription Anatomy Category
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1211"

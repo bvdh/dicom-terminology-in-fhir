@@ -2,7 +2,7 @@ ValueSet    : CID_83
 Id          : dicom-cid-83-RealWorldValueMappingUnit
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning  UCUM [hnsf'U] Hounsfield unit
+Real World Value Mapping Unit
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.24"

@@ -2,7 +2,7 @@ ValueSet    : CID_616
 Id          : dicom-cid-616-AnesthesiaMaintenanceCodeTypeFromAnesthesiaQuality
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Inhalation anesthesia system closed rebreathing primary agent   SCT  Inhalation anesthesia system closed no rebreathing primary agent   This Context Group contains SNOMED procedure code equivalents of enumerated string concepts for the The AQI value "circle system" corresponds to The AQI value "non-rebreathing" corresponds to
+This Context Group contains SNOMED procedure code equivalents of enumerated string concepts for the The AQI value "circle system" corresponds to The AQI value "non-rebreathing" corresponds to
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1081"

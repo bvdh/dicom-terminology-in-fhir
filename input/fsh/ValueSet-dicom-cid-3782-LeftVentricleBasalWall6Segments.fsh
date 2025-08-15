@@ -2,7 +2,7 @@ ValueSet    : CID_3782
 Id          : dicom-cid-3782-LeftVentricleBasalWall6Segments
 Description :
 """
-This 6-segment model of the basal left ventricular myocardial wall uses the terminology specified in       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  left ventricle basal anterior segment   SCT  left ventricle basal anteroseptal segment   SCT  left ventricle basal inferoseptal segment   SCT  left ventricle basal inferior segment   SCT  left ventricle basal inferolateral segment   SCT  left ventricle basal anterolateral segment
+Left Ventricle Basal Wall 6 Segments
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1414"

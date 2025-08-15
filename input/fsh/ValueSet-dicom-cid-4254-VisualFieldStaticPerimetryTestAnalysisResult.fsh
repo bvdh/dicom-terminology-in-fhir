@@ -2,7 +2,7 @@ ValueSet    : CID_4254
 Id          : dicom-cid-4254-VisualFieldStaticPerimetryTestAnalysisResult
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Outside normal limits   DCM  Borderline   DCM  Abnormally high sensitivity   DCM  General reduction in sensitivity   DCM  Borderline and general reduction in sensitivity   SCT  Within normal limits
+Visual Field Static Perimetry Test Analysis Result
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.913"

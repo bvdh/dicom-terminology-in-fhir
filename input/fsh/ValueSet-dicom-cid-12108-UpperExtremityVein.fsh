@@ -2,7 +2,7 @@ ValueSet    : CID_12108
 Id          : dicom-cid-12108-UpperExtremityVein
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Axillary vein   SCT  Basilic vein   SCT  Brachial vein   SCT  Cephalic vein   SCT  Innominate vein   SCT  Internal Jugular vein   SCT  Median Cubital vein   SCT  Radial vein   SCT  Subclavian vein   SCT  Ulnar vein   SCT  Superior Vena Cava   SCT  Deep Palmar Venous Arch   SCT  Superficial Palmar Venous Arch
+Upper Extremity Vein
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.575"

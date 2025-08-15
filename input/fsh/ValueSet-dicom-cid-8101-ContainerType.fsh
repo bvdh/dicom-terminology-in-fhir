@@ -2,7 +2,7 @@ ValueSet    : CID_8101
 Id          : dicom-cid-8101-ContainerType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Tissue cassette   SCT  Tissue microarray cassette   SCT  Specimen vial   SCT  Microscope slide   SCT  Specimen container   SCT  Electron microscopy grid   SCT  Specimen well   The SNOMED CT concepts for physical objects rather than corresponding concepts for specimens are used in this Context Group. I.e.,
+The SNOMED CT concepts for physical objects rather than corresponding concepts for specimens are used in this Context Group. I.e.,
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1043"

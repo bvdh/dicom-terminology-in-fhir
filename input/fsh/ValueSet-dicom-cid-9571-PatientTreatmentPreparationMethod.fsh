@@ -2,7 +2,7 @@ ValueSet    : CID_9571
 Id          : dicom-cid-9571-PatientTreatmentPreparationMethod
 Description :
 """
-DCM  Isocentric Setup Method DCM  Controlled SSD Setup Method DCM  TBI Setup Method DCM  Stereotactic Setup Method DCM  Skin Apposition Setup Method DCM  Ocular Gaze Setup Method
+Patient Treatment Preparation Method
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1418"

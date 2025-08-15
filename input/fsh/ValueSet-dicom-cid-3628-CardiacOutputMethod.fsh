@@ -2,7 +2,7 @@ ValueSet    : CID_3628
 Id          : dicom-cid-3628-CardiacOutputMethod
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Thermal Bath   SCT  Thermal Inline   SCT  Dye Dilution
+Cardiac Output Method
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.173"

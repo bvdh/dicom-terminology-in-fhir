@@ -2,7 +2,7 @@ ValueSet    : CID_12323
 Id          : dicom-cid-12323-UltrasoundRelevantPatientCondition
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Hepatic Congestion   SCT  Acute Hepatitis   SCT  Not Fasting   SCT  Patient has pacemaker
+Ultrasound Relevant Patient Condition
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1450"

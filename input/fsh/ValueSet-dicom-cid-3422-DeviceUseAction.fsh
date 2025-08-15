@@ -2,7 +2,7 @@ ValueSet    : CID_3422
 Id          : dicom-cid-3422-DeviceUseAction
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Device inserted into sheath   SCT  Device at site of interest   SCT  Device withdrawn / removed   SCT  Device applied to patient   SCT  Device used   SCT  Device crossed septum   DCM  Device crossed lesion
+Device Use Action
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.85"

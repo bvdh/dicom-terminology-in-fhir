@@ -2,7 +2,7 @@ ValueSet    : CID_3486
 Id          : dicom-cid-3486-VascularMeasurementSite
 Description :
 """
-This Context Group is the set of sites where vascular measurements can be made.       Coding Scheme Designator Code Value Code Meaning DCM  Proximal Reference DCM  Distal Reference DCM  Site of Lumen Minimum DCM  Site of Lumen Maximum
+Vascular Measurement Site
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.121"

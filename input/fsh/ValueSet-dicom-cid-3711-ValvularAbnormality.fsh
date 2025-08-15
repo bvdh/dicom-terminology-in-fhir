@@ -2,7 +2,7 @@ ValueSet    : CID_3711
 Id          : dicom-cid-3711-ValvularAbnormality
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Stenosis   SCT  Regurgitation   SCT  Calcified Heart Valve   SCT  Immobile Heart Valve   DCM  Heart Valve Flail   SCT  Valvular endocarditis
+Valvular Abnormality
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.212"

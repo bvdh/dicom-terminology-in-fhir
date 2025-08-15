@@ -2,7 +2,7 @@ ValueSet    : CID_8111
 Id          : dicom-cid-8111-SpecimenPreparationProcedure
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID HL7 v3 ActClass equivalent SCT  Specimen collection   SPECCOLLECT SCT  Specimen receiving   CONTREG SCT  Sampling of tissue specimen   PROC SCT  Staining   SPCTRT SCT  Specimen processing   SPCTRT DCM  Specimen storage   STORE
+Specimen Preparation Procedure
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1049"

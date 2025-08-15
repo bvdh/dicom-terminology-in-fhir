@@ -2,7 +2,7 @@ ValueSet    : CID_9534
 Id          : dicom-cid-9534-RadiotherapyTarget
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  CTV Nodal DCM  CTV Primary SCT  CTV   DCM  GTV Nodal DCM  GTV Primary SCT  GTV   DCM  PTV Nodal DCM  PTV Primary SCT  PTV   DCM  ITV DCM  Treated Volume SCT  Irradiated Volume   DCM  Entire Body Target Volume DCM  Radiation Dose Normalization Point DCM  Radiation Dose Reference Point
+Radiotherapy Target
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1244"

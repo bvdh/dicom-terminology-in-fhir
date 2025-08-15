@@ -2,7 +2,7 @@ ValueSet    : CID_12272
 Id          : dicom-cid-12272-CardiacUltrasoundSemilunarValveAnnulateAndSinusM
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning
+Cardiac Ultrasound Semilunar Valve, Annulate and Sinus Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.853"

@@ -2,7 +2,7 @@ ValueSet    : CID_7004
 Id          : dicom-cid-7004-WaveformPurposeOfReference
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Simultaneous Doppler DCM  Simultaneous Hemodynamic DCM  Simultaneous ECG DCM  Simultaneous Voice Narrative DCM  Simultaneous Respiratory Waveform DCM  Simultaneous Arterial Pulse Waveform DCM  Simultaneous Phonocardiographic Waveform
+Waveform Purpose of Reference
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.485"

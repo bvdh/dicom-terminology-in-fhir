@@ -2,7 +2,7 @@ ValueSet    : CID_3235
 Id          : dicom-cid-3235-PerfusionComparisonFinding
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  No change   SCT  New ischemia   SCT  Less ischemia   SCT  Resolution of ischemia   SCT  More ischemia   SCT  New infarction
+Perfusion Comparison Finding
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.781"

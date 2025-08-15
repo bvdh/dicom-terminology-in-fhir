@@ -2,7 +2,7 @@ ValueSet    : CID_4030
 Id          : dicom-cid-4030-CTMRandPETAnatomyImaged
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  Abdominal aorta   SCT  Adrenal gland   SCT  Aortic arch   SCT  Brain   SCT  Carotid Artery   SCT  Cerebellum   SCT  Circle of Willis   SCT  Coronary artery   SCT  Cranial venous system   SCT  Iliac and/or femoral artery   SCT  Kidney   SCT  Liver   SCT  Parathyroid   SCT  Pulmonary artery   SCT  Renal artery   SCT  Spleen   SCT  Testis   SCT  Thoracic aorta   SCT  Thymus   SCT  Thyroid   SCT  Uterus
+CT, MR and PET Anatomy Imaged
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.307"

@@ -2,7 +2,7 @@ ValueSet    : CID_3047
 Id          : dicom-cid-3047-WaveformAnnotationClassification
 Description :
 """
-This Context Group lists codes to classify Waveform Annotations.       Coding Scheme Designator Code Value Code Meaning DCM  Pattern Event DCM  EEG Annotation DCM  EMG Annotation DCM  EOG Annotation DCM  Device-related and Environment-related Event DCM  Patient Consciousness
+Waveform Annotation Classification
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1487"

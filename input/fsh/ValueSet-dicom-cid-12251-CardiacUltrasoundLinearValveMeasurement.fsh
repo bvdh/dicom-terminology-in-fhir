@@ -2,7 +2,7 @@ ValueSet    : CID_12251
 Id          : dicom-cid-12251-CardiacUltrasoundLinearValveMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID  LN  D-E Excursion  LN  Leaflet Separation  LN  Leaflet Thickness  LN  C-E Distance
+Cardiac Ultrasound Linear Valve Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.832"

@@ -2,7 +2,7 @@ ValueSet    : CID_7215
 Id          : dicom-cid-7215-SpectroscopyPurposeOfReference
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Spectroscopy Data for Water Phase Correction
+Spectroscopy Purpose of Reference
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.970"

@@ -2,7 +2,7 @@ ValueSet    : CID_9546
 Id          : dicom-cid-9546-RadiotherapyWedgeType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Hard Wedge DCM  Motorized Wedge DCM  Dynamic Wedge
+Radiotherapy Wedge Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1293"

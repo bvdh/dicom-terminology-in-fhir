@@ -2,7 +2,7 @@ ValueSet    : CID_601
 Id          : dicom-cid-601-BiosafetyLevel
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Biosafety level 1   SCT  Biosafety level 2   SCT  Biosafety level 3   SCT  Biosafety level 4
+Biosafety Level
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1065"

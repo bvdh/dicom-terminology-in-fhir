@@ -2,7 +2,7 @@ ValueSet    : CID_12239
 Id          : dicom-cid-12239-CardiacOutputProperty
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Equivalent LOINC Code Value SCT  Stroke Volume    SCT  Cardiac Output    SCT  Cardiac Index    SCT  Stroke Index
+Cardiac Output Property
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.630"

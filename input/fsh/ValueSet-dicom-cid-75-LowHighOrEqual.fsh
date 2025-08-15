@@ -2,7 +2,7 @@ ValueSet    : CID_75
 Id          : dicom-cid-75-LowHighOrEqual
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Low   SCT  High   SCT  Equal
+Low High or Equal
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1265"

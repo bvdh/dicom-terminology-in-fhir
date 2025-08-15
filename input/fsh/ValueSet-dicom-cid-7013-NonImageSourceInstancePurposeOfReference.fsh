@@ -2,7 +2,7 @@ ValueSet    : CID_7013
 Id          : dicom-cid-7013-NonImageSourceInstancePurposeOfReference
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Source measurement DCM  Source report DCM  Source raw data DCM  Source Deformable Spatial Registration  This Context Group previously contained a code for "source image", which has been removed.
+This Context Group previously contained a code for "source image", which has been removed.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1134"

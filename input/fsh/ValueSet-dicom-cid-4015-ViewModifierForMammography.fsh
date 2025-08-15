@@ -2,7 +2,7 @@ ValueSet    : CID_4015
 Id          : dicom-cid-4015-ViewModifierForMammography
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Applies only when View ACR MQCM 1999 Equivalent is: ACR MQCM 1999 Equivalent SCT  Cleavage   CC or FB CV SCT  Axillary Tail   MLO AT SCT  Rolled Lateral   any ...RL SCT  Rolled Medial   any ...RM SCT  Rolled Inferior   any ...RI SCT  Rolled Superior   any ...RS SCT  Implant Displaced   any ...ID SCT  Magnification   any M... SCT  Spot Compression   any S... SCT  Tangential   any TAN SCT  Nipple in profile   any ...NP SCT  Anterior compression   any ...AC SCT  Infra-mammary fold   any ...IMF SCT  Axillary tissue   any ...AX The View ACR MQCM 1999 Equivalent is defined in Some applications and View Modifier ACR MQCM 1999 equivalents have been extended by DICOM to incorporate additional known clinical use cases. The View Modifier ACR MQCM 1999 equivalent indicates its use as a prefix (shown by trailing "") or suffix (shown by preceding "") to the View ACR MQCM 1999 equivalent, or replacement for the View ACR MQCM 1999 equivalent.
+The View ACR MQCM 1999 Equivalent is defined in Some applications and View Modifier ACR MQCM 1999 equivalents have been extended by DICOM to incorporate additional known clinical use cases. The View Modifier ACR MQCM 1999 equivalent indicates its use as a prefix (shown by trailing "") or suffix (shown by preceding "") to the View ACR MQCM 1999 equivalent, or replacement for the View ACR MQCM 1999 equivalent.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.299"

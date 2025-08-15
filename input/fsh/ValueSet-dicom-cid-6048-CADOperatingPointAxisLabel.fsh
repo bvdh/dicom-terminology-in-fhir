@@ -2,7 +2,7 @@ ValueSet    : CID_6048
 Id          : dicom-cid-6048-CADOperatingPointAxisLabel
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Certainty of Finding DCM  Probability of cancer DCM  False Markers per Image DCM  False Markers per Case DCM  Case Sensitivity DCM  Lesion Sensitivity DCM  Case Specificity DCM  Image Specificity
+CAD Operating Point Axis Label
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.378"

@@ -2,7 +2,7 @@ ValueSet    : CID_6315
 Id          : dicom-cid-6315-ProstateMRISeriesQualityFinding
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Anatomy coverage incomplete   DCM  Poor FOV selection   DCM  Poor SNR
+Prostate MRI Series Quality Finding
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1372"

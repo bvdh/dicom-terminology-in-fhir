@@ -2,7 +2,7 @@ ValueSet    : CID_7702
 Id          : dicom-cid-7702-ProjectionAndThalamicFiber
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NEU  corticobulbar tract   NEU  corticospinal tract   SCT  internal capsule   SCT  external capsule   SCT  auditory radiation   SCT  optic radiation   NEU 1466 inferior optic radiation (Meyer's loop)   NEU 3473 superior optic radiation (Baum's loop)   NEU  anterior thalamic radiation   NEU  superior thalamic radiation   NEU  inferior thalamic radiation   NEU  posterior thalamic radiation   SNOMED has codes for the corticobulbar and corticospinal tracts and thalamic radiations in specific regions (e.g., internal capsule), but not generic codes independent of their regional location, so they are not used.
+SNOMED has codes for the corticobulbar and corticospinal tracts and thalamic radiations in specific regions (e.g., internal capsule), but not generic codes independent of their regional location, so they are not used.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1014"

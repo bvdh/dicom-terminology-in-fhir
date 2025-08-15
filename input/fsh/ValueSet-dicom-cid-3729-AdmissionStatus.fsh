@@ -2,7 +2,7 @@ ValueSet    : CID_3729
 Id          : dicom-cid-3729-AdmissionStatus
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR [2.0b] Equivalent SCT  Elective   17-1 SCT  Emergency Department   17-2 SCT  Transfer   17-3 In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
+In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.229"

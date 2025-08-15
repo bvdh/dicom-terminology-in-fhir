@@ -2,7 +2,7 @@ ValueSet    : CID_3016
 Id          : dicom-cid-3016-MajorCoronaryArtery
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Left Anterior Descending Coronary Artery   SCT  Right Coronary Artery   SCT  Circumflex Coronary Artery   SCT  Left Coronary Artery   SCT  Left Main Coronary Artery
+Major Coronary Artery
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.736"

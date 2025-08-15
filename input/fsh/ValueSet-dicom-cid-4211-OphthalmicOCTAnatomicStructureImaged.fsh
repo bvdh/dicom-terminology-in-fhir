@@ -2,7 +2,7 @@ ValueSet    : CID_4211
 Id          : dicom-cid-4211-OphthalmicOCTAnatomicStructureImaged
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anterior chamber of eye   SCT  Choroid of eye   SCT  Ciliary body   SCT  Conjunctiva   SCT  Cornea   SCT  Iris   SCT  Lens   SCT  Optic nerve head   SCT  Retina   SCT  Sclera   SCT  Vitreous   SCT  Corneal epithelium   SCT  Corneal endothelium
+Ophthalmic OCT Anatomic Structure Imaged
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.327"

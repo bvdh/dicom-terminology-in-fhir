@@ -2,7 +2,7 @@ ValueSet    : CID_3411
 Id          : dicom-cid-3411-IntracoronaryDevice
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR Equivalent Trade Name (Informative) SCT  Percutaneous Transluminal Angioplasty Balloon   113-1  SCT  Cutting Balloon Angioplasty (CBA) Device   113-2  SCT  Stent   113-3  SCT  Directional Coronary Atherectomy (DCA) Device   113-4  SCT  Rotational Atherectomy Device   113-5 Rotablator SCT  Saline Thrombectomy   113-6 AngioJet SCT  Transluminal Extraction Catheter (TEC)   113-7  SCT  Laser   113-8  SCT  Intravascular Ultrasound (IVUS) Device   113-9  SCT  Intracoronary Doppler guide wire   113-10 Flowire SCT  Intracoronary pressure guide wire   113-11  SCT  Brachytherapy Device     SCT  Radiofrequency Ablation Device     SCT  Intravascular Optical Coherence Tomography Device     SCT  Guide Wire     SCT  Guiding Catheter
+Intracoronary Device
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.76"

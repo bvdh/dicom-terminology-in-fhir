@@ -2,7 +2,7 @@ ValueSet    : CID_12255
 Id          : dicom-cid-12255-CardiacUltrasoundMyocardiumMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID DCM  Wall Mass  LN  Myocardial Performance Index (Tei)  LN  Endocardial Area  LN  Epicardial Area
+Cardiac Ultrasound Myocardium Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.836"

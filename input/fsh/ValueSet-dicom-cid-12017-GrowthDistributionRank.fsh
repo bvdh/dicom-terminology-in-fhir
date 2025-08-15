@@ -2,7 +2,7 @@ ValueSet    : CID_12017
 Id          : dicom-cid-12017-GrowthDistributionRank
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Growth Percentile Rank DCM  Growth Z-score
+Growth Distribution Rank
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.565"

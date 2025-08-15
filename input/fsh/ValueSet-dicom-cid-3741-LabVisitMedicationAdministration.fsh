@@ -2,7 +2,7 @@ ValueSet    : CID_3741
 Id          : dicom-cid-3741-LabVisitMedicationAdministration
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR Equivalent SCT  Contraindicated   58-1 SCT  Administered before lab visit   58-2 SCT  Administered during lab visit   58-3 SCT  Administered after lab visit   58-4
+Lab Visit Medication Administration
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.238"

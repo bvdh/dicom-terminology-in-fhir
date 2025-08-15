@@ -2,7 +2,7 @@ ValueSet    : CID_42
 Id          : dicom-cid-42-NumericValueQualifier
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning
+Numeric Value Qualifier
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.22"

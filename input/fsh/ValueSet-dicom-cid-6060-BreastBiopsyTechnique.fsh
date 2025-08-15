@@ -2,7 +2,7 @@ ValueSet    : CID_6060
 Id          : dicom-cid-6060-BreastBiopsyTechnique
 Description :
 """
-Some of these terms were obtained from BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Lumpectomy   UMLS  Mastectomy   SCT  Quadrantectomy of breast   SCT  Plain X-ray guided wire localization of breast lesion   SCT  Ultrasonic guidance procedure   SCT  Mammography   DCM  Mammographic (crosshair)   DCM  Mammographic (grid)   SCT  Magnetic resonance imaging guided biopsy   SCT  Computed tomography guided biopsy   DCM  Palpation guided   DCM  Vacuum assisted   In a prior version of this Context Group, the code P1-03115 was specified for the concept "Ultrasound guided biopsy". The use of this code is too restrictive, and its use in this context is deprecated. There is minimal possibility of misinterpretation with SOP Instances that may include the deprecated use. The incorrect code P1-43850 was previously used for mastectomy, presumably a two-character transposition of the actual SNOMED concept
+Some of these terms were obtained from BI-RADS
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.389"

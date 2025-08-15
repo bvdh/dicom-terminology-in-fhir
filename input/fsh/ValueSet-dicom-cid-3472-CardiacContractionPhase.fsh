@@ -2,7 +2,7 @@ ValueSet    : CID_3472
 Id          : dicom-cid-3472-CardiacContractionPhase
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Systolic   SCT  Diastolic
+Cardiac Contraction Phase
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.114"

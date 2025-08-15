@@ -2,7 +2,7 @@ ValueSet    : CID_3621
 Id          : dicom-cid-3621-FractionalFlowReserve
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Fractional flow reserve   SCT  Fractional Flow Reserve using intracoronary bolus   SCT  Fractional Flow Reserve using intravenous infusion
+Fractional Flow Reserve
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.171"

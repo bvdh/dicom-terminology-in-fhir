@@ -2,7 +2,7 @@ ValueSet    : CID_9504
 Id          : dicom-cid-9504-RTGeometricInformation
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Patient Setup Point DCM  Room Laser Patient Setup Point DCM  Moveable Laser Patient Setup Point DCM  Reference Acquisition Point DCM  Isocentric Treatment Location Point
+RT Geometric Information
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1214"

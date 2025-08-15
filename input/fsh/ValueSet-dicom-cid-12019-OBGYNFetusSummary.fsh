@@ -2,7 +2,7 @@ ValueSet    : CID_12019
 Id          : dicom-cid-12019-OBGYNFetusSummary
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Gestational Age  LN  Composite Ultrasound Age  LN  Gestational Age by LMP  LN  Estimated Weight  LN  EFW percentile rank  LN  EFW Ratio  LN  EFW Discordance  LN  Fetal Heart Rate
+OB-GYN Fetus Summary
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.567"

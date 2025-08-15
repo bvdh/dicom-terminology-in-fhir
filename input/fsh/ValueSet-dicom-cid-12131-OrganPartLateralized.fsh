@@ -2,7 +2,7 @@ ValueSet    : CID_12131
 Id          : dicom-cid-12131-OrganPartLateralized
 Description :
 """
-SCT  Left lobe of thyroid   SCT  Right lobe of thyroid
+Organ Part (Lateralized)
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1317"

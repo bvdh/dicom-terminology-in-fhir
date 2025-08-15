@@ -2,7 +2,7 @@ ValueSet    : CID_6071
 Id          : dicom-cid-6071-HistologicGradingMethod
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Bloom-Richardson Grade   SCT  Nottingham Combined Grade
+Histologic Grading Method
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.400"

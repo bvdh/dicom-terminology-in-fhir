@@ -2,7 +2,7 @@ ValueSet    : CID_7140
 Id          : dicom-cid-7140-BrainStructureForVolumetricMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Amygdala   SCT  Brain Stem   SCT  Caudate Nucleus   SCT  Cerebellar Cortex   SCT  Cerebellar White Matter   SCT  Cerebellum   SCT  Cerebral Gray Matter   SCT  Cerebral White Matter   SCT  Cranial Cavity   SCT  Cranial Subarachnoid Space   SCT  Cavum of septum pellucidum   SCT  Fourth Ventricle   SCT  Globus Pallidus   SCT  Hippocampus   SCT  Cerebellar Subarachnoid Space   SCT  Inferior Horn of Lateral Ventricle   SCT  Lateral Ventricle   SCT  Nucleus Accumbens   SCT  Intracranial structure   SCT  Putamen   SCT  Thalamus   SCT  Third ventricle   DCM  Ventral Diencephalon   DCM  White Matter T1 Hypointensity   DCM  White Matter T2 Hyperintensity
+Brain Structure for Volumetric Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.967"

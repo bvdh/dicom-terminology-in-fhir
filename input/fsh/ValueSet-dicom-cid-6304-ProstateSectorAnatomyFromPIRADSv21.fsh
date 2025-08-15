@@ -2,7 +2,7 @@ ValueSet    : CID_6304
 Id          : dicom-cid-6304-ProstateSectorAnatomyFromPIRADSv21
 Description :
 """
-From                SCT  Left posteromedial basal peripheral zone of prostate    Base L PZpm  SCT  Right posteromedial basal peripheral zone of prostate    Base R PZpm
+From
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1306"

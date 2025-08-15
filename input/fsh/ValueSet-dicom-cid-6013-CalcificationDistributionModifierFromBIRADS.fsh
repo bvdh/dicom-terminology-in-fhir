@@ -2,7 +2,7 @@ ValueSet    : CID_6013
 Id          : dicom-cid-6013-CalcificationDistributionModifierFromBIRADS
 Description :
 """
-From BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Diffuse calcification distribution   SCT  Linear calcification distribution   SCT  Grouped calcification distribution   SCT  Regional calcification distribution   SCT  Segmental calcification distribution   DCM  Calcifications within a mass   DCM  Calcifications outside of a mass
+From BI-RADS
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.343"

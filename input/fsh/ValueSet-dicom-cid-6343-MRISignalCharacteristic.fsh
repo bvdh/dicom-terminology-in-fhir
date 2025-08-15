@@ -2,7 +2,7 @@ ValueSet    : CID_6343
 Id          : dicom-cid-6343-MRISignalCharacteristic
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID
+MRI Signal Characteristic
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1400"

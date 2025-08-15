@@ -2,7 +2,7 @@ ValueSet    : CID_9512
 Id          : dicom-cid-9512-TomotherapeuticRadiotherapyProcedureTechnique
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Helical Beam DCM  Topographic Beam
+Tomotherapeutic Radiotherapy Procedure Technique
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1222"

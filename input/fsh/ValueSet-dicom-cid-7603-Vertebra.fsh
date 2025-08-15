@@ -2,7 +2,7 @@ ValueSet    : CID_7603
 Id          : dicom-cid-7603-Vertebra
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  C1 vertebra   SCT  C2 vertebra   SCT  C3 vertebra   SCT  C4 vertebra   SCT  C5 vertebra   SCT  C6 vertebra   SCT  C7 vertebra   SCT  T1 vertebra   SCT  T2 vertebra   SCT  T3 vertebra   SCT  T4 vertebra   SCT  T5 vertebra   SCT  T6 vertebra   SCT  T7 vertebra   SCT  T8 vertebra   SCT  T9 vertebra   SCT  T10 vertebra   SCT  T11 vertebra   SCT  T12 vertebra   SCT  L1 vertebra   SCT  L2 vertebra   SCT  L3 vertebra   SCT  L4 vertebra   SCT  L5 vertebra
+Vertebra
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1434"

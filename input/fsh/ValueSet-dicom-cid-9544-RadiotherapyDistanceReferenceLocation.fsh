@@ -2,7 +2,7 @@ ValueSet    : CID_9544
 Id          : dicom-cid-9544-RadiotherapyDistanceReferenceLocation
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Nominal Radiation Source Location DCM  Treatment Machine Isocenter
+Radiotherapy Distance Reference Location
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1291"

@@ -2,7 +2,7 @@ ValueSet    : CID_7270
 Id          : dicom-cid-7270-MRDiffusionComponentSemantic
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Units DCM  Diffusion weighted   DT (1, UCUM, "no units") DCM  Volumetric Diffusion Dxx Component   DT (1, UCUM, "no units") DCM  Volumetric Diffusion Dxy Component   DT (1, UCUM, "no units") DCM  Volumetric Diffusion Dxz Component   DT (1, UCUM, "no units") DCM  Volumetric Diffusion Dyy Component   DT (1, UCUM, "no units") DCM  Volumetric Diffusion Dyz Component   DT (1, UCUM, "no units") DCM  Volumetric Diffusion Dzz Component   DT (1, UCUM, "no units")
+MR Diffusion Component Semantic
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1165"

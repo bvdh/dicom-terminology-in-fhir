@@ -2,7 +2,7 @@ ValueSet    : CID_8302
 Id          : dicom-cid-8302-MeasurementPatternCode
 Description :
 """
-Test pattern images that define measurement points for display calibration jobs.       Coding Scheme Designator Code Value Code Meaning DCM  TG18-UNL10 Pattern DCM  TG18-UNL80 Pattern
+Measurement Pattern Code
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.982"

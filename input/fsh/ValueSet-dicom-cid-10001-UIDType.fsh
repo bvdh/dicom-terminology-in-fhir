@@ -2,7 +2,7 @@ ValueSet    : CID_10001
 Id          : dicom-cid-10001-UIDType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Study Instance UID DCM  Series Instance UID DCM  Performed Procedure Step SOP Instance UID DCM  Irradiation Event UID
+UID Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.535"

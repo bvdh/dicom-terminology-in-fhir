@@ -2,7 +2,7 @@ ValueSet    : CID_12269
 Id          : dicom-cid-12269-CardiacUltrasoundInterventricularSeptumMeasureme
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning
+Cardiac Ultrasound Interventricular Septum Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.850"

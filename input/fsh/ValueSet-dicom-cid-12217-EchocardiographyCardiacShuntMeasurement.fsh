@@ -2,7 +2,7 @@ ValueSet    : CID_12217
 Id          : dicom-cid-12217-EchocardiographyCardiacShuntMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID  LN  Pulmonary-to-Systemic Shunt Flow Ratio
+Echocardiography Cardiac Shunt Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.609"

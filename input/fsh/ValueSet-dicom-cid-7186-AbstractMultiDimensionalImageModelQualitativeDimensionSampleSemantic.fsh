@@ -2,7 +2,7 @@ ValueSet    : CID_7186
 Id          : dicom-cid-7186-AbstractMultiDimensionalImageModelQualitativeDime
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning  DCM  Volumetric Diffusion Dxx Component DCM  Volumetric Diffusion Dxy Component DCM  Volumetric Diffusion Dxz Component DCM  Volumetric Diffusion Dyy Component DCM  Volumetric Diffusion Dyz Component DCM  Volumetric Diffusion Dzz Component DCM  RGB R Component DCM  RGB G Component DCM  RGB B Component DCM  YBR FULL Y Component DCM  YBR FULL CB Component DCM  YBR FULL CR Component DCM  YBR PARTIAL Y Component DCM  YBR PARTIAL CB Component DCM  YBR PARTIAL CR Component DCM  YBR ICT Y Component DCM  YBR ICT CB Component DCM  YBR ICT CR Component DCM  YBR RCT Y Component DCM  YBR RCT CB Component DCM  YBR RCT CR Component
+Abstract Multi-dimensional Image Model Qualitative Dimension Sample Semantic
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.923"

@@ -2,7 +2,7 @@ ValueSet    : CID_281
 Id          : dicom-cid-281-SimilarityMeasure
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Dice Similarity Coefficient DCM  Jaccard Index
+Similarity Measure
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1494"

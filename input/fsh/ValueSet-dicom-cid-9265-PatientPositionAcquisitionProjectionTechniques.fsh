@@ -2,7 +2,7 @@ ValueSet    : CID_9265
 Id          : dicom-cid-9265-PatientPositionAcquisitionProjectionTechniques
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  RT Patient Position Acquisition, single plane MV DCM  RT Patient Position Acquisition, single plane kV DCM  RT Patient Position Acquisition, Integrated Dose MV DCM  RT Patient Position Acquisition, Film Cassette MV DCM  RT Patient Position Acquisition, Film Cassette kV
+Patient Position Acquisition - Projection Techniques
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1464"

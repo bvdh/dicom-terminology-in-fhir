@@ -2,7 +2,7 @@ ValueSet    : CID_3713
 Id          : dicom-cid-3713-TIMIFlowCharacteristic
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR Equivalent SCT  0: No Perfusion   106-0, 107-0 SCT  1: Penetration without Perfusion   106-1, 107-1 SCT  2: Partial Perfusion   106-2, 107-2 SCT  3: Complete Perfusion   106-3, 107-3
+TIMI Flow Characteristic
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.214"

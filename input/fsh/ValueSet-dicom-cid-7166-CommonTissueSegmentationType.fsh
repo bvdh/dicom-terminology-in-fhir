@@ -2,7 +2,7 @@ ValueSet    : CID_7166
 Id          : dicom-cid-7166-CommonTissueSegmentationType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Artery   SCT  Blood   SCT  Blood vessel   SCT  Fat   SCT  Bone   SCT  Capillary   SCT  Cartilage   SCT  Connective tissue   SCT  Ligament   SCT  Lymph node   SCT  Lymphatic system   SCT  Lymphatic vessel   SCT  Lymphoid tissue   SCT  Meniscus   SCT  Muscle   SCT  Nerve   SCT  Organ   SCT  Skin   SCT  Soft tissue   SCT  Subcutaneous tissue   SCT  Tendon   SCT  Tissue   SCT  Vein   Blood and fat are considered tissues rather than body substances because they are cellular.
+Blood and fat are considered tissues rather than body substances because they are cellular.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.963"

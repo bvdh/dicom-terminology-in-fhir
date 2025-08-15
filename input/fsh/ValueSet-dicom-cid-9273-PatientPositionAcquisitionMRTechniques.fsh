@@ -2,7 +2,7 @@ ValueSet    : CID_9273
 Id          : dicom-cid-9273-PatientPositionAcquisitionMRTechniques
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  RT Patient Position Acquisition, MR
+Patient Position Acquisition  MR Techniques
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1485"

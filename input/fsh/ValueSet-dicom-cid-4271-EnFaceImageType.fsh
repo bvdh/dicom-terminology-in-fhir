@@ -2,7 +2,7 @@ ValueSet    : CID_4271
 Id          : dicom-cid-4271-EnFaceImageType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Retina depth encoded vasculature flow DCM  Retina depth encoded structural reflectance map DCM  Retina vasculature flow DCM  Retina structural reflectance map DCM  Vitreous vasculature flow DCM  Vitreous structural reflectance map DCM  Radial peripapillary vasculature flow DCM  Radial peripapillary structural reflectance map DCM  Superficial retina vasculature flow DCM  Superficial retina structural reflectance map DCM  Middle inner retina vasculature flow DCM  Middle inner structural reflectance map DCM  Deep retina vasculature flow DCM  Deep retina structural reflectance map DCM  Outer retina vasculature flow DCM  Outer retina structural reflectance map DCM  Choriocapillaris vasculature flow DCM  Choriocapillaris structural reflectance map DCM  Choroid vasculature flow DCM  Choroid structural reflectance map DCM  Whole eye vasculature flow DCM  Whole eye structural reflectance map DCM  Avascular complex flow DCM  Avascular complex map DCM  Superficial vascular plexus flow DCM  Superficial vascular plexus map DCM  Deep capillary plexus flow DCM  Deep capillary plexus map DCM  RNFL vascular plexus flow DCM  RNFL vascular plexus map DCM  User selected volume flow DCM  User selected volume structure map DCM  ORCC vasculature flow DCM  ORCC structural reflectance map
+En Face Image Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1151"

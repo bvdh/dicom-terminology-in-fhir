@@ -2,7 +2,7 @@ ValueSet    : CID_9266
 Id          : dicom-cid-9266-PatientPositionAcquisitionCTTechniques
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  RT Patient Position Acquisition, CT kV DCM  RT Patient Position Acquisition, Cone-Beam CT kV DCM  RT Patient Position Acquisition, Conventional CT kV DCM  RT Patient Position Acquisition, CT MV DCM  RT Patient Position Acquisition, Cone-Beam CT MV DCM  RT Patient Position Acquisition, Conventional CT MV
+Patient Position Acquisition  CT Techniques
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1465"

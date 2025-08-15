@@ -2,7 +2,7 @@ ValueSet    : CID_3419
 Id          : dicom-cid-3419-FindingTitle
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Finding DCM  Impression DCM  Recommendation
+Finding Title
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.83"

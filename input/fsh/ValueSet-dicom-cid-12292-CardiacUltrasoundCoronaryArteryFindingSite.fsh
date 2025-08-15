@@ -2,7 +2,7 @@ ValueSet    : CID_12292
 Id          : dicom-cid-12292-CardiacUltrasoundCoronaryArteryFindingSite
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Left Main Coronary Artery   SCT  Circumflex Coronary Artery   SCT  Proximal Circumflex Coronary Artery   SCT  Mid Circumflex Coronary Artery   SCT  Distal Circumflex Coronary Artery   SCT  Anterior Descending Branch of Left Coronary Artery   SCT  Septal Artery   SCT  Right Coronary Artery   SCT  Posterior Descending Coronary Artery
+Cardiac Ultrasound Coronary Artery Finding Site
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.872"

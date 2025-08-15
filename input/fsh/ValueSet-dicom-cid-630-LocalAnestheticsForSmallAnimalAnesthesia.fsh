@@ -2,7 +2,7 @@ ValueSet    : CID_630
 Id          : dicom-cid-630-LocalAnestheticsForSmallAnimalAnesthesia
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Bupivacaine   SCT  Lidocaine + Prilocaine   SCT  Lidocaine   In this Context Group, SNOMED substance codes are used in preference to product codes, since there is no need to refer to specific products or preparations. SNOMED codes are used in preference to other potential sources of pharmaceutical related codes, such as from the National Drug Code (NDC) directory. For Lidocaine + Prilocaine, since it is a mixture of two substances, the code for the product concept is used. The code for a mixture of unspecified type is used, rather than a more specific code, e.g., for the so-called "Eutectic Mixture of Local Anesthetics (EMLA)", which consists of Lidocaine + Prilocaine. UMLS contains three distinct concepts,
+In this Context Group, SNOMED substance codes are used in preference to product codes, since there is no need to refer to specific products or preparations. SNOMED codes are used in preference to other potential sources of pharmaceutical related codes, such as from the National Drug Code (NDC) directory. For Lidocaine + Prilocaine, since it is a mixture of two substances, the code for the product concept is used. The code for a mixture of unspecified type is used, rather than a more specific code, e.g., for the so-called "Eutectic Mixture of Local Anesthetics (EMLA)", which consists of Lidocaine + Prilocaine. UMLS contains three distinct concepts,
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1095"

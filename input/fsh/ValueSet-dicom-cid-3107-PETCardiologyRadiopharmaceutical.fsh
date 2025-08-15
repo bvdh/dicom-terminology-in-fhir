@@ -2,7 +2,7 @@ ValueSet    : CID_3107
 Id          : dicom-cid-3107-PETCardiologyRadiopharmaceutical
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Fluorodeoxyglucose F^18^   SCT  ^13^Nitrogen   SCT  ^82^Rubidium
+PET Cardiology Radiopharmaceutical
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.740"

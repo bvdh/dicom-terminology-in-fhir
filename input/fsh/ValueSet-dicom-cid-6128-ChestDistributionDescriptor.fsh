@@ -2,7 +2,7 @@ ValueSet    : CID_6128
 Id          : dicom-cid-6128-ChestDistributionDescriptor
 Description :
 """
-Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Bat's wing distribution   DCM  Butterfly distribution   DCM  Centrilobular   DCM  Coalescent   SCT  Diffuse   SCT  Discoid   SCT  Disseminated   SCT  Focal   SCT  Generalized   DCM  Lobar   SCT  Multifocal   SCT  Segmental   SCT  Systemic
+Original source of terms is [Fraser and Pare].
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.448"

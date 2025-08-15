@@ -2,7 +2,7 @@ ValueSet    : CID_3236
 Id          : dicom-cid-3236-ToleranceComparisonFinding
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  No change   SCT  Decreased tolerance   SCT  Increased tolerance
+Tolerance Comparison Finding
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.782"

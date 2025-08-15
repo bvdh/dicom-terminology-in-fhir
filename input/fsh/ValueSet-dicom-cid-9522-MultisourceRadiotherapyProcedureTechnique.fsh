@@ -2,7 +2,7 @@ ValueSet    : CID_9522
 Id          : dicom-cid-9522-MultisourceRadiotherapyProcedureTechnique
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Multiple Fixed Sources
+Multi-Source Radiotherapy Procedure Technique
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1232"

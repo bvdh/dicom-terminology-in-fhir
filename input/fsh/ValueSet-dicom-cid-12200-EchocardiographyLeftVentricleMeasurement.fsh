@@ -2,7 +2,7 @@ ValueSet    : CID_12200
 Id          : dicom-cid-12200-EchocardiographyLeftVentricleMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning
+Echocardiography Left Ventricle Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.593"

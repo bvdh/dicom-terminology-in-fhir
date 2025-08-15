@@ -2,7 +2,7 @@ ValueSet    : CID_9577
 Id          : dicom-cid-9577-PatientTreatmentPreparationProcedure
 Description :
 """
-SCT  Sedation   DCM  Collision Checks SCT  Vital signs monitoring   SCT  Placing restraint   DCM  Patient Shielding Procedure DCM  Patient Fixation Procedure DCM  Patient Alignment Procedure DCM  Patient Motion Management Setup Procedure
+Patient Treatment Preparation Procedure
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1424"

@@ -2,7 +2,7 @@ ValueSet    : CID_3820
 Id          : dicom-cid-3820-NoninvasiveVascularProcedure
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  vascular MRI   SCT  cardiac MRI   SCT  cardiovascular CT   SCT  CT of abdominal aorta   SCT  CT of abdominal aorta without contrast   SCT  CT arteriography of abdominal aorta with contrast   SCT  trunk angiography   SCT  peripheral angiography
+Non-invasive Vascular Procedure
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.276"

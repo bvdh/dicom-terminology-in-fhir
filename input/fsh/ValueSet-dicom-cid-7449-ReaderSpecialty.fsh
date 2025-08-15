@@ -2,7 +2,7 @@ ValueSet    : CID_7449
 Id          : dicom-cid-7449-ReaderSpecialty
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Abdominal Imaging Specialty   DCM  Cardiac Imaging Specialty   DCM  Head and Neck Imaging Specialty   DCM  Musculoskeletal Imaging Specialty   DCM  Neurology Specialty   DCM  Neuroradiology Imaging Specialty   DCM  OB/Gyn Imaging Specialty   DCM  Oncologic Imaging Specialty   DCM  Oncology Specialty   DCM  Thoracic Imaging Specialty   DCM  Pediatric Imaging Specialty   DCM  Vascular Imaging Specialty
+Reader Specialty
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1119"

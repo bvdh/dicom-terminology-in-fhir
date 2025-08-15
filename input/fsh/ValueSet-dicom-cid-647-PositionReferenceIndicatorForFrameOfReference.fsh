@@ -2,7 +2,7 @@ ValueSet    : CID_647
 Id          : dicom-cid-647-PositionReferenceIndicatorForFrameOfReference
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID FMA  Bregma   FMA  Lambda   An FMA code is used for bregma since SNOMED only contains fetal bregma.
+An FMA code is used for bregma since SNOMED only contains fetal bregma.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1112"

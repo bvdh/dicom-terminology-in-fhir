@@ -2,7 +2,7 @@ ValueSet    : CID_12230
 Id          : dicom-cid-12230-GradientMethod
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Full Bernoulli DCM  Simplified Bernoulli
+Gradient Method
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.621"

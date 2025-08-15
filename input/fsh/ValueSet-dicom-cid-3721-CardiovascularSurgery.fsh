@@ -2,7 +2,7 @@ ValueSet    : CID_3721
 Id          : dicom-cid-3721-CardiovascularSurgery
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR [2.0b] Equivalent SCT  Percutaneous coronary intervention   40 SCT  Coronary artery bypass graft   42 SCT  Operation on heart valve   44 SCT  Ablation operation for arrhythmia    SCT  Implantation of cardiac pacemaker    SCT  Implantation of automatic cardiac defibrillator    SCT  Abdominal aortic aneurysm stenting    SCT  Heart transplant    SCT  Correction of congenital cardiovascular deformity    In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
+In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.222"

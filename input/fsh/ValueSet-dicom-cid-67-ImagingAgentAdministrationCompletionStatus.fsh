@@ -2,7 +2,7 @@ ValueSet    : CID_67
 Id          : dicom-cid-67-ImagingAgentAdministrationCompletionStatus
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Complete   DCM  Terminated due to pressure above termination limit DCM  Terminated due to flow rate above termination limit DCM  Terminated due to air detected DCM  Terminated due to excessive duration pause DCM  Terminated due to request from operator DCM  Terminated due to injector communication loss DCM  Terminated due to unspecified injector failure DCM  Terminated by scanner DCM  Terminated due to critical battery level DCM  Terminated due to consumable removal
+Imaging Agent Administration Completion Status
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1257"

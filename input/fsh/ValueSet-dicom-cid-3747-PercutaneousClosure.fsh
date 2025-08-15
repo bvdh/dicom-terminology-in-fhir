@@ -2,7 +2,7 @@ ValueSet    : CID_3747
 Id          : dicom-cid-3747-PercutaneousClosure
 Description :
 """
-Coding Scheme Designator Coding Scheme Version Code Value Code Meaning NCDR 2.0b 75-0 No closure device used at percutaneous entry NCDR 2.0b 75-1 Percutaneous entry closed by suture NCDR 2.0b 75-2 Percutaneous entry closed by sealant NCDR 2.0b 75-3 Percutaneous entry closed by other mechanism
+Percutaneous Closure
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.244"

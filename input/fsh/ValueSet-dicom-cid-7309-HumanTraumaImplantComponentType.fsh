@@ -2,7 +2,7 @@ ValueSet    : CID_7309
 Id          : dicom-cid-7309-HumanTraumaImplantComponentType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Screw   SCT  Bone Plate   SCT  DHS Plate   SCT  Bone Nail
+Human Trauma Implant Component Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1040"

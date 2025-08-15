@@ -2,7 +2,7 @@ ValueSet    : CID_6093
 Id          : dicom-cid-6093-UsageExposureAmountQualitativeConcept
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Relative dose amount DCM  Relative amount of exposure DCM  Relative amount of use
+Usage/Exposure/Amount Qualitative Concept
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.415"

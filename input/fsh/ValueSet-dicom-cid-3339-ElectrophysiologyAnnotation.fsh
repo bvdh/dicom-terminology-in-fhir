@@ -2,7 +2,7 @@ ValueSet    : CID_3339
 Id          : dicom-cid-3339-ElectrophysiologyAnnotation
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Ablation off DCM  Ablation on DCM  HIS bundle wave DCM  P wave DCM  Q wave DCM  R wave DCM  S wave DCM  Start of atrial contraction DCM  Start of atrial contraction (subsequent) DCM  Stimulation at rate 1 interval DCM  Stimulation at rate 2 interval DCM  Stimulation at rate 3 interval DCM  Stimulation at rate 4 interval DCM  T wave DCM  V wave DCM  V wave of next beat
+Electrophysiology Annotation
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.64"

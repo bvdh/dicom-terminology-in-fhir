@@ -2,7 +2,7 @@ ValueSet    : CID_631
 Id          : dicom-cid-631-ProcedurePhaseRequiringAnesthesia
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID
+Procedure Phase Requiring Anesthesia
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1096"

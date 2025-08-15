@@ -2,7 +2,7 @@ ValueSet    : CID_10043
 Id          : dicom-cid-10043-IntravenousExtravasationSymptom
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Injection site abscess   SCT  Injection site anesthesia   SCT  Injection site atrophy   SCT  Injection site bruising   SCT  Injection site burning   SCT  Injection site cyst   SCT  Injection site dermatitis   SCT  Injection site disorder   SCT  Injection site edema   SCT  Injection site fibrosis   SCT  Injection site granuloma   SCT  Injection site hemorrhage   SCT  Injection site hypersensitivity   SCT  Injection site induration   SCT  Injection site infection   SCT  Injection site inflammation   SCT  Injection site irritation   SCT  Injection site malabsorption   SCT  Injection site mass   SCT  Injection site necrosis   SCT  Injection site nerve damage   SCT  Injection site pain   SCT  Injection site paresthesia   SCT  Injection site pigmentation change   SCT  Injection site scar   SCT  Injection site sterile abscess   SCT  Injection site thrombosis   SCT  Injection site ulcer   SCT  Injection site urticaria   DCM  Extravasation visible in image
+Intravenous Extravasation Symptom
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.975"

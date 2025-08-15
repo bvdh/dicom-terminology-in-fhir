@@ -2,7 +2,7 @@ ValueSet    : CID_4410
 Id          : dicom-cid-4410-TopicalTreatment
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Immunomodulator   SCT  Antifungal   SCT  Antibiotic   SCT  Steroid   SCT  Cytotoxic agent   SCT  Keratolytic agent   SCT  Hemostatic agent   SCT  Tretinoin   SCT  Ascorbic acid   SCT  Aluminum hydroxide
+Topical Treatment
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1478"

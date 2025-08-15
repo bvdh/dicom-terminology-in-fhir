@@ -2,7 +2,7 @@ ValueSet    : CID_12208
 Id          : dicom-cid-12208-EchocardiographyTricuspidValveMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID   LN  Tricuspid Valve E Wave Peak Velocity   LN  Tricuspid Valve A Wave Peak Velocity   LN  Tricuspid Valve E to A Ratio   LN  Time from Q wave to Tricuspid Valve Opens   SCT  Tricuspid Valve Closure to Opening Time   LN  Tricuspid Regurgitation dP/dt
+Echocardiography Tricuspid Valve Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.601"

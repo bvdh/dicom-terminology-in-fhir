@@ -2,7 +2,7 @@ ValueSet    : CID_3206
 Id          : dicom-cid-3206-NoninvasiveCardiacImagingProcedure
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Nuclear medicine cardiovascular study   SCT  Cardiac blood pool imaging (nuclear)   SCT  PET heart study   SCT  SPECT   SCT  Echocardiography   SCT  Cardiac MRI
+Non-invasive Cardiac Imaging Procedure
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.761"

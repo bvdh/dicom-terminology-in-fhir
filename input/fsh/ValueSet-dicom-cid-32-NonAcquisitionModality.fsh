@@ -2,7 +2,7 @@ ValueSet    : CID_32
 Id          : dicom-cid-32-NonAcquisitionModality
 Description :
 """
-This Context Group includes codes that may be used to identify the type of equipment, or function or technique of that equipment, that created the data used to create an instance, other than by means of acquisition through interaction with a patient or specimen. Many Composite SOP Instances with Modality (0008,0060) Values corresponding to Code Values from this Context Group are the result of post-processing, and are not directly associated with an orderable acquisition process.       Coding Scheme Designator Code Value Code Meaning DCM  Content Assessment Result DCM  Audio DCM  CT Protocol DCM  Document DCM  Spatial Fiducials DCM  Hard Copy DCM  Intraocular Lens Calculation DCM  Key Object Selection DCM  3D Manufacturing Modeling System DCM  Other Modality DCM  Plan DCM  Presentation State DCM  Registration DCM  RT Dose DCM  RT Plan DCM  RT Treatment Record DCM  RT Structure Set DCM  Real World Value Map DCM  Segmentation DCM  Stereometric Relationship DCM  Structured Report Document DCM  Automated Slide Stainer DCM  Texture Map
+Many Composite SOP Instances with Modality (0008,0060) Values corresponding to Code Values from this Context Group are the result of post-processing, and are not directly associated with an orderable acquisition process.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1282"

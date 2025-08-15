@@ -2,7 +2,7 @@ ValueSet    : CID_7159
 Id          : dicom-cid-7159-LesionSegmentationType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Abscess   SCT  Blood clot   SCT  Cyst   SCT  Edema   SCT  Embolus   SCT  Hemorrhage   SCT  Inflammation   SCT  Lesion   SCT  Mass   SCT  Necrosis   SCT  Neoplasm   SCT  Neoplasm, Primary   SCT  Neoplasm, Secondary   SCT  Nodule
+Lesion Segmentation Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.505"

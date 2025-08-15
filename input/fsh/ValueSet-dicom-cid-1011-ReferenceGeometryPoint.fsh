@@ -2,7 +2,7 @@ ValueSet    : CID_1011
 Id          : dicom-cid-1011-ReferenceGeometryPoint
 Description :
 """
-The items in this Context Group identify a specific point associated with a reference basis (see       Coding Scheme Designator Code Value Code Meaning DCM  Geometric Centerpoint DCM  Center of Mass
+Reference Geometry - Point
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1129"

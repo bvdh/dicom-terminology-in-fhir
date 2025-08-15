@@ -2,7 +2,7 @@ ValueSet    : CID_7014
 Id          : dicom-cid-7014-ExportAdditionalInformationDocumentTitle
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  For Teaching File Export DCM  For Clinical Trial Export DCM  For Research Collection Export DCM  For Publication Export
+Export Additional Information Document Title
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1178"

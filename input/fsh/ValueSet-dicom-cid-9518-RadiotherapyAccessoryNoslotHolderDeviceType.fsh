@@ -2,7 +2,7 @@ ValueSet    : CID_9518
 Id          : dicom-cid-9518-RadiotherapyAccessoryNoslotHolderDeviceType
 Description :
 """
-Codes for Radiotherapy devices holding other accessories without using slots.       Coding Scheme Designator Code Value Code Meaning DCM  Accessory Tray
+Radiotherapy Accessory No-Slot Holder Device Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1228"

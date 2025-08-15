@@ -2,7 +2,7 @@ ValueSet    : CID_3011
 Id          : dicom-cid-3011-ElectrophysiologyAnatomicLocation
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Accessory atrioventricular bundle   SCT  Apex of left ventricle   SCT  Apex of right ventricle   SCT  Atrioventricular bundle   SCT  Atrioventricular node   SCT  Common ventricle   SCT  Coronary sinus   SCT  Epicardium   SCT  Great cardiac vein   SCT  High right atrium   SCT  Inferior left pulmonary vein   SCT  Inferior right pulmonary vein   SCT  Lateral high right atrium   SCT  Left anterior division of left branch atrioventricular bundle   SCT  Left Atrium   SCT  Left auricular appendage   SCT  Left branch of atrioventricular bundle   SCT  Left posterior division of left branch atrioventricular bundle   SCT  Left ventricle   SCT  Left ventricle inflow   SCT  Left ventricle outflow tract   SCT  Low right atrium   SCT  Mid right atrium   SCT  Middle cardiac vein   SCT  Mitral ring   SCT  Ostium of coronary sinus   SCT  Pulmonary vein   SCT  Pulmonic ring   SCT  Purkinje fibers   SCT  Right atrioventricular ostium   SCT  Right Atrium   SCT  Right auricular appendage   SCT  Right branch of Atrioventricular bundle   SCT  Right ventricle   SCT  Right ventricle inflow   SCT  Right ventricle outflow tract   SCT  Sino-atrial node   SCT  Superior left pulmonary vein   SCT  Superior right pulmonary vein   SCT  Tendon of Todaro   SCT  Tricuspid ring   In a prior version of this Context Group the code
+In a prior version of this Context Group the code
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.46"

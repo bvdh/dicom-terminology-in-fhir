@@ -2,7 +2,7 @@ ValueSet    : CID_612
 Id          : dicom-cid-612-AnesthesiaCategoryCodeTypeFromAnesthesiaQualityIni
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  General anesthesia   SCT  Sedation   SCT  Spinal anesthesia   SCT  Epidural anesthesia   SCT  Regional anesthesia   SCT  Topical local anesthesia   SCT  Local anesthesia   SCT  Monitored Anesthesia Care (MAC)   This Context Group contains SNOMED procedure code equivalents of enumerated string concepts for the
+This Context Group contains SNOMED procedure code equivalents of enumerated string concepts for the
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1077"

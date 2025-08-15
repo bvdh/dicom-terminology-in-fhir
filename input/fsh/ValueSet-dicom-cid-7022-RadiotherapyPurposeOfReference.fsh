@@ -2,7 +2,7 @@ ValueSet    : CID_7022
 Id          : dicom-cid-7022-RadiotherapyPurposeOfReference
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  RT treatment plan for the position being verified   DCM  Registration used in Planning   DCM  Registration created during Treatment   DCM  Dose from prior Treatment
+Radiotherapy Purpose of Reference
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1115"

@@ -2,7 +2,7 @@ ValueSet    : CID_12235
 Id          : dicom-cid-12235-MitralValveAnatomicSite
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Medial Mitral Annulus   SCT  Lateral Mitral Annulus   SCT  Mitral Annulus
+Mitral Valve Anatomic Site
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.626"

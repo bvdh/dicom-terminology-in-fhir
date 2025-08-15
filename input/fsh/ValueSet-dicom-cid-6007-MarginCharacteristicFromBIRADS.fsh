@@ -2,7 +2,7 @@ ValueSet    : CID_6007
 Id          : dicom-cid-6007-MarginCharacteristicFromBIRADS
 Description :
 """
-From BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Circumscribed lesion   SCT  Microlobulated lesion   SCT  Obscured lesion   SCT  Indistinct lesion   SCT  Spiculated lesion   DCM  Angular margins
+From BI-RADS
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.337"

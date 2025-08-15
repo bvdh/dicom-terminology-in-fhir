@@ -2,7 +2,7 @@ ValueSet    : CID_625
 Id          : dicom-cid-625-InjectableAnesthesiaAgentForSmallAnimalAnesthesia
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Alphachloralose   SCT  Alphadolone   UMLS  Alphaxalone   SCT  Azaperone   SCT  Butabarbital   SCT  Chloral hydrate   SCT  Diazepam   SCT  Droperidol   SCT  Etomidate   UMLS  Fluanisone   SCT  Ketamine   SCT  Methohexital   UMLS  Metomidate   SCT  Midazolam   SCT  Pentobarbital   SCT  Propofol   SCT  Thiamylal   SCT  Thiopental   SCT  Tiletamine   SCT  Tribromoethanol   SCT  Urethane (ethyl carbamate)   SCT  Xylazine   SCT  Zolazepam   In this Context Group, SNOMED substance codes are used in preference to product codes, since there is no need to refer to specific products or preparations. SNOMED codes are used in preference to other potential sources of pharmaceutical related codes, such as from the National Drug Code (NDC) directory.
+In this Context Group, SNOMED substance codes are used in preference to product codes, since there is no need to refer to specific products or preparations. SNOMED codes are used in preference to other potential sources of pharmaceutical related codes, such as from the National Drug Code (NDC) directory.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1090"

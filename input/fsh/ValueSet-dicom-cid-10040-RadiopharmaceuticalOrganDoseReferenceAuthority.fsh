@@ -2,7 +2,7 @@ ValueSet    : CID_10040
 Id          : dicom-cid-10040-RadiopharmaceuticalOrganDoseReferenceAuthority
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  MIRD Pamphlet 1 DCM  ICRP Publication 53 DCM  MIRDOSE DCM  OLINDA-EXM DCM  Package Insert DCM  Institutionally Approved Estimates DCM  Investigational New Drug DCM  ICRP Publication 80 DCM  ICRP Publication 106
+Radiopharmaceutical Organ Dose Reference Authority
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.972"

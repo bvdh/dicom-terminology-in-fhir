@@ -2,7 +2,7 @@ ValueSet    : CID_3772
 Id          : dicom-cid-3772-HealthStatus
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Alive   SCT  Alive and well   SCT  In remission   SCT  Symptom free   SCT  Chronically ill   SCT  Severely ill   SCT  Disabled   SCT  Severely disabled   SCT  Deceased   SCT  Lost to follow-up
+Health Status
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.260"

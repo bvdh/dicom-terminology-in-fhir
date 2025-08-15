@@ -2,7 +2,7 @@ ValueSet    : CID_7157
 Id          : dicom-cid-7157-DeviceSegmentationType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID   SCT  Bone Pin   SCT  Bone Screw   SCT  Cardiac Pacemaker   SCT  Defibrillator   SCT  Dental Prosthesis   SCT  Inlay Dental Restoration   SCT  Left ventricular assist device   SCT  Needle   SCT  Radioactive implant   SCT  Stent   DCM  Physical Compensator
+Device Segmentation Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.503"

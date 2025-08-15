@@ -2,7 +2,7 @@ ValueSet    : CID_7710
 Id          : dicom-cid-7710-TractographyAnatomicSite
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID        SCT  Cerebellar white matter   SCT  Cerebral white matter   SCT  Spinal cord white matter   SCT  White matter of brain and spinal cord   DCM  Perilesional White Matter   SCT  Peripheral nerve   SCT  Skeletal muscle   SCT  Cardiac muscle   SCT  Phantom
+Tractography Anatomic Site
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1020"

@@ -2,7 +2,7 @@ ValueSet    : CID_6009
 Id          : dicom-cid-6009-DensityModifierFromBIRADS
 Description :
 """
-From BI-RADS Third Edition (National Mammography Database, E82)       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  High density lesion   SCT  Equal density (isodense) lesion   SCT  Low density (not containing fat) lesion   SCT  Fat containing (radiolucent) lesion
+From BI-RADS Third Edition (National Mammography Database, E82)
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.339"

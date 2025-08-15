@@ -2,7 +2,7 @@ ValueSet    : CID_63
 Id          : dicom-cid-63-ImagingAgentAdministrationMode
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Automated Administration DCM  Manual Administration
+Imaging Agent Administration Mode
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1253"

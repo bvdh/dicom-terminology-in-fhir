@@ -2,7 +2,7 @@ ValueSet    : CID_6087
 Id          : dicom-cid-6087-GeneralRiskFactor
 Description :
 """
-This Context Group collects risk factor terms from specialized risk factor Context Groups into one aggregate list for general purpose use.       Coding Scheme Designator Code Value Code Meaning
+General Risk Factor
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.409"

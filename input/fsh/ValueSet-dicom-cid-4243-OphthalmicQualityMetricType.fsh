@@ -2,7 +2,7 @@ ValueSet    : CID_4243
 Id          : dicom-cid-4243-OphthalmicQualityMetricType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Standard Deviation of measurements used DCM  Signal to Noise Ratio
+Ophthalmic Quality Metric Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.889"

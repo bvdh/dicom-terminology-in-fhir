@@ -2,7 +2,7 @@ ValueSet    : CID_6158
 Id          : dicom-cid-6158-CorrelationToOtherFinding
 Description :
 """
-From BI-RADS       Coding Scheme Designator Code Value Code Meaning DCM  Correlates to physical examination findings DCM  Correlates to mammography findings DCM  Correlates to MRI findings DCM  Correlates to ultrasound findings DCM  Correlates to other imaging findings DCM  No correlation to other imaging findings DCM  No correlation to clinical findings
+From BI-RADS
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.472"

@@ -2,7 +2,7 @@ ValueSet    : CID_3446
 Id          : dicom-cid-3446-SkinCondition
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  skin condition Warm DCM  skin condition Cool DCM  skin condition Cold DCM  skin condition Dry DCM  skin condition Clammy DCM  skin condition Diaphoretic DCM  skin condition Flush DCM  skin condition Mottled DCM  skin condition Pale
+Skin Condition
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.96"

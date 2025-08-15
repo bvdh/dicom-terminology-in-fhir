@@ -2,7 +2,7 @@ ValueSet    : CID_3611
 Id          : dicom-cid-3611-PressureMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  A wave peak pressure   DCM  C wave pressure   LN  Intravascular diastolic blood pressure   SCT  Average diastolic blood pressure   SCT  Minimum diastolic blood pressure   DCM  Ventricular End Diastolic pressure   DCM  Gradient pressure, average   DCM  Gradient pressure, peak   SCT  Mean blood pressure   DCM  Pressure at dp/dt max   LN  Intravascular Systolic Blood pressure   SCT  Average systolic blood pressure   SCT  Maximum systolic blood pressure   DCM  V wave peak pressure   DCM  x-descent pressure   DCM  y-descent pressure   DCM  z-point pressure
+Pressure Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.161"

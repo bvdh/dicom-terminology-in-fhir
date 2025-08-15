@@ -2,7 +2,7 @@ ValueSet    : CID_10067
 Id          : dicom-cid-10067-RadiationAttenuatorMaterial
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  Carbon Fiber   UMLS  Kevlar Aramid Fiber   SCT  Beryllium
+Radiation Attenuator Material
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1161"

@@ -2,7 +2,7 @@ ValueSet    : CID_9302
 Id          : dicom-cid-9302-MediaImportPPSDiscontinuationReason
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Objects incorrectly formatted DCM  Object Types not supported DCM  Object Set incomplete DCM  Media Failure DCM  Equipment failure DCM  Duplicate order DCM  Discontinued for unspecified reason DCM  Incorrect worklist entry selected
+Media Import PPS Discontinuation Reason
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.813"

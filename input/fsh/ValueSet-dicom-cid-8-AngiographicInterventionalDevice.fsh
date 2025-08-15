@@ -2,7 +2,7 @@ ValueSet    : CID_8
 Id          : dicom-cid-8-AngiographicInterventionalDevice
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Stent   SCT  Catheter   SCT  Laser   SCT  Glue   SCT  Atherectomy device   SCT  Embolization ball   SCT  Percutaneous transluminal angioplasty balloon   SCT  Embolization coil   SCT  Gianturco coil   SCT  Detachable balloon   SCT  Guiding catheter   SCT  Embolization particulate   SCT  Rotational atherectomy device   SCT  Measuring ruler   DCM  Sphere
+Angiographic Interventional Device
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.6"

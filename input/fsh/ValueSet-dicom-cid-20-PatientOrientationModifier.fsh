@@ -2,7 +2,7 @@ ValueSet    : CID_20
 Id          : dicom-cid-20-PatientOrientationModifier
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  prone   SCT  semi-prone   SCT  lateral decubitus   SCT  standing   SCT  anatomical   SCT  kneeling   SCT  knee-chest   SCT  supine   SCT  lithotomy   SCT  Trendelenburg   SCT  inverse Trendelenburg   SCT  frog   SCT  stooped-over   SCT  sitting   SCT  curled-up   SCT  right lateral decubitus   SCT  left lateral decubitus   SCT  lordotic
+Patient Orientation Modifier
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.14"

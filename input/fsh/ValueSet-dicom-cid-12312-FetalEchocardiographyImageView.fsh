@@ -2,7 +2,7 @@ ValueSet    : CID_12312
 Id          : dicom-cid-12312-FetalEchocardiographyImageView
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Short axis   SCT  Vertical Long Axis   SCT  Horizontal Long Axis   DCM  Four chamber view   DCM  Aortic arch view   DCM  Oblique short axis view at ductus arteriosus   DCM  Short axis view at pulmonary artery level   DCM  Three vessel view   DCM  Three vessel and trachea view   DCM  Left ventricular outflow tract view   SCT  Right Ventricular Outflow Tract View
+Fetal Echocardiography Image View
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1498"

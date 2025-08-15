@@ -2,7 +2,7 @@ ValueSet    : CID_4234
 Id          : dicom-cid-4234-RefractiveSurgeryType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  RK   SCT  PRK   SCT  LASIK   SCT  LASEK   DCM  SMILE
+Refractive Surgery Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.880"

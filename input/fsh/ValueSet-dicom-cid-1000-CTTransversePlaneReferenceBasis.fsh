@@ -2,7 +2,7 @@ ValueSet    : CID_1000
 Id          : dicom-cid-1000-CTTransversePlaneReferenceBasis
 Description :
 """
-The items in this Context Group provide the basis for defining transverse planes associated with the limits of CT acquisitions and reconstructions. It includes body structures, morphologic abnormalities and physical objects that may be the subject or serve as points of reference for imaging.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  Morphologically Abnormal Structure   SCT  Orthopedic device   SCT  Cardiac pacemaker   SCT  Implant, device   SCT  Stent, device   DCM  Acquired Volume
+CT Transverse Plane Reference Basis
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1121"

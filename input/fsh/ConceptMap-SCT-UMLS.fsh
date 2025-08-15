@@ -1742,7 +1742,7 @@ Usage: #definition
 
 * group.element[+].code = #7140000
 * group.element[=].display = "Contrast agent"
-* group.element[=].target.code = #C0009924
+* group.element[=].target.code = #C2930749
 * group.element[=].target.display = "Contrast agent"
 * group.element[=].target.relationship = #equivalent
 
@@ -2060,7 +2060,7 @@ Usage: #definition
 
 * group.element[+].code = #71633006
 * group.element[=].display = "Sodium Na^22^"
-* group.element[=].target.code = #C1268566
+* group.element[=].target.code = #C0303511
 * group.element[=].target.display = "Sodium Na^22^"
 * group.element[=].target.relationship = #equivalent
 
@@ -3080,7 +3080,7 @@ Usage: #definition
 
 * group.element[+].code = #424118002
 * group.element[=].display = "Tc-99m tetrofosmin"
-* group.element[=].target.code = #C0211492
+* group.element[=].target.code = #C1828125
 * group.element[=].target.display = "Tc-99m tetrofosmin"
 * group.element[=].target.relationship = #equivalent
 
@@ -5786,7 +5786,7 @@ Usage: #definition
 
 * group.element[+].code = #39937001
 * group.element[=].display = "Skin"
-* group.element[=].target.code = #C1123023
+* group.element[=].target.code = #C0221911
 * group.element[=].target.display = "Skin"
 * group.element[=].target.relationship = #equivalent
 
@@ -5816,7 +5816,7 @@ Usage: #definition
 
 * group.element[+].code = #24725-4
 * group.element[=].display = "24725-4"
-* group.element[=].target.code = #C0881943
+* group.element[=].target.code = #C0202691
 * group.element[=].target.display = "24725-4"
 * group.element[=].target.relationship = #equivalent
 
@@ -5870,7 +5870,7 @@ Usage: #definition
 
 * group.element[+].code = #49755003
 * group.element[=].display = "Morphologically Abnormal Structure"
-* group.element[=].target.code = #C0221198
+* group.element[=].target.code = #C0332447
 * group.element[=].target.display = "Morphologically Abnormal Structure"
 * group.element[=].target.relationship = #equivalent
 
@@ -7064,7 +7064,7 @@ Usage: #definition
 
 * group.element[+].code = #128586007
 * group.element[=].display = "Pulmonary chamber in cor triatriatum"
-* group.element[=].target.code = #C0225841
+* group.element[=].target.code = #C1267246
 * group.element[=].target.display = "Pulmonary chamber in cor triatriatum"
 * group.element[=].target.relationship = #equivalent
 
@@ -7910,7 +7910,7 @@ Usage: #definition
 
 * group.element[+].code = #275514001
 * group.element[=].display = "Impaired left ventricular function"
-* group.element[=].target.code = #C1277291
+* group.element[=].target.code = #C0553982
 * group.element[=].target.display = "Impaired left ventricular function"
 * group.element[=].target.relationship = #equivalent
 
@@ -10754,7 +10754,7 @@ Usage: #definition
 
 * group.element[+].code = #45227007
 * group.element[=].display = "Hypertrophic cardiomyopathy with obstruction"
-* group.element[=].target.code = #C0007194
+* group.element[=].target.code = #C4551472
 * group.element[=].target.display = "Hypertrophic cardiomyopathy with obstruction"
 * group.element[=].target.relationship = #equivalent
 
@@ -12308,7 +12308,7 @@ Usage: #definition
 
 * group.element[+].code = #18115005
 * group.element[=].display = "Pathologic calcification"
-* group.element[=].target.code = #C2242558
+* group.element[=].target.code = #C0006663
 * group.element[=].target.display = "Pathologic calcification"
 * group.element[=].target.relationship = #equivalent
 
@@ -13874,7 +13874,7 @@ Usage: #definition
 
 * group.element[+].code = #661005
 * group.element[=].display = "Jaw Region"
-* group.element[=].target.code = #C0022359
+* group.element[=].target.code = #C3887617
 * group.element[=].target.display = "Jaw Region"
 * group.element[=].target.relationship = #equivalent
 
@@ -14726,7 +14726,7 @@ Usage: #definition
 
 * group.element[+].code = #371398005
 * group.element[=].display = "Eye region"
-* group.element[=].target.code = #C0700042
+* group.element[=].target.code = #C0015392
 * group.element[=].target.display = "Eye region"
 * group.element[=].target.relationship = #equivalent
 
@@ -15038,7 +15038,7 @@ Usage: #definition
 
 * group.element[+].code = #5665001
 * group.element[=].display = "Retina"
-* group.element[=].target.code = #C0035298
+* group.element[=].target.code = #C0024622
 * group.element[=].target.display = "Retina"
 * group.element[=].target.relationship = #equivalent
 
@@ -17240,7 +17240,7 @@ Usage: #definition
 
 * group.element[+].code = #65431007
 * group.element[=].display = "Corneal endothelium"
-* group.element[=].target.code = #C0014259
+* group.element[=].target.code = #C0014258
 * group.element[=].target.display = "Corneal endothelium"
 * group.element[=].target.relationship = #equivalent
 
@@ -17708,7 +17708,7 @@ Usage: #definition
 
 * group.element[+].code = #247441003
 * group.element[=].display = "Erythema"
-* group.element[=].target.code = #C0041834
+* group.element[=].target.code = #C4552417
 * group.element[=].target.display = "Erythema"
 * group.element[=].target.relationship = #equivalent
 
@@ -20144,7 +20144,7 @@ Usage: #definition
 
 * group.element[+].code = #71616004
 * group.element[=].display = "Muscle"
-* group.element[=].target.code = #C0026845
+* group.element[=].target.code = #C1305763
 * group.element[=].target.display = "Muscle"
 * group.element[=].target.relationship = #equivalent
 
@@ -21530,7 +21530,7 @@ Usage: #definition
 
 * group.element[+].code = #717027004
 * group.element[=].display = "Male external urethral sphincter"
-* group.element[=].target.code = #C4274093
+* group.element[=].target.code = #C0815353
 * group.element[=].target.display = "Male external urethral sphincter"
 * group.element[=].target.relationship = #equivalent
 

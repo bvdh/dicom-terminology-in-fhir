@@ -2,7 +2,7 @@ ValueSet    : CID_3469
 Id          : dicom-cid-3469-ESVolume
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Left Ventricular ES Volume  LN  Right Ventricular ES Volume  DCM  Left Atrial ES Volume
+ES Volume
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.111"

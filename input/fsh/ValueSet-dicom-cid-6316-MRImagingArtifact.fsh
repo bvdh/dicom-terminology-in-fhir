@@ -2,7 +2,7 @@ ValueSet    : CID_6316
 Id          : dicom-cid-6316-MRImagingArtifact
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID RADLEX  Motion related artifact   RADLEX  Phase wraparound artifact   RADLEX  Smearing   RADLEX  Ghost   RADLEX  Tissue magnetic susceptibility effect   RADLEX  Ferromagnetic implant magnetic susceptibility effect   RADLEX  Non-uniform signal intensity artifact   RADLEX  Parallel imaging artifact   RADLEX  Chemical shift artifact
+MR Imaging Artifact
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1373"

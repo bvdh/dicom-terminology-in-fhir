@@ -2,7 +2,7 @@ ValueSet    : CID_9535
 Id          : dicom-cid-9535-RadiotherapyDoseCalculationRole
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Planning Organ At Risk Volume DCM  Avoidance Volume DCM  Organ At Risk DCM  Radiation Dose Shaping Volume DCM  Conformality Shell DCM  Dose Calculation Bounding Volume DCM  Radiation Interaction Volume
+Radiotherapy Dose Calculation Role
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1245"

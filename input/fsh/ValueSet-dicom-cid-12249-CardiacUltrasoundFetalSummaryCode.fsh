@@ -2,7 +2,7 @@ ValueSet    : CID_12249
 Id          : dicom-cid-12249-CardiacUltrasoundFetalSummaryCode
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  Edema of fetal scalp   SCT  Edema of fetal chest wall
+Cardiac Ultrasound Fetal Summary Code
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.830"

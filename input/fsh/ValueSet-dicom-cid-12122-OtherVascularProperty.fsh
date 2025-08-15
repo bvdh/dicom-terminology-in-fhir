@@ -2,7 +2,7 @@ ValueSet    : CID_12122
 Id          : dicom-cid-12122-OtherVascularProperty
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  Acceleration Time   LN  Deceleration Time   SCT  Vessel lumen diameter   SCT  Vessel Intimal Diameter   SCT  Vessel Intimal Cross-Sectional Diameter   SCT  Vessel outside diameter   SCT  Vessel lumen cross-sectional area   LN  Volume flow   SCT  Vessel depth from surface   LN  Peak Gradient   LN  Mean Gradient   SCT  Length of Segment
+Other Vascular Property
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.588"

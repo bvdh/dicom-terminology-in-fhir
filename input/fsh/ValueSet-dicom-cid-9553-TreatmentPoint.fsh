@@ -2,7 +2,7 @@ ValueSet    : CID_9553
 Id          : dicom-cid-9553-TreatmentPoint
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Isocentric Treatment Location Point
+Treatment Point
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1300"

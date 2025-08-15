@@ -2,7 +2,7 @@ ValueSet    : CID_7181
 Id          : dicom-cid-7181-AbstractMultiDimensionalImageModelComponentUnit
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning          UCUM 1 no units UCUM {ratio} ratio UCUM [hnsf'U] Hounsfield Unit UCUM {counts} Counts UCUM {counts}/s Counts per second UCUM [arb'U] arbitrary unit UCUM ppm ppm UCUM cm/s centimeter/second UCUM mm/s millimeter/second UCUM dB decibel UCUM Cel degrees Celsius UCUM ml/min milliliter per minute UCUM ml/s milliliter per second UCUM ms millisecond UCUM s second UCUM Hz Hertz UCUM mT milliTesla UCUM {Particles}/[100]g{Tissue} number particles per 100 gram of tissue UCUM s/mm2 second per square millimeter UCUM ml/[100]g/min milliliter per 100 gram per minute UCUM ml/[100]ml milliliter per 100 milliliter UCUM mmol/kg{WetWeight} millimoles per kg wet weight UCUM /min /min UCUM /s /s
+Abstract Multi-dimensional Image Model Component Unit
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.918"

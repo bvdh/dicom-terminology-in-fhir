@@ -2,7 +2,7 @@ ValueSet    : CID_3609
 Id          : dicom-cid-3609-VentricularSourceLocation
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Common ventricle   SCT  Left ventricle   SCT  Left ventricle apex   SCT  Left ventricle inflow   SCT  Left ventricle outflow tract   SCT  Right ventricle   SCT  Right ventricle apex   SCT  Right ventricle inflow   SCT  Right ventricle outflow tract
+Ventricular Source Location
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.159"

@@ -2,7 +2,7 @@ ValueSet    : CID_3115
 Id          : dicom-cid-3115-StressImagingQualityIssue
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Motion blur   DCM  Body habitus attenuation   DCM  Breast attenuation   DCM  Diaphragmatic attenuation   SCT  Subdiaphragmatic uptake
+Stress Imaging Quality Issue
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.747"

@@ -2,7 +2,7 @@ ValueSet    : CID_12283
 Id          : dicom-cid-12283-CardiacUltrasoundVenousReturnPulmonaryFindingSit
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Pulmonary Vein   SCT  Pulmonary Vein Great Vessel   SCT  Cor Triatriatum Orifice   SCT  Pulmonary Vein to Atrium Connection   SCT  Mustard or Senning Pulmonary Venous Pathway
+Cardiac Ultrasound Venous Return Pulmonary Finding Site
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.863"

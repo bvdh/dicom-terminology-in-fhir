@@ -2,7 +2,7 @@ ValueSet    : CID_12270
 Id          : dicom-cid-12270-CardiacUltrasoundAorticValveMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID        LN  Aortic Valve Cusp Separation
+Cardiac Ultrasound Aortic Valve Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.851"

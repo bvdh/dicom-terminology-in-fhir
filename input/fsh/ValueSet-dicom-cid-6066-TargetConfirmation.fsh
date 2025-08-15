@@ -2,7 +2,7 @@ ValueSet    : CID_6066
 Id          : dicom-cid-6066-TargetConfirmation
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Target completely contained in the specimen DCM  Target partially obtained in the specimen DCM  Target not in the specimen DCM  Calcifications seen in the core DCM  Lesion completely removed DCM  Lesion partially removed DCM  Fluid obtained
+Target Confirmation
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.395"

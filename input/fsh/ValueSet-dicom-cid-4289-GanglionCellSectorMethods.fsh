@@ -2,7 +2,7 @@ ValueSet    : CID_4289
 Id          : dicom-cid-4289-GanglionCellSectorMethods
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Semicircular sectors DCM  Quadrant sectors DCM  SNIT rectangular sectors DCM  Elliptical annulus sectors DCM  Posterior pole 8x8 grid
+Ganglion Cell Sector Methods
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1542"

@@ -2,7 +2,7 @@ ValueSet    : CID_610
 Id          : dicom-cid-610-WaterType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Tap water   SCT  Distilled water   DCM  Reverse osmosis purified water   DCM  Reverse osmosis purified, HCl acidified water
+Water Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1075"

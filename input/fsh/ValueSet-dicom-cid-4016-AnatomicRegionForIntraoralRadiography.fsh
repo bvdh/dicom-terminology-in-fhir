@@ -2,7 +2,7 @@ ValueSet    : CID_4016
 Id          : dicom-cid-4016-AnatomicRegionForIntraoralRadiography
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNODENT Code SNOMED-RT ID UMLS Concept Unique ID SCT  Jaw region 100108D   SCT  Maxilla 108042D   SCT  Mandible 144511D   SCT  Teeth, gums and supporting structures 124191D   In a prior version of this table, the code T-D1217 was specified for the concept "Maxilla and mandible". The use of this code conflicts with its assignment to another concept in SNOMED, and its use in this context is deprecated. Although there is minimal possibility of misinterpretation with SOP Instances that may include the deprecated use, receiving applications should be aware of this change; see
+In a prior version of this table, the code T-D1217 was specified for the concept "Maxilla and mandible". The use of this code conflicts with its assignment to another concept in SNOMED, and its use in this context is deprecated. Although there is minimal possibility of misinterpretation with SOP Instances that may include the deprecated use, receiving applications should be aware of this change; see
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.300"

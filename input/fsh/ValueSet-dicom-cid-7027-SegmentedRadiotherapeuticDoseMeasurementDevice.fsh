@@ -2,7 +2,7 @@ ValueSet    : CID_7027
 Id          : dicom-cid-7027-SegmentedRadiotherapeuticDoseMeasurementDevice
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Diode Array   DCM  Ion Chamber Array   SCT  Thermoluminescent radiation dosimeter   DCM  Diode   DCM  Liquid Ion Chamber   SCT  MOSFET radiation therapy dosimetry system dosimeter   DCM  OSLD   DCM  Ion Chamber   SCT  Digital imager   DCM  Diamond Detector   DCM  RPLGD
+Segmented Radiotherapeutic Dose Measurement Device
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1276"

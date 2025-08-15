@@ -2,7 +2,7 @@ ValueSet    : CID_6090
 Id          : dicom-cid-6090-RelativeUsageExposureAmount
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  High DCM  Medium DCM  Low DCM  No known exposure
+Relative Usage/Exposure Amount
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.412"

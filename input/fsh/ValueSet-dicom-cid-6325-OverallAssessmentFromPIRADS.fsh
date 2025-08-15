@@ -2,7 +2,7 @@ ValueSet    : CID_6325
 Id          : dicom-cid-6325-OverallAssessmentFromPIRADS
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID RADLEX  PI-RADS 1 - Very low   RADLEX  PI-RADS 2 - Low   RADLEX  PI-RADS 3 - Intermediate   RADLEX  PI-RADS 4 - High   RADLEX  PI-RADS 5 - Very high   RADLEX  PI-RADS X - Inadequate or absent
+Overall Assessment from PI-RADS
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1382"

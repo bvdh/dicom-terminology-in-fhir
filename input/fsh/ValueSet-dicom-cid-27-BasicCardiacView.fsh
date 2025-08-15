@@ -2,7 +2,7 @@ ValueSet    : CID_27
 Id          : dicom-cid-27-BasicCardiacView
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Short Axis   SCT  Vertical Long Axis   SCT  Horizontal Long Axis
+Basic Cardiac View
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.957"

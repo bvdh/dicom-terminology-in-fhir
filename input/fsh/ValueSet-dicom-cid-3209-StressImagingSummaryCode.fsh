@@ -2,7 +2,7 @@ ValueSet    : CID_3209
 Id          : dicom-cid-3209-StressImagingSummaryCode
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Imaging result normal   SCT  Imaging result abnormal   SCT  Imaging result equivocal   SCT  Not performed
+Stress Imaging Summary Code
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.764"

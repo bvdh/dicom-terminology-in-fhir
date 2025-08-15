@@ -2,7 +2,7 @@ ValueSet    : CID_4251
 Id          : dicom-cid-4251-VisualFieldStaticPerimetryTestStrategy
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Visual Field SITA-Standard Test Strategy DCM  Visual Field SITA-SWAP Test Strategy DCM  Visual Field SITA-Fast Test Strategy DCM  Visual Field Full Threshold Test Strategy DCM  Visual Field FastPac Test Strategy DCM  Visual Field Full From Prior Test Strategy DCM  Visual Field Optima Test Strategy DCM  Visual Field Two-Zone Test Strategy DCM  Visual Field Three-Zone Test Strategy DCM  Visual Field Quantify-Defects Test Strategy DCM  Visual Field TOP Test Strategy DCM  Visual Field Dynamic Test Strategy DCM  Visual Field Normal Test Strategy DCM  Visual Field 1-LT Test Strategy DCM  Visual Field 2-LT Test Strategy DCM  Visual Field LVS Test Strategy DCM  Visual Field GATE Test Strategy DCM  Visual Field GATEi Test Strategy DCM  Visual Field 2LT-Dynamic Test Strategy DCM  Visual Field 2LT-Normal Test Strategy DCM  Visual Field Fast Threshold Test Strategy DCM  Visual Field CLIP Test Strategy DCM  Visual Field CLASS Strategy
+Visual Field Static Perimetry Test Strategy
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.910"

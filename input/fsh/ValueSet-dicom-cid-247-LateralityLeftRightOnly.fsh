@@ -2,7 +2,7 @@ ValueSet    : CID_247
 Id          : dicom-cid-247-LateralityLeftRightOnly
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Right   SCT  Left
+Laterality Left-Right Only
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1284"

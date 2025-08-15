@@ -2,7 +2,7 @@ ValueSet    : CID_12254
 Id          : dicom-cid-12254-CardiacUltrasoundHemodynamicMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  R-R interval   DCM  Tau   DCM  Indicator mean transit time   LN  Closure to Opening Time   LN  Isovolumic Relaxation Time   LN  Isovolumic Contraction Time   LN  Ejection Time   LN  Pre-Ejection Period   LN  Filling Time   SCT  Blood Pressure   LN  Heart Rate-Corrected Ejection Time   LN  Heart Rate-Corrected Pre-Ejection Period   LN  A-Wave Duration   LN  Pre-Ejection Period/Ejection Time Ratio   LN  Envelope Duration   LN  Time to Peak by US   LN  dP/dt by US
+Cardiac Ultrasound Hemodynamic Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.835"

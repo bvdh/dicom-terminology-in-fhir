@@ -2,7 +2,7 @@ ValueSet    : CID_6300
 Id          : dicom-cid-6300-ProstateAnatomy
 Description :
 """
-In future extensions, Prostate Anatomy terms that are not derived from PI-RADS should be added to this Context Group.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID    SCT  Prostate   SCT  Seminal Vesicle   SCT  Peripheral zone of the prostate   SCT  Transition zone of the prostate   SCT  Anterior fibromuscular stroma of prostate   SCT  Prostatic Urethra
+In future extensions, Prostate Anatomy terms that are not derived from PI-RADS should be added to this Context Group.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1138"

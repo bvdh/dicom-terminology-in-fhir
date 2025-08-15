@@ -2,7 +2,7 @@ ValueSet    : CID_12321
 Id          : dicom-cid-12321-ElastographySite
 Description :
 """
-This Context Group contains codes to identify the organ/tissue that is the subject of the elastography study. Codes for specific elastography measurement locations, such as a specific segment within the liver, are contained in       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Achilles Tendon   SCT  Breast   SCT  Kidney   SCT  Liver   SCT  Prostate   SCT  Pancreas   SCT  Patellar Tendon   SCT  Spleen   SCT  Tendon of Rotator Cuff of Shoulder   SCT  Testis   SCT  Thyroid
+Elastography Site
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1448"

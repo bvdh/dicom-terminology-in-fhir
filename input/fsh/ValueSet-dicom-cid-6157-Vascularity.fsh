@@ -2,7 +2,7 @@ ValueSet    : CID_6157
 Id          : dicom-cid-6157-Vascularity
 Description :
 """
-From BI-RADS       Coding Scheme Designator Code Value Code Meaning DCM  Vascularity not present DCM  Vascularity not assessed DCM  Vascularity present in lesion DCM  Vascularity present immediately adjacent to lesion DCM  Diffusely increased vascularity in surrounding tissue
+From BI-RADS
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.471"

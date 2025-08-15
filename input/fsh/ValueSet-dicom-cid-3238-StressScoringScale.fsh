@@ -2,7 +2,7 @@ ValueSet    : CID_3238
 Id          : dicom-cid-3238-StressScoringScale
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Duke treadmill score   DCM  Ratio of achieved to predicted maximal oxygen consumption   DCM  Ratio of achieved to predicted functional capacity   DCM  Aerobic index   DCM  ST/HR Index
+Stress Scoring Scale
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.784"

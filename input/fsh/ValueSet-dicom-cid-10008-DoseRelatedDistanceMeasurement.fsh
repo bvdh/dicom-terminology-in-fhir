@@ -2,7 +2,7 @@ ValueSet    : CID_10008
 Id          : dicom-cid-10008-DoseRelatedDistanceMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Distance Source to Isocenter DCM  Distance Source to Reference Point DCM  Distance Source to Detector DCM  Table Longitudinal Position DCM  Table Lateral Position DCM  Table Height Position DCM  Distance Source to Table Plane DCM  Table Longitudinal End Position DCM  Table Lateral End Position DCM  Table Height End Position DCM  Table X Position to Isocenter DCM  Table Y Position to Isocenter DCM  Table Z Position to Isocenter DCM  Table X End Position to Isocenter DCM  Table Y End Position to Isocenter DCM  Table Z End Position to Isocenter
+Dose Related Distance Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.541"

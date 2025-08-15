@@ -2,7 +2,7 @@ ValueSet    : CID_9537
 Id          : dicom-cid-9537-EffectiveDoseCalculationMethodCategory
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Radiation transport-based methods DCM  Fractionation-based or temporally-based methods
+Effective Dose Calculation Method Category
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1247"

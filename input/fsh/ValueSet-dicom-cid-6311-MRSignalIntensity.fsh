@@ -2,7 +2,7 @@ ValueSet    : CID_6311
 Id          : dicom-cid-6311-MRSignalIntensity
 Description :
 """
-This Context Group contains terms specific to describing the types of MR sequences used in mpMRI of the prostate. Imaging findings will be applicable for indications other than PI-RADS disease assessment.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  T2 Weighted MR Signal Intensity   DCM  Diffusion weighted   DCM  Diffusion-weighted Acquisition Highest b-value image   DCM  Dynamic Contrast-Enhanced Acquisition   DCM  Dynamic Contrast-Enhanced Acquisition Subtraction image   DCM  T1 Weighted MR Signal Intensity   DCM  Apparent Diffusion Coefficient
+Imaging findings will be applicable for indications other than PI-RADS disease assessment.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1368"

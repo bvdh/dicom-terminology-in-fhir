@@ -2,7 +2,7 @@ ValueSet    : CID_3607
 Id          : dicom-cid-3607-VenousSourceLocation
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anomalous pulmonary vein   SCT  Antecubital Vein   SCT  Axillary vein   SCT  Azygos vein   SCT  Basilic vein   SCT  Boyd perforating vein   SCT  Brachial vein   SCT  Central venous system   SCT  cephalic vein   SCT  Dodd perforating vein   SCT  Femoral vein   SCT  gastric vein   SCT  Great saphenous vein   SCT  hepatic vein   SCT  Hunterian perforating vein   SCT  Inferior Vena cava   SCT  Innominate vein   SCT  Internal jugular vein   SCT  mesenteric vein   SCT  portal vein   SCT  posterior medial tributary   SCT  Pulmonary vein   SCT  Pulmonary vein confluence   SCT  Renal vein   SCT  Saphenofemoral junction   SCT  Saphenous vein   SCT  splenic vein   SCT  Subclavian vein   SCT  Superior vena cava   SCT  Umbilical vein   SCT  Vein   In a prior version of this Context Group the code
+In a prior version of this Context Group the code
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.157"

@@ -2,7 +2,7 @@ ValueSet    : CID_9558
 Id          : dicom-cid-9558-TomotherapeuticDoseRateUnit
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UCUM Gy/s Gy/s UCUM {MU}/s Monitor Units/s
+Tomotherapeutic Dose Rate Unit
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1309"

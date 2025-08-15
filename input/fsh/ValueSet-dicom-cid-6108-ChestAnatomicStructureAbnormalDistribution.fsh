@@ -2,7 +2,7 @@ ValueSet    : CID_6108
 Id          : dicom-cid-6108-ChestAnatomicStructureAbnormalDistribution
 Description :
 """
-Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Air-trapping   DCM  Architectural distortion   DCM  Mosaic perfusion   DCM  Oligemia   DCM  Pleonemia
+Original source of terms is [Fraser and Pare].
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.428"

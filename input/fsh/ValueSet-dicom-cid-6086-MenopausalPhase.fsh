@@ -2,7 +2,7 @@ ValueSet    : CID_6086
 Id          : dicom-cid-6086-MenopausalPhase
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Before menopause   SCT  During menopause   SCT  After menopause   SCT  Postsurgical menopause   SCT  Artificial menopause state
+Menopausal Phase
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.408"

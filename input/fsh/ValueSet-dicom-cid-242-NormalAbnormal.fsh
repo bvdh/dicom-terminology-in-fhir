@@ -2,7 +2,7 @@ ValueSet    : CID_242
 Id          : dicom-cid-242-NormalAbnormal
 Description :
 """
-This Context Group is a subset of       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Normal   SCT  Abnormal   SCT  Normality Undetermined
+Normal-Abnormal
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.36"

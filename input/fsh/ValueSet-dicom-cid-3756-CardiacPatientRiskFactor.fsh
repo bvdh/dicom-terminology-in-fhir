@@ -2,7 +2,7 @@ ValueSet    : CID_3756
 Id          : dicom-cid-3756-CardiacPatientRiskFactor
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR 2.0b Equivalent Code Value SCT  History of congestive heart failure   30 SCT  History of Diabetes   31 SCT  History of renal failure   32 SCT  History of chronic lung disease   33 SCT  History of cerebrovascular disease   34 SCT  Peripheral vascular disease   35 SCT  History of myocardial infarction   36 SCT  History of Hypertension   37 SCT  History of hypercholesterolemia   39 SCT  Arrhythmia    SCT  HIV Positive    UMLS  Infant of mother with gestational diabetes    SCT  Insulin dependent mother (IDM)    In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
+In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.251"

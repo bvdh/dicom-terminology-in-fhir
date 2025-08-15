@@ -2,7 +2,7 @@ ValueSet    : CID_12250
 Id          : dicom-cid-12250-CardiacUltrasoundCommonLinearMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Length   SCT  Diameter   SCT  Major Axis   SCT  Minor Axis   SCT  Circumference   SCT  Radius   LN  ROI Thickness by US   LN  ROI Internal Dimension by US
+Cardiac Ultrasound Common Linear Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.831"

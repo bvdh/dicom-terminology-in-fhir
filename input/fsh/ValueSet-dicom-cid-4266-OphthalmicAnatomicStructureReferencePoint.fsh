@@ -2,7 +2,7 @@ ValueSet    : CID_4266
 Id          : dicom-cid-4266-OphthalmicAnatomicStructureReferencePoint
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Morphologically Abnormal Structure   SCT  Lesion   SCT  Fovea centralis   SCT  Optic nerve head   DCM  Disc-Fovea   SCT  Cornea
+Ophthalmic Anatomic Structure Reference Point
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.942"

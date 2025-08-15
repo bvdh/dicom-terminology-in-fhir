@@ -2,7 +2,7 @@ ValueSet    : CID_91
 Id          : dicom-cid-91-FunctionalConditionPresentDuringAcquisition
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  SCT  Phonation   SCT  Weight bearing   DCM  During voiding   DCM  Prior to voiding   DCM  Post voiding
+Functional Condition Present During Acquisition
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.891"

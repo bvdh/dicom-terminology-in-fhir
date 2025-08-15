@@ -22485,7 +22485,7 @@ retired
 * #121079 "Baseline"
 """
 Baseline:
-Initial images used to establish a beginning condition that is used for comparison over time to look for changes. [Paraphrases NCI-PT
+Initial images used to establish a beginning condition that is used for comparison over time to look for changes. [Paraphrases NCI-PT (C1442488, UMLS, Baseline)
 retired
 """
 * #121079 ^property[0].code = #keyword
@@ -34028,7 +34028,7 @@ An I 131 cancer targeted phospholipid ether PET radiotracer.
 * #126717 "THK5351 F^18^"
 """
 Thk5351F^18^:
-See Harada R, Okamura N, Furumoto S, Furukawa K, Ishiki A, Tomita N, et al. 18F-THK5351: A Novel PET Radiotracer for Imaging Neurofibrillary Pathology in Alzheimer Disease. Journal of Nuclear Medicine. 2016 Feb 1;57(2):208-14.
+See Harada R, Okamura N, Furumoto S, Furukawa K, Ishiki A, Tomita N, et al. 18F-THK5351: A Novel PET Radiotracer for Imaging Neurofibrillary Pathology in Alzheimer Disease. Journal of Nuclear Medicine. 2016 Feb 1;57(2):208-14. doi:10.2967/jnumed.115.164848
 retired
 """
 * #126717 ^property[0].code = #keyword

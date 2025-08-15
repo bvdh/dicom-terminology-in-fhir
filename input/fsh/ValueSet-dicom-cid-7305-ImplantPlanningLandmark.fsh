@@ -2,7 +2,7 @@ ValueSet    : CID_7305
 Id          : dicom-cid-7305-ImplantPlanningLandmark
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning
+Implant Planning Landmark
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1036"

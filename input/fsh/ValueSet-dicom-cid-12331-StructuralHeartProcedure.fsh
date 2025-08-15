@@ -2,7 +2,7 @@ ValueSet    : CID_12331
 Id          : dicom-cid-12331-StructuralHeartProcedure
 Description :
 """
-This Context Group includes codes that may be used to identify Structural Heart Procedures.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Revision of transcatheter aortic valve implantation   SCT  Bioprosthetic transcatheter aortic valve implantation   SCT  Transcatheter implantation of mitral valve   SCT  Transcatheter repair of tricuspid valve   SCT  Transcatheter annuloplasty of tricuspid valve   SCT  Transcatheter repair of leaflet of tricuspid valve   SCT  Implantation of pulmonary valve prosthesis or synthetic device   SCT  Bioprosthetic mitral valve prosthesis transcatheter implantation   SCT  Bioprosthetic mitral valve prosthesis transcatheter implantation   UMLS  Percutaneous closure of atrial septal defect   UMLS  Left atrial appendage occlusion   UMLS  Implantation of mitral valve leaflet clip
+Structural Heart Procedure
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1516"

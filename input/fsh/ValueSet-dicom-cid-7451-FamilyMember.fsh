@@ -2,7 +2,7 @@ ValueSet    : CID_7451
 Id          : dicom-cid-7451-FamilyMember
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Natural mother   SCT  Natural father   SCT  Natural sister   SCT  Natural brother   SCT  Aunt   SCT  Uncle   SCT  Half-sister   SCT  Half-brother   SCT  Natural grand-mother   SCT  Natural grand-father   SCT  Natural daughter   SCT  Natural son   SCT  Female first cousin   SCT  Male first cousin
+Family Member
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.515"

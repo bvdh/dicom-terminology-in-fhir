@@ -2,7 +2,7 @@ ValueSet    : CID_3717
 Id          : dicom-cid-3717-LeftVentricleMyocardialWall17SegmentModel
 Description :
 """
-This 17-segment model of left ventricular myocardial wall segments uses the terminology specified in       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID    SCT  apex of left ventricle
+Left Ventricle Myocardial Wall 17 Segment Model
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.218"

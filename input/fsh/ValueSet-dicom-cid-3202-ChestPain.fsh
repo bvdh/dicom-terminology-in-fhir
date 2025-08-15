@@ -2,7 +2,7 @@ ValueSet    : CID_3202
 Id          : dicom-cid-3202-ChestPain
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Stable Angina   SCT  Unstable Angina   SCT  Atypical Angina   SCT  Noncardiac Chest Pain   SCT  Chest pain not present   SCT  Typical Angina   DCM  Anginal Equivalent
+Chest Pain
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.757"

@@ -2,7 +2,7 @@ ValueSet    : CID_404
 Id          : dicom-cid-404-AuditParticipantObjectIDTypeCode
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Study Instance UID DCM  SOP Class UID DCM  Node ID
+Audit Participant Object ID Type Code
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.907"

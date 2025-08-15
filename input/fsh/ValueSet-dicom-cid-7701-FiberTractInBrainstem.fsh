@@ -2,7 +2,7 @@ ValueSet    : CID_7701
 Id          : dicom-cid-7701-FiberTractInBrainstem
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  superior cerebellar peduncle   SCT  middle cerebellar peduncle   SCT  inferior cerebellar peduncle   SCT  corticospinal tract in brainstem   SCT  medial lemniscus   SCT  lateral lemniscus   SCT  medial longitudinal fasciculus   Organized as described in Wakana, Setsu, Hangyi Jiang, Lidia M. Nagae-Poetscher, Peter C. M. van Zijl, and Susumu Mori. "Fiber Tract-based Atlas of Human White Matter Anatomy." Radiology 230, no. 1 (January 1, 2004): 77-87.
+Organized as described in Wakana, Setsu, Hangyi Jiang, Lidia M. Nagae-Poetscher, Peter C. M. van Zijl, and Susumu Mori. "Fiber Tract-based Atlas of Human White Matter Anatomy." Radiology 230, no. 1 (January 1, 2004): 77-87.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1013"

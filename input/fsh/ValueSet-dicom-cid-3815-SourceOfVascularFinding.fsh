@@ -2,7 +2,7 @@ ValueSet    : CID_3815
 Id          : dicom-cid-3815-SourceOfVascularFinding
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  thrombosis   SCT  embolism   SCT  hyperplasia   SCT  vasculitis   SCT  tumor   SCT  trauma   SCT  surgical   SCT  after procedure
+Source of Vascular Finding
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.274"

@@ -2,7 +2,7 @@ ValueSet    : CID_10041
 Id          : dicom-cid-10041-SourceOfRadioisotopeActivityInformation
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Dose Calibrator DCM  Infusion System DCM  Radioisotope Generator
+Source of Radioisotope Activity Information
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.973"

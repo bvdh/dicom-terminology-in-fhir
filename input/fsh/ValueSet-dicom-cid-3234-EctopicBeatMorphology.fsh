@@ -2,7 +2,7 @@ ValueSet    : CID_3234
 Id          : dicom-cid-3234-EctopicBeatMorphology
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Ventricular tachycardia   SCT  Ventricular bigeminy   SCT  Multifocal PVCs   SCT  Unifocal PVCs   SCT  Ventricular tachycardia, polymorphic
+Ectopic Beat Morphology
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.780"

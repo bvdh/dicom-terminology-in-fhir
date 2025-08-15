@@ -2,7 +2,7 @@ ValueSet    : CID_12212
 Id          : dicom-cid-12212-EchocardiographyAortaMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID  LN  Aortic Root Diameter  LN  Aortic Arch Diameter  LN  Ascending Aortic Diameter  LN  Aortic Isthmus Diameter  LN  Descending Aortic Diameter  LN  Thoracic Aorta Coarctation Systolic Peak Instantaneous Gradient  LN  Thoracic Aorta Coarctation Systolic Peak Velocity
+Echocardiography Aorta Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.605"

@@ -2,7 +2,7 @@ ValueSet    : CID_12233
 Id          : dicom-cid-12233-CardiacPhase
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Systole   SCT  Diastole   SCT  End Diastole   SCT  End Systole   SCT  Early Diastole   SCT  Peak Systolic   SCT  Atrial Systole   SCT  Ventricular Systole   SCT  Ventricular Isovolumic Contraction   SCT  Ventricular Ejection   SCT  Ventricular Isovolumic Relaxation   SCT  Diastolic Rapid Inflow   SCT  Diastasis
+Cardiac Phase
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.624"

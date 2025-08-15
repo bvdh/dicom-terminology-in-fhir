@@ -2,7 +2,7 @@ ValueSet    : CID_6068
 Id          : dicom-cid-6068-TumorStagesFromAJCC
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Stage 0 DCM  Stage I DCM  Stage IIA DCM  Stage IIB DCM  Stage IIIA DCM  Stage IIIB DCM  Stage IIIC DCM  Stage IV
+Tumor Stages From AJCC
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.397"

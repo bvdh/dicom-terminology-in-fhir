@@ -2,7 +2,7 @@ ValueSet    : CID_644
 Id          : dicom-cid-644-ExogenousSubstanceAdministrationSite
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Flank   SCT  Brain   SCT  Tumor   SCT  Liver   SCT  Bone Marrow   NCIt  Mouse mammary fat pad   Since this Context Group defines the sites, rather than routes of administration, if the exogenous substance is administered into a tumor, the code for the morphologic abnormality
+Since this Context Group defines the sites, rather than routes of administration, if the exogenous substance is administered into a tumor, the code for the morphologic abnormality
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1109"

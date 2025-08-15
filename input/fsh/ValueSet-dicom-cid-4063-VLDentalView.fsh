@@ -2,7 +2,7 @@ ValueSet    : CID_4063
 Id          : dicom-cid-4063-VLDentalView
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Occlusal projection
+VL Dental View
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1503"

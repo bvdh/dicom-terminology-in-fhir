@@ -2,7 +2,7 @@ ValueSet    : CID_6104
 Id          : dicom-cid-6104-AbnormalOpacityFindingOrFeature
 Description :
 """
-Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Beaded septum sign   DCM  Nodular pattern   DCM  Primary complex   DCM  Pseudoplaque   DCM  Reticulonodular pattern   DCM  Signet-ring sign   DCM  Abnormal interstitial pattern   SCT  Coin lesion   DCM  Density   DCM  Dependent opacity   DCM  Ground glass opacity   DCM  Infiltrate   SCT  Mass   DCM  Micronodule   SCT  Nodule   DCM  Opacity   DCM  Phantom tumor (pseudotumor)   DCM  Shadow   DCM  Small irregular opacities   DCM  Small rounded opacities   DCM  Tree-in-bud sign   SCT  Pulmonary embolism
+Original source of terms is [Fraser and Pare].
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.424"

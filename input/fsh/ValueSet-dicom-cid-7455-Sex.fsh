@@ -2,7 +2,7 @@ ValueSet    : CID_7455
 Id          : dicom-cid-7455-Sex
 Description :
 """
-This Context Group includes terms for the finding of sex of a subject for clinical purposes, such as selection of sex-based growth metrics.       Coding Scheme Designator Code Value Code Meaning DCM  Male DCM  Female DCM  Unknown sex DCM  Male Pseudohermaphrodite DCM  Female Pseudohermaphrodite DCM  Hermaphrodite DCM  Male changed to Female DCM  Female changed to Male DCM  Ambiguous sex DCM  Other sex DCM  Undetermined sex  These terms are distinct from the gender of a subject for administrative purposes, although the default value for clinical sex is often based on the administrative gender (e.g., see This Context Group in a prior edition of the Standard included codes improperly attributed to ISO 5218. These terms are derived from the terminology and codes for sex in ASTM E1633-02a "Standard Specification for Coded Values Used in the Electronic Health Record."
+These terms are distinct from the gender of a subject for administrative purposes, although the default value for clinical sex is often based on the administrative gender (e.g., see This Context Group in a prior edition of the Standard included codes improperly attributed to ISO 5218. These terms are derived from the terminology and codes for sex in ASTM E1633-02a "Standard Specification for Coded Values Used in the Electronic Health Record."
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.519"

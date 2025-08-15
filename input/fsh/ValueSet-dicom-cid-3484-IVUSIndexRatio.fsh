@@ -2,7 +2,7 @@ ValueSet    : CID_3484
 Id          : dicom-cid-3484-IVUSIndexRatio
 Description :
 """
-This Context Group is the set of index and ratio calculations made in an IVUS procedure.       Coding Scheme Designator Code Value Code Meaning DCM  Lumen Eccentricity Index DCM  Plaque plus Media Eccentricity Index DCM  Remodeling Index DCM  Stent Symmetry Index DCM  Stent Expansion Index DCM  Lumen Shape Index DCM  Lumen Diameter Ratio DCM  Stent Diameter Ratio DCM  EEM Diameter Ratio
+IVUS Index/Ratio
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.119"

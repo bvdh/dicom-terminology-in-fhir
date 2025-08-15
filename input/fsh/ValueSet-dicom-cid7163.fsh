@@ -2,7 +2,7 @@ ValueSet    : CID_7163
 Id          : dicom-cid7163
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Breast fibroglandular tissue   SCT  Glandular structure of breast   SCT  Fatty tissue of breast   SCT  Interlobular mammary connective tissue   SCT  Connective tissue of breast   SCT  Areolar tissue of breast   SCT  Skin of breast
+Breast Segmentation Types
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1492"

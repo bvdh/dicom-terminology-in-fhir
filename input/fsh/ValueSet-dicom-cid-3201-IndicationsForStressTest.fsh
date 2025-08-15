@@ -2,7 +2,7 @@ ValueSet    : CID_3201
 Id          : dicom-cid-3201-IndicationsForStressTest
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Chest Pain   SCT  Pre-operative   SCT  Coronary Artery Disease   SCT  Heart failure   SCT  Heart disease risk factors   SCT  Dyspnea   SCT  Post PTCA   SCT  History of CABG   SCT  Abnormal exercise tolerance test   SCT  Abnormal ECG   SCT  Arrhythmia   SCT  Angina pectoris   SCT  Hypertension   SCT  Palpitations   SCT  Supraventricular tachycardia   SCT  Syncope   SCT  History of Myocardial Infarction   SCT  Left bundle branch block   SCT  Valvular heart disease   SCT  Occupational requirement
+Indications for Stress Test
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.756"

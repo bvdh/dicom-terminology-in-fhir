@@ -2,7 +2,7 @@ ValueSet    : CID_3809
 Id          : dicom-cid-3809-AssociatedCondition
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Marfan's Syndrome   SCT  Traumatic Abnormality
+Associated Condition
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.270"

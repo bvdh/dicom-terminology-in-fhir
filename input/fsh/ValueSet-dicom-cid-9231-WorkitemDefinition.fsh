@@ -2,7 +2,7 @@ ValueSet    : CID_9231
 Id          : dicom-cid-9231-WorkitemDefinition
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Image Processing DCM  Quality Control DCM  Computer Aided Diagnosis DCM  Computer Aided Detection DCM  Interpretation DCM  Transcription DCM  Report Verification DCM  Add Addendum to Report DCM  Print DCM  No subsequent Workitems DCM  Media Import
+Workitem Definition
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.531"

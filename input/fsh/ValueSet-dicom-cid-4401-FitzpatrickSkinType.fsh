@@ -2,7 +2,7 @@ ValueSet    : CID_4401
 Id          : dicom-cid-4401-FitzpatrickSkinType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCIt  Fitzpatrick Skin Type I   NCIt  Fitzpatrick Skin Type II   NCIt  Fitzpatrick Skin Type III   NCIt  Fitzpatrick Skin Type IV   NCIt  Fitzpatrick Skin Type V   NCIt  Fitzpatrick Skin Type VI
+Fitzpatrick Skin Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1346"

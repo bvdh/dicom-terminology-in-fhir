@@ -2,7 +2,7 @@ ValueSet    : CID_4230
 Id          : dicom-cid-4230-OphthalmicUltrasoundAxialMeasurementsType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Ultrasound Contact DCM  Ultrasound Immersion
+Ophthalmic Ultrasound Axial Measurements Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.876"

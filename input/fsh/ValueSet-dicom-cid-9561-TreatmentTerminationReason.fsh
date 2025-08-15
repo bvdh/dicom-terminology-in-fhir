@@ -2,7 +2,7 @@ ValueSet    : CID_9561
 Id          : dicom-cid-9561-TreatmentTerminationReason
 Description :
 """
-Include DCM  Patient died DCM  Patient refused to continue procedure DCM  Discontinued for unspecified reason DCM  Patient condition prevented continuing DCM  Doctor canceled procedure DCM  Equipment failure DCM  Patient Movement DCM  Operator Error DCM  Channel Obstruction
+Treatment Termination Reason
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1318"

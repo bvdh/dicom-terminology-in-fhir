@@ -2,7 +2,7 @@ ValueSet    : CID_7461
 Id          : dicom-cid-7461-AreaMeasurementUnit
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UCUM cm2 square centimeter UCUM mm2 square millimeter UCUM um2 square micrometer
+Area Measurement Unit
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.522"

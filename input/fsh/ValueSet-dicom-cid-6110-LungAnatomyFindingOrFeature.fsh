@@ -2,7 +2,7 @@ ValueSet    : CID_6110
 Id          : dicom-cid-6110-LungAnatomyFindingOrFeature
 Description :
 """
-Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Lobe of lung   DCM  Midlung window   DCM  Secondary pulmonary lobule   SCT  Segment of lung
+Original source of terms is [Fraser and Pare].
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.430"

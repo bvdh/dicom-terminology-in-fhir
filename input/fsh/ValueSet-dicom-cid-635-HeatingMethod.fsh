@@ -2,7 +2,7 @@ ValueSet    : CID_635
 Id          : dicom-cid-635-HeatingMethod
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Air heating pad   SCT  Electric blanket   SCT  Electric heating pad   DCM  Forced air heater   SCT  Forced air warming blanket   DCM  Heated imaging device   DCM  Heated patient support   DCM  Heated water blanket   UMLS  Heat lamp   SCT  Non-electric heating pad   DCM  Pre-heated pad   DCM  Unheated   SCT  Warmer device   SCT  Warming blanket
+Heating Method
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1100"

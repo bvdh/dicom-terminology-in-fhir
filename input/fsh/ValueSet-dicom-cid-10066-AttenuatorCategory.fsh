@@ -2,7 +2,7 @@ ValueSet    : CID_10066
 Id          : dicom-cid-10066-AttenuatorCategory
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Table   DCM  Table Core   DCM  Table Outer Liner   DCM  Table Pad   SCT  X-Ray shield   DCM  Beam Block   SCT  Shielding Block   DCM  Patient Support   DCM  X-Ray Filters
+Attenuator Category
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1160"

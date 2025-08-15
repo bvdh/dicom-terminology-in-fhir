@@ -2,7 +2,7 @@ ValueSet    : CID_6001
 Id          : dicom-cid-6001-OverallBreastCompositionFromBIRADS
 Description :
 """
-From BI-RADS Third Edition (National Mammography Database, E77)       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Almost entirely fat   SCT  Scattered fibroglandular densities   SCT  Heterogeneously dense   SCT  Extremely dense
+From BI-RADS Third Edition (National Mammography Database, E77)
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.331"

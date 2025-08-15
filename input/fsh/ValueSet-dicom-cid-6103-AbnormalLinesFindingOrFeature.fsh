@@ -2,7 +2,7 @@ ValueSet    : CID_6103
 Id          : dicom-cid-6103-AbnormalLinesFindingOrFeature
 Description :
 """
-Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Reticulonodular pattern   DCM  Air-fluid level   DCM  Corona radiata   DCM  Honeycomb pattern   DCM  Fleischner's line(s)   DCM  Intralobular lines   DCM  Kerley A line   DCM  Kerley B line   DCM  Kerley C lines   DCM  Parenchymal band   SCT  Plate-like atelectasis   DCM  Reticular pattern   DCM  Septal line(s)   DCM  Subpleural line   DCM  Tramline shadow   DCM  Tubular shadow
+Original source of terms is [Fraser and Pare].
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.423"

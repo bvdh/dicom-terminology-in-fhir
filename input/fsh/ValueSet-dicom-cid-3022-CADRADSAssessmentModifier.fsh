@@ -2,7 +2,7 @@ ValueSet    : CID_3022
 Id          : dicom-cid-3022-CADRADSAssessmentModifier
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  N - Non-diagnostic segments DCM  S - Stent DCM  G - Graft DCM  V - Vulnerable plaque
+CAD-RADS Assessment Modifier
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1431"

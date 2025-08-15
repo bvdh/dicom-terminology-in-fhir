@@ -2,7 +2,7 @@ ValueSet    : CID_7024
 Id          : dicom-cid-7024-RTProcessInput
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  For RT Workflow DCM  For RT Prescription DCM  For RT Treatment Planning DCM  For RT Plan Summation DCM  For Physician Review DCM  For Physicist Review DCM  For Plan Quality Assurance DCM  For Machine Quality Assurance DCM  For Patient Setup Verification The concepts in the CID are intended to be a declarative statement to represent the potential input of an operation, without implying that this operation is part of a particular workflow, that this input will be used at all in any subsequent operation, that only parts of the referenced instances will be used, or that instances other than those referenced will be used as input.
+The concepts in the CID are intended to be a declarative statement to represent the potential input of an operation, without implying that this operation is part of a particular workflow, that this input will be used at all in any subsequent operation, that only parts of the referenced instances will be used, or that instances other than those referenced will be used as input.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1136"

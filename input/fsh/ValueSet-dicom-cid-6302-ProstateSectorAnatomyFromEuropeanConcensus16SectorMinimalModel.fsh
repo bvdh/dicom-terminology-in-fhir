@@ -2,7 +2,7 @@ ValueSet    : CID_6302
 Id          : dicom-cid-6302-ProstateSectorAnatomyFromEuropeanConcensus16Secto
 Description :
 """
-From       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID FMA ID 16 Sector Code SCT  Central zone of left half prostate    6p SCT  Central zone of right half prostate    1p SCT  Left apical peripheral zone of prostate    10p SCT  Left apical transition zone of prostate    6a SCT  Left basal part transition zone of prostate    4a SCT  Left basal peripheral zone of prostate    7p SCT  Left lateral middle peripheral zone of prostate    9p SCT  Left middle transition zone of prostate    5a SCT  Left posteromedial middle peripheral zone of prostate    8p SCT  Left seminal vesicle    L SV SCT  Male external urethral sphincter    US SCT  Right apical peripheral zone of prostate    5p SCT  Right apical transition zone of prostate    3a SCT  Right basal peripheral zone of prostate    2p SCT  Right basal transition zone of prostate    1a SCT  Right lateral middle peripheral zone of prostate    4p SCT  Right middle transition zone of prostate    2a SCT  Right posteromedial middle peripheral zone of prostate    3p SCT  Right seminal vesicle    R SV
+From
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1140"

@@ -2,7 +2,7 @@ ValueSet    : CID_605
 Id          : dicom-cid-605-AnimalBeddingMaterial
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Aspen chip bedding   DCM  Aspen shaving bedding   DCM  Corn cob bedding   DCM  Paper-based bedding   DCM  Pine chip bedding   DCM  Pine shaving bedding
+Animal Bedding Material
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1070"

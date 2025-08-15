@@ -2,7 +2,7 @@ ValueSet    : CID_226
 Id          : dicom-cid-226-PopulationStatisticalDescriptor
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  95th Percentile Value of population   SCT  90th Percentile Value of population   SCT  1 Sigma Upper Value of population   SCT  2 Sigma Upper Value of population   SCT  Mean Value of population   SCT  Median Value of population   SCT  10th Percentile Value of population   SCT  5th Percentile Value of population   SCT  1 Sigma Lower Value of population   SCT  2 Sigma Lower Value of population   DCM  Standard deviation of population   DCM  2 Sigma deviation of population   DCM  Interquartile Range of population   DCM  Interquartile Range to Median ratio of population   The SNOMED meaning for R-00317 is "Mean - numeric estimation technique", but in the context of its use here, a more specific meaning has been used.
+The SNOMED meaning for R-00317 is "Mean - numeric estimation technique", but in the context of its use here, a more specific meaning has been used.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.31"

@@ -2,7 +2,7 @@ ValueSet    : CID_6032
 Id          : dicom-cid-6032-HighRiskLesionPathologyCodeFromBIRADS
 Description :
 """
-From BI-RADS Third Edition, with Addendum 3.1 (National Mammography Database,F110)       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Atypical intraductal hyperplasia   SCT  Atypical lobular hyperplasia   SCT  Lobular carcinoma in situ of breast   DCM  Peripheral duct papillomas   SCT  Phyllodes tumor
+From BI-RADS Third Edition, with Addendum 3.1 (National Mammography Database,F110)
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.362"

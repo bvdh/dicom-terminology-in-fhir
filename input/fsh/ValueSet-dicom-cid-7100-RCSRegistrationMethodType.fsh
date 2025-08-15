@@ -2,7 +2,7 @@ ValueSet    : CID_7100
 Id          : dicom-cid-7100-RCSRegistrationMethodType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Frame of Reference Identity DCM  Acquisition Equipment Alignment DCM  Visual Alignment DCM  Fiducial Alignment DCM  Image Content-based Alignment DCM  Image Content and Fiducial Based Alignment
+RCS Registration Method Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.494"

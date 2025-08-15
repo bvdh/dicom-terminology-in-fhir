@@ -2,7 +2,7 @@ ValueSet    : CID_4065
 Id          : dicom-cid-4065-VLDentalViewModifier
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Close up photographic view of teeth without magnification   SCT  Mirrored photo image intraoral corrected   SCT  Mirrored photo image of teeth corrected flipped horizontally   SCT  Mirrored photo image of teeth corrected flipped vertically   SCT  Mirrored photo image of teeth corrected rotated 180 deg   SCT  Photo image extraoral with 45 degree view   SCT  Photo image extraoral with mandible postured forward   SCT  Photo image of anterior teeth   SCT  Photo image of face with lips in relaxed position   SCT  Photo image with lips closed   SCT  Photo image with mouth partially opened and teeth apart
+VL Dental View Modifier
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1505"

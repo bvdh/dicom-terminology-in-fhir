@@ -2,7 +2,7 @@ ValueSet    : CID_7150
 Id          : dicom-cid-7150-SegmentationPropertyCategory
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Segmentation Property Type Context Group SCT  Tissue    SCT  Anatomical Structure    SCT  Physical object    SCT  Morphologically Abnormal Structure    SCT  Function    SCT  Spatial and Relational Concept    SCT  Body Substance    SCT  Substance
+Segmentation Property Category
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.496"

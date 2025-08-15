@@ -2,7 +2,7 @@ ValueSet    : CID_228
 Id          : dicom-cid-228-EquationOrTable
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Equation DCM  Equation Citation DCM  Table of Values DCM  Table of Values Citation DCM  Method Citation
+Equation or Table
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.33"

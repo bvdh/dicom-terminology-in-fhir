@@ -2,7 +2,7 @@ ValueSet    : CID_3709
 Id          : dicom-cid-3709-AorticRootDescription
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Normal Aortic Root   SCT  Enlarged Aortic Root   SCT  Aneurysm of Aortic Root   SCT  Annular Abscess of Aortic Root   SCT  Post Stenotic Dilation   SCT  Ruptured Sinus of Valsalva
+Aortic Root Description
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.210"

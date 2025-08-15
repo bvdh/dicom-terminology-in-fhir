@@ -2,7 +2,7 @@ ValueSet    : CID_7165
 Id          : dicom-cid-7165-AbstractSegmentationType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Background   SCT  Tissue   DCM  Tissue not of interest   SCT  Waste Material   DCM  Registration Input   DCM  Single subject extracted from group   NCIt  Reference Region   SCT  Normal   The concept
+The concept
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.962"

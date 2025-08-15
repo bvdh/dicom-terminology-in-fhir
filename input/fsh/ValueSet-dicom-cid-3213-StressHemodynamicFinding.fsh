@@ -2,7 +2,7 @@ ValueSet    : CID_3213
 Id          : dicom-cid-3213-StressHemodynamicFinding
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Exertional hypotension   SCT  Exertional hypertension   SCT  Chronotropic incompetence
+Stress Hemodynamic Finding
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.768"

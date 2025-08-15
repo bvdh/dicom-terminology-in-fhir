@@ -2,7 +2,7 @@ ValueSet    : CID_4200
 Id          : dicom-cid-4200-OphthalmicImagingAgent
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Fluorescein   SCT  Indocyanine green   SCT  Rose Bengal   SCT  Trypan blue   SCT  Methylene blue
+Ophthalmic Imaging Agent
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.316"

@@ -2,7 +2,7 @@ ValueSet    : CID_9513
 Id          : dicom-cid-9513-FixationDevice
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Bite block   DCM  Headframe DCM  Head Mask DCM  Head and Neck Mask DCM  Mold DCM  Cast SCT  Headrest   DCM  Breast Board DCM  Body Frame DCM  Vacuum Mold DCM  Whole Body Pod DCM  Rectal Balloon DCM  Vaginal Cylinder DCM  Breast Bridge DCM  Abdominal Compression Belt DCM  Abdominal Compression Arch DCM  Head Fixation Board SCT  Backrest   DCM  Shin Rest DCM  Heel Stop SCT  Armrest   DCM  Hand Grips DCM  Seat Pan
+Fixation Device
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1223"

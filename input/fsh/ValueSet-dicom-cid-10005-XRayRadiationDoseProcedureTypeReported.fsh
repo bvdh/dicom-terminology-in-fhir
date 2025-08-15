@@ -2,7 +2,7 @@ ValueSet    : CID_10005
 Id          : dicom-cid-10005-XRayRadiationDoseProcedureTypeReported
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Plain radiography   SCT  Mammography   SCT  Fluoroscopy   SCT  Fluoroscopy and radiography   SCT  Computed tomography   SCT  Cone beam computed tomography   SCT  Dual energy X-Ray absorptiometry   SCT  Dental radiography
+X-Ray Radiation Dose Procedure Type Reported
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1477"

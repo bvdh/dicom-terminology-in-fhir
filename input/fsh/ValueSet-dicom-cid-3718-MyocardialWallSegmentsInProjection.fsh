@@ -2,7 +2,7 @@ ValueSet    : CID_3718
 Id          : dicom-cid-3718-MyocardialWallSegmentsInProjection
 Description :
 """
-This Context Group specifies the left ventricular myocardial wall segments as seen in typical right anterior oblique (RAO) and left anterior oblique (LAO) angiographic projections.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  left ventricle basal anterior segment   SCT  myocardium of anterolateral region   SCT  myocardium of apex of heart   SCT  left ventricle basal inferior segment   SCT  myocardium of inferolateral region   SCT  left ventricle apical septal segment
+Myocardial Wall Segments in Projection
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.219"

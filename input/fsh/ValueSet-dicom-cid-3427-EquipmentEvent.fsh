@@ -2,7 +2,7 @@ ValueSet    : CID_3427
 Id          : dicom-cid-3427-EquipmentEvent
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Equipment failure DCM  Equipment brought to procedure room DCM  Equipment ready DCM  Equipment removed
+Equipment Event
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.89"

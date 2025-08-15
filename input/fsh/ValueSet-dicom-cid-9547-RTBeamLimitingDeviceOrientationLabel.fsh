@@ -2,7 +2,7 @@ ValueSet    : CID_9547
 Id          : dicom-cid-9547-RTBeamLimitingDeviceOrientationLabel
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  X Orientation DCM  Y Orientation
+RT Beam Limiting Device Orientation Label
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1294"

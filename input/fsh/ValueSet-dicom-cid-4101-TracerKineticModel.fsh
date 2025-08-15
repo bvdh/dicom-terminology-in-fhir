@@ -2,7 +2,7 @@ ValueSet    : CID_4101
 Id          : dicom-cid-4101-TracerKineticModel
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Standard Tofts Model DCM  Extended Tofts Model DCM  First Pass Leakage Profile Model DCM  Shutter-Speed Model DCM  Gamma Capillary Transit Time Model DCM  Adiabatic Tissue Homogeneity Model DCM  Two Compartment Exchange Model
+Tracer Kinetic Model
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.986"

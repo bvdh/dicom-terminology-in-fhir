@@ -2,7 +2,7 @@ ValueSet    : CID_8201
 Id          : dicom-cid-8201-SurfaceScanAcquisitionType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Time of flight DCM  Interferometry DCM  Laser scanning DCM  Pattern projection DCM  Shape from shading DCM  Shape from motion DCM  Confocal imaging DCM  Point Cloud Algorithmic
+Surface Scan Acquisition Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.953"

@@ -2,7 +2,7 @@ ValueSet    : CID_6109
 Id          : dicom-cid-6109-RadiographicAnatomyFindingOrFeature
 Description :
 """
-Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning        DCM  Interface DCM  Line DCM  Lucency
+Original source of terms is [Fraser and Pare].
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.429"

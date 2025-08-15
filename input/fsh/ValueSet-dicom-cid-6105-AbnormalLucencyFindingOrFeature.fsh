@@ -2,7 +2,7 @@ ValueSet    : CID_6105
 Id          : dicom-cid-6105-AbnormalLucencyFindingOrFeature
 Description :
 """
-Original source of terms is [Fraser and Pare].       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Air bronchiologram   DCM  Air bronchogram   DCM  Air crescent   SCT  Air-trapping   DCM  Halo sign   SCT  Pneumomediastinum   SCT  Pneumothorax
+Original source of terms is [Fraser and Pare].
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.425"

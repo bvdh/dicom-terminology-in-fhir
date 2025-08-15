@@ -2,7 +2,7 @@ ValueSet    : CID_3456
 Id          : dicom-cid-3456-SubsegmentMethod
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Equidistant method DCM  User selected method
+Sub-segment Method
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.102"

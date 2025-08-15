@@ -2,7 +2,7 @@ ValueSet    : CID_6141
 Id          : dicom-cid-6141-AttenuationCoefficientMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Attenuation Coefficient DCM  Minimum Attenuation Coefficient DCM  Maximum Attenuation Coefficient DCM  Mean Attenuation Coefficient DCM  Median Attenuation Coefficient DCM  Standard Deviation of Attenuation Coefficient
+Attenuation Coefficient Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.461"

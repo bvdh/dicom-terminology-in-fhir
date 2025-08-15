@@ -2,7 +2,7 @@ ValueSet    : CID_3700
 Id          : dicom-cid-3700-CathDiagnosis
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Coronary artery disease   SCT  Acute myocardial infarction   SCT  Atypical chest pain   SCT  Stable Angina   SCT  Atypical Angina, Variant Angina   SCT  Unstable Angina, Progressive Angina   SCT  Post-infarction angina   SCT  Recurrent angina Post-PTCA   SCT  Recurrent angina Post-DCA   SCT  Recurrent angina Post-Rotational Atherectomy   SCT  Recurrent angina Post-Stent   SCT  Recurrent angina Post-CABG   SCT  Congestive heart failure   SCT  Pulmonary edema   SCT  cardiogenic shock   SCT  Acute ventricular septal rupture   SCT  Mitral valve disease   SCT  Mitral stenosis   SCT  Mitral regurgitation   SCT  Acute mitral regurgitation   SCT  Silent ischemia   SCT  s/p MI positive stress for ischemia   SCT  Myocarditis   SCT  Subacute bacterial endocarditis   SCT  Hypertrophic obstructive cardiomyopathy   SCT  Pulmonary hypertension   SCT  Tricuspid valve disease   SCT  Tricuspid regurgitation   SCT  Mitral valve prolapse   SCT  Ventricular tachycardia   SCT  Ventricular fibrillation   SCT  Congestive cardiomyopathy   SCT  Hypertensive heart disease   SCT  Restrictive cardiomyopathy   SCT  Pericardial disease   SCT  Pericardial tamponade   SCT  Aortic valve disease   SCT  Aortic stenosis   SCT  Aortic insufficiency   SCT  Atrial septal defect   SCT  Aortic dissection   SCT  Pulmonic valve disease   SCT  Ventricular septal defect   SCT  Aortic aneurysm   SCT  Arrhythmia   SCT  Atrial fibrillation   SCT  heart disease, congenital   SCT  Constrictive pericarditis
+Cath Diagnosis
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.203"

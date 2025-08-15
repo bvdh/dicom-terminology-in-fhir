@@ -2,7 +2,7 @@ ValueSet    : CID_6014
 Id          : dicom-cid-6014-MammographySingleImageFinding
 Description :
 """
-In future extensions, Mammography Single Image Finding terms that are not derived from BI-RADS should be added to this Context Group.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID  DCM  Selected region   DCM  Breast geometry   DCM  Image Quality   DCM  Non-lesion   SCT  Nipple
+In future extensions, Mammography Single Image Finding terms that are not derived from BI-RADS should be added to this Context Group.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.344"

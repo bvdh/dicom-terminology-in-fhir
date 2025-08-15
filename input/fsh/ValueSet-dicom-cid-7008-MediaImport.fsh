@@ -2,7 +2,7 @@ ValueSet    : CID_7008
 Id          : dicom-cid-7008-MediaImport
 Description :
 """
-This Context Group specifies items that may be conveyed in the       Coding Scheme Designator Code Value Code Meaning DCM  Sheet Film Digitized DCM  Cine Film Digitized DCM  Video Tape Digitized DCM  Paper Digitized DCM  CD Imported DCM  DVD Imported DCM  MOD Imported DCM  Studies Imported DCM  Instances Imported
+Media Import
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.489"

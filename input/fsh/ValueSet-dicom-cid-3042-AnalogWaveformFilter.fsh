@@ -2,7 +2,7 @@ ValueSet    : CID_3042
 Id          : dicom-cid-3042-AnalogWaveformFilter
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Butterworth filter DCM  Chebyshev filter DCM  Elliptic filter DCM  Bessel filter DCM  Gaussian filter DCM  K-type filter DCM  M-derived filter DCM  Double-m-derived filter DCM  Bode filter DCM  Zobel filter
+Analog Waveform Filter
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1453"

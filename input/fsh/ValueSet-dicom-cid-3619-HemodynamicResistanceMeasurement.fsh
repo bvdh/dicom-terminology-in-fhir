@@ -2,7 +2,7 @@ ValueSet    : CID_3619
 Id          : dicom-cid-3619-HemodynamicResistanceMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Pulmonary Vascular Resistance   SCT  Systemic Vascular Resistance   DCM  Total Pulmonary Resistance   DCM  Total Vascular Resistance
+Hemodynamic Resistance Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.169"

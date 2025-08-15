@@ -2,7 +2,7 @@ ValueSet    : CID_10044
 Id          : dicom-cid-10044-RadiosensitiveOrgan
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Adrenal gland   SCT  Bladder   SCT  Brain   SCT  Breast   SCT  Bone Marrow   SCT  Bone Surface   SCT  Colon   SCT  Esophagus   SCT  Eye lenses   SCT  Gallbladder   SCT  Heart   SCT  Kidney   SCT  Liver   SCT  Lung   SCT  Lymph node   SCT  Muscle   SCT  Oral mucosa   SCT  Ovary   SCT  Pancreas   SCT  Prostate   SCT  Salivary Glands   SCT  Skin   SCT  Small intestine   SCT  Spleen   SCT  Stomach   SCT  Testis   SCT  Thymus   SCT  Thyroid   SCT  Uterus
+Radiosensitive Organ
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.976"

@@ -2,7 +2,7 @@ ValueSet    : CID_9510
 Id          : dicom-cid-9510-PurposeOfReferenceForRTTreatmentPlanningInput
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Diagnostic Source Images DCM  Segmentation Result DCM  Registration Result DCM  RT Prescription Result DCM  RT Treatment Planning Input Images
+Purpose of Reference for RT Treatment Planning Input
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1220"

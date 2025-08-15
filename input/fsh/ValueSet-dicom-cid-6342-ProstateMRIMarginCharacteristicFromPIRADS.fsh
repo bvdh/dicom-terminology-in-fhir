@@ -2,7 +2,7 @@ ValueSet    : CID_6342
 Id          : dicom-cid-6342-ProstateMRIMarginCharacteristicFromPIRADS
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID RADLEX Code Value UMLS Concept Unique ID SCT  Circumscribed lesion    RADLEX  Non-circumscribed margin    SCT  Indistinct lesion    SCT  Obscured lesion    SCT  Irregular    SCT  Spiculated lesion    SCT  Encapsulated    RADLEX  Erased charcoal sign    DCM  Partially encapsulated    DCM  Completely encapsulated
+Prostate MRI Margin Characteristic from PI-RADS
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1399"

@@ -2,7 +2,7 @@ ValueSet    : CID_6003
 Id          : dicom-cid-6003-ChangeSinceLastMammogramOrPriorSurgeryFromBIRADS
 Description :
 """
-From BI-RADS Third Edition (National Mammography Database, E79)       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  New finding   SCT  Finding partially removed   SCT  No significant changes in the finding   SCT  Increase in size   SCT  Decrease in size   SCT  Increase in number of calcifications   SCT  Decrease in number of calcifications   SCT  Less defined   SCT  More defined   SCT  Removal of implant since previous mammogram   SCT  Implant revised since previous mammogram
+From BI-RADS Third Edition (National Mammography Database, E79)
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.333"

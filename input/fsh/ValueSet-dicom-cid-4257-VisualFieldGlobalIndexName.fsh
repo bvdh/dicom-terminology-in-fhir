@@ -2,7 +2,7 @@ ValueSet    : CID_4257
 Id          : dicom-cid-4257-VisualFieldGlobalIndexName
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Visual Field Index DCM  Visual Field Loss Due to Diffuse Defect DCM  Visual Field Loss Due to Local Defect DCM  Glaucoma Hemifield Test Analysis DCM  Optical Fixation Measurements
+Visual Field Global Index Name
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.916"

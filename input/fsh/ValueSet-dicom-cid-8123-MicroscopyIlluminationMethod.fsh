@@ -2,7 +2,7 @@ ValueSet    : CID_8123
 Id          : dicom-cid-8123-MicroscopyIlluminationMethod
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Transmission illumination DCM  Reflection illumination DCM  Epifluorescence illumination DCM  Brightfield illumination DCM  Darkfield illumination DCM  Oblique illumination DCM  Phase contrast illumination DCM  Differential interference contrast DCM  Total internal reflection fluorescence
+Microscopy Illumination Method
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.900"

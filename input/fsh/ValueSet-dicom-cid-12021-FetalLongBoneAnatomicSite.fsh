@@ -2,7 +2,7 @@ ValueSet    : CID_12021
 Id          : dicom-cid-12021-FetalLongBoneAnatomicSite
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Clavicle   SCT  Femur   SCT  Fibula   SCT  Radius   SCT  Tibia   SCT  Ulna
+Fetal Long Bone Anatomic Site
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1006"

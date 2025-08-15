@@ -2,7 +2,7 @@ ValueSet    : CID_12332
 Id          : dicom-cid-12332-StructuralHeartDevice
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Trade Name (Informative) DCM  Left atrial appendage closure device    DCM  Ball type left atrial appendage closure device   Watchman, WaveCrest, Conformal DCM  Ball and disk type left atrial appendage closure device   Amulet SCT  Aortic valve prosthesis    SCT  Aortic valve bioprosthesis    SCT  Mitral annuloplasty transvalvular implant   Cardioband SCT  Mitral valve prosthesis   Sapien 3, Tendyne, Tiara, Intrepid, CardiAQ SCT  Mitral valve clip   MitraClip, Pascal SCT  Transcatheter biologic tricuspid valve prosthesis   Evoque SCT  Tricuspid valve prosthesis    SCT  Transcatheter pulmonary valve bioprosthesis   Melody
+Structural Heart Device
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1517"

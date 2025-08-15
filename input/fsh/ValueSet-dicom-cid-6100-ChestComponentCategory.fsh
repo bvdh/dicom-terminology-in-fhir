@@ -2,7 +2,7 @@ ValueSet    : CID_6100
 Id          : dicom-cid-6100-ChestComponentCategory
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Lung   DCM  Bronchovascular   SCT  Pleural structure   SCT  Mediastinum   SCT  Heart   DCM  Osseous   SCT  Systemic vascular structure   SCT  Muscular
+Chest Component Category
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.420"

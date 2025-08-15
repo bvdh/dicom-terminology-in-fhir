@@ -2,7 +2,7 @@ ValueSet    : CID_3254
 Id          : dicom-cid-3254-ElectrophysiologyProcedurePhase
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Atrial Effective Refractory Period, evaluation of   SCT  Carotid Sinus Massage procedure phase   SCT  Electrophysiology Mapping phase   SCT  Electrophysiology procedure baseline phase   SCT  Post-ablation phase   SCT  Post-defibrillation procedure phase   SCT  Radiofrequency Ablation procedure phase   SCT  Sinus Node Recovery Time, evaluation of   SCT  Ventricular Effective Refractory Period, evaluation of
+Electrophysiology Procedure Phase
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.56"

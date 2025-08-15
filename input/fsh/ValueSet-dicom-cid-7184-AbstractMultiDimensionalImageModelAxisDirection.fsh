@@ -2,7 +2,7 @@ ValueSet    : CID_7184
 Id          : dicom-cid-7184-AbstractMultiDimensionalImageModelAxisDirection
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Left-Right Axis DCM  Head-Foot Axis DCM  Anterior-Posterior Axis DCM  Apex-Base Axis DCM  Anterior-Inferior Axis DCM  Septum-Wall Axis
+Abstract Multi-dimensional Image Model Axis Direction
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.921"

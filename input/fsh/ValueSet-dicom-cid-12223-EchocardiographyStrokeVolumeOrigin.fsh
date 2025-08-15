@@ -2,7 +2,7 @@ ValueSet    : CID_12223
 Id          : dicom-cid-12223-EchocardiographyStrokeVolumeOrigin
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Left Ventricle   SCT  Left Ventricle Outflow Tract   SCT  Right Ventricle Outflow Tract   SCT  Mitral Valve   SCT  Aorta
+Echocardiography Stroke Volume Origin
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.615"

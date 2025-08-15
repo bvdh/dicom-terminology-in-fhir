@@ -2,7 +2,7 @@ ValueSet    : CID_3754
 Id          : dicom-cid-3754-VascularComplication
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID NCDR 2.0b Equivalent Code Value SCT  Bleeding   127 SCT  Occlusion of artery   128 SCT  Loss of distal pulse   129 SCT  Arterial dissection   130 SCT  Pseudoaneurysm   131 SCT  AV Fistula   132 In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
+In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.249"

@@ -2,7 +2,7 @@ ValueSet    : CID_1010
 Id          : dicom-cid-1010-ReferenceGeometryPlane
 Description :
 """
-The items in this Context Group identify a specific plane associated with a reference basis (see       Coding Scheme Designator Code Value Code Meaning DCM  Plane through Anterior Extent DCM  Plane through Distal Extent DCM  Plane through Inferior Extent DCM  Plane through Lateral Extent DCM  Plane through Leftmost Extent DCM  Plane through Medial Extent DCM  Plane through Center DCM  Plane through Posterior Extent DCM  Plane through Proximal Extent DCM  Plane through Rightmost Extent DCM  Plane through Superior Extent
+Reference Geometry - Plane
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1128"

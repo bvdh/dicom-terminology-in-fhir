@@ -2,7 +2,7 @@ ValueSet    : CID_3428
 Id          : dicom-cid-3428-CardiovascularImagingProcedure
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Angiography   SCT  Aortography   SCT  Coronary Arteriography   SCT  Cardiac ventriculography   SCT  Left Ventriculography   SCT  Right Ventriculography   SCT  Bypass graft angiography   DCM  Arterial conduit angiography   SCT  Transesophageal echocardiography   SCT  Transthoracic echocardiography   SCT  Epicardial echocardiography   SCT  Intravascular ultrasound   SCT  Intracardiac echocardiography   In a prior version of this Context Group, Transthoracic echocardiography was assigned the code P5-B3003 and Epicardial echocardiography was assigned the code P5-B3004; these codes conflict with other SNOMED code assignments. Receiving applications should be aware of this change, and the possibility of misinterpretation of SOP Instances that may include the deprecated codes; see
+In a prior version of this Context Group, Transthoracic echocardiography was assigned the code P5-B3003 and Epicardial echocardiography was assigned the code P5-B3004; these codes conflict with other SNOMED code assignments. Receiving applications should be aware of this change, and the possibility of misinterpretation of SOP Instances that may include the deprecated codes; see
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.90"

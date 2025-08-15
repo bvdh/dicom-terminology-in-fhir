@@ -2,7 +2,7 @@ ValueSet    : CID_3555
 Id          : dicom-cid-3555-Pacing
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Pacing   SCT  pacing with magnet   SCT  atrial pacing   SCT  ventricular pacing   SCT  A-V sequential pacing   SCT  temporary transcutaneous pacing
+Pacing
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.151"

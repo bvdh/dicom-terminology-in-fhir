@@ -2,7 +2,7 @@ ValueSet    : CID_9528
 Id          : dicom-cid-9528-BrachytherapyIsotope
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  ^137^Cesium   SCT  ^131^Cesium   SCT  ^192^Iridium   SCT  ^125^Iodine   SCT  ^103^Palladium   SCT  ^252^Californium   SCT  ^60^Cobalt   SCT  ^226^Radium   SCT  ^90^Yttrium   SCT  ^198^Gold   SCT  ^32^Phosphorus   SCT  ^222^Radon   SCT  ^90^Strontium   SCT  ^106^Ruthenium   SCT  ^169^Ytterbium
+Brachytherapy Isotope
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1238"

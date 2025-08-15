@@ -2,7 +2,7 @@ ValueSet    : CID_6154
 Id          : dicom-cid-6154-EchoPattern
 Description :
 """
-From BI-RADS       Coding Scheme Designator Code Value Code Meaning DCM  Anechoic DCM  Hyperechoic DCM  Complex DCM  Hypoechoic DCM  Isoechoic
+From BI-RADS
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.469"

@@ -2,7 +2,7 @@ ValueSet    : CID_7199
 Id          : dicom-cid-7199-AnatomicallyLocalizedLesionSegmentationType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Lesion of Brain
+Anatomically Localized Lesion Segmentation Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1445"

@@ -2,7 +2,7 @@ ValueSet    : CID_10046
 Id          : dicom-cid-10046-GFRMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Glomerular Filtration Rate (MDRD)  LN  Glomerular Filtration Rate non-black (MDRD)  LN  Glomerular Filtration Rate black (MDRD)  LN  Glomerular Filtration Rate female (MDRD)  LN  Glomerular Filtration Rate Cystatin-based formula  LN  Glomerular Filtration Rate Creatinine-based formula (Schwartz)  LN  Cockroft-Gault Formula estimation of GFR  LN  CKD-EPI Formula estimation of GFR
+GFR Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.978"

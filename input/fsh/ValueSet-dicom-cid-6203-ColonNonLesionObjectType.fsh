@@ -2,7 +2,7 @@ ValueSet    : CID_6203
 Id          : dicom-cid-6203-ColonNonLesionObjectType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Bullet   SCT  Staple   SCT  Suture   SCT  Scar tissue   SCT  Catheter   DCM  Chest tube   SCT  Vena cava filter   SCT  Prosthesis   SCT  Jejunostomy tube   DCM  Kidney stent   SCT  Ureteral stent   DCM  Pancreatic stent   SCT  Jewelry   DCM  Coin   SCT  Pin   SCT  Needle   DCM  Fiducial mark   SCT  Stoma appliance   SCT  Colostomy bag   SCT  Ileostomy bag   SCT  Urostomy bag   SCT  Rectal tube   SCT  Urethral catheter   The use of Concepts for specific stoma appliances were previously included in this set, but having been inactivated by SNOMED without specific replacements, have been removed:
+The use of Concepts for specific stoma appliances were previously included in this set, but having been inactivated by SNOMED without specific replacements, have been removed:
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.790"

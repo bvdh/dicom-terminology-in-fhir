@@ -2,7 +2,7 @@ ValueSet    : CID_8136
 Id          : dicom-cid-8136-MicroscopyMeasurementType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Area
+Microscopy Measurement Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1366"

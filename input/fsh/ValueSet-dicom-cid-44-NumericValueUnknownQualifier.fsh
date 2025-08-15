@@ -2,7 +2,7 @@ ValueSet    : CID_44
 Id          : dicom-cid-44-NumericValueUnknownQualifier
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Measurement not attempted DCM  Value unknown DCM  Value indeterminate
+Numeric Value Unknown Qualifier
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1357"

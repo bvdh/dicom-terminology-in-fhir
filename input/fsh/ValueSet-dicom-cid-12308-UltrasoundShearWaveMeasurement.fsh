@@ -2,7 +2,7 @@ ValueSet    : CID_12308
 Id          : dicom-cid-12308-UltrasoundShearWaveMeasurement
 Description :
 """
-The Units column contains the proper UCUM representation of the recommended units for the measured property.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Units DCM  Shear Wave Speed   (m/s, UCUM, "m/s") DCM  Elasticity   (kPa, UCUM, "kPa") DCM  Shear Wave Dispersion Slope   (m/s/kHz, UCUM, "m/s/kHz") DCM  ROI Depth   (cm, UCUM, "cm") SCT  Area of defined region   (cm2, UCUM, "cm2")
+Ultrasound Shear Wave Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1411"

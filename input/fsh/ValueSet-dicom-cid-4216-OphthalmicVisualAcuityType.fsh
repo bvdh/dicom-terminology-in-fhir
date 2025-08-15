@@ -2,7 +2,7 @@ ValueSet    : CID_4216
 Id          : dicom-cid-4216-OphthalmicVisualAcuityType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Autorefraction Visual Acuity   DCM  Habitual Visual Acuity   DCM  Prescription Visual Acuity   SCT  Potential Acuity Meter Visual Acuity   SCT  Best Corrected Visual Acuity   SCT  Uncorrected Visual Acuity   SCT  Pinhole Visual Acuity   SCT  Brightness Acuity Testing Visual Acuity
+Ophthalmic Visual Acuity Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.802"

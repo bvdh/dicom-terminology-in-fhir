@@ -2,7 +2,7 @@ ValueSet    : CID_9401
 Id          : dicom-cid-9401-IEC61217DevicePositionParameter
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning
+IEC61217 Device Position Parameter
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1023"

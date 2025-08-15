@@ -2,7 +2,7 @@ ValueSet    : CID_3630
 Id          : dicom-cid-3630-CardiovascularAnatomicLocation
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning
+Cardiovascular Anatomic Location
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.175"

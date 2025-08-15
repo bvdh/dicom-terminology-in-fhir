@@ -2,7 +2,7 @@ ValueSet    : CID_1005
 Id          : dicom-cid-1005-AnatomicalReferenceBasisAbdomenPelvis
 Description :
 """
-The items in this Context Group are body structures in the abdomen and pelvis commonly used as a reference basis for imaging.       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Acetabulum   SCT  Adrenal gland   SCT  Common iliac artery bifurcation   SCT  Femoral head   SCT  Hip joint   SCT  Iliac Crest   SCT  Ischium   SCT  Kidney   SCT  Lesser trochanter   SCT  Liver   SCT  Pancreas   SCT  Sacrum   SCT  Symphysis pubis
+Anatomical Reference Basis - Abdomen/Pelvis
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1126"

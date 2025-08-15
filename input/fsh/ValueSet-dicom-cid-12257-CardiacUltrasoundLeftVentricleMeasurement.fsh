@@ -2,7 +2,7 @@ ValueSet    : CID_12257
 Id          : dicom-cid-12257-CardiacUltrasoundLeftVentricleMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID         SCT  Volume   LN  Interventricular Septum to Posterior Wall Thickness Ratio   SCT  Ratio of MV Peak Velocity to LV Peak Tissue Velocity E-Wave   LN  Left Ventricle Meridional Wall Stress   LN  Time to Left Ventricle S Tissue Velocity   LN  Time to Left Ventricle E Tissue Velocity   LN  Tissue Velocity Time Integral (VTI) for the area under Left Ventricle E wave   LN  Tissue Velocity Time Integral (VTI) for the area under Left Ventricle A wave   LN  Left Ventricle E to A Tissue Velocity Ratio   LN  Peak Tissue Velocity
+Cardiac Ultrasound Left Ventricle Measurement
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.838"

@@ -2,7 +2,7 @@ ValueSet    : CID_6072
 Id          : dicom-cid-6072-BreastImplantFinding
 Description :
 """
-These terms were obtained from BI-RADS       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Normal implants   DCM  Asymmetric implants   DCM  Calcified implant   DCM  Distorted implant   DCM  Silicone-laden lymph nodes   DCM  Free silicone   DCM  Herniated implant   SCT  Rupture of breast implant   DCM  Explantation
+These terms were obtained from BI-RADS
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.401"

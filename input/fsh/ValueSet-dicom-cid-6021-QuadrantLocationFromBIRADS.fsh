@@ -2,7 +2,7 @@ ValueSet    : CID_6021
 Id          : dicom-cid-6021-QuadrantLocationFromBIRADS
 Description :
 """
-From BI-RADS Third Edition (National Mammography Database, E97)       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Upper outer quadrant of breast   SCT  Upper inner quadrant of breast   SCT  Lower outer quadrant of breast   SCT  Lower inner quadrant of breast
+From BI-RADS Third Edition (National Mammography Database, E97)
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.351"

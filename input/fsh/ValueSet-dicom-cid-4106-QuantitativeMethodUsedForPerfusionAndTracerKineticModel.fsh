@@ -2,7 +2,7 @@ ValueSet    : CID_4106
 Id          : dicom-cid-4106-QuantitativeMethodUsedForPerfusionAndTracerKineti
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning       DCM  Model-free concentration-time quantitification Concepts from this Context Group may be used in measurement Templates to describe the measurement method of measurement on an ROI. E.g., NUM
+Concepts from this Context Group may be used in measurement Templates to describe the measurement method of measurement on an ROI. E.g., NUM
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.991"

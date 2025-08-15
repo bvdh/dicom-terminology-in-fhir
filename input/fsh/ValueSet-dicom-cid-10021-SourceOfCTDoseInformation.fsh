@@ -2,7 +2,7 @@ ValueSet    : CID_10021
 Id          : dicom-cid-10021-SourceOfCTDoseInformation
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Automated Data Collection DCM  Manual Entry DCM  Copied From Image Attributes DCM  Computed From Image Attributes DCM  Derived From Human-Readable Reports
+Source of CT Dose Information
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1055"

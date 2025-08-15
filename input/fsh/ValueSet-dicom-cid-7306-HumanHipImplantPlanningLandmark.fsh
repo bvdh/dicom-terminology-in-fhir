@@ -2,7 +2,7 @@ ValueSet    : CID_7306
 Id          : dicom-cid-7306-HumanHipImplantPlanningLandmark
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Anatomical axis of femur DCM  Acetabular Center of Rotation DCM  Femur Head Center of Rotation
+Human Hip Implant Planning Landmark
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1037"

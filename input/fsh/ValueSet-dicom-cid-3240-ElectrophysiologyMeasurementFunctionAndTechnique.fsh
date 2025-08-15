@@ -2,7 +2,7 @@ ValueSet    : CID_3240
 Id          : dicom-cid-3240-ElectrophysiologyMeasurementFunctionAndTechnique
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Differential signal DCM  His bundle electrogram DCM  Monopole signal DCM  Pacing (electrical) stimulus, voltage DCM  Radio frequency ablation, power DCM  Voltage measurement by basket catheter DCM  Voltage measurement by mapping catheter DCM  Voltage measurement
+Electrophysiology Measurement Function/Technique
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.53"

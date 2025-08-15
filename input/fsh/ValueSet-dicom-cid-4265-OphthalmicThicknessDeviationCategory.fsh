@@ -2,7 +2,7 @@ ValueSet    : CID_4265
 Id          : dicom-cid-4265-OphthalmicThicknessDeviationCategory
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  p>5% DCM  p<5% DCM  p<2% DCM  p<1% DCM  p<0.5%
+Ophthalmic Thickness Deviation Category
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.941"

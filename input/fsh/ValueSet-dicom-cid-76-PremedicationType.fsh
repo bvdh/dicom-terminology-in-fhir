@@ -2,7 +2,7 @@ ValueSet    : CID_76
 Id          : dicom-cid-76-PremedicationType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Pre-Medication DCM  Contrast Reaction Prophylactic Agent SCT  Sedative   SCT  Antiemetic
+Premedication Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1266"

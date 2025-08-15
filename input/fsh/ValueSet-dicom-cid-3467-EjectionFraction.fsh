@@ -2,7 +2,7 @@ ValueSet    : CID_3467
 Id          : dicom-cid-3467-EjectionFraction
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Left Ventricular Ejection Fraction by Angiography  LN  Right Ventricular Ejection Fraction by Angiography  DCM  Left Atrial Ejection Fraction by Angiography
+Ejection Fraction
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.109"

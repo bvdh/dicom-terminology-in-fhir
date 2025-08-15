@@ -2,7 +2,7 @@ ValueSet    : CID_4109
 Id          : dicom-cid-4109-ModelIndependentDynamicContrastAnalysisParameter
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID Units DCM  IAUC DT (mmol/l.s, UCUM, "mmol/l.s") DCM  IAUC60 DT (mmol/l.s, UCUM, "mmol/l.s") DCM  IAUC90 DT (mmol/l.s, UCUM, "mmol/l.s") DCM  IAUC180 DT (mmol/l.s, UCUM, "mmol/l.s") DCM  IAUCBN DT {normalized}, UCUM, "normalized" DCM  IAUC60BN DT {/AIF}, UCUM, "/AIF" DCM  IAUC90BN DT {/AIF}, UCUM, "/AIF" DCM  IAUC180BN DT {/AIF}, UCUM, "/AIF" DCM  Time of Peak Concentration DT (s, UCUM, "s") DCM  Time of Leading Half-Peak Concentration DT (s, UCUM, "s") DCM  Bolus Arrival Time DT (s, UCUM, "s") DCM  Time To Peak DT (s, UCUM, "s") DCM  Temporal Derivative Threshold  DCM  Maximum Slope  DCM  Maximum Difference  DCM  Tracer Concentration DT (mmol/l, UCUM, "mmol/l")  The type of contrast agent and the AIF used for blood normalization may or may not be post-coordinated. E.g., voxel-wise IAUC    E.g., an IAUC NUM >HAS CONCEPT MOD: CODE Note that the generic ROI measurement templates do not have the contrast/bolus agent as a parameter; this may be implicit from context, or inherited from the (
+AJR The type of contrast agent and the AIF used for blood normalization may or may not be post-coordinated. E.g., voxel-wise IAUC E.g., an IAUC NUM >HAS CONCEPT MOD: CODE Note that the generic ROI measurement templates do not have the contrast/bolus agent as a parameter; this may be implicit from context, or inherited from the (
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.994"

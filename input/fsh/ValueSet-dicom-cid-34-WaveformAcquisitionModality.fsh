@@ -2,7 +2,7 @@ ValueSet    : CID_34
 Id          : dicom-cid-34-WaveformAcquisitionModality
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Cardiac Electrophysiology DCM  Electrocardiography DCM  Electroencephalography DCM  Electromyography DCM  Electrooculography DCM  Hemodynamic DCM  Position Sensor DCM  Respiratory
+Waveform Acquisition Modality
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1495"

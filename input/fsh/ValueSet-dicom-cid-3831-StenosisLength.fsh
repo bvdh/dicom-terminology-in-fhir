@@ -2,7 +2,7 @@ ValueSet    : CID_3831
 Id          : dicom-cid-3831-StenosisLength
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  long   SCT  short
+Stenosis Length
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.282"

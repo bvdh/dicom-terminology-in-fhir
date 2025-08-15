@@ -2,7 +2,7 @@ ValueSet    : CID_3412
 Id          : dicom-cid-3412-InterventionActionStatus
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Guidewire crossing lesion unsuccessful DCM  Guidewire crossing lesion successful DCM  Angioplasty balloon inflated DCM  Angioplasty balloon deflated DCM  Device deployed DCM  Stent re-expanded DCM  Object removed DCM  Radiation applied DCM  Radiation removed DCM  Interventional device placement unsuccessful DCM  Interventional device placed DCM  Intervention performed DCM  Interventional device withdrawn
+Intervention Action/Status
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.77"

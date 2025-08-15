@@ -2,7 +2,7 @@ ValueSet    : CID_12207
 Id          : dicom-cid-12207-EchocardiographyMitralValveMeasurement
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID    LN  Mitral Valve A-Wave Peak Velocity   LN  Mitral Valve E-Wave Peak Velocity   LN  Mitral Valve E to A Ratio   SCT  Mitral Valve AT/DT Ratio   SCT  Mitral Valve E-Wave Deceleration Time   LN  Mitral Valve E-F Slope by M-Mode   LN  Mitral Valve EPSS, E wave   SCT  Mitral Valve A-Wave Duration   LN  Mitral Valve Diastolic Peak Instantaneous Gradient   SCT  Mitral Valve Closure to Opening Time   LN  Mitral Regurgitation dP/dt derived from Mitral Reg. velocity   This Context Group includes measurements of the left ventricle only. For right ventricle measurements, see
+This Context Group includes measurements of the left ventricle only. For right ventricle measurements, see
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.600"

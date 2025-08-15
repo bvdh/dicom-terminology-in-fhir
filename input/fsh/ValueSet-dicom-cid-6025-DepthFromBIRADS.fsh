@@ -2,7 +2,7 @@ ValueSet    : CID_6025
 Id          : dicom-cid-6025-DepthFromBIRADS
 Description :
 """
-From BI-RADS Third Edition (National Mammography Database, E99)       Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Anterior   NCIt  Middle   SCT  Posterior
+From BI-RADS Third Edition (National Mammography Database, E99)
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.355"

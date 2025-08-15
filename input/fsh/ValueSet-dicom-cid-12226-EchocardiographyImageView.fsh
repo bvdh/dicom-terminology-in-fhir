@@ -2,7 +2,7 @@ ValueSet    : CID_12226
 Id          : dicom-cid-12226-EchocardiographyImageView
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID   SCT  Apical two chamber   SCT  Apical four chamber   DCM  Apical four chamber RV Focused   DCM  Apical four chamber RV Modified   SCT  Apical long axis   SCT  Parasternal long axis   SCT  Parasternal long axis view of the RV inflow tract   SCT  Parasternal long axis view of the RV outflow tract   SCT  Parasternal short axis   SCT  Parasternal short axis at the aortic valve level   SCT  Parasternal short axis at the level of the mitral chords   SCT  Parasternal short axis at the Mitral Valve level   SCT  Parasternal short axis at the Papillary Muscle level   SCT  Right Ventricular Inflow Tract View   SCT  Right Ventricular Outflow Tract View   SCT  Subcostal long axis   SCT  Subcostal short axis   SCT  Suprasternal long axis   SCT  Suprasternal short axis   SCT  Transesophageal short axis view   SCT  Subcostal view of cardiac outlets directed anteriorly   SCT  Subcostal short axis view at papillary muscle level   SCT  Subcostal short axis view at mitral valve level   SCT  Subcostal short axis view at aortic valve level   SCT  Subcostal short axis view at venous inflow level   SCT  Subcostal oblique coronal view   SCT  Suprasternal coronal view   SCT  Suprasternal sagittal view   SCT  Suprasternal long axis view of aortic arch
+Echocardiography Image View
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.617"

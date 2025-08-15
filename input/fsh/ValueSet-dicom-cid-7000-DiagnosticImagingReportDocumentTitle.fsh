@@ -2,7 +2,7 @@ ValueSet    : CID_7000
 Id          : dicom-cid-7000-DiagnosticImagingReportDocumentTitle
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning UMLS Concept Unique ID LN  Cardiac Catheterization Report  LN  CT Abdomen Report  LN  CT Chest Report  LN  CT Head Report  LN  CT Report  LN  Diagnostic Imaging Report  LN  Echocardiography Report  DCM  Pediatric Cardiac Ultrasound Report  DCM  Fetal Cardiac Ultrasound Report  DCM  Adult Congenital Cardiac Ultrasound Report  DCM  Adult Echocardiography Procedure Report  LN  Ultrasound Report  LN  MRI Head Report  LN  MRI Report  LN  MRI Spine Report  LN  Nuclear Medicine Report  LN  Nuclear Medicine Thyroid Scan Report  LN  Ultrasound Obstetric and Gyn Report  LN  PET Scan Report  LN  Radiology Report  LN  Cardiac Electrophysiology Report  LN  ECG Report  LN  Exercise Stress Test Report  LN  Holter Study Report  LN  X-Ray Report  LN  DEXA Skeletal System Study Report  DCM  Breast Imaging Report  LN  Mammography Screening Report  LN  Fluoroscopy Study Report  LN  Diagnostic Interventional Radiology Report    This Context Group may be extended with any of the concepts included in LOINC group Deprecated LOINC codes were used in previous versions of this Context Group. See PS3.16 2020e.
+This Context Group may be extended with any of the concepts included in LOINC group Deprecated LOINC codes were used in previous versions of this Context Group. See PS3.16 2020e.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.481"

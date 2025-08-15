@@ -2,7 +2,7 @@ ValueSet    : CID_6166
 Id          : dicom-cid-6166-CADGeometrySecondaryGraphicalRepresentation
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Outline of lobulations   DCM  Inner limits of fuzzy margin   DCM  Outer limits of fuzzy margin   DCM  Outline of spiculations   DCM  Linear spiculation   DCM  Pixelated spiculations   SCT  Long axis   SCT  Short axis   DCM  Orthogonal location arc   DCM  Orthogonal location arc inner margin   DCM  Orthogonal location arc outer margin
+CAD Geometry Secondary Graphical Representation
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.480"

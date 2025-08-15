@@ -2,7 +2,7 @@ ValueSet    : CID_3452
 Id          : dicom-cid-3452-CalibrationMethod
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Geometric Isocenter DCM  Geometric Non-Isocenter DCM  Calibration Object Used
+Calibration Method
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.99"

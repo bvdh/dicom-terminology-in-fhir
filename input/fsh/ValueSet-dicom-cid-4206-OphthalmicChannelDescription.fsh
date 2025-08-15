@@ -2,7 +2,7 @@ ValueSet    : CID_4206
 Id          : dicom-cid-4206-OphthalmicChannelDescription
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Blue   SCT  Full Spectrum   SCT  Green   SCT  Infrared   SCT  Red   SCT  Red free   SCT  Ultraviolet
+Ophthalmic Channel Description
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.322"

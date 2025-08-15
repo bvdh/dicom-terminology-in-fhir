@@ -2,7 +2,7 @@ ValueSet    : CID_4240
 Id          : dicom-cid-4240-OphthalmicMeasurementorCalculationDataSource
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Measurement From This Device DCM  Manual Entry DCM  External Data Source DCM  Axial Measurements SOP Instance DCM  Refractive Measurements SOP Instance DCM  Autorefraction Measurements SOP Instance DCM  Keratometry Measurements SOP Instance
+Ophthalmic Measurement or Calculation Data Source
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.886"

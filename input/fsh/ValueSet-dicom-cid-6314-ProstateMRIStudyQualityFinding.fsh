@@ -2,7 +2,7 @@ ValueSet    : CID_6314
 Id          : dicom-cid-6314-ProstateMRIStudyQualityFinding
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Protocol not followed   DCM  Coil placement concern   DCM  Coil selection concern   DCM  Study performed did not match request   DCM  Incomplete study   DCM  Suboptimal patient preparation   RADLEX  Suboptimal patient positioning
+Prostate MRI Study Quality Finding
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1371"

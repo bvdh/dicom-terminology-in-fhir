@@ -2,7 +2,7 @@ ValueSet    : CID_3000
 Id          : dicom-cid-3000-AudioChannelSource
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Voice DCM  Operator's narrative DCM  Ambient room environment DCM  Doppler audio DCM  Phonocardiogram DCM  Physiological audio signal
+Audio Channel Source
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.42"

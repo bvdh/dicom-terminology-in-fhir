@@ -2,7 +2,7 @@ ValueSet    : CID_3423
 Id          : dicom-cid-3423-NumericDeviceCharacteristic
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Length   SCT  Diameter   DCM  Catheter Curve   DCM  Transmit Frequency   SCT  Volume   DCM  Inter-Marker Distance
+Numeric Device Characteristic
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.86"

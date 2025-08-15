@@ -2,7 +2,7 @@ ValueSet    : CID_3826
 Id          : dicom-cid-3826-HeartRhythm
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  normal sinus rhythm   SCT  atrial arrhythmia   SCT  ventricular arrhythmia
+Heart Rhythm
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.279"

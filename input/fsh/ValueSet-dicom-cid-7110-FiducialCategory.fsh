@@ -2,7 +2,7 @@ ValueSet    : CID_7110
 Id          : dicom-cid-7110-FiducialCategory
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Fiducial mark   SCT  Anatomical point   SCT  Body surface point   SCT  Body reference point marker
+Fiducial Category
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1132"

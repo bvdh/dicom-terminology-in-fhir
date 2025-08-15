@@ -2,7 +2,7 @@ ValueSet    : CID_3120
 Id          : dicom-cid-3120-PerfusionFinding
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Myocardial perfusion normal   SCT  Equivocal   SCT  Abnormal
+Perfusion Finding
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.752"

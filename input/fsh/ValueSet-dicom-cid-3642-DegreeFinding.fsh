@@ -2,7 +2,7 @@ ValueSet    : CID_3642
 Id          : dicom-cid-3642-DegreeFinding
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Decreased   SCT  Elevated   SCT  Severely Elevated   SCT  Normal Range
+Degree Finding
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.178"

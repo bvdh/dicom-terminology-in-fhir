@@ -2,7 +2,7 @@ ValueSet    : CID_7203
 Id          : dicom-cid-7203-ImageDerivation
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Lossy Compression DCM  Pixel by pixel addition DCM  Pixel by pixel division DCM  Pixel by pixel mask DCM  Pixel by pixel Maximum DCM  Pixel by pixel mean DCM  Metabolite Maps from spectroscopy data DCM  Pixel by pixel Minimum DCM  Pixel by pixel multiplication DCM  Pixel by pixel subtraction DCM  Multiplanar reformatting DCM  Curved multiplanar reformatting DCM  Volume rendering DCM  Surface rendering DCM  Segmentation DCM  Volume editing DCM  Maximum intensity projection DCM  Minimum intensity projection DCM  Spatial resampling DCM  Edge enhancement DCM  Smoothing DCM  Gaussian blur DCM  Unsharp mask DCM  Image stitching DCM  Spatially-related frames extracted from the volume DCM  Temporally-related frames extracted from the set of volumes DCM  Multi-energy proportional weighting DCM  Polar to Rectangular Scan Conversion DCM  Extraction of individual subject from group DCM  OCT B-scan analysis DCM  Perfusion image analysis DCM  Diffusion image analysis DCM  Diffusion tractography DCM  Deformed for Registration This Context Group contains relaively generic descriptions of image processing, e.g.,
+This Context Group contains relaively generic descriptions of image processing, e.g.,
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.510"

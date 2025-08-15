@@ -2,7 +2,7 @@ ValueSet    : CID_7448
 Id          : dicom-cid-7448-ThirdPersonPronounSet
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID LN  he/him/his/his/himself   LN  she/her/her/hers/herself   LN  they/them/their/theirs/themselves   These LOINC codes specifically reflect English pronouns and their usage. There are no translated Code Meanings for these codes.
+These LOINC codes specifically reflect English pronouns and their usage. There are no translated Code Meanings for these codes.
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1531"

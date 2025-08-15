@@ -2,7 +2,7 @@ ValueSet    : CID_7273
 Id          : dicom-cid-7273-MRDiffusionModel
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Mono-exponential diffusion model DCM  Bi-exponential (IVIM) diffusion model DCM  Kurtosis diffusion model DCM  Gamma distribution model DCM  Stretched exponential diffusion model DCM  Truncated Gaussian diffusion model
+MR Diffusion Model
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1168"

@@ -2,7 +2,7 @@ ValueSet    : CID_6116
 Id          : dicom-cid-6116-MuscularAnatomy
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  Chordae tendineae cordis   SCT  Deltoid muscle   SCT  Diaphragm   SCT  Erector spinae muscle   SCT  External intercostal muscle   SCT  Iliocostalis muscle   SCT  Infraspinatus muscle   SCT  Innermost intercostal muscles   SCT  Interatrial septum   SCT  Internal intercostal muscle   SCT  Interventricular septum   SCT  Latissimus dorsi muscle   SCT  Levatores costarum muscles   SCT  Longissimus muscle   SCT  Pectoralis major muscle   SCT  Pectoralis minor muscle   SCT  Scalenous anterior muscle   SCT  Serratus anterior muscle   SCT  Spinalis muscle   SCT  Sternocleidomastoid muscle   SCT  Subcostal muscle   SCT  Subscapularis muscle   SCT  Supraspinatus muscle   SCT  Teres major muscle   SCT  Teres minor muscle   SCT  Trabeculae carnae   SCT  Transversus thoracis   SCT  Trapezius muscle
+Muscular Anatomy
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.436"

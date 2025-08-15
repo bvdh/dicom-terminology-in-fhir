@@ -2,7 +2,7 @@ ValueSet    : CID_4011
 Id          : dicom-cid-4011-DXViewModifier
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID SCT  cephalad   SCT  caudad   SCT  transthoracic   SCT  transforamenal   SCT  transoral   SCT  transorbital   DCM  Crosstable   SCT  Mouth closed   In a prior version of this Context Group, the codes R-102C9, R-102CA, R-102CB, R-102CC, and R-102CE were specified for various concepts. Those codes are not actually in SNOMED, and their use in this context is deprecated. Although there is minimal possibility of misinterpretation with SOP Instances that may include the deprecated use, receiving applications should be aware of this change; see
+In a prior version of this Context Group, the codes R-102C9, R-102CA, R-102CB, R-102CC, and R-102CE were specified for various concepts. Those codes are not actually in SNOMED, and their use in this context is deprecated. Although there is minimal possibility of misinterpretation with SOP Instances that may include the deprecated use, receiving applications should be aware of this change; see
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.295"

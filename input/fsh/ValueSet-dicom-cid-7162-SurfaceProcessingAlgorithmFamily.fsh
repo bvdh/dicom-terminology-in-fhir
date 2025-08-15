@@ -2,7 +2,7 @@ ValueSet    : CID_7162
 Id          : dicom-cid-7162-SurfaceProcessingAlgorithmFamily
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Neighborhood Analysis DCM  Adaptive Filtering DCM  Edge Detection DCM  Morphological Operations DCM  Histogram Analysis DCM  Multi-Scale/Resolution Filtering DCM  Cluster Analysis DCM  Multispectral Processing DCM  Manual Processing DCM  Artificial Intelligence DCM  Deformable Models
+Surface Processing Algorithm Family
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.636"

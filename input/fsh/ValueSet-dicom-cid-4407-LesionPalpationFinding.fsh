@@ -2,7 +2,7 @@ ValueSet    : CID_4407
 Id          : dicom-cid-4407-LesionPalpationFinding
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning SNOMED-RT ID UMLS Concept Unique ID DCM  Firm skin lesion   DCM  Raised skin lesion   UMLS  Mobile skin lesion
+Lesion Palpation Finding
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1352"

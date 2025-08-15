@@ -2,7 +2,7 @@ ValueSet    : CID_4263
 Id          : dicom-cid-4263-OphthalmicThicknessMapValueType
 Description :
 """
-Coding Scheme Designator Code Value Code Meaning DCM  Absolute ophthalmic thickness DCM  Thickness deviation category from normative data DCM  Thickness deviation from normative data
+Ophthalmic Thickness Map Value Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.939"
