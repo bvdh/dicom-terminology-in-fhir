@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ImagingAgentAdministrationMode",
+  "id": "dicom-cid-63-ImagingAgentAdministrationMode",
+  "description": "Imaging Agent Administration Mode",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-63-ImagingAgentAdministrationMode",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1253"
+    }
+  ],
+  "version": "20181115",
+  "title": "Imaging Agent Administration Mode",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130173",
+            "display": "Automated Administration"
+          },
+          {
+            "code": "130174",
+            "display": "Manual Administration"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1000 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "InstitutionalDepartmentUnitService",
+  "id": "dicom-cid-7030-InstitutionalDepartmentUnitService",
+  "description": "In SNOMED, there is often a choice of unit, department or service concepts; in DICOM, the department concept is preferred and used in this Context Group.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7030-InstitutionalDepartmentUnitService",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.817"
+    }
+  ],
+  "version": "20160314",
+  "title": "Institutional Department/Unit/Service",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128170",
+            "display": "Abdominal Radiology"
+          },
+          {
+            "code": "128171",
+            "display": "Biomedical Engineering"
+          },
+          {
+            "code": "128172",
+            "display": "Cardiovascular Radiology"
+          },
+          {
+            "code": "128173",
+            "display": "Information Technology"
+          },
+          {
+            "code": "128174",
+            "display": "Medical Physics"
+          },
+          {
+            "code": "128175",
+            "display": "Musculoskeletal Radiology"
+          },
+          {
+            "code": "128177",
+            "display": "Pediatric Radiology"
+          },
+          {
+            "code": "128179",
+            "display": "Thoracic Radiology"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "225728007",
+            "display": "Accident and Emergency"
+          },
+          {
+            "code": "309913004",
+            "display": "Allergy and Immunology"
+          },
+          {
+            "code": "309901009",
+            "display": "Anesthesiology"
+          },
+          {
+            "code": "309914005",
+            "display": "Audiology"
+          },
+          {
+            "code": "309968000",
+            "display": "Breast Surgery"
+          },
+          {
+            "code": "426439001",
+            "display": "Burns Intensive Care"
+          },
+          {
+            "code": "309907008",
+            "display": "Cardiac Intensive Care"
+          },
+          {
+            "code": "309971008",
+            "display": "Cardiac Surgery"
+          },
+          {
+            "code": "309915006",
+            "display": "Cardiology"
+          },
+          {
+            "code": "309969008",
+            "display": "Cardiothoracic Surgery"
+          },
+          {
+            "code": "309959002",
+            "display": "Child and Adolescent Psychiatry"
+          },
+          {
+            "code": "310076001",
+            "display": "Clinical Biochemistry"
+          },
+          {
+            "code": "309902002",
+            "display": "Clinical Oncology"
+          },
+          {
+            "code": "309983005",
+            "display": "Colorectal Surgery"
+          },
+          {
+            "code": "310128004",
+            "display": "Computerized Tomography Service"
+          },
+          {
+            "code": "310200001",
+            "display": "Cytology"
+          },
+          {
+            "code": "309972001",
+            "display": "Dental Surgery"
+          },
+          {
+            "code": "309923008",
+            "display": "Dermatology"
+          },
+          {
+            "code": "441662001",
+            "display": "Diagnostic Imaging"
+          },
+          {
+            "code": "309979005",
+            "display": "Endocrine Surgery"
+          },
+          {
+            "code": "309925001",
+            "display": "Endocrinology"
+          },
+          {
+            "code": "310030000",
+            "display": "Endoscopy"
+          },
+          {
+            "code": "309980008",
+            "display": "Gastrointestinal Surgery"
+          },
+          {
+            "code": "309927009",
+            "display": "General Medicine"
+          },
+          {
+            "code": "309984004",
+            "display": "General Surgery"
+          },
+          {
+            "code": "309933000",
+            "display": "Geriatric Medicine"
+          },
+          {
+            "code": "309943002",
+            "display": "Gynecology"
+          },
+          {
+            "code": "309985003",
+            "display": "Hand Surgery"
+          },
+          {
+            "code": "309954007",
+            "display": "Hematology"
+          },
+          {
+            "code": "310158005",
+            "display": "Hepatobiliary Surgery"
+          },
+          {
+            "code": "441950002",
+            "display": "Histopathology"
+          },
+          {
+            "code": "309934006",
+            "display": "Infectious Disease"
+          },
+          {
+            "code": "309904001",
+            "display": "Intensive Care"
+          },
+          {
+            "code": "708174004",
+            "display": "Interventional Radiology Service"
+          },
+          {
+            "code": "310127009",
+            "display": "Magnetic Resonance Imaging Service"
+          },
+          {
+            "code": "441994008",
+            "display": "Medical Intensive Care"
+          },
+          {
+            "code": "309956009",
+            "display": "Medical Microbiology"
+          },
+          {
+            "code": "405269005",
+            "display": "Neonatal Intensive Care"
+          },
+          {
+            "code": "309936008",
+            "display": "Nephrology"
+          },
+          {
+            "code": "309937004",
+            "display": "Neurology"
+          },
+          {
+            "code": "310159002",
+            "display": "Neurosurgery"
+          },
+          {
+            "code": "309938009",
+            "display": "Nuclear Medicine"
+          },
+          {
+            "code": "309944008",
+            "display": "Obstetrics"
+          },
+          {
+            "code": "309942007",
+            "display": "Obstetrics and Gynecology"
+          },
+          {
+            "code": "309935007",
+            "display": "Ophthalmology"
+          },
+          {
+            "code": "310105000",
+            "display": "Optometry"
+          },
+          {
+            "code": "309974000",
+            "display": "Oral Surgery"
+          },
+          {
+            "code": "309989009",
+            "display": "Orthopedic Surgery"
+          },
+          {
+            "code": "309978002",
+            "display": "Otorhinolaryngology"
+          },
+          {
+            "code": "309949003",
+            "display": "Pain Management"
+          },
+          {
+            "code": "309939001",
+            "display": "Palliative Care"
+          },
+          {
+            "code": "309950003",
+            "display": "Pathology"
+          },
+          {
+            "code": "309910001",
+            "display": "Pediatric Intensive Care"
+          },
+          {
+            "code": "420223003",
+            "display": "Pediatric Medicine"
+          },
+          {
+            "code": "309948006",
+            "display": "Pediatric Oncology"
+          },
+          {
+            "code": "309991001",
+            "display": "Pediatric Surgery"
+          },
+          {
+            "code": "310464005",
+            "display": "Physiotherapy"
+          },
+          {
+            "code": "309992008",
+            "display": "Plastic Surgery"
+          },
+          {
+            "code": "441480003",
+            "display": "Primary Care Department"
+          },
+          {
+            "code": "309958005",
+            "display": "Psychiatry"
+          },
+          {
+            "code": "310123008",
+            "display": "Psychology"
+          },
+          {
+            "code": "309918008",
+            "display": "Pulmonology"
+          },
+          {
+            "code": "309964003",
+            "display": "Radiology"
+          },
+          {
+            "code": "309903007",
+            "display": "Radiotherapy"
+          },
+          {
+            "code": "309940004",
+            "display": "Rehabilitation"
+          },
+          {
+            "code": "309941000",
+            "display": "Rheumatology"
+          },
+          {
+            "code": "310101009",
+            "display": "Speech and Language Therapy"
+          },
+          {
+            "code": "309966001",
+            "display": "Stroke"
+          },
+          {
+            "code": "309967005",
+            "display": "Surgery"
+          },
+          {
+            "code": "418433008",
+            "display": "Surgical Intensive Care"
+          },
+          {
+            "code": "309970009",
+            "display": "Thoracic Surgery"
+          },
+          {
+            "code": "309993003",
+            "display": "Transplant Surgery"
+          },
+          {
+            "code": "309994009",
+            "display": "Trauma Surgery"
+          },
+          {
+            "code": "441548002",
+            "display": "Tropical Medicine"
+          },
+          {
+            "code": "310169008",
+            "display": "Ultrasonography"
+          },
+          {
+            "code": "309995005",
+            "display": "Urology"
+          },
+          {
+            "code": "309996006",
+            "display": "Vascular Surgery"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-300E3",
+            "display": "Accident and Emergency"
+          },
+          {
+            "code": "R-30246",
+            "display": "Allergy and Immunology"
+          },
+          {
+            "code": "R-3023A",
+            "display": "Anesthesiology"
+          },
+          {
+            "code": "R-30247",
+            "display": "Audiology"
+          },
+          {
+            "code": "R-3027F",
+            "display": "Breast Surgery"
+          },
+          {
+            "code": "R-3060E",
+            "display": "Burns Intensive Care"
+          },
+          {
+            "code": "R-30240",
+            "display": "Cardiac Intensive Care"
+          },
+          {
+            "code": "R-30282",
+            "display": "Cardiac Surgery"
+          },
+          {
+            "code": "R-30248",
+            "display": "Cardiology"
+          },
+          {
+            "code": "R-30280",
+            "display": "Cardiothoracic Surgery"
+          },
+          {
+            "code": "R-30276",
+            "display": "Child and Adolescent Psychiatry"
+          },
+          {
+            "code": "R-421EB",
+            "display": "Clinical Biochemistry"
+          },
+          {
+            "code": "R-3023B",
+            "display": "Clinical Oncology"
+          },
+          {
+            "code": "R-3028E",
+            "display": "Colorectal Surgery"
+          },
+          {
+            "code": "R-4221E",
+            "display": "Computerized Tomography Service"
+          },
+          {
+            "code": "R-4225D",
+            "display": "Cytology"
+          },
+          {
+            "code": "R-30283",
+            "display": "Dental Surgery"
+          },
+          {
+            "code": "R-30250",
+            "display": "Dermatology"
+          },
+          {
+            "code": "R-3061B",
+            "display": "Diagnostic Imaging"
+          },
+          {
+            "code": "R-3028A",
+            "display": "Endocrine Surgery"
+          },
+          {
+            "code": "R-30252",
+            "display": "Endocrinology"
+          },
+          {
+            "code": "R-421D4",
+            "display": "Endoscopy"
+          },
+          {
+            "code": "R-3028B",
+            "display": "Gastrointestinal Surgery"
+          },
+          {
+            "code": "R-30254",
+            "display": "General Medicine"
+          },
+          {
+            "code": "R-3028F",
+            "display": "General Surgery"
+          },
+          {
+            "code": "R-3025A",
+            "display": "Geriatric Medicine"
+          },
+          {
+            "code": "R-30264",
+            "display": "Gynecology"
+          },
+          {
+            "code": "R-30290",
+            "display": "Hand Surgery"
+          },
+          {
+            "code": "R-3026F",
+            "display": "Hematology"
+          },
+          {
+            "code": "R-4223B",
+            "display": "Hepatobiliary Surgery"
+          },
+          {
+            "code": "R-3061D",
+            "display": "Histopathology"
+          },
+          {
+            "code": "R-3025B",
+            "display": "Infectious Disease"
+          },
+          {
+            "code": "R-3023D",
+            "display": "Intensive Care"
+          },
+          {
+            "code": "R-FF0C4",
+            "display": "Interventional Radiology Service"
+          },
+          {
+            "code": "R-4221D",
+            "display": "Magnetic Resonance Imaging Service"
+          },
+          {
+            "code": "R-3061E",
+            "display": "Medical Intensive Care"
+          },
+          {
+            "code": "R-30270",
+            "display": "Medical Microbiology"
+          },
+          {
+            "code": "R-305CE",
+            "display": "Neonatal Intensive Care"
+          },
+          {
+            "code": "R-3025D",
+            "display": "Nephrology"
+          },
+          {
+            "code": "R-3025E",
+            "display": "Neurology"
+          },
+          {
+            "code": "R-4223C",
+            "display": "Neurosurgery"
+          },
+          {
+            "code": "R-3025F",
+            "display": "Nuclear Medicine"
+          },
+          {
+            "code": "R-30265",
+            "display": "Obstetrics"
+          },
+          {
+            "code": "R-30263",
+            "display": "Obstetrics and Gynecology"
+          },
+          {
+            "code": "R-3025C",
+            "display": "Ophthalmology"
+          },
+          {
+            "code": "R-42207",
+            "display": "Optometry"
+          },
+          {
+            "code": "R-30285",
+            "display": "Oral Surgery"
+          },
+          {
+            "code": "R-30294",
+            "display": "Orthopedic Surgery"
+          },
+          {
+            "code": "R-30289",
+            "display": "Otorhinolaryngology"
+          },
+          {
+            "code": "R-3026A",
+            "display": "Pain Management"
+          },
+          {
+            "code": "R-30260",
+            "display": "Palliative Care"
+          },
+          {
+            "code": "R-3026B",
+            "display": "Pathology"
+          },
+          {
+            "code": "R-30243",
+            "display": "Pediatric Intensive Care"
+          },
+          {
+            "code": "R-305EA",
+            "display": "Pediatric Medicine"
+          },
+          {
+            "code": "R-30269",
+            "display": "Pediatric Oncology"
+          },
+          {
+            "code": "R-30296",
+            "display": "Pediatric Surgery"
+          },
+          {
+            "code": "R-302A2",
+            "display": "Physiotherapy"
+          },
+          {
+            "code": "R-30297",
+            "display": "Plastic Surgery"
+          },
+          {
+            "code": "S-8000A",
+            "display": "Primary Care Department"
+          },
+          {
+            "code": "R-30275",
+            "display": "Psychiatry"
+          },
+          {
+            "code": "R-42219",
+            "display": "Psychology"
+          },
+          {
+            "code": "R-3024B",
+            "display": "Pulmonology"
+          },
+          {
+            "code": "R-3027B",
+            "display": "Radiology"
+          },
+          {
+            "code": "R-3023C",
+            "display": "Radiotherapy"
+          },
+          {
+            "code": "R-30261",
+            "display": "Rehabilitation"
+          },
+          {
+            "code": "R-30262",
+            "display": "Rheumatology"
+          },
+          {
+            "code": "R-42203",
+            "display": "Speech and Language Therapy"
+          },
+          {
+            "code": "R-3027D",
+            "display": "Stroke"
+          },
+          {
+            "code": "R-3027E",
+            "display": "Surgery"
+          },
+          {
+            "code": "R-305EB",
+            "display": "Surgical Intensive Care"
+          },
+          {
+            "code": "R-30281",
+            "display": "Thoracic Surgery"
+          },
+          {
+            "code": "R-30298",
+            "display": "Transplant Surgery"
+          },
+          {
+            "code": "R-30299",
+            "display": "Trauma Surgery"
+          },
+          {
+            "code": "R-30616",
+            "display": "Tropical Medicine"
+          },
+          {
+            "code": "R-42246",
+            "display": "Ultrasonography"
+          },
+          {
+            "code": "R-3029A",
+            "display": "Urology"
+          },
+          {
+            "code": "R-3029B",
+            "display": "Vascular Surgery"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0562508",
+            "display": "Accident and Emergency"
+          },
+          {
+            "code": "C0587451",
+            "display": "Allergy and Immunology"
+          },
+          {
+            "code": "C0002907",
+            "display": "Anesthesiology"
+          },
+          {
+            "code": "C0587452",
+            "display": "Audiology"
+          },
+          {
+            "code": "C0587504",
+            "display": "Breast Surgery"
+          },
+          {
+            "code": "C1959926",
+            "display": "Burns Intensive Care"
+          },
+          {
+            "code": "C0587446",
+            "display": "Cardiac Intensive Care"
+          },
+          {
+            "code": "C0587507",
+            "display": "Cardiac Surgery"
+          },
+          {
+            "code": "C0587453",
+            "display": "Cardiology"
+          },
+          {
+            "code": "C0587505",
+            "display": "Cardiothoracic Surgery"
+          },
+          {
+            "code": "C0587495",
+            "display": "Child and Adolescent Psychiatry"
+          },
+          {
+            "code": "C0587609",
+            "display": "Clinical Biochemistry"
+          },
+          {
+            "code": "C0587443",
+            "display": "Clinical Oncology"
+          },
+          {
+            "code": "C0587519",
+            "display": "Colorectal Surgery"
+          },
+          {
+            "code": "C0587659",
+            "display": "Computerized Tomography Service"
+          },
+          {
+            "code": "C0587725",
+            "display": "Cytology"
+          },
+          {
+            "code": "C0587508",
+            "display": "Dental Surgery"
+          },
+          {
+            "code": "C0587461",
+            "display": "Dermatology"
+          },
+          {
+            "code": "C2711258",
+            "display": "Diagnostic Imaging"
+          },
+          {
+            "code": "C0587515",
+            "display": "Endocrine Surgery"
+          },
+          {
+            "code": "C0587463",
+            "display": "Endocrinology"
+          },
+          {
+            "code": "C0587565",
+            "display": "Endoscopy"
+          },
+          {
+            "code": "C0587516",
+            "display": "Gastrointestinal Surgery"
+          },
+          {
+            "code": "C0587465",
+            "display": "General Medicine"
+          },
+          {
+            "code": "C0587520",
+            "display": "General Surgery"
+          },
+          {
+            "code": "C0587471",
+            "display": "Geriatric Medicine"
+          },
+          {
+            "code": "C0587481",
+            "display": "Gynecology"
+          },
+          {
+            "code": "C0587521",
+            "display": "Hand Surgery"
+          },
+          {
+            "code": "C0587491",
+            "display": "Hematology"
+          },
+          {
+            "code": "C0587687",
+            "display": "Hepatobiliary Surgery"
+          },
+          {
+            "code": "C2711413",
+            "display": "Histopathology"
+          },
+          {
+            "code": "C0587472",
+            "display": "Infectious Disease"
+          },
+          {
+            "code": "C0021708",
+            "display": "Intensive Care"
+          },
+          {
+            "code": "C3872675",
+            "display": "Interventional Radiology Service"
+          },
+          {
+            "code": "C0587658",
+            "display": "Magnetic Resonance Imaging Service"
+          },
+          {
+            "code": "C2711734",
+            "display": "Medical Intensive Care"
+          },
+          {
+            "code": "C0587492",
+            "display": "Medical Microbiology"
+          },
+          {
+            "code": "C0021709",
+            "display": "Neonatal Intensive Care"
+          },
+          {
+            "code": "C0587474",
+            "display": "Nephrology"
+          },
+          {
+            "code": "C0587475",
+            "display": "Neurology"
+          },
+          {
+            "code": "C2183225",
+            "display": "Neuroradiology"
+          },
+          {
+            "code": "C0587688",
+            "display": "Neurosurgery"
+          },
+          {
+            "code": "C0587476",
+            "display": "Nuclear Medicine"
+          },
+          {
+            "code": "C0028775",
+            "display": "Obstetrics"
+          },
+          {
+            "code": "C0587480",
+            "display": "Obstetrics and Gynecology"
+          },
+          {
+            "code": "C0587473",
+            "display": "Ophthalmology"
+          },
+          {
+            "code": "C0587638",
+            "display": "Optometry"
+          },
+          {
+            "code": "C0587510",
+            "display": "Oral Surgery"
+          },
+          {
+            "code": "C0587525",
+            "display": "Orthopedic Surgery"
+          },
+          {
+            "code": "C0587514",
+            "display": "Otorhinolaryngology"
+          },
+          {
+            "code": "C0587486",
+            "display": "Pain Management"
+          },
+          {
+            "code": "C0587477",
+            "display": "Palliative Care"
+          },
+          {
+            "code": "C0587487",
+            "display": "Pathology"
+          },
+          {
+            "code": "C0021710",
+            "display": "Pediatric Intensive Care"
+          },
+          {
+            "code": "C1628316",
+            "display": "Pediatric Medicine"
+          },
+          {
+            "code": "C0587485",
+            "display": "Pediatric Oncology"
+          },
+          {
+            "code": "C0587527",
+            "display": "Pediatric Surgery"
+          },
+          {
+            "code": "C0587975",
+            "display": "Physiotherapy"
+          },
+          {
+            "code": "C0587528",
+            "display": "Plastic Surgery"
+          },
+          {
+            "code": "C2711449",
+            "display": "Primary Care Department"
+          },
+          {
+            "code": "C0587494",
+            "display": "Psychiatry"
+          },
+          {
+            "code": "C0587654",
+            "display": "Psychology"
+          },
+          {
+            "code": "C0587456",
+            "display": "Pulmonology"
+          },
+          {
+            "code": "C0587500",
+            "display": "Radiology"
+          },
+          {
+            "code": "C0587444",
+            "display": "Radiotherapy"
+          },
+          {
+            "code": "C0587478",
+            "display": "Rehabilitation"
+          },
+          {
+            "code": "C0587479",
+            "display": "Rheumatology"
+          },
+          {
+            "code": "C0587634",
+            "display": "Speech and Language Therapy"
+          },
+          {
+            "code": "C0587502",
+            "display": "Stroke"
+          },
+          {
+            "code": "C0587503",
+            "display": "Surgery"
+          },
+          {
+            "code": "C1690590",
+            "display": "Surgical Intensive Care"
+          },
+          {
+            "code": "C0587506",
+            "display": "Thoracic Surgery"
+          },
+          {
+            "code": "C0587529",
+            "display": "Transplant Surgery"
+          },
+          {
+            "code": "C0587530",
+            "display": "Trauma Surgery"
+          },
+          {
+            "code": "C2711407",
+            "display": "Tropical Medicine"
+          },
+          {
+            "code": "C0587698",
+            "display": "Ultrasonography"
+          },
+          {
+            "code": "C0587531",
+            "display": "Urology"
+          },
+          {
+            "code": "C0587532",
+            "display": "Vascular Surgery"
+          }
+        ]
+      }
+    ]
+  }
+}

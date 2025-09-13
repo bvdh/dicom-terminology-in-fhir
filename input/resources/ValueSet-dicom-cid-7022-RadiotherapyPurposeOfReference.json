@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiotherapyPurposeOfReference",
+  "id": "dicom-cid-7022-RadiotherapyPurposeOfReference",
+  "description": "Radiotherapy Purpose of Reference",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7022-RadiotherapyPurposeOfReference",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1115"
+    }
+  ],
+  "version": "20240616",
+  "title": "Radiotherapy Purpose of Reference",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121310",
+            "display": "RT treatment plan for the position being verified"
+          },
+          {
+            "code": "129210",
+            "display": "Registration used in Planning"
+          },
+          {
+            "code": "129211",
+            "display": "Registration created during Treatment"
+          },
+          {
+            "code": "129212",
+            "display": "Dose from prior Treatment"
+          }
+        ]
+      }
+    ]
+  }
+}

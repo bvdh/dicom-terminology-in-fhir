@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "TimeSynchronizationChannelType",
+  "id": "dicom-cid-3090-TimeSynchronizationChannelType",
+  "description": "Time Synchronization Channel Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3090-TimeSynchronizationChannelType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.51"
+    }
+  ],
+  "version": "20020904",
+  "title": "Time Synchronization Channel Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "109001",
+            "display": "Digital timecode (NOS)"
+          },
+          {
+            "code": "109002",
+            "display": "ECG-based gating signal, processed"
+          },
+          {
+            "code": "109003",
+            "display": "IRIG-B timecode"
+          },
+          {
+            "code": "109004",
+            "display": "X-Ray Fluoroscopy On Signal"
+          },
+          {
+            "code": "109005",
+            "display": "X-Ray On Trigger"
+          }
+        ]
+      }
+    ]
+  }
+}

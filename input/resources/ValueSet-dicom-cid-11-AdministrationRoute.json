@@ -1,0 +1,321 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AdministrationRoute",
+  "id": "dicom-cid-11-AdministrationRoute",
+  "description": "Administration Route",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-11-AdministrationRoute",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.9"
+    }
+  ],
+  "version": "20240611",
+  "title": "Administration Route",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "47625008",
+            "display": "Intravenous route"
+          },
+          {
+            "code": "58100008",
+            "display": "Intra-arterial route"
+          },
+          {
+            "code": "78421000",
+            "display": "Intramuscular route"
+          },
+          {
+            "code": "34206005",
+            "display": "Subcutaneous route"
+          },
+          {
+            "code": "372464004",
+            "display": "Intracutaneous route"
+          },
+          {
+            "code": "38239002",
+            "display": "Intraperitoneal route"
+          },
+          {
+            "code": "60213007",
+            "display": "Intramedullary route"
+          },
+          {
+            "code": "72607000",
+            "display": "Intrathecal route"
+          },
+          {
+            "code": "12130007",
+            "display": "Intra-articular route"
+          },
+          {
+            "code": "6064005",
+            "display": "Topical route"
+          },
+          {
+            "code": "26643006",
+            "display": "Oral route"
+          },
+          {
+            "code": "37737002",
+            "display": "Intraluminal route"
+          },
+          {
+            "code": "446406008",
+            "display": "By inhalation"
+          },
+          {
+            "code": "37161004",
+            "display": "Per rectum"
+          },
+          {
+            "code": "16857009",
+            "display": "Vaginal route"
+          },
+          {
+            "code": "372463005",
+            "display": "Intracoronary route"
+          },
+          {
+            "code": "372460008",
+            "display": "Intracardiac route"
+          },
+          {
+            "code": "420287000",
+            "display": "Intraventricular route - cardiac"
+          },
+          {
+            "code": "46713006",
+            "display": "Nasal route"
+          },
+          {
+            "code": "447122006",
+            "display": "Intratumor route"
+          },
+          {
+            "code": "1259221004",
+            "display": "Intracorpus cavernosum route"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-D101",
+            "display": "Intravenous route"
+          },
+          {
+            "code": "G-D102",
+            "display": "Intra-arterial route"
+          },
+          {
+            "code": "G-D103",
+            "display": "Intramuscular route"
+          },
+          {
+            "code": "G-D104",
+            "display": "Subcutaneous route"
+          },
+          {
+            "code": "G-D17D",
+            "display": "Intracutaneous route"
+          },
+          {
+            "code": "G-D106",
+            "display": "Intraperitoneal route"
+          },
+          {
+            "code": "G-D107",
+            "display": "Intramedullary route"
+          },
+          {
+            "code": "G-D108",
+            "display": "Intrathecal route"
+          },
+          {
+            "code": "G-D109",
+            "display": "Intra-articular route"
+          },
+          {
+            "code": "G-D112",
+            "display": "Topical route"
+          },
+          {
+            "code": "G-D140",
+            "display": "Oral route"
+          },
+          {
+            "code": "G-D144",
+            "display": "Intraluminal route"
+          },
+          {
+            "code": "R-40B32",
+            "display": "By inhalation"
+          },
+          {
+            "code": "G-D160",
+            "display": "Per rectum"
+          },
+          {
+            "code": "G-D164",
+            "display": "Vaginal route"
+          },
+          {
+            "code": "G-D17C",
+            "display": "Intracoronary route"
+          },
+          {
+            "code": "G-D173",
+            "display": "Intracardiac route"
+          },
+          {
+            "code": "R-F2C86",
+            "display": "Intraventricular route - cardiac"
+          },
+          {
+            "code": "G-D172",
+            "display": "Nasal route"
+          },
+          {
+            "code": "R-F2CD4",
+            "display": "Intratumor route"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1522726",
+            "display": "Intravenous route"
+          },
+          {
+            "code": "C1561451",
+            "display": "Intra-arterial route"
+          },
+          {
+            "code": "C1556154",
+            "display": "Intramuscular route"
+          },
+          {
+            "code": "C1522438",
+            "display": "Subcutaneous route"
+          },
+          {
+            "code": "C1522475",
+            "display": "Intracutaneous route"
+          },
+          {
+            "code": "C1522583",
+            "display": "Intraperitoneal route"
+          },
+          {
+            "code": "C1512957",
+            "display": "Intramedullary route"
+          },
+          {
+            "code": "C0677897",
+            "display": "Intrathecal route"
+          },
+          {
+            "code": "C0205528",
+            "display": "Intra-articular route"
+          },
+          {
+            "code": "C1512943",
+            "display": "Intraepithelial route"
+          },
+          {
+            "code": "C1522168",
+            "display": "Topical route"
+          },
+          {
+            "code": "C1527415",
+            "display": "Oral route"
+          },
+          {
+            "code": "C1522231",
+            "display": "Transluminal route"
+          },
+          {
+            "code": "C1522217",
+            "display": "Intraluminal route"
+          },
+          {
+            "code": "C1517059",
+            "display": "Extraluminal route"
+          },
+          {
+            "code": "C1998547",
+            "display": "By inhalation"
+          },
+          {
+            "code": "C1527425",
+            "display": "Per rectum"
+          },
+          {
+            "code": "C1522570",
+            "display": "Vaginal route"
+          },
+          {
+            "code": "C0595454",
+            "display": "Intracoronary route"
+          },
+          {
+            "code": "C1522207",
+            "display": "Intracardiac route"
+          },
+          {
+            "code": "C1720462",
+            "display": "Intraventricular route - cardiac"
+          },
+          {
+            "code": "C1522019",
+            "display": "Nasal route"
+          },
+          {
+            "code": "C2960749",
+            "display": "Intratumor route"
+          },
+          {
+            "code": "C2959571",
+            "display": "Intracorpus cavernosum route"
+          }
+        ]
+      },
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "concept": [
+          {
+            "code": "C38244",
+            "display": "Intraepithelial route"
+          },
+          {
+            "code": "C38306",
+            "display": "Transluminal route"
+          },
+          {
+            "code": "C38213",
+            "display": "Extraluminal route"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "127070",
+            "display": "Retro-orbital route"
+          }
+        ]
+      }
+    ]
+  }
+}

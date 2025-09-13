@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ChestOpacityDescriptor",
+  "id": "dicom-cid-6123-ChestOpacityDescriptor",
+  "description": "Original source of terms is [Fraser and Pare].",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6123-ChestOpacityDescriptor",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.443"
+    }
+  ],
+  "version": "20030108",
+  "title": "Chest Opacity Descriptor",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112146",
+            "display": "Acinar"
+          },
+          {
+            "code": "112147",
+            "display": "Air space"
+          },
+          {
+            "code": "112148",
+            "display": "Fibronodular"
+          },
+          {
+            "code": "112149",
+            "display": "Fluffy"
+          },
+          {
+            "code": "112150",
+            "display": "Linear"
+          },
+          {
+            "code": "112151",
+            "display": "Profusion"
+          },
+          {
+            "code": "112152",
+            "display": "Silhouette sign"
+          }
+        ]
+      }
+    ]
+  }
+}

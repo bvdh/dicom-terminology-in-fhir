@@ -1,0 +1,203 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "FamilyMember",
+  "id": "dicom-cid-7451-FamilyMember",
+  "description": "Family Member",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7451-FamilyMember",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.515"
+    }
+  ],
+  "version": "20040112",
+  "title": "Family Member",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "65656005",
+            "display": "Natural mother"
+          },
+          {
+            "code": "9947008",
+            "display": "Natural father"
+          },
+          {
+            "code": "73678001",
+            "display": "Natural sister"
+          },
+          {
+            "code": "60614009",
+            "display": "Natural brother"
+          },
+          {
+            "code": "25211005",
+            "display": "Aunt"
+          },
+          {
+            "code": "38048003",
+            "display": "Uncle"
+          },
+          {
+            "code": "2272004",
+            "display": "Half-sister"
+          },
+          {
+            "code": "45929001",
+            "display": "Half-brother"
+          },
+          {
+            "code": "17945006",
+            "display": "Natural grand-mother"
+          },
+          {
+            "code": "62296006",
+            "display": "Natural grand-father"
+          },
+          {
+            "code": "83420006",
+            "display": "Natural daughter"
+          },
+          {
+            "code": "113160008",
+            "display": "Natural son"
+          },
+          {
+            "code": "270002",
+            "display": "Female first cousin"
+          },
+          {
+            "code": "11993008",
+            "display": "Male first cousin"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "S-10121",
+            "display": "Natural mother"
+          },
+          {
+            "code": "S-10131",
+            "display": "Natural father"
+          },
+          {
+            "code": "S-10151",
+            "display": "Natural sister"
+          },
+          {
+            "code": "S-10161",
+            "display": "Natural brother"
+          },
+          {
+            "code": "S-101A1",
+            "display": "Aunt"
+          },
+          {
+            "code": "S-101A2",
+            "display": "Uncle"
+          },
+          {
+            "code": "S-10154",
+            "display": "Half-sister"
+          },
+          {
+            "code": "S-10164",
+            "display": "Half-brother"
+          },
+          {
+            "code": "S-10115",
+            "display": "Natural grand-mother"
+          },
+          {
+            "code": "S-10116",
+            "display": "Natural grand-father"
+          },
+          {
+            "code": "S-10181",
+            "display": "Natural daughter"
+          },
+          {
+            "code": "S-10191",
+            "display": "Natural son"
+          },
+          {
+            "code": "S-101A9",
+            "display": "Female first cousin"
+          },
+          {
+            "code": "S-101AA",
+            "display": "Male first cousin"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0337486",
+            "display": "Natural mother"
+          },
+          {
+            "code": "C0337494",
+            "display": "Natural father"
+          },
+          {
+            "code": "C0337515",
+            "display": "Natural sister"
+          },
+          {
+            "code": "C0337528",
+            "display": "Natural brother"
+          },
+          {
+            "code": "C0337576",
+            "display": "Aunt"
+          },
+          {
+            "code": "C0337577",
+            "display": "Uncle"
+          },
+          {
+            "code": "C0337518",
+            "display": "Half-sister"
+          },
+          {
+            "code": "C0337531",
+            "display": "Half-brother"
+          },
+          {
+            "code": "C0337476",
+            "display": "Natural grand-mother"
+          },
+          {
+            "code": "C0337477",
+            "display": "Natural grand-father"
+          },
+          {
+            "code": "C0337552",
+            "display": "Natural daughter"
+          },
+          {
+            "code": "C0337564",
+            "display": "Natural son"
+          },
+          {
+            "code": "C0337584",
+            "display": "Female first cousin"
+          },
+          {
+            "code": "C0337585",
+            "display": "Male first cousin"
+          }
+        ]
+      }
+    ]
+  }
+}

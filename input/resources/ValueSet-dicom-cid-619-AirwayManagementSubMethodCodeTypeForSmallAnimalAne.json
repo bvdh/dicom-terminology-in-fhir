@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AirwayManagementSubMethodCodeTypeForSmallAnimalAnesthesia",
+  "id": "dicom-cid-619-AirwayManagementSubMethodCodeTypeForSmallAnimalAne",
+  "description": "Airway Management Sub-Method Code Type for Small Animal Anesthesia",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-619-AirwayManagementSubMethodCodeTypeForSmallAnimalAne",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1084"
+    }
+  ],
+  "version": "20151110",
+  "title": "Airway Management Sub-Method Code Type for Small Animal Anesthesia",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-620-AirwayManagementSubMethodCodeTypeFromAnesthesiaQua"
+        ]
+      }
+    ]
+  }
+}

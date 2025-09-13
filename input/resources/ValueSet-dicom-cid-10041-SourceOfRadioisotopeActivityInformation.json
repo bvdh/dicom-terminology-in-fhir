@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SourceOfRadioisotopeActivityInformation",
+  "id": "dicom-cid-10041-SourceOfRadioisotopeActivityInformation",
+  "description": "Source of Radioisotope Activity Information",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10041-SourceOfRadioisotopeActivityInformation",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.973"
+    }
+  ],
+  "version": "20140419",
+  "title": "Source of Radioisotope Activity Information",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113541",
+            "display": "Dose Calibrator"
+          },
+          {
+            "code": "113542",
+            "display": "Infusion System"
+          },
+          {
+            "code": "113543",
+            "display": "Radioisotope Generator"
+          }
+        ]
+      }
+    ]
+  }
+}

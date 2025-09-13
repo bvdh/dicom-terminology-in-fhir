@@ -1,0 +1,2105 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DermatologyAnatomicSite",
+  "id": "dicom-cid-4029-DermatologyAnatomicSite",
+  "description": "It is desirable to use more general standard Coding Schemes such as SNOMED CT whenever possible, to support interoperability across specialist domains, yet the numeric codes from the NYU and Mayo systems are well known to dermatologists. Multiple codes may be encoded in the image by using the equivalent code mechansism. See SNOMED CT and FMA \"skin of\" or \"mucosa of\" specific concepts are used here when available, rather than the more generic underlying organ or part concepts; this sacrifices commonality with the anatomic regions used for more general applications, but is appropriate for dermatologic applications. E.g., The DICOM convention is to use \"structure of\" concepts rather than \"entire\" concepts when both are defined, and that convention is followed here. E.g., The illustrations of the NYU anatomy identify two separately numbered structures associated with the female urethral orifice; it is not clear what separate structure is identified (perhaps Skene's Glands The illustrations of the NYU anatomy use female genitalia to show the genitocrural fold, but it is believed that the intent is to identify the region irrespective of sex, so There is some uncertainty regarding the distinction between the antitragus and the intertragal incisure and whether the latter is represented at all in the NYU and Mayo drawings. The more recent mapping decision of There is some uncertainty regarding the distinction between the skin of the forehead and the frontal region of the scalp; Laterality is pre-coordinated in most of the NYU and Mayo codes, but by convention is factored out and encoded seperately in DICOM. The appropriate modifiers are listed in No distinction is made between the eyebrow and the supraorbital area, which SNOMED CT now considers equivalent.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4029-DermatologyAnatomicSite",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1268"
+    }
+  ],
+  "version": "20240913",
+  "title": "Dermatology Anatomic Site",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "182329002",
+            "display": "Anterior triangle of neck"
+          },
+          {
+            "code": "28726007",
+            "display": "Cornea"
+          },
+          {
+            "code": "85803001",
+            "display": "Eyelash"
+          },
+          {
+            "code": "279479008",
+            "display": "Female external urethral orifice"
+          },
+          {
+            "code": "279867004",
+            "display": "Frenulum of labia minora"
+          },
+          {
+            "code": "280387007",
+            "display": "Groin skin crease"
+          },
+          {
+            "code": "386045008",
+            "display": "Hair"
+          },
+          {
+            "code": "41296002",
+            "display": "Iris"
+          },
+          {
+            "code": "279478000",
+            "display": "Male external urethral orifice"
+          },
+          {
+            "code": "36152006",
+            "display": "Mucosa of floor of mouth"
+          },
+          {
+            "code": "46353006",
+            "display": "Mucosa of lower lip"
+          },
+          {
+            "code": "245823002",
+            "display": "Mucosa of mandibular gingiva"
+          },
+          {
+            "code": "245814000",
+            "display": "Mucosa of maxillary gingiva"
+          },
+          {
+            "code": "245831007",
+            "display": "Mucosa of tip of tongue"
+          },
+          {
+            "code": "8001006",
+            "display": "Mucosa of tongue"
+          },
+          {
+            "code": "18444004",
+            "display": "Mucosa of upper lip"
+          },
+          {
+            "code": "770820003",
+            "display": "Nail unit of fifth toe"
+          },
+          {
+            "code": "770809003",
+            "display": "Nail unit of finger"
+          },
+          {
+            "code": "770821004",
+            "display": "Nail unit of fourth toe"
+          },
+          {
+            "code": "770822006",
+            "display": "Nail unit of great toe"
+          },
+          {
+            "code": "770815003",
+            "display": "Nail unit of index finger"
+          },
+          {
+            "code": "770818001",
+            "display": "Nail unit of little finger"
+          },
+          {
+            "code": "770816002",
+            "display": "Nail unit of middle finger"
+          },
+          {
+            "code": "770817006",
+            "display": "Nail unit of ring finger"
+          },
+          {
+            "code": "770823001",
+            "display": "Nail unit of second toe"
+          },
+          {
+            "code": "770825008",
+            "display": "Nail unit of third toe"
+          },
+          {
+            "code": "770810008",
+            "display": "Nail unit of thumb"
+          },
+          {
+            "code": "770805009",
+            "display": "Nail unit of toe"
+          },
+          {
+            "code": "113277000",
+            "display": "Oral mucosa"
+          },
+          {
+            "code": "4019005",
+            "display": "Posterior commissure of labium majorum"
+          },
+          {
+            "code": "5665001",
+            "display": "Retina"
+          },
+          {
+            "code": "18619003",
+            "display": "Sclera"
+          },
+          {
+            "code": "39937001",
+            "display": "Skin"
+          },
+          {
+            "code": "75093004",
+            "display": "Skin of abdomen"
+          },
+          {
+            "code": "68598004",
+            "display": "Skin of ala nasi"
+          },
+          {
+            "code": "17957002",
+            "display": "Skin of antecubital fossa"
+          },
+          {
+            "code": "11584001",
+            "display": "Skin of anterior portion of neck"
+          },
+          {
+            "code": "70559009",
+            "display": "Skin of anterior surface of forearm"
+          },
+          {
+            "code": "181553006",
+            "display": "Skin of anterior surface of knee"
+          },
+          {
+            "code": "25763004",
+            "display": "Skin of anterior surface of lower leg"
+          },
+          {
+            "code": "61248009",
+            "display": "Skin of anterior surface of thigh"
+          },
+          {
+            "code": "244106003",
+            "display": "Skin of anterior surface of thorax"
+          },
+          {
+            "code": "45981001",
+            "display": "Skin of anterior surface of upper arm"
+          },
+          {
+            "code": "181491009",
+            "display": "Skin of anterior trunk"
+          },
+          {
+            "code": "38407007",
+            "display": "Skin of antitragus"
+          },
+          {
+            "code": "59112000",
+            "display": "Skin of anus"
+          },
+          {
+            "code": "72005009",
+            "display": "Skin of areola"
+          },
+          {
+            "code": "76261009",
+            "display": "Skin of axilla"
+          },
+          {
+            "code": "66643007",
+            "display": "Skin of back"
+          },
+          {
+            "code": "699893008",
+            "display": "Skin of back of upper thoracic region"
+          },
+          {
+            "code": "82038008",
+            "display": "Skin of breast"
+          },
+          {
+            "code": "22180002",
+            "display": "Skin of buttock"
+          },
+          {
+            "code": "51098001",
+            "display": "Skin of cavity of concha"
+          },
+          {
+            "code": "36141000",
+            "display": "Skin of cheek"
+          },
+          {
+            "code": "23747009",
+            "display": "Skin of chin"
+          },
+          {
+            "code": "29353003",
+            "display": "Skin of clitoris"
+          },
+          {
+            "code": "57726007",
+            "display": "Skin of crus of helix"
+          },
+          {
+            "code": "244169007",
+            "display": "Skin of digit of hand"
+          },
+          {
+            "code": "52876008",
+            "display": "Skin of dorsal area of wrist"
+          },
+          {
+            "code": "1902009",
+            "display": "Skin of ear"
+          },
+          {
+            "code": "2059009",
+            "display": "Skin of ear lobule"
+          },
+          {
+            "code": "30598005",
+            "display": "Skin of epigastric area"
+          },
+          {
+            "code": "86409001",
+            "display": "Skin of external auditory canal"
+          },
+          {
+            "code": "60944009",
+            "display": "Skin of external genitalia"
+          },
+          {
+            "code": "362916000",
+            "display": "Skin of eye region"
+          },
+          {
+            "code": "367577003",
+            "display": "Skin of eyebrow"
+          },
+          {
+            "code": "73897004",
+            "display": "Skin of face"
+          },
+          {
+            "code": "60496002",
+            "display": "Skin of foot"
+          },
+          {
+            "code": "68698007",
+            "display": "Skin of forehead"
+          },
+          {
+            "code": "7991003",
+            "display": "Skin of glans penis"
+          },
+          {
+            "code": "63029009",
+            "display": "Skin of gluteal fold"
+          },
+          {
+            "code": "33712006",
+            "display": "Skin of hand"
+          },
+          {
+            "code": "70762009",
+            "display": "Skin of head"
+          },
+          {
+            "code": "84607009",
+            "display": "Skin of heel"
+          },
+          {
+            "code": "79313003",
+            "display": "Skin of helix of ear"
+          },
+          {
+            "code": "367578008",
+            "display": "Skin of hypogastric region"
+          },
+          {
+            "code": "89784008",
+            "display": "Skin of hypothenar region of palm"
+          },
+          {
+            "code": "66288003",
+            "display": "Skin of infraclavicular region"
+          },
+          {
+            "code": "39687006",
+            "display": "Skin of inguinal region"
+          },
+          {
+            "code": "45591000",
+            "display": "Skin of intertragal incisure"
+          },
+          {
+            "code": "244097004",
+            "display": "Skin of jawline"
+          },
+          {
+            "code": "73058008",
+            "display": "Skin of labium"
+          },
+          {
+            "code": "128252004",
+            "display": "Skin of labium majus"
+          },
+          {
+            "code": "128253009",
+            "display": "Skin of labium minus"
+          },
+          {
+            "code": "181564009",
+            "display": "Skin of lateral aspect of ankle"
+          },
+          {
+            "code": "35739000",
+            "display": "Skin of lateral border of sole of foot"
+          },
+          {
+            "code": "37671003",
+            "display": "Skin of lateral canthus"
+          },
+          {
+            "code": "699909001",
+            "display": "Skin of lateral part of heel"
+          },
+          {
+            "code": "5272005",
+            "display": "Skin of lateral portion of neck"
+          },
+          {
+            "code": "88089004",
+            "display": "Skin of lip"
+          },
+          {
+            "code": "699914002",
+            "display": "Skin of lower abdomen"
+          },
+          {
+            "code": "113182001",
+            "display": "Skin of lower back"
+          },
+          {
+            "code": "699915001",
+            "display": "Skin of lower chest wall"
+          },
+          {
+            "code": "371304004",
+            "display": "Skin of lower extremity"
+          },
+          {
+            "code": "40069000",
+            "display": "Skin of lower eyelid"
+          },
+          {
+            "code": "66934001",
+            "display": "Skin of lower lip"
+          },
+          {
+            "code": "181563003",
+            "display": "Skin of medial aspect of ankle"
+          },
+          {
+            "code": "52953006",
+            "display": "Skin of medial border of sole of foot"
+          },
+          {
+            "code": "27887005",
+            "display": "Skin of medial canthus"
+          },
+          {
+            "code": "699919007",
+            "display": "Skin of medial part of heel"
+          },
+          {
+            "code": "73958006",
+            "display": "Skin of medial surface of thigh"
+          },
+          {
+            "code": "37108007",
+            "display": "Skin of nasolabial fold"
+          },
+          {
+            "code": "43081002",
+            "display": "Skin of neck"
+          },
+          {
+            "code": "54468004",
+            "display": "Skin of nipple"
+          },
+          {
+            "code": "113179006",
+            "display": "Skin of nose"
+          },
+          {
+            "code": "4658004",
+            "display": "Skin of nuchal region"
+          },
+          {
+            "code": "79951008",
+            "display": "Skin of occipital region"
+          },
+          {
+            "code": "70887009",
+            "display": "Skin of palm of hand"
+          },
+          {
+            "code": "24527008",
+            "display": "Skin of palmar area of wrist"
+          },
+          {
+            "code": "21672008",
+            "display": "Skin of parietal region"
+          },
+          {
+            "code": "281642007",
+            "display": "Skin of part of dorsal surface of hand"
+          },
+          {
+            "code": "35900000",
+            "display": "Skin of penis"
+          },
+          {
+            "code": "48014002",
+            "display": "Skin of perineum"
+          },
+          {
+            "code": "110488009",
+            "display": "Skin of perioral region of face"
+          },
+          {
+            "code": "84365009",
+            "display": "Skin of philtrum"
+          },
+          {
+            "code": "84507004",
+            "display": "Skin of popliteal fossa"
+          },
+          {
+            "code": "24483006",
+            "display": "Skin of postauricular region"
+          },
+          {
+            "code": "181536004",
+            "display": "Skin of posterior surface of elbow"
+          },
+          {
+            "code": "41550009",
+            "display": "Skin of posterior surface of forearm"
+          },
+          {
+            "code": "47224004",
+            "display": "Skin of posterior surface of lower leg"
+          },
+          {
+            "code": "4578000",
+            "display": "Skin of posterior surface of thigh"
+          },
+          {
+            "code": "244111001",
+            "display": "Skin of posterior surface of thorax"
+          },
+          {
+            "code": "72939005",
+            "display": "Skin of posterior surface of upper arm"
+          },
+          {
+            "code": "86719006",
+            "display": "Skin of preauricular region"
+          },
+          {
+            "code": "76723005",
+            "display": "Skin of prepuce of clitoris"
+          },
+          {
+            "code": "244117002",
+            "display": "Skin of root of penis"
+          },
+          {
+            "code": "43067004",
+            "display": "Skin of scalp"
+          },
+          {
+            "code": "81992007",
+            "display": "Skin of scrotum"
+          },
+          {
+            "code": "244118007",
+            "display": "Skin of shaft of penis"
+          },
+          {
+            "code": "314395006",
+            "display": "Skin of side of nose"
+          },
+          {
+            "code": "34926004",
+            "display": "Skin of submental area"
+          },
+          {
+            "code": "76072005",
+            "display": "Skin of supraclavicular region of neck"
+          },
+          {
+            "code": "16621002",
+            "display": "Skin of temporal region"
+          },
+          {
+            "code": "26795005",
+            "display": "Skin of thenar region of palm"
+          },
+          {
+            "code": "79283007",
+            "display": "Skin of tip of nose"
+          },
+          {
+            "code": "52034004",
+            "display": "Skin of toe"
+          },
+          {
+            "code": "79502000",
+            "display": "Skin of tragus"
+          },
+          {
+            "code": "315003",
+            "display": "Skin of umbilicus"
+          },
+          {
+            "code": "699935000",
+            "display": "Skin of upper abdomen"
+          },
+          {
+            "code": "371311000",
+            "display": "Skin of upper extremity"
+          },
+          {
+            "code": "41310005",
+            "display": "Skin of upper eyelid"
+          },
+          {
+            "code": "16251004",
+            "display": "Skin of upper lip"
+          },
+          {
+            "code": "54440003",
+            "display": "Skin of upper trunk"
+          },
+          {
+            "code": "61719002",
+            "display": "Skin of vertex of scalp"
+          },
+          {
+            "code": "244107007",
+            "display": "Sternal skin"
+          },
+          {
+            "code": "5713008",
+            "display": "Submandibular triangle"
+          },
+          {
+            "code": "38199008",
+            "display": "Tooth"
+          },
+          {
+            "code": "18857001",
+            "display": "Vaginal introitus"
+          },
+          {
+            "code": "23213005",
+            "display": "Vulval vestibule"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-D03C9",
+            "display": "Anterior triangle of neck"
+          },
+          {
+            "code": "T-AA200",
+            "display": "Cornea"
+          },
+          {
+            "code": "T-01530",
+            "display": "Eyelash"
+          },
+          {
+            "code": "T-81001",
+            "display": "Female external urethral orifice"
+          },
+          {
+            "code": "T-81206",
+            "display": "Frenulum of labia minora"
+          },
+          {
+            "code": "T-01041",
+            "display": "Groin skin crease"
+          },
+          {
+            "code": "T-0130A",
+            "display": "Hair"
+          },
+          {
+            "code": "T-AA500",
+            "display": "Iris"
+          },
+          {
+            "code": "T-75181",
+            "display": "Male external urethral orifice"
+          },
+          {
+            "code": "T-51210",
+            "display": "Mucosa of floor of mouth"
+          },
+          {
+            "code": "T-52210",
+            "display": "Mucosa of lower lip"
+          },
+          {
+            "code": "T-5494D",
+            "display": "Mucosa of mandibular gingiva"
+          },
+          {
+            "code": "T-5493D",
+            "display": "Mucosa of maxillary gingiva"
+          },
+          {
+            "code": "T-53012",
+            "display": "Mucosa of tip of tongue"
+          },
+          {
+            "code": "T-53010",
+            "display": "Mucosa of tongue"
+          },
+          {
+            "code": "T-52110",
+            "display": "Mucosa of upper lip"
+          },
+          {
+            "code": "T-51300",
+            "display": "Oral mucosa"
+          },
+          {
+            "code": "T-81230",
+            "display": "Posterior commissure of labium majorum"
+          },
+          {
+            "code": "T-AA610",
+            "display": "Retina"
+          },
+          {
+            "code": "T-AA110",
+            "display": "Sclera"
+          },
+          {
+            "code": "T-01000",
+            "display": "Skin"
+          },
+          {
+            "code": "T-02480",
+            "display": "Skin of abdomen"
+          },
+          {
+            "code": "T-02142",
+            "display": "Skin of ala nasi"
+          },
+          {
+            "code": "T-02621",
+            "display": "Skin of antecubital fossa"
+          },
+          {
+            "code": "T-02302",
+            "display": "Skin of anterior portion of neck"
+          },
+          {
+            "code": "T-02632",
+            "display": "Skin of anterior surface of forearm"
+          },
+          {
+            "code": "T-0282E",
+            "display": "Skin of anterior surface of knee"
+          },
+          {
+            "code": "T-02831",
+            "display": "Skin of anterior surface of lower leg"
+          },
+          {
+            "code": "T-02811",
+            "display": "Skin of anterior surface of thigh"
+          },
+          {
+            "code": "T-02425",
+            "display": "Skin of anterior surface of thorax"
+          },
+          {
+            "code": "T-02612",
+            "display": "Skin of anterior surface of upper arm"
+          },
+          {
+            "code": "T-02408",
+            "display": "Skin of anterior trunk"
+          },
+          {
+            "code": "T-02213",
+            "display": "Skin of antitragus"
+          },
+          {
+            "code": "T-02508",
+            "display": "Skin of anus"
+          },
+          {
+            "code": "T-02432",
+            "display": "Skin of areola"
+          },
+          {
+            "code": "T-02420",
+            "display": "Skin of axilla"
+          },
+          {
+            "code": "T-02450",
+            "display": "Skin of back"
+          },
+          {
+            "code": "R-FB4DA",
+            "display": "Skin of back of upper thoracic region"
+          },
+          {
+            "code": "T-02430",
+            "display": "Skin of breast"
+          },
+          {
+            "code": "T-02471",
+            "display": "Skin of buttock"
+          },
+          {
+            "code": "T-02217",
+            "display": "Skin of cavity of concha"
+          },
+          {
+            "code": "T-02121",
+            "display": "Skin of cheek"
+          },
+          {
+            "code": "T-02155",
+            "display": "Skin of chin"
+          },
+          {
+            "code": "T-02523",
+            "display": "Skin of clitoris"
+          },
+          {
+            "code": "T-02218",
+            "display": "Skin of crus of helix"
+          },
+          {
+            "code": "T-D0315",
+            "display": "Skin of digit of hand"
+          },
+          {
+            "code": "T-02641",
+            "display": "Skin of dorsal area of wrist"
+          },
+          {
+            "code": "T-02200",
+            "display": "Skin of ear"
+          },
+          {
+            "code": "T-02214",
+            "display": "Skin of ear lobule"
+          },
+          {
+            "code": "T-02481",
+            "display": "Skin of epigastric area"
+          },
+          {
+            "code": "T-02219",
+            "display": "Skin of external auditory canal"
+          },
+          {
+            "code": "T-02501",
+            "display": "Skin of external genitalia"
+          },
+          {
+            "code": "T-D149C",
+            "display": "Skin of eye region"
+          },
+          {
+            "code": "T-02106",
+            "display": "Skin of eyebrow"
+          },
+          {
+            "code": "T-02120",
+            "display": "Skin of face"
+          },
+          {
+            "code": "T-02850",
+            "display": "Skin of foot"
+          },
+          {
+            "code": "T-02104",
+            "display": "Skin of forehead"
+          },
+          {
+            "code": "T-02531",
+            "display": "Skin of glans penis"
+          },
+          {
+            "code": "T-02506",
+            "display": "Skin of gluteal fold"
+          },
+          {
+            "code": "T-02650",
+            "display": "Skin of hand"
+          },
+          {
+            "code": "T-02100",
+            "display": "Skin of head"
+          },
+          {
+            "code": "T-02841",
+            "display": "Skin of heel"
+          },
+          {
+            "code": "T-02202",
+            "display": "Skin of helix of ear"
+          },
+          {
+            "code": "T-02488",
+            "display": "Skin of hypogastric region"
+          },
+          {
+            "code": "T-02666",
+            "display": "Skin of hypothenar region of palm"
+          },
+          {
+            "code": "T-02414",
+            "display": "Skin of infraclavicular region"
+          },
+          {
+            "code": "T-02487",
+            "display": "Skin of inguinal region"
+          },
+          {
+            "code": "T-02212",
+            "display": "Skin of intertragal incisure"
+          },
+          {
+            "code": "T-0215D",
+            "display": "Skin of jawline"
+          },
+          {
+            "code": "T-02520",
+            "display": "Skin of labium"
+          },
+          {
+            "code": "T-02527",
+            "display": "Skin of labium majus"
+          },
+          {
+            "code": "T-02528",
+            "display": "Skin of labium minus"
+          },
+          {
+            "code": "T-02849",
+            "display": "Skin of lateral aspect of ankle"
+          },
+          {
+            "code": "T-02853",
+            "display": "Skin of lateral border of sole of foot"
+          },
+          {
+            "code": "T-02136",
+            "display": "Skin of lateral canthus"
+          },
+          {
+            "code": "R-FB4EA",
+            "display": "Skin of lateral part of heel"
+          },
+          {
+            "code": "T-02304",
+            "display": "Skin of lateral portion of neck"
+          },
+          {
+            "code": "T-02150",
+            "display": "Skin of lip"
+          },
+          {
+            "code": "R-FB4EF",
+            "display": "Skin of lower abdomen"
+          },
+          {
+            "code": "T-02452",
+            "display": "Skin of lower back"
+          },
+          {
+            "code": "R-FB4F0",
+            "display": "Skin of lower chest wall"
+          },
+          {
+            "code": "T-0262C",
+            "display": "Skin of lower extremity"
+          },
+          {
+            "code": "T-02132",
+            "display": "Skin of lower eyelid"
+          },
+          {
+            "code": "T-02152",
+            "display": "Skin of lower lip"
+          },
+          {
+            "code": "T-02848",
+            "display": "Skin of medial aspect of ankle"
+          },
+          {
+            "code": "T-02854",
+            "display": "Skin of medial border of sole of foot"
+          },
+          {
+            "code": "T-02135",
+            "display": "Skin of medial canthus"
+          },
+          {
+            "code": "R-FB4F4",
+            "display": "Skin of medial part of heel"
+          },
+          {
+            "code": "T-02814",
+            "display": "Skin of medial surface of thigh"
+          },
+          {
+            "code": "T-02141",
+            "display": "Skin of nasolabial fold"
+          },
+          {
+            "code": "T-02300",
+            "display": "Skin of neck"
+          },
+          {
+            "code": "T-02431",
+            "display": "Skin of nipple"
+          },
+          {
+            "code": "T-02140",
+            "display": "Skin of nose"
+          },
+          {
+            "code": "T-02305",
+            "display": "Skin of nuchal region"
+          },
+          {
+            "code": "T-02109",
+            "display": "Skin of occipital region"
+          },
+          {
+            "code": "T-02652",
+            "display": "Skin of palm of hand"
+          },
+          {
+            "code": "T-02642",
+            "display": "Skin of palmar area of wrist"
+          },
+          {
+            "code": "T-02108",
+            "display": "Skin of parietal region"
+          },
+          {
+            "code": "T-0265D",
+            "display": "Skin of part of dorsal surface of hand"
+          },
+          {
+            "code": "T-02530",
+            "display": "Skin of penis"
+          },
+          {
+            "code": "T-02500",
+            "display": "Skin of perineum"
+          },
+          {
+            "code": "T-02148",
+            "display": "Skin of perioral region of face"
+          },
+          {
+            "code": "T-02153",
+            "display": "Skin of philtrum"
+          },
+          {
+            "code": "T-02821",
+            "display": "Skin of popliteal fossa"
+          },
+          {
+            "code": "T-02113",
+            "display": "Skin of postauricular region"
+          },
+          {
+            "code": "T-D077A",
+            "display": "Skin of posterior surface of elbow"
+          },
+          {
+            "code": "T-02631",
+            "display": "Skin of posterior surface of forearm"
+          },
+          {
+            "code": "T-02833",
+            "display": "Skin of posterior surface of lower leg"
+          },
+          {
+            "code": "T-02812",
+            "display": "Skin of posterior surface of thigh"
+          },
+          {
+            "code": "T-0242A",
+            "display": "Skin of posterior surface of thorax"
+          },
+          {
+            "code": "T-02613",
+            "display": "Skin of posterior surface of upper arm"
+          },
+          {
+            "code": "T-02114",
+            "display": "Skin of preauricular region"
+          },
+          {
+            "code": "T-02525",
+            "display": "Skin of prepuce of clitoris"
+          },
+          {
+            "code": "T-02536",
+            "display": "Skin of root of penis"
+          },
+          {
+            "code": "T-02102",
+            "display": "Skin of scalp"
+          },
+          {
+            "code": "T-02545",
+            "display": "Skin of scrotum"
+          },
+          {
+            "code": "T-02537",
+            "display": "Skin of shaft of penis"
+          },
+          {
+            "code": "T-02156",
+            "display": "Skin of submental area"
+          },
+          {
+            "code": "T-02306",
+            "display": "Skin of supraclavicular region of neck"
+          },
+          {
+            "code": "T-02111",
+            "display": "Skin of temporal region"
+          },
+          {
+            "code": "T-02665",
+            "display": "Skin of thenar region of palm"
+          },
+          {
+            "code": "T-02143",
+            "display": "Skin of tip of nose"
+          },
+          {
+            "code": "T-02870",
+            "display": "Skin of toe"
+          },
+          {
+            "code": "T-02211",
+            "display": "Skin of tragus"
+          },
+          {
+            "code": "T-02483",
+            "display": "Skin of umbilicus"
+          },
+          {
+            "code": "R-FB504",
+            "display": "Skin of upper abdomen"
+          },
+          {
+            "code": "T-02008",
+            "display": "Skin of upper extremity"
+          },
+          {
+            "code": "T-02131",
+            "display": "Skin of upper eyelid"
+          },
+          {
+            "code": "T-02151",
+            "display": "Skin of upper lip"
+          },
+          {
+            "code": "T-02401",
+            "display": "Skin of upper trunk"
+          },
+          {
+            "code": "T-02107",
+            "display": "Skin of vertex of scalp"
+          },
+          {
+            "code": "T-02426",
+            "display": "Sternal skin"
+          },
+          {
+            "code": "T-D1603",
+            "display": "Submandibular triangle"
+          },
+          {
+            "code": "T-54010",
+            "display": "Tooth"
+          },
+          {
+            "code": "T-82006",
+            "display": "Vaginal introitus"
+          },
+          {
+            "code": "T-81270",
+            "display": "Vulval vestibule"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0446459",
+            "display": "Anterior triangle of neck"
+          },
+          {
+            "code": "C0229124",
+            "display": "Cornea"
+          },
+          {
+            "code": "C0015422",
+            "display": "Eyelash"
+          },
+          {
+            "code": "C0458493",
+            "display": "Female external urethral orifice"
+          },
+          {
+            "code": "C0458840",
+            "display": "Frenulum of labia minora"
+          },
+          {
+            "code": "C0459399",
+            "display": "Groin skin crease"
+          },
+          {
+            "code": "C0018494",
+            "display": "Hair"
+          },
+          {
+            "code": "C0022077",
+            "display": "Iris"
+          },
+          {
+            "code": "C0458492",
+            "display": "Male external urethral orifice"
+          },
+          {
+            "code": "C4244787",
+            "display": "Mucosa of dorsum of oral part of tongue"
+          },
+          {
+            "code": "C4244789",
+            "display": "Mucosa of dorsum of pharyngeal part of tongue"
+          },
+          {
+            "code": "C0226911",
+            "display": "Mucosa of floor of mouth"
+          },
+          {
+            "code": "C0226939",
+            "display": "Mucosa of lower lip"
+          },
+          {
+            "code": "C0447479",
+            "display": "Mucosa of mandibular gingiva"
+          },
+          {
+            "code": "C0447470",
+            "display": "Mucosa of maxillary gingiva"
+          },
+          {
+            "code": "C4242040",
+            "display": "Mucosa of oral segment of hard palate"
+          },
+          {
+            "code": "C0930720",
+            "display": "Mucosa of palatoglossal arch"
+          },
+          {
+            "code": "C0227140",
+            "display": "Mucosa of pharynx"
+          },
+          {
+            "code": "C0926847",
+            "display": "Mucosa of posterior wall of oropharynx"
+          },
+          {
+            "code": "C0447488",
+            "display": "Mucosa of tip of tongue"
+          },
+          {
+            "code": "C0226950",
+            "display": "Mucosa of tongue"
+          },
+          {
+            "code": "C0226933",
+            "display": "Mucosa of upper lip"
+          },
+          {
+            "code": "C0930719",
+            "display": "Mucosa of uvula"
+          },
+          {
+            "code": "C0026639",
+            "display": "Oral mucosa"
+          },
+          {
+            "code": "C0227762",
+            "display": "Posterior commissure of labium majorum"
+          },
+          {
+            "code": "C0024622",
+            "display": "Retina"
+          },
+          {
+            "code": "C0036410",
+            "display": "Sclera"
+          },
+          {
+            "code": "C0221911",
+            "display": "Skin"
+          },
+          {
+            "code": "C0222166",
+            "display": "Skin of abdomen"
+          },
+          {
+            "code": "C0222097",
+            "display": "Skin of ala nasi"
+          },
+          {
+            "code": "C0222214",
+            "display": "Skin of antecubital fossa"
+          },
+          {
+            "code": "C0222131",
+            "display": "Skin of anterior portion of neck"
+          },
+          {
+            "code": "C0222217",
+            "display": "Skin of anterior surface of forearm"
+          },
+          {
+            "code": "C0448900",
+            "display": "Skin of anterior surface of knee"
+          },
+          {
+            "code": "C0222280",
+            "display": "Skin of anterior surface of lower leg"
+          },
+          {
+            "code": "C0222270",
+            "display": "Skin of anterior surface of thigh"
+          },
+          {
+            "code": "C0448821",
+            "display": "Skin of anterior surface of thorax"
+          },
+          {
+            "code": "C0222207",
+            "display": "Skin of anterior surface of upper arm"
+          },
+          {
+            "code": "C3698018",
+            "display": "Skin of anterior trunk"
+          },
+          {
+            "code": "C0222123",
+            "display": "Skin of antitragus"
+          },
+          {
+            "code": "C0222181",
+            "display": "Skin of anus"
+          },
+          {
+            "code": "C0222151",
+            "display": "Skin of areola"
+          },
+          {
+            "code": "C0222146",
+            "display": "Skin of axilla"
+          },
+          {
+            "code": "C0222155",
+            "display": "Skin of back"
+          },
+          {
+            "code": "C0923309",
+            "display": "Skin of back of trunk"
+          },
+          {
+            "code": "C3697168",
+            "display": "Skin of back of upper thoracic region"
+          },
+          {
+            "code": "C0149538",
+            "display": "Skin of breast"
+          },
+          {
+            "code": "C0222165",
+            "display": "Skin of buttock"
+          },
+          {
+            "code": "C0222127",
+            "display": "Skin of cavity of concha"
+          },
+          {
+            "code": "C0222085",
+            "display": "Skin of cheek"
+          },
+          {
+            "code": "C0222106",
+            "display": "Skin of chin"
+          },
+          {
+            "code": "C0222189",
+            "display": "Skin of clitoris"
+          },
+          {
+            "code": "C0222128",
+            "display": "Skin of crus of helix"
+          },
+          {
+            "code": "C0448888",
+            "display": "Skin of digit of hand"
+          },
+          {
+            "code": "C0278393",
+            "display": "Skin of dorsal area of wrist"
+          },
+          {
+            "code": "C0829302",
+            "display": "Skin of dorsal part of fifth toe"
+          },
+          {
+            "code": "C0829299",
+            "display": "Skin of dorsal part of fourth toe"
+          },
+          {
+            "code": "C0829290",
+            "display": "Skin of dorsal part of great toe"
+          },
+          {
+            "code": "C0829711",
+            "display": "Skin of dorsal part of index finger"
+          },
+          {
+            "code": "C0829720",
+            "display": "Skin of dorsal part of little finger"
+          },
+          {
+            "code": "C0829714",
+            "display": "Skin of dorsal part of middle finger"
+          },
+          {
+            "code": "C0829717",
+            "display": "Skin of dorsal part of ring finger"
+          },
+          {
+            "code": "C0829293",
+            "display": "Skin of dorsal part of second toe"
+          },
+          {
+            "code": "C0829296",
+            "display": "Skin of dorsal part of third toe"
+          },
+          {
+            "code": "C0829708",
+            "display": "Skin of dorsal part of thumb"
+          },
+          {
+            "code": "C0930371",
+            "display": "Skin of dorsum of nose"
+          },
+          {
+            "code": "C0222110",
+            "display": "Skin of ear"
+          },
+          {
+            "code": "C0222124",
+            "display": "Skin of ear lobule"
+          },
+          {
+            "code": "C0222167",
+            "display": "Skin of epigastric area"
+          },
+          {
+            "code": "C0222129",
+            "display": "Skin of external auditory canal"
+          },
+          {
+            "code": "C0222177",
+            "display": "Skin of external genitalia"
+          },
+          {
+            "code": "C1285124",
+            "display": "Skin of eye region"
+          },
+          {
+            "code": "C1288306",
+            "display": "Skin of eyebrow"
+          },
+          {
+            "code": "C0222084",
+            "display": "Skin of face"
+          },
+          {
+            "code": "C0222289",
+            "display": "Skin of foot"
+          },
+          {
+            "code": "C0222074",
+            "display": "Skin of forehead"
+          },
+          {
+            "code": "C1261043",
+            "display": "Skin of glans penis"
+          },
+          {
+            "code": "C0222179",
+            "display": "Skin of gluteal fold"
+          },
+          {
+            "code": "C0222224",
+            "display": "Skin of hand"
+          },
+          {
+            "code": "C0205029",
+            "display": "Skin of head"
+          },
+          {
+            "code": "C0222287",
+            "display": "Skin of heel"
+          },
+          {
+            "code": "C0222113",
+            "display": "Skin of helix of ear"
+          },
+          {
+            "code": "C1288307",
+            "display": "Skin of hypogastric region"
+          },
+          {
+            "code": "C0222233",
+            "display": "Skin of hypothenar region of palm"
+          },
+          {
+            "code": "C0222145",
+            "display": "Skin of infraclavicular region"
+          },
+          {
+            "code": "C0222173",
+            "display": "Skin of inguinal region"
+          },
+          {
+            "code": "C0222122",
+            "display": "Skin of intertragal incisure"
+          },
+          {
+            "code": "C0448804",
+            "display": "Skin of jawline"
+          },
+          {
+            "code": "C0222184",
+            "display": "Skin of labium"
+          },
+          {
+            "code": "C0222185",
+            "display": "Skin of labium majus"
+          },
+          {
+            "code": "C0222186",
+            "display": "Skin of labium minus"
+          },
+          {
+            "code": "C1182496",
+            "display": "Skin of lateral aspect of ankle"
+          },
+          {
+            "code": "C0222292",
+            "display": "Skin of lateral border of sole of foot"
+          },
+          {
+            "code": "C0222094",
+            "display": "Skin of lateral canthus"
+          },
+          {
+            "code": "C3697424",
+            "display": "Skin of lateral part of heel"
+          },
+          {
+            "code": "C0222133",
+            "display": "Skin of lateral portion of neck"
+          },
+          {
+            "code": "C0222101",
+            "display": "Skin of lip"
+          },
+          {
+            "code": "C0222157",
+            "display": "Skin of lower back"
+          },
+          {
+            "code": "C3698074",
+            "display": "Skin of lower chest wall"
+          },
+          {
+            "code": "C1266887",
+            "display": "Skin of lower extremity"
+          },
+          {
+            "code": "C0222090",
+            "display": "Skin of lower eyelid"
+          },
+          {
+            "code": "C2363131",
+            "display": "Skin of lower inner quadrant of breast"
+          },
+          {
+            "code": "C0222103",
+            "display": "Skin of lower lip"
+          },
+          {
+            "code": "C2363133",
+            "display": "Skin of lower outer quadrant of breast"
+          },
+          {
+            "code": "C0448930",
+            "display": "Skin of medial aspect of ankle"
+          },
+          {
+            "code": "C0222293",
+            "display": "Skin of medial border of sole of foot"
+          },
+          {
+            "code": "C0222093",
+            "display": "Skin of medial canthus"
+          },
+          {
+            "code": "C3698118",
+            "display": "Skin of medial part of heel"
+          },
+          {
+            "code": "C0222273",
+            "display": "Skin of medial surface of thigh"
+          },
+          {
+            "code": "C0222096",
+            "display": "Skin of nasolabial fold"
+          },
+          {
+            "code": "C0205030",
+            "display": "Skin of neck"
+          },
+          {
+            "code": "C0222150",
+            "display": "Skin of nipple"
+          },
+          {
+            "code": "C0222095",
+            "display": "Skin of nose"
+          },
+          {
+            "code": "C0222134",
+            "display": "Skin of nuchal region"
+          },
+          {
+            "code": "C0222078",
+            "display": "Skin of occipital region"
+          },
+          {
+            "code": "C0222226",
+            "display": "Skin of palm of hand"
+          },
+          {
+            "code": "C0278394",
+            "display": "Skin of palmar area of wrist"
+          },
+          {
+            "code": "C0829728",
+            "display": "Skin of palmar part of index finger"
+          },
+          {
+            "code": "C0829738",
+            "display": "Skin of palmar part of little finger"
+          },
+          {
+            "code": "C0829731",
+            "display": "Skin of palmar part of middle finger"
+          },
+          {
+            "code": "C0829735",
+            "display": "Skin of palmar part of ring finger"
+          },
+          {
+            "code": "C0829725",
+            "display": "Skin of palmar part of thumb"
+          },
+          {
+            "code": "C0222077",
+            "display": "Skin of parietal region"
+          },
+          {
+            "code": "C0559541",
+            "display": "Skin of part of dorsal surface of hand"
+          },
+          {
+            "code": "C0222193",
+            "display": "Skin of penis"
+          },
+          {
+            "code": "C0222176",
+            "display": "Skin of perineum"
+          },
+          {
+            "code": "C1266883",
+            "display": "Skin of perioral region of face"
+          },
+          {
+            "code": "C0222104",
+            "display": "Skin of philtrum"
+          },
+          {
+            "code": "C0829534",
+            "display": "Skin of plantar part of fifth toe"
+          },
+          {
+            "code": "C0829531",
+            "display": "Skin of plantar part of fourth toe"
+          },
+          {
+            "code": "C0829522",
+            "display": "Skin of plantar part of great toe"
+          },
+          {
+            "code": "C0829525",
+            "display": "Skin of plantar part of second toe"
+          },
+          {
+            "code": "C0829528",
+            "display": "Skin of plantar part of third toe"
+          },
+          {
+            "code": "C0222276",
+            "display": "Skin of popliteal fossa"
+          },
+          {
+            "code": "C0222082",
+            "display": "Skin of postauricular region"
+          },
+          {
+            "code": "C0448862",
+            "display": "Skin of posterior surface of elbow"
+          },
+          {
+            "code": "C0222216",
+            "display": "Skin of posterior surface of forearm"
+          },
+          {
+            "code": "C0222282",
+            "display": "Skin of posterior surface of lower leg"
+          },
+          {
+            "code": "C0222271",
+            "display": "Skin of posterior surface of thigh"
+          },
+          {
+            "code": "C0448820",
+            "display": "Skin of posterior surface of thorax"
+          },
+          {
+            "code": "C0222208",
+            "display": "Skin of posterior surface of upper arm"
+          },
+          {
+            "code": "C0222083",
+            "display": "Skin of preauricular region"
+          },
+          {
+            "code": "C0222191",
+            "display": "Skin of prepuce of clitoris"
+          },
+          {
+            "code": "C0447599",
+            "display": "Skin of root of penis"
+          },
+          {
+            "code": "C0699772",
+            "display": "Skin of scalp"
+          },
+          {
+            "code": "C0222198",
+            "display": "Skin of scrotum"
+          },
+          {
+            "code": "C0447600",
+            "display": "Skin of shaft of penis"
+          },
+          {
+            "code": "C0448800",
+            "display": "Skin of side of nose"
+          },
+          {
+            "code": "C0222107",
+            "display": "Skin of submental area"
+          },
+          {
+            "code": "C0222135",
+            "display": "Skin of supraclavicular region of neck"
+          },
+          {
+            "code": "C0222080",
+            "display": "Skin of temporal region"
+          },
+          {
+            "code": "C0222232",
+            "display": "Skin of thenar region of palm"
+          },
+          {
+            "code": "C0222098",
+            "display": "Skin of tip of nose"
+          },
+          {
+            "code": "C0222297",
+            "display": "Skin of toe"
+          },
+          {
+            "code": "C0222121",
+            "display": "Skin of tragus"
+          },
+          {
+            "code": "C0222169",
+            "display": "Skin of umbilicus"
+          },
+          {
+            "code": "C3696900",
+            "display": "Skin of upper abdomen"
+          },
+          {
+            "code": "C0222201",
+            "display": "Skin of upper extremity"
+          },
+          {
+            "code": "C0222089",
+            "display": "Skin of upper eyelid"
+          },
+          {
+            "code": "C2363130",
+            "display": "Skin of upper inner quadrant of breast"
+          },
+          {
+            "code": "C0222102",
+            "display": "Skin of upper lip"
+          },
+          {
+            "code": "C0931805",
+            "display": "Skin of upper outer quadrant of left breast"
+          },
+          {
+            "code": "C0222138",
+            "display": "Skin of upper trunk"
+          },
+          {
+            "code": "C4242687",
+            "display": "Skin of vermilion proper of lower lip"
+          },
+          {
+            "code": "C4242681",
+            "display": "Skin of vermilion proper of upper lip"
+          },
+          {
+            "code": "C0222076",
+            "display": "Skin of vertex of scalp"
+          },
+          {
+            "code": "C0448823",
+            "display": "Sternal skin"
+          },
+          {
+            "code": "C0230070",
+            "display": "Submandibular triangle"
+          },
+          {
+            "code": "C0040426",
+            "display": "Tooth"
+          },
+          {
+            "code": "C0458952",
+            "display": "Vaginal introitus"
+          },
+          {
+            "code": "C0227765",
+            "display": "Vulval vestibule"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-FMA",
+        "concept": [
+          {
+            "code": "281534",
+            "display": "Mucosa of dorsum of oral part of tongue"
+          },
+          {
+            "code": "281537",
+            "display": "Mucosa of dorsum of pharyngeal part of tongue"
+          },
+          {
+            "code": "289677",
+            "display": "Mucosa of oral segment of hard palate"
+          },
+          {
+            "code": "60031",
+            "display": "Mucosa of palatoglossal arch"
+          },
+          {
+            "code": "55031",
+            "display": "Mucosa of pharynx"
+          },
+          {
+            "code": "55060",
+            "display": "Mucosa of posterior wall of oropharynx"
+          },
+          {
+            "code": "60030",
+            "display": "Mucosa of uvula"
+          },
+          {
+            "code": "49943",
+            "display": "Skin of back of trunk"
+          },
+          {
+            "code": "37885",
+            "display": "Skin of dorsal part of fifth toe"
+          },
+          {
+            "code": "37882",
+            "display": "Skin of dorsal part of fourth toe"
+          },
+          {
+            "code": "37873",
+            "display": "Skin of dorsal part of great toe"
+          },
+          {
+            "code": "38324",
+            "display": "Skin of dorsal part of index finger"
+          },
+          {
+            "code": "38333",
+            "display": "Skin of dorsal part of little finger"
+          },
+          {
+            "code": "38327",
+            "display": "Skin of dorsal part of middle finger"
+          },
+          {
+            "code": "38330",
+            "display": "Skin of dorsal part of ring finger"
+          },
+          {
+            "code": "37876",
+            "display": "Skin of dorsal part of second toe"
+          },
+          {
+            "code": "37879",
+            "display": "Skin of dorsal part of third toe"
+          },
+          {
+            "code": "38321",
+            "display": "Skin of dorsal part of thumb"
+          },
+          {
+            "code": "59532",
+            "display": "Skin of dorsum of nose"
+          },
+          {
+            "code": "61427",
+            "display": "Skin of lower inner quadrant of breast"
+          },
+          {
+            "code": "61423",
+            "display": "Skin of lower outer quadrant of breast"
+          },
+          {
+            "code": "38344",
+            "display": "Skin of palmar part of index finger"
+          },
+          {
+            "code": "38357",
+            "display": "Skin of palmar part of little finger"
+          },
+          {
+            "code": "38347",
+            "display": "Skin of palmar part of middle finger"
+          },
+          {
+            "code": "38354",
+            "display": "Skin of palmar part of ring finger"
+          },
+          {
+            "code": "38341",
+            "display": "Skin of palmar part of thumb"
+          },
+          {
+            "code": "38119",
+            "display": "Skin of plantar part of fifth toe"
+          },
+          {
+            "code": "38116",
+            "display": "Skin of plantar part of fourth toe"
+          },
+          {
+            "code": "38107",
+            "display": "Skin of plantar part of great toe"
+          },
+          {
+            "code": "38110",
+            "display": "Skin of plantar part of second toe"
+          },
+          {
+            "code": "38113",
+            "display": "Skin of plantar part of third toe"
+          },
+          {
+            "code": "61426",
+            "display": "Skin of upper inner quadrant of breast"
+          },
+          {
+            "code": "61439",
+            "display": "Skin of upper outer quadrant of left breast"
+          },
+          {
+            "code": "312651",
+            "display": "Skin of vermilion proper of lower lip"
+          },
+          {
+            "code": "312647",
+            "display": "Skin of vermilion proper of upper lip"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130305",
+            "display": "Skin of anterior helix of ear"
+          },
+          {
+            "code": "130306",
+            "display": "Skin of caruncle of eye"
+          },
+          {
+            "code": "130307",
+            "display": "Skin of inferior helix of ear"
+          },
+          {
+            "code": "130308",
+            "display": "Skin of inferior posterior surface of the pinna"
+          },
+          {
+            "code": "130312",
+            "display": "Skin of infraalar groove"
+          },
+          {
+            "code": "130309",
+            "display": "Skin of lateral part of dorsum of foot"
+          },
+          {
+            "code": "130310",
+            "display": "Skin of lower antihelix of ear"
+          },
+          {
+            "code": "130311",
+            "display": "Skin of lower eyelid margin"
+          },
+          {
+            "code": "130304",
+            "display": "Skin of lower paraspinal region"
+          },
+          {
+            "code": "130313",
+            "display": "Skin of medial part of dorsum of foot"
+          },
+          {
+            "code": "130323",
+            "display": "Skin of mid back"
+          },
+          {
+            "code": "130303",
+            "display": "Skin of mid paraspinal region"
+          },
+          {
+            "code": "130314",
+            "display": "Skin of paranasal cheek"
+          },
+          {
+            "code": "130300",
+            "display": "Skin of paraspinal area of the neck"
+          },
+          {
+            "code": "130301",
+            "display": "Skin of paraspinal area of the superior back"
+          },
+          {
+            "code": "130315",
+            "display": "Skin of posterior helix of ear"
+          },
+          {
+            "code": "130316",
+            "display": "Skin of posterior lobule of the ear"
+          },
+          {
+            "code": "130317",
+            "display": "Skin of sole of forefoot"
+          },
+          {
+            "code": "130318",
+            "display": "Skin of superior antihelix of ear"
+          },
+          {
+            "code": "130319",
+            "display": "Skin of superior posterior helix of ear"
+          },
+          {
+            "code": "130320",
+            "display": "Skin of superior posterior surface of the pinna"
+          },
+          {
+            "code": "130321",
+            "display": "Skin of upper antihelix of ear"
+          },
+          {
+            "code": "130322",
+            "display": "Skin of upper eyelid margin"
+          },
+          {
+            "code": "130302",
+            "display": "Skin of upper paraspinal region"
+          }
+        ]
+      }
+    ]
+  }
+}

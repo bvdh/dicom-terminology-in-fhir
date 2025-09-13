@@ -1,0 +1,16 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid104",
+  "id": "dicom-cid104",
+  "description": "The NICIP SNOMED Subset of Imaging Procedures is not included in the licensing agreement described in",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid104",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1438"
+    }
+  ],
+  "version": "Not versioned",
+  "title": "NICIP SNOMED Imaging Procedure"
+}

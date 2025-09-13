@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ReasonsForRTRadiationTreatmentOmission",
+  "id": "dicom-cid-9576-ReasonsForRTRadiationTreatmentOmission",
+  "description": "Reasons for RT Radiation Treatment Omission",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9576-ReasonsForRTRadiationTreatmentOmission",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1423"
+    }
+  ],
+  "version": "20210906",
+  "title": "Reasons for RT Radiation Treatment Omission",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130663",
+            "display": "RT Radiation previously delivered"
+          },
+          {
+            "code": "130664",
+            "display": "Treatment unnecessary"
+          },
+          {
+            "code": "130665",
+            "display": "Treatment exceeds patient tolerance"
+          }
+        ]
+      }
+    ]
+  }
+}

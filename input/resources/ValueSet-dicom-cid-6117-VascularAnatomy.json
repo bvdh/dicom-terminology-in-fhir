@@ -1,0 +1,421 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VascularAnatomy",
+  "id": "dicom-cid-6117-VascularAnatomy",
+  "description": "In a prior version of this Context Group the code",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6117-VascularAnatomy",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.437"
+    }
+  ],
+  "version": "20200309",
+  "title": "Vascular Anatomy",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3015-CoronaryArtery"
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "57034009",
+            "display": "Aortic arch"
+          },
+          {
+            "code": "88593004",
+            "display": "Aortic isthmus"
+          },
+          {
+            "code": "54247002",
+            "display": "Ascending aorta"
+          },
+          {
+            "code": "67937003",
+            "display": "Axillary Artery"
+          },
+          {
+            "code": "68705008",
+            "display": "Axillary vein"
+          },
+          {
+            "code": "72107004",
+            "display": "Azygos vein"
+          },
+          {
+            "code": "17137000",
+            "display": "Brachial artery"
+          },
+          {
+            "code": "12691009",
+            "display": "Brachiocephalic trunk"
+          },
+          {
+            "code": "8887007",
+            "display": "Brachiocephalic vein"
+          },
+          {
+            "code": "64468002",
+            "display": "Bronchial artery"
+          },
+          {
+            "code": "32062004",
+            "display": "Common carotid artery"
+          },
+          {
+            "code": "3159004",
+            "display": "Costocervical trunk"
+          },
+          {
+            "code": "281130003",
+            "display": "Descending aorta"
+          },
+          {
+            "code": "91732003",
+            "display": "Dorsal scapular artery"
+          },
+          {
+            "code": "206034008",
+            "display": "Esophageal artery"
+          },
+          {
+            "code": "71585003",
+            "display": "External jugular vein"
+          },
+          {
+            "code": "29660000",
+            "display": "Inferior phrenic artery"
+          },
+          {
+            "code": "64131007",
+            "display": "Inferior vena cava"
+          },
+          {
+            "code": "281134007",
+            "display": "Intercostal artery"
+          },
+          {
+            "code": "12123001",
+            "display": "Internal jugular vein"
+          },
+          {
+            "code": "69327007",
+            "display": "Internal thoracic artery"
+          },
+          {
+            "code": "3924000",
+            "display": "Pericardiophrenic Artery"
+          },
+          {
+            "code": "81040000",
+            "display": "Pulmonary artery"
+          },
+          {
+            "code": "45341000",
+            "display": "Pulmonary trunk"
+          },
+          {
+            "code": "122972007",
+            "display": "Pulmonary vein"
+          },
+          {
+            "code": "36765005",
+            "display": "Subclavian artery"
+          },
+          {
+            "code": "9454009",
+            "display": "Subclavian vein"
+          },
+          {
+            "code": "38991005",
+            "display": "Superior phrenic artery"
+          },
+          {
+            "code": "48345005",
+            "display": "Superior vena cava"
+          },
+          {
+            "code": "6538005",
+            "display": "Thyrocervical trunk"
+          },
+          {
+            "code": "85234005",
+            "display": "Vertebral artery"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-42300",
+            "display": "Aortic arch"
+          },
+          {
+            "code": "T-42310",
+            "display": "Aortic isthmus"
+          },
+          {
+            "code": "T-42100",
+            "display": "Ascending aorta"
+          },
+          {
+            "code": "T-47100",
+            "display": "Axillary Artery"
+          },
+          {
+            "code": "T-49110",
+            "display": "Axillary vein"
+          },
+          {
+            "code": "T-48340",
+            "display": "Azygos vein"
+          },
+          {
+            "code": "T-47160",
+            "display": "Brachial artery"
+          },
+          {
+            "code": "T-46010",
+            "display": "Brachiocephalic trunk"
+          },
+          {
+            "code": "T-48620",
+            "display": "Brachiocephalic vein"
+          },
+          {
+            "code": "T-46310",
+            "display": "Bronchial artery"
+          },
+          {
+            "code": "T-45100",
+            "display": "Common carotid artery"
+          },
+          {
+            "code": "T-46180",
+            "display": "Costocervical trunk"
+          },
+          {
+            "code": "T-D0765",
+            "display": "Descending aorta"
+          },
+          {
+            "code": "T-461A0",
+            "display": "Dorsal scapular artery"
+          },
+          {
+            "code": "T-4630D",
+            "display": "Esophageal artery"
+          },
+          {
+            "code": "T-48160",
+            "display": "External jugular vein"
+          },
+          {
+            "code": "T-46940",
+            "display": "Inferior phrenic artery"
+          },
+          {
+            "code": "T-48710",
+            "display": "Inferior vena cava"
+          },
+          {
+            "code": "T-D305A",
+            "display": "Intercostal artery"
+          },
+          {
+            "code": "T-48170",
+            "display": "Internal jugular vein"
+          },
+          {
+            "code": "T-46200",
+            "display": "Internal thoracic artery"
+          },
+          {
+            "code": "T-46210",
+            "display": "Pericardiophrenic Artery"
+          },
+          {
+            "code": "T-44000",
+            "display": "Pulmonary artery"
+          },
+          {
+            "code": "T-44100",
+            "display": "Pulmonary trunk"
+          },
+          {
+            "code": "T-48581",
+            "display": "Pulmonary vein"
+          },
+          {
+            "code": "T-46100",
+            "display": "Subclavian artery"
+          },
+          {
+            "code": "T-48330",
+            "display": "Subclavian vein"
+          },
+          {
+            "code": "T-46350",
+            "display": "Superior phrenic artery"
+          },
+          {
+            "code": "T-48610",
+            "display": "Superior vena cava"
+          },
+          {
+            "code": "T-46130",
+            "display": "Thyrocervical trunk"
+          },
+          {
+            "code": "T-45700",
+            "display": "Vertebral artery"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0003489",
+            "display": "Aortic arch"
+          },
+          {
+            "code": "C0226019",
+            "display": "Aortic isthmus"
+          },
+          {
+            "code": "C0003956",
+            "display": "Ascending aorta"
+          },
+          {
+            "code": "C0004455",
+            "display": "Axillary Artery"
+          },
+          {
+            "code": "C0004456",
+            "display": "Axillary vein"
+          },
+          {
+            "code": "C0004526",
+            "display": "Azygos vein"
+          },
+          {
+            "code": "C0006087",
+            "display": "Brachial artery"
+          },
+          {
+            "code": "C0006094",
+            "display": "Brachiocephalic trunk"
+          },
+          {
+            "code": "C0006095",
+            "display": "Brachiocephalic vein"
+          },
+          {
+            "code": "C0006257",
+            "display": "Bronchial artery"
+          },
+          {
+            "code": "C0162859",
+            "display": "Common carotid artery"
+          },
+          {
+            "code": "C0226273",
+            "display": "Costocervical trunk"
+          },
+          {
+            "code": "C0011666",
+            "display": "Descending aorta"
+          },
+          {
+            "code": "C0500583",
+            "display": "Dorsal scapular artery"
+          },
+          {
+            "code": "C0226294",
+            "display": "Esophageal artery"
+          },
+          {
+            "code": "C0226543",
+            "display": "External jugular vein"
+          },
+          {
+            "code": "C0226406",
+            "display": "Inferior phrenic artery"
+          },
+          {
+            "code": "C0042458",
+            "display": "Inferior vena cava"
+          },
+          {
+            "code": "C0459917",
+            "display": "Intercostal artery"
+          },
+          {
+            "code": "C0226550",
+            "display": "Internal jugular vein"
+          },
+          {
+            "code": "C0226276",
+            "display": "Internal thoracic artery"
+          },
+          {
+            "code": "C0226287",
+            "display": "Pericardiophrenic Artery"
+          },
+          {
+            "code": "C0034052",
+            "display": "Pulmonary artery"
+          },
+          {
+            "code": "C0034090",
+            "display": "Pulmonary vein"
+          },
+          {
+            "code": "C0038530",
+            "display": "Subclavian artery"
+          },
+          {
+            "code": "C0038532",
+            "display": "Subclavian vein"
+          },
+          {
+            "code": "C0226295",
+            "display": "Superior phrenic artery"
+          },
+          {
+            "code": "C0042459",
+            "display": "Superior vena cava"
+          },
+          {
+            "code": "C0226263",
+            "display": "Thyrocervical trunk"
+          },
+          {
+            "code": "C0042559",
+            "display": "Vertebral artery"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112102",
+            "display": "Aortic knob"
+          },
+          {
+            "code": "112103",
+            "display": "Arch of the Azygos vein"
+          }
+        ]
+      }
+    ]
+  }
+}

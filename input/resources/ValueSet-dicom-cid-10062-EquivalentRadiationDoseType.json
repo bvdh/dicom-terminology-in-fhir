@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EquivalentRadiationDoseType",
+  "id": "dicom-cid-10062-EquivalentRadiationDoseType",
+  "description": "Equivalent Radiation Dose Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10062-EquivalentRadiationDoseType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1156"
+    }
+  ],
+  "version": "20170405",
+  "title": "Equivalent Radiation Dose Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128535",
+            "display": "Maximum Equivalent Radiation Dose"
+          },
+          {
+            "code": "128536",
+            "display": "Minimum Equivalent Radiation Dose"
+          },
+          {
+            "code": "128537",
+            "display": "Mean Equivalent Radiation Dose"
+          },
+          {
+            "code": "128538",
+            "display": "Mode Equivalent Radiation Dose"
+          },
+          {
+            "code": "128540",
+            "display": "Median Equivalent Radiation Dose"
+          }
+        ]
+      }
+    ]
+  }
+}

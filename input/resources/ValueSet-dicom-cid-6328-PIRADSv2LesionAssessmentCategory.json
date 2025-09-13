@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PIRADSv2LesionAssessmentCategory",
+  "id": "dicom-cid-6328-PIRADSv2LesionAssessmentCategory",
+  "description": "The use of \"Lesion\" as opposed to \"Finding\" is done to follow the conventions already implemented in RADLEX.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6328-PIRADSv2LesionAssessmentCategory",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1385"
+    }
+  ],
+  "version": "20210714",
+  "title": "PI-RADS v2 Lesion Assessment Category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.radlex.org",
+        "concept": [
+          {
+            "code": "RID50296",
+            "display": "PI-RADS 1 - Very low (lesion)"
+          },
+          {
+            "code": "RID50297",
+            "display": "PI-RADS 2 - Low (lesion)"
+          },
+          {
+            "code": "RID50298",
+            "display": "PI-RADS 3 - Intermediate (lesion)"
+          },
+          {
+            "code": "RID50299",
+            "display": "PI-RADS 4 - High (lesion)"
+          },
+          {
+            "code": "RID50300",
+            "display": "PI-RADS 5 - Very high (lesion)"
+          },
+          {
+            "code": "RID50323",
+            "display": "PI-RADS X - Inadequate or absent (lesion)"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ChestNonLesionObjectType",
+  "id": "dicom-cid-6138-ChestNonLesionObjectType",
+  "description": "The use of",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6138-ChestNonLesionObjectType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.458"
+    }
+  ],
+  "version": "20170914",
+  "title": "Chest Non-lesion Object Type",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6404-ChestNonLesionObjectTypePhysicalObject"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6405-ChestNonLesionObjectTypeTissue"
+        ]
+      }
+    ]
+  }
+}

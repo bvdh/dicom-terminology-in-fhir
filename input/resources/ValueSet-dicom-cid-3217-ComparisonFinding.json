@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ComparisonFinding",
+  "id": "dicom-cid-3217-ComparisonFinding",
+  "description": "Comparison Finding",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3217-ComparisonFinding",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.770"
+    }
+  ],
+  "version": "20080927",
+  "title": "Comparison Finding",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122775",
+            "display": "Agreement with prior findings"
+          },
+          {
+            "code": "122776",
+            "display": "Disagreement with prior findings"
+          }
+        ]
+      }
+    ]
+  }
+}

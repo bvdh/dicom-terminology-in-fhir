@@ -1,0 +1,10 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid5000",
+  "id": "dicom-cid5000",
+  "description": "The biblio_RFC_5646 biblio_ISO639 The two letter country codes of IANA language tag registrations may be obtained at In previous releases of the Standard, this Context Group formerly included the three letter language codes of In previous releases of the Standard, this Context Group provided only language identifiers, with national or regional variant identified in a separate Attribute or Content Item.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid5000",
+  "version": "None",
+  "title": "Language"
+}

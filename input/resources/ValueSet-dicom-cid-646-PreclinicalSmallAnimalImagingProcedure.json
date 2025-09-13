@@ -1,0 +1,157 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PreclinicalSmallAnimalImagingProcedure",
+  "id": "dicom-cid-646-PreclinicalSmallAnimalImagingProcedure",
+  "description": "The inconsistent pattern of modality and anatomy in the code meaning is present in the source Coding Scheme (e.g., \"Whole body CT\" versus \"PET whole body\"), and not changed, except where necessary (e.g., The UMLS codes that map to the SNOMED concepts, when present, are shown, in the cases when UMLS is lacking a mapping between the LOINC and SNOMED codes. E.g.,",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-646-PreclinicalSmallAnimalImagingProcedure",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1111"
+    }
+  ],
+  "version": "20151110",
+  "title": "Preclinical Small Animal Imaging Procedure",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "46305-9",
+            "display": "Whole body CT"
+          },
+          {
+            "code": "24725-4",
+            "display": "Head CT"
+          },
+          {
+            "code": "46358-8",
+            "display": "MRI whole body"
+          },
+          {
+            "code": "24590-2",
+            "display": "Brain MRI"
+          },
+          {
+            "code": "44139-4",
+            "display": "PET whole body"
+          },
+          {
+            "code": "44138-6",
+            "display": "Brain PET"
+          },
+          {
+            "code": "42175-0",
+            "display": "Radionuclide scan of whole body"
+          },
+          {
+            "code": "24730-4",
+            "display": "Radionuclide brain scan"
+          },
+          {
+            "code": "39632-5",
+            "display": "Brain SPECT"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1830206",
+            "display": "Whole body CT"
+          },
+          {
+            "code": "C0202691",
+            "display": "Head CT"
+          },
+          {
+            "code": "C1830259",
+            "display": "MRI whole body"
+          },
+          {
+            "code": "C0881827",
+            "display": "Brain MRI"
+          },
+          {
+            "code": "C1715409",
+            "display": "PET whole body"
+          },
+          {
+            "code": "C0412493",
+            "display": "Brain PET"
+          },
+          {
+            "code": "C1626178",
+            "display": "Radionuclide scan of whole body"
+          },
+          {
+            "code": "C0581582",
+            "display": "Radionuclide brain scan"
+          },
+          {
+            "code": "C1543694",
+            "display": "Brain SPECT"
+          },
+          {
+            "code": "C0203309",
+            "display": "Ultrasonography of total body"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "P5-08067",
+            "display": "Head CT"
+          },
+          {
+            "code": "P5-0905E",
+            "display": "MRI whole body"
+          },
+          {
+            "code": "R-FB9B7",
+            "display": "PET whole body"
+          },
+          {
+            "code": "P5-D0072",
+            "display": "Radionuclide scan of whole body"
+          },
+          {
+            "code": "P5-D9020",
+            "display": "Radionuclide brain scan"
+          },
+          {
+            "code": "P5-B0008",
+            "display": "Ultrasonography of total body"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "127901",
+            "display": "SPECT of whole body"
+          },
+          {
+            "code": "127902",
+            "display": "SPECT CT of whole body"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "24135002",
+            "display": "Ultrasonography of total body"
+          }
+        ]
+      }
+    ]
+  }
+}

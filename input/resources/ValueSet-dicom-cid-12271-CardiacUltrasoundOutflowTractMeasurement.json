@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiacUltrasoundOutflowTractMeasurement",
+  "id": "dicom-cid-12271-CardiacUltrasoundOutflowTractMeasurement",
+  "description": "Cardiac Ultrasound Outflow Tract Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12271-CardiacUltrasoundOutflowTractMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.852"
+    }
+  ],
+  "version": "20240920",
+  "title": "Cardiac Ultrasound Outflow Tract Measurement",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12257-CardiacUltrasoundLeftVentricleMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12258-CardiacUltrasoundRightVentricleMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12262-CardiacUltrasoundPulmonaryValveMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12270-CardiacUltrasoundAorticValveMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12313-CardiacUltrasoundFetalArrhythmiaMeasurements"
+        ]
+      }
+    ]
+  }
+}

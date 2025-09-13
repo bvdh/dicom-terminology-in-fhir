@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EnergyDerivationTypes",
+  "id": "dicom-cid-9262-EnergyDerivationTypes",
+  "description": "Energy Derivation Types",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9262-EnergyDerivationTypes",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1461"
+    }
+  ],
+  "version": "20221225",
+  "title": "Energy Derivation Types",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130806",
+            "display": "Configured Lowest Imaging Energy"
+          },
+          {
+            "code": "130807",
+            "display": "Configured Default Imaging Energy"
+          }
+        ]
+      }
+    ]
+  }
+}

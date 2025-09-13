@@ -1,0 +1,10 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid5001",
+  "id": "dicom-cid5001",
+  "description": "The two letter country codes of ISO 3166 may be obtained at",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid5001",
+  "version": "None",
+  "title": "Country"
+}

@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiotherapyRegistrationWorkitemDefinition",
+  "id": "dicom-cid-9243-RadiotherapyRegistrationWorkitemDefinition",
+  "description": "Radiotherapy Registration Workitem Definition",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9243-RadiotherapyRegistrationWorkitemDefinition",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.933"
+    }
+  ],
+  "version": "20240612",
+  "title": "Radiotherapy Registration Workitem Definition",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121712",
+            "display": "RT Patient Position Registration, single plane"
+          },
+          {
+            "code": "121713",
+            "display": "RT Patient Position Registration, dual plane"
+          },
+          {
+            "code": "121714",
+            "display": "RT Patient Position Registration, 3D CT general"
+          },
+          {
+            "code": "121715",
+            "display": "RT Patient Position Registration, 3D CT marker-based"
+          },
+          {
+            "code": "121716",
+            "display": "RT Patient Position Registration, 3D CT volume-based"
+          },
+          {
+            "code": "121717",
+            "display": "RT Patient Position Registration, 3D on 2D reference"
+          },
+          {
+            "code": "121718",
+            "display": "RT Patient Position Registration, 2D on 3D reference"
+          },
+          {
+            "code": "121719",
+            "display": "RT Patient Position Registration, Optical"
+          },
+          {
+            "code": "121720",
+            "display": "RT Patient Position Registration, Ultrasound"
+          },
+          {
+            "code": "121721",
+            "display": "RT Patient Position Registration, Spatial Fiducials"
+          },
+          {
+            "code": "121738",
+            "display": "RT Patient Position Registration, MR"
+          }
+        ]
+      }
+    ]
+  }
+}

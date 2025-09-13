@@ -1,0 +1,71 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SideFromBIRADS",
+  "id": "dicom-cid-6023-SideFromBIRADS",
+  "description": "From BI-RADS Third Edition (National Mammography Database, E98)",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6023-SideFromBIRADS",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.353"
+    }
+  ],
+  "version": "20020904",
+  "title": "Side from BI-RADS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "80248007",
+            "display": "Left breast"
+          },
+          {
+            "code": "73056007",
+            "display": "Right breast"
+          },
+          {
+            "code": "63762007",
+            "display": "Both breasts"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-04030",
+            "display": "Left breast"
+          },
+          {
+            "code": "T-04020",
+            "display": "Right breast"
+          },
+          {
+            "code": "T-04080",
+            "display": "Both breasts"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0222601",
+            "display": "Left breast"
+          },
+          {
+            "code": "C0222600",
+            "display": "Right breast"
+          },
+          {
+            "code": "C0222605",
+            "display": "Both breasts"
+          }
+        ]
+      }
+    ]
+  }
+}

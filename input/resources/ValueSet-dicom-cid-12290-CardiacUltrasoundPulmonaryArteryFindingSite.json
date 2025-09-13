@@ -1,0 +1,103 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiacUltrasoundPulmonaryArteryFindingSite",
+  "id": "dicom-cid-12290-CardiacUltrasoundPulmonaryArteryFindingSite",
+  "description": "Cardiac Ultrasound Pulmonary Artery Finding Site",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12290-CardiacUltrasoundPulmonaryArteryFindingSite",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.870"
+    }
+  ],
+  "version": "20240920",
+  "title": "Cardiac Ultrasound Pulmonary Artery Finding Site",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "45341000",
+            "display": "Pulmonary Trunk"
+          },
+          {
+            "code": "50408007",
+            "display": "Left pulmonary artery"
+          },
+          {
+            "code": "78480002",
+            "display": "Right pulmonary artery"
+          },
+          {
+            "code": "81040000",
+            "display": "Pulmonary Artery"
+          },
+          {
+            "code": "443096004",
+            "display": "Aorta to Pulmonary Artery Connection"
+          },
+          {
+            "code": "4432005",
+            "display": "Ductus arteriosus"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-44100",
+            "display": "Pulmonary Trunk"
+          },
+          {
+            "code": "T-44400",
+            "display": "Left pulmonary artery"
+          },
+          {
+            "code": "T-44200",
+            "display": "Right pulmonary artery"
+          },
+          {
+            "code": "T-44000",
+            "display": "Pulmonary Artery"
+          },
+          {
+            "code": "T-D0877",
+            "display": "Aorta to Pulmonary Artery Connection"
+          },
+          {
+            "code": "T-F6845",
+            "display": "Ductus arteriosus"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0034052",
+            "display": "Pulmonary Trunk"
+          },
+          {
+            "code": "C0226069",
+            "display": "Left pulmonary artery"
+          },
+          {
+            "code": "C0226054",
+            "display": "Right pulmonary artery"
+          },
+          {
+            "code": "C2732457",
+            "display": "Aorta to Pulmonary Artery Connection"
+          },
+          {
+            "code": "C0013273",
+            "display": "Ductus arteriosus"
+          }
+        ]
+      }
+    ]
+  }
+}

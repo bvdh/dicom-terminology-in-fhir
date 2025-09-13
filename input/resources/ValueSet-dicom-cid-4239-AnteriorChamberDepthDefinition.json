@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AnteriorChamberDepthDefinition",
+  "id": "dicom-cid-4239-AnteriorChamberDepthDefinition",
+  "description": "Anterior Chamber Depth Definition",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4239-AnteriorChamberDepthDefinition",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.885"
+    }
+  ],
+  "version": "20100623",
+  "title": "Anterior Chamber Depth Definition",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111776",
+            "display": "Front Of Cornea To Front Of Lens"
+          },
+          {
+            "code": "111777",
+            "display": "Back Of Cornea To Front Of Lens"
+          }
+        ]
+      }
+    ]
+  }
+}

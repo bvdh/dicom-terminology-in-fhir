@@ -1,0 +1,227 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "UltrasoundBeamPath",
+  "id": "dicom-cid-7-UltrasoundBeamPath",
+  "description": "Ultrasound Beam Path",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7-UltrasoundBeamPath",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.5"
+    }
+  ],
+  "version": "20191108",
+  "title": "Ultrasound Beam Path",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "103381007",
+            "display": "Trans-hepatic"
+          },
+          {
+            "code": "103353001",
+            "display": "Trans-gastric"
+          },
+          {
+            "code": "103348006",
+            "display": "Trans-pleural"
+          },
+          {
+            "code": "103354007",
+            "display": "Trans-mural"
+          },
+          {
+            "code": "129226004",
+            "display": "Trans-orbital"
+          },
+          {
+            "code": "103349003",
+            "display": "Trans-pancreatic"
+          },
+          {
+            "code": "6706003",
+            "display": "Trans-rectal"
+          },
+          {
+            "code": "103347001",
+            "display": "Trans-renal"
+          },
+          {
+            "code": "103382000",
+            "display": "Trans-temporal"
+          },
+          {
+            "code": "103345009",
+            "display": "Trans-thecal"
+          },
+          {
+            "code": "57257006",
+            "display": "Trans-urethral"
+          },
+          {
+            "code": "103344008",
+            "display": "Trans-vesical"
+          },
+          {
+            "code": "103346005",
+            "display": "Trans-splenic"
+          },
+          {
+            "code": "103383005",
+            "display": "Trans-esophageal"
+          },
+          {
+            "code": "66739002",
+            "display": "Trans-abdominal"
+          },
+          {
+            "code": "54300008",
+            "display": "Trans-vaginal"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-D027",
+            "display": "Trans-hepatic"
+          },
+          {
+            "code": "G-A1B2",
+            "display": "Trans-gastric"
+          },
+          {
+            "code": "G-A1A5",
+            "display": "Trans-pleural"
+          },
+          {
+            "code": "G-A1B3",
+            "display": "Trans-mural"
+          },
+          {
+            "code": "G-D065",
+            "display": "Trans-orbital"
+          },
+          {
+            "code": "G-A1A6",
+            "display": "Trans-pancreatic"
+          },
+          {
+            "code": "G-D028",
+            "display": "Trans-rectal"
+          },
+          {
+            "code": "G-A1A4",
+            "display": "Trans-renal"
+          },
+          {
+            "code": "G-D032",
+            "display": "Trans-temporal"
+          },
+          {
+            "code": "G-A1A2",
+            "display": "Trans-thecal"
+          },
+          {
+            "code": "G-D003",
+            "display": "Trans-urethral"
+          },
+          {
+            "code": "G-A1A1",
+            "display": "Trans-vesical"
+          },
+          {
+            "code": "G-A1A3",
+            "display": "Trans-splenic"
+          },
+          {
+            "code": "G-D033",
+            "display": "Trans-esophageal"
+          },
+          {
+            "code": "G-D001",
+            "display": "Trans-abdominal"
+          },
+          {
+            "code": "G-D002",
+            "display": "Trans-vaginal"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0522516",
+            "display": "Trans-hepatic"
+          },
+          {
+            "code": "C0442355",
+            "display": "Trans-gastric"
+          },
+          {
+            "code": "C0522494",
+            "display": "Trans-pleural"
+          },
+          {
+            "code": "C0522497",
+            "display": "Trans-mural"
+          },
+          {
+            "code": "C0442367",
+            "display": "Trans-orbital"
+          },
+          {
+            "code": "C0522495",
+            "display": "Trans-pancreatic"
+          },
+          {
+            "code": "C0205518",
+            "display": "Trans-rectal"
+          },
+          {
+            "code": "C0522493",
+            "display": "Trans-renal"
+          },
+          {
+            "code": "C0522517",
+            "display": "Trans-temporal"
+          },
+          {
+            "code": "C0522492",
+            "display": "Trans-thecal"
+          },
+          {
+            "code": "C0205497",
+            "display": "Trans-urethral"
+          },
+          {
+            "code": "C0442393",
+            "display": "Trans-vesical"
+          },
+          {
+            "code": "C0589466",
+            "display": "Trans-splenic"
+          },
+          {
+            "code": "C0522518",
+            "display": "Trans-esophageal"
+          },
+          {
+            "code": "C0205496",
+            "display": "Trans-abdominal"
+          },
+          {
+            "code": "C0175672",
+            "display": "Trans-vaginal"
+          }
+        ]
+      }
+    ]
+  }
+}

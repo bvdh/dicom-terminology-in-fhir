@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RetinalThicknessDefinition",
+  "id": "dicom-cid-4262-RetinalThicknessDefinition",
+  "description": "Retinal Thickness Definition",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4262-RetinalThicknessDefinition",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.938"
+    }
+  ],
+  "version": "20110825",
+  "title": "Retinal Thickness Definition",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111925",
+            "display": "Retinal nerve fiber layer thickness"
+          },
+          {
+            "code": "111926",
+            "display": "Ganglion cell complex thickness"
+          },
+          {
+            "code": "111927",
+            "display": "Total retinal thickness (ILM to IS-OS)"
+          },
+          {
+            "code": "111928",
+            "display": "Total retinal thickness (ILM to RPE)"
+          },
+          {
+            "code": "111929",
+            "display": "Total retinal thickness (ILM to BM)"
+          }
+        ]
+      }
+    ]
+  }
+}

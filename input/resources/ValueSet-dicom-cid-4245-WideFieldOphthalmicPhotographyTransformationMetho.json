@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "WideFieldOphthalmicPhotographyTransformationMethod",
+  "id": "dicom-cid-4245-WideFieldOphthalmicPhotographyTransformationMetho",
+  "description": "Wide Field Ophthalmic Photography Transformation Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4245-WideFieldOphthalmicPhotographyTransformationMetho",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1029"
+    }
+  ],
+  "version": "20150326",
+  "title": "Wide Field Ophthalmic Photography Transformation Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111791",
+            "display": "Spherical projection"
+          },
+          {
+            "code": "111792",
+            "display": "Surface contour mapping"
+          }
+        ]
+      }
+    ]
+  }
+}

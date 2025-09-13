@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VisualExplanation",
+  "id": "dicom-cid-217-VisualExplanation",
+  "description": "Visual Explanation",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-217-VisualExplanation",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1305"
+    }
+  ],
+  "version": "20191108",
+  "title": "Visual Explanation",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130402",
+            "display": "Class activation"
+          },
+          {
+            "code": "130403",
+            "display": "Gradient-weighted class activation"
+          },
+          {
+            "code": "130404",
+            "display": "Saliency"
+          }
+        ]
+      }
+    ]
+  }
+}

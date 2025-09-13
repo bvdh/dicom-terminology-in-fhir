@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "HumanHipImplantPlanningLandmark",
+  "id": "dicom-cid-7306-HumanHipImplantPlanningLandmark",
+  "description": "Human Hip Implant Planning Landmark",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7306-HumanHipImplantPlanningLandmark",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1037"
+    }
+  ],
+  "version": "20101102",
+  "title": "Human Hip Implant Planning Landmark",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112302",
+            "display": "Anatomical axis of femur"
+          },
+          {
+            "code": "112303",
+            "display": "Acetabular Center of Rotation"
+          },
+          {
+            "code": "112304",
+            "display": "Femur Head Center of Rotation"
+          }
+        ]
+      }
+    ]
+  }
+}

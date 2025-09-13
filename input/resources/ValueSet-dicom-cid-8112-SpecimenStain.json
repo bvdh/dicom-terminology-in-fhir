@@ -1,0 +1,2631 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SpecimenStain",
+  "id": "dicom-cid-8112-SpecimenStain",
+  "description": "Specimen Stain",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-8112-SpecimenStain",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1050"
+    }
+  ],
+  "version": "20240611",
+  "title": "Specimen Stain",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "255792001",
+            "display": "acid phosphatase stain"
+          },
+          {
+            "code": "255793006",
+            "display": "Albert's stain"
+          },
+          {
+            "code": "4656000",
+            "display": "alcian blue 8GX stain"
+          },
+          {
+            "code": "47995002",
+            "display": "alcohol soluble nigrosine stain"
+          },
+          {
+            "code": "406981005",
+            "display": "aldehyde fuchsin stain"
+          },
+          {
+            "code": "54432009",
+            "display": "alizarin blue S stain"
+          },
+          {
+            "code": "21951008",
+            "display": "alizarin cyanine green stain"
+          },
+          {
+            "code": "65580004",
+            "display": "alizarin red S stain"
+          },
+          {
+            "code": "27016007",
+            "display": "alizarin yellow GG stain"
+          },
+          {
+            "code": "28622002",
+            "display": "alizarin yellow R stain"
+          },
+          {
+            "code": "406971006",
+            "display": "alkaline phosphatase stain"
+          },
+          {
+            "code": "406990003",
+            "display": "aniline blue stain"
+          },
+          {
+            "code": "255794000",
+            "display": "auramine stain"
+          },
+          {
+            "code": "85066006",
+            "display": "azo black stain"
+          },
+          {
+            "code": "76048000",
+            "display": "azocarmine G (GX) stain"
+          },
+          {
+            "code": "35609001",
+            "display": "azophloxin stain"
+          },
+          {
+            "code": "2159007",
+            "display": "azorubin S stain"
+          },
+          {
+            "code": "16836001",
+            "display": "azure A stain"
+          },
+          {
+            "code": "8926000",
+            "display": "azure B stain"
+          },
+          {
+            "code": "11069001",
+            "display": "azure C stain"
+          },
+          {
+            "code": "406982003",
+            "display": "bauer's chromic acid leucofuchsin stain"
+          },
+          {
+            "code": "27844007",
+            "display": "benzo fast scarlet stain"
+          },
+          {
+            "code": "255795004",
+            "display": "beta-glucuronidase stain"
+          },
+          {
+            "code": "76605005",
+            "display": "biebrich scarlet stain"
+          },
+          {
+            "code": "44488008",
+            "display": "bismark brown R stain"
+          },
+          {
+            "code": "85190005",
+            "display": "bismark brown Y stain"
+          },
+          {
+            "code": "1346008",
+            "display": "blue shade eosin stain"
+          },
+          {
+            "code": "41750006",
+            "display": "brazilin stain"
+          },
+          {
+            "code": "8342001",
+            "display": "brilliant cresyl blue stain"
+          },
+          {
+            "code": "86541009",
+            "display": "brilliant crocein stain"
+          },
+          {
+            "code": "8429000",
+            "display": "brilliant orange stain"
+          },
+          {
+            "code": "57753006",
+            "display": "brilliant yellow stain"
+          },
+          {
+            "code": "406955006",
+            "display": "butyrate esterase stain"
+          },
+          {
+            "code": "764166003",
+            "display": "carbol fuchsin stain"
+          },
+          {
+            "code": "73892005",
+            "display": "carmine stain"
+          },
+          {
+            "code": "432003",
+            "display": "carminic acid stain"
+          },
+          {
+            "code": "37575004",
+            "display": "carmoisine A stain"
+          },
+          {
+            "code": "38707008",
+            "display": "celestine blue B stain"
+          },
+          {
+            "code": "255796003",
+            "display": "chloroacetate esterase stain"
+          },
+          {
+            "code": "406986000",
+            "display": "chromic acid stain"
+          },
+          {
+            "code": "85981002",
+            "display": "chromotrope 2R stain"
+          },
+          {
+            "code": "10247008",
+            "display": "chrysoidine R stain"
+          },
+          {
+            "code": "16943008",
+            "display": "chrysoidine Y stain"
+          },
+          {
+            "code": "406952009",
+            "display": "colloidal iron stain"
+          },
+          {
+            "code": "45106005",
+            "display": "Congo red stain"
+          },
+          {
+            "code": "406960005",
+            "display": "cresyl echt violet stain"
+          },
+          {
+            "code": "406959000",
+            "display": "cresyl violet stain"
+          },
+          {
+            "code": "68459007",
+            "display": "crystal ponceau stain"
+          },
+          {
+            "code": "89028002",
+            "display": "curcumin stain"
+          },
+          {
+            "code": "72572003",
+            "display": "diamond black stain"
+          },
+          {
+            "code": "11780008",
+            "display": "durazol red stain"
+          },
+          {
+            "code": "40076005",
+            "display": "erie garnet stain"
+          },
+          {
+            "code": "58631000",
+            "display": "eriochrome blue black SE stain"
+          },
+          {
+            "code": "7434003",
+            "display": "erythrosin B stain"
+          },
+          {
+            "code": "5043000",
+            "display": "erythrosin Y stain"
+          },
+          {
+            "code": "22931006",
+            "display": "Evans blue stain"
+          },
+          {
+            "code": "34700000",
+            "display": "fast blue B salt stain"
+          },
+          {
+            "code": "91295002",
+            "display": "fast blue BB salt stain"
+          },
+          {
+            "code": "64112001",
+            "display": "fast blue RR salt stain"
+          },
+          {
+            "code": "89148006",
+            "display": "fast garnet GBC salt stain"
+          },
+          {
+            "code": "24167004",
+            "display": "fast green FCF stain"
+          },
+          {
+            "code": "40718007",
+            "display": "fast red B salt stain"
+          },
+          {
+            "code": "47486002",
+            "display": "fast red ITR stain"
+          },
+          {
+            "code": "76633005",
+            "display": "fast red TR salt stain"
+          },
+          {
+            "code": "88660000",
+            "display": "fast sulfon black F stain"
+          },
+          {
+            "code": "72371006",
+            "display": "fast violet B salt stain"
+          },
+          {
+            "code": "76439002",
+            "display": "fat red 7B stain"
+          },
+          {
+            "code": "255797007",
+            "display": "Feulgen reaction stain"
+          },
+          {
+            "code": "255798002",
+            "display": "field's stain"
+          },
+          {
+            "code": "255799005",
+            "display": "Flagellar stain"
+          },
+          {
+            "code": "35352008",
+            "display": "fluorescent stain"
+          },
+          {
+            "code": "406980006",
+            "display": "fouchet stain"
+          },
+          {
+            "code": "60920007",
+            "display": "fuchsin acid stain"
+          },
+          {
+            "code": "50062004",
+            "display": "fuchsin basic stain"
+          },
+          {
+            "code": "8836009",
+            "display": "gallocyanine stain"
+          },
+          {
+            "code": "373646006",
+            "display": "giemsa stain"
+          },
+          {
+            "code": "385484003",
+            "display": "gram stain"
+          },
+          {
+            "code": "406983008",
+            "display": "hansel stain"
+          },
+          {
+            "code": "75956008",
+            "display": "hematein stain"
+          },
+          {
+            "code": "12710003",
+            "display": "hematoxylin stain"
+          },
+          {
+            "code": "255800009",
+            "display": "immunofluorescent stain"
+          },
+          {
+            "code": "406972004",
+            "display": "India ink stain"
+          },
+          {
+            "code": "412548006",
+            "display": "indigo carmine"
+          },
+          {
+            "code": "11727009",
+            "display": "indophenol from naphthol stain"
+          },
+          {
+            "code": "47030008",
+            "display": "insoluble berlin blue stain"
+          },
+          {
+            "code": "68263003",
+            "display": "janus green B stain"
+          },
+          {
+            "code": "255801008",
+            "display": "Jenner-Giemsa stain"
+          },
+          {
+            "code": "29342009",
+            "display": "kenacid blue R stain"
+          },
+          {
+            "code": "35724001",
+            "display": "lacmoid stain"
+          },
+          {
+            "code": "255802001",
+            "display": "Leishman stain"
+          },
+          {
+            "code": "89139001",
+            "display": "light green SF stain"
+          },
+          {
+            "code": "6701008",
+            "display": "lissamine fast red B stain"
+          },
+          {
+            "code": "25079009",
+            "display": "lissamine fast yellow stain"
+          },
+          {
+            "code": "38543004",
+            "display": "lissamine green B stain"
+          },
+          {
+            "code": "111102009",
+            "display": "lissamine rhodamine stain"
+          },
+          {
+            "code": "406958008",
+            "display": "luxol fast blue stain"
+          },
+          {
+            "code": "27120008",
+            "display": "malachite green stain"
+          },
+          {
+            "code": "406953004",
+            "display": "Mallory bleach stain"
+          },
+          {
+            "code": "46139004",
+            "display": "martius yellow stain"
+          },
+          {
+            "code": "255803006",
+            "display": "may-Grunwald giemsa stain"
+          },
+          {
+            "code": "24516006",
+            "display": "meldola blue stain"
+          },
+          {
+            "code": "54791001",
+            "display": "metanil yellow stain"
+          },
+          {
+            "code": "9010006",
+            "display": "methyl blue stain"
+          },
+          {
+            "code": "255804000",
+            "display": "methyl green pyronin stain"
+          },
+          {
+            "code": "42248000",
+            "display": "methyl orange stain"
+          },
+          {
+            "code": "13744001",
+            "display": "methyl red stain"
+          },
+          {
+            "code": "387239001",
+            "display": "methyl violet stain"
+          },
+          {
+            "code": "6725000",
+            "display": "methylene blue stain"
+          },
+          {
+            "code": "406961009",
+            "display": "methylene violet stain"
+          },
+          {
+            "code": "31260003",
+            "display": "methylene violet stain (Bernthsen)"
+          },
+          {
+            "code": "406991004",
+            "display": "modified trichrome stain"
+          },
+          {
+            "code": "406964001",
+            "display": "mucicarmine stain"
+          },
+          {
+            "code": "255805004",
+            "display": "myeloperoxidase stain"
+          },
+          {
+            "code": "16788000",
+            "display": "naphthalene black 12B stain"
+          },
+          {
+            "code": "14958002",
+            "display": "naphthol green B stain"
+          },
+          {
+            "code": "111101002",
+            "display": "naphthol yellow S stain"
+          },
+          {
+            "code": "406973009",
+            "display": "naphthol-AS-D-chloracetate esterase stain"
+          },
+          {
+            "code": "67956008",
+            "display": "neutral red stain"
+          },
+          {
+            "code": "255806003",
+            "display": "neutrophil alkaline phosphatase stain"
+          },
+          {
+            "code": "31714001",
+            "display": "new fuchsin stain"
+          },
+          {
+            "code": "406965000",
+            "display": "night blue stain"
+          },
+          {
+            "code": "77073008",
+            "display": "nile blue stain"
+          },
+          {
+            "code": "86750008",
+            "display": "nitrazine yellow stain"
+          },
+          {
+            "code": "255807007",
+            "display": "nonspecific esterase stain"
+          },
+          {
+            "code": "78869007",
+            "display": "nuclear fast red stain"
+          },
+          {
+            "code": "40808006",
+            "display": "oil red O stain"
+          },
+          {
+            "code": "54221006",
+            "display": "orange G stain"
+          },
+          {
+            "code": "25941002",
+            "display": "orange II stain"
+          },
+          {
+            "code": "406966004",
+            "display": "orcein stain"
+          },
+          {
+            "code": "5442001",
+            "display": "page blue 83 stain"
+          },
+          {
+            "code": "2088005",
+            "display": "page blue G-90 stain"
+          },
+          {
+            "code": "48540004",
+            "display": "patent blue V sodium salt stain"
+          },
+          {
+            "code": "255808002",
+            "display": "periodic acid Schiff stain"
+          },
+          {
+            "code": "410457007",
+            "display": "permethrin"
+          },
+          {
+            "code": "406974003",
+            "display": "peroxidase stain"
+          },
+          {
+            "code": "71957009",
+            "display": "phloxin B stain"
+          },
+          {
+            "code": "406967008",
+            "display": "phosphotungstic acid-hematoxylin stain"
+          },
+          {
+            "code": "65730007",
+            "display": "ponceau 3R stain"
+          },
+          {
+            "code": "89856006",
+            "display": "ponceau S stain"
+          },
+          {
+            "code": "70520000",
+            "display": "ponceau xylidine stain"
+          },
+          {
+            "code": "89577003",
+            "display": "pontamine sky blue 5BX stain"
+          },
+          {
+            "code": "80305003",
+            "display": "pontamine sky blue 6BX stain"
+          },
+          {
+            "code": "34763001",
+            "display": "potassium hydroxide stain"
+          },
+          {
+            "code": "24900003",
+            "display": "procion brilliant blue MRS stain"
+          },
+          {
+            "code": "406993001",
+            "display": "protargol S stain"
+          },
+          {
+            "code": "406452004",
+            "display": "Prussian blue stain"
+          },
+          {
+            "code": "406968003",
+            "display": "quinacrine fluorescent stain"
+          },
+          {
+            "code": "406977005",
+            "display": "rhodamine stain"
+          },
+          {
+            "code": "255810000",
+            "display": "Romanowsky stain"
+          },
+          {
+            "code": "408742009",
+            "display": "rose bengal stain"
+          },
+          {
+            "code": "15529003",
+            "display": "rosolic acid sodium salt stain"
+          },
+          {
+            "code": "38271009",
+            "display": "saffron stain"
+          },
+          {
+            "code": "406988004",
+            "display": "safranin stain"
+          },
+          {
+            "code": "406985001",
+            "display": "silver nitrate stain"
+          },
+          {
+            "code": "406951002",
+            "display": "silver stain"
+          },
+          {
+            "code": "51567006",
+            "display": "sirius red F3B stain"
+          },
+          {
+            "code": "43549000",
+            "display": "solochrome azurine (BS) stain"
+          },
+          {
+            "code": "11201005",
+            "display": "solochrome black 6B stain"
+          },
+          {
+            "code": "25091000",
+            "display": "solochrome cyanine R stain"
+          },
+          {
+            "code": "38902009",
+            "display": "solochrome dark blue stain"
+          },
+          {
+            "code": "64991008",
+            "display": "soluble berlin blue stain"
+          },
+          {
+            "code": "11645004",
+            "display": "spirit soluble aniline blue stain"
+          },
+          {
+            "code": "83600004",
+            "display": "spirit soluble eosin stain"
+          },
+          {
+            "code": "255811001",
+            "display": "spore stain"
+          },
+          {
+            "code": "314900004",
+            "display": "Sudan stain"
+          },
+          {
+            "code": "22968009",
+            "display": "sunset yellow FCF stain"
+          },
+          {
+            "code": "21592006",
+            "display": "tartrazine stain"
+          },
+          {
+            "code": "406975002",
+            "display": "terminal deoxynucleotidyl transferase stain"
+          },
+          {
+            "code": "406995008",
+            "display": "thioflavine S stain"
+          },
+          {
+            "code": "61068006",
+            "display": "thioflavine T stain"
+          },
+          {
+            "code": "12001002",
+            "display": "thionine stain"
+          },
+          {
+            "code": "84217005",
+            "display": "titan yellow stain"
+          },
+          {
+            "code": "406989007",
+            "display": "trichrome stain"
+          },
+          {
+            "code": "35094004",
+            "display": "tropaeolin O stain"
+          },
+          {
+            "code": "53511009",
+            "display": "tropaeolin OO stain"
+          },
+          {
+            "code": "60441008",
+            "display": "trypan blue stain"
+          },
+          {
+            "code": "406957003",
+            "display": "Van Gieson stain"
+          },
+          {
+            "code": "406992006",
+            "display": "verhoeff's hematoxylin stain"
+          },
+          {
+            "code": "20230008",
+            "display": "vital new red stain"
+          },
+          {
+            "code": "88625006",
+            "display": "water soluble aniline blue stain"
+          },
+          {
+            "code": "58755002",
+            "display": "water soluble anthracene brown stain"
+          },
+          {
+            "code": "12119009",
+            "display": "water soluble nigrosine stain"
+          },
+          {
+            "code": "60739006",
+            "display": "waxoline blue stain"
+          },
+          {
+            "code": "409549005",
+            "display": "wayson stain"
+          },
+          {
+            "code": "373682001",
+            "display": "wright stain"
+          },
+          {
+            "code": "55831004",
+            "display": "xylene cyanol FF stain"
+          },
+          {
+            "code": "255813003",
+            "display": "Ziehl-Neelsen stain"
+          },
+          {
+            "code": "29252006",
+            "display": "acridine orange stain"
+          },
+          {
+            "code": "17693003",
+            "display": "acriflavine stain"
+          },
+          {
+            "code": "84656005",
+            "display": "atebrin FS stain"
+          },
+          {
+            "code": "73251007",
+            "display": "auramine G stain"
+          },
+          {
+            "code": "81397005",
+            "display": "auramine O stain"
+          },
+          {
+            "code": "49687009",
+            "display": "coriphosphine stain"
+          },
+          {
+            "code": "85596006",
+            "display": "fluorescein stain"
+          },
+          {
+            "code": "108880002",
+            "display": "fluorexon stain"
+          },
+          {
+            "code": "27671009",
+            "display": "rhodamine B stain"
+          },
+          {
+            "code": "25351006",
+            "display": "Fluorescein sodium stain"
+          },
+          {
+            "code": "36572009",
+            "display": "Sudan black B stain"
+          },
+          {
+            "code": "310805002",
+            "display": "Sudan black stain"
+          },
+          {
+            "code": "10740006",
+            "display": "Sudan blue stain"
+          },
+          {
+            "code": "12030009",
+            "display": "Sudan II stain"
+          },
+          {
+            "code": "39777001",
+            "display": "Sudan III stain"
+          },
+          {
+            "code": "69133007",
+            "display": "Sudan IV stain"
+          },
+          {
+            "code": "76925007",
+            "display": "alkali blue 5B (4B) stain"
+          },
+          {
+            "code": "63929007",
+            "display": "alkali blue 6B stain"
+          },
+          {
+            "code": "34128002",
+            "display": "chrome azurol S stain"
+          },
+          {
+            "code": "17172002",
+            "display": "dibromofluorescein stain"
+          },
+          {
+            "code": "65445001",
+            "display": "ethyl violet stain"
+          },
+          {
+            "code": "22021002",
+            "display": "methyl green stain"
+          },
+          {
+            "code": "15896008",
+            "display": "methyl violet 2B stain"
+          },
+          {
+            "code": "14544006",
+            "display": "methyl violet 6B stain"
+          },
+          {
+            "code": "76001002",
+            "display": "pyronine B stain"
+          },
+          {
+            "code": "43106008",
+            "display": "pyronine G stain"
+          },
+          {
+            "code": "29522004",
+            "display": "toluidine blue stain"
+          },
+          {
+            "code": "82682000",
+            "display": "victoria blue 4R stain"
+          },
+          {
+            "code": "22749001",
+            "display": "victoria blue B stain"
+          },
+          {
+            "code": "36879007",
+            "display": "water soluble eosin stain"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "C-2280A",
+            "display": "acid phosphatase stain"
+          },
+          {
+            "code": "C-2280B",
+            "display": "Albert's stain"
+          },
+          {
+            "code": "C-22963",
+            "display": "alcian blue 8GX stain"
+          },
+          {
+            "code": "C-22932",
+            "display": "alcohol soluble nigrosine stain"
+          },
+          {
+            "code": "C-2286D",
+            "display": "aldehyde fuchsin stain"
+          },
+          {
+            "code": "C-22961",
+            "display": "alizarin blue S stain"
+          },
+          {
+            "code": "C-22959",
+            "display": "alizarin cyanine green stain"
+          },
+          {
+            "code": "C-22953",
+            "display": "alizarin red S stain"
+          },
+          {
+            "code": "C-22813",
+            "display": "alizarin yellow GG stain"
+          },
+          {
+            "code": "C-22814",
+            "display": "alizarin yellow R stain"
+          },
+          {
+            "code": "C-2285B",
+            "display": "alkaline phosphatase stain"
+          },
+          {
+            "code": "C-2287E",
+            "display": "aniline blue stain"
+          },
+          {
+            "code": "C-2280C",
+            "display": "auramine stain"
+          },
+          {
+            "code": "C-22873",
+            "display": "azo black stain"
+          },
+          {
+            "code": "C-22929",
+            "display": "azocarmine G (GX) stain"
+          },
+          {
+            "code": "C-22842",
+            "display": "azophloxin stain"
+          },
+          {
+            "code": "C-22831",
+            "display": "azorubin S stain"
+          },
+          {
+            "code": "C-22945",
+            "display": "azure A stain"
+          },
+          {
+            "code": "C-22946",
+            "display": "azure B stain"
+          },
+          {
+            "code": "C-22944",
+            "display": "azure C stain"
+          },
+          {
+            "code": "C-2286E",
+            "display": "bauer's chromic acid leucofuchsin stain"
+          },
+          {
+            "code": "C-22872",
+            "display": "benzo fast scarlet stain"
+          },
+          {
+            "code": "C-2280D",
+            "display": "beta-glucuronidase stain"
+          },
+          {
+            "code": "C-22866",
+            "display": "biebrich scarlet stain"
+          },
+          {
+            "code": "C-22849",
+            "display": "bismark brown R stain"
+          },
+          {
+            "code": "C-22848",
+            "display": "bismark brown Y stain"
+          },
+          {
+            "code": "C-22921",
+            "display": "blue shade eosin stain"
+          },
+          {
+            "code": "C-22965",
+            "display": "brazilin stain"
+          },
+          {
+            "code": "C-22934",
+            "display": "brilliant cresyl blue stain"
+          },
+          {
+            "code": "C-22869",
+            "display": "brilliant crocein stain"
+          },
+          {
+            "code": "C-22865",
+            "display": "brilliant orange stain"
+          },
+          {
+            "code": "C-22857",
+            "display": "brilliant yellow stain"
+          },
+          {
+            "code": "C-2283C",
+            "display": "butyrate esterase stain"
+          },
+          {
+            "code": "C-22971",
+            "display": "carmine stain"
+          },
+          {
+            "code": "C-22972",
+            "display": "carminic acid stain"
+          },
+          {
+            "code": "C-22822",
+            "display": "carmoisine A stain"
+          },
+          {
+            "code": "C-22936",
+            "display": "celestine blue B stain"
+          },
+          {
+            "code": "C-2280E",
+            "display": "chloroacetate esterase stain"
+          },
+          {
+            "code": "C-2287B",
+            "display": "chromic acid stain"
+          },
+          {
+            "code": "C-22838",
+            "display": "chromotrope 2R stain"
+          },
+          {
+            "code": "C-22806",
+            "display": "chrysoidine R stain"
+          },
+          {
+            "code": "C-22805",
+            "display": "chrysoidine Y stain"
+          },
+          {
+            "code": "C-22837",
+            "display": "colloidal iron stain"
+          },
+          {
+            "code": "C-22851",
+            "display": "Congo red stain"
+          },
+          {
+            "code": "C-22847",
+            "display": "cresyl echt violet stain"
+          },
+          {
+            "code": "C-22840",
+            "display": "cresyl violet stain"
+          },
+          {
+            "code": "C-22833",
+            "display": "crystal ponceau stain"
+          },
+          {
+            "code": "C-22966",
+            "display": "curcumin stain"
+          },
+          {
+            "code": "C-22826",
+            "display": "diamond black stain"
+          },
+          {
+            "code": "C-22871",
+            "display": "durazol red stain"
+          },
+          {
+            "code": "C-22852",
+            "display": "erie garnet stain"
+          },
+          {
+            "code": "C-22839",
+            "display": "eriochrome blue black SE stain"
+          },
+          {
+            "code": "C-22924",
+            "display": "erythrosin B stain"
+          },
+          {
+            "code": "C-22923",
+            "display": "erythrosin Y stain"
+          },
+          {
+            "code": "C-22854",
+            "display": "Evans blue stain"
+          },
+          {
+            "code": "C-22883",
+            "display": "fast blue B salt stain"
+          },
+          {
+            "code": "C-22881",
+            "display": "fast blue BB salt stain"
+          },
+          {
+            "code": "C-22878",
+            "display": "fast blue RR salt stain"
+          },
+          {
+            "code": "C-22882",
+            "display": "fast garnet GBC salt stain"
+          },
+          {
+            "code": "C-22886",
+            "display": "fast green FCF stain"
+          },
+          {
+            "code": "C-22876",
+            "display": "fast red B salt stain"
+          },
+          {
+            "code": "C-22877",
+            "display": "fast red ITR stain"
+          },
+          {
+            "code": "C-22875",
+            "display": "fast red TR salt stain"
+          },
+          {
+            "code": "C-22867",
+            "display": "fast sulfon black F stain"
+          },
+          {
+            "code": "C-22879",
+            "display": "fast violet B salt stain"
+          },
+          {
+            "code": "C-22859",
+            "display": "fat red 7B stain"
+          },
+          {
+            "code": "C-2280F",
+            "display": "Feulgen reaction stain"
+          },
+          {
+            "code": "C-22810",
+            "display": "field's stain"
+          },
+          {
+            "code": "C-22816",
+            "display": "Flagellar stain"
+          },
+          {
+            "code": "C-22A00",
+            "display": "fluorescent stain"
+          },
+          {
+            "code": "C-2286C",
+            "display": "fouchet stain"
+          },
+          {
+            "code": "C-22902",
+            "display": "fuchsin acid stain"
+          },
+          {
+            "code": "C-22889",
+            "display": "fuchsin basic stain"
+          },
+          {
+            "code": "C-22935",
+            "display": "gallocyanine stain"
+          },
+          {
+            "code": "F-61968",
+            "display": "giemsa stain"
+          },
+          {
+            "code": "C-22830",
+            "display": "gram stain"
+          },
+          {
+            "code": "C-2286F",
+            "display": "hansel stain"
+          },
+          {
+            "code": "C-22967",
+            "display": "hematein stain"
+          },
+          {
+            "code": "C-22968",
+            "display": "hematoxylin stain"
+          },
+          {
+            "code": "C-22817",
+            "display": "immunofluorescent stain"
+          },
+          {
+            "code": "C-2285C",
+            "display": "India ink stain"
+          },
+          {
+            "code": "F-61F48",
+            "display": "indigo carmine"
+          },
+          {
+            "code": "C-22927",
+            "display": "indophenol from naphthol stain"
+          },
+          {
+            "code": "C-22974",
+            "display": "insoluble berlin blue stain"
+          },
+          {
+            "code": "C-22804",
+            "display": "janus green B stain"
+          },
+          {
+            "code": "C-22818",
+            "display": "Jenner-Giemsa stain"
+          },
+          {
+            "code": "C-22899",
+            "display": "kenacid blue R stain"
+          },
+          {
+            "code": "C-22942",
+            "display": "lacmoid stain"
+          },
+          {
+            "code": "C-22819",
+            "display": "Leishman stain"
+          },
+          {
+            "code": "C-22887",
+            "display": "light green SF stain"
+          },
+          {
+            "code": "C-22841",
+            "display": "lissamine fast red B stain"
+          },
+          {
+            "code": "C-22843",
+            "display": "lissamine fast yellow stain"
+          },
+          {
+            "code": "C-22914",
+            "display": "lissamine green B stain"
+          },
+          {
+            "code": "C-22917",
+            "display": "lissamine rhodamine stain"
+          },
+          {
+            "code": "C-2283F",
+            "display": "luxol fast blue stain"
+          },
+          {
+            "code": "C-22890",
+            "display": "malachite green stain"
+          },
+          {
+            "code": "C-2283A",
+            "display": "Mallory bleach stain"
+          },
+          {
+            "code": "C-22802",
+            "display": "martius yellow stain"
+          },
+          {
+            "code": "C-2281A",
+            "display": "may-Grunwald giemsa stain"
+          },
+          {
+            "code": "C-22937",
+            "display": "meldola blue stain"
+          },
+          {
+            "code": "C-22811",
+            "display": "metanil yellow stain"
+          },
+          {
+            "code": "C-22907",
+            "display": "methyl blue stain"
+          },
+          {
+            "code": "C-2281B",
+            "display": "methyl green pyronin stain"
+          },
+          {
+            "code": "C-22809",
+            "display": "methyl orange stain"
+          },
+          {
+            "code": "C-22808",
+            "display": "methyl red stain"
+          },
+          {
+            "code": "F-61A76",
+            "display": "methyl violet stain"
+          },
+          {
+            "code": "C-22947",
+            "display": "methylene blue stain"
+          },
+          {
+            "code": "C-2284A",
+            "display": "methylene violet stain"
+          },
+          {
+            "code": "C-22952",
+            "display": "methylene violet stain (Bernthsen)"
+          },
+          {
+            "code": "C-2287F",
+            "display": "modified trichrome stain"
+          },
+          {
+            "code": "C-2284B",
+            "display": "mucicarmine stain"
+          },
+          {
+            "code": "C-2281C",
+            "display": "myeloperoxidase stain"
+          },
+          {
+            "code": "C-22846",
+            "display": "naphthalene black 12B stain"
+          },
+          {
+            "code": "C-22801",
+            "display": "naphthol green B stain"
+          },
+          {
+            "code": "C-22803",
+            "display": "naphthol yellow S stain"
+          },
+          {
+            "code": "C-2285D",
+            "display": "naphthol-AS-D-chloracetate esterase stain"
+          },
+          {
+            "code": "C-22928",
+            "display": "neutral red stain"
+          },
+          {
+            "code": "C-2281D",
+            "display": "neutrophil alkaline phosphatase stain"
+          },
+          {
+            "code": "C-22891",
+            "display": "new fuchsin stain"
+          },
+          {
+            "code": "C-2284C",
+            "display": "night blue stain"
+          },
+          {
+            "code": "C-22941",
+            "display": "nile blue stain"
+          },
+          {
+            "code": "C-22823",
+            "display": "nitrazine yellow stain"
+          },
+          {
+            "code": "C-2281E",
+            "display": "nonspecific esterase stain"
+          },
+          {
+            "code": "C-22955",
+            "display": "nuclear fast red stain"
+          },
+          {
+            "code": "C-22863",
+            "display": "oil red O stain"
+          },
+          {
+            "code": "C-22832",
+            "display": "orange G stain"
+          },
+          {
+            "code": "C-22824",
+            "display": "orange II stain"
+          },
+          {
+            "code": "C-2284D",
+            "display": "orcein stain"
+          },
+          {
+            "code": "C-22901",
+            "display": "page blue 83 stain"
+          },
+          {
+            "code": "C-22898",
+            "display": "page blue G-90 stain"
+          },
+          {
+            "code": "C-22885",
+            "display": "patent blue V sodium salt stain"
+          },
+          {
+            "code": "C-2281F",
+            "display": "periodic acid Schiff stain"
+          },
+          {
+            "code": "C-2310F",
+            "display": "permethrin"
+          },
+          {
+            "code": "C-2285E",
+            "display": "peroxidase stain"
+          },
+          {
+            "code": "C-22922",
+            "display": "phloxin B stain"
+          },
+          {
+            "code": "C-2284E",
+            "display": "phosphotungstic acid-hematoxylin stain"
+          },
+          {
+            "code": "C-22829",
+            "display": "ponceau 3R stain"
+          },
+          {
+            "code": "C-22868",
+            "display": "ponceau S stain"
+          },
+          {
+            "code": "C-22828",
+            "display": "ponceau xylidine stain"
+          },
+          {
+            "code": "C-22855",
+            "display": "pontamine sky blue 5BX stain"
+          },
+          {
+            "code": "C-22856",
+            "display": "pontamine sky blue 6BX stain"
+          },
+          {
+            "code": "C-10330",
+            "display": "potassium hydroxide stain"
+          },
+          {
+            "code": "C-22956",
+            "display": "procion brilliant blue MRS stain"
+          },
+          {
+            "code": "C-2288A",
+            "display": "protargol S stain"
+          },
+          {
+            "code": "C-13036",
+            "display": "Prussian blue stain"
+          },
+          {
+            "code": "C-2284F",
+            "display": "quinacrine fluorescent stain"
+          },
+          {
+            "code": "C-2286A",
+            "display": "rhodamine stain"
+          },
+          {
+            "code": "C-2282A",
+            "display": "Romanowsky stain"
+          },
+          {
+            "code": "R-10223",
+            "display": "rose bengal stain"
+          },
+          {
+            "code": "C-22908",
+            "display": "rosolic acid sodium salt stain"
+          },
+          {
+            "code": "C-22964",
+            "display": "saffron stain"
+          },
+          {
+            "code": "F-61DA5",
+            "display": "safranin stain"
+          },
+          {
+            "code": "C-2287A",
+            "display": "silver nitrate stain"
+          },
+          {
+            "code": "C-22836",
+            "display": "silver stain"
+          },
+          {
+            "code": "C-22874",
+            "display": "sirius red F3B stain"
+          },
+          {
+            "code": "C-22912",
+            "display": "solochrome azurine (BS) stain"
+          },
+          {
+            "code": "C-22821",
+            "display": "solochrome black 6B stain"
+          },
+          {
+            "code": "C-22909",
+            "display": "solochrome cyanine R stain"
+          },
+          {
+            "code": "C-22825",
+            "display": "solochrome dark blue stain"
+          },
+          {
+            "code": "C-22975",
+            "display": "soluble berlin blue stain"
+          },
+          {
+            "code": "C-22906",
+            "display": "spirit soluble aniline blue stain"
+          },
+          {
+            "code": "C-22920",
+            "display": "spirit soluble eosin stain"
+          },
+          {
+            "code": "C-2282B",
+            "display": "spore stain"
+          },
+          {
+            "code": "C-2282D",
+            "display": "Sudan stain"
+          },
+          {
+            "code": "C-22827",
+            "display": "sunset yellow FCF stain"
+          },
+          {
+            "code": "C-22844",
+            "display": "tartrazine stain"
+          },
+          {
+            "code": "C-2285F",
+            "display": "terminal deoxynucleotidyl transferase stain"
+          },
+          {
+            "code": "C-2288D",
+            "display": "thioflavine S stain"
+          },
+          {
+            "code": "C-22926",
+            "display": "thioflavine T stain"
+          },
+          {
+            "code": "C-22943",
+            "display": "thionine stain"
+          },
+          {
+            "code": "C-22845",
+            "display": "titan yellow stain"
+          },
+          {
+            "code": "C-2287D",
+            "display": "trichrome stain"
+          },
+          {
+            "code": "C-22815",
+            "display": "tropaeolin O stain"
+          },
+          {
+            "code": "C-22812",
+            "display": "tropaeolin OO stain"
+          },
+          {
+            "code": "C-22853",
+            "display": "trypan blue stain"
+          },
+          {
+            "code": "C-2283E",
+            "display": "Van Gieson stain"
+          },
+          {
+            "code": "C-22880",
+            "display": "verhoeff's hematoxylin stain"
+          },
+          {
+            "code": "C-22858",
+            "display": "vital new red stain"
+          },
+          {
+            "code": "C-22904",
+            "display": "water soluble aniline blue stain"
+          },
+          {
+            "code": "C-22954",
+            "display": "water soluble anthracene brown stain"
+          },
+          {
+            "code": "C-22933",
+            "display": "water soluble nigrosine stain"
+          },
+          {
+            "code": "C-22957",
+            "display": "waxoline blue stain"
+          },
+          {
+            "code": "F-61E5A",
+            "display": "wayson stain"
+          },
+          {
+            "code": "F-619B7",
+            "display": "wright stain"
+          },
+          {
+            "code": "C-22888",
+            "display": "xylene cyanol FF stain"
+          },
+          {
+            "code": "C-2282C",
+            "display": "Ziehl-Neelsen stain"
+          },
+          {
+            "code": "C-22A08",
+            "display": "acridine orange stain"
+          },
+          {
+            "code": "C-22A07",
+            "display": "acriflavine stain"
+          },
+          {
+            "code": "C-22A03",
+            "display": "atebrin FS stain"
+          },
+          {
+            "code": "C-22A02",
+            "display": "auramine G stain"
+          },
+          {
+            "code": "C-22A01",
+            "display": "auramine O stain"
+          },
+          {
+            "code": "C-22A11",
+            "display": "coriphosphine stain"
+          },
+          {
+            "code": "C-22A05",
+            "display": "fluorescein stain"
+          },
+          {
+            "code": "C-22AA1",
+            "display": "fluorexon stain"
+          },
+          {
+            "code": "C-22A04",
+            "display": "rhodamine B stain"
+          },
+          {
+            "code": "C-22A06",
+            "display": "Fluorescein sodium stain"
+          },
+          {
+            "code": "C-22864",
+            "display": "Sudan black B stain"
+          },
+          {
+            "code": "C-2282E",
+            "display": "Sudan black stain"
+          },
+          {
+            "code": "C-22958",
+            "display": "Sudan blue stain"
+          },
+          {
+            "code": "C-22807",
+            "display": "Sudan II stain"
+          },
+          {
+            "code": "C-22861",
+            "display": "Sudan III stain"
+          },
+          {
+            "code": "C-22862",
+            "display": "Sudan IV stain"
+          },
+          {
+            "code": "C-22903",
+            "display": "alkali blue 5B (4B) stain"
+          },
+          {
+            "code": "C-22905",
+            "display": "alkali blue 6B stain"
+          },
+          {
+            "code": "C-22911",
+            "display": "chrome azurol S stain"
+          },
+          {
+            "code": "C-22918",
+            "display": "dibromofluorescein stain"
+          },
+          {
+            "code": "C-22897",
+            "display": "ethyl violet stain"
+          },
+          {
+            "code": "C-22896",
+            "display": "methyl green stain"
+          },
+          {
+            "code": "C-22892",
+            "display": "methyl violet 2B stain"
+          },
+          {
+            "code": "C-22894",
+            "display": "methyl violet 6B stain"
+          },
+          {
+            "code": "C-22916",
+            "display": "pyronine B stain"
+          },
+          {
+            "code": "C-22915",
+            "display": "pyronine G stain"
+          },
+          {
+            "code": "C-22951",
+            "display": "toluidine blue stain"
+          },
+          {
+            "code": "C-22895",
+            "display": "victoria blue 4R stain"
+          },
+          {
+            "code": "C-22913",
+            "display": "victoria blue B stain"
+          },
+          {
+            "code": "C-22919",
+            "display": "water soluble eosin stain"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0440036",
+            "display": "acid phosphatase stain"
+          },
+          {
+            "code": "C0440037",
+            "display": "Albert's stain"
+          },
+          {
+            "code": "C0001933",
+            "display": "alcian blue 8GX stain"
+          },
+          {
+            "code": "C0303908",
+            "display": "alcohol soluble nigrosine stain"
+          },
+          {
+            "code": "C0491984",
+            "display": "aldehyde fuchsin stain"
+          },
+          {
+            "code": "C0303917",
+            "display": "alizarin blue S stain"
+          },
+          {
+            "code": "C0303916",
+            "display": "alizarin cyanine green stain"
+          },
+          {
+            "code": "C0051165",
+            "display": "alizarin red S stain"
+          },
+          {
+            "code": "C0303861",
+            "display": "alizarin yellow GG stain"
+          },
+          {
+            "code": "C0619792",
+            "display": "alizarin yellow R stain"
+          },
+          {
+            "code": "C1318717",
+            "display": "alkaline phosphatase stain"
+          },
+          {
+            "code": "C1321796",
+            "display": "aniline blue stain"
+          },
+          {
+            "code": "C0440038",
+            "display": "auramine stain"
+          },
+          {
+            "code": "C0058437",
+            "display": "azo black stain"
+          },
+          {
+            "code": "C0303907",
+            "display": "azocarmine G (GX) stain"
+          },
+          {
+            "code": "C0073022",
+            "display": "azophloxin stain"
+          },
+          {
+            "code": "C0002406",
+            "display": "azorubin S stain"
+          },
+          {
+            "code": "C0052826",
+            "display": "azure A stain"
+          },
+          {
+            "code": "C0052827",
+            "display": "azure B stain"
+          },
+          {
+            "code": "C0052828",
+            "display": "azure C stain"
+          },
+          {
+            "code": "C1318723",
+            "display": "bauer's chromic acid leucofuchsin stain"
+          },
+          {
+            "code": "C0303882",
+            "display": "benzo fast scarlet stain"
+          },
+          {
+            "code": "C0440039",
+            "display": "beta-glucuronidase stain"
+          },
+          {
+            "code": "C0303878",
+            "display": "biebrich scarlet stain"
+          },
+          {
+            "code": "C0303872",
+            "display": "bismark brown R stain"
+          },
+          {
+            "code": "C0303871",
+            "display": "bismark brown Y stain"
+          },
+          {
+            "code": "C0303904",
+            "display": "blue shade eosin stain"
+          },
+          {
+            "code": "C0054031",
+            "display": "brazilin stain"
+          },
+          {
+            "code": "C0054052",
+            "display": "brilliant cresyl blue stain"
+          },
+          {
+            "code": "C0303880",
+            "display": "brilliant crocein stain"
+          },
+          {
+            "code": "C0303877",
+            "display": "brilliant orange stain"
+          },
+          {
+            "code": "C0058441",
+            "display": "brilliant yellow stain"
+          },
+          {
+            "code": "C1321545",
+            "display": "butyrate esterase stain"
+          },
+          {
+            "code": "C0054697",
+            "display": "carbol fuchsin stain"
+          },
+          {
+            "code": "C0007250",
+            "display": "carmine stain"
+          },
+          {
+            "code": "C0054801",
+            "display": "carminic acid stain"
+          },
+          {
+            "code": "C0052799",
+            "display": "carmoisine A stain"
+          },
+          {
+            "code": "C0055019",
+            "display": "celestine blue B stain"
+          },
+          {
+            "code": "C0440040",
+            "display": "chloroacetate esterase stain"
+          },
+          {
+            "code": "C1321562",
+            "display": "chromic acid stain"
+          },
+          {
+            "code": "C0109683",
+            "display": "chromotrope 2R stain"
+          },
+          {
+            "code": "C0109694",
+            "display": "chrysoidine R stain"
+          },
+          {
+            "code": "C0055663",
+            "display": "chrysoidine Y stain"
+          },
+          {
+            "code": "C1318877",
+            "display": "colloidal iron stain"
+          },
+          {
+            "code": "C0009742",
+            "display": "Congo red stain"
+          },
+          {
+            "code": "C1318879",
+            "display": "cresyl echt violet stain"
+          },
+          {
+            "code": "C0056484",
+            "display": "cresyl violet stain"
+          },
+          {
+            "code": "C0303867",
+            "display": "crystal ponceau stain"
+          },
+          {
+            "code": "C0010467",
+            "display": "curcumin stain"
+          },
+          {
+            "code": "C0303866",
+            "display": "diamond black stain"
+          },
+          {
+            "code": "C0303881",
+            "display": "durazol red stain"
+          },
+          {
+            "code": "C0303873",
+            "display": "erie garnet stain"
+          },
+          {
+            "code": "C0059526",
+            "display": "eriochrome blue black SE stain"
+          },
+          {
+            "code": "C0014824",
+            "display": "erythrosin B stain"
+          },
+          {
+            "code": "C0303905",
+            "display": "erythrosin Y stain"
+          },
+          {
+            "code": "C0015205",
+            "display": "Evans blue stain"
+          },
+          {
+            "code": "C0303888",
+            "display": "fast blue B salt stain"
+          },
+          {
+            "code": "C0060085",
+            "display": "fast blue BB salt stain"
+          },
+          {
+            "code": "C0303885",
+            "display": "fast blue RR salt stain"
+          },
+          {
+            "code": "C0303887",
+            "display": "fast garnet GBC salt stain"
+          },
+          {
+            "code": "C0060087",
+            "display": "fast green FCF stain"
+          },
+          {
+            "code": "C0303883",
+            "display": "fast red B salt stain"
+          },
+          {
+            "code": "C0303884",
+            "display": "fast red ITR stain"
+          },
+          {
+            "code": "C0950478",
+            "display": "fast red TR salt stain"
+          },
+          {
+            "code": "C0303879",
+            "display": "fast sulfon black F stain"
+          },
+          {
+            "code": "C0303886",
+            "display": "fast violet B salt stain"
+          },
+          {
+            "code": "C0117300",
+            "display": "fat red 7B stain"
+          },
+          {
+            "code": "C0440041",
+            "display": "Feulgen reaction stain"
+          },
+          {
+            "code": "C0440042",
+            "display": "field's stain"
+          },
+          {
+            "code": "C0440043",
+            "display": "Flagellar stain"
+          },
+          {
+            "code": "C0303920",
+            "display": "fluorescent stain"
+          },
+          {
+            "code": "C1318722",
+            "display": "fouchet stain"
+          },
+          {
+            "code": "C0252873",
+            "display": "fuchsin acid stain"
+          },
+          {
+            "code": "C0073578",
+            "display": "fuchsin basic stain"
+          },
+          {
+            "code": "C0061013",
+            "display": "gallocyanine stain"
+          },
+          {
+            "code": "C0017542",
+            "display": "giemsa stain"
+          },
+          {
+            "code": "C0061856",
+            "display": "gram stain"
+          },
+          {
+            "code": "C1318724",
+            "display": "hansel stain"
+          },
+          {
+            "code": "C0062204",
+            "display": "hematein stain"
+          },
+          {
+            "code": "C0018964",
+            "display": "hematoxylin stain"
+          },
+          {
+            "code": "C0183489",
+            "display": "immunofluorescent stain"
+          },
+          {
+            "code": "C0123471",
+            "display": "India ink stain"
+          },
+          {
+            "code": "C0021219",
+            "display": "indigo carmine"
+          },
+          {
+            "code": "C0303906",
+            "display": "indophenol from naphthol stain"
+          },
+          {
+            "code": "C0303918",
+            "display": "insoluble berlin blue stain"
+          },
+          {
+            "code": "C0064136",
+            "display": "janus green B stain"
+          },
+          {
+            "code": "C0440044",
+            "display": "Jenner-Giemsa stain"
+          },
+          {
+            "code": "C0303892",
+            "display": "kenacid blue R stain"
+          },
+          {
+            "code": "C0303910",
+            "display": "lacmoid stain"
+          },
+          {
+            "code": "C0440052",
+            "display": "Leishman stain"
+          },
+          {
+            "code": "C0064970",
+            "display": "light green SF stain"
+          },
+          {
+            "code": "C0303868",
+            "display": "lissamine fast red B stain"
+          },
+          {
+            "code": "C0303869",
+            "display": "lissamine fast yellow stain"
+          },
+          {
+            "code": "C0061890",
+            "display": "lissamine green B stain"
+          },
+          {
+            "code": "C0303900",
+            "display": "lissamine rhodamine stain"
+          },
+          {
+            "code": "C0065274",
+            "display": "luxol fast blue stain"
+          },
+          {
+            "code": "C0065555",
+            "display": "malachite green stain"
+          },
+          {
+            "code": "C1318878",
+            "display": "Mallory bleach stain"
+          },
+          {
+            "code": "C0303860",
+            "display": "martius yellow stain"
+          },
+          {
+            "code": "C0065757",
+            "display": "may-Grunwald giemsa stain"
+          },
+          {
+            "code": "C0065912",
+            "display": "meldola blue stain"
+          },
+          {
+            "code": "C0066052",
+            "display": "metanil yellow stain"
+          },
+          {
+            "code": "C0303897",
+            "display": "methyl blue stain"
+          },
+          {
+            "code": "C0440045",
+            "display": "methyl green pyronin stain"
+          },
+          {
+            "code": "C0066274",
+            "display": "methyl orange stain"
+          },
+          {
+            "code": "C0066279",
+            "display": "methyl red stain"
+          },
+          {
+            "code": "C0017440",
+            "display": "methyl violet stain"
+          },
+          {
+            "code": "C0025746",
+            "display": "methylene blue stain"
+          },
+          {
+            "code": "C0492805",
+            "display": "methylene violet stain"
+          },
+          {
+            "code": "C0303911",
+            "display": "methylene violet stain (Bernthsen)"
+          },
+          {
+            "code": "C1318726",
+            "display": "modified trichrome stain"
+          },
+          {
+            "code": "C0066912",
+            "display": "mucicarmine stain"
+          },
+          {
+            "code": "C0440053",
+            "display": "myeloperoxidase stain"
+          },
+          {
+            "code": "C0303870",
+            "display": "naphthalene black 12B stain"
+          },
+          {
+            "code": "C0303859",
+            "display": "naphthol green B stain"
+          },
+          {
+            "code": "C0068424",
+            "display": "naphthol yellow S stain"
+          },
+          {
+            "code": "C1318718",
+            "display": "naphthol-AS-D-chloracetate esterase stain"
+          },
+          {
+            "code": "C0027941",
+            "display": "neutral red stain"
+          },
+          {
+            "code": "C0440046",
+            "display": "neutrophil alkaline phosphatase stain"
+          },
+          {
+            "code": "C0068661",
+            "display": "new fuchsin stain"
+          },
+          {
+            "code": "C0068751",
+            "display": "night blue stain"
+          },
+          {
+            "code": "C0068765",
+            "display": "nile blue stain"
+          },
+          {
+            "code": "C0068806",
+            "display": "nitrazine yellow stain"
+          },
+          {
+            "code": "C0440047",
+            "display": "nonspecific esterase stain"
+          },
+          {
+            "code": "C0303913",
+            "display": "nuclear fast red stain"
+          },
+          {
+            "code": "C0069388",
+            "display": "oil red O stain"
+          },
+          {
+            "code": "C0069591",
+            "display": "orange G stain"
+          },
+          {
+            "code": "C0069592",
+            "display": "orange II stain"
+          },
+          {
+            "code": "C0069596",
+            "display": "orcein stain"
+          },
+          {
+            "code": "C0303893",
+            "display": "page blue 83 stain"
+          },
+          {
+            "code": "C0056270",
+            "display": "page blue G-90 stain"
+          },
+          {
+            "code": "C0116465",
+            "display": "patent blue V sodium salt stain"
+          },
+          {
+            "code": "C0440048",
+            "display": "periodic acid Schiff stain"
+          },
+          {
+            "code": "C0070455",
+            "display": "permethrin"
+          },
+          {
+            "code": "C1318719",
+            "display": "peroxidase stain"
+          },
+          {
+            "code": "C0031567",
+            "display": "phloxin B stain"
+          },
+          {
+            "code": "C0491956",
+            "display": "phosphotungstic acid-hematoxylin stain"
+          },
+          {
+            "code": "C0071718",
+            "display": "ponceau 3R stain"
+          },
+          {
+            "code": "C0071720",
+            "display": "ponceau S stain"
+          },
+          {
+            "code": "C0950345",
+            "display": "ponceau xylidine stain"
+          },
+          {
+            "code": "C0303874",
+            "display": "pontamine sky blue 5BX stain"
+          },
+          {
+            "code": "C0303875",
+            "display": "pontamine sky blue 6BX stain"
+          },
+          {
+            "code": "C0071767",
+            "display": "potassium hydroxide stain"
+          },
+          {
+            "code": "C0303914",
+            "display": "procion brilliant blue MRS stain"
+          },
+          {
+            "code": "C0492806",
+            "display": "protargol S stain"
+          },
+          {
+            "code": "C0060234",
+            "display": "Prussian blue stain"
+          },
+          {
+            "code": "C1318715",
+            "display": "quinacrine fluorescent stain"
+          },
+          {
+            "code": "C0600322",
+            "display": "rhodamine stain"
+          },
+          {
+            "code": "C0440055",
+            "display": "Romanowsky stain"
+          },
+          {
+            "code": "C0035857",
+            "display": "rose bengal stain"
+          },
+          {
+            "code": "C0303898",
+            "display": "rosolic acid sodium salt stain"
+          },
+          {
+            "code": "C0162753",
+            "display": "saffron stain"
+          },
+          {
+            "code": "C0073949",
+            "display": "safranin stain"
+          },
+          {
+            "code": "C1321600",
+            "display": "silver nitrate stain"
+          },
+          {
+            "code": "C1318876",
+            "display": "silver stain"
+          },
+          {
+            "code": "C0071047",
+            "display": "sirius red F3B stain"
+          },
+          {
+            "code": "C0303899",
+            "display": "solochrome azurine (BS) stain"
+          },
+          {
+            "code": "C0303864",
+            "display": "solochrome black 6B stain"
+          },
+          {
+            "code": "C0074807",
+            "display": "solochrome cyanine R stain"
+          },
+          {
+            "code": "C0054495",
+            "display": "solochrome dark blue stain"
+          },
+          {
+            "code": "C0303919",
+            "display": "soluble berlin blue stain"
+          },
+          {
+            "code": "C1260876",
+            "display": "spirit soluble aniline blue stain"
+          },
+          {
+            "code": "C0303903",
+            "display": "spirit soluble eosin stain"
+          },
+          {
+            "code": "C0440049",
+            "display": "spore stain"
+          },
+          {
+            "code": "C1282434",
+            "display": "Sudan stain"
+          },
+          {
+            "code": "C0060120",
+            "display": "sunset yellow FCF stain"
+          },
+          {
+            "code": "C0039329",
+            "display": "tartrazine stain"
+          },
+          {
+            "code": "C0687124",
+            "display": "terminal deoxynucleotidyl transferase stain"
+          },
+          {
+            "code": "C0952039",
+            "display": "thioflavine S stain"
+          },
+          {
+            "code": "C0076466",
+            "display": "thioflavine T stain"
+          },
+          {
+            "code": "C0076494",
+            "display": "thionine stain"
+          },
+          {
+            "code": "C0076731",
+            "display": "titan yellow stain"
+          },
+          {
+            "code": "C0077066",
+            "display": "trichrome stain"
+          },
+          {
+            "code": "C0303863",
+            "display": "tropaeolin O stain"
+          },
+          {
+            "code": "C0077384",
+            "display": "tropaeolin OO stain"
+          },
+          {
+            "code": "C0041213",
+            "display": "trypan blue stain"
+          },
+          {
+            "code": "C0491963",
+            "display": "Van Gieson stain"
+          },
+          {
+            "code": "C1319311",
+            "display": "verhoeff's hematoxylin stain"
+          },
+          {
+            "code": "C0303876",
+            "display": "vital new red stain"
+          },
+          {
+            "code": "C0303912",
+            "display": "water soluble anthracene brown stain"
+          },
+          {
+            "code": "C0303909",
+            "display": "water soluble nigrosine stain"
+          },
+          {
+            "code": "C0303915",
+            "display": "waxoline blue stain"
+          },
+          {
+            "code": "C1443889",
+            "display": "wayson stain"
+          },
+          {
+            "code": "C1261259",
+            "display": "wright stain"
+          },
+          {
+            "code": "C0303889",
+            "display": "xylene cyanol FF stain"
+          },
+          {
+            "code": "C0440051",
+            "display": "Ziehl-Neelsen stain"
+          },
+          {
+            "code": "C0001185",
+            "display": "acridine orange stain"
+          },
+          {
+            "code": "C0001187",
+            "display": "acriflavine stain"
+          },
+          {
+            "code": "C0303922",
+            "display": "atebrin FS stain"
+          },
+          {
+            "code": "C0303921",
+            "display": "auramine G stain"
+          },
+          {
+            "code": "C0878260",
+            "display": "auramine O stain"
+          },
+          {
+            "code": "C0056341",
+            "display": "coriphosphine stain"
+          },
+          {
+            "code": "C0060520",
+            "display": "fluorescein stain"
+          },
+          {
+            "code": "C0060549",
+            "display": "fluorexon stain"
+          },
+          {
+            "code": "C0073194",
+            "display": "rhodamine B stain"
+          },
+          {
+            "code": "C0147866",
+            "display": "Fluorescein sodium stain"
+          },
+          {
+            "code": "C0075489",
+            "display": "Sudan black B stain"
+          },
+          {
+            "code": "C0588374",
+            "display": "Sudan black stain"
+          },
+          {
+            "code": "C0075490",
+            "display": "Sudan blue stain"
+          },
+          {
+            "code": "C0075492",
+            "display": "Sudan II stain"
+          },
+          {
+            "code": "C0075491",
+            "display": "Sudan III stain"
+          },
+          {
+            "code": "C0074127",
+            "display": "Sudan IV stain"
+          },
+          {
+            "code": "C0303894",
+            "display": "alkali blue 5B (4B) stain"
+          },
+          {
+            "code": "C0303895",
+            "display": "alkali blue 6B stain"
+          },
+          {
+            "code": "C0055614",
+            "display": "chrome azurol S stain"
+          },
+          {
+            "code": "C0303901",
+            "display": "dibromofluorescein stain"
+          },
+          {
+            "code": "C0059784",
+            "display": "ethyl violet stain"
+          },
+          {
+            "code": "C0025701",
+            "display": "methyl green stain"
+          },
+          {
+            "code": "C0303890",
+            "display": "methyl violet 2B stain"
+          },
+          {
+            "code": "C0303891",
+            "display": "methyl violet 6B stain"
+          },
+          {
+            "code": "C0072769",
+            "display": "pyronine B stain"
+          },
+          {
+            "code": "C0034316",
+            "display": "pyronine G stain"
+          },
+          {
+            "code": "C0040380",
+            "display": "toluidine blue stain"
+          },
+          {
+            "code": "C0078233",
+            "display": "victoria blue 4R stain"
+          },
+          {
+            "code": "C0078234",
+            "display": "victoria blue B stain"
+          },
+          {
+            "code": "C0303902",
+            "display": "water soluble eosin stain"
+          }
+        ]
+      }
+    ]
+  }
+}

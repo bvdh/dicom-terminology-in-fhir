@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VolumetricViewModifier",
+  "id": "dicom-cid-502-VolumetricViewModifier",
+  "description": "Volumetric View Modifier",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-502-VolumetricViewModifier",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1058"
+    }
+  ],
+  "version": "20150915",
+  "title": "Volumetric View Modifier",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6-TransducerOrientation"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-23-CranioCaudadAngulation"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4011-DXViewModifier"
+        ]
+      }
+    ]
+  }
+}

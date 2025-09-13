@@ -1,0 +1,215 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AnatomicalReferenceBasisChest",
+  "id": "dicom-cid-1004-AnatomicalReferenceBasisChest",
+  "description": "Anatomical Reference Basis - Chest",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-1004-AnatomicalReferenceBasisChest",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1125"
+    }
+  ],
+  "version": "20160905",
+  "title": "Anatomical Reference Basis - Chest",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "85856004",
+            "display": "Acromioclavicular Joint"
+          },
+          {
+            "code": "57034009",
+            "display": "Aortic Arch"
+          },
+          {
+            "code": "13383001",
+            "display": "Apex of heart"
+          },
+          {
+            "code": "28700002",
+            "display": "Carina"
+          },
+          {
+            "code": "264293000",
+            "display": "Coronary artery graft"
+          },
+          {
+            "code": "5798000",
+            "display": "Diaphragm"
+          },
+          {
+            "code": "80891009",
+            "display": "Heart"
+          },
+          {
+            "code": "39607008",
+            "display": "Lung"
+          },
+          {
+            "code": "79601000",
+            "display": "Scapula"
+          },
+          {
+            "code": "16982005",
+            "display": "Shoulder region structure"
+          },
+          {
+            "code": "7844006",
+            "display": "Sternoclavicular Joint"
+          },
+          {
+            "code": "56873002",
+            "display": "Sternum"
+          },
+          {
+            "code": "26493002",
+            "display": "Suprasternal Notch"
+          },
+          {
+            "code": "42973007",
+            "display": "Thoracic Inlet"
+          },
+          {
+            "code": "20298003",
+            "display": "Xiphoid Process"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-15420",
+            "display": "Acromioclavicular Joint"
+          },
+          {
+            "code": "T-42300",
+            "display": "Aortic Arch"
+          },
+          {
+            "code": "T-32004",
+            "display": "Apex of heart"
+          },
+          {
+            "code": "T-25201",
+            "display": "Carina"
+          },
+          {
+            "code": "T-41065",
+            "display": "Coronary artery graft"
+          },
+          {
+            "code": "T-D3400",
+            "display": "Diaphragm"
+          },
+          {
+            "code": "T-32000",
+            "display": "Heart"
+          },
+          {
+            "code": "T-28000",
+            "display": "Lung"
+          },
+          {
+            "code": "T-12280",
+            "display": "Scapula"
+          },
+          {
+            "code": "T-D2220",
+            "display": "Shoulder region structure"
+          },
+          {
+            "code": "T-15610",
+            "display": "Sternoclavicular Joint"
+          },
+          {
+            "code": "T-11210",
+            "display": "Sternum"
+          },
+          {
+            "code": "T-11218",
+            "display": "Suprasternal Notch"
+          },
+          {
+            "code": "T-D3160",
+            "display": "Thoracic Inlet"
+          },
+          {
+            "code": "T-11227",
+            "display": "Xiphoid Process"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0001208",
+            "display": "Acromioclavicular Joint"
+          },
+          {
+            "code": "C0003489",
+            "display": "Aortic Arch"
+          },
+          {
+            "code": "C0225811",
+            "display": "Apex of heart"
+          },
+          {
+            "code": "C0225594",
+            "display": "Carina"
+          },
+          {
+            "code": "C0440761",
+            "display": "Coronary artery graft"
+          },
+          {
+            "code": "C0011980",
+            "display": "Diaphragm"
+          },
+          {
+            "code": "C0018787",
+            "display": "Heart"
+          },
+          {
+            "code": "C0024109",
+            "display": "Lung"
+          },
+          {
+            "code": "C0036277",
+            "display": "Scapula"
+          },
+          {
+            "code": "C0037004",
+            "display": "Shoulder region structure"
+          },
+          {
+            "code": "C0038291",
+            "display": "Sternoclavicular Joint"
+          },
+          {
+            "code": "C0038293",
+            "display": "Sternum"
+          },
+          {
+            "code": "C0222769",
+            "display": "Suprasternal Notch"
+          },
+          {
+            "code": "C0230137",
+            "display": "Thoracic Inlet"
+          },
+          {
+            "code": "C0043356",
+            "display": "Xiphoid Process"
+          }
+        ]
+      }
+    ]
+  }
+}

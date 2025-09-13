@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MeasurementPatternCode",
+  "id": "dicom-cid-8302-MeasurementPatternCode",
+  "description": "Measurement Pattern Code",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-8302-MeasurementPatternCode",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.982"
+    }
+  ],
+  "version": "20140331",
+  "title": "Measurement Pattern Code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "109843",
+            "display": "TG18-UNL10 Pattern"
+          },
+          {
+            "code": "109844",
+            "display": "TG18-UNL80 Pattern"
+          }
+        ]
+      }
+    ]
+  }
+}

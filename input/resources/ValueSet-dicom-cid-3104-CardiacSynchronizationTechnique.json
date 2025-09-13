@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiacSynchronizationTechnique",
+  "id": "dicom-cid-3104-CardiacSynchronizationTechnique",
+  "description": "Cardiac Synchronization Technique",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3104-CardiacSynchronizationTechnique",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.943"
+    }
+  ],
+  "version": "20111028",
+  "title": "Cardiac Synchronization Technique",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "109080",
+            "display": "Real time acquisition"
+          },
+          {
+            "code": "109081",
+            "display": "Prospective gating"
+          },
+          {
+            "code": "109082",
+            "display": "Retrospective gating"
+          },
+          {
+            "code": "109083",
+            "display": "Paced"
+          }
+        ]
+      }
+    ]
+  }
+}

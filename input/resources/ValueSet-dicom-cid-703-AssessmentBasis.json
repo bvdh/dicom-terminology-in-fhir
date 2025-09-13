@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AssessmentBasis",
+  "id": "dicom-cid-703-AssessmentBasis",
+  "description": "Assessment Basis",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-703-AssessmentBasis",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1118"
+    }
+  ],
+  "version": "20160318",
+  "title": "Assessment Basis",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121375",
+            "display": "Assessment By Comparison"
+          },
+          {
+            "code": "121376",
+            "display": "Assessment By Rules"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SummaryRadiationExposureQuantity",
+  "id": "dicom-cid-10050-SummaryRadiationExposureQuantity",
+  "description": "Summary Radiation Exposure Quantity",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10050-SummaryRadiationExposureQuantity",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1028"
+    }
+  ],
+  "version": "20220331",
+  "title": "Summary Radiation Exposure Quantity",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111636",
+            "display": "Entrance Exposure at RP"
+          },
+          {
+            "code": "111637",
+            "display": "Accumulated Average Glandular Dose"
+          },
+          {
+            "code": "113722",
+            "display": "Dose Area Product Total"
+          },
+          {
+            "code": "113726",
+            "display": "Fluoro Dose Area Product Total"
+          },
+          {
+            "code": "113727",
+            "display": "Acquisition Dose Area Product Total"
+          },
+          {
+            "code": "113730",
+            "display": "Total Fluoro Time"
+          },
+          {
+            "code": "113731",
+            "display": "Total Number of Radiographic Frames"
+          },
+          {
+            "code": "113507",
+            "display": "Administered activity"
+          },
+          {
+            "code": "113813",
+            "display": "CT Dose Length Product Total"
+          },
+          {
+            "code": "130745",
+            "display": "CT Dose Length Product Sub-Total"
+          },
+          {
+            "code": "113830",
+            "display": "Mean CTDIvol"
+          },
+          {
+            "code": "113839",
+            "display": "Effective Dose"
+          }
+        ]
+      }
+    ]
+  }
+}

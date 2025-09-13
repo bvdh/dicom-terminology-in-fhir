@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AttenuationCorrection",
+  "id": "dicom-cid-3112-AttenuationCorrection",
+  "description": "Attenuation Correction",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3112-AttenuationCorrection",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.744"
+    }
+  ],
+  "version": "20080927",
+  "title": "Attenuation Correction",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122726",
+            "display": "Algorithmic Attenuation Correction"
+          },
+          {
+            "code": "122727",
+            "display": "NM Transmission Attenuation Correction"
+          },
+          {
+            "code": "122728",
+            "display": "CT-based Attenuation Correction"
+          },
+          {
+            "code": "122729",
+            "display": "No Attenuation Correction"
+          }
+        ]
+      }
+    ]
+  }
+}

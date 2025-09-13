@@ -1,0 +1,25 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "fragment",
+  "name": "PUBCHEM_CodeSystem",
+  "id": "dicom-codesystem-PUBCHEM-CID",
+  "title": "PUBCHEM_CID",
+  "description": "US National Center for Biotechnology Information (NCBI) PubChem Compound CID.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-PUBCHEM-CID",
+  "concept": [
+    {
+      "code": "4624",
+      "display": "6-hydroxydopamine",
+      "definition": "6-hydroxydopamine"
+    }
+  ],
+  "caseSensitive": true,
+  "experimental": false,
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:{uid}"
+    }
+  ]
+}

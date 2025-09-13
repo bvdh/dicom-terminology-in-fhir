@@ -1,0 +1,227 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "StressProtocol",
+  "id": "dicom-cid-3261-StressProtocol",
+  "description": "Stress Protocol",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3261-StressProtocol",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.57"
+    }
+  ],
+  "version": "20081027",
+  "title": "Stress Protocol",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "129097005",
+            "display": "Balke protocol"
+          },
+          {
+            "code": "129095002",
+            "display": "Bruce protocol"
+          },
+          {
+            "code": "129098000",
+            "display": "Ellestad protocol"
+          },
+          {
+            "code": "129096001",
+            "display": "Modified Bruce protocol"
+          },
+          {
+            "code": "129102008",
+            "display": "Modified Naughton protocol"
+          },
+          {
+            "code": "129101001",
+            "display": "Naughton protocol"
+          },
+          {
+            "code": "129100000",
+            "display": "Pepper protocol"
+          },
+          {
+            "code": "129099008",
+            "display": "Ramp protocol"
+          },
+          {
+            "code": "46136006",
+            "display": "Exercise stress ECG test"
+          },
+          {
+            "code": "26046004",
+            "display": "Stress test using Bicycle Ergometer"
+          },
+          {
+            "code": "424064009",
+            "display": "Pharmacologic Stress protocol"
+          },
+          {
+            "code": "422685009",
+            "display": "Dipyridamole Stress protocol"
+          },
+          {
+            "code": "424444005",
+            "display": "Adenosine Stress protocol"
+          },
+          {
+            "code": "424225000",
+            "display": "Dobutamine Stress protocol"
+          },
+          {
+            "code": "428813002",
+            "display": "Pharmacologic and exercise stress test"
+          },
+          {
+            "code": "428685003",
+            "display": "Stress test using cardiac pacing"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "P2-7131C",
+            "display": "Balke protocol"
+          },
+          {
+            "code": "P2-7131A",
+            "display": "Bruce protocol"
+          },
+          {
+            "code": "P2-7131D",
+            "display": "Ellestad protocol"
+          },
+          {
+            "code": "P2-7131B",
+            "display": "Modified Bruce protocol"
+          },
+          {
+            "code": "P2-713A1",
+            "display": "Modified Naughton protocol"
+          },
+          {
+            "code": "P2-713A0",
+            "display": "Naughton protocol"
+          },
+          {
+            "code": "P2-7131F",
+            "display": "Pepper protocol"
+          },
+          {
+            "code": "P2-7131E",
+            "display": "Ramp protocol"
+          },
+          {
+            "code": "P2-31010",
+            "display": "Exercise stress ECG test"
+          },
+          {
+            "code": "P2-31102",
+            "display": "Stress test using Bicycle Ergometer"
+          },
+          {
+            "code": "P2-31107",
+            "display": "Pharmacologic Stress protocol"
+          },
+          {
+            "code": "P2-3110A",
+            "display": "Dipyridamole Stress protocol"
+          },
+          {
+            "code": "P2-31109",
+            "display": "Adenosine Stress protocol"
+          },
+          {
+            "code": "P2-31108",
+            "display": "Dobutamine Stress protocol"
+          },
+          {
+            "code": "P2-31011",
+            "display": "Pharmacologic and exercise stress test"
+          },
+          {
+            "code": "P2-3110B",
+            "display": "Stress test using cardiac pacing"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0442712",
+            "display": "Balke protocol"
+          },
+          {
+            "code": "C0442713",
+            "display": "Bruce protocol"
+          },
+          {
+            "code": "C1276407",
+            "display": "Ellestad protocol"
+          },
+          {
+            "code": "C0442714",
+            "display": "Modified Bruce protocol"
+          },
+          {
+            "code": "C1293907",
+            "display": "Modified Naughton protocol"
+          },
+          {
+            "code": "C0442715",
+            "display": "Naughton protocol"
+          },
+          {
+            "code": "C1276409",
+            "display": "Pepper protocol"
+          },
+          {
+            "code": "C1276408",
+            "display": "Ramp protocol"
+          },
+          {
+            "code": "C1304755",
+            "display": "Exercise stress ECG test"
+          },
+          {
+            "code": "C0430459",
+            "display": "Stress test using Bicycle Ergometer"
+          },
+          {
+            "code": "C1827946",
+            "display": "Pharmacologic Stress protocol"
+          },
+          {
+            "code": "C1827789",
+            "display": "Dipyridamole Stress protocol"
+          },
+          {
+            "code": "C1827363",
+            "display": "Adenosine Stress protocol"
+          },
+          {
+            "code": "C1828348",
+            "display": "Dobutamine Stress protocol"
+          },
+          {
+            "code": "C1998158",
+            "display": "Pharmacologic and exercise stress test"
+          },
+          {
+            "code": "C1997441",
+            "display": "Stress test using cardiac pacing"
+          }
+        ]
+      }
+    ]
+  }
+}

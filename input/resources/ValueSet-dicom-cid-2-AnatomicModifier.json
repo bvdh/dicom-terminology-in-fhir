@@ -1,0 +1,584 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AnatomicModifier",
+  "id": "dicom-cid-2-AnatomicModifier",
+  "description": "Anatomic Modifier",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-2-AnatomicModifier",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1"
+    }
+  ],
+  "version": "20190118",
+  "title": "Anatomic Modifier",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "24028007",
+            "display": "Right"
+          },
+          {
+            "code": "7771000",
+            "display": "Left"
+          },
+          {
+            "code": "51440002",
+            "display": "Bilateral"
+          },
+          {
+            "code": "66459002",
+            "display": "Unilateral"
+          },
+          {
+            "code": "49370004",
+            "display": "Lateral"
+          },
+          {
+            "code": "255549009",
+            "display": "Anterior"
+          },
+          {
+            "code": "255551008",
+            "display": "Posterior"
+          },
+          {
+            "code": "66787007",
+            "display": "Cephalic"
+          },
+          {
+            "code": "3583002",
+            "display": "Caudal"
+          },
+          {
+            "code": "255561001",
+            "display": "Medial"
+          },
+          {
+            "code": "26216008",
+            "display": "Central"
+          },
+          {
+            "code": "14414005",
+            "display": "Peripheral"
+          },
+          {
+            "code": "261074009",
+            "display": "External"
+          },
+          {
+            "code": "260521003",
+            "display": "Internal"
+          },
+          {
+            "code": "11896004",
+            "display": "Intermediate"
+          },
+          {
+            "code": "261089000",
+            "display": "Inferior"
+          },
+          {
+            "code": "264217000",
+            "display": "Superior"
+          },
+          {
+            "code": "62824007",
+            "display": "Transverse"
+          },
+          {
+            "code": "40415009",
+            "display": "Proximal"
+          },
+          {
+            "code": "46053002",
+            "display": "Distal"
+          },
+          {
+            "code": "60583000",
+            "display": "Postaxial"
+          },
+          {
+            "code": "32400000",
+            "display": "Preaxial"
+          },
+          {
+            "code": "43674008",
+            "display": "Apical"
+          },
+          {
+            "code": "57195005",
+            "display": "Basal"
+          },
+          {
+            "code": "49530007",
+            "display": "Afferent"
+          },
+          {
+            "code": "33843005",
+            "display": "Efferent"
+          },
+          {
+            "code": "81654009",
+            "display": "Coronal"
+          },
+          {
+            "code": "26283006",
+            "display": "Superficial"
+          },
+          {
+            "code": "795002",
+            "display": "Deep"
+          },
+          {
+            "code": "24020000",
+            "display": "Horizontal"
+          },
+          {
+            "code": "38717003",
+            "display": "Longitudinal"
+          },
+          {
+            "code": "33096000",
+            "display": "Vertical"
+          },
+          {
+            "code": "30730003",
+            "display": "Sagittal"
+          },
+          {
+            "code": "24422004",
+            "display": "Axial"
+          },
+          {
+            "code": "87687004",
+            "display": "Extra-articular"
+          },
+          {
+            "code": "410679008",
+            "display": "Surface"
+          },
+          {
+            "code": "68493006",
+            "display": "Gutter"
+          },
+          {
+            "code": "32381004",
+            "display": "Hilar"
+          },
+          {
+            "code": "11070000",
+            "display": "Capsular"
+          },
+          {
+            "code": "61397002",
+            "display": "Subcapsular"
+          },
+          {
+            "code": "57183005",
+            "display": "Edge"
+          },
+          {
+            "code": "37197008",
+            "display": "Anterolateral"
+          },
+          {
+            "code": "90069004",
+            "display": "Posterolateral"
+          },
+          {
+            "code": "131183008",
+            "display": "Intra-articular"
+          },
+          {
+            "code": "112233002",
+            "display": "Marginal"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-A100",
+            "display": "Right"
+          },
+          {
+            "code": "G-A101",
+            "display": "Left"
+          },
+          {
+            "code": "G-A102",
+            "display": "Bilateral"
+          },
+          {
+            "code": "G-A103",
+            "display": "Unilateral"
+          },
+          {
+            "code": "G-A104",
+            "display": "Lateral"
+          },
+          {
+            "code": "R-404CC",
+            "display": "Anterior"
+          },
+          {
+            "code": "R-404CE",
+            "display": "Posterior"
+          },
+          {
+            "code": "G-A107",
+            "display": "Cephalic"
+          },
+          {
+            "code": "G-A108",
+            "display": "Caudal"
+          },
+          {
+            "code": "R-404D5",
+            "display": "Medial"
+          },
+          {
+            "code": "G-A110",
+            "display": "Central"
+          },
+          {
+            "code": "G-A111",
+            "display": "Peripheral"
+          },
+          {
+            "code": "R-40941",
+            "display": "External"
+          },
+          {
+            "code": "R-40819",
+            "display": "Internal"
+          },
+          {
+            "code": "G-A114",
+            "display": "Intermediate"
+          },
+          {
+            "code": "R-4094A",
+            "display": "Inferior"
+          },
+          {
+            "code": "R-42191",
+            "display": "Superior"
+          },
+          {
+            "code": "G-A117",
+            "display": "Transverse"
+          },
+          {
+            "code": "G-A118",
+            "display": "Proximal"
+          },
+          {
+            "code": "G-A119",
+            "display": "Distal"
+          },
+          {
+            "code": "G-A120",
+            "display": "Postaxial"
+          },
+          {
+            "code": "G-A121",
+            "display": "Preaxial"
+          },
+          {
+            "code": "G-A122",
+            "display": "Apical"
+          },
+          {
+            "code": "G-A123",
+            "display": "Basal"
+          },
+          {
+            "code": "G-A127",
+            "display": "Afferent"
+          },
+          {
+            "code": "G-A128",
+            "display": "Efferent"
+          },
+          {
+            "code": "G-A138",
+            "display": "Coronal"
+          },
+          {
+            "code": "G-A139",
+            "display": "Superficial"
+          },
+          {
+            "code": "G-A140",
+            "display": "Deep"
+          },
+          {
+            "code": "G-A142",
+            "display": "Horizontal"
+          },
+          {
+            "code": "G-A143",
+            "display": "Longitudinal"
+          },
+          {
+            "code": "G-A144",
+            "display": "Vertical"
+          },
+          {
+            "code": "G-A145",
+            "display": "Sagittal"
+          },
+          {
+            "code": "G-A147",
+            "display": "Axial"
+          },
+          {
+            "code": "G-A151",
+            "display": "Extra-articular"
+          },
+          {
+            "code": "G-A206",
+            "display": "Surface"
+          },
+          {
+            "code": "G-A169",
+            "display": "Gutter"
+          },
+          {
+            "code": "G-A170",
+            "display": "Hilar"
+          },
+          {
+            "code": "G-A171",
+            "display": "Capsular"
+          },
+          {
+            "code": "G-A172",
+            "display": "Subcapsular"
+          },
+          {
+            "code": "G-A174",
+            "display": "Edge"
+          },
+          {
+            "code": "G-A180",
+            "display": "Anterolateral"
+          },
+          {
+            "code": "G-A182",
+            "display": "Posterolateral"
+          },
+          {
+            "code": "G-A15A",
+            "display": "Intra-articular"
+          },
+          {
+            "code": "G-A428",
+            "display": "Marginal"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0205090",
+            "display": "Right"
+          },
+          {
+            "code": "C0205091",
+            "display": "Left"
+          },
+          {
+            "code": "C0238767",
+            "display": "Bilateral"
+          },
+          {
+            "code": "C0205092",
+            "display": "Unilateral"
+          },
+          {
+            "code": "C0205093",
+            "display": "Lateral"
+          },
+          {
+            "code": "C1704448",
+            "display": "Anterior"
+          },
+          {
+            "code": "C0205095",
+            "display": "Posterior"
+          },
+          {
+            "code": "C0205096",
+            "display": "Cephalic"
+          },
+          {
+            "code": "C0205097",
+            "display": "Caudal"
+          },
+          {
+            "code": "C0205098",
+            "display": "Medial"
+          },
+          {
+            "code": "C0205099",
+            "display": "Central"
+          },
+          {
+            "code": "C0205100",
+            "display": "Peripheral"
+          },
+          {
+            "code": "C0205101",
+            "display": "External"
+          },
+          {
+            "code": "C0205102",
+            "display": "Internal"
+          },
+          {
+            "code": "C0205103",
+            "display": "Intermediate"
+          },
+          {
+            "code": "C0542339",
+            "display": "Inferior"
+          },
+          {
+            "code": "C1282910",
+            "display": "Superior"
+          },
+          {
+            "code": "C0205106",
+            "display": "Transverse"
+          },
+          {
+            "code": "C0205107",
+            "display": "Proximal"
+          },
+          {
+            "code": "C0205108",
+            "display": "Distal"
+          },
+          {
+            "code": "C0205109",
+            "display": "Postaxial"
+          },
+          {
+            "code": "C0205110",
+            "display": "Preaxial"
+          },
+          {
+            "code": "C0205111",
+            "display": "Apical"
+          },
+          {
+            "code": "C0205112",
+            "display": "Basal"
+          },
+          {
+            "code": "C0205115",
+            "display": "Afferent"
+          },
+          {
+            "code": "C0205116",
+            "display": "Efferent"
+          },
+          {
+            "code": "C0205123",
+            "display": "Coronal"
+          },
+          {
+            "code": "C0205124",
+            "display": "Superficial"
+          },
+          {
+            "code": "C0205125",
+            "display": "Deep"
+          },
+          {
+            "code": "C0205126",
+            "display": "Horizontal"
+          },
+          {
+            "code": "C0205127",
+            "display": "Longitudinal"
+          },
+          {
+            "code": "C0205128",
+            "display": "Vertical"
+          },
+          {
+            "code": "C0205129",
+            "display": "Sagittal"
+          },
+          {
+            "code": "C0205131",
+            "display": "Axial"
+          },
+          {
+            "code": "C0205135",
+            "display": "Extra-articular"
+          },
+          {
+            "code": "C0205148",
+            "display": "Surface"
+          },
+          {
+            "code": "C0205149",
+            "display": "Gutter"
+          },
+          {
+            "code": "C0205150",
+            "display": "Hilar"
+          },
+          {
+            "code": "C0205151",
+            "display": "Capsular"
+          },
+          {
+            "code": "C0205152",
+            "display": "Subcapsular"
+          },
+          {
+            "code": "C0205154",
+            "display": "Edge"
+          },
+          {
+            "code": "C0332194",
+            "display": "Anterolateral"
+          },
+          {
+            "code": "C0332195",
+            "display": "Posterolateral"
+          },
+          {
+            "code": "C0442108",
+            "display": "Intra-articular"
+          },
+          {
+            "code": "C0205284",
+            "display": "Marginal"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130290",
+            "display": "Median"
+          }
+        ]
+      }
+    ]
+  }
+}

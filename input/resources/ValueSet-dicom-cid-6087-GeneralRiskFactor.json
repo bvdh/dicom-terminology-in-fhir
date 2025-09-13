@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GeneralRiskFactor",
+  "id": "dicom-cid-6087-GeneralRiskFactor",
+  "description": "General Risk Factor",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6087-GeneralRiskFactor",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.409"
+    }
+  ],
+  "version": "20040112",
+  "title": "General Risk Factor",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6081-BreastCancerRiskFactor"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6088-OBGYNMaternalRiskFactor"
+        ]
+      }
+    ]
+  }
+}

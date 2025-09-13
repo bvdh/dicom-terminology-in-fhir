@@ -1,0 +1,175 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LiverUltrasoundStudyIndication",
+  "id": "dicom-cid-12325-LiverUltrasoundStudyIndication",
+  "description": "Liver Ultrasound Study Indication",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12325-LiverUltrasoundStudyIndication",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1452"
+    }
+  ],
+  "version": "20220628",
+  "title": "Liver Ultrasound Study Indication",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "41309000",
+            "display": "Alcoholic liver disease"
+          },
+          {
+            "code": "19943007",
+            "display": "Cirrhosis of liver"
+          },
+          {
+            "code": "128241005",
+            "display": "Hepatitis"
+          },
+          {
+            "code": "66071002",
+            "display": "Hepatitis B"
+          },
+          {
+            "code": "50711007",
+            "display": "Hepatitis C"
+          },
+          {
+            "code": "80515008",
+            "display": "Hepatomegaly"
+          },
+          {
+            "code": "18165001",
+            "display": "Jaundice"
+          },
+          {
+            "code": "1231824009",
+            "display": "Nonalcoholic fatty liver disease (NAFLD)"
+          },
+          {
+            "code": "197315008",
+            "display": "Nonalcoholic fatty liver (NAFL)"
+          },
+          {
+            "code": "442685003",
+            "display": "Nonalcoholic steatohepatitis (NASH)"
+          },
+          {
+            "code": "409673008",
+            "display": "Serum alanine aminotransferase level raised"
+          },
+          {
+            "code": "115347700",
+            "display": "Serum albumin below reference range"
+          },
+          {
+            "code": "166612004",
+            "display": "Serum bilirubin raised"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "D5-80400",
+            "display": "Alcoholic liver disease"
+          },
+          {
+            "code": "D5-80600",
+            "display": "Cirrhosis of liver"
+          },
+          {
+            "code": "D5-81002",
+            "display": "Hepatitis"
+          },
+          {
+            "code": "DE-38010",
+            "display": "Hepatitis B"
+          },
+          {
+            "code": "DE-38100",
+            "display": "Hepatitis C"
+          },
+          {
+            "code": "D5-81220",
+            "display": "Hepatomegaly"
+          },
+          {
+            "code": "M-57610",
+            "display": "Jaundice"
+          },
+          {
+            "code": "D5-80822",
+            "display": "Nonalcoholic fatty liver (NAFL)"
+          },
+          {
+            "code": "D5-000C0",
+            "display": "Nonalcoholic steatohepatitis (NASH)"
+          },
+          {
+            "code": "F-04BC1",
+            "display": "Serum alanine aminotransferase level raised"
+          },
+          {
+            "code": "F-0169D",
+            "display": "Serum bilirubin raised"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1442981",
+            "display": "Alcoholic liver disease"
+          },
+          {
+            "code": "C0023890",
+            "display": "Cirrhosis of liver"
+          },
+          {
+            "code": "C0019158",
+            "display": "Hepatitis"
+          },
+          {
+            "code": "C0019163",
+            "display": "Hepatitis B"
+          },
+          {
+            "code": "C0019196",
+            "display": "Hepatitis C"
+          },
+          {
+            "code": "C0019209",
+            "display": "Hepatomegaly"
+          },
+          {
+            "code": "C0022346",
+            "display": "Jaundice"
+          },
+          {
+            "code": "C0400966",
+            "display": "Nonalcoholic fatty liver (NAFL)"
+          },
+          {
+            "code": "C3241937",
+            "display": "Nonalcoholic steatohepatitis (NASH)"
+          },
+          {
+            "code": "C1443982",
+            "display": "Serum alanine aminotransferase level raised"
+          },
+          {
+            "code": "C0020433",
+            "display": "Serum bilirubin raised"
+          }
+        ]
+      }
+    ]
+  }
+}

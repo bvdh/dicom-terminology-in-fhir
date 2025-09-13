@@ -1,0 +1,9 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid3675",
+  "id": "dicom-cid3675",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid3675",
+  "version": "None",
+  "title": "Other Filters (Retired)"
+}

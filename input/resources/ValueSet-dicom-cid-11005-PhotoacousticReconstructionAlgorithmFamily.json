@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PhotoacousticReconstructionAlgorithmFamily",
+  "id": "dicom-cid-11005-PhotoacousticReconstructionAlgorithmFamily",
+  "description": "Photoacoustic Reconstruction Algorithm Family",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-11005-PhotoacousticReconstructionAlgorithmFamily",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1475"
+    }
+  ],
+  "version": "20230626",
+  "title": "Photoacoustic Reconstruction Algorithm Family",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130821",
+            "display": "Spherical Back Projection"
+          },
+          {
+            "code": "130822",
+            "display": "Numerical Acoustic Model"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EchocardiographyLeftVentricleMeasurement",
+  "id": "dicom-cid-12200-EchocardiographyLeftVentricleMeasurement",
+  "description": "Echocardiography Left Ventricle Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12200-EchocardiographyLeftVentricleMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.593"
+    }
+  ],
+  "version": "20030918",
+  "title": "Echocardiography Left Ventricle Measurement",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12220-EchocardiographyCommonMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12201-LeftVentricleLinearMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12240-LeftVentricleAreaMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12202-LeftVentricleVolumeMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12222-OrificeFlowProperty"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12203-LeftVentricleOtherMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12239-CardiacOutputProperty"
+        ]
+      }
+    ]
+  }
+}

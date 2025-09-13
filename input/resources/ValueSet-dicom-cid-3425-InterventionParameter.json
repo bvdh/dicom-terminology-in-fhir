@@ -1,0 +1,107 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "InterventionParameter",
+  "id": "dicom-cid-3425-InterventionParameter",
+  "description": "Intervention Parameter",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3425-InterventionParameter",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.87"
+    }
+  ],
+  "version": "20030327",
+  "title": "Intervention Parameter",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "371851006",
+            "display": "Angioplasty Inflation pressure"
+          },
+          {
+            "code": "371852004",
+            "display": "Angioplasty Inflation duration"
+          },
+          {
+            "code": "371854003",
+            "display": "Rotational Atherectomy Speed"
+          },
+          {
+            "code": "371892002",
+            "display": "Delivered Radiation Dose"
+          },
+          {
+            "code": "386131004",
+            "display": "Ablation power"
+          },
+          {
+            "code": "386132006",
+            "display": "Ablation frequency"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-002D0",
+            "display": "Angioplasty Inflation pressure"
+          },
+          {
+            "code": "R-002CF",
+            "display": "Angioplasty Inflation duration"
+          },
+          {
+            "code": "R-0036C",
+            "display": "Rotational Atherectomy Speed"
+          },
+          {
+            "code": "R-002F2",
+            "display": "Delivered Radiation Dose"
+          },
+          {
+            "code": "R-10043",
+            "display": "Ablation power"
+          },
+          {
+            "code": "R-10044",
+            "display": "Ablation frequency"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1299326",
+            "display": "Angioplasty Inflation pressure"
+          },
+          {
+            "code": "C1299327",
+            "display": "Angioplasty Inflation duration"
+          },
+          {
+            "code": "C1299329",
+            "display": "Rotational Atherectomy Speed"
+          },
+          {
+            "code": "C1299361",
+            "display": "Delivered Radiation Dose"
+          },
+          {
+            "code": "C1272583",
+            "display": "Ablation power"
+          },
+          {
+            "code": "C1272584",
+            "display": "Ablation frequency"
+          }
+        ]
+      }
+    ]
+  }
+}

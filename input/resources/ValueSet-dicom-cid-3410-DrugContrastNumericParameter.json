@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DrugContrastNumericParameter",
+  "id": "dicom-cid-3410-DrugContrastNumericParameter",
+  "description": "Drug/Contrast Numeric Parameter",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3410-DrugContrastNumericParameter",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.75"
+    }
+  ],
+  "version": "20070124",
+  "title": "Drug/Contrast Numeric Parameter",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122091",
+            "display": "Volume administered"
+          },
+          {
+            "code": "122092",
+            "display": "Undiluted dose administered"
+          },
+          {
+            "code": "122093",
+            "display": "Concentration"
+          },
+          {
+            "code": "122094",
+            "display": "Rate of administration"
+          },
+          {
+            "code": "122095",
+            "display": "Duration of administration"
+          },
+          {
+            "code": "122096",
+            "display": "Volume unadministered or discarded"
+          },
+          {
+            "code": "121382",
+            "display": "Quantity administered"
+          },
+          {
+            "code": "121383",
+            "display": "Mass administered"
+          }
+        ]
+      }
+    ]
+  }
+}

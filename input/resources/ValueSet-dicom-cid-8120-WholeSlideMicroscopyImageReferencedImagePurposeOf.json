@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "WholeSlideMicroscopyImageReferencedImagePurposeOfReference",
+  "id": "dicom-cid-8120-WholeSlideMicroscopyImageReferencedImagePurposeOf",
+  "description": "Whole Slide Microscopy Image Referenced Image Purpose of Reference",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-8120-WholeSlideMicroscopyImageReferencedImagePurposeOf",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.897"
+    }
+  ],
+  "version": "20100824",
+  "title": "Whole Slide Microscopy Image Referenced Image Purpose of Reference",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121311",
+            "display": "Localizer"
+          },
+          {
+            "code": "121350",
+            "display": "Same acquisition at lower resolution"
+          },
+          {
+            "code": "121351",
+            "display": "Same acquisition at higher resolution"
+          },
+          {
+            "code": "121352",
+            "display": "Same acquisition at different focal depth"
+          },
+          {
+            "code": "121353",
+            "display": "Same acquisition at different spectral band"
+          },
+          {
+            "code": "121354",
+            "display": "Imaged container label"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AnalogWaveformFilter",
+  "id": "dicom-cid-3042-AnalogWaveformFilter",
+  "description": "Analog Waveform Filter",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3042-AnalogWaveformFilter",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1453"
+    }
+  ],
+  "version": "20220630",
+  "title": "Analog Waveform Filter",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130760",
+            "display": "Butterworth filter"
+          },
+          {
+            "code": "130761",
+            "display": "Chebyshev filter"
+          },
+          {
+            "code": "130762",
+            "display": "Elliptic filter"
+          },
+          {
+            "code": "130763",
+            "display": "Bessel filter"
+          },
+          {
+            "code": "130764",
+            "display": "Gaussian filter"
+          },
+          {
+            "code": "130765",
+            "display": "K-type filter"
+          },
+          {
+            "code": "130766",
+            "display": "M-derived filter"
+          },
+          {
+            "code": "130767",
+            "display": "Double-m-derived filter"
+          },
+          {
+            "code": "130768",
+            "display": "Bode filter"
+          },
+          {
+            "code": "130769",
+            "display": "Zobel filter"
+          }
+        ]
+      }
+    ]
+  }
+}

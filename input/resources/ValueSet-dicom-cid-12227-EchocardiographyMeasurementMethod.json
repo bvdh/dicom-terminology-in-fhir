@@ -1,0 +1,67 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EchocardiographyMeasurementMethod",
+  "id": "dicom-cid-12227-EchocardiographyMeasurementMethod",
+  "description": "Echocardiography Measurement Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12227-EchocardiographyMeasurementMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.618"
+    }
+  ],
+  "version": "20240920",
+  "title": "Echocardiography Measurement Method",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12228-EchocardiographyVolumeMethod"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12229-EchocardiographyAreaMethod"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12230-GradientMethod"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12231-VolumeFlowMethod"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12232-MyocardiumMassMethod"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12310-MyocardialStrainMethod"
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "131019",
+            "display": "Inlet Included"
+          },
+          {
+            "code": "131020",
+            "display": "Free Cord Loop Method"
+          },
+          {
+            "code": "125316",
+            "display": "Directly measured"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VesselLumenCrossSectionalAreaCalculationMethod",
+  "id": "dicom-cid-3470-VesselLumenCrossSectionalAreaCalculationMethod",
+  "description": "Vessel Lumen Cross-sectional Area Calculation Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3470-VesselLumenCrossSectionalAreaCalculationMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.112"
+    }
+  ],
+  "version": "20040614",
+  "title": "Vessel Lumen Cross-sectional Area Calculation Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122473",
+            "display": "Circular method"
+          },
+          {
+            "code": "122474",
+            "display": "Densitometric method"
+          }
+        ]
+      }
+    ]
+  }
+}

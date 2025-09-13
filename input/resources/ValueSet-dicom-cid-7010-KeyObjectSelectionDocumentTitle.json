@@ -1,0 +1,214 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "KeyObjectSelectionDocumentTitle",
+  "id": "dicom-cid-7010-KeyObjectSelectionDocumentTitle",
+  "description": "Key Object Selection Document Title",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7010-KeyObjectSelectionDocumentTitle",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.490"
+    }
+  ],
+  "version": "20190915",
+  "title": "Key Object Selection Document Title",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113000",
+            "display": "Of Interest"
+          },
+          {
+            "code": "113001",
+            "display": "Rejected for Quality Reasons"
+          },
+          {
+            "code": "113002",
+            "display": "For Referring Provider"
+          },
+          {
+            "code": "113003",
+            "display": "For Surgery"
+          },
+          {
+            "code": "113004",
+            "display": "For Teaching"
+          },
+          {
+            "code": "113005",
+            "display": "For Conference"
+          },
+          {
+            "code": "113006",
+            "display": "For Therapy"
+          },
+          {
+            "code": "113007",
+            "display": "For Patient"
+          },
+          {
+            "code": "113008",
+            "display": "For Peer Review"
+          },
+          {
+            "code": "113009",
+            "display": "For Research"
+          },
+          {
+            "code": "113010",
+            "display": "Quality Issue"
+          },
+          {
+            "code": "113013",
+            "display": "Best In Set"
+          },
+          {
+            "code": "113018",
+            "display": "For Printing"
+          },
+          {
+            "code": "113020",
+            "display": "For Report Attachment"
+          },
+          {
+            "code": "113021",
+            "display": "For Litigation"
+          },
+          {
+            "code": "113030",
+            "display": "Manifest"
+          },
+          {
+            "code": "113031",
+            "display": "Signed Manifest"
+          },
+          {
+            "code": "113032",
+            "display": "Complete Study Content"
+          },
+          {
+            "code": "113033",
+            "display": "Signed Complete Study Content"
+          },
+          {
+            "code": "113034",
+            "display": "Complete Acquisition Content"
+          },
+          {
+            "code": "113035",
+            "display": "Signed Complete Acquisition Content"
+          },
+          {
+            "code": "113036",
+            "display": "Group of Frames for Display"
+          },
+          {
+            "code": "113037",
+            "display": "Rejected for Patient Safety Reasons"
+          },
+          {
+            "code": "113038",
+            "display": "Incorrect Modality Worklist Entry"
+          },
+          {
+            "code": "113039",
+            "display": "Data Retention Policy Expired"
+          },
+          {
+            "code": "113022",
+            "display": "Collection of Presentation States"
+          },
+          {
+            "code": "128181",
+            "display": "Diagnostic Source Images"
+          },
+          {
+            "code": "128182",
+            "display": "Segmentation Result"
+          },
+          {
+            "code": "128183",
+            "display": "Registration Result"
+          },
+          {
+            "code": "128195",
+            "display": "For Diagnosis"
+          },
+          {
+            "code": "128218",
+            "display": "Diagnosis Input Used"
+          },
+          {
+            "code": "128196",
+            "display": "For Segmentation"
+          },
+          {
+            "code": "128219",
+            "display": "Contouring Input Used"
+          },
+          {
+            "code": "128199",
+            "display": "For Plan Comparison"
+          },
+          {
+            "code": "128220",
+            "display": "Plan Comparison Input Used"
+          },
+          {
+            "code": "128203",
+            "display": "For Tumor Board"
+          },
+          {
+            "code": "128221",
+            "display": "Tumor Board Input Used"
+          },
+          {
+            "code": "128208",
+            "display": "For Tumor Registry"
+          },
+          {
+            "code": "128222",
+            "display": "Tumor Registry Input Used"
+          },
+          {
+            "code": "128207",
+            "display": "For Clinical Trial Submission"
+          },
+          {
+            "code": "128223",
+            "display": "Clinical Trial Submission Input Used"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7023-RTProcessOutput"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7024-RTProcessInput"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7025-RTProcessInputUsed"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7014-ExportAdditionalInformationDocumentTitle"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7070-RealTimeVideoRenditionTitle"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "FixedBeamLimitingDeviceType",
+  "id": "dicom-cid-9545-FixedBeamLimitingDeviceType",
+  "description": "Fixed Beam Limiting Device Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9545-FixedBeamLimitingDeviceType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1292"
+    }
+  ],
+  "version": "20190715",
+  "title": "Fixed Beam Limiting Device Type",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9517-RadiotherapyBlockDeviceType"
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130343",
+            "display": "Electron Fixed Aperture"
+          },
+          {
+            "code": "130344",
+            "display": "Photon Fixed Aperture"
+          },
+          {
+            "code": "130345",
+            "display": "Intraoperative Fixed Aperture"
+          }
+        ]
+      }
+    ]
+  }
+}

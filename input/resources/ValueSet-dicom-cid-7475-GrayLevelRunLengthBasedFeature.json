@@ -1,0 +1,89 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GrayLevelRunLengthBasedFeature",
+  "id": "dicom-cid-7475-GrayLevelRunLengthBasedFeature",
+  "description": "Gray Level Run Length Based Feature",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7475-GrayLevelRunLengthBasedFeature",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1199"
+    }
+  ],
+  "version": "20190121",
+  "title": "Gray Level Run Length Based Feature",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-IBSI",
+        "concept": [
+          {
+            "code": "22OV",
+            "display": "Short Runs Emphasis"
+          },
+          {
+            "code": "W4KF",
+            "display": "Long Runs Emphasis"
+          },
+          {
+            "code": "V3SW",
+            "display": "Low Gray Level Run Emphasis"
+          },
+          {
+            "code": "G3QZ",
+            "display": "High Gray Level Run Emphasis"
+          },
+          {
+            "code": "HTZT",
+            "display": "Short Run Low Gray Level Emphasis"
+          },
+          {
+            "code": "GD3A",
+            "display": "Short Run High Gray Level Emphasis"
+          },
+          {
+            "code": "IVPO",
+            "display": "Long Run Low Gray Level Emphasis"
+          },
+          {
+            "code": "3KUM",
+            "display": "Long Run High Gray Level Emphasis"
+          },
+          {
+            "code": "R5YN",
+            "display": "Gray Level Nonuniformity in Runs"
+          },
+          {
+            "code": "OVBL",
+            "display": "Normalized Gray Level Nonuniformity in Runs"
+          },
+          {
+            "code": "W92Y",
+            "display": "Run Length Nonuniformity"
+          },
+          {
+            "code": "IC23",
+            "display": "Normalized Run Length Nonuniformity"
+          },
+          {
+            "code": "9ZK5",
+            "display": "Run Percentage"
+          },
+          {
+            "code": "8CE5",
+            "display": "Gray Level Variance in Runs"
+          },
+          {
+            "code": "SXLW",
+            "display": "Run Length Variance"
+          },
+          {
+            "code": "HJ9O",
+            "display": "Run Entropy"
+          }
+        ]
+      }
+    ]
+  }
+}

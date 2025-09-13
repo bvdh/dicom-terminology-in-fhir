@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "QuantitativeImageFeature",
+  "id": "dicom-cid-218-QuantitativeImageFeature",
+  "description": "Quantitative Image Feature",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-218-QuantitativeImageFeature",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1269"
+    }
+  ],
+  "version": "20200920",
+  "title": "Quantitative Image Feature",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7468-TextureMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7469-GenericIntensityAndSizeMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7477-GlobalShapeDescriptor"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7550-AngleMeasurement"
+        ]
+      }
+    ]
+  }
+}

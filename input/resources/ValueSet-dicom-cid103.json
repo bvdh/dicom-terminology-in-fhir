@@ -1,0 +1,15 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid103",
+  "id": "dicom-cid103",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid103",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1437"
+    }
+  ],
+  "version": "Not versioned",
+  "title": "NICIP Short Code Imaging Procedure"
+}

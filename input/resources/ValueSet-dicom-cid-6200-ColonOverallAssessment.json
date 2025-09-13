@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ColonOverallAssessment",
+  "id": "dicom-cid-6200-ColonOverallAssessment",
+  "description": "Colon Overall Assessment",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6200-ColonOverallAssessment",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.787"
+    }
+  ],
+  "version": "20090402",
+  "title": "Colon Overall Assessment",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112240",
+            "display": "C0 - Inadequate Study/Awaiting Prior Comparisons"
+          },
+          {
+            "code": "112241",
+            "display": "C1 - Normal Colon or Benign Lesion"
+          },
+          {
+            "code": "112242",
+            "display": "C2 - Intermediate Polyp or Indeterminate Finding"
+          },
+          {
+            "code": "112243",
+            "display": "C3 - Polyp, Possibly Advanced Adenoma"
+          },
+          {
+            "code": "112244",
+            "display": "C4 - Colonic Mass, Likely Malignant"
+          }
+        ]
+      }
+    ]
+  }
+}

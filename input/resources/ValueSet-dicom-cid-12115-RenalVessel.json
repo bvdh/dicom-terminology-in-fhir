@@ -1,0 +1,155 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RenalVessel",
+  "id": "dicom-cid-12115-RenalVessel",
+  "description": "Renal Vessel",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12115-RenalVessel",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.582"
+    }
+  ],
+  "version": "20191108",
+  "title": "Renal Vessel",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "2841007",
+            "display": "Renal Artery"
+          },
+          {
+            "code": "397405001",
+            "display": "Hilar Artery"
+          },
+          {
+            "code": "120234003",
+            "display": "Segmental Artery"
+          },
+          {
+            "code": "274060004",
+            "display": "Lobar Artery"
+          },
+          {
+            "code": "274231001",
+            "display": "Arcuate Artery of the Kidney"
+          },
+          {
+            "code": "274143007",
+            "display": "Interlobar Artery of Kidney"
+          },
+          {
+            "code": "274329007",
+            "display": "Interlobular Artery of Kidney"
+          },
+          {
+            "code": "85383006",
+            "display": "Accessory Renal Artery"
+          },
+          {
+            "code": "15763003",
+            "display": "Perforating Artery of Kidney"
+          },
+          {
+            "code": "56400007",
+            "display": "Renal Vein"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-46600",
+            "display": "Renal Artery"
+          },
+          {
+            "code": "G-035C",
+            "display": "Hilar Artery"
+          },
+          {
+            "code": "T-46659",
+            "display": "Segmental Artery"
+          },
+          {
+            "code": "T-4667C",
+            "display": "Lobar Artery"
+          },
+          {
+            "code": "T-4668A",
+            "display": "Arcuate Artery of the Kidney"
+          },
+          {
+            "code": "T-4667D",
+            "display": "Interlobar Artery of Kidney"
+          },
+          {
+            "code": "T-4667E",
+            "display": "Interlobular Artery of Kidney"
+          },
+          {
+            "code": "T-46640",
+            "display": "Accessory Renal Artery"
+          },
+          {
+            "code": "T-46668",
+            "display": "Perforating Artery of Kidney"
+          },
+          {
+            "code": "T-48740",
+            "display": "Renal Vein"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0035065",
+            "display": "Renal Artery"
+          },
+          {
+            "code": "C1275669",
+            "display": "Hilar Artery"
+          },
+          {
+            "code": "C1267338",
+            "display": "Segmental Artery"
+          },
+          {
+            "code": "C0226346",
+            "display": "Lobar Artery"
+          },
+          {
+            "code": "C0226348",
+            "display": "Arcuate Artery of the Kidney"
+          },
+          {
+            "code": "C0226347",
+            "display": "Interlobar Artery of Kidney"
+          },
+          {
+            "code": "C0226349",
+            "display": "Interlobular Artery of Kidney"
+          },
+          {
+            "code": "C0226335",
+            "display": "Accessory Renal Artery"
+          },
+          {
+            "code": "C0226344",
+            "display": "Perforating Artery of Kidney"
+          },
+          {
+            "code": "C0035092",
+            "display": "Renal Vein"
+          }
+        ]
+      }
+    ]
+  }
+}

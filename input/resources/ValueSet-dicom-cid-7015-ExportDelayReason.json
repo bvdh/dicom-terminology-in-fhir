@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ExportDelayReason",
+  "id": "dicom-cid-7015-ExportDelayReason",
+  "description": "Export Delay Reason",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7015-ExportDelayReason",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1179"
+    }
+  ],
+  "version": "20170914",
+  "title": "Export Delay Reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128715",
+            "display": "Delay export until final report is available"
+          },
+          {
+            "code": "128716",
+            "display": "Delay export until clinical information is available"
+          },
+          {
+            "code": "128717",
+            "display": "Delay export until confirmation of diagnosis is available"
+          },
+          {
+            "code": "128718",
+            "display": "Delay export until histopathology is available"
+          },
+          {
+            "code": "128719",
+            "display": "Delay export until other laboratory results are available"
+          },
+          {
+            "code": "128720",
+            "display": "Delay export until patient is discharged"
+          },
+          {
+            "code": "128721",
+            "display": "Delay export until patient dies"
+          },
+          {
+            "code": "128722",
+            "display": "Delay export until expert review is available"
+          }
+        ]
+      }
+    ]
+  }
+}

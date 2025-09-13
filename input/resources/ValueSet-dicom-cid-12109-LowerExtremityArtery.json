@@ -1,0 +1,191 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LowerExtremityArtery",
+  "id": "dicom-cid-12109-LowerExtremityArtery",
+  "description": "Lower Extremity Artery",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12109-LowerExtremityArtery",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.576"
+    }
+  ],
+  "version": "20180605",
+  "title": "Lower Extremity Artery",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "73634005",
+            "display": "Common Iliac Artery"
+          },
+          {
+            "code": "413896006",
+            "display": "Common Iliac Artery Bifurcation"
+          },
+          {
+            "code": "68053000",
+            "display": "Anterior Tibial Artery"
+          },
+          {
+            "code": "181347005",
+            "display": "Common Femoral Artery"
+          },
+          {
+            "code": "86547008",
+            "display": "Dorsalis Pedis Artery"
+          },
+          {
+            "code": "113269004",
+            "display": "External Iliac Artery"
+          },
+          {
+            "code": "90024005",
+            "display": "Internal Iliac Artery"
+          },
+          {
+            "code": "8821006",
+            "display": "Peroneal Artery"
+          },
+          {
+            "code": "83018002",
+            "display": "Plantar Arterial Arch"
+          },
+          {
+            "code": "43899006",
+            "display": "Popliteal Artery"
+          },
+          {
+            "code": "13363002",
+            "display": "Posterior Tibial Artery"
+          },
+          {
+            "code": "31677005",
+            "display": "Profunda Femoris Artery"
+          },
+          {
+            "code": "181349008",
+            "display": "Superficial Femoral Artery"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-46710",
+            "display": "Common Iliac Artery"
+          },
+          {
+            "code": "R-10258",
+            "display": "Common Iliac Artery Bifurcation"
+          },
+          {
+            "code": "T-47700",
+            "display": "Anterior Tibial Artery"
+          },
+          {
+            "code": "T-47402",
+            "display": "Common Femoral Artery"
+          },
+          {
+            "code": "T-47740",
+            "display": "Dorsalis Pedis Artery"
+          },
+          {
+            "code": "T-46910",
+            "display": "External Iliac Artery"
+          },
+          {
+            "code": "T-46740",
+            "display": "Internal Iliac Artery"
+          },
+          {
+            "code": "T-47630",
+            "display": "Peroneal Artery"
+          },
+          {
+            "code": "T-47690",
+            "display": "Plantar Arterial Arch"
+          },
+          {
+            "code": "T-47500",
+            "display": "Popliteal Artery"
+          },
+          {
+            "code": "T-47600",
+            "display": "Posterior Tibial Artery"
+          },
+          {
+            "code": "T-47440",
+            "display": "Profunda Femoris Artery"
+          },
+          {
+            "code": "T-47403",
+            "display": "Superficial Femoral Artery"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1261084",
+            "display": "Common Iliac Artery"
+          },
+          {
+            "code": "C1531837",
+            "display": "Common Iliac Artery Bifurcation"
+          },
+          {
+            "code": "C0085816",
+            "display": "Anterior Tibial Artery"
+          },
+          {
+            "code": "C0447105",
+            "display": "Common Femoral Artery"
+          },
+          {
+            "code": "C0226492",
+            "display": "Dorsalis Pedis Artery"
+          },
+          {
+            "code": "C0226398",
+            "display": "External Iliac Artery"
+          },
+          {
+            "code": "C0226364",
+            "display": "Internal Iliac Artery"
+          },
+          {
+            "code": "C0226476",
+            "display": "Peroneal Artery"
+          },
+          {
+            "code": "C0226482",
+            "display": "Plantar Arterial Arch"
+          },
+          {
+            "code": "C0032649",
+            "display": "Popliteal Artery"
+          },
+          {
+            "code": "C0086835",
+            "display": "Posterior Tibial Artery"
+          },
+          {
+            "code": "C0226455",
+            "display": "Profunda Femoris Artery"
+          },
+          {
+            "code": "C0447106",
+            "display": "Superficial Femoral Artery"
+          }
+        ]
+      }
+    ]
+  }
+}

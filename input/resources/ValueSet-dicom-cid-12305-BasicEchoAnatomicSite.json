@@ -1,0 +1,700 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "BasicEchoAnatomicSite",
+  "id": "dicom-cid-12305-BasicEchoAnatomicSite",
+  "description": "Basic Echo Anatomic Site",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12305-BasicEchoAnatomicSite",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1146"
+    }
+  ],
+  "version": "20240920",
+  "title": "Basic Echo Anatomic Site",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "8128003",
+            "display": "Aortic Root"
+          },
+          {
+            "code": "443167003",
+            "display": "Aortic Sinotubular Junction"
+          },
+          {
+            "code": "34202007",
+            "display": "Aortic Valve"
+          },
+          {
+            "code": "77583004",
+            "display": "Aortic Valve Ring"
+          },
+          {
+            "code": "128564006",
+            "display": "Apex of left ventricle"
+          },
+          {
+            "code": "128565007",
+            "display": "Apex of right ventricle"
+          },
+          {
+            "code": "54247002",
+            "display": "Ascending Aorta"
+          },
+          {
+            "code": "80891009",
+            "display": "Heart"
+          },
+          {
+            "code": "64131007",
+            "display": "Inferior vena cava"
+          },
+          {
+            "code": "589001",
+            "display": "Interventricular septum"
+          },
+          {
+            "code": "399086000",
+            "display": "Lateral Mitral Annulus"
+          },
+          {
+            "code": "82471001",
+            "display": "Left Atrium"
+          },
+          {
+            "code": "50408007",
+            "display": "Left Pulmonary Artery"
+          },
+          {
+            "code": "27706005",
+            "display": "Left Pulmonary Vein"
+          },
+          {
+            "code": "87878005",
+            "display": "Left Ventricle"
+          },
+          {
+            "code": "264844003",
+            "display": "Left ventricle apical anterior segment"
+          },
+          {
+            "code": "264849008",
+            "display": "Left ventricle apical inferior segment"
+          },
+          {
+            "code": "264853005",
+            "display": "Left ventricle apical lateral segment"
+          },
+          {
+            "code": "264845002",
+            "display": "Left ventricle apical septal segment"
+          },
+          {
+            "code": "264850008",
+            "display": "Left ventricle basal anterior segment"
+          },
+          {
+            "code": "396654005",
+            "display": "Left ventricle basal anterolateral segment"
+          },
+          {
+            "code": "396482007",
+            "display": "Left ventricle basal anteroseptal segment"
+          },
+          {
+            "code": "264846001",
+            "display": "Left ventricle basal inferior segment"
+          },
+          {
+            "code": "396652009",
+            "display": "Left ventricle basal inferolateral segment"
+          },
+          {
+            "code": "396646008",
+            "display": "Left ventricle basal inferoseptal segment"
+          },
+          {
+            "code": "70238003",
+            "display": "Left Ventricle Inflow Tract"
+          },
+          {
+            "code": "264848000",
+            "display": "Left ventricle mid anterior segment"
+          },
+          {
+            "code": "396656007",
+            "display": "Left ventricle mid anterolateral segment"
+          },
+          {
+            "code": "396647004",
+            "display": "Left ventricle mid anteroseptal segment"
+          },
+          {
+            "code": "264847005",
+            "display": "Left ventricle mid inferior segment"
+          },
+          {
+            "code": "396655006",
+            "display": "Left ventricle mid inferolateral segment"
+          },
+          {
+            "code": "396649001",
+            "display": "Left ventricle mid inferoseptal segment"
+          },
+          {
+            "code": "49848007",
+            "display": "Left Ventricle Myocardium"
+          },
+          {
+            "code": "13418002",
+            "display": "Left Ventricle Outflow Tract"
+          },
+          {
+            "code": "399093001",
+            "display": "Medial Mitral Annulus"
+          },
+          {
+            "code": "65197004",
+            "display": "Mitral Annulus"
+          },
+          {
+            "code": "91134007",
+            "display": "Mitral Valve"
+          },
+          {
+            "code": "81040000",
+            "display": "Pulmonary Artery"
+          },
+          {
+            "code": "430757002",
+            "display": "Pulmonary Vein"
+          },
+          {
+            "code": "90318009",
+            "display": "Pulmonic Ring"
+          },
+          {
+            "code": "39057004",
+            "display": "Pulmonic Valve"
+          },
+          {
+            "code": "73829009",
+            "display": "Right Atrium"
+          },
+          {
+            "code": "78480002",
+            "display": "Right Pulmonary Artery"
+          },
+          {
+            "code": "91539005",
+            "display": "Right Pulmonary Vein"
+          },
+          {
+            "code": "53085002",
+            "display": "Right Ventricle"
+          },
+          {
+            "code": "277635008",
+            "display": "Right Ventricle Basal Segment"
+          },
+          {
+            "code": "8017000",
+            "display": "Right Ventricle Inflow Tract"
+          },
+          {
+            "code": "277634007",
+            "display": "Right Ventricle Midventricular Segment"
+          },
+          {
+            "code": "44627009",
+            "display": "Right Ventricle Outflow Tract"
+          },
+          {
+            "code": "48345005",
+            "display": "Superior vena cava"
+          },
+          {
+            "code": "113259005",
+            "display": "Tricuspid Annulus"
+          },
+          {
+            "code": "46030003",
+            "display": "Tricuspid Valve"
+          },
+          {
+            "code": "45341000",
+            "display": "Trunk of pulmonary artery"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-42110",
+            "display": "Aortic Root"
+          },
+          {
+            "code": "T-42102",
+            "display": "Aortic Sinotubular Junction"
+          },
+          {
+            "code": "T-35400",
+            "display": "Aortic Valve"
+          },
+          {
+            "code": "T-35410",
+            "display": "Aortic Valve Ring"
+          },
+          {
+            "code": "T-32602",
+            "display": "Apex of left ventricle"
+          },
+          {
+            "code": "T-32502",
+            "display": "Apex of right ventricle"
+          },
+          {
+            "code": "T-42100",
+            "display": "Ascending Aorta"
+          },
+          {
+            "code": "T-32000",
+            "display": "Heart"
+          },
+          {
+            "code": "T-48710",
+            "display": "Inferior vena cava"
+          },
+          {
+            "code": "T-32410",
+            "display": "Interventricular septum"
+          },
+          {
+            "code": "G-0392",
+            "display": "Lateral Mitral Annulus"
+          },
+          {
+            "code": "T-32300",
+            "display": "Left Atrium"
+          },
+          {
+            "code": "T-44400",
+            "display": "Left Pulmonary Artery"
+          },
+          {
+            "code": "T-48502",
+            "display": "Left Pulmonary Vein"
+          },
+          {
+            "code": "T-32600",
+            "display": "Left Ventricle"
+          },
+          {
+            "code": "T-32613",
+            "display": "Left ventricle apical anterior segment"
+          },
+          {
+            "code": "T-32618",
+            "display": "Left ventricle apical inferior segment"
+          },
+          {
+            "code": "T-3261C",
+            "display": "Left ventricle apical lateral segment"
+          },
+          {
+            "code": "T-32614",
+            "display": "Left ventricle apical septal segment"
+          },
+          {
+            "code": "T-32619",
+            "display": "Left ventricle basal anterior segment"
+          },
+          {
+            "code": "R-1007A",
+            "display": "Left ventricle basal anterolateral segment"
+          },
+          {
+            "code": "R-10075",
+            "display": "Left ventricle basal anteroseptal segment"
+          },
+          {
+            "code": "T-32615",
+            "display": "Left ventricle basal inferior segment"
+          },
+          {
+            "code": "R-10079",
+            "display": "Left ventricle basal inferolateral segment"
+          },
+          {
+            "code": "R-10076",
+            "display": "Left ventricle basal inferoseptal segment"
+          },
+          {
+            "code": "T-32640",
+            "display": "Left Ventricle Inflow Tract"
+          },
+          {
+            "code": "T-32617",
+            "display": "Left ventricle mid anterior segment"
+          },
+          {
+            "code": "R-1007C",
+            "display": "Left ventricle mid anterolateral segment"
+          },
+          {
+            "code": "R-10077",
+            "display": "Left ventricle mid anteroseptal segment"
+          },
+          {
+            "code": "T-32616",
+            "display": "Left ventricle mid inferior segment"
+          },
+          {
+            "code": "R-1007B",
+            "display": "Left ventricle mid inferolateral segment"
+          },
+          {
+            "code": "R-10078",
+            "display": "Left ventricle mid inferoseptal segment"
+          },
+          {
+            "code": "T-32620",
+            "display": "Left Ventricle Myocardium"
+          },
+          {
+            "code": "T-32650",
+            "display": "Left Ventricle Outflow Tract"
+          },
+          {
+            "code": "G-0391",
+            "display": "Medial Mitral Annulus"
+          },
+          {
+            "code": "T-35310",
+            "display": "Mitral Annulus"
+          },
+          {
+            "code": "T-35300",
+            "display": "Mitral Valve"
+          },
+          {
+            "code": "T-44000",
+            "display": "Pulmonary Artery"
+          },
+          {
+            "code": "T-4858F",
+            "display": "Pulmonary Vein"
+          },
+          {
+            "code": "T-35210",
+            "display": "Pulmonic Ring"
+          },
+          {
+            "code": "T-35200",
+            "display": "Pulmonic Valve"
+          },
+          {
+            "code": "T-32200",
+            "display": "Right Atrium"
+          },
+          {
+            "code": "T-44200",
+            "display": "Right Pulmonary Artery"
+          },
+          {
+            "code": "T-48501",
+            "display": "Right Pulmonary Vein"
+          },
+          {
+            "code": "T-32500",
+            "display": "Right Ventricle"
+          },
+          {
+            "code": "T-32504",
+            "display": "Right Ventricle Basal Segment"
+          },
+          {
+            "code": "T-32540",
+            "display": "Right Ventricle Inflow Tract"
+          },
+          {
+            "code": "T-32503",
+            "display": "Right Ventricle Midventricular Segment"
+          },
+          {
+            "code": "T-32550",
+            "display": "Right Ventricle Outflow Tract"
+          },
+          {
+            "code": "T-48610",
+            "display": "Superior vena cava"
+          },
+          {
+            "code": "T-35110",
+            "display": "Tricuspid Annulus"
+          },
+          {
+            "code": "T-35100",
+            "display": "Tricuspid Valve"
+          },
+          {
+            "code": "T-44100",
+            "display": "Trunk of pulmonary artery"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0549113",
+            "display": "Aortic Root"
+          },
+          {
+            "code": "C2733424",
+            "display": "Aortic Sinotubular Junction"
+          },
+          {
+            "code": "C0003501",
+            "display": "Aortic Valve"
+          },
+          {
+            "code": "C0225957",
+            "display": "Aortic Valve Ring"
+          },
+          {
+            "code": "C0580781",
+            "display": "Apex of left ventricle"
+          },
+          {
+            "code": "C0445242",
+            "display": "Apex of right ventricle"
+          },
+          {
+            "code": "C0003956",
+            "display": "Ascending Aorta"
+          },
+          {
+            "code": "C0018787",
+            "display": "Heart"
+          },
+          {
+            "code": "C0042458",
+            "display": "Inferior vena cava"
+          },
+          {
+            "code": "C0225870",
+            "display": "Interventricular septum"
+          },
+          {
+            "code": "C1302198",
+            "display": "Lateral Mitral Annulus"
+          },
+          {
+            "code": "C0225860",
+            "display": "Left Atrium"
+          },
+          {
+            "code": "C0226069",
+            "display": "Left Pulmonary Artery"
+          },
+          {
+            "code": "C0226670",
+            "display": "Left Pulmonary Vein"
+          },
+          {
+            "code": "C0225897",
+            "display": "Left Ventricle"
+          },
+          {
+            "code": "C0555922",
+            "display": "Left ventricle apical anterior segment"
+          },
+          {
+            "code": "C0555930",
+            "display": "Left ventricle apical inferior segment"
+          },
+          {
+            "code": "C0555928",
+            "display": "Left ventricle apical lateral segment"
+          },
+          {
+            "code": "C0555923",
+            "display": "Left ventricle apical septal segment"
+          },
+          {
+            "code": "C0555926",
+            "display": "Left ventricle basal anterior segment"
+          },
+          {
+            "code": "C1300911",
+            "display": "Left ventricle basal anterolateral segment"
+          },
+          {
+            "code": "C1300766",
+            "display": "Left ventricle basal anteroseptal segment"
+          },
+          {
+            "code": "C0555929",
+            "display": "Left ventricle basal inferior segment"
+          },
+          {
+            "code": "C1300909",
+            "display": "Left ventricle basal inferolateral segment"
+          },
+          {
+            "code": "C1300903",
+            "display": "Left ventricle basal inferoseptal segment"
+          },
+          {
+            "code": "C0225911",
+            "display": "Left Ventricle Inflow Tract"
+          },
+          {
+            "code": "C0555925",
+            "display": "Left ventricle mid anterior segment"
+          },
+          {
+            "code": "C1300913",
+            "display": "Left ventricle mid anterolateral segment"
+          },
+          {
+            "code": "C1300904",
+            "display": "Left ventricle mid anteroseptal segment"
+          },
+          {
+            "code": "C0555924",
+            "display": "Left ventricle mid inferior segment"
+          },
+          {
+            "code": "C1300912",
+            "display": "Left ventricle mid inferolateral segment"
+          },
+          {
+            "code": "C1300906",
+            "display": "Left ventricle mid inferoseptal segment"
+          },
+          {
+            "code": "C0225899",
+            "display": "Left Ventricle Myocardium"
+          },
+          {
+            "code": "C0225912",
+            "display": "Left Ventricle Outflow Tract"
+          },
+          {
+            "code": "C1302199",
+            "display": "Medial Mitral Annulus"
+          },
+          {
+            "code": "C0225947",
+            "display": "Mitral Annulus"
+          },
+          {
+            "code": "C0026264",
+            "display": "Mitral Valve"
+          },
+          {
+            "code": "C0034052",
+            "display": "Pulmonary Artery"
+          },
+          {
+            "code": "C2317442",
+            "display": "Pulmonary Vein"
+          },
+          {
+            "code": "C0225935",
+            "display": "Pulmonic Ring"
+          },
+          {
+            "code": "C0034086",
+            "display": "Pulmonic Valve"
+          },
+          {
+            "code": "C0225844",
+            "display": "Right Atrium"
+          },
+          {
+            "code": "C0226054",
+            "display": "Right Pulmonary Artery"
+          },
+          {
+            "code": "C0226669",
+            "display": "Right Pulmonary Vein"
+          },
+          {
+            "code": "C0225883",
+            "display": "Right Ventricle"
+          },
+          {
+            "code": "C0456873",
+            "display": "Right Ventricle Basal Segment"
+          },
+          {
+            "code": "C0225891",
+            "display": "Right Ventricle Inflow Tract"
+          },
+          {
+            "code": "C0456872",
+            "display": "Right Ventricle Midventricular Segment"
+          },
+          {
+            "code": "C0225892",
+            "display": "Right Ventricle Outflow Tract"
+          },
+          {
+            "code": "C0042459",
+            "display": "Superior vena cava"
+          },
+          {
+            "code": "C0225926",
+            "display": "Tricuspid Annulus"
+          },
+          {
+            "code": "C0040960",
+            "display": "Tricuspid Valve"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130623",
+            "display": "Left ventricle apical anterolateral segment"
+          },
+          {
+            "code": "130620",
+            "display": "Left ventricle apical anteroseptal segment"
+          },
+          {
+            "code": "130622",
+            "display": "Left ventricle apical inferolateral segment"
+          },
+          {
+            "code": "130621",
+            "display": "Left ventricle apical inferoseptal segment"
+          },
+          {
+            "code": "125319",
+            "display": "Right Ventricle Anterior Wall"
+          },
+          {
+            "code": "125317",
+            "display": "Right Ventricle Outflow Tract, Distal"
+          },
+          {
+            "code": "125318",
+            "display": "Right Ventricle Outflow Tract, Proximal"
+          }
+        ]
+      }
+    ]
+  }
+}

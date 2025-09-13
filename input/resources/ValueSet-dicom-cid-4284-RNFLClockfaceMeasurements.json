@@ -1,0 +1,77 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RNFLClockfaceMeasurements",
+  "id": "dicom-cid-4284-RNFLClockfaceMeasurements",
+  "description": "RNFL Clockface Measurements",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4284-RNFLClockfaceMeasurements",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1537"
+    }
+  ],
+  "version": "20250707",
+  "title": "RNFL Clockface Measurements",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "131274",
+            "display": "Retinal ROI width"
+          },
+          {
+            "code": "131276",
+            "display": "RNFL clockface position 1 thickness"
+          },
+          {
+            "code": "131277",
+            "display": "RNFL clockface position 2 thickness"
+          },
+          {
+            "code": "131278",
+            "display": "RNFL clockface position 3 thickness"
+          },
+          {
+            "code": "131279",
+            "display": "RNFL clockface position 4 thickness"
+          },
+          {
+            "code": "131280",
+            "display": "RNFL clockface position 5 thickness"
+          },
+          {
+            "code": "131281",
+            "display": "RNFL clockface position 6 thickness"
+          },
+          {
+            "code": "131282",
+            "display": "RNFL clockface position 7 thickness"
+          },
+          {
+            "code": "131283",
+            "display": "RNFL clockface position 8 thickness"
+          },
+          {
+            "code": "131284",
+            "display": "RNFL clockface position 8 thickness"
+          },
+          {
+            "code": "131285",
+            "display": "RNFL clockface position 10 thickness"
+          },
+          {
+            "code": "131286",
+            "display": "RNFL clockface position 11 thickness"
+          },
+          {
+            "code": "131287",
+            "display": "RNFL clockface position 12 thickness"
+          }
+        ]
+      }
+    ]
+  }
+}

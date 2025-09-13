@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VisualFieldMeasurements",
+  "id": "dicom-cid-4280-VisualFieldMeasurements",
+  "description": "Visual Field Measurements",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4280-VisualFieldMeasurements",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1533"
+    }
+  ],
+  "version": "20250707",
+  "title": "Visual Field Measurements",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111852",
+            "display": "Visual Field Index"
+          },
+          {
+            "code": "111853",
+            "display": "Visual Field Loss Due to Diffuse Defect"
+          },
+          {
+            "code": "111854",
+            "display": "Visual Field Loss Due to Local Defect"
+          }
+        ]
+      }
+    ]
+  }
+}

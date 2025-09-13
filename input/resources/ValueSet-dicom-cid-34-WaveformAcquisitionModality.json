@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "WaveformAcquisitionModality",
+  "id": "dicom-cid-34-WaveformAcquisitionModality",
+  "description": "Waveform Acquisition Modality",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-34-WaveformAcquisitionModality",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1495"
+    }
+  ],
+  "version": "20240913",
+  "title": "Waveform Acquisition Modality",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "EPS",
+            "display": "Cardiac Electrophysiology"
+          },
+          {
+            "code": "ECG",
+            "display": "Electrocardiography"
+          },
+          {
+            "code": "EEG",
+            "display": "Electroencephalography"
+          },
+          {
+            "code": "EMG",
+            "display": "Electromyography"
+          },
+          {
+            "code": "EOG",
+            "display": "Electrooculography"
+          },
+          {
+            "code": "HD",
+            "display": "Hemodynamic"
+          },
+          {
+            "code": "POS",
+            "display": "Position Sensor"
+          },
+          {
+            "code": "RESP",
+            "display": "Respiratory"
+          }
+        ]
+      }
+    ]
+  }
+}

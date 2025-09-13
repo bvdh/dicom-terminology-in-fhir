@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProstateMRIAssessment",
+  "id": "dicom-cid-6324-ProstateMRIAssessment",
+  "description": "In future extensions, MRI Assessment terms that are not derived from PI-RADS should be added to this group (such as Likert scale and PI-RADS v1, e.g., see",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6324-ProstateMRIAssessment",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1381"
+    }
+  ],
+  "version": "20210714",
+  "title": "Prostate MRI Assessment",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6325-OverallAssessmentFromPIRADS"
+        ]
+      }
+    ]
+  }
+}

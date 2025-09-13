@@ -27,7 +27,7 @@ def main(args=None):
     parser.add_argument("--dicom_version", help="DICOM version", type=str, required=False)
     
     args = parser.parse_args()
-    fsh_path = args.fsh_path or os.path.join(Path(__file__).parent.parent, 'input', 'fsh')
+    fsh_path = args.fsh_path or os.path.join(Path(__file__).parent.parent, 'sushi-src', 'fsh')
     resources_path = args.fsh_path or os.path.join(Path(__file__).parent.parent, 'input', 'resources')
     dicom_version = args.dicom_version or 'current'
     dicom_path = os.path.join(Path(__file__).parent.parent, 'dicom.nema.org', 'medical', 'dicom', dicom_version, 'source', 'docbook');
@@ -42,7 +42,9 @@ def main(args=None):
     writeContextUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
     writeTemplateUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
     writeColorPalletesCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeCidValueSets( fsh_path=fsh_path, dicom_path=dicom_path )
+
+    # 20250915 - work with Davids Valuesets for now
+    # writeCidValueSets( fsh_path=fsh_path, dicom_path=dicom_path )
     
     # writeVariableLists( fsh_path=fsh_path, dicom_path=dicom_path )
     

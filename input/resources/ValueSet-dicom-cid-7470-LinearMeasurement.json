@@ -1,0 +1,233 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LinearMeasurement",
+  "id": "dicom-cid-7470-LinearMeasurement",
+  "description": "Linear Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7470-LinearMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.524"
+    }
+  ],
+  "version": "20200920",
+  "title": "Linear Measurement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "410668003",
+            "display": "Length"
+          },
+          {
+            "code": "103355008",
+            "display": "Width"
+          },
+          {
+            "code": "131197000",
+            "display": "Depth"
+          },
+          {
+            "code": "81827009",
+            "display": "Diameter"
+          },
+          {
+            "code": "103339001",
+            "display": "Long Axis"
+          },
+          {
+            "code": "103340004",
+            "display": "Short Axis"
+          },
+          {
+            "code": "131187009",
+            "display": "Major Axis"
+          },
+          {
+            "code": "131188004",
+            "display": "Minor Axis"
+          },
+          {
+            "code": "131189007",
+            "display": "Perpendicular Axis"
+          },
+          {
+            "code": "131190003",
+            "display": "Radius"
+          },
+          {
+            "code": "131191004",
+            "display": "Perimeter"
+          },
+          {
+            "code": "74551000",
+            "display": "Circumference"
+          },
+          {
+            "code": "131192006",
+            "display": "Diameter of circumscribed circle"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-D7FE",
+            "display": "Length"
+          },
+          {
+            "code": "G-A220",
+            "display": "Width"
+          },
+          {
+            "code": "G-D785",
+            "display": "Depth"
+          },
+          {
+            "code": "M-02550",
+            "display": "Diameter"
+          },
+          {
+            "code": "G-A185",
+            "display": "Long Axis"
+          },
+          {
+            "code": "G-A186",
+            "display": "Short Axis"
+          },
+          {
+            "code": "G-A193",
+            "display": "Major Axis"
+          },
+          {
+            "code": "G-A194",
+            "display": "Minor Axis"
+          },
+          {
+            "code": "G-A195",
+            "display": "Perpendicular Axis"
+          },
+          {
+            "code": "G-A196",
+            "display": "Radius"
+          },
+          {
+            "code": "G-A197",
+            "display": "Perimeter"
+          },
+          {
+            "code": "M-02560",
+            "display": "Circumference"
+          },
+          {
+            "code": "G-A198",
+            "display": "Diameter of circumscribed circle"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1444754",
+            "display": "Length"
+          },
+          {
+            "code": "C0487742",
+            "display": "Width"
+          },
+          {
+            "code": "C0205125",
+            "display": "Depth"
+          },
+          {
+            "code": "C1301886",
+            "display": "Diameter"
+          },
+          {
+            "code": "C0522487",
+            "display": "Long Axis"
+          },
+          {
+            "code": "C0522488",
+            "display": "Short Axis"
+          },
+          {
+            "code": "C1295723",
+            "display": "Major Axis"
+          },
+          {
+            "code": "C1295724",
+            "display": "Minor Axis"
+          },
+          {
+            "code": "C1295725",
+            "display": "Perpendicular Axis"
+          },
+          {
+            "code": "C1306504",
+            "display": "Radius"
+          },
+          {
+            "code": "C1295726",
+            "display": "Perimeter"
+          },
+          {
+            "code": "C0332520",
+            "display": "Circumference"
+          },
+          {
+            "code": "C1295727",
+            "display": "Diameter of circumscribed circle"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121211",
+            "display": "Path length"
+          },
+          {
+            "code": "121206",
+            "display": "Distance"
+          },
+          {
+            "code": "121207",
+            "display": "Height"
+          },
+          {
+            "code": "121227",
+            "display": "Line segment length"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-IBSI",
+        "concept": [
+          {
+            "code": "L0JK",
+            "display": "Maximum 3D Diameter of a Mesh"
+          },
+          {
+            "code": "TDIC",
+            "display": "Major Axis in 3D Length"
+          },
+          {
+            "code": "P9VJ",
+            "display": "Minor Axis in 3D Length"
+          },
+          {
+            "code": "7J51",
+            "display": "Least Axis in 3D Length"
+          }
+        ]
+      }
+    ]
+  }
+}

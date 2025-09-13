@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MyocardialStrainMethod",
+  "id": "dicom-cid-12310-MyocardialStrainMethod",
+  "description": "Myocardial Strain Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12310-MyocardialStrainMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1427"
+    }
+  ],
+  "version": "20211112",
+  "title": "Myocardial Strain Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130683",
+            "display": "Endocardial Method"
+          },
+          {
+            "code": "130684",
+            "display": "Epicardial Method"
+          },
+          {
+            "code": "130685",
+            "display": "Myocardial Midlayer Method"
+          }
+        ]
+      }
+    ]
+  }
+}

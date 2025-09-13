@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiotherapyRegistrationMark",
+  "id": "dicom-cid-9581-RadiotherapyRegistrationMark",
+  "description": "Radiotherapy Registration Mark",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9581-RadiotherapyRegistrationMark",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1443"
+    }
+  ],
+  "version": "20220402",
+  "title": "Radiotherapy Registration Mark",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112171",
+            "display": "Fiducial mark"
+          }
+        ]
+      }
+    ]
+  }
+}

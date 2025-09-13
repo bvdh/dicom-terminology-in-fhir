@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PatientPositionDisplacementReferencePoint",
+  "id": "dicom-cid-9574-PatientPositionDisplacementReferencePoint",
+  "description": "Patient Position Displacement Reference Point",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9574-PatientPositionDisplacementReferencePoint",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1421"
+    }
+  ],
+  "version": "20210906",
+  "title": "Patient Position Displacement Reference Point",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9553-TreatmentPoint"
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130069",
+            "display": "Patient Setup Point"
+          },
+          {
+            "code": "130070",
+            "display": "Room Laser Patient Setup Point"
+          },
+          {
+            "code": "130071",
+            "display": "Moveable Laser Patient Setup Point"
+          }
+        ]
+      }
+    ]
+  }
+}

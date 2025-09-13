@@ -1,0 +1,54 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "BloodpH",
+  "id": "dicom-cid-3528-BloodpH",
+  "description": "Blood pH",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3528-BloodpH",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.142"
+    }
+  ],
+  "version": "20030327",
+  "title": "Blood pH",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "11558-4",
+            "display": "Blood pH"
+          },
+          {
+            "code": "2744-1",
+            "display": "Arterial Blood pH"
+          },
+          {
+            "code": "2746-6",
+            "display": "Venous Blood pH"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0550447",
+            "display": "Blood pH"
+          },
+          {
+            "code": "C0364887",
+            "display": "Arterial Blood pH"
+          },
+          {
+            "code": "C0364889",
+            "display": "Venous Blood pH"
+          }
+        ]
+      }
+    ]
+  }
+}

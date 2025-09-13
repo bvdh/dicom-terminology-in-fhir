@@ -1,0 +1,228 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OrganizationalRole",
+  "id": "dicom-cid-7452-OrganizationalRole",
+  "description": "The distinction between a \"physician\" and a \"surgeon\" and a \"medical practitioner\" is subject to regional variation. In the US, \"physician\" is often equated with \"medical practitioner\", and a \"surgeon\" is considered to be a \"physician\". In the UK, a \"surgeon\" is a \"medical practitioner\" but is not a \"physician\". In SNOMED, \"physician\" and \"surgeon\" are distinct siblings with no direct relationship, and both are children of \"medical practitioner\". It is recommended that \"medical practitioner\" be used rather than \"physician\" when there is uncertainty over whether the person is or is not a \"surgeon\". There is no distinction between a \"radiographer\" and a \"radiologic technologist\", hence the same SNOMED concept is used for both, and \"radiologic technologist\" is provided as a synonym for use in the US. In the US, the medical practitioner not in training responsible for the care of a hospital patient is referred to as an \"attending\". In the UK they are referred to as a \"consultant\". Though these two concepts are essentially the same, they are separate concepts in SNOMED, which defines no explicit relationship between them. 4. A distinction is made between a Consultant and a Consulting Physician since these are separate concepts in UMLS. A Consultant is defined as \"individuals referred to for expert or professional advice or services\" (MSH) whereas a Consulting Physician is defined as \"a physician that has expertise in a specific medical discipline that can offer expertise or advice to other physicians and healthcare providers\" (from NCI/PT). In UK practice a \"consultant\" is always a medical practitioner. In SNOMED,",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7452-OrganizationalRole",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.516"
+    }
+  ],
+  "version": "20170626",
+  "title": "Organizational Role",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "158965000",
+            "display": "Medical Practitioner"
+          },
+          {
+            "code": "309343006",
+            "display": "Physician"
+          },
+          {
+            "code": "106292003",
+            "display": "Nurse"
+          },
+          {
+            "code": "159016003",
+            "display": "Radiologic Technologist"
+          },
+          {
+            "code": "3430008",
+            "display": "Radiation Therapist"
+          },
+          {
+            "code": "405277009",
+            "display": "Resident"
+          },
+          {
+            "code": "158971006",
+            "display": "Registrar"
+          },
+          {
+            "code": "405279007",
+            "display": "Attending"
+          },
+          {
+            "code": "309390008",
+            "display": "Consultant"
+          },
+          {
+            "code": "415506007",
+            "display": "Scrub nurse"
+          },
+          {
+            "code": "304292004",
+            "display": "Surgeon"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "J-0016E",
+            "display": "Medical Practitioner"
+          },
+          {
+            "code": "J-004E8",
+            "display": "Physician"
+          },
+          {
+            "code": "J-07100",
+            "display": "Nurse"
+          },
+          {
+            "code": "J-00187",
+            "display": "Radiologic Technologist"
+          },
+          {
+            "code": "J-06173",
+            "display": "Radiation Therapist"
+          },
+          {
+            "code": "J-005E6",
+            "display": "Resident"
+          },
+          {
+            "code": "J-00172",
+            "display": "Registrar"
+          },
+          {
+            "code": "J-005E8",
+            "display": "Attending"
+          },
+          {
+            "code": "J-0050A",
+            "display": "Consultant"
+          },
+          {
+            "code": "J-0714A",
+            "display": "Scrub nurse"
+          },
+          {
+            "code": "J-00556",
+            "display": "Surgeon"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1306754",
+            "display": "Medical Practitioner"
+          },
+          {
+            "code": "C0031831",
+            "display": "Physician"
+          },
+          {
+            "code": "C0028661",
+            "display": "Nurse"
+          },
+          {
+            "code": "C0402007",
+            "display": "Radiologic Technologist"
+          },
+          {
+            "code": "C0278604",
+            "display": "Radiation Therapist"
+          },
+          {
+            "code": "C1144859",
+            "display": "Intern"
+          },
+          {
+            "code": "C1320928",
+            "display": "Resident"
+          },
+          {
+            "code": "C0401974",
+            "display": "Registrar"
+          },
+          {
+            "code": "C1320929",
+            "display": "Attending"
+          },
+          {
+            "code": "C0586911",
+            "display": "Consultant"
+          },
+          {
+            "code": "C1441532",
+            "display": "Consulting Physician"
+          },
+          {
+            "code": "C1531952",
+            "display": "Scrub nurse"
+          },
+          {
+            "code": "C0582175",
+            "display": "Surgeon"
+          },
+          {
+            "code": "C1954848",
+            "display": "Sonographer"
+          },
+          {
+            "code": "C2985483",
+            "display": "Radiation Physicist"
+          },
+          {
+            "code": "C1708969",
+            "display": "Medical Physicist"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128670",
+            "display": "Head of Radiology"
+          },
+          {
+            "code": "128671",
+            "display": "Chair of Protocol Committee"
+          },
+          {
+            "code": "128676",
+            "display": "Representative of Protocol Committee"
+          },
+          {
+            "code": "128677",
+            "display": "Representative of Ethics Committee"
+          },
+          {
+            "code": "128675",
+            "display": "Head of Cardiology"
+          },
+          {
+            "code": "128673",
+            "display": "Administrator of Radiology Department"
+          },
+          {
+            "code": "128674",
+            "display": "Lead Radiologic Technologist"
+          },
+          {
+            "code": "121088",
+            "display": "Fellow"
+          },
+          {
+            "code": "121092",
+            "display": "Sonologist"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MediaImportPPSDiscontinuationReason",
+  "id": "dicom-cid-9302-MediaImportPPSDiscontinuationReason",
+  "description": "Media Import PPS Discontinuation Reason",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9302-MediaImportPPSDiscontinuationReason",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.813"
+    }
+  ],
+  "version": "20090616",
+  "title": "Media Import PPS Discontinuation Reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110521",
+            "display": "Objects incorrectly formatted"
+          },
+          {
+            "code": "110522",
+            "display": "Object Types not supported"
+          },
+          {
+            "code": "110523",
+            "display": "Object Set incomplete"
+          },
+          {
+            "code": "110524",
+            "display": "Media Failure"
+          },
+          {
+            "code": "110501",
+            "display": "Equipment failure"
+          },
+          {
+            "code": "110510",
+            "display": "Duplicate order"
+          },
+          {
+            "code": "110513",
+            "display": "Discontinued for unspecified reason"
+          },
+          {
+            "code": "110514",
+            "display": "Incorrect worklist entry selected"
+          }
+        ]
+      }
+    ]
+  }
+}

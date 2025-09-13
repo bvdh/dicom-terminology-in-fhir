@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "FluoroMode",
+  "id": "dicom-cid-10004-FluoroMode",
+  "description": "Fluoro Mode",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10004-FluoroMode",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.538"
+    }
+  ],
+  "version": "20051101",
+  "title": "Fluoro Mode",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113630",
+            "display": "Continuous"
+          },
+          {
+            "code": "113631",
+            "display": "Pulsed"
+          }
+        ]
+      }
+    ]
+  }
+}

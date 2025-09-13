@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "QAReferenceMethod",
+  "id": "dicom-cid-3465-QAReferenceMethod",
+  "description": "QA Reference Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3465-QAReferenceMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.107"
+    }
+  ],
+  "version": "20040614",
+  "title": "QA Reference Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122489",
+            "display": "Curve Fitted Reference"
+          },
+          {
+            "code": "122490",
+            "display": "Interpolated Local Reference"
+          },
+          {
+            "code": "122491",
+            "display": "Mean Local Reference"
+          }
+        ]
+      }
+    ]
+  }
+}

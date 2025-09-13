@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VisualFieldStaticPerimetryScreeningTestMode",
+  "id": "dicom-cid-4252-VisualFieldStaticPerimetryScreeningTestMode",
+  "description": "Visual Field Static Perimetry Screening Test Mode",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4252-VisualFieldStaticPerimetryScreeningTestMode",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.911"
+    }
+  ],
+  "version": "20100827",
+  "title": "Visual Field Static Perimetry Screening Test Mode",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111838",
+            "display": "Age corrected"
+          },
+          {
+            "code": "111839",
+            "display": "Threshold related"
+          },
+          {
+            "code": "111840",
+            "display": "Single luminance"
+          },
+          {
+            "code": "111841",
+            "display": "Foveal sensitivity related"
+          },
+          {
+            "code": "111842",
+            "display": "Related to non macular sensitivity"
+          },
+          {
+            "code": "121410",
+            "display": "User chosen value"
+          }
+        ]
+      }
+    ]
+  }
+}

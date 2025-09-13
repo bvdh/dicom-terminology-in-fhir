@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiacUltrasoundInterventricularSeptumMeasurement",
+  "id": "dicom-cid-12269-CardiacUltrasoundInterventricularSeptumMeasureme",
+  "description": "Cardiac Ultrasound Interventricular Septum Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12269-CardiacUltrasoundInterventricularSeptumMeasureme",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.850"
+    }
+  ],
+  "version": "20100317",
+  "title": "Cardiac Ultrasound Interventricular Septum Measurement",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12220-EchocardiographyCommonMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12222-OrificeFlowProperty"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12250-CardiacUltrasoundCommonLinearMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12253-CardiacUltrasoundAreaMeasurement"
+        ]
+      }
+    ]
+  }
+}

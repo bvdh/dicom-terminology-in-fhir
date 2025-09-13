@@ -1,0 +1,175 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "TractographyAnatomicSite",
+  "id": "dicom-cid-7710-TractographyAnatomicSite",
+  "description": "Tractography Anatomic Site",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7710-TractographyAnatomicSite",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1020"
+    }
+  ],
+  "version": "20221224",
+  "title": "Tractography Anatomic Site",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7701-FiberTractInBrainstem"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7702-ProjectionAndThalamicFiber"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7703-AssociationFiber"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7704-LimbicSystemTract"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7705-CommissuralFiber"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7706-CranialNerve"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7707-SpinalCordFiber"
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "33060004",
+            "display": "Cerebellar white matter"
+          },
+          {
+            "code": "68523003",
+            "display": "Cerebral white matter"
+          },
+          {
+            "code": "27088001",
+            "display": "Spinal cord white matter"
+          },
+          {
+            "code": "389080008",
+            "display": "White matter of brain and spinal cord"
+          },
+          {
+            "code": "84782009",
+            "display": "Peripheral nerve"
+          },
+          {
+            "code": "127954009",
+            "display": "Skeletal muscle"
+          },
+          {
+            "code": "122448007",
+            "display": "Cardiac muscle"
+          },
+          {
+            "code": "706342009",
+            "display": "Phantom"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-A6080",
+            "display": "Cerebellar white matter"
+          },
+          {
+            "code": "T-A2030",
+            "display": "Cerebral white matter"
+          },
+          {
+            "code": "T-A7070",
+            "display": "Spinal cord white matter"
+          },
+          {
+            "code": "T-A0095",
+            "display": "White matter of brain and spinal cord"
+          },
+          {
+            "code": "T-A0500",
+            "display": "Peripheral nerve"
+          },
+          {
+            "code": "T-D0684",
+            "display": "Skeletal muscle"
+          },
+          {
+            "code": "T-1300D",
+            "display": "Cardiac muscle"
+          },
+          {
+            "code": "R-FE0C7",
+            "display": "Phantom"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0152381",
+            "display": "Cerebellar white matter"
+          },
+          {
+            "code": "C0152295",
+            "display": "Cerebral white matter"
+          },
+          {
+            "code": "C0458457",
+            "display": "Spinal cord white matter"
+          },
+          {
+            "code": "C1300311",
+            "display": "White matter of brain and spinal cord"
+          },
+          {
+            "code": "C0031119",
+            "display": "Peripheral nerve"
+          },
+          {
+            "code": "C0242692",
+            "display": "Skeletal muscle"
+          },
+          {
+            "code": "C0027061",
+            "display": "Cardiac muscle"
+          },
+          {
+            "code": "C0282611",
+            "display": "Phantom"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110706",
+            "display": "Perilesional White Matter"
+          }
+        ]
+      }
+    ]
+  }
+}

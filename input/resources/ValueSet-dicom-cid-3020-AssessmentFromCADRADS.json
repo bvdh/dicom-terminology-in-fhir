@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AssessmentFromCADRADS",
+  "id": "dicom-cid-3020-AssessmentFromCADRADS",
+  "description": "Assessment from CAD-RADS",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3020-AssessmentFromCADRADS",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1429"
+    }
+  ],
+  "version": "20211114",
+  "title": "Assessment from CAD-RADS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130723",
+            "display": "0 - Documented absence of CAD"
+          },
+          {
+            "code": "130724",
+            "display": "1 - Minimal non-obstructive CAD"
+          },
+          {
+            "code": "130725",
+            "display": "2 - Mild non-obstructive CAD"
+          },
+          {
+            "code": "130726",
+            "display": "3 - Moderate stenosis"
+          },
+          {
+            "code": "130727",
+            "display": "4 - Severe stenosis"
+          },
+          {
+            "code": "130730",
+            "display": "5 - Total coronary occlusion"
+          },
+          {
+            "code": "130731",
+            "display": "N - Non-diagnostic study"
+          }
+        ]
+      }
+    ]
+  }
+}

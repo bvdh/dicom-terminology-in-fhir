@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EchoMeasuredStrainProperty",
+  "id": "dicom-cid-12311-EchoMeasuredStrainProperty",
+  "description": "Echo Measured Strain Property",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12311-EchoMeasuredStrainProperty",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1428"
+    }
+  ],
+  "version": "20211112",
+  "title": "Echo Measured Strain Property",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130670",
+            "display": "Longitudinal Lagrangian Strain"
+          },
+          {
+            "code": "130671",
+            "display": "Peak Longitudinal Lagrangian Strain"
+          },
+          {
+            "code": "130672",
+            "display": "Time to Peak Longitudinal Lagrangian Strain"
+          },
+          {
+            "code": "130673",
+            "display": "Mechanical Dispersion"
+          },
+          {
+            "code": "130674",
+            "display": "Longitudinal Lagrangian Strain Rate"
+          },
+          {
+            "code": "130675",
+            "display": "Radial Lagrangian Strain"
+          },
+          {
+            "code": "130676",
+            "display": "Radial Lagrangian Strain Rate"
+          },
+          {
+            "code": "130677",
+            "display": "Circumferential Lagrangian Strain"
+          },
+          {
+            "code": "130678",
+            "display": "Circumferential Lagrangian Strain Rate"
+          }
+        ]
+      }
+    ]
+  }
+}

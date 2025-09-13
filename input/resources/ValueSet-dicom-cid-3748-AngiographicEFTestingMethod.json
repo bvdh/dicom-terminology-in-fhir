@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AngiographicEFTestingMethod",
+  "id": "dicom-cid-3748-AngiographicEFTestingMethod",
+  "description": "Angiographic EF Testing Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3748-AngiographicEFTestingMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.245"
+    }
+  ],
+  "version": "20030327",
+  "title": "Angiographic EF Testing Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122059",
+            "display": "Single plane Angiography"
+          },
+          {
+            "code": "122060",
+            "display": "Bi-plane Angiography"
+          }
+        ]
+      }
+    ]
+  }
+}

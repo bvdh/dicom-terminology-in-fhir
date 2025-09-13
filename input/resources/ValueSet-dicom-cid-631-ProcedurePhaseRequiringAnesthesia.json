@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProcedurePhaseRequiringAnesthesia",
+  "id": "dicom-cid-631-ProcedurePhaseRequiringAnesthesia",
+  "description": "Procedure Phase Requiring Anesthesia",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-631-ProcedurePhaseRequiringAnesthesia",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1096"
+    }
+  ],
+  "version": "20151110",
+  "title": "Procedure Phase Requiring Anesthesia",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-632-SurgicalProcedurePhaseRequiringAnesthesia"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12102-TemporalPeriodRelatingToProcedureOrTherapy"
+        ]
+      }
+    ]
+  }
+}

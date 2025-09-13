@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MammographyPathologyCode",
+  "id": "dicom-cid-6030-MammographyPathologyCode",
+  "description": "In future extensions, Mammography Pathology Codes terms that are not derived from BI-RADS should be added to this Context Group.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6030-MammographyPathologyCode",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.360"
+    }
+  ],
+  "version": "20020904",
+  "title": "Mammography Pathology Code",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6031-BenignPathologyCodeFromBIRADS"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6032-HighRiskLesionPathologyCodeFromBIRADS"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6033-MalignantPathologyCodeFromBIRADS"
+        ]
+      }
+    ]
+  }
+}

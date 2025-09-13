@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiationTransportBasedEffectiveDoseMethodModifier",
+  "id": "dicom-cid-9538-RadiationTransportBasedEffectiveDoseMethodModifie",
+  "description": "Radiation Transport-Based Effective Dose Method Modifier",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9538-RadiationTransportBasedEffectiveDoseMethodModifie",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1248"
+    }
+  ],
+  "version": "20181112",
+  "title": "Radiation Transport-based Effective Dose Method Modifier",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130128",
+            "display": "Local Effect Model"
+          },
+          {
+            "code": "130129",
+            "display": "Microdosimetric Kinetic Model"
+          }
+        ]
+      }
+    ]
+  }
+}

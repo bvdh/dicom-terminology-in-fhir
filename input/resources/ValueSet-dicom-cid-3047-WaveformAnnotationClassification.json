@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "WaveformAnnotationClassification",
+  "id": "dicom-cid-3047-WaveformAnnotationClassification",
+  "description": "Waveform Annotation Classification",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3047-WaveformAnnotationClassification",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1487"
+    }
+  ],
+  "version": "20240616",
+  "title": "Waveform Annotation Classification",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130860",
+            "display": "Pattern Event"
+          },
+          {
+            "code": "130861",
+            "display": "EEG Annotation"
+          },
+          {
+            "code": "130862",
+            "display": "EMG Annotation"
+          },
+          {
+            "code": "130863",
+            "display": "EOG Annotation"
+          },
+          {
+            "code": "130864",
+            "display": "Device-related and Environment-related Event"
+          },
+          {
+            "code": "130865",
+            "display": "Patient Consciousness"
+          }
+        ]
+      }
+    ]
+  }
+}

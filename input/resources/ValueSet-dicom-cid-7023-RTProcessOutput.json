@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RTProcessOutput",
+  "id": "dicom-cid-7023-RTProcessOutput",
+  "description": "The concepts in the CID are intended to be a declarative statement to represent the output of an operation, without implying that this operation was part of a particular workflow or that the output will be used in any future operation.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7023-RTProcessOutput",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1135"
+    }
+  ],
+  "version": "20160908",
+  "title": "RT Process Output",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128184",
+            "display": "Pre-Planning Result"
+          },
+          {
+            "code": "128185",
+            "display": "RT Prescription Result"
+          },
+          {
+            "code": "128186",
+            "display": "Dose Calculation Image Series"
+          },
+          {
+            "code": "128187",
+            "display": "Coordinate Alignment Image Series"
+          },
+          {
+            "code": "128188",
+            "display": "RT Treatment Simulation Result"
+          },
+          {
+            "code": "128189",
+            "display": "RT Planning Result"
+          },
+          {
+            "code": "128190",
+            "display": "Dosimetric Result"
+          },
+          {
+            "code": "128191",
+            "display": "Patient Setup Verification Result"
+          },
+          {
+            "code": "128192",
+            "display": "RT Treatment Session Result"
+          },
+          {
+            "code": "128193",
+            "display": "RT Treatment Course Summary"
+          },
+          {
+            "code": "128194",
+            "display": "RT Treatment QA Result"
+          }
+        ]
+      }
+    ]
+  }
+}

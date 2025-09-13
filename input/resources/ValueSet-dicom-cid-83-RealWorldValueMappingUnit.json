@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RealWorldValueMappingUnit",
+  "id": "dicom-cid-83-RealWorldValueMappingUnit",
+  "description": "Real World Value Mapping Unit",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-83-RealWorldValueMappingUnit",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.24"
+    }
+  ],
+  "version": "20080123",
+  "title": "Real World Value Mapping Unit",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-84-PETUnit"
+        ]
+      },
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "[hnsf'U]",
+            "display": "Hounsfield unit"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AbstractSegmentationType",
+  "id": "dicom-cid-7165-AbstractSegmentationType",
+  "description": "The concept",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7165-AbstractSegmentationType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.962"
+    }
+  ],
+  "version": "20220402",
+  "title": "Abstract Segmentation Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "125040",
+            "display": "Background"
+          },
+          {
+            "code": "130751",
+            "display": "Tissue not of interest"
+          },
+          {
+            "code": "125041",
+            "display": "Registration Input"
+          },
+          {
+            "code": "113132",
+            "display": "Single subject extracted from group"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "85756007",
+            "display": "Tissue"
+          },
+          {
+            "code": "289925000",
+            "display": "Waste Material"
+          },
+          {
+            "code": "17621005",
+            "display": "Normal"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-D0050",
+            "display": "Tissue"
+          },
+          {
+            "code": "F-61779",
+            "display": "Waste Material"
+          },
+          {
+            "code": "G-A460",
+            "display": "Normal"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0040300",
+            "display": "Tissue"
+          },
+          {
+            "code": "C0043045",
+            "display": "Waste Material"
+          },
+          {
+            "code": "C2986814",
+            "display": "Reference Region"
+          },
+          {
+            "code": "C0205307",
+            "display": "Normal"
+          }
+        ]
+      },
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "concept": [
+          {
+            "code": "C94970",
+            "display": "Reference Region"
+          }
+        ]
+      }
+    ]
+  }
+}

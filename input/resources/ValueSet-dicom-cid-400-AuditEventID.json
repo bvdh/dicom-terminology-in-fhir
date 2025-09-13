@@ -1,0 +1,85 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AuditEventID",
+  "id": "dicom-cid-400-AuditEventID",
+  "description": "Audit Event ID",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-400-AuditEventID",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.903"
+    }
+  ],
+  "version": "20170416",
+  "title": "Audit Event ID",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110100",
+            "display": "Application Activity"
+          },
+          {
+            "code": "110101",
+            "display": "Audit Log Used"
+          },
+          {
+            "code": "110102",
+            "display": "Begin Transferring DICOM Instances"
+          },
+          {
+            "code": "110103",
+            "display": "DICOM Instances Accessed"
+          },
+          {
+            "code": "110104",
+            "display": "DICOM Instances Transferred"
+          },
+          {
+            "code": "110105",
+            "display": "DICOM Study Deleted"
+          },
+          {
+            "code": "110106",
+            "display": "Export"
+          },
+          {
+            "code": "110107",
+            "display": "Import"
+          },
+          {
+            "code": "110108",
+            "display": "Network Entry"
+          },
+          {
+            "code": "110109",
+            "display": "Order Record"
+          },
+          {
+            "code": "110110",
+            "display": "Patient Record"
+          },
+          {
+            "code": "110111",
+            "display": "Procedure Record"
+          },
+          {
+            "code": "110112",
+            "display": "Query"
+          },
+          {
+            "code": "110113",
+            "display": "Security Alert"
+          },
+          {
+            "code": "110114",
+            "display": "User Authentication"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CirculatorySupportAction",
+  "id": "dicom-cid-3550-CirculatorySupportAction",
+  "description": "Circulatory Support Action",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3550-CirculatorySupportAction",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.146"
+    }
+  ],
+  "version": "20030327",
+  "title": "Circulatory Support Action",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121157",
+            "display": "Begin Circulatory Support"
+          },
+          {
+            "code": "121158",
+            "display": "End Circulatory Support"
+          }
+        ]
+      }
+    ]
+  }
+}

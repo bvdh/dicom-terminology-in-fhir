@@ -1,0 +1,231 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PelvicOrganSegmentationType",
+  "id": "dicom-cid-7160-PelvicOrganSegmentationType",
+  "description": "Pelvic Organ Segmentation Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7160-PelvicOrganSegmentationType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.506"
+    }
+  ],
+  "version": "20230630",
+  "title": "Pelvic Organ Segmentation Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "89837001",
+            "display": "Bladder"
+          },
+          {
+            "code": "71252005",
+            "display": "Cervix"
+          },
+          {
+            "code": "31435000",
+            "display": "Fallopian tube"
+          },
+          {
+            "code": "45292006",
+            "display": "Vulva"
+          },
+          {
+            "code": "699886009",
+            "display": "Female internal genitalia"
+          },
+          {
+            "code": "90418005",
+            "display": "Male external genitalia"
+          },
+          {
+            "code": "38242008",
+            "display": "Male internal genitalia"
+          },
+          {
+            "code": "15497006",
+            "display": "Ovary"
+          },
+          {
+            "code": "816092008",
+            "display": "Pelvis"
+          },
+          {
+            "code": "816989007",
+            "display": "Pelvic cavity, false and/or true"
+          },
+          {
+            "code": "816990003",
+            "display": "Pelvic cavity, false"
+          },
+          {
+            "code": "816991004",
+            "display": "Pelvic cavity, true"
+          },
+          {
+            "code": "41216001",
+            "display": "Prostate"
+          },
+          {
+            "code": "34402009",
+            "display": "Rectum"
+          },
+          {
+            "code": "64739004",
+            "display": "Seminal Vesicle"
+          },
+          {
+            "code": "40689003",
+            "display": "Testis"
+          },
+          {
+            "code": "35039007",
+            "display": "Uterus"
+          },
+          {
+            "code": "76784001",
+            "display": "Vagina"
+          },
+          {
+            "code": "57671007",
+            "display": "Vas deferens"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-74000",
+            "display": "Bladder"
+          },
+          {
+            "code": "T-83200",
+            "display": "Cervix"
+          },
+          {
+            "code": "T-88000",
+            "display": "Fallopian tube"
+          },
+          {
+            "code": "T-81000",
+            "display": "Vulva"
+          },
+          {
+            "code": "R-FB4D3",
+            "display": "Female internal genitalia"
+          },
+          {
+            "code": "T-90010",
+            "display": "Male external genitalia"
+          },
+          {
+            "code": "T-90020",
+            "display": "Male internal genitalia"
+          },
+          {
+            "code": "T-87000",
+            "display": "Ovary"
+          },
+          {
+            "code": "T-92000",
+            "display": "Prostate"
+          },
+          {
+            "code": "T-59600",
+            "display": "Rectum"
+          },
+          {
+            "code": "T-93000",
+            "display": "Seminal Vesicle"
+          },
+          {
+            "code": "T-94000",
+            "display": "Testis"
+          },
+          {
+            "code": "T-83000",
+            "display": "Uterus"
+          },
+          {
+            "code": "T-82000",
+            "display": "Vagina"
+          },
+          {
+            "code": "T-96000",
+            "display": "Vas deferens"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0005682",
+            "display": "Bladder"
+          },
+          {
+            "code": "C0007874",
+            "display": "Cervix"
+          },
+          {
+            "code": "C0015560",
+            "display": "Fallopian tube"
+          },
+          {
+            "code": "C0042993",
+            "display": "Vulva"
+          },
+          {
+            "code": "C0227748",
+            "display": "Female internal genitalia"
+          },
+          {
+            "code": "C0227922",
+            "display": "Male external genitalia"
+          },
+          {
+            "code": "C0227923",
+            "display": "Male internal genitalia"
+          },
+          {
+            "code": "C0029939",
+            "display": "Ovary"
+          },
+          {
+            "code": "C0033572",
+            "display": "Prostate"
+          },
+          {
+            "code": "C0034896",
+            "display": "Rectum"
+          },
+          {
+            "code": "C0036628",
+            "display": "Seminal Vesicle"
+          },
+          {
+            "code": "C0039597",
+            "display": "Testis"
+          },
+          {
+            "code": "C0042149",
+            "display": "Uterus"
+          },
+          {
+            "code": "C0042232",
+            "display": "Vagina"
+          },
+          {
+            "code": "C0042360",
+            "display": "Vas deferens"
+          }
+        ]
+      }
+    ]
+  }
+}

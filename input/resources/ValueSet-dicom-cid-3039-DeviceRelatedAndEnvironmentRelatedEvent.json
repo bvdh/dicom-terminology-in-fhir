@@ -1,0 +1,86 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DeviceRelatedAndEnvironmentRelatedEvent",
+  "id": "dicom-cid-3039-DeviceRelatedAndEnvironmentRelatedEvent",
+  "description": "Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10102 available through",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3039-DeviceRelatedAndEnvironmentRelatedEvent",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1337"
+    }
+  ],
+  "version": "20240616",
+  "title": "Device-related and Environment-related Event",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "concept": [
+          {
+            "code": "3:268",
+            "display": "Lead disconnected"
+          },
+          {
+            "code": "3:236",
+            "display": "Power line problem"
+          },
+          {
+            "code": "3:458",
+            "display": "Power supply problem"
+          },
+          {
+            "code": "3:432",
+            "display": "Artifact"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130887",
+            "display": "Video recording on"
+          },
+          {
+            "code": "130888",
+            "display": "Video recording off"
+          },
+          {
+            "code": "130889",
+            "display": "Preamplifier connected"
+          },
+          {
+            "code": "130890",
+            "display": "Preamplifier disconnected"
+          },
+          {
+            "code": "130891",
+            "display": "Breakout box connected"
+          },
+          {
+            "code": "130892",
+            "display": "Breakout box disconnected"
+          },
+          {
+            "code": "130893",
+            "display": "Event button pressed"
+          },
+          {
+            "code": "130894",
+            "display": "Event button test"
+          },
+          {
+            "code": "130895",
+            "display": "Tap test begin"
+          },
+          {
+            "code": "130896",
+            "display": "Tap test end"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiotherapyAcquisitionWorkitemDefinition",
+  "id": "dicom-cid-9242-RadiotherapyAcquisitionWorkitemDefinition",
+  "description": "Radiotherapy Acquisition Workitem Definition",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9242-RadiotherapyAcquisitionWorkitemDefinition",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.932"
+    }
+  ],
+  "version": "20240612",
+  "title": "Radiotherapy Acquisition Workitem Definition",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9265-PatientPositionAcquisitionProjectionTechniques"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9266-PatientPositionAcquisitionCTTechniques"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9273-PatientPositionAcquisitionMRTechniques"
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121709",
+            "display": "RT Patient Position Acquisition, Optical"
+          },
+          {
+            "code": "121710",
+            "display": "RT Patient Position Acquisition, Ultrasound"
+          },
+          {
+            "code": "121711",
+            "display": "RT Patient Position Acquisition, Spatial Fiducials"
+          }
+        ]
+      }
+    ]
+  }
+}

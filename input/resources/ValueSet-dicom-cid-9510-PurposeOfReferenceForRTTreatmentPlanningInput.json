@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PurposeOfReferenceForRTTreatmentPlanningInput",
+  "id": "dicom-cid-9510-PurposeOfReferenceForRTTreatmentPlanningInput",
+  "description": "Purpose of Reference for RT Treatment Planning Input",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9510-PurposeOfReferenceForRTTreatmentPlanningInput",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1220"
+    }
+  ],
+  "version": "20250330",
+  "title": "Purpose of Reference For RT Treatment Planning Input",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128181",
+            "display": "Diagnostic Source Images"
+          },
+          {
+            "code": "128182",
+            "display": "Segmentation Result"
+          },
+          {
+            "code": "128183",
+            "display": "Registration Result"
+          },
+          {
+            "code": "128185",
+            "display": "RT Prescription Result"
+          },
+          {
+            "code": "130137",
+            "display": "RT Treatment Planning Input Images"
+          }
+        ]
+      }
+    ]
+  }
+}

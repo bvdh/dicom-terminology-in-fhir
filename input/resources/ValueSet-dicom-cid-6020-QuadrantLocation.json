@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "QuadrantLocation",
+  "id": "dicom-cid-6020-QuadrantLocation",
+  "description": "In future extensions, Quadrant Location terms that are not derived from BI-RADS should be added to this Context Group.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6020-QuadrantLocation",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.350"
+    }
+  ],
+  "version": "20020904",
+  "title": "Quadrant Location",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6021-QuadrantLocationFromBIRADS"
+        ]
+      }
+    ]
+  }
+}

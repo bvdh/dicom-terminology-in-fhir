@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "StaffAction",
+  "id": "dicom-cid-3404-StaffAction",
+  "description": "Staff Action",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3404-StaffAction",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.69"
+    }
+  ],
+  "version": "20030327",
+  "title": "Staff Action",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122041",
+            "display": "Personnel Arrived"
+          },
+          {
+            "code": "122042",
+            "display": "Personnel Departed"
+          },
+          {
+            "code": "122043",
+            "display": "Page Sent To"
+          },
+          {
+            "code": "122044",
+            "display": "Consultation With"
+          },
+          {
+            "code": "122045",
+            "display": "Office called"
+          }
+        ]
+      }
+    ]
+  }
+}

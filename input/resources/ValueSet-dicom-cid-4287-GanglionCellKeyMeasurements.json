@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GanglionCellKeyMeasurements",
+  "id": "dicom-cid-4287-GanglionCellKeyMeasurements",
+  "description": "Ganglion Cell Key Measurements",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4287-GanglionCellKeyMeasurements",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1540"
+    }
+  ],
+  "version": "20250707",
+  "title": "Ganglion Cell Key Measurements",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "131274",
+            "display": "Retinal ROI width"
+          },
+          {
+            "code": "131288",
+            "display": "Average ganglion cell thickness"
+          },
+          {
+            "code": "131289",
+            "display": "Minimum ganglion cell thickness"
+          }
+        ]
+      }
+    ]
+  }
+}

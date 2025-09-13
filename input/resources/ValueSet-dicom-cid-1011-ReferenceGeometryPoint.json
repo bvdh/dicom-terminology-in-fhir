@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ReferenceGeometryPoint",
+  "id": "dicom-cid-1011-ReferenceGeometryPoint",
+  "description": "Reference Geometry - Point",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-1011-ReferenceGeometryPoint",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1129"
+    }
+  ],
+  "version": "20160905",
+  "title": "Reference Geometry - Point",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128137",
+            "display": "Geometric Centerpoint"
+          },
+          {
+            "code": "128138",
+            "display": "Center of Mass"
+          }
+        ]
+      }
+    ]
+  }
+}

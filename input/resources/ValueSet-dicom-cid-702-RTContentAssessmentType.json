@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RTContentAssessmentType",
+  "id": "dicom-cid-702-RTContentAssessmentType",
+  "description": "RT Content Assessment Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-702-RTContentAssessmentType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1117"
+    }
+  ],
+  "version": "20160318",
+  "title": "RT Content Assessment Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121373",
+            "display": "RT Pre-Treatment Dose Check"
+          },
+          {
+            "code": "121374",
+            "display": "RT Pre-Treatment Consistency Check"
+          }
+        ]
+      }
+    ]
+  }
+}

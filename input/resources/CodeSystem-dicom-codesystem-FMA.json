@@ -1,0 +1,245 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "fragment",
+  "name": "DigitalAnatomistFoundationalModelOfAnatomyCodeSystem",
+  "id": "dicom-codesystem-FMA",
+  "title": "FMA",
+  "description": "Digital Anatomist Foundational Model of Anatomy",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-FMA",
+  "concept": [
+    {
+      "code": "264776",
+      "display": "Bregma",
+      "definition": "Bregma"
+    },
+    {
+      "code": "264773",
+      "display": "Lambda",
+      "definition": "Lambda"
+    },
+    {
+      "code": "264779",
+      "display": "Nasion",
+      "definition": "Nasion"
+    },
+    {
+      "code": "281534",
+      "display": "Mucosa of dorsum of oral part of tongue",
+      "definition": "Mucosa of dorsum of oral part of tongue"
+    },
+    {
+      "code": "281537",
+      "display": "Mucosa of dorsum of pharyngeal part of tongue",
+      "definition": "Mucosa of dorsum of pharyngeal part of tongue"
+    },
+    {
+      "code": "289677",
+      "display": "Mucosa of oral segment of hard palate",
+      "definition": "Mucosa of oral segment of hard palate"
+    },
+    {
+      "code": "60031",
+      "display": "Mucosa of palatoglossal arch",
+      "definition": "Mucosa of palatoglossal arch"
+    },
+    {
+      "code": "55031",
+      "display": "Mucosa of pharynx",
+      "definition": "Mucosa of pharynx"
+    },
+    {
+      "code": "55060",
+      "display": "Mucosa of posterior wall of oropharynx",
+      "definition": "Mucosa of posterior wall of oropharynx"
+    },
+    {
+      "code": "60030",
+      "display": "Mucosa of uvula",
+      "definition": "Mucosa of uvula"
+    },
+    {
+      "code": "49943",
+      "display": "Skin of back of trunk",
+      "definition": "Skin of back of trunk"
+    },
+    {
+      "code": "37885",
+      "display": "Skin of dorsal part of fifth toe",
+      "definition": "Skin of dorsal part of fifth toe"
+    },
+    {
+      "code": "37882",
+      "display": "Skin of dorsal part of fourth toe",
+      "definition": "Skin of dorsal part of fourth toe"
+    },
+    {
+      "code": "37873",
+      "display": "Skin of dorsal part of great toe",
+      "definition": "Skin of dorsal part of great toe"
+    },
+    {
+      "code": "38324",
+      "display": "Skin of dorsal part of index finger",
+      "definition": "Skin of dorsal part of index finger"
+    },
+    {
+      "code": "38333",
+      "display": "Skin of dorsal part of little finger",
+      "definition": "Skin of dorsal part of little finger"
+    },
+    {
+      "code": "38327",
+      "display": "Skin of dorsal part of middle finger",
+      "definition": "Skin of dorsal part of middle finger"
+    },
+    {
+      "code": "38330",
+      "display": "Skin of dorsal part of ring finger",
+      "definition": "Skin of dorsal part of ring finger"
+    },
+    {
+      "code": "37876",
+      "display": "Skin of dorsal part of second toe",
+      "definition": "Skin of dorsal part of second toe"
+    },
+    {
+      "code": "37879",
+      "display": "Skin of dorsal part of third toe",
+      "definition": "Skin of dorsal part of third toe"
+    },
+    {
+      "code": "38321",
+      "display": "Skin of dorsal part of thumb",
+      "definition": "Skin of dorsal part of thumb"
+    },
+    {
+      "code": "59532",
+      "display": "Skin of dorsum of nose",
+      "definition": "Skin of dorsum of nose"
+    },
+    {
+      "code": "61427",
+      "display": "Skin of lower inner quadrant of breast",
+      "definition": "Skin of lower inner quadrant of breast"
+    },
+    {
+      "code": "61423",
+      "display": "Skin of lower outer quadrant of breast",
+      "definition": "Skin of lower outer quadrant of breast"
+    },
+    {
+      "code": "38344",
+      "display": "Skin of palmar part of index finger",
+      "definition": "Skin of palmar part of index finger"
+    },
+    {
+      "code": "38357",
+      "display": "Skin of palmar part of little finger",
+      "definition": "Skin of palmar part of little finger"
+    },
+    {
+      "code": "38347",
+      "display": "Skin of palmar part of middle finger",
+      "definition": "Skin of palmar part of middle finger"
+    },
+    {
+      "code": "38354",
+      "display": "Skin of palmar part of ring finger",
+      "definition": "Skin of palmar part of ring finger"
+    },
+    {
+      "code": "38341",
+      "display": "Skin of palmar part of thumb",
+      "definition": "Skin of palmar part of thumb"
+    },
+    {
+      "code": "38119",
+      "display": "Skin of plantar part of fifth toe",
+      "definition": "Skin of plantar part of fifth toe"
+    },
+    {
+      "code": "38116",
+      "display": "Skin of plantar part of fourth toe",
+      "definition": "Skin of plantar part of fourth toe"
+    },
+    {
+      "code": "38107",
+      "display": "Skin of plantar part of great toe",
+      "definition": "Skin of plantar part of great toe"
+    },
+    {
+      "code": "38110",
+      "display": "Skin of plantar part of second toe",
+      "definition": "Skin of plantar part of second toe"
+    },
+    {
+      "code": "38113",
+      "display": "Skin of plantar part of third toe",
+      "definition": "Skin of plantar part of third toe"
+    },
+    {
+      "code": "61426",
+      "display": "Skin of upper inner quadrant of breast",
+      "definition": "Skin of upper inner quadrant of breast"
+    },
+    {
+      "code": "61439",
+      "display": "Skin of upper outer quadrant of left breast",
+      "definition": "Skin of upper outer quadrant of left breast"
+    },
+    {
+      "code": "312651",
+      "display": "Skin of vermilion proper of lower lip",
+      "definition": "Skin of vermilion proper of lower lip"
+    },
+    {
+      "code": "312647",
+      "display": "Skin of vermilion proper of upper lip",
+      "definition": "Skin of vermilion proper of upper lip"
+    },
+    {
+      "code": "276650",
+      "display": "Arcuate Fasciculus",
+      "definition": "Arcuate Fasciculus"
+    },
+    {
+      "code": "223151",
+      "display": "Subcortical gray matter",
+      "definition": "Subcortical gray matter"
+    },
+    {
+      "code": "17891",
+      "display": "Lumen of gallbladder",
+      "definition": "Lumen of gallbladder"
+    },
+    {
+      "code": "14657",
+      "display": "Wall of gallbladder",
+      "definition": "Wall of gallbladder"
+    },
+    {
+      "code": "323407",
+      "display": "subiliac lymph node",
+      "definition": "subiliac lymph node"
+    },
+    {
+      "code": "12785",
+      "display": "supramammary lymph node",
+      "definition": "supramammary lymph node"
+    },
+    {
+      "code": "54993",
+      "display": "torus of pharyngotympanic tube",
+      "definition": "torus of pharyngotympanic tube"
+    }
+  ],
+  "caseSensitive": true,
+  "experimental": false,
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:{uid}"
+    }
+  ]
+}

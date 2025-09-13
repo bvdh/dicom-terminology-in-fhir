@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiacUltrasoundFetalArrhythmiaMeasurements",
+  "id": "dicom-cid-12313-CardiacUltrasoundFetalArrhythmiaMeasurements",
+  "description": "Cardiac Ultrasound Fetal Arrhythmia Measurements",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12313-CardiacUltrasoundFetalArrhythmiaMeasurements",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1499"
+    }
+  ],
+  "version": "20240920",
+  "title": "Cardiac Ultrasound Fetal Arrhythmia Measurements",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "concept": [
+          {
+            "code": "2:16020",
+            "display": "Atrial Heart Rate"
+          },
+          {
+            "code": "2:16016",
+            "display": "Ventricular Heart Rate"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "131002",
+            "display": "Atrioventricular time interval"
+          },
+          {
+            "code": "131001",
+            "display": "Ventriculoatrial time interval"
+          }
+        ]
+      }
+    ]
+  }
+}

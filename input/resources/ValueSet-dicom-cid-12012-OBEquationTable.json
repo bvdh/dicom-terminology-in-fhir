@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OBEquationTable",
+  "id": "dicom-cid-12012-OBEquationTable",
+  "description": "OB Equation/Table",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12012-OBEquationTable",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.560"
+    }
+  ],
+  "version": "20030130",
+  "title": "OB Equation/Table",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12013-GestationalAgeEquationTable"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12014-OBFetalBodyWeightEquationTable"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12015-FetalGrowthEquationTable"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12016-EstimatedFetalWeightPercentileEquationTable"
+        ]
+      }
+    ]
+  }
+}

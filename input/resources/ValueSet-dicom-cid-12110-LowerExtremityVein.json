@@ -1,0 +1,347 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LowerExtremityVein",
+  "id": "dicom-cid-12110-LowerExtremityVein",
+  "description": "Lower Extremity Vein",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12110-LowerExtremityVein",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.577"
+    }
+  ],
+  "version": "20180605",
+  "title": "Lower Extremity Vein",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "26703007",
+            "display": "Anterior Tibial Vein"
+          },
+          {
+            "code": "714754004",
+            "display": "Lateral calf perforator"
+          },
+          {
+            "code": "397363009",
+            "display": "Common Femoral Vein"
+          },
+          {
+            "code": "46027005",
+            "display": "Common Iliac Vein"
+          },
+          {
+            "code": "63507001",
+            "display": "External Iliac Vein"
+          },
+          {
+            "code": "264481007",
+            "display": "Gastrocnemius vein"
+          },
+          {
+            "code": "397437000",
+            "display": "Giacomini vein"
+          },
+          {
+            "code": "60734001",
+            "display": "Great Saphenous Vein"
+          },
+          {
+            "code": "414369008",
+            "display": "Great Saphenous Vein of Thigh"
+          },
+          {
+            "code": "414368000",
+            "display": "Great Saphenous Vein of Calf"
+          },
+          {
+            "code": "26805005",
+            "display": "Lesser Saphenous Vein"
+          },
+          {
+            "code": "71758008",
+            "display": "Peroneal Vein"
+          },
+          {
+            "code": "56849005",
+            "display": "Popliteal Vein"
+          },
+          {
+            "code": "397435008",
+            "display": "Posterior arch vein"
+          },
+          {
+            "code": "4258007",
+            "display": "Posterior Tibial Vein"
+          },
+          {
+            "code": "23438002",
+            "display": "Profunda Femoris Vein"
+          },
+          {
+            "code": "128587003",
+            "display": "Saphenofemoral Junction"
+          },
+          {
+            "code": "362072009",
+            "display": "Saphenous vein"
+          },
+          {
+            "code": "397427005",
+            "display": "Soleal vein"
+          },
+          {
+            "code": "397364003",
+            "display": "Superficial Femoral Vein"
+          },
+          {
+            "code": "714759009",
+            "display": "Thigh perforator"
+          },
+          {
+            "code": "40300007",
+            "display": "Internal iliac vein"
+          },
+          {
+            "code": "244415001",
+            "display": "Saphenopopliteal junction"
+          },
+          {
+            "code": "128560002",
+            "display": "Hunterian perforating vein"
+          },
+          {
+            "code": "128549006",
+            "display": "Cockett's perforating vein"
+          },
+          {
+            "code": "128548003",
+            "display": "Boyd's perforating vein"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-49630",
+            "display": "Anterior Tibial Vein"
+          },
+          {
+            "code": "T-F6724",
+            "display": "Lateral calf perforator"
+          },
+          {
+            "code": "G-035B",
+            "display": "Common Femoral Vein"
+          },
+          {
+            "code": "T-48920",
+            "display": "Common Iliac Vein"
+          },
+          {
+            "code": "T-48930",
+            "display": "External Iliac Vein"
+          },
+          {
+            "code": "T-4942D",
+            "display": "Gastrocnemius vein"
+          },
+          {
+            "code": "G-036F",
+            "display": "Giacomini vein"
+          },
+          {
+            "code": "T-49530",
+            "display": "Great Saphenous Vein"
+          },
+          {
+            "code": "R-10259",
+            "display": "Great Saphenous Vein of Thigh"
+          },
+          {
+            "code": "R-1025A",
+            "display": "Great Saphenous Vein of Calf"
+          },
+          {
+            "code": "T-49550",
+            "display": "Lesser Saphenous Vein"
+          },
+          {
+            "code": "T-49640",
+            "display": "Peroneal Vein"
+          },
+          {
+            "code": "T-49650",
+            "display": "Popliteal Vein"
+          },
+          {
+            "code": "G-036E",
+            "display": "Posterior arch vein"
+          },
+          {
+            "code": "T-49620",
+            "display": "Posterior Tibial Vein"
+          },
+          {
+            "code": "T-49660",
+            "display": "Profunda Femoris Vein"
+          },
+          {
+            "code": "T-D930A",
+            "display": "Saphenofemoral Junction"
+          },
+          {
+            "code": "T-4940B",
+            "display": "Saphenous vein"
+          },
+          {
+            "code": "G-036B",
+            "display": "Soleal vein"
+          },
+          {
+            "code": "G-035A",
+            "display": "Superficial Femoral Vein"
+          },
+          {
+            "code": "T-F6713",
+            "display": "Thigh perforator"
+          },
+          {
+            "code": "T-48940",
+            "display": "Internal iliac vein"
+          },
+          {
+            "code": "T-4941A",
+            "display": "Saphenopopliteal junction"
+          },
+          {
+            "code": "T-4942A",
+            "display": "Hunterian perforating vein"
+          },
+          {
+            "code": "T-49426",
+            "display": "Cockett's perforating vein"
+          },
+          {
+            "code": "T-49424",
+            "display": "Boyd's perforating vein"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0226833",
+            "display": "Anterior Tibial Vein"
+          },
+          {
+            "code": "C4075130",
+            "display": "Lateral calf perforator"
+          },
+          {
+            "code": "C1275667",
+            "display": "Common Femoral Vein"
+          },
+          {
+            "code": "C0226758",
+            "display": "Common Iliac Vein"
+          },
+          {
+            "code": "C0226761",
+            "display": "External Iliac Vein"
+          },
+          {
+            "code": "C0450291",
+            "display": "Gastrocnemius vein"
+          },
+          {
+            "code": "C1301429",
+            "display": "Giacomini vein"
+          },
+          {
+            "code": "C0392907",
+            "display": "Great Saphenous Vein"
+          },
+          {
+            "code": "C1531999",
+            "display": "Great Saphenous Vein of Thigh"
+          },
+          {
+            "code": "C1531998",
+            "display": "Great Saphenous Vein of Calf"
+          },
+          {
+            "code": "C0226827",
+            "display": "Lesser Saphenous Vein"
+          },
+          {
+            "code": "C0226836",
+            "display": "Peroneal Vein"
+          },
+          {
+            "code": "C0032652",
+            "display": "Popliteal Vein"
+          },
+          {
+            "code": "C1301427",
+            "display": "Posterior arch vein"
+          },
+          {
+            "code": "C0226832",
+            "display": "Posterior Tibial Vein"
+          },
+          {
+            "code": "C0226841",
+            "display": "Profunda Femoris Vein"
+          },
+          {
+            "code": "C0447132",
+            "display": "Saphenofemoral Junction"
+          },
+          {
+            "code": "C0036186",
+            "display": "Saphenous vein"
+          },
+          {
+            "code": "C1301420",
+            "display": "Soleal vein"
+          },
+          {
+            "code": "C1301369",
+            "display": "Superficial Femoral Vein"
+          },
+          {
+            "code": "C4075125",
+            "display": "Thigh perforator"
+          },
+          {
+            "code": "C0226764",
+            "display": "Internal iliac vein"
+          },
+          {
+            "code": "C0447131",
+            "display": "Saphenopopliteal junction"
+          },
+          {
+            "code": "C1267526",
+            "display": "Hunterian perforating vein"
+          },
+          {
+            "code": "C1267523",
+            "display": "Cockett's perforating vein"
+          },
+          {
+            "code": "C1267522",
+            "display": "Boyd's perforating vein"
+          }
+        ]
+      }
+    ]
+  }
+}

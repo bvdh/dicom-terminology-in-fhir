@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiotherapyInterlockResolution",
+  "id": "dicom-cid-9563-RadiotherapyInterlockResolution",
+  "description": "Radiotherapy Interlock Resolution",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9563-RadiotherapyInterlockResolution",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1320"
+    }
+  ],
+  "version": "20220116",
+  "title": "Radiotherapy Interlock Resolution",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130453",
+            "display": "Treatment Terminated"
+          },
+          {
+            "code": "130454",
+            "display": "Interlock Overridden"
+          },
+          {
+            "code": "130455",
+            "display": "Patient Repositioned"
+          },
+          {
+            "code": "130744",
+            "display": "Interlock Resolved"
+          }
+        ]
+      }
+    ]
+  }
+}

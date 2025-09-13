@@ -1,0 +1,227 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "IntracoronaryDevice",
+  "id": "dicom-cid-3411-IntracoronaryDevice",
+  "description": "Intracoronary Device",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3411-IntracoronaryDevice",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.76"
+    }
+  ],
+  "version": "20110609",
+  "title": "Intracoronary Device",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "102319006",
+            "display": "Percutaneous Transluminal Angioplasty Balloon"
+          },
+          {
+            "code": "371794009",
+            "display": "Cutting Balloon Angioplasty (CBA) Device"
+          },
+          {
+            "code": "65818007",
+            "display": "Stent"
+          },
+          {
+            "code": "371796006",
+            "display": "Directional Coronary Atherectomy (DCA) Device"
+          },
+          {
+            "code": "102313007",
+            "display": "Rotational Atherectomy Device"
+          },
+          {
+            "code": "371797002",
+            "display": "Saline Thrombectomy"
+          },
+          {
+            "code": "21870002",
+            "display": "Transluminal Extraction Catheter (TEC)"
+          },
+          {
+            "code": "38586004",
+            "display": "Laser"
+          },
+          {
+            "code": "371795005",
+            "display": "Intravascular Ultrasound (IVUS) Device"
+          },
+          {
+            "code": "371788001",
+            "display": "Intracoronary Doppler guide wire"
+          },
+          {
+            "code": "371789009",
+            "display": "Intracoronary pressure guide wire"
+          },
+          {
+            "code": "228748004",
+            "display": "Brachytherapy Device"
+          },
+          {
+            "code": "371791001",
+            "display": "Radiofrequency Ablation Device"
+          },
+          {
+            "code": "445282004",
+            "display": "Intravascular Optical Coherence Tomography Device"
+          },
+          {
+            "code": "272224001",
+            "display": "Guide Wire"
+          },
+          {
+            "code": "102317008",
+            "display": "Guiding Catheter"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "A-26912",
+            "display": "Percutaneous Transluminal Angioplasty Balloon"
+          },
+          {
+            "code": "R-002F0",
+            "display": "Cutting Balloon Angioplasty (CBA) Device"
+          },
+          {
+            "code": "A-25500",
+            "display": "Stent"
+          },
+          {
+            "code": "R-002FD",
+            "display": "Directional Coronary Atherectomy (DCA) Device"
+          },
+          {
+            "code": "A-25610",
+            "display": "Rotational Atherectomy Device"
+          },
+          {
+            "code": "R-0036F",
+            "display": "Saline Thrombectomy"
+          },
+          {
+            "code": "A-26920",
+            "display": "Transluminal Extraction Catheter (TEC)"
+          },
+          {
+            "code": "A-81080",
+            "display": "Laser"
+          },
+          {
+            "code": "R-00312",
+            "display": "Intravascular Ultrasound (IVUS) Device"
+          },
+          {
+            "code": "R-00310",
+            "display": "Intracoronary Doppler guide wire"
+          },
+          {
+            "code": "R-00311",
+            "display": "Intracoronary pressure guide wire"
+          },
+          {
+            "code": "A-040ED",
+            "display": "Brachytherapy Device"
+          },
+          {
+            "code": "R-00361",
+            "display": "Radiofrequency Ablation Device"
+          },
+          {
+            "code": "A-00D87",
+            "display": "Intravascular Optical Coherence Tomography Device"
+          },
+          {
+            "code": "A-00927",
+            "display": "Guide Wire"
+          },
+          {
+            "code": "A-26802",
+            "display": "Guiding Catheter"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0522648",
+            "display": "Percutaneous Transluminal Angioplasty Balloon"
+          },
+          {
+            "code": "C1269809",
+            "display": "Cutting Balloon Angioplasty (CBA) Device"
+          },
+          {
+            "code": "C0038257",
+            "display": "Stent"
+          },
+          {
+            "code": "C1269811",
+            "display": "Directional Coronary Atherectomy (DCA) Device"
+          },
+          {
+            "code": "C0522643",
+            "display": "Rotational Atherectomy Device"
+          },
+          {
+            "code": "C1299427",
+            "display": "Saline Thrombectomy"
+          },
+          {
+            "code": "C0521199",
+            "display": "Transluminal Extraction Catheter (TEC)"
+          },
+          {
+            "code": "C0458142",
+            "display": "Laser"
+          },
+          {
+            "code": "C1269810",
+            "display": "Intravascular Ultrasound (IVUS) Device"
+          },
+          {
+            "code": "C1269808",
+            "display": "Intracoronary Doppler guide wire"
+          },
+          {
+            "code": "C1299422",
+            "display": "Intracoronary pressure guide wire"
+          },
+          {
+            "code": "C0454156",
+            "display": "Brachytherapy Device"
+          },
+          {
+            "code": "C1299424",
+            "display": "Radiofrequency Ablation Device"
+          },
+          {
+            "code": "C2919367",
+            "display": "Intravascular Optical Coherence Tomography Device"
+          },
+          {
+            "code": "C0181089",
+            "display": "Guide Wire"
+          },
+          {
+            "code": "C0221799",
+            "display": "Guiding Catheter"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SkinDisorder",
+  "id": "dicom-cid-4405-SkinDisorder",
+  "description": "Skin Disorder",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4405-SkinDisorder",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1350"
+    }
+  ],
+  "version": "20231115",
+  "title": "Skin Disorder",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "43982006",
+            "display": "Solar degeneration"
+          },
+          {
+            "code": "254819008",
+            "display": "Atypical mole syndrome"
+          },
+          {
+            "code": "782823001",
+            "display": "Telangiectasia, cutaneous, cancer syndrome, familial"
+          },
+          {
+            "code": "69408002",
+            "display": "Gorlin syndrome"
+          },
+          {
+            "code": "722859001",
+            "display": "PTEN hamartoma tumor syndrome"
+          },
+          {
+            "code": "721904001",
+            "display": "Rombo syndrome"
+          },
+          {
+            "code": "398909004",
+            "display": "Rosacea"
+          },
+          {
+            "code": "43116000",
+            "display": "Eczema"
+          },
+          {
+            "code": "9014002",
+            "display": "Psoriasis"
+          },
+          {
+            "code": "200936003",
+            "display": "Lupus erythematosus"
+          },
+          {
+            "code": "24079001",
+            "display": "Atopic dermatitis"
+          },
+          {
+            "code": "201101007",
+            "display": "Actinic keratosis"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "D0-40100",
+            "display": "Solar degeneration"
+          },
+          {
+            "code": "D0-F1017",
+            "display": "Atypical mole syndrome"
+          },
+          {
+            "code": "D4-01046",
+            "display": "Gorlin syndrome"
+          },
+          {
+            "code": "D0-51006",
+            "display": "Rosacea"
+          },
+          {
+            "code": "D0-10100",
+            "display": "Eczema"
+          },
+          {
+            "code": "D0-22100",
+            "display": "Psoriasis"
+          },
+          {
+            "code": "D1-100FF",
+            "display": "Lupus erythematosus"
+          },
+          {
+            "code": "D0-10130",
+            "display": "Atopic dermatitis"
+          },
+          {
+            "code": "R-F8714",
+            "display": "Actinic keratosis"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0546380",
+            "display": "Solar degeneration"
+          },
+          {
+            "code": "C0013403",
+            "display": "Atypical mole syndrome"
+          },
+          {
+            "code": "C5190630",
+            "display": "Telangiectasia, cutaneous, cancer syndrome, familial"
+          },
+          {
+            "code": "C0004779",
+            "display": "Gorlin syndrome"
+          },
+          {
+            "code": "C1959582",
+            "display": "PTEN hamartoma tumor syndrome"
+          },
+          {
+            "code": "C1867147",
+            "display": "Rombo syndrome"
+          },
+          {
+            "code": "C0035854",
+            "display": "Rosacea"
+          },
+          {
+            "code": "C0013595",
+            "display": "Eczema"
+          },
+          {
+            "code": "C0033860",
+            "display": "Psoriasis"
+          },
+          {
+            "code": "C0409974",
+            "display": "Lupus erythematosus"
+          },
+          {
+            "code": "C0011615",
+            "display": "Atopic dermatitis"
+          },
+          {
+            "code": "C0022602",
+            "display": "Actinic keratosis"
+          }
+        ]
+      }
+    ]
+  }
+}

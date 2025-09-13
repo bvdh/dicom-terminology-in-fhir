@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OphthalmicImageROIMeasurements",
+  "id": "dicom-cid-4291-OphthalmicImageROIMeasurements",
+  "description": "Ophthalmic Image ROI Measurements",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4291-OphthalmicImageROIMeasurements",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1544"
+    }
+  ],
+  "version": "20250707",
+  "title": "Ophthalmic Image ROI Measurements",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "131310",
+            "display": "Geographic atrophy area"
+          }
+        ]
+      }
+    ]
+  }
+}

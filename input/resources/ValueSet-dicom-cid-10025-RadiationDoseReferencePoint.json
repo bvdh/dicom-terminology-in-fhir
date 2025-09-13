@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiationDoseReferencePoint",
+  "id": "dicom-cid-10025-RadiationDoseReferencePoint",
+  "description": "Radiation Dose Reference Point",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10025-RadiationDoseReferencePoint",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1056"
+    }
+  ],
+  "version": "20230121",
+  "title": "Radiation Dose Reference Point",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113860",
+            "display": "15cm from Isocenter toward Source"
+          },
+          {
+            "code": "113861",
+            "display": "30cm in Front of Image Input Surface"
+          },
+          {
+            "code": "113862",
+            "display": "1cm above Tabletop"
+          },
+          {
+            "code": "113863",
+            "display": "30cm above Tabletop"
+          },
+          {
+            "code": "113864",
+            "display": "15cm from Table Centerline"
+          },
+          {
+            "code": "113865",
+            "display": "4.2cm above Breast Support Surface"
+          },
+          {
+            "code": "113941",
+            "display": "In Detector Plane"
+          },
+          {
+            "code": "113964",
+            "display": "At Surface of Patient"
+          },
+          {
+            "code": "113965",
+            "display": "100cm from X-Ray Source"
+          }
+        ]
+      }
+    ]
+  }
+}

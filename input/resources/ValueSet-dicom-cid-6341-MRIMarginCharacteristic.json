@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MRIMarginCharacteristic",
+  "id": "dicom-cid-6341-MRIMarginCharacteristic",
+  "description": "MRI Margin Characteristic",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6341-MRIMarginCharacteristic",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1398"
+    }
+  ],
+  "version": "20210714",
+  "title": "MRI Margin Characteristic",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6342-ProstateMRIMarginCharacteristicFromPIRADS"
+        ]
+      }
+    ]
+  }
+}

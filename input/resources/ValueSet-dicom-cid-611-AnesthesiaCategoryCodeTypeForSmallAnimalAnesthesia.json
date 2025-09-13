@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AnesthesiaCategoryCodeTypeForSmallAnimalAnesthesia",
+  "id": "dicom-cid-611-AnesthesiaCategoryCodeTypeForSmallAnimalAnesthesia",
+  "description": "Anesthesia Category Code Type for Small Animal Anesthesia",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-611-AnesthesiaCategoryCodeTypeForSmallAnimalAnesthesia",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1076"
+    }
+  ],
+  "version": "20151110",
+  "title": "Anesthesia Category Code Type for Small Animal Anesthesia",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-612-AnesthesiaCategoryCodeTypeFromAnesthesiaQualityIni"
+        ]
+      }
+    ]
+  }
+}

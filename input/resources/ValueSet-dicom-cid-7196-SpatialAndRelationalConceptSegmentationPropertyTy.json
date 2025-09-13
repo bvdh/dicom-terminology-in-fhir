@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SpatialAndRelationalConceptSegmentationPropertyType",
+  "id": "dicom-cid-7196-SpatialAndRelationalConceptSegmentationPropertyTy",
+  "description": "Some of the concepts in this Context Group are derived from",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7196-SpatialAndRelationalConceptSegmentationPropertyTy",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1195"
+    }
+  ],
+  "version": "20170914",
+  "title": "Spatial and Relational Concept Segmentation Property Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112082",
+            "display": "Interface"
+          },
+          {
+            "code": "112083",
+            "display": "Line"
+          },
+          {
+            "code": "112084",
+            "display": "Lucency"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7165-AbstractSegmentationType"
+        ]
+      }
+    ]
+  }
+}

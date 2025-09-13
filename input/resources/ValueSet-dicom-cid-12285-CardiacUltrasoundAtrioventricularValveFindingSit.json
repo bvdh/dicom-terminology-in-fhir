@@ -1,0 +1,71 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiacUltrasoundAtrioventricularValveFindingSite",
+  "id": "dicom-cid-12285-CardiacUltrasoundAtrioventricularValveFindingSit",
+  "description": "Cardiac Ultrasound Atrioventricular Valve Finding Site",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12285-CardiacUltrasoundAtrioventricularValveFindingSit",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.865"
+    }
+  ],
+  "version": "20160314",
+  "title": "Cardiac Ultrasound Atrioventricular Valve Finding Site",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "91134007",
+            "display": "Mitral Valve"
+          },
+          {
+            "code": "46030003",
+            "display": "Tricuspid Valve"
+          },
+          {
+            "code": "312522004",
+            "display": "Common non-mitral non-tricuspid Atrioventricular Valve Structure"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-35300",
+            "display": "Mitral Valve"
+          },
+          {
+            "code": "T-35100",
+            "display": "Tricuspid Valve"
+          },
+          {
+            "code": "T-35008",
+            "display": "Common non-mitral non-tricuspid Atrioventricular Valve Structure"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0026264",
+            "display": "Mitral Valve"
+          },
+          {
+            "code": "C0040960",
+            "display": "Tricuspid Valve"
+          },
+          {
+            "code": "C0729875",
+            "display": "Common non-mitral non-tricuspid Atrioventricular Valve Structure"
+          }
+        ]
+      }
+    ]
+  }
+}

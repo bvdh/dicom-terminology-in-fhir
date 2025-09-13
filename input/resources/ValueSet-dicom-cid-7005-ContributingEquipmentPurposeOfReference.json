@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ContributingEquipmentPurposeOfReference",
+  "id": "dicom-cid-7005-ContributingEquipmentPurposeOfReference",
+  "description": "Contributing Equipment Purpose of Reference",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7005-ContributingEquipmentPurposeOfReference",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.486"
+    }
+  ],
+  "version": "20240324",
+  "title": "Contributing Equipment Purpose of Reference",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "109101",
+            "display": "Acquisition Equipment"
+          },
+          {
+            "code": "109102",
+            "display": "Processing Equipment"
+          },
+          {
+            "code": "109103",
+            "display": "Modifying Equipment"
+          },
+          {
+            "code": "109104",
+            "display": "De-identifying Equipment"
+          },
+          {
+            "code": "109105",
+            "display": "Frame Extracting Equipment"
+          },
+          {
+            "code": "109106",
+            "display": "Enhanced Multi-frame Conversion Equipment"
+          },
+          {
+            "code": "MEDIM",
+            "display": "Portable Media Importer Equipment"
+          },
+          {
+            "code": "FILMD",
+            "display": "Film Digitizer"
+          },
+          {
+            "code": "DOCD",
+            "display": "Document Digitizer Equipment"
+          },
+          {
+            "code": "VIDD",
+            "display": "Video Tape Digitizer Equipment"
+          },
+          {
+            "code": "109100",
+            "display": "Synthesizing Equipment"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RelatedSeriesPurposeOfReference",
+  "id": "dicom-cid-7210-RelatedSeriesPurposeOfReference",
+  "description": "Related Series Purpose of Reference",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7210-RelatedSeriesPurposeOfReference",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.512"
+    }
+  ],
+  "version": "20140627",
+  "title": "Related Series Purpose of Reference",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122400",
+            "display": "Simultaneously Acquired"
+          },
+          {
+            "code": "122401",
+            "display": "Same Anatomy"
+          },
+          {
+            "code": "122402",
+            "display": "Same Indication"
+          },
+          {
+            "code": "122403",
+            "display": "For Attenuation Correction"
+          },
+          {
+            "code": "121323",
+            "display": "Source series for image processing operation"
+          }
+        ]
+      }
+    ]
+  }
+}

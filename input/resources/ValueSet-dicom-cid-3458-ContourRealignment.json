@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ContourRealignment",
+  "id": "dicom-cid-3458-ContourRealignment",
+  "description": "Contour Realignment",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3458-ContourRealignment",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.103"
+    }
+  ],
+  "version": "20040614",
+  "title": "Contour Realignment",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122475",
+            "display": "Center of Gravity"
+          },
+          {
+            "code": "122476",
+            "display": "Long Axis Based"
+          },
+          {
+            "code": "122477",
+            "display": "No Realignment"
+          }
+        ]
+      }
+    ]
+  }
+}

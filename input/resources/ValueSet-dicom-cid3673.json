@@ -1,0 +1,9 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid3673",
+  "id": "dicom-cid3673",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid3673",
+  "version": "None",
+  "title": "Diagnosis (Retired)"
+}

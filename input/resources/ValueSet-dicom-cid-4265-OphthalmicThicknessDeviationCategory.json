@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OphthalmicThicknessDeviationCategory",
+  "id": "dicom-cid-4265-OphthalmicThicknessDeviationCategory",
+  "description": "Ophthalmic Thickness Deviation Category",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4265-OphthalmicThicknessDeviationCategory",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.941"
+    }
+  ],
+  "version": "20110825",
+  "title": "Ophthalmic Thickness Deviation Category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111935",
+            "display": "p>5%"
+          },
+          {
+            "code": "111936",
+            "display": "p<5%"
+          },
+          {
+            "code": "111937",
+            "display": "p<2%"
+          },
+          {
+            "code": "111938",
+            "display": "p<1%"
+          },
+          {
+            "code": "111939",
+            "display": "p<0.5%"
+          }
+        ]
+      }
+    ]
+  }
+}

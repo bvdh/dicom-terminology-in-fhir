@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "WallMotionScoringScheme",
+  "id": "dicom-cid-12238-WallMotionScoringScheme",
+  "description": "Wall Motion Scoring Scheme",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12238-WallMotionScoringScheme",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.629"
+    }
+  ],
+  "version": "20050321",
+  "title": "Wall Motion Scoring Scheme",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "125223",
+            "display": "4 Point Segment Finding Scale"
+          },
+          {
+            "code": "125224",
+            "display": "5 Point Segment Finding Scale"
+          },
+          {
+            "code": "125225",
+            "display": "5 Point Segment Finding Scale With Graded Hypokinesis"
+          }
+        ]
+      }
+    ]
+  }
+}

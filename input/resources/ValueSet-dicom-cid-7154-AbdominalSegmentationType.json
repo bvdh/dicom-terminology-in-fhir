@@ -1,0 +1,305 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AbdominalSegmentationType",
+  "id": "dicom-cid-7154-AbdominalSegmentationType",
+  "description": "Abdominal Segmentation Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7154-AbdominalSegmentationType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.500"
+    }
+  ],
+  "version": "20220922",
+  "title": "Abdominal Segmentation Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "818981001",
+            "display": "Abdomen"
+          },
+          {
+            "code": "818987002",
+            "display": "Abdominopelvic cavity"
+          },
+          {
+            "code": "1142228004",
+            "display": "Abdominal wall muscle"
+          },
+          {
+            "code": "23451007",
+            "display": "Adrenal gland"
+          },
+          {
+            "code": "7832008",
+            "display": "Abdominal aorta"
+          },
+          {
+            "code": "28273000",
+            "display": "Bile Duct"
+          },
+          {
+            "code": "34707002",
+            "display": "Biliary tract"
+          },
+          {
+            "code": "28231008",
+            "display": "Gallbladder"
+          },
+          {
+            "code": "64131007",
+            "display": "Inferior vena cava"
+          },
+          {
+            "code": "64033007",
+            "display": "Kidney"
+          },
+          {
+            "code": "10200004",
+            "display": "Liver"
+          },
+          {
+            "code": "27398004",
+            "display": "Omentum"
+          },
+          {
+            "code": "15776009",
+            "display": "Pancreas"
+          },
+          {
+            "code": "69930009",
+            "display": "Pancreatic duct"
+          },
+          {
+            "code": "110621006",
+            "display": "Pancreatic duct and bile duct systems"
+          },
+          {
+            "code": "83670000",
+            "display": "Peritoneal cavity"
+          },
+          {
+            "code": "15425007",
+            "display": "Peritioneum"
+          },
+          {
+            "code": "82849001",
+            "display": "Retroperitoneal space"
+          },
+          {
+            "code": "75093004",
+            "display": "Skin of abdomen"
+          },
+          {
+            "code": "30315005",
+            "display": "Small Intestine"
+          },
+          {
+            "code": "78961009",
+            "display": "Spleen"
+          },
+          {
+            "code": "122489005",
+            "display": "Urinary system"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C5546815",
+            "display": "Abdominal wall muscle"
+          },
+          {
+            "code": "C0001625",
+            "display": "Adrenal gland"
+          },
+          {
+            "code": "C0003484",
+            "display": "Abdominal aorta"
+          },
+          {
+            "code": "C0005400",
+            "display": "Bile Duct"
+          },
+          {
+            "code": "C0005423",
+            "display": "Biliary tract"
+          },
+          {
+            "code": "C0016976",
+            "display": "Gallbladder"
+          },
+          {
+            "code": "C0042458",
+            "display": "Inferior vena cava"
+          },
+          {
+            "code": "C0022646",
+            "display": "Kidney"
+          },
+          {
+            "code": "C0023884",
+            "display": "Liver"
+          },
+          {
+            "code": "C0736580",
+            "display": "Lumen of gallbladder"
+          },
+          {
+            "code": "C0028977",
+            "display": "Omentum"
+          },
+          {
+            "code": "C0030274",
+            "display": "Pancreas"
+          },
+          {
+            "code": "C0030288",
+            "display": "Pancreatic duct"
+          },
+          {
+            "code": "C1267614",
+            "display": "Pancreatic duct and bile duct systems"
+          },
+          {
+            "code": "C1704247",
+            "display": "Peritoneal cavity"
+          },
+          {
+            "code": "C0031153",
+            "display": "Peritioneum"
+          },
+          {
+            "code": "C0035359",
+            "display": "Retroperitoneal space"
+          },
+          {
+            "code": "C0222166",
+            "display": "Skin of abdomen"
+          },
+          {
+            "code": "C0021852",
+            "display": "Small Intestine"
+          },
+          {
+            "code": "C0037993",
+            "display": "Spleen"
+          },
+          {
+            "code": "C1508753",
+            "display": "Urinary system"
+          },
+          {
+            "code": "C0734014",
+            "display": "Wall of gallbladder"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-B3000",
+            "display": "Adrenal gland"
+          },
+          {
+            "code": "T-42500",
+            "display": "Abdominal aorta"
+          },
+          {
+            "code": "T-60610",
+            "display": "Bile Duct"
+          },
+          {
+            "code": "T-60600",
+            "display": "Biliary tract"
+          },
+          {
+            "code": "T-63000",
+            "display": "Gallbladder"
+          },
+          {
+            "code": "T-48710",
+            "display": "Inferior vena cava"
+          },
+          {
+            "code": "T-71000",
+            "display": "Kidney"
+          },
+          {
+            "code": "T-62000",
+            "display": "Liver"
+          },
+          {
+            "code": "T-D4600",
+            "display": "Omentum"
+          },
+          {
+            "code": "T-65000",
+            "display": "Pancreas"
+          },
+          {
+            "code": "T-65010",
+            "display": "Pancreatic duct"
+          },
+          {
+            "code": "T-65600",
+            "display": "Pancreatic duct and bile duct systems"
+          },
+          {
+            "code": "T-D4425",
+            "display": "Peritoneal cavity"
+          },
+          {
+            "code": "T-D4400",
+            "display": "Peritioneum"
+          },
+          {
+            "code": "T-D4900",
+            "display": "Retroperitoneal space"
+          },
+          {
+            "code": "T-02480",
+            "display": "Skin of abdomen"
+          },
+          {
+            "code": "T-58000",
+            "display": "Small Intestine"
+          },
+          {
+            "code": "T-C3000",
+            "display": "Spleen"
+          },
+          {
+            "code": "T-70001",
+            "display": "Urinary system"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-FMA",
+        "concept": [
+          {
+            "code": "17891",
+            "display": "Lumen of gallbladder"
+          },
+          {
+            "code": "14657",
+            "display": "Wall of gallbladder"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7171-LiverSegmentationType"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DICOMDevice",
+  "id": "dicom-cid-30-DICOMDevice",
+  "description": "DICOM Device",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-30-DICOMDevice",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.20"
+    }
+  ],
+  "version": "20190327",
+  "title": "DICOM Device",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-29-AcquisitionModality"
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "ARCHIVE",
+            "display": "Archive"
+          },
+          {
+            "code": "CAD",
+            "display": "Computer Assisted Detection/Diagnosis"
+          },
+          {
+            "code": "CAPTURE",
+            "display": "Image Capture"
+          },
+          {
+            "code": "COMP",
+            "display": "Computation Server"
+          },
+          {
+            "code": "DSS",
+            "display": "Department System Scheduler"
+          },
+          {
+            "code": "FILMD",
+            "display": "Film Digitizer"
+          },
+          {
+            "code": "LOG",
+            "display": "Procedure Logging"
+          },
+          {
+            "code": "M3D",
+            "display": "3D Manufacturing Modeling System"
+          },
+          {
+            "code": "MCD",
+            "display": "Media Creation Device"
+          },
+          {
+            "code": "PRINT",
+            "display": "Hard Copy Print Server"
+          },
+          {
+            "code": "RT",
+            "display": "Radiation Therapy Device"
+          },
+          {
+            "code": "STAIN",
+            "display": "Automated Slide Stainer"
+          },
+          {
+            "code": "WSD",
+            "display": "Workstation"
+          }
+        ]
+      }
+    ]
+  }
+}

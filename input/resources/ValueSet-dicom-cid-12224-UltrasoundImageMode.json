@@ -1,0 +1,168 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "UltrasoundImageMode",
+  "id": "dicom-cid-12224-UltrasoundImageMode",
+  "description": "Ultrasound Image Mode",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12224-UltrasoundImageMode",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.616"
+    }
+  ],
+  "version": "20211112",
+  "title": "Ultrasound Image Mode",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "399064001",
+            "display": "2D mode"
+          },
+          {
+            "code": "261197005",
+            "display": "Doppler Color Flow"
+          },
+          {
+            "code": "399155008",
+            "display": "M mode"
+          },
+          {
+            "code": "261199008",
+            "display": "Doppler Pulsed"
+          },
+          {
+            "code": "261198000",
+            "display": "Doppler Continuous Wave"
+          },
+          {
+            "code": "425704008",
+            "display": "Power Doppler"
+          },
+          {
+            "code": "426865009",
+            "display": "3D mode"
+          },
+          {
+            "code": "439858009",
+            "display": "Tissue Doppler Imaging"
+          },
+          {
+            "code": "399009009",
+            "display": "B mode"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-03A2",
+            "display": "2D mode"
+          },
+          {
+            "code": "R-409E2",
+            "display": "Doppler Color Flow"
+          },
+          {
+            "code": "G-0394",
+            "display": "M mode"
+          },
+          {
+            "code": "R-409E4",
+            "display": "Doppler Pulsed"
+          },
+          {
+            "code": "R-409E3",
+            "display": "Doppler Continuous Wave"
+          },
+          {
+            "code": "P0-02241",
+            "display": "Power Doppler"
+          },
+          {
+            "code": "P0-02242",
+            "display": "3D mode"
+          },
+          {
+            "code": "P5-B0128",
+            "display": "Tissue Doppler Imaging"
+          },
+          {
+            "code": "G-03AC",
+            "display": "B mode"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1302189",
+            "display": "2D mode"
+          },
+          {
+            "code": "C0475380",
+            "display": "Doppler Color Flow"
+          },
+          {
+            "code": "C1302229",
+            "display": "M mode"
+          },
+          {
+            "code": "C0242846",
+            "display": "Doppler Pulsed"
+          },
+          {
+            "code": "C0444723",
+            "display": "Doppler Continuous Wave"
+          },
+          {
+            "code": "C1960437",
+            "display": "Power Doppler"
+          },
+          {
+            "code": "C1960438",
+            "display": "3D mode"
+          },
+          {
+            "code": "C2585212",
+            "display": "Tissue Doppler Imaging"
+          },
+          {
+            "code": "C1302166",
+            "display": "B mode"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130616",
+            "display": "Point Shear Wave Elastography"
+          },
+          {
+            "code": "130609",
+            "display": "2D Shear Wave Elastography"
+          },
+          {
+            "code": "130610",
+            "display": "3D Shear Wave Elastography"
+          },
+          {
+            "code": "130679",
+            "display": "2D Speckle Tracking"
+          },
+          {
+            "code": "130680",
+            "display": "3D Speckle Tracking"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MicroscopyMeasurementType",
+  "id": "dicom-cid-8136-MicroscopyMeasurementType",
+  "description": "Microscopy Measurement Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-8136-MicroscopyMeasurementType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1366"
+    }
+  ],
+  "version": "20210712",
+  "title": "Microscopy Measurement Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "42798000",
+            "display": "Area"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-A166",
+            "display": "Area"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0205146",
+            "display": "Area"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "BolusShapingCurve",
+  "id": "dicom-cid-73-BolusShapingCurve",
+  "description": "Bolus Shaping Curve",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-73-BolusShapingCurve",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1263"
+    }
+  ],
+  "version": "20181115",
+  "title": "Bolus Shaping Curve",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130252",
+            "display": "Negative exponential"
+          },
+          {
+            "code": "130253",
+            "display": "Linear Curve"
+          }
+        ]
+      }
+    ]
+  }
+}

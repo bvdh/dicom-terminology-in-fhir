@@ -1,0 +1,755 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "fragment",
+  "name": "IBSICodeSystem",
+  "id": "dicom-codesystem-IBSI",
+  "title": "IBSI",
+  "description": "Image Biomarker Standardisation Initiative",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-IBSI",
+  "concept": [
+    {
+      "code": "TU9B",
+      "display": "Joint Entropy of GLCM",
+      "definition": "Joint Entropy of GLCM"
+    },
+    {
+      "code": "WF0Z",
+      "display": "Inverse Difference Moment of GLCM",
+      "definition": "Inverse Difference Moment of GLCM"
+    },
+    {
+      "code": "ACUI",
+      "display": "Contrast of GLCM",
+      "definition": "Contrast of GLCM"
+    },
+    {
+      "code": "8S9J",
+      "display": "Dissimilarity of GLCM",
+      "definition": "Dissimilarity of GLCM"
+    },
+    {
+      "code": "8ZQL",
+      "display": "Angular Second Moment of GLCM",
+      "definition": "Angular Second Moment of GLCM"
+    },
+    {
+      "code": "NI2N",
+      "display": "Correlation of GLCM",
+      "definition": "Correlation of GLCM"
+    },
+    {
+      "code": "GYBY",
+      "display": "Joint Maximum of GLCM",
+      "definition": "Joint Maximum of GLCM"
+    },
+    {
+      "code": "60VM",
+      "display": "Joint Average of GLCM",
+      "definition": "Joint Average of GLCM"
+    },
+    {
+      "code": "UR99",
+      "display": "Joint Variance of GLCM",
+      "definition": "Joint Variance of GLCM"
+    },
+    {
+      "code": "TF7R",
+      "display": "Difference Average of GLCM",
+      "definition": "Difference Average of GLCM"
+    },
+    {
+      "code": "D3YU",
+      "display": "Difference Variance of GLCM",
+      "definition": "Difference Variance of GLCM"
+    },
+    {
+      "code": "NTRS",
+      "display": "Difference Entropy of GLCM",
+      "definition": "Difference Entropy of GLCM"
+    },
+    {
+      "code": "ZGXS",
+      "display": "Sum Average of GLCM",
+      "definition": "Sum Average of GLCM"
+    },
+    {
+      "code": "OEEB",
+      "display": "Sum Variance of GLCM",
+      "definition": "Sum Variance of GLCM"
+    },
+    {
+      "code": "P6QZ",
+      "display": "Sum Entropy of GLCM",
+      "definition": "Sum Entropy of GLCM"
+    },
+    {
+      "code": "IB1Z",
+      "display": "Inverse Difference of GLCM",
+      "definition": "Inverse Difference of GLCM"
+    },
+    {
+      "code": "NDRX",
+      "display": "Normalized Inverse Difference of GLCM",
+      "definition": "Normalized Inverse Difference of GLCM"
+    },
+    {
+      "code": "1QCO",
+      "display": "Normalized Inverse Difference Moment of GLCM",
+      "definition": "Normalized Inverse Difference Moment of GLCM"
+    },
+    {
+      "code": "E8JP",
+      "display": "Inverse Variance of GLCM",
+      "definition": "Inverse Variance of GLCM"
+    },
+    {
+      "code": "QWB0",
+      "display": "Autocorrelation of GLCM",
+      "definition": "Autocorrelation of GLCM"
+    },
+    {
+      "code": "DG8W",
+      "display": "Cluster Tendency of GLCM",
+      "definition": "Cluster Tendency of GLCM"
+    },
+    {
+      "code": "7NFM",
+      "display": "Cluster Shade of GLCM",
+      "definition": "Cluster Shade of GLCM"
+    },
+    {
+      "code": "AE86",
+      "display": "Cluster Prominence of GLCM",
+      "definition": "Cluster Prominence of GLCM"
+    },
+    {
+      "code": "R8DG",
+      "display": "First Measure of Information Correlation of GLCM",
+      "definition": "First Measure of Information Correlation of GLCM"
+    },
+    {
+      "code": "JN9H",
+      "display": "Second Measure of Information Correlation of GLCM",
+      "definition": "Second Measure of Information Correlation of GLCM"
+    },
+    {
+      "code": "L0JK",
+      "display": "Maximum 3D Diameter of a Mesh",
+      "definition": "Maximum 3D Diameter of a Mesh"
+    },
+    {
+      "code": "TDIC",
+      "display": "Major Axis in 3D Length",
+      "definition": "Major Axis in 3D Length"
+    },
+    {
+      "code": "P9VJ",
+      "display": "Minor Axis in 3D Length",
+      "definition": "Minor Axis in 3D Length"
+    },
+    {
+      "code": "7J51",
+      "display": "Least Axis in 3D Length",
+      "definition": "Least Axis in 3D Length"
+    },
+    {
+      "code": "C0JK",
+      "display": "Surface Area of Mesh",
+      "definition": "Surface Area of Mesh"
+    },
+    {
+      "code": "RNU0",
+      "display": "Volume of Mesh",
+      "definition": "Volume of Mesh"
+    },
+    {
+      "code": "YEKZ",
+      "display": "Volume from Voxel Summation",
+      "definition": "Volume from Voxel Summation"
+    },
+    {
+      "code": "22OV",
+      "display": "Short Runs Emphasis",
+      "definition": "Short Runs Emphasis"
+    },
+    {
+      "code": "W4KF",
+      "display": "Long Runs Emphasis",
+      "definition": "Long Runs Emphasis"
+    },
+    {
+      "code": "V3SW",
+      "display": "Low Gray Level Run Emphasis",
+      "definition": "Low Gray Level Run Emphasis"
+    },
+    {
+      "code": "G3QZ",
+      "display": "High Gray Level Run Emphasis",
+      "definition": "High Gray Level Run Emphasis"
+    },
+    {
+      "code": "HTZT",
+      "display": "Short Run Low Gray Level Emphasis",
+      "definition": "Short Run Low Gray Level Emphasis"
+    },
+    {
+      "code": "GD3A",
+      "display": "Short Run High Gray Level Emphasis",
+      "definition": "Short Run High Gray Level Emphasis"
+    },
+    {
+      "code": "IVPO",
+      "display": "Long Run Low Gray Level Emphasis",
+      "definition": "Long Run Low Gray Level Emphasis"
+    },
+    {
+      "code": "3KUM",
+      "display": "Long Run High Gray Level Emphasis",
+      "definition": "Long Run High Gray Level Emphasis"
+    },
+    {
+      "code": "R5YN",
+      "display": "Gray Level Nonuniformity in Runs",
+      "definition": "Gray Level Nonuniformity in Runs"
+    },
+    {
+      "code": "OVBL",
+      "display": "Normalized Gray Level Nonuniformity in Runs",
+      "definition": "Normalized Gray Level Nonuniformity in Runs"
+    },
+    {
+      "code": "W92Y",
+      "display": "Run Length Nonuniformity",
+      "definition": "Run Length Nonuniformity"
+    },
+    {
+      "code": "IC23",
+      "display": "Normalized Run Length Nonuniformity",
+      "definition": "Normalized Run Length Nonuniformity"
+    },
+    {
+      "code": "9ZK5",
+      "display": "Run Percentage",
+      "definition": "Run Percentage"
+    },
+    {
+      "code": "8CE5",
+      "display": "Gray Level Variance in Runs",
+      "definition": "Gray Level Variance in Runs"
+    },
+    {
+      "code": "SXLW",
+      "display": "Run Length Variance",
+      "definition": "Run Length Variance"
+    },
+    {
+      "code": "HJ9O",
+      "display": "Run Entropy",
+      "definition": "Run Entropy"
+    },
+    {
+      "code": "5QRC",
+      "display": "Small Zone Emphasis",
+      "definition": "Small Zone Emphasis"
+    },
+    {
+      "code": "48P8",
+      "display": "Large Zone Emphasis",
+      "definition": "Large Zone Emphasis"
+    },
+    {
+      "code": "XMSY",
+      "display": "Low Gray Level Zone Emphasis",
+      "definition": "Low Gray Level Zone Emphasis"
+    },
+    {
+      "code": "5GN9",
+      "display": "High Gray Level Zone Emphasis",
+      "definition": "High Gray Level Zone Emphasis"
+    },
+    {
+      "code": "5RAI",
+      "display": "Small Zone Low Gray Level Emphasis",
+      "definition": "Small Zone Low Gray Level Emphasis"
+    },
+    {
+      "code": "HW1V",
+      "display": "Small Zone High Gray Level Emphasis",
+      "definition": "Small Zone High Gray Level Emphasis"
+    },
+    {
+      "code": "YH51",
+      "display": "Large Zone Low Gray Level Emphasis",
+      "definition": "Large Zone Low Gray Level Emphasis"
+    },
+    {
+      "code": "J17V",
+      "display": "Large Zone High Gray Level Emphasis",
+      "definition": "Large Zone High Gray Level Emphasis"
+    },
+    {
+      "code": "JNSA",
+      "display": "Gray Level Nonuniformity of Size Zone Counts",
+      "definition": "Gray Level Nonuniformity of Size Zone Counts"
+    },
+    {
+      "code": "Y1RO",
+      "display": "Normalized Gray Level Nonuniformity of Size Zone Counts",
+      "definition": "Normalized Gray Level Nonuniformity of Size Zone Counts"
+    },
+    {
+      "code": "4JP3",
+      "display": "Zone Size Nonuniformity",
+      "definition": "Zone Size Nonuniformity"
+    },
+    {
+      "code": "VB3A",
+      "display": "Normalized Zone Size Nonuniformity",
+      "definition": "Normalized Zone Size Nonuniformity"
+    },
+    {
+      "code": "P30P",
+      "display": "Size Zone Percentage",
+      "definition": "Size Zone Percentage"
+    },
+    {
+      "code": "BYLV",
+      "display": "Gray Level Variance in Size Zones",
+      "definition": "Gray Level Variance in Size Zones"
+    },
+    {
+      "code": "3NSA",
+      "display": "Zone Size Variance",
+      "definition": "Zone Size Variance"
+    },
+    {
+      "code": "GU8N",
+      "display": "Zone Size Entropy",
+      "definition": "Zone Size Entropy"
+    },
+    {
+      "code": "2PR5",
+      "display": "Surface to Volume Ratio",
+      "definition": "Surface to Volume Ratio"
+    },
+    {
+      "code": "SKGS",
+      "display": "Compactness 1",
+      "definition": "Compactness 1"
+    },
+    {
+      "code": "BQWJ",
+      "display": "Compactness 2",
+      "definition": "Compactness 2"
+    },
+    {
+      "code": "KRCK",
+      "display": "Spherical Disproportion",
+      "definition": "Spherical Disproportion"
+    },
+    {
+      "code": "QCFX",
+      "display": "Sphericity",
+      "definition": "Sphericity"
+    },
+    {
+      "code": "25C7",
+      "display": "Asphericity",
+      "definition": "Asphericity"
+    },
+    {
+      "code": "KLMA",
+      "display": "Centre of Mass Shift",
+      "definition": "Centre of Mass Shift"
+    },
+    {
+      "code": "Q3CK",
+      "display": "Elongation",
+      "definition": "Elongation"
+    },
+    {
+      "code": "N17B",
+      "display": "Flatness",
+      "definition": "Flatness"
+    },
+    {
+      "code": "PBX1",
+      "display": "Volume Density in Frame of Reference Axis Aligned Bounding Box",
+      "definition": "Volume Density in Frame of Reference Axis Aligned Bounding Box"
+    },
+    {
+      "code": "R59B",
+      "display": "Area Density in Frame of Reference Axis Aligned Bounding Box",
+      "definition": "Area Density in Frame of Reference Axis Aligned Bounding Box"
+    },
+    {
+      "code": "ZH1A",
+      "display": "Volume Density in Oriented Minimum Bounding Box",
+      "definition": "Volume Density in Oriented Minimum Bounding Box"
+    },
+    {
+      "code": "IQYR",
+      "display": "Area Density in Oriented Minimum Bounding Box",
+      "definition": "Area Density in Oriented Minimum Bounding Box"
+    },
+    {
+      "code": "6BDE",
+      "display": "Volume Density in Approximate Enclosing Ellipsoid",
+      "definition": "Volume Density in Approximate Enclosing Ellipsoid"
+    },
+    {
+      "code": "RDD2",
+      "display": "Area Density in Approximate Enclosing Ellipsoid",
+      "definition": "Area Density in Approximate Enclosing Ellipsoid"
+    },
+    {
+      "code": "SWZ1",
+      "display": "Volume Density in Minimum Volume Enclosing Ellipsoid",
+      "definition": "Volume Density in Minimum Volume Enclosing Ellipsoid"
+    },
+    {
+      "code": "BRI8",
+      "display": "Area Density in Minimum Volume Enclosing Ellipsoid",
+      "definition": "Area Density in Minimum Volume Enclosing Ellipsoid"
+    },
+    {
+      "code": "R3ER",
+      "display": "Volume Density in Convex Hull",
+      "definition": "Volume Density in Convex Hull"
+    },
+    {
+      "code": "7T7F",
+      "display": "Area Density in Convex Hull",
+      "definition": "Area Density in Convex Hull"
+    },
+    {
+      "code": "99N0",
+      "display": "Integrated Intensity",
+      "definition": "Integrated Intensity"
+    },
+    {
+      "code": "N365",
+      "display": "Moran's I Index",
+      "definition": "Moran's I Index"
+    },
+    {
+      "code": "NPT7",
+      "display": "Geary's C Measure",
+      "definition": "Geary's C Measure"
+    },
+    {
+      "code": "X6K6",
+      "display": "Intensity Histogram Mean",
+      "definition": "Intensity Histogram Mean"
+    },
+    {
+      "code": "CH89",
+      "display": "Intensity Histogram Variance",
+      "definition": "Intensity Histogram Variance"
+    },
+    {
+      "code": "88K1",
+      "display": "Intensity Histogram Skewness",
+      "definition": "Intensity Histogram Skewness"
+    },
+    {
+      "code": "C3I7",
+      "display": "Intensity Histogram Kurtosis",
+      "definition": "Intensity Histogram Kurtosis"
+    },
+    {
+      "code": "WIFQ",
+      "display": "Intensity Histogram Median",
+      "definition": "Intensity Histogram Median"
+    },
+    {
+      "code": "1PR8",
+      "display": "Intensity Histogram Minimum Gray Level",
+      "definition": "Intensity Histogram Minimum Gray Level"
+    },
+    {
+      "code": "GPMT",
+      "display": "Intensity Histogram 10th Percentile",
+      "definition": "Intensity Histogram 10th Percentile"
+    },
+    {
+      "code": "OZ0C",
+      "display": "Intensity Histogram 90th Percentile",
+      "definition": "Intensity Histogram 90th Percentile"
+    },
+    {
+      "code": "3NCY",
+      "display": "Intensity Histogram Maximum Gray Level",
+      "definition": "Intensity Histogram Maximum Gray Level"
+    },
+    {
+      "code": "AMMC",
+      "display": "Intensity Histogram Mode",
+      "definition": "Intensity Histogram Mode"
+    },
+    {
+      "code": "WR0O",
+      "display": "Intensity Histogram Interquartile Range",
+      "definition": "Intensity Histogram Interquartile Range"
+    },
+    {
+      "code": "5Z3W",
+      "display": "Intensity Histogram Range",
+      "definition": "Intensity Histogram Range"
+    },
+    {
+      "code": "D2ZX",
+      "display": "Intensity Histogram Mean Absolute Deviation",
+      "definition": "Intensity Histogram Mean Absolute Deviation"
+    },
+    {
+      "code": "WRZB",
+      "display": "Intensity Histogram Robust Mean Absolute Deviation",
+      "definition": "Intensity Histogram Robust Mean Absolute Deviation"
+    },
+    {
+      "code": "4RNL",
+      "display": "Intensity Histogram Median Absolute Deviation",
+      "definition": "Intensity Histogram Median Absolute Deviation"
+    },
+    {
+      "code": "CWYJ",
+      "display": "Intensity Histogram Coefficient of Variation",
+      "definition": "Intensity Histogram Coefficient of Variation"
+    },
+    {
+      "code": "SLWD",
+      "display": "Intensity Histogram Quartile Coefficient of Dispersion",
+      "definition": "Intensity Histogram Quartile Coefficient of Dispersion"
+    },
+    {
+      "code": "TLU2",
+      "display": "Intensity Histogram Entropy",
+      "definition": "Intensity Histogram Entropy"
+    },
+    {
+      "code": "BJ5W",
+      "display": "Intensity Histogram Uniformity",
+      "definition": "Intensity Histogram Uniformity"
+    },
+    {
+      "code": "12CE",
+      "display": "Intensity Histogram Maximum Gradient",
+      "definition": "Intensity Histogram Maximum Gradient"
+    },
+    {
+      "code": "8E6O",
+      "display": "Intensity Histogram Maximum Gradient Gray Level",
+      "definition": "Intensity Histogram Maximum Gradient Gray Level"
+    },
+    {
+      "code": "VQB3",
+      "display": "Intensity Histogram Minimum Gradient",
+      "definition": "Intensity Histogram Minimum Gradient"
+    },
+    {
+      "code": "RHQZ",
+      "display": "Intensity Histogram Minimum Gradient Gray Level",
+      "definition": "Intensity Histogram Minimum Gradient Gray Level"
+    },
+    {
+      "code": "0GBI",
+      "display": "Small Distance Emphasis",
+      "definition": "Small Distance Emphasis"
+    },
+    {
+      "code": "MB4I",
+      "display": "Large Distance Emphasis",
+      "definition": "Large Distance Emphasis"
+    },
+    {
+      "code": "S1RA",
+      "display": "Low Grey Level Zone Emphasis",
+      "definition": "Low Grey Level Zone Emphasis"
+    },
+    {
+      "code": "K26C",
+      "display": "High Grey Level Zone Emphasis",
+      "definition": "High Grey Level Zone Emphasis"
+    },
+    {
+      "code": "RUVG",
+      "display": "Small Distance Low Grey Level Emphasis",
+      "definition": "Small Distance Low Grey Level Emphasis"
+    },
+    {
+      "code": "DKNJ",
+      "display": "Small Distance High Grey Level Emphasis",
+      "definition": "Small Distance High Grey Level Emphasis"
+    },
+    {
+      "code": "A7WM",
+      "display": "Large Distance Low Grey Level Emphasis",
+      "definition": "Large Distance Low Grey Level Emphasis"
+    },
+    {
+      "code": "KLTH",
+      "display": "Large Distance High Grey Level Emphasis",
+      "definition": "Large Distance High Grey Level Emphasis"
+    },
+    {
+      "code": "VFT7",
+      "display": "Grey Level Non-uniformity of Distance Zone Counts",
+      "definition": "Grey Level Non-uniformity of Distance Zone Counts"
+    },
+    {
+      "code": "7HP3",
+      "display": "Normalized Grey Level Non-uniformity of Distance Zone Counts",
+      "definition": "Normalized Grey Level Non-uniformity of Distance Zone Counts"
+    },
+    {
+      "code": "V294",
+      "display": "Zone Distance Non-uniformity",
+      "definition": "Zone Distance Non-uniformity"
+    },
+    {
+      "code": "IATH",
+      "display": "Normalized Zone Distance Non-uniformity",
+      "definition": "Normalized Zone Distance Non-uniformity"
+    },
+    {
+      "code": "VIWW",
+      "display": "Distance Zone Percentage",
+      "definition": "Distance Zone Percentage"
+    },
+    {
+      "code": "QK93",
+      "display": "Grey Level Variance in Distance Zones",
+      "definition": "Grey Level Variance in Distance Zones"
+    },
+    {
+      "code": "7WT1",
+      "display": "Zone Distance Variance",
+      "definition": "Zone Distance Variance"
+    },
+    {
+      "code": "GBDU",
+      "display": "Zone Distance Entropy",
+      "definition": "Zone Distance Entropy"
+    },
+    {
+      "code": "QCDE",
+      "display": "Coarseness of NGTDM",
+      "definition": "Coarseness of NGTDM"
+    },
+    {
+      "code": "65HE",
+      "display": "Contrast of NGTDM",
+      "definition": "Contrast of NGTDM"
+    },
+    {
+      "code": "NQ30",
+      "display": "Busyness of NGTDM",
+      "definition": "Busyness of NGTDM"
+    },
+    {
+      "code": "HDEZ",
+      "display": "Complexity of NGTDM",
+      "definition": "Complexity of NGTDM"
+    },
+    {
+      "code": "1X9X",
+      "display": "Strength of NGTDM",
+      "definition": "Strength of NGTDM"
+    },
+    {
+      "code": "SODN",
+      "display": "Low dependence emphasis",
+      "definition": "Low dependence emphasis"
+    },
+    {
+      "code": "IMOQ",
+      "display": "High dependence emphasis",
+      "definition": "High dependence emphasis"
+    },
+    {
+      "code": "TL9H",
+      "display": "Low grey level count emphasis",
+      "definition": "Low grey level count emphasis"
+    },
+    {
+      "code": "OAE7",
+      "display": "High grey level count emphasis",
+      "definition": "High grey level count emphasis"
+    },
+    {
+      "code": "EQ3F",
+      "display": "Low dependence low grey level emphasis",
+      "definition": "Low dependence low grey level emphasis"
+    },
+    {
+      "code": "JA6D",
+      "display": "Low dependence high grey level emphasis",
+      "definition": "Low dependence high grey level emphasis"
+    },
+    {
+      "code": "NBZI",
+      "display": "High dependence low grey level emphasis",
+      "definition": "High dependence low grey level emphasis"
+    },
+    {
+      "code": "9QMG",
+      "display": "High dependence high grey level emphasis",
+      "definition": "High dependence high grey level emphasis"
+    },
+    {
+      "code": "FP8K",
+      "display": "Grey level non-uniformity of NGLDM",
+      "definition": "Grey level non-uniformity of NGLDM"
+    },
+    {
+      "code": "5SPA",
+      "display": "Normalized grey level non-uniformity of NGLDM",
+      "definition": "Normalized grey level non-uniformity of NGLDM"
+    },
+    {
+      "code": "Z87G",
+      "display": "Dependence count non-uniformity",
+      "definition": "Dependence count non-uniformity"
+    },
+    {
+      "code": "OKJI",
+      "display": "Dependence count non-uniformity normalized",
+      "definition": "Dependence count non-uniformity normalized"
+    },
+    {
+      "code": "6XV8",
+      "display": "Dependence count percentage",
+      "definition": "Dependence count percentage"
+    },
+    {
+      "code": "1PFV",
+      "display": "Grey level variance of NGLDM",
+      "definition": "Grey level variance of NGLDM"
+    },
+    {
+      "code": "DNX2",
+      "display": "Dependence count variance",
+      "definition": "Dependence count variance"
+    },
+    {
+      "code": "FCBV",
+      "display": "Dependence count entropy",
+      "definition": "Dependence count entropy"
+    },
+    {
+      "code": "CAS9",
+      "display": "Dependence count energy",
+      "definition": "Dependence count energy"
+    }
+  ],
+  "caseSensitive": true,
+  "experimental": false,
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:{uid}"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ChestFindingOrFeature",
+  "id": "dicom-cid-6101-ChestFindingOrFeature",
+  "description": "Chest Finding or Feature",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6101-ChestFindingOrFeature",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.421"
+    }
+  ],
+  "version": "20030108",
+  "title": "Chest Finding or Feature",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112061",
+            "display": "Abnormal lines (1D)"
+          },
+          {
+            "code": "112033",
+            "display": "Abnormal opacity"
+          },
+          {
+            "code": "112062",
+            "display": "Abnormal lucency"
+          },
+          {
+            "code": "112063",
+            "display": "Abnormal calcifications"
+          },
+          {
+            "code": "112064",
+            "display": "Abnormal texture"
+          },
+          {
+            "code": "112005",
+            "display": "Radiographic anatomy"
+          },
+          {
+            "code": "111102",
+            "display": "Non-lesion"
+          },
+          {
+            "code": "111101",
+            "display": "Image quality"
+          },
+          {
+            "code": "111099",
+            "display": "Selected region"
+          }
+        ]
+      }
+    ]
+  }
+}

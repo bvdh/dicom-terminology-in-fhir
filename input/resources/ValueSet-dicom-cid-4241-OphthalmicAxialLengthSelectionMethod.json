@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OphthalmicAxialLengthSelectionMethod",
+  "id": "dicom-cid-4241-OphthalmicAxialLengthSelectionMethod",
+  "description": "Ophthalmic Axial Length Selection Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4241-OphthalmicAxialLengthSelectionMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.887"
+    }
+  ],
+  "version": "20100623",
+  "title": "Ophthalmic Axial Length Selection Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121412",
+            "display": "Mean value chosen"
+          },
+          {
+            "code": "121410",
+            "display": "User chosen value"
+          }
+        ]
+      }
+    ]
+  }
+}

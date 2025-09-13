@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PrimaryCauseOfDeath",
+  "id": "dicom-cid-3733-PrimaryCauseOfDeath",
+  "description": "Primary Cause of Death",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3733-PrimaryCauseOfDeath",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.231"
+    }
+  ],
+  "version": "20030327",
+  "title": "Primary Cause of Death",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr",
+        "concept": [
+          {
+            "code": "25-1",
+            "display": "Cardiac"
+          },
+          {
+            "code": "25-2",
+            "display": "Neurologic"
+          },
+          {
+            "code": "25-3",
+            "display": "Renal"
+          },
+          {
+            "code": "25-4",
+            "display": "Vascular"
+          },
+          {
+            "code": "25-5",
+            "display": "Infection"
+          },
+          {
+            "code": "25-6",
+            "display": "Pulmonary"
+          },
+          {
+            "code": "25-7",
+            "display": "Valvular"
+          },
+          {
+            "code": "25-8",
+            "display": "Other"
+          }
+        ]
+      }
+    ]
+  }
+}

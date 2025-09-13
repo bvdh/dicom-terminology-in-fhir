@@ -1,0 +1,144 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "BreastBiopsyTechnique",
+  "id": "dicom-cid-6060-BreastBiopsyTechnique",
+  "description": "Some of these terms were obtained from BI-RADS",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6060-BreastBiopsyTechnique",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.389"
+    }
+  ],
+  "version": "20250401",
+  "title": "Breast Biopsy Technique",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "392021009",
+            "display": "Lumpectomy"
+          },
+          {
+            "code": "172049005",
+            "display": "Quadrantectomy of breast"
+          },
+          {
+            "code": "428907005",
+            "display": "Plain X-ray guided wire localization of breast lesion"
+          },
+          {
+            "code": "61593002",
+            "display": "Ultrasonic guidance procedure"
+          },
+          {
+            "code": "71651007",
+            "display": "Mammography"
+          },
+          {
+            "code": "277592004",
+            "display": "Magnetic resonance imaging guided biopsy"
+          },
+          {
+            "code": "277591006",
+            "display": "Computed tomography guided biopsy"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "P1-030C4",
+            "display": "Lumpectomy"
+          },
+          {
+            "code": "P1-4834A",
+            "display": "Quadrantectomy of breast"
+          },
+          {
+            "code": "P0-00C4B",
+            "display": "Plain X-ray guided wire localization of breast lesion"
+          },
+          {
+            "code": "P5-B0700",
+            "display": "Ultrasonic guidance procedure"
+          },
+          {
+            "code": "P5-40010",
+            "display": "Mammography"
+          },
+          {
+            "code": "P1-03107",
+            "display": "Magnetic resonance imaging guided biopsy"
+          },
+          {
+            "code": "P1-03106",
+            "display": "Computed tomography guided biopsy"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0851238",
+            "display": "Lumpectomy"
+          },
+          {
+            "code": "C0024881",
+            "display": "Mastectomy"
+          },
+          {
+            "code": "C0337354",
+            "display": "Quadrantectomy of breast"
+          },
+          {
+            "code": "C1997063",
+            "display": "Plain X-ray guided wire localization of breast lesion"
+          },
+          {
+            "code": "C0442973",
+            "display": "Ultrasonic guidance procedure"
+          },
+          {
+            "code": "C0024671",
+            "display": "Mammography"
+          },
+          {
+            "code": "C0456854",
+            "display": "Magnetic resonance imaging guided biopsy"
+          },
+          {
+            "code": "C0456853",
+            "display": "Computed tomography guided biopsy"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111487",
+            "display": "Mammographic (crosshair)"
+          },
+          {
+            "code": "111488",
+            "display": "Mammographic (grid)"
+          },
+          {
+            "code": "111489",
+            "display": "Palpation guided"
+          },
+          {
+            "code": "111490",
+            "display": "Vacuum assisted"
+          }
+        ]
+      }
+    ]
+  }
+}

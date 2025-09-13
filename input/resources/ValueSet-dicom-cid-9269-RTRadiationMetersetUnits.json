@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RTRadiationMetersetUnits",
+  "id": "dicom-cid-9269-RTRadiationMetersetUnits",
+  "description": "RT Radiation Meterset Units",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9269-RTRadiationMetersetUnits",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1468"
+    }
+  ],
+  "version": "20221225",
+  "title": "RT Radiation Meterset Units",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9552-CArmPhotonElectronDosimeterUnit"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9557-TomotherapeuticDosimeterUnit"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9559-RoboticDeliveryDeviceDosimeterUnit"
+        ]
+      }
+    ]
+  }
+}

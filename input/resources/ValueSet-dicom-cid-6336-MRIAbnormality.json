@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MRIAbnormality",
+  "id": "dicom-cid-6336-MRIAbnormality",
+  "description": "MRI Abnormality",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6336-MRIAbnormality",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1393"
+    }
+  ],
+  "version": "20210714",
+  "title": "MRI Abnormality",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6337-mpMRIProstateAbnormalityFromPIRADS"
+        ]
+      }
+    ]
+  }
+}

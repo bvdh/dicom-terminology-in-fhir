@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "TimeBasedPerfusionMeasurement",
+  "id": "dicom-cid-3836-TimeBasedPerfusionMeasurement",
+  "description": "Time-based Perfusion Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3836-TimeBasedPerfusionMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.286"
+    }
+  ],
+  "version": "20051103",
+  "title": "Time-based Perfusion Measurement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122631",
+            "display": "Signal Earliest Peak Time"
+          },
+          {
+            "code": "122633",
+            "display": "Signal Increase Start Time"
+          },
+          {
+            "code": "122634",
+            "display": "Signal Time to Peak"
+          },
+          {
+            "code": "122638",
+            "display": "Signal Baseline Start"
+          },
+          {
+            "code": "122639",
+            "display": "Signal Baseline End"
+          }
+        ]
+      }
+    ]
+  }
+}

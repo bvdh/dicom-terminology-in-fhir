@@ -1,0 +1,55 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SegmentedRTAccessoryDevice",
+  "id": "dicom-cid-9520-SegmentedRTAccessoryDevice",
+  "description": "Segmented RT Accessory Device",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9520-SegmentedRTAccessoryDevice",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1230"
+    }
+  ],
+  "version": "20181112",
+  "title": "Segmented RT Accessory Device",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9513-FixationDevice"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9506-BrachytherapyDevice"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9515-RTPatientSupportDevice"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9516-RadiotherapyBolusDeviceType"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9517-RadiotherapyBlockDeviceType"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9518-RadiotherapyAccessoryNoslotHolderDeviceType"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9519-RadiotherapyAccessorySlotHolderDeviceType"
+        ]
+      }
+    ]
+  }
+}

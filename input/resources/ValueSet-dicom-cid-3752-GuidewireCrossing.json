@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GuidewireCrossing",
+  "id": "dicom-cid-3752-GuidewireCrossing",
+  "description": "Guidewire Crossing",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3752-GuidewireCrossing",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.248"
+    }
+  ],
+  "version": "20030327",
+  "title": "Guidewire Crossing",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122301",
+            "display": "Guidewire crossing lesion unsuccessful"
+          },
+          {
+            "code": "122302",
+            "display": "Guidewire crossing lesion successful"
+          }
+        ]
+      }
+    ]
+  }
+}

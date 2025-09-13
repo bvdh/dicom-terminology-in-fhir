@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CategoryOfSexParametersForClinicalUse",
+  "id": "dicom-cid-7459-CategoryOfSexParametersForClinicalUse",
+  "description": "Category of Sex Parameters for Clinical Use",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7459-CategoryOfSexParametersForClinicalUse",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1530"
+    }
+  ],
+  "version": "20250406",
+  "title": "Category of Sex Parameters for Clinical Use",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "131230",
+            "display": "Female-typical"
+          },
+          {
+            "code": "131231",
+            "display": "Male-typical"
+          },
+          {
+            "code": "131232",
+            "display": "Specified"
+          }
+        ]
+      }
+    ]
+  }
+}

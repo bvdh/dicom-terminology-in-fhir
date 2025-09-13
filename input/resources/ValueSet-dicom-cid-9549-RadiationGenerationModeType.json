@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiationGenerationModeType",
+  "id": "dicom-cid-9549-RadiationGenerationModeType",
+  "description": "Radiation Generation Mode Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9549-RadiationGenerationModeType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1296"
+    }
+  ],
+  "version": "20190715",
+  "title": "Radiation Generation Mode Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130355",
+            "display": "Flattening Filter Beam"
+          },
+          {
+            "code": "130356",
+            "display": "Non-Flattening Filter Beam"
+          },
+          {
+            "code": "130357",
+            "display": "Partial Flattening Filter Beam"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "WaterEquivalentDiameterMethod",
+  "id": "dicom-cid-10024-WaterEquivalentDiameterMethod",
+  "description": "Water Equivalent Diameter Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10024-WaterEquivalentDiameterMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1114"
+    }
+  ],
+  "version": "20200919",
+  "title": "Water Equivalent Diameter Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113981",
+            "display": "Water Equivalent Diameter Representative Value"
+          },
+          {
+            "code": "113982",
+            "display": "Water Equivalent Diameter Integrated Across Scan Range"
+          },
+          {
+            "code": "113983",
+            "display": "Water Equivalent Diameter From Raw Data"
+          },
+          {
+            "code": "113984",
+            "display": "Water Equivalent Diameter From Localizer"
+          }
+        ]
+      }
+    ]
+  }
+}

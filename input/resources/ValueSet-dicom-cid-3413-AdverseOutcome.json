@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AdverseOutcome",
+  "id": "dicom-cid-3413-AdverseOutcome",
+  "description": "Adverse Outcome",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3413-AdverseOutcome",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.78"
+    }
+  ],
+  "version": "20030327",
+  "title": "Adverse Outcome",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122167",
+            "display": "Death During Catheterization"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3754-VascularComplication"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3755-CathComplication"
+        ]
+      }
+    ]
+  }
+}

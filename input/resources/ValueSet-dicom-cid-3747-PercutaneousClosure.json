@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PercutaneousClosure",
+  "id": "dicom-cid-3747-PercutaneousClosure",
+  "description": "Percutaneous Closure",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3747-PercutaneousClosure",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.244"
+    }
+  ],
+  "version": "20030327",
+  "title": "Percutaneous Closure",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr",
+        "concept": [
+          {
+            "code": "75-0",
+            "display": "No closure device used at percutaneous entry"
+          },
+          {
+            "code": "75-1",
+            "display": "Percutaneous entry closed by suture"
+          },
+          {
+            "code": "75-2",
+            "display": "Percutaneous entry closed by sealant"
+          },
+          {
+            "code": "75-3",
+            "display": "Percutaneous entry closed by other mechanism"
+          }
+        ]
+      }
+    ]
+  }
+}

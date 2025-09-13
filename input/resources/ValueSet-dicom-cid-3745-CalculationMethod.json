@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CalculationMethod",
+  "id": "dicom-cid-3745-CalculationMethod",
+  "description": "Calculation Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3745-CalculationMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.242"
+    }
+  ],
+  "version": "20050110",
+  "title": "Calculation Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "414135002",
+            "display": "Estimated"
+          },
+          {
+            "code": "258090004",
+            "display": "Calculated"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-10260",
+            "display": "Estimated"
+          },
+          {
+            "code": "R-41D2D",
+            "display": "Calculated"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0750572",
+            "display": "Estimated"
+          },
+          {
+            "code": "C0444686",
+            "display": "Calculated"
+          }
+        ]
+      }
+    ]
+  }
+}

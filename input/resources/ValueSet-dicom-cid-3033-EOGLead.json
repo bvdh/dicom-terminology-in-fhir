@@ -1,0 +1,109 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EOGLead",
+  "id": "dicom-cid-3033-EOGLead",
+  "description": "Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10102 available through The Code Meaning is taken from the ISO/IEEE 11073 10101 Acronym column.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3033-EOGLead",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1331"
+    }
+  ],
+  "version": "20200623",
+  "title": "EOG Lead",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "concept": [
+          {
+            "code": "7:1320",
+            "display": "E0"
+          },
+          {
+            "code": "7:1325",
+            "display": "El1"
+          },
+          {
+            "code": "7:1329",
+            "display": "El2"
+          },
+          {
+            "code": "7:1333",
+            "display": "El3"
+          },
+          {
+            "code": "7:1337",
+            "display": "El4"
+          },
+          {
+            "code": "7:1341",
+            "display": "El5"
+          },
+          {
+            "code": "7:1345",
+            "display": "El6"
+          },
+          {
+            "code": "7:1349",
+            "display": "El7"
+          },
+          {
+            "code": "7:1354",
+            "display": "Er1"
+          },
+          {
+            "code": "7:1358",
+            "display": "Er2"
+          },
+          {
+            "code": "7:1362",
+            "display": "Er3"
+          },
+          {
+            "code": "7:1366",
+            "display": "Er4"
+          },
+          {
+            "code": "7:1370",
+            "display": "Er5"
+          },
+          {
+            "code": "7:1374",
+            "display": "Er6"
+          },
+          {
+            "code": "7:1378",
+            "display": "Er7"
+          },
+          {
+            "code": "7:1381",
+            "display": "ElL"
+          },
+          {
+            "code": "7:1386",
+            "display": "ErL"
+          },
+          {
+            "code": "7:1389",
+            "display": "Ela"
+          },
+          {
+            "code": "7:1393",
+            "display": "Elb"
+          },
+          {
+            "code": "7:1398",
+            "display": "Era"
+          },
+          {
+            "code": "7:1402",
+            "display": "Erb"
+          }
+        ]
+      }
+    ]
+  }
+}

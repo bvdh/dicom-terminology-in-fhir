@@ -1,0 +1,166 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AbstractMultiDimensionalImageModelComponentUnit",
+  "id": "dicom-cid-7181-AbstractMultiDimensionalImageModelComponentUnit",
+  "description": "Abstract Multi-dimensional Image Model Component Unit",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7181-AbstractMultiDimensionalImageModelComponentUnit",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.918"
+    }
+  ],
+  "version": "20180605",
+  "title": "Abstract Multi-dimensional Image Model Component Unit",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3500-PressureUnit"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3502-HemodynamicResistanceUnit"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3503-IndexedHemodynamicResistanceUnit"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7460-LinearMeasurementUnit"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7461-AreaMeasurementUnit"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7462-VolumeMeasurementUnit"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-84-PETUnit"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7277-DiffusionRateAreaOverTimeUnit"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10071-RadiationDoseUnit"
+        ]
+      },
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "1",
+            "display": "no units"
+          },
+          {
+            "code": "{ratio}",
+            "display": "ratio"
+          },
+          {
+            "code": "[hnsf'U]",
+            "display": "Hounsfield Unit"
+          },
+          {
+            "code": "{counts}",
+            "display": "Counts"
+          },
+          {
+            "code": "{counts}/s",
+            "display": "Counts per second"
+          },
+          {
+            "code": "[arb'U]",
+            "display": "arbitrary unit"
+          },
+          {
+            "code": "ppm",
+            "display": "ppm"
+          },
+          {
+            "code": "cm/s",
+            "display": "centimeter/second"
+          },
+          {
+            "code": "mm/s",
+            "display": "millimeter/second"
+          },
+          {
+            "code": "dB",
+            "display": "decibel"
+          },
+          {
+            "code": "Cel",
+            "display": "degrees Celsius"
+          },
+          {
+            "code": "ml/min",
+            "display": "milliliter per minute"
+          },
+          {
+            "code": "ml/s",
+            "display": "milliliter per second"
+          },
+          {
+            "code": "ms",
+            "display": "millisecond"
+          },
+          {
+            "code": "s",
+            "display": "second"
+          },
+          {
+            "code": "Hz",
+            "display": "Hertz"
+          },
+          {
+            "code": "mT",
+            "display": "milliTesla"
+          },
+          {
+            "code": "{Particles}/[100]g{Tissue}",
+            "display": "number particles per 100 gram of tissue"
+          },
+          {
+            "code": "s/mm2",
+            "display": "second per square millimeter"
+          },
+          {
+            "code": "ml/[100]g/min",
+            "display": "milliliter per 100 gram per minute"
+          },
+          {
+            "code": "ml/[100]ml",
+            "display": "milliliter per 100 milliliter"
+          },
+          {
+            "code": "mmol/kg{WetWeight}",
+            "display": "millimoles per kg wet weight"
+          },
+          {
+            "code": "/min",
+            "display": "/min"
+          },
+          {
+            "code": "/s",
+            "display": "/s"
+          }
+        ]
+      }
+    ]
+  }
+}

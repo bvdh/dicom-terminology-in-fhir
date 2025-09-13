@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PETRegionOfInterestMeasurement",
+  "id": "dicom-cid-7466-PETRegionOfInterestMeasurement",
+  "description": "PET Region of Interest Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7466-PETRegionOfInterestMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.999"
+    }
+  ],
+  "version": "20141110",
+  "title": "PET Region of Interest Measurement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "126032",
+            "display": "Metabolic Volume"
+          },
+          {
+            "code": "126033",
+            "display": "Total Lesion Glycolysis"
+          },
+          {
+            "code": "126034",
+            "display": "Glycolysis"
+          },
+          {
+            "code": "126035",
+            "display": "Total Lesion Proliferation"
+          },
+          {
+            "code": "126036",
+            "display": "Proliferative Activity"
+          },
+          {
+            "code": "126037",
+            "display": "Standardized Added Metabolic Activity"
+          },
+          {
+            "code": "126038",
+            "display": "Standardized Added Metabolic Activity Background"
+          },
+          {
+            "code": "126039",
+            "display": "Lesion to Background SUV Ratio"
+          },
+          {
+            "code": "126040",
+            "display": "Background for Lesion to Background SUV Ratio"
+          }
+        ]
+      }
+    ]
+  }
+}

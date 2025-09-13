@@ -1,0 +1,224 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OBGYNMaternalRiskFactor",
+  "id": "dicom-cid-6088-OBGYNMaternalRiskFactor",
+  "description": "OB-GYN Maternal Risk Factor",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6088-OBGYNMaternalRiskFactor",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.410"
+    }
+  ],
+  "version": "20040112",
+  "title": "OB-GYN Maternal Risk Factor",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "161445009",
+            "display": "History of - diabetes mellitus"
+          },
+          {
+            "code": "161501007",
+            "display": "History of - hypertension"
+          },
+          {
+            "code": "161453001",
+            "display": "History of - obesity"
+          },
+          {
+            "code": "161656000",
+            "display": "History of - regular medication"
+          },
+          {
+            "code": "371422002",
+            "display": "History of substance abuse"
+          },
+          {
+            "code": "266995000",
+            "display": "History of - cardiovascular disease"
+          },
+          {
+            "code": "161763005",
+            "display": "History of - ectopic pregnancy"
+          },
+          {
+            "code": "161806007",
+            "display": "History of - eclampsia"
+          },
+          {
+            "code": "161807003",
+            "display": "History of - severe pre-eclampsia"
+          },
+          {
+            "code": "161765003",
+            "display": "History of - premature delivery"
+          },
+          {
+            "code": "161798008",
+            "display": "History of infertility"
+          },
+          {
+            "code": "16356006",
+            "display": "Multiple pregnancy"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-023F",
+            "display": "History of - diabetes mellitus"
+          },
+          {
+            "code": "G-0269",
+            "display": "History of - hypertension"
+          },
+          {
+            "code": "G-0244",
+            "display": "History of - obesity"
+          },
+          {
+            "code": "G-02D0",
+            "display": "History of - regular medication"
+          },
+          {
+            "code": "G-0338",
+            "display": "History of substance abuse"
+          },
+          {
+            "code": "G-0335",
+            "display": "History of - cardiovascular disease"
+          },
+          {
+            "code": "G-0304",
+            "display": "History of - ectopic pregnancy"
+          },
+          {
+            "code": "G-031E",
+            "display": "History of - eclampsia"
+          },
+          {
+            "code": "G-031F",
+            "display": "History of - severe pre-eclampsia"
+          },
+          {
+            "code": "G-0305",
+            "display": "History of - premature delivery"
+          },
+          {
+            "code": "G-0319",
+            "display": "History of infertility"
+          },
+          {
+            "code": "D8-20100",
+            "display": "Multiple pregnancy"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0455488",
+            "display": "History of - diabetes mellitus"
+          },
+          {
+            "code": "C0455527",
+            "display": "History of - hypertension"
+          },
+          {
+            "code": "C0455493",
+            "display": "History of - obesity"
+          },
+          {
+            "code": "C0455633",
+            "display": "History of - regular medication"
+          },
+          {
+            "code": "C1299544",
+            "display": "History of substance abuse"
+          },
+          {
+            "code": "C0455539",
+            "display": "History of - cardiovascular disease"
+          },
+          {
+            "code": "C0438096",
+            "display": "History of - ectopic pregnancy"
+          },
+          {
+            "code": "C0438072",
+            "display": "History of - eclampsia"
+          },
+          {
+            "code": "C0438073",
+            "display": "History of - severe pre-eclampsia"
+          },
+          {
+            "code": "C0438076",
+            "display": "History of - premature delivery"
+          },
+          {
+            "code": "C0438063",
+            "display": "History of infertility"
+          },
+          {
+            "code": "C0032989",
+            "display": "Multiple pregnancy"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111565",
+            "display": "Uterine malformations"
+          },
+          {
+            "code": "111566",
+            "display": "Spontaneous Abortion"
+          },
+          {
+            "code": "111567",
+            "display": "Gynecologic condition"
+          },
+          {
+            "code": "111568",
+            "display": "Gynecologic surgery"
+          },
+          {
+            "code": "111569",
+            "display": "Previous LBW or IUGR birth"
+          },
+          {
+            "code": "111570",
+            "display": "Previous fetal malformation/syndrome"
+          },
+          {
+            "code": "111571",
+            "display": "Previous RH negative or blood dyscrasia at birth"
+          },
+          {
+            "code": "111572",
+            "display": "History of multiple fetuses"
+          },
+          {
+            "code": "111573",
+            "display": "Current pregnancy, known or suspected malformations/syndromes"
+          },
+          {
+            "code": "111574",
+            "display": "Family history, fetal malformation/syndrome"
+          }
+        ]
+      }
+    ]
+  }
+}

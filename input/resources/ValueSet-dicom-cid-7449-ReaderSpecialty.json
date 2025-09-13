@@ -1,0 +1,73 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ReaderSpecialty",
+  "id": "dicom-cid-7449-ReaderSpecialty",
+  "description": "Reader Specialty",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7449-ReaderSpecialty",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1119"
+    }
+  ],
+  "version": "20160601",
+  "title": "Reader Specialty",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128006",
+            "display": "Abdominal Imaging Specialty"
+          },
+          {
+            "code": "128007",
+            "display": "Cardiac Imaging Specialty"
+          },
+          {
+            "code": "128008",
+            "display": "Head and Neck Imaging Specialty"
+          },
+          {
+            "code": "128009",
+            "display": "Musculoskeletal Imaging Specialty"
+          },
+          {
+            "code": "128010",
+            "display": "Neurology Specialty"
+          },
+          {
+            "code": "128011",
+            "display": "Neuroradiology Imaging Specialty"
+          },
+          {
+            "code": "128012",
+            "display": "OB/Gyn Imaging Specialty"
+          },
+          {
+            "code": "128013",
+            "display": "Oncologic Imaging Specialty"
+          },
+          {
+            "code": "128014",
+            "display": "Oncology Specialty"
+          },
+          {
+            "code": "128015",
+            "display": "Thoracic Imaging Specialty"
+          },
+          {
+            "code": "128016",
+            "display": "Pediatric Imaging Specialty"
+          },
+          {
+            "code": "128017",
+            "display": "Vascular Imaging Specialty"
+          }
+        ]
+      }
+    ]
+  }
+}

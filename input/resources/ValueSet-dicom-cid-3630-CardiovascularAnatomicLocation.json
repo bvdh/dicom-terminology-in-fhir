@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiovascularAnatomicLocation",
+  "id": "dicom-cid-3630-CardiovascularAnatomicLocation",
+  "description": "Cardiovascular Anatomic Location",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3630-CardiovascularAnatomicLocation",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.175"
+    }
+  ],
+  "version": "20030327",
+  "title": "Cardiovascular Anatomic Location",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3606-ArterialSourceLocation"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3607-VenousSourceLocation"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3608-AtrialSourceLocation"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3609-VentricularSourceLocation"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3610-GradientSourceLocation"
+        ]
+      }
+    ]
+  }
+}

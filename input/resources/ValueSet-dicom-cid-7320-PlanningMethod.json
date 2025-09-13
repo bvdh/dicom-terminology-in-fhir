@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PlanningMethod",
+  "id": "dicom-cid-7320-PlanningMethod",
+  "description": "Planning Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7320-PlanningMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.924"
+    }
+  ],
+  "version": "20101102",
+  "title": "Planning Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112340",
+            "display": "Generic 2D Planning"
+          },
+          {
+            "code": "112341",
+            "display": "Generic 3D Planning"
+          },
+          {
+            "code": "112342",
+            "display": "Generic Planning for Hip Replacement"
+          },
+          {
+            "code": "112343",
+            "display": "Generic Planning for Knee Replacement"
+          },
+          {
+            "code": "112344",
+            "display": "Mller Method Planning for Hip Replacement"
+          }
+        ]
+      }
+    ]
+  }
+}

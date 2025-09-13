@@ -1,0 +1,1383 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CommonAnatomicRegion",
+  "id": "dicom-cid-4031-CommonAnatomicRegion",
+  "description": "In a prior version of this table, the code SRT: T-D1217 was specified for the concept \"Maxilla and mandible\". The use of this code conflicts with its assignment to another concept in SNOMED, and its use in this context is deprecated. Although there is minimal possibility of misinterpretation with SOP Instances that may include the deprecated use, receiving applications should be aware of this change; see In a prior version of this table, the code SRT: T-D8300 was used for In a prior version of this Context Group, concepts were used that were not specific to the cross-sectional anatomy (including the full thickness of the body). Further, whether or not",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4031-CommonAnatomicRegion",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.308"
+    }
+  ],
+  "version": "20250709",
+  "title": "Common Anatomic Region",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "818981001",
+            "display": "Abdomen"
+          },
+          {
+            "code": "818982008",
+            "display": "Abdomen and Pelvis"
+          },
+          {
+            "code": "85856004",
+            "display": "Acromioclavicular joint"
+          },
+          {
+            "code": "70258002",
+            "display": "Ankle joint"
+          },
+          {
+            "code": "53505006",
+            "display": "Anus"
+          },
+          {
+            "code": "86598002",
+            "display": "Apex of Lung"
+          },
+          {
+            "code": "28273000",
+            "display": "Bile duct"
+          },
+          {
+            "code": "34707002",
+            "display": "Biliary tract"
+          },
+          {
+            "code": "89837001",
+            "display": "Bladder"
+          },
+          {
+            "code": "72001000",
+            "display": "Bone of lower limb"
+          },
+          {
+            "code": "371195002",
+            "display": "Bone of upper limb"
+          },
+          {
+            "code": "76752008",
+            "display": "Breast"
+          },
+          {
+            "code": "955009",
+            "display": "Bronchus"
+          },
+          {
+            "code": "80144004",
+            "display": "Calcaneus"
+          },
+          {
+            "code": "113257007",
+            "display": "Cardiovascular system"
+          },
+          {
+            "code": "122494005",
+            "display": "Cervical spine"
+          },
+          {
+            "code": "1217257000",
+            "display": "Cervico-thoracic spine"
+          },
+          {
+            "code": "816094009",
+            "display": "Chest"
+          },
+          {
+            "code": "416775004",
+            "display": "Chest, Abdomen and Pelvis"
+          },
+          {
+            "code": "416550000",
+            "display": "Chest and Abdomen"
+          },
+          {
+            "code": "51299004",
+            "display": "Clavicle"
+          },
+          {
+            "code": "64688005",
+            "display": "Coccyx"
+          },
+          {
+            "code": "71854001",
+            "display": "Colon"
+          },
+          {
+            "code": "79741001",
+            "display": "Common bile duct"
+          },
+          {
+            "code": "38848004",
+            "display": "Duodenum"
+          },
+          {
+            "code": "16953009",
+            "display": "Elbow joint"
+          },
+          {
+            "code": "38266002",
+            "display": "Entire body"
+          },
+          {
+            "code": "32849002",
+            "display": "Esophagus"
+          },
+          {
+            "code": "110861005",
+            "display": "Esophagus, stomach and duodenum"
+          },
+          {
+            "code": "66019005",
+            "display": "Extremity"
+          },
+          {
+            "code": "81745001",
+            "display": "Eye"
+          },
+          {
+            "code": "371398005",
+            "display": "Eye region"
+          },
+          {
+            "code": "91397008",
+            "display": "Facial bones"
+          },
+          {
+            "code": "71341001",
+            "display": "Femur"
+          },
+          {
+            "code": "87342007",
+            "display": "Fibula"
+          },
+          {
+            "code": "7569003",
+            "display": "Finger"
+          },
+          {
+            "code": "56459004",
+            "display": "Foot"
+          },
+          {
+            "code": "14975008",
+            "display": "Forearm"
+          },
+          {
+            "code": "28231008",
+            "display": "Gallbladder"
+          },
+          {
+            "code": "85562004",
+            "display": "Hand"
+          },
+          {
+            "code": "69536005",
+            "display": "Head"
+          },
+          {
+            "code": "774007",
+            "display": "Head and Neck"
+          },
+          {
+            "code": "80891009",
+            "display": "Heart"
+          },
+          {
+            "code": "29836001",
+            "display": "Hip"
+          },
+          {
+            "code": "24136001",
+            "display": "Hip Joint"
+          },
+          {
+            "code": "85050009",
+            "display": "Humerus"
+          },
+          {
+            "code": "34516001",
+            "display": "Ileum"
+          },
+          {
+            "code": "22356005",
+            "display": "Ilium"
+          },
+          {
+            "code": "361078006",
+            "display": "Internal Auditory Canal"
+          },
+          {
+            "code": "661005",
+            "display": "Jaw region"
+          },
+          {
+            "code": "21306003",
+            "display": "Jejunum"
+          },
+          {
+            "code": "72696002",
+            "display": "Knee"
+          },
+          {
+            "code": "14742008",
+            "display": "Large intestine"
+          },
+          {
+            "code": "4596009",
+            "display": "Larynx"
+          },
+          {
+            "code": "303270005",
+            "display": "Liver and biliary structure"
+          },
+          {
+            "code": "30021000",
+            "display": "Lower leg"
+          },
+          {
+            "code": "61685007",
+            "display": "Lower limb"
+          },
+          {
+            "code": "63337009",
+            "display": "Lower trunk"
+          },
+          {
+            "code": "122496007",
+            "display": "Lumbar spine"
+          },
+          {
+            "code": "1217253001",
+            "display": "Lumbo-sacral spine"
+          },
+          {
+            "code": "91609006",
+            "display": "Mandible"
+          },
+          {
+            "code": "59066005",
+            "display": "Mastoid bone"
+          },
+          {
+            "code": "70925003",
+            "display": "Maxilla"
+          },
+          {
+            "code": "72410000",
+            "display": "Mediastinum"
+          },
+          {
+            "code": "102292000",
+            "display": "Muscle of lower limb"
+          },
+          {
+            "code": "30608006",
+            "display": "Muscle of upper limb"
+          },
+          {
+            "code": "74386004",
+            "display": "Nasal bone"
+          },
+          {
+            "code": "45048000",
+            "display": "Neck"
+          },
+          {
+            "code": "416319003",
+            "display": "Neck, Chest, Abdomen and Pelvis"
+          },
+          {
+            "code": "416152001",
+            "display": "Neck, Chest and Abdomen"
+          },
+          {
+            "code": "417437006",
+            "display": "Neck and Chest"
+          },
+          {
+            "code": "55024004",
+            "display": "Optic canal"
+          },
+          {
+            "code": "363654007",
+            "display": "Orbital structure"
+          },
+          {
+            "code": "15776009",
+            "display": "Pancreas"
+          },
+          {
+            "code": "69930009",
+            "display": "Pancreatic duct"
+          },
+          {
+            "code": "110621006",
+            "display": "Pancreatic duct and bile duct systems"
+          },
+          {
+            "code": "2095001",
+            "display": "Paranasal sinus"
+          },
+          {
+            "code": "45289007",
+            "display": "Parotid gland"
+          },
+          {
+            "code": "64234005",
+            "display": "Patella"
+          },
+          {
+            "code": "816092008",
+            "display": "Pelvis"
+          },
+          {
+            "code": "1231522001",
+            "display": "Pelvis and lower extremities"
+          },
+          {
+            "code": "706342009",
+            "display": "Phantom"
+          },
+          {
+            "code": "41216001",
+            "display": "Prostate"
+          },
+          {
+            "code": "34402009",
+            "display": "Rectum"
+          },
+          {
+            "code": "113197003",
+            "display": "Rib"
+          },
+          {
+            "code": "1217254007",
+            "display": "Sacro-coccygeal Spine"
+          },
+          {
+            "code": "39723000",
+            "display": "Sacroiliac joint"
+          },
+          {
+            "code": "54735007",
+            "display": "Sacrum"
+          },
+          {
+            "code": "79601000",
+            "display": "Scapula"
+          },
+          {
+            "code": "42575006",
+            "display": "Sella turcica"
+          },
+          {
+            "code": "58742003",
+            "display": "Sesamoid bones of foot"
+          },
+          {
+            "code": "16982005",
+            "display": "Shoulder"
+          },
+          {
+            "code": "89546000",
+            "display": "Skull"
+          },
+          {
+            "code": "30315005",
+            "display": "Small intestine"
+          },
+          {
+            "code": "421060004",
+            "display": "Spine"
+          },
+          {
+            "code": "737561001",
+            "display": "Spine and/or cord"
+          },
+          {
+            "code": "7844006",
+            "display": "Sternoclavicular joint"
+          },
+          {
+            "code": "56873002",
+            "display": "Sternum"
+          },
+          {
+            "code": "69695003",
+            "display": "Stomach"
+          },
+          {
+            "code": "54019009",
+            "display": "Submandibular gland"
+          },
+          {
+            "code": "27949001",
+            "display": "Tarsal joint"
+          },
+          {
+            "code": "53620006",
+            "display": "Temporomandibular joint"
+          },
+          {
+            "code": "68367000",
+            "display": "Thigh"
+          },
+          {
+            "code": "122495006",
+            "display": "Thoracic spine"
+          },
+          {
+            "code": "1217256009",
+            "display": "Thoraco-lumbar spine"
+          },
+          {
+            "code": "76505004",
+            "display": "Thumb"
+          },
+          {
+            "code": "29707007",
+            "display": "Toe"
+          },
+          {
+            "code": "44567001",
+            "display": "Trachea"
+          },
+          {
+            "code": "22943007",
+            "display": "Trunk"
+          },
+          {
+            "code": "40983000",
+            "display": "Upper arm"
+          },
+          {
+            "code": "53120007",
+            "display": "Upper limb"
+          },
+          {
+            "code": "67734004",
+            "display": "Upper trunk"
+          },
+          {
+            "code": "431491007",
+            "display": "Upper urinary tract"
+          },
+          {
+            "code": "87953007",
+            "display": "Ureter"
+          },
+          {
+            "code": "13648007",
+            "display": "Urethra"
+          },
+          {
+            "code": "110639002",
+            "display": "Uterus and fallopian tubes"
+          },
+          {
+            "code": "110517009",
+            "display": "Vertebral column and cranium"
+          },
+          {
+            "code": "74670003",
+            "display": "Wrist joint"
+          },
+          {
+            "code": "13881006",
+            "display": "Zygoma"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-15420",
+            "display": "Acromioclavicular joint"
+          },
+          {
+            "code": "T-15750",
+            "display": "Ankle joint"
+          },
+          {
+            "code": "T-59900",
+            "display": "Anus"
+          },
+          {
+            "code": "T-280A0",
+            "display": "Apex of Lung"
+          },
+          {
+            "code": "T-60610",
+            "display": "Bile duct"
+          },
+          {
+            "code": "T-60600",
+            "display": "Biliary tract"
+          },
+          {
+            "code": "T-74000",
+            "display": "Bladder"
+          },
+          {
+            "code": "T-12700",
+            "display": "Bone of lower limb"
+          },
+          {
+            "code": "T-D0821",
+            "display": "Bone of upper limb"
+          },
+          {
+            "code": "T-04000",
+            "display": "Breast"
+          },
+          {
+            "code": "T-26000",
+            "display": "Bronchus"
+          },
+          {
+            "code": "T-12770",
+            "display": "Calcaneus"
+          },
+          {
+            "code": "T-30000",
+            "display": "Cardiovascular system"
+          },
+          {
+            "code": "T-11501",
+            "display": "Cervical spine"
+          },
+          {
+            "code": "R-FAB56",
+            "display": "Chest, Abdomen and Pelvis"
+          },
+          {
+            "code": "R-FAB55",
+            "display": "Chest and Abdomen"
+          },
+          {
+            "code": "T-12310",
+            "display": "Clavicle"
+          },
+          {
+            "code": "T-11BF0",
+            "display": "Coccyx"
+          },
+          {
+            "code": "T-59300",
+            "display": "Colon"
+          },
+          {
+            "code": "T-64500",
+            "display": "Common bile duct"
+          },
+          {
+            "code": "T-58200",
+            "display": "Duodenum"
+          },
+          {
+            "code": "T-15430",
+            "display": "Elbow joint"
+          },
+          {
+            "code": "T-D0010",
+            "display": "Entire body"
+          },
+          {
+            "code": "T-56000",
+            "display": "Esophagus"
+          },
+          {
+            "code": "T-DD163",
+            "display": "Esophagus, stomach and duodenum"
+          },
+          {
+            "code": "T-D0300",
+            "display": "Extremity"
+          },
+          {
+            "code": "T-AA000",
+            "display": "Eye"
+          },
+          {
+            "code": "T-D0801",
+            "display": "Eye region"
+          },
+          {
+            "code": "T-11196",
+            "display": "Facial bones"
+          },
+          {
+            "code": "T-12710",
+            "display": "Femur"
+          },
+          {
+            "code": "T-12750",
+            "display": "Fibula"
+          },
+          {
+            "code": "T-D8800",
+            "display": "Finger"
+          },
+          {
+            "code": "T-D9700",
+            "display": "Foot"
+          },
+          {
+            "code": "T-D8500",
+            "display": "Forearm"
+          },
+          {
+            "code": "T-63000",
+            "display": "Gallbladder"
+          },
+          {
+            "code": "T-D8700",
+            "display": "Hand"
+          },
+          {
+            "code": "T-D1100",
+            "display": "Head"
+          },
+          {
+            "code": "T-D1000",
+            "display": "Head and Neck"
+          },
+          {
+            "code": "T-32000",
+            "display": "Heart"
+          },
+          {
+            "code": "T-D2500",
+            "display": "Hip"
+          },
+          {
+            "code": "T-15710",
+            "display": "Hip Joint"
+          },
+          {
+            "code": "T-12410",
+            "display": "Humerus"
+          },
+          {
+            "code": "T-58600",
+            "display": "Ileum"
+          },
+          {
+            "code": "T-12340",
+            "display": "Ilium"
+          },
+          {
+            "code": "T-AB959",
+            "display": "Internal Auditory Canal"
+          },
+          {
+            "code": "T-D1213",
+            "display": "Jaw region"
+          },
+          {
+            "code": "T-58400",
+            "display": "Jejunum"
+          },
+          {
+            "code": "T-D9200",
+            "display": "Knee"
+          },
+          {
+            "code": "T-59000",
+            "display": "Large intestine"
+          },
+          {
+            "code": "T-24100",
+            "display": "Larynx"
+          },
+          {
+            "code": "T-50007",
+            "display": "Liver and biliary structure"
+          },
+          {
+            "code": "T-D9400",
+            "display": "Lower leg"
+          },
+          {
+            "code": "T-D9000",
+            "display": "Lower limb"
+          },
+          {
+            "code": "T-D2020",
+            "display": "Lower trunk"
+          },
+          {
+            "code": "T-11503",
+            "display": "Lumbar spine"
+          },
+          {
+            "code": "T-11180",
+            "display": "Mandible"
+          },
+          {
+            "code": "T-11133",
+            "display": "Mastoid bone"
+          },
+          {
+            "code": "T-11170",
+            "display": "Maxilla"
+          },
+          {
+            "code": "T-D3300",
+            "display": "Mediastinum"
+          },
+          {
+            "code": "T-14668",
+            "display": "Muscle of lower limb"
+          },
+          {
+            "code": "T-13600",
+            "display": "Muscle of upper limb"
+          },
+          {
+            "code": "T-11149",
+            "display": "Nasal bone"
+          },
+          {
+            "code": "T-D1600",
+            "display": "Neck"
+          },
+          {
+            "code": "R-FAB54",
+            "display": "Neck, Chest, Abdomen and Pelvis"
+          },
+          {
+            "code": "R-FAB53",
+            "display": "Neck, Chest and Abdomen"
+          },
+          {
+            "code": "R-FAB52",
+            "display": "Neck and Chest"
+          },
+          {
+            "code": "T-11102",
+            "display": "Optic canal"
+          },
+          {
+            "code": "T-D14AE",
+            "display": "Orbital structure"
+          },
+          {
+            "code": "T-65000",
+            "display": "Pancreas"
+          },
+          {
+            "code": "T-65010",
+            "display": "Pancreatic duct"
+          },
+          {
+            "code": "T-65600",
+            "display": "Pancreatic duct and bile duct systems"
+          },
+          {
+            "code": "T-22000",
+            "display": "Paranasal sinus"
+          },
+          {
+            "code": "T-61100",
+            "display": "Parotid gland"
+          },
+          {
+            "code": "T-12730",
+            "display": "Patella"
+          },
+          {
+            "code": "T-92000",
+            "display": "Prostate"
+          },
+          {
+            "code": "T-59600",
+            "display": "Rectum"
+          },
+          {
+            "code": "T-11300",
+            "display": "Rib"
+          },
+          {
+            "code": "T-15680",
+            "display": "Sacroiliac joint"
+          },
+          {
+            "code": "T-11AD0",
+            "display": "Sacrum"
+          },
+          {
+            "code": "T-12280",
+            "display": "Scapula"
+          },
+          {
+            "code": "T-D1460",
+            "display": "Sella turcica"
+          },
+          {
+            "code": "T-12980",
+            "display": "Sesamoid bones of foot"
+          },
+          {
+            "code": "T-D2220",
+            "display": "Shoulder"
+          },
+          {
+            "code": "T-11100",
+            "display": "Skull"
+          },
+          {
+            "code": "T-58000",
+            "display": "Small intestine"
+          },
+          {
+            "code": "T-D04FF",
+            "display": "Spine"
+          },
+          {
+            "code": "T-15610",
+            "display": "Sternoclavicular joint"
+          },
+          {
+            "code": "T-11210",
+            "display": "Sternum"
+          },
+          {
+            "code": "T-57000",
+            "display": "Stomach"
+          },
+          {
+            "code": "T-61300",
+            "display": "Submandibular gland"
+          },
+          {
+            "code": "T-15770",
+            "display": "Tarsal joint"
+          },
+          {
+            "code": "T-15290",
+            "display": "Temporomandibular joint"
+          },
+          {
+            "code": "T-D9100",
+            "display": "Thigh"
+          },
+          {
+            "code": "T-11502",
+            "display": "Thoracic spine"
+          },
+          {
+            "code": "T-D8810",
+            "display": "Thumb"
+          },
+          {
+            "code": "T-D9800",
+            "display": "Toe"
+          },
+          {
+            "code": "T-25000",
+            "display": "Trachea"
+          },
+          {
+            "code": "T-D2000",
+            "display": "Trunk"
+          },
+          {
+            "code": "T-D8200",
+            "display": "Upper arm"
+          },
+          {
+            "code": "T-D8000",
+            "display": "Upper limb"
+          },
+          {
+            "code": "T-D2010",
+            "display": "Upper trunk"
+          },
+          {
+            "code": "T-7000B",
+            "display": "Upper urinary tract"
+          },
+          {
+            "code": "T-73000",
+            "display": "Ureter"
+          },
+          {
+            "code": "T-75000",
+            "display": "Urethra"
+          },
+          {
+            "code": "T-88920",
+            "display": "Uterus and fallopian tubes"
+          },
+          {
+            "code": "T-11011",
+            "display": "Vertebral column and cranium"
+          },
+          {
+            "code": "T-15460",
+            "display": "Wrist joint"
+          },
+          {
+            "code": "T-11166",
+            "display": "Zygoma"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0001208",
+            "display": "Acromioclavicular joint"
+          },
+          {
+            "code": "C0003087",
+            "display": "Ankle joint"
+          },
+          {
+            "code": "C0003461",
+            "display": "Anus"
+          },
+          {
+            "code": "C0225703",
+            "display": "Apex of Lung"
+          },
+          {
+            "code": "C0005400",
+            "display": "Bile duct"
+          },
+          {
+            "code": "C0005423",
+            "display": "Biliary tract"
+          },
+          {
+            "code": "C0005682",
+            "display": "Bladder"
+          },
+          {
+            "code": "C0448188",
+            "display": "Bone of lower limb"
+          },
+          {
+            "code": "C0003793",
+            "display": "Bone of upper limb"
+          },
+          {
+            "code": "C0006141",
+            "display": "Breast"
+          },
+          {
+            "code": "C0006255",
+            "display": "Bronchus"
+          },
+          {
+            "code": "C0006655",
+            "display": "Calcaneus"
+          },
+          {
+            "code": "C0007226",
+            "display": "Cardiovascular system"
+          },
+          {
+            "code": "C0728985",
+            "display": "Cervical spine"
+          },
+          {
+            "code": "C1562547",
+            "display": "Chest, Abdomen and Pelvis"
+          },
+          {
+            "code": "C1442171",
+            "display": "Chest and Abdomen"
+          },
+          {
+            "code": "C0008913",
+            "display": "Clavicle"
+          },
+          {
+            "code": "C0009194",
+            "display": "Coccyx"
+          },
+          {
+            "code": "C0009368",
+            "display": "Colon"
+          },
+          {
+            "code": "C0009437",
+            "display": "Common bile duct"
+          },
+          {
+            "code": "C0013303",
+            "display": "Duodenum"
+          },
+          {
+            "code": "C0013770",
+            "display": "Elbow joint"
+          },
+          {
+            "code": "C0229960",
+            "display": "Entire body"
+          },
+          {
+            "code": "C0014876",
+            "display": "Esophagus"
+          },
+          {
+            "code": "C1268410",
+            "display": "Esophagus, stomach and duodenum"
+          },
+          {
+            "code": "C0015385",
+            "display": "Extremity"
+          },
+          {
+            "code": "C0015392",
+            "display": "Eye"
+          },
+          {
+            "code": "C0700042",
+            "display": "Eye region"
+          },
+          {
+            "code": "C0015455",
+            "display": "Facial bones"
+          },
+          {
+            "code": "C0015811",
+            "display": "Femur"
+          },
+          {
+            "code": "C0016068",
+            "display": "Fibula"
+          },
+          {
+            "code": "C0016129",
+            "display": "Finger"
+          },
+          {
+            "code": "C0016504",
+            "display": "Foot"
+          },
+          {
+            "code": "C0016536",
+            "display": "Forearm"
+          },
+          {
+            "code": "C0016976",
+            "display": "Gallbladder"
+          },
+          {
+            "code": "C0018563",
+            "display": "Hand"
+          },
+          {
+            "code": "C0018670",
+            "display": "Head"
+          },
+          {
+            "code": "C0460004",
+            "display": "Head and Neck"
+          },
+          {
+            "code": "C0018787",
+            "display": "Heart"
+          },
+          {
+            "code": "C0019552",
+            "display": "Hip"
+          },
+          {
+            "code": "C0019558",
+            "display": "Hip Joint"
+          },
+          {
+            "code": "C0020164",
+            "display": "Humerus"
+          },
+          {
+            "code": "C0020885",
+            "display": "Ileum"
+          },
+          {
+            "code": "C0020889",
+            "display": "Ilium"
+          },
+          {
+            "code": "C1283773",
+            "display": "Internal Auditory Canal"
+          },
+          {
+            "code": "C0022359",
+            "display": "Jaw region"
+          },
+          {
+            "code": "C0022378",
+            "display": "Jejunum"
+          },
+          {
+            "code": "C0022742",
+            "display": "Knee"
+          },
+          {
+            "code": "C0021851",
+            "display": "Large intestine"
+          },
+          {
+            "code": "C0023078",
+            "display": "Larynx"
+          },
+          {
+            "code": "C0580674",
+            "display": "Liver and biliary structure"
+          },
+          {
+            "code": "C1140621",
+            "display": "Lower leg"
+          },
+          {
+            "code": "C0023216",
+            "display": "Lower limb"
+          },
+          {
+            "code": "C0230094",
+            "display": "Lower trunk"
+          },
+          {
+            "code": "C0024091",
+            "display": "Lumbar spine"
+          },
+          {
+            "code": "C0024687",
+            "display": "Mandible"
+          },
+          {
+            "code": "C0446908",
+            "display": "Mastoid bone"
+          },
+          {
+            "code": "C0024947",
+            "display": "Maxilla"
+          },
+          {
+            "code": "C0025066",
+            "display": "Mediastinum"
+          },
+          {
+            "code": "C0584890",
+            "display": "Muscle of lower limb"
+          },
+          {
+            "code": "C0559498",
+            "display": "Muscle of upper limb"
+          },
+          {
+            "code": "C0027422",
+            "display": "Nasal bone"
+          },
+          {
+            "code": "C0027530",
+            "display": "Neck"
+          },
+          {
+            "code": "C1562776",
+            "display": "Neck, Chest, Abdomen and Pelvis"
+          },
+          {
+            "code": "C1562378",
+            "display": "Neck, Chest and Abdomen"
+          },
+          {
+            "code": "C1562459",
+            "display": "Neck and Chest"
+          },
+          {
+            "code": "C0450102",
+            "display": "Optic canal"
+          },
+          {
+            "code": "C0029180",
+            "display": "Orbital structure"
+          },
+          {
+            "code": "C0030274",
+            "display": "Pancreas"
+          },
+          {
+            "code": "C0030288",
+            "display": "Pancreatic duct"
+          },
+          {
+            "code": "C1267614",
+            "display": "Pancreatic duct and bile duct systems"
+          },
+          {
+            "code": "C0030471",
+            "display": "Paranasal sinus"
+          },
+          {
+            "code": "C0030580",
+            "display": "Parotid gland"
+          },
+          {
+            "code": "C0030647",
+            "display": "Patella"
+          },
+          {
+            "code": "C0282611",
+            "display": "Phantom"
+          },
+          {
+            "code": "C0033572",
+            "display": "Prostate"
+          },
+          {
+            "code": "C0034896",
+            "display": "Rectum"
+          },
+          {
+            "code": "C0035561",
+            "display": "Rib"
+          },
+          {
+            "code": "C0036036",
+            "display": "Sacroiliac joint"
+          },
+          {
+            "code": "C0036037",
+            "display": "Sacrum"
+          },
+          {
+            "code": "C0036277",
+            "display": "Scapula"
+          },
+          {
+            "code": "C0036609",
+            "display": "Sella turcica"
+          },
+          {
+            "code": "C0278418",
+            "display": "Sesamoid bones of foot"
+          },
+          {
+            "code": "C0037004",
+            "display": "Shoulder"
+          },
+          {
+            "code": "C0037303",
+            "display": "Skull"
+          },
+          {
+            "code": "C0021852",
+            "display": "Small intestine"
+          },
+          {
+            "code": "C0037949",
+            "display": "Spine"
+          },
+          {
+            "code": "C4545211",
+            "display": "Spine and/or cord"
+          },
+          {
+            "code": "C0038291",
+            "display": "Sternoclavicular joint"
+          },
+          {
+            "code": "C0038293",
+            "display": "Sternum"
+          },
+          {
+            "code": "C0038351",
+            "display": "Stomach"
+          },
+          {
+            "code": "C0038556",
+            "display": "Submandibular gland"
+          },
+          {
+            "code": "C0039318",
+            "display": "Tarsal joint"
+          },
+          {
+            "code": "C0039493",
+            "display": "Temporomandibular joint"
+          },
+          {
+            "code": "C0039866",
+            "display": "Thigh"
+          },
+          {
+            "code": "C0581269",
+            "display": "Thoracic spine"
+          },
+          {
+            "code": "C0040067",
+            "display": "Thumb"
+          },
+          {
+            "code": "C0040357",
+            "display": "Toe"
+          },
+          {
+            "code": "C0040578",
+            "display": "Trachea"
+          },
+          {
+            "code": "C0460005",
+            "display": "Trunk"
+          },
+          {
+            "code": "C0446516",
+            "display": "Upper arm"
+          },
+          {
+            "code": "C1140618",
+            "display": "Upper limb"
+          },
+          {
+            "code": "C0230093",
+            "display": "Upper trunk"
+          },
+          {
+            "code": "C2317509",
+            "display": "Upper urinary tract"
+          },
+          {
+            "code": "C0041951",
+            "display": "Ureter"
+          },
+          {
+            "code": "C0041967",
+            "display": "Urethra"
+          },
+          {
+            "code": "C1267676",
+            "display": "Uterus and fallopian tubes"
+          },
+          {
+            "code": "C1266914",
+            "display": "Vertebral column and cranium"
+          },
+          {
+            "code": "C1322271",
+            "display": "Wrist joint"
+          },
+          {
+            "code": "C0043539",
+            "display": "Zygoma"
+          }
+        ]
+      }
+    ]
+  }
+}

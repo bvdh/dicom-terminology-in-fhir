@@ -1,0 +1,141 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GlobalShapeDescriptor",
+  "id": "dicom-cid-7477-GlobalShapeDescriptor",
+  "description": "Global Shape Descriptor",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7477-GlobalShapeDescriptor",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1270"
+    }
+  ],
+  "version": "20190121",
+  "title": "Global Shape Descriptor",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-IBSI",
+        "concept": [
+          {
+            "code": "RNU0",
+            "display": "Volume of Mesh"
+          },
+          {
+            "code": "YEKZ",
+            "display": "Volume from Voxel Summation"
+          },
+          {
+            "code": "C0JK",
+            "display": "Surface Area of Mesh"
+          },
+          {
+            "code": "2PR5",
+            "display": "Surface to Volume Ratio"
+          },
+          {
+            "code": "SKGS",
+            "display": "Compactness 1"
+          },
+          {
+            "code": "BQWJ",
+            "display": "Compactness 2"
+          },
+          {
+            "code": "KRCK",
+            "display": "Spherical Disproportion"
+          },
+          {
+            "code": "QCFX",
+            "display": "Sphericity"
+          },
+          {
+            "code": "25C7",
+            "display": "Asphericity"
+          },
+          {
+            "code": "KLMA",
+            "display": "Centre of Mass Shift"
+          },
+          {
+            "code": "L0JK",
+            "display": "Maximum 3D Diameter of a Mesh"
+          },
+          {
+            "code": "TDIC",
+            "display": "Major Axis in 3D Length"
+          },
+          {
+            "code": "P9VJ",
+            "display": "Minor Axis in 3D Length"
+          },
+          {
+            "code": "7J51",
+            "display": "Least Axis in 3D Length"
+          },
+          {
+            "code": "Q3CK",
+            "display": "Elongation"
+          },
+          {
+            "code": "N17B",
+            "display": "Flatness"
+          },
+          {
+            "code": "PBX1",
+            "display": "Volume Density in Frame of Reference Axis Aligned Bounding Box"
+          },
+          {
+            "code": "R59B",
+            "display": "Area Density in Frame of Reference Axis Aligned Bounding Box"
+          },
+          {
+            "code": "ZH1A",
+            "display": "Volume Density in Oriented Minimum Bounding Box"
+          },
+          {
+            "code": "IQYR",
+            "display": "Area Density in Oriented Minimum Bounding Box"
+          },
+          {
+            "code": "6BDE",
+            "display": "Volume Density in Approximate Enclosing Ellipsoid"
+          },
+          {
+            "code": "RDD2",
+            "display": "Area Density in Approximate Enclosing Ellipsoid"
+          },
+          {
+            "code": "SWZ1",
+            "display": "Volume Density in Minimum Volume Enclosing Ellipsoid"
+          },
+          {
+            "code": "BRI8",
+            "display": "Area Density in Minimum Volume Enclosing Ellipsoid"
+          },
+          {
+            "code": "R3ER",
+            "display": "Volume Density in Convex Hull"
+          },
+          {
+            "code": "7T7F",
+            "display": "Area Density in Convex Hull"
+          },
+          {
+            "code": "99N0",
+            "display": "Integrated Intensity"
+          },
+          {
+            "code": "N365",
+            "display": "Moran's I Index"
+          },
+          {
+            "code": "NPT7",
+            "display": "Geary's C Measure"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LateralityWithMedian",
+  "id": "dicom-cid-245-LateralityWithMedian",
+  "description": "Laterality with Median",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-245-LateralityWithMedian",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1267"
+    }
+  ],
+  "version": "20190524",
+  "title": "Laterality with Median",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-244-Laterality"
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130290",
+            "display": "Median"
+          }
+        ]
+      }
+    ]
+  }
+}

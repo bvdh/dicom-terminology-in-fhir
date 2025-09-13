@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "TreatmentDeliveryDeviceType",
+  "id": "dicom-cid-9551-TreatmentDeliveryDeviceType",
+  "description": "Treatment Delivery Device Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9551-TreatmentDeliveryDeviceType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1298"
+    }
+  ],
+  "version": "20190715",
+  "title": "Treatment Delivery Device Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130361",
+            "display": "Radiotherapy Treatment Device"
+          }
+        ]
+      }
+    ]
+  }
+}

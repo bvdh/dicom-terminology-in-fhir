@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RCSRegistrationMethodType",
+  "id": "dicom-cid-7100-RCSRegistrationMethodType",
+  "description": "RCS Registration Method Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7100-RCSRegistrationMethodType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.494"
+    }
+  ],
+  "version": "20200920",
+  "title": "RCS Registration Method Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "125021",
+            "display": "Frame of Reference Identity"
+          },
+          {
+            "code": "125023",
+            "display": "Acquisition Equipment Alignment"
+          },
+          {
+            "code": "125025",
+            "display": "Visual Alignment"
+          },
+          {
+            "code": "125022",
+            "display": "Fiducial Alignment"
+          },
+          {
+            "code": "125024",
+            "display": "Image Content-based Alignment"
+          },
+          {
+            "code": "125026",
+            "display": "Image Content and Fiducial Based Alignment"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RNFLSectorMeasurements",
+  "id": "dicom-cid-4283-RNFLSectorMeasurements",
+  "description": "RNFL Sector Measurements",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4283-RNFLSectorMeasurements",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1536"
+    }
+  ],
+  "version": "20250707",
+  "title": "RNFL Sector Measurements",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "131264",
+            "display": "RNFL average thickness"
+          },
+          {
+            "code": "131265",
+            "display": "RNFL inferior sector thickness"
+          },
+          {
+            "code": "131266",
+            "display": "RNFL superior sector thickness"
+          },
+          {
+            "code": "131267",
+            "display": "RNFL temporal sector thickness"
+          },
+          {
+            "code": "131268",
+            "display": "RNFL nasal sector thickness"
+          },
+          {
+            "code": "131269",
+            "display": "RNFL nasal-superior sector thickness"
+          },
+          {
+            "code": "131270",
+            "display": "RNFL nasal-inferior sector thickness"
+          },
+          {
+            "code": "131271",
+            "display": "RNFL temporal-inferior sector thickness"
+          },
+          {
+            "code": "131272",
+            "display": "RNFL temporal-superior sector thickness"
+          }
+        ]
+      }
+    ]
+  }
+}

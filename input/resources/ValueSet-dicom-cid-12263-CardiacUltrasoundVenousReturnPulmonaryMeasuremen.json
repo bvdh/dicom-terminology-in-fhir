@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiacUltrasoundVenousReturnPulmonaryMeasurement",
+  "id": "dicom-cid-12263-CardiacUltrasoundVenousReturnPulmonaryMeasuremen",
+  "description": "Cardiac Ultrasound Venous Return Pulmonary Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12263-CardiacUltrasoundVenousReturnPulmonaryMeasuremen",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.844"
+    }
+  ],
+  "version": "20100317",
+  "title": "Cardiac Ultrasound Venous Return Pulmonary Measurement",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12261-CardiacUltrasoundPulmonaryVein"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12262-CardiacUltrasoundPulmonaryValveMeasurement"
+        ]
+      }
+    ]
+  }
+}

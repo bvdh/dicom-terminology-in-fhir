@@ -1,0 +1,83 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "StressTestProcedure",
+  "id": "dicom-cid-3200-StressTestProcedure",
+  "description": "Stress Test Procedure",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3200-StressTestProcedure",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.755"
+    }
+  ],
+  "version": "20080927",
+  "title": "Stress Test Procedure",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "165079009",
+            "display": "Exercise stress test"
+          },
+          {
+            "code": "424064009",
+            "display": "Pharmacologic stress test"
+          },
+          {
+            "code": "428813002",
+            "display": "Pharmacologic and exercise stress test"
+          },
+          {
+            "code": "428685003",
+            "display": "Paced stress test"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "P0-006E4",
+            "display": "Exercise stress test"
+          },
+          {
+            "code": "P2-31107",
+            "display": "Pharmacologic stress test"
+          },
+          {
+            "code": "P2-31011",
+            "display": "Pharmacologic and exercise stress test"
+          },
+          {
+            "code": "P2-3110B",
+            "display": "Paced stress test"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0015260",
+            "display": "Exercise stress test"
+          },
+          {
+            "code": "C1827946",
+            "display": "Pharmacologic stress test"
+          },
+          {
+            "code": "C1998158",
+            "display": "Pharmacologic and exercise stress test"
+          },
+          {
+            "code": "C1997441",
+            "display": "Paced stress test"
+          }
+        ]
+      }
+    ]
+  }
+}

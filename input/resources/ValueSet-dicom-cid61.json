@@ -1,0 +1,9 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid61",
+  "id": "dicom-cid61",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid61",
+  "version": "None",
+  "title": "Time Relative to Procedure (Retired)"
+}

@@ -1,0 +1,572 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "InterventionalDrug",
+  "id": "dicom-cid-10-InterventionalDrug",
+  "description": "Interventional Drug",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10-InterventionalDrug",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.8"
+    }
+  ],
+  "version": "20200117",
+  "title": "Interventional Drug",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "419442005",
+            "display": "Ethanol"
+          },
+          {
+            "code": "6725000",
+            "display": "Methylene blue"
+          },
+          {
+            "code": "6425004",
+            "display": "Antihistamine"
+          },
+          {
+            "code": "73949004",
+            "display": "Atropine"
+          },
+          {
+            "code": "30492008",
+            "display": "Diuretic"
+          },
+          {
+            "code": "67507000",
+            "display": "Antiarrhythmic drug"
+          },
+          {
+            "code": "111139005",
+            "display": "Inotropic agent"
+          },
+          {
+            "code": "373263004",
+            "display": "Cardiac adrenergic blocking agent"
+          },
+          {
+            "code": "67440007",
+            "display": "Alpha-adrenergic blocking agent"
+          },
+          {
+            "code": "33252009",
+            "display": "beta-Adrenergic blocking agent"
+          },
+          {
+            "code": "796001",
+            "display": "Digoxin"
+          },
+          {
+            "code": "82573000",
+            "display": "Lidocaine"
+          },
+          {
+            "code": "61773008",
+            "display": "Lidocaine hydrochloride"
+          },
+          {
+            "code": "85272000",
+            "display": "Nifedipine"
+          },
+          {
+            "code": "55745002",
+            "display": "Propranolol"
+          },
+          {
+            "code": "31306009",
+            "display": "Quinidine"
+          },
+          {
+            "code": "47898004",
+            "display": "Verapamil"
+          },
+          {
+            "code": "1182007",
+            "display": "Hypotensive agent"
+          },
+          {
+            "code": "4382004",
+            "display": "Centrally acting hypotensive agent"
+          },
+          {
+            "code": "71759000",
+            "display": "Nitroglycerin"
+          },
+          {
+            "code": "10712001",
+            "display": "Glucagon preparation"
+          },
+          {
+            "code": "81839001",
+            "display": "Anticoagulant"
+          },
+          {
+            "code": "48603004",
+            "display": "Warfarin"
+          },
+          {
+            "code": "84812008",
+            "display": "Heparin"
+          },
+          {
+            "code": "3361000",
+            "display": "Anti-heparin agent"
+          },
+          {
+            "code": "64520006",
+            "display": "Protamine sulfate"
+          },
+          {
+            "code": "373746004",
+            "display": "Coagulant"
+          },
+          {
+            "code": "418326009",
+            "display": "Human fibrinogen"
+          },
+          {
+            "code": "26370007",
+            "display": "Hemostatic agent"
+          },
+          {
+            "code": "60533005",
+            "display": "Astringent drug"
+          },
+          {
+            "code": "59057006",
+            "display": "Antihemophilic factor preparation"
+          },
+          {
+            "code": "36176003",
+            "display": "Thrombin preparation"
+          },
+          {
+            "code": "387124009",
+            "display": "Thromboplastin"
+          },
+          {
+            "code": "13132007",
+            "display": "Dextran"
+          },
+          {
+            "code": "303960004",
+            "display": "Thrombolytic agent"
+          },
+          {
+            "code": "395889004",
+            "display": "Streptokinase"
+          },
+          {
+            "code": "59082006",
+            "display": "Urokinase preparation"
+          },
+          {
+            "code": "764170006",
+            "display": "Fibrinolysin"
+          },
+          {
+            "code": "19041007",
+            "display": "Tolazoline hydrocholoride"
+          },
+          {
+            "code": "387362001",
+            "display": "Epinephrine"
+          },
+          {
+            "code": "372787008",
+            "display": "Vasodilator"
+          },
+          {
+            "code": "372784001",
+            "display": "Papaverine"
+          },
+          {
+            "code": "372863003",
+            "display": "Phentolamine"
+          },
+          {
+            "code": "48988008",
+            "display": "Prostaglandin E1"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "C-21047",
+            "display": "Ethanol"
+          },
+          {
+            "code": "C-22947",
+            "display": "Methylene blue"
+          },
+          {
+            "code": "C-51000",
+            "display": "Antihistamine"
+          },
+          {
+            "code": "C-67770",
+            "display": "Atropine"
+          },
+          {
+            "code": "C-72000",
+            "display": "Diuretic"
+          },
+          {
+            "code": "C-80110",
+            "display": "Antiarrhythmic drug"
+          },
+          {
+            "code": "C-80120",
+            "display": "Inotropic agent"
+          },
+          {
+            "code": "F-6181D",
+            "display": "Cardiac adrenergic blocking agent"
+          },
+          {
+            "code": "C-80131",
+            "display": "Alpha-adrenergic blocking agent"
+          },
+          {
+            "code": "C-80135",
+            "display": "beta-Adrenergic blocking agent"
+          },
+          {
+            "code": "C-80330",
+            "display": "Digoxin"
+          },
+          {
+            "code": "C-80400",
+            "display": "Lidocaine"
+          },
+          {
+            "code": "C-80401",
+            "display": "Lidocaine hydrochloride"
+          },
+          {
+            "code": "C-80430",
+            "display": "Nifedipine"
+          },
+          {
+            "code": "C-80450",
+            "display": "Propranolol"
+          },
+          {
+            "code": "C-80460",
+            "display": "Quinidine"
+          },
+          {
+            "code": "C-80490",
+            "display": "Verapamil"
+          },
+          {
+            "code": "C-81100",
+            "display": "Hypotensive agent"
+          },
+          {
+            "code": "C-81120",
+            "display": "Centrally acting hypotensive agent"
+          },
+          {
+            "code": "C-81560",
+            "display": "Nitroglycerin"
+          },
+          {
+            "code": "C-A2010",
+            "display": "Glucagon preparation"
+          },
+          {
+            "code": "C-A6500",
+            "display": "Anticoagulant"
+          },
+          {
+            "code": "C-A6530",
+            "display": "Warfarin"
+          },
+          {
+            "code": "C-A6540",
+            "display": "Heparin"
+          },
+          {
+            "code": "C-A6700",
+            "display": "Anti-heparin agent"
+          },
+          {
+            "code": "C-A6710",
+            "display": "Protamine sulfate"
+          },
+          {
+            "code": "F-61642",
+            "display": "Coagulant"
+          },
+          {
+            "code": "F-D7011",
+            "display": "Human fibrinogen"
+          },
+          {
+            "code": "C-A7000",
+            "display": "Hemostatic agent"
+          },
+          {
+            "code": "C-A7001",
+            "display": "Astringent drug"
+          },
+          {
+            "code": "C-A7021",
+            "display": "Antihemophilic factor preparation"
+          },
+          {
+            "code": "F-6ACA0",
+            "display": "Thrombin preparation"
+          },
+          {
+            "code": "F-61C97",
+            "display": "Thromboplastin"
+          },
+          {
+            "code": "C-A7220",
+            "display": "Dextran"
+          },
+          {
+            "code": "C-50434",
+            "display": "Thrombolytic agent"
+          },
+          {
+            "code": "F-66005",
+            "display": "Streptokinase"
+          },
+          {
+            "code": "C-A7430",
+            "display": "Urokinase preparation"
+          },
+          {
+            "code": "C-815E1",
+            "display": "Tolazoline hydrocholoride"
+          },
+          {
+            "code": "F-B2135",
+            "display": "Epinephrine"
+          },
+          {
+            "code": "F-61957",
+            "display": "Vasodilator"
+          },
+          {
+            "code": "F-61955",
+            "display": "Papaverine"
+          },
+          {
+            "code": "F-6199B",
+            "display": "Phentolamine"
+          },
+          {
+            "code": "F-BA070",
+            "display": "Prostaglandin E1"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0001962",
+            "display": "Ethanol"
+          },
+          {
+            "code": "C0025746",
+            "display": "Methylene blue"
+          },
+          {
+            "code": "C0003360",
+            "display": "Antihistamine"
+          },
+          {
+            "code": "C0004259",
+            "display": "Atropine"
+          },
+          {
+            "code": "C0012798",
+            "display": "Diuretic"
+          },
+          {
+            "code": "C0003195",
+            "display": "Antiarrhythmic drug"
+          },
+          {
+            "code": "C0304509",
+            "display": "Inotropic agent"
+          },
+          {
+            "code": "C0007209",
+            "display": "Cardiotonic agent"
+          },
+          {
+            "code": "C1277070",
+            "display": "Cardiac adrenergic blocking agent"
+          },
+          {
+            "code": "C0001641",
+            "display": "Alpha-adrenergic blocking agent"
+          },
+          {
+            "code": "C0001645",
+            "display": "beta-Adrenergic blocking agent"
+          },
+          {
+            "code": "C0012265",
+            "display": "Digoxin"
+          },
+          {
+            "code": "C0023660",
+            "display": "Lidocaine"
+          },
+          {
+            "code": "C0546869",
+            "display": "Lidocaine hydrochloride"
+          },
+          {
+            "code": "C0028066",
+            "display": "Nifedipine"
+          },
+          {
+            "code": "C0033497",
+            "display": "Propranolol"
+          },
+          {
+            "code": "C0034414",
+            "display": "Quinidine"
+          },
+          {
+            "code": "C0042523",
+            "display": "Verapamil"
+          },
+          {
+            "code": "C0003364",
+            "display": "Hypotensive agent"
+          },
+          {
+            "code": "C0304523",
+            "display": "Centrally acting hypotensive agent"
+          },
+          {
+            "code": "C0017887",
+            "display": "Nitroglycerin"
+          },
+          {
+            "code": "C0017687",
+            "display": "Glucagon preparation"
+          },
+          {
+            "code": "C0003280",
+            "display": "Anticoagulant"
+          },
+          {
+            "code": "C0043031",
+            "display": "Warfarin"
+          },
+          {
+            "code": "C0019134",
+            "display": "Heparin"
+          },
+          {
+            "code": "C0304941",
+            "display": "Anti-heparin agent"
+          },
+          {
+            "code": "C0033602",
+            "display": "Protamine sulfate"
+          },
+          {
+            "code": "C0009117",
+            "display": "Coagulant"
+          },
+          {
+            "code": "C2587184",
+            "display": "Human fibrinogen"
+          },
+          {
+            "code": "C0019120",
+            "display": "Hemostatic agent"
+          },
+          {
+            "code": "C0004110",
+            "display": "Astringent drug"
+          },
+          {
+            "code": "C0301494",
+            "display": "Antihemophilic factor preparation"
+          },
+          {
+            "code": "C0040018",
+            "display": "Thrombin preparation"
+          },
+          {
+            "code": "C0040048",
+            "display": "Thromboplastin"
+          },
+          {
+            "code": "C0086140",
+            "display": "Dextran"
+          },
+          {
+            "code": "C0016018",
+            "display": "Thrombolytic agent"
+          },
+          {
+            "code": "C0038418",
+            "display": "Streptokinase"
+          },
+          {
+            "code": "C0042071",
+            "display": "Urokinase preparation"
+          },
+          {
+            "code": "C0016016",
+            "display": "Fibrinolysin"
+          },
+          {
+            "code": "C0770500",
+            "display": "Tolazoline hydrocholoride"
+          },
+          {
+            "code": "C0014563",
+            "display": "Epinephrine"
+          },
+          {
+            "code": "C0042402",
+            "display": "Vasodilator"
+          },
+          {
+            "code": "C0030350",
+            "display": "Papaverine"
+          },
+          {
+            "code": "C0031448",
+            "display": "Phentolamine"
+          },
+          {
+            "code": "C0002335",
+            "display": "Prostaglandin E1"
+          }
+        ]
+      },
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "concept": [
+          {
+            "code": "C78322",
+            "display": "Cardiotonic agent"
+          }
+        ]
+      }
+    ]
+  }
+}

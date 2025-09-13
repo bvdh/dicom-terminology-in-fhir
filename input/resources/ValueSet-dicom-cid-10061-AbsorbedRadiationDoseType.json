@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AbsorbedRadiationDoseType",
+  "id": "dicom-cid-10061-AbsorbedRadiationDoseType",
+  "description": "Absorbed Radiation Dose Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10061-AbsorbedRadiationDoseType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1155"
+    }
+  ],
+  "version": "20170405",
+  "title": "Absorbed Radiation Dose Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128531",
+            "display": "Maximum Absorbed Radiation Dose"
+          },
+          {
+            "code": "128532",
+            "display": "Minimum Absorbed Radiation Dose"
+          },
+          {
+            "code": "128533",
+            "display": "Mean Absorbed Radiation Dose"
+          },
+          {
+            "code": "128534",
+            "display": "Mode Absorbed Radiation Dose"
+          },
+          {
+            "code": "128539",
+            "display": "Median Absorbed Radiation Dose"
+          }
+        ]
+      }
+    ]
+  }
+}

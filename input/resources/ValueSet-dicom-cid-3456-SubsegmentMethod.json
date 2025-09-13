@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SubsegmentMethod",
+  "id": "dicom-cid-3456-SubsegmentMethod",
+  "description": "Sub-segment Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3456-SubsegmentMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.102"
+    }
+  ],
+  "version": "20040614",
+  "title": "Sub-segment Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122574",
+            "display": "Equidistant method"
+          },
+          {
+            "code": "122575",
+            "display": "User selected method"
+          }
+        ]
+      }
+    ]
+  }
+}

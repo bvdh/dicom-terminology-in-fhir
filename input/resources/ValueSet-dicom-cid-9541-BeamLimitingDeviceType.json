@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "BeamLimitingDeviceType",
+  "id": "dicom-cid-9541-BeamLimitingDeviceType",
+  "description": "Beam Limiting Device Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9541-BeamLimitingDeviceType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1288"
+    }
+  ],
+  "version": "20190715",
+  "title": "Beam Limiting Device Type",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9540-MovableBeamLimitingDeviceType"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9545-FixedBeamLimitingDeviceType"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "UsageExposureAmountQualitativeConcept",
+  "id": "dicom-cid-6093-UsageExposureAmountQualitativeConcept",
+  "description": "Usage/Exposure/Amount Qualitative Concept",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6093-UsageExposureAmountQualitativeConcept",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.415"
+    }
+  ],
+  "version": "20040112",
+  "title": "Usage/Exposure/Amount Qualitative Concept",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111581",
+            "display": "Relative dose amount"
+          },
+          {
+            "code": "111582",
+            "display": "Relative amount of exposure"
+          },
+          {
+            "code": "111583",
+            "display": "Relative amount of use"
+          }
+        ]
+      }
+    ]
+  }
+}

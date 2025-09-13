@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CADRADSAssessmentModifier",
+  "id": "dicom-cid-3022-CADRADSAssessmentModifier",
+  "description": "CAD-RADS Assessment Modifier",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3022-CADRADSAssessmentModifier",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1431"
+    }
+  ],
+  "version": "20211114",
+  "title": "CAD-RADS Assessment Modifier",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130732",
+            "display": "N - Non-diagnostic segments"
+          },
+          {
+            "code": "130733",
+            "display": "S - Stent"
+          },
+          {
+            "code": "130734",
+            "display": "G - Graft"
+          },
+          {
+            "code": "130735",
+            "display": "V - Vulnerable plaque"
+          }
+        ]
+      }
+    ]
+  }
+}

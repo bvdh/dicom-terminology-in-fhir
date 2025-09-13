@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProcedureLogTitle",
+  "id": "dicom-cid-3400-ProcedureLogTitle",
+  "description": "Procedure Log Title",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3400-ProcedureLogTitle",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.65"
+    }
+  ],
+  "version": "20030327",
+  "title": "Procedure Log Title",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121120",
+            "display": "Cath Lab Procedure Log"
+          }
+        ]
+      }
+    ]
+  }
+}

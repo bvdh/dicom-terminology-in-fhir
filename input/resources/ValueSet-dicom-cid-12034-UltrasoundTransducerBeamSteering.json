@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "UltrasoundTransducerBeamSteering",
+  "id": "dicom-cid-12034-UltrasoundTransducerBeamSteering",
+  "description": "Ultrasound Transducer Beam Steering",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12034-UltrasoundTransducerBeamSteering",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.809"
+    }
+  ],
+  "version": "20090409",
+  "title": "Ultrasound Transducer Beam Steering",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "125257",
+            "display": "Fixed beam direction"
+          },
+          {
+            "code": "125258",
+            "display": "Mechanical beam steering"
+          },
+          {
+            "code": "125259",
+            "display": "Phased beam steering"
+          }
+        ]
+      }
+    ]
+  }
+}

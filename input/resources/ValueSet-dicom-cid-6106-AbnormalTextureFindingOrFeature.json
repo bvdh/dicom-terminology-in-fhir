@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AbnormalTextureFindingOrFeature",
+  "id": "dicom-cid-6106-AbnormalTextureFindingOrFeature",
+  "description": "Original source of terms is [Fraser and Pare].",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6106-AbnormalTextureFindingOrFeature",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.426"
+    }
+  ],
+  "version": "20030108",
+  "title": "Abnormal Texture Finding or Feature",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112067",
+            "display": "Nodular pattern"
+          },
+          {
+            "code": "112065",
+            "display": "Reticulonodular pattern"
+          },
+          {
+            "code": "112004",
+            "display": "Abnormal interstitial pattern"
+          },
+          {
+            "code": "112128",
+            "display": "Granular pattern"
+          },
+          {
+            "code": "112106",
+            "display": "Honeycomb pattern"
+          },
+          {
+            "code": "112129",
+            "display": "Miliary pattern"
+          },
+          {
+            "code": "112130",
+            "display": "Mosaic pattern"
+          },
+          {
+            "code": "112113",
+            "display": "Reticular pattern"
+          },
+          {
+            "code": "112125",
+            "display": "Small irregular opacities"
+          }
+        ]
+      }
+    ]
+  }
+}

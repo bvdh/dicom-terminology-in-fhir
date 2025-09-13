@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MotionManagementSetupDevice",
+  "id": "dicom-cid-9578-MotionManagementSetupDevice",
+  "description": "Motion Management Setup Device",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9578-MotionManagementSetupDevice",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1425"
+    }
+  ],
+  "version": "20210906",
+  "title": "Motion Management Setup Device",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130650",
+            "display": "Coaching Device"
+          },
+          {
+            "code": "130651",
+            "display": "Patient Distraction Device"
+          }
+        ]
+      }
+    ]
+  }
+}

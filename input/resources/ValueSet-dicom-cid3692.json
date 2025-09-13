@@ -1,0 +1,10 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid3692",
+  "id": "dicom-cid3692",
+  "description": "Further information at",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid3692",
+  "version": "None",
+  "title": "ICD"
+}

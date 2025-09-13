@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PapillaryMuscleIncludedExcluded",
+  "id": "dicom-cid-3821-PapillaryMuscleIncludedExcluded",
+  "description": "Papillary Muscle Included/Excluded",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3821-PapillaryMuscleIncludedExcluded",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.277"
+    }
+  ],
+  "version": "20051103",
+  "title": "Papillary Muscle Included/Excluded",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122620",
+            "display": "Papillary Muscle Excluded"
+          },
+          {
+            "code": "122621",
+            "display": "Papillary Muscle Included"
+          }
+        ]
+      }
+    ]
+  }
+}

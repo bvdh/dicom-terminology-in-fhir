@@ -1,0 +1,335 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "HemodynamicWaveformSource",
+  "id": "dicom-cid-3003-HemodynamicWaveformSource",
+  "description": "Hemodynamic Waveform Source",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3003-HemodynamicWaveformSource",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.44"
+    }
+  ],
+  "version": "20020904",
+  "title": "Hemodynamic Waveform Source",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "128444004",
+            "display": "Aortic pressure waveform"
+          },
+          {
+            "code": "128453006",
+            "display": "Aortic valve pullback pressure waveform"
+          },
+          {
+            "code": "128446002",
+            "display": "Arterial pressure waveform"
+          },
+          {
+            "code": "128445003",
+            "display": "Central venous pressure waveform"
+          },
+          {
+            "code": "128455004",
+            "display": "Dye dilution cardiac output waveform"
+          },
+          {
+            "code": "128442000",
+            "display": "Femoral artery pressure waveform"
+          },
+          {
+            "code": "128434001",
+            "display": "Hemodynamic flow waveform"
+          },
+          {
+            "code": "128552003",
+            "display": "Hemodynamic impedance waveform"
+          },
+          {
+            "code": "128435000",
+            "display": "Hemodynamic oxygen saturation waveform"
+          },
+          {
+            "code": "128433007",
+            "display": "Hemodynamic pressure waveform"
+          },
+          {
+            "code": "128432002",
+            "display": "Hemodynamic waveform"
+          },
+          {
+            "code": "128441007",
+            "display": "Left atrium pressure waveform"
+          },
+          {
+            "code": "128438003",
+            "display": "Left ventricle pressure waveform"
+          },
+          {
+            "code": "128450009",
+            "display": "Mitral valve pullback pressure waveform"
+          },
+          {
+            "code": "128447006",
+            "display": "Pulmonary artery oxygen saturation waveform"
+          },
+          {
+            "code": "128443005",
+            "display": "Pulmonary artery pressure waveform"
+          },
+          {
+            "code": "128449009",
+            "display": "Pulmonary artery wedge pressure waveform"
+          },
+          {
+            "code": "128448001",
+            "display": "Pulmonary capillary wedge pressure waveform"
+          },
+          {
+            "code": "128452001",
+            "display": "Pulmonary valve pullback pressure waveform"
+          },
+          {
+            "code": "128436004",
+            "display": "Respiration impedance waveform"
+          },
+          {
+            "code": "128440008",
+            "display": "Right atrium pressure waveform"
+          },
+          {
+            "code": "128439006",
+            "display": "Right ventricle pressure waveform"
+          },
+          {
+            "code": "128437008",
+            "display": "Temperature waveform"
+          },
+          {
+            "code": "128454000",
+            "display": "Thermal cardiac output waveform"
+          },
+          {
+            "code": "128451008",
+            "display": "Tricuspid valve pullback pressure waveform"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-DB22",
+            "display": "Aortic pressure waveform"
+          },
+          {
+            "code": "G-DB31",
+            "display": "Aortic valve pullback pressure waveform"
+          },
+          {
+            "code": "G-DB24",
+            "display": "Arterial pressure waveform"
+          },
+          {
+            "code": "G-DB23",
+            "display": "Central venous pressure waveform"
+          },
+          {
+            "code": "G-DB33",
+            "display": "Dye dilution cardiac output waveform"
+          },
+          {
+            "code": "G-DB20",
+            "display": "Femoral artery pressure waveform"
+          },
+          {
+            "code": "G-DB12",
+            "display": "Hemodynamic flow waveform"
+          },
+          {
+            "code": "G-DB34",
+            "display": "Hemodynamic impedance waveform"
+          },
+          {
+            "code": "G-DB13",
+            "display": "Hemodynamic oxygen saturation waveform"
+          },
+          {
+            "code": "G-DB11",
+            "display": "Hemodynamic pressure waveform"
+          },
+          {
+            "code": "G-DB10",
+            "display": "Hemodynamic waveform"
+          },
+          {
+            "code": "G-DB19",
+            "display": "Left atrium pressure waveform"
+          },
+          {
+            "code": "G-DB16",
+            "display": "Left ventricle pressure waveform"
+          },
+          {
+            "code": "G-DB28",
+            "display": "Mitral valve pullback pressure waveform"
+          },
+          {
+            "code": "G-DB25",
+            "display": "Pulmonary artery oxygen saturation waveform"
+          },
+          {
+            "code": "G-DB21",
+            "display": "Pulmonary artery pressure waveform"
+          },
+          {
+            "code": "G-DB27",
+            "display": "Pulmonary artery wedge pressure waveform"
+          },
+          {
+            "code": "G-DB26",
+            "display": "Pulmonary capillary wedge pressure waveform"
+          },
+          {
+            "code": "G-DB30",
+            "display": "Pulmonary valve pullback pressure waveform"
+          },
+          {
+            "code": "G-DB14",
+            "display": "Respiration impedance waveform"
+          },
+          {
+            "code": "G-DB18",
+            "display": "Right atrium pressure waveform"
+          },
+          {
+            "code": "G-DB17",
+            "display": "Right ventricle pressure waveform"
+          },
+          {
+            "code": "G-DB15",
+            "display": "Temperature waveform"
+          },
+          {
+            "code": "G-DB32",
+            "display": "Thermal cardiac output waveform"
+          },
+          {
+            "code": "G-DB29",
+            "display": "Tricuspid valve pullback pressure waveform"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1264738",
+            "display": "Aortic pressure waveform"
+          },
+          {
+            "code": "C1264746",
+            "display": "Aortic valve pullback pressure waveform"
+          },
+          {
+            "code": "C0444695",
+            "display": "Arterial pressure waveform"
+          },
+          {
+            "code": "C1264739",
+            "display": "Central venous pressure waveform"
+          },
+          {
+            "code": "C1264748",
+            "display": "Dye dilution cardiac output waveform"
+          },
+          {
+            "code": "C1264737",
+            "display": "Femoral artery pressure waveform"
+          },
+          {
+            "code": "C1264729",
+            "display": "Hemodynamic flow waveform"
+          },
+          {
+            "code": "C1264749",
+            "display": "Hemodynamic impedance waveform"
+          },
+          {
+            "code": "C1264730",
+            "display": "Hemodynamic oxygen saturation waveform"
+          },
+          {
+            "code": "C1264728",
+            "display": "Hemodynamic pressure waveform"
+          },
+          {
+            "code": "C1264727",
+            "display": "Hemodynamic waveform"
+          },
+          {
+            "code": "C1264736",
+            "display": "Left atrium pressure waveform"
+          },
+          {
+            "code": "C1264733",
+            "display": "Left ventricle pressure waveform"
+          },
+          {
+            "code": "C1264743",
+            "display": "Mitral valve pullback pressure waveform"
+          },
+          {
+            "code": "C1264740",
+            "display": "Pulmonary artery oxygen saturation waveform"
+          },
+          {
+            "code": "C0428729",
+            "display": "Pulmonary artery pressure waveform"
+          },
+          {
+            "code": "C1264742",
+            "display": "Pulmonary artery wedge pressure waveform"
+          },
+          {
+            "code": "C1264741",
+            "display": "Pulmonary capillary wedge pressure waveform"
+          },
+          {
+            "code": "C1264745",
+            "display": "Pulmonary valve pullback pressure waveform"
+          },
+          {
+            "code": "C1264731",
+            "display": "Respiration impedance waveform"
+          },
+          {
+            "code": "C1264735",
+            "display": "Right atrium pressure waveform"
+          },
+          {
+            "code": "C1264734",
+            "display": "Right ventricle pressure waveform"
+          },
+          {
+            "code": "C1264732",
+            "display": "Temperature waveform"
+          },
+          {
+            "code": "C1264747",
+            "display": "Thermal cardiac output waveform"
+          },
+          {
+            "code": "C1264744",
+            "display": "Tricuspid valve pullback pressure waveform"
+          }
+        ]
+      }
+    ]
+  }
+}

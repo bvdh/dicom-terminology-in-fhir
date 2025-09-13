@@ -1,0 +1,9 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid3683",
+  "id": "dicom-cid3683",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid3683",
+  "version": "None",
+  "title": "Modifier (Retired)"
+}

@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "BreastLinearMeasurement",
+  "id": "dicom-cid-6165-BreastLinearMeasurement",
+  "description": "Breast Linear Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6165-BreastLinearMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.479"
+    }
+  ],
+  "version": "20050822",
+  "title": "Breast Linear Measurement",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7470-LinearMeasurement"
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121242",
+            "display": "Distance from nipple"
+          },
+          {
+            "code": "121243",
+            "display": "Distance from skin"
+          },
+          {
+            "code": "121244",
+            "display": "Distance from chest wall"
+          }
+        ]
+      }
+    ]
+  }
+}

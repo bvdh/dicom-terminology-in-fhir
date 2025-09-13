@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RegionalExtent",
+  "id": "dicom-cid-3461-RegionalExtent",
+  "description": "Regional Extent",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3461-RegionalExtent",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.105"
+    }
+  ],
+  "version": "20040614",
+  "title": "Regional Extent",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122466",
+            "display": "Single LAD Region in RAO Projection"
+          },
+          {
+            "code": "122467",
+            "display": "Single RCA Region in RAO Projection"
+          },
+          {
+            "code": "122468",
+            "display": "Multiple LAD Region in RAO Projection"
+          },
+          {
+            "code": "122469",
+            "display": "Multiple RCA Region in RAO Projection"
+          },
+          {
+            "code": "122470",
+            "display": "LAD Region in LAO Projection"
+          },
+          {
+            "code": "122471",
+            "display": "RCA Region in LAO Projection"
+          },
+          {
+            "code": "122472",
+            "display": "CFX Region in LAO Projection"
+          }
+        ]
+      }
+    ]
+  }
+}

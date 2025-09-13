@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OxygenAdministrationAction",
+  "id": "dicom-cid-3530-OxygenAdministrationAction",
+  "description": "Oxygen Administration Action",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3530-OxygenAdministrationAction",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.144"
+    }
+  ],
+  "version": "20030327",
+  "title": "Oxygen Administration Action",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121161",
+            "display": "Begin oxygen administration"
+          },
+          {
+            "code": "121162",
+            "display": "End oxygen administration"
+          }
+        ]
+      }
+    ]
+  }
+}

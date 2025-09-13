@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GanglionCellSectorMethods",
+  "id": "dicom-cid-4289-GanglionCellSectorMethods",
+  "description": "Ganglion Cell Sector Methods",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4289-GanglionCellSectorMethods",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1542"
+    }
+  ],
+  "version": "20250707",
+  "title": "Ganglion Cell Sector Methods",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "131301",
+            "display": "Semicircular sectors"
+          },
+          {
+            "code": "131302",
+            "display": "Quadrant sectors"
+          },
+          {
+            "code": "131303",
+            "display": "SNIT rectangular sectors"
+          },
+          {
+            "code": "131304",
+            "display": "Elliptical annulus sectors"
+          },
+          {
+            "code": "131307",
+            "display": "Posterior pole 8x8 grid"
+          }
+        ]
+      }
+    ]
+  }
+}

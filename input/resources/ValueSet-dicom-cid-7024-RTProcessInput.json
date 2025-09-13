@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RTProcessInput",
+  "id": "dicom-cid-7024-RTProcessInput",
+  "description": "The concepts in the CID are intended to be a declarative statement to represent the potential input of an operation, without implying that this operation is part of a particular workflow, that this input will be used at all in any subsequent operation, that only parts of the referenced instances will be used, or that instances other than those referenced will be used as input.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7024-RTProcessInput",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1136"
+    }
+  ],
+  "version": "20160908",
+  "title": "RT Process Input",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128180",
+            "display": "For RT Workflow"
+          },
+          {
+            "code": "128197",
+            "display": "For RT Prescription"
+          },
+          {
+            "code": "128198",
+            "display": "For RT Treatment Planning"
+          },
+          {
+            "code": "128200",
+            "display": "For RT Plan Summation"
+          },
+          {
+            "code": "128201",
+            "display": "For Physician Review"
+          },
+          {
+            "code": "128202",
+            "display": "For Physicist Review"
+          },
+          {
+            "code": "128204",
+            "display": "For Plan Quality Assurance"
+          },
+          {
+            "code": "128205",
+            "display": "For Machine Quality Assurance"
+          },
+          {
+            "code": "128206",
+            "display": "For Patient Setup Verification"
+          }
+        ]
+      }
+    ]
+  }
+}

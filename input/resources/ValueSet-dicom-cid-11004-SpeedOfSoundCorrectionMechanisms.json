@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SpeedOfSoundCorrectionMechanisms",
+  "id": "dicom-cid-11004-SpeedOfSoundCorrectionMechanisms",
+  "description": "Speed of Sound Correction Mechanisms",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-11004-SpeedOfSoundCorrectionMechanisms",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1474"
+    }
+  ],
+  "version": "20230626",
+  "title": "Speed of Sound Correction Mechanisms",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130818",
+            "display": "Uniform Speed of Sound Correction"
+          },
+          {
+            "code": "130819",
+            "display": "Dual Speed of Sound Correction"
+          },
+          {
+            "code": "130820",
+            "display": "Speed of Sound Map Correction"
+          }
+        ]
+      }
+    ]
+  }
+}

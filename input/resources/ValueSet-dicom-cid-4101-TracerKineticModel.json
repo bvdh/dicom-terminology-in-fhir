@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "TracerKineticModel",
+  "id": "dicom-cid-4101-TracerKineticModel",
+  "description": "Tracer Kinetic Model",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4101-TracerKineticModel",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.986"
+    }
+  ],
+  "version": "20160316",
+  "title": "Tracer Kinetic Model",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "126340",
+            "display": "Standard Tofts Model"
+          },
+          {
+            "code": "126341",
+            "display": "Extended Tofts Model"
+          },
+          {
+            "code": "126343",
+            "display": "First Pass Leakage Profile Model"
+          },
+          {
+            "code": "126344",
+            "display": "Shutter-Speed Model"
+          },
+          {
+            "code": "126345",
+            "display": "Gamma Capillary Transit Time Model"
+          },
+          {
+            "code": "126346",
+            "display": "Adiabatic Tissue Homogeneity Model"
+          },
+          {
+            "code": "126347",
+            "display": "Two Compartment Exchange Model"
+          }
+        ]
+      }
+    ]
+  }
+}

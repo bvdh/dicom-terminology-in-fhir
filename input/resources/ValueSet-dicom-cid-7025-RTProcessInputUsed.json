@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RTProcessInputUsed",
+  "id": "dicom-cid-7025-RTProcessInputUsed",
+  "description": "The concepts in the CID are intended to be a declarative statement to represent input that has been used in an operation, without implying that this operation was part of a particular workflow or how this input was collected.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7025-RTProcessInputUsed",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1137"
+    }
+  ],
+  "version": "20160908",
+  "title": "RT Process Input Used",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128209",
+            "display": "RT Workflow Input Used"
+          },
+          {
+            "code": "128210",
+            "display": "RT Prescription Input Used"
+          },
+          {
+            "code": "128211",
+            "display": "RT Treatment Planning Input Used"
+          },
+          {
+            "code": "128212",
+            "display": "RT Plan Summation Input Used"
+          },
+          {
+            "code": "128213",
+            "display": "Physician Review Input Used"
+          },
+          {
+            "code": "128214",
+            "display": "Physicist Review Input Used"
+          },
+          {
+            "code": "128215",
+            "display": "Plan Quality Assurance Input Used"
+          },
+          {
+            "code": "128216",
+            "display": "Machine Quality Assurance Input Used"
+          },
+          {
+            "code": "128217",
+            "display": "Patient Setup Verification Input Used"
+          }
+        ]
+      }
+    ]
+  }
+}

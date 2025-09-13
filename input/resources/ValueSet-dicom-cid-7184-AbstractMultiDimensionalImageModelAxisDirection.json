@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AbstractMultiDimensionalImageModelAxisDirection",
+  "id": "dicom-cid-7184-AbstractMultiDimensionalImageModelAxisDirection",
+  "description": "Abstract Multi-dimensional Image Model Axis Direction",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7184-AbstractMultiDimensionalImageModelAxisDirection",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.921"
+    }
+  ],
+  "version": "20100825",
+  "title": "Abstract Multi-dimensional Image Model Axis Direction",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110860",
+            "display": "Left-Right Axis"
+          },
+          {
+            "code": "110861",
+            "display": "Head-Foot Axis"
+          },
+          {
+            "code": "110862",
+            "display": "Anterior-Posterior Axis"
+          },
+          {
+            "code": "110863",
+            "display": "Apex-Base Axis"
+          },
+          {
+            "code": "110864",
+            "display": "Anterior-Inferior Axis"
+          },
+          {
+            "code": "110865",
+            "display": "Septum-Wall Axis"
+          }
+        ]
+      }
+    ]
+  }
+}

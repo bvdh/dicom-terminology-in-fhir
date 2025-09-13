@@ -1,0 +1,1314 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Radiopharmaceutical",
+  "id": "dicom-cid-25-Radiopharmaceutical",
+  "description": "Radiopharmaceutical",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-25-Radiopharmaceutical",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.17"
+    }
+  ],
+  "version": "20201116",
+  "title": "Radiopharmaceutical",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "2942001",
+            "display": "Carbon^14^ D-xylose"
+          },
+          {
+            "code": "42417005",
+            "display": "Carbon^14^ triolein"
+          },
+          {
+            "code": "17069007",
+            "display": "Chromic phosphate P^32^"
+          },
+          {
+            "code": "4693006",
+            "display": "Chromium^51^ albumin"
+          },
+          {
+            "code": "6973004",
+            "display": "Chromium^51^ chloride"
+          },
+          {
+            "code": "78686003",
+            "display": "Copper^64^ acetate"
+          },
+          {
+            "code": "88166005",
+            "display": "Copper^64^ versenate"
+          },
+          {
+            "code": "29460005",
+            "display": "Copper^67^ ceruloplasmin"
+          },
+          {
+            "code": "187006",
+            "display": "Cyanocobalamin Co^57^"
+          },
+          {
+            "code": "5692007",
+            "display": "Cyanocobalamin Co^58^"
+          },
+          {
+            "code": "72159005",
+            "display": "Cyanocobalamin Co^60^"
+          },
+          {
+            "code": "17600005",
+            "display": "Diagnostic radioisotope"
+          },
+          {
+            "code": "31192007",
+            "display": "Ferrous chloride Fe^59^"
+          },
+          {
+            "code": "87958003",
+            "display": "Ferrous citrate Fe^59^"
+          },
+          {
+            "code": "125001",
+            "display": "Ferrous sulfate Fe^59^"
+          },
+          {
+            "code": "71636003",
+            "display": "Fibrinogen I^123^"
+          },
+          {
+            "code": "35321007",
+            "display": "Fluorodeoxyglucose F^18^"
+          },
+          {
+            "code": "73065000",
+            "display": "Gallium^67^ citrate"
+          },
+          {
+            "code": "6516008",
+            "display": "Indium^111^-Fe(OH) >3<"
+          },
+          {
+            "code": "424570009",
+            "display": "Indium^111^oxyquinoline"
+          },
+          {
+            "code": "29218008",
+            "display": "Indium^111^ pentetate"
+          },
+          {
+            "code": "81621007",
+            "display": "Indium^111^ red cell label"
+          },
+          {
+            "code": "78570003",
+            "display": "Indium^111^ transferrin"
+          },
+          {
+            "code": "446871009",
+            "display": "Indium^111 Capromab Pendetide"
+          },
+          {
+            "code": "395742005",
+            "display": "Indium^111 Chloride"
+          },
+          {
+            "code": "446800006",
+            "display": "Indium^111 Pentetreotide"
+          },
+          {
+            "code": "90617008",
+            "display": "Indium^113m^ bleomycin"
+          },
+          {
+            "code": "767418009",
+            "display": "Indium^113m^ chloride"
+          },
+          {
+            "code": "42728008",
+            "display": "Indium^113m^ pentetate"
+          },
+          {
+            "code": "72015003",
+            "display": "Iodinated I^125^ albumin"
+          },
+          {
+            "code": "64488003",
+            "display": "Iodinated I^125^ human serum albumin"
+          },
+          {
+            "code": "69839009",
+            "display": "Iodinated I^125^ povidone"
+          },
+          {
+            "code": "70154008",
+            "display": "Iodinated I^125^ sodium iodine"
+          },
+          {
+            "code": "55814006",
+            "display": "Iodinated I^131^ aggregated albumin"
+          },
+          {
+            "code": "39200002",
+            "display": "Iodinated I^131^ albumin"
+          },
+          {
+            "code": "52408003",
+            "display": "Iodinated I^131^ gamma globulin"
+          },
+          {
+            "code": "447134003",
+            "display": "Iodine^123 15-(4-Iodophenyl)-3(R,S)-Methylpentadecanoic Acid"
+          },
+          {
+            "code": "395787009",
+            "display": "Iodine^123 3-Iodobenzylguanidine MIBG"
+          },
+          {
+            "code": "35884005",
+            "display": "Iodine^131^ polyvinylpyrrolidone"
+          },
+          {
+            "code": "395789007",
+            "display": "Iodine^131 3-Iodobenzylguanidine MIBG"
+          },
+          {
+            "code": "68967007",
+            "display": "Iodocholesterol I^131^"
+          },
+          {
+            "code": "33785000",
+            "display": "Iodohippurate I^123^ sodium"
+          },
+          {
+            "code": "36900006",
+            "display": "Iodohippurate I^125^ sodium"
+          },
+          {
+            "code": "33271006",
+            "display": "Iodohippurate I^131^ sodium"
+          },
+          {
+            "code": "78481003",
+            "display": "Iofetamine I^123^ hydrochloride"
+          },
+          {
+            "code": "429296007",
+            "display": "Ioflupane I^123^"
+          },
+          {
+            "code": "55673009",
+            "display": "Iothalamate sodium I^125^"
+          },
+          {
+            "code": "60459006",
+            "display": "Iron Fe^59^ labeled dextran"
+          },
+          {
+            "code": "61716009",
+            "display": "Krypton^81m"
+          },
+          {
+            "code": "781259000",
+            "display": "Lutetium^177^ DOTATATE"
+          },
+          {
+            "code": "22979004",
+            "display": "Oleic acid I^125^"
+          },
+          {
+            "code": "29348008",
+            "display": "Pentetate calcium trisodium Yb^169^"
+          },
+          {
+            "code": "111161000",
+            "display": "Potassium carbonate K^42^"
+          },
+          {
+            "code": "36641004",
+            "display": "Potassium chloride K^42^"
+          },
+          {
+            "code": "47729008",
+            "display": "Potassium chloride K^43^"
+          },
+          {
+            "code": "724024003",
+            "display": "Radium^223^ dichloride"
+          },
+          {
+            "code": "111159009",
+            "display": "Rose Bengal sodium I^131^"
+          },
+          {
+            "code": "395894004",
+            "display": "Selenium^75^ HCAT"
+          },
+          {
+            "code": "88473009",
+            "display": "Selenomethionione Se^75^"
+          },
+          {
+            "code": "6257000",
+            "display": "Sodium chloride Na^22^"
+          },
+          {
+            "code": "31527000",
+            "display": "Sodium chloride Na^24^"
+          },
+          {
+            "code": "62517004",
+            "display": "Sodium chromate Cr^51^"
+          },
+          {
+            "code": "129501009",
+            "display": "Sodium fluoride F^18^"
+          },
+          {
+            "code": "67690002",
+            "display": "Sodium iodide I^123^"
+          },
+          {
+            "code": "111160004",
+            "display": "Sodium iodide I^131^"
+          },
+          {
+            "code": "19495007",
+            "display": "Sodium pertechnetate Tc^99m^"
+          },
+          {
+            "code": "10781003",
+            "display": "Sodium phosphate P^32^"
+          },
+          {
+            "code": "69076006",
+            "display": "Strontium chloride Sr^85^"
+          },
+          {
+            "code": "38424001",
+            "display": "Strontium chloride Sr^87^"
+          },
+          {
+            "code": "125701003",
+            "display": "Strontium chloride Sr^89^"
+          },
+          {
+            "code": "8858006",
+            "display": "Strontium nitrate Sr^85^"
+          },
+          {
+            "code": "31953001",
+            "display": "Strontium nitrate Sr^87^"
+          },
+          {
+            "code": "446534003",
+            "display": "Technetium^99m Galactosyl Human Serum Albumin Diethylenetriamine"
+          },
+          {
+            "code": "447125008",
+            "display": "Technetium^99m labeled carbon"
+          },
+          {
+            "code": "446536001",
+            "display": "Technetium^99m Mercaptoacetyl triglycine MAG3"
+          },
+          {
+            "code": "447126009",
+            "display": "Technetium^99m N-pyridoxyl-5-methyltryptophan"
+          },
+          {
+            "code": "447127000",
+            "display": "Technetium^99m Phytate"
+          },
+          {
+            "code": "447128005",
+            "display": "Technetium^99m Stannous Colloid"
+          },
+          {
+            "code": "55494003",
+            "display": "Technetium Tc^99c^ albumin microspheres"
+          },
+          {
+            "code": "85693008",
+            "display": "Technetium Tc^99m^ aggregated albumin"
+          },
+          {
+            "code": "415704007",
+            "display": "Technetium Tc^99m^ depreotide"
+          },
+          {
+            "code": "3040004",
+            "display": "Technetium Tc^99m^ disofenin"
+          },
+          {
+            "code": "766886003",
+            "display": "Technetium Tc^99m^ bicisate"
+          },
+          {
+            "code": "77313009",
+            "display": "Technetium Tc^99m^ exametazime"
+          },
+          {
+            "code": "87853006",
+            "display": "Technetium Tc^99m^ iron ascorbate"
+          },
+          {
+            "code": "7281000",
+            "display": "Technetium Tc^99m^ lidofenin"
+          },
+          {
+            "code": "4832001",
+            "display": "Technetium Tc^99m^ mebrofenin"
+          },
+          {
+            "code": "96390006",
+            "display": "Technetium Tc^99m^ medronate"
+          },
+          {
+            "code": "81761004",
+            "display": "Technetium Tc^99m^ microaggregated albumin"
+          },
+          {
+            "code": "87410002",
+            "display": "Technetium Tc^99m^ N-substituted iminodiacetate"
+          },
+          {
+            "code": "53951001",
+            "display": "Technetium Tc^99m^ oxidronate"
+          },
+          {
+            "code": "430276001",
+            "display": "Technetium Tc^99m^ pentetate"
+          },
+          {
+            "code": "764821009",
+            "display": "Technetium Tc^99m^ pyrophosphate"
+          },
+          {
+            "code": "79610008",
+            "display": "Technetium Tc^99m^ serum albumin"
+          },
+          {
+            "code": "424299003",
+            "display": "Technetium Tc^99m^ sestamibi"
+          },
+          {
+            "code": "45849009",
+            "display": "Technetium Tc^99m^ sodium glucoheptonate"
+          },
+          {
+            "code": "111162007",
+            "display": "Technetium Tc^99m^ stannous etidronate"
+          },
+          {
+            "code": "24511001",
+            "display": "Technetium Tc^99m^ succimer"
+          },
+          {
+            "code": "5931004",
+            "display": "Technetium Tc^99m^ sulfur colloid"
+          },
+          {
+            "code": "89818005",
+            "display": "Technetium Tc^99m^ tagged red cells"
+          },
+          {
+            "code": "424318009",
+            "display": "Technetium Tc^99m^Teboroxime"
+          },
+          {
+            "code": "424118002",
+            "display": "Technetium Tc^99m^Tetrofosmin"
+          },
+          {
+            "code": "73685002",
+            "display": "Thallous chloride Tl^201^"
+          },
+          {
+            "code": "439007",
+            "display": "Therapeutic radioisotope"
+          },
+          {
+            "code": "780783002",
+            "display": "Xenon^133^ gas"
+          },
+          {
+            "code": "764678003",
+            "display": "Yttrium^90^ microspheres"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "C-B1302",
+            "display": "Carbon^14^ D-xylose"
+          },
+          {
+            "code": "C-B1300",
+            "display": "Carbon^14^ triolein"
+          },
+          {
+            "code": "C-B1140",
+            "display": "Chromic phosphate P^32^"
+          },
+          {
+            "code": "C-B1012",
+            "display": "Chromium^51^ albumin"
+          },
+          {
+            "code": "C-B1013",
+            "display": "Chromium^51^ chloride"
+          },
+          {
+            "code": "C-B1017",
+            "display": "Copper^64^ acetate"
+          },
+          {
+            "code": "C-B1016",
+            "display": "Copper^64^ versenate"
+          },
+          {
+            "code": "C-B1018",
+            "display": "Copper^67^ ceruloplasmin"
+          },
+          {
+            "code": "C-B1021",
+            "display": "Cyanocobalamin Co^57^"
+          },
+          {
+            "code": "C-B1022",
+            "display": "Cyanocobalamin Co^58^"
+          },
+          {
+            "code": "C-B1023",
+            "display": "Cyanocobalamin Co^60^"
+          },
+          {
+            "code": "C-B1000",
+            "display": "Diagnostic radioisotope"
+          },
+          {
+            "code": "C-B1122",
+            "display": "Ferrous chloride Fe^59^"
+          },
+          {
+            "code": "C-B1121",
+            "display": "Ferrous citrate Fe^59^"
+          },
+          {
+            "code": "C-B1123",
+            "display": "Ferrous sulfate Fe^59^"
+          },
+          {
+            "code": "C-B1082",
+            "display": "Fibrinogen I^123^"
+          },
+          {
+            "code": "C-B1031",
+            "display": "Fluorodeoxyglucose F^18^"
+          },
+          {
+            "code": "C-B1041",
+            "display": "Gallium^67^ citrate"
+          },
+          {
+            "code": "C-B1065",
+            "display": "Indium^111^-Fe(OH) >3<"
+          },
+          {
+            "code": "C-B1135",
+            "display": "Indium^111^oxyquinoline"
+          },
+          {
+            "code": "C-B1061",
+            "display": "Indium^111^ pentetate"
+          },
+          {
+            "code": "C-B1066",
+            "display": "Indium^111^ red cell label"
+          },
+          {
+            "code": "C-B1067",
+            "display": "Indium^111^ transferrin"
+          },
+          {
+            "code": "C-145AB",
+            "display": "Indium^111 Capromab Pendetide"
+          },
+          {
+            "code": "C-14512",
+            "display": "Indium^111 Chloride"
+          },
+          {
+            "code": "C-145AA",
+            "display": "Indium^111 Pentetreotide"
+          },
+          {
+            "code": "C-B1068",
+            "display": "Indium^113m^ bleomycin"
+          },
+          {
+            "code": "C-B1070",
+            "display": "Indium^113m^ pentetate"
+          },
+          {
+            "code": "C-B1084",
+            "display": "Iodinated I^125^ albumin"
+          },
+          {
+            "code": "C-B1100",
+            "display": "Iodinated I^125^ human serum albumin"
+          },
+          {
+            "code": "C-B1096",
+            "display": "Iodinated I^125^ povidone"
+          },
+          {
+            "code": "C-B1099",
+            "display": "Iodinated I^125^ sodium iodine"
+          },
+          {
+            "code": "C-B1090",
+            "display": "Iodinated I^131^ aggregated albumin"
+          },
+          {
+            "code": "C-B1089",
+            "display": "Iodinated I^131^ albumin"
+          },
+          {
+            "code": "C-B1111",
+            "display": "Iodinated I^131^ gamma globulin"
+          },
+          {
+            "code": "C-114AB",
+            "display": "Iodine^123 15-(4-Iodophenyl)-3(R,S)-Methylpentadecanoic Acid"
+          },
+          {
+            "code": "C-B110E",
+            "display": "Iodine^123 3-Iodobenzylguanidine MIBG"
+          },
+          {
+            "code": "C-B1109",
+            "display": "Iodine^131^ polyvinylpyrrolidone"
+          },
+          {
+            "code": "C-B112D",
+            "display": "Iodine^131 3-Iodobenzylguanidine MIBG"
+          },
+          {
+            "code": "C-B1087",
+            "display": "Iodocholesterol I^131^"
+          },
+          {
+            "code": "C-B1095",
+            "display": "Iodohippurate I^123^ sodium"
+          },
+          {
+            "code": "C-B1105",
+            "display": "Iodohippurate I^125^ sodium"
+          },
+          {
+            "code": "C-B1091",
+            "display": "Iodohippurate I^131^ sodium"
+          },
+          {
+            "code": "C-B1108",
+            "display": "Iofetamine I^123^ hydrochloride"
+          },
+          {
+            "code": "C-B07EC",
+            "display": "Ioflupane I^123^"
+          },
+          {
+            "code": "C-B1088",
+            "display": "Iothalamate sodium I^125^"
+          },
+          {
+            "code": "C-B1124",
+            "display": "Iron Fe^59^ labeled dextran"
+          },
+          {
+            "code": "C-173A5",
+            "display": "Krypton^81m"
+          },
+          {
+            "code": "C-B1083",
+            "display": "Oleic acid I^125^"
+          },
+          {
+            "code": "C-B1251",
+            "display": "Pentetate calcium trisodium Yb^169^"
+          },
+          {
+            "code": "C-B1151",
+            "display": "Potassium carbonate K^42^"
+          },
+          {
+            "code": "C-B1152",
+            "display": "Potassium chloride K^42^"
+          },
+          {
+            "code": "C-B1150",
+            "display": "Potassium chloride K^43^"
+          },
+          {
+            "code": "C-B1085",
+            "display": "Rose Bengal sodium I^131^"
+          },
+          {
+            "code": "C-B10FB",
+            "display": "Selenium^75^ HCAT"
+          },
+          {
+            "code": "C-B1171",
+            "display": "Selenomethionione Se^75^"
+          },
+          {
+            "code": "C-B1176",
+            "display": "Sodium chloride Na^22^"
+          },
+          {
+            "code": "C-B1175",
+            "display": "Sodium chloride Na^24^"
+          },
+          {
+            "code": "C-B1011",
+            "display": "Sodium chromate Cr^51^"
+          },
+          {
+            "code": "C-B1032",
+            "display": "Sodium fluoride F^18^"
+          },
+          {
+            "code": "C-B1081",
+            "display": "Sodium iodide I^123^"
+          },
+          {
+            "code": "C-B1086",
+            "display": "Sodium iodide I^131^"
+          },
+          {
+            "code": "C-B1206",
+            "display": "Sodium pertechnetate Tc^99m^"
+          },
+          {
+            "code": "C-B1142",
+            "display": "Sodium phosphate P^32^"
+          },
+          {
+            "code": "C-B1180",
+            "display": "Strontium chloride Sr^85^"
+          },
+          {
+            "code": "C-B1181",
+            "display": "Strontium chloride Sr^87^"
+          },
+          {
+            "code": "C-B1184",
+            "display": "Strontium chloride Sr^89^"
+          },
+          {
+            "code": "C-B1182",
+            "display": "Strontium nitrate Sr^85^"
+          },
+          {
+            "code": "C-B1183",
+            "display": "Strontium nitrate Sr^87^"
+          },
+          {
+            "code": "C-163B6",
+            "display": "Technetium^99m Galactosyl Human Serum Albumin Diethylenetriamine"
+          },
+          {
+            "code": "C-163B9",
+            "display": "Technetium^99m labeled carbon"
+          },
+          {
+            "code": "C-163B8",
+            "display": "Technetium^99m Mercaptoacetyl triglycine MAG3"
+          },
+          {
+            "code": "C-163BA",
+            "display": "Technetium^99m N-pyridoxyl-5-methyltryptophan"
+          },
+          {
+            "code": "C-163BB",
+            "display": "Technetium^99m Phytate"
+          },
+          {
+            "code": "C-163BC",
+            "display": "Technetium^99m Stannous Colloid"
+          },
+          {
+            "code": "C-B1205",
+            "display": "Technetium Tc^99c^ albumin microspheres"
+          },
+          {
+            "code": "C-B1200",
+            "display": "Technetium Tc^99m^ aggregated albumin"
+          },
+          {
+            "code": "C-B1133",
+            "display": "Technetium Tc^99m^ depreotide"
+          },
+          {
+            "code": "C-B1207",
+            "display": "Technetium Tc^99m^ disofenin"
+          },
+          {
+            "code": "C-B1223",
+            "display": "Technetium Tc^99m^ exametazime"
+          },
+          {
+            "code": "C-B1210",
+            "display": "Technetium Tc^99m^ iron ascorbate"
+          },
+          {
+            "code": "C-B1209",
+            "display": "Technetium Tc^99m^ lidofenin"
+          },
+          {
+            "code": "C-B1208",
+            "display": "Technetium Tc^99m^ mebrofenin"
+          },
+          {
+            "code": "C-B1218",
+            "display": "Technetium Tc^99m^ medronate"
+          },
+          {
+            "code": "C-B1203",
+            "display": "Technetium Tc^99m^ microaggregated albumin"
+          },
+          {
+            "code": "C-B1225",
+            "display": "Technetium Tc^99m^ N-substituted iminodiacetate"
+          },
+          {
+            "code": "C-B1213",
+            "display": "Technetium Tc^99m^ oxidronate"
+          },
+          {
+            "code": "C-163B0",
+            "display": "Technetium Tc^99m^ pentetate"
+          },
+          {
+            "code": "C-B1216",
+            "display": "Technetium Tc^99m^ serum albumin"
+          },
+          {
+            "code": "C-163AB",
+            "display": "Technetium Tc^99m^ sestamibi"
+          },
+          {
+            "code": "C-B1220",
+            "display": "Technetium Tc^99m^ sodium glucoheptonate"
+          },
+          {
+            "code": "C-B1211",
+            "display": "Technetium Tc^99m^ stannous etidronate"
+          },
+          {
+            "code": "C-B1221",
+            "display": "Technetium Tc^99m^ succimer"
+          },
+          {
+            "code": "C-B1222",
+            "display": "Technetium Tc^99m^ sulfur colloid"
+          },
+          {
+            "code": "C-B1224",
+            "display": "Technetium Tc^99m^ tagged red cells"
+          },
+          {
+            "code": "C-163AC",
+            "display": "Technetium Tc^99m^Teboroxime"
+          },
+          {
+            "code": "C-163AD",
+            "display": "Technetium Tc^99m^Tetrofosmin"
+          },
+          {
+            "code": "C-B1231",
+            "display": "Thallous chloride Tl^201^"
+          },
+          {
+            "code": "C-B1010",
+            "display": "Therapeutic radioisotope"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0305043",
+            "display": "Carbon^14^ D-xylose"
+          },
+          {
+            "code": "C0305042",
+            "display": "Carbon^14^ triolein"
+          },
+          {
+            "code": "C0392428",
+            "display": "Chromic phosphate P^32^"
+          },
+          {
+            "code": "C0304956",
+            "display": "Chromium^51^ albumin"
+          },
+          {
+            "code": "C0304957",
+            "display": "Chromium^51^ chloride"
+          },
+          {
+            "code": "C0304959",
+            "display": "Copper^64^ acetate"
+          },
+          {
+            "code": "C0304958",
+            "display": "Copper^64^ versenate"
+          },
+          {
+            "code": "C0304960",
+            "display": "Copper^67^ ceruloplasmin"
+          },
+          {
+            "code": "C0304961",
+            "display": "Cyanocobalamin Co^57^"
+          },
+          {
+            "code": "C0304962",
+            "display": "Cyanocobalamin Co^58^"
+          },
+          {
+            "code": "C0304963",
+            "display": "Cyanocobalamin Co^60^"
+          },
+          {
+            "code": "C0360048",
+            "display": "Diagnostic radioisotope"
+          },
+          {
+            "code": "C0305004",
+            "display": "Ferrous chloride Fe^59^"
+          },
+          {
+            "code": "C0305003",
+            "display": "Ferrous citrate Fe^59^"
+          },
+          {
+            "code": "C0305005",
+            "display": "Ferrous sulfate Fe^59^"
+          },
+          {
+            "code": "C0304978",
+            "display": "Fibrinogen I^123^"
+          },
+          {
+            "code": "C0046056",
+            "display": "Fluorodeoxyglucose F^18^"
+          },
+          {
+            "code": "C0893383",
+            "display": "Gallium^67^ citrate"
+          },
+          {
+            "code": "C0304970",
+            "display": "Indium^111^-Fe(OH) >3<"
+          },
+          {
+            "code": "C1827660",
+            "display": "Indium^111^oxyquinoline"
+          },
+          {
+            "code": "C0304967",
+            "display": "Indium^111^ pentetate"
+          },
+          {
+            "code": "C0304971",
+            "display": "Indium^111^ red cell label"
+          },
+          {
+            "code": "C0936259",
+            "display": "Indium^111^ transferrin"
+          },
+          {
+            "code": "C2959379",
+            "display": "Indium^111 Capromab Pendetide"
+          },
+          {
+            "code": "C0087296",
+            "display": "Indium^111 Chloride"
+          },
+          {
+            "code": "C0379955",
+            "display": "Indium^111 Pentetreotide"
+          },
+          {
+            "code": "C0304972",
+            "display": "Indium^113m^ bleomycin"
+          },
+          {
+            "code": "C0361440",
+            "display": "Indium^113m^ chloride"
+          },
+          {
+            "code": "C0304973",
+            "display": "Indium^113m^ pentetate"
+          },
+          {
+            "code": "C0304980",
+            "display": "Iodinated I^125^ albumin"
+          },
+          {
+            "code": "C0304997",
+            "display": "Iodinated I^125^ human serum albumin"
+          },
+          {
+            "code": "C0304993",
+            "display": "Iodinated I^125^ povidone"
+          },
+          {
+            "code": "C0304996",
+            "display": "Iodinated I^125^ sodium iodine"
+          },
+          {
+            "code": "C0304986",
+            "display": "Iodinated I^131^ aggregated albumin"
+          },
+          {
+            "code": "C0304985",
+            "display": "Iodinated I^131^ albumin"
+          },
+          {
+            "code": "C0305002",
+            "display": "Iodinated I^131^ gamma globulin"
+          },
+          {
+            "code": "C2959625",
+            "display": "Iodine^123 15-(4-Iodophenyl)-3(R,S)-Methylpentadecanoic Acid"
+          },
+          {
+            "code": "C0887719",
+            "display": "Iodine^123 3-Iodobenzylguanidine MIBG"
+          },
+          {
+            "code": "C0305001",
+            "display": "Iodine^131^ polyvinylpyrrolidone"
+          },
+          {
+            "code": "C0524959",
+            "display": "Iodine^131 3-Iodobenzylguanidine MIBG"
+          },
+          {
+            "code": "C0304983",
+            "display": "Iodocholesterol I^131^"
+          },
+          {
+            "code": "C0304992",
+            "display": "Iodohippurate I^123^ sodium"
+          },
+          {
+            "code": "C0304998",
+            "display": "Iodohippurate I^125^ sodium"
+          },
+          {
+            "code": "C0304987",
+            "display": "Iodohippurate I^131^ sodium"
+          },
+          {
+            "code": "C0305000",
+            "display": "Iofetamine I^123^ hydrochloride"
+          },
+          {
+            "code": "C2980484",
+            "display": "Ioflupane I^123^"
+          },
+          {
+            "code": "C0304984",
+            "display": "Iothalamate sodium I^125^"
+          },
+          {
+            "code": "C0305006",
+            "display": "Iron Fe^59^ labeled dextran"
+          },
+          {
+            "code": "C0303689",
+            "display": "Krypton^81m"
+          },
+          {
+            "code": "C3272344",
+            "display": "Lutetium^177^ DOTATATE"
+          },
+          {
+            "code": "C0304979",
+            "display": "Oleic acid I^125^"
+          },
+          {
+            "code": "C0305041",
+            "display": "Pentetate calcium trisodium Yb^169^"
+          },
+          {
+            "code": "C0305009",
+            "display": "Potassium carbonate K^42^"
+          },
+          {
+            "code": "C0305010",
+            "display": "Potassium chloride K^42^"
+          },
+          {
+            "code": "C0305008",
+            "display": "Potassium chloride K^43^"
+          },
+          {
+            "code": "C3541342",
+            "display": "Radium^223^ dichloride"
+          },
+          {
+            "code": "C0282340",
+            "display": "Rose Bengal sodium I^131^"
+          },
+          {
+            "code": "C0046666",
+            "display": "Selenium^75^ HCAT"
+          },
+          {
+            "code": "C0034616",
+            "display": "Selenomethionione Se^75^"
+          },
+          {
+            "code": "C0205951",
+            "display": "Sodium chloride Na^22^"
+          },
+          {
+            "code": "C0305013",
+            "display": "Sodium chloride Na^24^"
+          },
+          {
+            "code": "C0304955",
+            "display": "Sodium chromate Cr^51^"
+          },
+          {
+            "code": "C0304965",
+            "display": "Sodium fluoride F^18^"
+          },
+          {
+            "code": "C0304977",
+            "display": "Sodium iodide I^123^"
+          },
+          {
+            "code": "C0304982",
+            "display": "Sodium iodide I^131^"
+          },
+          {
+            "code": "C0039418",
+            "display": "Sodium pertechnetate Tc^99m^"
+          },
+          {
+            "code": "C0305007",
+            "display": "Sodium phosphate P^32^"
+          },
+          {
+            "code": "C0305015",
+            "display": "Strontium chloride Sr^85^"
+          },
+          {
+            "code": "C0305016",
+            "display": "Strontium chloride Sr^87^"
+          },
+          {
+            "code": "C0919292",
+            "display": "Strontium chloride Sr^89^"
+          },
+          {
+            "code": "C0305017",
+            "display": "Strontium nitrate Sr^85^"
+          },
+          {
+            "code": "C0305018",
+            "display": "Strontium nitrate Sr^87^"
+          },
+          {
+            "code": "C0535449",
+            "display": "Technetium^99m^ TRODAT-1"
+          },
+          {
+            "code": "C2960066",
+            "display": "Technetium^99m Galactosyl Human Serum Albumin Diethylenetriamine"
+          },
+          {
+            "code": "C2960082",
+            "display": "Technetium^99m labeled carbon"
+          },
+          {
+            "code": "C2960081",
+            "display": "Technetium^99m Mercaptoacetyl triglycine MAG3"
+          },
+          {
+            "code": "C2960810",
+            "display": "Technetium^99m N-pyridoxyl-5-methyltryptophan"
+          },
+          {
+            "code": "C2960676",
+            "display": "Technetium^99m Phytate"
+          },
+          {
+            "code": "C2960677",
+            "display": "Technetium^99m Stannous Colloid"
+          },
+          {
+            "code": "C3899042",
+            "display": "Technetium^99m Trofolastat"
+          },
+          {
+            "code": "C0305022",
+            "display": "Technetium Tc^99c^ albumin microspheres"
+          },
+          {
+            "code": "C0039415",
+            "display": "Technetium Tc^99m^ aggregated albumin"
+          },
+          {
+            "code": "C1100674",
+            "display": "Technetium Tc^99m^ depreotide"
+          },
+          {
+            "code": "C0075932",
+            "display": "Technetium Tc^99m^ disofenin"
+          },
+          {
+            "code": "C0378335",
+            "display": "Technetium Tc^99m^ bicisate"
+          },
+          {
+            "code": "C0145055",
+            "display": "Technetium Tc^99m^ exametazime"
+          },
+          {
+            "code": "C0305027",
+            "display": "Technetium Tc^99m^ iron ascorbate"
+          },
+          {
+            "code": "C0075958",
+            "display": "Technetium Tc^99m^ lidofenin"
+          },
+          {
+            "code": "C0075962",
+            "display": "Technetium Tc^99m^ mebrofenin"
+          },
+          {
+            "code": "C0039416",
+            "display": "Technetium Tc^99m^ medronate"
+          },
+          {
+            "code": "C0305020",
+            "display": "Technetium Tc^99m^ microaggregated albumin"
+          },
+          {
+            "code": "C0305039",
+            "display": "Technetium Tc^99m^ N-substituted iminodiacetate"
+          },
+          {
+            "code": "C0305030",
+            "display": "Technetium Tc^99m^ oxidronate"
+          },
+          {
+            "code": "C0080212",
+            "display": "Technetium Tc^99m^ pentetate"
+          },
+          {
+            "code": "C0085250",
+            "display": "Technetium Tc^99m^ pyrophosphate"
+          },
+          {
+            "code": "C0665175",
+            "display": "Technetium Tc^99m^ serum albumin"
+          },
+          {
+            "code": "C0162680",
+            "display": "Technetium Tc^99m^ sestamibi"
+          },
+          {
+            "code": "C0305034",
+            "display": "Technetium Tc^99m^ sodium glucoheptonate"
+          },
+          {
+            "code": "C0305028",
+            "display": "Technetium Tc^99m^ stannous etidronate"
+          },
+          {
+            "code": "C0075928",
+            "display": "Technetium Tc^99m^ succimer"
+          },
+          {
+            "code": "C0039419",
+            "display": "Technetium Tc^99m^ sulfur colloid"
+          },
+          {
+            "code": "C0305038",
+            "display": "Technetium Tc^99m^ tagged red cells"
+          },
+          {
+            "code": "C0076030",
+            "display": "Technetium Tc^99m^Teboroxime"
+          },
+          {
+            "code": "C1828125",
+            "display": "Technetium Tc^99m^Tetrofosmin"
+          },
+          {
+            "code": "C0305040",
+            "display": "Thallous chloride Tl^201^"
+          },
+          {
+            "code": "C0358509",
+            "display": "Therapeutic radioisotope"
+          },
+          {
+            "code": "C4707051",
+            "display": "Yttrium^90^ microspheres"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "126764",
+            "display": "Iodinated I^125^ DPA-713"
+          },
+          {
+            "code": "126509",
+            "display": "Lutetium^177^ n-acetylaspartylglutamate"
+          }
+        ]
+      },
+      {
+        "system": "https://www.nlm.nih.gov/mesh",
+        "concept": [
+          {
+            "code": "C104196",
+            "display": "Technetium^99m^ TRODAT-1"
+          }
+        ]
+      },
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "concept": [
+          {
+            "code": "C116887",
+            "display": "Technetium^99m Trofolastat"
+          }
+        ]
+      }
+    ]
+  }
+}

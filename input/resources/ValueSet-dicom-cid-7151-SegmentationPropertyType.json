@@ -1,0 +1,60 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SegmentationPropertyType",
+  "id": "dicom-cid-7151-SegmentationPropertyType",
+  "description": "Segmentation Property Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7151-SegmentationPropertyType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.497"
+    }
+  ],
+  "version": "20170914",
+  "title": "Segmentation Property Type",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7191-TissueSegmentationPropertyType"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7192-AnatomicalStructureSegmentationPropertyType"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7193-PhysicalObjectSegmentationPropertyType"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7194-MorphologicallyAbnormalStructureSegmentationPrope"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7195-FunctionSegmentationPropertyType"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7196-SpatialAndRelationalConceptSegmentationPropertyTy"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7197-BodySubstanceSegmentationPropertyType"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4273-RetinalSegmentationSurface"
+        ]
+      }
+    ]
+  }
+}

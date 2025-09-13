@@ -1,0 +1,96 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AntilipemicAgent",
+  "id": "dicom-cid-3761-AntilipemicAgent",
+  "description": "Antilipemic Agent",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3761-AntilipemicAgent",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.255"
+    }
+  ],
+  "version": "20190817",
+  "title": "Antilipemic Agent",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "346322006",
+            "display": "Anion exchange resin"
+          },
+          {
+            "code": "372872006",
+            "display": "Bile acid sequestrant"
+          },
+          {
+            "code": "346441008",
+            "display": "Fish oils"
+          },
+          {
+            "code": "96302009",
+            "display": "Statins"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "C-80609",
+            "display": "Anion exchange resin"
+          },
+          {
+            "code": "F-619A3",
+            "display": "Bile acid sequestrant"
+          },
+          {
+            "code": "C-8060A",
+            "display": "Fish oils"
+          },
+          {
+            "code": "C-80800",
+            "display": "Statins"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0003072",
+            "display": "Anion exchange resin"
+          },
+          {
+            "code": "C0304522",
+            "display": "Bile acid sequestrant"
+          },
+          {
+            "code": "C3273847",
+            "display": "Fibrate"
+          },
+          {
+            "code": "C0016157",
+            "display": "Fish oils"
+          },
+          {
+            "code": "C0360714",
+            "display": "Statins"
+          }
+        ]
+      },
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "concept": [
+          {
+            "code": "C98150",
+            "display": "Fibrate"
+          }
+        ]
+      }
+    ]
+  }
+}

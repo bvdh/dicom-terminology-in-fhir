@@ -1,0 +1,64 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "TextureMeasurement",
+  "id": "dicom-cid-7468-TextureMeasurement",
+  "description": "Texture Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7468-TextureMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1001"
+    }
+  ],
+  "version": "20190121",
+  "title": "Texture Measurement",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7478-IntensityHistogramFeature"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7467-GrayLevelCooccurrenceMatrixMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7475-GrayLevelRunLengthBasedFeature"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7476-GrayLevelSizeZoneBasedFeature"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7479-GreyLevelDistanceZoneBasedFeature"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7500-NeighbourhoodGreyToneDifferenceBasedFeature"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7501-NeighbouringGreyLevelDependenceBasedFeature"
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "126050",
+            "display": "Fractal Dimension"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProcedureDiscontinuationReason",
+  "id": "dicom-cid-9300-ProcedureDiscontinuationReason",
+  "description": "Procedure Discontinuation Reason",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9300-ProcedureDiscontinuationReason",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.533"
+    }
+  ],
+  "version": "20181115",
+  "title": "Procedure Discontinuation Reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110526",
+            "display": "Resource pre-empted"
+          },
+          {
+            "code": "110527",
+            "display": "Resource inadequate"
+          },
+          {
+            "code": "110533",
+            "display": "Workitem expired"
+          },
+          {
+            "code": "110528",
+            "display": "Discontinued Procedure Step rescheduled"
+          },
+          {
+            "code": "110529",
+            "display": "Discontinued Procedure Step rescheduling recommended"
+          },
+          {
+            "code": "110530",
+            "display": "Workitem assignment rejected by assigned resource"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9301-ModalityPPSDiscontinuationReason"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9302-MediaImportPPSDiscontinuationReason"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-60-ImagingAgentAdministrationAdverseEvent"
+        ]
+      }
+    ]
+  }
+}

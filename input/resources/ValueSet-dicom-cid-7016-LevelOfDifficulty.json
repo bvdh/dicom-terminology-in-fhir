@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LevelOfDifficulty",
+  "id": "dicom-cid-7016-LevelOfDifficulty",
+  "description": "Level of Difficulty",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7016-LevelOfDifficulty",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1180"
+    }
+  ],
+  "version": "20170914",
+  "title": "Level of Difficulty",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128725",
+            "display": "Primary level"
+          },
+          {
+            "code": "128726",
+            "display": "Intermediate level"
+          },
+          {
+            "code": "128727",
+            "display": "Advanced level"
+          }
+        ]
+      }
+    ]
+  }
+}

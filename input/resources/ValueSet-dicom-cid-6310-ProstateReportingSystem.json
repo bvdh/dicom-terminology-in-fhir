@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProstateReportingSystem",
+  "id": "dicom-cid-6310-ProstateReportingSystem",
+  "description": "Prostate Reporting System",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6310-ProstateReportingSystem",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1367"
+    }
+  ],
+  "version": "20210714",
+  "title": "Prostate Reporting System",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130564",
+            "display": "PI-RADS v2.0"
+          },
+          {
+            "code": "130565",
+            "display": "PI-RADS v2.1"
+          }
+        ]
+      }
+    ]
+  }
+}

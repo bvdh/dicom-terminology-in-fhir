@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AttenuationCoefficientMeasurement",
+  "id": "dicom-cid-6141-AttenuationCoefficientMeasurement",
+  "description": "Attenuation Coefficient Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6141-AttenuationCoefficientMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.461"
+    }
+  ],
+  "version": "20030108",
+  "title": "Attenuation Coefficient Measurement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112031",
+            "display": "Attenuation Coefficient"
+          },
+          {
+            "code": "112179",
+            "display": "Minimum Attenuation Coefficient"
+          },
+          {
+            "code": "112180",
+            "display": "Maximum Attenuation Coefficient"
+          },
+          {
+            "code": "112181",
+            "display": "Mean Attenuation Coefficient"
+          },
+          {
+            "code": "112182",
+            "display": "Median Attenuation Coefficient"
+          },
+          {
+            "code": "112183",
+            "display": "Standard Deviation of Attenuation Coefficient"
+          }
+        ]
+      }
+    ]
+  }
+}

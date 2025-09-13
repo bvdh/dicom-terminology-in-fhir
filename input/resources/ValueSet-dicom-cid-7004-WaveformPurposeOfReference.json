@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "WaveformPurposeOfReference",
+  "id": "dicom-cid-7004-WaveformPurposeOfReference",
+  "description": "Waveform Purpose of Reference",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7004-WaveformPurposeOfReference",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.485"
+    }
+  ],
+  "version": "20090409",
+  "title": "Waveform Purpose of Reference",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121301",
+            "display": "Simultaneous Doppler"
+          },
+          {
+            "code": "121302",
+            "display": "Simultaneous Hemodynamic"
+          },
+          {
+            "code": "121303",
+            "display": "Simultaneous ECG"
+          },
+          {
+            "code": "121304",
+            "display": "Simultaneous Voice Narrative"
+          },
+          {
+            "code": "121305",
+            "display": "Simultaneous Respiratory Waveform"
+          },
+          {
+            "code": "121306",
+            "display": "Simultaneous Arterial Pulse Waveform"
+          },
+          {
+            "code": "121307",
+            "display": "Simultaneous Phonocardiographic Waveform"
+          }
+        ]
+      }
+    ]
+  }
+}

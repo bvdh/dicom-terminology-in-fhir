@@ -1,0 +1,9 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid3686",
+  "id": "dicom-cid3686",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid3686",
+  "version": "None",
+  "title": "ECG Interpretive Statement (Retired)"
+}

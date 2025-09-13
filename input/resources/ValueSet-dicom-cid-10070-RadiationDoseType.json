@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiationDoseType",
+  "id": "dicom-cid-10070-RadiationDoseType",
+  "description": "Radiation Dose Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10070-RadiationDoseType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1164"
+    }
+  ],
+  "version": "20170405",
+  "title": "Radiation Dose Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128513",
+            "display": "Absorbed Dose"
+          },
+          {
+            "code": "128512",
+            "display": "Equivalent Dose"
+          }
+        ]
+      }
+    ]
+  }
+}

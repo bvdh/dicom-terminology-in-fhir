@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "TreatmentSessionConfirmationAssertion",
+  "id": "dicom-cid-9564-TreatmentSessionConfirmationAssertion",
+  "description": "Treatment Session Confirmation Assertion",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9564-TreatmentSessionConfirmationAssertion",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1321"
+    }
+  ],
+  "version": "20200624",
+  "title": "Treatment Session Confirmation Assertion",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130456",
+            "display": "Bolus Present"
+          },
+          {
+            "code": "130457",
+            "display": "Cone Present"
+          },
+          {
+            "code": "130458",
+            "display": "Block Present"
+          },
+          {
+            "code": "130459",
+            "display": "Applicator Present"
+          },
+          {
+            "code": "130460",
+            "display": "Headframe Present"
+          }
+        ]
+      }
+    ]
+  }
+}

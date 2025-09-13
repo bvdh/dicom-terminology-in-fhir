@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MovableBeamLimitingDeviceType",
+  "id": "dicom-cid-9540-MovableBeamLimitingDeviceType",
+  "description": "Movable Beam Limiting Device Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9540-MovableBeamLimitingDeviceType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1458"
+    }
+  ],
+  "version": "20221224",
+  "title": "Movable Beam Limiting Device Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130330",
+            "display": "Jaw Pair"
+          },
+          {
+            "code": "130331",
+            "display": "Leaf Pairs"
+          },
+          {
+            "code": "130332",
+            "display": "Variable Circular Collimator"
+          },
+          {
+            "code": "130333",
+            "display": "Single Leaves"
+          }
+        ]
+      }
+    ]
+  }
+}

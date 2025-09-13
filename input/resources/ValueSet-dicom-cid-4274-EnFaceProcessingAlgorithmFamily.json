@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EnFaceProcessingAlgorithmFamily",
+  "id": "dicom-cid-4274-EnFaceProcessingAlgorithmFamily",
+  "description": "En Face Processing Algorithm Family",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4274-EnFaceProcessingAlgorithmFamily",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1496"
+    }
+  ],
+  "version": "20240915",
+  "title": "En Face Processing Algorithm Family",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4270-OCTAProcessingAlgorithmFamily"
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113078",
+            "display": "Maximum intensity projection"
+          },
+          {
+            "code": "113079",
+            "display": "Minimum intensity projection"
+          },
+          {
+            "code": "130924",
+            "display": "Mean intensity projection"
+          },
+          {
+            "code": "130925",
+            "display": "Median intensity projection"
+          },
+          {
+            "code": "130926",
+            "display": "Summation projection"
+          }
+        ]
+      }
+    ]
+  }
+}

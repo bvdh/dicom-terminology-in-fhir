@@ -1,0 +1,155 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "HemodynamicAssessment",
+  "id": "dicom-cid-3641-HemodynamicAssessment",
+  "description": "Hemodynamic Assessment",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3641-HemodynamicAssessment",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.177"
+    }
+  ],
+  "version": "20160314",
+  "title": "Hemodynamic Assessment",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "276780008",
+            "display": "Left Ventricular Systolic Pressure"
+          },
+          {
+            "code": "276781007",
+            "display": "Left Ventricular End-Diastolic Pressure"
+          },
+          {
+            "code": "250767002",
+            "display": "Pulmonary Artery Pressure"
+          },
+          {
+            "code": "276901002",
+            "display": "Pulmonary Vascular Resistance"
+          },
+          {
+            "code": "118433006",
+            "display": "Pulmonary Capillary Wedge Pressure"
+          },
+          {
+            "code": "276772001",
+            "display": "Right Ventricular Systolic Pressure"
+          },
+          {
+            "code": "276774000",
+            "display": "Right Ventricular End-Diastolic Pressure"
+          },
+          {
+            "code": "276755008",
+            "display": "Right Atrial Pressure"
+          },
+          {
+            "code": "88619007",
+            "display": "Vascular Resistance"
+          },
+          {
+            "code": "271650006",
+            "display": "Diastolic Pressure"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "F-03E0D",
+            "display": "Left Ventricular Systolic Pressure"
+          },
+          {
+            "code": "F-03E0E",
+            "display": "Left Ventricular End-Diastolic Pressure"
+          },
+          {
+            "code": "F-0212C",
+            "display": "Pulmonary Artery Pressure"
+          },
+          {
+            "code": "F-03E86",
+            "display": "Pulmonary Vascular Resistance"
+          },
+          {
+            "code": "F-31146",
+            "display": "Pulmonary Capillary Wedge Pressure"
+          },
+          {
+            "code": "F-03DFE",
+            "display": "Right Ventricular Systolic Pressure"
+          },
+          {
+            "code": "F-03E02",
+            "display": "Right Ventricular End-Diastolic Pressure"
+          },
+          {
+            "code": "F-03DE9",
+            "display": "Right Atrial Pressure"
+          },
+          {
+            "code": "F-39790",
+            "display": "Vascular Resistance"
+          },
+          {
+            "code": "F-008ED",
+            "display": "Diastolic Pressure"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0456189",
+            "display": "Left Ventricular Systolic Pressure"
+          },
+          {
+            "code": "C0456190",
+            "display": "Left Ventricular End-Diastolic Pressure"
+          },
+          {
+            "code": "C0428642",
+            "display": "Pulmonary Artery Pressure"
+          },
+          {
+            "code": "C0456261",
+            "display": "Pulmonary Vascular Resistance"
+          },
+          {
+            "code": "C0086879",
+            "display": "Pulmonary Capillary Wedge Pressure"
+          },
+          {
+            "code": "C0456181",
+            "display": "Right Ventricular Systolic Pressure"
+          },
+          {
+            "code": "C0456183",
+            "display": "Right Ventricular End-Diastolic Pressure"
+          },
+          {
+            "code": "C0456165",
+            "display": "Right Atrial Pressure"
+          },
+          {
+            "code": "C0042380",
+            "display": "Vascular Resistance"
+          },
+          {
+            "code": "C0428883",
+            "display": "Diastolic Pressure"
+          }
+        ]
+      }
+    ]
+  }
+}

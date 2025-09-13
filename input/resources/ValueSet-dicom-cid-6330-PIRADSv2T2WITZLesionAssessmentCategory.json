@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PIRADSv2T2WITZLesionAssessmentCategory",
+  "id": "dicom-cid-6330-PIRADSv2T2WITZLesionAssessmentCategory",
+  "description": "PI-RADS v2 T2WI TZ Lesion Assessment Category",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6330-PIRADSv2T2WITZLesionAssessmentCategory",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1387"
+    }
+  ],
+  "version": "20210714",
+  "title": "PI-RADS v2 T2WI TZ Lesion Assessment Category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.radlex.org",
+        "concept": [
+          {
+            "code": "RID50308",
+            "display": "PI-RADS 1 - T2WI TZ Very low"
+          },
+          {
+            "code": "RID50309",
+            "display": "PI-RADS 2 - T2WI TZ Low"
+          },
+          {
+            "code": "RID50310",
+            "display": "PI-RADS 3 - T2WI TZ Intermediate"
+          },
+          {
+            "code": "RID50311",
+            "display": "PI-RADS 4 - T2WI TZ High"
+          },
+          {
+            "code": "RID50312",
+            "display": "PI-RADS 5 - T2WI TZ Very high"
+          },
+          {
+            "code": "RID50325",
+            "display": "PI-RADS X - T2WI TZ Inadequate or absent"
+          }
+        ]
+      }
+    ]
+  }
+}

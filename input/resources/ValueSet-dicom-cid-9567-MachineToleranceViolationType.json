@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MachineToleranceViolationType",
+  "id": "dicom-cid-9567-MachineToleranceViolationType",
+  "description": "Machine Tolerance Violation Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9567-MachineToleranceViolationType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1324"
+    }
+  ],
+  "version": "20200624",
+  "title": "Machine Tolerance Violation Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130471",
+            "display": "Jaw Position Tolerance Violation"
+          },
+          {
+            "code": "130472",
+            "display": "MLC Position Tolerance Violation"
+          },
+          {
+            "code": "130473",
+            "display": "Source Position Tolerance Violation"
+          },
+          {
+            "code": "130474",
+            "display": "Dose Rate Tolerance Violation"
+          }
+        ]
+      }
+    ]
+  }
+}

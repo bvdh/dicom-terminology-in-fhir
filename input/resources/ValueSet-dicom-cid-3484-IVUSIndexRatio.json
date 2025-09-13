@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "IVUSIndexRatio",
+  "id": "dicom-cid-3484-IVUSIndexRatio",
+  "description": "IVUS Index/Ratio",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3484-IVUSIndexRatio",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.119"
+    }
+  ],
+  "version": "20040614",
+  "title": "IVUS Index/Ratio",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122343",
+            "display": "Lumen Eccentricity Index"
+          },
+          {
+            "code": "122344",
+            "display": "Plaque plus Media Eccentricity Index"
+          },
+          {
+            "code": "122345",
+            "display": "Remodeling Index"
+          },
+          {
+            "code": "122346",
+            "display": "Stent Symmetry Index"
+          },
+          {
+            "code": "122347",
+            "display": "Stent Expansion Index"
+          },
+          {
+            "code": "122348",
+            "display": "Lumen Shape Index"
+          },
+          {
+            "code": "122350",
+            "display": "Lumen Diameter Ratio"
+          },
+          {
+            "code": "122351",
+            "display": "Stent Diameter Ratio"
+          },
+          {
+            "code": "122352",
+            "display": "EEM Diameter Ratio"
+          }
+        ]
+      }
+    ]
+  }
+}

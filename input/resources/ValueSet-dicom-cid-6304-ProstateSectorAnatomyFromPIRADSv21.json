@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProstateSectorAnatomyFromPIRADSv21",
+  "id": "dicom-cid-6304-ProstateSectorAnatomyFromPIRADSv21",
+  "description": "From",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6304-ProstateSectorAnatomyFromPIRADSv21",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1306"
+    }
+  ],
+  "version": "20200117",
+  "title": "Prostate Sector Anatomy from PI-RADS v2.1",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6301-ProstateSectorAnatomyFromPIRADSv2"
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "836427009",
+            "display": "Left posteromedial basal peripheral zone of prostate"
+          },
+          {
+            "code": "836428004",
+            "display": "Right posteromedial basal peripheral zone of prostate"
+          }
+        ]
+      }
+    ]
+  }
+}

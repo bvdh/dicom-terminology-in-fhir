@@ -1,0 +1,71 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiacUltrasoundAortopulmonaryConnectionFindingSite",
+  "id": "dicom-cid-12293-CardiacUltrasoundAortopulmonaryConnectionFinding",
+  "description": "Cardiac Ultrasound Aortopulmonary Connection Finding Site",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12293-CardiacUltrasoundAortopulmonaryConnectionFinding",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.873"
+    }
+  ],
+  "version": "20100317",
+  "title": "Cardiac Ultrasound Aortopulmonary Connection Finding Site",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "83330001",
+            "display": "Patent Ductus Arteriosus"
+          },
+          {
+            "code": "443096004",
+            "display": "Aorta to Pulmonary Artery Connection"
+          },
+          {
+            "code": "439470001",
+            "display": "Arteriovenous Fistula"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "D4-32012",
+            "display": "Patent Ductus Arteriosus"
+          },
+          {
+            "code": "T-D0877",
+            "display": "Aorta to Pulmonary Artery Connection"
+          },
+          {
+            "code": "D1-50666",
+            "display": "Arteriovenous Fistula"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0013274",
+            "display": "Patent Ductus Arteriosus"
+          },
+          {
+            "code": "C2732457",
+            "display": "Aorta to Pulmonary Artery Connection"
+          },
+          {
+            "code": "C0003855",
+            "display": "Arteriovenous Fistula"
+          }
+        ]
+      }
+    ]
+  }
+}

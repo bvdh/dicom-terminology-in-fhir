@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ExportAdditionalInformationDocumentTitle",
+  "id": "dicom-cid-7014-ExportAdditionalInformationDocumentTitle",
+  "description": "Export Additional Information Document Title",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7014-ExportAdditionalInformationDocumentTitle",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1178"
+    }
+  ],
+  "version": "20170914",
+  "title": "Export Additional Information Document Title",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128710",
+            "display": "For Teaching File Export"
+          },
+          {
+            "code": "128711",
+            "display": "For Clinical Trial Export"
+          },
+          {
+            "code": "128713",
+            "display": "For Research Collection Export"
+          },
+          {
+            "code": "128714",
+            "display": "For Publication Export"
+          }
+        ]
+      }
+    ]
+  }
+}

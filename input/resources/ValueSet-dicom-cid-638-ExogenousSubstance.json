@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ExogenousSubstance",
+  "id": "dicom-cid-638-ExogenousSubstance",
+  "description": "Exogenous Substance",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-638-ExogenousSubstance",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1103"
+    }
+  ],
+  "version": "20151110",
+  "title": "Exogenous Substance",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-639-TumorGraftHistologicType"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-640-Fibril"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-641-Virus"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-642-Cytokine"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-643-Toxin"
+        ]
+      }
+    ]
+  }
+}

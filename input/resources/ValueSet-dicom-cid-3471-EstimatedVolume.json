@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EstimatedVolume",
+  "id": "dicom-cid-3471-EstimatedVolume",
+  "description": "Estimated Volume",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3471-EstimatedVolume",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.113"
+    }
+  ],
+  "version": "20040614",
+  "title": "Estimated Volume",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121216",
+            "display": "Volume estimated from single 2D region"
+          },
+          {
+            "code": "121218",
+            "display": "Volume estimated from two non-coplanar 2D regions"
+          }
+        ]
+      }
+    ]
+  }
+}

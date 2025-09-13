@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OverallBreastComposition",
+  "id": "dicom-cid-6000-OverallBreastComposition",
+  "description": "In future extensions, Overall Breast Composition terms that are not derived from BI-RADS should be added to this Context Group.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6000-OverallBreastComposition",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.330"
+    }
+  ],
+  "version": "20020904",
+  "title": "Overall Breast Composition",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6001-OverallBreastCompositionFromBIRADS"
+        ]
+      }
+    ]
+  }
+}

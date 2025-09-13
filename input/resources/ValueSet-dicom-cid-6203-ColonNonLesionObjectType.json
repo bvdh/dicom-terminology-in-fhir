@@ -1,0 +1,276 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ColonNonLesionObjectType",
+  "id": "dicom-cid-6203-ColonNonLesionObjectType",
+  "description": "The use of Concepts for specific stoma appliances were previously included in this set, but having been inactivated by SNOMED without specific replacements, have been removed:",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6203-ColonNonLesionObjectType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.790"
+    }
+  ],
+  "version": "20220922",
+  "title": "Colon Non-lesion Object Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "86122002",
+            "display": "Bullet"
+          },
+          {
+            "code": "56353002",
+            "display": "Staple"
+          },
+          {
+            "code": "27065002",
+            "display": "Suture"
+          },
+          {
+            "code": "12402003",
+            "display": "Scar tissue"
+          },
+          {
+            "code": "19923001",
+            "display": "Catheter"
+          },
+          {
+            "code": "257409000",
+            "display": "Vena cava filter"
+          },
+          {
+            "code": "53350007",
+            "display": "Prosthesis"
+          },
+          {
+            "code": "126065006",
+            "display": "Jejunostomy tube"
+          },
+          {
+            "code": "286558002",
+            "display": "Ureteral stent"
+          },
+          {
+            "code": "80919006",
+            "display": "Jewelry"
+          },
+          {
+            "code": "77444004",
+            "display": "Pin"
+          },
+          {
+            "code": "79068005",
+            "display": "Needle"
+          },
+          {
+            "code": "407744008",
+            "display": "Stoma appliance"
+          },
+          {
+            "code": "339648008",
+            "display": "Colostomy bag"
+          },
+          {
+            "code": "417136005",
+            "display": "Ileostomy bag"
+          },
+          {
+            "code": "344088002",
+            "display": "Urostomy bag"
+          },
+          {
+            "code": "67966000",
+            "display": "Rectal tube"
+          },
+          {
+            "code": "34759008",
+            "display": "Urethral catheter"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "A-32110",
+            "display": "Bullet"
+          },
+          {
+            "code": "A-13600",
+            "display": "Staple"
+          },
+          {
+            "code": "A-13500",
+            "display": "Suture"
+          },
+          {
+            "code": "M-78060",
+            "display": "Scar tissue"
+          },
+          {
+            "code": "A-26800",
+            "display": "Catheter"
+          },
+          {
+            "code": "A-14611",
+            "display": "Vena cava filter"
+          },
+          {
+            "code": "A-04000",
+            "display": "Prosthesis"
+          },
+          {
+            "code": "A-26434",
+            "display": "Jejunostomy tube"
+          },
+          {
+            "code": "A-11C08",
+            "display": "Ureteral stent"
+          },
+          {
+            "code": "A-61000",
+            "display": "Jewelry"
+          },
+          {
+            "code": "A-12024",
+            "display": "Pin"
+          },
+          {
+            "code": "A-30360",
+            "display": "Needle"
+          },
+          {
+            "code": "A-010D2",
+            "display": "Stoma appliance"
+          },
+          {
+            "code": "A-10DBC",
+            "display": "Colostomy bag"
+          },
+          {
+            "code": "A-10029",
+            "display": "Ileostomy bag"
+          },
+          {
+            "code": "A-105E3",
+            "display": "Urostomy bag"
+          },
+          {
+            "code": "A-26440",
+            "display": "Rectal tube"
+          },
+          {
+            "code": "A-26864",
+            "display": "Urethral catheter"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0336699",
+            "display": "Bullet"
+          },
+          {
+            "code": "C0524724",
+            "display": "Staple"
+          },
+          {
+            "code": "C0038969",
+            "display": "Suture"
+          },
+          {
+            "code": "C2004491",
+            "display": "Scar tissue"
+          },
+          {
+            "code": "C0085590",
+            "display": "Catheter"
+          },
+          {
+            "code": "C0080306",
+            "display": "Vena cava filter"
+          },
+          {
+            "code": "C0175649",
+            "display": "Prosthesis"
+          },
+          {
+            "code": "C0879216",
+            "display": "Jejunostomy tube"
+          },
+          {
+            "code": "C0183518",
+            "display": "Ureteral stent"
+          },
+          {
+            "code": "C0336902",
+            "display": "Jewelry"
+          },
+          {
+            "code": "C0175718",
+            "display": "Pin"
+          },
+          {
+            "code": "C0027551",
+            "display": "Needle"
+          },
+          {
+            "code": "C0464478",
+            "display": "Stoma appliance"
+          },
+          {
+            "code": "C0180026",
+            "display": "Colostomy bag"
+          },
+          {
+            "code": "C1563151",
+            "display": "Ileostomy bag"
+          },
+          {
+            "code": "C0467658",
+            "display": "Urostomy bag"
+          },
+          {
+            "code": "C0175752",
+            "display": "Rectal tube"
+          },
+          {
+            "code": "C0179800",
+            "display": "Urethral catheter"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112173",
+            "display": "Chest tube"
+          },
+          {
+            "code": "112175",
+            "display": "Kidney stent"
+          },
+          {
+            "code": "112176",
+            "display": "Pancreatic stent"
+          },
+          {
+            "code": "112178",
+            "display": "Coin"
+          },
+          {
+            "code": "112171",
+            "display": "Fiducial mark"
+          }
+        ]
+      }
+    ]
+  }
+}

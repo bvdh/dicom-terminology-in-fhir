@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PETCardiologyProtocol",
+  "id": "dicom-cid-3106-PETCardiologyProtocol",
+  "description": "PET Cardiology Protocol",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3106-PETCardiologyProtocol",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.739"
+    }
+  ],
+  "version": "20080927",
+  "title": "PET Cardiology Protocol",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122791",
+            "display": "PET Myocardial Perfusion, Rest only"
+          },
+          {
+            "code": "122792",
+            "display": "PET Myocardial Perfusion, Stress only"
+          },
+          {
+            "code": "122793",
+            "display": "PET Myocardial Perfusion, Rest and Stress"
+          },
+          {
+            "code": "122795",
+            "display": "PET Myocardial Viability, Rest only"
+          },
+          {
+            "code": "122796",
+            "display": "PET Myocardial Viability, Stress only"
+          },
+          {
+            "code": "122797",
+            "display": "PET Myocardial Viability, Rest and Stress"
+          }
+        ]
+      }
+    ]
+  }
+}

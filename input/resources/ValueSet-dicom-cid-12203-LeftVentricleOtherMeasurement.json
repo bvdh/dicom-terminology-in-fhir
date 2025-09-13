@@ -1,0 +1,128 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LeftVentricleOtherMeasurement",
+  "id": "dicom-cid-12203-LeftVentricleOtherMeasurement",
+  "description": "Left Ventricle Other Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12203-LeftVentricleOtherMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.596"
+    }
+  ],
+  "version": "20030918",
+  "title": "Left Ventricle Other Measurement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "18087-7",
+            "display": "Left Ventricle Mass"
+          },
+          {
+            "code": "18071-1",
+            "display": "Left Ventricular Isovolumic Relaxation Time"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0801136",
+            "display": "Left Ventricle Mass"
+          },
+          {
+            "code": "C0801120",
+            "display": "Left Ventricular Isovolumic Relaxation Time"
+          },
+          {
+            "code": "C1302184",
+            "display": "Left Ventricular Isovolumic Contraction Time"
+          },
+          {
+            "code": "C1302218",
+            "display": "Left Ventricular Peak Early Diastolic Tissue Velocity"
+          },
+          {
+            "code": "C1275825",
+            "display": "Ratio of MV Peak Velocity to LV Peak Tissue Velocity E-Wave"
+          },
+          {
+            "code": "C1275803",
+            "display": "LV Peak Diastolic Tissue Velocity During Atrial Systole"
+          },
+          {
+            "code": "C1302235",
+            "display": "Left Ventricular Peak Systolic Tissue Velocity"
+          },
+          {
+            "code": "C1302287",
+            "display": "Left Ventricular Index of Myocardial Performance"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "399051002",
+            "display": "Left Ventricular Isovolumic Contraction Time"
+          },
+          {
+            "code": "399133000",
+            "display": "Left Ventricular Peak Early Diastolic Tissue Velocity"
+          },
+          {
+            "code": "399140004",
+            "display": "Ratio of MV Peak Velocity to LV Peak Tissue Velocity E-Wave"
+          },
+          {
+            "code": "399007006",
+            "display": "LV Peak Diastolic Tissue Velocity During Atrial Systole"
+          },
+          {
+            "code": "399167005",
+            "display": "Left Ventricular Peak Systolic Tissue Velocity"
+          },
+          {
+            "code": "399266005",
+            "display": "Left Ventricular Index of Myocardial Performance"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-037E",
+            "display": "Left Ventricular Isovolumic Contraction Time"
+          },
+          {
+            "code": "G-037A",
+            "display": "Left Ventricular Peak Early Diastolic Tissue Velocity"
+          },
+          {
+            "code": "G-037B",
+            "display": "Ratio of MV Peak Velocity to LV Peak Tissue Velocity E-Wave"
+          },
+          {
+            "code": "G-037C",
+            "display": "LV Peak Diastolic Tissue Velocity During Atrial Systole"
+          },
+          {
+            "code": "G-037D",
+            "display": "Left Ventricular Peak Systolic Tissue Velocity"
+          },
+          {
+            "code": "G-037F",
+            "display": "Left Ventricular Index of Myocardial Performance"
+          }
+        ]
+      }
+    ]
+  }
+}

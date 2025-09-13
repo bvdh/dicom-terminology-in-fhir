@@ -1,0 +1,416 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PETRadionuclide",
+  "id": "dicom-cid-4020-PETRadionuclide",
+  "description": "PET Radionuclide",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4020-PETRadionuclide",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.304"
+    }
+  ],
+  "version": "20160119",
+  "title": "PET Radionuclide",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "40565003",
+            "display": "^11^Carbon"
+          },
+          {
+            "code": "21576001",
+            "display": "^13^Nitrogen"
+          },
+          {
+            "code": "424875009",
+            "display": "^14^Oxygen"
+          },
+          {
+            "code": "129504001",
+            "display": "^15^Oxygen"
+          },
+          {
+            "code": "77004003",
+            "display": "^18^Fluorine"
+          },
+          {
+            "code": "71633006",
+            "display": "^22^Sodium"
+          },
+          {
+            "code": "423764008",
+            "display": "^38^Potassium"
+          },
+          {
+            "code": "75696008",
+            "display": "^45^Titanium"
+          },
+          {
+            "code": "69089000",
+            "display": "^52^Iron"
+          },
+          {
+            "code": "37225000",
+            "display": "^52^Manganese"
+          },
+          {
+            "code": "425364008",
+            "display": "^60^Copper"
+          },
+          {
+            "code": "71425003",
+            "display": "^61^Copper"
+          },
+          {
+            "code": "422934004",
+            "display": "^62^Copper"
+          },
+          {
+            "code": "65054007",
+            "display": "^62^Zinc"
+          },
+          {
+            "code": "3932008",
+            "display": "^64^Copper"
+          },
+          {
+            "code": "79477007",
+            "display": "^66^Gallium"
+          },
+          {
+            "code": "35337001",
+            "display": "^68^Gallium"
+          },
+          {
+            "code": "53315004",
+            "display": "^68^Germanium"
+          },
+          {
+            "code": "2705002",
+            "display": "^72^Arsenic"
+          },
+          {
+            "code": "87437000",
+            "display": "^73^Selenium"
+          },
+          {
+            "code": "17910003",
+            "display": "^75^Bromine"
+          },
+          {
+            "code": "79523006",
+            "display": "^76^Bromine"
+          },
+          {
+            "code": "86521004",
+            "display": "^77^Bromine"
+          },
+          {
+            "code": "79197006",
+            "display": "^82^Rubidium"
+          },
+          {
+            "code": "10738001",
+            "display": "^86^Yttrium"
+          },
+          {
+            "code": "63360001",
+            "display": "^89^Zirconium"
+          },
+          {
+            "code": "14691008",
+            "display": "^90^Yttrium"
+          },
+          {
+            "code": "424079002",
+            "display": "^94m^Technetium"
+          },
+          {
+            "code": "40937006",
+            "display": "^124^Iodine"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "C-105A1",
+            "display": "^11^Carbon"
+          },
+          {
+            "code": "C-107A1",
+            "display": "^13^Nitrogen"
+          },
+          {
+            "code": "C-1018C",
+            "display": "^14^Oxygen"
+          },
+          {
+            "code": "C-B1038",
+            "display": "^15^Oxygen"
+          },
+          {
+            "code": "C-111A1",
+            "display": "^18^Fluorine"
+          },
+          {
+            "code": "C-155A1",
+            "display": "^22^Sodium"
+          },
+          {
+            "code": "C-135A4",
+            "display": "^38^Potassium"
+          },
+          {
+            "code": "C-166A2",
+            "display": "^45^Titanium"
+          },
+          {
+            "code": "C-130A1",
+            "display": "^52^Iron"
+          },
+          {
+            "code": "C-149A1",
+            "display": "^52^Manganese"
+          },
+          {
+            "code": "C-127A4",
+            "display": "^60^Copper"
+          },
+          {
+            "code": "C-127A1",
+            "display": "^61^Copper"
+          },
+          {
+            "code": "C-127A5",
+            "display": "^62^Copper"
+          },
+          {
+            "code": "C-141A1",
+            "display": "^62^Zinc"
+          },
+          {
+            "code": "C-127A2",
+            "display": "^64^Copper"
+          },
+          {
+            "code": "C-131A1",
+            "display": "^66^Gallium"
+          },
+          {
+            "code": "C-131A3",
+            "display": "^68^Gallium"
+          },
+          {
+            "code": "C-128A2",
+            "display": "^68^Germanium"
+          },
+          {
+            "code": "C-115A2",
+            "display": "^72^Arsenic"
+          },
+          {
+            "code": "C-116A2",
+            "display": "^73^Selenium"
+          },
+          {
+            "code": "C-113A1",
+            "display": "^75^Bromine"
+          },
+          {
+            "code": "C-113A2",
+            "display": "^76^Bromine"
+          },
+          {
+            "code": "C-113A3",
+            "display": "^77^Bromine"
+          },
+          {
+            "code": "C-159A2",
+            "display": "^82^Rubidium"
+          },
+          {
+            "code": "C-162A3",
+            "display": "^86^Yttrium"
+          },
+          {
+            "code": "C-168A4",
+            "display": "^89^Zirconium"
+          },
+          {
+            "code": "C-162A7",
+            "display": "^90^Yttrium"
+          },
+          {
+            "code": "C-163AA",
+            "display": "^94m^Technetium"
+          },
+          {
+            "code": "C-114A5",
+            "display": "^124^Iodine"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0302944",
+            "display": "^11^Carbon"
+          },
+          {
+            "code": "C0302959",
+            "display": "^13^Nitrogen"
+          },
+          {
+            "code": "C1828369",
+            "display": "^14^Oxygen"
+          },
+          {
+            "code": "C1268556",
+            "display": "^15^Oxygen"
+          },
+          {
+            "code": "C0302995",
+            "display": "^18^Fluorine"
+          },
+          {
+            "code": "C0303511",
+            "display": "^22^Sodium"
+          },
+          {
+            "code": "C1827255",
+            "display": "^38^Potassium"
+          },
+          {
+            "code": "C0303635",
+            "display": "^45^Titanium"
+          },
+          {
+            "code": "C0303218",
+            "display": "^52^Iron"
+          },
+          {
+            "code": "C0303448",
+            "display": "^52^Manganese"
+          },
+          {
+            "code": "C1827982",
+            "display": "^60^Copper"
+          },
+          {
+            "code": "C0303189",
+            "display": "^61^Copper"
+          },
+          {
+            "code": "C1828311",
+            "display": "^62^Copper"
+          },
+          {
+            "code": "C0303361",
+            "display": "^62^Zinc"
+          },
+          {
+            "code": "C0303190",
+            "display": "^64^Copper"
+          },
+          {
+            "code": "C0303224",
+            "display": "^66^Gallium"
+          },
+          {
+            "code": "C0303226",
+            "display": "^68^Gallium"
+          },
+          {
+            "code": "C0303198",
+            "display": "^68^Germanium"
+          },
+          {
+            "code": "C0303037",
+            "display": "^72^Arsenic"
+          },
+          {
+            "code": "C0303047",
+            "display": "^73^Selenium"
+          },
+          {
+            "code": "C0303008",
+            "display": "^75^Bromine"
+          },
+          {
+            "code": "C1304532",
+            "display": "^76^Bromine"
+          },
+          {
+            "code": "C0303010",
+            "display": "^77^Bromine"
+          },
+          {
+            "code": "C0303554",
+            "display": "^82^Rubidium"
+          },
+          {
+            "code": "C0303592",
+            "display": "^86^Yttrium"
+          },
+          {
+            "code": "C0303661",
+            "display": "^89^Zirconium"
+          },
+          {
+            "code": "C0303596",
+            "display": "^90^Yttrium"
+          },
+          {
+            "code": "C1828040",
+            "display": "^94m^Technetium"
+          },
+          {
+            "code": "C0303024",
+            "display": "^124^Iodine"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "126605",
+            "display": "^43^Scandium"
+          },
+          {
+            "code": "126600",
+            "display": "^44^Scandium"
+          },
+          {
+            "code": "126601",
+            "display": "^51^Manganese"
+          },
+          {
+            "code": "126607",
+            "display": "^52m^Manganese"
+          },
+          {
+            "code": "126602",
+            "display": "^70^Arsenic"
+          },
+          {
+            "code": "126603",
+            "display": "^90^Niobium"
+          },
+          {
+            "code": "126606",
+            "display": "^152^Terbium"
+          }
+        ]
+      }
+    ]
+  }
+}

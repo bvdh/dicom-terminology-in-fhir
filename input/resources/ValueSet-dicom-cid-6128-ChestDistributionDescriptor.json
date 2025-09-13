@@ -1,0 +1,156 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ChestDistributionDescriptor",
+  "id": "dicom-cid-6128-ChestDistributionDescriptor",
+  "description": "Original source of terms is [Fraser and Pare].",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6128-ChestDistributionDescriptor",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.448"
+    }
+  ],
+  "version": "20030108",
+  "title": "Chest Distribution Descriptor",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112154",
+            "display": "Bat's wing distribution"
+          },
+          {
+            "code": "112155",
+            "display": "Butterfly distribution"
+          },
+          {
+            "code": "112156",
+            "display": "Centrilobular"
+          },
+          {
+            "code": "112157",
+            "display": "Coalescent"
+          },
+          {
+            "code": "112158",
+            "display": "Lobar"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "19648000",
+            "display": "Diffuse"
+          },
+          {
+            "code": "255282008",
+            "display": "Discoid"
+          },
+          {
+            "code": "65709003",
+            "display": "Disseminated"
+          },
+          {
+            "code": "87017008",
+            "display": "Focal"
+          },
+          {
+            "code": "60132005",
+            "display": "Generalized"
+          },
+          {
+            "code": "524008",
+            "display": "Multifocal"
+          },
+          {
+            "code": "62372003",
+            "display": "Segmental"
+          },
+          {
+            "code": "31099001",
+            "display": "Systemic"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-A321",
+            "display": "Diffuse"
+          },
+          {
+            "code": "M-020FA",
+            "display": "Discoid"
+          },
+          {
+            "code": "G-A324",
+            "display": "Disseminated"
+          },
+          {
+            "code": "G-A351",
+            "display": "Focal"
+          },
+          {
+            "code": "G-A366",
+            "display": "Generalized"
+          },
+          {
+            "code": "G-A443",
+            "display": "Multifocal"
+          },
+          {
+            "code": "G-A137",
+            "display": "Segmental"
+          },
+          {
+            "code": "G-A572",
+            "display": "Systemic"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0205219",
+            "display": "Diffuse"
+          },
+          {
+            "code": "C0439641",
+            "display": "Discoid"
+          },
+          {
+            "code": "C0205221",
+            "display": "Disseminated"
+          },
+          {
+            "code": "C0205234",
+            "display": "Focal"
+          },
+          {
+            "code": "C0205246",
+            "display": "Generalized"
+          },
+          {
+            "code": "C0205292",
+            "display": "Multifocal"
+          },
+          {
+            "code": "C0205122",
+            "display": "Segmental"
+          },
+          {
+            "code": "C0205373",
+            "display": "Systemic"
+          }
+        ]
+      }
+    ]
+  }
+}

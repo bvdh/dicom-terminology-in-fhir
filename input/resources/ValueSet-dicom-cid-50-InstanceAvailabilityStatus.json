@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "InstanceAvailabilityStatus",
+  "id": "dicom-cid-50-InstanceAvailabilityStatus",
+  "description": "Instance Availability Status",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-50-InstanceAvailabilityStatus",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.811"
+    }
+  ],
+  "version": "20090616",
+  "title": "Instance Availability Status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "NEARLINE",
+            "display": "Nearline"
+          },
+          {
+            "code": "OFFLINE",
+            "display": "Offline"
+          },
+          {
+            "code": "ONLINE",
+            "display": "Online"
+          },
+          {
+            "code": "UNAVAILABLE",
+            "display": "Unavailable"
+          }
+        ]
+      }
+    ]
+  }
+}

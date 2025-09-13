@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "NeighbourhoodGreyToneDifferenceBasedFeature",
+  "id": "dicom-cid-7500-NeighbourhoodGreyToneDifferenceBasedFeature",
+  "description": "Neighbourhood Grey Tone Difference Based Feature",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7500-NeighbourhoodGreyToneDifferenceBasedFeature",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1273"
+    }
+  ],
+  "version": "20190121",
+  "title": "Neighbourhood Grey Tone Difference Based Feature",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-IBSI",
+        "concept": [
+          {
+            "code": "QCDE",
+            "display": "Coarseness of NGTDM"
+          },
+          {
+            "code": "65HE",
+            "display": "Contrast of NGTDM"
+          },
+          {
+            "code": "NQ30",
+            "display": "Busyness of NGTDM"
+          },
+          {
+            "code": "HDEZ",
+            "display": "Complexity of NGTDM"
+          },
+          {
+            "code": "1X9X",
+            "display": "Strength of NGTDM"
+          }
+        ]
+      }
+    ]
+  }
+}

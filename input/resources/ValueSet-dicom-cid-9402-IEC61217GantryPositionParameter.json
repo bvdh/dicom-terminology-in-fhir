@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "IEC61217GantryPositionParameter",
+  "id": "dicom-cid-9402-IEC61217GantryPositionParameter",
+  "description": "IEC61217 Gantry Position Parameter",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9402-IEC61217GantryPositionParameter",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1024"
+    }
+  ],
+  "version": "20130518",
+  "title": "IEC61217 Gantry Position Parameter",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "126809",
+            "display": "IEC61217 Gantry Continuous Roll Angle"
+          },
+          {
+            "code": "126810",
+            "display": "IEC61217 Gantry Continuous Pitch Angle"
+          },
+          {
+            "code": "126811",
+            "display": "IEC61217 Gantry Continuous Yaw Angle"
+          }
+        ]
+      }
+    ]
+  }
+}

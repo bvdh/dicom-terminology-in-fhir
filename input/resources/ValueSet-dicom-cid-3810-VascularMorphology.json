@@ -1,0 +1,239 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VascularMorphology",
+  "id": "dicom-cid-3810-VascularMorphology",
+  "description": "Vascular Morphology",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3810-VascularMorphology",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.271"
+    }
+  ],
+  "version": "20220922",
+  "title": "Vascular Morphology",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1522000",
+            "display": "plaque"
+          },
+          {
+            "code": "415582006",
+            "display": "stenosis"
+          },
+          {
+            "code": "85659009",
+            "display": "aneurysm"
+          },
+          {
+            "code": "710864009",
+            "display": "arterial dissection"
+          },
+          {
+            "code": "65818007",
+            "display": "stent"
+          },
+          {
+            "code": "26036001",
+            "display": "occlusion"
+          },
+          {
+            "code": "128617001",
+            "display": "arteriovenous fistula"
+          },
+          {
+            "code": "400210000",
+            "display": "angioma"
+          },
+          {
+            "code": "25322007",
+            "display": "dilatation"
+          },
+          {
+            "code": "416061003",
+            "display": "vascular coiling"
+          },
+          {
+            "code": "15690004",
+            "display": "tortuosity"
+          },
+          {
+            "code": "31113003",
+            "display": "diverticulum"
+          },
+          {
+            "code": "107671003",
+            "display": "vascular sclerosis"
+          },
+          {
+            "code": "396339007",
+            "display": "thrombus"
+          },
+          {
+            "code": "22036004",
+            "display": "pseudoaneurysm"
+          },
+          {
+            "code": "55584005",
+            "display": "embolism"
+          },
+          {
+            "code": "31653004",
+            "display": "fibromuscular dysplasia"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "M-01470",
+            "display": "plaque"
+          },
+          {
+            "code": "M-3400A",
+            "display": "stenosis"
+          },
+          {
+            "code": "M-32200",
+            "display": "aneurysm"
+          },
+          {
+            "code": "D3-80086",
+            "display": "arterial dissection"
+          },
+          {
+            "code": "A-25500",
+            "display": "stent"
+          },
+          {
+            "code": "M-34000",
+            "display": "occlusion"
+          },
+          {
+            "code": "M-39390",
+            "display": "arteriovenous fistula"
+          },
+          {
+            "code": "DF-003E5",
+            "display": "angioma"
+          },
+          {
+            "code": "M-32000",
+            "display": "dilatation"
+          },
+          {
+            "code": "R-FAB5E",
+            "display": "vascular coiling"
+          },
+          {
+            "code": "M-31790",
+            "display": "tortuosity"
+          },
+          {
+            "code": "M-32700",
+            "display": "diverticulum"
+          },
+          {
+            "code": "M-520F8",
+            "display": "vascular sclerosis"
+          },
+          {
+            "code": "M-35001",
+            "display": "thrombus"
+          },
+          {
+            "code": "M-32390",
+            "display": "pseudoaneurysm"
+          },
+          {
+            "code": "M-35300",
+            "display": "embolism"
+          },
+          {
+            "code": "M-74880",
+            "display": "fibromuscular dysplasia"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0332461",
+            "display": "plaque"
+          },
+          {
+            "code": "C0009814",
+            "display": "stenosis"
+          },
+          {
+            "code": "C0002940",
+            "display": "aneurysm"
+          },
+          {
+            "code": "C0002949",
+            "display": "arterial dissection"
+          },
+          {
+            "code": "C0038257",
+            "display": "stent"
+          },
+          {
+            "code": "C0028778",
+            "display": "occlusion"
+          },
+          {
+            "code": "C0003855",
+            "display": "arteriovenous fistula"
+          },
+          {
+            "code": "C0018916",
+            "display": "angioma"
+          },
+          {
+            "code": "C0012359",
+            "display": "dilatation"
+          },
+          {
+            "code": "C1562399",
+            "display": "vascular coiling"
+          },
+          {
+            "code": "C0333076",
+            "display": "tortuosity"
+          },
+          {
+            "code": "C0012817",
+            "display": "diverticulum"
+          },
+          {
+            "code": "C0003850",
+            "display": "vascular sclerosis"
+          },
+          {
+            "code": "C0087086",
+            "display": "thrombus"
+          },
+          {
+            "code": "C1510412",
+            "display": "pseudoaneurysm"
+          },
+          {
+            "code": "C1704212",
+            "display": "embolism"
+          },
+          {
+            "code": "C0016052",
+            "display": "fibromuscular dysplasia"
+          }
+        ]
+      }
+    ]
+  }
+}

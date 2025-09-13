@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Modality",
+  "id": "dicom-cid-33-Modality",
+  "description": "This Context Group contains the complete set of defined codes that correspond to Values that may appear in Modality (0008,0060).",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-33-Modality",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1283"
+    }
+  ],
+  "version": "20190327",
+  "title": "Modality",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-29-AcquisitionModality"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-32-NonAcquisitionModality"
+        ]
+      }
+    ]
+  }
+}

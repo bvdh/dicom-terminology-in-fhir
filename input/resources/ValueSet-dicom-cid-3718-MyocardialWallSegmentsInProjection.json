@@ -1,0 +1,107 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MyocardialWallSegmentsInProjection",
+  "id": "dicom-cid-3718-MyocardialWallSegmentsInProjection",
+  "description": "Myocardial Wall Segments in Projection",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3718-MyocardialWallSegmentsInProjection",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.219"
+    }
+  ],
+  "version": "20250401",
+  "title": "Myocardial Wall Segments in Projection",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "264850008",
+            "display": "left ventricle basal anterior segment"
+          },
+          {
+            "code": "73050001",
+            "display": "myocardium of anterolateral region"
+          },
+          {
+            "code": "47962008",
+            "display": "myocardium of apex of heart"
+          },
+          {
+            "code": "264846001",
+            "display": "left ventricle basal inferior segment"
+          },
+          {
+            "code": "16239001",
+            "display": "myocardium of inferolateral region"
+          },
+          {
+            "code": "264845002",
+            "display": "left ventricle apical septal segment"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-32619",
+            "display": "left ventricle basal anterior segment"
+          },
+          {
+            "code": "T-32634",
+            "display": "myocardium of anterolateral region"
+          },
+          {
+            "code": "T-32636",
+            "display": "myocardium of apex of heart"
+          },
+          {
+            "code": "T-32615",
+            "display": "left ventricle basal inferior segment"
+          },
+          {
+            "code": "T-32637",
+            "display": "myocardium of inferolateral region"
+          },
+          {
+            "code": "T-32614",
+            "display": "left ventricle apical septal segment"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0555926",
+            "display": "left ventricle basal anterior segment"
+          },
+          {
+            "code": "C0225907",
+            "display": "myocardium of anterolateral region"
+          },
+          {
+            "code": "C0225909",
+            "display": "myocardium of apex of heart"
+          },
+          {
+            "code": "C0555929",
+            "display": "left ventricle basal inferior segment"
+          },
+          {
+            "code": "C0225910",
+            "display": "myocardium of inferolateral region"
+          },
+          {
+            "code": "C0555923",
+            "display": "left ventricle apical septal segment"
+          }
+        ]
+      }
+    ]
+  }
+}

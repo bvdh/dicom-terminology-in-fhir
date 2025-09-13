@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ValueTiming",
+  "id": "dicom-cid-10073-ValueTiming",
+  "description": "Value Timing",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10073-ValueTiming",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1363"
+    }
+  ],
+  "version": "20210328",
+  "title": "Value Timing",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130532",
+            "display": "Duration of Time Period"
+          },
+          {
+            "code": "130533",
+            "display": "Beginning of Time Period"
+          },
+          {
+            "code": "130534",
+            "display": "End of Time Period"
+          },
+          {
+            "code": "130535",
+            "display": "Middle of Time Period"
+          }
+        ]
+      }
+    ]
+  }
+}

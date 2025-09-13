@@ -1,0 +1,92 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PatientAssessment",
+  "id": "dicom-cid-3441-PatientAssessment",
+  "description": "Patient Assessment",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3441-PatientAssessment",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.94"
+    }
+  ],
+  "version": "20030327",
+  "title": "Patient Assessment",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "8884-9",
+            "display": "Cardiac Rhythm"
+          },
+          {
+            "code": "9304-7",
+            "display": "Respiration Rhythm"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0488795",
+            "display": "Cardiac Rhythm"
+          },
+          {
+            "code": "C0489261",
+            "display": "Respiration Rhythm"
+          },
+          {
+            "code": "C1286230",
+            "display": "Skin condition assessment"
+          },
+          {
+            "code": "C1285809",
+            "display": "Respiration assessment"
+          },
+          {
+            "code": "C0278060",
+            "display": "Patient mental state assessment"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "364528001",
+            "display": "Skin condition assessment"
+          },
+          {
+            "code": "364062005",
+            "display": "Respiration assessment"
+          },
+          {
+            "code": "363871006",
+            "display": "Patient mental state assessment"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "F-046D8",
+            "display": "Skin condition assessment"
+          },
+          {
+            "code": "F-043E6",
+            "display": "Respiration assessment"
+          },
+          {
+            "code": "F-04317",
+            "display": "Patient mental state assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

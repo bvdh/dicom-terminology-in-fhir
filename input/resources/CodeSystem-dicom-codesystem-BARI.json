@@ -1,0 +1,54 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "fragment",
+  "name": "BARICodeSystem",
+  "id": "dicom-codesystem-BARI",
+  "title": "BARI",
+  "description": "Bypass Angioplasty Revascularization Investigation",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-BARI",
+  "concept": [
+    {
+      "code": "15A",
+      "display": "1st Diagonal Coronary Artery Laterals",
+      "definition": "1st Diagonal Coronary Artery Laterals"
+    },
+    {
+      "code": "20A",
+      "display": "1st Marginal Coronary Artery Laterals",
+      "definition": "1st Marginal Coronary Artery Laterals"
+    },
+    {
+      "code": "16A",
+      "display": "2nd Diagonal Coronary Artery Laterals",
+      "definition": "2nd Diagonal Coronary Artery Laterals"
+    },
+    {
+      "code": "21A",
+      "display": "2nd Marginal Coronary Artery Laterals",
+      "definition": "2nd Marginal Coronary Artery Laterals"
+    },
+    {
+      "code": "29A",
+      "display": "3rd Diagonal Coronary Artery Laterals",
+      "definition": "3rd Diagonal Coronary Artery Laterals"
+    },
+    {
+      "code": "22A",
+      "display": "3rd Marginal Coronary Artery Laterals",
+      "definition": "3rd Marginal Coronary Artery Laterals"
+    },
+    {
+      "code": "28A",
+      "display": "Ramus Laterals",
+      "definition": "Ramus Laterals"
+    },
+    {
+      "code": "9",
+      "display": "Posterior descending septal perforators",
+      "definition": "Posterior descending septal perforators"
+    }
+  ],
+  "caseSensitive": true,
+  "experimental": false
+}

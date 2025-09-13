@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProceduresForBreast",
+  "id": "dicom-cid-6083-ProceduresForBreast",
+  "description": "Procedures for Breast",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6083-ProceduresForBreast",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.405"
+    }
+  ],
+  "version": "20040112",
+  "title": "Procedures for Breast",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111564",
+            "display": "Nipple discharge cytology"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6050-BreastProcedureReported"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6084-MammoplastyProcedure"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6085-TherapiesForBreast"
+        ]
+      }
+    ]
+  }
+}

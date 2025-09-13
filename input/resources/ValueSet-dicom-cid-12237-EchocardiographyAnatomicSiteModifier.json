@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EchocardiographyAnatomicSiteModifier",
+  "id": "dicom-cid-12237-EchocardiographyAnatomicSiteModifier",
+  "description": "Echocardiography Anatomic Site Modifier",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12237-EchocardiographyAnatomicSiteModifier",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.628"
+    }
+  ],
+  "version": "20030918",
+  "title": "Echocardiography Anatomic Site Modifier",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12219-PulmonaryVeinModifier"
+        ]
+      }
+    ]
+  }
+}

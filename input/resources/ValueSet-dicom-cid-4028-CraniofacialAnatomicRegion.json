@@ -1,0 +1,575 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CraniofacialAnatomicRegion",
+  "id": "dicom-cid-4028-CraniofacialAnatomicRegion",
+  "description": "Craniofacial Anatomic Region",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4028-CraniofacialAnatomicRegion",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.306"
+    }
+  ],
+  "version": "20250330",
+  "title": "Craniofacial Anatomic Region",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "312779009",
+            "display": "Bone structure of head and/or neck"
+          },
+          {
+            "code": "122494005",
+            "display": "Cervical spine"
+          },
+          {
+            "code": "52374004",
+            "display": "Ethmoid bone"
+          },
+          {
+            "code": "28347008",
+            "display": "External ear"
+          },
+          {
+            "code": "79652003",
+            "display": "Eyeball"
+          },
+          {
+            "code": "371398005",
+            "display": "Eye region"
+          },
+          {
+            "code": "91397008",
+            "display": "Facial bones"
+          },
+          {
+            "code": "74872008",
+            "display": "Frontal bone"
+          },
+          {
+            "code": "69536005",
+            "display": "Head"
+          },
+          {
+            "code": "774007",
+            "display": "Head and Neck"
+          },
+          {
+            "code": "21387005",
+            "display": "Hyoid bone"
+          },
+          {
+            "code": "22945000",
+            "display": "Inner ear"
+          },
+          {
+            "code": "361078006",
+            "display": "Internal Auditory Canal"
+          },
+          {
+            "code": "661005",
+            "display": "Jaw region"
+          },
+          {
+            "code": "6229007",
+            "display": "Lacrimal bone"
+          },
+          {
+            "code": "4596009",
+            "display": "Larynx"
+          },
+          {
+            "code": "48477009",
+            "display": "Lip"
+          },
+          {
+            "code": "91609006",
+            "display": "Mandible"
+          },
+          {
+            "code": "59066005",
+            "display": "Mastoid bone"
+          },
+          {
+            "code": "70925003",
+            "display": "Maxilla"
+          },
+          {
+            "code": "25342003",
+            "display": "Middle ear"
+          },
+          {
+            "code": "123851003",
+            "display": "Mouth"
+          },
+          {
+            "code": "22688005",
+            "display": "Muscle of head"
+          },
+          {
+            "code": "81727001",
+            "display": "Muscle of neck"
+          },
+          {
+            "code": "74386004",
+            "display": "Nasal bone"
+          },
+          {
+            "code": "45048000",
+            "display": "Neck"
+          },
+          {
+            "code": "31640002",
+            "display": "Occipital bone"
+          },
+          {
+            "code": "55024004",
+            "display": "Optic canal"
+          },
+          {
+            "code": "363654007",
+            "display": "Orbital structure"
+          },
+          {
+            "code": "51283005",
+            "display": "Palatine bone"
+          },
+          {
+            "code": "2095001",
+            "display": "Paranasal sinus"
+          },
+          {
+            "code": "24924006",
+            "display": "Parietal bone"
+          },
+          {
+            "code": "385294005",
+            "display": "Salivary gland"
+          },
+          {
+            "code": "89546000",
+            "display": "Skull"
+          },
+          {
+            "code": "49460000",
+            "display": "Soft palate"
+          },
+          {
+            "code": "73117003",
+            "display": "Sphenoid bone"
+          },
+          {
+            "code": "54019009",
+            "display": "Submandibular gland"
+          },
+          {
+            "code": "60911003",
+            "display": "Temporal bone"
+          },
+          {
+            "code": "53620006",
+            "display": "Temporomandibular joint"
+          },
+          {
+            "code": "21974007",
+            "display": "Tongue"
+          },
+          {
+            "code": "38199008",
+            "display": "Tooth"
+          },
+          {
+            "code": "44567001",
+            "display": "Trachea"
+          },
+          {
+            "code": "110517009",
+            "display": "Vertebral column and cranium"
+          },
+          {
+            "code": "87166008",
+            "display": "Vomer bone"
+          },
+          {
+            "code": "13881006",
+            "display": "Zygoma"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-D006D",
+            "display": "Bone structure of head and/or neck"
+          },
+          {
+            "code": "T-11501",
+            "display": "Cervical spine"
+          },
+          {
+            "code": "T-11156",
+            "display": "Ethmoid bone"
+          },
+          {
+            "code": "T-AB100",
+            "display": "External ear"
+          },
+          {
+            "code": "T-AA770",
+            "display": "Eyeball"
+          },
+          {
+            "code": "T-D0801",
+            "display": "Eye region"
+          },
+          {
+            "code": "T-11196",
+            "display": "Facial bones"
+          },
+          {
+            "code": "T-11110",
+            "display": "Frontal bone"
+          },
+          {
+            "code": "T-D1100",
+            "display": "Head"
+          },
+          {
+            "code": "T-D1000",
+            "display": "Head and Neck"
+          },
+          {
+            "code": "T-11190",
+            "display": "Hyoid bone"
+          },
+          {
+            "code": "T-AB700",
+            "display": "Inner ear"
+          },
+          {
+            "code": "T-AB959",
+            "display": "Internal Auditory Canal"
+          },
+          {
+            "code": "T-D1213",
+            "display": "Jaw region"
+          },
+          {
+            "code": "T-1115A",
+            "display": "Lacrimal bone"
+          },
+          {
+            "code": "T-24100",
+            "display": "Larynx"
+          },
+          {
+            "code": "T-52000",
+            "display": "Lip"
+          },
+          {
+            "code": "T-11180",
+            "display": "Mandible"
+          },
+          {
+            "code": "T-11133",
+            "display": "Mastoid bone"
+          },
+          {
+            "code": "T-11170",
+            "display": "Maxilla"
+          },
+          {
+            "code": "T-AB300",
+            "display": "Middle ear"
+          },
+          {
+            "code": "T-D0662",
+            "display": "Mouth"
+          },
+          {
+            "code": "T-13100",
+            "display": "Muscle of head"
+          },
+          {
+            "code": "T-13300",
+            "display": "Muscle of neck"
+          },
+          {
+            "code": "T-11149",
+            "display": "Nasal bone"
+          },
+          {
+            "code": "T-D1600",
+            "display": "Neck"
+          },
+          {
+            "code": "T-11140",
+            "display": "Occipital bone"
+          },
+          {
+            "code": "T-11102",
+            "display": "Optic canal"
+          },
+          {
+            "code": "T-D14AE",
+            "display": "Orbital structure"
+          },
+          {
+            "code": "T-11160",
+            "display": "Palatine bone"
+          },
+          {
+            "code": "T-22000",
+            "display": "Paranasal sinus"
+          },
+          {
+            "code": "T-11120",
+            "display": "Parietal bone"
+          },
+          {
+            "code": "T-61007",
+            "display": "Salivary gland"
+          },
+          {
+            "code": "T-11100",
+            "display": "Skull"
+          },
+          {
+            "code": "T-51120",
+            "display": "Soft palate"
+          },
+          {
+            "code": "T-11150",
+            "display": "Sphenoid bone"
+          },
+          {
+            "code": "T-61300",
+            "display": "Submandibular gland"
+          },
+          {
+            "code": "T-11130",
+            "display": "Temporal bone"
+          },
+          {
+            "code": "T-15290",
+            "display": "Temporomandibular joint"
+          },
+          {
+            "code": "T-53000",
+            "display": "Tongue"
+          },
+          {
+            "code": "T-54010",
+            "display": "Tooth"
+          },
+          {
+            "code": "T-25000",
+            "display": "Trachea"
+          },
+          {
+            "code": "T-11011",
+            "display": "Vertebral column and cranium"
+          },
+          {
+            "code": "T-21342",
+            "display": "Vomer bone"
+          },
+          {
+            "code": "T-11166",
+            "display": "Zygoma"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0730130",
+            "display": "Bone structure of head and/or neck"
+          },
+          {
+            "code": "C0728985",
+            "display": "Cervical spine"
+          },
+          {
+            "code": "C0015027",
+            "display": "Ethmoid bone"
+          },
+          {
+            "code": "C0013453",
+            "display": "External ear"
+          },
+          {
+            "code": "C0229242",
+            "display": "Eyeball"
+          },
+          {
+            "code": "C0015392",
+            "display": "Eye region"
+          },
+          {
+            "code": "C0015455",
+            "display": "Facial bones"
+          },
+          {
+            "code": "C0016732",
+            "display": "Frontal bone"
+          },
+          {
+            "code": "C0018670",
+            "display": "Head"
+          },
+          {
+            "code": "C0460004",
+            "display": "Head and Neck"
+          },
+          {
+            "code": "C0020417",
+            "display": "Hyoid bone"
+          },
+          {
+            "code": "C0022889",
+            "display": "Inner ear"
+          },
+          {
+            "code": "C1283773",
+            "display": "Internal Auditory Canal"
+          },
+          {
+            "code": "C0022359",
+            "display": "Jaw region"
+          },
+          {
+            "code": "C0222733",
+            "display": "Lacrimal bone"
+          },
+          {
+            "code": "C0023078",
+            "display": "Larynx"
+          },
+          {
+            "code": "C0023759",
+            "display": "Lip"
+          },
+          {
+            "code": "C0024687",
+            "display": "Mandible"
+          },
+          {
+            "code": "C0446908",
+            "display": "Mastoid bone"
+          },
+          {
+            "code": "C0024947",
+            "display": "Maxilla"
+          },
+          {
+            "code": "C0013455",
+            "display": "Middle ear"
+          },
+          {
+            "code": "C0230028",
+            "display": "Mouth"
+          },
+          {
+            "code": "C0224097",
+            "display": "Muscle of head"
+          },
+          {
+            "code": "C0027532",
+            "display": "Muscle of neck"
+          },
+          {
+            "code": "C0027422",
+            "display": "Nasal bone"
+          },
+          {
+            "code": "C0027530",
+            "display": "Neck"
+          },
+          {
+            "code": "C0028784",
+            "display": "Occipital bone"
+          },
+          {
+            "code": "C0450102",
+            "display": "Optic canal"
+          },
+          {
+            "code": "C0029180",
+            "display": "Orbital structure"
+          },
+          {
+            "code": "C0222734",
+            "display": "Palatine bone"
+          },
+          {
+            "code": "C0030471",
+            "display": "Paranasal sinus"
+          },
+          {
+            "code": "C0030558",
+            "display": "Parietal bone"
+          },
+          {
+            "code": "C0036098",
+            "display": "Salivary gland"
+          },
+          {
+            "code": "C0037303",
+            "display": "Skull"
+          },
+          {
+            "code": "C0030219",
+            "display": "Soft palate"
+          },
+          {
+            "code": "C0037884",
+            "display": "Sphenoid bone"
+          },
+          {
+            "code": "C0038556",
+            "display": "Submandibular gland"
+          },
+          {
+            "code": "C0039484",
+            "display": "Temporal bone"
+          },
+          {
+            "code": "C0039493",
+            "display": "Temporomandibular joint"
+          },
+          {
+            "code": "C0040408",
+            "display": "Tongue"
+          },
+          {
+            "code": "C0040426",
+            "display": "Tooth"
+          },
+          {
+            "code": "C0040578",
+            "display": "Trachea"
+          },
+          {
+            "code": "C1266914",
+            "display": "Vertebral column and cranium"
+          },
+          {
+            "code": "C0242403",
+            "display": "Vomer bone"
+          },
+          {
+            "code": "C0043539",
+            "display": "Zygoma"
+          }
+        ]
+      }
+    ]
+  }
+}

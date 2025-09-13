@@ -1,0 +1,527 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ElectrophysiologyAnatomicLocation",
+  "id": "dicom-cid-3011-ElectrophysiologyAnatomicLocation",
+  "description": "In a prior version of this Context Group the code",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3011-ElectrophysiologyAnatomicLocation",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.46"
+    }
+  ],
+  "version": "20170914",
+  "title": "Electrophysiology Anatomic Location",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "8225009",
+            "display": "Accessory atrioventricular bundle"
+          },
+          {
+            "code": "128564006",
+            "display": "Apex of left ventricle"
+          },
+          {
+            "code": "128565007",
+            "display": "Apex of right ventricle"
+          },
+          {
+            "code": "345000",
+            "display": "Atrioventricular bundle"
+          },
+          {
+            "code": "25943004",
+            "display": "Atrioventricular node"
+          },
+          {
+            "code": "45503006",
+            "display": "Common ventricle"
+          },
+          {
+            "code": "90219004",
+            "display": "Coronary sinus"
+          },
+          {
+            "code": "6871001",
+            "display": "Epicardium"
+          },
+          {
+            "code": "5928000",
+            "display": "Great cardiac vein"
+          },
+          {
+            "code": "128591008",
+            "display": "High right atrium"
+          },
+          {
+            "code": "51249003",
+            "display": "Inferior left pulmonary vein"
+          },
+          {
+            "code": "113273001",
+            "display": "Inferior right pulmonary vein"
+          },
+          {
+            "code": "128592001",
+            "display": "Lateral high right atrium"
+          },
+          {
+            "code": "84654008",
+            "display": "Left anterior division of left branch atrioventricular bundle"
+          },
+          {
+            "code": "82471001",
+            "display": "Left Atrium"
+          },
+          {
+            "code": "33626005",
+            "display": "Left auricular appendage"
+          },
+          {
+            "code": "74031005",
+            "display": "Left branch of atrioventricular bundle"
+          },
+          {
+            "code": "91085002",
+            "display": "Left posterior division of left branch atrioventricular bundle"
+          },
+          {
+            "code": "87878005",
+            "display": "Left ventricle"
+          },
+          {
+            "code": "70238003",
+            "display": "Left ventricle inflow"
+          },
+          {
+            "code": "13418002",
+            "display": "Left ventricle outflow tract"
+          },
+          {
+            "code": "128594000",
+            "display": "Low right atrium"
+          },
+          {
+            "code": "128593006",
+            "display": "Mid right atrium"
+          },
+          {
+            "code": "73580002",
+            "display": "Middle cardiac vein"
+          },
+          {
+            "code": "65197004",
+            "display": "Mitral ring"
+          },
+          {
+            "code": "71271007",
+            "display": "Ostium of coronary sinus"
+          },
+          {
+            "code": "122972007",
+            "display": "Pulmonary vein"
+          },
+          {
+            "code": "90318009",
+            "display": "Pulmonic ring"
+          },
+          {
+            "code": "13050003",
+            "display": "Purkinje fibers"
+          },
+          {
+            "code": "90561006",
+            "display": "Right atrioventricular ostium"
+          },
+          {
+            "code": "73829009",
+            "display": "Right Atrium"
+          },
+          {
+            "code": "68300000",
+            "display": "Right auricular appendage"
+          },
+          {
+            "code": "57383004",
+            "display": "Right branch of Atrioventricular bundle"
+          },
+          {
+            "code": "53085002",
+            "display": "Right ventricle"
+          },
+          {
+            "code": "8017000",
+            "display": "Right ventricle inflow"
+          },
+          {
+            "code": "44627009",
+            "display": "Right ventricle outflow tract"
+          },
+          {
+            "code": "88210001",
+            "display": "Sino-atrial node"
+          },
+          {
+            "code": "43863001",
+            "display": "Superior left pulmonary vein"
+          },
+          {
+            "code": "8629005",
+            "display": "Superior right pulmonary vein"
+          },
+          {
+            "code": "128595004",
+            "display": "Tendon of Todaro"
+          },
+          {
+            "code": "113259005",
+            "display": "Tricuspid ring"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-32850",
+            "display": "Accessory atrioventricular bundle"
+          },
+          {
+            "code": "T-32602",
+            "display": "Apex of left ventricle"
+          },
+          {
+            "code": "T-32502",
+            "display": "Apex of right ventricle"
+          },
+          {
+            "code": "T-32830",
+            "display": "Atrioventricular bundle"
+          },
+          {
+            "code": "T-32820",
+            "display": "Atrioventricular node"
+          },
+          {
+            "code": "D4-31120",
+            "display": "Common ventricle"
+          },
+          {
+            "code": "T-48410",
+            "display": "Coronary sinus"
+          },
+          {
+            "code": "T-39010",
+            "display": "Epicardium"
+          },
+          {
+            "code": "T-48420",
+            "display": "Great cardiac vein"
+          },
+          {
+            "code": "G-DE02",
+            "display": "High right atrium"
+          },
+          {
+            "code": "T-48540",
+            "display": "Inferior left pulmonary vein"
+          },
+          {
+            "code": "T-48520",
+            "display": "Inferior right pulmonary vein"
+          },
+          {
+            "code": "G-DE04",
+            "display": "Lateral high right atrium"
+          },
+          {
+            "code": "T-32833",
+            "display": "Left anterior division of left branch atrioventricular bundle"
+          },
+          {
+            "code": "T-32300",
+            "display": "Left Atrium"
+          },
+          {
+            "code": "T-32310",
+            "display": "Left auricular appendage"
+          },
+          {
+            "code": "T-32832",
+            "display": "Left branch of atrioventricular bundle"
+          },
+          {
+            "code": "T-32834",
+            "display": "Left posterior division of left branch atrioventricular bundle"
+          },
+          {
+            "code": "T-32600",
+            "display": "Left ventricle"
+          },
+          {
+            "code": "T-32640",
+            "display": "Left ventricle inflow"
+          },
+          {
+            "code": "T-32650",
+            "display": "Left ventricle outflow tract"
+          },
+          {
+            "code": "G-DE08",
+            "display": "Low right atrium"
+          },
+          {
+            "code": "G-DE06",
+            "display": "Mid right atrium"
+          },
+          {
+            "code": "T-48430",
+            "display": "Middle cardiac vein"
+          },
+          {
+            "code": "T-35310",
+            "display": "Mitral ring"
+          },
+          {
+            "code": "T-48411",
+            "display": "Ostium of coronary sinus"
+          },
+          {
+            "code": "T-48581",
+            "display": "Pulmonary vein"
+          },
+          {
+            "code": "T-35210",
+            "display": "Pulmonic ring"
+          },
+          {
+            "code": "T-32840",
+            "display": "Purkinje fibers"
+          },
+          {
+            "code": "T-35120",
+            "display": "Right atrioventricular ostium"
+          },
+          {
+            "code": "T-32200",
+            "display": "Right Atrium"
+          },
+          {
+            "code": "T-32210",
+            "display": "Right auricular appendage"
+          },
+          {
+            "code": "T-32831",
+            "display": "Right branch of Atrioventricular bundle"
+          },
+          {
+            "code": "T-32500",
+            "display": "Right ventricle"
+          },
+          {
+            "code": "T-32540",
+            "display": "Right ventricle inflow"
+          },
+          {
+            "code": "T-32550",
+            "display": "Right ventricle outflow tract"
+          },
+          {
+            "code": "T-32810",
+            "display": "Sino-atrial node"
+          },
+          {
+            "code": "T-48530",
+            "display": "Superior left pulmonary vein"
+          },
+          {
+            "code": "T-48510",
+            "display": "Superior right pulmonary vein"
+          },
+          {
+            "code": "T-32202",
+            "display": "Tendon of Todaro"
+          },
+          {
+            "code": "T-35110",
+            "display": "Tricuspid ring"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0006383",
+            "display": "Accessory atrioventricular bundle"
+          },
+          {
+            "code": "C0580781",
+            "display": "Apex of left ventricle"
+          },
+          {
+            "code": "C0445242",
+            "display": "Apex of right ventricle"
+          },
+          {
+            "code": "C0006382",
+            "display": "Atrioventricular bundle"
+          },
+          {
+            "code": "C0004247",
+            "display": "Atrioventricular node"
+          },
+          {
+            "code": "C0152424",
+            "display": "Common ventricle"
+          },
+          {
+            "code": "C0456944",
+            "display": "Coronary sinus"
+          },
+          {
+            "code": "C0225968",
+            "display": "Epicardium"
+          },
+          {
+            "code": "C0226659",
+            "display": "Great cardiac vein"
+          },
+          {
+            "code": "C0456955",
+            "display": "High right atrium"
+          },
+          {
+            "code": "C0226686",
+            "display": "Inferior left pulmonary vein"
+          },
+          {
+            "code": "C0226676",
+            "display": "Inferior right pulmonary vein"
+          },
+          {
+            "code": "C1264751",
+            "display": "Lateral high right atrium"
+          },
+          {
+            "code": "C0225918",
+            "display": "Left anterior division of left branch atrioventricular bundle"
+          },
+          {
+            "code": "C0225860",
+            "display": "Left Atrium"
+          },
+          {
+            "code": "C0225861",
+            "display": "Left auricular appendage"
+          },
+          {
+            "code": "C0459156",
+            "display": "Left branch of atrioventricular bundle"
+          },
+          {
+            "code": "C0225919",
+            "display": "Left posterior division of left branch atrioventricular bundle"
+          },
+          {
+            "code": "C0225897",
+            "display": "Left ventricle"
+          },
+          {
+            "code": "C0225911",
+            "display": "Left ventricle inflow"
+          },
+          {
+            "code": "C0225912",
+            "display": "Left ventricle outflow tract"
+          },
+          {
+            "code": "C0456956",
+            "display": "Low right atrium"
+          },
+          {
+            "code": "C0225856",
+            "display": "Mid right atrium"
+          },
+          {
+            "code": "C0226660",
+            "display": "Middle cardiac vein"
+          },
+          {
+            "code": "C0225947",
+            "display": "Mitral ring"
+          },
+          {
+            "code": "C0226656",
+            "display": "Ostium of coronary sinus"
+          },
+          {
+            "code": "C0034090",
+            "display": "Pulmonary vein"
+          },
+          {
+            "code": "C0225935",
+            "display": "Pulmonic ring"
+          },
+          {
+            "code": "C0034144",
+            "display": "Purkinje fibers"
+          },
+          {
+            "code": "C0225927",
+            "display": "Right atrioventricular ostium"
+          },
+          {
+            "code": "C0225844",
+            "display": "Right Atrium"
+          },
+          {
+            "code": "C0225845",
+            "display": "Right auricular appendage"
+          },
+          {
+            "code": "C0225916",
+            "display": "Right branch of Atrioventricular bundle"
+          },
+          {
+            "code": "C0225883",
+            "display": "Right ventricle"
+          },
+          {
+            "code": "C0225891",
+            "display": "Right ventricle inflow"
+          },
+          {
+            "code": "C0225892",
+            "display": "Right ventricle outflow tract"
+          },
+          {
+            "code": "C0037189",
+            "display": "Sino-atrial node"
+          },
+          {
+            "code": "C0226682",
+            "display": "Superior left pulmonary vein"
+          },
+          {
+            "code": "C0226671",
+            "display": "Superior right pulmonary vein"
+          },
+          {
+            "code": "C0456939",
+            "display": "Tendon of Todaro"
+          },
+          {
+            "code": "C0225926",
+            "display": "Tricuspid ring"
+          }
+        ]
+      }
+    ]
+  }
+}

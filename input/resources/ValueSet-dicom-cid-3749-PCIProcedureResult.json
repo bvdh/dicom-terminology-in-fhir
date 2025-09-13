@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PCIProcedureResult",
+  "id": "dicom-cid-3749-PCIProcedureResult",
+  "description": "PCI Procedure Result",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3749-PCIProcedureResult",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.246"
+    }
+  ],
+  "version": "20030327",
+  "title": "PCI Procedure Result",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr",
+        "concept": [
+          {
+            "code": "100-1",
+            "display": "Successful"
+          },
+          {
+            "code": "100-2",
+            "display": "Partially successful"
+          },
+          {
+            "code": "100-3",
+            "display": "Unsuccessful"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "BaselineCategory",
+  "id": "dicom-cid-6145-BaselineCategory",
+  "description": "From RECIST",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6145-BaselineCategory",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.465"
+    }
+  ],
+  "version": "20030108",
+  "title": "Baseline Category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112074",
+            "display": "Target Lesion at Baseline"
+          },
+          {
+            "code": "112075",
+            "display": "Non-Target Lesion at Baseline"
+          },
+          {
+            "code": "112076",
+            "display": "Non-Lesion at Baseline"
+          }
+        ]
+      }
+    ]
+  }
+}

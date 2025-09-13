@@ -1,0 +1,10 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid7020",
+  "id": "dicom-cid7020",
+  "description": "A subset of this Context Group directly applicable to imaging reports is in The LOINC Coding Scheme can be found at",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid7020",
+  "version": "None",
+  "title": "Document Title"
+}

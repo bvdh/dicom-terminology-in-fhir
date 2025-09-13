@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MeasurementRangeConcept",
+  "id": "dicom-cid-221-MeasurementRangeConcept",
+  "description": "Measurement Range Concept",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-221-MeasurementRangeConcept",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.26"
+    }
+  ],
+  "version": "20030327",
+  "title": "Measurement Range Concept",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-226-PopulationStatisticalDescriptor"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-227-SampleStatisticalDescriptor"
+        ]
+      }
+    ]
+  }
+}

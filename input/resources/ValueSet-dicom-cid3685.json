@@ -1,0 +1,9 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid3685",
+  "id": "dicom-cid3685",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid3685",
+  "version": "None",
+  "title": "Conjunctive Term (Retired)"
+}

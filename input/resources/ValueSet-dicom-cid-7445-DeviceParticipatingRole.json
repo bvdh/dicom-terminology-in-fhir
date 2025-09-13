@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DeviceParticipatingRole",
+  "id": "dicom-cid-7445-DeviceParticipatingRole",
+  "description": "Device Participating Role",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7445-DeviceParticipatingRole",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1042"
+    }
+  ],
+  "version": "20120406",
+  "title": "Device Participating Role",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113859",
+            "display": "Irradiating Device"
+          },
+          {
+            "code": "121097",
+            "display": "Recording"
+          },
+          {
+            "code": "113942",
+            "display": "X-Ray Reading Device"
+          }
+        ]
+      }
+    ]
+  }
+}

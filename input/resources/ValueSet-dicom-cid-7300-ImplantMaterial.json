@@ -1,0 +1,141 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ImplantMaterial",
+  "id": "dicom-cid-7300-ImplantMaterial",
+  "description": "Implant Material",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7300-ImplantMaterial",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1031"
+    }
+  ],
+  "version": "20220115",
+  "title": "Implant Material",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "261250004",
+            "display": "Nickel Titanium"
+          },
+          {
+            "code": "256496006",
+            "display": "Gold Alloy"
+          },
+          {
+            "code": "256506002",
+            "display": "Stainless Steel Material"
+          },
+          {
+            "code": "412155002",
+            "display": "Polymer"
+          },
+          {
+            "code": "256501007",
+            "display": "Carbon Fiber"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "F-61166",
+            "display": "Nickel Titanium"
+          },
+          {
+            "code": "F-611FC",
+            "display": "Gold Alloy"
+          },
+          {
+            "code": "F-61207",
+            "display": "Stainless Steel Material"
+          },
+          {
+            "code": "F-61DF9",
+            "display": "Polymer"
+          },
+          {
+            "code": "F-61202",
+            "display": "Carbon Fiber"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0076736",
+            "display": "Nickel Titanium"
+          },
+          {
+            "code": "C0018027",
+            "display": "Gold Alloy"
+          },
+          {
+            "code": "C0038126",
+            "display": "Stainless Steel Material"
+          },
+          {
+            "code": "C0032521",
+            "display": "Polymer"
+          },
+          {
+            "code": "C0108411",
+            "display": "Carbon Fiber"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-UNS",
+        "concept": [
+          {
+            "code": "S31673",
+            "display": "Stainless steel (SS316L)"
+          },
+          {
+            "code": "R50250",
+            "display": "Titanium"
+          },
+          {
+            "code": "R56400",
+            "display": "Titanium alloy (Titanium Aluminium-6 Vanadium-4)"
+          },
+          {
+            "code": "R30075",
+            "display": "Cobalt chromium alloy (Cobalt Chromium-28 Molybdenum 6)"
+          },
+          {
+            "code": "R30605",
+            "display": "Cobalt-chromium alloy (Cobalt Chromium-20 Tungsten-15 Nickel-10)"
+          },
+          {
+            "code": "R30035",
+            "display": "Cobalt-chromium alloy (Cobalt Nickel-35 Chromium-20 Molybdenum-10)"
+          },
+          {
+            "code": "R30003",
+            "display": "Cobalt-chromium alloy (Cobalt Chromium-20 Nickel-15 Iron-15 Molybdenum-7 Manganese-2)"
+          },
+          {
+            "code": "R56700",
+            "display": "Titanium alloy (Titanium Aluminium-6 Niobium-7)"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130736",
+            "display": "Titanium alloy (Titanium Molybdenum-15 Zirconium-5 Aluminium-3)"
+          }
+        ]
+      }
+    ]
+  }
+}

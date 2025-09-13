@@ -1,0 +1,156 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OphthalmicPhotographyIllumination",
+  "id": "dicom-cid-4203-OphthalmicPhotographyIllumination",
+  "description": "Reference: From the OPS web site:",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4203-OphthalmicPhotographyIllumination",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.319"
+    }
+  ],
+  "version": "20250122",
+  "title": "Ophthalmic Photography Illumination",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "410461001",
+            "display": "Dual diffuse direct illumination"
+          },
+          {
+            "code": "410462008",
+            "display": "Fine slit beam direct illumination"
+          },
+          {
+            "code": "410463003",
+            "display": "Broad tangential direct illumination"
+          },
+          {
+            "code": "410464009",
+            "display": "Indirect sclerotic scatter illumination"
+          },
+          {
+            "code": "410465005",
+            "display": "Indirect retroillumination from the iris"
+          },
+          {
+            "code": "410466006",
+            "display": "Indirect retroillumination from the retina"
+          },
+          {
+            "code": "410467002",
+            "display": "Indirect iris transillumination"
+          },
+          {
+            "code": "118340008",
+            "display": "Pulsed laser beam"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-1020E",
+            "display": "Dual diffuse direct illumination"
+          },
+          {
+            "code": "R-1020F",
+            "display": "Fine slit beam direct illumination"
+          },
+          {
+            "code": "R-10211",
+            "display": "Broad tangential direct illumination"
+          },
+          {
+            "code": "R-10213",
+            "display": "Indirect sclerotic scatter illumination"
+          },
+          {
+            "code": "R-10215",
+            "display": "Indirect retroillumination from the iris"
+          },
+          {
+            "code": "R-10217",
+            "display": "Indirect retroillumination from the retina"
+          },
+          {
+            "code": "R-10218",
+            "display": "Indirect iris transillumination"
+          },
+          {
+            "code": "A-810B1",
+            "display": "Pulsed laser beam"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1444589",
+            "display": "Dual diffuse direct illumination"
+          },
+          {
+            "code": "C1444590",
+            "display": "Fine slit beam direct illumination"
+          },
+          {
+            "code": "C1444591",
+            "display": "Broad tangential direct illumination"
+          },
+          {
+            "code": "C1444592",
+            "display": "Indirect sclerotic scatter illumination"
+          },
+          {
+            "code": "C1444593",
+            "display": "Indirect retroillumination from the iris"
+          },
+          {
+            "code": "C1444594",
+            "display": "Indirect retroillumination from the retina"
+          },
+          {
+            "code": "C1444595",
+            "display": "Indirect iris transillumination"
+          },
+          {
+            "code": "C1289905",
+            "display": "Pulsed laser beam"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111625",
+            "display": "Diffuse direct illumination"
+          },
+          {
+            "code": "111627",
+            "display": "Scotopic light"
+          },
+          {
+            "code": "111628",
+            "display": "Mesopic light"
+          },
+          {
+            "code": "111629",
+            "display": "Photopic light"
+          },
+          {
+            "code": "111630",
+            "display": "Dynamic light"
+          }
+        ]
+      }
+    ]
+  }
+}

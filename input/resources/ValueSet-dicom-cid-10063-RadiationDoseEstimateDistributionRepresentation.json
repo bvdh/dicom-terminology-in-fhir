@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiationDoseEstimateDistributionRepresentation",
+  "id": "dicom-cid-10063-RadiationDoseEstimateDistributionRepresentation",
+  "description": "Radiation Dose Estimate Distribution Representation",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10063-RadiationDoseEstimateDistributionRepresentation",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1157"
+    }
+  ],
+  "version": "20170405",
+  "title": "Radiation Dose Estimate Distribution Representation",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128484",
+            "display": "Isodose"
+          },
+          {
+            "code": "128485",
+            "display": "Skin Dose Map"
+          },
+          {
+            "code": "128487",
+            "display": "3D Dose Map"
+          },
+          {
+            "code": "128488",
+            "display": "Dose Gradient"
+          },
+          {
+            "code": "128496",
+            "display": "Dose Point Cloud"
+          },
+          {
+            "code": "121342",
+            "display": "Dose Image"
+          }
+        ]
+      }
+    ]
+  }
+}

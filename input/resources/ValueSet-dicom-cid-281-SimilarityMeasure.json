@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SimilarityMeasure",
+  "id": "dicom-cid-281-SimilarityMeasure",
+  "description": "Similarity Measure",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-281-SimilarityMeasure",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1494"
+    }
+  ],
+  "version": "20240913",
+  "title": "Similarity Measure",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130920",
+            "display": "Dice Similarity Coefficient"
+          },
+          {
+            "code": "130921",
+            "display": "Jaccard Index"
+          }
+        ]
+      }
+    ]
+  }
+}

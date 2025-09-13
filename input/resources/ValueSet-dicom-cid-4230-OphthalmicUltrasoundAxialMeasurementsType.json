@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OphthalmicUltrasoundAxialMeasurementsType",
+  "id": "dicom-cid-4230-OphthalmicUltrasoundAxialMeasurementsType",
+  "description": "Ophthalmic Ultrasound Axial Measurements Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4230-OphthalmicUltrasoundAxialMeasurementsType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.876"
+    }
+  ],
+  "version": "20100623",
+  "title": "Ophthalmic Ultrasound Axial Measurements Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111750",
+            "display": "Ultrasound Contact"
+          },
+          {
+            "code": "111751",
+            "display": "Ultrasound Immersion"
+          }
+        ]
+      }
+    ]
+  }
+}

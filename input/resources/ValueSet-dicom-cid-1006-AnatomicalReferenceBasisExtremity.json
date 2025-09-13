@@ -1,0 +1,179 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AnatomicalReferenceBasisExtremity",
+  "id": "dicom-cid-1006-AnatomicalReferenceBasisExtremity",
+  "description": "Anatomical Reference Basis - Extremity",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-1006-AnatomicalReferenceBasisExtremity",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1127"
+    }
+  ],
+  "version": "20160905",
+  "title": "Anatomical Reference Basis - Extremity",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "70258002",
+            "display": "Ankle joint"
+          },
+          {
+            "code": "16953009",
+            "display": "Elbow joint"
+          },
+          {
+            "code": "56459004",
+            "display": "Foot"
+          },
+          {
+            "code": "49076000",
+            "display": "Knee joint"
+          },
+          {
+            "code": "314796009",
+            "display": "Malleolar structure of tibia"
+          },
+          {
+            "code": "36455000",
+            "display": "Metacarpal"
+          },
+          {
+            "code": "64234005",
+            "display": "Patella"
+          },
+          {
+            "code": "30518006",
+            "display": "Scaphoid"
+          },
+          {
+            "code": "67453005",
+            "display": "Talus"
+          },
+          {
+            "code": "306783000",
+            "display": "Tibial Plateau"
+          },
+          {
+            "code": "29707007",
+            "display": "Toe"
+          },
+          {
+            "code": "74670003",
+            "display": "Wrist joint"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-15750",
+            "display": "Ankle joint"
+          },
+          {
+            "code": "T-15430",
+            "display": "Elbow joint"
+          },
+          {
+            "code": "T-D9700",
+            "display": "Foot"
+          },
+          {
+            "code": "T-15720",
+            "display": "Knee joint"
+          },
+          {
+            "code": "T-127A7",
+            "display": "Malleolar structure of tibia"
+          },
+          {
+            "code": "T-12540",
+            "display": "Metacarpal"
+          },
+          {
+            "code": "T-12730",
+            "display": "Patella"
+          },
+          {
+            "code": "T-12450",
+            "display": "Scaphoid"
+          },
+          {
+            "code": "T-12780",
+            "display": "Talus"
+          },
+          {
+            "code": "T-1273F",
+            "display": "Tibial Plateau"
+          },
+          {
+            "code": "T-D9800",
+            "display": "Toe"
+          },
+          {
+            "code": "T-15460",
+            "display": "Wrist joint"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0003087",
+            "display": "Ankle joint"
+          },
+          {
+            "code": "C0013770",
+            "display": "Elbow joint"
+          },
+          {
+            "code": "C0016504",
+            "display": "Foot"
+          },
+          {
+            "code": "C0022745",
+            "display": "Knee joint"
+          },
+          {
+            "code": "C1282383",
+            "display": "Malleolar structure of tibia"
+          },
+          {
+            "code": "C0025526",
+            "display": "Metacarpal"
+          },
+          {
+            "code": "C0030647",
+            "display": "Patella"
+          },
+          {
+            "code": "C0223724",
+            "display": "Scaphoid"
+          },
+          {
+            "code": "C0039277",
+            "display": "Talus"
+          },
+          {
+            "code": "C0584640",
+            "display": "Tibial Plateau"
+          },
+          {
+            "code": "C0040357",
+            "display": "Toe"
+          },
+          {
+            "code": "C1322271",
+            "display": "Wrist joint"
+          }
+        ]
+      }
+    ]
+  }
+}

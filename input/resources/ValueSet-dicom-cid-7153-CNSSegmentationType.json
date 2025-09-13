@@ -1,0 +1,820 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CNSSegmentationType",
+  "id": "dicom-cid-7153-CNSSegmentationType",
+  "description": "CNS Segmentation Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7153-CNSSegmentationType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.499"
+    }
+  ],
+  "version": "20220402",
+  "title": "CNS Segmentation Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "62818001",
+            "display": "Adenohypophysis"
+          },
+          {
+            "code": "4958002",
+            "display": "Amygdala"
+          },
+          {
+            "code": "75042008",
+            "display": "Arachnoid"
+          },
+          {
+            "code": "12738006",
+            "display": "Brain"
+          },
+          {
+            "code": "280371009",
+            "display": "Brain cerebrospinal fluid pathway"
+          },
+          {
+            "code": "119238007",
+            "display": "Brain stem"
+          },
+          {
+            "code": "35764002",
+            "display": "Brain ventricle"
+          },
+          {
+            "code": "11000004",
+            "display": "Caudate nucleus"
+          },
+          {
+            "code": "21483005",
+            "display": "Central nervous system"
+          },
+          {
+            "code": "33060004",
+            "display": "Cerebellar white matter"
+          },
+          {
+            "code": "113305005",
+            "display": "Cerebellum"
+          },
+          {
+            "code": "80447000",
+            "display": "Cerebral aqueduct"
+          },
+          {
+            "code": "40146001",
+            "display": "Cerebral cortex"
+          },
+          {
+            "code": "87463005",
+            "display": "Cerebral fornix"
+          },
+          {
+            "code": "372073000",
+            "display": "Cerebral hemisphere"
+          },
+          {
+            "code": "68523003",
+            "display": "Cerebral White Matter"
+          },
+          {
+            "code": "65216001",
+            "display": "Cerebrospinal Fluid"
+          },
+          {
+            "code": "37035000",
+            "display": "Cingulum"
+          },
+          {
+            "code": "88442005",
+            "display": "Corpus callosum"
+          },
+          {
+            "code": "31428008",
+            "display": "Corpus striatum"
+          },
+          {
+            "code": "87563008",
+            "display": "Diencephalon"
+          },
+          {
+            "code": "18545000",
+            "display": "Dura mater"
+          },
+          {
+            "code": "3937002",
+            "display": "Entorhinal Cortex"
+          },
+          {
+            "code": "35918002",
+            "display": "Fourth ventricle"
+          },
+          {
+            "code": "83251001",
+            "display": "Frontal lobe"
+          },
+          {
+            "code": "14738005",
+            "display": "Globus pallidus"
+          },
+          {
+            "code": "389081007",
+            "display": "Gray Matter"
+          },
+          {
+            "code": "5366008",
+            "display": "Hippocampus"
+          },
+          {
+            "code": "67701001",
+            "display": "Inferior cerebellar peduncle"
+          },
+          {
+            "code": "55233005",
+            "display": "Inferior longitudinal fasciculus"
+          },
+          {
+            "code": "36169008",
+            "display": "Insula"
+          },
+          {
+            "code": "461002",
+            "display": "Lateral corticospinal tract"
+          },
+          {
+            "code": "66720007",
+            "display": "Lateral ventricle"
+          },
+          {
+            "code": "279215006",
+            "display": "Limbic lobe"
+          },
+          {
+            "code": "30114003",
+            "display": "Medial Lemniscus"
+          },
+          {
+            "code": "1231004",
+            "display": "Meninges"
+          },
+          {
+            "code": "61962009",
+            "display": "Midbrain"
+          },
+          {
+            "code": "33723005",
+            "display": "Middle cerebellar peduncle"
+          },
+          {
+            "code": "427667007",
+            "display": "Nucleus accumbens"
+          },
+          {
+            "code": "37512009",
+            "display": "Neurohypophysis"
+          },
+          {
+            "code": "31065004",
+            "display": "Occipital lobe"
+          },
+          {
+            "code": "244453006",
+            "display": "Optic chiasm"
+          },
+          {
+            "code": "70105001",
+            "display": "Optic radiation"
+          },
+          {
+            "code": "53238003",
+            "display": "Optic tract"
+          },
+          {
+            "code": "16630005",
+            "display": "Parietal lobe"
+          },
+          {
+            "code": "23180006",
+            "display": "Pia mater"
+          },
+          {
+            "code": "45793000",
+            "display": "Pineal Gland"
+          },
+          {
+            "code": "56329008",
+            "display": "Pituitary"
+          },
+          {
+            "code": "279336005",
+            "display": "Posterior cerebral commissure"
+          },
+          {
+            "code": "89278009",
+            "display": "Putamen"
+          },
+          {
+            "code": "280401006",
+            "display": "Spinal cerebrospinal fluid pathway"
+          },
+          {
+            "code": "2748008",
+            "display": "Spinal cord"
+          },
+          {
+            "code": "12958003",
+            "display": "Spinal cord gray matter"
+          },
+          {
+            "code": "27088001",
+            "display": "Spinal cord white matter"
+          },
+          {
+            "code": "35951006",
+            "display": "Subarachnoid space"
+          },
+          {
+            "code": "70007007",
+            "display": "Substantia nigra"
+          },
+          {
+            "code": "11089000",
+            "display": "Superior cerebellar peduncle"
+          },
+          {
+            "code": "89202009",
+            "display": "Superior longitudinal fasciculus"
+          },
+          {
+            "code": "11628009",
+            "display": "Telencephalon"
+          },
+          {
+            "code": "78277001",
+            "display": "Temporal lobe"
+          },
+          {
+            "code": "42695009",
+            "display": "Thalamus"
+          },
+          {
+            "code": "49841001",
+            "display": "Third ventricle"
+          },
+          {
+            "code": "26230003",
+            "display": "Uncinate fasciculus"
+          },
+          {
+            "code": "389080008",
+            "display": "White Matter"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-B1100",
+            "display": "Adenohypophysis"
+          },
+          {
+            "code": "T-A3230",
+            "display": "Amygdala"
+          },
+          {
+            "code": "T-A1220",
+            "display": "Arachnoid"
+          },
+          {
+            "code": "T-A0100",
+            "display": "Brain"
+          },
+          {
+            "code": "T-A0109",
+            "display": "Brain cerebrospinal fluid pathway"
+          },
+          {
+            "code": "T-D0558",
+            "display": "Brain stem"
+          },
+          {
+            "code": "T-A1600",
+            "display": "Brain ventricle"
+          },
+          {
+            "code": "T-A3200",
+            "display": "Caudate nucleus"
+          },
+          {
+            "code": "T-A0090",
+            "display": "Central nervous system"
+          },
+          {
+            "code": "T-A6080",
+            "display": "Cerebellar white matter"
+          },
+          {
+            "code": "T-A6000",
+            "display": "Cerebellum"
+          },
+          {
+            "code": "T-A1800",
+            "display": "Cerebral aqueduct"
+          },
+          {
+            "code": "T-A2020",
+            "display": "Cerebral cortex"
+          },
+          {
+            "code": "T-A2970",
+            "display": "Cerebral fornix"
+          },
+          {
+            "code": "T-A010F",
+            "display": "Cerebral hemisphere"
+          },
+          {
+            "code": "T-A2030",
+            "display": "Cerebral White Matter"
+          },
+          {
+            "code": "T-A1000",
+            "display": "Cerebrospinal Fluid"
+          },
+          {
+            "code": "T-A2840",
+            "display": "Cingulum"
+          },
+          {
+            "code": "T-A2700",
+            "display": "Corpus callosum"
+          },
+          {
+            "code": "T-A3100",
+            "display": "Corpus striatum"
+          },
+          {
+            "code": "T-A0102",
+            "display": "Diencephalon"
+          },
+          {
+            "code": "T-A1120",
+            "display": "Dura mater"
+          },
+          {
+            "code": "T-A2594",
+            "display": "Entorhinal Cortex"
+          },
+          {
+            "code": "T-A1820",
+            "display": "Fourth ventricle"
+          },
+          {
+            "code": "T-A2200",
+            "display": "Frontal lobe"
+          },
+          {
+            "code": "T-A3500",
+            "display": "Globus pallidus"
+          },
+          {
+            "code": "T-A0096",
+            "display": "Gray Matter"
+          },
+          {
+            "code": "T-A2570",
+            "display": "Hippocampus"
+          },
+          {
+            "code": "T-A6640",
+            "display": "Inferior cerebellar peduncle"
+          },
+          {
+            "code": "T-A2850",
+            "display": "Inferior longitudinal fasciculus"
+          },
+          {
+            "code": "T-A2610",
+            "display": "Insula"
+          },
+          {
+            "code": "T-A7093",
+            "display": "Lateral corticospinal tract"
+          },
+          {
+            "code": "T-A1650",
+            "display": "Lateral ventricle"
+          },
+          {
+            "code": "T-A0036",
+            "display": "Limbic lobe"
+          },
+          {
+            "code": "T-A5271",
+            "display": "Medial Lemniscus"
+          },
+          {
+            "code": "T-A1110",
+            "display": "Meninges"
+          },
+          {
+            "code": "T-A5100",
+            "display": "Midbrain"
+          },
+          {
+            "code": "T-A6630",
+            "display": "Middle cerebellar peduncle"
+          },
+          {
+            "code": "T-A0149",
+            "display": "Nucleus accumbens"
+          },
+          {
+            "code": "T-B1200",
+            "display": "Neurohypophysis"
+          },
+          {
+            "code": "T-A2400",
+            "display": "Occipital lobe"
+          },
+          {
+            "code": "T-A800B",
+            "display": "Optic chiasm"
+          },
+          {
+            "code": "T-A2880",
+            "display": "Optic radiation"
+          },
+          {
+            "code": "T-A8060",
+            "display": "Optic tract"
+          },
+          {
+            "code": "T-A2300",
+            "display": "Parietal lobe"
+          },
+          {
+            "code": "T-A1280",
+            "display": "Pia mater"
+          },
+          {
+            "code": "T-B2000",
+            "display": "Pineal Gland"
+          },
+          {
+            "code": "T-B1000",
+            "display": "Pituitary"
+          },
+          {
+            "code": "T-A4904",
+            "display": "Posterior cerebral commissure"
+          },
+          {
+            "code": "T-A3400",
+            "display": "Putamen"
+          },
+          {
+            "code": "T-D0721",
+            "display": "Spinal cerebrospinal fluid pathway"
+          },
+          {
+            "code": "T-A7010",
+            "display": "Spinal cord"
+          },
+          {
+            "code": "T-A7020",
+            "display": "Spinal cord gray matter"
+          },
+          {
+            "code": "T-A7070",
+            "display": "Spinal cord white matter"
+          },
+          {
+            "code": "T-A1500",
+            "display": "Subarachnoid space"
+          },
+          {
+            "code": "T-A5160",
+            "display": "Substantia nigra"
+          },
+          {
+            "code": "T-A6620",
+            "display": "Superior cerebellar peduncle"
+          },
+          {
+            "code": "T-A2820",
+            "display": "Superior longitudinal fasciculus"
+          },
+          {
+            "code": "T-A0103",
+            "display": "Telencephalon"
+          },
+          {
+            "code": "T-A2500",
+            "display": "Temporal lobe"
+          },
+          {
+            "code": "T-A4000",
+            "display": "Thalamus"
+          },
+          {
+            "code": "T-A1740",
+            "display": "Third ventricle"
+          },
+          {
+            "code": "T-A2830",
+            "display": "Uncinate fasciculus"
+          },
+          {
+            "code": "T-A0095",
+            "display": "White Matter"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0032008",
+            "display": "Adenohypophysis"
+          },
+          {
+            "code": "C0002708",
+            "display": "Amygdala"
+          },
+          {
+            "code": "C0003707",
+            "display": "Arachnoid"
+          },
+          {
+            "code": "C2329633",
+            "display": "Arcuate Fasciculus"
+          },
+          {
+            "code": "C0006104",
+            "display": "Brain"
+          },
+          {
+            "code": "C0459387",
+            "display": "Brain cerebrospinal fluid pathway"
+          },
+          {
+            "code": "C1268144",
+            "display": "Brain stem"
+          },
+          {
+            "code": "C0007799",
+            "display": "Brain ventricle"
+          },
+          {
+            "code": "C0007461",
+            "display": "Caudate nucleus"
+          },
+          {
+            "code": "C0927232",
+            "display": "Central nervous system"
+          },
+          {
+            "code": "C0152381",
+            "display": "Cerebellar white matter"
+          },
+          {
+            "code": "C0007765",
+            "display": "Cerebellum"
+          },
+          {
+            "code": "C0007769",
+            "display": "Cerebral aqueduct"
+          },
+          {
+            "code": "C0007776",
+            "display": "Cerebral cortex"
+          },
+          {
+            "code": "C0152334",
+            "display": "Cerebral fornix"
+          },
+          {
+            "code": "C0152295",
+            "display": "Cerebral White Matter"
+          },
+          {
+            "code": "C0007806",
+            "display": "Cerebrospinal Fluid"
+          },
+          {
+            "code": "C0228272",
+            "display": "Cingulum"
+          },
+          {
+            "code": "C0010090",
+            "display": "Corpus callosum"
+          },
+          {
+            "code": "C0010097",
+            "display": "Corpus striatum"
+          },
+          {
+            "code": "C0012144",
+            "display": "Diencephalon"
+          },
+          {
+            "code": "C0013313",
+            "display": "Dura mater"
+          },
+          {
+            "code": "C0175196",
+            "display": "Entorhinal Cortex"
+          },
+          {
+            "code": "C0149556",
+            "display": "Fourth ventricle"
+          },
+          {
+            "code": "C0016733",
+            "display": "Frontal lobe"
+          },
+          {
+            "code": "C0017651",
+            "display": "Globus pallidus"
+          },
+          {
+            "code": "C1300312",
+            "display": "Gray Matter"
+          },
+          {
+            "code": "C0019564",
+            "display": "Hippocampus"
+          },
+          {
+            "code": "C0152393",
+            "display": "Inferior cerebellar peduncle"
+          },
+          {
+            "code": "C0228273",
+            "display": "Inferior longitudinal fasciculus"
+          },
+          {
+            "code": "C0021640",
+            "display": "Insula"
+          },
+          {
+            "code": "C0152402",
+            "display": "Lateral corticospinal tract"
+          },
+          {
+            "code": "C0152279",
+            "display": "Lateral ventricle"
+          },
+          {
+            "code": "C0458337",
+            "display": "Limbic lobe"
+          },
+          {
+            "code": "C0228420",
+            "display": "Medial Lemniscus"
+          },
+          {
+            "code": "C0025285",
+            "display": "Meninges"
+          },
+          {
+            "code": "C0025462",
+            "display": "Midbrain"
+          },
+          {
+            "code": "C0152392",
+            "display": "Middle cerebellar peduncle"
+          },
+          {
+            "code": "C0028633",
+            "display": "Nucleus accumbens"
+          },
+          {
+            "code": "C0032009",
+            "display": "Neurohypophysis"
+          },
+          {
+            "code": "C0028785",
+            "display": "Occipital lobe"
+          },
+          {
+            "code": "C0029126",
+            "display": "Optic chiasm"
+          },
+          {
+            "code": "C0228277",
+            "display": "Optic radiation"
+          },
+          {
+            "code": "C0152405",
+            "display": "Optic tract"
+          },
+          {
+            "code": "C0030560",
+            "display": "Parietal lobe"
+          },
+          {
+            "code": "C0031869",
+            "display": "Pia mater"
+          },
+          {
+            "code": "C0031939",
+            "display": "Pineal Gland"
+          },
+          {
+            "code": "C0032005",
+            "display": "Pituitary"
+          },
+          {
+            "code": "C0152327",
+            "display": "Posterior cerebral commissure"
+          },
+          {
+            "code": "C0034169",
+            "display": "Putamen"
+          },
+          {
+            "code": "C0459413",
+            "display": "Spinal cerebrospinal fluid pathway"
+          },
+          {
+            "code": "C0037925",
+            "display": "Spinal cord"
+          },
+          {
+            "code": "C0475853",
+            "display": "Spinal cord gray matter"
+          },
+          {
+            "code": "C0458457",
+            "display": "Spinal cord white matter"
+          },
+          {
+            "code": "C0038527",
+            "display": "Subarachnoid space"
+          },
+          {
+            "code": "C2333161",
+            "display": "Subcortical gray matter"
+          },
+          {
+            "code": "C0038590",
+            "display": "Substantia nigra"
+          },
+          {
+            "code": "C0152391",
+            "display": "Superior cerebellar peduncle"
+          },
+          {
+            "code": "C0228270",
+            "display": "Superior longitudinal fasciculus"
+          },
+          {
+            "code": "C0039452",
+            "display": "Telencephalon"
+          },
+          {
+            "code": "C0039485",
+            "display": "Temporal lobe"
+          },
+          {
+            "code": "C0039729",
+            "display": "Thalamus"
+          },
+          {
+            "code": "C0149555",
+            "display": "Third ventricle"
+          },
+          {
+            "code": "C0228271",
+            "display": "Uncinate fasciculus"
+          },
+          {
+            "code": "C1300311",
+            "display": "White Matter"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-FMA",
+        "concept": [
+          {
+            "code": "276650",
+            "display": "Arcuate Fasciculus"
+          },
+          {
+            "code": "223151",
+            "display": "Subcortical gray matter"
+          }
+        ]
+      }
+    ]
+  }
+}

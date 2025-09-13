@@ -1,0 +1,58 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProstateMRIStudyQualityFinding",
+  "id": "dicom-cid-6314-ProstateMRIStudyQualityFinding",
+  "description": "Prostate MRI Study Quality Finding",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6314-ProstateMRIStudyQualityFinding",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1371"
+    }
+  ],
+  "version": "20210714",
+  "title": "Prostate MRI Study Quality Finding",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130570",
+            "display": "Protocol not followed"
+          },
+          {
+            "code": "130571",
+            "display": "Coil placement concern"
+          },
+          {
+            "code": "130572",
+            "display": "Coil selection concern"
+          },
+          {
+            "code": "130573",
+            "display": "Study performed did not match request"
+          },
+          {
+            "code": "130574",
+            "display": "Incomplete study"
+          },
+          {
+            "code": "130575",
+            "display": "Suboptimal patient preparation"
+          }
+        ]
+      },
+      {
+        "system": "http://www.radlex.org",
+        "concept": [
+          {
+            "code": "RID11281",
+            "display": "Suboptimal patient positioning"
+          }
+        ]
+      }
+    ]
+  }
+}

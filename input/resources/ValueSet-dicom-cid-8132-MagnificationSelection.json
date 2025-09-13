@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MagnificationSelection",
+  "id": "dicom-cid-8132-MagnificationSelection",
+  "description": "Magnification Selection",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-8132-MagnificationSelection",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.949"
+    }
+  ],
+  "version": "20120605",
+  "title": "Magnification Selection",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112715",
+            "display": "5X"
+          },
+          {
+            "code": "112716",
+            "display": "10X"
+          },
+          {
+            "code": "112717",
+            "display": "20X"
+          },
+          {
+            "code": "112718",
+            "display": "40X"
+          }
+        ]
+      }
+    ]
+  }
+}

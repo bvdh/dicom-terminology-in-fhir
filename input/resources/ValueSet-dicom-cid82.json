@@ -1,0 +1,10 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid82",
+  "id": "dicom-cid82",
+  "description": "Equivalent to the HL7 Value Set \"Units of Measure case sensitive\" 2.16.840.1.113883.11.12839.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid82",
+  "version": "None",
+  "title": "Measurement Unit"
+}

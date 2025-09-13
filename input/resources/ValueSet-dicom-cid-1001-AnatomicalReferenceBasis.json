@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AnatomicalReferenceBasis",
+  "id": "dicom-cid-1001-AnatomicalReferenceBasis",
+  "description": "Anatomical Reference Basis",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-1001-AnatomicalReferenceBasis",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1122"
+    }
+  ],
+  "version": "20160905",
+  "title": "Anatomical Reference Basis",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-1002-AnatomicalReferenceBasisHead"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-1003-AnatomicalReferenceBasisSpine"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-1004-AnatomicalReferenceBasisChest"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-1005-AnatomicalReferenceBasisAbdomenPelvis"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-1006-AnatomicalReferenceBasisExtremity"
+        ]
+      }
+    ]
+  }
+}

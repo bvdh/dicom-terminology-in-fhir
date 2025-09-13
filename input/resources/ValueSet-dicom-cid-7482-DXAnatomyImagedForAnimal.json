@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DXAnatomyImagedForAnimal",
+  "id": "dicom-cid-7482-DXAnatomyImagedForAnimal",
+  "description": "DX Anatomy Imaged for Animal",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7482-DXAnatomyImagedForAnimal",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.814"
+    }
+  ],
+  "version": "20090717",
+  "title": "DX Anatomy Imaged for Animal",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7483-CommonAnatomicRegionsForAnimal"
+        ]
+      }
+    ]
+  }
+}

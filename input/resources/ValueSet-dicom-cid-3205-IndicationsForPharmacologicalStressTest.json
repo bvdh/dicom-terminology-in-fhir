@@ -1,0 +1,248 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "IndicationsForPharmacologicalStressTest",
+  "id": "dicom-cid-3205-IndicationsForPharmacologicalStressTest",
+  "description": "Indications for Pharmacological Stress Test",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3205-IndicationsForPharmacologicalStressTest",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.760"
+    }
+  ],
+  "version": "20160314",
+  "title": "Indications for Pharmacological Stress Test",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "63467002",
+            "display": "Left bundle branch block"
+          },
+          {
+            "code": "441509002",
+            "display": "Patient has pacemaker"
+          },
+          {
+            "code": "29426003",
+            "display": "Paralytic syndrome"
+          },
+          {
+            "code": "20262006",
+            "display": "Ataxia or incoordination"
+          },
+          {
+            "code": "400047006",
+            "display": "Peripheral vascular disease"
+          },
+          {
+            "code": "19829001",
+            "display": "Pulmonary disease"
+          },
+          {
+            "code": "22325002",
+            "display": "Gait problem"
+          },
+          {
+            "code": "274662006",
+            "display": "Transient limb paralysis"
+          },
+          {
+            "code": "13791008",
+            "display": "Asthenia (debility)"
+          },
+          {
+            "code": "238108007",
+            "display": "Cachexia"
+          },
+          {
+            "code": "46866001",
+            "display": "Fracture of lower limb"
+          },
+          {
+            "code": "26947005",
+            "display": "Open wound of lower limb"
+          },
+          {
+            "code": "161622006",
+            "display": "Lower limb amputation"
+          },
+          {
+            "code": "103321005",
+            "display": "Request by Physician"
+          },
+          {
+            "code": "105501005",
+            "display": "Dependence on enabling machine or device"
+          },
+          {
+            "code": "428752002",
+            "display": "Recent Myocardial infarction"
+          },
+          {
+            "code": "429733000",
+            "display": "Cannot reach target heart rate"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "D3-33120",
+            "display": "Left bundle branch block"
+          },
+          {
+            "code": "R-00728",
+            "display": "Patient has pacemaker"
+          },
+          {
+            "code": "DA-26000",
+            "display": "Paralytic syndrome"
+          },
+          {
+            "code": "F-A4580",
+            "display": "Ataxia or incoordination"
+          },
+          {
+            "code": "D3-8005B",
+            "display": "Peripheral vascular disease"
+          },
+          {
+            "code": "D2-50000",
+            "display": "Pulmonary disease"
+          },
+          {
+            "code": "F-18002",
+            "display": "Gait problem"
+          },
+          {
+            "code": "F-A0846",
+            "display": "Transient limb paralysis"
+          },
+          {
+            "code": "F-01380",
+            "display": "Asthenia (debility)"
+          },
+          {
+            "code": "F-029F7",
+            "display": "Cachexia"
+          },
+          {
+            "code": "DD-13000",
+            "display": "Fracture of lower limb"
+          },
+          {
+            "code": "DD-33500",
+            "display": "Open wound of lower limb"
+          },
+          {
+            "code": "G-02BD",
+            "display": "Lower limb amputation"
+          },
+          {
+            "code": "G-0202",
+            "display": "Request by Physician"
+          },
+          {
+            "code": "S-20570",
+            "display": "Dependence on enabling machine or device"
+          },
+          {
+            "code": "G-044D",
+            "display": "Recent Myocardial infarction"
+          },
+          {
+            "code": "F-33019",
+            "display": "Cannot reach target heart rate"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0023211",
+            "display": "Left bundle branch block"
+          },
+          {
+            "code": "C2712998",
+            "display": "Patient has pacemaker"
+          },
+          {
+            "code": "C0270788",
+            "display": "Paralytic syndrome"
+          },
+          {
+            "code": "C0004134",
+            "display": "Ataxia or incoordination"
+          },
+          {
+            "code": "C0085096",
+            "display": "Peripheral vascular disease"
+          },
+          {
+            "code": "C0024115",
+            "display": "Pulmonary disease"
+          },
+          {
+            "code": "C0575081",
+            "display": "Gait problem"
+          },
+          {
+            "code": "C0159034",
+            "display": "Transient limb paralysis"
+          },
+          {
+            "code": "C0004093",
+            "display": "Asthenia (debility)"
+          },
+          {
+            "code": "C0006625",
+            "display": "Cachexia"
+          },
+          {
+            "code": "C1542178",
+            "display": "Fracture of lower limb"
+          },
+          {
+            "code": "C0178323",
+            "display": "Open wound of lower limb"
+          },
+          {
+            "code": "C0455616",
+            "display": "Lower limb amputation"
+          },
+          {
+            "code": "C0686901",
+            "display": "Request by Physician"
+          },
+          {
+            "code": "C0524375",
+            "display": "Dependence on enabling machine or device"
+          },
+          {
+            "code": "C1998297",
+            "display": "Recent Myocardial infarction"
+          },
+          {
+            "code": "C1997932",
+            "display": "Cannot reach target heart rate"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122764",
+            "display": "Patient weight exceeds equipment limit"
+          }
+        ]
+      }
+    ]
+  }
+}

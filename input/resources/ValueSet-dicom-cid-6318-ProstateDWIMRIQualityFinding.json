@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProstateDWIMRIQualityFinding",
+  "id": "dicom-cid-6318-ProstateDWIMRIQualityFinding",
+  "description": "Prostate DWI MRI Quality Finding",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6318-ProstateDWIMRIQualityFinding",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1375"
+    }
+  ],
+  "version": "20210714",
+  "title": "Prostate DWI MRI Quality Finding",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130583",
+            "display": "Expected b-value is missing"
+          },
+          {
+            "code": "130584",
+            "display": "Severe distortion in the area of interest"
+          },
+          {
+            "code": "130585",
+            "display": "Expected ADC map is missing"
+          },
+          {
+            "code": "130586",
+            "display": "Distortion artifact in the area of interest"
+          }
+        ]
+      }
+    ]
+  }
+}

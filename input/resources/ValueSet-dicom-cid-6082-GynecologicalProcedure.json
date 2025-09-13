@@ -1,0 +1,71 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GynecologicalProcedure",
+  "id": "dicom-cid-6082-GynecologicalProcedure",
+  "description": "Gynecological Procedure",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6082-GynecologicalProcedure",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.404"
+    }
+  ],
+  "version": "20040112",
+  "title": "Gynecological Procedure",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "386802000",
+            "display": "Endometrial biopsy"
+          },
+          {
+            "code": "236886002",
+            "display": "Hysterectomy"
+          },
+          {
+            "code": "13091001",
+            "display": "Dilation and curettage"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "P0-05CCA",
+            "display": "Endometrial biopsy"
+          },
+          {
+            "code": "P1-8330D",
+            "display": "Hysterectomy"
+          },
+          {
+            "code": "P1-03151",
+            "display": "Dilation and curettage"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1510477",
+            "display": "Endometrial biopsy"
+          },
+          {
+            "code": "C0020699",
+            "display": "Hysterectomy"
+          },
+          {
+            "code": "C0012358",
+            "display": "Dilation and curettage"
+          }
+        ]
+      }
+    ]
+  }
+}

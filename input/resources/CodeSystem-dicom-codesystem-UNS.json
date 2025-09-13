@@ -1,0 +1,60 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "fragment",
+  "name": "UNSCodeSystem",
+  "id": "dicom-codesystem-UNS",
+  "title": "UNS",
+  "description": "Unified numbering system (UNS) for metals and alloys",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-UNS",
+  "concept": [
+    {
+      "code": "S31673",
+      "display": "Stainless steel (SS316L)",
+      "definition": "Stainless steel (SS316L)"
+    },
+    {
+      "code": "R50250",
+      "display": "Titanium",
+      "definition": "Titanium"
+    },
+    {
+      "code": "R56400",
+      "display": "Titanium alloy (Titanium Aluminium-6 Vanadium-4)",
+      "definition": "Titanium alloy (Titanium Aluminium-6 Vanadium-4)"
+    },
+    {
+      "code": "R30075",
+      "display": "Cobalt chromium alloy (Cobalt Chromium-28 Molybdenum 6)",
+      "definition": "Cobalt chromium alloy (Cobalt Chromium-28 Molybdenum 6)"
+    },
+    {
+      "code": "R30605",
+      "display": "Cobalt-chromium alloy (Cobalt Chromium-20 Tungsten-15 Nickel-10)",
+      "definition": "Cobalt-chromium alloy (Cobalt Chromium-20 Tungsten-15 Nickel-10)"
+    },
+    {
+      "code": "R30035",
+      "display": "Cobalt-chromium alloy (Cobalt Nickel-35 Chromium-20 Molybdenum-10)",
+      "definition": "Cobalt-chromium alloy (Cobalt Nickel-35 Chromium-20 Molybdenum-10)"
+    },
+    {
+      "code": "R30003",
+      "display": "Cobalt-chromium alloy (Cobalt Chromium-20 Nickel-15 Iron-15 Molybdenum-7 Manganese-2)",
+      "definition": "Cobalt-chromium alloy (Cobalt Chromium-20 Nickel-15 Iron-15 Molybdenum-7 Manganese-2)"
+    },
+    {
+      "code": "R56700",
+      "display": "Titanium alloy (Titanium Aluminium-6 Niobium-7)",
+      "definition": "Titanium alloy (Titanium Aluminium-6 Niobium-7)"
+    }
+  ],
+  "caseSensitive": true,
+  "experimental": false,
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:{uid}"
+    }
+  ]
+}

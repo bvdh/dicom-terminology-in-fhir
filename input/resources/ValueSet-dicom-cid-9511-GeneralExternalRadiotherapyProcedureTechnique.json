@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GeneralExternalRadiotherapyProcedureTechnique",
+  "id": "dicom-cid-9511-GeneralExternalRadiotherapyProcedureTechnique",
+  "description": "General External Radiotherapy Procedure Technique",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9511-GeneralExternalRadiotherapyProcedureTechnique",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1221"
+    }
+  ],
+  "version": "20181112",
+  "title": "General External Radiotherapy Procedure Technique",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130102",
+            "display": "Static Beam"
+          },
+          {
+            "code": "130103",
+            "display": "Arc Beam"
+          },
+          {
+            "code": "130104",
+            "display": "Conformal Arc Beam"
+          },
+          {
+            "code": "130105",
+            "display": "Step and Shoot Beam"
+          },
+          {
+            "code": "130106",
+            "display": "Sliding Window Beam"
+          },
+          {
+            "code": "130107",
+            "display": "VMAT"
+          }
+        ]
+      }
+    ]
+  }
+}

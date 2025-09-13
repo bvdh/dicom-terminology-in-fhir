@@ -1,0 +1,159 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EchocardiographyMitralValveMeasurement",
+  "id": "dicom-cid-12207-EchocardiographyMitralValveMeasurement",
+  "description": "This Context Group includes measurements of the left ventricle only. For right ventricle measurements, see",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12207-EchocardiographyMitralValveMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.600"
+    }
+  ],
+  "version": "20030918",
+  "title": "Echocardiography Mitral Valve Measurement",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12220-EchocardiographyCommonMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12222-OrificeFlowProperty"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12239-CardiacOutputProperty"
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "17978-8",
+            "display": "Mitral Valve A-Wave Peak Velocity"
+          },
+          {
+            "code": "18037-2",
+            "display": "Mitral Valve E-Wave Peak Velocity"
+          },
+          {
+            "code": "18038-0",
+            "display": "Mitral Valve E to A Ratio"
+          },
+          {
+            "code": "18040-6",
+            "display": "Mitral Valve E-F Slope by M-Mode"
+          },
+          {
+            "code": "18036-4",
+            "display": "Mitral Valve EPSS, E wave"
+          },
+          {
+            "code": "18057-0",
+            "display": "Mitral Valve Diastolic Peak Instantaneous Gradient"
+          },
+          {
+            "code": "18035-6",
+            "display": "Mitral Regurgitation dP/dt derived from Mitral Reg. velocity"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0801028",
+            "display": "Mitral Valve A-Wave Peak Velocity"
+          },
+          {
+            "code": "C0801086",
+            "display": "Mitral Valve E-Wave Peak Velocity"
+          },
+          {
+            "code": "C0801087",
+            "display": "Mitral Valve E to A Ratio"
+          },
+          {
+            "code": "C1275813",
+            "display": "Mitral Valve AT/DT Ratio"
+          },
+          {
+            "code": "C1302337",
+            "display": "Mitral Valve E-Wave Deceleration Time"
+          },
+          {
+            "code": "C0801089",
+            "display": "Mitral Valve E-F Slope by M-Mode"
+          },
+          {
+            "code": "C0801085",
+            "display": "Mitral Valve EPSS, E wave"
+          },
+          {
+            "code": "C1302265",
+            "display": "Mitral Valve A-Wave Duration"
+          },
+          {
+            "code": "C0801106",
+            "display": "Mitral Valve Diastolic Peak Instantaneous Gradient"
+          },
+          {
+            "code": "C1302204",
+            "display": "Mitral Valve Closure to Opening Time"
+          },
+          {
+            "code": "C0801084",
+            "display": "Mitral Regurgitation dP/dt derived from Mitral Reg. velocity"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "399062002",
+            "display": "Mitral Valve AT/DT Ratio"
+          },
+          {
+            "code": "399354002",
+            "display": "Mitral Valve E-Wave Deceleration Time"
+          },
+          {
+            "code": "399229004",
+            "display": "Mitral Valve A-Wave Duration"
+          },
+          {
+            "code": "399104001",
+            "display": "Mitral Valve Closure to Opening Time"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-0386",
+            "display": "Mitral Valve AT/DT Ratio"
+          },
+          {
+            "code": "G-0384",
+            "display": "Mitral Valve E-Wave Deceleration Time"
+          },
+          {
+            "code": "G-0385",
+            "display": "Mitral Valve A-Wave Duration"
+          },
+          {
+            "code": "G-0387",
+            "display": "Mitral Valve Closure to Opening Time"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GeneralPhotographyDevice",
+  "id": "dicom-cid-4071-GeneralPhotographyDevice",
+  "description": "General Photography Device",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4071-GeneralPhotographyDevice",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1511"
+    }
+  ],
+  "version": "20250330",
+  "title": "General Photography Device",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4202-OphthalmicPhotographyAcquisitionDevice"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4072-DevicesForThePurposeOfDentalPhotography"
+        ]
+      }
+    ]
+  }
+}

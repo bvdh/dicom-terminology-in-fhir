@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RealTimeVideoRenditionTitle",
+  "id": "dicom-cid-7070-RealTimeVideoRenditionTitle",
+  "description": "Real Time Video Rendition Title",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7070-RealTimeVideoRenditionTitle",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1303"
+    }
+  ],
+  "version": "20190915",
+  "title": "Real Time Video Rendition Title",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130370",
+            "display": "RTV Rendition"
+          },
+          {
+            "code": "130371",
+            "display": "RTV Audio and Video Rendition"
+          },
+          {
+            "code": "130372",
+            "display": "RTV Stereo Video Rendition"
+          },
+          {
+            "code": "130373",
+            "display": "RTV Audio and Stereo Video Rendition"
+          }
+        ]
+      }
+    ]
+  }
+}

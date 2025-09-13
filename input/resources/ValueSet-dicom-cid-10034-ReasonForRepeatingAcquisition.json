@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ReasonForRepeatingAcquisition",
+  "id": "dicom-cid-10034-ReasonForRepeatingAcquisition",
+  "description": "Reason for Repeating Acquisition",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10034-ReasonForRepeatingAcquisition",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1175"
+    }
+  ],
+  "version": "20170418",
+  "title": "Reason for Repeating Acquisition",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128553",
+            "display": "Patient motion"
+          },
+          {
+            "code": "128554",
+            "display": "Suboptimal contrast timing"
+          }
+        ]
+      }
+    ]
+  }
+}

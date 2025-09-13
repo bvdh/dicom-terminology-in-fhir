@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "BodyPositionChannel",
+  "id": "dicom-cid-3034-BodyPositionChannel",
+  "description": "Body Position Channel",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3034-BodyPositionChannel",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1332"
+    }
+  ],
+  "version": "20200623",
+  "title": "Body Position Channel",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130410",
+            "display": "Patient position"
+          },
+          {
+            "code": "130411",
+            "display": "Patient rotation longitudinal"
+          },
+          {
+            "code": "130412",
+            "display": "Patient elevation"
+          }
+        ]
+      }
+    ]
+  }
+}

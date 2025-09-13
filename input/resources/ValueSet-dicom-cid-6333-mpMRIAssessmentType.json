@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MpMRIAssessmentType",
+  "id": "dicom-cid-6333-mpMRIAssessmentType",
+  "description": "mpMRI Assessment Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6333-mpMRIAssessmentType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1390"
+    }
+  ],
+  "version": "20210714",
+  "title": "MpMRI Assessment Type",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6334-mpMRIAssessmentTypeFromPIRADS"
+        ]
+      }
+    ]
+  }
+}

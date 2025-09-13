@@ -1,0 +1,9 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid3681",
+  "id": "dicom-cid3681",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid3681",
+  "version": "None",
+  "title": "ECG Lead Noise Modifier (Retired)"
+}

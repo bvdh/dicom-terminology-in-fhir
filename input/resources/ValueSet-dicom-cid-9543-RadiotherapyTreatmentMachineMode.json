@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiotherapyTreatmentMachineMode",
+  "id": "dicom-cid-9543-RadiotherapyTreatmentMachineMode",
+  "description": "Radiotherapy Treatment Machine Mode",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9543-RadiotherapyTreatmentMachineMode",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1290"
+    }
+  ],
+  "version": "20190715",
+  "title": "Radiotherapy Treatment Machine Mode",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130341",
+            "display": "Total Body Irradiation"
+          },
+          {
+            "code": "130342",
+            "display": "Total Skin Irradiation"
+          }
+        ]
+      }
+    ]
+  }
+}

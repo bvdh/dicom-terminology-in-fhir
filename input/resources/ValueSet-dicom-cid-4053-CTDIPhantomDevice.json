@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CTDIPhantomDevice",
+  "id": "dicom-cid-4053-CTDIPhantomDevice",
+  "description": "CTDI Phantom Device",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4053-CTDIPhantomDevice",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1513"
+    }
+  ],
+  "version": "20250331",
+  "title": "CTDI Phantom Device",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113690",
+            "display": "IEC 160mm Head CT Dosimetry Phantom"
+          },
+          {
+            "code": "113691",
+            "display": "IEC 320mm Body CT Dosimetry Phantom"
+          },
+          {
+            "code": "130541",
+            "display": "100 mm Pediatric Head CT Dosimetry Phantom"
+          }
+        ]
+      }
+    ]
+  }
+}

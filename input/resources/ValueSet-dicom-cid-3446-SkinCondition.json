@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SkinCondition",
+  "id": "dicom-cid-3446-SkinCondition",
+  "description": "Skin Condition",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3446-SkinCondition",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.96"
+    }
+  ],
+  "version": "20030327",
+  "title": "Skin Condition",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122271",
+            "display": "skin condition Warm"
+          },
+          {
+            "code": "122272",
+            "display": "skin condition Cool"
+          },
+          {
+            "code": "122273",
+            "display": "skin condition Cold"
+          },
+          {
+            "code": "122274",
+            "display": "skin condition Dry"
+          },
+          {
+            "code": "122275",
+            "display": "skin condition Clammy"
+          },
+          {
+            "code": "122276",
+            "display": "skin condition Diaphoretic"
+          },
+          {
+            "code": "122277",
+            "display": "skin condition Flush"
+          },
+          {
+            "code": "122278",
+            "display": "skin condition Mottled"
+          },
+          {
+            "code": "122279",
+            "display": "skin condition Pale"
+          }
+        ]
+      }
+    ]
+  }
+}

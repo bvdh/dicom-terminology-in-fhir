@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Orientation",
+  "id": "dicom-cid-6152-Orientation",
+  "description": "From BI-RADS",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6152-Orientation",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.467"
+    }
+  ],
+  "version": "20050822",
+  "title": "Orientation",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111355",
+            "display": "Parallel"
+          },
+          {
+            "code": "111356",
+            "display": "Not parallel"
+          }
+        ]
+      }
+    ]
+  }
+}

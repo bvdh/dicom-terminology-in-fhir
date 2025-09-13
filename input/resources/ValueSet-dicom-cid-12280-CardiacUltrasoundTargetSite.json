@@ -1,0 +1,275 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiacUltrasoundTargetSite",
+  "id": "dicom-cid-12280-CardiacUltrasoundTargetSite",
+  "description": "Cardiac Ultrasound Target Site",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12280-CardiacUltrasoundTargetSite",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.860"
+    }
+  ],
+  "version": "20200310",
+  "title": "Cardiac Ultrasound Target Site",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "263943000",
+            "display": "Anterior Wall"
+          },
+          {
+            "code": "264159006",
+            "display": "Posterior Wall"
+          },
+          {
+            "code": "305437000",
+            "display": "Cardiac valve annulus"
+          },
+          {
+            "code": "75397005",
+            "display": "Preductal region of aortic arch"
+          },
+          {
+            "code": "60835009",
+            "display": "Postductal region of aortic arch"
+          },
+          {
+            "code": "443501007",
+            "display": "Vena Contracta"
+          },
+          {
+            "code": "443281009",
+            "display": "Transverse Aortic Arch"
+          },
+          {
+            "code": "41699000",
+            "display": "Effusion"
+          },
+          {
+            "code": "6530003",
+            "display": "Cardiac Valve Leaflet"
+          },
+          {
+            "code": "78480002",
+            "display": "Right Pulmonary Artery"
+          },
+          {
+            "code": "50408007",
+            "display": "Left Pulmonary Artery"
+          },
+          {
+            "code": "44627009",
+            "display": "Right Ventricle Outflow Tract"
+          },
+          {
+            "code": "13418002",
+            "display": "Left Ventricle Outflow Tract"
+          },
+          {
+            "code": "8629005",
+            "display": "Right Superior Pulmonary Vein"
+          },
+          {
+            "code": "113273001",
+            "display": "Right Inferior Pulmonary Vein"
+          },
+          {
+            "code": "43863001",
+            "display": "Left Superior Pulmonary Vein"
+          },
+          {
+            "code": "51249003",
+            "display": "Left Inferior Pulmonary Vein"
+          },
+          {
+            "code": "443705001",
+            "display": "Pulmonary Vein Common Left Segment"
+          },
+          {
+            "code": "443591004",
+            "display": "Pulmonary Vein Common Right Segment"
+          },
+          {
+            "code": "443208000",
+            "display": "Pulmonary Vein confluence to Atrium Connection"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-4210B",
+            "display": "Anterior Wall"
+          },
+          {
+            "code": "R-42175",
+            "display": "Posterior Wall"
+          },
+          {
+            "code": "T-3500E",
+            "display": "Cardiac valve annulus"
+          },
+          {
+            "code": "T-42340",
+            "display": "Preductal region of aortic arch"
+          },
+          {
+            "code": "T-42350",
+            "display": "Postductal region of aortic arch"
+          },
+          {
+            "code": "R-421AA",
+            "display": "Vena Contracta"
+          },
+          {
+            "code": "T-42304",
+            "display": "Transverse Aortic Arch"
+          },
+          {
+            "code": "M-36700",
+            "display": "Effusion"
+          },
+          {
+            "code": "T-35002",
+            "display": "Cardiac Valve Leaflet"
+          },
+          {
+            "code": "T-44200",
+            "display": "Right Pulmonary Artery"
+          },
+          {
+            "code": "T-44400",
+            "display": "Left Pulmonary Artery"
+          },
+          {
+            "code": "T-32550",
+            "display": "Right Ventricle Outflow Tract"
+          },
+          {
+            "code": "T-32650",
+            "display": "Left Ventricle Outflow Tract"
+          },
+          {
+            "code": "T-48510",
+            "display": "Right Superior Pulmonary Vein"
+          },
+          {
+            "code": "T-48520",
+            "display": "Right Inferior Pulmonary Vein"
+          },
+          {
+            "code": "T-48530",
+            "display": "Left Superior Pulmonary Vein"
+          },
+          {
+            "code": "T-48540",
+            "display": "Left Inferior Pulmonary Vein"
+          },
+          {
+            "code": "T-F6859",
+            "display": "Pulmonary Vein Common Left Segment"
+          },
+          {
+            "code": "T-F6858",
+            "display": "Pulmonary Vein Common Right Segment"
+          },
+          {
+            "code": "M-2460C",
+            "display": "Pulmonary Vein confluence to Atrium Connection"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0442070",
+            "display": "Anterior Wall"
+          },
+          {
+            "code": "C0442071",
+            "display": "Posterior Wall"
+          },
+          {
+            "code": "C0583326",
+            "display": "Cardiac valve annulus"
+          },
+          {
+            "code": "C0226020",
+            "display": "Preductal region of aortic arch"
+          },
+          {
+            "code": "C0226021",
+            "display": "Postductal region of aortic arch"
+          },
+          {
+            "code": "C2732913",
+            "display": "Vena Contracta"
+          },
+          {
+            "code": "C2733296",
+            "display": "Transverse Aortic Arch"
+          },
+          {
+            "code": "C0013687",
+            "display": "Effusion"
+          },
+          {
+            "code": "C0225922",
+            "display": "Cardiac Valve Leaflet"
+          },
+          {
+            "code": "C0226054",
+            "display": "Right Pulmonary Artery"
+          },
+          {
+            "code": "C0226069",
+            "display": "Left Pulmonary Artery"
+          },
+          {
+            "code": "C0225892",
+            "display": "Right Ventricle Outflow Tract"
+          },
+          {
+            "code": "C0225912",
+            "display": "Left Ventricle Outflow Tract"
+          },
+          {
+            "code": "C0226671",
+            "display": "Right Superior Pulmonary Vein"
+          },
+          {
+            "code": "C0226676",
+            "display": "Right Inferior Pulmonary Vein"
+          },
+          {
+            "code": "C0226682",
+            "display": "Left Superior Pulmonary Vein"
+          },
+          {
+            "code": "C0226686",
+            "display": "Left Inferior Pulmonary Vein"
+          },
+          {
+            "code": "C2732450",
+            "display": "Pulmonary Vein Common Left Segment"
+          },
+          {
+            "code": "C2733538",
+            "display": "Pulmonary Vein Common Right Segment"
+          },
+          {
+            "code": "C2733176",
+            "display": "Pulmonary Vein confluence to Atrium Connection"
+          }
+        ]
+      }
+    ]
+  }
+}

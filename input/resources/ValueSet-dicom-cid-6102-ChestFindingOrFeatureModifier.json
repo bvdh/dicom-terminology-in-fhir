@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ChestFindingOrFeatureModifier",
+  "id": "dicom-cid-6102-ChestFindingOrFeatureModifier",
+  "description": "Chest Finding or Feature Modifier",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6102-ChestFindingOrFeatureModifier",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.422"
+    }
+  ],
+  "version": "20030108",
+  "title": "Chest Finding or Feature Modifier",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6103-AbnormalLinesFindingOrFeature"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6104-AbnormalOpacityFindingOrFeature"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6105-AbnormalLucencyFindingOrFeature"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6106-AbnormalTextureFindingOrFeature"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6109-RadiographicAnatomyFindingOrFeature"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6138-ChestNonLesionObjectType"
+        ]
+      }
+    ]
+  }
+}

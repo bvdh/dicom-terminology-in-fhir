@@ -1,0 +1,155 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SpecimenStainForConfocalMicroscopy",
+  "id": "dicom-cid-4412-SpecimenStainForConfocalMicroscopy",
+  "description": "Specimen Stain for Confocal Microscopy",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4412-SpecimenStainForConfocalMicroscopy",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1480"
+    }
+  ],
+  "version": "20250401",
+  "title": "Specimen Stain for Confocal Microscopy",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "387372003",
+            "display": "aluminum chloride"
+          },
+          {
+            "code": "85596006",
+            "display": "fluorescein stain"
+          },
+          {
+            "code": "255800009",
+            "display": "immunofluorescent stain"
+          },
+          {
+            "code": "75399008",
+            "display": "citric acid"
+          },
+          {
+            "code": "9010006",
+            "display": "methyl blue stain"
+          },
+          {
+            "code": "29522004",
+            "display": "toluidine blue stain"
+          },
+          {
+            "code": "77073008",
+            "display": "nile blue stain"
+          },
+          {
+            "code": "48540004",
+            "display": "patent blue V sodium salt stain"
+          },
+          {
+            "code": "29252006",
+            "display": "acridine orange stain"
+          },
+          {
+            "code": "2869004",
+            "display": "Acetic acid"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "C-12016",
+            "display": "aluminum chloride"
+          },
+          {
+            "code": "C-22A05",
+            "display": "fluorescein stain"
+          },
+          {
+            "code": "C-22817",
+            "display": "immunofluorescent stain"
+          },
+          {
+            "code": "F-61070",
+            "display": "citric acid"
+          },
+          {
+            "code": "C-22907",
+            "display": "methyl blue stain"
+          },
+          {
+            "code": "C-22951",
+            "display": "toluidine blue stain"
+          },
+          {
+            "code": "C-22941",
+            "display": "nile blue stain"
+          },
+          {
+            "code": "C-22885",
+            "display": "patent blue V sodium salt stain"
+          },
+          {
+            "code": "C-22A08",
+            "display": "acridine orange stain"
+          },
+          {
+            "code": "C-21624",
+            "display": "Acetic acid"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0102840",
+            "display": "aluminum chloride"
+          },
+          {
+            "code": "C0060520",
+            "display": "fluorescein stain"
+          },
+          {
+            "code": "C0183489",
+            "display": "immunofluorescent stain"
+          },
+          {
+            "code": "C0055819",
+            "display": "citric acid"
+          },
+          {
+            "code": "C0303897",
+            "display": "methyl blue stain"
+          },
+          {
+            "code": "C0040380",
+            "display": "toluidine blue stain"
+          },
+          {
+            "code": "C0068765",
+            "display": "nile blue stain"
+          },
+          {
+            "code": "C0116465",
+            "display": "patent blue V sodium salt stain"
+          },
+          {
+            "code": "C0001185",
+            "display": "acridine orange stain"
+          },
+          {
+            "code": "C0000983",
+            "display": "Acetic acid"
+          }
+        ]
+      }
+    ]
+  }
+}

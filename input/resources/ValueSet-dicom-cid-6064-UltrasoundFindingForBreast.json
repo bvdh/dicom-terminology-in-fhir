@@ -1,0 +1,132 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "UltrasoundFindingForBreast",
+  "id": "dicom-cid-6064-UltrasoundFindingForBreast",
+  "description": "These terms were obtained from BI-RADS",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6064-UltrasoundFindingForBreast",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.393"
+    }
+  ],
+  "version": "20160314",
+  "title": "Ultrasound Finding for Breast",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "169254007",
+            "display": "Ultrasound scan normal"
+          },
+          {
+            "code": "399294002",
+            "display": "Cyst of breast"
+          },
+          {
+            "code": "22049009",
+            "display": "Mammary duct ectasia"
+          },
+          {
+            "code": "59441001",
+            "display": "Lymph node"
+          },
+          {
+            "code": "76649007",
+            "display": "Sebaceous cyst of skin of breast"
+          },
+          {
+            "code": "19227008",
+            "display": "Foreign body"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "F-01BF8",
+            "display": "Ultrasound scan normal"
+          },
+          {
+            "code": "D7-90035",
+            "display": "Cyst of breast"
+          },
+          {
+            "code": "D7-90370",
+            "display": "Mammary duct ectasia"
+          },
+          {
+            "code": "T-C4000",
+            "display": "Lymph node"
+          },
+          {
+            "code": "D7-90382",
+            "display": "Sebaceous cyst of skin of breast"
+          },
+          {
+            "code": "M-30400",
+            "display": "Foreign body"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0581117",
+            "display": "Ultrasound scan normal"
+          },
+          {
+            "code": "C0006144",
+            "display": "Cyst of breast"
+          },
+          {
+            "code": "C0152442",
+            "display": "Mammary duct ectasia"
+          },
+          {
+            "code": "C0024204",
+            "display": "Lymph node"
+          },
+          {
+            "code": "C0342082",
+            "display": "Sebaceous cyst of skin of breast"
+          },
+          {
+            "code": "C0016542",
+            "display": "Foreign body"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111460",
+            "display": "Complex cyst"
+          },
+          {
+            "code": "111461",
+            "display": "Intracystic lesion"
+          },
+          {
+            "code": "111462",
+            "display": "Solid mass"
+          },
+          {
+            "code": "111129",
+            "display": "Clustered microcysts"
+          },
+          {
+            "code": "111130",
+            "display": "Complicated cyst"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DrugContrastAdministration",
+  "id": "dicom-cid-3409-DrugContrastAdministration",
+  "description": "Drug/Contrast Administration",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3409-DrugContrastAdministration",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.74"
+    }
+  ],
+  "version": "20030327",
+  "title": "Drug/Contrast Administration",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122081",
+            "display": "Drug start"
+          },
+          {
+            "code": "122082",
+            "display": "Drug end"
+          },
+          {
+            "code": "122083",
+            "display": "Drug administered"
+          },
+          {
+            "code": "122084",
+            "display": "Contrast start"
+          },
+          {
+            "code": "122085",
+            "display": "Contrast end"
+          },
+          {
+            "code": "122086",
+            "display": "Contrast administered"
+          },
+          {
+            "code": "122087",
+            "display": "Infusate start"
+          },
+          {
+            "code": "122088",
+            "display": "Infusate end"
+          }
+        ]
+      }
+    ]
+  }
+}

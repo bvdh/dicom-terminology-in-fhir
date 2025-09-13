@@ -1,0 +1,71 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AbdominalInterventionType",
+  "id": "dicom-cid-6319-AbdominalInterventionType",
+  "description": "Abdominal Intervention Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6319-AbdominalInterventionType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1376"
+    }
+  ],
+  "version": "20240611",
+  "title": "Abdominal Intervention Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "387713003",
+            "display": "Surgical procedure"
+          },
+          {
+            "code": "261004008",
+            "display": "Diagnostic intent"
+          },
+          {
+            "code": "277132007",
+            "display": "Therapeutic procedure"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "P0-009C3",
+            "display": "Surgical procedure"
+          },
+          {
+            "code": "R-408C3",
+            "display": "Diagnostic intent"
+          },
+          {
+            "code": "P0-0000E",
+            "display": "Therapeutic procedure"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0543467",
+            "display": "Surgical procedure"
+          },
+          {
+            "code": "C0348026",
+            "display": "Diagnostic intent"
+          },
+          {
+            "code": "C0087111",
+            "display": "Therapeutic procedure"
+          }
+        ]
+      }
+    ]
+  }
+}

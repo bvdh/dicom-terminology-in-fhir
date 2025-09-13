@@ -1,0 +1,71 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProstateCancerTherapy",
+  "id": "dicom-cid-6323-ProstateCancerTherapy",
+  "description": "Prostate Cancer Therapy",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6323-ProstateCancerTherapy",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1380"
+    }
+  ],
+  "version": "20210714",
+  "title": "Prostate Cancer Therapy",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "707266006",
+            "display": "Androgen Deprivation Therapy"
+          },
+          {
+            "code": "425767004",
+            "display": "Implantation of radioactive seed into prostate"
+          },
+          {
+            "code": "90470006",
+            "display": "Prostatectomy"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-FC5CD",
+            "display": "Androgen Deprivation Therapy"
+          },
+          {
+            "code": "P5-C0641",
+            "display": "Implantation of radioactive seed into prostate"
+          },
+          {
+            "code": "P1-78320",
+            "display": "Prostatectomy"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0279492",
+            "display": "Androgen Deprivation Therapy"
+          },
+          {
+            "code": "C1960738",
+            "display": "Implantation of radioactive seed into prostate"
+          },
+          {
+            "code": "C0033573",
+            "display": "Prostatectomy"
+          }
+        ]
+      }
+    ]
+  }
+}

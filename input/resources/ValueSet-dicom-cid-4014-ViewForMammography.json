@@ -1,0 +1,167 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ViewForMammography",
+  "id": "dicom-cid-4014-ViewForMammography",
+  "description": "In a prior version of this Context Group, Cranio-Caudal Exaggerated Laterally was assigned the code Y-X1770, and Cranio-Caudal Exaggerated Medially was assigned the code Y-X1771. Those codes are deprecated, as they are not valid SNOMED codes. Although there is minimal possibility of misinterpretation with SOP Instances that may include the deprecated codes, receiving applications should be aware of this change; see In a prior version of this Context Group,",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4014-ViewForMammography",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.298"
+    }
+  ],
+  "version": "20090717",
+  "title": "View for Mammography",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "399260004",
+            "display": "medio-lateral"
+          },
+          {
+            "code": "399368009",
+            "display": "medio-lateral oblique"
+          },
+          {
+            "code": "399352003",
+            "display": "latero-medial"
+          },
+          {
+            "code": "399099002",
+            "display": "latero-medial oblique"
+          },
+          {
+            "code": "399162004",
+            "display": "cranio-caudal"
+          },
+          {
+            "code": "399196006",
+            "display": "caudo-cranial (from below)"
+          },
+          {
+            "code": "399188001",
+            "display": "superolateral to inferomedial oblique"
+          },
+          {
+            "code": "441555000",
+            "display": "inferomedial to superolateral oblique"
+          },
+          {
+            "code": "399192008",
+            "display": "cranio-caudal exaggerated laterally"
+          },
+          {
+            "code": "399101009",
+            "display": "cranio-caudal exaggerated medially"
+          },
+          {
+            "code": "127457009",
+            "display": "tissue specimen from breast"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-10224",
+            "display": "medio-lateral"
+          },
+          {
+            "code": "R-10226",
+            "display": "medio-lateral oblique"
+          },
+          {
+            "code": "R-10228",
+            "display": "latero-medial"
+          },
+          {
+            "code": "R-10230",
+            "display": "latero-medial oblique"
+          },
+          {
+            "code": "R-10242",
+            "display": "cranio-caudal"
+          },
+          {
+            "code": "R-10244",
+            "display": "caudo-cranial (from below)"
+          },
+          {
+            "code": "R-102D0",
+            "display": "superolateral to inferomedial oblique"
+          },
+          {
+            "code": "R-40AAA",
+            "display": "inferomedial to superolateral oblique"
+          },
+          {
+            "code": "R-1024A",
+            "display": "cranio-caudal exaggerated laterally"
+          },
+          {
+            "code": "R-1024B",
+            "display": "cranio-caudal exaggerated medially"
+          },
+          {
+            "code": "G-8310",
+            "display": "tissue specimen from breast"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1302283",
+            "display": "medio-lateral"
+          },
+          {
+            "code": "C1302345",
+            "display": "medio-lateral oblique"
+          },
+          {
+            "code": "C1302336",
+            "display": "latero-medial"
+          },
+          {
+            "code": "C1302201",
+            "display": "latero-medial oblique"
+          },
+          {
+            "code": "C0442215",
+            "display": "cranio-caudal"
+          },
+          {
+            "code": "C1302249",
+            "display": "caudo-cranial (from below)"
+          },
+          {
+            "code": "C1302245",
+            "display": "superolateral to inferomedial oblique"
+          },
+          {
+            "code": "C2711617",
+            "display": "inferomedial to superolateral oblique"
+          },
+          {
+            "code": "C1302247",
+            "display": "cranio-caudal exaggerated laterally"
+          },
+          {
+            "code": "C1302202",
+            "display": "cranio-caudal exaggerated medially"
+          },
+          {
+            "code": "C0444070",
+            "display": "tissue specimen from breast"
+          }
+        ]
+      }
+    ]
+  }
+}

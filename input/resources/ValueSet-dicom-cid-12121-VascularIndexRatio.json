@@ -1,0 +1,104 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VascularIndexRatio",
+  "id": "dicom-cid-12121-VascularIndexRatio",
+  "description": "This Context Group formerly included SNOMED codes G-0371 and G-0372, which have been replaced by",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12121-VascularIndexRatio",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.587"
+    }
+  ],
+  "version": "20050110",
+  "title": "Vascular Index/Ratio",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "20167-3",
+            "display": "Acceleration Index"
+          },
+          {
+            "code": "12008-9",
+            "display": "Pulsatility Index"
+          },
+          {
+            "code": "12023-8",
+            "display": "Resistivity Index"
+          },
+          {
+            "code": "12144-2",
+            "display": "Systolic to Diastolic Velocity Ratio"
+          },
+          {
+            "code": "33867-3",
+            "display": "Velocity ratio"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0802982",
+            "display": "Acceleration Index"
+          },
+          {
+            "code": "C1443264",
+            "display": "Lumen Area Stenosis"
+          },
+          {
+            "code": "C1443265",
+            "display": "Lumen Diameter Stenosis"
+          },
+          {
+            "code": "C0552113",
+            "display": "Pulsatility Index"
+          },
+          {
+            "code": "C0552128",
+            "display": "Resistivity Index"
+          },
+          {
+            "code": "C0552246",
+            "display": "Systolic to Diastolic Velocity Ratio"
+          },
+          {
+            "code": "C1316330",
+            "display": "Velocity ratio"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "408714007",
+            "display": "Lumen Area Stenosis"
+          },
+          {
+            "code": "408715008",
+            "display": "Lumen Diameter Stenosis"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-101BA",
+            "display": "Lumen Area Stenosis"
+          },
+          {
+            "code": "R-101BB",
+            "display": "Lumen Diameter Stenosis"
+          }
+        ]
+      }
+    ]
+  }
+}

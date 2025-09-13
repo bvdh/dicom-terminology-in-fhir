@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiotherapyDoseCalculationRole",
+  "id": "dicom-cid-9535-RadiotherapyDoseCalculationRole",
+  "description": "Radiotherapy Dose Calculation Role",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9535-RadiotherapyDoseCalculationRole",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1245"
+    }
+  ],
+  "version": "20181112",
+  "title": "Radiotherapy Dose Calculation Role",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130057",
+            "display": "Planning Organ At Risk Volume"
+          },
+          {
+            "code": "130058",
+            "display": "Avoidance Volume"
+          },
+          {
+            "code": "130060",
+            "display": "Organ At Risk"
+          },
+          {
+            "code": "130061",
+            "display": "Radiation Dose Shaping Volume"
+          },
+          {
+            "code": "130062",
+            "display": "Conformality Shell"
+          },
+          {
+            "code": "130065",
+            "display": "Dose Calculation Bounding Volume"
+          },
+          {
+            "code": "130066",
+            "display": "Radiation Interaction Volume"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OphthalmicMappingAcquisitionMethod",
+  "id": "dicom-cid-4261-OphthalmicMappingAcquisitionMethod",
+  "description": "Ophthalmic Mapping Acquisition Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4261-OphthalmicMappingAcquisitionMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.937"
+    }
+  ],
+  "version": "20110825",
+  "title": "Ophthalmic Mapping Acquisition Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111920",
+            "display": "Time domain"
+          },
+          {
+            "code": "111921",
+            "display": "Spectral domain"
+          },
+          {
+            "code": "111922",
+            "display": "No corneal compensation"
+          },
+          {
+            "code": "111923",
+            "display": "Corneal birefringence compensation"
+          },
+          {
+            "code": "111924",
+            "display": "Retinal topography"
+          }
+        ]
+      }
+    ]
+  }
+}

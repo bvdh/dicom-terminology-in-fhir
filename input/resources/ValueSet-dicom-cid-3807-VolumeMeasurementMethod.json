@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VolumeMeasurementMethod",
+  "id": "dicom-cid-3807-VolumeMeasurementMethod",
+  "description": "Volume Measurement Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3807-VolumeMeasurementMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.268"
+    }
+  ],
+  "version": "20051103",
+  "title": "Volume Measurement Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122650",
+            "display": "Area Based Method"
+          },
+          {
+            "code": "122651",
+            "display": "Diameter Based Method"
+          },
+          {
+            "code": "122652",
+            "display": "Volume Based Method"
+          }
+        ]
+      }
+    ]
+  }
+}

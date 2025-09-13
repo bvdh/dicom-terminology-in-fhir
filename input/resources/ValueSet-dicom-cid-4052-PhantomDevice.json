@@ -1,0 +1,84 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PhantomDevice",
+  "id": "dicom-cid-4052-PhantomDevice",
+  "description": "Phantom Device",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4052-PhantomDevice",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.315"
+    }
+  ],
+  "version": "20221224",
+  "title": "Phantom Device",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4053-CTDIPhantomDevice"
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "706342009",
+            "display": "Phantom"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-FE0C7",
+            "display": "Phantom"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113682",
+            "display": "ACR Accreditation Phantom - CT"
+          },
+          {
+            "code": "113683",
+            "display": "ACR Accreditation Phantom - MR"
+          },
+          {
+            "code": "113684",
+            "display": "ACR Accreditation Phantom - Mammography"
+          },
+          {
+            "code": "113685",
+            "display": "ACR Accreditation Phantom - Stereotactic Breast Biopsy"
+          },
+          {
+            "code": "113686",
+            "display": "ACR Accreditation Phantom - ECT"
+          },
+          {
+            "code": "113687",
+            "display": "ACR Accreditation Phantom - PET"
+          },
+          {
+            "code": "113688",
+            "display": "ACR Accreditation Phantom - ECT/PET"
+          },
+          {
+            "code": "113689",
+            "display": "ACR Accreditation Phantom - PET Faceplate"
+          },
+          {
+            "code": "113692",
+            "display": "NEMA XR21-2000 Phantom"
+          }
+        ]
+      }
+    ]
+  }
+}

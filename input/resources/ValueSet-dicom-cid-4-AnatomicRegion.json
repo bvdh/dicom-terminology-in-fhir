@@ -1,0 +1,958 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AnatomicRegion",
+  "id": "dicom-cid-4-AnatomicRegion",
+  "description": "Anatomic Region",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4-AnatomicRegion",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.2"
+    }
+  ],
+  "version": "20250401",
+  "title": "Anatomic Region",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4030-CTMRandPETAnatomyImaged"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4040-EndoscopyAnatomicRegion"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4042-XAXRFAnatomyImaged"
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "59652004",
+            "display": "Atrium"
+          },
+          {
+            "code": "91470000",
+            "display": "Axilla"
+          },
+          {
+            "code": "77568009",
+            "display": "Back"
+          },
+          {
+            "code": "34411009",
+            "display": "Broad ligament"
+          },
+          {
+            "code": "46862004",
+            "display": "Buttock"
+          },
+          {
+            "code": "2334006",
+            "display": "Calyx"
+          },
+          {
+            "code": "60819002",
+            "display": "Cheek"
+          },
+          {
+            "code": "28726007",
+            "display": "Cornea"
+          },
+          {
+            "code": "117590005",
+            "display": "Ear"
+          },
+          {
+            "code": "51114001",
+            "display": "Endo-arterial"
+          },
+          {
+            "code": "80891009",
+            "display": "Endo-cardiac"
+          },
+          {
+            "code": "32849002",
+            "display": "Endo-esophageal"
+          },
+          {
+            "code": "53342003",
+            "display": "Endo-nasal"
+          },
+          {
+            "code": "18962004",
+            "display": "Endo-nasopharyngeal"
+          },
+          {
+            "code": "34402009",
+            "display": "Endo-rectal"
+          },
+          {
+            "code": "64033007",
+            "display": "Endo-renal"
+          },
+          {
+            "code": "87953007",
+            "display": "Endo-ureteric"
+          },
+          {
+            "code": "13648007",
+            "display": "Endo-urethral"
+          },
+          {
+            "code": "76784001",
+            "display": "Endo-vaginal"
+          },
+          {
+            "code": "59820001",
+            "display": "Endo-vascular"
+          },
+          {
+            "code": "29092000",
+            "display": "Endo-venous"
+          },
+          {
+            "code": "48367006",
+            "display": "Endo-vesical"
+          },
+          {
+            "code": "27947004",
+            "display": "Epigastric region"
+          },
+          {
+            "code": "80243003",
+            "display": "Eyelid"
+          },
+          {
+            "code": "89545001",
+            "display": "Face"
+          },
+          {
+            "code": "58602004",
+            "display": "Flank"
+          },
+          {
+            "code": "79361005",
+            "display": "Fontanel of skull"
+          },
+          {
+            "code": "24136001",
+            "display": "Hip joint"
+          },
+          {
+            "code": "11708003",
+            "display": "Hypogastric region"
+          },
+          {
+            "code": "170887008",
+            "display": "Submental"
+          },
+          {
+            "code": "81502006",
+            "display": "Hypopharynx"
+          },
+          {
+            "code": "131183008",
+            "display": "Intra-articular"
+          },
+          {
+            "code": "1101003",
+            "display": "Intracranial"
+          },
+          {
+            "code": "133945003",
+            "display": "Left hypochondriac region"
+          },
+          {
+            "code": "85119005",
+            "display": "Left inguinal region"
+          },
+          {
+            "code": "68505006",
+            "display": "Left lower quadrant of abdomen"
+          },
+          {
+            "code": "1017210004",
+            "display": "Left lumbar region"
+          },
+          {
+            "code": "86367003",
+            "display": "Left upper quadrant of abdomen"
+          },
+          {
+            "code": "19100000",
+            "display": "Lower inner quadrant of breast"
+          },
+          {
+            "code": "33564002",
+            "display": "Lower outer quadrant of breast"
+          },
+          {
+            "code": "52612000",
+            "display": "Lumbar region"
+          },
+          {
+            "code": "39607008",
+            "display": "Lung"
+          },
+          {
+            "code": "123851003",
+            "display": "Mouth"
+          },
+          {
+            "code": "45206002",
+            "display": "Nose"
+          },
+          {
+            "code": "113346000",
+            "display": "Omental bursa"
+          },
+          {
+            "code": "27398004",
+            "display": "Omentum"
+          },
+          {
+            "code": "15497006",
+            "display": "Ovary"
+          },
+          {
+            "code": "91691001",
+            "display": "Parasternal"
+          },
+          {
+            "code": "18911002",
+            "display": "Penis"
+          },
+          {
+            "code": "38864007",
+            "display": "Perineum"
+          },
+          {
+            "code": "32361000",
+            "display": "Popliteal fossa"
+          },
+          {
+            "code": "25990002",
+            "display": "Renal pelvis"
+          },
+          {
+            "code": "82849001",
+            "display": "Retroperitoneum"
+          },
+          {
+            "code": "133946002",
+            "display": "Right hypochondriac region"
+          },
+          {
+            "code": "37117007",
+            "display": "Right inguinal region"
+          },
+          {
+            "code": "48544008",
+            "display": "Right lower quadrant of abdomen"
+          },
+          {
+            "code": "1017211000",
+            "display": "Right lumbar region"
+          },
+          {
+            "code": "50519007",
+            "display": "Right upper quadrant of abdomen"
+          },
+          {
+            "code": "41695006",
+            "display": "Scalp"
+          },
+          {
+            "code": "18619003",
+            "display": "Sclera"
+          },
+          {
+            "code": "20233005",
+            "display": "Scrotum"
+          },
+          {
+            "code": "2748008",
+            "display": "Spinal cord"
+          },
+          {
+            "code": "19695001",
+            "display": "Subcostal"
+          },
+          {
+            "code": "5713008",
+            "display": "Submandibular area"
+          },
+          {
+            "code": "5076001",
+            "display": "Subxiphoid"
+          },
+          {
+            "code": "77621008",
+            "display": "Supraclavicular region of neck"
+          },
+          {
+            "code": "26493002",
+            "display": "Suprasternal notch"
+          },
+          {
+            "code": "68367000",
+            "display": "Thigh"
+          },
+          {
+            "code": "816094009",
+            "display": "Thorax"
+          },
+          {
+            "code": "21974007",
+            "display": "Tongue"
+          },
+          {
+            "code": "90290004",
+            "display": "Umbilical region"
+          },
+          {
+            "code": "77831004",
+            "display": "Upper inner quadrant of breast"
+          },
+          {
+            "code": "76365002",
+            "display": "Upper outer quadrant of breast"
+          },
+          {
+            "code": "312288001",
+            "display": "Vascular graft"
+          },
+          {
+            "code": "21814001",
+            "display": "Ventricle"
+          },
+          {
+            "code": "45292006",
+            "display": "Vulva"
+          },
+          {
+            "code": "74670003",
+            "display": "Wrist joint"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-32100",
+            "display": "Atrium"
+          },
+          {
+            "code": "T-D8104",
+            "display": "Axilla"
+          },
+          {
+            "code": "T-D2100",
+            "display": "Back"
+          },
+          {
+            "code": "T-D6500",
+            "display": "Broad ligament"
+          },
+          {
+            "code": "T-D2600",
+            "display": "Buttock"
+          },
+          {
+            "code": "T-72100",
+            "display": "Calyx"
+          },
+          {
+            "code": "T-D1206",
+            "display": "Cheek"
+          },
+          {
+            "code": "T-AA200",
+            "display": "Cornea"
+          },
+          {
+            "code": "T-AB001",
+            "display": "Ear"
+          },
+          {
+            "code": "T-41000",
+            "display": "Endo-arterial"
+          },
+          {
+            "code": "T-32000",
+            "display": "Endo-cardiac"
+          },
+          {
+            "code": "T-56000",
+            "display": "Endo-esophageal"
+          },
+          {
+            "code": "T-21300",
+            "display": "Endo-nasal"
+          },
+          {
+            "code": "T-23050",
+            "display": "Endo-nasopharyngeal"
+          },
+          {
+            "code": "T-59600",
+            "display": "Endo-rectal"
+          },
+          {
+            "code": "T-71000",
+            "display": "Endo-renal"
+          },
+          {
+            "code": "T-73000",
+            "display": "Endo-ureteric"
+          },
+          {
+            "code": "T-75000",
+            "display": "Endo-urethral"
+          },
+          {
+            "code": "T-82000",
+            "display": "Endo-vaginal"
+          },
+          {
+            "code": "T-40000",
+            "display": "Endo-vascular"
+          },
+          {
+            "code": "T-48000",
+            "display": "Endo-venous"
+          },
+          {
+            "code": "T-74250",
+            "display": "Endo-vesical"
+          },
+          {
+            "code": "T-D4200",
+            "display": "Epigastric region"
+          },
+          {
+            "code": "T-AA810",
+            "display": "Eyelid"
+          },
+          {
+            "code": "T-D1200",
+            "display": "Face"
+          },
+          {
+            "code": "T-D2310",
+            "display": "Flank"
+          },
+          {
+            "code": "T-15200",
+            "display": "Fontanel of skull"
+          },
+          {
+            "code": "T-15710",
+            "display": "Hip joint"
+          },
+          {
+            "code": "T-D4240",
+            "display": "Hypogastric region"
+          },
+          {
+            "code": "T-D161E",
+            "display": "Submental"
+          },
+          {
+            "code": "T-55300",
+            "display": "Hypopharynx"
+          },
+          {
+            "code": "G-A15A",
+            "display": "Intra-articular"
+          },
+          {
+            "code": "T-D1400",
+            "display": "Intracranial"
+          },
+          {
+            "code": "T-D4211",
+            "display": "Left hypochondriac region"
+          },
+          {
+            "code": "T-D7020",
+            "display": "Left inguinal region"
+          },
+          {
+            "code": "T-D4140",
+            "display": "Left lower quadrant of abdomen"
+          },
+          {
+            "code": "T-D4130",
+            "display": "Left upper quadrant of abdomen"
+          },
+          {
+            "code": "T-04003",
+            "display": "Lower inner quadrant of breast"
+          },
+          {
+            "code": "T-04005",
+            "display": "Lower outer quadrant of breast"
+          },
+          {
+            "code": "T-D2300",
+            "display": "Lumbar region"
+          },
+          {
+            "code": "T-28000",
+            "display": "Lung"
+          },
+          {
+            "code": "T-D0662",
+            "display": "Mouth"
+          },
+          {
+            "code": "T-21000",
+            "display": "Nose"
+          },
+          {
+            "code": "T-D4450",
+            "display": "Omental bursa"
+          },
+          {
+            "code": "T-D4600",
+            "display": "Omentum"
+          },
+          {
+            "code": "T-87000",
+            "display": "Ovary"
+          },
+          {
+            "code": "T-D3136",
+            "display": "Parasternal"
+          },
+          {
+            "code": "T-91000",
+            "display": "Penis"
+          },
+          {
+            "code": "T-D2700",
+            "display": "Perineum"
+          },
+          {
+            "code": "T-D9310",
+            "display": "Popliteal fossa"
+          },
+          {
+            "code": "T-72000",
+            "display": "Renal pelvis"
+          },
+          {
+            "code": "T-D4900",
+            "display": "Retroperitoneum"
+          },
+          {
+            "code": "T-D4212",
+            "display": "Right hypochondriac region"
+          },
+          {
+            "code": "T-D7010",
+            "display": "Right inguinal region"
+          },
+          {
+            "code": "T-D4120",
+            "display": "Right lower quadrant of abdomen"
+          },
+          {
+            "code": "T-D4110",
+            "display": "Right upper quadrant of abdomen"
+          },
+          {
+            "code": "T-D1160",
+            "display": "Scalp"
+          },
+          {
+            "code": "T-AA110",
+            "display": "Sclera"
+          },
+          {
+            "code": "T-98000",
+            "display": "Scrotum"
+          },
+          {
+            "code": "T-A7010",
+            "display": "Spinal cord"
+          },
+          {
+            "code": "T-D4210",
+            "display": "Subcostal"
+          },
+          {
+            "code": "T-D1603",
+            "display": "Submandibular area"
+          },
+          {
+            "code": "T-D3213",
+            "display": "Subxiphoid"
+          },
+          {
+            "code": "T-D1620",
+            "display": "Supraclavicular region of neck"
+          },
+          {
+            "code": "T-11218",
+            "display": "Suprasternal notch"
+          },
+          {
+            "code": "T-D9100",
+            "display": "Thigh"
+          },
+          {
+            "code": "T-53000",
+            "display": "Tongue"
+          },
+          {
+            "code": "T-D4230",
+            "display": "Umbilical region"
+          },
+          {
+            "code": "T-04002",
+            "display": "Upper inner quadrant of breast"
+          },
+          {
+            "code": "T-04004",
+            "display": "Upper outer quadrant of breast"
+          },
+          {
+            "code": "T-D000F",
+            "display": "Vascular graft"
+          },
+          {
+            "code": "T-32400",
+            "display": "Ventricle"
+          },
+          {
+            "code": "T-81000",
+            "display": "Vulva"
+          },
+          {
+            "code": "T-15460",
+            "display": "Wrist joint"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0018792",
+            "display": "Atrium"
+          },
+          {
+            "code": "C0004454",
+            "display": "Axilla"
+          },
+          {
+            "code": "C0004600",
+            "display": "Back"
+          },
+          {
+            "code": "C0006205",
+            "display": "Broad ligament"
+          },
+          {
+            "code": "C0006497",
+            "display": "Buttock"
+          },
+          {
+            "code": "C0022651",
+            "display": "Calyx"
+          },
+          {
+            "code": "C0007966",
+            "display": "Cheek"
+          },
+          {
+            "code": "C0010031",
+            "display": "Cornea"
+          },
+          {
+            "code": "C0013443",
+            "display": "Ear"
+          },
+          {
+            "code": "C0003842",
+            "display": "Endo-arterial"
+          },
+          {
+            "code": "C0018787",
+            "display": "Endo-cardiac"
+          },
+          {
+            "code": "C0014876",
+            "display": "Endo-esophageal"
+          },
+          {
+            "code": "C0225425",
+            "display": "Endo-nasal"
+          },
+          {
+            "code": "C0225497",
+            "display": "Endo-nasopharyngeal"
+          },
+          {
+            "code": "C0034896",
+            "display": "Endo-rectal"
+          },
+          {
+            "code": "C0022646",
+            "display": "Endo-renal"
+          },
+          {
+            "code": "C0041951",
+            "display": "Endo-ureteric"
+          },
+          {
+            "code": "C0041967",
+            "display": "Endo-urethral"
+          },
+          {
+            "code": "C0042232",
+            "display": "Endo-vaginal"
+          },
+          {
+            "code": "C0005847",
+            "display": "Endo-vascular"
+          },
+          {
+            "code": "C0042449",
+            "display": "Endo-venous"
+          },
+          {
+            "code": "C0227710",
+            "display": "Endo-vesical"
+          },
+          {
+            "code": "C0230185",
+            "display": "Epigastric region"
+          },
+          {
+            "code": "C0015426",
+            "display": "Eyelid"
+          },
+          {
+            "code": "C0015450",
+            "display": "Face"
+          },
+          {
+            "code": "C0230171",
+            "display": "Flank"
+          },
+          {
+            "code": "C0224548",
+            "display": "Fontanel of skull"
+          },
+          {
+            "code": "C0019558",
+            "display": "Hip joint"
+          },
+          {
+            "code": "C0230189",
+            "display": "Hypogastric region"
+          },
+          {
+            "code": "C0931905",
+            "display": "Submental"
+          },
+          {
+            "code": "C0020629",
+            "display": "Hypopharynx"
+          },
+          {
+            "code": "C0442108",
+            "display": "Intra-articular"
+          },
+          {
+            "code": "C0230041",
+            "display": "Intracranial"
+          },
+          {
+            "code": "C0738591",
+            "display": "Left hypochondriac region"
+          },
+          {
+            "code": "C0230321",
+            "display": "Left inguinal region"
+          },
+          {
+            "code": "C0230180",
+            "display": "Left lower quadrant of abdomen"
+          },
+          {
+            "code": "C5439491",
+            "display": "Left lumbar region"
+          },
+          {
+            "code": "C0230179",
+            "display": "Left upper quadrant of abdomen"
+          },
+          {
+            "code": "C0222597",
+            "display": "Lower inner quadrant of breast"
+          },
+          {
+            "code": "C0222599",
+            "display": "Lower outer quadrant of breast"
+          },
+          {
+            "code": "C0024090",
+            "display": "Lumbar region"
+          },
+          {
+            "code": "C0024109",
+            "display": "Lung"
+          },
+          {
+            "code": "C0230028",
+            "display": "Mouth"
+          },
+          {
+            "code": "C0028429",
+            "display": "Nose"
+          },
+          {
+            "code": "C0230212",
+            "display": "Omental bursa"
+          },
+          {
+            "code": "C0028977",
+            "display": "Omentum"
+          },
+          {
+            "code": "C0029939",
+            "display": "Ovary"
+          },
+          {
+            "code": "C0458345",
+            "display": "Parasternal"
+          },
+          {
+            "code": "C0030851",
+            "display": "Penis"
+          },
+          {
+            "code": "C0031066",
+            "display": "Perineum"
+          },
+          {
+            "code": "C0230436",
+            "display": "Popliteal fossa"
+          },
+          {
+            "code": "C0227666",
+            "display": "Renal pelvis"
+          },
+          {
+            "code": "C0035359",
+            "display": "Retroperitoneum"
+          },
+          {
+            "code": "C0738590",
+            "display": "Right hypochondriac region"
+          },
+          {
+            "code": "C0230318",
+            "display": "Right inguinal region"
+          },
+          {
+            "code": "C0230178",
+            "display": "Right lower quadrant of abdomen"
+          },
+          {
+            "code": "C5439490",
+            "display": "Right lumbar region"
+          },
+          {
+            "code": "C0230177",
+            "display": "Right upper quadrant of abdomen"
+          },
+          {
+            "code": "C0036270",
+            "display": "Scalp"
+          },
+          {
+            "code": "C0036410",
+            "display": "Sclera"
+          },
+          {
+            "code": "C0036471",
+            "display": "Scrotum"
+          },
+          {
+            "code": "C0037925",
+            "display": "Spinal cord"
+          },
+          {
+            "code": "C0442184",
+            "display": "Subcostal"
+          },
+          {
+            "code": "C0230070",
+            "display": "Submandibular area"
+          },
+          {
+            "code": "C0230144",
+            "display": "Subxiphoid"
+          },
+          {
+            "code": "C0230078",
+            "display": "Supraclavicular region of neck"
+          },
+          {
+            "code": "C0222769",
+            "display": "Suprasternal notch"
+          },
+          {
+            "code": "C0039866",
+            "display": "Thigh"
+          },
+          {
+            "code": "C0040408",
+            "display": "Tongue"
+          },
+          {
+            "code": "C0041638",
+            "display": "Umbilical region"
+          },
+          {
+            "code": "C0222596",
+            "display": "Upper inner quadrant of breast"
+          },
+          {
+            "code": "C0222598",
+            "display": "Upper outer quadrant of breast"
+          },
+          {
+            "code": "C1289794",
+            "display": "Vascular graft"
+          },
+          {
+            "code": "C0018827",
+            "display": "Ventricle"
+          },
+          {
+            "code": "C0042993",
+            "display": "Vulva"
+          },
+          {
+            "code": "C1322271",
+            "display": "Wrist joint"
+          }
+        ]
+      }
+    ]
+  }
+}

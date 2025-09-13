@@ -1,0 +1,78 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MacularThicknessKeyMeasurements",
+  "id": "dicom-cid-4285-MacularThicknessKeyMeasurements",
+  "description": "The Macular grid measurement concepts, based on the ETDRS grid, are included in LOINC panel",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4285-MacularThicknessKeyMeasurements",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1538"
+    }
+  ],
+  "version": "20250707",
+  "title": "Macular Thickness Key Measurements",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "57108-3",
+            "display": "Macular grid.center point thickness by OCT"
+          },
+          {
+            "code": "57109-1",
+            "display": "Macular grid.center subfield thickness by OCT"
+          },
+          {
+            "code": "57110-9",
+            "display": "Macular grid.inner superior subfield thickness by OCT"
+          },
+          {
+            "code": "57111-7",
+            "display": "Macular grid.inner nasal subfield thickness by OCT"
+          },
+          {
+            "code": "57112-5",
+            "display": "Macular grid.inner inferior subfield thickness by OCT"
+          },
+          {
+            "code": "57113-3",
+            "display": "Macular grid.inner temporal subfield thickness by OCT"
+          },
+          {
+            "code": "57114-1",
+            "display": "Macular grid.outer superior subfield thickness by OCT"
+          },
+          {
+            "code": "57115-8",
+            "display": "Macular grid.outer nasal subfield thickness by OCT"
+          },
+          {
+            "code": "57116-6",
+            "display": "Macular grid.outer inferior subfield thickness by OCT"
+          },
+          {
+            "code": "57117-4",
+            "display": "Macular grid.outer temporal subfield thickness by OCT"
+          },
+          {
+            "code": "57118-2",
+            "display": "Macular grid.total volume by OCT"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "131255",
+            "display": "Average macular thickness"
+          }
+        ]
+      }
+    ]
+  }
+}

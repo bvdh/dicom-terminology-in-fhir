@@ -1,0 +1,239 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VascularSclerosisType",
+  "id": "dicom-cid-3817-VascularSclerosisType",
+  "description": "Vascular Sclerosis Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3817-VascularSclerosisType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.275"
+    }
+  ],
+  "version": "20051103",
+  "title": "Vascular Sclerosis Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "47631006",
+            "display": "adventitial degeneration"
+          },
+          {
+            "code": "32651000",
+            "display": "arteriosclerosis with fibrinoid necrosis"
+          },
+          {
+            "code": "17941002",
+            "display": "arteriolosclerosis"
+          },
+          {
+            "code": "28960008",
+            "display": "arteriosclerosis"
+          },
+          {
+            "code": "48434008",
+            "display": "atheroma"
+          },
+          {
+            "code": "20717008",
+            "display": "atherosclerotic fibrous plaque"
+          },
+          {
+            "code": "29483008",
+            "display": "calcified atheromatous plaque"
+          },
+          {
+            "code": "74937006",
+            "display": "complicated atheromatous plaque"
+          },
+          {
+            "code": "42182000",
+            "display": "cystic medical necrosis"
+          },
+          {
+            "code": "19952003",
+            "display": "elastic vascular sclerosis"
+          },
+          {
+            "code": "53151000",
+            "display": "fatty streaks"
+          },
+          {
+            "code": "72166006",
+            "display": "fibroelastosis"
+          },
+          {
+            "code": "125358004",
+            "display": "diffuse fibroelastosis"
+          },
+          {
+            "code": "125357009",
+            "display": "focal fibroelastosis"
+          },
+          {
+            "code": "18016009",
+            "display": "phlebosclerosis"
+          },
+          {
+            "code": "62189002",
+            "display": "ulcerated atheromatous plaque"
+          },
+          {
+            "code": "33593002",
+            "display": "vascular wall degeneration"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "M-52450",
+            "display": "adventitial degeneration"
+          },
+          {
+            "code": "M-52210",
+            "display": "arteriosclerosis with fibrinoid necrosis"
+          },
+          {
+            "code": "M-52200",
+            "display": "arteriolosclerosis"
+          },
+          {
+            "code": "M-52000",
+            "display": "arteriosclerosis"
+          },
+          {
+            "code": "M-52100",
+            "display": "atheroma"
+          },
+          {
+            "code": "M-52120",
+            "display": "atherosclerotic fibrous plaque"
+          },
+          {
+            "code": "M-52101",
+            "display": "calcified atheromatous plaque"
+          },
+          {
+            "code": "M-52102",
+            "display": "complicated atheromatous plaque"
+          },
+          {
+            "code": "M-52470",
+            "display": "cystic medical necrosis"
+          },
+          {
+            "code": "M-52240",
+            "display": "elastic vascular sclerosis"
+          },
+          {
+            "code": "M-52130",
+            "display": "fatty streaks"
+          },
+          {
+            "code": "M-52300",
+            "display": "fibroelastosis"
+          },
+          {
+            "code": "M-52302",
+            "display": "diffuse fibroelastosis"
+          },
+          {
+            "code": "M-52301",
+            "display": "focal fibroelastosis"
+          },
+          {
+            "code": "M-52500",
+            "display": "phlebosclerosis"
+          },
+          {
+            "code": "M-52103",
+            "display": "ulcerated atheromatous plaque"
+          },
+          {
+            "code": "M-52400",
+            "display": "vascular wall degeneration"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0333493",
+            "display": "adventitial degeneration"
+          },
+          {
+            "code": "C0333487",
+            "display": "arteriosclerosis with fibrinoid necrosis"
+          },
+          {
+            "code": "C0333486",
+            "display": "arteriolosclerosis"
+          },
+          {
+            "code": "C0003850",
+            "display": "arteriosclerosis"
+          },
+          {
+            "code": "C0264956",
+            "display": "atheroma"
+          },
+          {
+            "code": "C0333483",
+            "display": "atherosclerotic fibrous plaque"
+          },
+          {
+            "code": "C0333479",
+            "display": "calcified atheromatous plaque"
+          },
+          {
+            "code": "C0333480",
+            "display": "complicated atheromatous plaque"
+          },
+          {
+            "code": "C0392775",
+            "display": "cystic medical necrosis"
+          },
+          {
+            "code": "C0333488",
+            "display": "elastic vascular sclerosis"
+          },
+          {
+            "code": "C0333484",
+            "display": "fatty streaks"
+          },
+          {
+            "code": "C0016038",
+            "display": "fibroelastosis"
+          },
+          {
+            "code": "C1265866",
+            "display": "diffuse fibroelastosis"
+          },
+          {
+            "code": "C1265865",
+            "display": "focal fibroelastosis"
+          },
+          {
+            "code": "C0333494",
+            "display": "phlebosclerosis"
+          },
+          {
+            "code": "C0333481",
+            "display": "ulcerated atheromatous plaque"
+          },
+          {
+            "code": "C0333489",
+            "display": "vascular wall degeneration"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PercutaneousEntrySite",
+  "id": "dicom-cid-3746-PercutaneousEntrySite",
+  "description": "In prior editions, this Context Group included NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes (see PS3.16-2009).",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3746-PercutaneousEntrySite",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.243"
+    }
+  ],
+  "version": "20110609",
+  "title": "Percutaneous Entry Site",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "260590008",
+            "display": "Via femoral artery"
+          },
+          {
+            "code": "444850002",
+            "display": "Via radial artery"
+          },
+          {
+            "code": "260585005",
+            "display": "Via brachial artery"
+          },
+          {
+            "code": "103387006",
+            "display": "Via artery"
+          },
+          {
+            "code": "261459001",
+            "display": "Via arm vein"
+          },
+          {
+            "code": "260601006",
+            "display": "Via femoral vein"
+          },
+          {
+            "code": "103386002",
+            "display": "Via vein"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-D067",
+            "display": "Via femoral artery"
+          },
+          {
+            "code": "G-D1E4",
+            "display": "Via radial artery"
+          },
+          {
+            "code": "G-D05F",
+            "display": "Via brachial artery"
+          },
+          {
+            "code": "G-D054",
+            "display": "Via artery"
+          },
+          {
+            "code": "G-D0C6",
+            "display": "Via arm vein"
+          },
+          {
+            "code": "G-D071",
+            "display": "Via femoral vein"
+          },
+          {
+            "code": "G-D052",
+            "display": "Via vein"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0442441",
+            "display": "Via femoral artery"
+          },
+          {
+            "code": "C2919368",
+            "display": "Via radial artery"
+          },
+          {
+            "code": "C0442436",
+            "display": "Via brachial artery"
+          },
+          {
+            "code": "C0522522",
+            "display": "Via artery"
+          },
+          {
+            "code": "C0442444",
+            "display": "Via arm vein"
+          },
+          {
+            "code": "C0442455",
+            "display": "Via femoral vein"
+          },
+          {
+            "code": "C0522521",
+            "display": "Via vein"
+          }
+        ]
+      }
+    ]
+  }
+}

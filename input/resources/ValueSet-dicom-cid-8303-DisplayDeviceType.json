@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DisplayDeviceType",
+  "id": "dicom-cid-8303-DisplayDeviceType",
+  "description": "Display Device Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-8303-DisplayDeviceType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.983"
+    }
+  ],
+  "version": "20170417",
+  "title": "Display Device Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "109991",
+            "display": "CRT Display"
+          },
+          {
+            "code": "109992",
+            "display": "Liquid Crystal Display"
+          },
+          {
+            "code": "109993",
+            "display": "Plasma Display"
+          },
+          {
+            "code": "109994",
+            "display": "OLED"
+          },
+          {
+            "code": "109995",
+            "display": "DLP Rear Projection System"
+          },
+          {
+            "code": "109996",
+            "display": "DLP Front Projection System"
+          },
+          {
+            "code": "109997",
+            "display": "CRT Rear Projection System"
+          },
+          {
+            "code": "109998",
+            "display": "CRT Front Projection System"
+          }
+        ]
+      }
+    ]
+  }
+}

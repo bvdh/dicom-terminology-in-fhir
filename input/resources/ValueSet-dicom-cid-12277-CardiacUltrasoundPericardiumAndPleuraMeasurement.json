@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiacUltrasoundPericardiumAndPleuraMeasurement",
+  "id": "dicom-cid-12277-CardiacUltrasoundPericardiumAndPleuraMeasurement",
+  "description": "Cardiac Ultrasound Pericardium and Pleura Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12277-CardiacUltrasoundPericardiumAndPleuraMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.858"
+    }
+  ],
+  "version": "20100317",
+  "title": "Cardiac Ultrasound Pericardium and Pleura Measurement",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12250-CardiacUltrasoundCommonLinearMeasurement"
+        ]
+      }
+    ]
+  }
+}

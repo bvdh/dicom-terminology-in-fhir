@@ -1,0 +1,9 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid5002",
+  "id": "dicom-cid5002",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid5002",
+  "version": "None",
+  "title": "Organization"
+}

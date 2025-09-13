@@ -1,0 +1,453 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AbstractMultiDimensionalImageModelComponentSemantic",
+  "id": "dicom-cid-7180-AbstractMultiDimensionalImageModelComponentSemant",
+  "description": "Abstract Multi-dimensional Image Model Component Semantic",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7180-AbstractMultiDimensionalImageModelComponentSemant",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.917"
+    }
+  ],
+  "version": "20191108",
+  "title": "Abstract Multi-dimensional Image Model Component Semantic",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4033-MRProtonSpectroscopyMetabolite"
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113063",
+            "display": "T1"
+          },
+          {
+            "code": "113065",
+            "display": "T2"
+          },
+          {
+            "code": "113064",
+            "display": "T2*"
+          },
+          {
+            "code": "113058",
+            "display": "Proton Density"
+          },
+          {
+            "code": "110800",
+            "display": "Spin Tagging Perfusion MR Signal Intensity"
+          },
+          {
+            "code": "113070",
+            "display": "Velocity encoded"
+          },
+          {
+            "code": "113067",
+            "display": "Temperature encoded"
+          },
+          {
+            "code": "110801",
+            "display": "Contrast Agent Angio MR Signal Intensity"
+          },
+          {
+            "code": "110802",
+            "display": "Time Of Flight Angio MR Signal Intensity"
+          },
+          {
+            "code": "110803",
+            "display": "Proton Density Weighted MR Signal Intensity"
+          },
+          {
+            "code": "110804",
+            "display": "T1 Weighted MR Signal Intensity"
+          },
+          {
+            "code": "110805",
+            "display": "T2 Weighted MR Signal Intensity"
+          },
+          {
+            "code": "110806",
+            "display": "T2* Weighted MR Signal Intensity"
+          },
+          {
+            "code": "110807",
+            "display": "Field Map MR Signal Intensity"
+          },
+          {
+            "code": "110816",
+            "display": "T1 Weighted Dynamic Contrast Enhanced MR Signal Intensity"
+          },
+          {
+            "code": "110817",
+            "display": "T2 Weighted Dynamic Contrast Enhanced MR Signal Intensity"
+          },
+          {
+            "code": "110818",
+            "display": "T2* Weighted Dynamic Contrast Enhanced MR Signal Intensity"
+          },
+          {
+            "code": "110819",
+            "display": "Blood Oxygenation Level"
+          },
+          {
+            "code": "110820",
+            "display": "Nuclear Medicine Projection Activity"
+          },
+          {
+            "code": "110821",
+            "display": "Nuclear Medicine Tomographic Activity"
+          },
+          {
+            "code": "110822",
+            "display": "Spatial Displacement X Component"
+          },
+          {
+            "code": "110823",
+            "display": "Spatial Displacement Y Component"
+          },
+          {
+            "code": "110824",
+            "display": "Spatial Displacement Z Component"
+          },
+          {
+            "code": "110825",
+            "display": "Hemodynamic Resistance"
+          },
+          {
+            "code": "110826",
+            "display": "Indexed Hemodynamic Resistance"
+          },
+          {
+            "code": "112031",
+            "display": "Attenuation Coefficient"
+          },
+          {
+            "code": "110827",
+            "display": "Tissue Velocity"
+          },
+          {
+            "code": "110828",
+            "display": "Flow Velocity"
+          },
+          {
+            "code": "110829",
+            "display": "Flow Variance"
+          },
+          {
+            "code": "110830",
+            "display": "Elasticity"
+          },
+          {
+            "code": "110831",
+            "display": "Perfusion"
+          },
+          {
+            "code": "110832",
+            "display": "Speed of sound"
+          },
+          {
+            "code": "110833",
+            "display": "Ultrasound Attenuation"
+          },
+          {
+            "code": "113068",
+            "display": "Student's T-test"
+          },
+          {
+            "code": "113071",
+            "display": "Z-score"
+          },
+          {
+            "code": "113057",
+            "display": "R-Coefficient"
+          },
+          {
+            "code": "126220",
+            "display": "R2-Coefficient"
+          },
+          {
+            "code": "126221",
+            "display": "Chi-square"
+          },
+          {
+            "code": "126222",
+            "display": "D-W"
+          },
+          {
+            "code": "126223",
+            "display": "AIC"
+          },
+          {
+            "code": "126224",
+            "display": "BIC"
+          },
+          {
+            "code": "110834",
+            "display": "RGB R Component"
+          },
+          {
+            "code": "110835",
+            "display": "RGB G Component"
+          },
+          {
+            "code": "110836",
+            "display": "RGB B Component"
+          },
+          {
+            "code": "110837",
+            "display": "YBR FULL Y Component"
+          },
+          {
+            "code": "110838",
+            "display": "YBR FULL CB Component"
+          },
+          {
+            "code": "110839",
+            "display": "YBR FULL CR Component"
+          },
+          {
+            "code": "110840",
+            "display": "YBR PARTIAL Y Component"
+          },
+          {
+            "code": "110841",
+            "display": "YBR PARTIAL CB Component"
+          },
+          {
+            "code": "110842",
+            "display": "YBR PARTIAL CR Component"
+          },
+          {
+            "code": "110843",
+            "display": "YBR ICT Y Component"
+          },
+          {
+            "code": "110844",
+            "display": "YBR ICT CB Component"
+          },
+          {
+            "code": "110845",
+            "display": "YBR ICT CR Component"
+          },
+          {
+            "code": "110846",
+            "display": "YBR RCT Y Component"
+          },
+          {
+            "code": "110847",
+            "display": "YBR RCT CB Component"
+          },
+          {
+            "code": "110848",
+            "display": "YBR RCT CR Component"
+          },
+          {
+            "code": "110849",
+            "display": "Echogenicity"
+          },
+          {
+            "code": "110850",
+            "display": "X-Ray Attenuation"
+          },
+          {
+            "code": "110852",
+            "display": "MR signal intensity"
+          },
+          {
+            "code": "110853",
+            "display": "Binary Segmentation"
+          },
+          {
+            "code": "110854",
+            "display": "Fractional Probabilistic Segmentation"
+          },
+          {
+            "code": "110855",
+            "display": "Fractional Occupancy Segmentation"
+          },
+          {
+            "code": "126393",
+            "display": "R1"
+          },
+          {
+            "code": "126394",
+            "display": "R2"
+          },
+          {
+            "code": "126395",
+            "display": "R2*"
+          },
+          {
+            "code": "113098",
+            "display": "Magnetization Transfer Ratio"
+          },
+          {
+            "code": "126396",
+            "display": "Magnetic Susceptibility"
+          },
+          {
+            "code": "126400",
+            "display": "Standardized Uptake Value"
+          },
+          {
+            "code": "126401",
+            "display": "SUVbw"
+          },
+          {
+            "code": "126402",
+            "display": "SUVlbm"
+          },
+          {
+            "code": "126406",
+            "display": "SUVlbm(James128)"
+          },
+          {
+            "code": "126405",
+            "display": "SUVlbm(Janma)"
+          },
+          {
+            "code": "126403",
+            "display": "SUVbsa"
+          },
+          {
+            "code": "126404",
+            "display": "SUVibw"
+          },
+          {
+            "code": "129100",
+            "display": "Fat fraction"
+          },
+          {
+            "code": "129101",
+            "display": "Water/fat in phase"
+          },
+          {
+            "code": "129102",
+            "display": "Water/fat out of phase"
+          },
+          {
+            "code": "113054",
+            "display": "Negative enhancement integral"
+          },
+          {
+            "code": "113059",
+            "display": "Signal change"
+          },
+          {
+            "code": "113060",
+            "display": "Signal to noise"
+          },
+          {
+            "code": "113066",
+            "display": "Time course of signal"
+          },
+          {
+            "code": "129103",
+            "display": "Water fraction"
+          },
+          {
+            "code": "130086",
+            "display": "Relative Linear Stopping Power"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7270-MRDiffusionComponentSemantic"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7271-MRDiffusionAnisotropyIndex"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7272-MRDiffusionModelParameter"
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "425704008",
+            "display": "Power Doppler"
+          },
+          {
+            "code": "256674009",
+            "display": "Fat"
+          },
+          {
+            "code": "11713004",
+            "display": "Water"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "P0-02241",
+            "display": "Power Doppler"
+          },
+          {
+            "code": "T-D008A",
+            "display": "Fat"
+          },
+          {
+            "code": "C-10120",
+            "display": "Water"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1960437",
+            "display": "Power Doppler"
+          },
+          {
+            "code": "C0015677",
+            "display": "Fat"
+          },
+          {
+            "code": "C0043047",
+            "display": "Water"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4107-TracerKineticModelParameter"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4108-PerfusionModelParameter"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4109-ModelIndependentDynamicContrastAnalysisParameter"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10070-RadiationDoseType"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-217-VisualExplanation"
+        ]
+      }
+    ]
+  }
+}

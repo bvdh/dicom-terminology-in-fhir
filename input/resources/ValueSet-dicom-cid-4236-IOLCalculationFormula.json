@@ -1,0 +1,121 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "IOLCalculationFormula",
+  "id": "dicom-cid-4236-IOLCalculationFormula",
+  "description": "IOL Calculation Formula",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4236-IOLCalculationFormula",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.882"
+    }
+  ],
+  "version": "20250401",
+  "title": "IOL Calculation Formula",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111760",
+            "display": "Haigis"
+          },
+          {
+            "code": "111761",
+            "display": "Haigis-L"
+          },
+          {
+            "code": "111762",
+            "display": "Holladay 1"
+          },
+          {
+            "code": "111763",
+            "display": "Holladay 2"
+          },
+          {
+            "code": "111764",
+            "display": "Hoffer Q"
+          },
+          {
+            "code": "111765",
+            "display": "Olsen"
+          },
+          {
+            "code": "111766",
+            "display": "SRKII"
+          },
+          {
+            "code": "111767",
+            "display": "SRK-T"
+          },
+          {
+            "code": "111860",
+            "display": "Haigis Toric"
+          },
+          {
+            "code": "111861",
+            "display": "Haigis-L Toric"
+          },
+          {
+            "code": "111862",
+            "display": "Barrett Toric"
+          },
+          {
+            "code": "111863",
+            "display": "Barrett True-K"
+          },
+          {
+            "code": "111864",
+            "display": "Barrett True-K Toric"
+          },
+          {
+            "code": "111865",
+            "display": "Barrett Universal II"
+          },
+          {
+            "code": "111868",
+            "display": "Kane"
+          },
+          {
+            "code": "111869",
+            "display": "Kane Toric"
+          },
+          {
+            "code": "111870",
+            "display": "Kane Keratoconus"
+          },
+          {
+            "code": "111871",
+            "display": "Barrett Keratoconus"
+          },
+          {
+            "code": "111872",
+            "display": "Barrett Rx"
+          },
+          {
+            "code": "111873",
+            "display": "EVO"
+          },
+          {
+            "code": "111874",
+            "display": "Shammas No-History"
+          },
+          {
+            "code": "111875",
+            "display": "Camellin-Calossi"
+          },
+          {
+            "code": "111876",
+            "display": "Hill RBF 3.0"
+          },
+          {
+            "code": "111877",
+            "display": "PEARL-DGS"
+          }
+        ]
+      }
+    ]
+  }
+}

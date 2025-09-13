@@ -1,0 +1,83 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AntiarrhythmicAgent",
+  "id": "dicom-cid-3762-AntiarrhythmicAgent",
+  "description": "Antiarrhythmic Agent",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3762-AntiarrhythmicAgent",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.256"
+    }
+  ],
+  "version": "20070827",
+  "title": "Antiarrhythmic Agent",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "373260001",
+            "display": "class I antiarrhythmic agent"
+          },
+          {
+            "code": "373278006",
+            "display": "class II antiarrhythmic agent"
+          },
+          {
+            "code": "372855004",
+            "display": "class III antiarrhythmic agent"
+          },
+          {
+            "code": "372693007",
+            "display": "class IV antiarrhythmic agent"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "F-6181B",
+            "display": "class I antiarrhythmic agent"
+          },
+          {
+            "code": "F-61861",
+            "display": "class II antiarrhythmic agent"
+          },
+          {
+            "code": "F-61995",
+            "display": "class III antiarrhythmic agent"
+          },
+          {
+            "code": "F-618AE",
+            "display": "class IV antiarrhythmic agent"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0360692",
+            "display": "class I antiarrhythmic agent"
+          },
+          {
+            "code": "C0360701",
+            "display": "class II antiarrhythmic agent"
+          },
+          {
+            "code": "C0360703",
+            "display": "class III antiarrhythmic agent"
+          },
+          {
+            "code": "C0360706",
+            "display": "class IV antiarrhythmic agent"
+          }
+        ]
+      }
+    ]
+  }
+}

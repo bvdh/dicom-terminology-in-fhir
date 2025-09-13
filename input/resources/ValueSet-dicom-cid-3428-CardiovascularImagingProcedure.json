@@ -1,0 +1,188 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiovascularImagingProcedure",
+  "id": "dicom-cid-3428-CardiovascularImagingProcedure",
+  "description": "In a prior version of this Context Group, Transthoracic echocardiography was assigned the code P5-B3003 and Epicardial echocardiography was assigned the code P5-B3004; these codes conflict with other SNOMED code assignments. Receiving applications should be aware of this change, and the possibility of misinterpretation of SOP Instances that may include the deprecated codes; see",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3428-CardiovascularImagingProcedure",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.90"
+    }
+  ],
+  "version": "20180325",
+  "title": "Cardiovascular Imaging Procedure",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "77343006",
+            "display": "Angiography"
+          },
+          {
+            "code": "54640009",
+            "display": "Aortography"
+          },
+          {
+            "code": "33367005",
+            "display": "Coronary Arteriography"
+          },
+          {
+            "code": "252426003",
+            "display": "Cardiac ventriculography"
+          },
+          {
+            "code": "265484009",
+            "display": "Left Ventriculography"
+          },
+          {
+            "code": "265483003",
+            "display": "Right Ventriculography"
+          },
+          {
+            "code": "252427007",
+            "display": "Bypass graft angiography"
+          },
+          {
+            "code": "105376000",
+            "display": "Transesophageal echocardiography"
+          },
+          {
+            "code": "433236007",
+            "display": "Transthoracic echocardiography"
+          },
+          {
+            "code": "433232009",
+            "display": "Epicardial echocardiography"
+          },
+          {
+            "code": "241466007",
+            "display": "Intravascular ultrasound"
+          },
+          {
+            "code": "252421008",
+            "display": "Intracardiac echocardiography"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "P5-009A0",
+            "display": "Angiography"
+          },
+          {
+            "code": "P5-32130",
+            "display": "Aortography"
+          },
+          {
+            "code": "P5-30100",
+            "display": "Coronary Arteriography"
+          },
+          {
+            "code": "P5-3003A",
+            "display": "Cardiac ventriculography"
+          },
+          {
+            "code": "P5-30041",
+            "display": "Left Ventriculography"
+          },
+          {
+            "code": "P5-3003F",
+            "display": "Right Ventriculography"
+          },
+          {
+            "code": "P5-30107",
+            "display": "Bypass graft angiography"
+          },
+          {
+            "code": "P5-B3002",
+            "display": "Transesophageal echocardiography"
+          },
+          {
+            "code": "P5-B3012",
+            "display": "Transthoracic echocardiography"
+          },
+          {
+            "code": "P0-05F95",
+            "display": "Epicardial echocardiography"
+          },
+          {
+            "code": "P5-B001D",
+            "display": "Intravascular ultrasound"
+          },
+          {
+            "code": "P5-B3006",
+            "display": "Intracardiac echocardiography"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0002978",
+            "display": "Angiography"
+          },
+          {
+            "code": "C0003515",
+            "display": "Aortography"
+          },
+          {
+            "code": "C0085532",
+            "display": "Coronary Arteriography"
+          },
+          {
+            "code": "C0596683",
+            "display": "Cardiac ventriculography"
+          },
+          {
+            "code": "C0412219",
+            "display": "Left Ventriculography"
+          },
+          {
+            "code": "C0412220",
+            "display": "Right Ventriculography"
+          },
+          {
+            "code": "C0430469",
+            "display": "Bypass graft angiography"
+          },
+          {
+            "code": "C0206054",
+            "display": "Transesophageal echocardiography"
+          },
+          {
+            "code": "C0430462",
+            "display": "Transthoracic echocardiography"
+          },
+          {
+            "code": "C0430465",
+            "display": "Epicardial echocardiography"
+          },
+          {
+            "code": "C0412530",
+            "display": "Intravascular ultrasound"
+          },
+          {
+            "code": "C0430464",
+            "display": "Intracardiac echocardiography"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122058",
+            "display": "Arterial conduit angiography"
+          }
+        ]
+      }
+    ]
+  }
+}

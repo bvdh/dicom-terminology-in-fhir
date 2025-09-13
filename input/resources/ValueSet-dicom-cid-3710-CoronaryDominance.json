@@ -1,0 +1,71 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CoronaryDominance",
+  "id": "dicom-cid-3710-CoronaryDominance",
+  "description": "In prior editions, this Context Group included NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes (see PS3.16-2011).",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3710-CoronaryDominance",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.211"
+    }
+  ],
+  "version": "20111028",
+  "title": "Coronary Dominance",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "253729004",
+            "display": "Left Coronary Dominance"
+          },
+          {
+            "code": "253728007",
+            "display": "Right Coronary Dominance"
+          },
+          {
+            "code": "253730009",
+            "display": "Balanced Coronary Dominance"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "D4-3252C",
+            "display": "Left Coronary Dominance"
+          },
+          {
+            "code": "D4-3252B",
+            "display": "Right Coronary Dominance"
+          },
+          {
+            "code": "D4-3252D",
+            "display": "Balanced Coronary Dominance"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0345136",
+            "display": "Left Coronary Dominance"
+          },
+          {
+            "code": "C0345135",
+            "display": "Right Coronary Dominance"
+          },
+          {
+            "code": "C0345137",
+            "display": "Balanced Coronary Dominance"
+          }
+        ]
+      }
+    ]
+  }
+}

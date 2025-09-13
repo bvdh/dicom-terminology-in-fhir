@@ -1,0 +1,86 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PETUnit",
+  "id": "dicom-cid-84-PETUnit",
+  "description": "PET Unit",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-84-PETUnit",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1030"
+    }
+  ],
+  "version": "20170914",
+  "title": "PET Unit",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-85-SUVUnit"
+        ]
+      },
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "{counts}",
+            "display": "Counts"
+          },
+          {
+            "code": "{counts}/s",
+            "display": "Counts per second"
+          },
+          {
+            "code": "{propcounts}",
+            "display": "Proportional to counts"
+          },
+          {
+            "code": "{propcounts}/s",
+            "display": "Proportional to counts per second"
+          },
+          {
+            "code": "cm2",
+            "display": "Centimeter**2"
+          },
+          {
+            "code": "cm2/ml",
+            "display": "Centimeter**2/milliliter"
+          },
+          {
+            "code": "%",
+            "display": "Percent"
+          },
+          {
+            "code": "Bq/ml",
+            "display": "Becquerels/milliliter"
+          },
+          {
+            "code": "mg/min/ml",
+            "display": "Milligrams/minute/milliliter"
+          },
+          {
+            "code": "umol/min/ml",
+            "display": "Micromole/minute/milliliter"
+          },
+          {
+            "code": "ml/min/g",
+            "display": "Milliliter/minute/gram"
+          },
+          {
+            "code": "ml/g",
+            "display": "Milliliter/gram"
+          },
+          {
+            "code": "/cm",
+            "display": "/Centimeter"
+          },
+          {
+            "code": "umol/ml",
+            "display": "Micromole/milliliter"
+          }
+        ]
+      }
+    ]
+  }
+}

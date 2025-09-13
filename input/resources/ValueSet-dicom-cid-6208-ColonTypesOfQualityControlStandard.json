@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ColonTypesOfQualityControlStandard",
+  "id": "dicom-cid-6208-ColonTypesOfQualityControlStandard",
+  "description": "Colon Types of Quality Control Standard",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6208-ColonTypesOfQualityControlStandard",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.795"
+    }
+  ],
+  "version": "20090402",
+  "title": "Colon Types of Quality Control Standard",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112036",
+            "display": "ACR Position Statement"
+          },
+          {
+            "code": "111240",
+            "display": "Institutionally defined quality control standard"
+          },
+          {
+            "code": "112248",
+            "display": "ACR Guideline, Performance of Adult CT Colonography"
+          },
+          {
+            "code": "112249",
+            "display": "ACR Standard, CT medical physics performance monitoring"
+          }
+        ]
+      }
+    ]
+  }
+}

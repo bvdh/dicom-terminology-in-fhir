@@ -1,0 +1,182 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DiagnosticImagingReportHeading",
+  "id": "dicom-cid-7001-DiagnosticImagingReportHeading",
+  "description": "In previous releases of the Standard, this Context Group included codes of DCMR, using Coding Scheme Designator DCM. The preferable encoding of these concepts is using the LOINC codes, however, the support of equivalent DCMR codes is recommended for backward compatibility. In a prior version of this Context Group, the code",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7001-DiagnosticImagingReportHeading",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.482"
+    }
+  ],
+  "version": "20150324",
+  "title": "Diagnostic Imaging Report Heading",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "11329-0",
+            "display": "History"
+          },
+          {
+            "code": "55115-0",
+            "display": "Request"
+          },
+          {
+            "code": "55111-9",
+            "display": "Current Procedure Descriptions"
+          },
+          {
+            "code": "55114-3",
+            "display": "Prior Procedure Descriptions"
+          },
+          {
+            "code": "18834-2",
+            "display": "Previous Findings"
+          },
+          {
+            "code": "59776-5",
+            "display": "Findings"
+          },
+          {
+            "code": "19005-8",
+            "display": "Impressions"
+          },
+          {
+            "code": "18783-1",
+            "display": "Recommendations"
+          },
+          {
+            "code": "55110-1",
+            "display": "Conclusions"
+          },
+          {
+            "code": "55107-7",
+            "display": "Addendum"
+          },
+          {
+            "code": "18785-6",
+            "display": "Indications for Procedure"
+          },
+          {
+            "code": "55108-5",
+            "display": "Patient Presentation"
+          },
+          {
+            "code": "55109-3",
+            "display": "Complications"
+          },
+          {
+            "code": "55112-7",
+            "display": "Summary"
+          },
+          {
+            "code": "55113-5",
+            "display": "Key Images"
+          },
+          {
+            "code": "73569-6",
+            "display": "Radiation Exposure and Protection Information"
+          },
+          {
+            "code": "55752-0",
+            "display": "Clinical Information"
+          },
+          {
+            "code": "29549-3",
+            "display": "Medications Administered"
+          },
+          {
+            "code": "73568-8",
+            "display": "Communication of Critical Results"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0551569",
+            "display": "History"
+          },
+          {
+            "code": "C2708293",
+            "display": "Request"
+          },
+          {
+            "code": "C2708286",
+            "display": "Current Procedure Descriptions"
+          },
+          {
+            "code": "C2708291",
+            "display": "Prior Procedure Descriptions"
+          },
+          {
+            "code": "C0801832",
+            "display": "Previous Findings"
+          },
+          {
+            "code": "C2926606",
+            "display": "Findings"
+          },
+          {
+            "code": "C0801998",
+            "display": "Impressions"
+          },
+          {
+            "code": "C0801796",
+            "display": "Recommendations"
+          },
+          {
+            "code": "C2708285",
+            "display": "Conclusions"
+          },
+          {
+            "code": "C2708272",
+            "display": "Addendum"
+          },
+          {
+            "code": "C0801797",
+            "display": "Indications for Procedure"
+          },
+          {
+            "code": "C2708282",
+            "display": "Patient Presentation"
+          },
+          {
+            "code": "C2708284",
+            "display": "Complications"
+          },
+          {
+            "code": "C2708288",
+            "display": "Summary"
+          },
+          {
+            "code": "C2708289",
+            "display": "Key Images"
+          },
+          {
+            "code": "C3654408",
+            "display": "Radiation Exposure and Protection Information"
+          },
+          {
+            "code": "C2708732",
+            "display": "Clinical Information"
+          },
+          {
+            "code": "C0945765",
+            "display": "Medications Administered"
+          },
+          {
+            "code": "C3654409",
+            "display": "Communication of Critical Results"
+          }
+        ]
+      }
+    ]
+  }
+}

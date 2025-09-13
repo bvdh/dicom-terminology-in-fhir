@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VentilationAction",
+  "id": "dicom-cid-3551-VentilationAction",
+  "description": "Ventilation Action",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3551-VentilationAction",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.147"
+    }
+  ],
+  "version": "20030327",
+  "title": "Ventilation Action",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121168",
+            "display": "Begin Ventilation"
+          },
+          {
+            "code": "121169",
+            "display": "End Ventilation"
+          }
+        ]
+      }
+    ]
+  }
+}

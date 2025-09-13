@@ -1,0 +1,70 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EarlyGestationBiometryMeasurement",
+  "id": "dicom-cid-12009-EarlyGestationBiometryMeasurement",
+  "description": "Early Gestation Biometry Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12009-EarlyGestationBiometryMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.558"
+    }
+  ],
+  "version": "20030130",
+  "title": "Early Gestation Biometry Measurement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "11957-8",
+            "display": "Crown Rump Length"
+          },
+          {
+            "code": "11850-5",
+            "display": "Gestational Sac Diameter"
+          },
+          {
+            "code": "33071-2",
+            "display": "Spine Length"
+          },
+          {
+            "code": "11816-6",
+            "display": "Yolk Sac length"
+          },
+          {
+            "code": "33069-6",
+            "display": "Nuchal Translucency"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0552074",
+            "display": "Crown Rump Length"
+          },
+          {
+            "code": "C0551967",
+            "display": "Gestational Sac Diameter"
+          },
+          {
+            "code": "C1315542",
+            "display": "Spine Length"
+          },
+          {
+            "code": "C0551933",
+            "display": "Yolk Sac length"
+          },
+          {
+            "code": "C1315540",
+            "display": "Nuchal Translucency"
+          }
+        ]
+      }
+    ]
+  }
+}

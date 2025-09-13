@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AbdominopelvicVessel",
+  "id": "dicom-cid-12125-AbdominopelvicVessel",
+  "description": "Abdominopelvic Vessel",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12125-AbdominopelvicVessel",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1355"
+    }
+  ],
+  "version": "20201116",
+  "title": "Abdominopelvic Vessel",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12111-AbdominopelvicArteryPaired"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12112-AbdominopelvicArteryUnpaired"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12113-AbdominopelvicVeinPaired"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12114-AbdominopelvicVeinUnpaired"
+        ]
+      }
+    ]
+  }
+}

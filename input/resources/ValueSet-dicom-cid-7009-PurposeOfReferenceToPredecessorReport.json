@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PurposeOfReferenceToPredecessorReport",
+  "id": "dicom-cid-7009-PurposeOfReferenceToPredecessorReport",
+  "description": "The concepts of replaced and addended correspond to REPLACEMENT and ADDENDUM in HL7 V2.6 Chapter 9, with the exception that an EDITED value is not supported due to incompatibility with HL7 CDA.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7009-PurposeOfReferenceToPredecessorReport",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.818"
+    }
+  ],
+  "version": "20090826",
+  "title": "Purpose of Reference to Predecessor Report",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121360",
+            "display": "Replaced report"
+          },
+          {
+            "code": "121361",
+            "display": "Addended report"
+          },
+          {
+            "code": "121362",
+            "display": "Preliminary report"
+          },
+          {
+            "code": "121363",
+            "display": "Partial report"
+          },
+          {
+            "code": "122073",
+            "display": "Current procedure evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

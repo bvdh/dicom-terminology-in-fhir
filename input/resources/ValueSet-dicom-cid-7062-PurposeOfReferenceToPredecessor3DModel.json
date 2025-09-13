@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PurposeOfReferenceToPredecessor3DModel",
+  "id": "dicom-cid-7062-PurposeOfReferenceToPredecessor3DModel",
+  "description": "Purpose of Reference to Predecessor 3D Model",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7062-PurposeOfReferenceToPredecessor3DModel",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1203"
+    }
+  ],
+  "version": "20180403",
+  "title": "Purpose of Reference to Predecessor 3D Model",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "129010",
+            "display": "Edited Model"
+          },
+          {
+            "code": "129011",
+            "display": "Component Model"
+          }
+        ]
+      }
+    ]
+  }
+}

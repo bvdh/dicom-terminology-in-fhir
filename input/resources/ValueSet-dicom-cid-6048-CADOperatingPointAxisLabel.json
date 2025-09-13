@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CADOperatingPointAxisLabel",
+  "id": "dicom-cid-6048-CADOperatingPointAxisLabel",
+  "description": "CAD Operating Point Axis Label",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6048-CADOperatingPointAxisLabel",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.378"
+    }
+  ],
+  "version": "20060612",
+  "title": "CAD Operating Point Axis Label",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111012",
+            "display": "Certainty of Finding"
+          },
+          {
+            "code": "111047",
+            "display": "Probability of cancer"
+          },
+          {
+            "code": "111086",
+            "display": "False Markers per Image"
+          },
+          {
+            "code": "111087",
+            "display": "False Markers per Case"
+          },
+          {
+            "code": "111088",
+            "display": "Case Sensitivity"
+          },
+          {
+            "code": "111089",
+            "display": "Lesion Sensitivity"
+          },
+          {
+            "code": "111090",
+            "display": "Case Specificity"
+          },
+          {
+            "code": "111091",
+            "display": "Image Specificity"
+          }
+        ]
+      }
+    ]
+  }
+}

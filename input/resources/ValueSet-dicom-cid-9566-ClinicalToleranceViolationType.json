@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ClinicalToleranceViolationType",
+  "id": "dicom-cid-9566-ClinicalToleranceViolationType",
+  "description": "Clinical Tolerance Violation Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9566-ClinicalToleranceViolationType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1323"
+    }
+  ],
+  "version": "20200624",
+  "title": "Clinical Tolerance Violation Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130468",
+            "display": "Beam Targeting Tolerance Violation"
+          },
+          {
+            "code": "130469",
+            "display": "Meterset Tolerance Violation"
+          },
+          {
+            "code": "130470",
+            "display": "Delivery Rate Tolerance Violation"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "DICOM_File_Meta_Elements",
+  "id": "dicom-file-meta-elements",
+  "title": "DICOM® File Meta Elements",
+  "description": "DICOM® File Meta elements extracted from DICOM PS3.6 Table 7-1.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-file-meta-elements",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-elements",
+        "concept": [
+          {
+            "code": "FileMetaInformationGroupLength",
+            "display": "File Meta Information Group Length"
+          },
+          {
+            "code": "FileMetaInformationVersion",
+            "display": "File Meta Information Version"
+          },
+          {
+            "code": "MediaStorageSOPClassUID",
+            "display": "Media Storage SOP Class UID"
+          },
+          {
+            "code": "MediaStorageSOPInstanceUID",
+            "display": "Media Storage SOP Instance UID"
+          },
+          {
+            "code": "TransferSyntaxUID",
+            "display": "Transfer Syntax UID"
+          },
+          {
+            "code": "ImplementationClassUID",
+            "display": "Implementation Class UID"
+          },
+          {
+            "code": "ImplementationVersionName",
+            "display": "Implementation Version Name"
+          },
+          {
+            "code": "SourceApplicationEntityTitle",
+            "display": "Source Application Entity Title"
+          },
+          {
+            "code": "SendingApplicationEntityTitle",
+            "display": "Sending Application Entity Title"
+          },
+          {
+            "code": "ReceivingApplicationEntityTitle",
+            "display": "Receiving Application Entity Title"
+          },
+          {
+            "code": "SourcePresentationAddress",
+            "display": "Source Presentation Address"
+          },
+          {
+            "code": "SendingPresentationAddress",
+            "display": "Sending Presentation Address"
+          },
+          {
+            "code": "ReceivingPresentationAddress",
+            "display": "Receiving Presentation Address"
+          },
+          {
+            "code": "RTVMetaInformationVersion",
+            "display": "RTV Meta Information Version"
+          },
+          {
+            "code": "RTVCommunicationSOPClassUID",
+            "display": "RTV Communication SOP Class UID"
+          },
+          {
+            "code": "RTVCommunicationSOPInstanceUID",
+            "display": "RTV Communication SOP Instance UID"
+          },
+          {
+            "code": "RTVSourceIdentifier",
+            "display": "RTV Source Identifier"
+          },
+          {
+            "code": "RTVFlowIdentifier",
+            "display": "RTV Flow Identifier"
+          },
+          {
+            "code": "RTVFlowRTPSamplingRate",
+            "display": "RTV Flow RTP Sampling Rate"
+          },
+          {
+            "code": "RTVFlowActualFrameDuration",
+            "display": "RTV Flow Actual Frame Duration"
+          },
+          {
+            "code": "PrivateInformationCreatorUID",
+            "display": "Private Information Creator UID"
+          },
+          {
+            "code": "PrivateInformation",
+            "display": "Private Information"
+          }
+        ]
+      }
+    ]
+  }
+}

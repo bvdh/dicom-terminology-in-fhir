@@ -1,0 +1,387 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "DICOM_Template_UIDs",
+  "id": "dicom-uids-templates",
+  "title": "DICOM® Template UID Values",
+  "description": "DICOM® Template UID Values from DICOM PS3.6 Table A-4.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-uids-templates",
+  "concept": [
+    {
+      "code": "1.2.840.10008.9.1",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Document TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Document TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.2",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.3",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.4",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.5",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.6",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.7",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.8",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.9",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.10",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.11",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.12",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Section TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Section TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.13",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Entry TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Entry TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.14",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Entry TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Entry TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.15",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Entry TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Entry TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.16",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Entry TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Entry TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.17",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Entry TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Entry TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.18",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Entry TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Entry TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.19",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Element Set TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Element Set TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.20",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Element Set TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Element Set TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.21",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Element Set TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Element Set TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.22",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Element Set TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Element Set TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.23",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Element Set TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Element Set TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.9.24",
+      "display": "PS3.20",
+      "definition": "PS3.20 with UID type Document TemplateID from part PS3.20.strip()",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Document TemplateID"
+        },
+        {
+          "code": "part",
+          "valueString": "PS3.20"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": true,
+  "experimental": false,
+  "property": [
+    {
+      "code": "type",
+      "description": "UID Type",
+      "type": "string"
+    },
+    {
+      "code": "part",
+      "description": "Part",
+      "type": "string"
+    }
+  ],
+  "count": 24
+}

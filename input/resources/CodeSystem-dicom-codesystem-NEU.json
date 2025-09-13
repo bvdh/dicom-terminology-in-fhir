@@ -1,0 +1,75 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "fragment",
+  "name": "NEUCodeSystem",
+  "id": "dicom-codesystem-NEU",
+  "title": "NEU",
+  "description": "The numeric brainInfoID is used as the Code Value.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-NEU",
+  "concept": [
+    {
+      "code": "1319",
+      "display": "corticobulbar tract",
+      "definition": "corticobulbar tract"
+    },
+    {
+      "code": "1320",
+      "display": "corticospinal tract",
+      "definition": "corticospinal tract"
+    },
+    {
+      "code": "1466",
+      "display": "inferior optic radiation (Meyer's loop)",
+      "definition": "inferior optic radiation (Meyer's loop)"
+    },
+    {
+      "code": "3473",
+      "display": "superior optic radiation (Baum's loop)",
+      "definition": "superior optic radiation (Baum's loop)"
+    },
+    {
+      "code": "1726",
+      "display": "anterior thalamic radiation",
+      "definition": "anterior thalamic radiation"
+    },
+    {
+      "code": "2081",
+      "display": "superior thalamic radiation",
+      "definition": "superior thalamic radiation"
+    },
+    {
+      "code": "2082",
+      "display": "inferior thalamic radiation",
+      "definition": "inferior thalamic radiation"
+    },
+    {
+      "code": "2083",
+      "display": "posterior thalamic radiation",
+      "definition": "posterior thalamic radiation"
+    },
+    {
+      "code": "2080",
+      "display": "superior longitudinal fasciculus",
+      "definition": "superior longitudinal fasciculus"
+    },
+    {
+      "code": "2063",
+      "display": "arcuate fasciculus",
+      "definition": "arcuate fasciculus"
+    },
+    {
+      "code": "286",
+      "display": "stria terminalis",
+      "definition": "stria terminalis"
+    }
+  ],
+  "caseSensitive": true,
+  "experimental": false,
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:{uid}"
+    }
+  ]
+}

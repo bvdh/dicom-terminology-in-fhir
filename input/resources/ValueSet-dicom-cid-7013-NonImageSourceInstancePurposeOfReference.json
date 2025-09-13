@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "NonImageSourceInstancePurposeOfReference",
+  "id": "dicom-cid-7013-NonImageSourceInstancePurposeOfReference",
+  "description": "This Context Group previously contained a code for \"source image\", which has been removed.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7013-NonImageSourceInstancePurposeOfReference",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1134"
+    }
+  ],
+  "version": "20200920",
+  "title": "Non-Image Source Instance Purpose of Reference",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128224",
+            "display": "Source measurement"
+          },
+          {
+            "code": "128225",
+            "display": "Source report"
+          },
+          {
+            "code": "128226",
+            "display": "Source raw data"
+          },
+          {
+            "code": "125028",
+            "display": "Source Deformable Spatial Registration"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7019-SegmentationNonImageSourcePurposeOfReference"
+        ]
+      }
+    ]
+  }
+}

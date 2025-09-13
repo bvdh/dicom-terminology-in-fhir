@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AcuteCoronarySyndromeTimePeriod",
+  "id": "dicom-cid-3735-AcuteCoronarySyndromeTimePeriod",
+  "description": "Acute Coronary Syndrome Time Period",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3735-AcuteCoronarySyndromeTimePeriod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.232"
+    }
+  ],
+  "version": "20030327",
+  "title": "Acute Coronary Syndrome Time Period",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr",
+        "concept": [
+          {
+            "code": "51-1",
+            "display": "< = 6 hours"
+          },
+          {
+            "code": "51-2",
+            "display": "between 6 hours and 24 hours"
+          },
+          {
+            "code": "51-3",
+            "display": "between 24 hours and 7 days"
+          }
+        ]
+      }
+    ]
+  }
+}

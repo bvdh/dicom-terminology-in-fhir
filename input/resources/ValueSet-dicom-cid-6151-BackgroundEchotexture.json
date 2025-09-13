@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "BackgroundEchotexture",
+  "id": "dicom-cid-6151-BackgroundEchotexture",
+  "description": "From BI-RADS",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6151-BackgroundEchotexture",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.466"
+    }
+  ],
+  "version": "20050822",
+  "title": "Background Echotexture",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111351",
+            "display": "Homogeneous fat echotexture"
+          },
+          {
+            "code": "111352",
+            "display": "Homogeneous fibroglandular echotexture"
+          },
+          {
+            "code": "111353",
+            "display": "Heterogeneous echotexture"
+          }
+        ]
+      }
+    ]
+  }
+}

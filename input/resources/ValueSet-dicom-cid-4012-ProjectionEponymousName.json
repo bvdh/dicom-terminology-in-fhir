@@ -1,0 +1,1283 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProjectionEponymousName",
+  "id": "dicom-cid-4012-ProjectionEponymousName",
+  "description": "Projection Eponymous Name",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4012-ProjectionEponymousName",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.296"
+    }
+  ],
+  "version": "20170914",
+  "title": "Projection Eponymous Name",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "399142007",
+            "display": "Albers-Schonberg"
+          },
+          {
+            "code": "399237007",
+            "display": "Alexander"
+          },
+          {
+            "code": "422670003",
+            "display": "Apple"
+          },
+          {
+            "code": "399218003",
+            "display": "Arcelin"
+          },
+          {
+            "code": "399263002",
+            "display": "Beclere"
+          },
+          {
+            "code": "399362005",
+            "display": "Bertel"
+          },
+          {
+            "code": "399246001",
+            "display": "Blackett-Healy"
+          },
+          {
+            "code": "260492003",
+            "display": "Brewerton projection"
+          },
+          {
+            "code": "399344001",
+            "display": "Broden"
+          },
+          {
+            "code": "422861003",
+            "display": "Burman"
+          },
+          {
+            "code": "399278009",
+            "display": "Cahoon"
+          },
+          {
+            "code": "399358004",
+            "display": "Caldwell"
+          },
+          {
+            "code": "399212002",
+            "display": "Camp-Coventry"
+          },
+          {
+            "code": "399065000",
+            "display": "Causton"
+          },
+          {
+            "code": "399148006",
+            "display": "Chamberlain"
+          },
+          {
+            "code": "399013002",
+            "display": "Chassard-Lapine"
+          },
+          {
+            "code": "399355001",
+            "display": "Chausse"
+          },
+          {
+            "code": "399245002",
+            "display": "Cleaves"
+          },
+          {
+            "code": "399028002",
+            "display": "Clements"
+          },
+          {
+            "code": "399320003",
+            "display": "Clements-Nakayama"
+          },
+          {
+            "code": "423091003",
+            "display": "Colcher-Sussman"
+          },
+          {
+            "code": "424811006",
+            "display": "Danelius-Miller"
+          },
+          {
+            "code": "399303002",
+            "display": "Dunlap"
+          },
+          {
+            "code": "424655003",
+            "display": "Eraso Modification"
+          },
+          {
+            "code": "399372008",
+            "display": "Ferguson"
+          },
+          {
+            "code": "424962005",
+            "display": "Fisk"
+          },
+          {
+            "code": "399281004",
+            "display": "Fleischner"
+          },
+          {
+            "code": "425157002",
+            "display": "Folio"
+          },
+          {
+            "code": "399103007",
+            "display": "Friedman"
+          },
+          {
+            "code": "399073009",
+            "display": "Fuchs"
+          },
+          {
+            "code": "425188003",
+            "display": "Garth"
+          },
+          {
+            "code": "399082003",
+            "display": "Gaynor-Hart"
+          },
+          {
+            "code": "399311007",
+            "display": "Grandy"
+          },
+          {
+            "code": "399146005",
+            "display": "Grashey"
+          },
+          {
+            "code": "399341009",
+            "display": "Haas"
+          },
+          {
+            "code": "260493008",
+            "display": "Harris Beath axial projection"
+          },
+          {
+            "code": "399199004",
+            "display": "Henschen"
+          },
+          {
+            "code": "399277004",
+            "display": "Hickey"
+          },
+          {
+            "code": "424086005",
+            "display": "Hirtz Modification"
+          },
+          {
+            "code": "399129007",
+            "display": "Holly"
+          },
+          {
+            "code": "399285008",
+            "display": "Holmblad"
+          },
+          {
+            "code": "399168000",
+            "display": "Hough"
+          },
+          {
+            "code": "399083008",
+            "display": "Hsieh"
+          },
+          {
+            "code": "399003005",
+            "display": "Hughston"
+          },
+          {
+            "code": "399025004",
+            "display": "Isherwood"
+          },
+          {
+            "code": "399201002",
+            "display": "Judd"
+          },
+          {
+            "code": "260496000",
+            "display": "Judet projection"
+          },
+          {
+            "code": "399152006",
+            "display": "Kandel"
+          },
+          {
+            "code": "399280003",
+            "display": "Kasabach"
+          },
+          {
+            "code": "399227002",
+            "display": "Kemp Harper"
+          },
+          {
+            "code": "425030002",
+            "display": "Kite"
+          },
+          {
+            "code": "399318001",
+            "display": "Kovacs"
+          },
+          {
+            "code": "399080006",
+            "display": "Kuchendorf"
+          },
+          {
+            "code": "399332004",
+            "display": "Kurzbauer"
+          },
+          {
+            "code": "399156009",
+            "display": "Laquerriere-Pierquin"
+          },
+          {
+            "code": "399169008",
+            "display": "Lauenstein"
+          },
+          {
+            "code": "399206007",
+            "display": "Law"
+          },
+          {
+            "code": "399179005",
+            "display": "Lawrence"
+          },
+          {
+            "code": "398996004",
+            "display": "Leonard-George"
+          },
+          {
+            "code": "399037002",
+            "display": "Lewis"
+          },
+          {
+            "code": "399342002",
+            "display": "Lilienfeld"
+          },
+          {
+            "code": "399308006",
+            "display": "Lindblom"
+          },
+          {
+            "code": "399251007",
+            "display": "Lorenz"
+          },
+          {
+            "code": "399327000",
+            "display": "Low-Beer"
+          },
+          {
+            "code": "399370000",
+            "display": "Lysholm"
+          },
+          {
+            "code": "399024000",
+            "display": "May"
+          },
+          {
+            "code": "399000008",
+            "display": "Mayer"
+          },
+          {
+            "code": "399284007",
+            "display": "Merchant"
+          },
+          {
+            "code": "399005003",
+            "display": "Miller"
+          },
+          {
+            "code": "422568001",
+            "display": "Moore"
+          },
+          {
+            "code": "260497009",
+            "display": "Mortice projection"
+          },
+          {
+            "code": "422795009",
+            "display": "Neer"
+          },
+          {
+            "code": "399002000",
+            "display": "Nolke"
+          },
+          {
+            "code": "399157000",
+            "display": "Norgaard"
+          },
+          {
+            "code": "399171008",
+            "display": "Ottonello"
+          },
+          {
+            "code": "399181007",
+            "display": "Pawlow"
+          },
+          {
+            "code": "399365007",
+            "display": "Pearson"
+          },
+          {
+            "code": "399138009",
+            "display": "Penner"
+          },
+          {
+            "code": "399022001",
+            "display": "Pirie"
+          },
+          {
+            "code": "423720000",
+            "display": "Rafert"
+          },
+          {
+            "code": "422534007",
+            "display": "Rafert-Long"
+          },
+          {
+            "code": "399234000",
+            "display": "Rhese"
+          },
+          {
+            "code": "425035007",
+            "display": "Robert"
+          },
+          {
+            "code": "425042007",
+            "display": "Rosenberg"
+          },
+          {
+            "code": "399290006",
+            "display": "Schuller"
+          },
+          {
+            "code": "399243009",
+            "display": "Settegast"
+          },
+          {
+            "code": "399098005",
+            "display": "Staunig"
+          },
+          {
+            "code": "399292003",
+            "display": "Stecher"
+          },
+          {
+            "code": "399349006",
+            "display": "Stenvers"
+          },
+          {
+            "code": "422954003",
+            "display": "Stryker"
+          },
+          {
+            "code": "399313005",
+            "display": "Swanson"
+          },
+          {
+            "code": "399247005",
+            "display": "Tarrant"
+          },
+          {
+            "code": "399296000",
+            "display": "Taylor"
+          },
+          {
+            "code": "399127009",
+            "display": "Teufel"
+          },
+          {
+            "code": "399241006",
+            "display": "Titterington"
+          },
+          {
+            "code": "399270002",
+            "display": "Towne"
+          },
+          {
+            "code": "399125001",
+            "display": "Twining"
+          },
+          {
+            "code": "399330007",
+            "display": "Valdini"
+          },
+          {
+            "code": "260506009",
+            "display": "Van Rosen projection"
+          },
+          {
+            "code": "260473000",
+            "display": "Waters"
+          },
+          {
+            "code": "399130002",
+            "display": "West Point"
+          },
+          {
+            "code": "399215000",
+            "display": "Wigby-Taylor"
+          },
+          {
+            "code": "422996004",
+            "display": "Wolf"
+          },
+          {
+            "code": "399026003",
+            "display": "Zanelli"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-10261",
+            "display": "Albers-Schonberg"
+          },
+          {
+            "code": "R-10262",
+            "display": "Alexander"
+          },
+          {
+            "code": "R-40A88",
+            "display": "Apple"
+          },
+          {
+            "code": "R-10263",
+            "display": "Arcelin"
+          },
+          {
+            "code": "R-10264",
+            "display": "Beclere"
+          },
+          {
+            "code": "R-10265",
+            "display": "Bertel"
+          },
+          {
+            "code": "R-10266",
+            "display": "Blackett-Healy"
+          },
+          {
+            "code": "R-40809",
+            "display": "Brewerton projection"
+          },
+          {
+            "code": "R-10267",
+            "display": "Broden"
+          },
+          {
+            "code": "R-40A89",
+            "display": "Burman"
+          },
+          {
+            "code": "R-10268",
+            "display": "Cahoon"
+          },
+          {
+            "code": "R-10269",
+            "display": "Caldwell"
+          },
+          {
+            "code": "R-1026A",
+            "display": "Camp-Coventry"
+          },
+          {
+            "code": "R-1026B",
+            "display": "Causton"
+          },
+          {
+            "code": "R-1026C",
+            "display": "Chamberlain"
+          },
+          {
+            "code": "R-1026D",
+            "display": "Chassard-Lapine"
+          },
+          {
+            "code": "R-1026E",
+            "display": "Chausse"
+          },
+          {
+            "code": "R-1026F",
+            "display": "Cleaves"
+          },
+          {
+            "code": "R-10270",
+            "display": "Clements"
+          },
+          {
+            "code": "R-10271",
+            "display": "Clements-Nakayama"
+          },
+          {
+            "code": "R-40A8A",
+            "display": "Colcher-Sussman"
+          },
+          {
+            "code": "R-40A8B",
+            "display": "Danelius-Miller"
+          },
+          {
+            "code": "R-10272",
+            "display": "Dunlap"
+          },
+          {
+            "code": "R-40A8F",
+            "display": "Eraso Modification"
+          },
+          {
+            "code": "R-10273",
+            "display": "Ferguson"
+          },
+          {
+            "code": "R-40A8C",
+            "display": "Fisk"
+          },
+          {
+            "code": "R-10274",
+            "display": "Fleischner"
+          },
+          {
+            "code": "R-40A8D",
+            "display": "Folio"
+          },
+          {
+            "code": "R-10275",
+            "display": "Friedman"
+          },
+          {
+            "code": "R-10276",
+            "display": "Fuchs"
+          },
+          {
+            "code": "R-40A8E",
+            "display": "Garth"
+          },
+          {
+            "code": "R-10277",
+            "display": "Gaynor-Hart"
+          },
+          {
+            "code": "R-10278",
+            "display": "Grandy"
+          },
+          {
+            "code": "R-10279",
+            "display": "Grashey"
+          },
+          {
+            "code": "R-1027A",
+            "display": "Haas"
+          },
+          {
+            "code": "R-4080A",
+            "display": "Harris Beath axial projection"
+          },
+          {
+            "code": "R-1027B",
+            "display": "Henschen"
+          },
+          {
+            "code": "R-1027C",
+            "display": "Hickey"
+          },
+          {
+            "code": "R-40A90",
+            "display": "Hirtz Modification"
+          },
+          {
+            "code": "R-1027D",
+            "display": "Holly"
+          },
+          {
+            "code": "R-1027E",
+            "display": "Holmblad"
+          },
+          {
+            "code": "R-1027F",
+            "display": "Hough"
+          },
+          {
+            "code": "R-10280",
+            "display": "Hsieh"
+          },
+          {
+            "code": "R-10281",
+            "display": "Hughston"
+          },
+          {
+            "code": "R-10282",
+            "display": "Isherwood"
+          },
+          {
+            "code": "R-10283",
+            "display": "Judd"
+          },
+          {
+            "code": "R-4080D",
+            "display": "Judet projection"
+          },
+          {
+            "code": "R-10284",
+            "display": "Kandel"
+          },
+          {
+            "code": "R-10285",
+            "display": "Kasabach"
+          },
+          {
+            "code": "R-10286",
+            "display": "Kemp Harper"
+          },
+          {
+            "code": "R-40A91",
+            "display": "Kite"
+          },
+          {
+            "code": "R-10287",
+            "display": "Kovacs"
+          },
+          {
+            "code": "R-10288",
+            "display": "Kuchendorf"
+          },
+          {
+            "code": "R-10289",
+            "display": "Kurzbauer"
+          },
+          {
+            "code": "R-1028A",
+            "display": "Laquerriere-Pierquin"
+          },
+          {
+            "code": "R-1028B",
+            "display": "Lauenstein"
+          },
+          {
+            "code": "R-1028C",
+            "display": "Law"
+          },
+          {
+            "code": "R-1028D",
+            "display": "Lawrence"
+          },
+          {
+            "code": "R-1028E",
+            "display": "Leonard-George"
+          },
+          {
+            "code": "R-1028F",
+            "display": "Lewis"
+          },
+          {
+            "code": "R-10290",
+            "display": "Lilienfeld"
+          },
+          {
+            "code": "R-10291",
+            "display": "Lindblom"
+          },
+          {
+            "code": "R-10292",
+            "display": "Lorenz"
+          },
+          {
+            "code": "R-10293",
+            "display": "Low-Beer"
+          },
+          {
+            "code": "R-10294",
+            "display": "Lysholm"
+          },
+          {
+            "code": "R-10295",
+            "display": "May"
+          },
+          {
+            "code": "R-10296",
+            "display": "Mayer"
+          },
+          {
+            "code": "R-10297",
+            "display": "Merchant"
+          },
+          {
+            "code": "R-10298",
+            "display": "Miller"
+          },
+          {
+            "code": "R-40A92",
+            "display": "Moore"
+          },
+          {
+            "code": "R-4080E",
+            "display": "Mortice projection"
+          },
+          {
+            "code": "R-40A93",
+            "display": "Neer"
+          },
+          {
+            "code": "R-10299",
+            "display": "Nolke"
+          },
+          {
+            "code": "R-1029A",
+            "display": "Norgaard"
+          },
+          {
+            "code": "R-1029B",
+            "display": "Ottonello"
+          },
+          {
+            "code": "R-1029C",
+            "display": "Pawlow"
+          },
+          {
+            "code": "R-1029D",
+            "display": "Pearson"
+          },
+          {
+            "code": "R-1029E",
+            "display": "Penner"
+          },
+          {
+            "code": "R-1029F",
+            "display": "Pirie"
+          },
+          {
+            "code": "R-40A94",
+            "display": "Rafert"
+          },
+          {
+            "code": "R-40A95",
+            "display": "Rafert-Long"
+          },
+          {
+            "code": "R-102A0",
+            "display": "Rhese"
+          },
+          {
+            "code": "R-40A96",
+            "display": "Robert"
+          },
+          {
+            "code": "R-40A97",
+            "display": "Rosenberg"
+          },
+          {
+            "code": "R-102A1",
+            "display": "Schuller"
+          },
+          {
+            "code": "R-102A2",
+            "display": "Settegast"
+          },
+          {
+            "code": "R-102A3",
+            "display": "Staunig"
+          },
+          {
+            "code": "R-102A4",
+            "display": "Stecher"
+          },
+          {
+            "code": "R-102A5",
+            "display": "Stenvers"
+          },
+          {
+            "code": "R-40A98",
+            "display": "Stryker"
+          },
+          {
+            "code": "R-102A6",
+            "display": "Swanson"
+          },
+          {
+            "code": "R-102A7",
+            "display": "Tarrant"
+          },
+          {
+            "code": "R-102A8",
+            "display": "Taylor"
+          },
+          {
+            "code": "R-102A9",
+            "display": "Teufel"
+          },
+          {
+            "code": "R-102AA",
+            "display": "Titterington"
+          },
+          {
+            "code": "R-102AB",
+            "display": "Towne"
+          },
+          {
+            "code": "R-102AC",
+            "display": "Twining"
+          },
+          {
+            "code": "R-102AD",
+            "display": "Valdini"
+          },
+          {
+            "code": "R-40816",
+            "display": "Van Rosen projection"
+          },
+          {
+            "code": "R-407B0",
+            "display": "Waters"
+          },
+          {
+            "code": "R-102AF",
+            "display": "West Point"
+          },
+          {
+            "code": "R-102B0",
+            "display": "Wigby-Taylor"
+          },
+          {
+            "code": "R-40A99",
+            "display": "Wolf"
+          },
+          {
+            "code": "R-102B1",
+            "display": "Zanelli"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1302223",
+            "display": "Albers-Schonberg"
+          },
+          {
+            "code": "C1302270",
+            "display": "Alexander"
+          },
+          {
+            "code": "C1827705",
+            "display": "Apple"
+          },
+          {
+            "code": "C1302258",
+            "display": "Arcelin"
+          },
+          {
+            "code": "C1302284",
+            "display": "Beclere"
+          },
+          {
+            "code": "C1302341",
+            "display": "Bertel"
+          },
+          {
+            "code": "C1302276",
+            "display": "Blackett-Healy"
+          },
+          {
+            "code": "C0442271",
+            "display": "Brewerton projection"
+          },
+          {
+            "code": "C1302332",
+            "display": "Broden"
+          },
+          {
+            "code": "C1828171",
+            "display": "Burman"
+          },
+          {
+            "code": "C1302294",
+            "display": "Cahoon"
+          },
+          {
+            "code": "C0442264",
+            "display": "Caldwell"
+          },
+          {
+            "code": "C1302254",
+            "display": "Camp-Coventry"
+          },
+          {
+            "code": "C1302190",
+            "display": "Causton"
+          },
+          {
+            "code": "C1302226",
+            "display": "Chamberlain"
+          },
+          {
+            "code": "C1302168",
+            "display": "Chassard-Lapine"
+          },
+          {
+            "code": "C1302338",
+            "display": "Chausse"
+          },
+          {
+            "code": "C1302275",
+            "display": "Cleaves"
+          },
+          {
+            "code": "C1302177",
+            "display": "Clements"
+          },
+          {
+            "code": "C1302322",
+            "display": "Clements-Nakayama"
+          },
+          {
+            "code": "C1827227",
+            "display": "Colcher-Sussman"
+          },
+          {
+            "code": "C1828231",
+            "display": "Danelius-Miller"
+          },
+          {
+            "code": "C1302310",
+            "display": "Dunlap"
+          },
+          {
+            "code": "C1827856",
+            "display": "Eraso Modification"
+          },
+          {
+            "code": "C1302349",
+            "display": "Ferguson"
+          },
+          {
+            "code": "C1827093",
+            "display": "Fisk"
+          },
+          {
+            "code": "C1302296",
+            "display": "Fleischner"
+          },
+          {
+            "code": "C1827491",
+            "display": "Folio"
+          },
+          {
+            "code": "C1302203",
+            "display": "Friedman"
+          },
+          {
+            "code": "C1302193",
+            "display": "Fuchs"
+          },
+          {
+            "code": "C1827580",
+            "display": "Garth"
+          },
+          {
+            "code": "C1302196",
+            "display": "Gaynor-Hart"
+          },
+          {
+            "code": "C1302317",
+            "display": "Grandy"
+          },
+          {
+            "code": "C1302225",
+            "display": "Grashey"
+          },
+          {
+            "code": "C1302330",
+            "display": "Haas"
+          },
+          {
+            "code": "C0442308",
+            "display": "Harris Beath axial projection"
+          },
+          {
+            "code": "C1302250",
+            "display": "Henschen"
+          },
+          {
+            "code": "C1302293",
+            "display": "Hickey"
+          },
+          {
+            "code": "C1828045",
+            "display": "Hirtz Modification"
+          },
+          {
+            "code": "C1302216",
+            "display": "Holly"
+          },
+          {
+            "code": "C1302300",
+            "display": "Holmblad"
+          },
+          {
+            "code": "C1302236",
+            "display": "Hough"
+          },
+          {
+            "code": "C1302197",
+            "display": "Hsieh"
+          },
+          {
+            "code": "C1302163",
+            "display": "Hughston"
+          },
+          {
+            "code": "C0456593",
+            "display": "Isherwood"
+          },
+          {
+            "code": "C1302252",
+            "display": "Judd"
+          },
+          {
+            "code": "C0442309",
+            "display": "Judet projection"
+          },
+          {
+            "code": "C1302227",
+            "display": "Kandel"
+          },
+          {
+            "code": "C1302295",
+            "display": "Kasabach"
+          },
+          {
+            "code": "C1302263",
+            "display": "Kemp Harper"
+          },
+          {
+            "code": "C1827203",
+            "display": "Kite"
+          },
+          {
+            "code": "C1302321",
+            "display": "Kovacs"
+          },
+          {
+            "code": "C1302195",
+            "display": "Kuchendorf"
+          },
+          {
+            "code": "C1302327",
+            "display": "Kurzbauer"
+          },
+          {
+            "code": "C1302230",
+            "display": "Laquerriere-Pierquin"
+          },
+          {
+            "code": "C1302237",
+            "display": "Lauenstein"
+          },
+          {
+            "code": "C1302253",
+            "display": "Law"
+          },
+          {
+            "code": "C1302241",
+            "display": "Lawrence"
+          },
+          {
+            "code": "C1302159",
+            "display": "Leonard-George"
+          },
+          {
+            "code": "C1302179",
+            "display": "Lewis"
+          },
+          {
+            "code": "C1302331",
+            "display": "Lilienfeld"
+          },
+          {
+            "code": "C1302314",
+            "display": "Lindblom"
+          },
+          {
+            "code": "C1302279",
+            "display": "Lorenz"
+          },
+          {
+            "code": "C1302324",
+            "display": "Low-Beer"
+          },
+          {
+            "code": "C1302347",
+            "display": "Lysholm"
+          },
+          {
+            "code": "C1302174",
+            "display": "May"
+          },
+          {
+            "code": "C1302161",
+            "display": "Mayer"
+          },
+          {
+            "code": "C1302299",
+            "display": "Merchant"
+          },
+          {
+            "code": "C1302165",
+            "display": "Miller"
+          },
+          {
+            "code": "C1827499",
+            "display": "Moore"
+          },
+          {
+            "code": "C0442274",
+            "display": "Mortice projection"
+          },
+          {
+            "code": "C1828002",
+            "display": "Neer"
+          },
+          {
+            "code": "C1302162",
+            "display": "Nolke"
+          },
+          {
+            "code": "C0442275",
+            "display": "Norgaard"
+          },
+          {
+            "code": "C1302238",
+            "display": "Ottonello"
+          },
+          {
+            "code": "C1302242",
+            "display": "Pawlow"
+          },
+          {
+            "code": "C1302342",
+            "display": "Pearson"
+          },
+          {
+            "code": "C1302221",
+            "display": "Penner"
+          },
+          {
+            "code": "C1302172",
+            "display": "Pirie"
+          },
+          {
+            "code": "C1827152",
+            "display": "Rafert"
+          },
+          {
+            "code": "C1827402",
+            "display": "Rafert-Long"
+          },
+          {
+            "code": "C1302268",
+            "display": "Rhese"
+          },
+          {
+            "code": "C1827274",
+            "display": "Robert"
+          },
+          {
+            "code": "C1827277",
+            "display": "Rosenberg"
+          },
+          {
+            "code": "C1302303",
+            "display": "Schuller"
+          },
+          {
+            "code": "C1302274",
+            "display": "Settegast"
+          },
+          {
+            "code": "C1302200",
+            "display": "Staunig"
+          },
+          {
+            "code": "C1302304",
+            "display": "Stecher"
+          },
+          {
+            "code": "C0442232",
+            "display": "Stenvers"
+          },
+          {
+            "code": "C1828322",
+            "display": "Stryker"
+          },
+          {
+            "code": "C1302319",
+            "display": "Swanson"
+          },
+          {
+            "code": "C1302277",
+            "display": "Tarrant"
+          },
+          {
+            "code": "C1302307",
+            "display": "Taylor"
+          },
+          {
+            "code": "C1302215",
+            "display": "Teufel"
+          },
+          {
+            "code": "C1302272",
+            "display": "Titterington"
+          },
+          {
+            "code": "C0442265",
+            "display": "Towne"
+          },
+          {
+            "code": "C1302214",
+            "display": "Twining"
+          },
+          {
+            "code": "C1302326",
+            "display": "Valdini"
+          },
+          {
+            "code": "C0442286",
+            "display": "Van Rosen projection"
+          },
+          {
+            "code": "C0442243",
+            "display": "Waters"
+          },
+          {
+            "code": "C1302217",
+            "display": "West Point"
+          },
+          {
+            "code": "C1302257",
+            "display": "Wigby-Taylor"
+          },
+          {
+            "code": "C1828400",
+            "display": "Wolf"
+          },
+          {
+            "code": "C1302175",
+            "display": "Zanelli"
+          }
+        ]
+      }
+    ]
+  }
+}

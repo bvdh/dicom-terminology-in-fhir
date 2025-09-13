@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VascularSummary",
+  "id": "dicom-cid-12101-VascularSummary",
+  "description": "Vascular Summary",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12101-VascularSummary",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.568"
+    }
+  ],
+  "version": "20030327",
+  "title": "Vascular Summary",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121106",
+            "display": "Comment"
+          }
+        ]
+      }
+    ]
+  }
+}

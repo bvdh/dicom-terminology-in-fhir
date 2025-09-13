@@ -1,0 +1,222 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "FetalBiometryMeasurement",
+  "id": "dicom-cid-12005-FetalBiometryMeasurement",
+  "description": "Fetal Biometry Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12005-FetalBiometryMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.554"
+    }
+  ],
+  "version": "20210120",
+  "title": "Fetal Biometry Measurement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "11979-2",
+            "display": "Abdominal Circumference"
+          },
+          {
+            "code": "11818-2",
+            "display": "Anterior-Posterior Abdominal Diameter"
+          },
+          {
+            "code": "11819-0",
+            "display": "Anterior-Posterior Trunk Diameter"
+          },
+          {
+            "code": "11820-8",
+            "display": "Biparietal Diameter"
+          },
+          {
+            "code": "11824-0",
+            "display": "BPD area corrected"
+          },
+          {
+            "code": "11860-4",
+            "display": "Cisterna Magna Length"
+          },
+          {
+            "code": "11963-6",
+            "display": "Femur Length"
+          },
+          {
+            "code": "11965-1",
+            "display": "Foot length"
+          },
+          {
+            "code": "11984-2",
+            "display": "Head Circumference"
+          },
+          {
+            "code": "53684-7",
+            "display": "Left Fetal Ear Length"
+          },
+          {
+            "code": "11851-3",
+            "display": "Occipital-Frontal Diameter"
+          },
+          {
+            "code": "53668-0",
+            "display": "Right Fetal Ear Length"
+          },
+          {
+            "code": "11988-3",
+            "display": "Thoracic Circumference"
+          },
+          {
+            "code": "33068-8",
+            "display": "Thoracic Area"
+          },
+          {
+            "code": "11862-0",
+            "display": "Transverse Abdominal Diameter"
+          },
+          {
+            "code": "11863-8",
+            "display": "Transverse Cerebellar Diameter"
+          },
+          {
+            "code": "11864-6",
+            "display": "Transverse Thoracic Diameter"
+          },
+          {
+            "code": "11853-9",
+            "display": "Left Kidney thickness"
+          },
+          {
+            "code": "11834-9",
+            "display": "Left Kidney length"
+          },
+          {
+            "code": "11825-7",
+            "display": "Left Kidney width"
+          },
+          {
+            "code": "11855-4",
+            "display": "Right Kidney thickness"
+          },
+          {
+            "code": "11836-4",
+            "display": "Right Kidney length"
+          },
+          {
+            "code": "11827-3",
+            "display": "Right Kidney width"
+          },
+          {
+            "code": "33191-8",
+            "display": "APAD * TAD"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0552095",
+            "display": "Abdominal Circumference"
+          },
+          {
+            "code": "C0551935",
+            "display": "Anterior-Posterior Abdominal Diameter"
+          },
+          {
+            "code": "C0551936",
+            "display": "Anterior-Posterior Trunk Diameter"
+          },
+          {
+            "code": "C0551937",
+            "display": "Biparietal Diameter"
+          },
+          {
+            "code": "C0551941",
+            "display": "BPD area corrected"
+          },
+          {
+            "code": "C0551977",
+            "display": "Cisterna Magna Length"
+          },
+          {
+            "code": "C0552080",
+            "display": "Femur Length"
+          },
+          {
+            "code": "C0552082",
+            "display": "Foot length"
+          },
+          {
+            "code": "C0552100",
+            "display": "Head Circumference"
+          },
+          {
+            "code": "C2598874",
+            "display": "Left Fetal Ear Length"
+          },
+          {
+            "code": "C0551968",
+            "display": "Occipital-Frontal Diameter"
+          },
+          {
+            "code": "C2598855",
+            "display": "Right Fetal Ear Length"
+          },
+          {
+            "code": "C0552104",
+            "display": "Thoracic Circumference"
+          },
+          {
+            "code": "C1315539",
+            "display": "Thoracic Area"
+          },
+          {
+            "code": "C0551979",
+            "display": "Transverse Abdominal Diameter"
+          },
+          {
+            "code": "C0551980",
+            "display": "Transverse Cerebellar Diameter"
+          },
+          {
+            "code": "C0551981",
+            "display": "Transverse Thoracic Diameter"
+          },
+          {
+            "code": "C0551970",
+            "display": "Left Kidney thickness"
+          },
+          {
+            "code": "C0551951",
+            "display": "Left Kidney length"
+          },
+          {
+            "code": "C0551942",
+            "display": "Left Kidney width"
+          },
+          {
+            "code": "C0551972",
+            "display": "Right Kidney thickness"
+          },
+          {
+            "code": "C0551953",
+            "display": "Right Kidney length"
+          },
+          {
+            "code": "C0551944",
+            "display": "Right Kidney width"
+          },
+          {
+            "code": "C1315662",
+            "display": "APAD * TAD"
+          }
+        ]
+      }
+    ]
+  }
+}

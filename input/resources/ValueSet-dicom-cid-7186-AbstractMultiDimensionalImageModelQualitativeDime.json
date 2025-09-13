@@ -1,0 +1,114 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AbstractMultiDimensionalImageModelQualitativeDimensionSampleSemantic",
+  "id": "dicom-cid-7186-AbstractMultiDimensionalImageModelQualitativeDime",
+  "description": "Abstract Multi-dimensional Image Model Qualitative Dimension Sample Semantic",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7186-AbstractMultiDimensionalImageModelQualitativeDime",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.923"
+    }
+  ],
+  "version": "20100825",
+  "title": "Abstract Multi-dimensional Image Model Qualitative Dimension Sample Semantic",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4033-MRProtonSpectroscopyMetabolite"
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110810",
+            "display": "Volumetric Diffusion Dxx Component"
+          },
+          {
+            "code": "110811",
+            "display": "Volumetric Diffusion Dxy Component"
+          },
+          {
+            "code": "110812",
+            "display": "Volumetric Diffusion Dxz Component"
+          },
+          {
+            "code": "110813",
+            "display": "Volumetric Diffusion Dyy Component"
+          },
+          {
+            "code": "110814",
+            "display": "Volumetric Diffusion Dyz Component"
+          },
+          {
+            "code": "110815",
+            "display": "Volumetric Diffusion Dzz Component"
+          },
+          {
+            "code": "110834",
+            "display": "RGB R Component"
+          },
+          {
+            "code": "110835",
+            "display": "RGB G Component"
+          },
+          {
+            "code": "110836",
+            "display": "RGB B Component"
+          },
+          {
+            "code": "110837",
+            "display": "YBR FULL Y Component"
+          },
+          {
+            "code": "110838",
+            "display": "YBR FULL CB Component"
+          },
+          {
+            "code": "110839",
+            "display": "YBR FULL CR Component"
+          },
+          {
+            "code": "110840",
+            "display": "YBR PARTIAL Y Component"
+          },
+          {
+            "code": "110841",
+            "display": "YBR PARTIAL CB Component"
+          },
+          {
+            "code": "110842",
+            "display": "YBR PARTIAL CR Component"
+          },
+          {
+            "code": "110843",
+            "display": "YBR ICT Y Component"
+          },
+          {
+            "code": "110844",
+            "display": "YBR ICT CB Component"
+          },
+          {
+            "code": "110845",
+            "display": "YBR ICT CR Component"
+          },
+          {
+            "code": "110846",
+            "display": "YBR RCT Y Component"
+          },
+          {
+            "code": "110847",
+            "display": "YBR RCT CB Component"
+          },
+          {
+            "code": "110848",
+            "display": "YBR RCT CR Component"
+          }
+        ]
+      }
+    ]
+  }
+}

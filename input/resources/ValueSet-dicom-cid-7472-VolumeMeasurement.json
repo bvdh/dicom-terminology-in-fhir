@@ -1,0 +1,93 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VolumeMeasurement",
+  "id": "dicom-cid-7472-VolumeMeasurement",
+  "description": "Volume Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7472-VolumeMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.526"
+    }
+  ],
+  "version": "20190121",
+  "title": "Volume Measurement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "118565006",
+            "display": "Volume"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-D705",
+            "display": "Volume"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0449468",
+            "display": "Volume"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121216",
+            "display": "Volume estimated from single 2D region"
+          },
+          {
+            "code": "121218",
+            "display": "Volume estimated from two non-coplanar 2D regions"
+          },
+          {
+            "code": "121217",
+            "display": "Volume estimated from three or more non-coplanar 2D regions"
+          },
+          {
+            "code": "121222",
+            "display": "Volume of sphere"
+          },
+          {
+            "code": "121221",
+            "display": "Volume of ellipsoid"
+          },
+          {
+            "code": "121220",
+            "display": "Volume of circumscribed sphere"
+          },
+          {
+            "code": "121219",
+            "display": "Volume of bounding three dimensional region"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-IBSI",
+        "concept": [
+          {
+            "code": "RNU0",
+            "display": "Volume of Mesh"
+          },
+          {
+            "code": "YEKZ",
+            "display": "Volume from Voxel Summation"
+          }
+        ]
+      }
+    ]
+  }
+}

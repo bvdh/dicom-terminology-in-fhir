@@ -1,0 +1,316 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "BrainStructureForVolumetricMeasurement",
+  "id": "dicom-cid-7140-BrainStructureForVolumetricMeasurement",
+  "description": "Brain Structure for Volumetric Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7140-BrainStructureForVolumetricMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.967"
+    }
+  ],
+  "version": "20220402",
+  "title": "Brain Structure for Volumetric Measurement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "4958002",
+            "display": "Amygdala"
+          },
+          {
+            "code": "119238007",
+            "display": "Brain Stem"
+          },
+          {
+            "code": "11000004",
+            "display": "Caudate Nucleus"
+          },
+          {
+            "code": "25991003",
+            "display": "Cerebellar Cortex"
+          },
+          {
+            "code": "33060004",
+            "display": "Cerebellar White Matter"
+          },
+          {
+            "code": "113305005",
+            "display": "Cerebellum"
+          },
+          {
+            "code": "40146001",
+            "display": "Cerebral Gray Matter"
+          },
+          {
+            "code": "68523003",
+            "display": "Cerebral White Matter"
+          },
+          {
+            "code": "1101003",
+            "display": "Cranial Cavity"
+          },
+          {
+            "code": "33930006",
+            "display": "Cranial Subarachnoid Space"
+          },
+          {
+            "code": "74968005",
+            "display": "Cavum of septum pellucidum"
+          },
+          {
+            "code": "35918002",
+            "display": "Fourth Ventricle"
+          },
+          {
+            "code": "14738005",
+            "display": "Globus Pallidus"
+          },
+          {
+            "code": "5366008",
+            "display": "Hippocampus"
+          },
+          {
+            "code": "263972004",
+            "display": "Cerebellar Subarachnoid Space"
+          },
+          {
+            "code": "53118009",
+            "display": "Inferior Horn of Lateral Ventricle"
+          },
+          {
+            "code": "66720007",
+            "display": "Lateral Ventricle"
+          },
+          {
+            "code": "427667007",
+            "display": "Nucleus Accumbens"
+          },
+          {
+            "code": "128319008",
+            "display": "Intracranial structure"
+          },
+          {
+            "code": "89278009",
+            "display": "Putamen"
+          },
+          {
+            "code": "119406000",
+            "display": "Thalamus"
+          },
+          {
+            "code": "49841001",
+            "display": "Third ventricle"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-A3230",
+            "display": "Amygdala"
+          },
+          {
+            "code": "T-D0558",
+            "display": "Brain Stem"
+          },
+          {
+            "code": "T-A3200",
+            "display": "Caudate Nucleus"
+          },
+          {
+            "code": "T-A6040",
+            "display": "Cerebellar Cortex"
+          },
+          {
+            "code": "T-A6080",
+            "display": "Cerebellar White Matter"
+          },
+          {
+            "code": "T-A6000",
+            "display": "Cerebellum"
+          },
+          {
+            "code": "T-A2020",
+            "display": "Cerebral Gray Matter"
+          },
+          {
+            "code": "T-A2030",
+            "display": "Cerebral White Matter"
+          },
+          {
+            "code": "T-D1400",
+            "display": "Cranial Cavity"
+          },
+          {
+            "code": "T-A1502",
+            "display": "Cranial Subarachnoid Space"
+          },
+          {
+            "code": "T-A1630",
+            "display": "Cavum of septum pellucidum"
+          },
+          {
+            "code": "T-A1820",
+            "display": "Fourth Ventricle"
+          },
+          {
+            "code": "T-A3500",
+            "display": "Globus Pallidus"
+          },
+          {
+            "code": "T-A2570",
+            "display": "Hippocampus"
+          },
+          {
+            "code": "T-A1509",
+            "display": "Cerebellar Subarachnoid Space"
+          },
+          {
+            "code": "T-A1720",
+            "display": "Inferior Horn of Lateral Ventricle"
+          },
+          {
+            "code": "T-A1650",
+            "display": "Lateral Ventricle"
+          },
+          {
+            "code": "T-A0149",
+            "display": "Nucleus Accumbens"
+          },
+          {
+            "code": "T-A0190",
+            "display": "Intracranial structure"
+          },
+          {
+            "code": "T-A3400",
+            "display": "Putamen"
+          },
+          {
+            "code": "T-D0593",
+            "display": "Thalamus"
+          },
+          {
+            "code": "T-A1740",
+            "display": "Third ventricle"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0002708",
+            "display": "Amygdala"
+          },
+          {
+            "code": "C1268144",
+            "display": "Brain Stem"
+          },
+          {
+            "code": "C0007461",
+            "display": "Caudate Nucleus"
+          },
+          {
+            "code": "C0007759",
+            "display": "Cerebellar Cortex"
+          },
+          {
+            "code": "C0152381",
+            "display": "Cerebellar White Matter"
+          },
+          {
+            "code": "C0007765",
+            "display": "Cerebellum"
+          },
+          {
+            "code": "C0007776",
+            "display": "Cerebral Gray Matter"
+          },
+          {
+            "code": "C0152295",
+            "display": "Cerebral White Matter"
+          },
+          {
+            "code": "C0230041",
+            "display": "Cranial Cavity"
+          },
+          {
+            "code": "C0228145",
+            "display": "Cranial Subarachnoid Space"
+          },
+          {
+            "code": "C0228158",
+            "display": "Cavum of septum pellucidum"
+          },
+          {
+            "code": "C0149556",
+            "display": "Fourth Ventricle"
+          },
+          {
+            "code": "C0017651",
+            "display": "Globus Pallidus"
+          },
+          {
+            "code": "C0019564",
+            "display": "Hippocampus"
+          },
+          {
+            "code": "C0446676",
+            "display": "Cerebellar Subarachnoid Space"
+          },
+          {
+            "code": "C0152283",
+            "display": "Inferior Horn of Lateral Ventricle"
+          },
+          {
+            "code": "C0152279",
+            "display": "Lateral Ventricle"
+          },
+          {
+            "code": "C0028633",
+            "display": "Nucleus Accumbens"
+          },
+          {
+            "code": "C1267697",
+            "display": "Intracranial structure"
+          },
+          {
+            "code": "C0034169",
+            "display": "Putamen"
+          },
+          {
+            "code": "C0458271",
+            "display": "Thalamus"
+          },
+          {
+            "code": "C0149555",
+            "display": "Third ventricle"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110700",
+            "display": "Ventral Diencephalon"
+          },
+          {
+            "code": "110701",
+            "display": "White Matter T1 Hypointensity"
+          },
+          {
+            "code": "110702",
+            "display": "White Matter T2 Hyperintensity"
+          }
+        ]
+      }
+    ]
+  }
+}

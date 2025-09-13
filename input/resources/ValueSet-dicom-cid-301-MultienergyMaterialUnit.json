@@ -1,0 +1,58 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MultienergyMaterialUnit",
+  "id": "dicom-cid-301-MultienergyMaterialUnit",
+  "description": "Multi-energy Material Unit",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-301-MultienergyMaterialUnit",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1209"
+    }
+  ],
+  "version": "20181109",
+  "title": "Multi-energy Material Unit",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "mg/cm3",
+            "display": "mg/cm^3"
+          },
+          {
+            "code": "[hnsf'U]",
+            "display": "Hounsfield Unit"
+          },
+          {
+            "code": "10*23/ml",
+            "display": "Electron Density"
+          },
+          {
+            "code": "mg/ml",
+            "display": "mg/ml"
+          },
+          {
+            "code": "%",
+            "display": "Percent"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "129320",
+            "display": "Effective Atomic Number"
+          },
+          {
+            "code": "129321",
+            "display": "Modified Hounsfield Unit"
+          }
+        ]
+      }
+    ]
+  }
+}

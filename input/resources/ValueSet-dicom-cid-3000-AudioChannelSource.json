@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AudioChannelSource",
+  "id": "dicom-cid-3000-AudioChannelSource",
+  "description": "Audio Channel Source",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3000-AudioChannelSource",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.42"
+    }
+  ],
+  "version": "20040326",
+  "title": "Audio Channel Source",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "109110",
+            "display": "Voice"
+          },
+          {
+            "code": "109111",
+            "display": "Operator's narrative"
+          },
+          {
+            "code": "109112",
+            "display": "Ambient room environment"
+          },
+          {
+            "code": "109113",
+            "display": "Doppler audio"
+          },
+          {
+            "code": "109114",
+            "display": "Phonocardiogram"
+          },
+          {
+            "code": "109115",
+            "display": "Physiological audio signal"
+          }
+        ]
+      }
+    ]
+  }
+}

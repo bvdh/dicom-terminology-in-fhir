@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "NumericValueQualifier",
+  "id": "dicom-cid-42-NumericValueQualifier",
+  "description": "Numeric Value Qualifier",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-42-NumericValueQualifier",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.22"
+    }
+  ],
+  "version": "20020114",
+  "title": "Numeric Value Qualifier",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-43-NumericValueFailureQualifier"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-44-NumericValueUnknownQualifier"
+        ]
+      }
+    ]
+  }
+}

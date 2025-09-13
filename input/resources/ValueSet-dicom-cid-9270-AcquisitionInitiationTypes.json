@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AcquisitionInitiationTypes",
+  "id": "dicom-cid-9270-AcquisitionInitiationTypes",
+  "description": "Acquisition Initiation Types",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9270-AcquisitionInitiationTypes",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1469"
+    }
+  ],
+  "version": "20221225",
+  "title": "Acquisition Initiation Types",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130792",
+            "display": "Acquisition Initiation not defined"
+          },
+          {
+            "code": "130793",
+            "display": "Acquisition Initiation before start of Radiation"
+          },
+          {
+            "code": "130794",
+            "display": "Acquisition Initiation after end of Radiation"
+          },
+          {
+            "code": "130795",
+            "display": "Acquisition Initiation by triggering parameter"
+          }
+        ]
+      }
+    ]
+  }
+}

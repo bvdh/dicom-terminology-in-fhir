@@ -1,0 +1,135 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiovascularSurgery",
+  "id": "dicom-cid-3721-CardiovascularSurgery",
+  "description": "In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3721-CardiovascularSurgery",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.222"
+    }
+  ],
+  "version": "20190817",
+  "title": "Cardiovascular Surgery",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "415070008",
+            "display": "Percutaneous coronary intervention"
+          },
+          {
+            "code": "232717009",
+            "display": "Coronary artery bypass graft"
+          },
+          {
+            "code": "73544002",
+            "display": "Operation on heart valve"
+          },
+          {
+            "code": "233159005",
+            "display": "Ablation operation for arrhythmia"
+          },
+          {
+            "code": "307280005",
+            "display": "Implantation of cardiac pacemaker"
+          },
+          {
+            "code": "233170003",
+            "display": "Implantation of automatic cardiac defibrillator"
+          },
+          {
+            "code": "771453009",
+            "display": "Abdominal aortic aneurysm stenting"
+          },
+          {
+            "code": "32413006",
+            "display": "Heart transplant"
+          },
+          {
+            "code": "428613004",
+            "display": "Correction of congenital cardiovascular deformity"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-102B4",
+            "display": "Percutaneous coronary intervention"
+          },
+          {
+            "code": "P1-3301A",
+            "display": "Coronary artery bypass graft"
+          },
+          {
+            "code": "P1-32000",
+            "display": "Operation on heart valve"
+          },
+          {
+            "code": "P1-31C03",
+            "display": "Ablation operation for arrhythmia"
+          },
+          {
+            "code": "P0-004BA",
+            "display": "Implantation of cardiac pacemaker"
+          },
+          {
+            "code": "P1-3157D",
+            "display": "Implantation of automatic cardiac defibrillator"
+          },
+          {
+            "code": "P1-31D00",
+            "display": "Heart transplant"
+          },
+          {
+            "code": "P1-080B4",
+            "display": "Correction of congenital cardiovascular deformity"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1532338",
+            "display": "Percutaneous coronary intervention"
+          },
+          {
+            "code": "C0010055",
+            "display": "Coronary artery bypass graft"
+          },
+          {
+            "code": "C0190065",
+            "display": "Operation on heart valve"
+          },
+          {
+            "code": "C0397403",
+            "display": "Ablation operation for arrhythmia"
+          },
+          {
+            "code": "C0189842",
+            "display": "Implantation of cardiac pacemaker"
+          },
+          {
+            "code": "C0397417",
+            "display": "Implantation of automatic cardiac defibrillator"
+          },
+          {
+            "code": "C0018823",
+            "display": "Heart transplant"
+          },
+          {
+            "code": "C1997888",
+            "display": "Correction of congenital cardiovascular deformity"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid3082",
+  "id": "dicom-cid3082",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid3082",
+  "version": "None",
+  "title": "Cardiology Measurement Unit (Retired)"
+}

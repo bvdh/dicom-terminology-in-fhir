@@ -1,0 +1,568 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MalignantPathologyCodeFromBIRADS",
+  "id": "dicom-cid-6033-MalignantPathologyCodeFromBIRADS",
+  "description": "From BI-RADS Third Edition, with Addendum 3.1 (National Mammography Database,F110)",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6033-MalignantPathologyCodeFromBIRADS",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.363"
+    }
+  ],
+  "version": "20250401",
+  "title": "Malignant Pathology Code from BI-RADS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "11671000",
+            "display": "Adenoid cystic carcinoma"
+          },
+          {
+            "code": "57141000",
+            "display": "Apocrine adenocarcinoma"
+          },
+          {
+            "code": "39000009",
+            "display": "Angiosarcoma"
+          },
+          {
+            "code": "72495009",
+            "display": "Mucinous adenocarcinoma (Colloid carcinoma)"
+          },
+          {
+            "code": "1163016002",
+            "display": "Chondrosarcoma"
+          },
+          {
+            "code": "78197004",
+            "display": "Comedocarcinoma (intraductal)"
+          },
+          {
+            "code": "189336000",
+            "display": "Carcinoma in situ of breast"
+          },
+          {
+            "code": "22694002",
+            "display": "Carcinoma with metaplasia"
+          },
+          {
+            "code": "63264007",
+            "display": "Carcinosarcoma"
+          },
+          {
+            "code": "128696009",
+            "display": "Intraductal carcinoma micro-papillary"
+          },
+          {
+            "code": "53654007",
+            "display": "Fibrosarcoma"
+          },
+          {
+            "code": "74280008",
+            "display": "Glycogen-rich carcinoma"
+          },
+          {
+            "code": "128736003",
+            "display": "Hemangiopericytoma"
+          },
+          {
+            "code": "1163005009",
+            "display": "Hodgkin's lymphoma"
+          },
+          {
+            "code": "30156004",
+            "display": "Invasive cribriform carcinoma"
+          },
+          {
+            "code": "82711006",
+            "display": "Infiltrating duct carcinoma"
+          },
+          {
+            "code": "89740008",
+            "display": "Invasive lobular carcinoma"
+          },
+          {
+            "code": "32968003",
+            "display": "Inflammatory carcinoma"
+          },
+          {
+            "code": "25910003",
+            "display": "Papillary carcinoma (invasive)"
+          },
+          {
+            "code": "1163022006",
+            "display": "Leiomyosarcoma"
+          },
+          {
+            "code": "1162815008",
+            "display": "Liposarcoma"
+          },
+          {
+            "code": "3839000",
+            "display": "Lipid-rich (lipid-secreting) carcinoma"
+          },
+          {
+            "code": "1163043007",
+            "display": "Lymphoma"
+          },
+          {
+            "code": "32913002",
+            "display": "Medullary carcinoma"
+          },
+          {
+            "code": "34360000",
+            "display": "Malignant fibrous histiocytoma"
+          },
+          {
+            "code": "1172592001",
+            "display": "Non-Hodgkin's lymphoma"
+          },
+          {
+            "code": "126510002",
+            "display": "Neoplasm of the mammary skin"
+          },
+          {
+            "code": "1163405004",
+            "display": "Osteosarcoma"
+          },
+          {
+            "code": "10376009",
+            "display": "Papillary carcinoma in-situ"
+          },
+          {
+            "code": "2985005",
+            "display": "Paget's disease, mammary (of the nipple)"
+          },
+          {
+            "code": "1187107005",
+            "display": "Plasmacytoma"
+          },
+          {
+            "code": "87913009",
+            "display": "Phyllodes tumor, malignant"
+          },
+          {
+            "code": "87737001",
+            "display": "Signet ring cell carcinoma"
+          },
+          {
+            "code": "110451006",
+            "display": "Spindle cell nodule (tumor)"
+          },
+          {
+            "code": "41919003",
+            "display": "Secretory (juvenile) carcinoma of the breast"
+          },
+          {
+            "code": "1162767002",
+            "display": "Squamous cell carcinoma"
+          },
+          {
+            "code": "4631006",
+            "display": "Tubular adenocarcinoma"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "M-82003",
+            "display": "Adenoid cystic carcinoma"
+          },
+          {
+            "code": "M-84013",
+            "display": "Apocrine adenocarcinoma"
+          },
+          {
+            "code": "M-91203",
+            "display": "Angiosarcoma"
+          },
+          {
+            "code": "M-84803",
+            "display": "Mucinous adenocarcinoma (Colloid carcinoma)"
+          },
+          {
+            "code": "M-85012",
+            "display": "Comedocarcinoma (intraductal)"
+          },
+          {
+            "code": "D1-F3507",
+            "display": "Carcinoma in situ of breast"
+          },
+          {
+            "code": "M-85733",
+            "display": "Carcinoma with metaplasia"
+          },
+          {
+            "code": "M-89803",
+            "display": "Carcinosarcoma"
+          },
+          {
+            "code": "M-85072",
+            "display": "Intraductal carcinoma micro-papillary"
+          },
+          {
+            "code": "M-88103",
+            "display": "Fibrosarcoma"
+          },
+          {
+            "code": "M-83153",
+            "display": "Glycogen-rich carcinoma"
+          },
+          {
+            "code": "M-88150",
+            "display": "Hemangiopericytoma"
+          },
+          {
+            "code": "M-82013",
+            "display": "Invasive cribriform carcinoma"
+          },
+          {
+            "code": "M-85003",
+            "display": "Infiltrating duct carcinoma"
+          },
+          {
+            "code": "M-85203",
+            "display": "Invasive lobular carcinoma"
+          },
+          {
+            "code": "M-85303",
+            "display": "Inflammatory carcinoma"
+          },
+          {
+            "code": "M-80503",
+            "display": "Papillary carcinoma (invasive)"
+          },
+          {
+            "code": "M-83143",
+            "display": "Lipid-rich (lipid-secreting) carcinoma"
+          },
+          {
+            "code": "M-85103",
+            "display": "Medullary carcinoma"
+          },
+          {
+            "code": "M-88303",
+            "display": "Malignant fibrous histiocytoma"
+          },
+          {
+            "code": "D0-F035F",
+            "display": "Neoplasm of the mammary skin"
+          },
+          {
+            "code": "M-80502",
+            "display": "Papillary carcinoma in-situ"
+          },
+          {
+            "code": "M-85403",
+            "display": "Paget's disease, mammary (of the nipple)"
+          },
+          {
+            "code": "M-90203",
+            "display": "Phyllodes tumor, malignant"
+          },
+          {
+            "code": "M-84903",
+            "display": "Signet ring cell carcinoma"
+          },
+          {
+            "code": "M-78190",
+            "display": "Spindle cell nodule (tumor)"
+          },
+          {
+            "code": "M-85023",
+            "display": "Secretory (juvenile) carcinoma of the breast"
+          },
+          {
+            "code": "M-82113",
+            "display": "Tubular adenocarcinoma"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0010606",
+            "display": "Adenoid cystic carcinoma"
+          },
+          {
+            "code": "C0334346",
+            "display": "Apocrine adenocarcinoma"
+          },
+          {
+            "code": "C0018923",
+            "display": "Angiosarcoma"
+          },
+          {
+            "code": "C0007130",
+            "display": "Mucinous adenocarcinoma (Colloid carcinoma)"
+          },
+          {
+            "code": "C0008479",
+            "display": "Chondrosarcoma"
+          },
+          {
+            "code": "C0334369",
+            "display": "Comedocarcinoma (intraductal)"
+          },
+          {
+            "code": "C0154084",
+            "display": "Carcinoma in situ of breast"
+          },
+          {
+            "code": "C0334396",
+            "display": "Carcinoma with metaplasia"
+          },
+          {
+            "code": "C0007140",
+            "display": "Carcinosarcoma"
+          },
+          {
+            "code": "C1266080",
+            "display": "Intraductal carcinoma micro-papillary"
+          },
+          {
+            "code": "C0016057",
+            "display": "Fibrosarcoma"
+          },
+          {
+            "code": "C0334319",
+            "display": "Glycogen-rich carcinoma"
+          },
+          {
+            "code": "C1266119",
+            "display": "Hemangiopericytoma"
+          },
+          {
+            "code": "C0019829",
+            "display": "Hodgkin's lymphoma"
+          },
+          {
+            "code": "C0205643",
+            "display": "Invasive cribriform carcinoma"
+          },
+          {
+            "code": "C1412014",
+            "display": "Infiltrating duct carcinoma"
+          },
+          {
+            "code": "C0206692",
+            "display": "Invasive lobular carcinoma"
+          },
+          {
+            "code": "C0334385",
+            "display": "Inflammatory carcinoma"
+          },
+          {
+            "code": "C0007133",
+            "display": "Papillary carcinoma (invasive)"
+          },
+          {
+            "code": "C0023269",
+            "display": "Leiomyosarcoma"
+          },
+          {
+            "code": "C0023827",
+            "display": "Liposarcoma"
+          },
+          {
+            "code": "C0334318",
+            "display": "Lipid-rich (lipid-secreting) carcinoma"
+          },
+          {
+            "code": "C0024299",
+            "display": "Lymphoma"
+          },
+          {
+            "code": "C0206693",
+            "display": "Medullary carcinoma"
+          },
+          {
+            "code": "C0334463",
+            "display": "Malignant fibrous histiocytoma"
+          },
+          {
+            "code": "C0024305",
+            "display": "Non-Hodgkin's lymphoma"
+          },
+          {
+            "code": "C1290094",
+            "display": "Neoplasm of the mammary skin"
+          },
+          {
+            "code": "C0029463",
+            "display": "Osteosarcoma"
+          },
+          {
+            "code": "C0334242",
+            "display": "Papillary carcinoma in-situ"
+          },
+          {
+            "code": "C0030185",
+            "display": "Paget's disease, mammary (of the nipple)"
+          },
+          {
+            "code": "C0032131",
+            "display": "Plasmacytoma"
+          },
+          {
+            "code": "C0600066",
+            "display": "Phyllodes tumor, malignant"
+          },
+          {
+            "code": "C0206696",
+            "display": "Signet ring cell carcinoma"
+          },
+          {
+            "code": "C0333821",
+            "display": "Spindle cell nodule (tumor)"
+          },
+          {
+            "code": "C0334371",
+            "display": "Secretory (juvenile) carcinoma of the breast"
+          },
+          {
+            "code": "C0007137",
+            "display": "Squamous cell carcinoma"
+          },
+          {
+            "code": "C0205645",
+            "display": "Tubular adenocarcinoma"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111300",
+            "display": "Axillary node with lymphoma"
+          },
+          {
+            "code": "111301",
+            "display": "Axillary nodal metastases"
+          },
+          {
+            "code": "111307",
+            "display": "Basal cell carcinoma of nipple"
+          },
+          {
+            "code": "111303",
+            "display": "Blood vessel (vascular) invasion"
+          },
+          {
+            "code": "111304",
+            "display": "Carcinoma in children"
+          },
+          {
+            "code": "111305",
+            "display": "Carcinoma in ectopic breast"
+          },
+          {
+            "code": "111306",
+            "display": "Carcinoma with endocrine differentiation"
+          },
+          {
+            "code": "111309",
+            "display": "Cartilaginous and osseous change"
+          },
+          {
+            "code": "111310",
+            "display": "Carcinoma in pregnancy and lactation"
+          },
+          {
+            "code": "111312",
+            "display": "Intraductal comedocarcinoma with necrosis"
+          },
+          {
+            "code": "111341",
+            "display": "Intraductal carcinoma, high grade"
+          },
+          {
+            "code": "111313",
+            "display": "Intraductal carcinoma, low grade"
+          },
+          {
+            "code": "111315",
+            "display": "Intracystic papillary carcinoma"
+          },
+          {
+            "code": "111316",
+            "display": "Invasive and in-situ carcinoma"
+          },
+          {
+            "code": "111318",
+            "display": "Leukemic infiltration"
+          },
+          {
+            "code": "111320",
+            "display": "Lympathic vessel invasion"
+          },
+          {
+            "code": "111322",
+            "display": "Occult carcinoma presenting with axillary lymph node metastases"
+          },
+          {
+            "code": "111323",
+            "display": "Metastatic cancer to the breast"
+          },
+          {
+            "code": "111324",
+            "display": "Metastatic cancer to the breast from the colon"
+          },
+          {
+            "code": "111325",
+            "display": "Metastatic cancer to the breast from the lung"
+          },
+          {
+            "code": "111326",
+            "display": "Metastatic melanoma to the breast"
+          },
+          {
+            "code": "111327",
+            "display": "Metastatic cancer to the breast from the ovary"
+          },
+          {
+            "code": "111328",
+            "display": "Metastatic sarcoma to the breast"
+          },
+          {
+            "code": "111329",
+            "display": "Multifocal intraductal carcinoma"
+          },
+          {
+            "code": "111330",
+            "display": "Metastatic disease to axillary node"
+          },
+          {
+            "code": "111332",
+            "display": "Multifocal invasive ductal carcinoma"
+          },
+          {
+            "code": "111333",
+            "display": "Metastasis to an intramammary lymph node"
+          },
+          {
+            "code": "111334",
+            "display": "Malignant melanoma of nipple"
+          },
+          {
+            "code": "111338",
+            "display": "Recurrent malignancy"
+          },
+          {
+            "code": "111340",
+            "display": "Squamous cell carcinoma of the nipple"
+          }
+        ]
+      }
+    ]
+  }
+}

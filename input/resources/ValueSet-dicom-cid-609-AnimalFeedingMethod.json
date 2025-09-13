@@ -1,0 +1,73 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AnimalFeedingMethod",
+  "id": "dicom-cid-609-AnimalFeedingMethod",
+  "description": "Animal Feeding Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-609-AnimalFeedingMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1074"
+    }
+  ],
+  "version": "20151110",
+  "title": "Animal Feeding Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "concept": [
+          {
+            "code": "C64636",
+            "display": "ad libitum"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1879743",
+            "display": "ad libitum"
+          },
+          {
+            "code": "C0425422",
+            "display": "Restricted diet"
+          },
+          {
+            "code": "C0041281",
+            "display": "Gavage"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "127391",
+            "display": "Food treat"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "61420007",
+            "display": "Gavage"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "PA-00620",
+            "display": "Gavage"
+          }
+        ]
+      }
+    ]
+  }
+}

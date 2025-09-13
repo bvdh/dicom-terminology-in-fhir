@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SizeSpecificDoseEstimationMethodForCT",
+  "id": "dicom-cid-10023-SizeSpecificDoseEstimationMethodForCT",
+  "description": "Size Specific Dose Estimation Method for CT",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10023-SizeSpecificDoseEstimationMethodForCT",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.947"
+    }
+  ],
+  "version": "20200919",
+  "title": "Size Specific Dose Estimation Method for CT",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113934",
+            "display": "AAPM 204 Lateral Dimension"
+          },
+          {
+            "code": "113935",
+            "display": "AAPM 204 AP Dimension"
+          },
+          {
+            "code": "113936",
+            "display": "AAPM 204 Sum of Lateral and AP Dimension"
+          },
+          {
+            "code": "113937",
+            "display": "AAPM 204 Effective Diameter Estimated From Patient Age"
+          },
+          {
+            "code": "113988",
+            "display": "Estimated from Water Equivalent Diameter"
+          },
+          {
+            "code": "113989",
+            "display": "Arithmetic Average of SSDE(z)"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "FeatureScope",
+  "id": "dicom-cid-6036-FeatureScope",
+  "description": "Feature Scope",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6036-FeatureScope",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.366"
+    }
+  ],
+  "version": "20020904",
+  "title": "Feature Scope",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111156",
+            "display": "Feature detected on the only image"
+          },
+          {
+            "code": "111157",
+            "display": "Feature detected on only one of the images"
+          },
+          {
+            "code": "111158",
+            "display": "Feature detected on multiple images"
+          },
+          {
+            "code": "111159",
+            "display": "Feature detected on images from multiple modalities"
+          }
+        ]
+      }
+    ]
+  }
+}

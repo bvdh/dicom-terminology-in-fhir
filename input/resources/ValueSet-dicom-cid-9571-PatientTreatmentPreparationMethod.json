@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PatientTreatmentPreparationMethod",
+  "id": "dicom-cid-9571-PatientTreatmentPreparationMethod",
+  "description": "Patient Treatment Preparation Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9571-PatientTreatmentPreparationMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1418"
+    }
+  ],
+  "version": "20210906",
+  "title": "Patient Treatment Preparation Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130630",
+            "display": "Isocentric Setup Method"
+          },
+          {
+            "code": "130631",
+            "display": "Controlled SSD Setup Method"
+          },
+          {
+            "code": "130632",
+            "display": "TBI Setup Method"
+          },
+          {
+            "code": "130633",
+            "display": "Stereotactic Setup Method"
+          },
+          {
+            "code": "130634",
+            "display": "Skin Apposition Setup Method"
+          },
+          {
+            "code": "130635",
+            "display": "Ocular Gaze Setup Method"
+          }
+        ]
+      }
+    ]
+  }
+}

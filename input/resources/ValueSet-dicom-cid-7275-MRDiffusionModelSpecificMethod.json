@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MRDiffusionModelSpecificMethod",
+  "id": "dicom-cid-7275-MRDiffusionModelSpecificMethod",
+  "description": "MR Diffusion Model Specific Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7275-MRDiffusionModelSpecificMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1170"
+    }
+  ],
+  "version": "20170413",
+  "title": "MR Diffusion Model Specific Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113285",
+            "display": "Voxelwise selection of b-value"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "fragment",
+  "name": "BICodeSystem",
+  "id": "dicom-codesystem-BI",
+  "title": "BI",
+  "description": "In the HL7 registry, the abbreviation BI is assigned to a different Coding Scheme, specifically the Beth Israel problem list.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-BI",
+  "concept": [
+    {
+      "code": "MA.II.A.5.4A",
+      "display": "4A - Low suspicion",
+      "definition": "4A - Low suspicion"
+    },
+    {
+      "code": "MA.II.A.5.4B",
+      "display": "4B - Intermediate suspicion",
+      "definition": "4B - Intermediate suspicion"
+    },
+    {
+      "code": "MA.II.A.5.4C",
+      "display": "4C - Moderate suspicion",
+      "definition": "4C - Moderate suspicion"
+    },
+    {
+      "code": "MA.II.A.5.6",
+      "display": "6 - Known biopsy proven malignancy",
+      "definition": "6 - Known biopsy proven malignancy"
+    }
+  ],
+  "caseSensitive": true,
+  "experimental": false
+}

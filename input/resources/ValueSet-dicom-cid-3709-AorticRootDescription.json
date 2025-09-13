@@ -1,0 +1,107 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AorticRootDescription",
+  "id": "dicom-cid-3709-AorticRootDescription",
+  "description": "Aortic Root Description",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3709-AorticRootDescription",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.210"
+    }
+  ],
+  "version": "20030327",
+  "title": "Aortic Root Description",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "373132007",
+            "display": "Normal Aortic Root"
+          },
+          {
+            "code": "373133002",
+            "display": "Enlarged Aortic Root"
+          },
+          {
+            "code": "373134008",
+            "display": "Aneurysm of Aortic Root"
+          },
+          {
+            "code": "373135009",
+            "display": "Annular Abscess of Aortic Root"
+          },
+          {
+            "code": "371872009",
+            "display": "Post Stenotic Dilation"
+          },
+          {
+            "code": "21379009",
+            "display": "Ruptured Sinus of Valsalva"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-0033C",
+            "display": "Normal Aortic Root"
+          },
+          {
+            "code": "R-00301",
+            "display": "Enlarged Aortic Root"
+          },
+          {
+            "code": "R-002CD",
+            "display": "Aneurysm of Aortic Root"
+          },
+          {
+            "code": "R-002D1",
+            "display": "Annular Abscess of Aortic Root"
+          },
+          {
+            "code": "R-003A1",
+            "display": "Post Stenotic Dilation"
+          },
+          {
+            "code": "D3-83660",
+            "display": "Ruptured Sinus of Valsalva"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1298818",
+            "display": "Normal Aortic Root"
+          },
+          {
+            "code": "C1298819",
+            "display": "Enlarged Aortic Root"
+          },
+          {
+            "code": "C1298820",
+            "display": "Aneurysm of Aortic Root"
+          },
+          {
+            "code": "C1298821",
+            "display": "Annular Abscess of Aortic Root"
+          },
+          {
+            "code": "C1299346",
+            "display": "Post Stenotic Dilation"
+          },
+          {
+            "code": "C0265019",
+            "display": "Ruptured Sinus of Valsalva"
+          }
+        ]
+      }
+    ]
+  }
+}

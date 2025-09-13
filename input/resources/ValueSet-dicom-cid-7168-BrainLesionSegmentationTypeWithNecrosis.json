@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "BrainLesionSegmentationTypeWithNecrosis",
+  "id": "dicom-cid-7168-BrainLesionSegmentationTypeWithNecrosis",
+  "description": "The same concept for non-enhancing tumor is used in this Context Group and when included in",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7168-BrainLesionSegmentationTypeWithNecrosis",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1280"
+    }
+  ],
+  "version": "20190327",
+  "title": "Brain Lesion Segmentation Type With Necrosis",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7169-BrainLesionSegmentationTypeWithoutNecrosis"
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "6574001",
+            "display": "Necrosis"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "M-54000",
+            "display": "Necrosis"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0027540",
+            "display": "Necrosis"
+          }
+        ]
+      }
+    ]
+  }
+}

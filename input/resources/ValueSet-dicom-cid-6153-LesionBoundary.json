@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LesionBoundary",
+  "id": "dicom-cid-6153-LesionBoundary",
+  "description": "From BI-RADS",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6153-LesionBoundary",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.468"
+    }
+  ],
+  "version": "20050822",
+  "title": "Lesion Boundary",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111358",
+            "display": "Abrupt interface"
+          },
+          {
+            "code": "111359",
+            "display": "Echogenic halo"
+          }
+        ]
+      }
+    ]
+  }
+}

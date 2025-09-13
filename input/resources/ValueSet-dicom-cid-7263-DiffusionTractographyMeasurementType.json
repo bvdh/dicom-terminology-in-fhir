@@ -1,0 +1,97 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DiffusionTractographyMeasurementType",
+  "id": "dicom-cid-7263-DiffusionTractographyMeasurementType",
+  "description": "Diffusion Tractography Measurement Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7263-DiffusionTractographyMeasurementType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1062"
+    }
+  ],
+  "version": "20150918",
+  "title": "Diffusion Tractography Measurement Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113201",
+            "display": "Trace"
+          },
+          {
+            "code": "113202",
+            "display": "Mean Diffusivity"
+          },
+          {
+            "code": "113041",
+            "display": "Apparent Diffusion Coefficient"
+          },
+          {
+            "code": "110808",
+            "display": "Fractional Anisotropy"
+          },
+          {
+            "code": "110809",
+            "display": "Relative Anisotropy"
+          },
+          {
+            "code": "113203",
+            "display": "Radial Diffusivity"
+          },
+          {
+            "code": "113204",
+            "display": "Axial Diffusivity"
+          },
+          {
+            "code": "113205",
+            "display": "Mean Kurtosis"
+          },
+          {
+            "code": "113206",
+            "display": "Apparent Kurtosis Coefficient"
+          },
+          {
+            "code": "113207",
+            "display": "Radial Kurtosis"
+          },
+          {
+            "code": "113208",
+            "display": "Axial Kurtosis"
+          },
+          {
+            "code": "113209",
+            "display": "Fractional Kurtosis Anisotropy"
+          },
+          {
+            "code": "110810",
+            "display": "Volumetric Diffusion Dxx Component"
+          },
+          {
+            "code": "110811",
+            "display": "Volumetric Diffusion Dxy Component"
+          },
+          {
+            "code": "110812",
+            "display": "Volumetric Diffusion Dxz Component"
+          },
+          {
+            "code": "110813",
+            "display": "Volumetric Diffusion Dyy Component"
+          },
+          {
+            "code": "110814",
+            "display": "Volumetric Diffusion Dyz Component"
+          },
+          {
+            "code": "110815",
+            "display": "Volumetric Diffusion Dzz Component"
+          }
+        ]
+      }
+    ]
+  }
+}

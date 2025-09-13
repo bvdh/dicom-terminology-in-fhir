@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "HemodynamicTimeMeasurement",
+  "id": "dicom-cid-3613-HemodynamicTimeMeasurement",
+  "description": "Hemodynamic Time Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3613-HemodynamicTimeMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.163"
+    }
+  ],
+  "version": "20030327",
+  "title": "Hemodynamic Time Measurement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122182",
+            "display": "R-R interval"
+          },
+          {
+            "code": "109072",
+            "display": "Tau"
+          },
+          {
+            "code": "122211",
+            "display": "Left Ventricular ejection time"
+          },
+          {
+            "code": "122212",
+            "display": "Left Ventricular filling time"
+          },
+          {
+            "code": "122213",
+            "display": "Right Ventricular ejection time"
+          },
+          {
+            "code": "122214",
+            "display": "Right Ventricular filling time"
+          },
+          {
+            "code": "109071",
+            "display": "Indicator mean transit time"
+          }
+        ]
+      }
+    ]
+  }
+}

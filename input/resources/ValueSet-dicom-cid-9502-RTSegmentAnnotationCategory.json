@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RTSegmentAnnotationCategory",
+  "id": "dicom-cid-9502-RTSegmentAnnotationCategory",
+  "description": "RT Segment Annotation Category",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9502-RTSegmentAnnotationCategory",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1212"
+    }
+  ],
+  "version": "20191110",
+  "title": "RT Segment Annotation Category",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9503-RadiotherapyTherapeuticRoleCategory"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9580-RTSegmentationPropertyCategory"
+        ]
+      }
+    ]
+  }
+}

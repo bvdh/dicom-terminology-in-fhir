@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PhotoacousticIlluminationMethod",
+  "id": "dicom-cid-11001-PhotoacousticIlluminationMethod",
+  "description": "Photoacoustic Illumination Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-11001-PhotoacousticIlluminationMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1471"
+    }
+  ],
+  "version": "20230626",
+  "title": "Photoacoustic Illumination Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130810",
+            "display": "Single-side illumination"
+          },
+          {
+            "code": "130811",
+            "display": "Dual-side illumination"
+          },
+          {
+            "code": "130812",
+            "display": "Multi-side illumination"
+          },
+          {
+            "code": "130813",
+            "display": "Through-transducer illumination"
+          },
+          {
+            "code": "130814",
+            "display": "Interstitial illumination"
+          }
+        ]
+      }
+    ]
+  }
+}

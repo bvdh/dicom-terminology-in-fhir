@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PIRADSv2DWILesionAssessmentCategory",
+  "id": "dicom-cid-6331-PIRADSv2DWILesionAssessmentCategory",
+  "description": "PI-RADS v2 DWI Lesion Assessment Category",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6331-PIRADSv2DWILesionAssessmentCategory",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1388"
+    }
+  ],
+  "version": "20210714",
+  "title": "PI-RADS v2 DWI Lesion Assessment Category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.radlex.org",
+        "concept": [
+          {
+            "code": "RID50314",
+            "display": "PI-RADS 1 - DWI Very low"
+          },
+          {
+            "code": "RID50315",
+            "display": "PI-RADS 2 - DWI Low"
+          },
+          {
+            "code": "RID50316",
+            "display": "PI-RADS 3 - DWI Intermediate"
+          },
+          {
+            "code": "RID50317",
+            "display": "PI-RADS 4 - DWI High"
+          },
+          {
+            "code": "RID50318",
+            "display": "PI-RADS 5 - DWI Very high"
+          },
+          {
+            "code": "RID50326",
+            "display": "PI-RADS X - DWI Inadequate or absent"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GreyLevelDistanceZoneBasedFeature",
+  "id": "dicom-cid-7479-GreyLevelDistanceZoneBasedFeature",
+  "description": "Grey Level Distance Zone Based Feature",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7479-GreyLevelDistanceZoneBasedFeature",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1272"
+    }
+  ],
+  "version": "20190121",
+  "title": "Grey Level Distance Zone Based Feature",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-IBSI",
+        "concept": [
+          {
+            "code": "0GBI",
+            "display": "Small Distance Emphasis"
+          },
+          {
+            "code": "MB4I",
+            "display": "Large Distance Emphasis"
+          },
+          {
+            "code": "S1RA",
+            "display": "Low Grey Level Zone Emphasis"
+          },
+          {
+            "code": "K26C",
+            "display": "High Grey Level Zone Emphasis"
+          },
+          {
+            "code": "RUVG",
+            "display": "Small Distance Low Grey Level Emphasis"
+          },
+          {
+            "code": "DKNJ",
+            "display": "Small Distance High Grey Level Emphasis"
+          },
+          {
+            "code": "A7WM",
+            "display": "Large Distance Low Grey Level Emphasis"
+          },
+          {
+            "code": "KLTH",
+            "display": "Large Distance High Grey Level Emphasis"
+          },
+          {
+            "code": "VFT7",
+            "display": "Grey Level Non-uniformity of Distance Zone Counts"
+          },
+          {
+            "code": "7HP3",
+            "display": "Normalized Grey Level Non-uniformity of Distance Zone Counts"
+          },
+          {
+            "code": "V294",
+            "display": "Zone Distance Non-uniformity"
+          },
+          {
+            "code": "IATH",
+            "display": "Normalized Zone Distance Non-uniformity"
+          },
+          {
+            "code": "VIWW",
+            "display": "Distance Zone Percentage"
+          },
+          {
+            "code": "QK93",
+            "display": "Grey Level Variance in Distance Zones"
+          },
+          {
+            "code": "7WT1",
+            "display": "Zone Distance Variance"
+          },
+          {
+            "code": "GBDU",
+            "display": "Zone Distance Entropy"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OphthalmicQualityMetricType",
+  "id": "dicom-cid-4243-OphthalmicQualityMetricType",
+  "description": "Ophthalmic Quality Metric Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4243-OphthalmicQualityMetricType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.889"
+    }
+  ],
+  "version": "20100623",
+  "title": "Ophthalmic Quality Metric Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111786",
+            "display": "Standard Deviation of measurements used"
+          },
+          {
+            "code": "111787",
+            "display": "Signal to Noise Ratio"
+          }
+        ]
+      }
+    ]
+  }
+}

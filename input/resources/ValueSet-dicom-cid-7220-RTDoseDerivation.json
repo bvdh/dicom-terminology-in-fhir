@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RTDoseDerivation",
+  "id": "dicom-cid-7220-RTDoseDerivation",
+  "description": "RT Dose Derivation",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7220-RTDoseDerivation",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.968"
+    }
+  ],
+  "version": "20240616",
+  "title": "RT Dose Derivation",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121370",
+            "display": "Composed from prior doses"
+          },
+          {
+            "code": "121371",
+            "display": "Composed from prior doses and current plan"
+          },
+          {
+            "code": "121377",
+            "display": "Composed with radiobiological effects"
+          },
+          {
+            "code": "121378",
+            "display": "Composed with weighting for fractions delivered"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "WorkitemDefinition",
+  "id": "dicom-cid-9231-WorkitemDefinition",
+  "description": "Workitem Definition",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9231-WorkitemDefinition",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.531"
+    }
+  ],
+  "version": "20160601",
+  "title": "Workitem Definition",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110001",
+            "display": "Image Processing"
+          },
+          {
+            "code": "110002",
+            "display": "Quality Control"
+          },
+          {
+            "code": "110003",
+            "display": "Computer Aided Diagnosis"
+          },
+          {
+            "code": "110004",
+            "display": "Computer Aided Detection"
+          },
+          {
+            "code": "110005",
+            "display": "Interpretation"
+          },
+          {
+            "code": "110006",
+            "display": "Transcription"
+          },
+          {
+            "code": "110007",
+            "display": "Report Verification"
+          },
+          {
+            "code": "128001",
+            "display": "Add Addendum to Report"
+          },
+          {
+            "code": "110008",
+            "display": "Print"
+          },
+          {
+            "code": "110009",
+            "display": "No subsequent Workitems"
+          },
+          {
+            "code": "110013",
+            "display": "Media Import"
+          }
+        ]
+      }
+    ]
+  }
+}

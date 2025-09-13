@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MRImagingArtifact",
+  "id": "dicom-cid-6316-MRImagingArtifact",
+  "description": "MR Imaging Artifact",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6316-MRImagingArtifact",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1373"
+    }
+  ],
+  "version": "20210714",
+  "title": "MR Imaging Artifact",
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.radlex.org",
+        "concept": [
+          {
+            "code": "RID11423",
+            "display": "Motion related artifact"
+          },
+          {
+            "code": "RID11395",
+            "display": "Phase wraparound artifact"
+          },
+          {
+            "code": "RID11424",
+            "display": "Smearing"
+          },
+          {
+            "code": "RID11426",
+            "display": "Ghost"
+          },
+          {
+            "code": "RID11372",
+            "display": "Tissue magnetic susceptibility effect"
+          },
+          {
+            "code": "RID11370",
+            "display": "Ferromagnetic implant magnetic susceptibility effect"
+          },
+          {
+            "code": "RID11408",
+            "display": "Non-uniform signal intensity artifact"
+          },
+          {
+            "code": "RID11464",
+            "display": "Parallel imaging artifact"
+          },
+          {
+            "code": "RID11374",
+            "display": "Chemical shift artifact"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EchoMeasurementType",
+  "id": "dicom-cid-12303-EchoMeasurementType",
+  "description": "Echo Measurement Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12303-EchoMeasurementType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1144"
+    }
+  ],
+  "version": "20161109",
+  "title": "Echo Measurement Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "125313",
+            "display": "Indexed"
+          },
+          {
+            "code": "125314",
+            "display": "Fractional Change"
+          },
+          {
+            "code": "125315",
+            "display": "Calculated"
+          },
+          {
+            "code": "113857",
+            "display": "Manual Entry"
+          },
+          {
+            "code": "125316",
+            "display": "Directly measured"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "118586006",
+            "display": "Ratio"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-D750",
+            "display": "Ratio"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0456603",
+            "display": "Ratio"
+          }
+        ]
+      }
+    ]
+  }
+}

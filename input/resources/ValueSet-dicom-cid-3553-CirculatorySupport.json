@@ -1,0 +1,95 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CirculatorySupport",
+  "id": "dicom-cid-3553-CirculatorySupport",
+  "description": "Circulatory Support",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3553-CirculatorySupport",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.149"
+    }
+  ],
+  "version": "20030327",
+  "title": "Circulatory Support",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "129113006",
+            "display": "Intra-Aortic Balloon Pump"
+          },
+          {
+            "code": "371790000",
+            "display": "External Counter-Pulsation"
+          },
+          {
+            "code": "360066001",
+            "display": "Left Ventricular Assist Device"
+          },
+          {
+            "code": "182744004",
+            "display": "Extra-corporeal circulation"
+          },
+          {
+            "code": "63697000",
+            "display": "Cardiopulmonary bypass"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "A-28051",
+            "display": "Intra-Aortic Balloon Pump"
+          },
+          {
+            "code": "R-00303",
+            "display": "External Counter-Pulsation"
+          },
+          {
+            "code": "A-11FCD",
+            "display": "Left Ventricular Assist Device"
+          },
+          {
+            "code": "P2-77110",
+            "display": "Extra-corporeal circulation"
+          },
+          {
+            "code": "P1-36858",
+            "display": "Cardiopulmonary bypass"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0702122",
+            "display": "Intra-Aortic Balloon Pump"
+          },
+          {
+            "code": "C1299423",
+            "display": "External Counter-Pulsation"
+          },
+          {
+            "code": "C0181598",
+            "display": "Left Ventricular Assist Device"
+          },
+          {
+            "code": "C0015354",
+            "display": "Extra-corporeal circulation"
+          },
+          {
+            "code": "C0007202",
+            "display": "Cardiopulmonary bypass"
+          }
+        ]
+      }
+    ]
+  }
+}

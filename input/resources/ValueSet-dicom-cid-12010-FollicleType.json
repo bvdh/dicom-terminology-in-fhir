@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "FollicleType",
+  "id": "dicom-cid-12010-FollicleType",
+  "description": "Follicle Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12010-FollicleType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1491"
+    }
+  ],
+  "version": "20240912",
+  "title": "Follicle Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130909",
+            "display": "Dominant Follicle"
+          },
+          {
+            "code": "130910",
+            "display": "Antral Follicle"
+          },
+          {
+            "code": "130911",
+            "display": "Secondary Follicle"
+          },
+          {
+            "code": "130912",
+            "display": "Primary Follicle"
+          },
+          {
+            "code": "130913",
+            "display": "Primordial Follicle"
+          }
+        ]
+      }
+    ]
+  }
+}

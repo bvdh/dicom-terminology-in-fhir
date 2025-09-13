@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ImageQualityAssessmentType",
+  "id": "dicom-cid-6044-ImageQualityAssessmentType",
+  "description": "Image Quality Assessment Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6044-ImageQualityAssessmentType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.374"
+    }
+  ],
+  "version": "20020904",
+  "title": "Image Quality Assessment Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111235",
+            "display": "Unusable - Quality renders image unusable"
+          },
+          {
+            "code": "111236",
+            "display": "Usable - Does not meet the quality control standard"
+          },
+          {
+            "code": "111237",
+            "display": "Usable - Meets the quality control standard"
+          }
+        ]
+      }
+    ]
+  }
+}

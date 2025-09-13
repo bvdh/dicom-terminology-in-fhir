@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EffectiveDoseEvaluationMethod",
+  "id": "dicom-cid-10011-EffectiveDoseEvaluationMethod",
+  "description": "Effective Dose Evaluation Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10011-EffectiveDoseEvaluationMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.544"
+    }
+  ],
+  "version": "20071031",
+  "title": "Effective Dose Evaluation Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113800",
+            "display": "DLP to E conversion via MC computation"
+          },
+          {
+            "code": "113801",
+            "display": "CTDIfreeair to E conversion via MC computation"
+          },
+          {
+            "code": "113802",
+            "display": "DLP to E conversion via measurement"
+          },
+          {
+            "code": "113803",
+            "display": "CTDIfreeair to E conversion via measurement"
+          }
+        ]
+      }
+    ]
+  }
+}

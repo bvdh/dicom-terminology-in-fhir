@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ObservationSubjectClass",
+  "id": "dicom-cid-271-ObservationSubjectClass",
+  "description": "Observation Subject Class",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-271-ObservationSubjectClass",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.41"
+    }
+  ],
+  "version": "20071102",
+  "title": "Observation Subject Class",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121025",
+            "display": "Patient"
+          },
+          {
+            "code": "121026",
+            "display": "Fetus"
+          },
+          {
+            "code": "121027",
+            "display": "Specimen"
+          },
+          {
+            "code": "121192",
+            "display": "Device Subject"
+          }
+        ]
+      }
+    ]
+  }
+}

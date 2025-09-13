@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PosteriorAcousticFeature",
+  "id": "dicom-cid-6155-PosteriorAcousticFeature",
+  "description": "From BI-RADS",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6155-PosteriorAcousticFeature",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.470"
+    }
+  ],
+  "version": "20060622",
+  "title": "Posterior Acoustic Feature",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111367",
+            "display": "No posterior acoustic features"
+          },
+          {
+            "code": "111368",
+            "display": "Posterior enhancement"
+          },
+          {
+            "code": "111369",
+            "display": "Posterior shadowing"
+          },
+          {
+            "code": "111370",
+            "display": "Combined posterior enhancement and shadowing"
+          }
+        ]
+      }
+    ]
+  }
+}

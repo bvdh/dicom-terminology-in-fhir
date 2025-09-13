@@ -1,0 +1,86 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProstateMRIEnhancementPatternFromPIRADS",
+  "id": "dicom-cid-6346-ProstateMRIEnhancementPatternFromPIRADS",
+  "description": "Prostate MRI Enhancement Pattern from PI-RADS",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6346-ProstateMRIEnhancementPatternFromPIRADS",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1403"
+    }
+  ],
+  "version": "20210714",
+  "title": "Prostate MRI Enhancement Pattern from PI-RADS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.radlex.org",
+        "concept": [
+          {
+            "code": "RID49530",
+            "display": "Early phase wash-in"
+          },
+          {
+            "code": "RID11081",
+            "display": "Delayed phase"
+          },
+          {
+            "code": "RID34331",
+            "display": "Persistent delayed phase"
+          },
+          {
+            "code": "RID34332",
+            "display": "Plateau delayed phase"
+          },
+          {
+            "code": "RID34333",
+            "display": "Washout delayed phase"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130597",
+            "display": "Persistent delayed phase: Type 1 curve"
+          },
+          {
+            "code": "130598",
+            "display": "Plateau delayed phase: Type 2 curve"
+          },
+          {
+            "code": "130599",
+            "display": "Washout delayed phase: Type 3 curve"
+          },
+          {
+            "code": "130600",
+            "display": "Positive DCE"
+          },
+          {
+            "code": "130601",
+            "display": "Negative DCE"
+          },
+          {
+            "code": "122664",
+            "display": "Late Contrast Enhancement"
+          },
+          {
+            "code": "130602",
+            "display": "Early Contrast Enhancement"
+          },
+          {
+            "code": "130603",
+            "display": "Diffuse Contrast Enhancement"
+          },
+          {
+            "code": "130604",
+            "display": "Focal Contrast Enhancement"
+          }
+        ]
+      }
+    ]
+  }
+}

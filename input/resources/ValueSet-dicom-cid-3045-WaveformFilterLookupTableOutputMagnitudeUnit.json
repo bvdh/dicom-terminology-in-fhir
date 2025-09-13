@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "WaveformFilterLookupTableOutputMagnitudeUnit",
+  "id": "dicom-cid-3045-WaveformFilterLookupTableOutputMagnitudeUnit",
+  "description": "Waveform Filter Lookup Table Output Magnitude Unit",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3045-WaveformFilterLookupTableOutputMagnitudeUnit",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1456"
+    }
+  ],
+  "version": "20220630",
+  "title": "Waveform Filter Lookup Table Output Magnitude Unit",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "dB[uV]",
+            "display": "dB(V)"
+          },
+          {
+            "code": "dB[mV]",
+            "display": "dB(mV)"
+          },
+          {
+            "code": "mV",
+            "display": "mV"
+          },
+          {
+            "code": "uV",
+            "display": "V"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130776",
+            "display": "Magnitude normalized"
+          }
+        ]
+      }
+    ]
+  }
+}

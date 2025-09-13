@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MRSignalIntensity",
+  "id": "dicom-cid-6311-MRSignalIntensity",
+  "description": "Imaging findings will be applicable for indications other than PI-RADS disease assessment.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6311-MRSignalIntensity",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1368"
+    }
+  ],
+  "version": "20210714",
+  "title": "MR Signal Intensity",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110805",
+            "display": "T2 Weighted MR Signal Intensity"
+          },
+          {
+            "code": "113043",
+            "display": "Diffusion weighted"
+          },
+          {
+            "code": "130566",
+            "display": "Diffusion-weighted Acquisition Highest b-value image"
+          },
+          {
+            "code": "130567",
+            "display": "Dynamic Contrast-Enhanced Acquisition"
+          },
+          {
+            "code": "130568",
+            "display": "Dynamic Contrast-Enhanced Acquisition Subtraction image"
+          },
+          {
+            "code": "110804",
+            "display": "T1 Weighted MR Signal Intensity"
+          },
+          {
+            "code": "113041",
+            "display": "Apparent Diffusion Coefficient"
+          }
+        ]
+      }
+    ]
+  }
+}

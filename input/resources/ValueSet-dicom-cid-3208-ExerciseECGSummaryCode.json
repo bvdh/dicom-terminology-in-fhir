@@ -1,0 +1,83 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ExerciseECGSummaryCode",
+  "id": "dicom-cid-3208-ExerciseECGSummaryCode",
+  "description": "Exercise ECG Summary Code",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3208-ExerciseECGSummaryCode",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.763"
+    }
+  ],
+  "version": "20080927",
+  "title": "Exercise ECG Summary Code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "165082004",
+            "display": "Exercise ECG normal"
+          },
+          {
+            "code": "165084003",
+            "display": "Exercise ECG abnormal"
+          },
+          {
+            "code": "370367002",
+            "display": "Exercise ECG equivocal"
+          },
+          {
+            "code": "262008008",
+            "display": "Not performed"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "F-00101",
+            "display": "Exercise ECG normal"
+          },
+          {
+            "code": "F-00103",
+            "display": "Exercise ECG abnormal"
+          },
+          {
+            "code": "F-201B6",
+            "display": "Exercise ECG equivocal"
+          },
+          {
+            "code": "R-4135B",
+            "display": "Not performed"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0231162",
+            "display": "Exercise ECG normal"
+          },
+          {
+            "code": "C0149612",
+            "display": "Exercise ECG abnormal"
+          },
+          {
+            "code": "C1299965",
+            "display": "Exercise ECG equivocal"
+          },
+          {
+            "code": "C0445106",
+            "display": "Not performed"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "TomotherapeuticDosimeterUnit",
+  "id": "dicom-cid-9557-TomotherapeuticDosimeterUnit",
+  "description": "Tomotherapeutic Dosimeter Unit",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9557-TomotherapeuticDosimeterUnit",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1308"
+    }
+  ],
+  "version": "20200117",
+  "title": "Tomotherapeutic Dosimeter Unit",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "s",
+            "display": "s"
+          },
+          {
+            "code": "{MU}",
+            "display": "Monitor Units"
+          }
+        ]
+      }
+    ]
+  }
+}

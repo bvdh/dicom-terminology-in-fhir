@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AnimalBeddingMaterial",
+  "id": "dicom-cid-605-AnimalBeddingMaterial",
+  "description": "Animal Bedding Material",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-605-AnimalBeddingMaterial",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1070"
+    }
+  ],
+  "version": "20151110",
+  "title": "Animal Bedding Material",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "127230",
+            "display": "Aspen chip bedding"
+          },
+          {
+            "code": "127231",
+            "display": "Aspen shaving bedding"
+          },
+          {
+            "code": "127232",
+            "display": "Corn cob bedding"
+          },
+          {
+            "code": "127233",
+            "display": "Paper-based bedding"
+          },
+          {
+            "code": "127234",
+            "display": "Pine chip bedding"
+          },
+          {
+            "code": "127235",
+            "display": "Pine shaving bedding"
+          }
+        ]
+      }
+    ]
+  }
+}

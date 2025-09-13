@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EncapsulatedDocumentSourcePurposeOfReference",
+  "id": "dicom-cid-7060-EncapsulatedDocumentSourcePurposeOfReference",
+  "description": "Encapsulated Document Source Purpose of Reference",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7060-EncapsulatedDocumentSourcePurposeOfReference",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1201"
+    }
+  ],
+  "version": "20180403",
+  "title": "Encapsulated Document Source Purpose of Reference",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121324",
+            "display": "Source image"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7013-NonImageSourceInstancePurposeOfReference"
+        ]
+      }
+    ]
+  }
+}

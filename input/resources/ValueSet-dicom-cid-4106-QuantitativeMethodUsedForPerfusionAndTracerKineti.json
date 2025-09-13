@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "QuantitativeMethodUsedForPerfusionAndTracerKineticModel",
+  "id": "dicom-cid-4106-QuantitativeMethodUsedForPerfusionAndTracerKineti",
+  "description": "Concepts from this Context Group may be used in measurement Templates to describe the measurement method of measurement on an ROI. E.g., NUM",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4106-QuantitativeMethodUsedForPerfusionAndTracerKineti",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.991"
+    }
+  ],
+  "version": "20141110",
+  "title": "Quantitative Method Used for Perfusion and Tracer Kinetic Model",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4100-T1MeasurementMethod"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4101-TracerKineticModel"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4102-PerfusionMeasurementMethod"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4103-ArterialInputFunctionMeasurementMethod"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4104-BolusArrivalTimeDerivationMethod"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4105-PerfusionAnalysisMethod"
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "126342",
+            "display": "Model-free concentration-time quantitification"
+          }
+        ]
+      }
+    ]
+  }
+}

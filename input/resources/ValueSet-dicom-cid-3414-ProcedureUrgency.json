@@ -1,0 +1,83 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProcedureUrgency",
+  "id": "dicom-cid-3414-ProcedureUrgency",
+  "description": "Procedure Urgency",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3414-ProcedureUrgency",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.79"
+    }
+  ],
+  "version": "20030327",
+  "title": "Procedure Urgency",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "103390000",
+            "display": "Elective Procedure"
+          },
+          {
+            "code": "103391001",
+            "display": "Urgent Procedure"
+          },
+          {
+            "code": "25876001",
+            "display": "Emergent Procedure"
+          },
+          {
+            "code": "257950002",
+            "display": "Salvage Procedure"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-D210",
+            "display": "Elective Procedure"
+          },
+          {
+            "code": "G-D216",
+            "display": "Urgent Procedure"
+          },
+          {
+            "code": "G-D209",
+            "display": "Emergent Procedure"
+          },
+          {
+            "code": "R-41C8D",
+            "display": "Salvage Procedure"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0439608",
+            "display": "Elective Procedure"
+          },
+          {
+            "code": "C0439609",
+            "display": "Urgent Procedure"
+          },
+          {
+            "code": "C0175673",
+            "display": "Emergent Procedure"
+          },
+          {
+            "code": "C0442967",
+            "display": "Salvage Procedure"
+          }
+        ]
+      }
+    ]
+  }
+}

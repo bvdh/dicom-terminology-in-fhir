@@ -1,0 +1,389 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ImagingAgentAdministrationAdverseEvent",
+  "id": "dicom-cid-60-ImagingAgentAdministrationAdverseEvent",
+  "description": "Imaging Agent Administration Adverse Event",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-60-ImagingAgentAdministrationAdverseEvent",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1250"
+    }
+  ],
+  "version": "20190817",
+  "title": "Imaging Agent Administration Adverse Event",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "16932000",
+            "display": "Nausea and vomiting"
+          },
+          {
+            "code": "271801002",
+            "display": "Taste sense altered"
+          },
+          {
+            "code": "415690000",
+            "display": "Sweating"
+          },
+          {
+            "code": "49727002",
+            "display": "Cough"
+          },
+          {
+            "code": "418363000",
+            "display": "Itching"
+          },
+          {
+            "code": "28926001",
+            "display": "Drug Rash"
+          },
+          {
+            "code": "724232004",
+            "display": "Sensation of being warm (finding)"
+          },
+          {
+            "code": "398979000",
+            "display": "Pallor (Pale Complexion)"
+          },
+          {
+            "code": "68235000",
+            "display": "Nasal Congestion"
+          },
+          {
+            "code": "25064002",
+            "display": "Headache"
+          },
+          {
+            "code": "403618004",
+            "display": "Drug induced Flushing"
+          },
+          {
+            "code": "278528006",
+            "display": "Facial Swelling"
+          },
+          {
+            "code": "473188002",
+            "display": "Drug Induced Dizziness"
+          },
+          {
+            "code": "274640006",
+            "display": "Chills and fever"
+          },
+          {
+            "code": "48694002",
+            "display": "Anxiety"
+          },
+          {
+            "code": "26079004",
+            "display": "Shaking"
+          },
+          {
+            "code": "74615001",
+            "display": "Tachycardia-bradycardia"
+          },
+          {
+            "code": "4386001",
+            "display": "Bronchospasm"
+          },
+          {
+            "code": "38341003",
+            "display": "Hypertension"
+          },
+          {
+            "code": "51599000",
+            "display": "Laryngeal edema"
+          },
+          {
+            "code": "402603005",
+            "display": "Diffuse inflammatory erythema"
+          },
+          {
+            "code": "234171009",
+            "display": "Drug-induced hypotension"
+          },
+          {
+            "code": "267036007",
+            "display": "Dyspnea"
+          },
+          {
+            "code": "84757009",
+            "display": "Epileptic convulsions"
+          },
+          {
+            "code": "45007003",
+            "display": "Hypotension"
+          },
+          {
+            "code": "298336006",
+            "display": "No motor response to command"
+          },
+          {
+            "code": "698247007",
+            "display": "Cardiac Arrhythmia"
+          },
+          {
+            "code": "410430005",
+            "display": "Cardiorespiratory arrest"
+          },
+          {
+            "code": "95384003",
+            "display": "Injection Site Extravasation"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "F-52840",
+            "display": "Nausea and vomiting"
+          },
+          {
+            "code": "F-5005E",
+            "display": "Taste sense altered"
+          },
+          {
+            "code": "F-400A9",
+            "display": "Sweating"
+          },
+          {
+            "code": "F-24100",
+            "display": "Cough"
+          },
+          {
+            "code": "F-A21A7",
+            "display": "Itching"
+          },
+          {
+            "code": "D0-71000",
+            "display": "Drug Rash"
+          },
+          {
+            "code": "F-037AB",
+            "display": "Pallor (Pale Complexion)"
+          },
+          {
+            "code": "F-24442",
+            "display": "Nasal Congestion"
+          },
+          {
+            "code": "F-A2700",
+            "display": "Headache"
+          },
+          {
+            "code": "D0-3002F",
+            "display": "Drug induced Flushing"
+          },
+          {
+            "code": "F-017C0",
+            "display": "Facial Swelling"
+          },
+          {
+            "code": "DF-1147C",
+            "display": "Drug Induced Dizziness"
+          },
+          {
+            "code": "F-03261",
+            "display": "Chills and fever"
+          },
+          {
+            "code": "F-0B320",
+            "display": "Anxiety"
+          },
+          {
+            "code": "F-A4600",
+            "display": "Shaking"
+          },
+          {
+            "code": "D3-31121",
+            "display": "Tachycardia-bradycardia"
+          },
+          {
+            "code": "F-20250",
+            "display": "Bronchospasm"
+          },
+          {
+            "code": "D3-02000",
+            "display": "Hypertension"
+          },
+          {
+            "code": "D2-04460",
+            "display": "Laryngeal edema"
+          },
+          {
+            "code": "D0-2202B",
+            "display": "Diffuse inflammatory erythema"
+          },
+          {
+            "code": "D3-04006",
+            "display": "Drug-induced hypotension"
+          },
+          {
+            "code": "F-201B3",
+            "display": "Dyspnea"
+          },
+          {
+            "code": "DA-30000",
+            "display": "Epileptic convulsions"
+          },
+          {
+            "code": "D3-04000",
+            "display": "Hypotension"
+          },
+          {
+            "code": "F-100EC",
+            "display": "No motor response to command"
+          },
+          {
+            "code": "R-FAE6C",
+            "display": "Cardiac Arrhythmia"
+          },
+          {
+            "code": "D2-60262",
+            "display": "Cardiorespiratory arrest"
+          },
+          {
+            "code": "D0-B0330",
+            "display": "Injection Site Extravasation"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0027498",
+            "display": "Nausea and vomiting"
+          },
+          {
+            "code": "C0013378",
+            "display": "Taste sense altered"
+          },
+          {
+            "code": "C0038990",
+            "display": "Sweating"
+          },
+          {
+            "code": "C0010200",
+            "display": "Cough"
+          },
+          {
+            "code": "C0033774",
+            "display": "Itching"
+          },
+          {
+            "code": "C0011609",
+            "display": "Drug Rash"
+          },
+          {
+            "code": "C0030232",
+            "display": "Pallor (Pale Complexion)"
+          },
+          {
+            "code": "C0027424",
+            "display": "Nasal Congestion"
+          },
+          {
+            "code": "C0018681",
+            "display": "Headache"
+          },
+          {
+            "code": "C1274940",
+            "display": "Drug induced Flushing"
+          },
+          {
+            "code": "C0151602",
+            "display": "Facial Swelling"
+          },
+          {
+            "code": "C3532678",
+            "display": "Drug Induced Dizziness"
+          },
+          {
+            "code": "C0085594",
+            "display": "Chills and fever"
+          },
+          {
+            "code": "C0003467",
+            "display": "Anxiety"
+          },
+          {
+            "code": "C0040822",
+            "display": "Shaking"
+          },
+          {
+            "code": "C0221047",
+            "display": "Tachycardia-bradycardia"
+          },
+          {
+            "code": "C0001999",
+            "display": "Bronchospasm"
+          },
+          {
+            "code": "C0020538",
+            "display": "Hypertension"
+          },
+          {
+            "code": "C0023052",
+            "display": "Laryngeal edema"
+          },
+          {
+            "code": "C1304360",
+            "display": "Diffuse inflammatory erythema"
+          },
+          {
+            "code": "C0340858",
+            "display": "Drug-induced hypotension"
+          },
+          {
+            "code": "C0013404",
+            "display": "Dyspnea"
+          },
+          {
+            "code": "C0014544",
+            "display": "Epileptic convulsions"
+          },
+          {
+            "code": "C0020649",
+            "display": "Hypotension"
+          },
+          {
+            "code": "C0575112",
+            "display": "No motor response to command"
+          },
+          {
+            "code": "C0003811",
+            "display": "Cardiac Arrhythmia"
+          },
+          {
+            "code": "C0600228",
+            "display": "Cardiorespiratory arrest"
+          },
+          {
+            "code": "C0521500",
+            "display": "Injection Site Extravasation"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110515",
+            "display": "Patient condition prevented continuing"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10043-IntravenousExtravasationSymptom"
+        ]
+      }
+    ]
+  }
+}

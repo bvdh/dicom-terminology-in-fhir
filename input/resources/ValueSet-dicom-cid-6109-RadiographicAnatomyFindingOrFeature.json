@@ -1,0 +1,72 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiographicAnatomyFindingOrFeature",
+  "id": "dicom-cid-6109-RadiographicAnatomyFindingOrFeature",
+  "description": "Original source of terms is [Fraser and Pare].",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6109-RadiographicAnatomyFindingOrFeature",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.429"
+    }
+  ],
+  "version": "20030108",
+  "title": "Radiographic Anatomy Finding or Feature",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6110-LungAnatomyFindingOrFeature"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6111-BronchovascularAnatomyFindingOrFeature"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6112-PleuraAnatomyFindingOrFeature"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6113-MediastinumAnatomyFindingOrFeature"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6114-OsseousAnatomyFindingOrFeature"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6116-MuscularAnatomy"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6117-VascularAnatomy"
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112082",
+            "display": "Interface"
+          },
+          {
+            "code": "112083",
+            "display": "Line"
+          },
+          {
+            "code": "112084",
+            "display": "Lucency"
+          }
+        ]
+      }
+    ]
+  }
+}

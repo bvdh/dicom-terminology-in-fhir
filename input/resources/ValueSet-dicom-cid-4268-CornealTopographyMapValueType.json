@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CornealTopographyMapValueType",
+  "id": "dicom-cid-4268-CornealTopographyMapValueType",
+  "description": "Corneal Topography Map Value Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4268-CornealTopographyMapValueType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.966"
+    }
+  ],
+  "version": "20131014",
+  "title": "Corneal Topography Map Value Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111940",
+            "display": "Corneal axial power map"
+          },
+          {
+            "code": "111941",
+            "display": "Corneal instantaneous power map"
+          },
+          {
+            "code": "111942",
+            "display": "Corneal refractive power map"
+          },
+          {
+            "code": "111943",
+            "display": "Corneal elevation map"
+          },
+          {
+            "code": "111944",
+            "display": "Corneal wavefront map"
+          }
+        ]
+      }
+    ]
+  }
+}

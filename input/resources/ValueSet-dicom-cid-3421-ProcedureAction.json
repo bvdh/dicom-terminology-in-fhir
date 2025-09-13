@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProcedureAction",
+  "id": "dicom-cid-3421-ProcedureAction",
+  "description": "Procedure Action",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3421-ProcedureAction",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.84"
+    }
+  ],
+  "version": "20030327",
+  "title": "Procedure Action",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121130",
+            "display": "Start Procedure Action"
+          },
+          {
+            "code": "121131",
+            "display": "End Procedure Action"
+          },
+          {
+            "code": "121132",
+            "display": "Suspend Procedure Action"
+          },
+          {
+            "code": "121133",
+            "display": "Resume Procedure Action"
+          }
+        ]
+      }
+    ]
+  }
+}

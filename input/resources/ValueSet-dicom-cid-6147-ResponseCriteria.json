@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ResponseCriteria",
+  "id": "dicom-cid-6147-ResponseCriteria",
+  "description": "Response Criteria",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6147-ResponseCriteria",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1004"
+    }
+  ],
+  "version": "20141110",
+  "title": "Response Criteria",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112029",
+            "display": "WHO"
+          },
+          {
+            "code": "126080",
+            "display": "RECIST 1.0"
+          },
+          {
+            "code": "126081",
+            "display": "RECIST 1.1"
+          }
+        ]
+      },
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "concept": [
+          {
+            "code": "C114879",
+            "display": "RANO"
+          }
+        ]
+      }
+    ]
+  }
+}

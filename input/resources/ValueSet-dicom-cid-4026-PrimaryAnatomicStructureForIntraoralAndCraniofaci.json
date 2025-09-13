@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PrimaryAnatomicStructureForIntraoralAndCraniofacialRadiographyTeeth",
+  "id": "dicom-cid-4026-PrimaryAnatomicStructureForIntraoralAndCraniofaci",
+  "description": "Primary Anatomic Structure for Intra-oral and Craniofacial Radiography - Teeth",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4026-PrimaryAnatomicStructureForIntraoralAndCraniofaci",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1022"
+    }
+  ],
+  "version": "20150318",
+  "title": "Primary Anatomic Structure for Intra-oral and Craniofacial Radiography - Teeth",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4018-PrimaryAnatomicStructureForIntraoralRadiographyPe"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4019-PrimaryAnatomicStructureForIntraoralRadiographyDe"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4025-PrimaryAnatomicStructureForIntraoralRadiographySu"
+        ]
+      }
+    ]
+  }
+}

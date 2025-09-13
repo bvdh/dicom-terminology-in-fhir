@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RTPlanRadiotherapyProcedureTechnique",
+  "id": "dicom-cid-9583-RTPlanRadiotherapyProcedureTechnique",
+  "description": "RT Plan Radiotherapy Procedure Technique",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9583-RTPlanRadiotherapyProcedureTechnique",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1486"
+    }
+  ],
+  "version": "20240616",
+  "title": "RT Plan Radiotherapy Procedure Technique",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9511-GeneralExternalRadiotherapyProcedureTechnique"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9512-TomotherapeuticRadiotherapyProcedureTechnique"
+        ]
+      }
+    ]
+  }
+}

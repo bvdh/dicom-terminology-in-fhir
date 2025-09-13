@@ -1,0 +1,796 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "BenignPathologyCodeFromBIRADS",
+  "id": "dicom-cid-6031-BenignPathologyCodeFromBIRADS",
+  "description": "From BI-RADS Third Edition, with Addendum 3.1 (National Mammography Database,F110)",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6031-BenignPathologyCodeFromBIRADS",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.361"
+    }
+  ],
+  "version": "20250401",
+  "title": "Benign Pathology Code from BI-RADS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "44132006",
+            "display": "Abscess"
+          },
+          {
+            "code": "57597008",
+            "display": "Adenosis"
+          },
+          {
+            "code": "1187375007",
+            "display": "Adenoma"
+          },
+          {
+            "code": "22024005",
+            "display": "Adenolipoma"
+          },
+          {
+            "code": "81274009",
+            "display": "Apocrine Metaplasia"
+          },
+          {
+            "code": "128765009",
+            "display": "Adenomyoepithelioma"
+          },
+          {
+            "code": "37279009",
+            "display": "Amyloid (tumor)"
+          },
+          {
+            "code": "73219006",
+            "display": "Angiolipoma"
+          },
+          {
+            "code": "14350002",
+            "display": "Angiomatosis"
+          },
+          {
+            "code": "130963002",
+            "display": "Asynchronous involution of breast"
+          },
+          {
+            "code": "399294002",
+            "display": "Cyst of breast"
+          },
+          {
+            "code": "31186001",
+            "display": "Chondroma"
+          },
+          {
+            "code": "47488001",
+            "display": "Intracystic papilloma"
+          },
+          {
+            "code": "22049009",
+            "display": "Mammary duct ectasia"
+          },
+          {
+            "code": "67617000",
+            "display": "Ductal hyperplasia, Usual"
+          },
+          {
+            "code": "47284001",
+            "display": "Extra abdominal desmoid"
+          },
+          {
+            "code": "1896004",
+            "display": "Ectopic (accessory) breast tissue"
+          },
+          {
+            "code": "419670003",
+            "display": "Epidermal inclusion cyst"
+          },
+          {
+            "code": "79654002",
+            "display": "Edema"
+          },
+          {
+            "code": "254845004",
+            "display": "Fibroadenoma"
+          },
+          {
+            "code": "37058002",
+            "display": "Foreign body (reaction)"
+          },
+          {
+            "code": "27431007",
+            "display": "Fibrocystic disease of breast"
+          },
+          {
+            "code": "45559001",
+            "display": "Focal fibrosis"
+          },
+          {
+            "code": "19928005",
+            "display": "Fibromatosis"
+          },
+          {
+            "code": "21381006",
+            "display": "Fat necrosis of breast"
+          },
+          {
+            "code": "42385006",
+            "display": "Galactocele"
+          },
+          {
+            "code": "404035005",
+            "display": "Granular cell tumor"
+          },
+          {
+            "code": "34882000",
+            "display": "Giant fibroadenoma"
+          },
+          {
+            "code": "4754008",
+            "display": "Gynecomastia"
+          },
+          {
+            "code": "51398009",
+            "display": "Hamartoma"
+          },
+          {
+            "code": "400210000",
+            "display": "Hemangioma"
+          },
+          {
+            "code": "93473009",
+            "display": "Hemangioma of subcutaneous tissue"
+          },
+          {
+            "code": "56468002",
+            "display": "Hemangioma - venous"
+          },
+          {
+            "code": "35566002",
+            "display": "Hematoma"
+          },
+          {
+            "code": "76197007",
+            "display": "Hyperplasia, usual"
+          },
+          {
+            "code": "77296004",
+            "display": "Infarction of breast"
+          },
+          {
+            "code": "409774005",
+            "display": "Inflammation"
+          },
+          {
+            "code": "443808008",
+            "display": "Intramammary lymph node"
+          },
+          {
+            "code": "5244003",
+            "display": "Intraductal papilloma"
+          },
+          {
+            "code": "46212000",
+            "display": "Juvenile fibroadenoma"
+          },
+          {
+            "code": "128651002",
+            "display": "Lactating adenoma"
+          },
+          {
+            "code": "134328007",
+            "display": "Lipoma"
+          },
+          {
+            "code": "6703006",
+            "display": "Breast lobular hyperplasia"
+          },
+          {
+            "code": "1162890002",
+            "display": "Leiomyoma"
+          },
+          {
+            "code": "59441001",
+            "display": "Lymph node"
+          },
+          {
+            "code": "69954004",
+            "display": "Thrombophlebitis of breast (Mondor's disease)"
+          },
+          {
+            "code": "128738002",
+            "display": "Myofibroblastoma"
+          },
+          {
+            "code": "404029005",
+            "display": "Neurofibroma"
+          },
+          {
+            "code": "81669005",
+            "display": "Neurofibromatosis"
+          },
+          {
+            "code": "1306316005",
+            "display": "Benign neoplasm of nipple"
+          },
+          {
+            "code": "711329002",
+            "display": "Papilloma"
+          },
+          {
+            "code": "8360001",
+            "display": "Pleomorphic adenoma"
+          },
+          {
+            "code": "133855003",
+            "display": "Radial scar"
+          },
+          {
+            "code": "50916005",
+            "display": "Sclerosing adenosis"
+          },
+          {
+            "code": "56021002",
+            "display": "Seroma"
+          },
+          {
+            "code": "12402003",
+            "display": "Scar tissue"
+          },
+          {
+            "code": "444408007",
+            "display": "Tubular adenoma"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "M-41610",
+            "display": "Abscess"
+          },
+          {
+            "code": "M-74200",
+            "display": "Adenosis"
+          },
+          {
+            "code": "M-83240",
+            "display": "Adenolipoma"
+          },
+          {
+            "code": "M-73310",
+            "display": "Apocrine Metaplasia"
+          },
+          {
+            "code": "M-89830",
+            "display": "Adenomyoepithelioma"
+          },
+          {
+            "code": "M-55160",
+            "display": "Amyloid (tumor)"
+          },
+          {
+            "code": "M-88610",
+            "display": "Angiolipoma"
+          },
+          {
+            "code": "M-76100",
+            "display": "Angiomatosis"
+          },
+          {
+            "code": "F-8A063",
+            "display": "Asynchronous involution of breast"
+          },
+          {
+            "code": "D7-90035",
+            "display": "Cyst of breast"
+          },
+          {
+            "code": "M-92200",
+            "display": "Chondroma"
+          },
+          {
+            "code": "M-85040",
+            "display": "Intracystic papilloma"
+          },
+          {
+            "code": "D7-90370",
+            "display": "Mammary duct ectasia"
+          },
+          {
+            "code": "M-72170",
+            "display": "Ductal hyperplasia, Usual"
+          },
+          {
+            "code": "M-88211",
+            "display": "Extra abdominal desmoid"
+          },
+          {
+            "code": "D4-48014",
+            "display": "Ectopic (accessory) breast tissue"
+          },
+          {
+            "code": "M-33415",
+            "display": "Epidermal inclusion cyst"
+          },
+          {
+            "code": "M-36300",
+            "display": "Edema"
+          },
+          {
+            "code": "D7-F0815",
+            "display": "Fibroadenoma"
+          },
+          {
+            "code": "M-44140",
+            "display": "Foreign body (reaction)"
+          },
+          {
+            "code": "D7-90310",
+            "display": "Fibrocystic disease of breast"
+          },
+          {
+            "code": "M-78266",
+            "display": "Focal fibrosis"
+          },
+          {
+            "code": "M-78800",
+            "display": "Fibromatosis"
+          },
+          {
+            "code": "D7-90434",
+            "display": "Fat necrosis of breast"
+          },
+          {
+            "code": "D7-90364",
+            "display": "Galactocele"
+          },
+          {
+            "code": "DF-006C7",
+            "display": "Granular cell tumor"
+          },
+          {
+            "code": "M-90160",
+            "display": "Giant fibroadenoma"
+          },
+          {
+            "code": "D7-90420",
+            "display": "Gynecomastia"
+          },
+          {
+            "code": "M-75500",
+            "display": "Hamartoma"
+          },
+          {
+            "code": "DF-003E5",
+            "display": "Hemangioma"
+          },
+          {
+            "code": "D3-F0620",
+            "display": "Hemangioma of subcutaneous tissue"
+          },
+          {
+            "code": "M-91220",
+            "display": "Hemangioma - venous"
+          },
+          {
+            "code": "M-35060",
+            "display": "Hematoma"
+          },
+          {
+            "code": "M-72000",
+            "display": "Hyperplasia, usual"
+          },
+          {
+            "code": "D7-90452",
+            "display": "Infarction of breast"
+          },
+          {
+            "code": "M-0100C",
+            "display": "Inflammation"
+          },
+          {
+            "code": "T-C430B",
+            "display": "Intramammary lymph node"
+          },
+          {
+            "code": "M-85030",
+            "display": "Intraductal papilloma"
+          },
+          {
+            "code": "M-90300",
+            "display": "Juvenile fibroadenoma"
+          },
+          {
+            "code": "M-82040",
+            "display": "Lactating adenoma"
+          },
+          {
+            "code": "R-000F0",
+            "display": "Lipoma"
+          },
+          {
+            "code": "D7-90428",
+            "display": "Breast lobular hyperplasia"
+          },
+          {
+            "code": "T-C4000",
+            "display": "Lymph node"
+          },
+          {
+            "code": "D3-87780",
+            "display": "Thrombophlebitis of breast (Mondor's disease)"
+          },
+          {
+            "code": "M-88250",
+            "display": "Myofibroblastoma"
+          },
+          {
+            "code": "DF-006C1",
+            "display": "Neurofibroma"
+          },
+          {
+            "code": "M-95401",
+            "display": "Neurofibromatosis"
+          },
+          {
+            "code": "DF-11510",
+            "display": "Papilloma"
+          },
+          {
+            "code": "M-89400",
+            "display": "Pleomorphic adenoma"
+          },
+          {
+            "code": "M-78731",
+            "display": "Radial scar"
+          },
+          {
+            "code": "M-74220",
+            "display": "Sclerosing adenosis"
+          },
+          {
+            "code": "M-36050",
+            "display": "Seroma"
+          },
+          {
+            "code": "M-78060",
+            "display": "Scar tissue"
+          },
+          {
+            "code": "DF-00BB4",
+            "display": "Tubular adenoma"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0000833",
+            "display": "Abscess"
+          },
+          {
+            "code": "C0334050",
+            "display": "Adenosis"
+          },
+          {
+            "code": "C0001430",
+            "display": "Adenoma"
+          },
+          {
+            "code": "C0334325",
+            "display": "Adenolipoma"
+          },
+          {
+            "code": "C0269252",
+            "display": "Apocrine Metaplasia"
+          },
+          {
+            "code": "C1266146",
+            "display": "Adenomyoepithelioma"
+          },
+          {
+            "code": "C0333572",
+            "display": "Amyloid (tumor)"
+          },
+          {
+            "code": "C0206632",
+            "display": "Angiolipoma"
+          },
+          {
+            "code": "C0002992",
+            "display": "Angiomatosis"
+          },
+          {
+            "code": "C1295577",
+            "display": "Asynchronous involution of breast"
+          },
+          {
+            "code": "C0006144",
+            "display": "Cyst of breast"
+          },
+          {
+            "code": "C0936248",
+            "display": "Chondroma"
+          },
+          {
+            "code": "C0334374",
+            "display": "Intracystic papilloma"
+          },
+          {
+            "code": "C0152442",
+            "display": "Mammary duct ectasia"
+          },
+          {
+            "code": "C0333994",
+            "display": "Ductal hyperplasia, Usual"
+          },
+          {
+            "code": "C0079218",
+            "display": "Extra abdominal desmoid"
+          },
+          {
+            "code": "C0266012",
+            "display": "Ectopic (accessory) breast tissue"
+          },
+          {
+            "code": "C0014511",
+            "display": "Epidermal inclusion cyst"
+          },
+          {
+            "code": "C0013604",
+            "display": "Edema"
+          },
+          {
+            "code": "C0178421",
+            "display": "Fibroadenoma"
+          },
+          {
+            "code": "C0016549",
+            "display": "Foreign body (reaction)"
+          },
+          {
+            "code": "C0016034",
+            "display": "Fibrocystic disease of breast"
+          },
+          {
+            "code": "C0521195",
+            "display": "Focal fibrosis"
+          },
+          {
+            "code": "C0016048",
+            "display": "Fibromatosis"
+          },
+          {
+            "code": "C0156321",
+            "display": "Fat necrosis of breast"
+          },
+          {
+            "code": "C0152243",
+            "display": "Galactocele"
+          },
+          {
+            "code": "C0085167",
+            "display": "Granular cell tumor"
+          },
+          {
+            "code": "C0334500",
+            "display": "Giant fibroadenoma"
+          },
+          {
+            "code": "C0018418",
+            "display": "Gynecomastia"
+          },
+          {
+            "code": "C0018552",
+            "display": "Hamartoma"
+          },
+          {
+            "code": "C0018916",
+            "display": "Hemangioma"
+          },
+          {
+            "code": "C0685200",
+            "display": "Hemangioma of subcutaneous tissue"
+          },
+          {
+            "code": "C0334532",
+            "display": "Hemangioma - venous"
+          },
+          {
+            "code": "C0018944",
+            "display": "Hematoma"
+          },
+          {
+            "code": "C0020507",
+            "display": "Hyperplasia, usual"
+          },
+          {
+            "code": "C0269266",
+            "display": "Infarction of breast"
+          },
+          {
+            "code": "C1444073",
+            "display": "Inflammation"
+          },
+          {
+            "code": "C2733350",
+            "display": "Intramammary lymph node"
+          },
+          {
+            "code": "C0206713",
+            "display": "Intraductal papilloma"
+          },
+          {
+            "code": "C0346158",
+            "display": "Juvenile fibroadenoma"
+          },
+          {
+            "code": "C1266023",
+            "display": "Lactating adenoma"
+          },
+          {
+            "code": "C0023798",
+            "display": "Lipoma"
+          },
+          {
+            "code": "C0269263",
+            "display": "Breast lobular hyperplasia"
+          },
+          {
+            "code": "C0042133",
+            "display": "Leiomyoma"
+          },
+          {
+            "code": "C0024204",
+            "display": "Lymph node"
+          },
+          {
+            "code": "C0265070",
+            "display": "Thrombophlebitis of breast (Mondor's disease)"
+          },
+          {
+            "code": "C0242404",
+            "display": "Myofibroblastoma"
+          },
+          {
+            "code": "C0027830",
+            "display": "Neurofibroma"
+          },
+          {
+            "code": "C0162678",
+            "display": "Neurofibromatosis"
+          },
+          {
+            "code": "C1332519",
+            "display": "Benign neoplasm of nipple"
+          },
+          {
+            "code": "C0030354",
+            "display": "Papilloma"
+          },
+          {
+            "code": "C0026277",
+            "display": "Pleomorphic adenoma"
+          },
+          {
+            "code": "C1297883",
+            "display": "Radial scar"
+          },
+          {
+            "code": "C0235590",
+            "display": "Sclerosing adenosis"
+          },
+          {
+            "code": "C0262627",
+            "display": "Seroma"
+          },
+          {
+            "code": "C2004491",
+            "display": "Scar tissue"
+          },
+          {
+            "code": "C0334292",
+            "display": "Tubular adenoma"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111251",
+            "display": "Normal axillary node"
+          },
+          {
+            "code": "111252",
+            "display": "Axillary node with calcifications"
+          },
+          {
+            "code": "111253",
+            "display": "Axillary node hyperplasia"
+          },
+          {
+            "code": "111255",
+            "display": "Benign cyst with blood"
+          },
+          {
+            "code": "111256",
+            "display": "Benign Calcifications"
+          },
+          {
+            "code": "111258",
+            "display": "Ductal adenoma"
+          },
+          {
+            "code": "111259",
+            "display": "Diabetic fibrous mastopathy"
+          },
+          {
+            "code": "111263",
+            "display": "Fibroadenomatoid hyperplasia"
+          },
+          {
+            "code": "111264",
+            "display": "Fibroadenolipoma"
+          },
+          {
+            "code": "111277",
+            "display": "Juvenile papillomatosis"
+          },
+          {
+            "code": "111279",
+            "display": "Lactational change"
+          },
+          {
+            "code": "111281",
+            "display": "Large duct papilloma"
+          },
+          {
+            "code": "111284",
+            "display": "Microglandular adenosis"
+          },
+          {
+            "code": "111285",
+            "display": "Multiple Intraductal Papillomas"
+          },
+          {
+            "code": "111286",
+            "display": "No abnormality"
+          },
+          {
+            "code": "111287",
+            "display": "Normal breast tissue"
+          },
+          {
+            "code": "111290",
+            "display": "Oil cyst (fat necrosis cyst)"
+          },
+          {
+            "code": "111291",
+            "display": "Post reduction mammoplasty"
+          },
+          {
+            "code": "111292",
+            "display": "Pseudoangiomatous stromal hyperplasia"
+          },
+          {
+            "code": "111296",
+            "display": "Silicone granuloma"
+          },
+          {
+            "code": "111298",
+            "display": "Virginal hyperplasia"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProcedureModifiersForBreast",
+  "id": "dicom-cid-6058-ProcedureModifiersForBreast",
+  "description": "Procedure Modifiers for Breast",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6058-ProcedureModifiersForBreast",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.387"
+    }
+  ],
+  "version": "20050822",
+  "title": "Procedure Modifiers for Breast",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6059-BreastImplantType"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6060-BreastBiopsyTechnique"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6061-BreastImagingProcedureModifier"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12224-UltrasoundImageMode"
+        ]
+      }
+    ]
+  }
+}

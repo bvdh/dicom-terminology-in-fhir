@@ -1,0 +1,114 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiovascularAnatomicStructureModifier",
+  "id": "dicom-cid-3019-CardiovascularAnatomicStructureModifier",
+  "description": "Cardiovascular Anatomic Structure Modifier",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3019-CardiovascularAnatomicStructureModifier",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.49"
+    }
+  ],
+  "version": "20240611",
+  "title": "Cardiovascular Anatomic Structure Modifier",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-247-LateralityLeftRightOnly"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-212-GenericAnatomicLocationModifier"
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "128948006",
+            "display": "Graft to distal anastomosis"
+          },
+          {
+            "code": "128949003",
+            "display": "Graft to proximal anastomosis"
+          },
+          {
+            "code": "264114003",
+            "display": "Ostium"
+          },
+          {
+            "code": "361097006",
+            "display": "Entire Vessel"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-D872",
+            "display": "Graft to distal anastomosis"
+          },
+          {
+            "code": "G-D871",
+            "display": "Graft to proximal anastomosis"
+          },
+          {
+            "code": "R-4215C",
+            "display": "Ostium"
+          },
+          {
+            "code": "T-40003",
+            "display": "Entire Vessel"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1264697",
+            "display": "Graft to distal anastomosis"
+          },
+          {
+            "code": "C1264696",
+            "display": "Graft to proximal anastomosis"
+          },
+          {
+            "code": "C0444567",
+            "display": "Ostium"
+          },
+          {
+            "code": "C1283786",
+            "display": "Entire Vessel"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122101",
+            "display": "Aneurysm on cited vessel"
+          },
+          {
+            "code": "122102",
+            "display": "Graft to cited segment, proximal section"
+          },
+          {
+            "code": "122103",
+            "display": "Graft to cited segment, mid section"
+          },
+          {
+            "code": "122104",
+            "display": "Graft to cited segment, distal section"
+          }
+        ]
+      }
+    ]
+  }
+}

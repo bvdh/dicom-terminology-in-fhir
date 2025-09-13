@@ -1,0 +1,185 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "DICOMVRencodings",
+  "id": "dicom-vr-encodings",
+  "title": "DICOM® Value Representations",
+  "description": "DICOM® Value Representations extractd from (DICOM PS5.6.2 Table A-1)[https://dicom.nema.org/dicom/2013/output/chtml/part05/sect_6.2.html].",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-vr-encodings",
+  "concept": [
+    {
+      "code": "ApplicationEntity",
+      "display": "Application Entity",
+      "definition": "A string of characters that identifies an Application Entity with leading and trailing spaces (20H) being non-significant. A Value consisting solely of spaces shall not be used.\nDefault Character Repertoire excluding character code 5CH (the BACKSLASH \\ in ISO-IR 6), and all control characters."
+    },
+    {
+      "code": "AgeString",
+      "display": "Age String",
+      "definition": "Example: 018M would represent an age of 18 months.\n0-9, D, W, M, Y of Default Character Repertoire"
+    },
+    {
+      "code": "AttributeTag",
+      "display": "Attribute Tag",
+      "definition": "The encoding of an AT Value is exactly the same as the encoding of a Data Element Tag as defined in\nnot applicable"
+    },
+    {
+      "code": "CodeString",
+      "display": "Code String",
+      "definition": "Alternatively, in the context of a Query with Empty Value Matching (see\nIn the context of a Query with Empty Value Matching (see"
+    },
+    {
+      "code": "Date",
+      "display": "Date",
+      "definition": "Alternatively, in the context of a Query with Empty Value Matching (see\nIn the context of a Query with Empty Value Matching (see"
+    },
+    {
+      "code": "DecimalString",
+      "display": "Decimal String",
+      "definition": "Data Elements with multiple Values using this VR may not be properly encoded if Explicit-VR Transfer Syntax is used and the VL of this Data Element exceeds 65534 bytes.\n0-9, +, -, E, e, . and the SPACE character of Default Character Repertoire"
+    },
+    {
+      "code": "DateTime",
+      "display": "Date Time",
+      "definition": "The offset may be included regardless of null components; e.g., 2007-0500 is a legal Value.\nIn the context of a Query with Empty Value Matching (see"
+    },
+    {
+      "code": "FloatingPointSingle",
+      "display": "Floating Point Single",
+      "definition": "Single precision binary floating point value represented in\nnot applicable"
+    },
+    {
+      "code": "FloatingPointDouble",
+      "display": "Floating Point Double",
+      "definition": "Double precision binary floating point value represented in\nnot applicable"
+    },
+    {
+      "code": "IntegerString",
+      "display": "Integer String",
+      "definition": "- 2\n0-9, +, - and the SPACE character of Default Character Repertoire"
+    },
+    {
+      "code": "LongString",
+      "display": "Long String",
+      "definition": "A character string that may be padded with leading and/or trailing spaces. The character code 5CH (the BACKSLASH \\ in ISO-IR 6) shall not be present, as it is used as the delimiter between Values in multi-valued Data Elements. The string shall not have Control Characters except for ESC.\nDefault Character Repertoire and/or as defined by (0008,0005) excluding character code 5CH (the BACKSLASH \\ in ISO-IR 6), and all Control Characters except ESC when used for"
+    },
+    {
+      "code": "LongText",
+      "display": "Long Text",
+      "definition": "A character string that may contain one or more paragraphs. It may contain the Graphic Character set and the Control Characters, TAB (see\nDefault Character Repertoire and/or as defined by (0008,0005) excluding Control Characters except TAB, LF, FF, CR (and ESC when used for"
+    },
+    {
+      "code": "OtherByte",
+      "display": "Other Byte",
+      "definition": "An octet-stream where the encoding of the contents is specified by the negotiated Transfer Syntax. OB is a VR that is insensitive to byte ordering (see\nnot applicable"
+    },
+    {
+      "code": "OtherDouble",
+      "display": "Other Double",
+      "definition": "A stream of\nnot applicable"
+    },
+    {
+      "code": "OtherFloat",
+      "display": "Other Float",
+      "definition": "A stream of\nnot applicable"
+    },
+    {
+      "code": "OtherLong",
+      "display": "Other Long",
+      "definition": "A stream of 32-bit words where the encoding of the contents is specified by the negotiated Transfer Syntax. OL is a VR that requires byte swapping within each word when changing byte ordering (see\nnot applicable"
+    },
+    {
+      "code": "Other64-bitVeryLong",
+      "display": "Other 64-bit Very Long",
+      "definition": "A stream of 64-bit words where the encoding of the contents is specified by the negotiated Transfer Syntax. OV is a VR that requires byte swapping within each word when changing byte ordering (see\nnot applicable"
+    },
+    {
+      "code": "OtherWord",
+      "display": "Other Word",
+      "definition": "A stream of 16-bit words where the encoding of the contents is specified by the negotiated Transfer Syntax. OW is a VR that requires byte swapping within each word when changing byte ordering (see\nnot applicable"
+    },
+    {
+      "code": "PersonName",
+      "display": "Person Name",
+      "definition": "For examples and notes, see\nDefault Character Repertoire and/or as defined by (0008,0005) excluding character code 5CH (the BACKSLASH \\ in ISO-IR 6) and all Control Characters except ESC when used for"
+    },
+    {
+      "code": "ShortString",
+      "display": "Short String",
+      "definition": "A character string that may be padded with leading and/or trailing spaces. The character code 05CH (the BACKSLASH \\ in ISO-IR 6) shall not be present, as it is used as the delimiter between Values for multi-valued Data Elements. The string shall not have Control Characters except ESC.\nDefault Character Repertoire and/or as defined by (0008,0005) excluding character code 5CH (the BACKSLASH \\ in ISO-IR 6) and all Control Characters except ESC when used for"
+    },
+    {
+      "code": "SignedLong",
+      "display": "Signed Long",
+      "definition": "- 2\nnot applicable"
+    },
+    {
+      "code": "SequenceOfItems",
+      "display": "Sequence of Items",
+      "definition": "Value is a Sequence of zero or more Items, as defined in\nnot applicable (see"
+    },
+    {
+      "code": "SignedShort",
+      "display": "Signed Short",
+      "definition": "- 2\nnot applicable"
+    },
+    {
+      "code": "ShortText",
+      "display": "Short Text",
+      "definition": "A character string that may contain one or more paragraphs. It may contain the Graphic Character set and the Control Characters, TAB (see\nDefault Character Repertoire and/or as defined by (0008,0005) excluding Control Characters except TAB, LF, FF, CR (and ESC when used for"
+    },
+    {
+      "code": "Signed64-bitVeryLong",
+      "display": "Signed 64-bit Very Long",
+      "definition": "- 2\nnot applicable"
+    },
+    {
+      "code": "Time",
+      "display": "Time",
+      "definition": "Alternatively, in the context of a Query with Empty Value Matching (see\nIn the context of a Query with Empty Value Matching (see"
+    },
+    {
+      "code": "UnlimitedCharacters",
+      "display": "Unlimited Characters",
+      "definition": "A character string that may be of unlimited length that may be padded with trailing spaces. The character code 5CH (the BACKSLASH \\ in ISO-IR 6) shall not be present, as it is used as the delimiter between Values in multi-valued Data Elements. The string shall not have Control Characters except for ESC.\nDefault Character Repertoire and/or as defined by (0008,0005) excluding character code 5CH (the BACKSLASH \\ in ISO-IR 6), and all Control Characters except ESC when used for"
+    },
+    {
+      "code": "UniqueIdentifier(uid)",
+      "display": "Unique Identifier (UID)",
+      "definition": "A character string containing a UID that is used to uniquely identify a wide variety of items. The UID is a series of numeric components separated by the period . character. If a Value Field containing one or more UIDs is an odd number of bytes in length, the Value Field shall be padded with a single trailing NULL (00H) character to ensure that the Value Field is an even number of bytes in length. See\n0-9, . of Default Character Repertoire"
+    },
+    {
+      "code": "UnsignedLong",
+      "display": "Unsigned Long",
+      "definition": "0 <= n <= (2\nnot applicable"
+    },
+    {
+      "code": "Unknown",
+      "display": "Unknown",
+      "definition": "An octet-stream where the encoding of the contents is unknown (see\nnot applicable"
+    },
+    {
+      "code": "UniversalResourceIdentifierOrUniversalResourceLocator(uri/url)",
+      "display": "Universal Resource Identifier or Universal Resource Locator (URI/URL)",
+      "definition": "Both absolute and relative URIs are permitted.\n    If the URI is relative, then it is relative to the base URI of the object within which it is contained, or to a base URI in another Attribute as specified by the Information Object Definition.\nIn the context of a Query with Empty Value Matching (see"
+    },
+    {
+      "code": "UnsignedShort",
+      "display": "Unsigned Short",
+      "definition": "0 <= n <= (2\nnot applicable"
+    },
+    {
+      "code": "UnlimitedText",
+      "display": "Unlimited Text",
+      "definition": "A character string that may contain one or more paragraphs. It may contain the Graphic Character set and the Control Characters, TAB (see\nDefault Character Repertoire and/or as defined by (0008,0005) excluding Control Characters except TAB, LF, FF, CR (and ESC when used for"
+    },
+    {
+      "code": "Unsigned64-bitVeryLong",
+      "display": "Unsigned 64-bit Very Long",
+      "definition": "0 <= n <= (2\nnot applicable"
+    }
+  ],
+  "caseSensitive": true,
+  "experimental": false,
+  "count": 34
+}

@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "T1MeasurementMethod",
+  "id": "dicom-cid-4100-T1MeasurementMethod",
+  "description": "T1 Measurement Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4100-T1MeasurementMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.985"
+    }
+  ],
+  "version": "20141110",
+  "title": "T1 Measurement Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "126350",
+            "display": "T1 by Multiple Flip Angles"
+          },
+          {
+            "code": "126351",
+            "display": "T1 by Inversion Recovery"
+          },
+          {
+            "code": "126352",
+            "display": "T1 by Fixed Value"
+          }
+        ]
+      }
+    ]
+  }
+}

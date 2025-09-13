@@ -1,0 +1,9 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid633",
+  "id": "dicom-cid633",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid633",
+  "version": "None",
+  "title": "Phase of Imaging Procedure Requiring Anesthesia (Retired)"
+}

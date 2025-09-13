@@ -1,0 +1,439 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PediatricFetalAndCongenitalCardiacSurgicalIntervention",
+  "id": "dicom-cid-12247-PediatricFetalAndCongenitalCardiacSurgicalInterv",
+  "description": "Pediatric, Fetal and Congenital Cardiac Surgical Intervention",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12247-PediatricFetalAndCongenitalCardiacSurgicalInterv",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.828"
+    }
+  ],
+  "version": "20160314",
+  "title": "Pediatric, Fetal and Congenital Cardiac Surgical Intervention",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "174826008",
+            "display": "Arterial switch operation"
+          },
+          {
+            "code": "1179121008",
+            "display": "Insertion of atrial baffle"
+          },
+          {
+            "code": "261537001",
+            "display": "Insertion of interatrial baffle"
+          },
+          {
+            "code": "112811009",
+            "display": "Atrial septal defect repair"
+          },
+          {
+            "code": "30123000",
+            "display": "Percutaneous prosthetic closure of atrial septal defect"
+          },
+          {
+            "code": "174836000",
+            "display": "Repair of defect of the atrioventricular septum"
+          },
+          {
+            "code": "13662000",
+            "display": "Blalock-Taussig shunt, pulmonary-subclavian artery anastomosis"
+          },
+          {
+            "code": "233224003",
+            "display": "Central aortopulmonary shunt operation"
+          },
+          {
+            "code": "274022008",
+            "display": "Repair of coarctation of aorta"
+          },
+          {
+            "code": "308696000",
+            "display": "Coarctation of the Aorta Balloon Angioplasty"
+          },
+          {
+            "code": "443829004",
+            "display": "Coarctation of the Aorta Angioplasty with Implant of Stent"
+          },
+          {
+            "code": "233134001",
+            "display": "Damus-Stansel-Kaye operation"
+          },
+          {
+            "code": "233022006",
+            "display": "Creation of conduit right atrium to pulmonary trunk"
+          },
+          {
+            "code": "427886002",
+            "display": "Lateral-Caval Fontan procedure"
+          },
+          {
+            "code": "233230003",
+            "display": "Hemi-Fontan operation"
+          },
+          {
+            "code": "444178004",
+            "display": "Left Glenn shunt procedure"
+          },
+          {
+            "code": "443989003",
+            "display": "Left-sided bidirectional Glenn shunt procedure"
+          },
+          {
+            "code": "40250003",
+            "display": "Mustard operation"
+          },
+          {
+            "code": "233139006",
+            "display": "Norwood type operation"
+          },
+          {
+            "code": "233199008",
+            "display": "Closure of ductus arteriosus with clip"
+          },
+          {
+            "code": "441676000",
+            "display": "Patent ductus arteriosus coil or device closure"
+          },
+          {
+            "code": "174900004",
+            "display": "Partial anomalous pulmonary venous connection operation"
+          },
+          {
+            "code": "44777001",
+            "display": "Rastelli operation"
+          },
+          {
+            "code": "444001009",
+            "display": "Right Glenn shunt procedure"
+          },
+          {
+            "code": "444034006",
+            "display": "Right-sided bidirectional Glenn shunt procedure"
+          },
+          {
+            "code": "429620002",
+            "display": "Construction of LV to aorta tunnel w RV to PA valved conduit"
+          },
+          {
+            "code": "429616001",
+            "display": "Radical aortopulmonary reconstruct w RV to PA valveless conduit"
+          },
+          {
+            "code": "442123009",
+            "display": "Sano procedure"
+          },
+          {
+            "code": "174822005",
+            "display": "Atrial inversion operation using atrial wall"
+          },
+          {
+            "code": "174830006",
+            "display": "Repair of total anomalous pulmonary venous connection"
+          },
+          {
+            "code": "47432005",
+            "display": "Implantation of heart valve prosthesis or synthetic device"
+          },
+          {
+            "code": "37153009",
+            "display": "Implantation of heart valve with tissue graft"
+          },
+          {
+            "code": "76025005",
+            "display": "Correction of ventricular septal defect"
+          },
+          {
+            "code": "89814007",
+            "display": "Ventricular septal defect device closure"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "P1-31919",
+            "display": "Arterial switch operation"
+          },
+          {
+            "code": "P1-31015",
+            "display": "Insertion of interatrial baffle"
+          },
+          {
+            "code": "P1-31872",
+            "display": "Atrial septal defect repair"
+          },
+          {
+            "code": "P1-31846",
+            "display": "Percutaneous prosthetic closure of atrial septal defect"
+          },
+          {
+            "code": "P1-31037",
+            "display": "Repair of defect of the atrioventricular septum"
+          },
+          {
+            "code": "P1-36957",
+            "display": "Blalock-Taussig shunt, pulmonary-subclavian artery anastomosis"
+          },
+          {
+            "code": "P1-36956",
+            "display": "Central aortopulmonary shunt operation"
+          },
+          {
+            "code": "P1-34001",
+            "display": "Repair of coarctation of aorta"
+          },
+          {
+            "code": "P5-39106",
+            "display": "Coarctation of the Aorta Balloon Angioplasty"
+          },
+          {
+            "code": "P0-06135",
+            "display": "Coarctation of the Aorta Angioplasty with Implant of Stent"
+          },
+          {
+            "code": "P1-31088",
+            "display": "Damus-Stansel-Kaye operation"
+          },
+          {
+            "code": "P1-31028",
+            "display": "Creation of conduit right atrium to pulmonary trunk"
+          },
+          {
+            "code": "P1-36993",
+            "display": "Lateral-Caval Fontan procedure"
+          },
+          {
+            "code": "P1-3696A",
+            "display": "Hemi-Fontan operation"
+          },
+          {
+            "code": "P1-36997",
+            "display": "Left Glenn shunt procedure"
+          },
+          {
+            "code": "P1-36994",
+            "display": "Left-sided bidirectional Glenn shunt procedure"
+          },
+          {
+            "code": "P1-31917",
+            "display": "Mustard operation"
+          },
+          {
+            "code": "P1-31089",
+            "display": "Norwood type operation"
+          },
+          {
+            "code": "P0-057E8",
+            "display": "Closure of ductus arteriosus with clip"
+          },
+          {
+            "code": "P0-00E0B",
+            "display": "Patent ductus arteriosus coil or device closure"
+          },
+          {
+            "code": "P1-38803",
+            "display": "Partial anomalous pulmonary venous connection operation"
+          },
+          {
+            "code": "P1-31920",
+            "display": "Rastelli operation"
+          },
+          {
+            "code": "P1-36995",
+            "display": "Right Glenn shunt procedure"
+          },
+          {
+            "code": "P1-36996",
+            "display": "Right-sided bidirectional Glenn shunt procedure"
+          },
+          {
+            "code": "P0-00C6B",
+            "display": "Construction of LV to aorta tunnel w RV to PA valved conduit"
+          },
+          {
+            "code": "P1-30A31",
+            "display": "Radical aortopulmonary reconstruct w RV to PA valveless conduit"
+          },
+          {
+            "code": "P1-3180D",
+            "display": "Sano procedure"
+          },
+          {
+            "code": "P1-31003",
+            "display": "Atrial inversion operation using atrial wall"
+          },
+          {
+            "code": "P0-0530F",
+            "display": "Repair of total anomalous pulmonary venous connection"
+          },
+          {
+            "code": "P1-32504",
+            "display": "Implantation of heart valve prosthesis or synthetic device"
+          },
+          {
+            "code": "P1-32502",
+            "display": "Implantation of heart valve with tissue graft"
+          },
+          {
+            "code": "P1-31876",
+            "display": "Correction of ventricular septal defect"
+          },
+          {
+            "code": "P1-31850",
+            "display": "Ventricular septal defect device closure"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0397344",
+            "display": "Arterial switch operation"
+          },
+          {
+            "code": "C5568028",
+            "display": "Insertion of atrial baffle"
+          },
+          {
+            "code": "C0442913",
+            "display": "Insertion of interatrial baffle"
+          },
+          {
+            "code": "C0189965",
+            "display": "Atrial septal defect repair"
+          },
+          {
+            "code": "C0456837",
+            "display": "Percutaneous prosthetic closure of atrial septal defect"
+          },
+          {
+            "code": "C0397243",
+            "display": "Repair of defect of the atrioventricular septum"
+          },
+          {
+            "code": "C0397560",
+            "display": "Blalock-Taussig shunt, pulmonary-subclavian artery anastomosis"
+          },
+          {
+            "code": "C0397538",
+            "display": "Central aortopulmonary shunt operation"
+          },
+          {
+            "code": "C0558326",
+            "display": "Repair of coarctation of aorta"
+          },
+          {
+            "code": "C0553938",
+            "display": "Coarctation of the Aorta Balloon Angioplasty"
+          },
+          {
+            "code": "C2732719",
+            "display": "Coarctation of the Aorta Angioplasty with Implant of Stent"
+          },
+          {
+            "code": "C0397356",
+            "display": "Damus-Stansel-Kaye operation"
+          },
+          {
+            "code": "C0397204",
+            "display": "Creation of conduit right atrium to pulmonary trunk"
+          },
+          {
+            "code": "C1997148",
+            "display": "Lateral-Caval Fontan procedure"
+          },
+          {
+            "code": "C0600403",
+            "display": "Hemi-Fontan operation"
+          },
+          {
+            "code": "C2732994",
+            "display": "Left Glenn shunt procedure"
+          },
+          {
+            "code": "C2732993",
+            "display": "Left-sided bidirectional Glenn shunt procedure"
+          },
+          {
+            "code": "C1306542",
+            "display": "Mustard operation"
+          },
+          {
+            "code": "C0397362",
+            "display": "Norwood type operation"
+          },
+          {
+            "code": "C0397497",
+            "display": "Closure of ductus arteriosus with clip"
+          },
+          {
+            "code": "C2711684",
+            "display": "Patent ductus arteriosus coil or device closure"
+          },
+          {
+            "code": "C0397156",
+            "display": "Partial anomalous pulmonary venous connection operation"
+          },
+          {
+            "code": "C0339891",
+            "display": "Rastelli operation"
+          },
+          {
+            "code": "C2732324",
+            "display": "Right Glenn shunt procedure"
+          },
+          {
+            "code": "C2733094",
+            "display": "Right-sided bidirectional Glenn shunt procedure"
+          },
+          {
+            "code": "C1996934",
+            "display": "Construction of LV to aorta tunnel w RV to PA valved conduit"
+          },
+          {
+            "code": "C1997834",
+            "display": "Radical aortopulmonary reconstruct w RV to PA valveless conduit"
+          },
+          {
+            "code": "C2711052",
+            "display": "Sano procedure"
+          },
+          {
+            "code": "C0339890",
+            "display": "Atrial inversion operation using atrial wall"
+          },
+          {
+            "code": "C0397150",
+            "display": "Repair of total anomalous pulmonary venous connection"
+          },
+          {
+            "code": "C0190100",
+            "display": "Implantation of heart valve prosthesis or synthetic device"
+          },
+          {
+            "code": "C0190099",
+            "display": "Implantation of heart valve with tissue graft"
+          },
+          {
+            "code": "C0189969",
+            "display": "Correction of ventricular septal defect"
+          },
+          {
+            "code": "C0397314",
+            "display": "Ventricular septal defect device closure"
+          }
+        ]
+      }
+    ]
+  }
+}

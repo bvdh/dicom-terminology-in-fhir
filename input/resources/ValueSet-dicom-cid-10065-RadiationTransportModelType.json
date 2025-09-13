@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiationTransportModelType",
+  "id": "dicom-cid-10065-RadiationTransportModelType",
+  "description": "Radiation Transport Model Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10065-RadiationTransportModelType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1159"
+    }
+  ],
+  "version": "20170405",
+  "title": "Radiation Transport Model Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128421",
+            "display": "Geometric Radiation Transport Model"
+          },
+          {
+            "code": "128422",
+            "display": "Voxelized Radiation Transport Model"
+          },
+          {
+            "code": "128423",
+            "display": "Mesh Radiation Transport Model"
+          },
+          {
+            "code": "128424",
+            "display": "NURBS Radiation Transport Model"
+          },
+          {
+            "code": "128497",
+            "display": "Measured Radiation Dose"
+          },
+          {
+            "code": "128406",
+            "display": "BREP Radiation Transport Model"
+          }
+        ]
+      }
+    ]
+  }
+}

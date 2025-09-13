@@ -1,0 +1,865 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "DICOMSOPClassesCodeSystem",
+  "id": "dicom-sop-classes-codesystem",
+  "title": "DICOM® SOP Classes",
+  "description": "DICOM® SOP Classes extracted from DICOM PS3.6 Table A-1.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-sop-classes-codesystem",
+  "concept": [
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.1",
+      "display": "Computed Radiography Image Storage",
+      "definition": "Computed Radiography Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.1.1",
+      "display": "Digital X-Ray Image Storage - For Presentation",
+      "definition": "Digital X-Ray Image Storage - For Presentation from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.1.1.1",
+      "display": "Digital X-Ray Image Storage - For Processing",
+      "definition": "Digital X-Ray Image Storage - For Processing from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.1.2",
+      "display": "Digital Mammography X-Ray Image Storage - For Presentation",
+      "definition": "Digital Mammography X-Ray Image Storage - For Presentation from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.1.2.1",
+      "display": "Digital Mammography X-Ray Image Storage - For Processing",
+      "definition": "Digital Mammography X-Ray Image Storage - For Processing from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.1.3",
+      "display": "Digital Intra-Oral X-Ray Image Storage - For Presentation",
+      "definition": "Digital Intra-Oral X-Ray Image Storage - For Presentation from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.1.3.1",
+      "display": "Digital Intra-Oral X-Ray Image Storage - For Processing",
+      "definition": "Digital Intra-Oral X-Ray Image Storage - For Processing from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.2",
+      "display": "CT Image Storage",
+      "definition": "CT Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.2.1",
+      "display": "Enhanced CT Image Storage",
+      "definition": "Enhanced CT Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.2.2",
+      "display": "Legacy Converted Enhanced CT Image Storage",
+      "definition": "Legacy Converted Enhanced CT Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.3.1",
+      "display": "Ultrasound Multi-frame Image Storage",
+      "definition": "Ultrasound Multi-frame Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.4",
+      "display": "MR Image Storage",
+      "definition": "MR Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.4.1",
+      "display": "Enhanced MR Image Storage",
+      "definition": "Enhanced MR Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.4.2",
+      "display": "MR Spectroscopy Storage",
+      "definition": "MR Spectroscopy Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.4.3",
+      "display": "Enhanced MR Color Image Storage",
+      "definition": "Enhanced MR Color Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.4.4",
+      "display": "Legacy Converted Enhanced MR Image Storage",
+      "definition": "Legacy Converted Enhanced MR Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.6.1",
+      "display": "Ultrasound Image Storage",
+      "definition": "Ultrasound Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.6.2",
+      "display": "Enhanced US Volume Storage",
+      "definition": "Enhanced US Volume Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.6.3",
+      "display": "Photoacoustic Image Storage",
+      "definition": "Photoacoustic Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.7",
+      "display": "Secondary Capture Image Storage",
+      "definition": "Secondary Capture Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.7.1",
+      "display": "Multi-frame Single Bit Secondary Capture Image Storage",
+      "definition": "Multi-frame Single Bit Secondary Capture Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.7.2",
+      "display": "Multi-frame Grayscale Byte Secondary Capture Image Storage",
+      "definition": "Multi-frame Grayscale Byte Secondary Capture Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.7.3",
+      "display": "Multi-frame Grayscale Word Secondary Capture Image Storage",
+      "definition": "Multi-frame Grayscale Word Secondary Capture Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.7.4",
+      "display": "Multi-frame True Color Secondary Capture Image Storage",
+      "definition": "Multi-frame True Color Secondary Capture Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.1.1",
+      "display": "12-lead ECG Waveform Storage",
+      "definition": "12-lead ECG Waveform Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.1.2",
+      "display": "General ECG Waveform Storage",
+      "definition": "General ECG Waveform Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.1.3",
+      "display": "Ambulatory ECG Waveform Storage",
+      "definition": "Ambulatory ECG Waveform Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.1.4",
+      "display": "General 32-bit ECG Waveform Storage",
+      "definition": "General 32-bit ECG Waveform Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.2.1",
+      "display": "Hemodynamic Waveform Storage",
+      "definition": "Hemodynamic Waveform Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.3.1",
+      "display": "Cardiac Electrophysiology Waveform Storage",
+      "definition": "Cardiac Electrophysiology Waveform Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.4.1",
+      "display": "Basic Voice Audio Waveform Storage",
+      "definition": "Basic Voice Audio Waveform Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.4.2",
+      "display": "General Audio Waveform Storage",
+      "definition": "General Audio Waveform Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.5.1",
+      "display": "Arterial Pulse Waveform Storage",
+      "definition": "Arterial Pulse Waveform Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.6.1",
+      "display": "Respiratory Waveform Storage",
+      "definition": "Respiratory Waveform Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.6.2",
+      "display": "Multi-channel Respiratory Waveform Storage",
+      "definition": "Multi-channel Respiratory Waveform Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.7.1",
+      "display": "Routine Scalp Electroencephalogram Waveform Storage",
+      "definition": "Routine Scalp Electroencephalogram Waveform Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.7.2",
+      "display": "Electromyogram Waveform Storage",
+      "definition": "Electromyogram Waveform Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.7.3",
+      "display": "Electrooculogram Waveform Storage",
+      "definition": "Electrooculogram Waveform Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.7.4",
+      "display": "Sleep Electroencephalogram Waveform Storage",
+      "definition": "Sleep Electroencephalogram Waveform Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.8.1",
+      "display": "Body Position Waveform Storage",
+      "definition": "Body Position Waveform Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.100.1",
+      "display": "Waveform Presentation State Storage",
+      "definition": "Waveform Presentation State Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.9.100.2",
+      "display": "Waveform Acquisition Presentation State Storage",
+      "definition": "Waveform Acquisition Presentation State Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.11.1",
+      "display": "Grayscale Softcopy Presentation State Storage",
+      "definition": "Grayscale Softcopy Presentation State Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.11.2",
+      "display": "Color Softcopy Presentation State Storage",
+      "definition": "Color Softcopy Presentation State Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.11.3",
+      "display": "Pseudo-Color Softcopy Presentation State Storage",
+      "definition": "Pseudo-Color Softcopy Presentation State Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.11.4",
+      "display": "Blending Softcopy Presentation State Storage",
+      "definition": "Blending Softcopy Presentation State Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.11.5",
+      "display": "XA/XRF Grayscale Softcopy Presentation State Storage",
+      "definition": "XA/XRF Grayscale Softcopy Presentation State Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.11.6",
+      "display": "Grayscale Planar MPR Volumetric Presentation State Storage",
+      "definition": "Grayscale Planar MPR Volumetric Presentation State Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.11.7",
+      "display": "Compositing Planar MPR Volumetric Presentation State Storage",
+      "definition": "Compositing Planar MPR Volumetric Presentation State Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.11.8",
+      "display": "Advanced Blending Presentation State Storage",
+      "definition": "Advanced Blending Presentation State Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.11.9",
+      "display": "Volume Rendering Volumetric Presentation State Storage",
+      "definition": "Volume Rendering Volumetric Presentation State Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.11.10",
+      "display": "Segmented Volume Rendering Volumetric Presentation State Storage",
+      "definition": "Segmented Volume Rendering Volumetric Presentation State Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.11.11",
+      "display": "Multiple Volume Rendering Volumetric Presentation State Storage",
+      "definition": "Multiple Volume Rendering Volumetric Presentation State Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.11.12",
+      "display": "Variable Modality LUT Softcopy Presentation State Storage",
+      "definition": "Variable Modality LUT Softcopy Presentation State Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.12.1",
+      "display": "X-Ray Angiographic Image Storage",
+      "definition": "X-Ray Angiographic Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.12.1.1",
+      "display": "Enhanced XA Image Storage",
+      "definition": "Enhanced XA Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.12.2",
+      "display": "X-Ray Radiofluoroscopic Image Storage",
+      "definition": "X-Ray Radiofluoroscopic Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.12.2.1",
+      "display": "Enhanced XRF Image Storage",
+      "definition": "Enhanced XRF Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.13.1.1",
+      "display": "X-Ray 3D Angiographic Image Storage",
+      "definition": "X-Ray 3D Angiographic Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.13.1.2",
+      "display": "X-Ray 3D Craniofacial Image Storage",
+      "definition": "X-Ray 3D Craniofacial Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.13.1.3",
+      "display": "Breast Tomosynthesis Image Storage",
+      "definition": "Breast Tomosynthesis Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.13.1.4",
+      "display": "Breast Projection X-Ray Image Storage - For Presentation",
+      "definition": "Breast Projection X-Ray Image Storage - For Presentation from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.13.1.5",
+      "display": "Breast Projection X-Ray Image Storage - For Processing",
+      "definition": "Breast Projection X-Ray Image Storage - For Processing from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.14.1",
+      "display": "Intravascular Optical Coherence Tomography Image Storage - For Presentation",
+      "definition": "Intravascular Optical Coherence Tomography Image Storage - For Presentation from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.14.2",
+      "display": "Intravascular Optical Coherence Tomography Image Storage - For Processing",
+      "definition": "Intravascular Optical Coherence Tomography Image Storage - For Processing from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.20",
+      "display": "Nuclear Medicine Image Storage",
+      "definition": "Nuclear Medicine Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.30",
+      "display": "Parametric Map Storage",
+      "definition": "Parametric Map Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.66",
+      "display": "Raw Data Storage",
+      "definition": "Raw Data Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.66.1",
+      "display": "Spatial Registration Storage",
+      "definition": "Spatial Registration Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.66.2",
+      "display": "Spatial Fiducials Storage",
+      "definition": "Spatial Fiducials Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.66.3",
+      "display": "Deformable Spatial Registration Storage",
+      "definition": "Deformable Spatial Registration Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.66.4",
+      "display": "Segmentation Storage",
+      "definition": "Segmentation Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.66.5",
+      "display": "Surface Segmentation Storage",
+      "definition": "Surface Segmentation Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.66.6",
+      "display": "Tractography Results Storage",
+      "definition": "Tractography Results Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.66.7",
+      "display": "Label Map Segmentation Storage",
+      "definition": "Label Map Segmentation Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.66.8",
+      "display": "Height Map Segmentation Storage",
+      "definition": "Height Map Segmentation Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.67",
+      "display": "Real World Value Mapping Storage",
+      "definition": "Real World Value Mapping Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.68.1",
+      "display": "Surface Scan Mesh Storage",
+      "definition": "Surface Scan Mesh Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.68.2",
+      "display": "Surface Scan Point Cloud Storage",
+      "definition": "Surface Scan Point Cloud Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.1",
+      "display": "VL Endoscopic Image Storage",
+      "definition": "VL Endoscopic Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.1.1",
+      "display": "Video Endoscopic Image Storage",
+      "definition": "Video Endoscopic Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.2",
+      "display": "VL Microscopic Image Storage",
+      "definition": "VL Microscopic Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.2.1",
+      "display": "Video Microscopic Image Storage",
+      "definition": "Video Microscopic Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.3",
+      "display": "VL Slide-Coordinates Microscopic Image Storage",
+      "definition": "VL Slide-Coordinates Microscopic Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.4",
+      "display": "VL Photographic Image Storage",
+      "definition": "VL Photographic Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.4.1",
+      "display": "Video Photographic Image Storage",
+      "definition": "Video Photographic Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.5.1",
+      "display": "Ophthalmic Photography 8 Bit Image Storage",
+      "definition": "Ophthalmic Photography 8 Bit Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.5.2",
+      "display": "Ophthalmic Photography 16 Bit Image Storage",
+      "definition": "Ophthalmic Photography 16 Bit Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.5.3",
+      "display": "Stereometric Relationship Storage",
+      "definition": "Stereometric Relationship Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.5.4",
+      "display": "Ophthalmic Tomography Image Storage",
+      "definition": "Ophthalmic Tomography Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.5.5",
+      "display": "Wide Field Ophthalmic Photography Stereographic Projection Image Storage",
+      "definition": "Wide Field Ophthalmic Photography Stereographic Projection Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.5.6",
+      "display": "Wide Field Ophthalmic Photography 3D Coordinates Image Storage",
+      "definition": "Wide Field Ophthalmic Photography 3D Coordinates Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.5.7",
+      "display": "Ophthalmic Optical Coherence Tomography En Face Image Storage",
+      "definition": "Ophthalmic Optical Coherence Tomography En Face Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.5.8",
+      "display": "Ophthalmic Optical Coherence Tomography B-scan Volume Analysis Storage",
+      "definition": "Ophthalmic Optical Coherence Tomography B-scan Volume Analysis Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.6",
+      "display": "VL Whole Slide Microscopy Image Storage",
+      "definition": "VL Whole Slide Microscopy Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.7",
+      "display": "Dermoscopic Photography Image Storage",
+      "definition": "Dermoscopic Photography Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.8",
+      "display": "Confocal Microscopy Image Storage",
+      "definition": "Confocal Microscopy Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.77.1.9",
+      "display": "Confocal Microscopy Tiled Pyramidal Image Storage",
+      "definition": "Confocal Microscopy Tiled Pyramidal Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.78.1",
+      "display": "Lensometry Measurements Storage",
+      "definition": "Lensometry Measurements Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.78.2",
+      "display": "Autorefraction Measurements Storage",
+      "definition": "Autorefraction Measurements Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.78.3",
+      "display": "Keratometry Measurements Storage",
+      "definition": "Keratometry Measurements Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.78.4",
+      "display": "Subjective Refraction Measurements Storage",
+      "definition": "Subjective Refraction Measurements Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.78.5",
+      "display": "Visual Acuity Measurements Storage",
+      "definition": "Visual Acuity Measurements Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.78.6",
+      "display": "Spectacle Prescription Report Storage",
+      "definition": "Spectacle Prescription Report Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.78.7",
+      "display": "Ophthalmic Axial Measurements Storage",
+      "definition": "Ophthalmic Axial Measurements Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.78.8",
+      "display": "Intraocular Lens Calculations Storage",
+      "definition": "Intraocular Lens Calculations Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.79.1",
+      "display": "Macular Grid Thickness and Volume Report",
+      "definition": "Macular Grid Thickness and Volume Report from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.80.1",
+      "display": "Ophthalmic Visual Field Static Perimetry Measurements Storage",
+      "definition": "Ophthalmic Visual Field Static Perimetry Measurements Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.81.1",
+      "display": "Ophthalmic Thickness Map Storage",
+      "definition": "Ophthalmic Thickness Map Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.82.1",
+      "display": "Corneal Topography Map Storage",
+      "definition": "Corneal Topography Map Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.11",
+      "display": "Basic Text SR Storage",
+      "definition": "Basic Text SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.22",
+      "display": "Enhanced SR Storage",
+      "definition": "Enhanced SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.33",
+      "display": "Comprehensive SR Storage",
+      "definition": "Comprehensive SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.34",
+      "display": "Comprehensive 3D SR Storage",
+      "definition": "Comprehensive 3D SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.35",
+      "display": "Extensible SR Storage",
+      "definition": "Extensible SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.40",
+      "display": "Procedure Log Storage",
+      "definition": "Procedure Log Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.50",
+      "display": "Mammography CAD SR Storage",
+      "definition": "Mammography CAD SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.59",
+      "display": "Key Object Selection Document Storage",
+      "definition": "Key Object Selection Document Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.65",
+      "display": "Chest CAD SR Storage",
+      "definition": "Chest CAD SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.67",
+      "display": "X-Ray Radiation Dose SR Storage",
+      "definition": "X-Ray Radiation Dose SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.68",
+      "display": "Radiopharmaceutical Radiation Dose SR Storage",
+      "definition": "Radiopharmaceutical Radiation Dose SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.69",
+      "display": "Colon CAD SR Storage",
+      "definition": "Colon CAD SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.70",
+      "display": "Implantation Plan SR Storage",
+      "definition": "Implantation Plan SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.71",
+      "display": "Acquisition Context SR Storage",
+      "definition": "Acquisition Context SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.72",
+      "display": "Simplified Adult Echo SR Storage",
+      "definition": "Simplified Adult Echo SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.73",
+      "display": "Patient Radiation Dose SR Storage",
+      "definition": "Patient Radiation Dose SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.74",
+      "display": "Planned Imaging Agent Administration SR Storage",
+      "definition": "Planned Imaging Agent Administration SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.75",
+      "display": "Performed Imaging Agent Administration SR Storage",
+      "definition": "Performed Imaging Agent Administration SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.76",
+      "display": "Enhanced X-Ray Radiation Dose SR Storage",
+      "definition": "Enhanced X-Ray Radiation Dose SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.88.77",
+      "display": "Waveform Annotation SR Storage",
+      "definition": "Waveform Annotation SR Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.90.1",
+      "display": "Content Assessment Results Storage",
+      "definition": "Content Assessment Results Storage from 1.2.840.10008.5.1.4.1.1.90.1"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.91.1",
+      "display": "Microscopy Bulk Simple Annotations Storage",
+      "definition": "Microscopy Bulk Simple Annotations Storage from 1.2.840.10008.5.1.4.1.1.91.1"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.104.1",
+      "display": "Encapsulated PDF Storage",
+      "definition": "Encapsulated PDF Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.104.2",
+      "display": "Encapsulated CDA Storage",
+      "definition": "Encapsulated CDA Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.104.3",
+      "display": "Encapsulated STL Storage",
+      "definition": "Encapsulated STL Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.104.4",
+      "display": "Encapsulated OBJ Storage",
+      "definition": "Encapsulated OBJ Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.104.5",
+      "display": "Encapsulated MTL Storage",
+      "definition": "Encapsulated MTL Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.128",
+      "display": "Positron Emission Tomography Image Storage",
+      "definition": "Positron Emission Tomography Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.130",
+      "display": "Enhanced PET Image Storage",
+      "definition": "Enhanced PET Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.128.1",
+      "display": "Legacy Converted Enhanced PET Image Storage",
+      "definition": "Legacy Converted Enhanced PET Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.131",
+      "display": "Basic Structured Display Storage",
+      "definition": "Basic Structured Display Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.200.2",
+      "display": "CT Performed Procedure Protocol Storage",
+      "definition": "CT Performed Procedure Protocol Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.200.8",
+      "display": "XA Performed Procedure Protocol Storage",
+      "definition": "XA Performed Procedure Protocol Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.1",
+      "display": "RT Image Storage",
+      "definition": "RT Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.2",
+      "display": "RT Dose Storage",
+      "definition": "RT Dose Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.3",
+      "display": "RT Structure Set Storage",
+      "definition": "RT Structure Set Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.4",
+      "display": "RT Beams Treatment Record Storage",
+      "definition": "RT Beams Treatment Record Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.5",
+      "display": "RT Plan Storage",
+      "definition": "RT Plan Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.6",
+      "display": "RT Brachy Treatment Record Storage",
+      "definition": "RT Brachy Treatment Record Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.7",
+      "display": "RT Treatment Summary Record Storage",
+      "definition": "RT Treatment Summary Record Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.8",
+      "display": "RT Ion Plan Storage",
+      "definition": "RT Ion Plan Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.9",
+      "display": "RT Ion Beams Treatment Record Storage",
+      "definition": "RT Ion Beams Treatment Record Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.10",
+      "display": "RT Physician Intent Storage",
+      "definition": "RT Physician Intent Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.11",
+      "display": "RT Segment Annotation Storage",
+      "definition": "RT Segment Annotation Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.12",
+      "display": "RT Radiation Set Storage",
+      "definition": "RT Radiation Set Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.13",
+      "display": "C-Arm Photon-Electron Radiation Storage",
+      "definition": "C-Arm Photon-Electron Radiation Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.14",
+      "display": "Tomotherapeutic Radiation Storage",
+      "definition": "Tomotherapeutic Radiation Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.15",
+      "display": "Robotic-Arm Radiation Storage",
+      "definition": "Robotic-Arm Radiation Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.16",
+      "display": "RT Radiation Record Set Storage",
+      "definition": "RT Radiation Record Set Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.17",
+      "display": "RT Radiation Salvage Record Storage",
+      "definition": "RT Radiation Salvage Record Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.18",
+      "display": "Tomotherapeutic Radiation Record Storage",
+      "definition": "Tomotherapeutic Radiation Record Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.19",
+      "display": "C-Arm Photon-Electron Radiation Record Storage",
+      "definition": "C-Arm Photon-Electron Radiation Record Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.20",
+      "display": "Robotic Radiation Record Storage",
+      "definition": "Robotic Radiation Record Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.21",
+      "display": "RT Radiation Set Delivery Instruction Storage",
+      "definition": "RT Radiation Set Delivery Instruction Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.22",
+      "display": "RT Treatment Preparation Storage",
+      "definition": "RT Treatment Preparation Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.23",
+      "display": "Enhanced RT Image Storage",
+      "definition": "Enhanced RT Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.24",
+      "display": "Enhanced Continuous RT Image Storage",
+      "definition": "Enhanced Continuous RT Image Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.1.1.481.25",
+      "display": "RT Patient Position Acquisition Instruction Storage",
+      "definition": "RT Patient Position Acquisition Instruction Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.34.7",
+      "display": "RT Beams Delivery Instruction Storage",
+      "definition": "RT Beams Delivery Instruction Storage from PS3.3"
+    },
+    {
+      "code": "1.2.840.10008.5.1.4.34.10",
+      "display": "RT Brachy Application Setup Delivery Instruction Storage",
+      "definition": "RT Brachy Application Setup Delivery Instruction Storage from PS3.3"
+    }
+  ],
+  "caseSensitive": true,
+  "experimental": false,
+  "count": 170
+}

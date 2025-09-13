@@ -1,0 +1,144 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RetinalSegmentationSurface",
+  "id": "dicom-cid-4273-RetinalSegmentationSurface",
+  "description": "Retinal Segmentation Surface",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4273-RetinalSegmentationSurface",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1153"
+    }
+  ],
+  "version": "20240915",
+  "title": "Retinal Segmentation Surface",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "280677004",
+            "display": "ILM - Internal limiting membrane"
+          },
+          {
+            "code": "76710003",
+            "display": "ELM - External limiting membrane"
+          },
+          {
+            "code": "30322002",
+            "display": "Lamina cribrosa of sclera"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-AA62D",
+            "display": "ILM - Internal limiting membrane"
+          },
+          {
+            "code": "T-AA650",
+            "display": "ELM - External limiting membrane"
+          },
+          {
+            "code": "T-AA120",
+            "display": "Lamina cribrosa of sclera"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0459664",
+            "display": "ILM - Internal limiting membrane"
+          },
+          {
+            "code": "C0229209",
+            "display": "ELM - External limiting membrane"
+          },
+          {
+            "code": "C0229114",
+            "display": "Lamina cribrosa of sclera"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128289",
+            "display": "Outer surface of RNFL"
+          },
+          {
+            "code": "128290",
+            "display": "Outer surface of GCL"
+          },
+          {
+            "code": "128291",
+            "display": "Outer surface of IPL"
+          },
+          {
+            "code": "128292",
+            "display": "Outer surface of INL"
+          },
+          {
+            "code": "128293",
+            "display": "Outer surface of OPL"
+          },
+          {
+            "code": "128294",
+            "display": "Outer surface of HFL"
+          },
+          {
+            "code": "128297",
+            "display": "Inner surface of the RPE"
+          },
+          {
+            "code": "128298",
+            "display": "Surface of the center of the RPE"
+          },
+          {
+            "code": "128299",
+            "display": "Outer surface of the RPE"
+          },
+          {
+            "code": "128300",
+            "display": "Outer surface of Bruchs Membrane"
+          },
+          {
+            "code": "128301",
+            "display": "Surface of the choroid-sclera interface"
+          },
+          {
+            "code": "128302",
+            "display": "Outer surface of the CC"
+          },
+          {
+            "code": "128320",
+            "display": "Inner surface of the ellipsoid zone"
+          },
+          {
+            "code": "128321",
+            "display": "Midline of the ellipsoid zone"
+          },
+          {
+            "code": "128322",
+            "display": "Outer surface of the ellipsoid zone"
+          },
+          {
+            "code": "128323",
+            "display": "Inner surface of the interdigitation zone"
+          },
+          {
+            "code": "128324",
+            "display": "Outer surface of the interdigitation zone"
+          }
+        ]
+      }
+    ]
+  }
+}

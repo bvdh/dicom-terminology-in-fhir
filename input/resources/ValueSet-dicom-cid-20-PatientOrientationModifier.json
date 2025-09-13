@@ -1,0 +1,251 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PatientOrientationModifier",
+  "id": "dicom-cid-20-PatientOrientationModifier",
+  "description": "Patient Orientation Modifier",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-20-PatientOrientationModifier",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.14"
+    }
+  ],
+  "version": "20070524",
+  "title": "Patient Orientation Modifier",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1240000",
+            "display": "prone"
+          },
+          {
+            "code": "34026001",
+            "display": "semi-prone"
+          },
+          {
+            "code": "32185000",
+            "display": "lateral decubitus"
+          },
+          {
+            "code": "10904000",
+            "display": "standing"
+          },
+          {
+            "code": "51845000",
+            "display": "anatomical"
+          },
+          {
+            "code": "55864004",
+            "display": "kneeling"
+          },
+          {
+            "code": "23242002",
+            "display": "knee-chest"
+          },
+          {
+            "code": "40199007",
+            "display": "supine"
+          },
+          {
+            "code": "14205002",
+            "display": "lithotomy"
+          },
+          {
+            "code": "34106002",
+            "display": "Trendelenburg"
+          },
+          {
+            "code": "26527006",
+            "display": "inverse Trendelenburg"
+          },
+          {
+            "code": "34296003",
+            "display": "frog"
+          },
+          {
+            "code": "87068006",
+            "display": "stooped-over"
+          },
+          {
+            "code": "33586001",
+            "display": "sitting"
+          },
+          {
+            "code": "34108001",
+            "display": "curled-up"
+          },
+          {
+            "code": "102535000",
+            "display": "right lateral decubitus"
+          },
+          {
+            "code": "102536004",
+            "display": "left lateral decubitus"
+          },
+          {
+            "code": "260450008",
+            "display": "lordotic"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "F-10310",
+            "display": "prone"
+          },
+          {
+            "code": "F-10316",
+            "display": "semi-prone"
+          },
+          {
+            "code": "F-10318",
+            "display": "lateral decubitus"
+          },
+          {
+            "code": "F-10320",
+            "display": "standing"
+          },
+          {
+            "code": "F-10326",
+            "display": "anatomical"
+          },
+          {
+            "code": "F-10330",
+            "display": "kneeling"
+          },
+          {
+            "code": "F-10336",
+            "display": "knee-chest"
+          },
+          {
+            "code": "F-10340",
+            "display": "supine"
+          },
+          {
+            "code": "F-10346",
+            "display": "lithotomy"
+          },
+          {
+            "code": "F-10348",
+            "display": "Trendelenburg"
+          },
+          {
+            "code": "F-10349",
+            "display": "inverse Trendelenburg"
+          },
+          {
+            "code": "F-10380",
+            "display": "frog"
+          },
+          {
+            "code": "F-10390",
+            "display": "stooped-over"
+          },
+          {
+            "code": "F-103A0",
+            "display": "sitting"
+          },
+          {
+            "code": "F-10410",
+            "display": "curled-up"
+          },
+          {
+            "code": "F-10317",
+            "display": "right lateral decubitus"
+          },
+          {
+            "code": "F-10319",
+            "display": "left lateral decubitus"
+          },
+          {
+            "code": "R-40799",
+            "display": "lordotic"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0033422",
+            "display": "prone"
+          },
+          {
+            "code": "C0150435",
+            "display": "semi-prone"
+          },
+          {
+            "code": "C0444379",
+            "display": "lateral decubitus"
+          },
+          {
+            "code": "C0231472",
+            "display": "standing"
+          },
+          {
+            "code": "C0277809",
+            "display": "anatomical"
+          },
+          {
+            "code": "C1260920",
+            "display": "kneeling"
+          },
+          {
+            "code": "C0277810",
+            "display": "knee-chest"
+          },
+          {
+            "code": "C0038846",
+            "display": "supine"
+          },
+          {
+            "code": "C0150665",
+            "display": "lithotomy"
+          },
+          {
+            "code": "C0277812",
+            "display": "Trendelenburg"
+          },
+          {
+            "code": "C0277813",
+            "display": "inverse Trendelenburg"
+          },
+          {
+            "code": "C0426962",
+            "display": "frog"
+          },
+          {
+            "code": "C0231478",
+            "display": "stooped-over"
+          },
+          {
+            "code": "C0277814",
+            "display": "sitting"
+          },
+          {
+            "code": "C0277815",
+            "display": "curled-up"
+          },
+          {
+            "code": "C0559228",
+            "display": "right lateral decubitus"
+          },
+          {
+            "code": "C0559227",
+            "display": "left lateral decubitus"
+          },
+          {
+            "code": "C0442217",
+            "display": "lordotic"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid3264",
+  "id": "dicom-cid3264",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid3264",
+  "version": "None",
+  "title": "XYZ Electrode Placement Values (Retired)"
+}

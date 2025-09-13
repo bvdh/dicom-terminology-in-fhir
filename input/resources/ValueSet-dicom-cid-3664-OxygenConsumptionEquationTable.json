@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OxygenConsumptionEquationTable",
+  "id": "dicom-cid-3664-OxygenConsumptionEquationTable",
+  "description": "Oxygen Consumption Equation/Table",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3664-OxygenConsumptionEquationTable",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.181"
+    }
+  ],
+  "version": "20030327",
+  "title": "Oxygen Consumption Equation/Table",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122247",
+            "display": "VO2male = BSA (138.1 - 11.49 * loge(age) + 0.378 * HRf)"
+          },
+          {
+            "code": "122248",
+            "display": "VO2female = BSA (138.1 - 17.04 * loge(age) + 0.378 * HRf)"
+          },
+          {
+            "code": "122249",
+            "display": "VO2 = VeSTPD * 10 * (FIO2 - FE02)"
+          },
+          {
+            "code": "122250",
+            "display": "VO2 = 152 * BSA"
+          },
+          {
+            "code": "122251",
+            "display": "VO2 = 175 * BSA"
+          },
+          {
+            "code": "122252",
+            "display": "VO2 = 176 * BSA"
+          },
+          {
+            "code": "122253",
+            "display": "Robertson & Reid table"
+          },
+          {
+            "code": "122254",
+            "display": "Fleisch table"
+          },
+          {
+            "code": "122255",
+            "display": "Boothby table"
+          }
+        ]
+      }
+    ]
+  }
+}

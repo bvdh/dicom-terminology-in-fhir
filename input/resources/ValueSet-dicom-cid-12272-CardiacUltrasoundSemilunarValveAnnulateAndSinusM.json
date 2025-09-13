@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiacUltrasoundSemilunarValveAnnulateAndSinusMeasurement",
+  "id": "dicom-cid-12272-CardiacUltrasoundSemilunarValveAnnulateAndSinusM",
+  "description": "Cardiac Ultrasound Semilunar Valve, Annulate and Sinus Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12272-CardiacUltrasoundSemilunarValveAnnulateAndSinusM",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.853"
+    }
+  ],
+  "version": "20100317",
+  "title": "Cardiac Ultrasound Semilunar Valve, Annulate and Sinus Measurement",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12262-CardiacUltrasoundPulmonaryValveMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12270-CardiacUltrasoundAorticValveMeasurement"
+        ]
+      }
+    ]
+  }
+}

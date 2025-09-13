@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ParametricMapDerivationImagePurposeOfReference",
+  "id": "dicom-cid-7222-ParametricMapDerivationImagePurposeOfReference",
+  "description": "Parametric Map Derivation Image Purpose of Reference",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7222-ParametricMapDerivationImagePurposeOfReference",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1009"
+    }
+  ],
+  "version": "20141110",
+  "title": "Parametric Map Derivation Image Purpose of Reference",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121322",
+            "display": "Source Image for Image Processing Operation"
+          }
+        ]
+      }
+    ]
+  }
+}

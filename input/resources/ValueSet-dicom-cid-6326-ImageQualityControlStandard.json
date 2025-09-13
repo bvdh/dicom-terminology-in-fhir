@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ImageQualityControlStandard",
+  "id": "dicom-cid-6326-ImageQualityControlStandard",
+  "description": "Image Quality Control Standard",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6326-ImageQualityControlStandard",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1383"
+    }
+  ],
+  "version": "20210714",
+  "title": "Image Quality Control Standard",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111240",
+            "display": "Institutionally defined quality control standard"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6353-ProstateImagingTypesOfQualityControlStandard"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6045-MammographyQualityControlStandardType"
+        ]
+      }
+    ]
+  }
+}

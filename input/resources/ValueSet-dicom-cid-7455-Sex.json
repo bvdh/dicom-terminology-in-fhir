@@ -1,0 +1,74 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Sex",
+  "id": "dicom-cid-7455-Sex",
+  "description": "These terms are distinct from the gender of a subject for administrative purposes, although the default value for clinical sex is often based on the administrative gender (e.g., see This Context Group in a prior edition of the Standard included codes improperly attributed to ISO 5218. These terms are derived from the terminology and codes for sex in ASTM E1633-02a \"Standard Specification for Coded Values Used in the Electronic Health Record.\"",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7455-Sex",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.519"
+    }
+  ],
+  "version": "20250406",
+  "title": "Sex",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "M",
+            "display": "Male"
+          },
+          {
+            "code": "F",
+            "display": "Female"
+          },
+          {
+            "code": "U",
+            "display": "Unknown sex"
+          },
+          {
+            "code": "MP",
+            "display": "Male Pseudohermaphrodite"
+          },
+          {
+            "code": "FP",
+            "display": "Female Pseudohermaphrodite"
+          },
+          {
+            "code": "H",
+            "display": "Hermaphrodite"
+          },
+          {
+            "code": "MC",
+            "display": "Male changed to Female"
+          },
+          {
+            "code": "FC",
+            "display": "Female changed to Male"
+          },
+          {
+            "code": "121104",
+            "display": "Ambiguous sex"
+          },
+          {
+            "code": "121102",
+            "display": "Other sex"
+          },
+          {
+            "code": "121103",
+            "display": "Undetermined sex"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7459-CategoryOfSexParametersForClinicalUse"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DeliveryTimeStructure",
+  "id": "dicom-cid-9533-DeliveryTimeStructure",
+  "description": "Delivery Time Structure",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9533-DeliveryTimeStructure",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1243"
+    }
+  ],
+  "version": "20181112",
+  "title": "Delivery Time Structure",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130096",
+            "display": "Single Fraction"
+          },
+          {
+            "code": "130097",
+            "display": "Standard Fractionation"
+          },
+          {
+            "code": "130098",
+            "display": "Hypo-fractionation"
+          },
+          {
+            "code": "130099",
+            "display": "Hyper-fractionation"
+          },
+          {
+            "code": "130100",
+            "display": "Continuous Temporary"
+          },
+          {
+            "code": "130101",
+            "display": "Continuous Permanent"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,651 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CommonAnatomicRegionsForAnimal",
+  "id": "dicom-cid-7483-CommonAnatomicRegionsForAnimal",
+  "description": "In a prior version of this table, the code SRT: T-D8300 was used for",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7483-CommonAnatomicRegionsForAnimal",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.815"
+    }
+  ],
+  "version": "20220922",
+  "title": "Common Anatomic Regions for Animal",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "818981001",
+            "display": "Abdomen"
+          },
+          {
+            "code": "42694008",
+            "display": "All legs"
+          },
+          {
+            "code": "62555009",
+            "display": "Atlantal-axial joint"
+          },
+          {
+            "code": "20292002",
+            "display": "Atlanto-occipital joint"
+          },
+          {
+            "code": "89837001",
+            "display": "Bladder"
+          },
+          {
+            "code": "82474009",
+            "display": "Calcaneal tubercle"
+          },
+          {
+            "code": "8205005",
+            "display": "Carpus"
+          },
+          {
+            "code": "122494005",
+            "display": "Cervical spine"
+          },
+          {
+            "code": "1217257000",
+            "display": "Cervico-thoracic spine"
+          },
+          {
+            "code": "816094009",
+            "display": "Chest"
+          },
+          {
+            "code": "416550000",
+            "display": "Chest and Abdomen"
+          },
+          {
+            "code": "18149002",
+            "display": "Coccygeal vertrebrae"
+          },
+          {
+            "code": "71854001",
+            "display": "Colon"
+          },
+          {
+            "code": "82680008",
+            "display": "Digit"
+          },
+          {
+            "code": "16953009",
+            "display": "Elbow joint"
+          },
+          {
+            "code": "38266002",
+            "display": "Entire body"
+          },
+          {
+            "code": "32849002",
+            "display": "Esophagus"
+          },
+          {
+            "code": "71341001",
+            "display": "Femur"
+          },
+          {
+            "code": "13190002",
+            "display": "Fetlock of forelimb"
+          },
+          {
+            "code": "113351006",
+            "display": "Fetlock of hindlimb"
+          },
+          {
+            "code": "419176008",
+            "display": "Forefoot"
+          },
+          {
+            "code": "55060009",
+            "display": "Frontal sinus"
+          },
+          {
+            "code": "416804009",
+            "display": "Hindfoot"
+          },
+          {
+            "code": "24136001",
+            "display": "Hip joint"
+          },
+          {
+            "code": "85050009",
+            "display": "Humerus"
+          },
+          {
+            "code": "122496007",
+            "display": "Lumbar spine"
+          },
+          {
+            "code": "1217253001",
+            "display": "Lumbo-sacral spine"
+          },
+          {
+            "code": "91609006",
+            "display": "Mandible"
+          },
+          {
+            "code": "88176008",
+            "display": "Mandibular dental arch"
+          },
+          {
+            "code": "442274007",
+            "display": "Mandibular incisor teeth"
+          },
+          {
+            "code": "39481002",
+            "display": "Maxillary dental arch"
+          },
+          {
+            "code": "442100006",
+            "display": "Maxillary incisor teeth"
+          },
+          {
+            "code": "36455000",
+            "display": "Metacarpus"
+          },
+          {
+            "code": "280711000",
+            "display": "Metatarsus"
+          },
+          {
+            "code": "2095001",
+            "display": "Nasal sinus"
+          },
+          {
+            "code": "30518006",
+            "display": "Navicular of forefoot"
+          },
+          {
+            "code": "75772009",
+            "display": "Navicular of hindfoot"
+          },
+          {
+            "code": "363654007",
+            "display": "Orbital structure"
+          },
+          {
+            "code": "31329001",
+            "display": "Pastern of forefoot"
+          },
+          {
+            "code": "18525008",
+            "display": "Pastern of hindfoot"
+          },
+          {
+            "code": "64234005",
+            "display": "Patella"
+          },
+          {
+            "code": "816092008",
+            "display": "Pelvis"
+          },
+          {
+            "code": "110535000",
+            "display": "Radius and ulna"
+          },
+          {
+            "code": "54735007",
+            "display": "Sacrum"
+          },
+          {
+            "code": "16982005",
+            "display": "Shoulder"
+          },
+          {
+            "code": "89546000",
+            "display": "Skull"
+          },
+          {
+            "code": "116010006",
+            "display": "Stiffle"
+          },
+          {
+            "code": "108371006",
+            "display": "Tarsus"
+          },
+          {
+            "code": "122495006",
+            "display": "Thoracic spine"
+          },
+          {
+            "code": "1217256009",
+            "display": "Thoraco-lumbar spine"
+          },
+          {
+            "code": "110536004",
+            "display": "Tibia and fibula"
+          },
+          {
+            "code": "62834003",
+            "display": "Upper gastro-intestinal tract"
+          },
+          {
+            "code": "13648007",
+            "display": "Urethra"
+          },
+          {
+            "code": "431938005",
+            "display": "Urinary tract"
+          },
+          {
+            "code": "53036007",
+            "display": "Wing"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-D8030",
+            "display": "All legs"
+          },
+          {
+            "code": "T-15317",
+            "display": "Atlantal-axial joint"
+          },
+          {
+            "code": "T-15311",
+            "display": "Atlanto-occipital joint"
+          },
+          {
+            "code": "T-74000",
+            "display": "Bladder"
+          },
+          {
+            "code": "T-12771",
+            "display": "Calcaneal tubercle"
+          },
+          {
+            "code": "T-D8600",
+            "display": "Carpus"
+          },
+          {
+            "code": "T-11501",
+            "display": "Cervical spine"
+          },
+          {
+            "code": "R-FAB55",
+            "display": "Chest and Abdomen"
+          },
+          {
+            "code": "T-11B00",
+            "display": "Coccygeal vertrebrae"
+          },
+          {
+            "code": "T-59300",
+            "display": "Colon"
+          },
+          {
+            "code": "T-D0310",
+            "display": "Digit"
+          },
+          {
+            "code": "T-15430",
+            "display": "Elbow joint"
+          },
+          {
+            "code": "T-D0010",
+            "display": "Entire body"
+          },
+          {
+            "code": "T-56000",
+            "display": "Esophagus"
+          },
+          {
+            "code": "T-12710",
+            "display": "Femur"
+          },
+          {
+            "code": "T-D8640",
+            "display": "Fetlock of forelimb"
+          },
+          {
+            "code": "T-D9540",
+            "display": "Fetlock of hindlimb"
+          },
+          {
+            "code": "T-D04F2",
+            "display": "Forefoot"
+          },
+          {
+            "code": "T-22200",
+            "display": "Frontal sinus"
+          },
+          {
+            "code": "T-D9713",
+            "display": "Hindfoot"
+          },
+          {
+            "code": "T-15710",
+            "display": "Hip joint"
+          },
+          {
+            "code": "T-12410",
+            "display": "Humerus"
+          },
+          {
+            "code": "T-11503",
+            "display": "Lumbar spine"
+          },
+          {
+            "code": "T-11180",
+            "display": "Mandible"
+          },
+          {
+            "code": "T-54170",
+            "display": "Mandibular dental arch"
+          },
+          {
+            "code": "T-540EE",
+            "display": "Mandibular incisor teeth"
+          },
+          {
+            "code": "T-54160",
+            "display": "Maxillary dental arch"
+          },
+          {
+            "code": "T-540ED",
+            "display": "Maxillary incisor teeth"
+          },
+          {
+            "code": "T-12540",
+            "display": "Metacarpus"
+          },
+          {
+            "code": "T-12847",
+            "display": "Metatarsus"
+          },
+          {
+            "code": "T-22000",
+            "display": "Nasal sinus"
+          },
+          {
+            "code": "T-12450",
+            "display": "Navicular of forefoot"
+          },
+          {
+            "code": "T-12800",
+            "display": "Navicular of hindfoot"
+          },
+          {
+            "code": "T-D14AE",
+            "display": "Orbital structure"
+          },
+          {
+            "code": "T-D8650",
+            "display": "Pastern of forefoot"
+          },
+          {
+            "code": "T-D9550",
+            "display": "Pastern of hindfoot"
+          },
+          {
+            "code": "T-12730",
+            "display": "Patella"
+          },
+          {
+            "code": "T-12403",
+            "display": "Radius and ulna"
+          },
+          {
+            "code": "T-11AD0",
+            "display": "Sacrum"
+          },
+          {
+            "code": "T-D2220",
+            "display": "Shoulder"
+          },
+          {
+            "code": "T-11100",
+            "display": "Skull"
+          },
+          {
+            "code": "T-15728",
+            "display": "Stiffle"
+          },
+          {
+            "code": "T-12761",
+            "display": "Tarsus"
+          },
+          {
+            "code": "T-11502",
+            "display": "Thoracic spine"
+          },
+          {
+            "code": "T-12701",
+            "display": "Tibia and fibula"
+          },
+          {
+            "code": "T-50110",
+            "display": "Upper gastro-intestinal tract"
+          },
+          {
+            "code": "T-75000",
+            "display": "Urethra"
+          },
+          {
+            "code": "T-7000C",
+            "display": "Urinary tract"
+          },
+          {
+            "code": "T-D8040",
+            "display": "Wing"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0230331",
+            "display": "All legs"
+          },
+          {
+            "code": "C0224585",
+            "display": "Atlantal-axial joint"
+          },
+          {
+            "code": "C0004169",
+            "display": "Atlanto-occipital joint"
+          },
+          {
+            "code": "C0005682",
+            "display": "Bladder"
+          },
+          {
+            "code": "C0223921",
+            "display": "Calcaneal tubercle"
+          },
+          {
+            "code": "C0043262",
+            "display": "Carpus"
+          },
+          {
+            "code": "C0728985",
+            "display": "Cervical spine"
+          },
+          {
+            "code": "C1442171",
+            "display": "Chest and Abdomen"
+          },
+          {
+            "code": "C0223616",
+            "display": "Coccygeal vertrebrae"
+          },
+          {
+            "code": "C0009368",
+            "display": "Colon"
+          },
+          {
+            "code": "C0582802",
+            "display": "Digit"
+          },
+          {
+            "code": "C3669027",
+            "display": "Distal phalanx"
+          },
+          {
+            "code": "C0013770",
+            "display": "Elbow joint"
+          },
+          {
+            "code": "C0229960",
+            "display": "Entire body"
+          },
+          {
+            "code": "C0014876",
+            "display": "Esophagus"
+          },
+          {
+            "code": "C0015811",
+            "display": "Femur"
+          },
+          {
+            "code": "C0521445",
+            "display": "Fetlock of forelimb"
+          },
+          {
+            "code": "C0521446",
+            "display": "Fetlock of hindlimb"
+          },
+          {
+            "code": "C1630649",
+            "display": "Forefoot"
+          },
+          {
+            "code": "C0016734",
+            "display": "Frontal sinus"
+          },
+          {
+            "code": "C0230459",
+            "display": "Hindfoot"
+          },
+          {
+            "code": "C0019558",
+            "display": "Hip joint"
+          },
+          {
+            "code": "C0020164",
+            "display": "Humerus"
+          },
+          {
+            "code": "C0024091",
+            "display": "Lumbar spine"
+          },
+          {
+            "code": "C0024687",
+            "display": "Mandible"
+          },
+          {
+            "code": "C0227027",
+            "display": "Mandibular dental arch"
+          },
+          {
+            "code": "C2711599",
+            "display": "Mandibular incisor teeth"
+          },
+          {
+            "code": "C0227026",
+            "display": "Maxillary dental arch"
+          },
+          {
+            "code": "C2711204",
+            "display": "Maxillary incisor teeth"
+          },
+          {
+            "code": "C0025526",
+            "display": "Metacarpus"
+          },
+          {
+            "code": "C0025590",
+            "display": "Metatarsus"
+          },
+          {
+            "code": "C0030471",
+            "display": "Nasal sinus"
+          },
+          {
+            "code": "C0223724",
+            "display": "Navicular of forefoot"
+          },
+          {
+            "code": "C0223947",
+            "display": "Navicular of hindfoot"
+          },
+          {
+            "code": "C0029180",
+            "display": "Orbital structure"
+          },
+          {
+            "code": "C0230368",
+            "display": "Pastern of forefoot"
+          },
+          {
+            "code": "C0230455",
+            "display": "Pastern of hindfoot"
+          },
+          {
+            "code": "C0030647",
+            "display": "Patella"
+          },
+          {
+            "code": "C1267080",
+            "display": "Radius and ulna"
+          },
+          {
+            "code": "C0036037",
+            "display": "Sacrum"
+          },
+          {
+            "code": "C0037004",
+            "display": "Shoulder"
+          },
+          {
+            "code": "C0037303",
+            "display": "Skull"
+          },
+          {
+            "code": "C1456798",
+            "display": "Stiffle"
+          },
+          {
+            "code": "C0039316",
+            "display": "Tarsus"
+          },
+          {
+            "code": "C0581269",
+            "display": "Thoracic spine"
+          },
+          {
+            "code": "C0224692",
+            "display": "Tibia and fibula"
+          },
+          {
+            "code": "C3203348",
+            "display": "Upper gastro-intestinal tract"
+          },
+          {
+            "code": "C0041967",
+            "display": "Urethra"
+          },
+          {
+            "code": "C2316969",
+            "display": "Urinary tract"
+          },
+          {
+            "code": "C0043189",
+            "display": "Wing"
+          }
+        ]
+      }
+    ]
+  }
+}

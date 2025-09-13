@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AssociatedCondition",
+  "id": "dicom-cid-3809-AssociatedCondition",
+  "description": "Associated Condition",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3809-AssociatedCondition",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.270"
+    }
+  ],
+  "version": "20220922",
+  "title": "Associated Condition",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "19346006",
+            "display": "Marfan's Syndrome"
+          },
+          {
+            "code": "417746004",
+            "display": "Traumatic Abnormality"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "D6-90800",
+            "display": "Marfan's Syndrome"
+          },
+          {
+            "code": "DF-00777",
+            "display": "Traumatic Abnormality"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0024796",
+            "display": "Marfan's Syndrome"
+          },
+          {
+            "code": "C3263723",
+            "display": "Traumatic Abnormality"
+          }
+        ]
+      }
+    ]
+  }
+}

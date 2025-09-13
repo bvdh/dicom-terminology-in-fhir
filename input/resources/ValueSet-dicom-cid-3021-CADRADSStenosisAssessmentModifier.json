@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CADRADSStenosisAssessmentModifier",
+  "id": "dicom-cid-3021-CADRADSStenosisAssessmentModifier",
+  "description": "CAD-RADS Stenosis Assessment Modifier",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3021-CADRADSStenosisAssessmentModifier",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1430"
+    }
+  ],
+  "version": "20211114",
+  "title": "CAD-RADS Stenosis Assessment Modifier",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130728",
+            "display": "4A - Severe stenosis"
+          },
+          {
+            "code": "130729",
+            "display": "4B - Severe stenosis"
+          }
+        ]
+      }
+    ]
+  }
+}

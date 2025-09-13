@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VolumetricViewDescription",
+  "id": "dicom-cid-501-VolumetricViewDescription",
+  "description": "Volumetric View Description",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-501-VolumetricViewDescription",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1057"
+    }
+  ],
+  "version": "20150915",
+  "title": "Volumetric View Description",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6-TransducerOrientation"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-26-NuclearMedicineProjection"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4010-DXView"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12226-EchocardiographyImageView"
+        ]
+      }
+    ]
+  }
+}

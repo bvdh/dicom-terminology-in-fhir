@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EEGAnnotationNeurologicalMonitoringMeasurement",
+  "id": "dicom-cid-3040-EEGAnnotationNeurologicalMonitoringMeasurement",
+  "description": "Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10102 available through",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3040-EEGAnnotationNeurologicalMonitoringMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1338"
+    }
+  ],
+  "version": "20200623",
+  "title": "EEG Annotation - Neurological Monitoring Measurement",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "concept": [
+          {
+            "code": "2:22784",
+            "display": "Circum head"
+          },
+          {
+            "code": "2:22952",
+            "display": "Arousal"
+          }
+        ]
+      }
+    ]
+  }
+}

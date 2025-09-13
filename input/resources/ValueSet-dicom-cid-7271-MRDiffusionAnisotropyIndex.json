@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MRDiffusionAnisotropyIndex",
+  "id": "dicom-cid-7271-MRDiffusionAnisotropyIndex",
+  "description": "MR Diffusion Anisotropy Index",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7271-MRDiffusionAnisotropyIndex",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1166"
+    }
+  ],
+  "version": "20170413",
+  "title": "MR Diffusion Anisotropy Index",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110808",
+            "display": "Fractional Anisotropy"
+          },
+          {
+            "code": "110809",
+            "display": "Relative Anisotropy"
+          },
+          {
+            "code": "113288",
+            "display": "Volume Ratio"
+          }
+        ]
+      }
+    ]
+  }
+}

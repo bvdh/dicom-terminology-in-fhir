@@ -1,0 +1,95 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ValveFlow",
+  "id": "dicom-cid-3617-ValveFlow",
+  "description": "Valve Flow",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3617-ValveFlow",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.167"
+    }
+  ],
+  "version": "20030327",
+  "title": "Valve Flow",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "371845001",
+            "display": "Aortic Valve Flow"
+          },
+          {
+            "code": "371837006",
+            "display": "Mitral Valve Flow"
+          },
+          {
+            "code": "371846000",
+            "display": "Pulmonary Valve Flow"
+          },
+          {
+            "code": "371840006",
+            "display": "Tricuspid Valve Flow"
+          },
+          {
+            "code": "371839009",
+            "display": "Derived Flow, Non-Valve"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-002D3",
+            "display": "Aortic Valve Flow"
+          },
+          {
+            "code": "R-0032D",
+            "display": "Mitral Valve Flow"
+          },
+          {
+            "code": "R-0035D",
+            "display": "Pulmonary Valve Flow"
+          },
+          {
+            "code": "R-00385",
+            "display": "Tricuspid Valve Flow"
+          },
+          {
+            "code": "R-00394",
+            "display": "Derived Flow, Non-Valve"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1299322",
+            "display": "Aortic Valve Flow"
+          },
+          {
+            "code": "C1299464",
+            "display": "Mitral Valve Flow"
+          },
+          {
+            "code": "C1299323",
+            "display": "Pulmonary Valve Flow"
+          },
+          {
+            "code": "C1299467",
+            "display": "Tricuspid Valve Flow"
+          },
+          {
+            "code": "C1299466",
+            "display": "Derived Flow, Non-Valve"
+          }
+        ]
+      }
+    ]
+  }
+}

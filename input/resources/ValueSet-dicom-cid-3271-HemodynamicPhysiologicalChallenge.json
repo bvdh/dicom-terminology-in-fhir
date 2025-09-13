@@ -1,0 +1,179 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "HemodynamicPhysiologicalChallenge",
+  "id": "dicom-cid-3271-HemodynamicPhysiologicalChallenge",
+  "description": "Hemodynamic Physiological Challenge",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3271-HemodynamicPhysiologicalChallenge",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.61"
+    }
+  ],
+  "version": "20100625",
+  "title": "Hemodynamic Physiological Challenge",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "133882006",
+            "display": "Drug infusion"
+          },
+          {
+            "code": "128967005",
+            "display": "Exercise challenge"
+          },
+          {
+            "code": "128965002",
+            "display": "Handgrip"
+          },
+          {
+            "code": "128963009",
+            "display": "Head up"
+          },
+          {
+            "code": "128969008",
+            "display": "Held inspiration"
+          },
+          {
+            "code": "128970009",
+            "display": "Held ventilation"
+          },
+          {
+            "code": "128964003",
+            "display": "Leg up"
+          },
+          {
+            "code": "128966001",
+            "display": "Negative lower body pressure"
+          },
+          {
+            "code": "18590009",
+            "display": "Pacing"
+          },
+          {
+            "code": "128971008",
+            "display": "Post volume challenge"
+          },
+          {
+            "code": "128968000",
+            "display": "Vagal stimulation"
+          },
+          {
+            "code": "261039008",
+            "display": "Valsalva maneuver"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "P2-71317",
+            "display": "Drug infusion"
+          },
+          {
+            "code": "P2-71310",
+            "display": "Exercise challenge"
+          },
+          {
+            "code": "P2-71306",
+            "display": "Handgrip"
+          },
+          {
+            "code": "P2-71302",
+            "display": "Head up"
+          },
+          {
+            "code": "P2-71314",
+            "display": "Held inspiration"
+          },
+          {
+            "code": "P2-71316",
+            "display": "Held ventilation"
+          },
+          {
+            "code": "P2-71304",
+            "display": "Leg up"
+          },
+          {
+            "code": "P2-71308",
+            "display": "Negative lower body pressure"
+          },
+          {
+            "code": "P2-35000",
+            "display": "Pacing"
+          },
+          {
+            "code": "P2-71318",
+            "display": "Post volume challenge"
+          },
+          {
+            "code": "P2-71312",
+            "display": "Vagal stimulation"
+          },
+          {
+            "code": "R-40928",
+            "display": "Valsalva maneuver"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1297891",
+            "display": "Drug infusion"
+          },
+          {
+            "code": "C1293901",
+            "display": "Exercise challenge"
+          },
+          {
+            "code": "C1293900",
+            "display": "Handgrip"
+          },
+          {
+            "code": "C1293898",
+            "display": "Head up"
+          },
+          {
+            "code": "C1293904",
+            "display": "Held inspiration"
+          },
+          {
+            "code": "C1293905",
+            "display": "Held ventilation"
+          },
+          {
+            "code": "C1293899",
+            "display": "Leg up"
+          },
+          {
+            "code": "C0024047",
+            "display": "Negative lower body pressure"
+          },
+          {
+            "code": "C0199640",
+            "display": "Pacing"
+          },
+          {
+            "code": "C1293906",
+            "display": "Post volume challenge"
+          },
+          {
+            "code": "C1293903",
+            "display": "Vagal stimulation"
+          },
+          {
+            "code": "C0042293",
+            "display": "Valsalva maneuver"
+          }
+        ]
+      }
+    ]
+  }
+}

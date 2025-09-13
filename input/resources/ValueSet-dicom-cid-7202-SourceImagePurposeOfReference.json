@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SourceImagePurposeOfReference",
+  "id": "dicom-cid-7202-SourceImagePurposeOfReference",
+  "description": "Source Image Purpose of Reference",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7202-SourceImagePurposeOfReference",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.509"
+    }
+  ],
+  "version": "20170405",
+  "title": "Source Image Purpose of Reference",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121320",
+            "display": "Uncompressed predecessor"
+          },
+          {
+            "code": "121321",
+            "display": "Mask image for image processing operation"
+          },
+          {
+            "code": "121322",
+            "display": "Source image for image processing operation"
+          },
+          {
+            "code": "121329",
+            "display": "Source image for montage"
+          },
+          {
+            "code": "121330",
+            "display": "Lossy compressed predecessor"
+          },
+          {
+            "code": "121358",
+            "display": "For Processing predecessor"
+          },
+          {
+            "code": "113130",
+            "display": "Predecessor containing group of imaging subjects"
+          },
+          {
+            "code": "128250",
+            "display": "Structural image for image processing"
+          },
+          {
+            "code": "128251",
+            "display": "Flow image for image processing"
+          }
+        ]
+      }
+    ]
+  }
+}

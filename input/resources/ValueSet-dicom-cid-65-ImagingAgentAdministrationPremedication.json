@@ -1,0 +1,148 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ImagingAgentAdministrationPremedication",
+  "id": "dicom-cid-65-ImagingAgentAdministrationPremedication",
+  "description": "Imaging Agent Administration Premedication",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-65-ImagingAgentAdministrationPremedication",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1255"
+    }
+  ],
+  "version": "20190817",
+  "title": "Imaging Agent Administration Premedication",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "116602009",
+            "display": "Prednisone"
+          },
+          {
+            "code": "372682005",
+            "display": "Diphenhydramine"
+          },
+          {
+            "code": "116593003",
+            "display": "Methylprednisolone"
+          },
+          {
+            "code": "412248005",
+            "display": "Methylprednisolone sodium phosphate"
+          },
+          {
+            "code": "109066000",
+            "display": "Hydrocortisone sodium succinate"
+          },
+          {
+            "code": "49992008",
+            "display": "Dexamethasone sodium sulfate"
+          },
+          {
+            "code": "373228009",
+            "display": "H-1 Antihistamine"
+          },
+          {
+            "code": "387358007",
+            "display": "Ephedrine"
+          },
+          {
+            "code": "372784001",
+            "display": "Papaverine"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "C-37138",
+            "display": "Prednisone"
+          },
+          {
+            "code": "F-618A6",
+            "display": "Diphenhydramine"
+          },
+          {
+            "code": "C-37128",
+            "display": "Methylprednisolone"
+          },
+          {
+            "code": "F-B022C",
+            "display": "Methylprednisolone sodium phosphate"
+          },
+          {
+            "code": "C-A0173",
+            "display": "Hydrocortisone sodium succinate"
+          },
+          {
+            "code": "C-913A4",
+            "display": "Dexamethasone sodium sulfate"
+          },
+          {
+            "code": "F-617F7",
+            "display": "H-1 Antihistamine"
+          },
+          {
+            "code": "F-61B05",
+            "display": "Ephedrine"
+          },
+          {
+            "code": "F-61955",
+            "display": "Papaverine"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0032952",
+            "display": "Prednisone"
+          },
+          {
+            "code": "C0012522",
+            "display": "Diphenhydramine"
+          },
+          {
+            "code": "C0025815",
+            "display": "Methylprednisolone"
+          },
+          {
+            "code": "C0700546",
+            "display": "Methylprednisolone sodium phosphate"
+          },
+          {
+            "code": "C0770560",
+            "display": "Hydrocortisone sodium succinate"
+          },
+          {
+            "code": "C0113286",
+            "display": "Dexamethasone sodium sulfate"
+          },
+          {
+            "code": "C0019592",
+            "display": "H-1 Antihistamine"
+          },
+          {
+            "code": "C0014479",
+            "display": "Ephedrine"
+          },
+          {
+            "code": "C0030350",
+            "display": "Papaverine"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-66-ImagingAgentAdministrationMedication"
+        ]
+      }
+    ]
+  }
+}

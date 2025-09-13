@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProstateMRISeriesQualityFinding",
+  "id": "dicom-cid-6315-ProstateMRISeriesQualityFinding",
+  "description": "Prostate MRI Series Quality Finding",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6315-ProstateMRISeriesQualityFinding",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1372"
+    }
+  ],
+  "version": "20210714",
+  "title": "Prostate MRI Series Quality Finding",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130576",
+            "display": "Anatomy coverage incomplete"
+          },
+          {
+            "code": "130577",
+            "display": "Poor FOV selection"
+          },
+          {
+            "code": "130578",
+            "display": "Poor SNR"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6316-MRImagingArtifact"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6317-ProstateDCEMRIQualityFinding"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6318-ProstateDWIMRIQualityFinding"
+        ]
+      }
+    ]
+  }
+}

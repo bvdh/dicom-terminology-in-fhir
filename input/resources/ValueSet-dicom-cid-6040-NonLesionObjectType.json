@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "NonLesionObjectType",
+  "id": "dicom-cid-6040-NonLesionObjectType",
+  "description": "The use of",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6040-NonLesionObjectType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.370"
+    }
+  ],
+  "version": "20170914",
+  "title": "Non-lesion Object Type",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6401-NonLesionObjectTypePhysicalObject"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6402-NonLesionObjectTypeSubstance"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6403-NonLesionObjectTypeTissue"
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111176",
+            "display": "Unspecified"
+          }
+        ]
+      }
+    ]
+  }
+}

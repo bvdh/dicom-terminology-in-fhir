@@ -1,0 +1,119 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ContainerType",
+  "id": "dicom-cid-8101-ContainerType",
+  "description": "The SNOMED CT concepts for physical objects rather than corresponding concepts for specimens are used in this Context Group. I.e.,",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-8101-ContainerType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1043"
+    }
+  ],
+  "version": "20080626",
+  "title": "Container Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "434464009",
+            "display": "Tissue cassette"
+          },
+          {
+            "code": "434708008",
+            "display": "Tissue microarray cassette"
+          },
+          {
+            "code": "434746001",
+            "display": "Specimen vial"
+          },
+          {
+            "code": "433466003",
+            "display": "Microscope slide"
+          },
+          {
+            "code": "434711009",
+            "display": "Specimen container"
+          },
+          {
+            "code": "434533009",
+            "display": "Electron microscopy grid"
+          },
+          {
+            "code": "434822004",
+            "display": "Specimen well"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "A-0101E",
+            "display": "Tissue cassette"
+          },
+          {
+            "code": "A-01022",
+            "display": "Tissue microarray cassette"
+          },
+          {
+            "code": "A-01024",
+            "display": "Specimen vial"
+          },
+          {
+            "code": "A-0101B",
+            "display": "Microscope slide"
+          },
+          {
+            "code": "A-01023",
+            "display": "Specimen container"
+          },
+          {
+            "code": "A-01021",
+            "display": "Electron microscopy grid"
+          },
+          {
+            "code": "A-01025",
+            "display": "Specimen well"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0183953",
+            "display": "Tissue cassette"
+          },
+          {
+            "code": "C2315967",
+            "display": "Tissue microarray cassette"
+          },
+          {
+            "code": "C2316421",
+            "display": "Specimen vial"
+          },
+          {
+            "code": "C0026017",
+            "display": "Microscope slide"
+          },
+          {
+            "code": "C0183391",
+            "display": "Specimen container"
+          },
+          {
+            "code": "C2316945",
+            "display": "Electron microscopy grid"
+          },
+          {
+            "code": "C2316030",
+            "display": "Specimen well"
+          }
+        ]
+      }
+    ]
+  }
+}

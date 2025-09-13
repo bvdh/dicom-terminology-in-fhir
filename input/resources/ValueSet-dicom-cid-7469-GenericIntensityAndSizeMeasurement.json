@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GenericIntensityAndSizeMeasurement",
+  "id": "dicom-cid-7469-GenericIntensityAndSizeMeasurement",
+  "description": "Generic Intensity and Size Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7469-GenericIntensityAndSizeMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1003"
+    }
+  ],
+  "version": "20240913",
+  "title": "Generic Intensity and Size Measurement",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7180-AbstractMultiDimensionalImageModelComponentSemant"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7470-LinearMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7471-AreaMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7472-VolumeMeasurement"
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130922",
+            "display": "Number of pixels"
+          },
+          {
+            "code": "130923",
+            "display": "Number of voxels"
+          }
+        ]
+      }
+    ]
+  }
+}

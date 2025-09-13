@@ -1,0 +1,633 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ImagingContrastAgent",
+  "id": "dicom-cid-12-ImagingContrastAgent",
+  "description": "The codes drawn from SNOMED are recommended to be those from the concept hierarchy of \"pharmaceutical/biological product\", and secondarily from the hierarchy \"substance\". Trade names are from",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12-ImagingContrastAgent",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.10"
+    }
+  ],
+  "version": "20210714",
+  "title": "Imaging Contrast Agent",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "15158005",
+            "display": "Air"
+          },
+          {
+            "code": "25419009",
+            "display": "Barium Sulfate"
+          },
+          {
+            "code": "90745007",
+            "display": "Bunamiodyl"
+          },
+          {
+            "code": "31811003",
+            "display": "Carbon dioxide"
+          },
+          {
+            "code": "62442005",
+            "display": "Chloriodized oil"
+          },
+          {
+            "code": "7140000",
+            "display": "Contrast agent"
+          },
+          {
+            "code": "12335007",
+            "display": "Diatrizoate"
+          },
+          {
+            "code": "792865009",
+            "display": "Gadobenate dimeglumine"
+          },
+          {
+            "code": "407976008",
+            "display": "Gadobutrol"
+          },
+          {
+            "code": "354088005",
+            "display": "Gadodiamide"
+          },
+          {
+            "code": "770982005",
+            "display": "Gadofosveset"
+          },
+          {
+            "code": "768763008",
+            "display": "Gadolinium"
+          },
+          {
+            "code": "109216000",
+            "display": "Gadopentetate dimeglumine"
+          },
+          {
+            "code": "712714000",
+            "display": "Gadoterate meglumine"
+          },
+          {
+            "code": "353946009",
+            "display": "Gadoteridol"
+          },
+          {
+            "code": "409477004",
+            "display": "Gadoversetamide"
+          },
+          {
+            "code": "440223009",
+            "display": "Gadoxetate disodium"
+          },
+          {
+            "code": "12801003",
+            "display": "Iodamide meglumine"
+          },
+          {
+            "code": "73212002",
+            "display": "Iodipamide"
+          },
+          {
+            "code": "353962003",
+            "display": "Iodixanol"
+          },
+          {
+            "code": "89595000",
+            "display": "Iodized oil"
+          },
+          {
+            "code": "86584005",
+            "display": "Iodoalphionic acid"
+          },
+          {
+            "code": "74554008",
+            "display": "Iodophthalein"
+          },
+          {
+            "code": "40710000",
+            "display": "Iodopyracet"
+          },
+          {
+            "code": "109218004",
+            "display": "Iohexol"
+          },
+          {
+            "code": "109219007",
+            "display": "Iopamidol"
+          },
+          {
+            "code": "76155001",
+            "display": "Iopanoic acid"
+          },
+          {
+            "code": "28121005",
+            "display": "Iophendylate"
+          },
+          {
+            "code": "23053002",
+            "display": "Iophenoxic acid"
+          },
+          {
+            "code": "353903006",
+            "display": "Iopromide"
+          },
+          {
+            "code": "353912008",
+            "display": "Iothalamate"
+          },
+          {
+            "code": "109222009",
+            "display": "Ioversol"
+          },
+          {
+            "code": "412228003",
+            "display": "Ioxaglate"
+          },
+          {
+            "code": "409484007",
+            "display": "Ioxilan"
+          },
+          {
+            "code": "87445005",
+            "display": "Ipodate"
+          },
+          {
+            "code": "47192000",
+            "display": "Meglumine diatrizoate"
+          },
+          {
+            "code": "69783005",
+            "display": "Meglumine iodipamide"
+          },
+          {
+            "code": "90733003",
+            "display": "Metrizamide"
+          },
+          {
+            "code": "354094002",
+            "display": "Metrizoate"
+          },
+          {
+            "code": "43538006",
+            "display": "Non radiopaque medium"
+          },
+          {
+            "code": "24099007",
+            "display": "Oxygen"
+          },
+          {
+            "code": "111158001",
+            "display": "Propyliodone"
+          },
+          {
+            "code": "32836007",
+            "display": "Sodium acetrizoate"
+          },
+          {
+            "code": "83423008",
+            "display": "Sodium diprotrizoate"
+          },
+          {
+            "code": "925002",
+            "display": "Sodium iodipamide"
+          },
+          {
+            "code": "38344006",
+            "display": "Sodium iodomethamate"
+          },
+          {
+            "code": "109212003",
+            "display": "Sodium tyropanoate"
+          },
+          {
+            "code": "11713004",
+            "display": "Water"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "A-80230",
+            "display": "Air"
+          },
+          {
+            "code": "C-12217",
+            "display": "Barium Sulfate"
+          },
+          {
+            "code": "C-B0315",
+            "display": "Bunamiodyl"
+          },
+          {
+            "code": "C-10520",
+            "display": "Carbon dioxide"
+          },
+          {
+            "code": "C-B0316",
+            "display": "Chloriodized oil"
+          },
+          {
+            "code": "C-B0300",
+            "display": "Contrast agent"
+          },
+          {
+            "code": "C-B0317",
+            "display": "Diatrizoate"
+          },
+          {
+            "code": "C-B0415",
+            "display": "Gadobutrol"
+          },
+          {
+            "code": "C-B03C3",
+            "display": "Gadodiamide"
+          },
+          {
+            "code": "C-B0321",
+            "display": "Gadopentetate dimeglumine"
+          },
+          {
+            "code": "C-F06BC",
+            "display": "Gadoterate meglumine"
+          },
+          {
+            "code": "C-B03AD",
+            "display": "Gadoteridol"
+          },
+          {
+            "code": "C-B0493",
+            "display": "Gadoversetamide"
+          },
+          {
+            "code": "C-178FF",
+            "display": "Gadoxetate disodium"
+          },
+          {
+            "code": "C-B0326",
+            "display": "Iodamide meglumine"
+          },
+          {
+            "code": "C-B0318",
+            "display": "Iodipamide"
+          },
+          {
+            "code": "C-B03BC",
+            "display": "Iodixanol"
+          },
+          {
+            "code": "C-B0319",
+            "display": "Iodized oil"
+          },
+          {
+            "code": "C-B0323",
+            "display": "Iodoalphionic acid"
+          },
+          {
+            "code": "C-B0341",
+            "display": "Iodophthalein"
+          },
+          {
+            "code": "C-B0327",
+            "display": "Iodopyracet"
+          },
+          {
+            "code": "C-B0322",
+            "display": "Iohexol"
+          },
+          {
+            "code": "C-B0329",
+            "display": "Iopamidol"
+          },
+          {
+            "code": "C-B0328",
+            "display": "Iopanoic acid"
+          },
+          {
+            "code": "C-B0331",
+            "display": "Iophendylate"
+          },
+          {
+            "code": "C-B0333",
+            "display": "Iophenoxic acid"
+          },
+          {
+            "code": "C-B0382",
+            "display": "Iopromide"
+          },
+          {
+            "code": "C-B038B",
+            "display": "Iothalamate"
+          },
+          {
+            "code": "C-B0332",
+            "display": "Ioversol"
+          },
+          {
+            "code": "F-61E1C",
+            "display": "Ioxaglate"
+          },
+          {
+            "code": "C-B0303",
+            "display": "Ioxilan"
+          },
+          {
+            "code": "C-B0335",
+            "display": "Ipodate"
+          },
+          {
+            "code": "C-B0345",
+            "display": "Meglumine diatrizoate"
+          },
+          {
+            "code": "C-B0324",
+            "display": "Meglumine iodipamide"
+          },
+          {
+            "code": "C-B0348",
+            "display": "Metrizamide"
+          },
+          {
+            "code": "C-B03C9",
+            "display": "Metrizoate"
+          },
+          {
+            "code": "C-B0312",
+            "display": "Non radiopaque medium"
+          },
+          {
+            "code": "C-10110",
+            "display": "Oxygen"
+          },
+          {
+            "code": "C-B0337",
+            "display": "Propyliodone"
+          },
+          {
+            "code": "C-B0338",
+            "display": "Sodium acetrizoate"
+          },
+          {
+            "code": "C-B0342",
+            "display": "Sodium diprotrizoate"
+          },
+          {
+            "code": "C-B0325",
+            "display": "Sodium iodipamide"
+          },
+          {
+            "code": "C-B0344",
+            "display": "Sodium iodomethamate"
+          },
+          {
+            "code": "C-B0314",
+            "display": "Sodium tyropanoate"
+          },
+          {
+            "code": "C-10120",
+            "display": "Water"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0001861",
+            "display": "Air"
+          },
+          {
+            "code": "C0004754",
+            "display": "Barium Sulfate"
+          },
+          {
+            "code": "C0623554",
+            "display": "Bunamiodyl"
+          },
+          {
+            "code": "C0007012",
+            "display": "Carbon dioxide"
+          },
+          {
+            "code": "C0301444",
+            "display": "Chloriodized oil"
+          },
+          {
+            "code": "C2930749",
+            "display": "Contrast agent"
+          },
+          {
+            "code": "C0012004",
+            "display": "Diatrizoate"
+          },
+          {
+            "code": "C5230781",
+            "display": "Gadobenate dimeglumine"
+          },
+          {
+            "code": "C0291216",
+            "display": "Gadobutrol"
+          },
+          {
+            "code": "C0082646",
+            "display": "Gadodiamide"
+          },
+          {
+            "code": "C1698893",
+            "display": "Gadofosveset"
+          },
+          {
+            "code": "C0303704",
+            "display": "Gadolinium"
+          },
+          {
+            "code": "C0060934",
+            "display": "Gadopentetate dimeglumine"
+          },
+          {
+            "code": "C0118538",
+            "display": "Gadoterate meglumine"
+          },
+          {
+            "code": "C0060930",
+            "display": "Gadoteridol"
+          },
+          {
+            "code": "C0754820",
+            "display": "Gadoversetamide"
+          },
+          {
+            "code": "C1714000",
+            "display": "Gadoxetate disodium"
+          },
+          {
+            "code": "C0065884",
+            "display": "Iodamide meglumine"
+          },
+          {
+            "code": "C0021971",
+            "display": "Iodipamide"
+          },
+          {
+            "code": "C0063757",
+            "display": "Iodixanol"
+          },
+          {
+            "code": "C0021972",
+            "display": "Iodized oil"
+          },
+          {
+            "code": "C0063766",
+            "display": "Iodoalphionic acid"
+          },
+          {
+            "code": "C0163095",
+            "display": "Iodophthalein"
+          },
+          {
+            "code": "C0021990",
+            "display": "Iodopyracet"
+          },
+          {
+            "code": "C0022005",
+            "display": "Iohexol"
+          },
+          {
+            "code": "C0361904",
+            "display": "Ionic iodinated contrast agent"
+          },
+          {
+            "code": "C0022026",
+            "display": "Iopamidol"
+          },
+          {
+            "code": "C0022028",
+            "display": "Iopanoic acid"
+          },
+          {
+            "code": "C0022029",
+            "display": "Iophendylate"
+          },
+          {
+            "code": "C0063816",
+            "display": "Iophenoxic acid"
+          },
+          {
+            "code": "C0063817",
+            "display": "Iopromide"
+          },
+          {
+            "code": "C0022032",
+            "display": "Iothalamate"
+          },
+          {
+            "code": "C0063828",
+            "display": "Ioversol"
+          },
+          {
+            "code": "C0205807",
+            "display": "Ioxaglate"
+          },
+          {
+            "code": "C0063829",
+            "display": "Ioxilan"
+          },
+          {
+            "code": "C0022049",
+            "display": "Ipodate"
+          },
+          {
+            "code": "C0772321",
+            "display": "Mangafodipir trisodium"
+          },
+          {
+            "code": "C0012005",
+            "display": "Meglumine diatrizoate"
+          },
+          {
+            "code": "C0065885",
+            "display": "Meglumine iodipamide"
+          },
+          {
+            "code": "C0025869",
+            "display": "Metrizamide"
+          },
+          {
+            "code": "C0025870",
+            "display": "Metrizoate"
+          },
+          {
+            "code": "C0521968",
+            "display": "Non-ionic iodinated contrast agent"
+          },
+          {
+            "code": "C0301446",
+            "display": "Non radiopaque medium"
+          },
+          {
+            "code": "C0030054",
+            "display": "Oxygen"
+          },
+          {
+            "code": "C0033509",
+            "display": "Propyliodone"
+          },
+          {
+            "code": "C0546847",
+            "display": "Sodium acetrizoate"
+          },
+          {
+            "code": "C0301447",
+            "display": "Sodium diprotrizoate"
+          },
+          {
+            "code": "C0301445",
+            "display": "Sodium iodipamide"
+          },
+          {
+            "code": "C0301448",
+            "display": "Sodium iodomethamate"
+          },
+          {
+            "code": "C0936260",
+            "display": "Sodium tyropanoate"
+          },
+          {
+            "code": "C0043047",
+            "display": "Water"
+          }
+        ]
+      },
+      {
+        "system": "http://www.radlex.org",
+        "concept": [
+          {
+            "code": "RID11585",
+            "display": "Ionic iodinated contrast agent"
+          },
+          {
+            "code": "RID38696",
+            "display": "Non-ionic iodinated contrast agent"
+          }
+        ]
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept": [
+          {
+            "code": "236987",
+            "display": "Mangafodipir trisodium"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MediastinumAnatomy",
+  "id": "dicom-cid-6149-MediastinumAnatomy",
+  "description": "Original source of terms is [Fraser and Pare].",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6149-MediastinumAnatomy",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1314"
+    }
+  ],
+  "version": "20200309",
+  "title": "Mediastinum Anatomy",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "368536000",
+            "display": "Axillary Fascia"
+          },
+          {
+            "code": "28700002",
+            "display": "Carina"
+          },
+          {
+            "code": "51345006",
+            "display": "Carotid Body"
+          },
+          {
+            "code": "50016007",
+            "display": "Costal Cartilage"
+          },
+          {
+            "code": "280062008",
+            "display": "Esophageal Hiatus"
+          },
+          {
+            "code": "32849002",
+            "display": "Esophagus"
+          },
+          {
+            "code": "80891009",
+            "display": "Heart"
+          },
+          {
+            "code": "75245000",
+            "display": "Left main bronchus"
+          },
+          {
+            "code": "2160002",
+            "display": "Ligamentum arteriosum"
+          },
+          {
+            "code": "59441001",
+            "display": "Lymph node"
+          },
+          {
+            "code": "91134007",
+            "display": "Mitral Valve"
+          },
+          {
+            "code": "39057004",
+            "display": "Pulmonary valve"
+          },
+          {
+            "code": "70074004",
+            "display": "Right main bronchus"
+          },
+          {
+            "code": "1732005",
+            "display": "Thoracic Duct"
+          },
+          {
+            "code": "9875009",
+            "display": "Thymus Gland"
+          },
+          {
+            "code": "69748006",
+            "display": "Thyroid"
+          },
+          {
+            "code": "44567001",
+            "display": "Trachea"
+          },
+          {
+            "code": "31764008",
+            "display": "Trapezius muscle"
+          },
+          {
+            "code": "46030003",
+            "display": "Tricuspid Valve"
+          },
+          {
+            "code": "21814001",
+            "display": "Ventricle"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-18774",
+            "display": "Axillary Fascia"
+          },
+          {
+            "code": "T-25201",
+            "display": "Carina"
+          },
+          {
+            "code": "T-B4000",
+            "display": "Carotid Body"
+          },
+          {
+            "code": "T-11240",
+            "display": "Costal Cartilage"
+          },
+          {
+            "code": "T-D3412",
+            "display": "Esophageal Hiatus"
+          },
+          {
+            "code": "T-56000",
+            "display": "Esophagus"
+          },
+          {
+            "code": "T-32000",
+            "display": "Heart"
+          },
+          {
+            "code": "T-26500",
+            "display": "Left main bronchus"
+          },
+          {
+            "code": "T-42370",
+            "display": "Ligamentum arteriosum"
+          },
+          {
+            "code": "T-C4000",
+            "display": "Lymph node"
+          },
+          {
+            "code": "T-35300",
+            "display": "Mitral Valve"
+          },
+          {
+            "code": "T-35200",
+            "display": "Pulmonary valve"
+          },
+          {
+            "code": "T-26100",
+            "display": "Right main bronchus"
+          },
+          {
+            "code": "T-C6510",
+            "display": "Thoracic Duct"
+          },
+          {
+            "code": "T-C8000",
+            "display": "Thymus Gland"
+          },
+          {
+            "code": "T-B6000",
+            "display": "Thyroid"
+          },
+          {
+            "code": "T-25000",
+            "display": "Trachea"
+          },
+          {
+            "code": "T-14171",
+            "display": "Trapezius muscle"
+          },
+          {
+            "code": "T-35100",
+            "display": "Tricuspid Valve"
+          },
+          {
+            "code": "T-32400",
+            "display": "Ventricle"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0225236",
+            "display": "Axillary Fascia"
+          },
+          {
+            "code": "C0225594",
+            "display": "Carina"
+          },
+          {
+            "code": "C0007277",
+            "display": "Carotid Body"
+          },
+          {
+            "code": "C0222787",
+            "display": "Costal Cartilage"
+          },
+          {
+            "code": "C0230160",
+            "display": "Esophageal Hiatus"
+          },
+          {
+            "code": "C0014876",
+            "display": "Esophagus"
+          },
+          {
+            "code": "C0018787",
+            "display": "Heart"
+          },
+          {
+            "code": "C0225630",
+            "display": "Left main bronchus"
+          },
+          {
+            "code": "C0226023",
+            "display": "Ligamentum arteriosum"
+          },
+          {
+            "code": "C0024204",
+            "display": "Lymph node"
+          },
+          {
+            "code": "C0026264",
+            "display": "Mitral Valve"
+          },
+          {
+            "code": "C0034086",
+            "display": "Pulmonary valve"
+          },
+          {
+            "code": "C0225608",
+            "display": "Right main bronchus"
+          },
+          {
+            "code": "C0039979",
+            "display": "Thoracic Duct"
+          },
+          {
+            "code": "C0040113",
+            "display": "Thymus Gland"
+          },
+          {
+            "code": "C0040132",
+            "display": "Thyroid"
+          },
+          {
+            "code": "C0040578",
+            "display": "Trachea"
+          },
+          {
+            "code": "C0224361",
+            "display": "Trapezius muscle"
+          },
+          {
+            "code": "C0040960",
+            "display": "Tricuspid Valve"
+          },
+          {
+            "code": "C0018827",
+            "display": "Ventricle"
+          }
+        ]
+      }
+    ]
+  }
+}

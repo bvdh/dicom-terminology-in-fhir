@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiopharmaceuticalOrganDoseReferenceAuthority",
+  "id": "dicom-cid-10040-RadiopharmaceuticalOrganDoseReferenceAuthority",
+  "description": "Radiopharmaceutical Organ Dose Reference Authority",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10040-RadiopharmaceuticalOrganDoseReferenceAuthority",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.972"
+    }
+  ],
+  "version": "20140419",
+  "title": "Radiopharmaceutical Organ Dose Reference Authority",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113520",
+            "display": "MIRD Pamphlet 1"
+          },
+          {
+            "code": "113521",
+            "display": "ICRP Publication 53"
+          },
+          {
+            "code": "113526",
+            "display": "MIRDOSE"
+          },
+          {
+            "code": "113527",
+            "display": "OLINDA-EXM"
+          },
+          {
+            "code": "113528",
+            "display": "Package Insert"
+          },
+          {
+            "code": "113529",
+            "display": "Institutionally Approved Estimates"
+          },
+          {
+            "code": "113530",
+            "display": "Investigational New Drug"
+          },
+          {
+            "code": "113522",
+            "display": "ICRP Publication 80"
+          },
+          {
+            "code": "113523",
+            "display": "ICRP Publication 106"
+          }
+        ]
+      }
+    ]
+  }
+}

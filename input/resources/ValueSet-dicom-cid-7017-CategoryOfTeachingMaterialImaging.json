@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CategoryOfTeachingMaterialImaging",
+  "id": "dicom-cid-7017-CategoryOfTeachingMaterialImaging",
+  "description": "The contents of this Context Group correspond to the American Board of Radiology categories in use at the time the IHE TCE Profile was developed.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7017-CategoryOfTeachingMaterialImaging",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1181"
+    }
+  ],
+  "version": "20170914",
+  "title": "Category of Teaching Material - Imaging",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "128728",
+            "display": "Musculoskeletal imaging subject matter"
+          },
+          {
+            "code": "128729",
+            "display": "Pulmonary imaging subject matter"
+          },
+          {
+            "code": "128730",
+            "display": "Cardiovascular imaging subject matter"
+          },
+          {
+            "code": "128731",
+            "display": "Gastrointestinal imaging subject matter"
+          },
+          {
+            "code": "128732",
+            "display": "Genitourinary imaging subject matter"
+          },
+          {
+            "code": "128733",
+            "display": "Neuroimaging subject matter"
+          },
+          {
+            "code": "128734",
+            "display": "Vascular and interventional imaging subject matter"
+          },
+          {
+            "code": "128735",
+            "display": "Nuclear medicine imaging subject matter"
+          },
+          {
+            "code": "128736",
+            "display": "Ultrasound imaging subject matter"
+          },
+          {
+            "code": "128737",
+            "display": "Pediatric imaging subject matter"
+          },
+          {
+            "code": "128738",
+            "display": "Breast imaging subject matter"
+          }
+        ]
+      }
+    ]
+  }
+}

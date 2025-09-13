@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MammographyCompositeFeature",
+  "id": "dicom-cid-6016-MammographyCompositeFeature",
+  "description": "In future extensions, Mammography Composite Feature terms that are not derived from BI-RADS should be added to this Context Group.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6016-MammographyCompositeFeature",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.346"
+    }
+  ],
+  "version": "20050110",
+  "title": "Mammography Composite Feature",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111459",
+            "display": "Mass with calcifications"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6014-MammographySingleImageFinding"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6017-CompositeFeatureFromBIRADS"
+        ]
+      }
+    ]
+  }
+}

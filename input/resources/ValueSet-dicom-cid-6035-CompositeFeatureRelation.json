@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CompositeFeatureRelation",
+  "id": "dicom-cid-6035-CompositeFeatureRelation",
+  "description": "Composite Feature Relation",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6035-CompositeFeatureRelation",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.365"
+    }
+  ],
+  "version": "20020904",
+  "title": "Composite Feature Relation",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111153",
+            "display": "Target Content Items are related temporally"
+          },
+          {
+            "code": "111154",
+            "display": "Target Content Items are related spatially"
+          },
+          {
+            "code": "111155",
+            "display": "Target Content Items are related contra-laterally"
+          }
+        ]
+      }
+    ]
+  }
+}

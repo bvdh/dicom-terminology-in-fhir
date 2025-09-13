@@ -1,0 +1,160 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AbnormalOpacityFindingOrFeature",
+  "id": "dicom-cid-6104-AbnormalOpacityFindingOrFeature",
+  "description": "Original source of terms is [Fraser and Pare].",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6104-AbnormalOpacityFindingOrFeature",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.424"
+    }
+  ],
+  "version": "20030108",
+  "title": "Abnormal Opacity Finding or Feature",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112066",
+            "display": "Beaded septum sign"
+          },
+          {
+            "code": "112067",
+            "display": "Nodular pattern"
+          },
+          {
+            "code": "112059",
+            "display": "Primary complex"
+          },
+          {
+            "code": "112068",
+            "display": "Pseudoplaque"
+          },
+          {
+            "code": "112065",
+            "display": "Reticulonodular pattern"
+          },
+          {
+            "code": "112069",
+            "display": "Signet-ring sign"
+          },
+          {
+            "code": "112004",
+            "display": "Abnormal interstitial pattern"
+          },
+          {
+            "code": "112118",
+            "display": "Density"
+          },
+          {
+            "code": "112119",
+            "display": "Dependent opacity"
+          },
+          {
+            "code": "112120",
+            "display": "Ground glass opacity"
+          },
+          {
+            "code": "112121",
+            "display": "Infiltrate"
+          },
+          {
+            "code": "112122",
+            "display": "Micronodule"
+          },
+          {
+            "code": "112001",
+            "display": "Opacity"
+          },
+          {
+            "code": "112123",
+            "display": "Phantom tumor (pseudotumor)"
+          },
+          {
+            "code": "112124",
+            "display": "Shadow"
+          },
+          {
+            "code": "112125",
+            "display": "Small irregular opacities"
+          },
+          {
+            "code": "112126",
+            "display": "Small rounded opacities"
+          },
+          {
+            "code": "112127",
+            "display": "Tree-in-bud sign"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "308689002",
+            "display": "Coin lesion"
+          },
+          {
+            "code": "4147007",
+            "display": "Mass"
+          },
+          {
+            "code": "27925004",
+            "display": "Nodule"
+          },
+          {
+            "code": "59282003",
+            "display": "Pulmonary embolism"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "F-20172",
+            "display": "Coin lesion"
+          },
+          {
+            "code": "M-03000",
+            "display": "Mass"
+          },
+          {
+            "code": "M-03010",
+            "display": "Nodule"
+          },
+          {
+            "code": "D3-40230",
+            "display": "Pulmonary embolism"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0009250",
+            "display": "Coin lesion"
+          },
+          {
+            "code": "C0577559",
+            "display": "Mass"
+          },
+          {
+            "code": "C0028259",
+            "display": "Nodule"
+          },
+          {
+            "code": "C0034065",
+            "display": "Pulmonary embolism"
+          }
+        ]
+      }
+    ]
+  }
+}

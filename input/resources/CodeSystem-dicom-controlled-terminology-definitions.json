@@ -1,0 +1,684 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "DicomControllerdTerminologyDefinitions",
+  "id": "dicom-controlled-terminology-definitions",
+  "title": "Coding Schemes",
+  "description": "The meanings of codes defined in DICOM, either explicitly or by reference to another part of DICOM or an external reference document or standard.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-controlled-terminology-definitions",
+  "concept": [
+    {
+      "code": "ACR",
+      "display": "ACR",
+      "definition": "ACR Index (UID=2.16.840.1.113883.6.76)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.76"
+        }
+      ]
+    },
+    {
+      "code": "ASTM-sigpurpose",
+      "display": "ASTM-sigpurpose",
+      "definition": "ASTM E 2084 (UID=1.2.840.10065.1.12)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10065.1.12"
+        }
+      ]
+    },
+    {
+      "code": "BARI",
+      "display": "BARI",
+      "definition": "BARI"
+    },
+    {
+      "code": "BI",
+      "display": "BI",
+      "definition": "BI-RADS"
+    },
+    {
+      "code": "C4",
+      "display": "C4",
+      "definition": "CPT-4 (UID=2.16.840.1.113883.6.12)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.12"
+        }
+      ]
+    },
+    {
+      "code": "C5",
+      "display": "C5",
+      "definition": "CPT-5 (UID=2.16.840.1.113883.6.82)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.82"
+        }
+      ]
+    },
+    {
+      "code": "caDSR",
+      "display": "caDSR",
+      "definition": "Cancer Data Standard Repository (UID=2.16.840.1.113883.3.26.2)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.3.26.2"
+        }
+      ]
+    },
+    {
+      "code": "CD2",
+      "display": "CD2",
+      "definition": "CDT-2 (UID=2.16.840.1.113883.6.13)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.13"
+        }
+      ]
+    },
+    {
+      "code": "CTV3",
+      "display": "CTV3",
+      "definition": "Clinical Terms Version 3 (UID=2.16.840.1.113883.6.6)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.6"
+        }
+      ]
+    },
+    {
+      "code": "DC",
+      "display": "DC",
+      "definition": "Dublin Core (UID=1.2.840.10008.2.16.10)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10008.2.16.10"
+        }
+      ]
+    },
+    {
+      "code": "DCM",
+      "display": "DCM",
+      "definition": "DICOM Controlled Terminology (UID=1.2.840.10008.2.16.4)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10008.2.16.4"
+        }
+      ]
+    },
+    {
+      "code": "DCMUID",
+      "display": "DCMUID",
+      "definition": "DICOM UID Registry (UID=1.2.840.10008.2.6.1)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10008.2.6.1"
+        }
+      ]
+    },
+    {
+      "code": "FMA",
+      "display": "FMA",
+      "definition": "FMA (UID=2.16.840.1.113883.6.119)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.119"
+        }
+      ]
+    },
+    {
+      "code": "HPC",
+      "display": "HPC",
+      "definition": " (UID=2.16.840.1.113883.6.14)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.14"
+        }
+      ]
+    },
+    {
+      "code": "I10",
+      "display": "I10",
+      "definition": "ICD-10 (UID=2.16.840.1.113883.6.3)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.3"
+        }
+      ]
+    },
+    {
+      "code": "I10C",
+      "display": "I10C",
+      "definition": "ICD-10-CM (UID=2.16.840.1.113883.6.90)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.90"
+        }
+      ]
+    },
+    {
+      "code": "I10P",
+      "display": "I10P",
+      "definition": "ICD-10-PCS (UID=2.16.840.1.113883.6.4)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.4"
+        }
+      ]
+    },
+    {
+      "code": "I11",
+      "display": "I11",
+      "definition": "ICD-11 (UID=1.2.840.10008.2.16.16)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10008.2.16.16"
+        }
+      ]
+    },
+    {
+      "code": "I9",
+      "display": "I9",
+      "definition": "ICD-9 (UID=2.16.840.1.113883.6.42)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.42"
+        }
+      ]
+    },
+    {
+      "code": "I9C",
+      "display": "I9C",
+      "definition": "ICD-9-CM (UID=2.16.840.1.113883.6.2)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.2"
+        }
+      ]
+    },
+    {
+      "code": "ICDO3",
+      "display": "ICDO3",
+      "definition": "ICD-O-3 (UID=2.16.840.1.113883.6.43.1)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.43.1"
+        }
+      ]
+    },
+    {
+      "code": "IBSI",
+      "display": "IBSI",
+      "definition": "Image Biomarker Standardisation Initiative (UID=1.2.840.10008.2.16.13)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10008.2.16.13"
+        }
+      ]
+    },
+    {
+      "code": "IETF4646",
+      "display": "IETF4646",
+      "definition": "RFC 4646"
+    },
+    {
+      "code": "ISO639_1",
+      "display": "ISO639_1",
+      "definition": "ISO 639-1 (UID=2.16.840.1.113883.6.99)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.99"
+        }
+      ]
+    },
+    {
+      "code": "ISO639_2",
+      "display": "ISO639_2",
+      "definition": "ISO 639-2 (UID=2.16.840.1.113883.6.100)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.100"
+        }
+      ]
+    },
+    {
+      "code": "ISO3166_1",
+      "display": "ISO3166_1",
+      "definition": "ISO 3166-1 (UID=2.16.1)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.1"
+        }
+      ]
+    },
+    {
+      "code": "ISO5218_1",
+      "display": "ISO5218_1",
+      "definition": "ISO 5218-1"
+    },
+    {
+      "code": "ISO_OID",
+      "display": "ISO_OID",
+      "definition": "ISO OID"
+    },
+    {
+      "code": "ITIS_TSN",
+      "display": "ITIS_TSN",
+      "definition": "ITIS TSN (UID=1.2.840.10008.2.16.7)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10008.2.16.7"
+        }
+      ]
+    },
+    {
+      "code": "LN",
+      "display": "LN",
+      "definition": "LOINC (UID=2.16.840.1.113883.6.1)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.1"
+        }
+      ]
+    },
+    {
+      "code": "MA",
+      "display": "MA",
+      "definition": "Adult Mouse Anatomy Ontology (UID=1.2.840.10008.2.16.5)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10008.2.16.5"
+        }
+      ]
+    },
+    {
+      "code": "MAYOASRG",
+      "display": "MAYOASRG",
+      "definition": "Mayo Clinic Non-radiological Images Specific Body Structure Anatomical Surface Region Guide (UID=1.2.840.10008.2.16.12)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10008.2.16.12"
+        }
+      ]
+    },
+    {
+      "code": "MDC",
+      "display": "MDC",
+      "definition": " (UID=2.16.840.1.113883.6.24)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.24"
+        }
+      ]
+    },
+    {
+      "code": "MDNS",
+      "display": "MDNS"
+    },
+    {
+      "code": "MGI",
+      "display": "MGI",
+      "definition": "MGI (UID=1.2.840.10008.2.16.8)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10008.2.16.8"
+        }
+      ]
+    },
+    {
+      "code": "MSH",
+      "display": "MSH",
+      "definition": "MeSH (UID=2.16.840.1.113883.6.177)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.177"
+        }
+      ]
+    },
+    {
+      "code": "NBD",
+      "display": "NBD",
+      "definition": " (UID=2.16.840.1.113883.15.2)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.15.2"
+        }
+      ]
+    },
+    {
+      "code": "NBG",
+      "display": "NBG",
+      "definition": " (UID=2.16.840.1.113883.15.3)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.15.3"
+        }
+      ]
+    },
+    {
+      "code": "NCDR",
+      "display": "NCDR"
+    },
+    {
+      "code": "NCIt",
+      "display": "NCIt",
+      "definition": "NCI Thesaurus (UID=2.16.840.1.113883.3.26.1.1)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.3.26.1.1"
+        }
+      ]
+    },
+    {
+      "code": "NDC",
+      "display": "NDC",
+      "definition": "National Drug Code Directory (UID=2.16.840.1.113883.6.69)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.69"
+        }
+      ]
+    },
+    {
+      "code": "NEU",
+      "display": "NEU",
+      "definition": "NeuroNames (UID=2.16.840.1.113883.6.210)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.210"
+        }
+      ]
+    },
+    {
+      "code": "NICIP",
+      "display": "NICIP",
+      "definition": "NICIP (UID=2.16.840.1.113883.2.1.3.2.4.21)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.2.1.3.2.4.21"
+        }
+      ]
+    },
+    {
+      "code": "NPI",
+      "display": "NPI"
+    },
+    {
+      "code": "NYUMCCG",
+      "display": "NYUMCCG",
+      "definition": "New York University Melanoma Clinical Cooperative Group (UID=1.2.840.10008.2.16.11)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10008.2.16.11"
+        }
+      ]
+    },
+    {
+      "code": "PATHLEX",
+      "display": "PATHLEX",
+      "definition": "PathLex (UID=1.3.6.1.4.1.19376.1.8.2.1)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.3.6.1.4.1.19376.1.8.2.1"
+        }
+      ]
+    },
+    {
+      "code": "POS",
+      "display": "POS",
+      "definition": " (UID=2.16.840.1.113883.6.50)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.50"
+        }
+      ]
+    },
+    {
+      "code": "PUBCHEM_CID",
+      "display": "PUBCHEM_CID",
+      "definition": "PubChem (UID=1.2.840.10008.2.16.9)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10008.2.16.9"
+        }
+      ]
+    },
+    {
+      "code": "RADLEX",
+      "display": "RADLEX",
+      "definition": "RadLex (UID=2.16.840.1.113883.6.256)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.256"
+        }
+      ]
+    },
+    {
+      "code": "RADELEMENT",
+      "display": "RADELEMENT",
+      "definition": "RadElement (UID=1.2.840.10008.2.16.15)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10008.2.16.15"
+        }
+      ]
+    },
+    {
+      "code": "RFC3066",
+      "display": "RFC3066",
+      "definition": "RFC 3066 (UID=2.16.840.1.113883.6.121)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.121"
+        }
+      ]
+    },
+    {
+      "code": "RFC-3881",
+      "display": "RFC-3881",
+      "definition": "RFC 3881"
+    },
+    {
+      "code": "RFC5646",
+      "display": "RFC5646",
+      "definition": "RFC 5646 (UID=2.16.840.1.113883.6.316)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.316"
+        }
+      ]
+    },
+    {
+      "code": "RO",
+      "display": "RO",
+      "definition": "Radiomics Ontology (UID=1.2.840.10008.2.16.14)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10008.2.16.14"
+        }
+      ]
+    },
+    {
+      "code": "RRID",
+      "display": "RRID",
+      "definition": "RRID (UID=1.2.840.10008.2.16.18)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10008.2.16.18"
+        }
+      ]
+    },
+    {
+      "code": "RXNORM",
+      "display": "RXNORM",
+      "definition": "RXNORM (UID=2.16.840.1.113883.6.88)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.88"
+        }
+      ]
+    },
+    {
+      "code": "99SDM",
+      "display": "99SDM",
+      "definition": "SDM (UID=2.16.840.1.113883.6.53)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.53"
+        }
+      ]
+    },
+    {
+      "code": "SCPECG",
+      "display": "SCPECG"
+    },
+    {
+      "code": "SNM3",
+      "display": "SNM3",
+      "definition": "SNOMED V3 (UID=2.16.840.1.113883.6.51)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.51"
+        }
+      ]
+    },
+    {
+      "code": "SCT",
+      "display": "SCT",
+      "definition": "SNOMED CT (UID=2.16.840.1.113883.6.96)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.96"
+        }
+      ]
+    },
+    {
+      "code": "SRT",
+      "display": "SRT",
+      "definition": "SNOMED CT (UID=2.16.840.1.113883.6.96)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.96"
+        }
+      ]
+    },
+    {
+      "code": "UBERON",
+      "display": "UBERON",
+      "definition": "UBERON (UID=1.2.840.10008.2.16.6)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10008.2.16.6"
+        }
+      ]
+    },
+    {
+      "code": "UCUM",
+      "display": "UCUM",
+      "definition": "UCUM (UID=2.16.840.1.113883.6.8)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.8"
+        }
+      ]
+    },
+    {
+      "code": "UMLS",
+      "display": "UMLS",
+      "definition": "UMLS (UID=2.16.840.1.113883.6.86)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.86"
+        }
+      ]
+    },
+    {
+      "code": "UNS",
+      "display": "UNS",
+      "definition": "UNS (UID=1.2.840.10008.2.16.17)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "1.2.840.10008.2.16.17"
+        }
+      ]
+    },
+    {
+      "code": "UPC",
+      "display": "UPC",
+      "definition": " (UID=2.16.840.1.113883.6.55)",
+      "property": [
+        {
+          "code": "uid",
+          "valueString": "2.16.840.1.113883.6.55"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": true,
+  "experimental": false,
+  "property": [
+    {
+      "code": "uid",
+      "description": "Coding Scheme UID",
+      "type": "string"
+    }
+  ],
+  "count": 66
+}

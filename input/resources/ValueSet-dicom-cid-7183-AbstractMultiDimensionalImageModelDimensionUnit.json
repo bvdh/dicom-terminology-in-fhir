@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AbstractMultiDimensionalImageModelDimensionUnit",
+  "id": "dicom-cid-7183-AbstractMultiDimensionalImageModelDimensionUnit",
+  "description": "Abstract Multi-dimensional Image Model Dimension Unit",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7183-AbstractMultiDimensionalImageModelDimensionUnit",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.920"
+    }
+  ],
+  "version": "20100825",
+  "title": "Abstract Multi-dimensional Image Model Dimension Unit",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7460-LinearMeasurementUnit"
+        ]
+      },
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "ms",
+            "display": "Millisecond"
+          },
+          {
+            "code": "s",
+            "display": "Second"
+          },
+          {
+            "code": "deg",
+            "display": "Degree"
+          },
+          {
+            "code": "rad",
+            "display": "Radian"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SurfaceScanModeType",
+  "id": "dicom-cid-8202-SurfaceScanModeType",
+  "description": "Surface Scan Mode Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-8202-SurfaceScanModeType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.954"
+    }
+  ],
+  "version": "20121129",
+  "title": "Surface Scan Mode Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "114209",
+            "display": "Turntable Scan Method"
+          },
+          {
+            "code": "114210",
+            "display": "High resolution"
+          },
+          {
+            "code": "114211",
+            "display": "Fast mode"
+          },
+          {
+            "code": "114216",
+            "display": "Checkerboard"
+          }
+        ]
+      }
+    ]
+  }
+}

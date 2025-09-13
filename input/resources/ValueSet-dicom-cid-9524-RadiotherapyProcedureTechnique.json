@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiotherapyProcedureTechnique",
+  "id": "dicom-cid-9524-RadiotherapyProcedureTechnique",
+  "description": "Radiotherapy Procedure Technique",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9524-RadiotherapyProcedureTechnique",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1234"
+    }
+  ],
+  "version": "20181112",
+  "title": "Radiotherapy Procedure Technique",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9511-GeneralExternalRadiotherapyProcedureTechnique"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9512-TomotherapeuticRadiotherapyProcedureTechnique"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9522-MultisourceRadiotherapyProcedureTechnique"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9523-RoboticRadiotherapyProcedureTechnique"
+        ]
+      }
+    ]
+  }
+}

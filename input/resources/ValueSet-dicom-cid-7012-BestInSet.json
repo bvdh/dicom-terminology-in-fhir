@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "BestInSet",
+  "id": "dicom-cid-7012-BestInSet",
+  "description": "Best in Set",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7012-BestInSet",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.492"
+    }
+  ],
+  "version": "20020904",
+  "title": "Best in Set",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113014",
+            "display": "Study"
+          },
+          {
+            "code": "113015",
+            "display": "Series"
+          },
+          {
+            "code": "113016",
+            "display": "Performed Procedure Step"
+          },
+          {
+            "code": "113017",
+            "display": "Stage-View"
+          }
+        ]
+      }
+    ]
+  }
+}

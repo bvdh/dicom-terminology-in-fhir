@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ReasonForRemovalFromOperationalUse",
+  "id": "dicom-cid-7031-ReasonForRemovalFromOperationalUse",
+  "description": "Reason for Removal from Operational Use",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7031-ReasonForRemovalFromOperationalUse",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1446"
+    }
+  ],
+  "version": "20220624",
+  "title": "Reason for Removal from Operational Use",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113001",
+            "display": "Rejected for Quality Reasons"
+          },
+          {
+            "code": "113037",
+            "display": "Rejected for Patient Safety Reasons"
+          },
+          {
+            "code": "113038",
+            "display": "Incorrect Modality Worklist Entry"
+          },
+          {
+            "code": "113039",
+            "display": "Data Retention Policy Expired"
+          },
+          {
+            "code": "113680",
+            "display": "Quality Control Intent"
+          },
+          {
+            "code": "130752",
+            "display": "Data Not Accessible from Storage"
+          },
+          {
+            "code": "130753",
+            "display": "Processed Key Object Selection"
+          },
+          {
+            "code": "130754",
+            "display": "Replaced by Alternate Representation"
+          }
+        ]
+      }
+    ]
+  }
+}

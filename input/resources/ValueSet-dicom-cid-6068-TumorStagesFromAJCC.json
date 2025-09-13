@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "TumorStagesFromAJCC",
+  "id": "dicom-cid-6068-TumorStagesFromAJCC",
+  "description": "Tumor Stages From AJCC",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6068-TumorStagesFromAJCC",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.397"
+    }
+  ],
+  "version": "20040112",
+  "title": "Tumor Stages From AJCC",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111494",
+            "display": "Stage 0"
+          },
+          {
+            "code": "111495",
+            "display": "Stage I"
+          },
+          {
+            "code": "111496",
+            "display": "Stage IIA"
+          },
+          {
+            "code": "111497",
+            "display": "Stage IIB"
+          },
+          {
+            "code": "111498",
+            "display": "Stage IIIA"
+          },
+          {
+            "code": "111499",
+            "display": "Stage IIIB"
+          },
+          {
+            "code": "111500",
+            "display": "Stage IIIC"
+          },
+          {
+            "code": "111501",
+            "display": "Stage IV"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LiverSegmentationType",
+  "id": "dicom-cid-7171-LiverSegmentationType",
+  "description": "Liver Segmentation Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7171-LiverSegmentationType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1359"
+    }
+  ],
+  "version": "20210120",
+  "title": "Liver Segmentation Type",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7170-CouinaudLiverSegment"
+        ]
+      }
+    ]
+  }
+}

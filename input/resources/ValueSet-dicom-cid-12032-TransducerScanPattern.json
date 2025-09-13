@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "TransducerScanPattern",
+  "id": "dicom-cid-12032-TransducerScanPattern",
+  "description": "Transducer Scan Pattern",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12032-TransducerScanPattern",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.807"
+    }
+  ],
+  "version": "20090409",
+  "title": "Transducer Scan Pattern",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "125240",
+            "display": "Line scan pattern"
+          },
+          {
+            "code": "125241",
+            "display": "Plane scan pattern"
+          },
+          {
+            "code": "125242",
+            "display": "Volume scan pattern"
+          }
+        ]
+      }
+    ]
+  }
+}

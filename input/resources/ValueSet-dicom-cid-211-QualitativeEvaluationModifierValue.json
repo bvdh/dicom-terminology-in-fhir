@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "QualitativeEvaluationModifierValue",
+  "id": "dicom-cid-211-QualitativeEvaluationModifierValue",
+  "description": "Qualitative Evaluation Modifier Value",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-211-QualitativeEvaluationModifierValue",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1286"
+    }
+  ],
+  "version": "20190524",
+  "title": "Qualitative Evaluation Modifier Value",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-245-LateralityWithMedian"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-212-GenericAnatomicLocationModifier"
+        ]
+      }
+    ]
+  }
+}

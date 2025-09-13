@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "UltrasoundPelvisAndUterusMeasurement",
+  "id": "dicom-cid-12011-UltrasoundPelvisAndUterusMeasurement",
+  "description": "Ultrasound Pelvis and Uterus Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12011-UltrasoundPelvisAndUterusMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.559"
+    }
+  ],
+  "version": "20030130",
+  "title": "Ultrasound Pelvis and Uterus Measurement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "11961-0",
+            "display": "Cervix Length"
+          },
+          {
+            "code": "12145-9",
+            "display": "Endometrium Thickness"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0552078",
+            "display": "Cervix Length"
+          },
+          {
+            "code": "C0552258",
+            "display": "Endometrium Thickness"
+          }
+        ]
+      }
+    ]
+  }
+}

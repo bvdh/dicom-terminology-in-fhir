@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SelectionMethod",
+  "id": "dicom-cid-224-SelectionMethod",
+  "description": "Selection Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-224-SelectionMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.29"
+    }
+  ],
+  "version": "20030327",
+  "title": "Selection Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121410",
+            "display": "User chosen value"
+          },
+          {
+            "code": "121411",
+            "display": "Most recent value chosen"
+          },
+          {
+            "code": "121412",
+            "display": "Mean value chosen"
+          }
+        ]
+      }
+    ]
+  }
+}

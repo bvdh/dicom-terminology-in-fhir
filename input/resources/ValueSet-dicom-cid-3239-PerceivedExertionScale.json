@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "PerceivedExertionScale",
+  "id": "dicom-cid-3239-PerceivedExertionScale",
+  "description": "Perceived Exertion Scale",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3239-PerceivedExertionScale",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.785"
+    }
+  ],
+  "version": "20080927",
+  "title": "Perceived Exertion Scale",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122734",
+            "display": "Borg RPE Scale"
+          },
+          {
+            "code": "122735",
+            "display": "Borg CR10 Scale"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RTROIImageAcquisitionContext",
+  "id": "dicom-cid-9272-RTROIImageAcquisitionContext",
+  "description": "RT ROI Image Acquisition Context",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9272-RTROIImageAcquisitionContext",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1481"
+    }
+  ],
+  "version": "20240114",
+  "title": "RT ROI Image Acquisition Context",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3823-RespiratoryStatus"
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "109134",
+            "display": "Prior to voiding"
+          },
+          {
+            "code": "109135",
+            "display": "Post voiding"
+          },
+          {
+            "code": "130833",
+            "display": "Pre-surgical anatomy"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "249602003",
+            "display": "Full Rectum"
+          },
+          {
+            "code": "249599008",
+            "display": "Empty Rectum"
+          },
+          {
+            "code": "245849007",
+            "display": "Post-surgical anatomy"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "F-5012D",
+            "display": "Full Rectum"
+          },
+          {
+            "code": "F-5012A",
+            "display": "Empty Rectum"
+          },
+          {
+            "code": "T-D0169",
+            "display": "Post-surgical anatomy"
+          }
+        ]
+      }
+    ]
+  }
+}

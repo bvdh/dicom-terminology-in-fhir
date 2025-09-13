@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MydriaticAgent",
+  "id": "dicom-cid-4208-MydriaticAgent",
+  "description": "Mydriatic Agent",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4208-MydriaticAgent",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.324"
+    }
+  ],
+  "version": "20190817",
+  "title": "Mydriatic Agent",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "771928002",
+            "display": "Atropine"
+          },
+          {
+            "code": "82264009",
+            "display": "Homatropine"
+          },
+          {
+            "code": "8348002",
+            "display": "Cyclopentolate"
+          },
+          {
+            "code": "386693003",
+            "display": "Phenylephrine"
+          },
+          {
+            "code": "9190005",
+            "display": "Tropicamide"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "C-677C0",
+            "display": "Homatropine"
+          },
+          {
+            "code": "C-97520",
+            "display": "Cyclopentolate"
+          },
+          {
+            "code": "C-68165",
+            "display": "Phenylephrine"
+          },
+          {
+            "code": "C-97580",
+            "display": "Tropicamide"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0062922",
+            "display": "Homatropine"
+          },
+          {
+            "code": "C0010582",
+            "display": "Cyclopentolate"
+          },
+          {
+            "code": "C0717985",
+            "display": "Phenylephrine"
+          },
+          {
+            "code": "C0041190",
+            "display": "Tropicamide"
+          }
+        ]
+      }
+    ]
+  }
+}

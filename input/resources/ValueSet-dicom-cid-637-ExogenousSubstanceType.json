@@ -1,0 +1,104 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ExogenousSubstanceType",
+  "id": "dicom-cid-637-ExogenousSubstanceType",
+  "description": "The specific concept",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-637-ExogenousSubstanceType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1102"
+    }
+  ],
+  "version": "20151110",
+  "title": "Exogenous Substance Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "246345001",
+            "display": "Graft material"
+          },
+          {
+            "code": "88921000",
+            "display": "Fibril"
+          },
+          {
+            "code": "49872002",
+            "display": "Virus"
+          },
+          {
+            "code": "75777003",
+            "display": "Cytokine"
+          },
+          {
+            "code": "80917008",
+            "display": "Toxin"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-C1F9",
+            "display": "Graft material"
+          },
+          {
+            "code": "T-1A080",
+            "display": "Fibril"
+          },
+          {
+            "code": "L-30000",
+            "display": "Virus"
+          },
+          {
+            "code": "F-CB250",
+            "display": "Cytokine"
+          },
+          {
+            "code": "C-00224",
+            "display": "Toxin"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0181074",
+            "display": "Graft material"
+          },
+          {
+            "code": "C0225328",
+            "display": "Fibril"
+          },
+          {
+            "code": "C0042776",
+            "display": "Virus"
+          },
+          {
+            "code": "C0079189",
+            "display": "Cytokine"
+          },
+          {
+            "code": "C0040549",
+            "display": "Toxin"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "127460",
+            "display": "Tumor Graft"
+          }
+        ]
+      }
+    ]
+  }
+}

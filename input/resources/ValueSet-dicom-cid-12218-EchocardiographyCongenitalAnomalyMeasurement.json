@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EchocardiographyCongenitalAnomalyMeasurement",
+  "id": "dicom-cid-12218-EchocardiographyCongenitalAnomalyMeasurement",
+  "description": "Echocardiography Congenital Anomaly Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12218-EchocardiographyCongenitalAnomalyMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.610"
+    }
+  ],
+  "version": "20100317",
+  "title": "Echocardiography Congenital Anomaly Measurement",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12220-EchocardiographyCommonMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12222-OrificeFlowProperty"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12250-CardiacUltrasoundCommonLinearMeasurement"
+        ]
+      }
+    ]
+  }
+}

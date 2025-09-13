@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DiffusionTractographyAlgorithmFamily",
+  "id": "dicom-cid-7262-DiffusionTractographyAlgorithmFamily",
+  "description": "Diffusion Tractography Algorithm Family",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7262-DiffusionTractographyAlgorithmFamily",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1061"
+    }
+  ],
+  "version": "20150918",
+  "title": "Diffusion Tractography Algorithm Family",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113211",
+            "display": "Deterministic"
+          },
+          {
+            "code": "113212",
+            "display": "Probabilistic"
+          },
+          {
+            "code": "113213",
+            "display": "Global"
+          },
+          {
+            "code": "113214",
+            "display": "FACT"
+          },
+          {
+            "code": "113215",
+            "display": "Streamline"
+          },
+          {
+            "code": "113216",
+            "display": "TEND"
+          },
+          {
+            "code": "113217",
+            "display": "Bootstrap"
+          },
+          {
+            "code": "113218",
+            "display": "Euler"
+          },
+          {
+            "code": "113219",
+            "display": "Runge-Kutta"
+          }
+        ]
+      }
+    ]
+  }
+}

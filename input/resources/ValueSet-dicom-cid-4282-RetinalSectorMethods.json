@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RetinalSectorMethods",
+  "id": "dicom-cid-4282-RetinalSectorMethods",
+  "description": "Retinal Sector Methods",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4282-RetinalSectorMethods",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1535"
+    }
+  ],
+  "version": "20250707",
+  "title": "Retinal Sector Methods",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "131301",
+            "display": "Semicircular sectors"
+          },
+          {
+            "code": "131302",
+            "display": "Quadrant sectors"
+          },
+          {
+            "code": "131303",
+            "display": "SNIT rectangular sectors"
+          },
+          {
+            "code": "131305",
+            "display": "Garway-Heath sectors"
+          },
+          {
+            "code": "131306",
+            "display": "Quadrant-octant sectors"
+          }
+        ]
+      }
+    ]
+  }
+}

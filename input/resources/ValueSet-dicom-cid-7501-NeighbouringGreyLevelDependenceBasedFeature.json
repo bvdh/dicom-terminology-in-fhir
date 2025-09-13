@@ -1,0 +1,93 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "NeighbouringGreyLevelDependenceBasedFeature",
+  "id": "dicom-cid-7501-NeighbouringGreyLevelDependenceBasedFeature",
+  "description": "Neighbouring Grey Level Dependence Based Feature",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7501-NeighbouringGreyLevelDependenceBasedFeature",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1274"
+    }
+  ],
+  "version": "20190121",
+  "title": "Neighbouring Grey Level Dependence Based Feature",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-IBSI",
+        "concept": [
+          {
+            "code": "SODN",
+            "display": "Low dependence emphasis"
+          },
+          {
+            "code": "IMOQ",
+            "display": "High dependence emphasis"
+          },
+          {
+            "code": "TL9H",
+            "display": "Low grey level count emphasis"
+          },
+          {
+            "code": "OAE7",
+            "display": "High grey level count emphasis"
+          },
+          {
+            "code": "EQ3F",
+            "display": "Low dependence low grey level emphasis"
+          },
+          {
+            "code": "JA6D",
+            "display": "Low dependence high grey level emphasis"
+          },
+          {
+            "code": "NBZI",
+            "display": "High dependence low grey level emphasis"
+          },
+          {
+            "code": "9QMG",
+            "display": "High dependence high grey level emphasis"
+          },
+          {
+            "code": "FP8K",
+            "display": "Grey level non-uniformity of NGLDM"
+          },
+          {
+            "code": "5SPA",
+            "display": "Normalized grey level non-uniformity of NGLDM"
+          },
+          {
+            "code": "Z87G",
+            "display": "Dependence count non-uniformity"
+          },
+          {
+            "code": "OKJI",
+            "display": "Dependence count non-uniformity normalized"
+          },
+          {
+            "code": "6XV8",
+            "display": "Dependence count percentage"
+          },
+          {
+            "code": "1PFV",
+            "display": "Grey level variance of NGLDM"
+          },
+          {
+            "code": "DNX2",
+            "display": "Dependence count variance"
+          },
+          {
+            "code": "FCBV",
+            "display": "Dependence count entropy"
+          },
+          {
+            "code": "CAS9",
+            "display": "Dependence count energy"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DXAnatomyImaged",
+  "id": "dicom-cid-4009-DXAnatomyImaged",
+  "description": "DX Anatomy Imaged",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4009-DXAnatomyImaged",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.293"
+    }
+  ],
+  "version": "20040114",
+  "title": "DX Anatomy Imaged",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4031-CommonAnatomicRegion"
+        ]
+      }
+    ]
+  }
+}

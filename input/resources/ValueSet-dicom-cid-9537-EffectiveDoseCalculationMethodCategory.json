@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EffectiveDoseCalculationMethodCategory",
+  "id": "dicom-cid-9537-EffectiveDoseCalculationMethodCategory",
+  "description": "Effective Dose Calculation Method Category",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9537-EffectiveDoseCalculationMethodCategory",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1247"
+    }
+  ],
+  "version": "20181112",
+  "title": "Effective Dose Calculation Method Category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130126",
+            "display": "Radiation transport-based methods"
+          },
+          {
+            "code": "130127",
+            "display": "Fractionation-based or temporally-based methods"
+          }
+        ]
+      }
+    ]
+  }
+}

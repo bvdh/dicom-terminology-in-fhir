@@ -1,0 +1,160 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RacialGroup",
+  "id": "dicom-cid-6099-RacialGroup",
+  "description": "This Context Group is intended to be a set of values that is the union of concepts used in various jurisdictions. It does not distinguish race from ethnic group.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6099-RacialGroup",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1278"
+    }
+  ],
+  "version": "20240611",
+  "title": "Racial Group",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "413464008",
+            "display": "African race"
+          },
+          {
+            "code": "413582008",
+            "display": "Asian race"
+          },
+          {
+            "code": "413773004",
+            "display": "Caucasian race"
+          },
+          {
+            "code": "413490006",
+            "display": "American Indian or Alaska native"
+          },
+          {
+            "code": "413581001",
+            "display": "Asian or Pacific Islander race"
+          },
+          {
+            "code": "413600007",
+            "display": "Australian aborigine race"
+          },
+          {
+            "code": "414481008",
+            "display": "Indian race"
+          },
+          {
+            "code": "414408004",
+            "display": "Hispanic"
+          },
+          {
+            "code": "414752008",
+            "display": "Mixed racial group"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "S-0004E",
+            "display": "African race"
+          },
+          {
+            "code": "S-00051",
+            "display": "Asian race"
+          },
+          {
+            "code": "S-0003D",
+            "display": "Caucasian race"
+          },
+          {
+            "code": "S-0004B",
+            "display": "American Indian or Alaska native"
+          },
+          {
+            "code": "S-0004C",
+            "display": "Asian or Pacific Islander race"
+          },
+          {
+            "code": "S-00052",
+            "display": "Australian aborigine race"
+          },
+          {
+            "code": "S-0003E",
+            "display": "Indian race"
+          },
+          {
+            "code": "S-00045",
+            "display": "Hispanic"
+          },
+          {
+            "code": "S-00043",
+            "display": "Mixed racial group"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0027567",
+            "display": "African race"
+          },
+          {
+            "code": "C0078988",
+            "display": "Asian race"
+          },
+          {
+            "code": "C0007457",
+            "display": "Caucasian race"
+          },
+          {
+            "code": "C1515945",
+            "display": "American Indian or Alaska native"
+          },
+          {
+            "code": "C1513907",
+            "display": "Native Hawaiian or other Pacific Islander"
+          },
+          {
+            "code": "C1531604",
+            "display": "Asian or Pacific Islander race"
+          },
+          {
+            "code": "C0337948",
+            "display": "Australian aborigine race"
+          },
+          {
+            "code": "C1524069",
+            "display": "Indian race"
+          },
+          {
+            "code": "C0086409",
+            "display": "Hispanic"
+          },
+          {
+            "code": "C5690844",
+            "display": "Middle Eastern or North African"
+          },
+          {
+            "code": "C0682081",
+            "display": "Mixed racial group"
+          }
+        ]
+      },
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "concept": [
+          {
+            "code": "C41219",
+            "display": "Native Hawaiian or other Pacific Islander"
+          }
+        ]
+      }
+    ]
+  }
+}

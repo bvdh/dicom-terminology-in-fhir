@@ -1,0 +1,215 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiacUltrasoundVenousReturnSystemicFindingSite",
+  "id": "dicom-cid-12282-CardiacUltrasoundVenousReturnSystemicFindingSite",
+  "description": "Cardiac Ultrasound Venous Return Systemic Finding Site",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12282-CardiacUltrasoundVenousReturnSystemicFindingSite",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.862"
+    }
+  ],
+  "version": "20100317",
+  "title": "Cardiac Ultrasound Venous Return Systemic Finding Site",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "48345005",
+            "display": "Superior Vena Cava"
+          },
+          {
+            "code": "443444008",
+            "display": "Right Superior Vena Cava"
+          },
+          {
+            "code": "9642004",
+            "display": "Left Superior Vena Cava"
+          },
+          {
+            "code": "64131007",
+            "display": "Inferior Vena Cava"
+          },
+          {
+            "code": "8993003",
+            "display": "Hepatic Vein"
+          },
+          {
+            "code": "443327008",
+            "display": "Hemi-Fontan Pathway"
+          },
+          {
+            "code": "443789005",
+            "display": "Glenn Pathway"
+          },
+          {
+            "code": "443298009",
+            "display": "Fontan Pathway"
+          },
+          {
+            "code": "443326004",
+            "display": "Fontan Inferior Vena Cava Pathway"
+          },
+          {
+            "code": "443724003",
+            "display": "Fontan Fenestration"
+          },
+          {
+            "code": "443625008",
+            "display": "Fontan Pulmonary Artery Connection"
+          },
+          {
+            "code": "443461006",
+            "display": "Fontan Baffle Leak"
+          },
+          {
+            "code": "444177009",
+            "display": "Mustard or Senning Superior Vena Cava Pathway"
+          },
+          {
+            "code": "444329004",
+            "display": "Mustard or Senning Inferior Vena Cava Pathway"
+          },
+          {
+            "code": "443809000",
+            "display": "Mustard or Senning Common Systemic Venous Pathway"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-48610",
+            "display": "Superior Vena Cava"
+          },
+          {
+            "code": "M-2460D",
+            "display": "Right Superior Vena Cava"
+          },
+          {
+            "code": "T-48611",
+            "display": "Left Superior Vena Cava"
+          },
+          {
+            "code": "T-48710",
+            "display": "Inferior Vena Cava"
+          },
+          {
+            "code": "T-48720",
+            "display": "Hepatic Vein"
+          },
+          {
+            "code": "T-D087E",
+            "display": "Hemi-Fontan Pathway"
+          },
+          {
+            "code": "T-D0884",
+            "display": "Glenn Pathway"
+          },
+          {
+            "code": "T-D087C",
+            "display": "Fontan Pathway"
+          },
+          {
+            "code": "T-D087D",
+            "display": "Fontan Inferior Vena Cava Pathway"
+          },
+          {
+            "code": "T-D0882",
+            "display": "Fontan Fenestration"
+          },
+          {
+            "code": "T-D0880",
+            "display": "Fontan Pulmonary Artery Connection"
+          },
+          {
+            "code": "DD-66228",
+            "display": "Fontan Baffle Leak"
+          },
+          {
+            "code": "T-D0887",
+            "display": "Mustard or Senning Superior Vena Cava Pathway"
+          },
+          {
+            "code": "T-D0888",
+            "display": "Mustard or Senning Inferior Vena Cava Pathway"
+          },
+          {
+            "code": "T-D0885",
+            "display": "Mustard or Senning Common Systemic Venous Pathway"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0042459",
+            "display": "Superior Vena Cava"
+          },
+          {
+            "code": "C2733597",
+            "display": "Right Superior Vena Cava"
+          },
+          {
+            "code": "C0226694",
+            "display": "Left Superior Vena Cava"
+          },
+          {
+            "code": "C0042458",
+            "display": "Inferior Vena Cava"
+          },
+          {
+            "code": "C0019155",
+            "display": "Hepatic Vein"
+          },
+          {
+            "code": "C2732261",
+            "display": "Hemi-Fontan Pathway"
+          },
+          {
+            "code": "C2732228",
+            "display": "Glenn Pathway"
+          },
+          {
+            "code": "C2732260",
+            "display": "Fontan Pathway"
+          },
+          {
+            "code": "C2733297",
+            "display": "Fontan Inferior Vena Cava Pathway"
+          },
+          {
+            "code": "C2732467",
+            "display": "Fontan Fenestration"
+          },
+          {
+            "code": "C2732967",
+            "display": "Fontan Pulmonary Artery Connection"
+          },
+          {
+            "code": "C2733533",
+            "display": "Fontan Baffle Leak"
+          },
+          {
+            "code": "C2732998",
+            "display": "Mustard or Senning Superior Vena Cava Pathway"
+          },
+          {
+            "code": "C2732999",
+            "display": "Mustard or Senning Inferior Vena Cava Pathway"
+          },
+          {
+            "code": "C2732609",
+            "display": "Mustard or Senning Common Systemic Venous Pathway"
+          }
+        ]
+      }
+    ]
+  }
+}

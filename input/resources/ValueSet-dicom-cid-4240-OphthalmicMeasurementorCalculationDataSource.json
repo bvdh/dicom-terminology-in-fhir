@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OphthalmicMeasurementorCalculationDataSource",
+  "id": "dicom-cid-4240-OphthalmicMeasurementorCalculationDataSource",
+  "description": "Ophthalmic Measurement or Calculation Data Source",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4240-OphthalmicMeasurementorCalculationDataSource",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.886"
+    }
+  ],
+  "version": "20190124",
+  "title": "Ophthalmic Measurement or Calculation Data Source",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111780",
+            "display": "Measurement From This Device"
+          },
+          {
+            "code": "113857",
+            "display": "Manual Entry"
+          },
+          {
+            "code": "111781",
+            "display": "External Data Source"
+          },
+          {
+            "code": "111782",
+            "display": "Axial Measurements SOP Instance"
+          },
+          {
+            "code": "111783",
+            "display": "Refractive Measurements SOP Instance"
+          },
+          {
+            "code": "111784",
+            "display": "Autorefraction Measurements SOP Instance"
+          },
+          {
+            "code": "111757",
+            "display": "Keratometry Measurements SOP Instance"
+          }
+        ]
+      }
+    ]
+  }
+}

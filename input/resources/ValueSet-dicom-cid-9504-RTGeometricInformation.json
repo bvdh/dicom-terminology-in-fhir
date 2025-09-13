@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RTGeometricInformation",
+  "id": "dicom-cid-9504-RTGeometricInformation",
+  "description": "RT Geometric Information",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9504-RTGeometricInformation",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1214"
+    }
+  ],
+  "version": "20181112",
+  "title": "RT Geometric Information",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130069",
+            "display": "Patient Setup Point"
+          },
+          {
+            "code": "130070",
+            "display": "Room Laser Patient Setup Point"
+          },
+          {
+            "code": "130071",
+            "display": "Moveable Laser Patient Setup Point"
+          },
+          {
+            "code": "130072",
+            "display": "Reference Acquisition Point"
+          },
+          {
+            "code": "130073",
+            "display": "Isocentric Treatment Location Point"
+          }
+        ]
+      }
+    ]
+  }
+}

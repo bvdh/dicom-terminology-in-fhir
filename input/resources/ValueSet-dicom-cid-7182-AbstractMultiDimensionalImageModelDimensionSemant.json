@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AbstractMultiDimensionalImageModelDimensionSemantic",
+  "id": "dicom-cid-7182-AbstractMultiDimensionalImageModelDimensionSemant",
+  "description": "Abstract Multi-dimensional Image Model Dimension Semantic",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7182-AbstractMultiDimensionalImageModelDimensionSemant",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.919"
+    }
+  ],
+  "version": "20100825",
+  "title": "Abstract Multi-dimensional Image Model Dimension Semantic",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110856",
+            "display": "Linear Displacement"
+          },
+          {
+            "code": "110857",
+            "display": "Photon Energy"
+          },
+          {
+            "code": "110858",
+            "display": "Time"
+          },
+          {
+            "code": "110859",
+            "display": "Angle"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Vascularity",
+  "id": "dicom-cid-6157-Vascularity",
+  "description": "From BI-RADS",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6157-Vascularity",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.471"
+    }
+  ],
+  "version": "20050822",
+  "title": "Vascularity",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111373",
+            "display": "Vascularity not present"
+          },
+          {
+            "code": "111374",
+            "display": "Vascularity not assessed"
+          },
+          {
+            "code": "111375",
+            "display": "Vascularity present in lesion"
+          },
+          {
+            "code": "111376",
+            "display": "Vascularity present immediately adjacent to lesion"
+          },
+          {
+            "code": "111377",
+            "display": "Diffusely increased vascularity in surrounding tissue"
+          }
+        ]
+      }
+    ]
+  }
+}

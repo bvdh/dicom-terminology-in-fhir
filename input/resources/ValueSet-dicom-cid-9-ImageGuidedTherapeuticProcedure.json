@@ -1,0 +1,399 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ImageGuidedTherapeuticProcedure",
+  "id": "dicom-cid-9-ImageGuidedTherapeuticProcedure",
+  "description": "Image Guided Therapeutic Procedure",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9-ImageGuidedTherapeuticProcedure",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.7"
+    }
+  ],
+  "version": "20250401",
+  "title": "Image Guided Therapeutic Procedure",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "32318003",
+            "display": "Vasoconstriction"
+          },
+          {
+            "code": "30017007",
+            "display": "Vasodilatation"
+          },
+          {
+            "code": "86273004",
+            "display": "Biopsy"
+          },
+          {
+            "code": "10849003",
+            "display": "Removal of foreign body"
+          },
+          {
+            "code": "69245005",
+            "display": "Intra-arterial infusion of thrombolytic agent"
+          },
+          {
+            "code": "67889009",
+            "display": "Irrigation"
+          },
+          {
+            "code": "45211000",
+            "display": "Catheterization"
+          },
+          {
+            "code": "6832004",
+            "display": "Atherectomy"
+          },
+          {
+            "code": "65659003",
+            "display": "Atherectomy by rotary cutter"
+          },
+          {
+            "code": "76611008",
+            "display": "Atherectomy by laser"
+          },
+          {
+            "code": "57238002",
+            "display": "Selective embolization of artery"
+          },
+          {
+            "code": "68457009",
+            "display": "Percutaneous transluminal balloon angioplasty"
+          },
+          {
+            "code": "16736007",
+            "display": "Transcatheter therapy for embolization"
+          },
+          {
+            "code": "240946003",
+            "display": "Percutaneous removal of intravascular foreign body"
+          },
+          {
+            "code": "103709008",
+            "display": "Failed attempted procedure"
+          },
+          {
+            "code": "1296925008",
+            "display": "Stent placement"
+          },
+          {
+            "code": "103712006",
+            "display": "Catheter manipulation"
+          },
+          {
+            "code": "103713001",
+            "display": "Catheter replacement"
+          },
+          {
+            "code": "103714007",
+            "display": "Occlusion of catheter"
+          },
+          {
+            "code": "103715008",
+            "display": "Removal of catheter"
+          },
+          {
+            "code": "105372003",
+            "display": "Transcatheter deployment of detachable balloon"
+          },
+          {
+            "code": "105373008",
+            "display": "Percutaneous insertion of intravascular filter"
+          },
+          {
+            "code": "34536000",
+            "display": "Amniocentesis"
+          },
+          {
+            "code": "65388005",
+            "display": "Ultrasonic guidance for amniocentesis"
+          },
+          {
+            "code": "1269276008",
+            "display": "Amnioinfusion"
+          },
+          {
+            "code": "6708002",
+            "display": "Intrauterine cordocentesis"
+          },
+          {
+            "code": "91602002",
+            "display": "Thoracentesis"
+          },
+          {
+            "code": "65240009",
+            "display": "Breech Version [Obstetrical Version]"
+          },
+          {
+            "code": "45460008",
+            "display": "Intrauterine transfusion"
+          },
+          {
+            "code": "265633004",
+            "display": "Selective destruction of fetus"
+          },
+          {
+            "code": "133875007",
+            "display": "Prostaglandin injection"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "F-39780",
+            "display": "Vasoconstriction"
+          },
+          {
+            "code": "F-39800",
+            "display": "Vasodilatation"
+          },
+          {
+            "code": "P1-03100",
+            "display": "Biopsy"
+          },
+          {
+            "code": "P1-03176",
+            "display": "Removal of foreign body"
+          },
+          {
+            "code": "P1-05035",
+            "display": "Intra-arterial infusion of thrombolytic agent"
+          },
+          {
+            "code": "P1-05050",
+            "display": "Irrigation"
+          },
+          {
+            "code": "P1-05535",
+            "display": "Catheterization"
+          },
+          {
+            "code": "P1-30350",
+            "display": "Atherectomy"
+          },
+          {
+            "code": "P1-30351",
+            "display": "Atherectomy by rotary cutter"
+          },
+          {
+            "code": "P1-30352",
+            "display": "Atherectomy by laser"
+          },
+          {
+            "code": "P1-30530",
+            "display": "Selective embolization of artery"
+          },
+          {
+            "code": "P5-31500",
+            "display": "Percutaneous transluminal balloon angioplasty"
+          },
+          {
+            "code": "P5-39010",
+            "display": "Transcatheter therapy for embolization"
+          },
+          {
+            "code": "P0-05AFA",
+            "display": "Percutaneous removal of intravascular foreign body"
+          },
+          {
+            "code": "P1-00018",
+            "display": "Failed attempted procedure"
+          },
+          {
+            "code": "P1-05536",
+            "display": "Catheter manipulation"
+          },
+          {
+            "code": "P1-05537",
+            "display": "Catheter replacement"
+          },
+          {
+            "code": "P1-05538",
+            "display": "Occlusion of catheter"
+          },
+          {
+            "code": "P1-05539",
+            "display": "Removal of catheter"
+          },
+          {
+            "code": "P5-39015",
+            "display": "Transcatheter deployment of detachable balloon"
+          },
+          {
+            "code": "P5-39191",
+            "display": "Percutaneous insertion of intravascular filter"
+          },
+          {
+            "code": "P1-86100",
+            "display": "Amniocentesis"
+          },
+          {
+            "code": "P5-B8310",
+            "display": "Ultrasonic guidance for amniocentesis"
+          },
+          {
+            "code": "P1-86180",
+            "display": "Intrauterine cordocentesis"
+          },
+          {
+            "code": "P1-28160",
+            "display": "Thoracentesis"
+          },
+          {
+            "code": "P1-86E70",
+            "display": "Breech Version [Obstetrical Version]"
+          },
+          {
+            "code": "P2-68060",
+            "display": "Intrauterine transfusion"
+          },
+          {
+            "code": "P0-00843",
+            "display": "Selective destruction of fetus"
+          },
+          {
+            "code": "P1-93506",
+            "display": "Prostaglandin injection"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0042396",
+            "display": "Vasoconstriction"
+          },
+          {
+            "code": "C0042401",
+            "display": "Vasodilatation"
+          },
+          {
+            "code": "C0005558",
+            "display": "Biopsy"
+          },
+          {
+            "code": "C0184937",
+            "display": "Removal of foreign body"
+          },
+          {
+            "code": "C0184952",
+            "display": "Intra-arterial infusion of thrombolytic agent"
+          },
+          {
+            "code": "C0022100",
+            "display": "Irrigation"
+          },
+          {
+            "code": "C0007430",
+            "display": "Catheterization"
+          },
+          {
+            "code": "C0162513",
+            "display": "Atherectomy"
+          },
+          {
+            "code": "C0162655",
+            "display": "Atherectomy by rotary cutter"
+          },
+          {
+            "code": "C0521229",
+            "display": "Atherectomy by laser"
+          },
+          {
+            "code": "C0189632",
+            "display": "Selective embolization of artery"
+          },
+          {
+            "code": "C0411287",
+            "display": "Percutaneous transluminal balloon angioplasty"
+          },
+          {
+            "code": "C0203006",
+            "display": "Transcatheter therapy for embolization"
+          },
+          {
+            "code": "C0411305",
+            "display": "Percutaneous removal of intravascular foreign body"
+          },
+          {
+            "code": "C0522770",
+            "display": "Failed attempted procedure"
+          },
+          {
+            "code": "C2348535",
+            "display": "Stent placement"
+          },
+          {
+            "code": "C0522773",
+            "display": "Catheter manipulation"
+          },
+          {
+            "code": "C0522774",
+            "display": "Catheter replacement"
+          },
+          {
+            "code": "C0522775",
+            "display": "Occlusion of catheter"
+          },
+          {
+            "code": "C0394884",
+            "display": "Removal of catheter"
+          },
+          {
+            "code": "C0524313",
+            "display": "Transcatheter deployment of detachable balloon"
+          },
+          {
+            "code": "C0524314",
+            "display": "Percutaneous insertion of intravascular filter"
+          },
+          {
+            "code": "C0002627",
+            "display": "Amniocentesis"
+          },
+          {
+            "code": "C0203432",
+            "display": "Ultrasonic guidance for amniocentesis"
+          },
+          {
+            "code": "C0521272",
+            "display": "Amnioinfusion"
+          },
+          {
+            "code": "C0162650",
+            "display": "Intrauterine cordocentesis"
+          },
+          {
+            "code": "C0189477",
+            "display": "Thoracentesis"
+          },
+          {
+            "code": "C0195731",
+            "display": "Breech Version [Obstetrical Version]"
+          },
+          {
+            "code": "C0005843",
+            "display": "Intrauterine transfusion"
+          },
+          {
+            "code": "C0410890",
+            "display": "Selective destruction of fetus"
+          },
+          {
+            "code": "C1297890",
+            "display": "Prostaglandin injection"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MVImagingAcquisitionTechniques",
+  "id": "dicom-cid-9264-MVImagingAcquisitionTechniques",
+  "description": "MV Imaging Acquisition Techniques",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9264-MVImagingAcquisitionTechniques",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1463"
+    }
+  ],
+  "version": "20221225",
+  "title": "MV Imaging Acquisition Techniques",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121702",
+            "display": "RT Patient Position Acquisition, single plane MV"
+          },
+          {
+            "code": "121708",
+            "display": "RT Patient Position Acquisition, CT MV"
+          },
+          {
+            "code": "130787",
+            "display": "RT Patient Position Acquisition, Cone-Beam CT MV"
+          },
+          {
+            "code": "130788",
+            "display": "RT Patient Position Acquisition, Conventional CT MV"
+          },
+          {
+            "code": "130782",
+            "display": "RT Patient Position Acquisition, Integrated Dose MV"
+          },
+          {
+            "code": "130783",
+            "display": "RT Patient Position Acquisition, Film Cassette MV"
+          }
+        ]
+      }
+    ]
+  }
+}

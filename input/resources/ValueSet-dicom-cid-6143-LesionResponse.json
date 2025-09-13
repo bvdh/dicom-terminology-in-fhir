@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LesionResponse",
+  "id": "dicom-cid-6143-LesionResponse",
+  "description": "Lesion Response",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6143-LesionResponse",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.463"
+    }
+  ],
+  "version": "20030108",
+  "title": "Lesion Response",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6144-RECISTDefinedLesionResponse"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "FraminghamScore",
+  "id": "dicom-cid-3667-FraminghamScore",
+  "description": "Framingham Score",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3667-FraminghamScore",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.183"
+    }
+  ],
+  "version": "20030327",
+  "title": "Framingham Score",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122230",
+            "display": "10 Year CHD Risk"
+          },
+          {
+            "code": "122231",
+            "display": "Comparative Average10 Year CHD Risk"
+          },
+          {
+            "code": "122232",
+            "display": "Comparative Low10 Year CHD Risk"
+          }
+        ]
+      }
+    ]
+  }
+}

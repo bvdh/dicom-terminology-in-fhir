@@ -1,0 +1,76 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AssociatedFindingForBreast",
+  "id": "dicom-cid-6056-AssociatedFindingForBreast",
+  "description": "These terms were obtained from BI-RADS",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6056-AssociatedFindingForBreast",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.385"
+    }
+  ],
+  "version": "20240611",
+  "title": "Associated Finding for Breast",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "302924003",
+            "display": "Breast hematoma"
+          },
+          {
+            "code": "63130001",
+            "display": "Surgical scar"
+          },
+          {
+            "code": "271955004",
+            "display": "Nipple retraction"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "D7-9002A",
+            "display": "Breast hematoma"
+          },
+          {
+            "code": "M-78280",
+            "display": "Surgical scar"
+          },
+          {
+            "code": "R-F160E",
+            "display": "Nipple retraction"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0342095",
+            "display": "Breast hematoma"
+          },
+          {
+            "code": "C0334150",
+            "display": "Surgical scar"
+          },
+          {
+            "code": "C0221370",
+            "display": "Nipple retraction"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6015-SingleImageFindingFromBIRADS"
+        ]
+      }
+    ]
+  }
+}

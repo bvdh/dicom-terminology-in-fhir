@@ -1,0 +1,72 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VisualFieldStaticPerimetryTestAnalysisResult",
+  "id": "dicom-cid-4254-VisualFieldStaticPerimetryTestAnalysisResult",
+  "description": "Visual Field Static Perimetry Test Analysis Result",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4254-VisualFieldStaticPerimetryTestAnalysisResult",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.913"
+    }
+  ],
+  "version": "20100827",
+  "title": "Visual Field Static Perimetry Test Analysis Result",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111847",
+            "display": "Outside normal limits"
+          },
+          {
+            "code": "111848",
+            "display": "Borderline"
+          },
+          {
+            "code": "111849",
+            "display": "Abnormally high sensitivity"
+          },
+          {
+            "code": "111850",
+            "display": "General reduction in sensitivity"
+          },
+          {
+            "code": "111851",
+            "display": "Borderline and general reduction in sensitivity"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "125112009",
+            "display": "Within normal limits"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "M-00101",
+            "display": "Within normal limits"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1265570",
+            "display": "Within normal limits"
+          }
+        ]
+      }
+    ]
+  }
+}

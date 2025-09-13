@@ -1,0 +1,77 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DeidentificationMethod",
+  "id": "dicom-cid-7050-DeidentificationMethod",
+  "description": "De-identification Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7050-DeidentificationMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.925"
+    }
+  ],
+  "version": "20170914",
+  "title": "De-identification Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113100",
+            "display": "Basic Application Confidentiality Profile"
+          },
+          {
+            "code": "113101",
+            "display": "Clean Pixel Data Option"
+          },
+          {
+            "code": "113102",
+            "display": "Clean Recognizable Visual Features Option"
+          },
+          {
+            "code": "113103",
+            "display": "Clean Graphics Option"
+          },
+          {
+            "code": "113104",
+            "display": "Clean Structured Content Option"
+          },
+          {
+            "code": "113105",
+            "display": "Clean Descriptors Option"
+          },
+          {
+            "code": "113106",
+            "display": "Retain Longitudinal Temporal Information Full Dates Option"
+          },
+          {
+            "code": "113107",
+            "display": "Retain Longitudinal Temporal Information Modified Dates Option"
+          },
+          {
+            "code": "113108",
+            "display": "Retain Patient Characteristics Option"
+          },
+          {
+            "code": "113109",
+            "display": "Retain Device Identity Option"
+          },
+          {
+            "code": "113110",
+            "display": "Retain UIDs Option"
+          },
+          {
+            "code": "113111",
+            "display": "Retain Safe Private Option"
+          },
+          {
+            "code": "113112",
+            "display": "Retain Institution Identity Option"
+          }
+        ]
+      }
+    ]
+  }
+}

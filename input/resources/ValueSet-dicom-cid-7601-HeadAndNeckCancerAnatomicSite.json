@@ -1,0 +1,388 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "HeadAndNeckCancerAnatomicSite",
+  "id": "dicom-cid-7601-HeadAndNeckCancerAnatomicSite",
+  "description": "Head and Neck Cancer Anatomic Site",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7601-HeadAndNeckCancerAnatomicSite",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1012"
+    }
+  ],
+  "version": "20230630",
+  "title": "Head and Neck Cancer Anatomic Site",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "47975008",
+            "display": "base of tongue"
+          },
+          {
+            "code": "16811007",
+            "display": "buccal mucosa"
+          },
+          {
+            "code": "36360002",
+            "display": "floor of mouth"
+          },
+          {
+            "code": "1307006",
+            "display": "glottis"
+          },
+          {
+            "code": "81502006",
+            "display": "hypopharynx"
+          },
+          {
+            "code": "4596009",
+            "display": "larynx"
+          },
+          {
+            "code": "2048000",
+            "display": "lingual tonsil"
+          },
+          {
+            "code": "48477009",
+            "display": "lip"
+          },
+          {
+            "code": "38754007",
+            "display": "alveolar process of mandible"
+          },
+          {
+            "code": "15924003",
+            "display": "maxillary sinus"
+          },
+          {
+            "code": "279549004",
+            "display": "nasal cavity"
+          },
+          {
+            "code": "71836000",
+            "display": "nasopharynx"
+          },
+          {
+            "code": "74262004",
+            "display": "oral cavity"
+          },
+          {
+            "code": "17861009",
+            "display": "oropharyngeal tonsil"
+          },
+          {
+            "code": "31389004",
+            "display": "oropharynx"
+          },
+          {
+            "code": "75573002",
+            "display": "palatine tonsil"
+          },
+          {
+            "code": "2095001",
+            "display": "paranasal sinus"
+          },
+          {
+            "code": "1849007",
+            "display": "pharyngeal recess"
+          },
+          {
+            "code": "55940004",
+            "display": "pharyngeal tonsil"
+          },
+          {
+            "code": "91207004",
+            "display": "pharyngotympanic tube"
+          },
+          {
+            "code": "6217003",
+            "display": "pyriform sinus"
+          },
+          {
+            "code": "85816001",
+            "display": "retromolar trigone"
+          },
+          {
+            "code": "385294005",
+            "display": "salivary gland"
+          },
+          {
+            "code": "119255006",
+            "display": "supraglottis"
+          },
+          {
+            "code": "21974007",
+            "display": "tongue"
+          },
+          {
+            "code": "303337002",
+            "display": "tonsil and adenoid"
+          },
+          {
+            "code": "21058000",
+            "display": "tubal tonsil"
+          },
+          {
+            "code": "26140008",
+            "display": "uvula"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-53130",
+            "display": "base of tongue"
+          },
+          {
+            "code": "T-51305",
+            "display": "buccal mucosa"
+          },
+          {
+            "code": "T-51200",
+            "display": "floor of mouth"
+          },
+          {
+            "code": "T-24440",
+            "display": "glottis"
+          },
+          {
+            "code": "T-55300",
+            "display": "hypopharynx"
+          },
+          {
+            "code": "T-24100",
+            "display": "larynx"
+          },
+          {
+            "code": "T-C5140",
+            "display": "lingual tonsil"
+          },
+          {
+            "code": "T-52000",
+            "display": "lip"
+          },
+          {
+            "code": "T-1118B",
+            "display": "alveolar process of mandible"
+          },
+          {
+            "code": "T-22100",
+            "display": "maxillary sinus"
+          },
+          {
+            "code": "T-21301",
+            "display": "nasal cavity"
+          },
+          {
+            "code": "T-23000",
+            "display": "nasopharynx"
+          },
+          {
+            "code": "T-51004",
+            "display": "oral cavity"
+          },
+          {
+            "code": "T-C5000",
+            "display": "oropharyngeal tonsil"
+          },
+          {
+            "code": "T-55200",
+            "display": "oropharynx"
+          },
+          {
+            "code": "T-C5100",
+            "display": "palatine tonsil"
+          },
+          {
+            "code": "T-22000",
+            "display": "paranasal sinus"
+          },
+          {
+            "code": "T-55255",
+            "display": "pharyngeal recess"
+          },
+          {
+            "code": "T-C5300",
+            "display": "pharyngeal tonsil"
+          },
+          {
+            "code": "T-AB600",
+            "display": "pharyngotympanic tube"
+          },
+          {
+            "code": "T-55320",
+            "display": "pyriform sinus"
+          },
+          {
+            "code": "T-51600",
+            "display": "retromolar trigone"
+          },
+          {
+            "code": "T-61007",
+            "display": "salivary gland"
+          },
+          {
+            "code": "T-24454",
+            "display": "supraglottis"
+          },
+          {
+            "code": "T-53000",
+            "display": "tongue"
+          },
+          {
+            "code": "T-C5001",
+            "display": "tonsil and adenoid"
+          },
+          {
+            "code": "T-C5330",
+            "display": "tubal tonsil"
+          },
+          {
+            "code": "T-51130",
+            "display": "uvula"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0226958",
+            "display": "base of tongue"
+          },
+          {
+            "code": "C1578559",
+            "display": "buccal mucosa"
+          },
+          {
+            "code": "C0026638",
+            "display": "floor of mouth"
+          },
+          {
+            "code": "C0017681",
+            "display": "glottis"
+          },
+          {
+            "code": "C0020629",
+            "display": "hypopharynx"
+          },
+          {
+            "code": "C0023078",
+            "display": "larynx"
+          },
+          {
+            "code": "C0229871",
+            "display": "lingual tonsil"
+          },
+          {
+            "code": "C0023759",
+            "display": "lip"
+          },
+          {
+            "code": "C0222755",
+            "display": "alveolar process of mandible"
+          },
+          {
+            "code": "C0024957",
+            "display": "maxillary sinus"
+          },
+          {
+            "code": "C0027423",
+            "display": "nasal cavity"
+          },
+          {
+            "code": "C0027442",
+            "display": "nasopharynx"
+          },
+          {
+            "code": "C0226896",
+            "display": "oral cavity"
+          },
+          {
+            "code": "C0459892",
+            "display": "oropharyngeal tonsil"
+          },
+          {
+            "code": "C0521367",
+            "display": "oropharynx"
+          },
+          {
+            "code": "C0040421",
+            "display": "palatine tonsil"
+          },
+          {
+            "code": "C0030471",
+            "display": "paranasal sinus"
+          },
+          {
+            "code": "C0227164",
+            "display": "pharyngeal recess"
+          },
+          {
+            "code": "C0001428",
+            "display": "pharyngeal tonsil"
+          },
+          {
+            "code": "C0015183",
+            "display": "pharyngotympanic tube"
+          },
+          {
+            "code": "C0227170",
+            "display": "pyriform sinus"
+          },
+          {
+            "code": "C0226920",
+            "display": "retromolar trigone"
+          },
+          {
+            "code": "C0036098",
+            "display": "salivary gland"
+          },
+          {
+            "code": "C0225574",
+            "display": "supraglottis"
+          },
+          {
+            "code": "C0040408",
+            "display": "tongue"
+          },
+          {
+            "code": "C0580788",
+            "display": "tonsil and adenoid"
+          },
+          {
+            "code": "C0926809",
+            "display": "torus of pharyngotympanic tube"
+          },
+          {
+            "code": "C0229883",
+            "display": "tubal tonsil"
+          },
+          {
+            "code": "C0221297",
+            "display": "unknown primary neoplasia site"
+          },
+          {
+            "code": "C0042173",
+            "display": "uvula"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-FMA",
+        "concept": [
+          {
+            "code": "54993",
+            "display": "torus of pharyngotympanic tube"
+          }
+        ]
+      }
+    ]
+  }
+}

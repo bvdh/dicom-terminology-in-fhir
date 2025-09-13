@@ -1,0 +1,539 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DXView",
+  "id": "dicom-cid-4010-DXView",
+  "description": "In a prior version of this Context Group, Lateral Oblique was assigned the code R-10226, and Medial Oblique was assigned the code R-10230, as synonymous with Medio-Lateral Oblique and Latero-Medial Oblique, respectively. SNOMED currently distinguishes between LO and MLO, and between MO and LMO, although in most radiography contexts there is no practical distinction. Receiving applications should be aware that they may receive SOP Instances with the prior code assignments. In a prior version of this Context Group, \"right anterior oblique\" was assigned the code R-10218, which in SNOMED is actually \"Indirect iris transillumination\"; this code has been replaced with the correct code R-40985. In a prior version of this Context Group, a concept of \"sagittal\" was present with a code of R-10222, which in SNOMED is actually \"Trypan blue\"; this code has been replaced with the general SNOMED qualifier concept G-A145.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4010-DXView",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.294"
+    }
+  ],
+  "version": "20160314",
+  "title": "DX View",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "399033003",
+            "display": "frontal"
+          },
+          {
+            "code": "399160007",
+            "display": "frontal oblique"
+          },
+          {
+            "code": "399348003",
+            "display": "antero-posterior"
+          },
+          {
+            "code": "399312000",
+            "display": "antero-posterior oblique"
+          },
+          {
+            "code": "399038007",
+            "display": "right posterior oblique"
+          },
+          {
+            "code": "399006002",
+            "display": "left posterior oblique"
+          },
+          {
+            "code": "272479007",
+            "display": "postero-anterior"
+          },
+          {
+            "code": "399059000",
+            "display": "postero-anterior oblique"
+          },
+          {
+            "code": "399356000",
+            "display": "right anterior oblique"
+          },
+          {
+            "code": "399135007",
+            "display": "left anterior oblique"
+          },
+          {
+            "code": "30730003",
+            "display": "sagittal"
+          },
+          {
+            "code": "399260004",
+            "display": "medial-lateral"
+          },
+          {
+            "code": "260427002",
+            "display": "lateral oblique"
+          },
+          {
+            "code": "399352003",
+            "display": "lateral-medial"
+          },
+          {
+            "code": "260426006",
+            "display": "medial oblique"
+          },
+          {
+            "code": "399198007",
+            "display": "right lateral"
+          },
+          {
+            "code": "399236003",
+            "display": "right oblique"
+          },
+          {
+            "code": "399173006",
+            "display": "left lateral"
+          },
+          {
+            "code": "399184004",
+            "display": "left oblique"
+          },
+          {
+            "code": "399061009",
+            "display": "axial"
+          },
+          {
+            "code": "399162004",
+            "display": "cranio-caudal"
+          },
+          {
+            "code": "399196006",
+            "display": "caudo-cranial"
+          },
+          {
+            "code": "399004004",
+            "display": "oblique axial"
+          },
+          {
+            "code": "399288005",
+            "display": "oblique cranio-caudal"
+          },
+          {
+            "code": "399225005",
+            "display": "oblique caudo-cranial"
+          },
+          {
+            "code": "399132005",
+            "display": "frontal-oblique axial"
+          },
+          {
+            "code": "399325008",
+            "display": "sagittal-oblique axial"
+          },
+          {
+            "code": "399182000",
+            "display": "oblique"
+          },
+          {
+            "code": "399067008",
+            "display": "lateral"
+          },
+          {
+            "code": "399110001",
+            "display": "tangential"
+          },
+          {
+            "code": "399255003",
+            "display": "submentovertical"
+          },
+          {
+            "code": "399360002",
+            "display": "verticosubmental"
+          },
+          {
+            "code": "399071006",
+            "display": "plantodorsal"
+          },
+          {
+            "code": "399335002",
+            "display": "dorsoplantar"
+          },
+          {
+            "code": "399272005",
+            "display": "parietoacanthial"
+          },
+          {
+            "code": "399242004",
+            "display": "acanthioparietal"
+          },
+          {
+            "code": "399351005",
+            "display": "orbitoparietal"
+          },
+          {
+            "code": "399316002",
+            "display": "parieto-orbital"
+          },
+          {
+            "code": "399099002",
+            "display": "latero-medial oblique"
+          },
+          {
+            "code": "399368009",
+            "display": "medio-lateral oblique"
+          },
+          {
+            "code": "119376003",
+            "display": "tissue specimen"
+          },
+          {
+            "code": "260499007",
+            "display": "Occlusal projection"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-10202",
+            "display": "frontal"
+          },
+          {
+            "code": "R-10204",
+            "display": "frontal oblique"
+          },
+          {
+            "code": "R-10206",
+            "display": "antero-posterior"
+          },
+          {
+            "code": "R-10208",
+            "display": "antero-posterior oblique"
+          },
+          {
+            "code": "R-10210",
+            "display": "right posterior oblique"
+          },
+          {
+            "code": "R-10212",
+            "display": "left posterior oblique"
+          },
+          {
+            "code": "R-40888",
+            "display": "postero-anterior"
+          },
+          {
+            "code": "R-10216",
+            "display": "postero-anterior oblique"
+          },
+          {
+            "code": "R-40985",
+            "display": "right anterior oblique"
+          },
+          {
+            "code": "R-10220",
+            "display": "left anterior oblique"
+          },
+          {
+            "code": "G-A145",
+            "display": "sagittal"
+          },
+          {
+            "code": "R-10224",
+            "display": "medial-lateral"
+          },
+          {
+            "code": "R-40783",
+            "display": "lateral oblique"
+          },
+          {
+            "code": "R-10228",
+            "display": "lateral-medial"
+          },
+          {
+            "code": "R-40782",
+            "display": "medial oblique"
+          },
+          {
+            "code": "R-10232",
+            "display": "right lateral"
+          },
+          {
+            "code": "R-10234",
+            "display": "right oblique"
+          },
+          {
+            "code": "R-10236",
+            "display": "left lateral"
+          },
+          {
+            "code": "R-10238",
+            "display": "left oblique"
+          },
+          {
+            "code": "R-10241",
+            "display": "axial"
+          },
+          {
+            "code": "R-10242",
+            "display": "cranio-caudal"
+          },
+          {
+            "code": "R-10244",
+            "display": "caudo-cranial"
+          },
+          {
+            "code": "R-10246",
+            "display": "oblique axial"
+          },
+          {
+            "code": "R-10248",
+            "display": "oblique cranio-caudal"
+          },
+          {
+            "code": "R-10250",
+            "display": "oblique caudo-cranial"
+          },
+          {
+            "code": "R-10252",
+            "display": "frontal-oblique axial"
+          },
+          {
+            "code": "R-10254",
+            "display": "sagittal-oblique axial"
+          },
+          {
+            "code": "R-102C1",
+            "display": "oblique"
+          },
+          {
+            "code": "R-102CD",
+            "display": "lateral"
+          },
+          {
+            "code": "R-102C2",
+            "display": "tangential"
+          },
+          {
+            "code": "R-10256",
+            "display": "submentovertical"
+          },
+          {
+            "code": "R-10257",
+            "display": "verticosubmental"
+          },
+          {
+            "code": "R-102C3",
+            "display": "plantodorsal"
+          },
+          {
+            "code": "R-102C4",
+            "display": "dorsoplantar"
+          },
+          {
+            "code": "R-102C5",
+            "display": "parietoacanthial"
+          },
+          {
+            "code": "R-102C6",
+            "display": "acanthioparietal"
+          },
+          {
+            "code": "R-102C7",
+            "display": "orbitoparietal"
+          },
+          {
+            "code": "R-102C8",
+            "display": "parieto-orbital"
+          },
+          {
+            "code": "R-10230",
+            "display": "latero-medial oblique"
+          },
+          {
+            "code": "R-10226",
+            "display": "medio-lateral oblique"
+          },
+          {
+            "code": "G-8300",
+            "display": "tissue specimen"
+          },
+          {
+            "code": "R-40810",
+            "display": "Occlusal projection"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0442223",
+            "display": "frontal"
+          },
+          {
+            "code": "C1302231",
+            "display": "frontal oblique"
+          },
+          {
+            "code": "C0442212",
+            "display": "antero-posterior"
+          },
+          {
+            "code": "C1302318",
+            "display": "antero-posterior oblique"
+          },
+          {
+            "code": "C1275807",
+            "display": "right posterior oblique"
+          },
+          {
+            "code": "C1275802",
+            "display": "left posterior oblique"
+          },
+          {
+            "code": "C0457409",
+            "display": "postero-anterior"
+          },
+          {
+            "code": "C1275812",
+            "display": "postero-anterior oblique"
+          },
+          {
+            "code": "C1275852",
+            "display": "right anterior oblique"
+          },
+          {
+            "code": "C1275823",
+            "display": "left anterior oblique"
+          },
+          {
+            "code": "C0205129",
+            "display": "sagittal"
+          },
+          {
+            "code": "C1302283",
+            "display": "medial-lateral"
+          },
+          {
+            "code": "C0442295",
+            "display": "lateral oblique"
+          },
+          {
+            "code": "C1302336",
+            "display": "lateral-medial"
+          },
+          {
+            "code": "C0442294",
+            "display": "medial oblique"
+          },
+          {
+            "code": "C0442202",
+            "display": "right lateral"
+          },
+          {
+            "code": "C0442291",
+            "display": "right oblique"
+          },
+          {
+            "code": "C0442198",
+            "display": "left lateral"
+          },
+          {
+            "code": "C0442288",
+            "display": "left oblique"
+          },
+          {
+            "code": "C0442269",
+            "display": "axial"
+          },
+          {
+            "code": "C0442215",
+            "display": "cranio-caudal"
+          },
+          {
+            "code": "C1302249",
+            "display": "caudo-cranial"
+          },
+          {
+            "code": "C1302164",
+            "display": "oblique axial"
+          },
+          {
+            "code": "C1302302",
+            "display": "oblique cranio-caudal"
+          },
+          {
+            "code": "C1302262",
+            "display": "oblique caudo-cranial"
+          },
+          {
+            "code": "C1275822",
+            "display": "frontal-oblique axial"
+          },
+          {
+            "code": "C1275850",
+            "display": "sagittal-oblique axial"
+          },
+          {
+            "code": "C0442287",
+            "display": "oblique"
+          },
+          {
+            "code": "C0442197",
+            "display": "lateral"
+          },
+          {
+            "code": "C0442227",
+            "display": "tangential"
+          },
+          {
+            "code": "C0442244",
+            "display": "submentovertical"
+          },
+          {
+            "code": "C1302340",
+            "display": "verticosubmental"
+          },
+          {
+            "code": "C1302192",
+            "display": "plantodorsal"
+          },
+          {
+            "code": "C1302328",
+            "display": "dorsoplantar"
+          },
+          {
+            "code": "C1302290",
+            "display": "parietoacanthial"
+          },
+          {
+            "code": "C1302273",
+            "display": "acanthioparietal"
+          },
+          {
+            "code": "C1302335",
+            "display": "orbitoparietal"
+          },
+          {
+            "code": "C1302320",
+            "display": "parieto-orbital"
+          },
+          {
+            "code": "C1302201",
+            "display": "latero-medial oblique"
+          },
+          {
+            "code": "C1302345",
+            "display": "medio-lateral oblique"
+          },
+          {
+            "code": "C1292533",
+            "display": "tissue specimen"
+          },
+          {
+            "code": "C0442276",
+            "display": "Occlusal projection"
+          }
+        ]
+      }
+    ]
+  }
+}

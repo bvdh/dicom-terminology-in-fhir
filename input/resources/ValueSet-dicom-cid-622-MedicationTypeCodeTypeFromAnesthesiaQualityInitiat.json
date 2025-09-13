@@ -1,0 +1,787 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MedicationTypeCodeTypeFromAnesthesiaQualityInitiative",
+  "id": "dicom-cid-622-MedicationTypeCodeTypeFromAnesthesiaQualityInitiat",
+  "description": "This Context Group contains SNOMED substance or product code equivalents of enumerated string concepts for the The AQI value \"ABX-Miscellaneous\" corresponds to No equivalent concepts are included for MedicationTypeCodeType values of NonFormulary antibiotic, Dye, Indigo Carmine Red, and Non-Formulary.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-622-MedicationTypeCodeTypeFromAnesthesiaQualityInitiat",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1087"
+    }
+  ],
+  "version": "20250401",
+  "title": "Medication Type Code Type from Anesthesia Quality Initiative",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "86308005",
+            "display": "Adrenergic agent"
+          },
+          {
+            "code": "14443002",
+            "display": "Aminoglycoside antibiotic"
+          },
+          {
+            "code": "373265006",
+            "display": "Analgesic"
+          },
+          {
+            "code": "372813008",
+            "display": "Antiarrhythmic"
+          },
+          {
+            "code": "255631004",
+            "display": "Antibiotic"
+          },
+          {
+            "code": "373246003",
+            "display": "Anticholinergic"
+          },
+          {
+            "code": "372862008",
+            "display": "Anticoagulant"
+          },
+          {
+            "code": "255632006",
+            "display": "Anticonvulsant"
+          },
+          {
+            "code": "77671006",
+            "display": "Antidiuretic hormone"
+          },
+          {
+            "code": "52017007",
+            "display": "Antiemetic"
+          },
+          {
+            "code": "373219008",
+            "display": "Antifungal"
+          },
+          {
+            "code": "3361000",
+            "display": "Anti-heparin agent"
+          },
+          {
+            "code": "372806008",
+            "display": "Antihistamine"
+          },
+          {
+            "code": "1182007",
+            "display": "Antihypertensive"
+          },
+          {
+            "code": "372798009",
+            "display": "Barbiturate"
+          },
+          {
+            "code": "372664007",
+            "display": "Benzodiazepine"
+          },
+          {
+            "code": "372906009",
+            "display": "Benzodiazepine antagonist"
+          },
+          {
+            "code": "373254001",
+            "display": "Beta-blocker"
+          },
+          {
+            "code": "373297006",
+            "display": "Beta-Lactam antibiotic"
+          },
+          {
+            "code": "410652009",
+            "display": "Blood product"
+          },
+          {
+            "code": "372580007",
+            "display": "Bronchodilator"
+          },
+          {
+            "code": "5540006",
+            "display": "Calcium"
+          },
+          {
+            "code": "373304005",
+            "display": "Calcium channel blocker"
+          },
+          {
+            "code": "373530005",
+            "display": "Caloric agent"
+          },
+          {
+            "code": "396345004",
+            "display": "Carbapenem antibiotic"
+          },
+          {
+            "code": "764147003",
+            "display": "Cephalosporin antibiotic"
+          },
+          {
+            "code": "421148003",
+            "display": "Cholinergic agent"
+          },
+          {
+            "code": "372695000",
+            "display": "Diuretic"
+          },
+          {
+            "code": "74626007",
+            "display": "Drug diluent"
+          },
+          {
+            "code": "1052201004",
+            "display": "Estrogen"
+          },
+          {
+            "code": "372607002",
+            "display": "Gastrointestinal prokinetic"
+          },
+          {
+            "code": "373288007",
+            "display": "General anesthetic"
+          },
+          {
+            "code": "372681003",
+            "display": "Hemostatic agent"
+          },
+          {
+            "code": "312064005",
+            "display": "Hypoglycemic"
+          },
+          {
+            "code": "111139005",
+            "display": "Inotropic agent"
+          },
+          {
+            "code": "372677003",
+            "display": "Lincomycin antibiotic"
+          },
+          {
+            "code": "387056004",
+            "display": "Linezolid antibiotic"
+          },
+          {
+            "code": "373477003",
+            "display": "Local anesthetic"
+          },
+          {
+            "code": "373294004",
+            "display": "Low Molecular Weight Heparin"
+          },
+          {
+            "code": "372480009",
+            "display": "Macrolide antibiotic"
+          },
+          {
+            "code": "72717003",
+            "display": "Magnesium"
+          },
+          {
+            "code": "372602008",
+            "display": "Metronidazole antibiotic"
+          },
+          {
+            "code": "372656001",
+            "display": "Narcotic (opiate) antagonist"
+          },
+          {
+            "code": "96328007",
+            "display": "Decongestant"
+          },
+          {
+            "code": "373250005",
+            "display": "NeuroMuscular Blocking (NMB) - depolarizing"
+          },
+          {
+            "code": "372790002",
+            "display": "NeuroMuscular Blocking (NMB) - non depolarizing"
+          },
+          {
+            "code": "372665008",
+            "display": "NSAID"
+          },
+          {
+            "code": "470091001",
+            "display": "Ocular Lubricant"
+          },
+          {
+            "code": "410937004",
+            "display": "Oxytocic"
+          },
+          {
+            "code": "764146007",
+            "display": "Penicillin antibiotic"
+          },
+          {
+            "code": "372578001",
+            "display": "Plasma Expander"
+          },
+          {
+            "code": "88480006",
+            "display": "Potassium"
+          },
+          {
+            "code": "372722000",
+            "display": "Quinolone antibiotic"
+          },
+          {
+            "code": "418760000",
+            "display": "Respiratory stimulant"
+          },
+          {
+            "code": "372666009",
+            "display": "Skeletal muscle relaxant"
+          },
+          {
+            "code": "116566001",
+            "display": "Steroid"
+          },
+          {
+            "code": "372788003",
+            "display": "Sulfonamide antibiotic"
+          },
+          {
+            "code": "373206009",
+            "display": "Tetracycline antibiotic"
+          },
+          {
+            "code": "18220004",
+            "display": "Thyroid hormone"
+          },
+          {
+            "code": "372735009",
+            "display": "Vancomycin antibiotic"
+          },
+          {
+            "code": "870406003",
+            "display": "Vasoconstrictor"
+          },
+          {
+            "code": "372787008",
+            "display": "Vasodilator"
+          },
+          {
+            "code": "87708000",
+            "display": "Vitamin"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "C-68000",
+            "display": "Adrenergic agent"
+          },
+          {
+            "code": "C-52500",
+            "display": "Aminoglycoside antibiotic"
+          },
+          {
+            "code": "F-6181F",
+            "display": "Analgesic"
+          },
+          {
+            "code": "F-6196E",
+            "display": "Antiarrhythmic"
+          },
+          {
+            "code": "C-5008C",
+            "display": "Antibiotic"
+          },
+          {
+            "code": "F-6180B",
+            "display": "Anticholinergic"
+          },
+          {
+            "code": "F-6199A",
+            "display": "Anticoagulant"
+          },
+          {
+            "code": "R-F1216",
+            "display": "Anticonvulsant"
+          },
+          {
+            "code": "F-B1810",
+            "display": "Antidiuretic hormone"
+          },
+          {
+            "code": "C-85800",
+            "display": "Antiemetic"
+          },
+          {
+            "code": "F-617EF",
+            "display": "Antifungal"
+          },
+          {
+            "code": "C-A6700",
+            "display": "Anti-heparin agent"
+          },
+          {
+            "code": "F-61969",
+            "display": "Antihistamine"
+          },
+          {
+            "code": "C-81100",
+            "display": "Antihypertensive"
+          },
+          {
+            "code": "R-F2B23",
+            "display": "Barbiturate"
+          },
+          {
+            "code": "R-F2B1D",
+            "display": "Benzodiazepine"
+          },
+          {
+            "code": "F-619EF",
+            "display": "Benzodiazepine antagonist"
+          },
+          {
+            "code": "F-61814",
+            "display": "Beta-blocker"
+          },
+          {
+            "code": "C-00231",
+            "display": "Beta-Lactam antibiotic"
+          },
+          {
+            "code": "R-005B3",
+            "display": "Blood product"
+          },
+          {
+            "code": "F-616EB",
+            "display": "Bronchodilator"
+          },
+          {
+            "code": "C-14300",
+            "display": "Calcium"
+          },
+          {
+            "code": "F-61878",
+            "display": "Calcium channel blocker"
+          },
+          {
+            "code": "F-618D8",
+            "display": "Caloric agent"
+          },
+          {
+            "code": "C-002B1",
+            "display": "Carbapenem antibiotic"
+          },
+          {
+            "code": "F-620E8",
+            "display": "Cholinergic agent"
+          },
+          {
+            "code": "F-618AF",
+            "display": "Diuretic"
+          },
+          {
+            "code": "C-50013",
+            "display": "Drug diluent"
+          },
+          {
+            "code": "F-61716",
+            "display": "Gastrointestinal prokinetic"
+          },
+          {
+            "code": "F-6186A",
+            "display": "General anesthetic"
+          },
+          {
+            "code": "F-618A5",
+            "display": "Hemostatic agent"
+          },
+          {
+            "code": "C-50309",
+            "display": "Hypoglycemic"
+          },
+          {
+            "code": "C-80120",
+            "display": "Inotropic agent"
+          },
+          {
+            "code": "C-0023B",
+            "display": "Lincomycin antibiotic"
+          },
+          {
+            "code": "C-00286",
+            "display": "Linezolid antibiotic"
+          },
+          {
+            "code": "F-6183D",
+            "display": "Local anesthetic"
+          },
+          {
+            "code": "F-6186F",
+            "display": "Low Molecular Weight Heparin"
+          },
+          {
+            "code": "C-00211",
+            "display": "Macrolide antibiotic"
+          },
+          {
+            "code": "C-14800",
+            "display": "Magnesium"
+          },
+          {
+            "code": "F-616FE",
+            "display": "Metronidazole antibiotic"
+          },
+          {
+            "code": "F-6188F",
+            "display": "Narcotic (opiate) antagonist"
+          },
+          {
+            "code": "C-97301",
+            "display": "Decongestant"
+          },
+          {
+            "code": "F-6180F",
+            "display": "NeuroMuscular Blocking (NMB) - depolarizing"
+          },
+          {
+            "code": "F-61959",
+            "display": "NeuroMuscular Blocking (NMB) - non depolarizing"
+          },
+          {
+            "code": "F-61898",
+            "display": "NSAID"
+          },
+          {
+            "code": "R-FECEC",
+            "display": "Ocular Lubricant"
+          },
+          {
+            "code": "F-61E2A",
+            "display": "Oxytocic"
+          },
+          {
+            "code": "F-616E7",
+            "display": "Plasma Expander"
+          },
+          {
+            "code": "C-13500",
+            "display": "Potassium"
+          },
+          {
+            "code": "C-0024C",
+            "display": "Quinolone antibiotic"
+          },
+          {
+            "code": "F-6205D",
+            "display": "Respiratory stimulant"
+          },
+          {
+            "code": "F-61899",
+            "display": "Skeletal muscle relaxant"
+          },
+          {
+            "code": "C-10098",
+            "display": "Steroid"
+          },
+          {
+            "code": "C-00257",
+            "display": "Sulfonamide antibiotic"
+          },
+          {
+            "code": "C-00216",
+            "display": "Tetracycline antibiotic"
+          },
+          {
+            "code": "F-B3000",
+            "display": "Thyroid hormone"
+          },
+          {
+            "code": "C-0024E",
+            "display": "Vancomycin antibiotic"
+          },
+          {
+            "code": "F-61957",
+            "display": "Vasodilator"
+          },
+          {
+            "code": "F-BB000",
+            "display": "Vitamin"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0001637",
+            "display": "Adrenergic agent"
+          },
+          {
+            "code": "C0002556",
+            "display": "Aminoglycoside antibiotic"
+          },
+          {
+            "code": "C0002771",
+            "display": "Analgesic"
+          },
+          {
+            "code": "C0003195",
+            "display": "Antiarrhythmic"
+          },
+          {
+            "code": "C0003232",
+            "display": "Antibiotic"
+          },
+          {
+            "code": "C0242896",
+            "display": "Anticholinergic"
+          },
+          {
+            "code": "C0003280",
+            "display": "Anticoagulant"
+          },
+          {
+            "code": "C0003286",
+            "display": "Anticonvulsant"
+          },
+          {
+            "code": "C1705480",
+            "display": "Antidiuretic hormone"
+          },
+          {
+            "code": "C0003297",
+            "display": "Antiemetic"
+          },
+          {
+            "code": "C0003308",
+            "display": "Antifungal"
+          },
+          {
+            "code": "C0304941",
+            "display": "Anti-heparin agent"
+          },
+          {
+            "code": "C0003360",
+            "display": "Antihistamine"
+          },
+          {
+            "code": "C0003364",
+            "display": "Antihypertensive"
+          },
+          {
+            "code": "C1579431",
+            "display": "Antihypoglycemic"
+          },
+          {
+            "code": "C0004745",
+            "display": "Barbiturate"
+          },
+          {
+            "code": "C0005064",
+            "display": "Benzodiazepine"
+          },
+          {
+            "code": "C0360298",
+            "display": "Benzodiazepine antagonist"
+          },
+          {
+            "code": "C0001645",
+            "display": "Beta-blocker"
+          },
+          {
+            "code": "C0026458",
+            "display": "Beta-Lactam antibiotic"
+          },
+          {
+            "code": "C0456388",
+            "display": "Blood product"
+          },
+          {
+            "code": "C0006280",
+            "display": "Bronchodilator"
+          },
+          {
+            "code": "C0006675",
+            "display": "Calcium"
+          },
+          {
+            "code": "C0006684",
+            "display": "Calcium channel blocker"
+          },
+          {
+            "code": "C0280082",
+            "display": "Caloric agent"
+          },
+          {
+            "code": "C0006968",
+            "display": "Carbapenem antibiotic"
+          },
+          {
+            "code": "C4706514",
+            "display": "Cephalosporin antibiotic"
+          },
+          {
+            "code": "C1720711",
+            "display": "Cholinergic agent"
+          },
+          {
+            "code": "C0012798",
+            "display": "Diuretic"
+          },
+          {
+            "code": "C0304221",
+            "display": "Drug diluent"
+          },
+          {
+            "code": "C0014939",
+            "display": "Estrogen"
+          },
+          {
+            "code": "C0358588",
+            "display": "Gastrointestinal prokinetic"
+          },
+          {
+            "code": "C0017302",
+            "display": "General anesthetic"
+          },
+          {
+            "code": "C0019593",
+            "display": "H2 antagonist"
+          },
+          {
+            "code": "C0019120",
+            "display": "Hemostatic agent"
+          },
+          {
+            "code": "C0020616",
+            "display": "Hypoglycemic"
+          },
+          {
+            "code": "C0304509",
+            "display": "Inotropic agent"
+          },
+          {
+            "code": "C0023726",
+            "display": "Lincomycin antibiotic"
+          },
+          {
+            "code": "C0663241",
+            "display": "Linezolid antibiotic"
+          },
+          {
+            "code": "C0002934",
+            "display": "Local anesthetic"
+          },
+          {
+            "code": "C0019139",
+            "display": "Low Molecular Weight Heparin"
+          },
+          {
+            "code": "C0003240",
+            "display": "Macrolide antibiotic"
+          },
+          {
+            "code": "C0024467",
+            "display": "Magnesium"
+          },
+          {
+            "code": "C0025872",
+            "display": "Metronidazole antibiotic"
+          },
+          {
+            "code": "C0027410",
+            "display": "Narcotic (opiate) antagonist"
+          },
+          {
+            "code": "C0027409",
+            "display": "Narcotic analgesic"
+          },
+          {
+            "code": "C0282374",
+            "display": "Decongestant"
+          },
+          {
+            "code": "C0027867",
+            "display": "NeuroMuscular Blocking (NMB) - depolarizing"
+          },
+          {
+            "code": "C0304435",
+            "display": "NeuroMuscular Blocking (NMB) - non depolarizing"
+          },
+          {
+            "code": "C0003211",
+            "display": "NSAID"
+          },
+          {
+            "code": "C3853691",
+            "display": "Ocular Lubricant"
+          },
+          {
+            "code": "C0030094",
+            "display": "Oxytocic"
+          },
+          {
+            "code": "C0030842",
+            "display": "Penicillin antibiotic"
+          },
+          {
+            "code": "C1268852",
+            "display": "Plasma Expander"
+          },
+          {
+            "code": "C0032821",
+            "display": "Potassium"
+          },
+          {
+            "code": "C1533693",
+            "display": "Quinolone antibiotic"
+          },
+          {
+            "code": "C0282685",
+            "display": "Respiratory stimulant"
+          },
+          {
+            "code": "C0037250",
+            "display": "Skeletal muscle relaxant"
+          },
+          {
+            "code": "C0038317",
+            "display": "Steroid"
+          },
+          {
+            "code": "C0599503",
+            "display": "Sulfonamide antibiotic"
+          },
+          {
+            "code": "C1744619",
+            "display": "Tetracycline antibiotic"
+          },
+          {
+            "code": "C0040135",
+            "display": "Thyroid hormone"
+          },
+          {
+            "code": "C0042313",
+            "display": "Vancomycin antibiotic"
+          },
+          {
+            "code": "C0042397",
+            "display": "Vasoconstrictor"
+          },
+          {
+            "code": "C0042402",
+            "display": "Vasodilator"
+          },
+          {
+            "code": "C0042890",
+            "display": "Vitamin"
+          }
+        ]
+      }
+    ]
+  }
+}

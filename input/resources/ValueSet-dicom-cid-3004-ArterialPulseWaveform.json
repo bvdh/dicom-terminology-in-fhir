@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ArterialPulseWaveform",
+  "id": "dicom-cid-3004-ArterialPulseWaveform",
+  "description": "Arterial Pulse Waveform",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3004-ArterialPulseWaveform",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.803"
+    }
+  ],
+  "version": "20090409",
+  "title": "Arterial Pulse Waveform",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "109116",
+            "display": "Arterial Pulse Waveform"
+          }
+        ]
+      }
+    ]
+  }
+}

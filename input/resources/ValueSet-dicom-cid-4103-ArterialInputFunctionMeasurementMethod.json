@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ArterialInputFunctionMeasurementMethod",
+  "id": "dicom-cid-4103-ArterialInputFunctionMeasurementMethod",
+  "description": "The anatomic location relevant to the application of any AIF method is not pre-coordinated in concepts in this Context Group. Typically these would be described by the Finding Site of any related measurements in the appropriate Template.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4103-ArterialInputFunctionMeasurementMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.988"
+    }
+  ],
+  "version": "20141110",
+  "title": "Arterial Input Function Measurement Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "126360",
+            "display": "AIF Ignored"
+          },
+          {
+            "code": "126361",
+            "display": "Population Averaged AIF"
+          },
+          {
+            "code": "126362",
+            "display": "User-defined AIF ROI"
+          },
+          {
+            "code": "126363",
+            "display": "Automatically Detected AIF ROI"
+          },
+          {
+            "code": "126364",
+            "display": "Blind Estimation of AIF"
+          }
+        ]
+      }
+    ]
+  }
+}

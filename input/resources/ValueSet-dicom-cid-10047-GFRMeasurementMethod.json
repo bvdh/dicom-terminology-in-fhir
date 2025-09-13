@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GFRMeasurementMethod",
+  "id": "dicom-cid-10047-GFRMeasurementMethod",
+  "description": "GFR Measurement Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10047-GFRMeasurementMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.979"
+    }
+  ],
+  "version": "20140419",
+  "title": "GFR Measurement Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113570",
+            "display": "Cockroft-Gault Formula estimation of GFR"
+          },
+          {
+            "code": "113571",
+            "display": "CKD-EPI Formula estimation of GFR"
+          },
+          {
+            "code": "113572",
+            "display": "Glomerular Filtration Rate (MDRD)"
+          },
+          {
+            "code": "113573",
+            "display": "Glomerular Filtration Rate non-black (MDRD)"
+          },
+          {
+            "code": "113574",
+            "display": "Glomerular Filtration Rate black (MDRD)"
+          },
+          {
+            "code": "113575",
+            "display": "Glomerular Filtration Rate female (MDRD)"
+          },
+          {
+            "code": "113576",
+            "display": "Glomerular Filtration Rate Cystatin-based formula"
+          },
+          {
+            "code": "113577",
+            "display": "Glomerular Filtration Rate Creatinine-based formula (Schwartz)"
+          }
+        ]
+      }
+    ]
+  }
+}

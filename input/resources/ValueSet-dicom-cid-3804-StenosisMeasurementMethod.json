@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "StenosisMeasurementMethod",
+  "id": "dicom-cid-3804-StenosisMeasurementMethod",
+  "description": "Stenosis Measurement Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3804-StenosisMeasurementMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.265"
+    }
+  ],
+  "version": "20051103",
+  "title": "Stenosis Measurement Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122655",
+            "display": "NASCET"
+          },
+          {
+            "code": "122656",
+            "display": "ECST"
+          },
+          {
+            "code": "122650",
+            "display": "Area Based Method"
+          },
+          {
+            "code": "122651",
+            "display": "Diameter Based Method"
+          }
+        ]
+      }
+    ]
+  }
+}

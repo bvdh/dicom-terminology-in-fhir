@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MediaImport",
+  "id": "dicom-cid-7008-MediaImport",
+  "description": "Media Import",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7008-MediaImport",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.489"
+    }
+  ],
+  "version": "20061024",
+  "title": "Media Import",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110020",
+            "display": "Sheet Film Digitized"
+          },
+          {
+            "code": "110021",
+            "display": "Cine Film Digitized"
+          },
+          {
+            "code": "110022",
+            "display": "Video Tape Digitized"
+          },
+          {
+            "code": "110023",
+            "display": "Paper Digitized"
+          },
+          {
+            "code": "110024",
+            "display": "CD Imported"
+          },
+          {
+            "code": "110025",
+            "display": "DVD Imported"
+          },
+          {
+            "code": "110026",
+            "display": "MOD Imported"
+          },
+          {
+            "code": "110027",
+            "display": "Studies Imported"
+          },
+          {
+            "code": "110028",
+            "display": "Instances Imported"
+          }
+        ]
+      }
+    ]
+  }
+}

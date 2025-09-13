@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RTBeamLimitingDeviceOrientationLabel",
+  "id": "dicom-cid-9547-RTBeamLimitingDeviceOrientationLabel",
+  "description": "RT Beam Limiting Device Orientation Label",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9547-RTBeamLimitingDeviceOrientationLabel",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1294"
+    }
+  ],
+  "version": "20190715",
+  "title": "RT Beam Limiting Device Orientation Label",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130334",
+            "display": "X Orientation"
+          },
+          {
+            "code": "130335",
+            "display": "Y Orientation"
+          }
+        ]
+      }
+    ]
+  }
+}

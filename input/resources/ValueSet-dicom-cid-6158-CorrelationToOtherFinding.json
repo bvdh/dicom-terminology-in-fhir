@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CorrelationToOtherFinding",
+  "id": "dicom-cid-6158-CorrelationToOtherFinding",
+  "description": "From BI-RADS",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6158-CorrelationToOtherFinding",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.472"
+    }
+  ],
+  "version": "20050822",
+  "title": "Correlation to Other Finding",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111381",
+            "display": "Correlates to physical examination findings"
+          },
+          {
+            "code": "111382",
+            "display": "Correlates to mammography findings"
+          },
+          {
+            "code": "111383",
+            "display": "Correlates to MRI findings"
+          },
+          {
+            "code": "111384",
+            "display": "Correlates to ultrasound findings"
+          },
+          {
+            "code": "111385",
+            "display": "Correlates to other imaging findings"
+          },
+          {
+            "code": "111386",
+            "display": "No correlation to other imaging findings"
+          },
+          {
+            "code": "111387",
+            "display": "No correlation to clinical findings"
+          }
+        ]
+      }
+    ]
+  }
+}

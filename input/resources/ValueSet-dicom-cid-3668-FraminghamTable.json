@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "FraminghamTable",
+  "id": "dicom-cid-3668-FraminghamTable",
+  "description": "Framingham Table",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3668-FraminghamTable",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.184"
+    }
+  ],
+  "version": "20030327",
+  "title": "Framingham Table",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122233",
+            "display": "LDL Cholesterol Score Sheet for Men"
+          },
+          {
+            "code": "122234",
+            "display": "LDL Cholesterol Score Sheet for Women"
+          },
+          {
+            "code": "122235",
+            "display": "Total Cholesterol Score Sheet for Men"
+          },
+          {
+            "code": "122236",
+            "display": "Total Cholesterol Score Sheet for Women"
+          }
+        ]
+      }
+    ]
+  }
+}

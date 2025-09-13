@@ -1,0 +1,615 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "TransducerApproach",
+  "id": "dicom-cid-5-TransducerApproach",
+  "description": "In a prior version of this Context Group, the codes G-A11A, G-A11B, G-A12A, G-A16A, G-A16B, G-A16C, and G-A16D were specified for various concepts. The use of some of those codes conflicts with their assignment to other concepts in SNOMED, and their use in this context is deprecated. Although there is minimal possibility of misinterpretation with SOP Instances that may include the deprecated use, receiving applications should be aware of this change; see",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-5-TransducerApproach",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.3"
+    }
+  ],
+  "version": "20220628",
+  "title": "Transducer Approach",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "24028007",
+            "display": "Right"
+          },
+          {
+            "code": "7771000",
+            "display": "Left"
+          },
+          {
+            "code": "49370004",
+            "display": "Lateral"
+          },
+          {
+            "code": "255549009",
+            "display": "Anterior"
+          },
+          {
+            "code": "255551008",
+            "display": "Posterior"
+          },
+          {
+            "code": "3583002",
+            "display": "Caudal"
+          },
+          {
+            "code": "255561001",
+            "display": "Medial"
+          },
+          {
+            "code": "26216008",
+            "display": "Central"
+          },
+          {
+            "code": "14414005",
+            "display": "Peripheral"
+          },
+          {
+            "code": "261074009",
+            "display": "External"
+          },
+          {
+            "code": "260521003",
+            "display": "Internal"
+          },
+          {
+            "code": "261089000",
+            "display": "Inferior"
+          },
+          {
+            "code": "264217000",
+            "display": "Superior"
+          },
+          {
+            "code": "62824007",
+            "display": "Transverse"
+          },
+          {
+            "code": "40415009",
+            "display": "Proximal"
+          },
+          {
+            "code": "46053002",
+            "display": "Distal"
+          },
+          {
+            "code": "43674008",
+            "display": "Apical"
+          },
+          {
+            "code": "410679008",
+            "display": "Surface"
+          },
+          {
+            "code": "79458005",
+            "display": "Ascending"
+          },
+          {
+            "code": "75294000",
+            "display": "Descending"
+          },
+          {
+            "code": "71966008",
+            "display": "Subcutaneous tissue"
+          },
+          {
+            "code": "18545000",
+            "display": "Dura mater"
+          },
+          {
+            "code": "23180006",
+            "display": "Pia mater"
+          },
+          {
+            "code": "102322008",
+            "display": "External prosthesis for sonographic procedure [Stand-off]"
+          },
+          {
+            "code": "102323003",
+            "display": "Water bag prosthesis for imaging procedure"
+          },
+          {
+            "code": "102324009",
+            "display": "Saline bag prosthesis for imaging procedure"
+          },
+          {
+            "code": "102325005",
+            "display": "Gel prosthesis for imaging procedure"
+          },
+          {
+            "code": "66787007",
+            "display": "Cranial"
+          },
+          {
+            "code": "261129000",
+            "display": "Midline"
+          },
+          {
+            "code": "103342007",
+            "display": "Mid-longitudinal"
+          },
+          {
+            "code": "103343002",
+            "display": "Parasagittal"
+          },
+          {
+            "code": "264045001",
+            "display": "Intraluminal"
+          },
+          {
+            "code": "11070000",
+            "display": "Capsular"
+          },
+          {
+            "code": "113342003",
+            "display": "Lumen"
+          },
+          {
+            "code": "11723008",
+            "display": "Contact with"
+          },
+          {
+            "code": "91772007",
+            "display": "Parenchyma"
+          },
+          {
+            "code": "1197041002",
+            "display": "Intercostal"
+          },
+          {
+            "code": "264208000",
+            "display": "Subcostal"
+          },
+          {
+            "code": "117133000",
+            "display": "First Intercostal Space"
+          },
+          {
+            "code": "117134006",
+            "display": "Second Intercostal Space"
+          },
+          {
+            "code": "117135007",
+            "display": "Third Intercostal Space"
+          },
+          {
+            "code": "117136008",
+            "display": "Fourth Intercostal Space"
+          },
+          {
+            "code": "117137004",
+            "display": "Fifth Intercostal Space"
+          },
+          {
+            "code": "117138009",
+            "display": "Sixth Intercostal Space"
+          },
+          {
+            "code": "117139001",
+            "display": "Seventh Intercostal Space"
+          },
+          {
+            "code": "117140004",
+            "display": "Eighth Intercostal Space"
+          },
+          {
+            "code": "117141000",
+            "display": "Ninth Intercostal Space"
+          },
+          {
+            "code": "117142007",
+            "display": "Tenth Intercostal Space"
+          },
+          {
+            "code": "117143002",
+            "display": "Eleventh Intercostal Space"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-A100",
+            "display": "Right"
+          },
+          {
+            "code": "G-A101",
+            "display": "Left"
+          },
+          {
+            "code": "G-A104",
+            "display": "Lateral"
+          },
+          {
+            "code": "R-404CC",
+            "display": "Anterior"
+          },
+          {
+            "code": "R-404CE",
+            "display": "Posterior"
+          },
+          {
+            "code": "G-A108",
+            "display": "Caudal"
+          },
+          {
+            "code": "R-404D5",
+            "display": "Medial"
+          },
+          {
+            "code": "G-A110",
+            "display": "Central"
+          },
+          {
+            "code": "G-A111",
+            "display": "Peripheral"
+          },
+          {
+            "code": "R-40941",
+            "display": "External"
+          },
+          {
+            "code": "R-40819",
+            "display": "Internal"
+          },
+          {
+            "code": "R-4094A",
+            "display": "Inferior"
+          },
+          {
+            "code": "R-42191",
+            "display": "Superior"
+          },
+          {
+            "code": "G-A117",
+            "display": "Transverse"
+          },
+          {
+            "code": "G-A118",
+            "display": "Proximal"
+          },
+          {
+            "code": "G-A119",
+            "display": "Distal"
+          },
+          {
+            "code": "G-A122",
+            "display": "Apical"
+          },
+          {
+            "code": "G-A206",
+            "display": "Surface"
+          },
+          {
+            "code": "G-A599",
+            "display": "Ascending"
+          },
+          {
+            "code": "G-A600",
+            "display": "Descending"
+          },
+          {
+            "code": "T-03000",
+            "display": "Subcutaneous tissue"
+          },
+          {
+            "code": "T-A1120",
+            "display": "Dura mater"
+          },
+          {
+            "code": "T-A1280",
+            "display": "Pia mater"
+          },
+          {
+            "code": "A-2C600",
+            "display": "External prosthesis for sonographic procedure [Stand-off]"
+          },
+          {
+            "code": "A-2C602",
+            "display": "Water bag prosthesis for imaging procedure"
+          },
+          {
+            "code": "A-2C604",
+            "display": "Saline bag prosthesis for imaging procedure"
+          },
+          {
+            "code": "A-2C606",
+            "display": "Gel prosthesis for imaging procedure"
+          },
+          {
+            "code": "G-A107",
+            "display": "Cranial"
+          },
+          {
+            "code": "G-A10A",
+            "display": "Midline"
+          },
+          {
+            "code": "G-A188",
+            "display": "Mid-longitudinal"
+          },
+          {
+            "code": "G-A189",
+            "display": "Parasagittal"
+          },
+          {
+            "code": "R-42142",
+            "display": "Intraluminal"
+          },
+          {
+            "code": "G-A171",
+            "display": "Capsular"
+          },
+          {
+            "code": "T-D0048",
+            "display": "Lumen"
+          },
+          {
+            "code": "G-4022",
+            "display": "Contact with"
+          },
+          {
+            "code": "T-D0062",
+            "display": "Parenchyma"
+          },
+          {
+            "code": "R-4218D",
+            "display": "Subcostal"
+          },
+          {
+            "code": "T-D3141",
+            "display": "First Intercostal Space"
+          },
+          {
+            "code": "T-D3142",
+            "display": "Second Intercostal Space"
+          },
+          {
+            "code": "T-D3143",
+            "display": "Third Intercostal Space"
+          },
+          {
+            "code": "T-D3144",
+            "display": "Fourth Intercostal Space"
+          },
+          {
+            "code": "T-D3145",
+            "display": "Fifth Intercostal Space"
+          },
+          {
+            "code": "T-D3146",
+            "display": "Sixth Intercostal Space"
+          },
+          {
+            "code": "T-D3147",
+            "display": "Seventh Intercostal Space"
+          },
+          {
+            "code": "T-D3148",
+            "display": "Eighth Intercostal Space"
+          },
+          {
+            "code": "T-D3149",
+            "display": "Ninth Intercostal Space"
+          },
+          {
+            "code": "T-D314A",
+            "display": "Tenth Intercostal Space"
+          },
+          {
+            "code": "T-D314B",
+            "display": "Eleventh Intercostal Space"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0205090",
+            "display": "Right"
+          },
+          {
+            "code": "C0205091",
+            "display": "Left"
+          },
+          {
+            "code": "C0205093",
+            "display": "Lateral"
+          },
+          {
+            "code": "C1704448",
+            "display": "Anterior"
+          },
+          {
+            "code": "C0205095",
+            "display": "Posterior"
+          },
+          {
+            "code": "C0205097",
+            "display": "Caudal"
+          },
+          {
+            "code": "C0205098",
+            "display": "Medial"
+          },
+          {
+            "code": "C0205099",
+            "display": "Central"
+          },
+          {
+            "code": "C0205100",
+            "display": "Peripheral"
+          },
+          {
+            "code": "C0205101",
+            "display": "External"
+          },
+          {
+            "code": "C0205102",
+            "display": "Internal"
+          },
+          {
+            "code": "C0542339",
+            "display": "Inferior"
+          },
+          {
+            "code": "C1282910",
+            "display": "Superior"
+          },
+          {
+            "code": "C0205106",
+            "display": "Transverse"
+          },
+          {
+            "code": "C0205107",
+            "display": "Proximal"
+          },
+          {
+            "code": "C0205108",
+            "display": "Distal"
+          },
+          {
+            "code": "C0205111",
+            "display": "Apical"
+          },
+          {
+            "code": "C0205148",
+            "display": "Surface"
+          },
+          {
+            "code": "C0205385",
+            "display": "Ascending"
+          },
+          {
+            "code": "C0205386",
+            "display": "Descending"
+          },
+          {
+            "code": "C0278403",
+            "display": "Subcutaneous tissue"
+          },
+          {
+            "code": "C0013313",
+            "display": "Dura mater"
+          },
+          {
+            "code": "C0031869",
+            "display": "Pia mater"
+          },
+          {
+            "code": "C0522650",
+            "display": "External prosthesis for sonographic procedure [Stand-off]"
+          },
+          {
+            "code": "C0522651",
+            "display": "Water bag prosthesis for imaging procedure"
+          },
+          {
+            "code": "C0522652",
+            "display": "Saline bag prosthesis for imaging procedure"
+          },
+          {
+            "code": "C0522653",
+            "display": "Gel prosthesis for imaging procedure"
+          },
+          {
+            "code": "C0205096",
+            "display": "Cranial"
+          },
+          {
+            "code": "C0441992",
+            "display": "Midline"
+          },
+          {
+            "code": "C0522490",
+            "display": "Mid-longitudinal"
+          },
+          {
+            "code": "C0522491",
+            "display": "Parasagittal"
+          },
+          {
+            "code": "C0442115",
+            "display": "Intraluminal"
+          },
+          {
+            "code": "C0205151",
+            "display": "Capsular"
+          },
+          {
+            "code": "C0524461",
+            "display": "Lumen"
+          },
+          {
+            "code": "C0332158",
+            "display": "Contact with"
+          },
+          {
+            "code": "C0524464",
+            "display": "Parenchyma"
+          },
+          {
+            "code": "C0442184",
+            "display": "Subcostal"
+          },
+          {
+            "code": "C0446477",
+            "display": "First Intercostal Space"
+          },
+          {
+            "code": "C0446478",
+            "display": "Second Intercostal Space"
+          },
+          {
+            "code": "C0446479",
+            "display": "Third Intercostal Space"
+          },
+          {
+            "code": "C0446480",
+            "display": "Fourth Intercostal Space"
+          },
+          {
+            "code": "C0446481",
+            "display": "Fifth Intercostal Space"
+          },
+          {
+            "code": "C0446486",
+            "display": "Sixth Intercostal Space"
+          },
+          {
+            "code": "C0446482",
+            "display": "Seventh Intercostal Space"
+          },
+          {
+            "code": "C0446483",
+            "display": "Eighth Intercostal Space"
+          },
+          {
+            "code": "C0446484",
+            "display": "Ninth Intercostal Space"
+          },
+          {
+            "code": "C0446487",
+            "display": "Tenth Intercostal Space"
+          },
+          {
+            "code": "C0446485",
+            "display": "Eleventh Intercostal Space"
+          }
+        ]
+      }
+    ]
+  }
+}

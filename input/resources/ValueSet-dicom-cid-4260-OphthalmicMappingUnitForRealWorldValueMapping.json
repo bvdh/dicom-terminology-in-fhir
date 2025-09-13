@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OphthalmicMappingUnitForRealWorldValueMapping",
+  "id": "dicom-cid-4260-OphthalmicMappingUnitForRealWorldValueMapping",
+  "description": "Ophthalmic Mapping Unit for Real World Value Mapping",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4260-OphthalmicMappingUnitForRealWorldValueMapping",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.936"
+    }
+  ],
+  "version": "20110825",
+  "title": "Ophthalmic Mapping Unit for Real World Value Mapping",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "um",
+            "display": "micrometer"
+          }
+        ]
+      }
+    ]
+  }
+}

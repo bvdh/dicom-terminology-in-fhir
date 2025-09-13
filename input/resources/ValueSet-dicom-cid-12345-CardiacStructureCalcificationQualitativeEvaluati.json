@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiacStructureCalcificationQualitativeEvaluation",
+  "id": "dicom-cid-12345-CardiacStructureCalcificationQualitativeEvaluati",
+  "description": "Cardiac Structure Calcification Qualitative Evaluation",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12345-CardiacStructureCalcificationQualitativeEvaluati",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1532"
+    }
+  ],
+  "version": "20250407",
+  "title": "Cardiac Structure Calcification Qualitative Evaluation",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "131142",
+            "display": "Aortic annulus calcification severity"
+          },
+          {
+            "code": "131147",
+            "display": "Aortic commissures calcification severity"
+          },
+          {
+            "code": "131167",
+            "display": "Left ventricular outflow tract calcification severity"
+          },
+          {
+            "code": "131184",
+            "display": "Mitral annulus calcification severity"
+          }
+        ]
+      }
+    ]
+  }
+}

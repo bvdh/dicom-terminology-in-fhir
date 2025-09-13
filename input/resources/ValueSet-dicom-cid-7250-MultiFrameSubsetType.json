@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MultiFrameSubsetType",
+  "id": "dicom-cid-7250-MultiFrameSubsetType",
+  "description": "Multi-Frame Subset Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7250-MultiFrameSubsetType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.513"
+    }
+  ],
+  "version": "20070625",
+  "title": "Multi-Frame Subset Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121190",
+            "display": "Referenced Frames"
+          },
+          {
+            "code": "121191",
+            "display": "Referenced Segment"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ECGControlNumericVariable",
+  "id": "dicom-cid-3690-ECGControlNumericVariable",
+  "description": "Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10102 available through",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3690-ECGControlNumericVariable",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.895"
+    }
+  ],
+  "version": "20110330",
+  "title": "ECG Control Numeric Variable",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "concept": [
+          {
+            "code": "10:11393",
+            "display": "Sample rate"
+          },
+          {
+            "code": "10:11394",
+            "display": "Sensitivity"
+          },
+          {
+            "code": "10:11395",
+            "display": "Zero offset"
+          },
+          {
+            "code": "10:11397",
+            "display": "Pad value"
+          },
+          {
+            "code": "10:11398",
+            "display": "Time skew"
+          },
+          {
+            "code": "10:11399",
+            "display": "Sample skew"
+          },
+          {
+            "code": "10:11400",
+            "display": "Time offset"
+          },
+          {
+            "code": "10:11403",
+            "display": "Low pass filter cutoff freq"
+          },
+          {
+            "code": "10:11408",
+            "display": "Notch filter frequency"
+          },
+          {
+            "code": "10:11409",
+            "display": "Notch filter bandwidth"
+          },
+          {
+            "code": "10:11418",
+            "display": "Interpolator SNR"
+          }
+        ]
+      }
+    ]
+  }
+}

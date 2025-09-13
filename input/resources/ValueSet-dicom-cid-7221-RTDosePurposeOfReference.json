@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RTDosePurposeOfReference",
+  "id": "dicom-cid-7221-RTDosePurposeOfReference",
+  "description": "RT Dose Purpose of Reference",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7221-RTDosePurposeOfReference",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.969"
+    }
+  ],
+  "version": "20140106",
+  "title": "RT Dose Purpose of Reference",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121372",
+            "display": "Source dose for composing current dose"
+          }
+        ]
+      }
+    ]
+  }
+}

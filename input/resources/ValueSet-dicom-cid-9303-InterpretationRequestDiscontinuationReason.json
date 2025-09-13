@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "InterpretationRequestDiscontinuationReason",
+  "id": "dicom-cid-9303-InterpretationRequestDiscontinuationReason",
+  "description": "Interpretation Request Discontinuation Reason",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9303-InterpretationRequestDiscontinuationReason",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1198"
+    }
+  ],
+  "version": "20171122",
+  "title": "Interpretation Request Discontinuation Reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110526",
+            "display": "Resource pre-empted"
+          },
+          {
+            "code": "110500",
+            "display": "Doctor canceled procedure"
+          },
+          {
+            "code": "110502",
+            "display": "Incorrect procedure ordered"
+          },
+          {
+            "code": "110504",
+            "display": "Patient died"
+          },
+          {
+            "code": "110509",
+            "display": "Change of procedure for correct charging"
+          },
+          {
+            "code": "110510",
+            "display": "Duplicate order"
+          },
+          {
+            "code": "110513",
+            "display": "Discontinued for unspecified reason"
+          },
+          {
+            "code": "110530",
+            "display": "Workitem assignment rejected by assigned resource"
+          },
+          {
+            "code": "110523",
+            "display": "Object Set incomplete"
+          },
+          {
+            "code": "110531",
+            "display": "Insufficient quality for interpretation"
+          },
+          {
+            "code": "110532",
+            "display": "Interpretation requires specialist expertise"
+          }
+        ]
+      }
+    ]
+  }
+}

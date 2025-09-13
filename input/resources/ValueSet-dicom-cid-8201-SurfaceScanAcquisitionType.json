@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SurfaceScanAcquisitionType",
+  "id": "dicom-cid-8201-SurfaceScanAcquisitionType",
+  "description": "Surface Scan Acquisition Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-8201-SurfaceScanAcquisitionType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.953"
+    }
+  ],
+  "version": "20121129",
+  "title": "Surface Scan Acquisition Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "114201",
+            "display": "Time of flight"
+          },
+          {
+            "code": "114202",
+            "display": "Interferometry"
+          },
+          {
+            "code": "114203",
+            "display": "Laser scanning"
+          },
+          {
+            "code": "114204",
+            "display": "Pattern projection"
+          },
+          {
+            "code": "114205",
+            "display": "Shape from shading"
+          },
+          {
+            "code": "114206",
+            "display": "Shape from motion"
+          },
+          {
+            "code": "114207",
+            "display": "Confocal imaging"
+          },
+          {
+            "code": "114208",
+            "display": "Point Cloud Algorithmic"
+          }
+        ]
+      }
+    ]
+  }
+}

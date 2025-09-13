@@ -1,0 +1,83 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LesionMargin",
+  "id": "dicom-cid-3715-LesionMargin",
+  "description": "Lesion Margin",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3715-LesionMargin",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.216"
+    }
+  ],
+  "version": "20050614",
+  "title": "Lesion Margin",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "82280004",
+            "display": "Smooth"
+          },
+          {
+            "code": "49608001",
+            "display": "Irregular"
+          },
+          {
+            "code": "371922008",
+            "display": "Multiple Irregularities"
+          },
+          {
+            "code": "255321001",
+            "display": "Ulcerative"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-A545",
+            "display": "Smooth"
+          },
+          {
+            "code": "G-A402",
+            "display": "Irregular"
+          },
+          {
+            "code": "R-00335",
+            "display": "Multiple Irregularities"
+          },
+          {
+            "code": "R-403CC",
+            "display": "Ulcerative"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0205357",
+            "display": "Smooth"
+          },
+          {
+            "code": "C0205271",
+            "display": "Irregular"
+          },
+          {
+            "code": "C1299391",
+            "display": "Multiple Irregularities"
+          },
+          {
+            "code": "C0041582",
+            "display": "Ulcerative"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid3682",
+  "id": "dicom-cid3682",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid3682",
+  "version": "None",
+  "title": "Probability (Retired)"
+}

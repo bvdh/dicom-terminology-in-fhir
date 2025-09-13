@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EchocardiographyCardiacShuntMeasurement",
+  "id": "dicom-cid-12217-EchocardiographyCardiacShuntMeasurement",
+  "description": "Echocardiography Cardiac Shunt Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12217-EchocardiographyCardiacShuntMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.609"
+    }
+  ],
+  "version": "20030918",
+  "title": "Echocardiography Cardiac Shunt Measurement",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12220-EchocardiographyCommonMeasurement"
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "29462-9",
+            "display": "Pulmonary-to-Systemic Shunt Flow Ratio"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0944910",
+            "display": "Pulmonary-to-Systemic Shunt Flow Ratio"
+          }
+        ]
+      }
+    ]
+  }
+}

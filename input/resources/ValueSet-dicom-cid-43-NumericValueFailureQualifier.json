@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "NumericValueFailureQualifier",
+  "id": "dicom-cid-43-NumericValueFailureQualifier",
+  "description": "Numeric Value Failure Qualifier",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-43-NumericValueFailureQualifier",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1356"
+    }
+  ],
+  "version": "20210120",
+  "title": "Numeric Value Failure Qualifier",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "114000",
+            "display": "Not a number"
+          },
+          {
+            "code": "114001",
+            "display": "Negative Infinity"
+          },
+          {
+            "code": "114002",
+            "display": "Positive Infinity"
+          },
+          {
+            "code": "114003",
+            "display": "Divide by zero"
+          },
+          {
+            "code": "114004",
+            "display": "Underflow"
+          },
+          {
+            "code": "114005",
+            "display": "Overflow"
+          },
+          {
+            "code": "114006",
+            "display": "Measurement failure"
+          },
+          {
+            "code": "114008",
+            "display": "Calculation failure"
+          },
+          {
+            "code": "114009",
+            "display": "Value out of range"
+          }
+        ]
+      }
+    ]
+  }
+}

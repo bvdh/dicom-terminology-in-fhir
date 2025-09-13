@@ -1,0 +1,9 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid3720",
+  "id": "dicom-cid3720",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid3720",
+  "version": "None",
+  "title": "Cardiac History Date (Retired)"
+}

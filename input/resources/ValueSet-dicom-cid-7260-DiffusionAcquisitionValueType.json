@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DiffusionAcquisitionValueType",
+  "id": "dicom-cid-7260-DiffusionAcquisitionValueType",
+  "description": "Diffusion Acquisition Value Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7260-DiffusionAcquisitionValueType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1059"
+    }
+  ],
+  "version": "20150918",
+  "title": "Diffusion Acquisition Value Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113221",
+            "display": "HARDI"
+          },
+          {
+            "code": "113222",
+            "display": "DKI"
+          },
+          {
+            "code": "113223",
+            "display": "DTI"
+          },
+          {
+            "code": "113224",
+            "display": "DSI"
+          },
+          {
+            "code": "113225",
+            "display": "LSDI"
+          },
+          {
+            "code": "113226",
+            "display": "Single Shot EPI"
+          },
+          {
+            "code": "113227",
+            "display": "Multiple Shot EPI"
+          },
+          {
+            "code": "113228",
+            "display": "Parallel Imaging"
+          }
+        ]
+      }
+    ]
+  }
+}

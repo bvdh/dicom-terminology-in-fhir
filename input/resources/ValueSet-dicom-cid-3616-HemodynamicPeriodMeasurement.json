@@ -1,0 +1,95 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "HemodynamicPeriodMeasurement",
+  "id": "dicom-cid-3616-HemodynamicPeriodMeasurement",
+  "description": "Hemodynamic Period Measurement",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3616-HemodynamicPeriodMeasurement",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.166"
+    }
+  ],
+  "version": "20030327",
+  "title": "Hemodynamic Period Measurement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "371850007",
+            "display": "Aortic Systolic Ejection Period (SEPa)"
+          },
+          {
+            "code": "371848004",
+            "display": "Pulmonary Systolic Ejection Period (SEPp)"
+          },
+          {
+            "code": "371849007",
+            "display": "Mitral Diastolic Filling Period (DFPm)"
+          },
+          {
+            "code": "371847009",
+            "display": "Tricuspid Diastolic Filling Period (DFPt)"
+          },
+          {
+            "code": "371853009",
+            "display": "Derived Period, Non-Valve"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-002D2",
+            "display": "Aortic Systolic Ejection Period (SEPa)"
+          },
+          {
+            "code": "R-0035C",
+            "display": "Pulmonary Systolic Ejection Period (SEPp)"
+          },
+          {
+            "code": "R-0032C",
+            "display": "Mitral Diastolic Filling Period (DFPm)"
+          },
+          {
+            "code": "R-003A9",
+            "display": "Tricuspid Diastolic Filling Period (DFPt)"
+          },
+          {
+            "code": "R-002F5",
+            "display": "Derived Period, Non-Valve"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1269855",
+            "display": "Aortic Systolic Ejection Period (SEPa)"
+          },
+          {
+            "code": "C1269854",
+            "display": "Pulmonary Systolic Ejection Period (SEPp)"
+          },
+          {
+            "code": "C1299325",
+            "display": "Mitral Diastolic Filling Period (DFPm)"
+          },
+          {
+            "code": "C1299324",
+            "display": "Tricuspid Diastolic Filling Period (DFPt)"
+          },
+          {
+            "code": "C1299328",
+            "display": "Derived Period, Non-Valve"
+          }
+        ]
+      }
+    ]
+  }
+}

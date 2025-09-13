@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RTSegmentMaterial",
+  "id": "dicom-cid-9579-RTSegmentMaterial",
+  "description": "RT Segment Material",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9579-RTSegmentMaterial",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1432"
+    }
+  ],
+  "version": "20220115",
+  "title": "RT Segment Material",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7300-ImplantMaterial"
+        ]
+      }
+    ]
+  }
+}

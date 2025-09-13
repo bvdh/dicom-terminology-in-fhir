@@ -1,0 +1,443 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CathFinding",
+  "id": "dicom-cid-3728-CathFinding",
+  "description": "Cath Finding",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3728-CathFinding",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.228"
+    }
+  ],
+  "version": "20160314",
+  "title": "Cath Finding",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "371856001",
+            "display": "Normal left heart hemodynamics"
+          },
+          {
+            "code": "371859008",
+            "display": "Normal right heart hemodynamics"
+          },
+          {
+            "code": "371858000",
+            "display": "Normal left and right heart hemodynamics"
+          },
+          {
+            "code": "371857005",
+            "display": "Normal left ventricular systolic function and wall motion"
+          },
+          {
+            "code": "371860003",
+            "display": "Normal coronary arteries"
+          },
+          {
+            "code": "371861004",
+            "display": "Mild intimal coronary irregularities, no significant stenoses"
+          },
+          {
+            "code": "194842008",
+            "display": "Single vessel coronary artery disease."
+          },
+          {
+            "code": "194843003",
+            "display": "Double vessel coronary artery disease."
+          },
+          {
+            "code": "233817007",
+            "display": "Triple vessel coronary artery disease."
+          },
+          {
+            "code": "371803003",
+            "display": "Multi vessel coronary artery disease."
+          },
+          {
+            "code": "371804009",
+            "display": "Left main coronary artery disease"
+          },
+          {
+            "code": "371805005",
+            "display": "Significant coronary bypass graft disease"
+          },
+          {
+            "code": "60573004",
+            "display": "Aortic stenosis"
+          },
+          {
+            "code": "194983005",
+            "display": "Aortic insufficiency"
+          },
+          {
+            "code": "79619009",
+            "display": "Mitral stenosis"
+          },
+          {
+            "code": "48724000",
+            "display": "Mitral regurgitation"
+          },
+          {
+            "code": "371862006",
+            "display": "Depression of left ventricular systolic function"
+          },
+          {
+            "code": "371813006",
+            "display": "Acute mitral regurgitation from chordal rupture"
+          },
+          {
+            "code": "371814000",
+            "display": "Acute mitral regurgitation from chordal dysfunction"
+          },
+          {
+            "code": "371816003",
+            "display": "Acute mitral regurgitation from papillary muscle rupture"
+          },
+          {
+            "code": "371815004",
+            "display": "Acute mitral regurgitation from papillary muscle dysfunction"
+          },
+          {
+            "code": "409712001",
+            "display": "Mitral valve prolapse"
+          },
+          {
+            "code": "399020009",
+            "display": "Congestive cardiomyopathy"
+          },
+          {
+            "code": "45227007",
+            "display": "Hypertrophic cardiomyopathy with obstruction"
+          },
+          {
+            "code": "195020003",
+            "display": "Hypertrophic cardiomyopathy without obstruction"
+          },
+          {
+            "code": "64715009",
+            "display": "Hypertensive heart disease"
+          },
+          {
+            "code": "90828009",
+            "display": "Restrictive cardiomyopathy"
+          },
+          {
+            "code": "35304003",
+            "display": "Pericardial tamponade"
+          },
+          {
+            "code": "85598007",
+            "display": "Constrictive pericarditis"
+          },
+          {
+            "code": "70995007",
+            "display": "Pulmonary hypertension"
+          },
+          {
+            "code": "70142008",
+            "display": "Atrial septal defect"
+          },
+          {
+            "code": "30288003",
+            "display": "Ventricular septal defect"
+          },
+          {
+            "code": "371817007",
+            "display": "Acute ventricular septal rupture"
+          },
+          {
+            "code": "13213009",
+            "display": "heart disease - congenital"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-0033F",
+            "display": "Normal left heart hemodynamics"
+          },
+          {
+            "code": "R-00342",
+            "display": "Normal right heart hemodynamics"
+          },
+          {
+            "code": "R-0033E",
+            "display": "Normal left and right heart hemodynamics"
+          },
+          {
+            "code": "R-00340",
+            "display": "Normal left ventricular systolic function and wall motion"
+          },
+          {
+            "code": "R-0033D",
+            "display": "Normal coronary arteries"
+          },
+          {
+            "code": "R-00328",
+            "display": "Mild intimal coronary irregularities, no significant stenoses"
+          },
+          {
+            "code": "D3-13001",
+            "display": "Single vessel coronary artery disease."
+          },
+          {
+            "code": "D3-13013",
+            "display": "Double vessel coronary artery disease."
+          },
+          {
+            "code": "D3-1301F",
+            "display": "Triple vessel coronary artery disease."
+          },
+          {
+            "code": "R-00334",
+            "display": "Multi vessel coronary artery disease."
+          },
+          {
+            "code": "R-00313",
+            "display": "Left main coronary artery disease"
+          },
+          {
+            "code": "R-00372",
+            "display": "Significant coronary bypass graft disease"
+          },
+          {
+            "code": "D3-29021",
+            "display": "Aortic stenosis"
+          },
+          {
+            "code": "D3-29025",
+            "display": "Aortic insufficiency"
+          },
+          {
+            "code": "D3-29011",
+            "display": "Mitral stenosis"
+          },
+          {
+            "code": "D3-29012",
+            "display": "Mitral regurgitation"
+          },
+          {
+            "code": "R-002F3",
+            "display": "Depression of left ventricular systolic function"
+          },
+          {
+            "code": "R-002C8",
+            "display": "Acute mitral regurgitation from chordal rupture"
+          },
+          {
+            "code": "R-002C7",
+            "display": "Acute mitral regurgitation from chordal dysfunction"
+          },
+          {
+            "code": "R-002CA",
+            "display": "Acute mitral regurgitation from papillary muscle rupture"
+          },
+          {
+            "code": "R-002C9",
+            "display": "Acute mitral regurgitation from papillary muscle dysfunction"
+          },
+          {
+            "code": "D3-1081C",
+            "display": "Mitral valve prolapse"
+          },
+          {
+            "code": "D3-20021",
+            "display": "Congestive cardiomyopathy"
+          },
+          {
+            "code": "D3-23000",
+            "display": "Hypertrophic cardiomyopathy with obstruction"
+          },
+          {
+            "code": "D3-20003",
+            "display": "Hypertrophic cardiomyopathy without obstruction"
+          },
+          {
+            "code": "D3-02500",
+            "display": "Hypertensive heart disease"
+          },
+          {
+            "code": "D3-22100",
+            "display": "Restrictive cardiomyopathy"
+          },
+          {
+            "code": "D3-90100",
+            "display": "Pericardial tamponade"
+          },
+          {
+            "code": "D3-91030",
+            "display": "Constrictive pericarditis"
+          },
+          {
+            "code": "D3-40300",
+            "display": "Pulmonary hypertension"
+          },
+          {
+            "code": "D4-31220",
+            "display": "Atrial septal defect"
+          },
+          {
+            "code": "D4-31150",
+            "display": "Ventricular septal defect"
+          },
+          {
+            "code": "R-002CB",
+            "display": "Acute ventricular septal rupture"
+          },
+          {
+            "code": "D4-31000",
+            "display": "heart disease - congenital"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1299331",
+            "display": "Normal left heart hemodynamics"
+          },
+          {
+            "code": "C1299334",
+            "display": "Normal right heart hemodynamics"
+          },
+          {
+            "code": "C1299333",
+            "display": "Normal left and right heart hemodynamics"
+          },
+          {
+            "code": "C1299332",
+            "display": "Normal left ventricular systolic function and wall motion"
+          },
+          {
+            "code": "C1299335",
+            "display": "Normal coronary arteries"
+          },
+          {
+            "code": "C1299336",
+            "display": "Mild intimal coronary irregularities, no significant stenoses"
+          },
+          {
+            "code": "C0581374",
+            "display": "Single vessel coronary artery disease."
+          },
+          {
+            "code": "C0581375",
+            "display": "Double vessel coronary artery disease."
+          },
+          {
+            "code": "C0340285",
+            "display": "Triple vessel coronary artery disease."
+          },
+          {
+            "code": "C1299432",
+            "display": "Multi vessel coronary artery disease."
+          },
+          {
+            "code": "C1299433",
+            "display": "Left main coronary artery disease"
+          },
+          {
+            "code": "C1299434",
+            "display": "Significant coronary bypass graft disease"
+          },
+          {
+            "code": "C0003507",
+            "display": "Aortic stenosis"
+          },
+          {
+            "code": "C0340377",
+            "display": "Aortic insufficiency"
+          },
+          {
+            "code": "C0026269",
+            "display": "Mitral stenosis"
+          },
+          {
+            "code": "C0026266",
+            "display": "Mitral regurgitation"
+          },
+          {
+            "code": "C1299337",
+            "display": "Depression of left ventricular systolic function"
+          },
+          {
+            "code": "C1299441",
+            "display": "Acute mitral regurgitation from chordal rupture"
+          },
+          {
+            "code": "C1299442",
+            "display": "Acute mitral regurgitation from chordal dysfunction"
+          },
+          {
+            "code": "C1299444",
+            "display": "Acute mitral regurgitation from papillary muscle rupture"
+          },
+          {
+            "code": "C1299443",
+            "display": "Acute mitral regurgitation from papillary muscle dysfunction"
+          },
+          {
+            "code": "C0026267",
+            "display": "Mitral valve prolapse"
+          },
+          {
+            "code": "C0007193",
+            "display": "Congestive cardiomyopathy"
+          },
+          {
+            "code": "C0007194",
+            "display": "Hypertrophic cardiomyopathy with obstruction"
+          },
+          {
+            "code": "C0340425",
+            "display": "Hypertrophic cardiomyopathy without obstruction"
+          },
+          {
+            "code": "C0152105",
+            "display": "Hypertensive heart disease"
+          },
+          {
+            "code": "C0007196",
+            "display": "Restrictive cardiomyopathy"
+          },
+          {
+            "code": "C0007177",
+            "display": "Pericardial tamponade"
+          },
+          {
+            "code": "C0031048",
+            "display": "Constrictive pericarditis"
+          },
+          {
+            "code": "C0020542",
+            "display": "Pulmonary hypertension"
+          },
+          {
+            "code": "C0018817",
+            "display": "Atrial septal defect"
+          },
+          {
+            "code": "C0018818",
+            "display": "Ventricular septal defect"
+          },
+          {
+            "code": "C1299445",
+            "display": "Acute ventricular septal rupture"
+          },
+          {
+            "code": "C0152021",
+            "display": "heart disease - congenital"
+          }
+        ]
+      }
+    ]
+  }
+}

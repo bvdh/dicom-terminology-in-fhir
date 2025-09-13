@@ -1,0 +1,426 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CardiovascularMeasuredProperty",
+  "id": "dicom-cid-12304-CardiovascularMeasuredProperty",
+  "description": "Cardiovascular Measured Property",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12304-CardiovascularMeasuredProperty",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1145"
+    }
+  ],
+  "version": "20240920",
+  "title": "Cardiovascular Measured Property",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "20168-1",
+            "display": "Acceleration Time"
+          },
+          {
+            "code": "59130-5",
+            "display": "Alias Velocity"
+          },
+          {
+            "code": "20217-6",
+            "display": "Deceleration Time"
+          },
+          {
+            "code": "59120-6",
+            "display": "dP/dt by US"
+          },
+          {
+            "code": "59093-5",
+            "display": "Epicardial Area"
+          },
+          {
+            "code": "59132-1",
+            "display": "Fractional Shortening"
+          },
+          {
+            "code": "59090-1",
+            "display": "Internal Dimension"
+          },
+          {
+            "code": "20352-1",
+            "display": "Mean Blood Velocity"
+          },
+          {
+            "code": "20256-4",
+            "display": "Mean Gradient [Pressure] by Doppler"
+          },
+          {
+            "code": "59099-2",
+            "display": "Myocardial Performance Index (Tei)"
+          },
+          {
+            "code": "20355-4",
+            "display": "Peak Blood Velocity"
+          },
+          {
+            "code": "20247-3",
+            "display": "Peak Gradient [Pressure]"
+          },
+          {
+            "code": "34141-2",
+            "display": "Peak Instantaneous Flow Rate"
+          },
+          {
+            "code": "20280-4",
+            "display": "Pressure Half Time"
+          },
+          {
+            "code": "12008-9",
+            "display": "Pulsatility Index"
+          },
+          {
+            "code": "12023-8",
+            "display": "Resistivity Index"
+          },
+          {
+            "code": "59089-3",
+            "display": "Thickness"
+          },
+          {
+            "code": "20354-7",
+            "display": "Velocity Time Integral"
+          },
+          {
+            "code": "33878-0",
+            "display": "Volume Flow Rate"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0802983",
+            "display": "Acceleration Time"
+          },
+          {
+            "code": "C2923486",
+            "display": "Alias Velocity"
+          },
+          {
+            "code": "C0205143",
+            "display": "Angle"
+          },
+          {
+            "code": "C0205146",
+            "display": "Area"
+          },
+          {
+            "code": "C0005823",
+            "display": "Blood Pressure"
+          },
+          {
+            "code": "C0232174",
+            "display": "Cardiac Ejection Fraction"
+          },
+          {
+            "code": "C0007165",
+            "display": "Cardiac Output"
+          },
+          {
+            "code": "C0803032",
+            "display": "Deceleration Time"
+          },
+          {
+            "code": "C1301886",
+            "display": "Diameter"
+          },
+          {
+            "code": "C2923468",
+            "display": "dP/dt by US"
+          },
+          {
+            "code": "C2923421",
+            "display": "Epicardial Area"
+          },
+          {
+            "code": "C2923490",
+            "display": "Fractional Shortening"
+          },
+          {
+            "code": "C2923417",
+            "display": "Internal Dimension"
+          },
+          {
+            "code": "C1272706",
+            "display": "Interval"
+          },
+          {
+            "code": "C1444754",
+            "display": "Length"
+          },
+          {
+            "code": "C1306372",
+            "display": "Mass"
+          },
+          {
+            "code": "C0428886",
+            "display": "Mean Blood Pressure"
+          },
+          {
+            "code": "C0803167",
+            "display": "Mean Blood Velocity"
+          },
+          {
+            "code": "C0803071",
+            "display": "Mean Gradient [Pressure] by Doppler"
+          },
+          {
+            "code": "C1295724",
+            "display": "Minor Axis"
+          },
+          {
+            "code": "C2923433",
+            "display": "Myocardial Performance Index (Tei)"
+          },
+          {
+            "code": "C0803170",
+            "display": "Peak Blood Velocity"
+          },
+          {
+            "code": "C0803062",
+            "display": "Peak Gradient [Pressure]"
+          },
+          {
+            "code": "C1316604",
+            "display": "Peak Instantaneous Flow Rate"
+          },
+          {
+            "code": "C0803095",
+            "display": "Pressure Half Time"
+          },
+          {
+            "code": "C0552113",
+            "display": "Pulsatility Index"
+          },
+          {
+            "code": "C1302309",
+            "display": "Regurgitant Fraction"
+          },
+          {
+            "code": "C0552128",
+            "display": "Resistivity Index"
+          },
+          {
+            "code": "C0038455",
+            "display": "Stroke Volume"
+          },
+          {
+            "code": "C2923416",
+            "display": "Thickness"
+          },
+          {
+            "code": "C0429119",
+            "display": "Vascular Resistance"
+          },
+          {
+            "code": "C0803169",
+            "display": "Velocity Time Integral"
+          },
+          {
+            "code": "C0449468",
+            "display": "Volume"
+          },
+          {
+            "code": "C1316341",
+            "display": "Volume Flow Rate"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1483009",
+            "display": "Angle"
+          },
+          {
+            "code": "42798000",
+            "display": "Area"
+          },
+          {
+            "code": "75367002",
+            "display": "Blood Pressure"
+          },
+          {
+            "code": "70822001",
+            "display": "Cardiac Ejection Fraction"
+          },
+          {
+            "code": "82799009",
+            "display": "Cardiac Output"
+          },
+          {
+            "code": "81827009",
+            "display": "Diameter"
+          },
+          {
+            "code": "385673002",
+            "display": "Interval"
+          },
+          {
+            "code": "410668003",
+            "display": "Length"
+          },
+          {
+            "code": "118538004",
+            "display": "Mass"
+          },
+          {
+            "code": "6797001",
+            "display": "Mean Blood Pressure"
+          },
+          {
+            "code": "131188004",
+            "display": "Minor Axis"
+          },
+          {
+            "code": "399301000",
+            "display": "Regurgitant Fraction"
+          },
+          {
+            "code": "90096001",
+            "display": "Stroke Volume"
+          },
+          {
+            "code": "251271006",
+            "display": "Vascular Resistance"
+          },
+          {
+            "code": "118565006",
+            "display": "Volume"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-A160",
+            "display": "Angle"
+          },
+          {
+            "code": "G-A166",
+            "display": "Area"
+          },
+          {
+            "code": "F-31000",
+            "display": "Blood Pressure"
+          },
+          {
+            "code": "F-32070",
+            "display": "Cardiac Ejection Fraction"
+          },
+          {
+            "code": "F-32100",
+            "display": "Cardiac Output"
+          },
+          {
+            "code": "M-02550",
+            "display": "Diameter"
+          },
+          {
+            "code": "G-D217",
+            "display": "Interval"
+          },
+          {
+            "code": "G-D7FE",
+            "display": "Length"
+          },
+          {
+            "code": "G-D701",
+            "display": "Mass"
+          },
+          {
+            "code": "F-31150",
+            "display": "Mean Blood Pressure"
+          },
+          {
+            "code": "G-A194",
+            "display": "Minor Axis"
+          },
+          {
+            "code": "G-0390",
+            "display": "Regurgitant Fraction"
+          },
+          {
+            "code": "F-32120",
+            "display": "Stroke Volume"
+          },
+          {
+            "code": "F-02692",
+            "display": "Vascular Resistance"
+          },
+          {
+            "code": "G-D705",
+            "display": "Volume"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "125325",
+            "display": "Dyssynchrony Index"
+          },
+          {
+            "code": "125326",
+            "display": "Effective Orifice Area"
+          },
+          {
+            "code": "125327",
+            "display": "Excursion Distance"
+          },
+          {
+            "code": "125328",
+            "display": "Maximum Orifice Area"
+          },
+          {
+            "code": "125329",
+            "display": "Peak Blood Pressure"
+          },
+          {
+            "code": "125330",
+            "display": "Peak Tissue Velocity"
+          },
+          {
+            "code": "131013",
+            "display": "Peak Velocity Index"
+          },
+          {
+            "code": "125331",
+            "display": "PISA Radius"
+          },
+          {
+            "code": "125332",
+            "display": "Regurgitation Jet Area"
+          },
+          {
+            "code": "125333",
+            "display": "Regurgitation Jet Width"
+          },
+          {
+            "code": "125334",
+            "display": "Vena Contracta Width"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12311-EchoMeasuredStrainProperty"
+        ]
+      }
+    ]
+  }
+}

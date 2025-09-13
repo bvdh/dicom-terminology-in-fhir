@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EquationOrTable",
+  "id": "dicom-cid-228-EquationOrTable",
+  "description": "Equation or Table",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-228-EquationOrTable",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.33"
+    }
+  ],
+  "version": "20030327",
+  "title": "Equation or Table",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121420",
+            "display": "Equation"
+          },
+          {
+            "code": "121421",
+            "display": "Equation Citation"
+          },
+          {
+            "code": "121424",
+            "display": "Table of Values"
+          },
+          {
+            "code": "121422",
+            "display": "Table of Values Citation"
+          },
+          {
+            "code": "121423",
+            "display": "Method Citation"
+          }
+        ]
+      }
+    ]
+  }
+}

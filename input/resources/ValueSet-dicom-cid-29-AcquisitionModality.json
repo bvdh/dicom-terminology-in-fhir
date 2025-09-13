@@ -1,0 +1,202 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AcquisitionModality",
+  "id": "dicom-cid-29-AcquisitionModality",
+  "description": "This Context Group is not the complete set of codes that may appear in Modality (0008,0060); these are only the codes associated with orderable acquisition processes (not pre-acquisition activities or post-processing).",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-29-AcquisitionModality",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.19"
+    }
+  ],
+  "version": "20231115",
+  "title": "Acquisition Modality",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "AR",
+            "display": "Autorefraction"
+          },
+          {
+            "code": "BI",
+            "display": "Biomagnetic Imaging"
+          },
+          {
+            "code": "BMD",
+            "display": "Bone Mineral Densitometry"
+          },
+          {
+            "code": "CR",
+            "display": "Computed Radiography"
+          },
+          {
+            "code": "CT",
+            "display": "Computed Tomography"
+          },
+          {
+            "code": "CFM",
+            "display": "Confocal Microscopy"
+          },
+          {
+            "code": "DMS",
+            "display": "Dermoscopy"
+          },
+          {
+            "code": "DG",
+            "display": "Diaphanography"
+          },
+          {
+            "code": "DX",
+            "display": "Digital Radiography"
+          },
+          {
+            "code": "ES",
+            "display": "Endoscopy"
+          },
+          {
+            "code": "XC",
+            "display": "External-camera Photography"
+          },
+          {
+            "code": "GM",
+            "display": "General Microscopy"
+          },
+          {
+            "code": "IO",
+            "display": "Intra-oral Radiography"
+          },
+          {
+            "code": "IVOCT",
+            "display": "Intravascular Optical Coherence Tomography"
+          },
+          {
+            "code": "IVUS",
+            "display": "Intravascular Ultrasound"
+          },
+          {
+            "code": "KER",
+            "display": "Keratometry"
+          },
+          {
+            "code": "LS",
+            "display": "Laser surface scan"
+          },
+          {
+            "code": "LEN",
+            "display": "Lensometry"
+          },
+          {
+            "code": "MR",
+            "display": "Magnetic Resonance"
+          },
+          {
+            "code": "MG",
+            "display": "Mammography"
+          },
+          {
+            "code": "NM",
+            "display": "Nuclear Medicine"
+          },
+          {
+            "code": "OAM",
+            "display": "Ophthalmic Axial Measurements"
+          },
+          {
+            "code": "OPM",
+            "display": "Ophthalmic Mapping"
+          },
+          {
+            "code": "OP",
+            "display": "Ophthalmic Photography"
+          },
+          {
+            "code": "OPT",
+            "display": "Ophthalmic Tomography"
+          },
+          {
+            "code": "OPTBSV",
+            "display": "Ophthalmic Tomography B-scan Volume Analysis"
+          },
+          {
+            "code": "OPTENF",
+            "display": "Ophthalmic Tomography En Face"
+          },
+          {
+            "code": "OPV",
+            "display": "Ophthalmic Visual Field"
+          },
+          {
+            "code": "OCT",
+            "display": "Optical Coherence Tomography"
+          },
+          {
+            "code": "OSS",
+            "display": "Optical Surface Scanner"
+          },
+          {
+            "code": "PX",
+            "display": "Panoramic X-Ray"
+          },
+          {
+            "code": "PA",
+            "display": "Photoacoustic"
+          },
+          {
+            "code": "PT",
+            "display": "Positron emission tomography"
+          },
+          {
+            "code": "RF",
+            "display": "Radiofluoroscopy"
+          },
+          {
+            "code": "RG",
+            "display": "Radiographic imaging"
+          },
+          {
+            "code": "RTIMAGE",
+            "display": "RT Image"
+          },
+          {
+            "code": "SM",
+            "display": "Slide Microscopy"
+          },
+          {
+            "code": "SRF",
+            "display": "Subjective Refraction"
+          },
+          {
+            "code": "TG",
+            "display": "Thermography"
+          },
+          {
+            "code": "US",
+            "display": "Ultrasound"
+          },
+          {
+            "code": "BDUS",
+            "display": "Ultrasound Bone Densitometry"
+          },
+          {
+            "code": "VA",
+            "display": "Visual Acuity"
+          },
+          {
+            "code": "XA",
+            "display": "X-Ray Angiography"
+          }
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-34-WaveformAcquisitionModality"
+        ]
+      }
+    ]
+  }
+}

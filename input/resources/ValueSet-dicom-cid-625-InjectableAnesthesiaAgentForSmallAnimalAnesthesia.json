@@ -1,0 +1,287 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "InjectableAnesthesiaAgentForSmallAnimalAnesthesia",
+  "id": "dicom-cid-625-InjectableAnesthesiaAgentForSmallAnimalAnesthesia",
+  "description": "In this Context Group, SNOMED substance codes are used in preference to product codes, since there is no need to refer to specific products or preparations. SNOMED codes are used in preference to other potential sources of pharmaceutical related codes, such as from the National Drug Code (NDC) directory.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-625-InjectableAnesthesiaAgentForSmallAnimalAnesthesia",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1090"
+    }
+  ],
+  "version": "20160212",
+  "title": "Injectable Anesthesia Agent for Small Animal Anesthesia",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "277016007",
+            "display": "Alphachloralose"
+          },
+          {
+            "code": "125707004",
+            "display": "Alphadolone"
+          },
+          {
+            "code": "96229001",
+            "display": "Azaperone"
+          },
+          {
+            "code": "372901004",
+            "display": "Butabarbital"
+          },
+          {
+            "code": "273948005",
+            "display": "Chloral hydrate"
+          },
+          {
+            "code": "387264003",
+            "display": "Diazepam"
+          },
+          {
+            "code": "387146001",
+            "display": "Droperidol"
+          },
+          {
+            "code": "387218008",
+            "display": "Etomidate"
+          },
+          {
+            "code": "373464007",
+            "display": "Ketamine"
+          },
+          {
+            "code": "373488009",
+            "display": "Methohexital"
+          },
+          {
+            "code": "373476007",
+            "display": "Midazolam"
+          },
+          {
+            "code": "372703009",
+            "display": "Pentobarbital"
+          },
+          {
+            "code": "387423006",
+            "display": "Propofol"
+          },
+          {
+            "code": "40342009",
+            "display": "Thiamylal"
+          },
+          {
+            "code": "387448009",
+            "display": "Thiopental"
+          },
+          {
+            "code": "96265006",
+            "display": "Tiletamine"
+          },
+          {
+            "code": "84386009",
+            "display": "Tribromoethanol"
+          },
+          {
+            "code": "873008",
+            "display": "Urethane (ethyl carbamate)"
+          },
+          {
+            "code": "96230006",
+            "display": "Xylazine"
+          },
+          {
+            "code": "96227004",
+            "display": "Zolazepam"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "C-23805",
+            "display": "Alphachloralose"
+          },
+          {
+            "code": "C-6A161",
+            "display": "Alphadolone"
+          },
+          {
+            "code": "C-640A0",
+            "display": "Azaperone"
+          },
+          {
+            "code": "R-F2B27",
+            "display": "Butabarbital"
+          },
+          {
+            "code": "R-F6E36",
+            "display": "Chloral hydrate"
+          },
+          {
+            "code": "R-F2B2C",
+            "display": "Diazepam"
+          },
+          {
+            "code": "F-61A26",
+            "display": "Droperidol"
+          },
+          {
+            "code": "F-61A66",
+            "display": "Etomidate"
+          },
+          {
+            "code": "F-6182F",
+            "display": "Ketamine"
+          },
+          {
+            "code": "F-61848",
+            "display": "Methohexital"
+          },
+          {
+            "code": "F-6183C",
+            "display": "Midazolam"
+          },
+          {
+            "code": "R-F2B1F",
+            "display": "Pentobarbital"
+          },
+          {
+            "code": "F-61B48",
+            "display": "Propofol"
+          },
+          {
+            "code": "C-6A16B",
+            "display": "Thiamylal"
+          },
+          {
+            "code": "F-61BB2",
+            "display": "Thiopental"
+          },
+          {
+            "code": "C-6A190",
+            "display": "Tiletamine"
+          },
+          {
+            "code": "C-6A16E",
+            "display": "Tribromoethanol"
+          },
+          {
+            "code": "C-29020",
+            "display": "Urethane (ethyl carbamate)"
+          },
+          {
+            "code": "C-640B0",
+            "display": "Xylazine"
+          },
+          {
+            "code": "C-64090",
+            "display": "Zolazepam"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0008162",
+            "display": "Alphachloralose"
+          },
+          {
+            "code": "C0051481",
+            "display": "Alphadolone"
+          },
+          {
+            "code": "C0051482",
+            "display": "Alphaxalone"
+          },
+          {
+            "code": "C0004477",
+            "display": "Azaperone"
+          },
+          {
+            "code": "C0006464",
+            "display": "Butabarbital"
+          },
+          {
+            "code": "C0008161",
+            "display": "Chloral hydrate"
+          },
+          {
+            "code": "C0012010",
+            "display": "Diazepam"
+          },
+          {
+            "code": "C0013136",
+            "display": "Droperidol"
+          },
+          {
+            "code": "C0015131",
+            "display": "Etomidate"
+          },
+          {
+            "code": "C0060473",
+            "display": "Fluanisone"
+          },
+          {
+            "code": "C0022614",
+            "display": "Ketamine"
+          },
+          {
+            "code": "C0025668",
+            "display": "Methohexital"
+          },
+          {
+            "code": "C0025856",
+            "display": "Metomidate"
+          },
+          {
+            "code": "C0026056",
+            "display": "Midazolam"
+          },
+          {
+            "code": "C0030883",
+            "display": "Pentobarbital"
+          },
+          {
+            "code": "C0033487",
+            "display": "Propofol"
+          },
+          {
+            "code": "C0039855",
+            "display": "Thiamylal"
+          },
+          {
+            "code": "C0936073",
+            "display": "Thiopental"
+          },
+          {
+            "code": "C0242522",
+            "display": "Tiletamine"
+          },
+          {
+            "code": "C0084847",
+            "display": "Tribromoethanol"
+          },
+          {
+            "code": "C0041964",
+            "display": "Urethane (ethyl carbamate)"
+          },
+          {
+            "code": "C0242544",
+            "display": "Xylazine"
+          },
+          {
+            "code": "C0917859",
+            "display": "Zolazepam"
+          }
+        ]
+      }
+    ]
+  }
+}

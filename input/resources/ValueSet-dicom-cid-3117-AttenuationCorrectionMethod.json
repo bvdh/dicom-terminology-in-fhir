@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AttenuationCorrectionMethod",
+  "id": "dicom-cid-3117-AttenuationCorrectionMethod",
+  "description": "Attenuation Correction Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3117-AttenuationCorrectionMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.749"
+    }
+  ],
+  "version": "20080927",
+  "title": "Attenuation Correction Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122720",
+            "display": "OSEM algorithm"
+          },
+          {
+            "code": "122721",
+            "display": "Chang method"
+          }
+        ]
+      }
+    ]
+  }
+}

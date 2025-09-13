@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MammographyQualityControlStandardType",
+  "id": "dicom-cid-6045-MammographyQualityControlStandardType",
+  "description": "Mammography Quality Control Standard Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6045-MammographyQualityControlStandardType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.375"
+    }
+  ],
+  "version": "20020904",
+  "title": "Mammography Quality Control Standard Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111238",
+            "display": "Mammography Quality Control Manual 1999, ACR"
+          },
+          {
+            "code": "111239",
+            "display": "Title 21 CFR Section 900, Subpart B"
+          },
+          {
+            "code": "111240",
+            "display": "Institutionally defined quality control standard"
+          }
+        ]
+      }
+    ]
+  }
+}

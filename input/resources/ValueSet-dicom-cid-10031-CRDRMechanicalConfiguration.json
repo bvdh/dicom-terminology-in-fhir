@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CRDRMechanicalConfiguration",
+  "id": "dicom-cid-10031-CRDRMechanicalConfiguration",
+  "description": "CR/DR Mechanical Configuration",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10031-CRDRMechanicalConfiguration",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.960"
+    }
+  ],
+  "version": "20120406",
+  "title": "CR/DR Mechanical Configuration",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113953",
+            "display": "Unmounted Detector"
+          },
+          {
+            "code": "113952",
+            "display": "Table Mount"
+          },
+          {
+            "code": "113954",
+            "display": "Upright Stand Mount"
+          },
+          {
+            "code": "113955",
+            "display": "C-Arm Mount"
+          }
+        ]
+      }
+    ]
+  }
+}

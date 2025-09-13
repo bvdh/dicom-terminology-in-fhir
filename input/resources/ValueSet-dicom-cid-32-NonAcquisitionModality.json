@@ -1,0 +1,117 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "NonAcquisitionModality",
+  "id": "dicom-cid-32-NonAcquisitionModality",
+  "description": "Many Composite SOP Instances with Modality (0008,0060) Values corresponding to Code Values from this Context Group are the result of post-processing, and are not directly associated with an orderable acquisition process.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-32-NonAcquisitionModality",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1282"
+    }
+  ],
+  "version": "20200118",
+  "title": "Non-Acquisition Modality",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "ASMT",
+            "display": "Content Assessment Result"
+          },
+          {
+            "code": "AU",
+            "display": "Audio"
+          },
+          {
+            "code": "CTPROTOCOL",
+            "display": "CT Protocol"
+          },
+          {
+            "code": "DOC",
+            "display": "Document"
+          },
+          {
+            "code": "FID",
+            "display": "Spatial Fiducials"
+          },
+          {
+            "code": "HC",
+            "display": "Hard Copy"
+          },
+          {
+            "code": "IOL",
+            "display": "Intraocular Lens Calculation"
+          },
+          {
+            "code": "KO",
+            "display": "Key Object Selection"
+          },
+          {
+            "code": "M3D",
+            "display": "3D Manufacturing Modeling System"
+          },
+          {
+            "code": "OT",
+            "display": "Other Modality"
+          },
+          {
+            "code": "PLAN",
+            "display": "Plan"
+          },
+          {
+            "code": "PR",
+            "display": "Presentation State"
+          },
+          {
+            "code": "REG",
+            "display": "Registration"
+          },
+          {
+            "code": "RTDOSE",
+            "display": "RT Dose"
+          },
+          {
+            "code": "RTPLAN",
+            "display": "RT Plan"
+          },
+          {
+            "code": "RTRECORD",
+            "display": "RT Treatment Record"
+          },
+          {
+            "code": "RTSTRUCT",
+            "display": "RT Structure Set"
+          },
+          {
+            "code": "RWV",
+            "display": "Real World Value Map"
+          },
+          {
+            "code": "SEG",
+            "display": "Segmentation"
+          },
+          {
+            "code": "SMR",
+            "display": "Stereometric Relationship"
+          },
+          {
+            "code": "SR",
+            "display": "Structured Report Document"
+          },
+          {
+            "code": "STAIN",
+            "display": "Automated Slide Stainer"
+          },
+          {
+            "code": "TEXTUREMAP",
+            "display": "Texture Map"
+          }
+        ]
+      }
+    ]
+  }
+}

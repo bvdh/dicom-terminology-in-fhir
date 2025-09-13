@@ -1,0 +1,200 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ColonFindingOrFeature",
+  "id": "dicom-cid-6201-ColonFindingOrFeature",
+  "description": "Colon Finding or Feature",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6201-ColonFindingOrFeature",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.788"
+    }
+  ],
+  "version": "20220922",
+  "title": "Colon Finding or Feature",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111101",
+            "display": "Image quality"
+          },
+          {
+            "code": "111099",
+            "display": "Selected region"
+          },
+          {
+            "code": "111102",
+            "display": "Non-lesion"
+          },
+          {
+            "code": "112238",
+            "display": "Anatomic non-colon"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "68496003",
+            "display": "Polyp of colon"
+          },
+          {
+            "code": "126838000",
+            "display": "Tumor of colon"
+          },
+          {
+            "code": "248523006",
+            "display": "Rectal mass"
+          },
+          {
+            "code": "31113003",
+            "display": "Diverticulum"
+          },
+          {
+            "code": "6533001",
+            "display": "Colonic haustra"
+          },
+          {
+            "code": "39477002",
+            "display": "Feces"
+          },
+          {
+            "code": "134328007",
+            "display": "Lipoma"
+          },
+          {
+            "code": "442170005",
+            "display": "Intraluminal fluid"
+          },
+          {
+            "code": "385420005",
+            "display": "Contrast media"
+          },
+          {
+            "code": "23153004",
+            "display": "Ileocecal valve"
+          },
+          {
+            "code": "441901008",
+            "display": "Inverted diverticulum"
+          },
+          {
+            "code": "43526002",
+            "display": "Operative Site"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "D5-41170",
+            "display": "Polyp of colon"
+          },
+          {
+            "code": "D5-F131F",
+            "display": "Tumor of colon"
+          },
+          {
+            "code": "F-54005",
+            "display": "Rectal mass"
+          },
+          {
+            "code": "M-32700",
+            "display": "Diverticulum"
+          },
+          {
+            "code": "T-59345",
+            "display": "Colonic haustra"
+          },
+          {
+            "code": "T-59666",
+            "display": "Feces"
+          },
+          {
+            "code": "R-000F0",
+            "display": "Lipoma"
+          },
+          {
+            "code": "T-50153",
+            "display": "Intraluminal fluid"
+          },
+          {
+            "code": "F-61D54",
+            "display": "Contrast media"
+          },
+          {
+            "code": "T-58650",
+            "display": "Ileocecal valve"
+          },
+          {
+            "code": "M-32704",
+            "display": "Inverted diverticulum"
+          },
+          {
+            "code": "M-18000",
+            "display": "Operative Site"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0009376",
+            "display": "Polyp of colon"
+          },
+          {
+            "code": "C0009375",
+            "display": "Tumor of colon"
+          },
+          {
+            "code": "C0240873",
+            "display": "Rectal mass"
+          },
+          {
+            "code": "C0012817",
+            "display": "Diverticulum"
+          },
+          {
+            "code": "C0227361",
+            "display": "Colonic haustra"
+          },
+          {
+            "code": "C0015733",
+            "display": "Feces"
+          },
+          {
+            "code": "C0023798",
+            "display": "Lipoma"
+          },
+          {
+            "code": "C2711278",
+            "display": "Intraluminal fluid"
+          },
+          {
+            "code": "C0009924",
+            "display": "Contrast media"
+          },
+          {
+            "code": "C0020880",
+            "display": "Ileocecal valve"
+          },
+          {
+            "code": "C2711356",
+            "display": "Inverted diverticulum"
+          },
+          {
+            "code": "C0332850",
+            "display": "Operative Site"
+          }
+        ]
+      }
+    ]
+  }
+}

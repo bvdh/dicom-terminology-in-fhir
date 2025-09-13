@@ -1,0 +1,288 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ChestNonLesionObjectTypePhysicalObject",
+  "id": "dicom-cid-6404-ChestNonLesionObjectTypePhysicalObject",
+  "description": "Chest Non-lesion Object Type - Physical Object",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6404-ChestNonLesionObjectTypePhysicalObject",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1188"
+    }
+  ],
+  "version": "20170914",
+  "title": "Chest Non-lesion Object Type - Physical Object",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "86122002",
+            "display": "Bullet"
+          },
+          {
+            "code": "14106009",
+            "display": "Cardiac Pacemaker"
+          },
+          {
+            "code": "360129009",
+            "display": "Cardiac pacemaker lead"
+          },
+          {
+            "code": "19923001",
+            "display": "Catheter"
+          },
+          {
+            "code": "63562005",
+            "display": "Cervical collar"
+          },
+          {
+            "code": "26412008",
+            "display": "Endotracheal tube"
+          },
+          {
+            "code": "25062003",
+            "display": "Feeding tube"
+          },
+          {
+            "code": "25510005",
+            "display": "Heart valve prosthesis"
+          },
+          {
+            "code": "126065006",
+            "display": "Jejunostomy tube"
+          },
+          {
+            "code": "80919006",
+            "display": "Jewelry"
+          },
+          {
+            "code": "79068005",
+            "display": "Needle"
+          },
+          {
+            "code": "77444004",
+            "display": "Pin"
+          },
+          {
+            "code": "53350007",
+            "display": "Prosthesis"
+          },
+          {
+            "code": "56353002",
+            "display": "Staple"
+          },
+          {
+            "code": "27065002",
+            "display": "Suture"
+          },
+          {
+            "code": "48387007",
+            "display": "Tracheotomy"
+          },
+          {
+            "code": "286558002",
+            "display": "Ureteric stent"
+          },
+          {
+            "code": "257409000",
+            "display": "Vena cava filter"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "A-32110",
+            "display": "Bullet"
+          },
+          {
+            "code": "A-11100",
+            "display": "Cardiac Pacemaker"
+          },
+          {
+            "code": "A-040CB",
+            "display": "Cardiac pacemaker lead"
+          },
+          {
+            "code": "A-26800",
+            "display": "Catheter"
+          },
+          {
+            "code": "A-12210",
+            "display": "Cervical collar"
+          },
+          {
+            "code": "A-25350",
+            "display": "Endotracheal tube"
+          },
+          {
+            "code": "A-26430",
+            "display": "Feeding tube"
+          },
+          {
+            "code": "A-04110",
+            "display": "Heart valve prosthesis"
+          },
+          {
+            "code": "A-26434",
+            "display": "Jejunostomy tube"
+          },
+          {
+            "code": "A-61000",
+            "display": "Jewelry"
+          },
+          {
+            "code": "A-30360",
+            "display": "Needle"
+          },
+          {
+            "code": "A-12024",
+            "display": "Pin"
+          },
+          {
+            "code": "A-04000",
+            "display": "Prosthesis"
+          },
+          {
+            "code": "A-13600",
+            "display": "Staple"
+          },
+          {
+            "code": "A-13500",
+            "display": "Suture"
+          },
+          {
+            "code": "P1-26100",
+            "display": "Tracheotomy"
+          },
+          {
+            "code": "A-11C08",
+            "display": "Ureteric stent"
+          },
+          {
+            "code": "A-14611",
+            "display": "Vena cava filter"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0336699",
+            "display": "Bullet"
+          },
+          {
+            "code": "C0030163",
+            "display": "Cardiac Pacemaker"
+          },
+          {
+            "code": "C1283151",
+            "display": "Cardiac pacemaker lead"
+          },
+          {
+            "code": "C0085590",
+            "display": "Catheter"
+          },
+          {
+            "code": "C0175751",
+            "display": "Cervical collar"
+          },
+          {
+            "code": "C0336630",
+            "display": "Endotracheal tube"
+          },
+          {
+            "code": "C2945625",
+            "display": "Feeding tube"
+          },
+          {
+            "code": "C0018825",
+            "display": "Heart valve prosthesis"
+          },
+          {
+            "code": "C0879216",
+            "display": "Jejunostomy tube"
+          },
+          {
+            "code": "C0336902",
+            "display": "Jewelry"
+          },
+          {
+            "code": "C0027551",
+            "display": "Needle"
+          },
+          {
+            "code": "C0175718",
+            "display": "Pin"
+          },
+          {
+            "code": "C0175649",
+            "display": "Prosthesis"
+          },
+          {
+            "code": "C0524724",
+            "display": "Staple"
+          },
+          {
+            "code": "C0038969",
+            "display": "Suture"
+          },
+          {
+            "code": "C0040590",
+            "display": "Tracheotomy"
+          },
+          {
+            "code": "C0183518",
+            "display": "Ureteric stent"
+          },
+          {
+            "code": "C0080306",
+            "display": "Vena cava filter"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112174",
+            "display": "Central line"
+          },
+          {
+            "code": "112173",
+            "display": "Chest tube"
+          },
+          {
+            "code": "112178",
+            "display": "Coin"
+          },
+          {
+            "code": "112171",
+            "display": "Fiducial mark"
+          },
+          {
+            "code": "112175",
+            "display": "Kidney stent"
+          },
+          {
+            "code": "112177",
+            "display": "Nipple ring"
+          },
+          {
+            "code": "112176",
+            "display": "Pancreatic stent"
+          },
+          {
+            "code": "112172",
+            "display": "Portacath"
+          }
+        ]
+      }
+    ]
+  }
+}

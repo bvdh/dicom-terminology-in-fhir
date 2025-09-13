@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SampleStatisticalDescriptor",
+  "id": "dicom-cid-227-SampleStatisticalDescriptor",
+  "description": "Sample Statistical Descriptor",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-227-SampleStatisticalDescriptor",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.32"
+    }
+  ],
+  "version": "20030327",
+  "title": "Sample Statistical Descriptor",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121415",
+            "display": "Percentile Ranking of measurement"
+          },
+          {
+            "code": "121416",
+            "display": "Z-Score of measurement"
+          }
+        ]
+      }
+    ]
+  }
+}

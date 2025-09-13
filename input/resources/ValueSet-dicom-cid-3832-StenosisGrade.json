@@ -1,0 +1,71 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "StenosisGrade",
+  "id": "dicom-cid-3832-StenosisGrade",
+  "description": "Stenosis Grade",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3832-StenosisGrade",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.283"
+    }
+  ],
+  "version": "20051103",
+  "title": "Stenosis Grade",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "24484000",
+            "display": "severe"
+          },
+          {
+            "code": "6736007",
+            "display": "moderate"
+          },
+          {
+            "code": "255604002",
+            "display": "mild"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "G-A003",
+            "display": "severe"
+          },
+          {
+            "code": "G-A002",
+            "display": "moderate"
+          },
+          {
+            "code": "R-404FA",
+            "display": "mild"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0205082",
+            "display": "severe"
+          },
+          {
+            "code": "C0205081",
+            "display": "moderate"
+          },
+          {
+            "code": "C2945599",
+            "display": "mild"
+          }
+        ]
+      }
+    ]
+  }
+}

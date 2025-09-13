@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Side",
+  "id": "dicom-cid-6022-Side",
+  "description": "In future extensions, Side terms that are not derived from BI-RADS should be added to this Context Group.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6022-Side",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.352"
+    }
+  ],
+  "version": "20020904",
+  "title": "Side",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6023-SideFromBIRADS"
+        ]
+      }
+    ]
+  }
+}

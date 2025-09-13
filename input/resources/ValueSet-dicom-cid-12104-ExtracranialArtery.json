@@ -1,0 +1,119 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ExtracranialArtery",
+  "id": "dicom-cid-12104-ExtracranialArtery",
+  "description": "Extracranial Artery",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12104-ExtracranialArtery",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.571"
+    }
+  ],
+  "version": "20030327",
+  "title": "Extracranial Artery",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "80272002",
+            "display": "Carotid Bifurcation"
+          },
+          {
+            "code": "21479005",
+            "display": "Carotid Bulb"
+          },
+          {
+            "code": "32062004",
+            "display": "Common Carotid Artery"
+          },
+          {
+            "code": "22286001",
+            "display": "External Carotid Artery"
+          },
+          {
+            "code": "86117002",
+            "display": "Internal Carotid Artery"
+          },
+          {
+            "code": "36765005",
+            "display": "Subclavian Artery"
+          },
+          {
+            "code": "85234005",
+            "display": "Vertebral Artery"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-45160",
+            "display": "Carotid Bifurcation"
+          },
+          {
+            "code": "T-45170",
+            "display": "Carotid Bulb"
+          },
+          {
+            "code": "T-45100",
+            "display": "Common Carotid Artery"
+          },
+          {
+            "code": "T-45200",
+            "display": "External Carotid Artery"
+          },
+          {
+            "code": "T-45300",
+            "display": "Internal Carotid Artery"
+          },
+          {
+            "code": "T-46100",
+            "display": "Subclavian Artery"
+          },
+          {
+            "code": "T-45700",
+            "display": "Vertebral Artery"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0226088",
+            "display": "Carotid Bifurcation"
+          },
+          {
+            "code": "C0007281",
+            "display": "Carotid Bulb"
+          },
+          {
+            "code": "C0162859",
+            "display": "Common Carotid Artery"
+          },
+          {
+            "code": "C0007275",
+            "display": "External Carotid Artery"
+          },
+          {
+            "code": "C0007276",
+            "display": "Internal Carotid Artery"
+          },
+          {
+            "code": "C0038530",
+            "display": "Subclavian Artery"
+          },
+          {
+            "code": "C0042559",
+            "display": "Vertebral Artery"
+          }
+        ]
+      }
+    ]
+  }
+}

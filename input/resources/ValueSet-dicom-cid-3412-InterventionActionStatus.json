@@ -1,0 +1,77 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "InterventionActionStatus",
+  "id": "dicom-cid-3412-InterventionActionStatus",
+  "description": "Intervention Action/Status",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3412-InterventionActionStatus",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.77"
+    }
+  ],
+  "version": "20030327",
+  "title": "Intervention Action/Status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122301",
+            "display": "Guidewire crossing lesion unsuccessful"
+          },
+          {
+            "code": "122302",
+            "display": "Guidewire crossing lesion successful"
+          },
+          {
+            "code": "122303",
+            "display": "Angioplasty balloon inflated"
+          },
+          {
+            "code": "122304",
+            "display": "Angioplasty balloon deflated"
+          },
+          {
+            "code": "122305",
+            "display": "Device deployed"
+          },
+          {
+            "code": "122306",
+            "display": "Stent re-expanded"
+          },
+          {
+            "code": "122307",
+            "display": "Object removed"
+          },
+          {
+            "code": "122308",
+            "display": "Radiation applied"
+          },
+          {
+            "code": "122309",
+            "display": "Radiation removed"
+          },
+          {
+            "code": "122310",
+            "display": "Interventional device placement unsuccessful"
+          },
+          {
+            "code": "122311",
+            "display": "Interventional device placed"
+          },
+          {
+            "code": "122312",
+            "display": "Intervention performed"
+          },
+          {
+            "code": "122313",
+            "display": "Interventional device withdrawn"
+          }
+        ]
+      }
+    ]
+  }
+}

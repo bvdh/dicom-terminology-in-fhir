@@ -1,0 +1,72 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Toxin",
+  "id": "dicom-cid-643-Toxin",
+  "description": "Toxin",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-643-Toxin",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1108"
+    }
+  ],
+  "version": "20151110",
+  "title": "Toxin",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "54446009",
+            "display": "Lysophosphatidylcholine"
+          },
+          {
+            "code": "3325005",
+            "display": "Lipopolysaccharide"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "F-63750",
+            "display": "Lysophosphatidylcholine"
+          },
+          {
+            "code": "F-63390",
+            "display": "Lipopolysaccharide"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0024360",
+            "display": "Lysophosphatidylcholine"
+          },
+          {
+            "code": "C0019873",
+            "display": "Ethidium Bromide"
+          },
+          {
+            "code": "C0023810",
+            "display": "Lipopolysaccharide"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-PUBCHEM-CID",
+        "concept": [
+          {
+            "code": "4624",
+            "display": "6-hydroxydopamine"
+          }
+        ]
+      }
+    ]
+  }
+}

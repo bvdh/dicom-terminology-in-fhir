@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ImagingAgentAdministrationPhaseType",
+  "id": "dicom-cid-62-ImagingAgentAdministrationPhaseType",
+  "description": "In a prior version of this Context Group a code",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-62-ImagingAgentAdministrationPhaseType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1252"
+    }
+  ],
+  "version": "20210325",
+  "title": "Imaging Agent Administration Phase Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130168",
+            "display": "Automatic Programmed Administration Phase"
+          },
+          {
+            "code": "130169",
+            "display": "Automatic Programmed Delay Phase"
+          },
+          {
+            "code": "130171",
+            "display": "Automated Manual Inject Phase"
+          },
+          {
+            "code": "130263",
+            "display": "Automatic Programmed Wait Phase"
+          }
+        ]
+      }
+    ]
+  }
+}

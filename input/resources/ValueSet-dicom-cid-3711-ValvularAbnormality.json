@@ -1,0 +1,104 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ValvularAbnormality",
+  "id": "dicom-cid-3711-ValvularAbnormality",
+  "description": "Valvular Abnormality",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3711-ValvularAbnormality",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.212"
+    }
+  ],
+  "version": "20160314",
+  "title": "Valvular Abnormality",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "44241007",
+            "display": "Stenosis"
+          },
+          {
+            "code": "10337008",
+            "display": "Regurgitation"
+          },
+          {
+            "code": "373136005",
+            "display": "Calcified Heart Valve"
+          },
+          {
+            "code": "373137001",
+            "display": "Immobile Heart Valve"
+          },
+          {
+            "code": "89736004",
+            "display": "Valvular endocarditis"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "D3-29001",
+            "display": "Stenosis"
+          },
+          {
+            "code": "F-32400",
+            "display": "Regurgitation"
+          },
+          {
+            "code": "R-0030B",
+            "display": "Calcified Heart Valve"
+          },
+          {
+            "code": "R-0030F",
+            "display": "Immobile Heart Valve"
+          },
+          {
+            "code": "D3-28005",
+            "display": "Valvular endocarditis"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0264878",
+            "display": "Stenosis"
+          },
+          {
+            "code": "C0042300",
+            "display": "Regurgitation"
+          },
+          {
+            "code": "C1142152",
+            "display": "Calcified Heart Valve"
+          },
+          {
+            "code": "C1298822",
+            "display": "Immobile Heart Valve"
+          },
+          {
+            "code": "C0264865",
+            "display": "Valvular endocarditis"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "127856",
+            "display": "Heart Valve Flail"
+          }
+        ]
+      }
+    ]
+  }
+}

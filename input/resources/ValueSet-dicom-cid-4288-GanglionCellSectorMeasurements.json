@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GanglionCellSectorMeasurements",
+  "id": "dicom-cid-4288-GanglionCellSectorMeasurements",
+  "description": "Ganglion Cell Sector Measurements",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4288-GanglionCellSectorMeasurements",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1541"
+    }
+  ],
+  "version": "20250707",
+  "title": "Ganglion Cell Sector Measurements",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "131275",
+            "display": "Retinal ROI height"
+          },
+          {
+            "code": "131290",
+            "display": "Average ganglion cell thickness superior sector"
+          },
+          {
+            "code": "131291",
+            "display": "Average ganglion cell thickness nasal-superior sector"
+          },
+          {
+            "code": "131292",
+            "display": "Average ganglion cell thickness nasal sector"
+          },
+          {
+            "code": "131293",
+            "display": "Average ganglion cell thickness nasal-inferior sector"
+          },
+          {
+            "code": "131294",
+            "display": "Average ganglion cell thickness inferior sector"
+          },
+          {
+            "code": "131295",
+            "display": "Average ganglion cell thickness temporal-inferior sector"
+          },
+          {
+            "code": "131296",
+            "display": "Average ganglion cell thickness temporal sector"
+          },
+          {
+            "code": "131297",
+            "display": "Average ganglion cell thickness temporal-superior sector"
+          }
+        ]
+      }
+    ]
+  }
+}

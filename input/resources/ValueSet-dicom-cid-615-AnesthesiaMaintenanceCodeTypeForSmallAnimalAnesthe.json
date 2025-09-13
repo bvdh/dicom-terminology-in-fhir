@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AnesthesiaMaintenanceCodeTypeForSmallAnimalAnesthesia",
+  "id": "dicom-cid-615-AnesthesiaMaintenanceCodeTypeForSmallAnimalAnesthe",
+  "description": "Anesthesia Maintenance Code Type for Small Animal Anesthesia",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-615-AnesthesiaMaintenanceCodeTypeForSmallAnimalAnesthe",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1080"
+    }
+  ],
+  "version": "20151110",
+  "title": "Anesthesia Maintenance Code Type for Small Animal Anesthesia",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-616-AnesthesiaMaintenanceCodeTypeFromAnesthesiaQuality"
+        ]
+      }
+    ]
+  }
+}

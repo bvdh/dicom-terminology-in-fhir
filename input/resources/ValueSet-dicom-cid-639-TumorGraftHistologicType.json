@@ -1,0 +1,605 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "TumorGraftHistologicType",
+  "id": "dicom-cid-639-TumorGraftHistologicType",
+  "description": "Tumor Graft Histologic Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-639-TumorGraftHistologicType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1104"
+    }
+  ],
+  "version": "20250401",
+  "title": "Tumor Graft Histologic Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1187332001",
+            "display": "Adenocarcinoma"
+          },
+          {
+            "code": "408645001",
+            "display": "Adenocarcinoma of large intestine"
+          },
+          {
+            "code": "254626006",
+            "display": "Adenocarcinoma of lung"
+          },
+          {
+            "code": "700423003",
+            "display": "Adenocarcinoma of pancreas"
+          },
+          {
+            "code": "254582000",
+            "display": "Adenocarcinoma of rectum"
+          },
+          {
+            "code": "88195001",
+            "display": "Alveolar soft part sarcoma"
+          },
+          {
+            "code": "70594002",
+            "display": "Amelanotic melanoma"
+          },
+          {
+            "code": "254938000",
+            "display": "Astrocytoma"
+          },
+          {
+            "code": "399326009",
+            "display": "Bladder cancer"
+          },
+          {
+            "code": "363354003",
+            "display": "Cancer of cervix"
+          },
+          {
+            "code": "363406005",
+            "display": "Cancer of colon"
+          },
+          {
+            "code": "255072001",
+            "display": "Cancer of salivary gland"
+          },
+          {
+            "code": "1187425009",
+            "display": "Carcinoma"
+          },
+          {
+            "code": "63264007",
+            "display": "Carcinosarcoma"
+          },
+          {
+            "code": "702369008",
+            "display": "Carcinosarcoma of uterus"
+          },
+          {
+            "code": "21008007",
+            "display": "Cystadenocarcinoma"
+          },
+          {
+            "code": "76909002",
+            "display": "Ewing's sarcoma"
+          },
+          {
+            "code": "703707001",
+            "display": "Ewing sarcoma / peripheral neuroectodermal tumor"
+          },
+          {
+            "code": "53654007",
+            "display": "Fibrosarcoma"
+          },
+          {
+            "code": "1163375002",
+            "display": "Glioblastoma"
+          },
+          {
+            "code": "408643008",
+            "display": "Infiltrating ductal carcinoma of breast"
+          },
+          {
+            "code": "22687000",
+            "display": "Large cell carcinoma"
+          },
+          {
+            "code": "93143009",
+            "display": "Leukemia"
+          },
+          {
+            "code": "93880001",
+            "display": "Lung cancer"
+          },
+          {
+            "code": "1162635006",
+            "display": "Malignant melanoma"
+          },
+          {
+            "code": "253001006",
+            "display": "Merkel cell carcinoma"
+          },
+          {
+            "code": "62064005",
+            "display": "Malignant mesothelioma"
+          },
+          {
+            "code": "19897006",
+            "display": "Malignant peripheral nerve sheath tumor"
+          },
+          {
+            "code": "21326004",
+            "display": "Mixed small cell carcinoma"
+          },
+          {
+            "code": "1290125003",
+            "display": "Malignant neuroendocrine tumor"
+          },
+          {
+            "code": "128632008",
+            "display": "Non-small cell carcinoma"
+          },
+          {
+            "code": "254637007",
+            "display": "Non-small cell lung cancer"
+          },
+          {
+            "code": "1163405004",
+            "display": "Osteosarcoma"
+          },
+          {
+            "code": "363443007",
+            "display": "Ovarian cancer"
+          },
+          {
+            "code": "255029007",
+            "display": "Papillary thyroid carcinoma"
+          },
+          {
+            "code": "702391001",
+            "display": "Renal cell carcinoma"
+          },
+          {
+            "code": "1187396000",
+            "display": "Sarcoma"
+          },
+          {
+            "code": "424952003",
+            "display": "Sarcoma of soft tissue"
+          },
+          {
+            "code": "74364000",
+            "display": "Small cell carcinoma"
+          },
+          {
+            "code": "65692009",
+            "display": "Spindle cell carcinoma"
+          },
+          {
+            "code": "1162767002",
+            "display": "Squamous cell carcinoma"
+          },
+          {
+            "code": "723265000",
+            "display": "Squamous cell carcinoma of anus"
+          },
+          {
+            "code": "716659002",
+            "display": "Squamous cell carcinoma of head and neck"
+          },
+          {
+            "code": "707357005",
+            "display": "Squamous cell carcinoma of laryngeal cartilage"
+          },
+          {
+            "code": "254634000",
+            "display": "Squamous cell carcinoma of lung"
+          },
+          {
+            "code": "307502000",
+            "display": "Squamous cell carcinoma of mouth"
+          },
+          {
+            "code": "254651007",
+            "display": "Squamous cell carcinoma of skin"
+          },
+          {
+            "code": "27090000",
+            "display": "Transitional cell carcinoma"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0001418",
+            "display": "Adenocarcinoma"
+          },
+          {
+            "code": "C1319315",
+            "display": "Adenocarcinoma of large intestine"
+          },
+          {
+            "code": "C0152013",
+            "display": "Adenocarcinoma of lung"
+          },
+          {
+            "code": "C0281361",
+            "display": "Adenocarcinoma of pancreas"
+          },
+          {
+            "code": "C0149978",
+            "display": "Adenocarcinoma of rectum"
+          },
+          {
+            "code": "C0206657",
+            "display": "Alveolar soft part sarcoma"
+          },
+          {
+            "code": "C0206735",
+            "display": "Amelanotic melanoma"
+          },
+          {
+            "code": "C3695127",
+            "display": "Astrocytoma"
+          },
+          {
+            "code": "C0005684",
+            "display": "Bladder cancer"
+          },
+          {
+            "code": "C0007120",
+            "display": "Bronchioloalveolar adenocarcinoma"
+          },
+          {
+            "code": "C4048328",
+            "display": "Cancer of cervix"
+          },
+          {
+            "code": "C0007102",
+            "display": "Cancer of colon"
+          },
+          {
+            "code": "C0220636",
+            "display": "Cancer of salivary gland"
+          },
+          {
+            "code": "C0007097",
+            "display": "Carcinoma"
+          },
+          {
+            "code": "C0007140",
+            "display": "Carcinosarcoma"
+          },
+          {
+            "code": "C0280630",
+            "display": "Carcinosarcoma of uterus"
+          },
+          {
+            "code": "C0010631",
+            "display": "Cystadenocarcinoma"
+          },
+          {
+            "code": "C0553580",
+            "display": "Ewing's sarcoma"
+          },
+          {
+            "code": "C0684337",
+            "display": "Ewing sarcoma / peripheral neuroectodermal tumor"
+          },
+          {
+            "code": "C0016057",
+            "display": "Fibrosarcoma"
+          },
+          {
+            "code": "C0017636",
+            "display": "Glioblastoma"
+          },
+          {
+            "code": "C1134719",
+            "display": "Infiltrating ductal carcinoma of breast"
+          },
+          {
+            "code": "C0206704",
+            "display": "Large cell carcinoma"
+          },
+          {
+            "code": "C0023418",
+            "display": "Leukemia"
+          },
+          {
+            "code": "C1306460",
+            "display": "Lung cancer"
+          },
+          {
+            "code": "C0025202",
+            "display": "Malignant melanoma"
+          },
+          {
+            "code": "C0007129",
+            "display": "Merkel cell carcinoma"
+          },
+          {
+            "code": "C0025500",
+            "display": "Malignant mesothelioma"
+          },
+          {
+            "code": "C0751690",
+            "display": "Malignant peripheral nerve sheath tumor"
+          },
+          {
+            "code": "C0334240",
+            "display": "Mixed small cell carcinoma"
+          },
+          {
+            "code": "C2367165",
+            "display": "Malignant neuroendocrine tumor"
+          },
+          {
+            "code": "C1266002",
+            "display": "Non-small cell carcinoma"
+          },
+          {
+            "code": "C0007131",
+            "display": "Non-small cell lung cancer"
+          },
+          {
+            "code": "C0029463",
+            "display": "Osteosarcoma"
+          },
+          {
+            "code": "C1140680",
+            "display": "Ovarian cancer"
+          },
+          {
+            "code": "C0238463",
+            "display": "Papillary thyroid carcinoma"
+          },
+          {
+            "code": "C0007134",
+            "display": "Renal cell carcinoma"
+          },
+          {
+            "code": "C1261473",
+            "display": "Sarcoma"
+          },
+          {
+            "code": "C4551687",
+            "display": "Sarcoma of soft tissue"
+          },
+          {
+            "code": "C0262584",
+            "display": "Small cell carcinoma"
+          },
+          {
+            "code": "C4725047",
+            "display": "Soft tissue sarcoma, excluding rhabdomyosarcoma"
+          },
+          {
+            "code": "C0205697",
+            "display": "Spindle cell carcinoma"
+          },
+          {
+            "code": "C0007137",
+            "display": "Squamous cell carcinoma"
+          },
+          {
+            "code": "C4301961",
+            "display": "Squamous cell carcinoma of anus"
+          },
+          {
+            "code": "C1168401",
+            "display": "Squamous cell carcinoma of head and neck"
+          },
+          {
+            "code": "C3873422",
+            "display": "Squamous cell carcinoma of laryngeal cartilage"
+          },
+          {
+            "code": "C0149782",
+            "display": "Squamous cell carcinoma of lung"
+          },
+          {
+            "code": "C0585362",
+            "display": "Squamous cell carcinoma of mouth"
+          },
+          {
+            "code": "C0553723",
+            "display": "Squamous cell carcinoma of skin"
+          },
+          {
+            "code": "C0007138",
+            "display": "Transitional cell carcinoma"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "DF-00736",
+            "display": "Adenocarcinoma of large intestine"
+          },
+          {
+            "code": "D2-F1105",
+            "display": "Adenocarcinoma of lung"
+          },
+          {
+            "code": "R-FB79B",
+            "display": "Adenocarcinoma of pancreas"
+          },
+          {
+            "code": "D5-F1404",
+            "display": "Adenocarcinoma of rectum"
+          },
+          {
+            "code": "M-95813",
+            "display": "Alveolar soft part sarcoma"
+          },
+          {
+            "code": "M-87303",
+            "display": "Amelanotic melanoma"
+          },
+          {
+            "code": "DA-0001F",
+            "display": "Astrocytoma"
+          },
+          {
+            "code": "D7-10012",
+            "display": "Bladder cancer"
+          },
+          {
+            "code": "DF-0040E",
+            "display": "Cancer of cervix"
+          },
+          {
+            "code": "DF-0044A",
+            "display": "Cancer of colon"
+          },
+          {
+            "code": "D5-20002",
+            "display": "Cancer of salivary gland"
+          },
+          {
+            "code": "M-89803",
+            "display": "Carcinosarcoma"
+          },
+          {
+            "code": "R-FB829",
+            "display": "Carcinosarcoma of uterus"
+          },
+          {
+            "code": "M-84403",
+            "display": "Cystadenocarcinoma"
+          },
+          {
+            "code": "M-92603",
+            "display": "Ewing's sarcoma"
+          },
+          {
+            "code": "R-FBD63",
+            "display": "Ewing sarcoma / peripheral neuroectodermal tumor"
+          },
+          {
+            "code": "M-88103",
+            "display": "Fibrosarcoma"
+          },
+          {
+            "code": "D0-F0369",
+            "display": "Infiltrating ductal carcinoma of breast"
+          },
+          {
+            "code": "M-80123",
+            "display": "Large cell carcinoma"
+          },
+          {
+            "code": "DC-F4113",
+            "display": "Leukemia"
+          },
+          {
+            "code": "D2-F1103",
+            "display": "Lung cancer"
+          },
+          {
+            "code": "D0-F00E0",
+            "display": "Merkel cell carcinoma"
+          },
+          {
+            "code": "M-90503",
+            "display": "Malignant mesothelioma"
+          },
+          {
+            "code": "M-95403",
+            "display": "Malignant peripheral nerve sheath tumor"
+          },
+          {
+            "code": "M-80453",
+            "display": "Mixed small cell carcinoma"
+          },
+          {
+            "code": "M-80463",
+            "display": "Non-small cell carcinoma"
+          },
+          {
+            "code": "D2-F1007",
+            "display": "Non-small cell lung cancer"
+          },
+          {
+            "code": "DF-0046D",
+            "display": "Ovarian cancer"
+          },
+          {
+            "code": "DB-F0107",
+            "display": "Papillary thyroid carcinoma"
+          },
+          {
+            "code": "R-FB83F",
+            "display": "Renal cell carcinoma"
+          },
+          {
+            "code": "DF-007B5",
+            "display": "Sarcoma of soft tissue"
+          },
+          {
+            "code": "M-80413",
+            "display": "Small cell carcinoma"
+          },
+          {
+            "code": "M-80323",
+            "display": "Spindle cell carcinoma"
+          },
+          {
+            "code": "R-FF982",
+            "display": "Squamous cell carcinoma of head and neck"
+          },
+          {
+            "code": "R-FC628",
+            "display": "Squamous cell carcinoma of laryngeal cartilage"
+          },
+          {
+            "code": "D2-F110E",
+            "display": "Squamous cell carcinoma of lung"
+          },
+          {
+            "code": "D5-F0519",
+            "display": "Squamous cell carcinoma of mouth"
+          },
+          {
+            "code": "D0-F0005",
+            "display": "Squamous cell carcinoma of skin"
+          },
+          {
+            "code": "M-81203",
+            "display": "Transitional cell carcinoma"
+          }
+        ]
+      },
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "concept": [
+          {
+            "code": "C2923",
+            "display": "Bronchioloalveolar adenocarcinoma"
+          },
+          {
+            "code": "C148457",
+            "display": "Soft tissue sarcoma, excluding rhabdomyosarcoma"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130406",
+            "display": "Non-uterine leiomyosarcoma"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ChestTextureDescriptor",
+  "id": "dicom-cid-6131-ChestTextureDescriptor",
+  "description": "Original source of terms is [Fraser and Pare].",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6131-ChestTextureDescriptor",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.451"
+    }
+  ],
+  "version": "20030108",
+  "title": "Chest Texture Descriptor",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112160",
+            "display": "Homogeneous"
+          },
+          {
+            "code": "112161",
+            "display": "Inhomogeneous"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CADOutputIntendedUse",
+  "id": "dicom-cid-6034-CADOutputIntendedUse",
+  "description": "CAD Output Intended Use",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6034-CADOutputIntendedUse",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.364"
+    }
+  ],
+  "version": "20020904",
+  "title": "CAD Output Intended Use",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111150",
+            "display": "Presentation Required: Rendering device is expected to present"
+          },
+          {
+            "code": "111151",
+            "display": "Presentation Optional: Rendering device may present"
+          },
+          {
+            "code": "111152",
+            "display": "Not for Presentation: Rendering device expected not to present"
+          }
+        ]
+      }
+    ]
+  }
+}

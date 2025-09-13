@@ -1,0 +1,89 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GrayLevelSizeZoneBasedFeature",
+  "id": "dicom-cid-7476-GrayLevelSizeZoneBasedFeature",
+  "description": "Gray Level Size Zone Based Feature",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-7476-GrayLevelSizeZoneBasedFeature",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1200"
+    }
+  ],
+  "version": "20190121",
+  "title": "Gray Level Size Zone Based Feature",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-codesystem-IBSI",
+        "concept": [
+          {
+            "code": "5QRC",
+            "display": "Small Zone Emphasis"
+          },
+          {
+            "code": "48P8",
+            "display": "Large Zone Emphasis"
+          },
+          {
+            "code": "XMSY",
+            "display": "Low Gray Level Zone Emphasis"
+          },
+          {
+            "code": "5GN9",
+            "display": "High Gray Level Zone Emphasis"
+          },
+          {
+            "code": "5RAI",
+            "display": "Small Zone Low Gray Level Emphasis"
+          },
+          {
+            "code": "HW1V",
+            "display": "Small Zone High Gray Level Emphasis"
+          },
+          {
+            "code": "YH51",
+            "display": "Large Zone Low Gray Level Emphasis"
+          },
+          {
+            "code": "J17V",
+            "display": "Large Zone High Gray Level Emphasis"
+          },
+          {
+            "code": "JNSA",
+            "display": "Gray Level Nonuniformity of Size Zone Counts"
+          },
+          {
+            "code": "Y1RO",
+            "display": "Normalized Gray Level Nonuniformity of Size Zone Counts"
+          },
+          {
+            "code": "4JP3",
+            "display": "Zone Size Nonuniformity"
+          },
+          {
+            "code": "VB3A",
+            "display": "Normalized Zone Size Nonuniformity"
+          },
+          {
+            "code": "P30P",
+            "display": "Size Zone Percentage"
+          },
+          {
+            "code": "BYLV",
+            "display": "Gray Level Variance in Size Zones"
+          },
+          {
+            "code": "3NSA",
+            "display": "Zone Size Variance"
+          },
+          {
+            "code": "GU8N",
+            "display": "Zone Size Entropy"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EOGAnnotationNeurophysiologicalEnumeration",
+  "id": "dicom-cid-3037-EOGAnnotationNeurophysiologicalEnumeration",
+  "description": "Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10102 available through",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3037-EOGAnnotationNeurophysiologicalEnumeration",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1335"
+    }
+  ],
+  "version": "20200623",
+  "title": "EOG Annotation  Neurophysiological Enumeration",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "concept": [
+          {
+            "code": "2:24280",
+            "display": "Eye blink"
+          },
+          {
+            "code": "2:24288",
+            "display": "Saccade"
+          },
+          {
+            "code": "2:24296",
+            "display": "REM"
+          },
+          {
+            "code": "2:24304",
+            "display": "Slow eye movement"
+          },
+          {
+            "code": "2:24312",
+            "display": "Other eye movement"
+          },
+          {
+            "code": "2:24320",
+            "display": "Eyes closed"
+          },
+          {
+            "code": "2:24328",
+            "display": "Eyes open"
+          }
+        ]
+      }
+    ]
+  }
+}

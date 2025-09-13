@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EquipmentPlaneIdentification",
+  "id": "dicom-cid-10003-EquipmentPlaneIdentification",
+  "description": "Equipment Plane Identification",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-10003-EquipmentPlaneIdentification",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.537"
+    }
+  ],
+  "version": "20081028",
+  "title": "Equipment Plane Identification",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113620",
+            "display": "Plane A"
+          },
+          {
+            "code": "113621",
+            "display": "Plane B"
+          },
+          {
+            "code": "113622",
+            "display": "Single Plane"
+          },
+          {
+            "code": "113890",
+            "display": "All Planes"
+          }
+        ]
+      }
+    ]
+  }
+}

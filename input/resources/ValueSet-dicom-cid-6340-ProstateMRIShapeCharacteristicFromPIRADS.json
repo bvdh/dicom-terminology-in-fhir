@@ -1,0 +1,117 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProstateMRIShapeCharacteristicFromPIRADS",
+  "id": "dicom-cid-6340-ProstateMRIShapeCharacteristicFromPIRADS",
+  "description": "Prostate MRI Shape Characteristic from PI-RADS",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6340-ProstateMRIShapeCharacteristicFromPIRADS",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1397"
+    }
+  ],
+  "version": "20210714",
+  "title": "Prostate MRI Shape Characteristic from PI-RADS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "42700002",
+            "display": "Round"
+          },
+          {
+            "code": "84360004",
+            "display": "Ovoid shape"
+          },
+          {
+            "code": "1312007",
+            "display": "Drop-shaped"
+          },
+          {
+            "code": "20446002",
+            "display": "Wedge-shaped"
+          },
+          {
+            "code": "49608001",
+            "display": "Irregular"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "M-02100",
+            "display": "Round"
+          },
+          {
+            "code": "M-02120",
+            "display": "Ovoid shape"
+          },
+          {
+            "code": "G-A371",
+            "display": "Drop-shaped"
+          },
+          {
+            "code": "M-02260",
+            "display": "Wedge-shaped"
+          },
+          {
+            "code": "G-A402",
+            "display": "Irregular"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0332490",
+            "display": "Round"
+          },
+          {
+            "code": "C0332492",
+            "display": "Ovoid shape"
+          },
+          {
+            "code": "C0332229",
+            "display": "Drop-shaped"
+          },
+          {
+            "code": "C0332503",
+            "display": "Wedge-shaped"
+          },
+          {
+            "code": "C0205271",
+            "display": "Irregular"
+          }
+        ]
+      },
+      {
+        "system": "http://www.radlex.org",
+        "concept": [
+          {
+            "code": "RID49495",
+            "display": "Lenticular"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "112135",
+            "display": "Lobulated"
+          },
+          {
+            "code": "112150",
+            "display": "Linear"
+          }
+        ]
+      }
+    ]
+  }
+}

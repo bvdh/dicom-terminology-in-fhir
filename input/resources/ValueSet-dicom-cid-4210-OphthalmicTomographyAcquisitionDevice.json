@@ -1,0 +1,104 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OphthalmicTomographyAcquisitionDevice",
+  "id": "dicom-cid-4210-OphthalmicTomographyAcquisitionDevice",
+  "description": "Ophthalmic Tomography Acquisition Device",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-4210-OphthalmicTomographyAcquisitionDevice",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.326"
+    }
+  ],
+  "version": "20131014",
+  "title": "Ophthalmic Tomography Acquisition Device",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "392012008",
+            "display": "Optical Coherence Tomography Scanner"
+          },
+          {
+            "code": "416567007",
+            "display": "Retinal Thickness Analyzer"
+          },
+          {
+            "code": "392004000",
+            "display": "Confocal Scanning Laser Ophthalmoscope"
+          },
+          {
+            "code": "392007007",
+            "display": "Scanning Laser Polarimeter"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "A-00FBE",
+            "display": "Optical Coherence Tomography Scanner"
+          },
+          {
+            "code": "R-FAB5A",
+            "display": "Retinal Thickness Analyzer"
+          },
+          {
+            "code": "A-00E8B",
+            "display": "Confocal Scanning Laser Ophthalmoscope"
+          },
+          {
+            "code": "A-00E8C",
+            "display": "Scanning Laser Polarimeter"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C1271441",
+            "display": "Optical Coherence Tomography Scanner"
+          },
+          {
+            "code": "C1562933",
+            "display": "Retinal Thickness Analyzer"
+          },
+          {
+            "code": "C1271438",
+            "display": "Confocal Scanning Laser Ophthalmoscope"
+          },
+          {
+            "code": "C1271440",
+            "display": "Scanning Laser Polarimeter"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111626",
+            "display": "Scheimpflug Camera"
+          },
+          {
+            "code": "111945",
+            "display": "Elevation-based corneal tomographer"
+          },
+          {
+            "code": "111946",
+            "display": "Reflection-based corneal topographer"
+          },
+          {
+            "code": "111947",
+            "display": "Interferometry-based corneal tomographer"
+          }
+        ]
+      }
+    ]
+  }
+}

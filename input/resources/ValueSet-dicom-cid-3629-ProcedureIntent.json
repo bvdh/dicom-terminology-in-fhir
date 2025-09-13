@@ -1,0 +1,216 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ProcedureIntent",
+  "id": "dicom-cid-3629-ProcedureIntent",
+  "description": "For example, a surgical biopsy procedure may have \"Diagnostic Intent\", while the imaging procedure step within that procedure may have \"Guidance Intent\". Collection of specimens is generally \"Diagnostic Intent\"; \"Forensic Intent\" is typically used for autopsies; \"Palliative Intent\" and \"Adjuvant Intent\" may apply to certain radiotherapy procedures. In SNOMED-CT, \"Staging Intent\" is a subsidiary concept (refinement) of \"Diagnostic Intent\". The following are subsidiary concepts of \"Therapeutic Intent\": Adjunct, Adjuvant, Curative, Neo-adjuvant, Prophylactic, and Supportive. Prophylactic is also a subsidiary concept of Preventive intent.",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3629-ProcedureIntent",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.174"
+    }
+  ],
+  "version": "20230630",
+  "title": "Procedure Intent",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "261004008",
+            "display": "Diagnostic Intent"
+          },
+          {
+            "code": "262202000",
+            "display": "Therapeutic Intent"
+          },
+          {
+            "code": "1279505009",
+            "display": "Combined Diagnostic and Therapeutic Intent"
+          },
+          {
+            "code": "373825000",
+            "display": "Staging intent"
+          },
+          {
+            "code": "363675004",
+            "display": "Guidance Intent"
+          },
+          {
+            "code": "363676003",
+            "display": "Palliative Intent"
+          },
+          {
+            "code": "360156006",
+            "display": "Screening Intent"
+          },
+          {
+            "code": "447295008",
+            "display": "Forensic Intent"
+          },
+          {
+            "code": "421974008",
+            "display": "Adjunct intent"
+          },
+          {
+            "code": "373846009",
+            "display": "Adjuvant intent"
+          },
+          {
+            "code": "373808002",
+            "display": "Curative intent"
+          },
+          {
+            "code": "373847000",
+            "display": "Neo-adjuvant intent"
+          },
+          {
+            "code": "399707004",
+            "display": "Supportive intent"
+          },
+          {
+            "code": "129428001",
+            "display": "Preventive intent"
+          },
+          {
+            "code": "360271000",
+            "display": "Prophylactic intent"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-408C3",
+            "display": "Diagnostic Intent"
+          },
+          {
+            "code": "R-41531",
+            "display": "Therapeutic Intent"
+          },
+          {
+            "code": "R-408F2",
+            "display": "Staging intent"
+          },
+          {
+            "code": "R-40641",
+            "display": "Guidance Intent"
+          },
+          {
+            "code": "R-40642",
+            "display": "Palliative Intent"
+          },
+          {
+            "code": "R-42453",
+            "display": "Screening Intent"
+          },
+          {
+            "code": "R-40644",
+            "display": "Forensic Intent"
+          },
+          {
+            "code": "R-41564",
+            "display": "Adjunct intent"
+          },
+          {
+            "code": "R-41561",
+            "display": "Adjuvant intent"
+          },
+          {
+            "code": "R-41560",
+            "display": "Curative intent"
+          },
+          {
+            "code": "R-41562",
+            "display": "Neo-adjuvant intent"
+          },
+          {
+            "code": "R-41563",
+            "display": "Supportive intent"
+          },
+          {
+            "code": "P0-02179",
+            "display": "Preventive intent"
+          },
+          {
+            "code": "P0-021FD",
+            "display": "Prophylactic intent"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0348026",
+            "display": "Diagnostic Intent"
+          },
+          {
+            "code": "C0302350",
+            "display": "Therapeutic Intent"
+          },
+          {
+            "code": "C1276306",
+            "display": "Staging intent"
+          },
+          {
+            "code": "C1285529",
+            "display": "Guidance Intent"
+          },
+          {
+            "code": "C1285530",
+            "display": "Palliative Intent"
+          },
+          {
+            "code": "C1305399",
+            "display": "Screening Intent"
+          },
+          {
+            "code": "C2960804",
+            "display": "Forensic Intent"
+          },
+          {
+            "code": "C1719882",
+            "display": "Adjunct intent"
+          },
+          {
+            "code": "C1298675",
+            "display": "Adjuvant intent"
+          },
+          {
+            "code": "C1276305",
+            "display": "Curative intent"
+          },
+          {
+            "code": "C1298676",
+            "display": "Neo-adjuvant intent"
+          },
+          {
+            "code": "C1302630",
+            "display": "Supportive intent"
+          },
+          {
+            "code": "C1456501",
+            "display": "Preventive intent"
+          },
+          {
+            "code": "C0199176",
+            "display": "Prophylactic intent"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "113680",
+            "display": "Quality Control Intent"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "HemodynamicFlow",
+  "id": "dicom-cid-3618-HemodynamicFlow",
+  "description": "Hemodynamic Flow",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-3618-HemodynamicFlow",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.168"
+    }
+  ],
+  "version": "20030327",
+  "title": "Hemodynamic Flow",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "122161",
+            "display": "Pulmonary Flow"
+          },
+          {
+            "code": "122162",
+            "display": "Systemic Flow"
+          }
+        ]
+      }
+    ]
+  }
+}

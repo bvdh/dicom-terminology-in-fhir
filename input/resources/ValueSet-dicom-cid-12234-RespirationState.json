@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RespirationState",
+  "id": "dicom-cid-12234-RespirationState",
+  "description": "Respiration State",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12234-RespirationState",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.625"
+    }
+  ],
+  "version": "20030918",
+  "title": "Respiration State",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "14910006",
+            "display": "Inspiration"
+          },
+          {
+            "code": "58322009",
+            "display": "Expiration"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "F-20010",
+            "display": "Inspiration"
+          },
+          {
+            "code": "F-20020",
+            "display": "Expiration"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0004048",
+            "display": "Inspiration"
+          },
+          {
+            "code": "C0231800",
+            "display": "Expiration"
+          }
+        ]
+      }
+    ]
+  }
+}

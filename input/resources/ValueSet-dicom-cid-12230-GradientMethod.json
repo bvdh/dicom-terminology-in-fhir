@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GradientMethod",
+  "id": "dicom-cid-12230-GradientMethod",
+  "description": "Gradient Method",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-12230-GradientMethod",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.621"
+    }
+  ],
+  "version": "20030918",
+  "title": "Gradient Method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "125217",
+            "display": "Full Bernoulli"
+          },
+          {
+            "code": "125218",
+            "display": "Simplified Bernoulli"
+          }
+        ]
+      }
+    ]
+  }
+}

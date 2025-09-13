@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AuditActiveParticipantRoleIDCode",
+  "id": "dicom-cid-402-AuditActiveParticipantRoleIDCode",
+  "description": "Audit Active Participant Role ID Code",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-402-AuditActiveParticipantRoleIDCode",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.905"
+    }
+  ],
+  "version": "20100826",
+  "title": "Audit Active Participant Role ID Code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110150",
+            "display": "Application"
+          },
+          {
+            "code": "110151",
+            "display": "Application Launcher"
+          },
+          {
+            "code": "110152",
+            "display": "Destination Role ID"
+          },
+          {
+            "code": "110153",
+            "display": "Source Role ID"
+          },
+          {
+            "code": "110154",
+            "display": "Destination Media"
+          },
+          {
+            "code": "110155",
+            "display": "Source Media"
+          }
+        ]
+      }
+    ]
+  }
+}

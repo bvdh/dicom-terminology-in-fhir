@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GeneralAccessoryDeviceType",
+  "id": "dicom-cid-9548-GeneralAccessoryDeviceType",
+  "description": "General Accessory Device Type",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9548-GeneralAccessoryDeviceType",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1295"
+    }
+  ],
+  "version": "20190715",
+  "title": "General Accessory Device Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "130349",
+            "display": "Graticule"
+          },
+          {
+            "code": "130350",
+            "display": "Reticle"
+          },
+          {
+            "code": "130351",
+            "display": "Image Detector"
+          },
+          {
+            "code": "130352",
+            "display": "Film Holder"
+          },
+          {
+            "code": "130353",
+            "display": "Winston-Lutz Pointer"
+          },
+          {
+            "code": "130354",
+            "display": "Bowtie Filter"
+          }
+        ]
+      }
+    ]
+  }
+}

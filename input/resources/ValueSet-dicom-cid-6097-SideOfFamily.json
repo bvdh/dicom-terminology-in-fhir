@@ -1,0 +1,56 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SideOfFamily",
+  "id": "dicom-cid-6097-SideOfFamily",
+  "description": "Side of Family",
+  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-6097-SideOfFamily",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.419"
+    }
+  ],
+  "version": "20040112",
+  "title": "Side of Family",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "111541",
+            "display": "Maternal"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "224944003",
+            "display": "Paternal"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "R-40333",
+            "display": "Paternal"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0337493",
+            "display": "Paternal"
+          }
+        ]
+      }
+    ]
+  }
+}
