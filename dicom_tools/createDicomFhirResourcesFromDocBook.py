@@ -8,6 +8,7 @@ from pathlib import Path
 from data_elements import writeDataElementsCodeSystemAndValueSets
 from dcm import writeDcmCodeSystem
 from cid_valuesets import writeCidValueSets
+from downloadAllValueSets import downloadAllDicomValueSets
 from uids_color_templates import writeColorPalletesCodeSystem
 from uids_context_groups import writeContextUidsCodeSystem
 from uids_template import writeTemplateUidsCodeSystem
@@ -27,8 +28,8 @@ def main(args=None):
     parser.add_argument("--dicom_version", help="DICOM version", type=str, required=False)
     
     args = parser.parse_args()
-    fsh_path = args.fsh_path or os.path.join(Path(__file__).parent.parent, 'sushi-src', 'fsh')
-    resources_path = args.fsh_path or os.path.join(Path(__file__).parent.parent, 'input', 'resources')
+    fsh_path = args.fsh_path or os.path.join(Path(__file__).parent.parent, 'input-src', 'fsh')
+    resources_path = args.fsh_path or os.path.join(Path(__file__).parent.parent, 'input-src', 'resources')
     dicom_version = args.dicom_version or 'current'
     dicom_path = os.path.join(Path(__file__).parent.parent, 'dicom.nema.org', 'medical', 'dicom', dicom_version, 'source', 'docbook');
 
@@ -44,7 +45,9 @@ def main(args=None):
     writeColorPalletesCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
 
     # 20250915 - work with Davids Valuesets for now
+    # removed in favor of downloaded ValueSets
     # writeCidValueSets( fsh_path=fsh_path, dicom_path=dicom_path )
+    downloadAllDicomValueSets( resources_path=resources_path )
     
     # writeVariableLists( fsh_path=fsh_path, dicom_path=dicom_path )
     

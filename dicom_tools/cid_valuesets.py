@@ -2,7 +2,7 @@ import os
 from typing import List
 import xml.etree.ElementTree as ET
 
-from doc_book_tools import cleanTextFromElement, getDataDicomTable, getElementText, getTableData,  getVariableListEntries, toCamelCase
+from doc_book_tools import getDataDicomTable, getElementText, getTableData,  getVariableListEntries, toCamelCase
 
 FHIR_SYSTEM_DICTIONARY = dict(
             ACR  = 'http://terminology.hl7.org/CodeSystem/ACR',
@@ -191,10 +191,10 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
     writeSrtCodeSystemPart( fsh_path, dicomTerminologyData.get('SRT')[1], dicomTerminologyData.get('SRT')[2], allcodes['SRT'] )
     
     # write SNOMED CT to RT mapping
-    writeSnomedMappings( fsh_path, 'SCT', 'SRT', snomedSct2RtMapping, allcodes['SCT'] )
+    # writeSnomedMappings( fsh_path, 'SCT', 'SRT', snomedSct2RtMapping, allcodes['SCT'] )
     # write SNOMED RT to RT mapping
     # write SNOMED CT to UMLS mapping
-    writeSnomedMappings( fsh_path, 'SCT', 'UMLS', snomedCt2UmlsMapping, allcodes['SCT'] )
+    # writeSnomedMappings( fsh_path, 'SCT', 'UMLS', snomedCt2UmlsMapping, allcodes['SCT'] )
     # write SNOMED UMLS to CT mapping
 
 def writeTerminologyCodeSystem( fsh_path, title, values):

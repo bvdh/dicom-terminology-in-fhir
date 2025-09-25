@@ -9,10 +9,10 @@ VR_TABLE_URL = 'https://dicom.nema.org/dicom/2013/output/chtml/part05/sect_6.2.h
 CODESYSTEM_NAME = 'DICOMVRencodings'
 CODESYSTEM_ID   = 'dicom-vr-encodings'
 CODESYSTEM_TITLE = 'DICOM® Value Representations'
-CODESYSTEM_DESCRIPTION = 'DICOM® Value Representations extractd from (DICOM PS5.6.2 Table A-1)[https://dicom.nema.org/dicom/2013/output/chtml/part05/sect_6.2.html].'
+CODESYSTEM_DESCRIPTION = 'DICOM® Value Representations extracted from (DICOM PS5.6.2 Table A-1)[https://dicom.nema.org/dicom/2013/output/chtml/part05/sect_6.2.html].'
 
 def writeVrCodeSystem( fsh_path:str, dicom_path:str ) -> None:
-    # Write the code system for the value respresentations
+    # Write the code system for the value representations
     # Input: data_elements - list of data elements
     # Output: None
     # Side effect: write the code system for the data elements

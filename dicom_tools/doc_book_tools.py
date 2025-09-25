@@ -66,24 +66,31 @@ def getDataDicomTable(dicom_path: str, part: str, table_id: str):
                 
                 for td in td_elements:
                 
-                    para_elements = td.findall('.//db:para', ns)
-                    link_elements = td.findall('.//db:link', ns)
+                    all_elements = td.findall('./*', ns)
+                    all_elements_txt = getElementText( td )
+                    # if ( len( all_elements )>1 ):
+                    #     txt = getElementText( td )
+                    #     print(f'elements:  {len( all_elements )}')
 
-                    link_text = ''
-                    for link in link_elements:
-                        if link is not None:
-                            link_text = cleanText( link.text )
-                            link_text += cleanText( link    .get('{http://www.w3.org/1999/xlink}href') )
-                            i=0# link_text = cleanText( link_element.get('x1:href') )
+                    # para_elements = td.findall('.//db:para', ns)
+                    # link_elements = td.findall('.//db:link', ns)
 
-                    para_text = ''
-                    for para in para_elements:
-                        field_text = getParaText(para)
+                    # link_text = ''
+                    # for link in link_elements:
+                    #     if link is not None:
+                    #         link_text = cleanText( link.text )
+                    #         link_text += cleanText( link    .get('{http://www.w3.org/1999/xlink}href') )
+                    #         i=0# link_text = cleanText( link_element.get('x1:href') )
 
-                    field_text = field_text or link_text
-                    field_text = field_text.replace('"','')
+                    # para_text = ''
+                    # for para in para_elements:
+                    #     field_text = getParaText(para)
+
+                    # field_text = field_text or link_text
+                    # field_text = field_text.replace('"','')
                     
-                    row_fields.append( field_text )        
+                    # row_fields.append( field_text )        
+                    row_fields.append( all_elements_txt )        
 
                 table_elements.append(row_fields)
             
@@ -107,45 +114,115 @@ def toCamelCase( str: str ) -> str:
     return camelStr
 
 def getElementText( element ):
-    elementText = '' 
-    paraNodes = element.findall( './/db:para', ns) if element != None else []
-    for paraNode in paraNodes:
-        para_text = getParaText(paraNode)
-        if para_text and len(para_text) > 0:
+    elementText = ''
+    all_nodes = element.findall('./*', ns)
+    for node in all_nodes:
+        tag = node.tag
+        new_text = ''
+        if ( tag.endswith("para") ):
+            text = cleanText( node.text )
+        
+        elif ( tag.endswith("note") ):
+            text = getElementText( node )
+            if text and len(text) > 0:
+                text = "Note:" + text 
+
+        elif ( tag.endswith( 'olink' ) ):
+            text = ''
+            if node is not None:
+                olink_targetdoc = cleanText( node.get('targetdoc') )
+                olink_ptr = cleanText( node.get('ptr') )
+                text = ( olink_targetdoc+' '+olink_ptr ).strip()           
+                
+        elif ( tag.endswith( 'itemizedlist') ):
+            text = ''
+            itemizeList = node.findall('./db:listitem', ns)
+            for item in itemizeList:
+                item_text = getElementText( item )
+                text += "\n* " + item_text
+            
+        elif ( tag.endswith( 'orderedlist') ):
+            text = ''
+            itemizeList = node.findall('./db:listitem', ns)
+            i = 1
+            for item in itemizeList:
+                item_text = getElementText( item )
+                text += f'\n {i} {item_text}'
+                i = i+1
+
+        elif ( tag.endswith('link')):
+            link_text = ''
+            text = cleanText( node.text )
+            href = cleanText( node.get('{http://www.w3.org/1999/xlink}href') )
+            show = cleanText( node.get('{http://www.w3.org/1999/xlink}show') )
+            text = text or href or show
+
+        elif ( tag.endswith('emphasis')):
+            text = cleanTextFromElement( node )
+        
+        elif ( tag.endswith('xref')):
+            text = cleanText( node.get('linkend') )
+
+        elif ( tag.endswith('superscript')):
+            text = cleanText( node.text )
+        else:
+            print( f"unsupported tag: {tag}")
+            text = '-'
+
+        if text and len(text) > 0:
             if ( elementText):
                 elementText += ' '
-            elementText += para_text
+            elementText = elementText + text    
+    # paraNodes = element.findall( './/db:para', ns) if element != None else []
+    # for paraNode in paraNodes:
+    #     para_text = getParaText(paraNode)
+    #     if para_text and len(para_text) > 0:
+    #         if ( elementText):
+    #             elementText += ' '
+    #         elementText = elementText + para_text
     return elementText
 
 def getParaText( element ):
     para_text = cleanTextFromElement(element)
-    field_text = para_text
+
+    if para_text.find( 'xref' )>0 :
+        print('embedded xref')
+
+    if para_text.find( 'emphasis' )>0 :
+        print('embedded emphasis')
+    
+    if para_text.find( 'olink' )>0 :
+        print('embedded olink')
+
+    element_text = getElementText( element )
+
+    field_text = para_text or element_text
+
+    # # Check for emphasis
+    # emphasis_element = element.find('.//db:emphasis', ns  )
+    # emphasis_text = cleanTextFromElement( emphasis_element )
+    # emphasis_link_text = getLinks( emphasis_element )
+    # if emphasis_link_text and len(emphasis_link_text) > 0:
+    #     emphasis_text = emphasis_text + ' ' + emphasis_link_text
                         
-    # Check for emphasis
-    emphasis_element = element.find('.//db:emphasis', ns  )
-    emphasis_text = cleanTextFromElement( emphasis_element )
-    emphasis_link_text = getLinks( emphasis_element )
-    if emphasis_link_text and len(emphasis_link_text) > 0:
-        emphasis_text = emphasis_text + ' ' + emphasis_link_text
-                        
-    # check for olink
-    olink_element = element.find('.//db:olink', ns)
-    olink_text = ''
-    if olink_element is not None:
-        olink_targetdoc = cleanText( olink_element.get('targetdoc') )
-        olink_ptr = cleanText( olink_element.get('ptr') )
+    # # check for olink
+    # olink_element = element.find('.//db:olink', ns)
+    # olink_text = ''
+    # if olink_element is not None:
+    #     olink_targetdoc = cleanText( olink_element.get('targetdoc') )
+    #     olink_ptr = cleanText( olink_element.get('ptr') )
                             
-        olink_text = ( olink_targetdoc+' '+olink_ptr ).strip()           
+    #     olink_text = ( olink_targetdoc+' '+olink_ptr ).strip()           
 
-    # check for xref
-    xref_element = element.find('.//db:xref', ns)
-    xref_text = ''
-    if (xref_element is not None):
-        xref_text = cleanText( xref_element.get('linkend') )
+    # # check for xref
+    # xref_element = element.find('.//db:xref', ns)
+    # xref_text = ''
+    # if (xref_element is not None):
+    #     xref_text = cleanText( xref_element.get('linkend') )
 
-    field_text = para_text + emphasis_text
-    if len(field_text) == 0 :
-        field_text = olink_text + xref_text
+    # field_text = para_text + emphasis_text
+    # if len(field_text) == 0 :
+    #     field_text = olink_text + xref_text
     return field_text
 
 def getLinks( element ):
@@ -273,19 +350,19 @@ def getRowValues( element: ET.Element ) -> List[List[str]]:
     return values
 
 
-def cleanTextFromElement( element: Optional[ET.Element]) -> str:
-    """
-    Clean text from an XML element, removing unwanted characters.
+# def cleanTextFromElement( element: Optional[ET.Element]) -> str:
+#     """
+#     Clean text from an XML element, removing unwanted characters.
     
-    Args:
-        element: XML element to extract text from
+#     Args:
+#         element: XML element to extract text from
         
-    Returns:
-        Cleaned text string
-    """
-    if element is not None and element.text is not None:
-        return element.text.encode("ascii", 'ignore').decode('ascii').strip()
-    return ''   
+#     Returns:
+#         Cleaned text string
+#     """
+#     if element is not None and element.text is not None:
+#         return element.text.encode("ascii", 'ignore').decode('ascii').strip()
+#     return ''   
 
 def cleanText( str:str ) -> str:
     """
@@ -297,4 +374,7 @@ def cleanText( str:str ) -> str:
     Returns:
         Cleaned string
     """
-    return str.encode("ascii", 'ignore').decode('ascii').strip() if str else ''
+    new_text = str.encode("ascii", 'ignore').decode('ascii').strip() if str else ''
+    while( new_text.find('"')>0 ):
+        new_text = new_text.replace('"',"'")
+    return new_text
