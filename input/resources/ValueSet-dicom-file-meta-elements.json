@@ -5,12 +5,12 @@
   "id": "dicom-file-meta-elements",
   "title": "DICOM® File Meta Elements",
   "description": "DICOM® File Meta elements extracted from DICOM PS3.6 Table 7-1.",
-  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-file-meta-elements",
+  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-file-meta-elements",
   "experimental": false,
   "compose": {
     "include": [
       {
-        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-elements",
+        "system": "http://dicom.nema.org/resources/CodeSystem//CodeSystem/dicom-elements",
         "concept": [
           {
             "code": "FileMetaInformationGroupLength",

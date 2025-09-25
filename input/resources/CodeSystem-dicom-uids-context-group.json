@@ -6,7 +6,7 @@
   "id": "dicom-uids-context-group",
   "title": "DICOM® Context Group UID Values",
   "description": "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3.",
-  "url": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-uids-context-group",
+  "url": "http://dicom.nema.org/resources/CodeSystem//CodeSystem/dicom-uids-context-group",
   "concept": [
     {
       "code": "1.2.840.10008.6.1.1",
@@ -254,21 +254,6 @@
       "definition": "-"
     },
     {
-      "code": "1.2.840.10008.6.1.50",
-      "display": "PS3.16",
-      "definition": "PS3.16 with identifier PS3.16 (RET (2011))",
-      "property": [
-        {
-          "code": "identifier",
-          "valueString": "PS3.16"
-        },
-        {
-          "code": "retired",
-          "valueBoolean": true
-        }
-      ]
-    },
-    {
       "code": "1.2.840.10008.6.1.51",
       "display": "-",
       "definition": "-"
@@ -315,18 +300,8 @@
     },
     {
       "code": "1.2.840.10008.6.1.60",
-      "display": "PS3.16",
-      "definition": "PS3.16 with identifier PS3.16 (RET (2013))",
-      "property": [
-        {
-          "code": "identifier",
-          "valueString": "PS3.16"
-        },
-        {
-          "code": "retired",
-          "valueBoolean": true
-        }
-      ]
+      "display": "-",
+      "definition": "-"
     },
     {
       "code": "1.2.840.10008.6.1.61",
@@ -965,33 +940,13 @@
     },
     {
       "code": "1.2.840.10008.6.1.188",
-      "display": "PS3.16",
-      "definition": "PS3.16 with identifier PS3.16 (RET (2013))",
-      "property": [
-        {
-          "code": "identifier",
-          "valueString": "PS3.16"
-        },
-        {
-          "code": "retired",
-          "valueBoolean": true
-        }
-      ]
+      "display": "-",
+      "definition": "-"
     },
     {
       "code": "1.2.840.10008.6.1.189",
-      "display": "PS3.16",
-      "definition": "PS3.16 with identifier PS3.16 (RET (2013))",
-      "property": [
-        {
-          "code": "identifier",
-          "valueString": "PS3.16"
-        },
-        {
-          "code": "retired",
-          "valueBoolean": true
-        }
-      ]
+      "display": "-",
+      "definition": "-"
     },
     {
       "code": "1.2.840.10008.6.1.190",
@@ -1009,104 +964,9 @@
       "definition": "-"
     },
     {
-      "code": "1.2.840.10008.6.1.193",
-      "display": "PS3.16",
-      "definition": "PS3.16 with identifier PS3.16 (RET (2013))",
-      "property": [
-        {
-          "code": "identifier",
-          "valueString": "PS3.16"
-        },
-        {
-          "code": "retired",
-          "valueBoolean": true
-        }
-      ]
-    },
-    {
       "code": "1.2.840.10008.6.1.194",
       "display": "-",
       "definition": "-"
-    },
-    {
-      "code": "1.2.840.10008.6.1.195",
-      "display": "-",
-      "definition": "-"
-    },
-    {
-      "code": "1.2.840.10008.6.1.196",
-      "display": "PS3.16",
-      "definition": "PS3.16 with identifier PS3.16 (RET (2013))",
-      "property": [
-        {
-          "code": "identifier",
-          "valueString": "PS3.16"
-        },
-        {
-          "code": "retired",
-          "valueBoolean": true
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.6.1.197",
-      "display": "PS3.16",
-      "definition": "PS3.16 with identifier PS3.16 (RET (2013))",
-      "property": [
-        {
-          "code": "identifier",
-          "valueString": "PS3.16"
-        },
-        {
-          "code": "retired",
-          "valueBoolean": true
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.6.1.198",
-      "display": "PS3.16",
-      "definition": "PS3.16 with identifier PS3.16 (RET (2013))",
-      "property": [
-        {
-          "code": "identifier",
-          "valueString": "PS3.16"
-        },
-        {
-          "code": "retired",
-          "valueBoolean": true
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.6.1.199",
-      "display": "PS3.16",
-      "definition": "PS3.16 with identifier PS3.16 (RET (2013))",
-      "property": [
-        {
-          "code": "identifier",
-          "valueString": "PS3.16"
-        },
-        {
-          "code": "retired",
-          "valueBoolean": true
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.6.1.200",
-      "display": "PS3.16",
-      "definition": "PS3.16 with identifier PS3.16 (RET (2013))",
-      "property": [
-        {
-          "code": "identifier",
-          "valueString": "PS3.16"
-        },
-        {
-          "code": "retired",
-          "valueBoolean": true
-        }
-      ]
     },
     {
       "code": "1.2.840.10008.6.1.201",
@@ -1207,21 +1067,6 @@
       "code": "1.2.840.10008.6.1.220",
       "display": "-",
       "definition": "-"
-    },
-    {
-      "code": "1.2.840.10008.6.1.221",
-      "display": "PS3.16",
-      "definition": "PS3.16 with identifier PS3.16 (RET (2007))",
-      "property": [
-        {
-          "code": "identifier",
-          "valueString": "PS3.16"
-        },
-        {
-          "code": "retired",
-          "valueBoolean": true
-        }
-      ]
     },
     {
       "code": "1.2.840.10008.6.1.222",
@@ -2774,21 +2619,6 @@
       "definition": "-"
     },
     {
-      "code": "1.2.840.10008.6.1.532",
-      "display": "PS3.16",
-      "definition": "PS3.16 with identifier PS3.16 (RET (2011))",
-      "property": [
-        {
-          "code": "identifier",
-          "valueString": "PS3.16"
-        },
-        {
-          "code": "retired",
-          "valueBoolean": true
-        }
-      ]
-    },
-    {
       "code": "1.2.840.10008.6.1.533",
       "display": "-",
       "definition": "-"
@@ -4074,11 +3904,6 @@
       "definition": "-"
     },
     {
-      "code": "1.2.840.10008.6.1.888",
-      "display": "-",
-      "definition": "-"
-    },
-    {
       "code": "1.2.840.10008.6.1.889",
       "display": "-",
       "definition": "-"
@@ -4345,16 +4170,6 @@
     },
     {
       "code": "1.2.840.10008.6.1.944",
-      "display": "-",
-      "definition": "-"
-    },
-    {
-      "code": "1.2.840.10008.6.1.945",
-      "display": "-",
-      "definition": "-"
-    },
-    {
-      "code": "1.2.840.10008.6.1.946",
       "display": "-",
       "definition": "-"
     },
@@ -5102,21 +4917,6 @@
       "code": "1.2.840.10008.6.1.1097",
       "display": "-",
       "definition": "-"
-    },
-    {
-      "code": "1.2.840.10008.6.1.1098",
-      "display": "PS3.16",
-      "definition": "PS3.16 with identifier PS3.16 (Retired)",
-      "property": [
-        {
-          "code": "identifier",
-          "valueString": "PS3.16"
-        },
-        {
-          "code": "retired",
-          "valueBoolean": true
-        }
-      ]
     },
     {
       "code": "1.2.840.10008.6.1.1099",
@@ -5877,21 +5677,6 @@
       "code": "1.2.840.10008.6.1.1250",
       "display": "-",
       "definition": "-"
-    },
-    {
-      "code": "1.2.840.10008.6.1.1251",
-      "display": "PS3.16",
-      "definition": "PS3.16 with identifier PS3.16 (Retired)",
-      "property": [
-        {
-          "code": "identifier",
-          "valueString": "PS3.16"
-        },
-        {
-          "code": "retired",
-          "valueBoolean": true
-        }
-      ]
     },
     {
       "code": "1.2.840.10008.6.1.1252",
@@ -6694,21 +6479,6 @@
       "definition": "-"
     },
     {
-      "code": "1.2.840.10008.6.1.1412",
-      "display": "PS3.16",
-      "definition": "PS3.16 with identifier PS3.16 (Retired)",
-      "property": [
-        {
-          "code": "identifier",
-          "valueString": "PS3.16"
-        },
-        {
-          "code": "retired",
-          "valueBoolean": true
-        }
-      ]
-    },
-    {
       "code": "1.2.840.10008.6.1.1413",
       "display": "-",
       "definition": "-"
@@ -7393,5 +7163,5 @@
       "type": "boolean"
     }
   ],
-  "count": 1444
+  "count": 1428
 }

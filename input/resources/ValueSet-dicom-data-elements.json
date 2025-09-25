@@ -5,17 +5,13 @@
   "id": "dicom-data-elements",
   "title": "DICOM® Data Elements",
   "description": "DICOM® Data elements extracted from DICOM PS3.6 Table 6-1.",
-  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-data-elements",
+  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-data-elements",
   "experimental": false,
   "compose": {
     "include": [
       {
-        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-elements",
+        "system": "http://dicom.nema.org/resources/CodeSystem//CodeSystem/dicom-elements",
         "concept": [
-          {
-            "code": "LengthToEnd",
-            "display": "Length to End"
-          },
           {
             "code": "SpecificCharacterSet",
             "display": "Specific Character Set"
@@ -27,10 +23,6 @@
           {
             "code": "ImageType",
             "display": "Image Type"
-          },
-          {
-            "code": "RecognitionCode",
-            "display": "Recognition Code"
           },
           {
             "code": "InstanceCreationDate",
@@ -93,14 +85,6 @@
             "display": "Content Date"
           },
           {
-            "code": "OverlayDate",
-            "display": "Overlay Date"
-          },
-          {
-            "code": "CurveDate",
-            "display": "Curve Date"
-          },
-          {
             "code": "AcquisitionDateTime",
             "display": "Acquisition DateTime"
           },
@@ -119,26 +103,6 @@
           {
             "code": "ContentTime",
             "display": "Content Time"
-          },
-          {
-            "code": "OverlayTime",
-            "display": "Overlay Time"
-          },
-          {
-            "code": "CurveTime",
-            "display": "Curve Time"
-          },
-          {
-            "code": "DataSetType",
-            "display": "Data Set Type"
-          },
-          {
-            "code": "DataSetSubtype",
-            "display": "Data Set Subtype"
-          },
-          {
-            "code": "NuclearMedicineSeriesType",
-            "display": "Nuclear Medicine Series Type"
           },
           {
             "code": "AccessionNumber",
@@ -605,10 +569,6 @@
             "display": "Maximum Number of Records"
           },
           {
-            "code": "NetworkID",
-            "display": "Network ID"
-          },
-          {
             "code": "StationName",
             "display": "Station Name"
           },
@@ -685,10 +645,6 @@
             "display": "Manufacturer's Model Name"
           },
           {
-            "code": "ReferencedResultsSequence",
-            "display": "Referenced Results Sequence"
-          },
-          {
             "code": "ReferencedStudySequence",
             "display": "Referenced Study Sequence"
           },
@@ -713,10 +669,6 @@
             "display": "Referenced Visit Sequence"
           },
           {
-            "code": "ReferencedOverlaySequence",
-            "display": "Referenced Overlay Sequence"
-          },
-          {
             "code": "ReferencedStereometricInstanceSequence",
             "display": "Referenced Stereometric Instance Sequence"
           },
@@ -727,10 +679,6 @@
           {
             "code": "ReferencedImageSequence",
             "display": "Referenced Image Sequence"
-          },
-          {
-            "code": "ReferencedCurveSequence",
-            "display": "Referenced Curve Sequence"
           },
           {
             "code": "ReferencedInstanceSequence",
@@ -845,10 +793,6 @@
             "display": "Histological Diagnoses Code Sequence"
           },
           {
-            "code": "LossyImageCompressionRetired",
-            "display": "Lossy Image Compression (Retired)"
-          },
-          {
             "code": "DerivationDescription",
             "display": "Derivation Description"
           },
@@ -917,18 +861,6 @@
             "display": "Recommended Display Frame Rate"
           },
           {
-            "code": "TransducerPosition",
-            "display": "Transducer Position"
-          },
-          {
-            "code": "TransducerOrientation",
-            "display": "Transducer Orientation"
-          },
-          {
-            "code": "AnatomicStructure",
-            "display": "Anatomic Structure"
-          },
-          {
             "code": "AnatomicRegionSequence",
             "display": "Anatomic Region Sequence"
           },
@@ -941,64 +873,8 @@
             "display": "Primary Anatomic Structure Sequence"
           },
           {
-            "code": "AnatomicStructureSpaceOrRegionSequence",
-            "display": "Anatomic Structure, Space or Region Sequence"
-          },
-          {
             "code": "PrimaryAnatomicStructureModifierSequence",
             "display": "Primary Anatomic Structure Modifier Sequence"
-          },
-          {
-            "code": "TransducerPositionSequence",
-            "display": "Transducer Position Sequence"
-          },
-          {
-            "code": "TransducerPositionModifierSequence",
-            "display": "Transducer Position Modifier Sequence"
-          },
-          {
-            "code": "TransducerOrientationSequence",
-            "display": "Transducer Orientation Sequence"
-          },
-          {
-            "code": "TransducerOrientationModifierSequence",
-            "display": "Transducer Orientation Modifier Sequence"
-          },
-          {
-            "code": "AnatomicStructureSpaceOrRegionCodeSequenceTrial",
-            "display": "Anatomic Structure Space Or Region Code Sequence (Trial)"
-          },
-          {
-            "code": "AnatomicPortalOfEntranceCodeSequenceTrial",
-            "display": "Anatomic Portal Of Entrance Code Sequence (Trial)"
-          },
-          {
-            "code": "AnatomicApproachDirectionCodeSequenceTrial",
-            "display": "Anatomic Approach Direction Code Sequence (Trial)"
-          },
-          {
-            "code": "AnatomicPerspectiveDescriptionTrial",
-            "display": "Anatomic Perspective Description (Trial)"
-          },
-          {
-            "code": "AnatomicPerspectiveCodeSequenceTrial",
-            "display": "Anatomic Perspective Code Sequence (Trial)"
-          },
-          {
-            "code": "AnatomicLocationOfExaminingInstrumentDescriptionTrial",
-            "display": "Anatomic Location Of Examining Instrument Description (Trial)"
-          },
-          {
-            "code": "AnatomicLocationOfExaminingInstrumentCodeSequenceTrial",
-            "display": "Anatomic Location Of Examining Instrument Code Sequence (Trial)"
-          },
-          {
-            "code": "AnatomicStructureSpaceOrRegionModifierCodeSequenceTrial",
-            "display": "Anatomic Structure Space Or Region Modifier Code Sequence (Trial)"
-          },
-          {
-            "code": "OnAxisBackgroundAnatomicStructureCodeSequenceTrial",
-            "display": "On Axis Background Anatomic Structure Code Sequence (Trial)"
           },
           {
             "code": "AlternateRepresentationSequence",
@@ -1019,10 +895,6 @@
           {
             "code": "RadiopharmaceuticalAdministrationEventUID",
             "display": "Radiopharmaceutical Administration Event UID"
-          },
-          {
-            "code": "IdentifyingComments",
-            "display": "Identifying Comments"
           },
           {
             "code": "FrameType",
@@ -1269,10 +1141,6 @@
             "display": "Genetic Modifications Code Sequence"
           },
           {
-            "code": "OtherPatientIDs",
-            "display": "Other Patient IDs"
-          },
-          {
             "code": "OtherPatientNames",
             "display": "Other Patient Names"
           },
@@ -1317,10 +1185,6 @@
             "display": "Patient's Address"
           },
           {
-            "code": "InsurancePlanIdentification",
-            "display": "Insurance Plan Identification"
-          },
-          {
             "code": "PatientMotherBirthName",
             "display": "Patient's Mother's Birth Name"
           },
@@ -1331,10 +1195,6 @@
           {
             "code": "BranchOfService",
             "display": "Branch of Service"
-          },
-          {
-            "code": "MedicalRecordLocator",
-            "display": "Medical Record Locator"
           },
           {
             "code": "ReferencedPatientPhotoSequence",
@@ -1363,10 +1223,6 @@
           {
             "code": "PatientTelecomInformation",
             "display": "Patient's Telecom Information"
-          },
-          {
-            "code": "EthnicGroup",
-            "display": "Ethnic Group"
           },
           {
             "code": "EthnicGroupCodeSequence",
@@ -1585,14 +1441,6 @@
             "display": "Ethics Committee Approval Effectiveness End Date"
           },
           {
-            "code": "CADFileFormat",
-            "display": "CAD File Format"
-          },
-          {
-            "code": "ComponentReferenceSystem",
-            "display": "Component Reference System"
-          },
-          {
             "code": "ComponentManufacturingProcedure",
             "display": "Component Manufacturing Procedure"
           },
@@ -1619,10 +1467,6 @@
           {
             "code": "MaterialPropertiesDescription",
             "display": "Material Properties Description"
-          },
-          {
-            "code": "MaterialPropertiesFileFormatRetired",
-            "display": "Material Properties File Format (Retired)"
           },
           {
             "code": "MaterialNotes",
@@ -3313,20 +3157,8 @@
             "display": "Additional Drug Sequence"
           },
           {
-            "code": "Radionuclide",
-            "display": "Radionuclide"
-          },
-          {
             "code": "Radiopharmaceutical",
             "display": "Radiopharmaceutical"
-          },
-          {
-            "code": "EnergyWindowCenterline",
-            "display": "Energy Window Centerline"
-          },
-          {
-            "code": "EnergyWindowTotalWidth",
-            "display": "Energy Window Total Width"
           },
           {
             "code": "InterventionDrugName",
@@ -3341,16 +3173,8 @@
             "display": "Intervention Sequence"
           },
           {
-            "code": "TherapyType",
-            "display": "Therapy Type"
-          },
-          {
             "code": "InterventionStatus",
             "display": "Intervention Status"
-          },
-          {
-            "code": "TherapyDescription",
-            "display": "Therapy Description"
           },
           {
             "code": "InterventionDescription",
@@ -3505,10 +3329,6 @@
             "display": "Secondary Capture Device ID"
           },
           {
-            "code": "HardcopyCreationDeviceID",
-            "display": "Hardcopy Creation Device ID"
-          },
-          {
             "code": "DateOfSecondaryCapture",
             "display": "Date of Secondary Capture"
           },
@@ -3521,24 +3341,12 @@
             "display": "Secondary Capture Device Manufacturer"
           },
           {
-            "code": "HardcopyDeviceManufacturer",
-            "display": "Hardcopy Device Manufacturer"
-          },
-          {
             "code": "SecondaryCaptureDeviceManufacturerModelName",
             "display": "Secondary Capture Device Manufacturer's Model Name"
           },
           {
             "code": "SecondaryCaptureDeviceSoftwareVersions",
             "display": "Secondary Capture Device Software Versions"
-          },
-          {
-            "code": "HardcopyDeviceSoftwareVersion",
-            "display": "Hardcopy Device Software Version"
-          },
-          {
-            "code": "HardcopyDeviceManufacturerModelName",
-            "display": "Hardcopy Device Manufacturer's Model Name"
           },
           {
             "code": "SoftwareVersions",
@@ -3793,10 +3601,6 @@
             "display": "Rotation Direction"
           },
           {
-            "code": "AngularPosition",
-            "display": "Angular Position"
-          },
-          {
             "code": "RadialPosition",
             "display": "Radial Position"
           },
@@ -3811,10 +3615,6 @@
           {
             "code": "CenterOfRotationOffset",
             "display": "Center of Rotation Offset"
-          },
-          {
-            "code": "RotationOffset",
-            "display": "Rotation Offset"
           },
           {
             "code": "FieldOfViewShape",
@@ -4031,10 +3831,6 @@
           {
             "code": "ConvolutionKernel",
             "display": "Convolution Kernel"
-          },
-          {
-            "code": "UpperLowerPixelValues",
-            "display": "Upper/Lower Pixel Values"
           },
           {
             "code": "ActualFrameDuration",
@@ -4421,10 +4217,6 @@
             "display": "Lesion Number"
           },
           {
-            "code": "AcquisitionComments",
-            "display": "Acquisition Comments"
-          },
-          {
             "code": "OutputPower",
             "display": "Output Power"
           },
@@ -4443,10 +4235,6 @@
           {
             "code": "ProcessingFunction",
             "display": "Processing Function"
-          },
-          {
-            "code": "PostprocessingFunction",
-            "display": "Postprocessing Function"
           },
           {
             "code": "MechanicalIndex",
@@ -4473,14 +4261,6 @@
             "display": "Soft Tissue-surface Thermal Index"
           },
           {
-            "code": "DynamicRange",
-            "display": "Dynamic Range"
-          },
-          {
-            "code": "TotalGain",
-            "display": "Total Gain"
-          },
-          {
             "code": "DepthOfScanField",
             "display": "Depth of Scan Field"
           },
@@ -4495,14 +4275,6 @@
           {
             "code": "ProjectionEponymousNameCodeSequence",
             "display": "Projection Eponymous Name Code Sequence"
-          },
-          {
-            "code": "ImageTransformationMatrix",
-            "display": "Image Transformation Matrix"
-          },
-          {
-            "code": "ImageTranslationVector",
-            "display": "Image Translation Vector"
           },
           {
             "code": "Sensitivity",
@@ -4593,48 +4365,24 @@
             "display": "Steering Angle"
           },
           {
-            "code": "DopplerSampleVolumeXPositionRetired",
-            "display": "Doppler Sample Volume X Position (Retired)"
-          },
-          {
             "code": "DopplerSampleVolumeXPosition",
             "display": "Doppler Sample Volume X Position"
-          },
-          {
-            "code": "DopplerSampleVolumeYPositionRetired",
-            "display": "Doppler Sample Volume Y Position (Retired)"
           },
           {
             "code": "DopplerSampleVolumeYPosition",
             "display": "Doppler Sample Volume Y Position"
           },
           {
-            "code": "TMLinePositionX0Retired",
-            "display": "TM-Line Position X0 (Retired)"
-          },
-          {
             "code": "TMLinePositionX0",
             "display": "TM-Line Position X0"
-          },
-          {
-            "code": "TMLinePositionY0Retired",
-            "display": "TM-Line Position Y0 (Retired)"
           },
           {
             "code": "TMLinePositionY0",
             "display": "TM-Line Position Y0"
           },
           {
-            "code": "TMLinePositionX1Retired",
-            "display": "TM-Line Position X1 (Retired)"
-          },
-          {
             "code": "TMLinePositionX1",
             "display": "TM-Line Position X1"
-          },
-          {
-            "code": "TMLinePositionY1Retired",
-            "display": "TM-Line Position Y1 (Retired)"
           },
           {
             "code": "TMLinePositionY1",
@@ -5185,10 +4933,6 @@
             "display": "Spectroscopy Acquisition Phase Rows"
           },
           {
-            "code": "ParallelReductionFactorInPlaneRetired",
-            "display": "Parallel Reduction Factor In-plane (Retired)"
-          },
-          {
             "code": "TransmitterFrequency",
             "display": "Transmitter Frequency"
           },
@@ -5277,10 +5021,6 @@
             "display": "Spectroscopy Acquisition Out-of-plane Phase Steps"
           },
           {
-            "code": "BulkMotionStatus",
-            "display": "Bulk Motion Status"
-          },
-          {
             "code": "ParallelReductionFactorSecondInPlane",
             "display": "Parallel Reduction Factor Second In-plane"
           },
@@ -5355,14 +5095,6 @@
           {
             "code": "RespiratorySignalSourceID",
             "display": "Respiratory Signal Source ID"
-          },
-          {
-            "code": "ChemicalShiftMinimumIntegrationLimitInHz",
-            "display": "Chemical Shift Minimum Integration Limit in Hz"
-          },
-          {
-            "code": "ChemicalShiftMaximumIntegrationLimitInHz",
-            "display": "Chemical Shift Maximum Integration Limit in Hz"
           },
           {
             "code": "MRVelocityEncodingSequence",
@@ -5611,10 +5343,6 @@
           {
             "code": "ExposureModulationType",
             "display": "Exposure Modulation Type"
-          },
-          {
-            "code": "EstimatedDoseSaving",
-            "display": "Estimated Dose Saving"
           },
           {
             "code": "CTXRayDetailsSequence",
@@ -6853,26 +6581,6 @@
             "display": "Instance Number"
           },
           {
-            "code": "IsotopeNumber",
-            "display": "Isotope Number"
-          },
-          {
-            "code": "PhaseNumber",
-            "display": "Phase Number"
-          },
-          {
-            "code": "IntervalNumber",
-            "display": "Interval Number"
-          },
-          {
-            "code": "TimeSlotNumber",
-            "display": "Time Slot Number"
-          },
-          {
-            "code": "AngleNumber",
-            "display": "Angle Number"
-          },
-          {
             "code": "ItemNumber",
             "display": "Item Number"
           },
@@ -6881,40 +6589,16 @@
             "display": "Patient Orientation"
           },
           {
-            "code": "OverlayNumber",
-            "display": "Overlay Number"
-          },
-          {
-            "code": "CurveNumber",
-            "display": "Curve Number"
-          },
-          {
-            "code": "LUTNumber",
-            "display": "LUT Number"
-          },
-          {
             "code": "PyramidLabel",
             "display": "Pyramid Label"
-          },
-          {
-            "code": "ImagePosition",
-            "display": "Image Position"
           },
           {
             "code": "ImagePositionPatient",
             "display": "Image Position (Patient)"
           },
           {
-            "code": "ImageOrientation",
-            "display": "Image Orientation"
-          },
-          {
             "code": "ImageOrientationPatient",
             "display": "Image Orientation (Patient)"
-          },
-          {
-            "code": "Location",
-            "display": "Location"
           },
           {
             "code": "FrameOfReferenceUID",
@@ -6927,18 +6611,6 @@
           {
             "code": "ImageLaterality",
             "display": "Image Laterality"
-          },
-          {
-            "code": "ImageGeometryType",
-            "display": "Image Geometry Type"
-          },
-          {
-            "code": "MaskingImage",
-            "display": "Masking Image"
-          },
-          {
-            "code": "ReportNumber",
-            "display": "Report Number"
           },
           {
             "code": "TemporalPositionIdentifier",
@@ -6961,32 +6633,8 @@
             "display": "SOP Instance UID of Concatenation Source"
           },
           {
-            "code": "SeriesInStudy",
-            "display": "Series in Study"
-          },
-          {
-            "code": "AcquisitionsInSeries",
-            "display": "Acquisitions in Series"
-          },
-          {
             "code": "ImagesInAcquisition",
             "display": "Images in Acquisition"
-          },
-          {
-            "code": "ImagesInSeries",
-            "display": "Images in Series"
-          },
-          {
-            "code": "AcquisitionsInStudy",
-            "display": "Acquisitions in Study"
-          },
-          {
-            "code": "ImagesInStudy",
-            "display": "Images in Study"
-          },
-          {
-            "code": "Reference",
-            "display": "Reference"
           },
           {
             "code": "TargetPositionReferenceIndicator",
@@ -6999,10 +6647,6 @@
           {
             "code": "SliceLocation",
             "display": "Slice Location"
-          },
-          {
-            "code": "OtherStudyNumbers",
-            "display": "Other Study Numbers"
           },
           {
             "code": "NumberOfPatientRelatedStudies",
@@ -7029,44 +6673,8 @@
             "display": "Number of Series Related Instances"
           },
           {
-            "code": "SourceImageIDs",
-            "display": "Source Image IDs"
-          },
-          {
-            "code": "ModifyingDeviceID",
-            "display": "Modifying Device ID"
-          },
-          {
-            "code": "ModifiedImageID",
-            "display": "Modified Image ID"
-          },
-          {
-            "code": "ModifiedImageDate",
-            "display": "Modified Image Date"
-          },
-          {
-            "code": "ModifyingDeviceManufacturer",
-            "display": "Modifying Device Manufacturer"
-          },
-          {
-            "code": "ModifiedImageTime",
-            "display": "Modified Image Time"
-          },
-          {
-            "code": "ModifiedImageDescription",
-            "display": "Modified Image Description"
-          },
-          {
             "code": "ImageComments",
             "display": "Image Comments"
-          },
-          {
-            "code": "OriginalImageIdentification",
-            "display": "Original Image Identification"
-          },
-          {
-            "code": "OriginalImageIdentificationNomenclature",
-            "display": "Original Image Identification Nomenclature"
           },
           {
             "code": "StackID",
@@ -7657,10 +7265,6 @@
             "display": "IOL Manufacturer"
           },
           {
-            "code": "LensConstantDescription",
-            "display": "Lens Constant Description"
-          },
-          {
             "code": "ImplantName",
             "display": "Implant Name"
           },
@@ -7749,10 +7353,6 @@
             "display": "Ophthalmic Axial Length Data Source Code Sequence"
           },
           {
-            "code": "OphthalmicAxialLengthAcquisitionMethodCodeSequence",
-            "display": "Ophthalmic Axial Length Acquisition Method Code Sequence"
-          },
-          {
             "code": "SignalToNoiseRatio",
             "display": "Signal to Noise Ratio"
           },
@@ -7803,14 +7403,6 @@
           {
             "code": "OphthalmicAxialLengthQualityMetricSequence",
             "display": "Ophthalmic Axial Length Quality Metric Sequence"
-          },
-          {
-            "code": "OphthalmicAxialLengthQualityMetricTypeCodeSequence",
-            "display": "Ophthalmic Axial Length Quality Metric Type Code Sequence"
-          },
-          {
-            "code": "OphthalmicAxialLengthQualityMetricTypeDescription",
-            "display": "Ophthalmic Axial Length Quality Metric Type Description"
           },
           {
             "code": "IntraocularLensCalculationsRightEyeSequence",
@@ -8461,10 +8053,6 @@
             "display": "Photometric Interpretation"
           },
           {
-            "code": "ImageDimensions",
-            "display": "Image Dimensions"
-          },
-          {
             "code": "PlanarConfiguration",
             "display": "Planar Configuration"
           },
@@ -8489,10 +8077,6 @@
             "display": "Columns"
           },
           {
-            "code": "Planes",
-            "display": "Planes"
-          },
-          {
             "code": "UltrasoundColorDataPresent",
             "display": "Ultrasound Color Data Present"
           },
@@ -8513,92 +8097,8 @@
             "display": "Pixel Aspect Ratio"
           },
           {
-            "code": "ImageFormat",
-            "display": "Image Format"
-          },
-          {
-            "code": "ManipulatedImage",
-            "display": "Manipulated Image"
-          },
-          {
             "code": "CorrectedImage",
             "display": "Corrected Image"
-          },
-          {
-            "code": "CompressionRecognitionCode",
-            "display": "Compression Recognition Code"
-          },
-          {
-            "code": "CompressionCode",
-            "display": "Compression Code"
-          },
-          {
-            "code": "CompressionOriginator",
-            "display": "Compression Originator"
-          },
-          {
-            "code": "CompressionLabel",
-            "display": "Compression Label"
-          },
-          {
-            "code": "CompressionDescription",
-            "display": "Compression Description"
-          },
-          {
-            "code": "CompressionSequence",
-            "display": "Compression Sequence"
-          },
-          {
-            "code": "CompressionStepPointers",
-            "display": "Compression Step Pointers"
-          },
-          {
-            "code": "RepeatInterval",
-            "display": "Repeat Interval"
-          },
-          {
-            "code": "BitsGrouped",
-            "display": "Bits Grouped"
-          },
-          {
-            "code": "PerimeterTable",
-            "display": "Perimeter Table"
-          },
-          {
-            "code": "PerimeterValue",
-            "display": "Perimeter Value"
-          },
-          {
-            "code": "PredictorRows",
-            "display": "Predictor Rows"
-          },
-          {
-            "code": "PredictorColumns",
-            "display": "Predictor Columns"
-          },
-          {
-            "code": "PredictorConstants",
-            "display": "Predictor Constants"
-          },
-          {
-            "code": "BlockedPixels",
-            "display": "Blocked Pixels"
-          },
-          {
-            "code": "BlockRows",
-            "display": "Block Rows"
-          },
-          {
-            "code": "BlockColumns",
-            "display": "Block Columns"
-          },
-          {
-            "code": "RowOverlap",
-            "display": "Row Overlap"
-          },
-          {
-            "code": "ColumnOverlap",
-            "display": "Column Overlap"
           },
           {
             "code": "BitsAllocated",
@@ -8617,14 +8117,6 @@
             "display": "Pixel Representation"
           },
           {
-            "code": "SmallestValidPixelValue",
-            "display": "Smallest Valid Pixel Value"
-          },
-          {
-            "code": "LargestValidPixelValue",
-            "display": "Largest Valid Pixel Value"
-          },
-          {
             "code": "SmallestImagePixelValue",
             "display": "Smallest Image Pixel Value"
           },
@@ -8639,14 +8131,6 @@
           {
             "code": "LargestPixelValueInSeries",
             "display": "Largest Pixel Value in Series"
-          },
-          {
-            "code": "SmallestImagePixelValueInPlane",
-            "display": "Smallest Image Pixel Value in Plane"
-          },
-          {
-            "code": "LargestImagePixelValueInPlane",
-            "display": "Largest Image Pixel Value in Plane"
           },
           {
             "code": "PixelPaddingValue",
@@ -8673,10 +8157,6 @@
             "display": "Double Float Pixel Padding Range Limit"
           },
           {
-            "code": "ImageLocation",
-            "display": "Image Location"
-          },
-          {
             "code": "QualityControlImage",
             "display": "Quality Control Image"
           },
@@ -8695,98 +8175,6 @@
           {
             "code": "ReferencedColorPaletteInstanceUID",
             "display": "Referenced Color Palette Instance UID"
-          },
-          {
-            "code": "TransformLabel",
-            "display": "Transform Label"
-          },
-          {
-            "code": "TransformVersionNumber",
-            "display": "Transform Version Number"
-          },
-          {
-            "code": "NumberOfTransformSteps",
-            "display": "Number of Transform Steps"
-          },
-          {
-            "code": "SequenceOfCompressedData",
-            "display": "Sequence of Compressed Data"
-          },
-          {
-            "code": "DetailsOfCoefficients",
-            "display": "Details of Coefficients"
-          },
-          {
-            "code": "RowsForNthOrderCoefficients",
-            "display": "Rows For Nth Order Coefficients"
-          },
-          {
-            "code": "ColumnsForNthOrderCoefficients",
-            "display": "Columns For Nth Order Coefficients"
-          },
-          {
-            "code": "CoefficientCoding",
-            "display": "Coefficient Coding"
-          },
-          {
-            "code": "CoefficientCodingPointers",
-            "display": "Coefficient Coding Pointers"
-          },
-          {
-            "code": "DCTLabel",
-            "display": "DCT Label"
-          },
-          {
-            "code": "DataBlockDescription",
-            "display": "Data Block Description"
-          },
-          {
-            "code": "DataBlock",
-            "display": "Data Block"
-          },
-          {
-            "code": "NormalizationFactorFormat",
-            "display": "Normalization Factor Format"
-          },
-          {
-            "code": "ZonalMapNumberFormat",
-            "display": "Zonal Map Number Format"
-          },
-          {
-            "code": "ZonalMapLocation",
-            "display": "Zonal Map Location"
-          },
-          {
-            "code": "ZonalMapFormat",
-            "display": "Zonal Map Format"
-          },
-          {
-            "code": "AdaptiveMapFormat",
-            "display": "Adaptive Map Format"
-          },
-          {
-            "code": "CodeNumberFormat",
-            "display": "Code Number Format"
-          },
-          {
-            "code": "CodeLabel",
-            "display": "Code Label"
-          },
-          {
-            "code": "NumberOfTables",
-            "display": "Number of Tables"
-          },
-          {
-            "code": "CodeTableLocation",
-            "display": "Code Table Location"
-          },
-          {
-            "code": "BitsForCodeWord",
-            "display": "Bits For Code Word"
-          },
-          {
-            "code": "ImageDataLocation",
-            "display": "Image Data Location"
           },
           {
             "code": "PixelSpacingCalibrationType",
@@ -8833,16 +8221,8 @@
             "display": "VOI LUT Function"
           },
           {
-            "code": "GrayScale",
-            "display": "Gray Scale"
-          },
-          {
             "code": "RecommendedViewingMode",
             "display": "Recommended Viewing Mode"
-          },
-          {
-            "code": "GrayLookupTableDescriptor",
-            "display": "Gray Lookup Table Descriptor"
           },
           {
             "code": "RedPaletteColorLookupTableDescriptor",
@@ -8861,24 +8241,8 @@
             "display": "Alpha Palette Color Lookup Table Descriptor"
           },
           {
-            "code": "LargeRedPaletteColorLookupTableDescriptor",
-            "display": "Large Red Palette Color Lookup Table Descriptor"
-          },
-          {
-            "code": "LargeGreenPaletteColorLookupTableDescriptor",
-            "display": "Large Green Palette Color Lookup Table Descriptor"
-          },
-          {
-            "code": "LargeBluePaletteColorLookupTableDescriptor",
-            "display": "Large Blue Palette Color Lookup Table Descriptor"
-          },
-          {
             "code": "PaletteColorLookupTableUID",
             "display": "Palette Color Lookup Table UID"
-          },
-          {
-            "code": "GrayLookupTableData",
-            "display": "Gray Lookup Table Data"
           },
           {
             "code": "RedPaletteColorLookupTableData",
@@ -8895,22 +8259,6 @@
           {
             "code": "AlphaPaletteColorLookupTableData",
             "display": "Alpha Palette Color Lookup Table Data"
-          },
-          {
-            "code": "LargeRedPaletteColorLookupTableData",
-            "display": "Large Red Palette Color Lookup Table Data"
-          },
-          {
-            "code": "LargeGreenPaletteColorLookupTableData",
-            "display": "Large Green Palette Color Lookup Table Data"
-          },
-          {
-            "code": "LargeBluePaletteColorLookupTableData",
-            "display": "Large Blue Palette Color Lookup Table Data"
-          },
-          {
-            "code": "LargePaletteColorLookupTableUID",
-            "display": "Large Palette Color Lookup Table UID"
           },
           {
             "code": "SegmentedRedPaletteColorLookupTableData",
@@ -9069,14 +8417,6 @@
             "display": "Softcopy VOI LUT Sequence"
           },
           {
-            "code": "ImagePresentationComments",
-            "display": "Image Presentation Comments"
-          },
-          {
-            "code": "BiPlaneAcquisitionSequence",
-            "display": "Bi-Plane Acquisition Sequence"
-          },
-          {
             "code": "RepresentativeFrameNumber",
             "display": "Representative Frame Number"
           },
@@ -9091,10 +8431,6 @@
           {
             "code": "FrameOfInterestType",
             "display": "Frame of Interest Type"
-          },
-          {
-            "code": "MaskPointers",
-            "display": "Mask Pointer(s)"
           },
           {
             "code": "RWavePointer",
@@ -9337,10 +8673,6 @@
             "display": "Signal Domain Columns"
           },
           {
-            "code": "LargestMonochromePixelValue",
-            "display": "Largest Monochrome Pixel Value"
-          },
-          {
             "code": "DataRepresentation",
             "display": "Data Representation"
           },
@@ -9437,62 +8769,6 @@
             "display": "Equipment Coordinate System Identification"
           },
           {
-            "code": "StudyStatusID",
-            "display": "Study Status ID"
-          },
-          {
-            "code": "StudyPriorityID",
-            "display": "Study Priority ID"
-          },
-          {
-            "code": "StudyIDIssuer",
-            "display": "Study ID Issuer"
-          },
-          {
-            "code": "StudyVerifiedDate",
-            "display": "Study Verified Date"
-          },
-          {
-            "code": "StudyVerifiedTime",
-            "display": "Study Verified Time"
-          },
-          {
-            "code": "StudyReadDate",
-            "display": "Study Read Date"
-          },
-          {
-            "code": "StudyReadTime",
-            "display": "Study Read Time"
-          },
-          {
-            "code": "ScheduledStudyStartDate",
-            "display": "Scheduled Study Start Date"
-          },
-          {
-            "code": "ScheduledStudyStartTime",
-            "display": "Scheduled Study Start Time"
-          },
-          {
-            "code": "ScheduledStudyStopDate",
-            "display": "Scheduled Study Stop Date"
-          },
-          {
-            "code": "ScheduledStudyStopTime",
-            "display": "Scheduled Study Stop Time"
-          },
-          {
-            "code": "ScheduledStudyLocation",
-            "display": "Scheduled Study Location"
-          },
-          {
-            "code": "ScheduledStudyLocationAETitle",
-            "display": "Scheduled Study Location AE Title"
-          },
-          {
-            "code": "ReasonForStudy",
-            "display": "Reason for Study"
-          },
-          {
             "code": "RequestingPhysicianIdentificationSequence",
             "display": "Requesting Physician Identification Sequence"
           },
@@ -9507,26 +8783,6 @@
           {
             "code": "RequestingServiceCodeSequence",
             "display": "Requesting Service Code Sequence"
-          },
-          {
-            "code": "StudyArrivalDate",
-            "display": "Study Arrival Date"
-          },
-          {
-            "code": "StudyArrivalTime",
-            "display": "Study Arrival Time"
-          },
-          {
-            "code": "StudyCompletionDate",
-            "display": "Study Completion Date"
-          },
-          {
-            "code": "StudyCompletionTime",
-            "display": "Study Completion Time"
-          },
-          {
-            "code": "StudyComponentStatusID",
-            "display": "Study Component Status ID"
           },
           {
             "code": "RequestedProcedureDescription",
@@ -9551,10 +8807,6 @@
           {
             "code": "RequestedContrastAgent",
             "display": "Requested Contrast Agent"
-          },
-          {
-            "code": "StudyComments",
-            "display": "Study Comments"
           },
           {
             "code": "FlowIdentifierSequence",
@@ -9605,20 +8857,12 @@
             "display": "Time of Frame Group Sequence"
           },
           {
-            "code": "ReferencedPatientAliasSequence",
-            "display": "Referenced Patient Alias Sequence"
-          },
-          {
             "code": "VisitStatusID",
             "display": "Visit Status ID"
           },
           {
             "code": "AdmissionID",
             "display": "Admission ID"
-          },
-          {
-            "code": "IssuerOfAdmissionID",
-            "display": "Issuer of Admission ID"
           },
           {
             "code": "IssuerOfAdmissionIDSequence",
@@ -9629,26 +8873,6 @@
             "display": "Route of Admissions"
           },
           {
-            "code": "ScheduledAdmissionDate",
-            "display": "Scheduled Admission Date"
-          },
-          {
-            "code": "ScheduledAdmissionTime",
-            "display": "Scheduled Admission Time"
-          },
-          {
-            "code": "ScheduledDischargeDate",
-            "display": "Scheduled Discharge Date"
-          },
-          {
-            "code": "ScheduledDischargeTime",
-            "display": "Scheduled Discharge Time"
-          },
-          {
-            "code": "ScheduledPatientInstitutionResidence",
-            "display": "Scheduled Patient Institution Residence"
-          },
-          {
             "code": "AdmittingDate",
             "display": "Admitting Date"
           },
@@ -9657,32 +8881,12 @@
             "display": "Admitting Time"
           },
           {
-            "code": "DischargeDate",
-            "display": "Discharge Date"
-          },
-          {
-            "code": "DischargeTime",
-            "display": "Discharge Time"
-          },
-          {
-            "code": "DischargeDiagnosisDescription",
-            "display": "Discharge Diagnosis Description"
-          },
-          {
-            "code": "DischargeDiagnosisCodeSequence",
-            "display": "Discharge Diagnosis Code Sequence"
-          },
-          {
             "code": "SpecialNeeds",
             "display": "Special Needs"
           },
           {
             "code": "ServiceEpisodeID",
             "display": "Service Episode ID"
-          },
-          {
-            "code": "IssuerOfServiceEpisodeID",
-            "display": "Issuer of Service Episode ID"
           },
           {
             "code": "ServiceEpisodeDescription",
@@ -10165,14 +9369,6 @@
             "display": "Billing Item Sequence"
           },
           {
-            "code": "TotalTimeOfFluoroscopy",
-            "display": "Total Time of Fluoroscopy"
-          },
-          {
-            "code": "TotalNumberOfExposures",
-            "display": "Total Number of Exposures"
-          },
-          {
             "code": "EntranceDose",
             "display": "Entrance Dose"
           },
@@ -10183,14 +9379,6 @@
           {
             "code": "DistanceSourceToEntrance",
             "display": "Distance Source to Entrance"
-          },
-          {
-            "code": "DistanceSourceToSupport",
-            "display": "Distance Source to Support"
-          },
-          {
-            "code": "ExposureDoseSequence",
-            "display": "Exposure Dose Sequence"
           },
           {
             "code": "CommentsOnRadiationDose",
@@ -10225,10 +9413,6 @@
             "display": "Billing Supplies and Devices Sequence"
           },
           {
-            "code": "ReferencedProcedureStepSequence",
-            "display": "Referenced Procedure Step Sequence"
-          },
-          {
             "code": "PerformedSeriesSequence",
             "display": "Performed Series Sequence"
           },
@@ -10247,10 +9431,6 @@
           {
             "code": "ScheduledSpecimenSequence",
             "display": "Scheduled Specimen Sequence"
-          },
-          {
-            "code": "SpecimenAccessionNumber",
-            "display": "Specimen Accession Number"
           },
           {
             "code": "ContainerIdentifier",
@@ -10277,20 +9457,8 @@
             "display": "Container Component Sequence"
           },
           {
-            "code": "SpecimenSequence",
-            "display": "Specimen Sequence"
-          },
-          {
             "code": "SpecimenIdentifier",
             "display": "Specimen Identifier"
-          },
-          {
-            "code": "SpecimenDescriptionSequenceTrial",
-            "display": "Specimen Description Sequence (Trial)"
-          },
-          {
-            "code": "SpecimenDescriptionTrial",
-            "display": "Specimen Description (Trial)"
           },
           {
             "code": "SpecimenUID",
@@ -10337,10 +9505,6 @@
             "display": "Specimen Localization Content Item Sequence"
           },
           {
-            "code": "SlideIdentifier",
-            "display": "Slide Identifier"
-          },
-          {
             "code": "WholeSlideMicroscopyImageFrameTypeSequence",
             "display": "Whole Slide Microscopy Image Frame Type Sequence"
           },
@@ -10361,20 +9525,8 @@
             "display": "Z Offset in Slide Coordinate System"
           },
           {
-            "code": "PixelSpacingSequence",
-            "display": "Pixel Spacing Sequence"
-          },
-          {
-            "code": "CoordinateSystemAxisCodeSequence",
-            "display": "Coordinate System Axis Code Sequence"
-          },
-          {
             "code": "MeasurementUnitsCodeSequence",
             "display": "Measurement Units Code Sequence"
-          },
-          {
-            "code": "VitalStainCodeSequenceTrial",
-            "display": "Vital Stain Code Sequence (Trial)"
           },
           {
             "code": "RequestedProcedureID",
@@ -10395,14 +9547,6 @@
           {
             "code": "RequestedProcedureLocation",
             "display": "Requested Procedure Location"
-          },
-          {
-            "code": "PlacerOrderNumberProcedure",
-            "display": "Placer Order Number / Procedure"
-          },
-          {
-            "code": "FillerOrderNumberProcedure",
-            "display": "Filler Order Number / Procedure"
           },
           {
             "code": "ConfidentialityCode",
@@ -10429,10 +9573,6 @@
             "display": "Reason For Performed Procedure Code Sequence"
           },
           {
-            "code": "RequestedProcedureDescriptionTrial",
-            "display": "Requested Procedure Description (Trial)"
-          },
-          {
             "code": "PersonIdentificationCodeSequence",
             "display": "Person Identification Code Sequence"
           },
@@ -10453,24 +9593,12 @@
             "display": "Requested Procedure Comments"
           },
           {
-            "code": "ReasonForTheImagingServiceRequest",
-            "display": "Reason for the Imaging Service Request"
-          },
-          {
             "code": "IssueDateOfImagingServiceRequest",
             "display": "Issue Date of Imaging Service Request"
           },
           {
             "code": "IssueTimeOfImagingServiceRequest",
             "display": "Issue Time of Imaging Service Request"
-          },
-          {
-            "code": "PlacerOrderNumberImagingServiceRequestRetired",
-            "display": "Placer Order Number / Imaging Service Request (Retired)"
-          },
-          {
-            "code": "FillerOrderNumberImagingServiceRequestRetired",
-            "display": "Filler Order Number / Imaging Service Request (Retired)"
           },
           {
             "code": "OrderEnteredBy",
@@ -10505,32 +9633,8 @@
             "display": "Confidentiality Constraint on Patient Data Description"
           },
           {
-            "code": "GeneralPurposeScheduledProcedureStepStatus",
-            "display": "General Purpose Scheduled Procedure Step Status"
-          },
-          {
-            "code": "GeneralPurposePerformedProcedureStepStatus",
-            "display": "General Purpose Performed Procedure Step Status"
-          },
-          {
-            "code": "GeneralPurposeScheduledProcedureStepPriority",
-            "display": "General Purpose Scheduled Procedure Step Priority"
-          },
-          {
-            "code": "ScheduledProcessingApplicationsCodeSequence",
-            "display": "Scheduled Processing Applications Code Sequence"
-          },
-          {
             "code": "ScheduledProcedureStepStartDateTime",
             "display": "Scheduled Procedure Step Start DateTime"
-          },
-          {
-            "code": "MultipleCopiesFlag",
-            "display": "Multiple Copies Flag"
-          },
-          {
-            "code": "PerformedProcessingApplicationsCodeSequence",
-            "display": "Performed Processing Applications Code Sequence"
           },
           {
             "code": "ScheduledProcedureStepExpirationDateTime",
@@ -10549,14 +9653,6 @@
             "display": "Expected Completion DateTime"
           },
           {
-            "code": "ResultingGeneralPurposePerformedProcedureStepsSequence",
-            "display": "Resulting General Purpose Performed Procedure Steps Sequence"
-          },
-          {
-            "code": "ReferencedGeneralPurposeScheduledProcedureStepSequence",
-            "display": "Referenced General Purpose Scheduled Procedure Step Sequence"
-          },
-          {
             "code": "ScheduledWorkitemCodeSequence",
             "display": "Scheduled Workitem Code Sequence"
           },
@@ -10565,20 +9661,8 @@
             "display": "Performed Workitem Code Sequence"
           },
           {
-            "code": "InputAvailabilityFlag",
-            "display": "Input Availability Flag"
-          },
-          {
             "code": "InputInformationSequence",
             "display": "Input Information Sequence"
-          },
-          {
-            "code": "RelevantInformationSequence",
-            "display": "Relevant Information Sequence"
-          },
-          {
-            "code": "ReferencedGeneralPurposeScheduledProcedureStepTransactionUID",
-            "display": "Referenced General Purpose Scheduled Procedure Step Transaction UID"
           },
           {
             "code": "ScheduledStationNameCodeSequence",
@@ -10603,14 +9687,6 @@
           {
             "code": "PerformedStationGeographicLocationCodeSequence",
             "display": "Performed Station Geographic Location Code Sequence"
-          },
-          {
-            "code": "RequestedSubsequentWorkitemCodeSequence",
-            "display": "Requested Subsequent Workitem Code Sequence"
-          },
-          {
-            "code": "NonDICOMOutputCodeSequence",
-            "display": "Non-DICOM Output Code Sequence"
           },
           {
             "code": "OutputInformationSequence",
@@ -10733,44 +9809,12 @@
             "display": "Real World Value Slope"
           },
           {
-            "code": "FindingsFlagTrial",
-            "display": "Findings Flag (Trial)"
-          },
-          {
             "code": "RelationshipType",
             "display": "Relationship Type"
           },
           {
-            "code": "FindingsSequenceTrial",
-            "display": "Findings Sequence (Trial)"
-          },
-          {
-            "code": "FindingsGroupUIDTrial",
-            "display": "Findings Group UID (Trial)"
-          },
-          {
-            "code": "ReferencedFindingsGroupUIDTrial",
-            "display": "Referenced Findings Group UID (Trial)"
-          },
-          {
-            "code": "FindingsGroupRecordingDateTrial",
-            "display": "Findings Group Recording Date (Trial)"
-          },
-          {
-            "code": "FindingsGroupRecordingTimeTrial",
-            "display": "Findings Group Recording Time (Trial)"
-          },
-          {
-            "code": "FindingsSourceCategoryCodeSequenceTrial",
-            "display": "Findings Source Category Code Sequence (Trial)"
-          },
-          {
             "code": "VerifyingOrganization",
             "display": "Verifying Organization"
-          },
-          {
-            "code": "DocumentingOrganizationIdentifierCodeSequenceTrial",
-            "display": "Documenting Organization Identifier Code Sequence (Trial)"
           },
           {
             "code": "VerificationDateTime",
@@ -10801,52 +9845,16 @@
             "display": "Concept Name Code Sequence"
           },
           {
-            "code": "MeasurementPrecisionDescriptionTrial",
-            "display": "Measurement Precision Description (Trial)"
-          },
-          {
             "code": "ContinuityOfContent",
             "display": "Continuity Of Content"
-          },
-          {
-            "code": "UrgencyOrPriorityAlertsTrial",
-            "display": "Urgency or Priority Alerts (Trial)"
-          },
-          {
-            "code": "SequencingIndicatorTrial",
-            "display": "Sequencing Indicator (Trial)"
-          },
-          {
-            "code": "DocumentIdentifierCodeSequenceTrial",
-            "display": "Document Identifier Code Sequence (Trial)"
-          },
-          {
-            "code": "DocumentAuthorTrial",
-            "display": "Document Author (Trial)"
-          },
-          {
-            "code": "DocumentAuthorIdentifierCodeSequenceTrial",
-            "display": "Document Author Identifier Code Sequence (Trial)"
-          },
-          {
-            "code": "IdentifierCodeSequenceTrial",
-            "display": "Identifier Code Sequence (Trial)"
           },
           {
             "code": "VerifyingObserverSequence",
             "display": "Verifying Observer Sequence"
           },
           {
-            "code": "ObjectBinaryIdentifierTrial",
-            "display": "Object Binary Identifier (Trial)"
-          },
-          {
             "code": "VerifyingObserverName",
             "display": "Verifying Observer Name"
-          },
-          {
-            "code": "DocumentingObserverIdentifierCodeSequenceTrial",
-            "display": "Documenting Observer Identifier Code Sequence (Trial)"
           },
           {
             "code": "AuthorObserverSequence",
@@ -10873,32 +9881,12 @@
             "display": "Observer Type"
           },
           {
-            "code": "ProcedureIdentifierCodeSequenceTrial",
-            "display": "Procedure Identifier Code Sequence (Trial)"
-          },
-          {
             "code": "VerifyingObserverIdentificationCodeSequence",
             "display": "Verifying Observer Identification Code Sequence"
           },
           {
-            "code": "ObjectDirectoryBinaryIdentifierTrial",
-            "display": "Object Directory Binary Identifier (Trial)"
-          },
-          {
-            "code": "EquivalentCDADocumentSequence",
-            "display": "Equivalent CDA Document Sequence"
-          },
-          {
             "code": "ReferencedWaveformChannels",
             "display": "Referenced Waveform Channels"
-          },
-          {
-            "code": "DateOfDocumentOrVerbalTransactionTrial",
-            "display": "Date of Document or Verbal Transaction (Trial)"
-          },
-          {
-            "code": "TimeOfDocumentCreationOrVerbalTransactionTrial",
-            "display": "Time of Document Creation or Verbal Transaction (Trial)"
           },
           {
             "code": "DateTime",
@@ -10921,20 +9909,12 @@
             "display": "UID"
           },
           {
-            "code": "ReportStatusIDTrial",
-            "display": "Report Status ID (Trial)"
-          },
-          {
             "code": "TemporalRangeType",
             "display": "Temporal Range Type"
           },
           {
             "code": "ReferencedSamplePositions",
             "display": "Referenced Sample Positions"
-          },
-          {
-            "code": "ReferencedFrameNumbers",
-            "display": "Referenced Frame Numbers"
           },
           {
             "code": "ReferencedTimeOffsets",
@@ -10961,16 +9941,8 @@
             "display": "Rational Denominator Value"
           },
           {
-            "code": "ObservationCategoryCodeSequenceTrial",
-            "display": "Observation Category Code Sequence (Trial)"
-          },
-          {
             "code": "ConceptCodeSequence",
             "display": "Concept Code Sequence"
-          },
-          {
-            "code": "BibliographicCitationTrial",
-            "display": "Bibliographic Citation (Trial)"
           },
           {
             "code": "PurposeOfReferenceCodeSequence",
@@ -10981,56 +9953,12 @@
             "display": "Observation UID"
           },
           {
-            "code": "ReferencedObservationUIDTrial",
-            "display": "Referenced Observation UID (Trial)"
-          },
-          {
-            "code": "ReferencedObservationClassTrial",
-            "display": "Referenced Observation Class (Trial)"
-          },
-          {
-            "code": "ReferencedObjectObservationClassTrial",
-            "display": "Referenced Object Observation Class (Trial)"
-          },
-          {
             "code": "AnnotationGroupNumber",
             "display": "Annotation Group Number"
           },
           {
-            "code": "ObservationDateTrial",
-            "display": "Observation Date (Trial)"
-          },
-          {
-            "code": "ObservationTimeTrial",
-            "display": "Observation Time (Trial)"
-          },
-          {
-            "code": "MeasurementAutomationTrial",
-            "display": "Measurement Automation (Trial)"
-          },
-          {
             "code": "ModifierCodeSequence",
             "display": "Modifier Code Sequence"
-          },
-          {
-            "code": "IdentificationDescriptionTrial",
-            "display": "Identification Description (Trial)"
-          },
-          {
-            "code": "CoordinatesSetGeometricTypeTrial",
-            "display": "Coordinates Set Geometric Type (Trial)"
-          },
-          {
-            "code": "AlgorithmCodeSequenceTrial",
-            "display": "Algorithm Code Sequence (Trial)"
-          },
-          {
-            "code": "AlgorithmDescriptionTrial",
-            "display": "Algorithm Description (Trial)"
-          },
-          {
-            "code": "PixelCoordinatesSetTrial",
-            "display": "Pixel Coordinates Set (Trial)"
           },
           {
             "code": "MeasuredValueSequence",
@@ -11041,40 +9969,8 @@
             "display": "Numeric Value Qualifier Code Sequence"
           },
           {
-            "code": "CurrentObserverTrial",
-            "display": "Current Observer (Trial)"
-          },
-          {
             "code": "NumericValue",
             "display": "Numeric Value"
-          },
-          {
-            "code": "ReferencedAccessionSequenceTrial",
-            "display": "Referenced Accession Sequence (Trial)"
-          },
-          {
-            "code": "ReportStatusCommentTrial",
-            "display": "Report Status Comment (Trial)"
-          },
-          {
-            "code": "ProcedureContextSequenceTrial",
-            "display": "Procedure Context Sequence (Trial)"
-          },
-          {
-            "code": "VerbalSourceTrial",
-            "display": "Verbal Source (Trial)"
-          },
-          {
-            "code": "AddressTrial",
-            "display": "Address (Trial)"
-          },
-          {
-            "code": "TelephoneNumberTrial",
-            "display": "Telephone Number (Trial)"
-          },
-          {
-            "code": "VerbalSourceIdentifierCodeSequenceTrial",
-            "display": "Verbal Source Identifier Code Sequence (Trial)"
           },
           {
             "code": "PredecessorDocumentsSequence",
@@ -11093,28 +9989,12 @@
             "display": "Current Requested Procedure Evidence Sequence"
           },
           {
-            "code": "ReportDetailSequenceTrial",
-            "display": "Report Detail Sequence (Trial)"
-          },
-          {
             "code": "PertinentOtherEvidenceSequence",
             "display": "Pertinent Other Evidence Sequence"
           },
           {
             "code": "HL7StructuredDocumentReferenceSequence",
             "display": "HL7 Structured Document Reference Sequence"
-          },
-          {
-            "code": "ObservationSubjectUIDTrial",
-            "display": "Observation Subject UID (Trial)"
-          },
-          {
-            "code": "ObservationSubjectClassTrial",
-            "display": "Observation Subject Class (Trial)"
-          },
-          {
-            "code": "ObservationSubjectTypeCodeSequenceTrial",
-            "display": "Observation Subject Type Code Sequence (Trial)"
           },
           {
             "code": "CompletionFlag",
@@ -11145,32 +10025,8 @@
             "display": "Identical Documents Sequence"
           },
           {
-            "code": "ObservationSubjectContextFlagTrial",
-            "display": "Observation Subject Context Flag (Trial)"
-          },
-          {
-            "code": "ObserverContextFlagTrial",
-            "display": "Observer Context Flag (Trial)"
-          },
-          {
-            "code": "ProcedureContextFlagTrial",
-            "display": "Procedure Context Flag (Trial)"
-          },
-          {
             "code": "ContentSequence",
             "display": "Content Sequence"
-          },
-          {
-            "code": "RelationshipSequenceTrial",
-            "display": "Relationship Sequence (Trial)"
-          },
-          {
-            "code": "RelationshipTypeCodeSequenceTrial",
-            "display": "Relationship Type Code Sequence (Trial)"
-          },
-          {
-            "code": "LanguageCodeSequenceTrial",
-            "display": "Language Code Sequence (Trial)"
           },
           {
             "code": "TabulatedValuesSequence",
@@ -11203,10 +10059,6 @@
           {
             "code": "CellValuesSequence",
             "display": "Cell Values Sequence"
-          },
-          {
-            "code": "UniformResourceLocatorTrial",
-            "display": "Uniform Resource Locator (Trial)"
           },
           {
             "code": "WaveformAnnotationSequence",
@@ -11291,26 +10143,6 @@
           {
             "code": "TemplateIdentifier",
             "display": "Template Identifier"
-          },
-          {
-            "code": "TemplateVersion",
-            "display": "Template Version"
-          },
-          {
-            "code": "TemplateLocalVersion",
-            "display": "Template Local Version"
-          },
-          {
-            "code": "TemplateExtensionFlag",
-            "display": "Template Extension Flag"
-          },
-          {
-            "code": "TemplateExtensionOrganizationUID",
-            "display": "Template Extension Organization UID"
-          },
-          {
-            "code": "TemplateExtensionCreatorUID",
-            "display": "Template Extension Creator UID"
           },
           {
             "code": "ReferencedContentItemIdentifier",
@@ -11965,18 +10797,6 @@
             "display": "Palette Color Lookup Table Sequence"
           },
           {
-            "code": "ReferencedImageNavigationSequence",
-            "display": "Referenced Image Navigation Sequence"
-          },
-          {
-            "code": "TopLeftHandCornerOfLocalizerArea",
-            "display": "Top Left Hand Corner of Localizer Area"
-          },
-          {
-            "code": "BottomRightHandCornerOfLocalizerArea",
-            "display": "Bottom Right Hand Corner of Localizer Area"
-          },
-          {
             "code": "OpticalPathIdentificationSequence",
             "display": "Optical Path Identification Sequence"
           },
@@ -12497,14 +11317,6 @@
             "display": "Image Index"
           },
           {
-            "code": "CountsIncluded",
-            "display": "Counts Included"
-          },
-          {
-            "code": "DeadTimeCorrectionFlag",
-            "display": "Dead Time Correction Flag"
-          },
-          {
             "code": "HistogramSequence",
             "display": "Histogram Sequence"
           },
@@ -12761,18 +11573,6 @@
             "display": "Double Point Coordinates Data"
           },
           {
-            "code": "TrianglePointIndexList",
-            "display": "Triangle Point Index List"
-          },
-          {
-            "code": "EdgePointIndexList",
-            "display": "Edge Point Index List"
-          },
-          {
-            "code": "VertexPointIndexList",
-            "display": "Vertex Point Index List"
-          },
-          {
             "code": "TriangleStripSequence",
             "display": "Triangle Strip Sequence"
           },
@@ -12783,10 +11583,6 @@
           {
             "code": "LineSequence",
             "display": "Line Sequence"
-          },
-          {
-            "code": "PrimitivePointIndexList",
-            "display": "Primitive Point Index List"
           },
           {
             "code": "SurfaceCount",
@@ -13361,24 +12157,12 @@
             "display": "Graphic Filled"
           },
           {
-            "code": "ImageRotationRetired",
-            "display": "Image Rotation (Retired)"
-          },
-          {
             "code": "ImageHorizontalFlip",
             "display": "Image Horizontal Flip"
           },
           {
             "code": "ImageRotation",
             "display": "Image Rotation"
-          },
-          {
-            "code": "DisplayedAreaTopLeftHandCornerTrial",
-            "display": "Displayed Area Top Left Hand Corner (Trial)"
-          },
-          {
-            "code": "DisplayedAreaBottomRightHandCornerTrial",
-            "display": "Displayed Area Bottom Right Hand Corner (Trial)"
           },
           {
             "code": "DisplayedAreaTopLeftHandCorner",
@@ -13403,10 +12187,6 @@
           {
             "code": "GraphicLayerRecommendedDisplayGrayscaleValue",
             "display": "Graphic Layer Recommended Display Grayscale Value"
-          },
-          {
-            "code": "GraphicLayerRecommendedDisplayRGBValue",
-            "display": "Graphic Layer Recommended Display RGB Value"
           },
           {
             "code": "GraphicLayerDescription",
@@ -13765,10 +12545,6 @@
             "display": "Cropping Specification Index"
           },
           {
-            "code": "CompositingMethod",
-            "display": "Compositing Method"
-          },
-          {
             "code": "VolumetricPresentationInputNumber",
             "display": "Volumetric Presentation Input Number"
           },
@@ -13935,14 +12711,6 @@
           {
             "code": "WeightingTransferFunctionSequence",
             "display": "Weighting Transfer Function Sequence"
-          },
-          {
-            "code": "WeightingLookupTableDescriptor",
-            "display": "Weighting Lookup Table Descriptor"
-          },
-          {
-            "code": "WeightingLookupTableData",
-            "display": "Weighting Lookup Table Data"
           },
           {
             "code": "VolumetricAnnotationSequence",
@@ -14589,10 +13357,6 @@
             "display": "Beam Task Type"
           },
           {
-            "code": "BeamOrderIndexTrial",
-            "display": "Beam Order Index (Trial)"
-          },
-          {
             "code": "AutosequenceFlag",
             "display": "Autosequence Flag"
           },
@@ -14639,14 +13403,6 @@
           {
             "code": "DoubleExposureOrdering",
             "display": "Double Exposure Ordering"
-          },
-          {
-            "code": "DoubleExposureMetersetTrial",
-            "display": "Double Exposure Meterset (Trial)"
-          },
-          {
-            "code": "DoubleExposureFieldDeltaTrial",
-            "display": "Double Exposure Field Delta (Trial)"
           },
           {
             "code": "RelatedReferenceRTImageSequence",
@@ -14723,14 +13479,6 @@
           {
             "code": "UnifiedProcedureStepPerformedProcedureSequence",
             "display": "Unified Procedure Step Performed Procedure Sequence"
-          },
-          {
-            "code": "RelatedProcedureStepSequence",
-            "display": "Related Procedure Step Sequence"
-          },
-          {
-            "code": "ProcedureStepRelationshipType",
-            "display": "Procedure Step Relationship Type"
           },
           {
             "code": "ReplacedProcedureStepSequence",
@@ -15157,22 +13905,6 @@
             "display": "Icon Image Sequence"
           },
           {
-            "code": "TopicTitle",
-            "display": "Topic Title"
-          },
-          {
-            "code": "TopicSubject",
-            "display": "Topic Subject"
-          },
-          {
-            "code": "TopicAuthor",
-            "display": "Topic Author"
-          },
-          {
-            "code": "TopicKeywords",
-            "display": "Topic Keywords"
-          },
-          {
             "code": "SOPInstanceStatus",
             "display": "SOP Instance Status"
           },
@@ -15297,34 +14029,6 @@
             "display": "Instance Origin Status"
           },
           {
-            "code": "EscapeTriplet",
-            "display": "Escape Triplet"
-          },
-          {
-            "code": "RunLengthTriplet",
-            "display": "Run Length Triplet"
-          },
-          {
-            "code": "HuffmanTableSize",
-            "display": "Huffman Table Size"
-          },
-          {
-            "code": "HuffmanTableTriplet",
-            "display": "Huffman Table Triplet"
-          },
-          {
-            "code": "ShiftTableSize",
-            "display": "Shift Table Size"
-          },
-          {
-            "code": "ShiftTableTriplet",
-            "display": "Shift Table Triplet"
-          },
-          {
-            "code": "ZonalMap",
-            "display": "Zonal Map"
-          },
-          {
             "code": "NumberOfCopies",
             "display": "Number of Copies"
           },
@@ -15357,30 +14061,6 @@
             "display": "Maximum Memory Allocation"
           },
           {
-            "code": "ColorImagePrintingFlag",
-            "display": "Color Image Printing Flag"
-          },
-          {
-            "code": "CollationFlag",
-            "display": "Collation Flag"
-          },
-          {
-            "code": "AnnotationFlag",
-            "display": "Annotation Flag"
-          },
-          {
-            "code": "ImageOverlayFlag",
-            "display": "Image Overlay Flag"
-          },
-          {
-            "code": "PresentationLUTFlag",
-            "display": "Presentation LUT Flag"
-          },
-          {
-            "code": "ImageBoxPresentationLUTFlag",
-            "display": "Image Box Presentation LUT Flag"
-          },
-          {
             "code": "MemoryBitDepth",
             "display": "Memory Bit Depth"
           },
@@ -15403,10 +14083,6 @@
           {
             "code": "ReferencedFilmBoxSequence",
             "display": "Referenced Film Box Sequence"
-          },
-          {
-            "code": "ReferencedStoredPrintSequence",
-            "display": "Referenced Stored Print Sequence"
           },
           {
             "code": "ImageDisplayFormat",
@@ -15549,68 +14225,12 @@
             "display": "Basic Color Image Sequence"
           },
           {
-            "code": "ReferencedImageOverlayBoxSequence",
-            "display": "Referenced Image Overlay Box Sequence"
-          },
-          {
-            "code": "ReferencedVOILUTBoxSequence",
-            "display": "Referenced VOI LUT Box Sequence"
-          },
-          {
             "code": "AnnotationPosition",
             "display": "Annotation Position"
           },
           {
             "code": "TextString",
             "display": "Text String"
-          },
-          {
-            "code": "ReferencedOverlayPlaneSequence",
-            "display": "Referenced Overlay Plane Sequence"
-          },
-          {
-            "code": "ReferencedOverlayPlaneGroups",
-            "display": "Referenced Overlay Plane Groups"
-          },
-          {
-            "code": "OverlayPixelDataSequence",
-            "display": "Overlay Pixel Data Sequence"
-          },
-          {
-            "code": "OverlayMagnificationType",
-            "display": "Overlay Magnification Type"
-          },
-          {
-            "code": "OverlaySmoothingType",
-            "display": "Overlay Smoothing Type"
-          },
-          {
-            "code": "OverlayOrImageMagnification",
-            "display": "Overlay or Image Magnification"
-          },
-          {
-            "code": "MagnifyToNumberOfColumns",
-            "display": "Magnify to Number of Columns"
-          },
-          {
-            "code": "OverlayForegroundDensity",
-            "display": "Overlay Foreground Density"
-          },
-          {
-            "code": "OverlayBackgroundDensity",
-            "display": "Overlay Background Density"
-          },
-          {
-            "code": "OverlayMode",
-            "display": "Overlay Mode"
-          },
-          {
-            "code": "ThresholdDensity",
-            "display": "Threshold Density"
-          },
-          {
-            "code": "ReferencedImageBoxSequenceRetired",
-            "display": "Referenced Image Box Sequence (Retired)"
           },
           {
             "code": "PresentationLUTSequence",
@@ -15623,10 +14243,6 @@
           {
             "code": "ReferencedPresentationLUTSequence",
             "display": "Referenced Presentation LUT Sequence"
-          },
-          {
-            "code": "PrintJobID",
-            "display": "Print Job ID"
           },
           {
             "code": "ExecutionStatus",
@@ -15661,10 +14277,6 @@
             "display": "Number of Films"
           },
           {
-            "code": "ReferencedPrintJobSequencePullStoredPrint",
-            "display": "Referenced Print Job Sequence (Pull Stored Print)"
-          },
-          {
             "code": "PrinterStatus",
             "display": "Printer Status"
           },
@@ -15675,50 +14287,6 @@
           {
             "code": "PrinterName",
             "display": "Printer Name"
-          },
-          {
-            "code": "PrintQueueID",
-            "display": "Print Queue ID"
-          },
-          {
-            "code": "QueueStatus",
-            "display": "Queue Status"
-          },
-          {
-            "code": "PrintJobDescriptionSequence",
-            "display": "Print Job Description Sequence"
-          },
-          {
-            "code": "ReferencedPrintJobSequence",
-            "display": "Referenced Print Job Sequence"
-          },
-          {
-            "code": "PrintManagementCapabilitiesSequence",
-            "display": "Print Management Capabilities Sequence"
-          },
-          {
-            "code": "PrinterCharacteristicsSequence",
-            "display": "Printer Characteristics Sequence"
-          },
-          {
-            "code": "FilmBoxContentSequence",
-            "display": "Film Box Content Sequence"
-          },
-          {
-            "code": "ImageBoxContentSequence",
-            "display": "Image Box Content Sequence"
-          },
-          {
-            "code": "AnnotationContentSequence",
-            "display": "Annotation Content Sequence"
-          },
-          {
-            "code": "ImageOverlayBoxContentSequence",
-            "display": "Image Overlay Box Content Sequence"
-          },
-          {
-            "code": "PresentationLUTContentSequence",
-            "display": "Presentation LUT Content Sequence"
           },
           {
             "code": "ProposedStudySequence",
@@ -16149,10 +14717,6 @@
             "display": "Dose Grid Scaling"
           },
           {
-            "code": "RTDoseROISequence",
-            "display": "RT Dose ROI Sequence"
-          },
-          {
             "code": "DoseValue",
             "display": "Dose Value"
           },
@@ -16321,24 +14885,12 @@
             "display": "Contour Geometric Type"
           },
           {
-            "code": "ContourSlabThickness",
-            "display": "Contour Slab Thickness"
-          },
-          {
-            "code": "ContourOffsetVector",
-            "display": "Contour Offset Vector"
-          },
-          {
             "code": "NumberOfContourPoints",
             "display": "Number of Contour Points"
           },
           {
             "code": "ContourNumber",
             "display": "Contour Number"
-          },
-          {
-            "code": "AttachedContours",
-            "display": "Attached Contours"
           },
           {
             "code": "SourcePixelPlanesCharacteristicsSequence",
@@ -16381,16 +14933,8 @@
             "display": "Referenced ROI Number"
           },
           {
-            "code": "ROIObservationLabel",
-            "display": "ROI Observation Label"
-          },
-          {
             "code": "RTROIIdentificationCodeSequence",
             "display": "RT ROI Identification Code Sequence"
-          },
-          {
-            "code": "ROIObservationDescription",
-            "display": "ROI Observation Description"
           },
           {
             "code": "RelatedRTROIObservationsSequence",
@@ -16427,22 +14971,6 @@
           {
             "code": "ROIElementalCompositionAtomicMassFraction",
             "display": "ROI Elemental Composition Atomic Mass Fraction"
-          },
-          {
-            "code": "AdditionalRTROIIdentificationCodeSequence",
-            "display": "Additional RT ROI Identification Code Sequence"
-          },
-          {
-            "code": "FrameOfReferenceRelationshipSequence",
-            "display": "Frame of Reference Relationship Sequence"
-          },
-          {
-            "code": "RelatedFrameOfReferenceUID",
-            "display": "Related Frame of Reference UID"
-          },
-          {
-            "code": "FrameOfReferenceTransformationType",
-            "display": "Frame of Reference Transformation Type"
           },
           {
             "code": "FrameOfReferenceTransformationMatrix",
@@ -16503,10 +15031,6 @@
           {
             "code": "TreatmentTerminationStatus",
             "display": "Treatment Termination Status"
-          },
-          {
-            "code": "TreatmentTerminationCode",
-            "display": "Treatment Termination Code"
           },
           {
             "code": "TreatmentVerificationStatus",
@@ -16893,10 +15417,6 @@
             "display": "Plan Intent"
           },
           {
-            "code": "TreatmentSites",
-            "display": "Treatment Sites"
-          },
-          {
             "code": "RTPlanGeometry",
             "display": "RT Plan Geometry"
           },
@@ -17085,10 +15605,6 @@
             "display": "Number of Beams"
           },
           {
-            "code": "BeamDoseSpecificationPoint",
-            "display": "Beam Dose Specification Point"
-          },
-          {
             "code": "ReferencedDoseReferenceUID",
             "display": "Referenced Dose Reference UID"
           },
@@ -17119,18 +15635,6 @@
           {
             "code": "BeamDoseVerificationControlPointSequence",
             "display": "Beam Dose Verification Control Point Sequence"
-          },
-          {
-            "code": "AverageBeamDosePointDepth",
-            "display": "Average Beam Dose Point Depth"
-          },
-          {
-            "code": "AverageBeamDosePointEquivalentDepth",
-            "display": "Average Beam Dose Point Equivalent Depth"
-          },
-          {
-            "code": "AverageBeamDosePointSSD",
-            "display": "Average Beam Dose Point SSD"
           },
           {
             "code": "BeamDoseType",
@@ -18685,10 +17189,6 @@
             "display": "Referenced RT Instance Sequence"
           },
           {
-            "code": "ReferencedRTPatientSetupSequence",
-            "display": "Referenced RT Patient Setup Sequence"
-          },
-          {
             "code": "SourceToPatientSurfaceDistance",
             "display": "Source to Patient Surface Distance"
           },
@@ -18799,10 +17299,6 @@
           {
             "code": "ParallelRTBeamDelimiterLeafMountingSide",
             "display": "Parallel RT Beam Delimiter Leaf Mounting Side"
-          },
-          {
-            "code": "PatientSetupUID",
-            "display": "Patient Setup UID"
           },
           {
             "code": "WedgeDefinitionSequence",
@@ -20085,10 +18581,6 @@
             "display": "Treatment Site Modifier Code Sequence"
           },
           {
-            "code": "RoboticBaseLocationIndicator",
-            "display": "Robotic Base Location Indicator"
-          },
-          {
             "code": "RoboticPathNodeSetCodeSequence",
             "display": "Robotic Path Node Set Code Sequence"
           },
@@ -20131,126 +18623,6 @@
           {
             "code": "ConceptualVolumeIdentificationSequence",
             "display": "Conceptual Volume Identification Sequence"
-          },
-          {
-            "code": "Arbitrary",
-            "display": "Arbitrary"
-          },
-          {
-            "code": "TextComments",
-            "display": "Text Comments"
-          },
-          {
-            "code": "ResultsID",
-            "display": "Results ID"
-          },
-          {
-            "code": "ResultsIDIssuer",
-            "display": "Results ID Issuer"
-          },
-          {
-            "code": "ReferencedInterpretationSequence",
-            "display": "Referenced Interpretation Sequence"
-          },
-          {
-            "code": "ReportProductionStatusTrial",
-            "display": "Report Production Status (Trial)"
-          },
-          {
-            "code": "InterpretationRecordedDate",
-            "display": "Interpretation Recorded Date"
-          },
-          {
-            "code": "InterpretationRecordedTime",
-            "display": "Interpretation Recorded Time"
-          },
-          {
-            "code": "InterpretationRecorder",
-            "display": "Interpretation Recorder"
-          },
-          {
-            "code": "ReferenceToRecordedSound",
-            "display": "Reference to Recorded Sound"
-          },
-          {
-            "code": "InterpretationTranscriptionDate",
-            "display": "Interpretation Transcription Date"
-          },
-          {
-            "code": "InterpretationTranscriptionTime",
-            "display": "Interpretation Transcription Time"
-          },
-          {
-            "code": "InterpretationTranscriber",
-            "display": "Interpretation Transcriber"
-          },
-          {
-            "code": "InterpretationText",
-            "display": "Interpretation Text"
-          },
-          {
-            "code": "InterpretationAuthor",
-            "display": "Interpretation Author"
-          },
-          {
-            "code": "InterpretationApproverSequence",
-            "display": "Interpretation Approver Sequence"
-          },
-          {
-            "code": "InterpretationApprovalDate",
-            "display": "Interpretation Approval Date"
-          },
-          {
-            "code": "InterpretationApprovalTime",
-            "display": "Interpretation Approval Time"
-          },
-          {
-            "code": "PhysicianApprovingInterpretation",
-            "display": "Physician Approving Interpretation"
-          },
-          {
-            "code": "InterpretationDiagnosisDescription",
-            "display": "Interpretation Diagnosis Description"
-          },
-          {
-            "code": "InterpretationDiagnosisCodeSequence",
-            "display": "Interpretation Diagnosis Code Sequence"
-          },
-          {
-            "code": "ResultsDistributionListSequence",
-            "display": "Results Distribution List Sequence"
-          },
-          {
-            "code": "DistributionName",
-            "display": "Distribution Name"
-          },
-          {
-            "code": "DistributionAddress",
-            "display": "Distribution Address"
-          },
-          {
-            "code": "InterpretationID",
-            "display": "Interpretation ID"
-          },
-          {
-            "code": "InterpretationIDIssuer",
-            "display": "Interpretation ID Issuer"
-          },
-          {
-            "code": "InterpretationTypeID",
-            "display": "Interpretation Type ID"
-          },
-          {
-            "code": "InterpretationStatusID",
-            "display": "Interpretation Status ID"
-          },
-          {
-            "code": "Impressions",
-            "display": "Impressions"
-          },
-          {
-            "code": "ResultsComments",
-            "display": "Results Comments"
           },
           {
             "code": "LowEnergyDetectors",
@@ -20601,110 +18973,6 @@
             "display": "MAC Parameters Sequence"
           },
           {
-            "code": "CurveDimensions",
-            "display": "Curve Dimensions"
-          },
-          {
-            "code": "NumberOfPoints",
-            "display": "Number of Points"
-          },
-          {
-            "code": "TypeOfData",
-            "display": "Type of Data"
-          },
-          {
-            "code": "CurveDescription",
-            "display": "Curve Description"
-          },
-          {
-            "code": "AxisUnits",
-            "display": "Axis Units"
-          },
-          {
-            "code": "AxisLabels",
-            "display": "Axis Labels"
-          },
-          {
-            "code": "DataValueRepresentation",
-            "display": "Data Value Representation"
-          },
-          {
-            "code": "MinimumCoordinateValue",
-            "display": "Minimum Coordinate Value"
-          },
-          {
-            "code": "MaximumCoordinateValue",
-            "display": "Maximum Coordinate Value"
-          },
-          {
-            "code": "CurveRange",
-            "display": "Curve Range"
-          },
-          {
-            "code": "CurveDataDescriptor",
-            "display": "Curve Data Descriptor"
-          },
-          {
-            "code": "CoordinateStartValue",
-            "display": "Coordinate Start Value"
-          },
-          {
-            "code": "CoordinateStepValue",
-            "display": "Coordinate Step Value"
-          },
-          {
-            "code": "CurveActivationLayer",
-            "display": "Curve Activation Layer"
-          },
-          {
-            "code": "AudioType",
-            "display": "Audio Type"
-          },
-          {
-            "code": "AudioSampleFormat",
-            "display": "Audio Sample Format"
-          },
-          {
-            "code": "NumberOfChannels",
-            "display": "Number of Channels"
-          },
-          {
-            "code": "NumberOfSamples",
-            "display": "Number of Samples"
-          },
-          {
-            "code": "SampleRate",
-            "display": "Sample Rate"
-          },
-          {
-            "code": "TotalTime",
-            "display": "Total Time"
-          },
-          {
-            "code": "AudioSampleData",
-            "display": "Audio Sample Data"
-          },
-          {
-            "code": "AudioComments",
-            "display": "Audio Comments"
-          },
-          {
-            "code": "CurveLabel",
-            "display": "Curve Label"
-          },
-          {
-            "code": "CurveReferencedOverlaySequence",
-            "display": "Curve Referenced Overlay Sequence"
-          },
-          {
-            "code": "CurveReferencedOverlayGroup",
-            "display": "Curve Referenced Overlay Group"
-          },
-          {
-            "code": "CurveData",
-            "display": "Curve Data"
-          },
-          {
             "code": "SharedFunctionalGroupsSequence",
             "display": "Shared Functional Groups Sequence"
           },
@@ -20757,10 +19025,6 @@
             "display": "Overlay Columns"
           },
           {
-            "code": "OverlayPlanes",
-            "display": "Overlay Planes"
-          },
-          {
             "code": "NumberOfFramesInOverlay",
             "display": "Number of Frames in Overlay"
           },
@@ -20785,38 +19049,6 @@
             "display": "Image Frame Origin"
           },
           {
-            "code": "OverlayPlaneOrigin",
-            "display": "Overlay Plane Origin"
-          },
-          {
-            "code": "OverlayCompressionCode",
-            "display": "Overlay Compression Code"
-          },
-          {
-            "code": "OverlayCompressionOriginator",
-            "display": "Overlay Compression Originator"
-          },
-          {
-            "code": "OverlayCompressionLabel",
-            "display": "Overlay Compression Label"
-          },
-          {
-            "code": "OverlayCompressionDescription",
-            "display": "Overlay Compression Description"
-          },
-          {
-            "code": "OverlayCompressionStepPointers",
-            "display": "Overlay Compression Step Pointers"
-          },
-          {
-            "code": "OverlayRepeatInterval",
-            "display": "Overlay Repeat Interval"
-          },
-          {
-            "code": "OverlayBitsGrouped",
-            "display": "Overlay Bits Grouped"
-          },
-          {
             "code": "OverlayBitsAllocated",
             "display": "Overlay Bits Allocated"
           },
@@ -20825,64 +19057,8 @@
             "display": "Overlay Bit Position"
           },
           {
-            "code": "OverlayFormat",
-            "display": "Overlay Format"
-          },
-          {
-            "code": "OverlayLocation",
-            "display": "Overlay Location"
-          },
-          {
-            "code": "OverlayCodeLabel",
-            "display": "Overlay Code Label"
-          },
-          {
-            "code": "OverlayNumberOfTables",
-            "display": "Overlay Number of Tables"
-          },
-          {
-            "code": "OverlayCodeTableLocation",
-            "display": "Overlay Code Table Location"
-          },
-          {
-            "code": "OverlayBitsForCodeWord",
-            "display": "Overlay Bits For Code Word"
-          },
-          {
             "code": "OverlayActivationLayer",
             "display": "Overlay Activation Layer"
-          },
-          {
-            "code": "OverlayDescriptorGray",
-            "display": "Overlay Descriptor - Gray"
-          },
-          {
-            "code": "OverlayDescriptorRed",
-            "display": "Overlay Descriptor - Red"
-          },
-          {
-            "code": "OverlayDescriptorGreen",
-            "display": "Overlay Descriptor - Green"
-          },
-          {
-            "code": "OverlayDescriptorBlue",
-            "display": "Overlay Descriptor - Blue"
-          },
-          {
-            "code": "OverlaysGray",
-            "display": "Overlays - Gray"
-          },
-          {
-            "code": "OverlaysRed",
-            "display": "Overlays - Red"
-          },
-          {
-            "code": "OverlaysGreen",
-            "display": "Overlays - Green"
-          },
-          {
-            "code": "OverlaysBlue",
-            "display": "Overlays - Blue"
           },
           {
             "code": "ROIArea",
@@ -20903,10 +19079,6 @@
           {
             "code": "OverlayData",
             "display": "Overlay Data"
-          },
-          {
-            "code": "OverlayComments",
-            "display": "Overlay Comments"
           },
           {
             "code": "ExtendedOffsetTable",
@@ -20931,38 +19103,6 @@
           {
             "code": "PixelData",
             "display": "Pixel Data"
-          },
-          {
-            "code": "CoefficientsSDVN",
-            "display": "Coefficients SDVN"
-          },
-          {
-            "code": "CoefficientsSDHN",
-            "display": "Coefficients SDHN"
-          },
-          {
-            "code": "CoefficientsSDDN",
-            "display": "Coefficients SDDN"
-          },
-          {
-            "code": "VariablePixelData",
-            "display": "Variable Pixel Data"
-          },
-          {
-            "code": "VariableNextDataGroup",
-            "display": "Variable Next Data Group"
-          },
-          {
-            "code": "VariableCoefficientsSDVN",
-            "display": "Variable Coefficients SDVN"
-          },
-          {
-            "code": "VariableCoefficientsSDHN",
-            "display": "Variable Coefficients SDHN"
-          },
-          {
-            "code": "VariableCoefficientsSDDN",
-            "display": "Variable Coefficients SDDN"
           },
           {
             "code": "DigitalSignaturesSequence",

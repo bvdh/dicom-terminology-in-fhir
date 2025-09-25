@@ -1,0 +1,63 @@
+{
+    "resourceType": "ValueSet",
+    "id": "dicom-cid-9585",
+    "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-cid-9585",
+    "identifier": [
+        {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.2.840.10008.6.1.1547"
+        }
+    ],
+    "version": "20250907",
+    "name": "RTDoseCalculationAlgorithmFamily",
+    "status": "active",
+    "experimental": false,
+    "date": "2025-09-20",
+    "publisher": "NEMA MITA DICOM",
+    "description": "Transitive closure of CID 9585 RTDoseCalculationAlgorithmFamily",
+    "copyright": "\u00a9 2025 NEMA",
+    "compose": {
+        "include": [
+            {
+                "system": "http://dicom.nema.org/resources/ontology/DCM",
+                "concept": [
+                    {
+                        "code": "131324",
+                        "display": "Convolution Superposition"
+                    },
+                    {
+                        "code": "131320",
+                        "display": "Linear Boltzmann Transport Equation"
+                    },
+                    {
+                        "code": "131321",
+                        "display": "Pencil Beam Convolution"
+                    },
+                    {
+                        "code": "131322",
+                        "display": "TMR and OAR Ratios"
+                    },
+                    {
+                        "code": "131323",
+                        "display": "AAPM TG-43"
+                    }
+                ]
+            },
+            {
+                "system": "http://www.nlm.nih.gov/mesh/meshhome.html",
+                "concept": [
+                    {
+                        "code": "D009010",
+                        "display": "Monte Carlo Method"
+                    }
+                ]
+            }
+        ]
+    },
+    "title": "RTDoseCalculationAlgorithmFamily",
+    "versionAlgorithmCoding": {
+        "system": "http://hl7.org/fhir/version-algorithm",
+        "code": "date",
+        "display": "Date"
+    }
+}

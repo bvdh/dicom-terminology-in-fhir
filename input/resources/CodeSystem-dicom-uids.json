@@ -6,7 +6,7 @@
   "id": "dicom-uids",
   "title": "DICOM® Unique Identifiers",
   "description": "DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1.",
-  "url": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-uids",
+  "url": "http://dicom.nema.org/resources/CodeSystem//CodeSystem/dicom-uids",
   "concept": [
     {
       "code": "1.2.840.10008.1.1",
@@ -23,7 +23,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -42,7 +42,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -61,7 +61,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -80,7 +80,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -99,26 +99,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.2",
-      "display": "Explicit VR Big Endian (Retired)",
-      "definition": "Explicit VR Big Endian (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "ExplicitVRBigEndian"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -137,7 +118,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -156,102 +137,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.4.52",
-      "display": "JPEG Extended (Process 3 & 5) (Retired)",
-      "definition": "JPEG Extended (Process 3 & 5) (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "JPEGExtended35"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.5"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.4.53",
-      "display": "JPEG Spectral Selection, Non-Hierarchical (Process 6 & 8) (Retired)",
-      "definition": "JPEG Spectral Selection, Non-Hierarchical (Process 6 & 8) (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "JPEGSpectralSelectionNonHierarchical68"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.5"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.4.54",
-      "display": "JPEG Spectral Selection, Non-Hierarchical (Process 7 & 9) (Retired)",
-      "definition": "JPEG Spectral Selection, Non-Hierarchical (Process 7 & 9) (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "JPEGSpectralSelectionNonHierarchical79"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.5"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.4.55",
-      "display": "JPEG Full Progression, Non-Hierarchical (Process 10 & 12) (Retired)",
-      "definition": "JPEG Full Progression, Non-Hierarchical (Process 10 & 12) (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "JPEGFullProgressionNonHierarchical1012"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.5"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.4.56",
-      "display": "JPEG Full Progression, Non-Hierarchical (Process 11 & 13) (Retired)",
-      "definition": "JPEG Full Progression, Non-Hierarchical (Process 11 & 13) (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "JPEGFullProgressionNonHierarchical1113"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -270,178 +156,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.4.58",
-      "display": "JPEG Lossless, Non-Hierarchical (Process 15) (Retired)",
-      "definition": "JPEG Lossless, Non-Hierarchical (Process 15) (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "JPEGLosslessNonHierarchical15"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.5"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.4.59",
-      "display": "JPEG Extended, Hierarchical (Process 16 & 18) (Retired)",
-      "definition": "JPEG Extended, Hierarchical (Process 16 & 18) (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "JPEGExtendedHierarchical1618"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.5"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.4.60",
-      "display": "JPEG Extended, Hierarchical (Process 17 & 19) (Retired)",
-      "definition": "JPEG Extended, Hierarchical (Process 17 & 19) (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "JPEGExtendedHierarchical1719"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.5"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.4.61",
-      "display": "JPEG Spectral Selection, Hierarchical (Process 20 & 22) (Retired)",
-      "definition": "JPEG Spectral Selection, Hierarchical (Process 20 & 22) (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "JPEGSpectralSelectionHierarchical2022"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.5"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.4.62",
-      "display": "JPEG Spectral Selection, Hierarchical (Process 21 & 23) (Retired)",
-      "definition": "JPEG Spectral Selection, Hierarchical (Process 21 & 23) (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "JPEGSpectralSelectionHierarchical2123"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.5"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.4.63",
-      "display": "JPEG Full Progression, Hierarchical (Process 24 & 26) (Retired)",
-      "definition": "JPEG Full Progression, Hierarchical (Process 24 & 26) (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "JPEGFullProgressionHierarchical2426"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.5"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.4.64",
-      "display": "JPEG Full Progression, Hierarchical (Process 25 & 27) (Retired)",
-      "definition": "JPEG Full Progression, Hierarchical (Process 25 & 27) (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "JPEGFullProgressionHierarchical2527"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.5"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.4.65",
-      "display": "JPEG Lossless, Hierarchical (Process 28) (Retired)",
-      "definition": "JPEG Lossless, Hierarchical (Process 28) (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "JPEGLosslessHierarchical28"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.5"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.4.66",
-      "display": "JPEG Lossless, Hierarchical (Process 29) (Retired)",
-      "definition": "JPEG Lossless, Hierarchical (Process 29) (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "JPEGLosslessHierarchical29"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -460,7 +175,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -479,7 +194,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -498,7 +213,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -517,7 +232,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -536,7 +251,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -555,7 +270,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -574,7 +289,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -593,7 +308,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -612,7 +327,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -631,7 +346,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -650,7 +365,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -669,7 +384,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -688,7 +403,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -707,7 +422,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -726,7 +441,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -745,7 +460,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -764,7 +479,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -783,7 +498,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -802,7 +517,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -821,7 +536,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -840,7 +555,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -859,7 +574,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -878,7 +593,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -897,7 +612,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -916,7 +631,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -935,7 +650,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -954,7 +669,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -973,7 +688,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -992,7 +707,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -1011,7 +726,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -1030,7 +745,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -1049,7 +764,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -1068,7 +783,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -1087,45 +802,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.6.1",
-      "display": "RFC 2557 MIME encapsulation (Retired)",
-      "definition": "RFC 2557 MIME encapsulation (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "RFC2557MIMEEncapsulation"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.10"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.2.6.2",
-      "display": "XML Encoding (Retired)",
-      "definition": "XML Encoding (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "XMLEncoding"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.10"
+          "valueString": ""
         }
       ]
     },
@@ -1144,7 +821,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -1163,7 +840,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -1182,7 +859,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -1201,7 +878,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.5"
+          "valueString": ""
         }
       ]
     },
@@ -1220,7 +897,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -1239,7 +916,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.6"
+          "valueString": ""
         }
       ]
     },
@@ -1258,7 +935,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.6"
+          "valueString": ""
         }
       ]
     },
@@ -1277,7 +954,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.6"
+          "valueString": ""
         }
       ]
     },
@@ -1296,7 +973,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.6"
+          "valueString": ""
         }
       ]
     },
@@ -1315,7 +992,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.6"
+          "valueString": ""
         }
       ]
     },
@@ -1334,7 +1011,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.6"
+          "valueString": ""
         }
       ]
     },
@@ -1353,7 +1030,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.6"
+          "valueString": ""
         }
       ]
     },
@@ -1372,45 +1049,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.6"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.9",
-      "display": "Basic Study Content Notification SOP Class (Retired)",
-      "definition": "Basic Study Content Notification SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "BasicStudyContentNotification"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.20",
-      "display": "Papyrus 3 Implicit VR Little Endian (Retired)",
-      "definition": "Papyrus 3 Implicit VR Little Endian (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "Papyrus3ImplicitVRLittleEndian"
-        },
-        {
-          "code": "type",
-          "valueString": "Transfer Syntax"
-        },
-        {
-          "code": "part",
-          "valueString": "(2015c)"
+          "valueString": ""
         }
       ]
     },
@@ -1429,7 +1068,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -1448,45 +1087,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.20.2",
-      "display": "Storage Commitment Pull Model SOP Class (Retired)",
-      "definition": "Storage Commitment Pull Model SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "StorageCommitmentPullModel"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.1.20.2.1",
-      "display": "Storage Commitment Pull Model SOP Instance (Retired)",
-      "definition": "Storage Commitment Pull Model SOP Instance (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "StorageCommitmentPullModelInstance"
-        },
-        {
-          "code": "type",
-          "valueString": "Well-known SOP Instance"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -1505,7 +1106,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -1524,7 +1125,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -1543,7 +1144,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -1562,7 +1163,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -1581,7 +1182,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.6"
+          "valueString": ""
         }
       ]
     },
@@ -1600,7 +1201,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.16"
+          "valueString": ""
         }
       ]
     },
@@ -1619,7 +1220,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.16"
+          "valueString": ""
         }
       ]
     },
@@ -1638,7 +1239,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.16"
+          "valueString": ""
         }
       ]
     },
@@ -1657,7 +1258,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.16"
+          "valueString": ""
         }
       ]
     },
@@ -1676,7 +1277,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.16"
+          "valueString": ""
         }
       ]
     },
@@ -1695,7 +1296,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.16"
+          "valueString": ""
         }
       ]
     },
@@ -1714,7 +1315,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.16"
+          "valueString": ""
         }
       ]
     },
@@ -1733,7 +1334,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.16"
+          "valueString": ""
         }
       ]
     },
@@ -1752,7 +1353,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.16"
+          "valueString": ""
         }
       ]
     },
@@ -1771,7 +1372,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.16"
+          "valueString": ""
         }
       ]
     },
@@ -1790,7 +1391,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.16"
+          "valueString": ""
         }
       ]
     },
@@ -1809,7 +1410,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.16"
+          "valueString": ""
         }
       ]
     },
@@ -1828,7 +1429,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.16"
+          "valueString": ""
         }
       ]
     },
@@ -1847,7 +1448,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.16"
+          "valueString": ""
         }
       ]
     },
@@ -1866,7 +1467,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.16"
+          "valueString": ""
         }
       ]
     },
@@ -1885,102 +1486,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.7"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.3.1.2.1.1",
-      "display": "Detached Patient Management SOP Class (Retired)",
-      "definition": "Detached Patient Management SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "DetachedPatientManagement"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.3.1.2.1.4",
-      "display": "Detached Patient Management Meta SOP Class (Retired)",
-      "definition": "Detached Patient Management Meta SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "DetachedPatientManagementMeta"
-        },
-        {
-          "code": "type",
-          "valueString": "Meta SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.3.1.2.2.1",
-      "display": "Detached Visit Management SOP Class (Retired)",
-      "definition": "Detached Visit Management SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "DetachedVisitManagement"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.3.1.2.3.1",
-      "display": "Detached Study Management SOP Class (Retired)",
-      "definition": "Detached Study Management SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "DetachedStudyManagement"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.3.1.2.3.2",
-      "display": "Study Component Management SOP Class (Retired)",
-      "definition": "Study Component Management SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "StudyComponentManagement"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -1999,7 +1505,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2018,7 +1524,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2037,83 +1543,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.3.1.2.5.1",
-      "display": "Detached Results Management SOP Class (Retired)",
-      "definition": "Detached Results Management SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "DetachedResultsManagement"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.3.1.2.5.4",
-      "display": "Detached Results Management Meta SOP Class (Retired)",
-      "definition": "Detached Results Management Meta SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "DetachedResultsManagementMeta"
-        },
-        {
-          "code": "type",
-          "valueString": "Meta SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.3.1.2.5.5",
-      "display": "Detached Study Management Meta SOP Class (Retired)",
-      "definition": "Detached Study Management Meta SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "DetachedStudyManagementMeta"
-        },
-        {
-          "code": "type",
-          "valueString": "Meta SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.3.1.2.6.1",
-      "display": "Detached Interpretation Management SOP Class (Retired)",
-      "definition": "Detached Interpretation Management SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "DetachedInterpretationManagement"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2132,7 +1562,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2151,7 +1581,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2170,7 +1600,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2189,7 +1619,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2208,26 +1638,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.1.4.2",
-      "display": "Referenced Image Box SOP Class (Retired)",
-      "definition": "Referenced Image Box SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "ReferencedImageBox"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2246,26 +1657,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.1.9.1",
-      "display": "Referenced Grayscale Print Management Meta SOP Class (Retired)",
-      "definition": "Referenced Grayscale Print Management Meta SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "ReferencedGrayscalePrintManagementMeta"
-        },
-        {
-          "code": "type",
-          "valueString": "Meta SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2284,7 +1676,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2303,7 +1695,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2322,7 +1714,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2341,7 +1733,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2360,7 +1752,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2379,7 +1771,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2398,26 +1790,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.1.18.1",
-      "display": "Referenced Color Print Management Meta SOP Class (Retired)",
-      "definition": "Referenced Color Print Management Meta SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "ReferencedColorPrintManagementMeta"
-        },
-        {
-          "code": "type",
-          "valueString": "Meta SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2436,7 +1809,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2455,178 +1828,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.1.24",
-      "display": "Image Overlay Box SOP Class (Retired)",
-      "definition": "Image Overlay Box SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "ImageOverlayBox"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.1.24.1",
-      "display": "Basic Print Image Overlay Box SOP Class (Retired)",
-      "definition": "Basic Print Image Overlay Box SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "BasicPrintImageOverlayBox"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.1.25",
-      "display": "Print Queue SOP Instance (Retired)",
-      "definition": "Print Queue SOP Instance (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "PrintQueueInstance"
-        },
-        {
-          "code": "type",
-          "valueString": "Well-known SOP Instance"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.1.26",
-      "display": "Print Queue Management SOP Class (Retired)",
-      "definition": "Print Queue Management SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "PrintQueueManagement"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.1.27",
-      "display": "Stored Print Storage SOP Class (Retired)",
-      "definition": "Stored Print Storage SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "StoredPrintStorage"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.1.29",
-      "display": "Hardcopy Grayscale Image Storage SOP Class (Retired)",
-      "definition": "Hardcopy Grayscale Image Storage SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "HardcopyGrayscaleImageStorage"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.1.30",
-      "display": "Hardcopy Color Image Storage SOP Class (Retired)",
-      "definition": "Hardcopy Color Image Storage SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "HardcopyColorImageStorage"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.1.31",
-      "display": "Pull Print Request SOP Class (Retired)",
-      "definition": "Pull Print Request SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "PullPrintRequest"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.1.32",
-      "display": "Pull Stored Print Management Meta SOP Class (Retired)",
-      "definition": "Pull Stored Print Management Meta SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "PullStoredPrintManagementMeta"
-        },
-        {
-          "code": "type",
-          "valueString": "Meta SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2645,7 +1847,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2664,7 +1866,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2683,7 +1885,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2702,7 +1904,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2721,7 +1923,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2740,7 +1942,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2759,7 +1961,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2778,7 +1980,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2797,7 +1999,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2816,7 +2018,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2835,7 +2037,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2854,7 +2056,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2873,26 +2075,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.3",
-      "display": "Ultrasound Multi-frame Image Storage (Retired)",
-      "definition": "Ultrasound Multi-frame Image Storage (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "UltrasoundMultiFrameImageStorageRetired"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2911,7 +2094,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2930,7 +2113,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2949,7 +2132,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2968,7 +2151,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -2987,7 +2170,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3006,45 +2189,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.5",
-      "display": "Nuclear Medicine Image Storage (Retired)",
-      "definition": "Nuclear Medicine Image Storage (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "NuclearMedicineImageStorageRetired"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.6",
-      "display": "Ultrasound Image Storage (Retired)",
-      "definition": "Ultrasound Image Storage (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "UltrasoundImageStorageRetired"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3063,7 +2208,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3082,7 +2227,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3101,7 +2246,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3120,7 +2265,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3139,7 +2284,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3158,7 +2303,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3177,7 +2322,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3196,64 +2341,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.8",
-      "display": "Standalone Overlay Storage (Retired)",
-      "definition": "Standalone Overlay Storage (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "StandaloneOverlayStorage"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.9",
-      "display": "Standalone Curve Storage (Retired)",
-      "definition": "Standalone Curve Storage (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "StandaloneCurveStorage"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.9.1",
-      "display": "Waveform Storage - Trial (Retired)",
-      "definition": "Waveform Storage - Trial (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "WaveformStorageTrial"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3272,7 +2360,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3291,7 +2379,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3310,7 +2398,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3329,7 +2417,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3348,7 +2436,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3367,7 +2455,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3386,7 +2474,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3405,7 +2493,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3424,7 +2512,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3443,7 +2531,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3462,7 +2550,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3481,7 +2569,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3500,7 +2588,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3519,7 +2607,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3538,7 +2626,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3557,7 +2645,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3576,7 +2664,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3595,45 +2683,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.10",
-      "display": "Standalone Modality LUT Storage (Retired)",
-      "definition": "Standalone Modality LUT Storage (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "StandaloneModalityLUTStorage"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.11",
-      "display": "Standalone VOI LUT Storage (Retired)",
-      "definition": "Standalone VOI LUT Storage (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "StandaloneVOILUTStorage"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3652,7 +2702,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3671,7 +2721,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3690,7 +2740,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3709,7 +2759,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3728,7 +2778,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3747,7 +2797,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3766,7 +2816,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3785,7 +2835,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3804,7 +2854,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3823,7 +2873,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3842,7 +2892,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3861,7 +2911,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3880,7 +2930,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3899,7 +2949,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3918,7 +2968,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -3937,45 +2987,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.12.3",
-      "display": "X-Ray Angiographic Bi-Plane Image Storage (Retired)",
-      "definition": "X-Ray Angiographic Bi-Plane Image Storage (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "XRayAngiographicBiPlaneImageStorage"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.12.77",
-      "display": "(Retired)",
-      "definition": "(Retired)",
-      "property": [
-        {
-          "code": "keyword",
           "valueString": ""
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "(2015c)"
         }
       ]
     },
@@ -3994,7 +3006,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4013,7 +3025,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4032,7 +3044,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4051,7 +3063,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4070,7 +3082,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4089,7 +3101,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4108,7 +3120,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4127,7 +3139,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4146,26 +3158,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.40",
-      "display": "(Retired)",
-      "definition": "(Retired)",
-      "property": [
-        {
-          "code": "keyword",
           "valueString": ""
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "(2015c)"
         }
       ]
     },
@@ -4184,7 +3177,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4203,7 +3196,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4222,7 +3215,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4241,7 +3234,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4260,7 +3253,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4279,7 +3272,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4298,7 +3291,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4317,7 +3310,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4336,7 +3329,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4355,7 +3348,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4374,7 +3367,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4393,45 +3386,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.77.1",
-      "display": "VL Image Storage - Trial (Retired)",
-      "definition": "VL Image Storage - Trial (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "VLImageStorageTrial"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.77.2",
-      "display": "VL Multi-frame Image Storage - Trial (Retired)",
-      "definition": "VL Multi-frame Image Storage - Trial (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "VLMultiFrameImageStorageTrial"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4450,7 +3405,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4469,7 +3424,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4488,7 +3443,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4507,7 +3462,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4526,7 +3481,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4545,7 +3500,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4564,7 +3519,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4583,7 +3538,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4602,7 +3557,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4621,7 +3576,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4640,7 +3595,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4659,7 +3614,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4678,7 +3633,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4697,7 +3652,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4716,7 +3671,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4735,7 +3690,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4754,7 +3709,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4773,7 +3728,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4792,7 +3747,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4811,7 +3766,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4830,7 +3785,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4849,7 +3804,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4868,7 +3823,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4887,7 +3842,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4906,7 +3861,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4925,7 +3880,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4944,7 +3899,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4963,7 +3918,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -4982,7 +3937,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5001,7 +3956,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5020,83 +3975,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.88.1",
-      "display": "Text SR Storage - Trial (Retired)",
-      "definition": "Text SR Storage - Trial (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "TextSRStorageTrial"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.88.2",
-      "display": "Audio SR Storage - Trial (Retired)",
-      "definition": "Audio SR Storage - Trial (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "AudioSRStorageTrial"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.88.3",
-      "display": "Detail SR Storage - Trial (Retired)",
-      "definition": "Detail SR Storage - Trial (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "DetailSRStorageTrial"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.88.4",
-      "display": "Comprehensive SR Storage - Trial (Retired)",
-      "definition": "Comprehensive SR Storage - Trial (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "ComprehensiveSRStorageTrial"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5115,7 +3994,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5134,7 +4013,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5153,7 +4032,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5172,7 +4051,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5191,7 +4070,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5210,7 +4089,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5229,7 +4108,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5248,7 +4127,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5267,7 +4146,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5286,7 +4165,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5305,7 +4184,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5324,7 +4203,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5343,7 +4222,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5362,7 +4241,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5381,7 +4260,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5400,7 +4279,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5419,7 +4298,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5438,7 +4317,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5457,7 +4336,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5476,7 +4355,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5495,7 +4374,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5514,7 +4393,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5533,7 +4412,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5552,7 +4431,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5571,7 +4450,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5590,7 +4469,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5609,7 +4488,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5628,7 +4507,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5647,26 +4526,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.1.129",
-      "display": "Standalone PET Curve Storage (Retired)",
-      "definition": "Standalone PET Curve Storage (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "StandalonePETCurveStorage"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5685,7 +4545,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5704,7 +4564,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5723,7 +4583,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5742,7 +4602,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5761,7 +4621,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5780,7 +4640,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5799,7 +4659,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5818,7 +4678,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5837,7 +4697,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5856,7 +4716,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5875,7 +4735,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5894,7 +4754,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5913,7 +4773,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5932,7 +4792,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5951,7 +4811,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5970,7 +4830,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -5989,7 +4849,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6008,7 +4868,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6027,7 +4887,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6046,7 +4906,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6065,7 +4925,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6084,7 +4944,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6103,7 +4963,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6122,7 +4982,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6141,7 +5001,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6160,7 +5020,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6179,7 +5039,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6198,7 +5058,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6217,7 +5077,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6236,7 +5096,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6255,7 +5115,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6274,7 +5134,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6293,7 +5153,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6312,7 +5172,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6331,7 +5191,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6350,7 +5210,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6369,7 +5229,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6388,7 +5248,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6407,7 +5267,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6426,7 +5286,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6445,7 +5305,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6464,7 +5324,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6711,7 +5571,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6730,7 +5590,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6749,7 +5609,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6768,7 +5628,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6787,7 +5647,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6806,64 +5666,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.2.3.1",
-      "display": "Patient/Study Only Query/Retrieve Information Model - FIND (Retired)",
-      "definition": "Patient/Study Only Query/Retrieve Information Model - FIND (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "PatientStudyOnlyQueryRetrieveInformationModelFind"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.2.3.2",
-      "display": "Patient/Study Only Query/Retrieve Information Model - MOVE (Retired)",
-      "definition": "Patient/Study Only Query/Retrieve Information Model - MOVE (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "PatientStudyOnlyQueryRetrieveInformationModelMove"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.1.2.3.3",
-      "display": "Patient/Study Only Query/Retrieve Information Model - GET (Retired)",
-      "definition": "Patient/Study Only Query/Retrieve Information Model - GET (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "PatientStudyOnlyQueryRetrieveInformationModelGet"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6882,7 +5685,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6901,7 +5704,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6920,7 +5723,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6939,7 +5742,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6958,7 +5761,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6977,7 +5780,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -6996,83 +5799,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.32",
-      "display": "General Purpose Worklist Management Meta SOP Class (Retired)",
-      "definition": "General Purpose Worklist Management Meta SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "GeneralPurposeWorklistManagementMeta"
-        },
-        {
-          "code": "type",
-          "valueString": "Meta SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.32.1",
-      "display": "General Purpose Worklist Information Model - FIND (Retired)",
-      "definition": "General Purpose Worklist Information Model - FIND (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "GeneralPurposeWorklistInformationModelFind"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.32.2",
-      "display": "General Purpose Scheduled Procedure Step SOP Class (Retired)",
-      "definition": "General Purpose Scheduled Procedure Step SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "GeneralPurposeScheduledProcedureStep"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.32.3",
-      "display": "General Purpose Performed Procedure Step SOP Class (Retired)",
-      "definition": "General Purpose Performed Procedure Step SOP Class (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "GeneralPurposePerformedProcedureStep"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7091,159 +5818,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.34.1",
-      "display": "RT Beams Delivery Instruction Storage - Trial (Retired)",
-      "definition": "RT Beams Delivery Instruction Storage - Trial (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "RTBeamsDeliveryInstructionStorageTrial"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.34.2",
-      "display": "RT Conventional Machine Verification - Trial (Retired)",
-      "definition": "RT Conventional Machine Verification - Trial (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "RTConventionalMachineVerificationTrial"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.34.3",
-      "display": "RT Ion Machine Verification - Trial (Retired)",
-      "definition": "RT Ion Machine Verification - Trial (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "RTIonMachineVerificationTrial"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.34.4",
-      "display": "Unified Worklist and Procedure Step Service Class - Trial (Retired)",
-      "definition": "Unified Worklist and Procedure Step Service Class - Trial (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "UnifiedWorklistAndProcedureStepTrial"
-        },
-        {
-          "code": "type",
-          "valueString": "Service Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.34.4.1",
-      "display": "Unified Procedure Step - Push SOP Class - Trial (Retired)",
-      "definition": "Unified Procedure Step - Push SOP Class - Trial (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "UnifiedProcedureStepPushTrial"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.34.4.2",
-      "display": "Unified Procedure Step - Watch SOP Class - Trial (Retired)",
-      "definition": "Unified Procedure Step - Watch SOP Class - Trial (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "UnifiedProcedureStepWatchTrial"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.34.4.3",
-      "display": "Unified Procedure Step - Pull SOP Class - Trial (Retired)",
-      "definition": "Unified Procedure Step - Pull SOP Class - Trial (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "UnifiedProcedureStepPullTrial"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
-        }
-      ]
-    },
-    {
-      "code": "1.2.840.10008.5.1.4.34.4.4",
-      "display": "Unified Procedure Step - Event SOP Class - Trial (Retired)",
-      "definition": "Unified Procedure Step - Event SOP Class - Trial (Retired)",
-      "property": [
-        {
-          "code": "keyword",
-          "valueString": "UnifiedProcedureStepEventTrial"
-        },
-        {
-          "code": "type",
-          "valueString": "SOP Class"
-        },
-        {
-          "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7262,7 +5837,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7281,7 +5856,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7300,7 +5875,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7319,7 +5894,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7338,7 +5913,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7357,7 +5932,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7376,7 +5951,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7395,7 +5970,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7414,7 +5989,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7433,7 +6008,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7452,7 +6027,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7471,7 +6046,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7490,7 +6065,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7509,7 +6084,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7528,7 +6103,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7547,7 +6122,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7566,7 +6141,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7585,7 +6160,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7604,7 +6179,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7623,7 +6198,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7642,7 +6217,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7661,7 +6236,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7680,7 +6255,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7699,7 +6274,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7718,7 +6293,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7737,7 +6312,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7756,7 +6331,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7775,7 +6350,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7794,7 +6369,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7813,7 +6388,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7832,7 +6407,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7851,7 +6426,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7870,7 +6445,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7889,7 +6464,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7908,7 +6483,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7927,7 +6502,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7946,7 +6521,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.4"
+          "valueString": ""
         }
       ]
     },
@@ -7965,7 +6540,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.19"
+          "valueString": ""
         }
       ]
     },
@@ -7984,7 +6559,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.19"
+          "valueString": ""
         }
       ]
     },
@@ -8003,7 +6578,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.16"
+          "valueString": ""
         }
       ]
     },
@@ -8022,7 +6597,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.22"
+          "valueString": ""
         }
       ]
     },
@@ -8041,7 +6616,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.22"
+          "valueString": ""
         }
       ]
     },
@@ -8060,7 +6635,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.22"
+          "valueString": ""
         }
       ]
     },
@@ -8079,7 +6654,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.22"
+          "valueString": ""
         }
       ]
     },
@@ -8098,7 +6673,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8117,7 +6692,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8136,7 +6711,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8155,7 +6730,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8174,7 +6749,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8193,7 +6768,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8212,7 +6787,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8231,7 +6806,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8250,7 +6825,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8269,7 +6844,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8288,7 +6863,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8307,7 +6882,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8326,7 +6901,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8345,7 +6920,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8364,7 +6939,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8383,7 +6958,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8402,7 +6977,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8421,7 +6996,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8440,7 +7015,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8459,7 +7034,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8478,7 +7053,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8497,7 +7072,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8516,7 +7091,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8535,7 +7110,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8554,7 +7129,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8573,7 +7148,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8592,7 +7167,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8611,7 +7186,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8630,7 +7205,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8649,7 +7224,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8668,7 +7243,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8687,7 +7262,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8706,7 +7281,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8725,7 +7300,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8744,7 +7319,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8763,7 +7338,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8782,7 +7357,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8801,7 +7376,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8820,7 +7395,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.15"
+          "valueString": ""
         }
       ]
     },
@@ -8839,7 +7414,7 @@
         },
         {
           "code": "part",
-          "valueString": "PS3.3"
+          "valueString": ""
         }
       ]
     }
@@ -8868,5 +7443,5 @@
       "type": "boolean"
     }
   ],
-  "count": 465
+  "count": 390
 }

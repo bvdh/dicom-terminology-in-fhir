@@ -6,7 +6,7 @@
   "id": "dicom-uids-frame-of-reference",
   "title": "DICOM® Well-known Frames of Reference",
   "description": "DICOM® Well-known Frames of Reference from DICOM PS3.6 Table A-2.",
-  "url": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-uids-frame-of-reference",
+  "url": "http://dicom.nema.org/resources/CodeSystem//CodeSystem/dicom-uids-frame-of-reference",
   "concept": [
     {
       "code": "1.2.840.10008.1.4.1.1",
@@ -22,7 +22,7 @@
     {
       "code": "1.2.840.10008.1.4.1.2",
       "display": "SPM2 T1 Frame of Reference",
-      "definition": "SPM2 T1 Frame of Reference (SPM2T1) from http://github.com/spm/spm2/blob/master/templates/T1.mnchttp://github.com/spm/spm2/blob/master/templates/T1.mnc?raw=true",
+      "definition": "SPM2 T1 Frame of Reference (SPM2T1) from",
       "property": [
         {
           "code": "keyword",
@@ -33,7 +33,7 @@
     {
       "code": "1.2.840.10008.1.4.1.3",
       "display": "SPM2 T2 Frame of Reference",
-      "definition": "SPM2 T2 Frame of Reference (SPM2T2) from http://github.com/spm/spm2/blob/master/templates/T2.mnchttp://github.com/spm/spm2/blob/master/templates/T2.mnc?raw=true",
+      "definition": "SPM2 T2 Frame of Reference (SPM2T2) from",
       "property": [
         {
           "code": "keyword",
@@ -44,7 +44,7 @@
     {
       "code": "1.2.840.10008.1.4.1.4",
       "display": "SPM2 PD Frame of Reference",
-      "definition": "SPM2 PD Frame of Reference (SPM2PD) from http://github.com/spm/spm2/blob/master/templates/PD.mnchttp://github.com/spm/spm2/blob/master/templates/PD.mnc?raw=true",
+      "definition": "SPM2 PD Frame of Reference (SPM2PD) from",
       "property": [
         {
           "code": "keyword",
@@ -55,7 +55,7 @@
     {
       "code": "1.2.840.10008.1.4.1.5",
       "display": "SPM2 EPI Frame of Reference",
-      "definition": "SPM2 EPI Frame of Reference (SPM2EPI) from http://github.com/spm/spm2/blob/master/templates/EPI.mnchttp://github.com/spm/spm2/blob/master/templates/EPI.mnc?raw=true",
+      "definition": "SPM2 EPI Frame of Reference (SPM2EPI) from",
       "property": [
         {
           "code": "keyword",
@@ -66,7 +66,7 @@
     {
       "code": "1.2.840.10008.1.4.1.6",
       "display": "SPM2 FIL T1 Frame of Reference",
-      "definition": "SPM2 FIL T1 Frame of Reference (SPM2FILT1) from http://github.com/spm/spm2/blob/master/templates/filT1.mnchttp://github.com/spm/spm2/blob/master/templates/filT1.mnc?raw=true",
+      "definition": "SPM2 FIL T1 Frame of Reference (SPM2FILT1) from",
       "property": [
         {
           "code": "keyword",
@@ -77,7 +77,7 @@
     {
       "code": "1.2.840.10008.1.4.1.7",
       "display": "SPM2 PET Frame of Reference",
-      "definition": "SPM2 PET Frame of Reference (SPM2PET) from http://github.com/spm/spm2/blob/master/templates/PET.mnchttp://github.com/spm/spm2/blob/master/templates/PET.mnc?raw=true",
+      "definition": "SPM2 PET Frame of Reference (SPM2PET) from",
       "property": [
         {
           "code": "keyword",
@@ -88,7 +88,7 @@
     {
       "code": "1.2.840.10008.1.4.1.8",
       "display": "SPM2 TRANSM Frame of Reference",
-      "definition": "SPM2 TRANSM Frame of Reference (SPM2TRANSM) from http://github.com/spm/spm2/blob/master/templates/Transm.mnchttp://github.com/spm/spm2/blob/master/templates/Transm.mnc?raw=true",
+      "definition": "SPM2 TRANSM Frame of Reference (SPM2TRANSM) from",
       "property": [
         {
           "code": "keyword",
@@ -99,7 +99,7 @@
     {
       "code": "1.2.840.10008.1.4.1.9",
       "display": "SPM2 SPECT Frame of Reference",
-      "definition": "SPM2 SPECT Frame of Reference (SPM2SPECT) from http://github.com/spm/spm2/blob/master/templates/SPECT.mnchttp://github.com/spm/spm2/blob/master/templates/SPECT.mnc?raw=true",
+      "definition": "SPM2 SPECT Frame of Reference (SPM2SPECT) from",
       "property": [
         {
           "code": "keyword",
@@ -110,7 +110,7 @@
     {
       "code": "1.2.840.10008.1.4.1.10",
       "display": "SPM2 GRAY Frame of Reference",
-      "definition": "SPM2 GRAY Frame of Reference (SPM2GRAY) from http://github.com/spm/spm2/blob/master/apriori/gray.mnchttp://github.com/spm/spm2/blob/master/apriori/gray.mnc?raw=true",
+      "definition": "SPM2 GRAY Frame of Reference (SPM2GRAY) from",
       "property": [
         {
           "code": "keyword",
@@ -121,7 +121,7 @@
     {
       "code": "1.2.840.10008.1.4.1.11",
       "display": "SPM2 WHITE Frame of Reference",
-      "definition": "SPM2 WHITE Frame of Reference (SPM2WHITE) from http://github.com/spm/spm2/blob/master/apriori/white.mnchttp://github.com/spm/spm2/blob/master/apriori/white.mnc?raw=true",
+      "definition": "SPM2 WHITE Frame of Reference (SPM2WHITE) from",
       "property": [
         {
           "code": "keyword",
@@ -132,7 +132,7 @@
     {
       "code": "1.2.840.10008.1.4.1.12",
       "display": "SPM2 CSF Frame of Reference",
-      "definition": "SPM2 CSF Frame of Reference (SPM2CSF) from http://github.com/spm/spm2/blob/master/apriori/csf.mnchttp://github.com/spm/spm2/blob/master/apriori/csf.mnc?raw=true",
+      "definition": "SPM2 CSF Frame of Reference (SPM2CSF) from",
       "property": [
         {
           "code": "keyword",
@@ -143,7 +143,7 @@
     {
       "code": "1.2.840.10008.1.4.1.13",
       "display": "SPM2 BRAINMASK Frame of Reference",
-      "definition": "SPM2 BRAINMASK Frame of Reference (SPM2BRAINMASK) from http://github.com/spm/spm2/blob/master/apriori/brainmask.mnchttp://github.com/spm/spm2/blob/master/apriori/brainmask.mnc?raw=true",
+      "definition": "SPM2 BRAINMASK Frame of Reference (SPM2BRAINMASK) from",
       "property": [
         {
           "code": "keyword",
@@ -154,7 +154,7 @@
     {
       "code": "1.2.840.10008.1.4.1.14",
       "display": "SPM2 AVG305T1 Frame of Reference",
-      "definition": "SPM2 AVG305T1 Frame of Reference (SPM2AVG305T1) from http://github.com/spm/spm2/blob/master/canonical/avg305T1.mnchttp://github.com/spm/spm2/blob/master/canonical/avg305T1.mnc?raw=true",
+      "definition": "SPM2 AVG305T1 Frame of Reference (SPM2AVG305T1) from",
       "property": [
         {
           "code": "keyword",
@@ -165,7 +165,7 @@
     {
       "code": "1.2.840.10008.1.4.1.15",
       "display": "SPM2 AVG152T1 Frame of Reference",
-      "definition": "SPM2 AVG152T1 Frame of Reference (SPM2AVG152T1) from http://github.com/spm/spm2/blob/master/canonical/avg152T1.mnchttp://github.com/spm/spm2/blob/master/canonical/avg152T1.mnc?raw=true",
+      "definition": "SPM2 AVG152T1 Frame of Reference (SPM2AVG152T1) from",
       "property": [
         {
           "code": "keyword",
@@ -176,7 +176,7 @@
     {
       "code": "1.2.840.10008.1.4.1.16",
       "display": "SPM2 AVG152T2 Frame of Reference",
-      "definition": "SPM2 AVG152T2 Frame of Reference (SPM2AVG152T2) from http://github.com/spm/spm2/blob/master/canonical/avg152T2.mnchttp://github.com/spm/spm2/blob/master/canonical/avg152T2.mnc?raw=true",
+      "definition": "SPM2 AVG152T2 Frame of Reference (SPM2AVG152T2) from",
       "property": [
         {
           "code": "keyword",
@@ -187,7 +187,7 @@
     {
       "code": "1.2.840.10008.1.4.1.17",
       "display": "SPM2 AVG152PD Frame of Reference",
-      "definition": "SPM2 AVG152PD Frame of Reference (SPM2AVG152PD) from http://github.com/spm/spm2/blob/master/canonical/avg152PD.mnchttp://github.com/spm/spm2/blob/master/canonical/avg152PD.mnc?raw=true",
+      "definition": "SPM2 AVG152PD Frame of Reference (SPM2AVG152PD) from",
       "property": [
         {
           "code": "keyword",
@@ -198,7 +198,7 @@
     {
       "code": "1.2.840.10008.1.4.1.18",
       "display": "SPM2 SINGLESUBJT1 Frame of Reference",
-      "definition": "SPM2 SINGLESUBJT1 Frame of Reference (SPM2SINGLESUBJT1) from http://github.com/spm/spm2/blob/master/canonical/single_subj_T1.mnchttp://github.com/spm/spm2/blob/master/canonical/single_subj_T1.mnc?raw=true",
+      "definition": "SPM2 SINGLESUBJT1 Frame of Reference (SPM2SINGLESUBJT1) from",
       "property": [
         {
           "code": "keyword",
@@ -231,7 +231,7 @@
     {
       "code": "1.2.840.10008.1.4.3.1",
       "display": "IEC 61217 Fixed Coordinate System Frame of Reference",
-      "definition": "IEC 61217 Fixed Coordinate System Frame of Reference (IEC61217FixedCoordinateSystem) from Fixed coordinate system (f) of",
+      "definition": "IEC 61217 Fixed Coordinate System Frame of Reference (IEC61217FixedCoordinateSystem) from Fixed coordinate system ('f') of",
       "property": [
         {
           "code": "keyword",
@@ -253,7 +253,7 @@
     {
       "code": "1.2.840.10008.1.4.3.3",
       "display": "IEC 61217 Table Top Coordinate System Frame of Reference",
-      "definition": "IEC 61217 Table Top Coordinate System Frame of Reference (IEC61217TableTopCoordinateSystem) from Table top coordinate system (t) of",
+      "definition": "IEC 61217 Table Top Coordinate System Frame of Reference (IEC61217TableTopCoordinateSystem) from Table top coordinate system ('t') of",
       "property": [
         {
           "code": "keyword",
@@ -264,7 +264,7 @@
     {
       "code": "1.2.840.10008.1.4.4.1",
       "display": "SRI24 Frame of Reference",
-      "definition": "SRI24 Frame of Reference (SRI24) from http://www.nitrc.org/projects/sri24/http://www.nitrc.org/projects/sri24/",
+      "definition": "SRI24 Frame of Reference (SRI24) from",
       "property": [
         {
           "code": "keyword",
@@ -275,7 +275,7 @@
     {
       "code": "1.2.840.10008.1.4.5.1",
       "display": "Colin27 Frame of Reference",
-      "definition": "Colin27 Frame of Reference (Colin27) from http://www.bic.mni.mcgill.ca/ServicesAtlases/Colin27http://www.bic.mni.mcgill.ca/ServicesAtlases/Colin27",
+      "definition": "Colin27 Frame of Reference (Colin27) from",
       "property": [
         {
           "code": "keyword",
@@ -286,7 +286,7 @@
     {
       "code": "1.2.840.10008.1.4.6.1",
       "display": "LPBA40/AIR Frame of Reference",
-      "definition": "LPBA40/AIR Frame of Reference (LPBA40AIR) from http://resource.loni.usc.edu/atlasfiles/LPBA40_AIR_Atlas_NIFTI_format.ziphttp://resource.loni.usc.edu/atlasfiles/LPBA40_AIR_Atlas_NIFTI_format.zip",
+      "definition": "LPBA40/AIR Frame of Reference (LPBA40AIR) from",
       "property": [
         {
           "code": "keyword",
@@ -297,7 +297,7 @@
     {
       "code": "1.2.840.10008.1.4.6.2",
       "display": "LPBA40/FLIRT Frame of Reference",
-      "definition": "LPBA40/FLIRT Frame of Reference (LPBA40FLIRT) from http://resource.loni.usc.edu/atlasfiles/LPBA40_FLIRT_Atlas_NIFTI_format.ziphttp://resource.loni.usc.edu/atlasfiles/LPBA40_FLIRT_Atlas_NIFTI_format.zip",
+      "definition": "LPBA40/FLIRT Frame of Reference (LPBA40FLIRT) from",
       "property": [
         {
           "code": "keyword",
@@ -308,7 +308,7 @@
     {
       "code": "1.2.840.10008.1.4.6.3",
       "display": "LPBA40/SPM5 Frame of Reference",
-      "definition": "LPBA40/SPM5 Frame of Reference (LPBA40SPM5) from http://resource.loni.usc.edu/atlasfiles/LPBA40_SPM5_atlas_NIFTI_format.ziphttp://resource.loni.usc.edu/atlasfiles/LPBA40_SPM5_atlas_NIFTI_format.zip",
+      "definition": "LPBA40/SPM5 Frame of Reference (LPBA40SPM5) from",
       "property": [
         {
           "code": "keyword",

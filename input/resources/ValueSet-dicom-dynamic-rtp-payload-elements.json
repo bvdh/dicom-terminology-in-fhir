@@ -5,12 +5,12 @@
   "id": "dicom-dynamic-rtp-payload-elements",
   "title": "DICOM® Dynamic RTP Payload Elements",
   "description": "DICOM® Dynamic RTP Payload elements extracted from DICOM PS3.6 Table 9-1.",
-  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-dynamic-rtp-payload-elements",
+  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-dynamic-rtp-payload-elements",
   "experimental": false,
   "compose": {
     "include": [
       {
-        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-elements",
+        "system": "http://dicom.nema.org/resources/CodeSystem//CodeSystem/dicom-elements",
         "concept": [
           {
             "code": "CurrentFrameFunctionalGroupsSequence",

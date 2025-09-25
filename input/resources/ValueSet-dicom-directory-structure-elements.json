@@ -5,12 +5,12 @@
   "id": "dicom-directory-structure-elements",
   "title": "DICOM® Directory Structure Elements",
   "description": "DICOM® Directory Structure elements extracted from DICOM PS3.6 Table 8-1.",
-  "url": "http://hl7.org/fhir/uv/dicom-terminology/ValueSet/dicom-directory-structure-elements",
+  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-directory-structure-elements",
   "experimental": false,
   "compose": {
     "include": [
       {
-        "system": "http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-elements",
+        "system": "http://dicom.nema.org/resources/CodeSystem//CodeSystem/dicom-elements",
         "concept": [
           {
             "code": "FileSetID",
@@ -65,10 +65,6 @@
             "display": "Referenced File ID"
           },
           {
-            "code": "MRDRDirectoryRecordOffset",
-            "display": "MRDR Directory Record Offset"
-          },
-          {
             "code": "ReferencedSOPClassUIDInFile",
             "display": "Referenced SOP Class UID in File"
           },
@@ -83,10 +79,6 @@
           {
             "code": "ReferencedRelatedGeneralSOPClassUIDInFile",
             "display": "Referenced Related General SOP Class UID in File"
-          },
-          {
-            "code": "NumberOfReferences",
-            "display": "Number of References"
           }
         ]
       }
