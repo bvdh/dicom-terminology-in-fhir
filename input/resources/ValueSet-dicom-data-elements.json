@@ -5,12 +5,13 @@
   "id": "dicom-data-elements",
   "title": "DICOM® Data Elements",
   "description": "DICOM® Data elements extracted from DICOM PS3.6 Table 6-1.",
-  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-data-elements",
+  "url": "http://dicom.nema.org/resources/ValueSet/DICOM_Data_Elements",
   "experimental": false,
+  "version": "2025.4.20250919",
   "compose": {
     "include": [
       {
-        "system": "http://dicom.nema.org/resources/CodeSystem//CodeSystem/dicom-elements",
+        "system": "http://dicom.nema.org/resources/CodeSystem/DICOM_Elements",
         "concept": [
           {
             "code": "SpecificCharacterSet",
@@ -14777,6 +14778,26 @@
             "display": "DVH Mean Dose"
           },
           {
+            "code": "DoseCalculationModelSequence",
+            "display": "Dose Calculation Model Sequence"
+          },
+          {
+            "code": "DoseCalculationAlgorithmSequence",
+            "display": "Dose Calculation Algorithm Sequence"
+          },
+          {
+            "code": "CommissioningStatus",
+            "display": "Commissioning Status"
+          },
+          {
+            "code": "DoseCalculationModelParameterSequence",
+            "display": "Dose Calculation Model Parameter Sequence"
+          },
+          {
+            "code": "DoseDepositionCalculationMedium",
+            "display": "Dose Deposition Calculation Medium"
+          },
+          {
             "code": "StructureSetLabel",
             "display": "Structure Set Label"
           },
@@ -16811,6 +16832,14 @@
           {
             "code": "NumberOfPaintings",
             "display": "Number of Paintings"
+          },
+          {
+            "code": "ScanSpotGantryAngles",
+            "display": "Scan Spot Gantry Angles"
+          },
+          {
+            "code": "ScanSpotPatientSupportAngles",
+            "display": "Scan Spot Patient Support Angles"
           },
           {
             "code": "IonToleranceTableSequence",

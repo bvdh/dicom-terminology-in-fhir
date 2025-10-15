@@ -5,12 +5,13 @@
   "id": "dicom-directory-structure-elements",
   "title": "DICOM® Directory Structure Elements",
   "description": "DICOM® Directory Structure elements extracted from DICOM PS3.6 Table 8-1.",
-  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-directory-structure-elements",
+  "url": "http://dicom.nema.org/resources/ValueSet/DICOM_Directory_Structure_Elements",
   "experimental": false,
+  "version": "2025.4.20250919",
   "compose": {
     "include": [
       {
-        "system": "http://dicom.nema.org/resources/CodeSystem//CodeSystem/dicom-elements",
+        "system": "http://dicom.nema.org/resources/CodeSystem/DICOM_Elements",
         "concept": [
           {
             "code": "FileSetID",

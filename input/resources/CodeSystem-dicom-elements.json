@@ -6,7 +6,7 @@
   "id": "dicom-elements",
   "title": "DICOM® Data Elements",
   "description": "DICOM® Data elements extracted from DICOM PS3.6.",
-  "url": "http://dicom.nema.org/resources/CodeSystem//CodeSystem/dicom-elements",
+  "url": "http://dicom.nema.org/resources/CodeSystem/DICOM_Elements",
   "concept": [
     {
       "code": "FileMetaInformationGroupLength",
@@ -70898,6 +70898,101 @@
       ]
     },
     {
+      "code": "DoseCalculationModelSequence",
+      "display": "Dose Calculation Model Sequence",
+      "definition": "Dose Calculation Model Sequence",
+      "property": [
+        {
+          "code": "tag",
+          "valueString": "30040080"
+        },
+        {
+          "code": "vr",
+          "valueString": "SQ"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "DoseCalculationAlgorithmSequence",
+      "display": "Dose Calculation Algorithm Sequence",
+      "definition": "Dose Calculation Algorithm Sequence",
+      "property": [
+        {
+          "code": "tag",
+          "valueString": "30040081"
+        },
+        {
+          "code": "vr",
+          "valueString": "SQ"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "CommissioningStatus",
+      "display": "Commissioning Status",
+      "definition": "Commissioning Status",
+      "property": [
+        {
+          "code": "tag",
+          "valueString": "30040082"
+        },
+        {
+          "code": "vr",
+          "valueString": "CS"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "DoseCalculationModelParameterSequence",
+      "display": "Dose Calculation Model Parameter Sequence",
+      "definition": "Dose Calculation Model Parameter Sequence",
+      "property": [
+        {
+          "code": "tag",
+          "valueString": "30040083"
+        },
+        {
+          "code": "vr",
+          "valueString": "SQ"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "DoseDepositionCalculationMedium",
+      "display": "Dose Deposition Calculation Medium",
+      "definition": "Dose Deposition Calculation Medium",
+      "property": [
+        {
+          "code": "tag",
+          "valueString": "30040084"
+        },
+        {
+          "code": "vr",
+          "valueString": "CS"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
       "code": "StructureSetLabel",
       "display": "Structure Set Label",
       "definition": "Structure Set Label",
@@ -80561,6 +80656,44 @@
         {
           "code": "vr",
           "valueString": "IS"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "ScanSpotGantryAngles",
+      "display": "Scan Spot Gantry Angles",
+      "definition": "Scan Spot Gantry Angles",
+      "property": [
+        {
+          "code": "tag",
+          "valueString": "300A039B"
+        },
+        {
+          "code": "vr",
+          "valueString": "FL"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "ScanSpotPatientSupportAngles",
+      "display": "Scan Spot Patient Support Angles",
+      "definition": "Scan Spot Patient Support Angles",
+      "property": [
+        {
+          "code": "tag",
+          "valueString": "300A039C"
+        },
+        {
+          "code": "vr",
+          "valueString": "FL"
         },
         {
           "code": "retired",
@@ -91504,7 +91637,7 @@
         },
         {
           "code": "vr",
-          "valueString": "See Note"
+          "valueString": "See Notenote_6_2"
         },
         {
           "code": "retired",
@@ -91523,7 +91656,7 @@
         },
         {
           "code": "vr",
-          "valueString": "See Note"
+          "valueString": "See Notenote_6_2"
         },
         {
           "code": "retired",
@@ -91542,7 +91675,7 @@
         },
         {
           "code": "vr",
-          "valueString": "See Note"
+          "valueString": "See Notenote_6_2"
         },
         {
           "code": "retired",
@@ -91553,6 +91686,7 @@
   ],
   "caseSensitive": true,
   "experimental": false,
+  "version": "2025.4.20250919",
   "property": [
     {
       "code": "tag",
@@ -91570,5 +91704,5 @@
       "type": "string"
     }
   ],
-  "count": 4818
+  "count": 4825
 }
