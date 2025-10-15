@@ -6,6 +6,8 @@ Description: "DICOM® SOP Classes extracted from DICOM PS3.6 Table A-1."
 * ^content = #complete
 * ^experimental = false
 
+* ^url = "http://dicom.nema.org/resources/CodeSystem/DICOMSOPClassesCodeSystem"
+* ^version = "2025.4.20250919"
 
 * #1.2.840.10008.5.1.4.1.1.1 "Computed Radiography Image Storage" "Computed Radiography Image Storage from Computed Radiography Image IOD"
 * #1.2.840.10008.5.1.4.1.1.1.1 "Digital X-Ray Image Storage - For Presentation" "Digital X-Ray Image Storage - For Presentation from Digital X-Ray Image IOD"

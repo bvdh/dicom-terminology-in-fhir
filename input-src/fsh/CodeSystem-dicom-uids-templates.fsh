@@ -2,6 +2,8 @@ CodeSystem: DICOM_Template_UIDs
 Id: dicom-uids-templates
 Title: "DICOM® Template UID Values"
 Description: "DICOM® Template UID Values from DICOM PS3.6 Table A-4."
+* ^url = "http://dicom.nema.org/resources/CodeSystem/DICOM_Template_UIDs"
+* ^version = "2025.4.20250919"
 * ^caseSensitive = true
 * ^content = #complete
 * ^experimental = false

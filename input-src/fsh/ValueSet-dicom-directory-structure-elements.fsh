@@ -6,6 +6,8 @@ Description: "DICOM® Directory Structure elements extracted from DICOM PS3.6 Ta
 
 * ^experimental = false
 
+* ^url = "http://dicom.nema.org/resources/ValueSet/DICOM_Directory_Structure_Elements"
+* ^version = "2025.4.20250919"
 * DICOM_Elements#FileSetID "File-set ID"
 * DICOM_Elements#FileSetDescriptorFileID "File-set Descriptor File ID"
 * DICOM_Elements#SpecificCharacterSetOfFileSetDescriptorFile "Specific Character Set of File-set Descriptor File"

@@ -16,6 +16,8 @@ Description: "DICOM® Controlled Terminology Definitions (Coding Scheme Designat
 * ^property[=].type = #boolean
 
 * ^url = "http://dicom.nema.org/resources/ontology/DCM"
+* ^version = "2025.4.20250919"
+
 * #ANN "Annotation"
 """
 Annotation:
@@ -14882,7 +14884,7 @@ Center of Rotation of the natural femur head.
 * #112305 "Acetabular Cup Shell"
 """
 AcetabularCupShell:
-Prosthetic component implanted into the acetabulum. Provides hold for the insert that is mounted inside the cup. -
+Prosthetic component implanted into the acetabulum. Provides hold for the insert that is mounted inside the cup.
 """
 * #112305 ^property[0].code = #keyword
 * #112305 ^property[0].valueString  = "AcetabularCupShell"
@@ -14892,7 +14894,7 @@ Prosthetic component implanted into the acetabulum. Provides hold for the insert
 * #112306 "Acetabular Cup Insert"
 """
 AcetabularCupInsert:
-Prosthetic pelvic joint component. Inserted into the cup, takes in the femoral head replacement. -
+Prosthetic pelvic joint component. Inserted into the cup, takes in the femoral head replacement.
 """
 * #112306 ^property[0].code = #keyword
 * #112306 ^property[0].valueString  = "AcetabularCupInsert"
@@ -14902,7 +14904,7 @@ Prosthetic pelvic joint component. Inserted into the cup, takes in the femoral h
 * #112307 "Acetabular Cup Monoblock"
 """
 AcetabularCupMonoblock:
-Prosthetic pelvic joint cup including insert. -
+Prosthetic pelvic joint cup including insert.
 """
 * #112307 ^property[0].code = #keyword
 * #112307 ^property[0].valueString  = "AcetabularCupMonoblock"
@@ -14912,7 +14914,7 @@ Prosthetic pelvic joint cup including insert. -
 * #112308 "Femoral Head Ball Component"
 """
 FemoralHeadBallComponent:
-Component for Femoral Head Prosthesis where the conic intake for the stem neck can be exchanged. Combined with a Femoral Head Cone Taper Component. -
+Component for Femoral Head Prosthesis where the conic intake for the stem neck can be exchanged. Combined with a Femoral Head Cone Taper Component.
 """
 * #112308 ^property[0].code = #keyword
 * #112308 ^property[0].valueString  = "FemoralHeadBallComponent"
@@ -14932,7 +14934,7 @@ Exchangeable neck intake for composite femoral head prosthesis. Combined with a 
 * #112310 "Femoral Stem"
 """
 FemoralStem:
-Prosthesis Implanted into the femoral bone to provide force transmission between joint replacement and bone. On the proximal end a conic neck holds the femoral head replacement. -
+Prosthesis Implanted into the femoral bone to provide force transmission between joint replacement and bone. On the proximal end a conic neck holds the femoral head replacement.
 """
 * #112310 ^property[0].code = #keyword
 * #112310 ^property[0].valueString  = "FemoralStem"
@@ -14942,7 +14944,7 @@ Prosthesis Implanted into the femoral bone to provide force transmission between
 * #112311 "Femoral Stem Distal Component"
 """
 FemoralStemDistalComponent:
-Distal half of a modular stem prosthesis system. Combined with a Stem Proximal Component. -
+Distal half of a modular stem prosthesis system. Combined with a Stem Proximal Component.
 """
 * #112311 ^property[0].code = #keyword
 * #112311 ^property[0].valueString  = "FemoralStemDistalComponent"
@@ -14952,7 +14954,7 @@ Distal half of a modular stem prosthesis system. Combined with a Stem Proximal C
 * #112312 "Femoral Stem Proximal Component"
 """
 FemoralStemProximalComponent:
-Proximal half of a modular stem prosthesis system. Combined with a Stem Distal Component. -
+Proximal half of a modular stem prosthesis system. Combined with a Stem Distal Component.
 """
 * #112312 ^property[0].code = #keyword
 * #112312 ^property[0].valueString  = "FemoralStemProximalComponent"
@@ -14962,7 +14964,7 @@ Proximal half of a modular stem prosthesis system. Combined with a Stem Distal C
 * #112313 "Femoral Stem Component"
 """
 FemoralStemComponent:
-Stem prosthetic component with a modular insert for an exchangeable neck component. Combined with a Neck Component. -
+Stem prosthetic component with a modular insert for an exchangeable neck component. Combined with a Neck Component.
 """
 * #112313 ^property[0].code = #keyword
 * #112313 ^property[0].valueString  = "FemoralStemComponent"
@@ -14972,7 +14974,7 @@ Stem prosthetic component with a modular insert for an exchangeable neck compone
 * #112314 "Neck Component"
 """
 NeckComponent:
-Prosthetic Neck to be combined with a Stem Component. -
+Prosthetic Neck to be combined with a Stem Component.
 """
 * #112314 ^property[0].code = #keyword
 * #112314 ^property[0].valueString  = "NeckComponent"
@@ -14982,7 +14984,7 @@ Prosthetic Neck to be combined with a Stem Component. -
 * #112315 "Monoblock Stem"
 """
 MonoblockStem:
-Prosthetic Stem and Femoral Head in one piece. -
+Prosthetic Stem and Femoral Head in one piece.
 """
 * #112315 ^property[0].code = #keyword
 * #112315 ^property[0].valueString  = "MonoblockStem"
@@ -14992,7 +14994,7 @@ Prosthetic Stem and Femoral Head in one piece. -
 * #112316 "Prosthetic Shaft Augment"
 """
 ProstheticShaftAugment:
-A proximal attachment to the shaft used to compensate for bone deficiencies or bone loss. -
+A proximal attachment to the shaft used to compensate for bone deficiencies or bone loss.
 """
 * #112316 ^property[0].code = #keyword
 * #112316 ^property[0].valueString  = "ProstheticShaftAugment"
@@ -15002,7 +15004,7 @@ A proximal attachment to the shaft used to compensate for bone deficiencies or b
 * #112317 "Femoral Head Resurfacing Component"
 """
 FemoralHeadResurfacingComponent:
-Artificial femur head surface needed for the partial replacement of the femoral head where only the surface is replaced. -
+Artificial femur head surface needed for the partial replacement of the femoral head where only the surface is replaced.
 """
 * #112317 ^property[0].code = #keyword
 * #112317 ^property[0].valueString  = "FemoralHeadResurfacingComponent"
@@ -15052,7 +15054,7 @@ Fixation due to forcing an object into a narrow space.
 * #112325 "Distal Centralizer"
 """
 DistalCentralizer:
-Attachment to the distal end of a cemented stem assuring that the stem is in a central position inside the drilled femoral canal before cementation. -
+Attachment to the distal end of a cemented stem assuring that the stem is in a central position inside the drilled femoral canal before cementation.
 """
 * #112325 ^property[0].code = #keyword
 * #112325 ^property[0].valueString  = "DistalCentralizer"

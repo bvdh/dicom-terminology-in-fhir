@@ -10,7 +10,7 @@ CODESYSTEM_ID   = 'dicom-sop-classes-codesystem'
 CODESYSTEM_TITLE = 'DICOM® SOP Classes'
 CODESYSTEM_DESCRIPTION = 'DICOM® SOP Classes extracted from DICOM PS3.6 Table A-1.'
 
-def writeSopClassesCodeSystem( fsh_path:str, dicom_path:str ) -> None:
+def writeSopClassesCodeSystem( fsh_path:str, dicom_path:str, canonicalVersion:str ) -> None:
     # Write the code system for the data elements
     # This is a helper function for writeDataElements
     # Input: data_elements - list of data elements
@@ -29,7 +29,9 @@ def writeSopClassesCodeSystem( fsh_path:str, dicom_path:str ) -> None:
         fsh_file.write('* ^caseSensitive = true\n')
         fsh_file.write('* ^content = #complete\n')
         fsh_file.write('* ^experimental = false\n\n')
-        
+        fsh_file.write(f'* ^url = "http://dicom.nema.org/resources/CodeSystem/{CODESYSTEM_NAME}"\n')
+        fsh_file.write(f'* ^version = "{canonicalVersion}"\n')
+
         fsh_file.write('\n')
 
         title, value_list = getDataDicomTable(dicom_path, PART, TABLE_ID)

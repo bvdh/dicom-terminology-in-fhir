@@ -2,6 +2,8 @@ CodeSystem: DICOM_Color_Palattes_UIDs
 Id: dicom-uids-color-palletes
 Title: "DICOM® Standard Color Palettes"
 Description: "DICOM® Standard Color Palettes from DICOM PS3.6 Table B-1-1."
+* ^url = "http://dicom.nema.org/resources/CodeSystem/DICOM_Color_Palattes_UIDs"
+* ^version = "2025.4.20250919"
 * ^caseSensitive = true
 * ^content = #complete
 * ^experimental = false

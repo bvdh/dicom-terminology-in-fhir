@@ -8,6 +8,7 @@ from pathlib import Path
 from data_elements import writeDataElementsCodeSystemAndValueSets
 from dcm import writeDcmCodeSystem
 from cid_valuesets import writeCidValueSets
+from doc_book_tools import getCanonicalVersion
 from downloadAllValueSets import downloadAllDicomValueSets
 from uids_color_templates import writeColorPalletsCodeSystem
 from uids_context_groups import writeContextUidsCodeSystem
@@ -32,17 +33,19 @@ def main(args=None):
     resources_path = args.fsh_path or os.path.join(Path(__file__).parent.parent, 'input-src', 'resources')
     dicom_version = args.dicom_version or 'current'
     dicom_path = os.path.join(Path(__file__).parent.parent, 'dicom.nema.org', 'medical', 'dicom', dicom_version, 'source', 'docbook');
+       
+    canonicalVersion = getCanonicalVersion( dicom_path )
 
-    writeDataElementsCodeSystemAndValueSets( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeDcmCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeSopClassesCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeVrCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
+    writeDataElementsCodeSystemAndValueSets( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
+    writeDcmCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
+    writeSopClassesCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
+    writeVrCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
+    writeUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
     # writeEnumeratedFields( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeFrameOfReferenceUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeContextUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeTemplateUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeColorPalletsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
+    writeFrameOfReferenceUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
+    writeContextUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
+    writeTemplateUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
+    writeColorPalletsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
 
     # 20250915 - work with Davids Valuesets for now
     # removed in favor of downloaded ValueSets

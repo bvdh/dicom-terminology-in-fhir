@@ -10,7 +10,7 @@ CODESYSTEM_ID = 'dicom-uids-templates'
 CODESYSTEM_TITLE = 'DICOM® Template UID Values'
 CODESYSTEM_DESCRIPTION = 'DICOM® Template UID Values from DICOM PS3.6 Table A-4.'
 
-def writeTemplateUidsCodeSystem( fsh_path:str, dicom_path:str ) -> None:
+def writeTemplateUidsCodeSystem( fsh_path:str, dicom_path:str, canonicalVersion:str ) -> None:
     # Write the code system for the data elements
     # This is a helper function for writeDataElements
     # Input: data_elements - list of data elements
@@ -25,6 +25,8 @@ def writeTemplateUidsCodeSystem( fsh_path:str, dicom_path:str ) -> None:
         fsh_file.write(f'Title: "{CODESYSTEM_TITLE}"\n')
         fsh_file.write(f'Description: "{CODESYSTEM_DESCRIPTION}"\n')
         # fsh_file.write('Copyright: "DICOM® is a registered trademark of the National Electrical Manufacturers Association for its standards publications relating to digital communications of medical information."\n\n')
+        fsh_file.write(f'* ^url = "http://dicom.nema.org/resources/CodeSystem/{CODESYSTEM_NAME}"\n')
+        fsh_file.write(f'* ^version = "{canonicalVersion}"\n')
         
         fsh_file.write('* ^caseSensitive = true\n')
         fsh_file.write('* ^content = #complete\n')

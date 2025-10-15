@@ -1,6 +1,7 @@
 import os
 import xml.etree.ElementTree as ET
 from typing import List, Dict, Optional
+import re
 
 # Define namespace for DocBook elements
 ns = {'db': 'http://docbook.org/ns/docbook', 'xl' : 'http://www.w3.org/1999/xlink', }
@@ -156,9 +157,11 @@ def getElementText( element, dicom_path ):
         elif ( tag.endswith('informaltable')):
             # ignore
             separator = ''
+            text = ''
         elif ( tag.endswith('informalfigure')):
             # ignore
             separator = ''
+            text = ''
         else:
             print( f"unsupported tag: {tag}")
             text = '-'
@@ -400,3 +403,59 @@ def getOlinkText( dicom_path, targetdoc, targetptr, xrefstyle ) -> str:
 
         
     return olink_text.strip()
+
+def getCanonicalVersion(dicom_path: str) -> str:
+    """
+    Extract the publication date from the index.html file.
+    
+    Args:
+        index_html_path: Path to the index.html file
+
+    Returns:
+        Publication date as a string
+    """
+    part01Filename = os.path.join(dicom_path, 'part01', 'part01.xml')
+    indexFilename = os.path.join(dicom_path, 'part01', 'index.html')
+    
+    tree = ET.parse(part01Filename)
+    root = tree.getroot()
+
+    # Extract the <book><subtitle> from the XML
+    subtitle_element = root.find('.//db:subtitle', ns)
+    subtitle = subtitle_element.text.strip() if subtitle_element is not None and subtitle_element.text else ""
+    # Extract the string after "PS3.1" in the subtitle
+    
+    publicationVersion = '?'
+    if "PS3.1" in subtitle:
+        after_ps31 = subtitle.split("PS3.1", 1)[1].strip()
+        after_ps31_words = after_ps31.split(' ')
+        if len(after_ps31_words) > 1:
+            publicationVersion = after_ps31_words[0]
+    publicationVersionNumber = "?"
+    if publicationVersion and len(publicationVersion)>0:
+        if publicationVersion.endswith('a' ) :
+            publicationVersionNumber = 1
+        elif publicationVersion.endswith('b' ) :
+            publicationVersionNumber = 2
+        elif publicationVersion.endswith('c' ) :
+            publicationVersionNumber = 3
+        elif publicationVersion.endswith('d' ) :    
+            publicationVersionNumber = 4
+        else:
+            publicationVersionNumber = "?"
+
+    publicationDate = "?"
+    with open(indexFilename, "r", encoding="utf-8") as f:
+        content = f.read()
+        date_pattern = r'\b\d{1,2}/\d{1,2}/\d{4}\b'
+        matches = re.findall(date_pattern, content)
+        if matches:
+            # Format date as MMDDYYYY with leading zeros
+            month, day, year = matches[0].split('/')
+            month = month.zfill(2)
+            day = day.zfill(2)
+            publicationDate = f"{year}{month}{day}"
+    cannonicalVersion = f"{publicationVersion[:4]}.{publicationVersionNumber}.{publicationDate}"
+    
+    
+    return cannonicalVersion

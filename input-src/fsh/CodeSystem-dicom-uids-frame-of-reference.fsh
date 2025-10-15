@@ -2,6 +2,8 @@ CodeSystem: DICOM_Frame_of_Reference_UIDs
 Id: dicom-uids-frame-of-reference
 Title: "DICOM® Well-known Frames of Reference"
 Description: "DICOM® Well-known Frames of Reference from DICOM PS3.6 Table A-2."
+* ^url = "http://dicom.nema.org/resources/CodeSystem/DICOM_Frame_of_Reference_UIDs"
+* ^version = "2025.4.20250919"
 * ^caseSensitive = true
 * ^content = #complete
 * ^experimental = false

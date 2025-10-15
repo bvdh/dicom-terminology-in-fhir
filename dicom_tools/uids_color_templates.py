@@ -10,7 +10,7 @@ CODESYSTEM_ID = 'dicom-uids-color-palletes'
 CODESYSTEM_TITLE = 'DICOM® Standard Color Palettes'
 CODESYSTEM_DESCRIPTION = 'DICOM® Standard Color Palettes from DICOM PS3.6 Table B-1-1.'
 
-def writeColorPalletsCodeSystem( fsh_path:str, dicom_path:str ) -> None:
+def writeColorPalletsCodeSystem( fsh_path:str, dicom_path:str, canonicalVersion:str ) -> None:
 
     fsh_filename = f'CodeSystem-{CODESYSTEM_ID}.fsh'
     print(f'Generating FHIR Shorthand in {fsh_path}/{fsh_filename}')
@@ -21,6 +21,8 @@ def writeColorPalletsCodeSystem( fsh_path:str, dicom_path:str ) -> None:
         fsh_file.write(f'Title: "{CODESYSTEM_TITLE}"\n')
         fsh_file.write(f'Description: "{CODESYSTEM_DESCRIPTION}"\n')
         # fsh_file.write('Copyright: "DICOM® is a registered trademark of the National Electrical Manufacturers Association for its standards publications relating to digital communications of medical information."\n\n')
+        fsh_file.write(f'* ^url = "http://dicom.nema.org/resources/CodeSystem/{CODESYSTEM_NAME}"\n')
+        fsh_file.write(f'* ^version = "{canonicalVersion}"\n')
         
         fsh_file.write('* ^caseSensitive = true\n')
         fsh_file.write('* ^content = #complete\n')

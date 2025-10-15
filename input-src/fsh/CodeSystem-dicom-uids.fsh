@@ -2,6 +2,8 @@ CodeSystem: DICOM_UIDs
 Id: dicom-uids
 Title: "DICOM® Unique Identifiers"
 Description: "DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1."
+* ^url = "http://dicom.nema.org/resources/CodeSystem/DICOM_UIDs"
+* ^version = "2025.4.20250919"
 * ^caseSensitive = true
 * ^content = #complete
 * ^experimental = false

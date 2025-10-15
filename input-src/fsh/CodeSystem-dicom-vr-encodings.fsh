@@ -2,6 +2,8 @@ CodeSystem: DICOMVRencodings
 Id: dicom-vr-encodings
 Title: "DICOM® Value Representations"
 Description: "DICOM® Value Representations extracted from (DICOM PS5.6.2 Table A-1)[https://dicom.nema.org/dicom/2013/output/chtml/part05/sect_6.2.html]."
+* ^url = "http://dicom.nema.org/resources/CodeSystem/DICOMVRencodings"
+* ^version = "2025.4.20250919"
 * ^caseSensitive = true
 * ^content = #complete
 * ^experimental = false

@@ -6,6 +6,8 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6 Table 6-1."
 
 * ^experimental = false
 
+* ^url = "http://dicom.nema.org/resources/ValueSet/DICOM_Data_Elements"
+* ^version = "2025.4.20250919"
 * DICOM_Elements#SpecificCharacterSet "Specific Character Set"
 * DICOM_Elements#LanguageCodeSequence "Language Code Sequence"
 * DICOM_Elements#ImageType "Image Type"

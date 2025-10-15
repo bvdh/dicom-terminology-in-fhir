@@ -48,12 +48,12 @@ SOURCES = [
     },
 ]
 
-def writeDataElementsCodeSystemAndValueSets( fsh_path:str, dicom_path:str ) -> None:
+def writeDataElementsCodeSystemAndValueSets( fsh_path:str, dicom_path:str, canonicalVersion:str ) -> None:
     all_value_list = []
     for source in SOURCES:
         # title, description, value_list = getDataDicomTable( dicom_path, 'part06', '7-1')
         title, value_list = getDataDicomTable( dicom_path, source['part'], source['label'] )
-        writeDataElementsValueSet(fsh_path, source, value_list)
+        writeDataElementsValueSet(fsh_path, source, value_list, canonicalVersion)
         all_value_list.extend(value_list)
 
 
@@ -70,6 +70,9 @@ def writeDataElementsCodeSystemAndValueSets( fsh_path:str, dicom_path:str ) -> N
         fsh_file.write('* ^caseSensitive = true\n')
         fsh_file.write('* ^content = #complete\n')
         fsh_file.write('* ^experimental = false\n\n')
+        fsh_file.write(f'* ^url = "http://dicom.nema.org/resources/CodeSystem/{CODESYSTEM_NAME}"\n')
+        fsh_file.write(f'* ^version = "{canonicalVersion}"\n')
+        fsh_file.write('\n')
         
         fsh_file.write('* ^property[+].code = #tag\n')
         fsh_file.write('* ^property[=].description = "tag"\n')
@@ -101,12 +104,12 @@ def writeDataElementsCodeSystemAndValueSets( fsh_path:str, dicom_path:str ) -> N
                 fsh_file.write(f'* #{value[2]} ^property[2].valueBoolean = {retired}\n')
     
     
-def writeDataElementsCodeSystemAndValueSetsOrg( fsh_path:str ) -> None:
+def writeDataElementsCodeSystemAndValueSetsOrg( fsh_path:str, canonicalVersion ) -> None:
     all_value_list = [];
     for source in SOURCES:
          value_list = getDataElementsFromDicomTable(source['url'])
          all_value_list.extend(value_list)
-         writeDataElementsValueSet(fsh_path, source, value_list)
+         writeDataElementsValueSet(fsh_path, source, value_list, canonicalVersion)
 
     fsh_filename = f'CodeSystem-{CODESYSTEM_ID}.fsh'
     print(f'Generating FHIR Shorthand for data_elements in {fsh_path}/{fsh_filename}')
@@ -121,6 +124,9 @@ def writeDataElementsCodeSystemAndValueSetsOrg( fsh_path:str ) -> None:
         fsh_file.write('* ^caseSensitive = true\n')
         fsh_file.write('* ^content = #complete\n')
         fsh_file.write('* ^experimental = false\n\n')
+        fsh_file.write(f'* ^url = "http://dicom.nema.org/resources/CodeSystem/{CODESYSTEM_NAME}"\n')
+        fsh_file.write(f'* ^version = "{canonicalVersion}"\n')
+        fsh_file.write('\n')
         
         fsh_file.write('* ^property[+].code = #tag\n')
         fsh_file.write('* ^property[=].description = "tag"\n')
@@ -146,7 +152,7 @@ def writeDataElementsCodeSystemAndValueSetsOrg( fsh_path:str ) -> None:
                 fsh_file.write(f'* #{value[2]} ^property[2].code = #retired\n')
                 fsh_file.write(f'* #{value[2]} ^property[2].valueBoolean = {value[5]}\n')
                 
-def writeDataElementsValueSet( fsh_path:str, source, value_list:List[List[str]] ) -> None:
+def writeDataElementsValueSet( fsh_path:str, source, value_list:List[List[str]], canonicalVersion:str ) -> None:
     fsh_filename = f'ValueSet-{source['id']}.fsh'
     print(f'Generating FHIR Shorthand for {source['title']} in {fsh_path}/{fsh_filename}')
 
@@ -159,6 +165,8 @@ def writeDataElementsValueSet( fsh_path:str, source, value_list:List[List[str]] 
         
         fsh_file.write('* ^status = #active\n\n')
         fsh_file.write('* ^experimental = false\n\n')
+        fsh_file.write(f'* ^url = "http://dicom.nema.org/resources/ValueSet/{source['name']}"\n')
+        fsh_file.write(f'* ^version = "{canonicalVersion}"\n')
         
         for value in value_list:
             if ( len(value)>3 and len(value[2]) > 0 ): 

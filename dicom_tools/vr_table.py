@@ -11,7 +11,7 @@ CODESYSTEM_ID   = 'dicom-vr-encodings'
 CODESYSTEM_TITLE = 'DICOM® Value Representations'
 CODESYSTEM_DESCRIPTION = 'DICOM® Value Representations extracted from (DICOM PS5.6.2 Table A-1)[https://dicom.nema.org/dicom/2013/output/chtml/part05/sect_6.2.html].'
 
-def writeVrCodeSystem( fsh_path:str, dicom_path:str ) -> None:
+def writeVrCodeSystem( fsh_path:str, dicom_path:str, canonicalVersion:str ) -> None:
     # Write the code system for the value representations
     # Input: data_elements - list of data elements
     # Output: None
@@ -26,6 +26,8 @@ def writeVrCodeSystem( fsh_path:str, dicom_path:str ) -> None:
         fsh_file.write(f'Title: "{CODESYSTEM_TITLE}"\n')
         fsh_file.write(f'Description: "{CODESYSTEM_DESCRIPTION}"\n')
         # fsh_file.write('Copyright: "DICOM® is a registered trademark of the National Electrical Manufacturers Association for its standards publications relating to digital communications of medical information."\n\n')
+        fsh_file.write(f'* ^url = "http://dicom.nema.org/resources/CodeSystem/{CODESYSTEM_NAME}"\n')
+        fsh_file.write(f'* ^version = "{canonicalVersion}"\n')
         
         fsh_file.write('* ^caseSensitive = true\n')
         fsh_file.write('* ^content = #complete\n')

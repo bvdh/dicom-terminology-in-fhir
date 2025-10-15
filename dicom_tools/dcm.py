@@ -14,7 +14,7 @@ CODESYSTEM_TITLE = 'DICOM® Controlled Terminology Definitions (Coding Scheme De
 CODESYSTEM_DESCRIPTION = f'{CODESYSTEM_TITLE} extracted from DICOM PS3.16 Table D-1.'
 
 
-def writeDcmCodeSystem( fsh_path:str, dicom_path:str ) -> None:
+def writeDcmCodeSystem( fsh_path:str, dicom_path:str, canonicalVersion:str ) -> None:
     # Write the code system for the data elements
     # This is a helper function for writeDataElements
     # Input: data_elements - list of data elements
@@ -46,6 +46,8 @@ def writeDcmCodeSystem( fsh_path:str, dicom_path:str ) -> None:
         fsh_file.write('* ^property[=].type = #boolean\n')
         fsh_file.write('\n')
         fsh_file.write('* ^url = "http://dicom.nema.org/resources/ontology/DCM"\n')
+        fsh_file.write(f'* ^version = "{canonicalVersion}"\n')
+        fsh_file.write('\n')
 
         for row in table:
             if (len(row[0])>0):
