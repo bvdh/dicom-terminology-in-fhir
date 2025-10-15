@@ -9,7 +9,7 @@ from data_elements import writeDataElementsCodeSystemAndValueSets
 from dcm import writeDcmCodeSystem
 from cid_valuesets import writeCidValueSets
 from downloadAllValueSets import downloadAllDicomValueSets
-from uids_color_templates import writeColorPalletesCodeSystem
+from uids_color_templates import writeColorPalletsCodeSystem
 from uids_context_groups import writeContextUidsCodeSystem
 from uids_template import writeTemplateUidsCodeSystem
 from uids_frame_of_reference import writeFrameOfReferenceUidsCodeSystem
@@ -42,7 +42,7 @@ def main(args=None):
     writeFrameOfReferenceUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
     writeContextUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
     writeTemplateUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeColorPalletesCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
+    writeColorPalletsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
 
     # 20250915 - work with Davids Valuesets for now
     # removed in favor of downloaded ValueSets

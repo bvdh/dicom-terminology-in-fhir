@@ -29865,6 +29865,46 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #DVHMeanDose ^property[2].code = #retired
 * #DVHMeanDose ^property[2].valueBoolean = false
 
+* #DoseCalculationModelSequence "Dose Calculation Model Sequence" "Dose Calculation Model Sequence"
+* #DoseCalculationModelSequence ^property[0].code = #tag
+* #DoseCalculationModelSequence ^property[0].valueString  = "30040080"
+* #DoseCalculationModelSequence ^property[1].code = #vr
+* #DoseCalculationModelSequence ^property[1].valueString = "SQ"
+* #DoseCalculationModelSequence ^property[2].code = #retired
+* #DoseCalculationModelSequence ^property[2].valueBoolean = false
+
+* #DoseCalculationAlgorithmSequence "Dose Calculation Algorithm Sequence" "Dose Calculation Algorithm Sequence"
+* #DoseCalculationAlgorithmSequence ^property[0].code = #tag
+* #DoseCalculationAlgorithmSequence ^property[0].valueString  = "30040081"
+* #DoseCalculationAlgorithmSequence ^property[1].code = #vr
+* #DoseCalculationAlgorithmSequence ^property[1].valueString = "SQ"
+* #DoseCalculationAlgorithmSequence ^property[2].code = #retired
+* #DoseCalculationAlgorithmSequence ^property[2].valueBoolean = false
+
+* #CommissioningStatus "Commissioning Status" "Commissioning Status"
+* #CommissioningStatus ^property[0].code = #tag
+* #CommissioningStatus ^property[0].valueString  = "30040082"
+* #CommissioningStatus ^property[1].code = #vr
+* #CommissioningStatus ^property[1].valueString = "CS"
+* #CommissioningStatus ^property[2].code = #retired
+* #CommissioningStatus ^property[2].valueBoolean = false
+
+* #DoseCalculationModelParameterSequence "Dose Calculation Model Parameter Sequence" "Dose Calculation Model Parameter Sequence"
+* #DoseCalculationModelParameterSequence ^property[0].code = #tag
+* #DoseCalculationModelParameterSequence ^property[0].valueString  = "30040083"
+* #DoseCalculationModelParameterSequence ^property[1].code = #vr
+* #DoseCalculationModelParameterSequence ^property[1].valueString = "SQ"
+* #DoseCalculationModelParameterSequence ^property[2].code = #retired
+* #DoseCalculationModelParameterSequence ^property[2].valueBoolean = false
+
+* #DoseDepositionCalculationMedium "Dose Deposition Calculation Medium" "Dose Deposition Calculation Medium"
+* #DoseDepositionCalculationMedium ^property[0].code = #tag
+* #DoseDepositionCalculationMedium ^property[0].valueString  = "30040084"
+* #DoseDepositionCalculationMedium ^property[1].code = #vr
+* #DoseDepositionCalculationMedium ^property[1].valueString = "CS"
+* #DoseDepositionCalculationMedium ^property[2].code = #retired
+* #DoseDepositionCalculationMedium ^property[2].valueBoolean = false
+
 * #StructureSetLabel "Structure Set Label" "Structure Set Label"
 * #StructureSetLabel ^property[0].code = #tag
 * #StructureSetLabel ^property[0].valueString  = "30060002"
@@ -33936,6 +33976,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #NumberOfPaintings ^property[1].valueString = "IS"
 * #NumberOfPaintings ^property[2].code = #retired
 * #NumberOfPaintings ^property[2].valueBoolean = false
+
+* #ScanSpotGantryAngles "Scan Spot Gantry Angles" "Scan Spot Gantry Angles"
+* #ScanSpotGantryAngles ^property[0].code = #tag
+* #ScanSpotGantryAngles ^property[0].valueString  = "300A039B"
+* #ScanSpotGantryAngles ^property[1].code = #vr
+* #ScanSpotGantryAngles ^property[1].valueString = "FL"
+* #ScanSpotGantryAngles ^property[2].code = #retired
+* #ScanSpotGantryAngles ^property[2].valueBoolean = false
+
+* #ScanSpotPatientSupportAngles "Scan Spot Patient Support Angles" "Scan Spot Patient Support Angles"
+* #ScanSpotPatientSupportAngles ^property[0].code = #tag
+* #ScanSpotPatientSupportAngles ^property[0].valueString  = "300A039C"
+* #ScanSpotPatientSupportAngles ^property[1].code = #vr
+* #ScanSpotPatientSupportAngles ^property[1].valueString = "FL"
+* #ScanSpotPatientSupportAngles ^property[2].code = #retired
+* #ScanSpotPatientSupportAngles ^property[2].valueBoolean = false
 
 * #IonToleranceTableSequence "Ion Tolerance Table Sequence" "Ion Tolerance Table Sequence"
 * #IonToleranceTableSequence ^property[0].code = #tag
@@ -38541,7 +38597,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #Item ^property[0].code = #tag
 * #Item ^property[0].valueString  = "FFFEE000"
 * #Item ^property[1].code = #vr
-* #Item ^property[1].valueString = "See Note"
+* #Item ^property[1].valueString = "See Notenote_6_2"
 * #Item ^property[2].code = #retired
 * #Item ^property[2].valueBoolean = false
 
@@ -38549,7 +38605,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ItemDelimitationItem ^property[0].code = #tag
 * #ItemDelimitationItem ^property[0].valueString  = "FFFEE00D"
 * #ItemDelimitationItem ^property[1].code = #vr
-* #ItemDelimitationItem ^property[1].valueString = "See Note"
+* #ItemDelimitationItem ^property[1].valueString = "See Notenote_6_2"
 * #ItemDelimitationItem ^property[2].code = #retired
 * #ItemDelimitationItem ^property[2].valueBoolean = false
 
@@ -38557,6 +38613,6 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SequenceDelimitationItem ^property[0].code = #tag
 * #SequenceDelimitationItem ^property[0].valueString  = "FFFEE0DD"
 * #SequenceDelimitationItem ^property[1].code = #vr
-* #SequenceDelimitationItem ^property[1].valueString = "See Note"
+* #SequenceDelimitationItem ^property[1].valueString = "See Notenote_6_2"
 * #SequenceDelimitationItem ^property[2].code = #retired
 * #SequenceDelimitationItem ^property[2].valueBoolean = false

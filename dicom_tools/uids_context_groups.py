@@ -45,7 +45,7 @@ def writeContextUidsCodeSystem( fsh_path:str, dicom_path:str ) -> None:
         for value in value_list:
             if len(value[0])>0:
                 fsh_file.write(f'\n')
-                if len(value[2])>0 and len(value[3])>0 :
+                if len(value[2])>0  :
                     fsh_file.write(f'* #{value[0]} "{value[2]}" "{f'{value[2]} with identifier {value[1]} { f'({value[3]})' if len(value[3])>0 else '' }'.strip()}"\n')
                     fsh_file.write(f'* #{value[0]} ^property[0].code = #identifier\n')
                     fsh_file.write(f'* #{value[0]} ^property[0].valueString  = "{value[1]}"\n')

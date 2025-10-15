@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 from typing import List, Dict, Optional
 
 # Define namespace for DocBook elements
-ns = {'db': 'http://docbook.org/ns/docbook', 'xl' : 'http://www.w3.org/1999/xlink'}
+ns = {'db': 'http://docbook.org/ns/docbook', 'xl' : 'http://www.w3.org/1999/xlink', }
     
 def getDataDicomTable(dicom_path: str, part: str, table_id: str):
     """
@@ -67,29 +67,8 @@ def getDataDicomTable(dicom_path: str, part: str, table_id: str):
                 for td in td_elements:
                 
                     all_elements = td.findall('./*', ns)
-                    all_elements_txt = getElementText( td )
-                    # if ( len( all_elements )>1 ):
-                    #     txt = getElementText( td )
-                    #     print(f'elements:  {len( all_elements )}')
-
-                    # para_elements = td.findall('.//db:para', ns)
-                    # link_elements = td.findall('.//db:link', ns)
-
-                    # link_text = ''
-                    # for link in link_elements:
-                    #     if link is not None:
-                    #         link_text = cleanText( link.text )
-                    #         link_text += cleanText( link    .get('{http://www.w3.org/1999/xlink}href') )
-                    #         i=0# link_text = cleanText( link_element.get('x1:href') )
-
-                    # para_text = ''
-                    # for para in para_elements:
-                    #     field_text = getParaText(para)
-
-                    # field_text = field_text or link_text
-                    # field_text = field_text.replace('"','')
+                    all_elements_txt = getElementText( td, dicom_path )
                     
-                    # row_fields.append( field_text )        
                     row_fields.append( all_elements_txt )        
 
                 table_elements.append(row_fields)
@@ -113,17 +92,19 @@ def toCamelCase( str: str ) -> str:
         camelStr+=word.capitalize()
     return camelStr
 
-def getElementText( element ):
+def getElementText( element, dicom_path ):
     elementText = ''
     all_nodes = element.findall('./*', ns)
     for node in all_nodes:
         tag = node.tag
+        separator = ' '
         new_text = ''
         if ( tag.endswith("para") ):
             text = cleanText( node.text )
-        
+            other_text = getElementText( node, dicom_path )
+            text  = text+other_text
         elif ( tag.endswith("note") ):
-            text = getElementText( node )
+            text = getElementText( node, dicom_path )
             if text and len(text) > 0:
                 text = "Note:" + text 
 
@@ -131,14 +112,17 @@ def getElementText( element ):
             text = ''
             if node is not None:
                 olink_targetdoc = cleanText( node.get('targetdoc') )
+                olink_targetptr = cleanText( node.get('targetptr') )
                 olink_ptr = cleanText( node.get('ptr') )
-                text = ( olink_targetdoc+' '+olink_ptr ).strip()           
+                olink_xrefstyle= cleanText( node.get('xrefstyle'))
+                text = getOlinkText( dicom_path, olink_targetdoc, olink_targetptr, olink_xrefstyle)
+                # print( f'{olink_targetdoc} {olink_targetptr} {olink_ptr} {olink_xrefstyle} ==> {text}')
                 
         elif ( tag.endswith( 'itemizedlist') ):
             text = ''
             itemizeList = node.findall('./db:listitem', ns)
             for item in itemizeList:
-                item_text = getElementText( item )
+                item_text = getElementText( item, dicom_path )
                 text += "\n* " + item_text
             
         elif ( tag.endswith( 'orderedlist') ):
@@ -146,7 +130,7 @@ def getElementText( element ):
             itemizeList = node.findall('./db:listitem', ns)
             i = 1
             for item in itemizeList:
-                item_text = getElementText( item )
+                item_text = getElementText( item, dicom_path )
                 text += f'\n {i} {item_text}'
                 i = i+1
 
@@ -158,20 +142,30 @@ def getElementText( element ):
             text = text or href or show
 
         elif ( tag.endswith('emphasis')):
-            text = cleanTextFromElement( node )
+            text = getElementText( node, dicom_path )
         
         elif ( tag.endswith('xref')):
             text = cleanText( node.get('linkend') )
 
+        elif ( tag.endswith('subscript')):
+            text = cleanText( node.text )
+            separator = ''
         elif ( tag.endswith('superscript')):
             text = cleanText( node.text )
+            separator = ''
+        elif ( tag.endswith('informaltable')):
+            # ignore
+            separator = ''
+        elif ( tag.endswith('informalfigure')):
+            # ignore
+            separator = ''
         else:
             print( f"unsupported tag: {tag}")
             text = '-'
 
         if text and len(text) > 0:
             if ( elementText):
-                elementText += ' '
+                elementText += separator
             elementText = elementText + text    
     # paraNodes = element.findall( './/db:para', ns) if element != None else []
     # for paraNode in paraNodes:
@@ -194,35 +188,10 @@ def getParaText( element ):
     if para_text.find( 'olink' )>0 :
         print('embedded olink')
 
-    element_text = getElementText( element )
+    element_text = getElementText( element, dicom_path )
 
     field_text = para_text or element_text
 
-    # # Check for emphasis
-    # emphasis_element = element.find('.//db:emphasis', ns  )
-    # emphasis_text = cleanTextFromElement( emphasis_element )
-    # emphasis_link_text = getLinks( emphasis_element )
-    # if emphasis_link_text and len(emphasis_link_text) > 0:
-    #     emphasis_text = emphasis_text + ' ' + emphasis_link_text
-                        
-    # # check for olink
-    # olink_element = element.find('.//db:olink', ns)
-    # olink_text = ''
-    # if olink_element is not None:
-    #     olink_targetdoc = cleanText( olink_element.get('targetdoc') )
-    #     olink_ptr = cleanText( olink_element.get('ptr') )
-                            
-    #     olink_text = ( olink_targetdoc+' '+olink_ptr ).strip()           
-
-    # # check for xref
-    # xref_element = element.find('.//db:xref', ns)
-    # xref_text = ''
-    # if (xref_element is not None):
-    #     xref_text = cleanText( xref_element.get('linkend') )
-
-    # field_text = para_text + emphasis_text
-    # if len(field_text) == 0 :
-    #     field_text = olink_text + xref_text
     return field_text
 
 def getLinks( element ):
@@ -349,21 +318,6 @@ def getRowValues( element: ET.Element ) -> List[List[str]]:
         values.append(td_values)
     return values
 
-
-# def cleanTextFromElement( element: Optional[ET.Element]) -> str:
-#     """
-#     Clean text from an XML element, removing unwanted characters.
-    
-#     Args:
-#         element: XML element to extract text from
-        
-#     Returns:
-#         Cleaned text string
-#     """
-#     if element is not None and element.text is not None:
-#         return element.text.encode("ascii", 'ignore').decode('ascii').strip()
-#     return ''   
-
 def cleanText( str:str ) -> str:
     """
     Clean a string by removing unwanted characters.
@@ -378,3 +332,71 @@ def cleanText( str:str ) -> str:
     while( new_text.find('"')>0 ):
         new_text = new_text.replace('"',"'")
     return new_text
+
+def getOlinkText( dicom_path, targetdoc, targetptr, xrefstyle ) -> str:
+    part = ''
+    if targetdoc:
+        partNo = targetdoc.split('.')[-1]
+        if len(partNo) == 1:
+            partNo = '0' + partNo   
+    
+        part = 'part' + partNo
+        
+        filename = os.path.join(dicom_path, f'{part}/{part}.xml')
+        tree = ET.parse(filename)
+        root = tree.getroot()
+
+        # Try to find a section with id=targetptr, then get its first child element
+        section_element = root.find(f".//db:section[@{{http://www.w3.org/XML/1998/namespace}}id='{targetptr}']", ns)
+        if section_element is not None:
+            
+            # title
+            title_element = section_element.find('db:title', ns)
+            title_text = title_element.text 
+
+            # label
+            label = section_element.get('label')
+            
+            # document name
+            docName = targetdoc
+            
+            olink_text = docName;
+
+            if xrefstyle and 'select:' in xrefstyle:
+                # Extract everything after 'selec:'
+                after_select = xrefstyle.split('select:', 1)[1]
+                # Split by space and filter out empty strings
+                label_texts = [after_select.strip().split(' ')][0]
+                olink_text = ''
+                
+                for lbl in label_texts:
+                    if lbl == 'label':
+                        olink_text = olink_text + ' ' + label
+                    elif lbl == 'labelnumber':
+                        olink_text = olink_text + ' ' + label
+                    elif lbl == 'quotedtitle':
+                        olink_text = olink_text + ' ' + title_text
+                    elif lbl == 'title':
+                        olink_text = olink_text + ' ' + title_text
+                    elif lbl == 'docname':
+                        olink_text = olink_text + ' ' + docName
+                    else:
+                        print(f'Unknown xrefstyle label: {lbl}')
+        
+            return olink_text.strip()
+
+    if xrefstyle and 'select:' in xrefstyle:
+        # Extract everything after 'selec:'
+        after_select = xrefstyle.split('select:', 1)[1]
+        # Split by space and filter out empty strings
+        label_texts = [after_select.strip().split(' ')][0]
+        olink_text = ''
+        
+        for lbl in label_texts:
+            if lbl == 'labelnumber':
+                olink_text = olink_text + ' ' + targetdoc
+            else:
+                print(f'Unknown xrefstyle label: {lbl}')
+
+        
+    return olink_text.strip()

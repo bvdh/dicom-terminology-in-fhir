@@ -10,7 +10,7 @@ CODESYSTEM_ID = 'dicom-uids-color-palletes'
 CODESYSTEM_TITLE = 'DICOM® Standard Color Palettes'
 CODESYSTEM_DESCRIPTION = 'DICOM® Standard Color Palettes from DICOM PS3.6 Table B-1-1.'
 
-def writeColorPalletesCodeSystem( fsh_path:str, dicom_path:str ) -> None:
+def writeColorPalletsCodeSystem( fsh_path:str, dicom_path:str ) -> None:
 
     fsh_filename = f'CodeSystem-{CODESYSTEM_ID}.fsh'
     print(f'Generating FHIR Shorthand in {fsh_path}/{fsh_filename}')

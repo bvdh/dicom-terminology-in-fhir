@@ -499,7 +499,7 @@ Male sex changed to Female sex.
 * #MCD "Media Creation Device"
 """
 MediaCreationDevice:
-A device, process or method that creates DICOM
+A device, process or method that creates DICOMPS3.10
 """
 * #MCD ^property[0].code = #keyword
 * #MCD ^property[0].valueString  = "MediaCreationDevice"
@@ -2192,7 +2192,7 @@ World Wide Kennel Club.
 * #109701 "Overall image quality evaluation"
 """
 OverallImageQualityEvaluation:
-Evaluation of overall image quality as described in section 7.3.2 of
+Evaluation of overall image quality as described in section 7.3.2 ofbiblio_IEC62563-1
 """
 * #109701 ^property[0].code = #keyword
 * #109701 ^property[0].valueString  = "OverallImageQualityEvaluation"
@@ -2202,7 +2202,7 @@ Evaluation of overall image quality as described in section 7.3.2 of
 * #109702 "Grayscale resolution evaluation"
 """
 GrayscaleResolutionEvaluation:
-Visual verification of sufficient grayscale resolution based on 8 and 10-bit markers as described in section 7.3.3 of
+Visual verification of sufficient grayscale resolution based on 8 and 10-bit markers as described in section 7.3.3 ofbiblio_IEC62563-1
 """
 * #109702 ^property[0].code = #keyword
 * #109702 ^property[0].valueString  = "GrayscaleResolutionEvaluation"
@@ -2212,7 +2212,7 @@ Visual verification of sufficient grayscale resolution based on 8 and 10-bit mar
 * #109703 "Luminance response evaluation"
 """
 LuminanceResponseEvaluation:
-Visual evaluation of luminance response using the TG18-CT test pattern as described in section 7.3.4 of
+Visual evaluation of luminance response using the TG18-CT test pattern as described in section 7.3.4 ofbiblio_IEC62563-1
 """
 * #109703 ^property[0].code = #keyword
 * #109703 ^property[0].valueString  = "LuminanceResponseEvaluation"
@@ -2222,7 +2222,7 @@ Visual evaluation of luminance response using the TG18-CT test pattern as descri
 * #109704 "Luminance uniformity evaluation"
 """
 LuminanceUniformityEvaluation:
-Visual detection of luminance non-uniformities as described in section 7.3.5 of
+Visual detection of luminance non-uniformities as described in section 7.3.5 ofbiblio_IEC62563-1
 """
 * #109704 ^property[0].code = #keyword
 * #109704 ^property[0].valueString  = "LuminanceUniformityEvaluation"
@@ -2232,7 +2232,7 @@ Visual detection of luminance non-uniformities as described in section 7.3.5 of
 * #109705 "Chromaticity evaluation"
 """
 ChromaticityEvaluation:
-Visual verification of color uniformity as described in section 7.3.6 of
+Visual verification of color uniformity as described in section 7.3.6 ofbiblio_IEC62563-1
 """
 * #109705 ^property[0].code = #keyword
 * #109705 ^property[0].valueString  = "ChromaticityEvaluation"
@@ -2242,7 +2242,7 @@ Visual verification of color uniformity as described in section 7.3.6 of
 * #109706 "Pixel faults evaluation"
 """
 PixelFaultsEvaluation:
-Visual detection of defective pixels on dark (TG18-UN80) and bright (TG18-UN10) images as described in section 7.3.7 of
+Visual detection of defective pixels on dark (TG18-UN80) and bright (TG18-UN10) images as described in section 7.3.7 ofbiblio_IEC62563-1
 """
 * #109706 ^property[0].code = #keyword
 * #109706 ^property[0].valueString  = "PixelFaultsEvaluation"
@@ -2252,7 +2252,7 @@ Visual detection of defective pixels on dark (TG18-UN80) and bright (TG18-UN10) 
 * #109707 "Veiling glare evaluation"
 """
 VeilingGlareEvaluation:
-Visual evaluation of veiling glare by looking at low contrast objects on 2 test patterns as described in section 7.3.8 of
+Visual evaluation of veiling glare by looking at low contrast objects on 2 test patterns as described in section 7.3.8 ofbiblio_IEC62563-1
 """
 * #109707 ^property[0].code = #keyword
 * #109707 ^property[0].valueString  = "VeilingGlareEvaluation"
@@ -2262,7 +2262,7 @@ Visual evaluation of veiling glare by looking at low contrast objects on 2 test 
 * #109708 "Geometrical image evaluation"
 """
 GeometricalImageEvaluation:
-Visual evaluation of geometry, phase/clock correction and clipping as described in section 7.3.9 of
+Visual evaluation of geometry, phase/clock correction and clipping as described in section 7.3.9 ofbiblio_IEC62563-1
 """
 * #109708 ^property[0].code = #keyword
 * #109708 ^property[0].valueString  = "GeometricalImageEvaluation"
@@ -2272,7 +2272,7 @@ Visual evaluation of geometry, phase/clock correction and clipping as described 
 * #109709 "Angular viewing evaluation"
 """
 AngularViewingEvaluation:
-Visual evaluation of viewing angle as described in section 7.3.10 of
+Visual evaluation of viewing angle as described in section 7.3.10 ofbiblio_IEC62563-1
 """
 * #109709 ^property[0].code = #keyword
 * #109709 ^property[0].valueString  = "AngularViewingEvaluation"
@@ -2282,7 +2282,7 @@ Visual evaluation of viewing angle as described in section 7.3.10 of
 * #109710 "Clinical evaluation"
 """
 ClinicalEvaluation:
-Visual evaluation of the appearance of clinical images as described in section 7.3.11 of
+Visual evaluation of the appearance of clinical images as described in section 7.3.11 ofbiblio_IEC62563-1
 """
 * #109710 ^property[0].code = #keyword
 * #109710 ^property[0].valueString  = "ClinicalEvaluation"
@@ -2292,7 +2292,7 @@ Visual evaluation of the appearance of clinical images as described in section 7
 * #109801 "TG18-QC Pattern"
 """
 Tg18-qcPattern:
-AAPM TG18-QC Pattern used for evaluation of resolution, luminance, distortion, artifacts. See
+AAPM TG18-QC Pattern used for evaluation of resolution, luminance, distortion, artifacts. Seebiblio_AAPM_OR03
 """
 * #109801 ^property[0].code = #keyword
 * #109801 ^property[0].valueString  = "Tg18-qcPattern"
@@ -2302,7 +2302,7 @@ AAPM TG18-QC Pattern used for evaluation of resolution, luminance, distortion, a
 * #109802 "TG18-BR Pattern"
 """
 Tg18-brPattern:
-AAPM TG18-BR Pattern used for the evaluation of the display of low-contrast, fine-detail image structures See
+AAPM TG18-BR Pattern used for the evaluation of the display of low-contrast, fine-detail image structures Seebiblio_AAPM_OR03
 """
 * #109802 ^property[0].code = #keyword
 * #109802 ^property[0].valueString  = "Tg18-brPattern"
@@ -2312,7 +2312,7 @@ AAPM TG18-BR Pattern used for the evaluation of the display of low-contrast, fin
 * #109803 "TG18-PQC Pattern"
 """
 Tg18-pqcPattern:
-AAPM TG18-PQC Pattern used for evaluation of resolution, luminance, contrast transfer for prints. See
+AAPM TG18-PQC Pattern used for evaluation of resolution, luminance, contrast transfer for prints. Seebiblio_AAPM_OR03
 """
 * #109803 ^property[0].code = #keyword
 * #109803 ^property[0].valueString  = "Tg18-pqcPattern"
@@ -2322,7 +2322,7 @@ AAPM TG18-PQC Pattern used for evaluation of resolution, luminance, contrast tra
 * #109804 "TG18-CT Pattern"
 """
 Tg18-ctPattern:
-AAPM TG18-CT Pattern used for evaluation of luminance response. See
+AAPM TG18-CT Pattern used for evaluation of luminance response. Seebiblio_AAPM_OR03
 """
 * #109804 ^property[0].code = #keyword
 * #109804 ^property[0].valueString  = "Tg18-ctPattern"
@@ -2332,7 +2332,7 @@ AAPM TG18-CT Pattern used for evaluation of luminance response. See
 * #109805 "TG18-LN8-01 Pattern"
 """
 Tg18-ln8-01Pattern:
-The 1 See
+The 1st Seebiblio_AAPM_OR03
 """
 * #109805 ^property[0].code = #keyword
 * #109805 ^property[0].valueString  = "Tg18-ln8-01Pattern"
@@ -2342,7 +2342,7 @@ The 1 See
 * #109806 "TG18-LN8-02 Pattern"
 """
 Tg18-ln8-02Pattern:
-The 2 See
+The 2nd Seebiblio_AAPM_OR03
 """
 * #109806 ^property[0].code = #keyword
 * #109806 ^property[0].valueString  = "Tg18-ln8-02Pattern"
@@ -2352,7 +2352,7 @@ The 2 See
 * #109807 "TG18-LN8-03 Pattern"
 """
 Tg18-ln8-03Pattern:
-The 3 See
+The 3rd Seebiblio_AAPM_OR03
 """
 * #109807 ^property[0].code = #keyword
 * #109807 ^property[0].valueString  = "Tg18-ln8-03Pattern"
@@ -2362,7 +2362,7 @@ The 3 See
 * #109808 "TG18-LN8-04 Pattern"
 """
 Tg18-ln8-04Pattern:
-The 4 See
+The 4th Seebiblio_AAPM_OR03
 """
 * #109808 ^property[0].code = #keyword
 * #109808 ^property[0].valueString  = "Tg18-ln8-04Pattern"
@@ -2372,7 +2372,7 @@ The 4 See
 * #109809 "TG18-LN8-05 Pattern"
 """
 Tg18-ln8-05Pattern:
-The 5 See
+The 5th Seebiblio_AAPM_OR03
 """
 * #109809 ^property[0].code = #keyword
 * #109809 ^property[0].valueString  = "Tg18-ln8-05Pattern"
@@ -2382,7 +2382,7 @@ The 5 See
 * #109810 "TG18-LN8-06 Pattern"
 """
 Tg18-ln8-06Pattern:
-The 6 See
+The 6th Seebiblio_AAPM_OR03
 """
 * #109810 ^property[0].code = #keyword
 * #109810 ^property[0].valueString  = "Tg18-ln8-06Pattern"
@@ -2392,7 +2392,7 @@ The 6 See
 * #109811 "TG18-LN8-07 Pattern"
 """
 Tg18-ln8-07Pattern:
-The 7 See
+The 7th Seebiblio_AAPM_OR03
 """
 * #109811 ^property[0].code = #keyword
 * #109811 ^property[0].valueString  = "Tg18-ln8-07Pattern"
@@ -2402,7 +2402,7 @@ The 7 See
 * #109812 "TG18-LN8-08 Pattern"
 """
 Tg18-ln8-08Pattern:
-The 8 See
+The 8th Seebiblio_AAPM_OR03
 """
 * #109812 ^property[0].code = #keyword
 * #109812 ^property[0].valueString  = "Tg18-ln8-08Pattern"
@@ -2412,7 +2412,7 @@ The 8 See
 * #109813 "TG18-LN8-09 Pattern"
 """
 Tg18-ln8-09Pattern:
-The 9 See
+The 9th Seebiblio_AAPM_OR03
 """
 * #109813 ^property[0].code = #keyword
 * #109813 ^property[0].valueString  = "Tg18-ln8-09Pattern"
@@ -2422,7 +2422,7 @@ The 9 See
 * #109814 "TG18-LN8-10 Pattern"
 """
 Tg18-ln8-10Pattern:
-The 10 See
+The 10th Seebiblio_AAPM_OR03
 """
 * #109814 ^property[0].code = #keyword
 * #109814 ^property[0].valueString  = "Tg18-ln8-10Pattern"
@@ -2432,7 +2432,7 @@ The 10 See
 * #109815 "TG18-LN8-11 Pattern"
 """
 Tg18-ln8-11Pattern:
-The 11 See
+The 11th Seebiblio_AAPM_OR03
 """
 * #109815 ^property[0].code = #keyword
 * #109815 ^property[0].valueString  = "Tg18-ln8-11Pattern"
@@ -2442,7 +2442,7 @@ The 11 See
 * #109816 "TG18-LN8-12 Pattern"
 """
 Tg18-ln8-12Pattern:
-The 12 See
+The 12th Seebiblio_AAPM_OR03
 """
 * #109816 ^property[0].code = #keyword
 * #109816 ^property[0].valueString  = "Tg18-ln8-12Pattern"
@@ -2452,7 +2452,7 @@ The 12 See
 * #109817 "TG18-LN8-13 Pattern"
 """
 Tg18-ln8-13Pattern:
-The 13 See
+The 13th Seebiblio_AAPM_OR03
 """
 * #109817 ^property[0].code = #keyword
 * #109817 ^property[0].valueString  = "Tg18-ln8-13Pattern"
@@ -2462,7 +2462,7 @@ The 13 See
 * #109818 "TG18-LN8-14 Pattern"
 """
 Tg18-ln8-14Pattern:
-The 14 See
+The 14th Seebiblio_AAPM_OR03
 """
 * #109818 ^property[0].code = #keyword
 * #109818 ^property[0].valueString  = "Tg18-ln8-14Pattern"
@@ -2472,7 +2472,7 @@ The 14 See
 * #109819 "TG18-LN8-15 Pattern"
 """
 Tg18-ln8-15Pattern:
-The 15 See
+The 15th Seebiblio_AAPM_OR03
 """
 * #109819 ^property[0].code = #keyword
 * #109819 ^property[0].valueString  = "Tg18-ln8-15Pattern"
@@ -2482,7 +2482,7 @@ The 15 See
 * #109820 "TG18-LN8-16 Pattern"
 """
 Tg18-ln8-16Pattern:
-The 16 See
+The 16th Seebiblio_AAPM_OR03
 """
 * #109820 ^property[0].code = #keyword
 * #109820 ^property[0].valueString  = "Tg18-ln8-16Pattern"
@@ -2492,7 +2492,7 @@ The 16 See
 * #109821 "TG18-LN8-17 Pattern"
 """
 Tg18-ln8-17Pattern:
-The 17 See
+The 17th Seebiblio_AAPM_OR03
 """
 * #109821 ^property[0].code = #keyword
 * #109821 ^property[0].valueString  = "Tg18-ln8-17Pattern"
@@ -2502,7 +2502,7 @@ The 17 See
 * #109822 "TG18-LN8-18 Pattern"
 """
 Tg18-ln8-18Pattern:
-The 18 See
+The 18th Seebiblio_AAPM_OR03
 """
 * #109822 ^property[0].code = #keyword
 * #109822 ^property[0].valueString  = "Tg18-ln8-18Pattern"
@@ -2512,7 +2512,7 @@ The 18 See
 * #109823 "TG18-LN12-01 Pattern"
 """
 Tg18-ln12-01Pattern:
-The 1 See
+The 1st Seebiblio_AAPM_OR03
 """
 * #109823 ^property[0].code = #keyword
 * #109823 ^property[0].valueString  = "Tg18-ln12-01Pattern"
@@ -2522,7 +2522,7 @@ The 1 See
 * #109824 "TG18-LN12-02 Pattern"
 """
 Tg18-ln12-02Pattern:
-The 2 See
+The 2nd Seebiblio_AAPM_OR03
 """
 * #109824 ^property[0].code = #keyword
 * #109824 ^property[0].valueString  = "Tg18-ln12-02Pattern"
@@ -2532,7 +2532,7 @@ The 2 See
 * #109825 "TG18-LN12-03 Pattern"
 """
 Tg18-ln12-03Pattern:
-The 3 See
+The 3rd Seebiblio_AAPM_OR03
 """
 * #109825 ^property[0].code = #keyword
 * #109825 ^property[0].valueString  = "Tg18-ln12-03Pattern"
@@ -2542,7 +2542,7 @@ The 3 See
 * #109826 "TG18-LN12-04 Pattern"
 """
 Tg18-ln12-04Pattern:
-The 4 See
+The 4th Seebiblio_AAPM_OR03
 """
 * #109826 ^property[0].code = #keyword
 * #109826 ^property[0].valueString  = "Tg18-ln12-04Pattern"
@@ -2552,7 +2552,7 @@ The 4 See
 * #109827 "TG18-LN12-05 Pattern"
 """
 Tg18-ln12-05Pattern:
-The 5 See
+The 5th Seebiblio_AAPM_OR03
 """
 * #109827 ^property[0].code = #keyword
 * #109827 ^property[0].valueString  = "Tg18-ln12-05Pattern"
@@ -2562,7 +2562,7 @@ The 5 See
 * #109828 "TG18-LN12-06 Pattern"
 """
 Tg18-ln12-06Pattern:
-The 6 See
+The 6th Seebiblio_AAPM_OR03
 """
 * #109828 ^property[0].code = #keyword
 * #109828 ^property[0].valueString  = "Tg18-ln12-06Pattern"
@@ -2572,7 +2572,7 @@ The 6 See
 * #109829 "TG18-LN12-07 Pattern"
 """
 Tg18-ln12-07Pattern:
-The 7 See
+The 7th Seebiblio_AAPM_OR03
 """
 * #109829 ^property[0].code = #keyword
 * #109829 ^property[0].valueString  = "Tg18-ln12-07Pattern"
@@ -2582,7 +2582,7 @@ The 7 See
 * #109830 "TG18-LN12-08 Pattern"
 """
 Tg18-ln12-08Pattern:
-The 8 See
+The 8th Seebiblio_AAPM_OR03
 """
 * #109830 ^property[0].code = #keyword
 * #109830 ^property[0].valueString  = "Tg18-ln12-08Pattern"
@@ -2592,7 +2592,7 @@ The 8 See
 * #109831 "TG18-LN12-09 Pattern"
 """
 Tg18-ln12-09Pattern:
-The 9 See
+The 9th Seebiblio_AAPM_OR03
 """
 * #109831 ^property[0].code = #keyword
 * #109831 ^property[0].valueString  = "Tg18-ln12-09Pattern"
@@ -2602,7 +2602,7 @@ The 9 See
 * #109832 "TG18-LN12-10 Pattern"
 """
 Tg18-ln12-10Pattern:
-The 10 See
+The 10th Seebiblio_AAPM_OR03
 """
 * #109832 ^property[0].code = #keyword
 * #109832 ^property[0].valueString  = "Tg18-ln12-10Pattern"
@@ -2612,7 +2612,7 @@ The 10 See
 * #109833 "TG18-LN12-11 Pattern"
 """
 Tg18-ln12-11Pattern:
-The 11 See
+The 11th Seebiblio_AAPM_OR03
 """
 * #109833 ^property[0].code = #keyword
 * #109833 ^property[0].valueString  = "Tg18-ln12-11Pattern"
@@ -2622,7 +2622,7 @@ The 11 See
 * #109834 "TG18-LN12-12 Pattern"
 """
 Tg18-ln12-12Pattern:
-The 12 See
+The 12th Seebiblio_AAPM_OR03
 """
 * #109834 ^property[0].code = #keyword
 * #109834 ^property[0].valueString  = "Tg18-ln12-12Pattern"
@@ -2632,7 +2632,7 @@ The 12 See
 * #109835 "TG18-LN12-13 Pattern"
 """
 Tg18-ln12-13Pattern:
-The 13 See
+The 13th Seebiblio_AAPM_OR03
 """
 * #109835 ^property[0].code = #keyword
 * #109835 ^property[0].valueString  = "Tg18-ln12-13Pattern"
@@ -2642,7 +2642,7 @@ The 13 See
 * #109836 "TG18-LN12-14 Pattern"
 """
 Tg18-ln12-14Pattern:
-The 14 See
+The 14th Seebiblio_AAPM_OR03
 """
 * #109836 ^property[0].code = #keyword
 * #109836 ^property[0].valueString  = "Tg18-ln12-14Pattern"
@@ -2652,7 +2652,7 @@ The 14 See
 * #109837 "TG18-LN12-15 Pattern"
 """
 Tg18-ln12-15Pattern:
-The 15 See
+The 15th Seebiblio_AAPM_OR03
 """
 * #109837 ^property[0].code = #keyword
 * #109837 ^property[0].valueString  = "Tg18-ln12-15Pattern"
@@ -2662,7 +2662,7 @@ The 15 See
 * #109838 "TG18-LN12-16 Pattern"
 """
 Tg18-ln12-16Pattern:
-The 16 See
+The 16th Seebiblio_AAPM_OR03
 """
 * #109838 ^property[0].code = #keyword
 * #109838 ^property[0].valueString  = "Tg18-ln12-16Pattern"
@@ -2672,7 +2672,7 @@ The 16 See
 * #109839 "TG18-LN12-17 Pattern"
 """
 Tg18-ln12-17Pattern:
-The 17 See
+The 17th Seebiblio_AAPM_OR03
 """
 * #109839 ^property[0].code = #keyword
 * #109839 ^property[0].valueString  = "Tg18-ln12-17Pattern"
@@ -2682,7 +2682,7 @@ The 17 See
 * #109840 "TG18-LN12-18 Pattern"
 """
 Tg18-ln12-18Pattern:
-The 18 See
+The 18th Seebiblio_AAPM_OR03
 """
 * #109840 ^property[0].code = #keyword
 * #109840 ^property[0].valueString  = "Tg18-ln12-18Pattern"
@@ -2692,7 +2692,7 @@ The 18 See
 * #109841 "TG18-UN10 Pattern"
 """
 Tg18-un10Pattern:
-The AAPM TG18-UN10 Pattern used for evaluation of luminance and color uniformity, and angular response. See
+The AAPM TG18-UN10 Pattern used for evaluation of luminance and color uniformity, and angular response. Seebiblio_AAPM_OR03
 """
 * #109841 ^property[0].code = #keyword
 * #109841 ^property[0].valueString  = "Tg18-un10Pattern"
@@ -2702,7 +2702,7 @@ The AAPM TG18-UN10 Pattern used for evaluation of luminance and color uniformity
 * #109842 "TG18-UN80 Pattern"
 """
 Tg18-un80Pattern:
-The AAPM TG18-UN80 Pattern used for evaluation of luminance and color uniformity, and angular response. See
+The AAPM TG18-UN80 Pattern used for evaluation of luminance and color uniformity, and angular response. Seebiblio_AAPM_OR03
 """
 * #109842 ^property[0].code = #keyword
 * #109842 ^property[0].valueString  = "Tg18-un80Pattern"
@@ -2712,7 +2712,7 @@ The AAPM TG18-UN80 Pattern used for evaluation of luminance and color uniformity
 * #109843 "TG18-UNL10 Pattern"
 """
 Tg18-unl10Pattern:
-The AAPM TG18-UNL10 Pattern is the AAPM TG-18 UN10 Pattern with added defining lines. See
+The AAPM TG18-UNL10 Pattern is the AAPM TG-18 UN10 Pattern with added defining lines. Seebiblio_AAPM_OR03
 """
 * #109843 ^property[0].code = #keyword
 * #109843 ^property[0].valueString  = "Tg18-unl10Pattern"
@@ -2722,7 +2722,7 @@ The AAPM TG18-UNL10 Pattern is the AAPM TG-18 UN10 Pattern with added defining l
 * #109844 "TG18-UNL80 Pattern"
 """
 Tg18-unl80Pattern:
-The AAPM TG18-UNL80 Pattern is the AAPM TG-18 UN80 Pattern with added defining lines. See
+The AAPM TG18-UNL80 Pattern is the AAPM TG-18 UN80 Pattern with added defining lines. Seebiblio_AAPM_OR03
 """
 * #109844 ^property[0].code = #keyword
 * #109844 ^property[0].valueString  = "Tg18-unl80Pattern"
@@ -2732,7 +2732,7 @@ The AAPM TG18-UNL80 Pattern is the AAPM TG-18 UN80 Pattern with added defining l
 * #109845 "TG18-AD Pattern"
 """
 Tg18-adPattern:
-The AAPM TG18-AD Pattern used for visual evaluation of the reflection of ambient light from the display. See
+The AAPM TG18-AD Pattern used for visual evaluation of the reflection of ambient light from the display. Seebiblio_AAPM_OR03
 """
 * #109845 ^property[0].code = #keyword
 * #109845 ^property[0].valueString  = "Tg18-adPattern"
@@ -2742,7 +2742,7 @@ The AAPM TG18-AD Pattern used for visual evaluation of the reflection of ambient
 * #109846 "TG18-MP Pattern"
 """
 Tg18-mpPattern:
-The AAPM TG18-MP Pattern used for evaluation of Luminance response (bit-depth resolution). See
+The AAPM TG18-MP Pattern used for evaluation of Luminance response (bit-depth resolution). Seebiblio_AAPM_OR03
 """
 * #109846 ^property[0].code = #keyword
 * #109846 ^property[0].valueString  = "Tg18-mpPattern"
@@ -2752,7 +2752,7 @@ The AAPM TG18-MP Pattern used for evaluation of Luminance response (bit-depth re
 * #109847 "TG18-RH10 Pattern"
 """
 Tg18-rh10Pattern:
-The AAPM TG18-RH10 Pattern used for LSF-line spectra function-(1k and 2k) evaluation by 5 horizontal lines at 10% luminance level. See
+The AAPM TG18-RH10 Pattern used for LSF-line spectra function-(1k and 2k) evaluation by 5 horizontal lines at 10% luminance level. Seebiblio_AAPM_OR03
 """
 * #109847 ^property[0].code = #keyword
 * #109847 ^property[0].valueString  = "Tg18-rh10Pattern"
@@ -2762,7 +2762,7 @@ The AAPM TG18-RH10 Pattern used for LSF-line spectra function-(1k and 2k) evalua
 * #109848 "TG18-RH50 Pattern"
 """
 Tg18-rh50Pattern:
-The AAPM TG18-RH50 Pattern used for LSF-line spectra function-(1k and 2k) evaluation by 5 horizontal lines at 50% luminance level. See
+The AAPM TG18-RH50 Pattern used for LSF-line spectra function-(1k and 2k) evaluation by 5 horizontal lines at 50% luminance level. Seebiblio_AAPM_OR03
 """
 * #109848 ^property[0].code = #keyword
 * #109848 ^property[0].valueString  = "Tg18-rh50Pattern"
@@ -2772,7 +2772,7 @@ The AAPM TG18-RH50 Pattern used for LSF-line spectra function-(1k and 2k) evalua
 * #109849 "TG18-RH89 Pattern"
 """
 Tg18-rh89Pattern:
-The AAPM TG18-RH89 Pattern used for LSF-line spectra function-(1k and 2k) evaluation by 5 horizontal lines at 89% luminance level. See
+The AAPM TG18-RH89 Pattern used for LSF-line spectra function-(1k and 2k) evaluation by 5 horizontal lines at 89% luminance level. Seebiblio_AAPM_OR03
 """
 * #109849 ^property[0].code = #keyword
 * #109849 ^property[0].valueString  = "Tg18-rh89Pattern"
@@ -2782,7 +2782,7 @@ The AAPM TG18-RH89 Pattern used for LSF-line spectra function-(1k and 2k) evalua
 * #109850 "TG18-RV10 Pattern"
 """
 Tg18-rv10Pattern:
-The AAPM TG18-RV10 Pattern used for LSF-line spectra function-(1k and 2k) evaluation by 5 vertical lines at 10% luminance level. See
+The AAPM TG18-RV10 Pattern used for LSF-line spectra function-(1k and 2k) evaluation by 5 vertical lines at 10% luminance level. Seebiblio_AAPM_OR03
 """
 * #109850 ^property[0].code = #keyword
 * #109850 ^property[0].valueString  = "Tg18-rv10Pattern"
@@ -2792,7 +2792,7 @@ The AAPM TG18-RV10 Pattern used for LSF-line spectra function-(1k and 2k) evalua
 * #109851 "TG18-RV50 Pattern"
 """
 Tg18-rv50Pattern:
-The AAPM TG18-RV50 Pattern used for LSF-line spectra function-(1k and 2k) evaluation by 5 vertical lines at 50% luminance level. See
+The AAPM TG18-RV50 Pattern used for LSF-line spectra function-(1k and 2k) evaluation by 5 vertical lines at 50% luminance level. Seebiblio_AAPM_OR03
 """
 * #109851 ^property[0].code = #keyword
 * #109851 ^property[0].valueString  = "Tg18-rv50Pattern"
@@ -2802,7 +2802,7 @@ The AAPM TG18-RV50 Pattern used for LSF-line spectra function-(1k and 2k) evalua
 * #109852 "TG18-RV89 Pattern"
 """
 Tg18-rv89Pattern:
-The AAPM TG18-RV89 Pattern used for LSF-line spectra function-(1k and 2k) evaluation by 5 vertical lines at 89% luminance level. See
+The AAPM TG18-RV89 Pattern used for LSF-line spectra function-(1k and 2k) evaluation by 5 vertical lines at 89% luminance level. Seebiblio_AAPM_OR03
 """
 * #109852 ^property[0].code = #keyword
 * #109852 ^property[0].valueString  = "Tg18-rv89Pattern"
@@ -2812,7 +2812,7 @@ The AAPM TG18-RV89 Pattern used for LSF-line spectra function-(1k and 2k) evalua
 * #109853 "TG18-PX Pattern"
 """
 Tg18-pxPattern:
-The AAPM TG18-PX Pattern used for the assessment of display resolution. See
+The AAPM TG18-PX Pattern used for the assessment of display resolution. Seebiblio_AAPM_OR03
 """
 * #109853 ^property[0].code = #keyword
 * #109853 ^property[0].valueString  = "Tg18-pxPattern"
@@ -2822,7 +2822,7 @@ The AAPM TG18-PX Pattern used for the assessment of display resolution. See
 * #109854 "TG18-CX Pattern"
 """
 Tg18-cxPattern:
-The AAPM TG18-CX Pattern used to assess display resolution and resolution uniformity. See
+The AAPM TG18-CX Pattern used to assess display resolution and resolution uniformity. Seebiblio_AAPM_OR03
 """
 * #109854 ^property[0].code = #keyword
 * #109854 ^property[0].valueString  = "Tg18-cxPattern"
@@ -2832,7 +2832,7 @@ The AAPM TG18-CX Pattern used to assess display resolution and resolution unifor
 * #109855 "TG18-LPH10 Pattern"
 """
 Tg18-lph10Pattern:
-The AAPM TG18-LPH10 Pattern used to assess display resolution. This pattern has horizontal bars consisting of alternating single-pixel-wide lines across the faceplate of display. The lines have a 12% positive contrast against 10% background level of the maximum pixel value. See
+The AAPM TG18-LPH10 Pattern used to assess display resolution. This pattern has horizontal bars consisting of alternating single-pixel-wide lines across the faceplate of display. The lines have a 12% positive contrast against 10% background level of the maximum pixel value. Seebiblio_AAPM_OR03
 """
 * #109855 ^property[0].code = #keyword
 * #109855 ^property[0].valueString  = "Tg18-lph10Pattern"
@@ -2842,7 +2842,7 @@ The AAPM TG18-LPH10 Pattern used to assess display resolution. This pattern has 
 * #109856 "TG18-LPH50 Pattern"
 """
 Tg18-lph50Pattern:
-The AAPM TG18-LPH50 Pattern used to assess display resolution. This pattern has horizontal bars consisting of alternating single-pixel-wide lines across the faceplate of display. The lines have a 50% positive contrast against 10% background level of the maximum pixel value. See
+The AAPM TG18-LPH50 Pattern used to assess display resolution. This pattern has horizontal bars consisting of alternating single-pixel-wide lines across the faceplate of display. The lines have a 50% positive contrast against 10% background level of the maximum pixel value. Seebiblio_AAPM_OR03
 """
 * #109856 ^property[0].code = #keyword
 * #109856 ^property[0].valueString  = "Tg18-lph50Pattern"
@@ -2852,7 +2852,7 @@ The AAPM TG18-LPH50 Pattern used to assess display resolution. This pattern has 
 * #109857 "TG18-LPH89 Pattern"
 """
 Tg18-lph89Pattern:
-The AAPM TG18-LPH89 Pattern used to assess display resolution. This pattern has horizontal bars consisting of alternating single-pixel-wide lines across the faceplate of display. The lines have a 12% positive contrast against 89% background level of the maximum pixel value. See
+The AAPM TG18-LPH89 Pattern used to assess display resolution. This pattern has horizontal bars consisting of alternating single-pixel-wide lines across the faceplate of display. The lines have a 12% positive contrast against 89% background level of the maximum pixel value. Seebiblio_AAPM_OR03
 """
 * #109857 ^property[0].code = #keyword
 * #109857 ^property[0].valueString  = "Tg18-lph89Pattern"
@@ -2862,7 +2862,7 @@ The AAPM TG18-LPH89 Pattern used to assess display resolution. This pattern has 
 * #109858 "TG18-LPV10 Pattern"
 """
 Tg18-lpv10Pattern:
-The AAPM TG18-LPV10 Pattern used to assess display resolution. This pattern has vertical bars consisting of alternating single-pixel-wide lines across the faceplate of display. The lines have a 12% positive contrast against 10% background level of the maximum pixel value. See
+The AAPM TG18-LPV10 Pattern used to assess display resolution. This pattern has vertical bars consisting of alternating single-pixel-wide lines across the faceplate of display. The lines have a 12% positive contrast against 10% background level of the maximum pixel value. Seebiblio_AAPM_OR03
 """
 * #109858 ^property[0].code = #keyword
 * #109858 ^property[0].valueString  = "Tg18-lpv10Pattern"
@@ -2872,7 +2872,7 @@ The AAPM TG18-LPV10 Pattern used to assess display resolution. This pattern has 
 * #109859 "TG18-LPV50 Pattern"
 """
 Tg18-lpv50Pattern:
-The AAPM TG18-LPV50 Pattern used to assess display resolution. This pattern has vertical bars consisting of alternating single-pixel-wide lines across the faceplate of display. The lines have a 12% positive contrast against 50% background level of the maximum pixel value. See
+The AAPM TG18-LPV50 Pattern used to assess display resolution. This pattern has vertical bars consisting of alternating single-pixel-wide lines across the faceplate of display. The lines have a 12% positive contrast against 50% background level of the maximum pixel value. Seebiblio_AAPM_OR03
 """
 * #109859 ^property[0].code = #keyword
 * #109859 ^property[0].valueString  = "Tg18-lpv50Pattern"
@@ -2882,7 +2882,7 @@ The AAPM TG18-LPV50 Pattern used to assess display resolution. This pattern has 
 * #109860 "TG18-LPV89 Pattern"
 """
 Tg18-lpv89Pattern:
-The AAPM TG18-LPV89 Pattern used to assess display resolution. This pattern has vertical bars consisting of alternating single-pixel-wide lines across the faceplate of display. The lines have a 12% positive contrast against 89% background level of the maximum pixel value. See
+The AAPM TG18-LPV89 Pattern used to assess display resolution. This pattern has vertical bars consisting of alternating single-pixel-wide lines across the faceplate of display. The lines have a 12% positive contrast against 89% background level of the maximum pixel value. Seebiblio_AAPM_OR03
 """
 * #109860 ^property[0].code = #keyword
 * #109860 ^property[0].valueString  = "Tg18-lpv89Pattern"
@@ -2892,7 +2892,7 @@ The AAPM TG18-LPV89 Pattern used to assess display resolution. This pattern has 
 * #109861 "TG18-AFC Pattern"
 """
 Tg18-afcPattern:
-The AAPM TG18-AFC Pattern used to assess display noise. See
+The AAPM TG18-AFC Pattern used to assess display noise. Seebiblio_AAPM_OR03
 """
 * #109861 ^property[0].code = #keyword
 * #109861 ^property[0].valueString  = "Tg18-afcPattern"
@@ -2902,7 +2902,7 @@ The AAPM TG18-AFC Pattern used to assess display noise. See
 * #109862 "TG18-NS10 Pattern"
 """
 Tg18-ns10Pattern:
-The AAPM TG18-NS10 Pattern is AAPM TG18-RV10/RH10 with only difference being the absence of the single line at the center of the measurement area. See
+The AAPM TG18-NS10 Pattern is AAPM TG18-RV10/RH10 with only difference being the absence of the single line at the center of the measurement area. Seebiblio_AAPM_OR03
 """
 * #109862 ^property[0].code = #keyword
 * #109862 ^property[0].valueString  = "Tg18-ns10Pattern"
@@ -2912,7 +2912,7 @@ The AAPM TG18-NS10 Pattern is AAPM TG18-RV10/RH10 with only difference being the
 * #109863 "TG18-NS50 Pattern"
 """
 Tg18-ns50Pattern:
-The AAPM TG18-NS50 Pattern is AAPM TG18-RV50/RH50 with only difference being the absence of the single line at the center of the measurement area. See
+The AAPM TG18-NS50 Pattern is AAPM TG18-RV50/RH50 with only difference being the absence of the single line at the center of the measurement area. Seebiblio_AAPM_OR03
 """
 * #109863 ^property[0].code = #keyword
 * #109863 ^property[0].valueString  = "Tg18-ns50Pattern"
@@ -2922,7 +2922,7 @@ The AAPM TG18-NS50 Pattern is AAPM TG18-RV50/RH50 with only difference being the
 * #109864 "TG18-NS89 Pattern"
 """
 Tg18-ns89Pattern:
-The AAPM TG18-NS89 Pattern is AAPM TG18-RV89/RH89 with only difference being the absence of the single line at the center of the measurement area. See
+The AAPM TG18-NS89 Pattern is AAPM TG18-RV89/RH89 with only difference being the absence of the single line at the center of the measurement area. Seebiblio_AAPM_OR03
 """
 * #109864 ^property[0].code = #keyword
 * #109864 ^property[0].valueString  = "Tg18-ns89Pattern"
@@ -2932,7 +2932,7 @@ The AAPM TG18-NS89 Pattern is AAPM TG18-RV89/RH89 with only difference being the
 * #109865 "TG18-GV Pattern"
 """
 Tg18-gvPattern:
-The TG18-GV Pattern used to assess display veiling. See
+The TG18-GV Pattern used to assess display veiling. Seebiblio_AAPM_OR03
 """
 * #109865 ^property[0].code = #keyword
 * #109865 ^property[0].valueString  = "Tg18-gvPattern"
@@ -2942,7 +2942,7 @@ The TG18-GV Pattern used to assess display veiling. See
 * #109866 "TG18-GVN Pattern"
 """
 Tg18-gvnPattern:
-The TG18-GVN Pattern used to assess display veiling. This pattern is identical to AAPM TG18-GV Pattern except that the large-diameter white circle is replaced with a black circle, creating a completely black pattern except for the presence of low-contrast targets. See
+The TG18-GVN Pattern used to assess display veiling. This pattern is identical to AAPM TG18-GV Pattern except that the large-diameter white circle is replaced with a black circle, creating a completely black pattern except for the presence of low-contrast targets. Seebiblio_AAPM_OR03
 """
 * #109866 ^property[0].code = #keyword
 * #109866 ^property[0].valueString  = "Tg18-gvnPattern"
@@ -2952,7 +2952,7 @@ The TG18-GVN Pattern used to assess display veiling. This pattern is identical t
 * #109867 "TG18-GQ Pattern"
 """
 Tg18-gqPattern:
-The TG18-GQ Pattern used for quantitative assessment of veiling glare. This pattern is identical to TG18-GV except that is lacks the central low-contrast objects. See
+The TG18-GQ Pattern used for quantitative assessment of veiling glare. This pattern is identical to TG18-GV except that is lacks the central low-contrast objects. Seebiblio_AAPM_OR03
 """
 * #109867 ^property[0].code = #keyword
 * #109867 ^property[0].valueString  = "Tg18-gqPattern"
@@ -2962,7 +2962,7 @@ The TG18-GQ Pattern used for quantitative assessment of veiling glare. This patt
 * #109868 "TG18-GQN Pattern"
 """
 Tg18-gqnPattern:
-TG18-GQN Pattern used for the quantitative assessment of veiling glare. This pattern is identical to AAPM TG18-GQ Pattern except that the large-diameter white circle is replaced with a black circle, creating a completely black pattern except for the presence of low-contrast targets. See
+TG18-GQN Pattern used for the quantitative assessment of veiling glare. This pattern is identical to AAPM TG18-GQ Pattern except that the large-diameter white circle is replaced with a black circle, creating a completely black pattern except for the presence of low-contrast targets. Seebiblio_AAPM_OR03
 """
 * #109868 ^property[0].code = #keyword
 * #109868 ^property[0].valueString  = "Tg18-gqnPattern"
@@ -2972,7 +2972,7 @@ TG18-GQN Pattern used for the quantitative assessment of veiling glare. This pat
 * #109869 "TG18-GQB Pattern"
 """
 Tg18-gqbPattern:
-The TG18-GQB Pattern used for the quantitative assessment of veiling glare. This pattern is identical to AAPM TG18-GQ Pattern except eliminating the central black circle. See
+The TG18-GQB Pattern used for the quantitative assessment of veiling glare. This pattern is identical to AAPM TG18-GQ Pattern except eliminating the central black circle. Seebiblio_AAPM_OR03
 """
 * #109869 ^property[0].code = #keyword
 * #109869 ^property[0].valueString  = "Tg18-gqbPattern"
@@ -2982,7 +2982,7 @@ The TG18-GQB Pattern used for the quantitative assessment of veiling glare. This
 * #109870 "TG18-GA03 Pattern"
 """
 Tg18-ga03Pattern:
-The TG18-GA03 Pattern used for quantitative assessment of veiling glare. This pattern is identical to TG18-GQ except that the radius of the central black circle is varied as r = 3. See
+The TG18-GA03 Pattern used for quantitative assessment of veiling glare. This pattern is identical to TG18-GQ except that the radius of the central black circle is varied as r = 3. Seebiblio_AAPM_OR03
 """
 * #109870 ^property[0].code = #keyword
 * #109870 ^property[0].valueString  = "Tg18-ga03Pattern"
@@ -2992,7 +2992,7 @@ The TG18-GA03 Pattern used for quantitative assessment of veiling glare. This pa
 * #109871 "TG18-GA05 Pattern"
 """
 Tg18-ga05Pattern:
-The TG18-GA05 Pattern This pattern is identical to TG18-GQ except that the radius of the central black circle is varied as r = 5. See
+The TG18-GA05 Pattern This pattern is identical to TG18-GQ except that the radius of the central black circle is varied as r = 5. Seebiblio_AAPM_OR03
 """
 * #109871 ^property[0].code = #keyword
 * #109871 ^property[0].valueString  = "Tg18-ga05Pattern"
@@ -3002,7 +3002,7 @@ The TG18-GA05 Pattern This pattern is identical to TG18-GQ except that the radiu
 * #109872 "TG18-GA08 Pattern"
 """
 Tg18-ga08Pattern:
-The TG18-GA08 Pattern used for quantitative assessment of veiling glare. This pattern is identical to TG18-GQ except that the radius of the central black circle is varied as r = 8. See
+The TG18-GA08 Pattern used for quantitative assessment of veiling glare. This pattern is identical to TG18-GQ except that the radius of the central black circle is varied as r = 8. Seebiblio_AAPM_OR03
 """
 * #109872 ^property[0].code = #keyword
 * #109872 ^property[0].valueString  = "Tg18-ga08Pattern"
@@ -3012,7 +3012,7 @@ The TG18-GA08 Pattern used for quantitative assessment of veiling glare. This pa
 * #109873 "TG18-GA10 Pattern"
 """
 Tg18-ga10Pattern:
-The TG18-GA10 Pattern used for quantitative assessment of veiling glare. This pattern is identical to TG18-GQ except that the radius of the central black circle is varied as r = 10. See
+The TG18-GA10 Pattern used for quantitative assessment of veiling glare. This pattern is identical to TG18-GQ except that the radius of the central black circle is varied as r = 10. Seebiblio_AAPM_OR03
 """
 * #109873 ^property[0].code = #keyword
 * #109873 ^property[0].valueString  = "Tg18-ga10Pattern"
@@ -3032,7 +3032,7 @@ The TG18-GA15 Pattern used for quantitative assessment of veiling glare. This pa
 * #109875 "TG18-GA20 Pattern"
 """
 Tg18-ga20Pattern:
-The TG18-GA20 Pattern used for quantitative assessment of veiling glare. This pattern is identical to TG18-GQ except that the radius of the central black circle is varied as r = 20. See
+The TG18-GA20 Pattern used for quantitative assessment of veiling glare. This pattern is identical to TG18-GQ except that the radius of the central black circle is varied as r = 20. Seebiblio_AAPM_OR03
 """
 * #109875 ^property[0].code = #keyword
 * #109875 ^property[0].valueString  = "Tg18-ga20Pattern"
@@ -3042,7 +3042,7 @@ The TG18-GA20 Pattern used for quantitative assessment of veiling glare. This pa
 * #109876 "TG18-GA25 Pattern"
 """
 Tg18-ga25Pattern:
-The TG18-GA25 Pattern used for quantitative assessment of veiling glare. This pattern is identical to TG18-GQ except that the radius of the central black circle is varied as r = 25. See
+The TG18-GA25 Pattern used for quantitative assessment of veiling glare. This pattern is identical to TG18-GQ except that the radius of the central black circle is varied as r = 25. Seebiblio_AAPM_OR03
 """
 * #109876 ^property[0].code = #keyword
 * #109876 ^property[0].valueString  = "Tg18-ga25Pattern"
@@ -3052,7 +3052,7 @@ The TG18-GA25 Pattern used for quantitative assessment of veiling glare. This pa
 * #109877 "TG18-GA30 Pattern"
 """
 Tg18-ga30Pattern:
-The TG18-GA30 Pattern used for quantitative assessment of veiling glare. This pattern is identical to TG18-GQ except that the radius of the central black circle is varied as r = 30. See
+The TG18-GA30 Pattern used for quantitative assessment of veiling glare. This pattern is identical to TG18-GQ except that the radius of the central black circle is varied as r = 30. Seebiblio_AAPM_OR03
 """
 * #109877 ^property[0].code = #keyword
 * #109877 ^property[0].valueString  = "Tg18-ga30Pattern"
@@ -3062,7 +3062,7 @@ The TG18-GA30 Pattern used for quantitative assessment of veiling glare. This pa
 * #109878 "TG18-CH Image"
 """
 Tg18-chImage:
-The AAPM TG18-CH Image is a reference anatomical PA chest image. See
+The AAPM TG18-CH Image is a reference anatomical PA chest image. Seebiblio_AAPM_OR03
 """
 * #109878 ^property[0].code = #keyword
 * #109878 ^property[0].valueString  = "Tg18-chImage"
@@ -3072,7 +3072,7 @@ The AAPM TG18-CH Image is a reference anatomical PA chest image. See
 * #109879 "TG18-KN Image"
 """
 Tg18-knImage:
-The AAPM TG18-KN Image is a reference anatomical knee image. See
+The AAPM TG18-KN Image is a reference anatomical knee image. Seebiblio_AAPM_OR03
 """
 * #109879 ^property[0].code = #keyword
 * #109879 ^property[0].valueString  = "Tg18-knImage"
@@ -3082,7 +3082,7 @@ The AAPM TG18-KN Image is a reference anatomical knee image. See
 * #109880 "TG18-MM1 Image"
 """
 Tg18-mm1Image:
-The AAPM TG18-MM1 Image is a reference anatomical mammogram image. See
+The AAPM TG18-MM1 Image is a reference anatomical mammogram image. Seebiblio_AAPM_OR03
 """
 * #109880 ^property[0].code = #keyword
 * #109880 ^property[0].valueString  = "Tg18-mm1Image"
@@ -3092,7 +3092,7 @@ The AAPM TG18-MM1 Image is a reference anatomical mammogram image. See
 * #109881 "TG18-MM2 Image"
 """
 Tg18-mm2Image:
-The AAPM TG18-MM2 Image is a reference anatomical mammogram image. See
+The AAPM TG18-MM2 Image is a reference anatomical mammogram image. Seebiblio_AAPM_OR03
 """
 * #109881 ^property[0].code = #keyword
 * #109881 ^property[0].valueString  = "Tg18-mm2Image"
@@ -3102,7 +3102,7 @@ The AAPM TG18-MM2 Image is a reference anatomical mammogram image. See
 * #109901 "OIQ Pattern"
 """
 OiqPattern:
-The IEC OIQ Pattern is used as an alternative to the TG18-QC Pattern. See
+The IEC OIQ Pattern is used as an alternative to the TG18-QC Pattern. Seebiblio_IEC62563-1
 """
 * #109901 ^property[0].code = #keyword
 * #109901 ^property[0].valueString  = "OiqPattern"
@@ -3112,7 +3112,7 @@ The IEC OIQ Pattern is used as an alternative to the TG18-QC Pattern. See
 * #109902 "ANG Pattern"
 """
 AngPattern:
-The IEC ANG Pattern used for angular viewing evaluation. See
+The IEC ANG Pattern used for angular viewing evaluation. Seebiblio_IEC62563-1
 """
 * #109902 ^property[0].code = #keyword
 * #109902 ^property[0].valueString  = "AngPattern"
@@ -3122,7 +3122,7 @@ The IEC ANG Pattern used for angular viewing evaluation. See
 * #109903 "GD Pattern"
 """
 GdPattern:
-The IEC GD Pattern used for geometrical image evaluation. See
+The IEC GD Pattern used for geometrical image evaluation. Seebiblio_IEC62563-1
 """
 * #109903 ^property[0].code = #keyword
 * #109903 ^property[0].valueString  = "GdPattern"
@@ -3132,7 +3132,7 @@ The IEC GD Pattern used for geometrical image evaluation. See
 * #109904 "BN01 Pattern"
 """
 Bn01Pattern:
-The IEC BN01 Pattern is used as an alternative to the TG18-LN-01 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN01 Pattern is used as an alternative to the TG18-LN-01 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109904 ^property[0].code = #keyword
 * #109904 ^property[0].valueString  = "Bn01Pattern"
@@ -3142,7 +3142,7 @@ The IEC BN01 Pattern is used as an alternative to the TG18-LN-01 Pattern, to avo
 * #109905 "BN02 Pattern"
 """
 Bn02Pattern:
-The IEC BN02 Pattern is used as an alternative to the TG18-LN-02 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN02 Pattern is used as an alternative to the TG18-LN-02 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109905 ^property[0].code = #keyword
 * #109905 ^property[0].valueString  = "Bn02Pattern"
@@ -3152,7 +3152,7 @@ The IEC BN02 Pattern is used as an alternative to the TG18-LN-02 Pattern, to avo
 * #109906 "BN03 Pattern"
 """
 Bn03Pattern:
-The IEC BN03 Pattern is used as an alternative to the TG18-LN-03 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN03 Pattern is used as an alternative to the TG18-LN-03 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109906 ^property[0].code = #keyword
 * #109906 ^property[0].valueString  = "Bn03Pattern"
@@ -3162,7 +3162,7 @@ The IEC BN03 Pattern is used as an alternative to the TG18-LN-03 Pattern, to avo
 * #109907 "BN04 Pattern"
 """
 Bn04Pattern:
-The IEC BN04 Pattern is used as an alternative to the TG18-LN-04 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN04 Pattern is used as an alternative to the TG18-LN-04 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109907 ^property[0].code = #keyword
 * #109907 ^property[0].valueString  = "Bn04Pattern"
@@ -3172,7 +3172,7 @@ The IEC BN04 Pattern is used as an alternative to the TG18-LN-04 Pattern, to avo
 * #109908 "BN05 Pattern"
 """
 Bn05Pattern:
-The IEC BN05 Pattern is used as an alternative to the TG18-LN-05 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN05 Pattern is used as an alternative to the TG18-LN-05 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109908 ^property[0].code = #keyword
 * #109908 ^property[0].valueString  = "Bn05Pattern"
@@ -3182,7 +3182,7 @@ The IEC BN05 Pattern is used as an alternative to the TG18-LN-05 Pattern, to avo
 * #109909 "BN06 Pattern"
 """
 Bn06Pattern:
-The IEC BN06 Pattern is used as an alternative to the TG18-LN-06 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN06 Pattern is used as an alternative to the TG18-LN-06 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109909 ^property[0].code = #keyword
 * #109909 ^property[0].valueString  = "Bn06Pattern"
@@ -3192,7 +3192,7 @@ The IEC BN06 Pattern is used as an alternative to the TG18-LN-06 Pattern, to avo
 * #109910 "BN07 Pattern"
 """
 Bn07Pattern:
-The IEC BN07 Pattern is used as an alternative to the TG18-LN-07 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN07 Pattern is used as an alternative to the TG18-LN-07 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109910 ^property[0].code = #keyword
 * #109910 ^property[0].valueString  = "Bn07Pattern"
@@ -3202,7 +3202,7 @@ The IEC BN07 Pattern is used as an alternative to the TG18-LN-07 Pattern, to avo
 * #109911 "BN08 Pattern"
 """
 Bn08Pattern:
-The IEC BN08 Pattern is used as an alternative to the TG18-LN-08 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN08 Pattern is used as an alternative to the TG18-LN-08 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109911 ^property[0].code = #keyword
 * #109911 ^property[0].valueString  = "Bn08Pattern"
@@ -3212,7 +3212,7 @@ The IEC BN08 Pattern is used as an alternative to the TG18-LN-08 Pattern, to avo
 * #109912 "BN09 Pattern"
 """
 Bn09Pattern:
-The IEC BN09 Pattern is used as an alternative to the TG18-LN-09 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN09 Pattern is used as an alternative to the TG18-LN-09 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109912 ^property[0].code = #keyword
 * #109912 ^property[0].valueString  = "Bn09Pattern"
@@ -3222,7 +3222,7 @@ The IEC BN09 Pattern is used as an alternative to the TG18-LN-09 Pattern, to avo
 * #109913 "BN10 Pattern"
 """
 Bn10Pattern:
-The IEC BN10 Pattern is used as an alternative to the TG18-LN-10 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN10 Pattern is used as an alternative to the TG18-LN-10 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109913 ^property[0].code = #keyword
 * #109913 ^property[0].valueString  = "Bn10Pattern"
@@ -3232,7 +3232,7 @@ The IEC BN10 Pattern is used as an alternative to the TG18-LN-10 Pattern, to avo
 * #109914 "BN11 Pattern"
 """
 Bn11Pattern:
-The IEC BN11 Pattern is used as an alternative to the TG18-LN-11 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN11 Pattern is used as an alternative to the TG18-LN-11 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109914 ^property[0].code = #keyword
 * #109914 ^property[0].valueString  = "Bn11Pattern"
@@ -3242,7 +3242,7 @@ The IEC BN11 Pattern is used as an alternative to the TG18-LN-11 Pattern, to avo
 * #109915 "BN12 Pattern"
 """
 Bn12Pattern:
-The IEC BN12 Pattern is used as an alternative to the TG18-LN-12 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN12 Pattern is used as an alternative to the TG18-LN-12 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109915 ^property[0].code = #keyword
 * #109915 ^property[0].valueString  = "Bn12Pattern"
@@ -3252,7 +3252,7 @@ The IEC BN12 Pattern is used as an alternative to the TG18-LN-12 Pattern, to avo
 * #109916 "BN13 Pattern"
 """
 Bn13Pattern:
-The IEC BN13 Pattern is used as an alternative to the TG18-LN-13 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN13 Pattern is used as an alternative to the TG18-LN-13 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109916 ^property[0].code = #keyword
 * #109916 ^property[0].valueString  = "Bn13Pattern"
@@ -3262,7 +3262,7 @@ The IEC BN13 Pattern is used as an alternative to the TG18-LN-13 Pattern, to avo
 * #109917 "BN14 Pattern"
 """
 Bn14Pattern:
-The IEC BN14 Pattern is used as an alternative to the TG18-LN-14 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN14 Pattern is used as an alternative to the TG18-LN-14 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109917 ^property[0].code = #keyword
 * #109917 ^property[0].valueString  = "Bn14Pattern"
@@ -3272,7 +3272,7 @@ The IEC BN14 Pattern is used as an alternative to the TG18-LN-14 Pattern, to avo
 * #109918 "BN15 Pattern"
 """
 Bn15Pattern:
-The IEC BN15 Pattern is used as an alternative to the TG18-LN-15 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN15 Pattern is used as an alternative to the TG18-LN-15 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109918 ^property[0].code = #keyword
 * #109918 ^property[0].valueString  = "Bn15Pattern"
@@ -3282,7 +3282,7 @@ The IEC BN15 Pattern is used as an alternative to the TG18-LN-15 Pattern, to avo
 * #109919 "BN16 Pattern"
 """
 Bn16Pattern:
-The IEC BN16 Pattern is used as an alternative to the TG18-LN-16 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN16 Pattern is used as an alternative to the TG18-LN-16 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109919 ^property[0].code = #keyword
 * #109919 ^property[0].valueString  = "Bn16Pattern"
@@ -3292,7 +3292,7 @@ The IEC BN16 Pattern is used as an alternative to the TG18-LN-16 Pattern, to avo
 * #109920 "BN17 Pattern"
 """
 Bn17Pattern:
-The IEC BN17 Pattern is used as an alternative to the TG18-LN-17 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN17 Pattern is used as an alternative to the TG18-LN-17 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109920 ^property[0].code = #keyword
 * #109920 ^property[0].valueString  = "Bn17Pattern"
@@ -3302,7 +3302,7 @@ The IEC BN17 Pattern is used as an alternative to the TG18-LN-17 Pattern, to avo
 * #109921 "BN18 Pattern"
 """
 Bn18Pattern:
-The IEC BN18 Pattern is used as an alternative to the TG18-LN-18 Pattern, to avoid the use of a cone or baffle with LCDs. See
+The IEC BN18 Pattern is used as an alternative to the TG18-LN-18 Pattern, to avoid the use of a cone or baffle with LCDs. Seebiblio_IEC62563-1
 """
 * #109921 ^property[0].code = #keyword
 * #109921 ^property[0].valueString  = "Bn18Pattern"
@@ -3312,7 +3312,7 @@ The IEC BN18 Pattern is used as an alternative to the TG18-LN-18 Pattern, to avo
 * #109931 "DIN Grayscale Pattern"
 """
 DinGrayscalePattern:
-Test image 'Bild 2' for the gray-scale reproduction of imaging devices. See
+Test image 'Bild 2' for the gray-scale reproduction of imaging devices. Seebiblio_DIN6868-57
 """
 * #109931 ^property[0].code = #keyword
 * #109931 ^property[0].valueString  = "DinGrayscalePattern"
@@ -3322,7 +3322,7 @@ Test image 'Bild 2' for the gray-scale reproduction of imaging devices. See
 * #109932 "DIN Geometry Pattern"
 """
 DinGeometryPattern:
-Test image 'Bild 3' for the geometrical imaging properties of imaging devices. See
+Test image 'Bild 3' for the geometrical imaging properties of imaging devices. Seebiblio_DIN6868-57
 """
 * #109932 ^property[0].code = #keyword
 * #109932 ^property[0].valueString  = "DinGeometryPattern"
@@ -3332,7 +3332,7 @@ Test image 'Bild 3' for the geometrical imaging properties of imaging devices. S
 * #109933 "DIN Resolution Pattern"
 """
 DinResolutionPattern:
-Test image 'Bild 5' for displaying the spatial and contrast resolution as well as the line structure of imaging devices. See
+Test image 'Bild 5' for displaying the spatial and contrast resolution as well as the line structure of imaging devices. Seebiblio_DIN6868-57
 """
 * #109933 ^property[0].code = #keyword
 * #109933 ^property[0].valueString  = "DinResolutionPattern"
@@ -3352,7 +3352,7 @@ An alternative to AAPM TG18-UN80, specified at 100% of maximum pixel value.
 * #109943 "SMPTE Pattern"
 """
 SmptePattern:
-A standard display test pattern. See A pattern is available at
+A standard display test pattern. Seebiblio_SMPTE_RP133 A pattern is available athttp://www.dclunie.com/images/smpte.512.512.8.gif
 """
 * #109943 ^property[0].code = #keyword
 * #109943 ^property[0].valueString  = "SmptePattern"
@@ -4622,7 +4622,7 @@ The expiration date/time of the workitem has been exceeded.
 * #110700 "Ventral Diencephalon"
 """
 VentralDiencephalon:
-Ventral structures of the diencephalon that cannot readily be distinguished on MR imaging, including the hypothalamus, mammillary body, subthalamic nuclei, substantia nigra, red nucleus, lateral geniculate nucleus, medial geniculate nucleus, zona incerta, cerebral peduncle, lenticular fasciculus, medial lemniscus, and optic tract. See
+Ventral structures of the diencephalon that cannot readily be distinguished on MR imaging, including the hypothalamus, mammillary body, subthalamic nuclei, substantia nigra, red nucleus, lateral geniculate nucleus, medial geniculate nucleus, zona incerta, cerebral peduncle, lenticular fasciculus, medial lemniscus, and optic tract. Seehttp://neuromorphometrics.org:8080/Seg/html/segmentation/ventral%20diencephalon.html http://www.cma.mgh.harvard.edu/manuals/segmentation/
 """
 * #110700 ^property[0].code = #keyword
 * #110700 ^property[0].valueString  = "VentralDiencephalon"
@@ -4652,7 +4652,7 @@ Area(s) of increased intensity on T2 weighted images relative to the surrounding
 * #110703 "superior longitudinal fasciculus I"
 """
 SuperiorLongitudinalFasciculusI:
-The dorsal component of the SLF originating from the medial and dorsal parietal cortex and ending in the dorsal and medial part of the frontal lobe. See Makris N, et al. 'Segmentation of Subcomponents within the Superior Longitudinal Fascicle in Humans: A Quantitative, In Vivo, DT-MRI Study.' Cerebral Cortex 15, no. 6 (June 1, 2005): 854-69.
+The dorsal component of the SLF originating from the medial and dorsal parietal cortex and ending in the dorsal and medial part of the frontal lobe. See Makris N, et al. 'Segmentation of Subcomponents within the Superior Longitudinal Fascicle in Humans: A Quantitative, In Vivo, DT-MRI Study.' Cerebral Cortex 15, no. 6 (June 1, 2005): 854-69.doi:10.1093/cercor/bhh186
 """
 * #110703 ^property[0].code = #keyword
 * #110703 ^property[0].valueString  = "SuperiorLongitudinalFasciculusI"
@@ -4662,7 +4662,7 @@ The dorsal component of the SLF originating from the medial and dorsal parietal 
 * #110704 "superior longitudinal fasciculus II"
 """
 SuperiorLongitudinalFasciculusIi:
-The major component of the SLF, derived from the caudal-inferior parietal region corresponding to the angular gyrus in the human and terminating within the dorsolateral frontal region. See Makris N, et al. 'Segmentation of Subcomponents within the Superior Longitudinal Fascicle in Humans: A Quantitative, In Vivo, DT-MRI Study.' Cerebral Cortex 15, no. 6 (June 1, 2005): 854-69.
+The major component of the SLF, derived from the caudal-inferior parietal region corresponding to the angular gyrus in the human and terminating within the dorsolateral frontal region. See Makris N, et al. 'Segmentation of Subcomponents within the Superior Longitudinal Fascicle in Humans: A Quantitative, In Vivo, DT-MRI Study.' Cerebral Cortex 15, no. 6 (June 1, 2005): 854-69.doi:10.1093/cercor/bhh186
 """
 * #110704 ^property[0].code = #keyword
 * #110704 ^property[0].valueString  = "SuperiorLongitudinalFasciculusIi"
@@ -4672,7 +4672,7 @@ The major component of the SLF, derived from the caudal-inferior parietal region
 * #110705 "superior longitudinal fasciculus III"
 """
 SuperiorLongitudinalFasciculusIii:
-The ventral component of the SLF, originating from the supramarginal gyrus and terminating predominantly in the ventral premotor and prefrontal areas. See Makris N, et al. 'Segmentation of Subcomponents within the Superior Longitudinal Fascicle in Humans: A Quantitative, In Vivo, DT-MRI Study.' Cerebral Cortex 15, no. 6 (June 1, 2005): 854-69.
+The ventral component of the SLF, originating from the supramarginal gyrus and terminating predominantly in the ventral premotor and prefrontal areas. See Makris N, et al. 'Segmentation of Subcomponents within the Superior Longitudinal Fascicle in Humans: A Quantitative, In Vivo, DT-MRI Study.' Cerebral Cortex 15, no. 6 (June 1, 2005): 854-69.doi:10.1093/cercor/bhh186
 """
 * #110705 ^property[0].code = #keyword
 * #110705 ^property[0].valueString  = "SuperiorLongitudinalFasciculusIii"
@@ -4762,7 +4762,7 @@ Signal intensity of a T2* Weighted MR image. The T2* phenomenon results from mol
 * #110807 "Field Map MR Signal Intensity"
 """
 FieldMapMrSignalIntensity:
-Signal intensity of a Field Map MR image. A Field Map MR image provides a direct measure of the
+Signal intensity of a Field Map MR image. A Field Map MR image provides a direct measure of the0
 """
 * #110807 ^property[0].code = #keyword
 * #110807 ^property[0].valueString  = "FieldMapMrSignalIntensity"
@@ -5933,16 +5933,6 @@ A structured report containing the results of computer-aided detection or diagno
 * #111036 ^property[0].valueString  = "MammographyCadReport"
 * #111036 ^property[1].code = #retired
 * #111036 ^property[1].valueBoolean  = false
-
-* #111037 "Margins"
-"""
-Margins:
-The characteristic of the boundary, edges or border of a detected lesion.
-"""
-* #111037 ^property[0].code = #keyword
-* #111037 ^property[0].valueString  = "Margins"
-* #111037 ^property[1].code = #retired
-* #111037 ^property[1].valueBoolean  = false
 
 * #111038 "Number of calcifications"
 """
@@ -10752,7 +10742,7 @@ The spectacle prescription for the left eye.
 * #111690 "Macular Grid Thickness and Volume Report"
 """
 MacularGridThicknessAndVolumeReport:
-A macular grid thickness and volume report for a patient. The macular grid is an analytic tool described in
+A macular grid thickness and volume report for a patient. The macular grid is an analytic tool described inPS3.17
 """
 * #111690 ^property[0].code = #keyword
 * #111690 ^property[0].valueString  = "MacularGridThicknessAndVolumeReport"
@@ -12092,7 +12082,7 @@ The data output of an optical fixation monitoring process, consisting of a list 
 * #111860 "Haigis Toric"
 """
 HaigisToric:
-The Haigis Toric IOL calculation formula. Haigis, Wolfgang. Toric Iol Power Calculation. 2014.
+The Haigis Toric IOL calculation formula. Haigis, Wolfgang. Toric Iol Power Calculation. 2014.http://www.zeiss.com/toric-iol-power-calculation
 """
 * #111860 ^property[0].code = #keyword
 * #111860 ^property[0].valueString  = "HaigisToric"
@@ -12102,7 +12092,7 @@ The Haigis Toric IOL calculation formula. Haigis, Wolfgang. Toric Iol Power Calc
 * #111861 "Haigis-L Toric"
 """
 Haigis-lToric:
-The Haigis-L Toric IOL calculation formula. Haigis W, Intraocular lens calculation after refractive surgery for myopia: Haigis-L formula. J Cataract Refract Surg, 2008. 34(10): 1658-63.
+The Haigis-L Toric IOL calculation formula. Haigis W, Intraocular lens calculation after refractive surgery for myopia: Haigis-L formula. J Cataract Refract Surg, 2008. 34(10): 1658-63.doi:10.1016/j.jcrs.2008.06.029
 """
 * #111861 ^property[0].code = #keyword
 * #111861 ^property[0].valueString  = "Haigis-lToric"
@@ -12112,7 +12102,7 @@ The Haigis-L Toric IOL calculation formula. Haigis W, Intraocular lens calculati
 * #111862 "Barrett Toric"
 """
 BarrettToric:
-The Barrett Toric IOL calculation formula. Abulafia, A., et al., Prediction of refractive outcomes with toric intraocular lens implantation. J Cataract Refract Surg, 2015. 41(5): p. 936-44.
+The Barrett Toric IOL calculation formula. Abulafia, A., et al., Prediction of refractive outcomes with toric intraocular lens implantation. J Cataract Refract Surg, 2015. 41(5): p. 936-44.doi:10.1016/j.jcrs.2014.08.036
 """
 * #111862 ^property[0].code = #keyword
 * #111862 ^property[0].valueString  = "BarrettToric"
@@ -12122,7 +12112,7 @@ The Barrett Toric IOL calculation formula. Abulafia, A., et al., Prediction of r
 * #111863 "Barrett True-K"
 """
 BarrettTrue-k:
-The Barrett True-K IOL calculation formula. Abulafia, A., et al., Accuracy of the Barrett True-K formula for intraocular lens power prediction after laser in situ keratomileusis or photorefractive keratectomy for myopia. J Cataract Refract Surg, 2016. 42(3): p. 363-9.
+The Barrett True-K IOL calculation formula. Abulafia, A., et al., Accuracy of the Barrett True-K formula for intraocular lens power prediction after laser in situ keratomileusis or photorefractive keratectomy for myopia. J Cataract Refract Surg, 2016. 42(3): p. 363-9.doi:10.1016/j.jcrs.2015.11.039
 """
 * #111863 ^property[0].code = #keyword
 * #111863 ^property[0].valueString  = "BarrettTrue-k"
@@ -12132,7 +12122,7 @@ The Barrett True-K IOL calculation formula. Abulafia, A., et al., Accuracy of th
 * #111864 "Barrett True-K Toric"
 """
 BarrettTrue-kToric:
-The Barrett True-K Toric IOL calculation formula. Barrett G.D., Barrett True-K toric calculator.
+The Barrett True-K Toric IOL calculation formula. Barrett G.D., Barrett True-K toric calculator.http://www.apacrs.org/TrueKToric105/TrueKToric.aspx
 """
 * #111864 ^property[0].code = #keyword
 * #111864 ^property[0].valueString  = "BarrettTrue-kToric"
@@ -12142,7 +12132,7 @@ The Barrett True-K Toric IOL calculation formula. Barrett G.D., Barrett True-K t
 * #111865 "Barrett Universal II"
 """
 BarrettUniversalIi:
-The Barrett Universal II IOL calculation formula. Barrett, G.D., An improved universal theoretical formula for intraocular lens power prediction. J Cataract Refract Surg, 1993. 19: p. 713-720.
+The Barrett Universal II IOL calculation formula. Barrett, G.D., An improved universal theoretical formula for intraocular lens power prediction. J Cataract Refract Surg, 1993. 19: p. 713-720.doi:10.1016/S0886-3350(13)80339-2
 """
 * #111865 ^property[0].code = #keyword
 * #111865 ^property[0].valueString  = "BarrettUniversalIi"
@@ -12172,7 +12162,7 @@ The 'Barrett Design Factor' constant used in IOL calculation.
 * #111868 "Kane"
 """
 Kane:
-The Kane intraocular lens calculation formula. Connell BJ, Kane JX. Comparison of the Kane formula with existing formulas for intraocular lens power selection. BMJ Open Ophthalmol. 2019 Apr 1;4(1):e000251.
+The Kane intraocular lens calculation formula. Connell BJ, Kane JX. Comparison of the Kane formula with existing formulas for intraocular lens power selection. BMJ Open Ophthalmol. 2019 Apr 1;4(1):e000251.doi:10.1136/bmjophth-2018-000251
 """
 * #111868 ^property[0].code = #keyword
 * #111868 ^property[0].valueString  = "Kane"
@@ -12182,7 +12172,7 @@ The Kane intraocular lens calculation formula. Connell BJ, Kane JX. Comparison o
 * #111869 "Kane Toric"
 """
 KaneToric:
-The Kane Toric intraocular lens calculation formula. Kane JX, Connell B. A Comparison of the Accuracy of 6 Modern Toric Intraocular Lens Formulas. Ophthalmology. 2020 Nov;127(11):1472-1486.
+The Kane Toric intraocular lens calculation formula. Kane JX, Connell B. A Comparison of the Accuracy of 6 Modern Toric Intraocular Lens Formulas. Ophthalmology. 2020 Nov;127(11):1472-1486.doi:10.1016/j.ophtha.2020.04.039
 """
 * #111869 ^property[0].code = #keyword
 * #111869 ^property[0].valueString  = "KaneToric"
@@ -12192,7 +12182,7 @@ The Kane Toric intraocular lens calculation formula. Kane JX, Connell B. A Compa
 * #111870 "Kane Keratoconus"
 """
 KaneKeratoconus:
-The Kane Keratoconus intraocular lens calculation formula. Kane JX, Connell B, Yip H, McAlister JC, Beckingsale P, Snibson GR, Chan E. Accuracy of Intraocular Lens Power Formulas Modified for Patients with Keratoconus. Ophthalmology. 2020 Aug;127(8):1037-1042.
+The Kane Keratoconus intraocular lens calculation formula. Kane JX, Connell B, Yip H, McAlister JC, Beckingsale P, Snibson GR, Chan E. Accuracy of Intraocular Lens Power Formulas Modified for Patients with Keratoconus. Ophthalmology. 2020 Aug;127(8):1037-1042.doi:10.1016/j.ophtha.2020.02.008
 """
 * #111870 ^property[0].code = #keyword
 * #111870 ^property[0].valueString  = "KaneKeratoconus"
@@ -12202,7 +12192,7 @@ The Kane Keratoconus intraocular lens calculation formula. Kane JX, Connell B, Y
 * #111871 "Barrett Keratoconus"
 """
 BarrettKeratoconus:
-The Barrett Keratoconus intraocular lens calculation formula. Ton, Yokrat MD; Barrett, Graham D. MD, FRANZCO; Kleinmann, Guy MD; Levy, Adi MHA; Assia, Ehud I. MD. Toric intraocular lens power calculation in cataract patients with keratoconus. Journal of Cataract & Refractive Surgery 47(11):p 1389-1397, November 2021.
+The Barrett Keratoconus intraocular lens calculation formula. Ton, Yokrat MD; Barrett, Graham D. MD, FRANZCO; Kleinmann, Guy MD; Levy, Adi MHA; Assia, Ehud I. MD. Toric intraocular lens power calculation in cataract patients with keratoconus. Journal of Cataract & Refractive Surgery 47(11):p 1389-1397, November 2021.doi:10.1097/j.jcrs.0000000000000638
 """
 * #111871 ^property[0].code = #keyword
 * #111871 ^property[0].valueString  = "BarrettKeratoconus"
@@ -12222,7 +12212,7 @@ The Barrett Rx intraocular lens calculation formula. Barrett GD. The Barrett Rx 
 * #111873 "EVO"
 """
 Evo:
-The Emmetropia Verifying Optical (EVO) intraocular lens calculation formula. Yeo, T.K. (2024). Emmetropia Verifying Optical (EVO) Formula. In: Aramberri, J., Hoffer, K.J., Olsen, T., Savini, G., Shammas, H.J. (eds) Intraocular Lens Calculations. Essentials in Ophthalmology. Springer, Cham.
+The Emmetropia Verifying Optical (EVO) intraocular lens calculation formula. Yeo, T.K. (2024). Emmetropia Verifying Optical (EVO) Formula. In: Aramberri, J., Hoffer, K.J., Olsen, T., Savini, G., Shammas, H.J. (eds) Intraocular Lens Calculations. Essentials in Ophthalmology. Springer, Cham.doi:10.1007/978-3-031-50666-6_40
 """
 * #111873 ^property[0].code = #keyword
 * #111873 ^property[0].valueString  = "Evo"
@@ -12232,7 +12222,7 @@ The Emmetropia Verifying Optical (EVO) intraocular lens calculation formula. Yeo
 * #111874 "Shammas No-History"
 """
 ShammasNo-history:
-The Shammas no-history method using Shammas-PL IOL calculation formula. Shammas HJ, Shammas MC. No-history method of intraocular lens power calculation for cataract surgery after myopic laser in situ keratomileusis. J Cataract Refract Surg. 2007 Jan;33(1):31-6.
+The Shammas no-history method using Shammas-PL IOL calculation formula. Shammas HJ, Shammas MC. No-history method of intraocular lens power calculation for cataract surgery after myopic laser in situ keratomileusis. J Cataract Refract Surg. 2007 Jan;33(1):31-6.doi:10.1016/j.jcrs.2006.08.045
 """
 * #111874 ^property[0].code = #keyword
 * #111874 ^property[0].valueString  = "ShammasNo-history"
@@ -12242,7 +12232,7 @@ The Shammas no-history method using Shammas-PL IOL calculation formula. Shammas 
 * #111875 "Camellin-Calossi"
 """
 Camellin-calossi:
-The Camellin and Calossi IOL calculation formula. Camellin M, Calossi A. A new formula for intraocular lens power calculation after refractive corneal surgery. J Refract Surg. 2006 Feb;22(2):187-99.
+The Camellin and Calossi IOL calculation formula. Camellin M, Calossi A. A new formula for intraocular lens power calculation after refractive corneal surgery. J Refract Surg. 2006 Feb;22(2):187-99.doi:10.3928/1081-597X-20060201-18
 """
 * #111875 ^property[0].code = #keyword
 * #111875 ^property[0].valueString  = "Camellin-calossi"
@@ -12252,7 +12242,7 @@ The Camellin and Calossi IOL calculation formula. Camellin M, Calossi A. A new f
 * #111876 "Hill RBF 3.0"
 """
 HillRbf3.0:
-The Hill Radial Basis Function (RBF) Formula Version 3.0. Hill Radial Basis Function calculator
+The Hill Radial Basis Function (RBF) Formula Version 3.0. Hill Radial Basis Function calculatorhttp://rbfcalculator.com
 """
 * #111876 ^property[0].code = #keyword
 * #111876 ^property[0].valueString  = "HillRbf3.0"
@@ -12262,7 +12252,7 @@ The Hill Radial Basis Function (RBF) Formula Version 3.0. Hill Radial Basis Func
 * #111877 "PEARL-DGS"
 """
 Pearl-dgs:
-The PEARL-DGS IOL calculation formula. Debellemanie`re G, Dubois M, Gauvin M, Wallerstein A, Brenner L, Rampat R, Saad A, Gatinel D. The PEARL-DGS formula: the development of an open-source machine learning-based thick IOL calculation formula. Am J Ophthalmol. 2021;232:5869.
+The PEARL-DGS IOL calculation formula. Debellemanie`re G, Dubois M, Gauvin M, Wallerstein A, Brenner L, Rampat R, Saad A, Gatinel D. The PEARL-DGS formula: the development of an open-source machine learning-based thick IOL calculation formula. Am J Ophthalmol. 2021;232:5869.doi:10.1016/j.ajo.2021.05.004
 """
 * #111877 ^property[0].code = #keyword
 * #111877 ^property[0].valueString  = "Pearl-dgs"
@@ -12272,7 +12262,7 @@ The PEARL-DGS IOL calculation formula. Debellemanie`re G, Dubois M, Gauvin M, Wa
 * #111900 "Macula centered"
 """
 MaculaCentered:
-An image of at least 15 angular subtend that is centered on the macula; see
+An image of at least 15 angular subtend that is centered on the macula; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111900 ^property[0].code = #keyword
 * #111900 ^property[0].valueString  = "MaculaCentered"
@@ -12282,7 +12272,7 @@ An image of at least 15 angular subtend that is centered on the macula; see
 * #111901 "Disc centered"
 """
 DiscCentered:
-An image of at least 15 angular subtend that is centered on the optic disc; see
+An image of at least 15 angular subtend that is centered on the optic disc; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111901 ^property[0].code = #keyword
 * #111901 ^property[0].valueString  = "DiscCentered"
@@ -12292,7 +12282,7 @@ An image of at least 15 angular subtend that is centered on the optic disc; see
 * #111902 "Lesion centered"
 """
 LesionCentered:
-An image of any angular subtend that is centered on a lesion located in any region of the fundus; see
+An image of any angular subtend that is centered on a lesion located in any region of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111902 ^property[0].code = #keyword
 * #111902 ^property[0].valueString  = "LesionCentered"
@@ -12302,7 +12292,7 @@ An image of any angular subtend that is centered on a lesion located in any regi
 * #111903 "Disc-macula centered"
 """
 Disc-maculaCentered:
-An image of at least 15 angular subtend centered midway between the disc and macula and containing at least a portion of the disc and both the disc and the macula; see
+An image of at least 15 angular subtend centered midway between the disc and macula and containing at least a portion of the disc and both the disc and the macula; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111903 ^property[0].code = #keyword
 * #111903 ^property[0].valueString  = "Disc-maculaCentered"
@@ -12312,7 +12302,7 @@ An image of at least 15 angular subtend centered midway between the disc and mac
 * #111904 "Mid-peripheral-superior"
 """
 Mid-peripheral-superior:
-An image of at least 15 angular subtend positioned between the central zone and the equator, and spanning both the superior-temporal and superior-nasal quadrants of the fundus; see
+An image of at least 15 angular subtend positioned between the central zone and the equator, and spanning both the superior-temporal and superior-nasal quadrants of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111904 ^property[0].code = #keyword
 * #111904 ^property[0].valueString  = "Mid-peripheral-superior"
@@ -12322,7 +12312,7 @@ An image of at least 15 angular subtend positioned between the central zone and 
 * #111905 "Mid-peripheral-superior temporal"
 """
 Mid-peripheral-superiorTemporal:
-An image of at least 15 angular subtend positioned between the central zone and the equator in the superior-temporal quadrant of the fundus; see
+An image of at least 15 angular subtend positioned between the central zone and the equator in the superior-temporal quadrant of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111905 ^property[0].code = #keyword
 * #111905 ^property[0].valueString  = "Mid-peripheral-superiorTemporal"
@@ -12332,7 +12322,7 @@ An image of at least 15 angular subtend positioned between the central zone and 
 * #111906 "Mid-peripheral-temporal"
 """
 Mid-peripheral-temporal:
-An image of at least 15 angular subtend positioned between the central zone and the equator, and spanning both the superior-temporal and inferior-temporal quadrants of the fundus; see
+An image of at least 15 angular subtend positioned between the central zone and the equator, and spanning both the superior-temporal and inferior-temporal quadrants of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111906 ^property[0].code = #keyword
 * #111906 ^property[0].valueString  = "Mid-peripheral-temporal"
@@ -12342,7 +12332,7 @@ An image of at least 15 angular subtend positioned between the central zone and 
 * #111907 "Mid-peripheral-inferior temporal"
 """
 Mid-peripheral-inferiorTemporal:
-An image of at least 15 angular subtend positioned between the central zone and the equator in the inferior-temporal quadrant of the fundus; see
+An image of at least 15 angular subtend positioned between the central zone and the equator in the inferior-temporal quadrant of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111907 ^property[0].code = #keyword
 * #111907 ^property[0].valueString  = "Mid-peripheral-inferiorTemporal"
@@ -12352,7 +12342,7 @@ An image of at least 15 angular subtend positioned between the central zone and 
 * #111908 "Mid-peripheral-inferior"
 """
 Mid-peripheral-inferior:
-An image of at least 15 angular subtend positioned between the central zone and the equator, and spanning both the inferior-temporal and inferior-nasal quadrants of the fundus; see
+An image of at least 15 angular subtend positioned between the central zone and the equator, and spanning both the inferior-temporal and inferior-nasal quadrants of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111908 ^property[0].code = #keyword
 * #111908 ^property[0].valueString  = "Mid-peripheral-inferior"
@@ -12362,7 +12352,7 @@ An image of at least 15 angular subtend positioned between the central zone and 
 * #111909 "Mid-peripheral-inferior nasal"
 """
 Mid-peripheral-inferiorNasal:
-An image of at least 15 angular subtend positioned between the central zone and the equator in the inferior-nasal quadrant of the fundus; see
+An image of at least 15 angular subtend positioned between the central zone and the equator in the inferior-nasal quadrant of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111909 ^property[0].code = #keyword
 * #111909 ^property[0].valueString  = "Mid-peripheral-inferiorNasal"
@@ -12372,7 +12362,7 @@ An image of at least 15 angular subtend positioned between the central zone and 
 * #111910 "Mid-peripheral-nasal"
 """
 Mid-peripheral-nasal:
-An image of at least 15 angular subtend positioned between the central zone and the equator, and spanning both the superior-nasal and inferior-nasal quadrants of the fundus; see
+An image of at least 15 angular subtend positioned between the central zone and the equator, and spanning both the superior-nasal and inferior-nasal quadrants of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111910 ^property[0].code = #keyword
 * #111910 ^property[0].valueString  = "Mid-peripheral-nasal"
@@ -12382,7 +12372,7 @@ An image of at least 15 angular subtend positioned between the central zone and 
 * #111911 "Mid-peripheral-superior nasal"
 """
 Mid-peripheral-superiorNasal:
-An image of at least 15 angular subtend positioned between the central zone and the equator in the superior-nasal quadrant of the fundus; see
+An image of at least 15 angular subtend positioned between the central zone and the equator in the superior-nasal quadrant of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111911 ^property[0].code = #keyword
 * #111911 ^property[0].valueString  = "Mid-peripheral-superiorNasal"
@@ -12392,7 +12382,7 @@ An image of at least 15 angular subtend positioned between the central zone and 
 * #111912 "Peripheral-superior"
 """
 Peripheral-superior:
-An image of at least 15 angular subtend positioned between the equator and the ora serrata, and spanning both the superior temporal and superior nasal quadrants of the fundus; see
+An image of at least 15 angular subtend positioned between the equator and the ora serrata, and spanning both the superior temporal and superior nasal quadrants of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111912 ^property[0].code = #keyword
 * #111912 ^property[0].valueString  = "Peripheral-superior"
@@ -12402,7 +12392,7 @@ An image of at least 15 angular subtend positioned between the equator and the o
 * #111913 "Peripheral-superior temporal"
 """
 Peripheral-superiorTemporal:
-An image of at least 15 angular subtend positioned between the equator and ora serrata in the superior-temporal quadrant of the fundus; see
+An image of at least 15 angular subtend positioned between the equator and ora serrata in the superior-temporal quadrant of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111913 ^property[0].code = #keyword
 * #111913 ^property[0].valueString  = "Peripheral-superiorTemporal"
@@ -12412,7 +12402,7 @@ An image of at least 15 angular subtend positioned between the equator and ora s
 * #111914 "Peripheral-temporal"
 """
 Peripheral-temporal:
-An image of at least 15 angular subtend positioned between the equator and ora serrata, and spanning both the superior-temporal and inferior-temporal quadrants of the fundus; see
+An image of at least 15 angular subtend positioned between the equator and ora serrata, and spanning both the superior-temporal and inferior-temporal quadrants of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111914 ^property[0].code = #keyword
 * #111914 ^property[0].valueString  = "Peripheral-temporal"
@@ -12422,7 +12412,7 @@ An image of at least 15 angular subtend positioned between the equator and ora s
 * #111915 "Peripheral-inferior temporal"
 """
 Peripheral-inferiorTemporal:
-An image of at least 15 angular subtend positioned between the equator and ora serrata in the inferior-temporal quadrant of the fundus; see
+An image of at least 15 angular subtend positioned between the equator and ora serrata in the inferior-temporal quadrant of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111915 ^property[0].code = #keyword
 * #111915 ^property[0].valueString  = "Peripheral-inferiorTemporal"
@@ -12432,7 +12422,7 @@ An image of at least 15 angular subtend positioned between the equator and ora s
 * #111916 "Peripheral-inferior"
 """
 Peripheral-inferior:
-An image of at least 15 angular subtend positioned between the equator and ora serrata, and spanning both the inferior-temporal and inferior-nasal quadrants of the fundus; see
+An image of at least 15 angular subtend positioned between the equator and ora serrata, and spanning both the inferior-temporal and inferior-nasal quadrants of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111916 ^property[0].code = #keyword
 * #111916 ^property[0].valueString  = "Peripheral-inferior"
@@ -12442,7 +12432,7 @@ An image of at least 15 angular subtend positioned between the equator and ora s
 * #111917 "Peripheral-inferior nasal"
 """
 Peripheral-inferiorNasal:
-An image of at least 15 angular subtend positioned between the equator and ora serrata in the inferior-nasal quadrant of the fundus; see
+An image of at least 15 angular subtend positioned between the equator and ora serrata in the inferior-nasal quadrant of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111917 ^property[0].code = #keyword
 * #111917 ^property[0].valueString  = "Peripheral-inferiorNasal"
@@ -12452,7 +12442,7 @@ An image of at least 15 angular subtend positioned between the equator and ora s
 * #111918 "Peripheral-nasal"
 """
 Peripheral-nasal:
-An image of at least 15 angular subtend positioned between the equator and ora serrata, and spanning both the superior-nasal and inferior-nasal quadrants of the fundus; see
+An image of at least 15 angular subtend positioned between the equator and ora serrata, and spanning both the superior-nasal and inferior-nasal quadrants of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111918 ^property[0].code = #keyword
 * #111918 ^property[0].valueString  = "Peripheral-nasal"
@@ -12462,7 +12452,7 @@ An image of at least 15 angular subtend positioned between the equator and ora s
 * #111919 "Peripheral-superior nasal"
 """
 Peripheral-superiorNasal:
-An image of at least 15 angular subtend positioned between the equator and ora serrata in the superior-nasal quadrant of the fundus; see
+An image of at least 15 angular subtend positioned between the equator and ora serrata in the superior-nasal quadrant of the fundus; seePS3.17 U.1.8 Relative Image Position Definitions
 """
 * #111919 ^property[0].code = #keyword
 * #111919 ^property[0].valueString  = "Peripheral-superiorNasal"
@@ -12522,7 +12512,7 @@ Measurement of the retinal surface contour relative to an assigned datum plane.
 * #111925 "Retinal nerve fiber layer thickness"
 """
 RetinalNerveFiberLayerThickness:
-Measurement approximating the distance related to the structure between the internal limiting membrane (ILM) and the outer boarder of the retinal nerve fiber layer (RNFL); see
+Measurement approximating the distance related to the structure between the internal limiting membrane (ILM) and the outer boarder of the retinal nerve fiber layer (RNFL); seePS3.17 III.6 Retinal Thickness Definition
 """
 * #111925 ^property[0].code = #keyword
 * #111925 ^property[0].valueString  = "RetinalNerveFiberLayerThickness"
@@ -12532,7 +12522,7 @@ Measurement approximating the distance related to the structure between the inte
 * #111926 "Ganglion cell complex thickness"
 """
 GanglionCellComplexThickness:
-Measurement approximating the distance related to the structure between the ILM and the outer border of the inner plexiform layer (IPL), called the ganglion cell complex (GCC); see
+Measurement approximating the distance related to the structure between the ILM and the outer border of the inner plexiform layer (IPL), called the ganglion cell complex (GCC); seePS3.17 III.6 Retinal Thickness Definition
 """
 * #111926 ^property[0].code = #keyword
 * #111926 ^property[0].valueString  = "GanglionCellComplexThickness"
@@ -12542,7 +12532,7 @@ Measurement approximating the distance related to the structure between the ILM 
 * #111927 "Total retinal thickness (ILM to IS-OS)"
 """
 TotalRetinalThickness(ilmToIs-os):
-Measurement approximating the distance related to the structure between the ILM and the inner-outer segment junction (IS-OS); see
+Measurement approximating the distance related to the structure between the ILM and the inner-outer segment junction (IS-OS); seePS3.17 III.6 Retinal Thickness Definition
 """
 * #111927 ^property[0].code = #keyword
 * #111927 ^property[0].valueString  = "TotalRetinalThickness(ilmToIs-os)"
@@ -12552,7 +12542,7 @@ Measurement approximating the distance related to the structure between the ILM 
 * #111928 "Total retinal thickness (ILM to RPE)"
 """
 TotalRetinalThickness(ilmToRpe):
-Measurement approximating the distance related to the structure between the ILM and the retinal pigment epithelium (RPE); see
+Measurement approximating the distance related to the structure between the ILM and the retinal pigment epithelium (RPE); seePS3.17 III.6 Retinal Thickness Definition
 """
 * #111928 ^property[0].code = #keyword
 * #111928 ^property[0].valueString  = "TotalRetinalThickness(ilmToRpe)"
@@ -12562,7 +12552,7 @@ Measurement approximating the distance related to the structure between the ILM 
 * #111929 "Total retinal thickness (ILM to BM)"
 """
 TotalRetinalThickness(ilmToBm):
-Measurement approximating the distance related to the structure between the ILM and the Bruch's membrane (BM); see
+Measurement approximating the distance related to the structure between the ILM and the Bruch's membrane (BM); seePS3.17 III.6 Retinal Thickness Definition
 """
 * #111929 ^property[0].code = #keyword
 * #111929 ^property[0].valueString  = "TotalRetinalThickness(ilmToBm)"
@@ -14892,7 +14882,7 @@ Center of Rotation of the natural femur head.
 * #112305 "Acetabular Cup Shell"
 """
 AcetabularCupShell:
-Prosthetic component implanted into the acetabulum. Provides hold for the insert that is mounted inside the cup.
+Prosthetic component implanted into the acetabulum. Provides hold for the insert that is mounted inside the cup. -
 """
 * #112305 ^property[0].code = #keyword
 * #112305 ^property[0].valueString  = "AcetabularCupShell"
@@ -14902,7 +14892,7 @@ Prosthetic component implanted into the acetabulum. Provides hold for the insert
 * #112306 "Acetabular Cup Insert"
 """
 AcetabularCupInsert:
-Prosthetic pelvic joint component. Inserted into the cup, takes in the femoral head replacement.
+Prosthetic pelvic joint component. Inserted into the cup, takes in the femoral head replacement. -
 """
 * #112306 ^property[0].code = #keyword
 * #112306 ^property[0].valueString  = "AcetabularCupInsert"
@@ -14912,7 +14902,7 @@ Prosthetic pelvic joint component. Inserted into the cup, takes in the femoral h
 * #112307 "Acetabular Cup Monoblock"
 """
 AcetabularCupMonoblock:
-Prosthetic pelvic joint cup including insert.
+Prosthetic pelvic joint cup including insert. -
 """
 * #112307 ^property[0].code = #keyword
 * #112307 ^property[0].valueString  = "AcetabularCupMonoblock"
@@ -14922,7 +14912,7 @@ Prosthetic pelvic joint cup including insert.
 * #112308 "Femoral Head Ball Component"
 """
 FemoralHeadBallComponent:
-Component for Femoral Head Prosthesis where the conic intake for the stem neck can be exchanged. Combined with a Femoral Head Cone Taper Component.
+Component for Femoral Head Prosthesis where the conic intake for the stem neck can be exchanged. Combined with a Femoral Head Cone Taper Component. -
 """
 * #112308 ^property[0].code = #keyword
 * #112308 ^property[0].valueString  = "FemoralHeadBallComponent"
@@ -14942,7 +14932,7 @@ Exchangeable neck intake for composite femoral head prosthesis. Combined with a 
 * #112310 "Femoral Stem"
 """
 FemoralStem:
-Prosthesis Implanted into the femoral bone to provide force transmission between joint replacement and bone. On the proximal end a conic neck holds the femoral head replacement.
+Prosthesis Implanted into the femoral bone to provide force transmission between joint replacement and bone. On the proximal end a conic neck holds the femoral head replacement. -
 """
 * #112310 ^property[0].code = #keyword
 * #112310 ^property[0].valueString  = "FemoralStem"
@@ -14952,7 +14942,7 @@ Prosthesis Implanted into the femoral bone to provide force transmission between
 * #112311 "Femoral Stem Distal Component"
 """
 FemoralStemDistalComponent:
-Distal half of a modular stem prosthesis system. Combined with a Stem Proximal Component.
+Distal half of a modular stem prosthesis system. Combined with a Stem Proximal Component. -
 """
 * #112311 ^property[0].code = #keyword
 * #112311 ^property[0].valueString  = "FemoralStemDistalComponent"
@@ -14962,7 +14952,7 @@ Distal half of a modular stem prosthesis system. Combined with a Stem Proximal C
 * #112312 "Femoral Stem Proximal Component"
 """
 FemoralStemProximalComponent:
-Proximal half of a modular stem prosthesis system. Combined with a Stem Distal Component.
+Proximal half of a modular stem prosthesis system. Combined with a Stem Distal Component. -
 """
 * #112312 ^property[0].code = #keyword
 * #112312 ^property[0].valueString  = "FemoralStemProximalComponent"
@@ -14972,7 +14962,7 @@ Proximal half of a modular stem prosthesis system. Combined with a Stem Distal C
 * #112313 "Femoral Stem Component"
 """
 FemoralStemComponent:
-Stem prosthetic component with a modular insert for an exchangeable neck component. Combined with a Neck Component.
+Stem prosthetic component with a modular insert for an exchangeable neck component. Combined with a Neck Component. -
 """
 * #112313 ^property[0].code = #keyword
 * #112313 ^property[0].valueString  = "FemoralStemComponent"
@@ -14982,7 +14972,7 @@ Stem prosthetic component with a modular insert for an exchangeable neck compone
 * #112314 "Neck Component"
 """
 NeckComponent:
-Prosthetic Neck to be combined with a Stem Component.
+Prosthetic Neck to be combined with a Stem Component. -
 """
 * #112314 ^property[0].code = #keyword
 * #112314 ^property[0].valueString  = "NeckComponent"
@@ -14992,7 +14982,7 @@ Prosthetic Neck to be combined with a Stem Component.
 * #112315 "Monoblock Stem"
 """
 MonoblockStem:
-Prosthetic Stem and Femoral Head in one piece.
+Prosthetic Stem and Femoral Head in one piece. -
 """
 * #112315 ^property[0].code = #keyword
 * #112315 ^property[0].valueString  = "MonoblockStem"
@@ -15002,7 +14992,7 @@ Prosthetic Stem and Femoral Head in one piece.
 * #112316 "Prosthetic Shaft Augment"
 """
 ProstheticShaftAugment:
-A proximal attachment to the shaft used to compensate for bone deficiencies or bone loss.
+A proximal attachment to the shaft used to compensate for bone deficiencies or bone loss. -
 """
 * #112316 ^property[0].code = #keyword
 * #112316 ^property[0].valueString  = "ProstheticShaftAugment"
@@ -15012,7 +15002,7 @@ A proximal attachment to the shaft used to compensate for bone deficiencies or b
 * #112317 "Femoral Head Resurfacing Component"
 """
 FemoralHeadResurfacingComponent:
-Artificial femur head surface needed for the partial replacement of the femoral head where only the surface is replaced.
+Artificial femur head surface needed for the partial replacement of the femoral head where only the surface is replaced. -
 """
 * #112317 ^property[0].code = #keyword
 * #112317 ^property[0].valueString  = "FemoralHeadResurfacingComponent"
@@ -15062,7 +15052,7 @@ Fixation due to forcing an object into a narrow space.
 * #112325 "Distal Centralizer"
 """
 DistalCentralizer:
-Attachment to the distal end of a cemented stem assuring that the stem is in a central position inside the drilled femoral canal before cementation.
+Attachment to the distal end of a cemented stem assuring that the stem is in a central position inside the drilled femoral canal before cementation. -
 """
 * #112325 ^property[0].code = #keyword
 * #112325 ^property[0].valueString  = "DistalCentralizer"
@@ -15832,7 +15822,7 @@ A selection that represents the 'best' chosen from a larger set of items. E.g., 
 * #113014 "Study"
 """
 Study:
-A study is a collection of one or more series of medical images, presentation states, and/or SR documents that are logically related for the purpose of diagnosing a patient. A study may include composite instances that are created by a single modality, multiple modalities or by multiple devices of the same modality. [From
+A study is a collection of one or more series of medical images, presentation states, and/or SR documents that are logically related for the purpose of diagnosing a patient. A study may include composite instances that are created by a single modality, multiple modalities or by multiple devices of the same modality. [FromPS3.3 A.1.2.2 Study IE
 """
 * #113014 ^property[0].code = #keyword
 * #113014 ^property[0].valueString  = "Study"
@@ -15842,7 +15832,7 @@ A study is a collection of one or more series of medical images, presentation st
 * #113015 "Series"
 """
 Series:
-A distinct logical set used to group composite instances. All instances within a Series are of the same modality, in the same Frame of Reference (if any), and created by the same equipment. [See
+A distinct logical set used to group composite instances. All instances within a Series are of the same modality, in the same Frame of Reference (if any), and created by the same equipment. [SeePS3.3 A.1.2.3 Series IE
 """
 * #113015 ^property[0].code = #keyword
 * #113015 ^property[0].valueString  = "Series"
@@ -15852,7 +15842,7 @@ A distinct logical set used to group composite instances. All instances within a
 * #113016 "Performed Procedure Step"
 """
 PerformedProcedureStep:
-An arbitrarily defined unit of service that has actually been performed (not just scheduled). [From
+An arbitrarily defined unit of service that has actually been performed (not just scheduled). [FromPS3.3 7.3.1.9 Modality Performed Procedure Step
 """
 * #113016 ^property[0].code = #keyword
 * #113016 ^property[0].valueString  = "PerformedProcedureStep"
@@ -16032,7 +16022,7 @@ Lossy compression has been applied to an image.
 * #113041 "Apparent Diffusion Coefficient"
 """
 ApparentDiffusionCoefficient:
-Values are derived by calculation of the apparent diffusion coefficient. This concept may be used for the diffusion coefficient of various different models, e.g., mono-exponential (ADC The 'apparent' appellation is because the diffusion images from which the ADC is computed may also be affected by T2 contrast (T2 'shine-through'), so this concept is distinguished from a 'pure' diffusion coefficient that is not so affected.
+Values are derived by calculation of the apparent diffusion coefficient. This concept may be used for the diffusion coefficient of various different models, e.g., mono-exponential (ADCmks The 'apparent' appellation is because the diffusion images from which the ADC is computed may also be affected by T2 contrast (T2 'shine-through'), so this concept is distinguished from a 'pure' diffusion coefficient that is not so affected.
 retired
 """
 * #113041 ^property[0].code = #keyword
@@ -16443,7 +16433,7 @@ For single-proton MR spectroscopy, the ratio between the N-acetylaspartate and C
 * #113084 "Tmax"
 """
 Tmax:
-The time delay to the maximum of the residue function after deconvolution. Shih LC, Saver JL, Alger JR, Starkman S, Leary MC, Vinuela F, et al. Perfusion-Weighted Magnetic Resonance Imaging Thresholds Identifying Core, Irreversibly Infarcted Tissue. Stroke. 2003 Jun 1;34(6):1425-30. stergaard L, Weisskoff RM, Chesler DA, Gyldensted C, Rosen BR. High resolution measurement of cerebral blood flow using intravascular tracer bolus passages. Part I: Mathematical approach and statistical analysis. Magnetic Resonance in Medicine. 1996;36(5):715-25.
+The time delay to the maximum of the residue function after deconvolution. Shih LC, Saver JL, Alger JR, Starkman S, Leary MC, Vinuela F, et al. Perfusion-Weighted Magnetic Resonance Imaging Thresholds Identifying Core, Irreversibly Infarcted Tissue. Stroke. 2003 Jun 1;34(6):1425-30.doi:10.1161/01.STR.0000072998.70087.E9 http://stroke.ahajournals.org/content/34/6/1425.abstract stergaard L, Weisskoff RM, Chesler DA, Gyldensted C, Rosen BR. High resolution measurement of cerebral blood flow using intravascular tracer bolus passages. Part I: Mathematical approach and statistical analysis. Magnetic Resonance in Medicine. 1996;36(5):715-25.doi:10.1002/mrm.1910360510 http://onlinelibrary.wiley.com/doi/10.1002/mrm.1910360510/abstract
 """
 * #113084 ^property[0].code = #keyword
 * #113084 ^property[0].valueString  = "Tmax"
@@ -16583,7 +16573,7 @@ Image pixels created through proportional weighting of multiple acquisitions at 
 * #113098 "Magnetization Transfer Ratio"
 """
 MagnetizationTransferRatio:
-Magnetization Transfer Ratio (MTR) is the ratio of magnetization transfer, Mo - Ms/Mo, where Ms represents the magnitude of signal of tissues with the saturation pulse used to saturate macromolecular protons on, and Mo is the magnitude of signal without saturation. See Dousset V, Grossman RI, Ramer KN, Schnall MD, Young LH, Gonzalez-Scarano F, et al. Experimental allergic encephalomyelitis and multiple sclerosis: lesion characterization with magnetization transfer imaging. Radiology. 1992 Feb 1;182(2):483-91.
+Magnetization Transfer Ratio (MTR) is the ratio of magnetization transfer, Mo - Ms/Mo, where Ms represents the magnitude of signal of tissues with the saturation pulse used to saturate macromolecular protons on, and Mo is the magnitude of signal without saturation. See Dousset V, Grossman RI, Ramer KN, Schnall MD, Young LH, Gonzalez-Scarano F, et al. Experimental allergic encephalomyelitis and multiple sclerosis: lesion characterization with magnetization transfer imaging. Radiology. 1992 Feb 1;182(2):483-91.http://dx.doi.org/10.1148/radiology.182.2.1732968
 """
 * #113098 ^property[0].code = #keyword
 * #113098 ^property[0].valueString  = "MagnetizationTransferRatio"
@@ -16593,7 +16583,7 @@ Magnetization Transfer Ratio (MTR) is the ratio of magnetization transfer, Mo - 
 * #113100 "Basic Application Confidentiality Profile"
 """
 BasicApplicationConfidentialityProfile:
-De-identification using a profile defined in
+De-identification using a profile defined inPS3.15
 """
 * #113100 ^property[0].code = #keyword
 * #113100 ^property[0].valueString  = "BasicApplicationConfidentialityProfile"
@@ -16603,7 +16593,7 @@ De-identification using a profile defined in
 * #113101 "Clean Pixel Data Option"
 """
 CleanPixelDataOption:
-Additional de-identification according to an option defined in
+Additional de-identification according to an option defined inPS3.15
 """
 * #113101 ^property[0].code = #keyword
 * #113101 ^property[0].valueString  = "CleanPixelDataOption"
@@ -16613,7 +16603,7 @@ Additional de-identification according to an option defined in
 * #113102 "Clean Recognizable Visual Features Option"
 """
 CleanRecognizableVisualFeaturesOption:
-Additional de-identification according to an option defined in
+Additional de-identification according to an option defined inPS3.15
 """
 * #113102 ^property[0].code = #keyword
 * #113102 ^property[0].valueString  = "CleanRecognizableVisualFeaturesOption"
@@ -16623,7 +16613,7 @@ Additional de-identification according to an option defined in
 * #113103 "Clean Graphics Option"
 """
 CleanGraphicsOption:
-Additional de-identification according to an option defined in
+Additional de-identification according to an option defined inPS3.15
 """
 * #113103 ^property[0].code = #keyword
 * #113103 ^property[0].valueString  = "CleanGraphicsOption"
@@ -16633,7 +16623,7 @@ Additional de-identification according to an option defined in
 * #113104 "Clean Structured Content Option"
 """
 CleanStructuredContentOption:
-Additional de-identification according to an option defined in
+Additional de-identification according to an option defined inPS3.15
 """
 * #113104 ^property[0].code = #keyword
 * #113104 ^property[0].valueString  = "CleanStructuredContentOption"
@@ -16643,7 +16633,7 @@ Additional de-identification according to an option defined in
 * #113105 "Clean Descriptors Option"
 """
 CleanDescriptorsOption:
-Additional de-identification according to an option defined in
+Additional de-identification according to an option defined inPS3.15
 """
 * #113105 ^property[0].code = #keyword
 * #113105 ^property[0].valueString  = "CleanDescriptorsOption"
@@ -16653,7 +16643,7 @@ Additional de-identification according to an option defined in
 * #113106 "Retain Longitudinal Temporal Information Full Dates Option"
 """
 RetainLongitudinalTemporalInformationFullDatesOption:
-Retention of information that would otherwise be removed during de-identification according to an option defined in
+Retention of information that would otherwise be removed during de-identification according to an option defined inPS3.15
 """
 * #113106 ^property[0].code = #keyword
 * #113106 ^property[0].valueString  = "RetainLongitudinalTemporalInformationFullDatesOption"
@@ -16663,7 +16653,7 @@ Retention of information that would otherwise be removed during de-identificatio
 * #113107 "Retain Longitudinal Temporal Information Modified Dates Option"
 """
 RetainLongitudinalTemporalInformationModifiedDatesOption:
-Retention of information that would otherwise be removed during de-identification according to an option defined in
+Retention of information that would otherwise be removed during de-identification according to an option defined inPS3.15
 """
 * #113107 ^property[0].code = #keyword
 * #113107 ^property[0].valueString  = "RetainLongitudinalTemporalInformationModifiedDatesOption"
@@ -16673,7 +16663,7 @@ Retention of information that would otherwise be removed during de-identificatio
 * #113108 "Retain Patient Characteristics Option"
 """
 RetainPatientCharacteristicsOption:
-Retention of information that would otherwise be removed during de-identification according to an option defined in
+Retention of information that would otherwise be removed during de-identification according to an option defined inPS3.15
 """
 * #113108 ^property[0].code = #keyword
 * #113108 ^property[0].valueString  = "RetainPatientCharacteristicsOption"
@@ -16683,7 +16673,7 @@ Retention of information that would otherwise be removed during de-identificatio
 * #113109 "Retain Device Identity Option"
 """
 RetainDeviceIdentityOption:
-Retention of information that would otherwise be removed during de-identification according to an option defined in
+Retention of information that would otherwise be removed during de-identification according to an option defined inPS3.15
 """
 * #113109 ^property[0].code = #keyword
 * #113109 ^property[0].valueString  = "RetainDeviceIdentityOption"
@@ -16693,7 +16683,7 @@ Retention of information that would otherwise be removed during de-identificatio
 * #113110 "Retain UIDs Option"
 """
 RetainUidsOption:
-Retention of information that would otherwise be removed during de-identification according to an option defined in
+Retention of information that would otherwise be removed during de-identification according to an option defined inPS3.15
 """
 * #113110 ^property[0].code = #keyword
 * #113110 ^property[0].valueString  = "RetainUidsOption"
@@ -16703,7 +16693,7 @@ Retention of information that would otherwise be removed during de-identificatio
 * #113111 "Retain Safe Private Option"
 """
 RetainSafePrivateOption:
-Retention of information that would otherwise be removed during de-identification according to an option defined in
+Retention of information that would otherwise be removed during de-identification according to an option defined inPS3.15
 """
 * #113111 ^property[0].code = #keyword
 * #113111 ^property[0].valueString  = "RetainSafePrivateOption"
@@ -16713,7 +16703,7 @@ Retention of information that would otherwise be removed during de-identificatio
 * #113112 "Retain Institution Identity Option"
 """
 RetainInstitutionIdentityOption:
-Retention of information that would otherwise be removed during de-identification according to an option defined in
+Retention of information that would otherwise be removed during de-identification according to an option defined inPS3.15
 """
 * #113112 ^property[0].code = #keyword
 * #113112 ^property[0].valueString  = "RetainInstitutionIdentityOption"
@@ -16753,7 +16743,7 @@ A single subject that has been selected from amongst multiple subjects (e.g., a 
 * #113201 "Trace"
 """
 Trace:
-Sum of the diffusion tensor eigenvalues. I.e.: Tr = 1+ 2+ 3, where 1  2  3. Reference: Winston GP. The physical and biological basis of quantitative parameters derived from diffusion MRI. Quantitative Imaging in Medicine and Surgery. 2012;2(4) :254-265.
+Sum of the diffusion tensor eigenvalues. I.e.: Tr = 1+ 2+ 3, where 1  2  3. Reference: Winston GP. The physical and biological basis of quantitative parameters derived from diffusion MRI. Quantitative Imaging in Medicine and Surgery. 2012;2(4) :254-265.doi:10.3978/j.issn.2223-4292.2012.12.05 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3533595/
 """
 * #113201 ^property[0].code = #keyword
 * #113201 ^property[0].valueString  = "Trace"
@@ -16763,7 +16753,7 @@ Sum of the diffusion tensor eigenvalues. I.e.: Tr = 1+ 2+ 3, where 1  2  3. Refe
 * #113202 "Mean Diffusivity"
 """
 MeanDiffusivity:
-Average of the diffusion tensor eigenvalues in all directions. I.e.: MD = (1+ 2+ 3) /3 Reference: Winston GP. The physical and biological basis of quantitative parameters derived from diffusion MRI. Quantitative Imaging in Medicine and Surgery. 2012;2(4) :254-265.
+Average of the diffusion tensor eigenvalues in all directions. I.e.: MD = (1+ 2+ 3) /3 Reference: Winston GP. The physical and biological basis of quantitative parameters derived from diffusion MRI. Quantitative Imaging in Medicine and Surgery. 2012;2(4) :254-265.doi:10.3978/j.issn.2223-4292.2012.12.05 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3533595/
 """
 * #113202 ^property[0].code = #keyword
 * #113202 ^property[0].valueString  = "MeanDiffusivity"
@@ -16773,7 +16763,7 @@ Average of the diffusion tensor eigenvalues in all directions. I.e.: MD = (1+ 2+
 * #113203 "Radial Diffusivity"
 """
 RadialDiffusivity:
-Average of the two non-principal (i.e., perpendicular) diffusion tensor eigenvalues(also known as transverse diffusivity, perpendicular diffusivity). I.e.: DR= (2+ 3) /2 Reference: Winston GP. The physical and biological basis of quantitative parameters derived from diffusion MRI. Quantitative Imaging in Medicine and Surgery. 2012;2(4) :254-265.
+Average of the two non-principal (i.e., perpendicular) diffusion tensor eigenvalues(also known as transverse diffusivity, perpendicular diffusivity). I.e.: DR= (2+ 3) /2 Reference: Winston GP. The physical and biological basis of quantitative parameters derived from diffusion MRI. Quantitative Imaging in Medicine and Surgery. 2012;2(4) :254-265.doi:10.3978/j.issn.2223-4292.2012.12.05 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3533595/
 """
 * #113203 ^property[0].code = #keyword
 * #113203 ^property[0].valueString  = "RadialDiffusivity"
@@ -16783,7 +16773,7 @@ Average of the two non-principal (i.e., perpendicular) diffusion tensor eigenval
 * #113204 "Axial Diffusivity"
 """
 AxialDiffusivity:
-Diffusion tensor eigenvalue of the principal axis (also known as longitudinal diffusivity, parallel diffusivity). I.e.: DA = 1 Reference: Winston GP. The physical and biological basis of quantitative parameters derived from diffusion MRI. Quantitative Imaging in Medicine and Surgery. 2012;2(4) :254-265.
+Diffusion tensor eigenvalue of the principal axis (also known as longitudinal diffusivity, parallel diffusivity). I.e.: DA = 1 Reference: Winston GP. The physical and biological basis of quantitative parameters derived from diffusion MRI. Quantitative Imaging in Medicine and Surgery. 2012;2(4) :254-265.doi:10.3978/j.issn.2223-4292.2012.12.05 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3533595/
 """
 * #113204 ^property[0].code = #keyword
 * #113204 ^property[0].valueString  = "AxialDiffusivity"
@@ -16793,7 +16783,7 @@ Diffusion tensor eigenvalue of the principal axis (also known as longitudinal di
 * #113205 "Mean Kurtosis"
 """
 MeanKurtosis:
-MK = diffusional kurtosis averaged over all gradient directions Reference: Tabesh A, Jensen JH, Ardekani BA, Helpern JA. Estimation of Tensors and Tensor-Derived Measures in Diffusional Kurtosis Imaging. Magnetic Resonance in Medicine. 2011;65(3) :823-836. Reference: Liu C, Mang SC, Moseley ME. In VivoGeneralized Diffusion Tensor Imaging (GDTI) Using Higher-Order Tensors (HOT). Magnetic resonance in medicine: official journal of the Society of Magnetic Resonance in Medicine / Society of Magnetic Resonance in Medicine. 2010;63(1) :243-252.
+MK = diffusional kurtosis averaged over all gradient directions Reference: Tabesh A, Jensen JH, Ardekani BA, Helpern JA. Estimation of Tensors and Tensor-Derived Measures in Diffusional Kurtosis Imaging. Magnetic Resonance in Medicine. 2011;65(3) :823-836.doi:10.1002/mrm.22655 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3042509/ Reference: Liu C, Mang SC, Moseley ME. In VivoGeneralized Diffusion Tensor Imaging (GDTI) Using Higher-Order Tensors (HOT). Magnetic resonance in medicine: official journal of the Society of Magnetic Resonance in Medicine / Society of Magnetic Resonance in Medicine. 2010;63(1) :243-252.doi:10.1002/mrm.22192 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2824337/
 """
 * #113205 ^property[0].code = #keyword
 * #113205 ^property[0].valueString  = "MeanKurtosis"
@@ -16803,7 +16793,7 @@ MK = diffusional kurtosis averaged over all gradient directions Reference: Tabes
 * #113206 "Apparent Kurtosis Coefficient"
 """
 ApparentKurtosisCoefficient:
-AKC = diffusional kurtosis in a given direction Reference: Liu C, Mang SC, Moseley ME. In VivoGeneralized Diffusion Tensor Imaging (GDTI) Using Higher-Order Tensors (HOT). Magnetic resonance in medicine: official journal of the Society of Magnetic Resonance in Medicine / Society of Magnetic Resonance in Medicine. 2010;63(1) :243-252.
+AKC = diffusional kurtosis in a given direction Reference: Liu C, Mang SC, Moseley ME. In VivoGeneralized Diffusion Tensor Imaging (GDTI) Using Higher-Order Tensors (HOT). Magnetic resonance in medicine: official journal of the Society of Magnetic Resonance in Medicine / Society of Magnetic Resonance in Medicine. 2010;63(1) :243-252.doi:10.1002/mrm.22192 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2824337/
 """
 * #113206 ^property[0].code = #keyword
 * #113206 ^property[0].valueString  = "ApparentKurtosisCoefficient"
@@ -16813,7 +16803,7 @@ AKC = diffusional kurtosis in a given direction Reference: Liu C, Mang SC, Mosel
 * #113207 "Radial Kurtosis"
 """
 RadialKurtosis:
-KR = diffusional kurtosis perpendicular to the direction of the highest diffusion (also known as transverse kurtosis, perpendicular kurtosis) Reference: Tabesh A, Jensen JH, Ardekani BA, Helpern JA. Estimation of Tensors and Tensor-Derived Measures in Diffusional Kurtosis Imaging. Magnetic Resonance in Medicine. 2011;65(3) :823-836.
+KR = diffusional kurtosis perpendicular to the direction of the highest diffusion (also known as transverse kurtosis, perpendicular kurtosis) Reference: Tabesh A, Jensen JH, Ardekani BA, Helpern JA. Estimation of Tensors and Tensor-Derived Measures in Diffusional Kurtosis Imaging. Magnetic Resonance in Medicine. 2011;65(3) :823-836.doi:10.1002/mrm.22655 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3042509/
 """
 * #113207 ^property[0].code = #keyword
 * #113207 ^property[0].valueString  = "RadialKurtosis"
@@ -16823,7 +16813,7 @@ KR = diffusional kurtosis perpendicular to the direction of the highest diffusio
 * #113208 "Axial Kurtosis"
 """
 AxialKurtosis:
-KA = diffusional kurtosis in the direction of the highest diffusion (also known as longitudinal kurtosis, parallel kurtosis) Reference: Tabesh A, Jensen JH, Ardekani BA, Helpern JA. Estimation of Tensors and Tensor-Derived Measures in Diffusional Kurtosis Imaging. Magnetic Resonance in Medicine. 2011;65(3) :823-836.
+KA = diffusional kurtosis in the direction of the highest diffusion (also known as longitudinal kurtosis, parallel kurtosis) Reference: Tabesh A, Jensen JH, Ardekani BA, Helpern JA. Estimation of Tensors and Tensor-Derived Measures in Diffusional Kurtosis Imaging. Magnetic Resonance in Medicine. 2011;65(3) :823-836.doi:10.1002/mrm.22655 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3042509/
 """
 * #113208 ^property[0].code = #keyword
 * #113208 ^property[0].valueString  = "AxialKurtosis"
@@ -16833,7 +16823,7 @@ KA = diffusional kurtosis in the direction of the highest diffusion (also known 
 * #113209 "Fractional Kurtosis Anisotropy"
 """
 FractionalKurtosisAnisotropy:
-FKA = fractional kurtosis of diffusion in tissues Reference: Liu C, Mang SC, Moseley ME. In VivoGeneralized Diffusion Tensor Imaging (GDTI) Using Higher-Order Tensors (HOT). Magnetic resonance in medicine: official journal of the Society of Magnetic Resonance in Medicine / Society of Magnetic Resonance in Medicine. 2010;63(1) :243-252.
+FKA = fractional kurtosis of diffusion in tissues Reference: Liu C, Mang SC, Moseley ME. In VivoGeneralized Diffusion Tensor Imaging (GDTI) Using Higher-Order Tensors (HOT). Magnetic resonance in medicine: official journal of the Society of Magnetic Resonance in Medicine / Society of Magnetic Resonance in Medicine. 2010;63(1) :243-252.doi:10.1002/mrm.22192 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2824337/
 """
 * #113209 ^property[0].code = #keyword
 * #113209 ^property[0].valueString  = "FractionalKurtosisAnisotropy"
@@ -16843,7 +16833,7 @@ FKA = fractional kurtosis of diffusion in tissues Reference: Liu C, Mang SC, Mos
 * #113211 "Deterministic"
 """
 Deterministic:
-Tracking based on local directionality Reference: Descoteaux M, Deriche R, Knsche TR, Anwander A. Deterministic and probabilistic tractography based on complex fibre orientation distributions. IEEE Trans Med Imaging.2009; 28(2) :269-86 (
+Tracking based on local directionality Reference: Descoteaux M, Deriche R, Knsche TR, Anwander A. Deterministic and probabilistic tractography based on complex fibre orientation distributions. IEEE Trans Med Imaging.2009; 28(2) :269-86 (http://www.ncbi.nlm.nih.gov/pubmed/19188114
 """
 * #113211 ^property[0].code = #keyword
 * #113211 ^property[0].valueString  = "Deterministic"
@@ -16853,7 +16843,7 @@ Tracking based on local directionality Reference: Descoteaux M, Deriche R, Knsch
 * #113212 "Probabilistic"
 """
 Probabilistic:
-Tracking using local fiber orientation likelihood derive global connectivity likelihood Reference: Descoteaux M, Deriche R, Knsche TR, Anwander A. Deterministic and probabilistic tractography based on complex fibre orientation distributions. IEEE Trans Med Imaging.2009; 28(2) :269-86 (
+Tracking using local fiber orientation likelihood derive global connectivity likelihood Reference: Descoteaux M, Deriche R, Knsche TR, Anwander A. Deterministic and probabilistic tractography based on complex fibre orientation distributions. IEEE Trans Med Imaging.2009; 28(2) :269-86 (http://www.ncbi.nlm.nih.gov/pubmed/19188114
 """
 * #113212 ^property[0].code = #keyword
 * #113212 ^property[0].valueString  = "Probabilistic"
@@ -16863,7 +16853,7 @@ Tracking using local fiber orientation likelihood derive global connectivity lik
 * #113213 "Global"
 """
 Global:
-Tracking allfibers simultaneously, searching for a global optimum. Reference: Reisert M, Mader I, Anastasopoulos C, Weigel M, Schnell S, Kiselev V. Global fiber reconstruction becomes practical. NeuroImage. 2011 Jan 15;54(2) :955-62. (
+Tracking allfibers simultaneously, searching for a global optimum. Reference: Reisert M, Mader I, Anastasopoulos C, Weigel M, Schnell S, Kiselev V. Global fiber reconstruction becomes practical. NeuroImage. 2011 Jan 15;54(2) :955-62. (http://www.ncbi.nlm.nih.gov/pubmed/20854913
 """
 * #113213 ^property[0].code = #keyword
 * #113213 ^property[0].valueString  = "Global"
@@ -16873,7 +16863,7 @@ Tracking allfibers simultaneously, searching for a global optimum. Reference: Re
 * #113214 "FACT"
 """
 Fact:
-Fiber Assessment by Continuous Tracking Reference: Mori S, Crain BJ, Chacko VP, van Zijl PC. Three-dimensional tracking of axonal projections in the brain by magnetic resonance imaging. Ann Neurol . 1999 Feb;45(2) :265-9 ( Reference: Descoteaux M, Deriche R, Knsche TR, Anwander A. Deterministic and probabilistic tractography based on complex fibre orientation distributions. IEEE Trans Med Imaging.2009; 28(2) :269-86 (
+Fiber Assessment by Continuous Tracking Reference: Mori S, Crain BJ, Chacko VP, van Zijl PC. Three-dimensional tracking of axonal projections in the brain by magnetic resonance imaging. Ann Neurol . 1999 Feb;45(2) :265-9 (http://www.ncbi.nlm.nih.gov/pubmed/9989633 Reference: Descoteaux M, Deriche R, Knsche TR, Anwander A. Deterministic and probabilistic tractography based on complex fibre orientation distributions. IEEE Trans Med Imaging.2009; 28(2) :269-86 (http://www.ncbi.nlm.nih.gov/pubmed/19188114
 """
 * #113214 ^property[0].code = #keyword
 * #113214 ^property[0].valueString  = "Fact"
@@ -16883,7 +16873,7 @@ Fiber Assessment by Continuous Tracking Reference: Mori S, Crain BJ, Chacko VP, 
 * #113215 "Streamline"
 """
 Streamline:
-Streamline tracking techniques (STT) Reference: Basser PJ, Pajevic S, Pierpaoli C, Duda J, Aldroubi A. In vivo fiber tractography using DT-MRI data. Magn Reson Med. 2000 Oct;44(4) :625-32 (
+Streamline tracking techniques (STT) Reference: Basser PJ, Pajevic S, Pierpaoli C, Duda J, Aldroubi A. In vivo fiber tractography using DT-MRI data. Magn Reson Med. 2000 Oct;44(4) :625-32 (http://www.ncbi.nlm.nih.gov/pubmed/11025519
 """
 * #113215 ^property[0].code = #keyword
 * #113215 ^property[0].valueString  = "Streamline"
@@ -16893,7 +16883,7 @@ Streamline tracking techniques (STT) Reference: Basser PJ, Pajevic S, Pierpaoli 
 * #113216 "TEND"
 """
 Tend:
-Tensor Deflection Reference: Lazar M, Weinstein DM, Tsuruda JS, Hasan KM, Arfanakis K, Meyerand ME, Badie B, Rowley HA, Haughton V, Field A, Alexander AL. White matter tractography using diffusion tensor deflection. Hum Brain Mapp.2003 Apr;18(4) :306-21. (
+Tensor Deflection Reference: Lazar M, Weinstein DM, Tsuruda JS, Hasan KM, Arfanakis K, Meyerand ME, Badie B, Rowley HA, Haughton V, Field A, Alexander AL. White matter tractography using diffusion tensor deflection. Hum Brain Mapp.2003 Apr;18(4) :306-21. (http://www.ncbi.nlm.nih.gov/pubmed/12632468
 """
 * #113216 ^property[0].code = #keyword
 * #113216 ^property[0].valueString  = "Tend"
@@ -16903,7 +16893,7 @@ Tensor Deflection Reference: Lazar M, Weinstein DM, Tsuruda JS, Hasan KM, Arfana
 * #113217 "Bootstrap"
 """
 Bootstrap:
-Non-parametric estimation of fiber tracking dispersion Reference: Lazar M, Alexander AL. Bootstrap white matter tractography (BOOT-TRAC). Neuroimage. 2005 Jan 15;24(2) :524-32. Epub 2004 Nov 24. ( Reference: Jones DK, Pierpaoli C. Confidence mapping in diffusion tensor magnetic resonance imaging tractography using a bootstrap approach. Magn Reson Med.2005 May;53(5) :1143-9. (
+Non-parametric estimation of fiber tracking dispersion Reference: Lazar M, Alexander AL. Bootstrap white matter tractography (BOOT-TRAC). Neuroimage. 2005 Jan 15;24(2) :524-32. Epub 2004 Nov 24. (http://www.ncbi.nlm.nih.gov/pubmed/15627594 Reference: Jones DK, Pierpaoli C. Confidence mapping in diffusion tensor magnetic resonance imaging tractography using a bootstrap approach. Magn Reson Med.2005 May;53(5) :1143-9. (http://www.ncbi.nlm.nih.gov/pubmed/15844149
 """
 * #113217 ^property[0].code = #keyword
 * #113217 ^property[0].valueString  = "Bootstrap"
@@ -16913,7 +16903,7 @@ Non-parametric estimation of fiber tracking dispersion Reference: Lazar M, Alexa
 * #113218 "Euler"
 """
 Euler:
-Integration method, 1 Reference: Basser PJ, Pajevic S, Pierpaoli C, Duda J, Aldroubi A. In vivo fiber tractography using DT-MRI data. Magn Reson Med. 2000 Oct;44(4) :625-32 ( Reference: Descoteaux M, Deriche R, Knsche TR, Anwander A. Deterministic and probabilistic tractography based on complex fibre orientation distributions. IEEE Trans Med Imaging.2009; 28(2) :269-86 (
+Integration method, 1st Reference: Basser PJ, Pajevic S, Pierpaoli C, Duda J, Aldroubi A. In vivo fiber tractography using DT-MRI data. Magn Reson Med. 2000 Oct;44(4) :625-32 (http://www.ncbi.nlm.nih.gov/pubmed/11025519 Reference: Descoteaux M, Deriche R, Knsche TR, Anwander A. Deterministic and probabilistic tractography based on complex fibre orientation distributions. IEEE Trans Med Imaging.2009; 28(2) :269-86 (http://www.ncbi.nlm.nih.gov/pubmed/19188114
 """
 * #113218 ^property[0].code = #keyword
 * #113218 ^property[0].valueString  = "Euler"
@@ -16923,7 +16913,7 @@ Integration method, 1 Reference: Basser PJ, Pajevic S, Pierpaoli C, Duda J, Aldr
 * #113219 "Runge-Kutta"
 """
 Runge-kutta:
-Integration method, 2 Reference: Basser PJ, Pajevic S, Pierpaoli C, Duda J, Aldroubi A. In vivo fiber tractography using DT-MRI data. Magn Reson Med. 2000 Oct;44(4) :625-32 (
+Integration method, 2ndth Reference: Basser PJ, Pajevic S, Pierpaoli C, Duda J, Aldroubi A. In vivo fiber tractography using DT-MRI data. Magn Reson Med. 2000 Oct;44(4) :625-32 (http://www.ncbi.nlm.nih.gov/pubmed/11025519
 """
 * #113219 ^property[0].code = #keyword
 * #113219 ^property[0].valueString  = "Runge-kutta"
@@ -16933,7 +16923,7 @@ Integration method, 2 Reference: Basser PJ, Pajevic S, Pierpaoli C, Duda J, Aldr
 * #113221 "HARDI"
 """
 Hardi:
-High Angular Resolution Diffusion Imaging Reference: Tuch DS, Reese TG, Wiegell MR, Makris N, Belliveau JW, Wedeen VJ. High angular resolution diffusion imaging reveals intravoxel white matter fiber heterogeneity. Magn Reson Med.2002 Oct;48(4) :577-82. ( Reference: Descoteaux M, Deriche R, Knsche TR, Anwander A. Deterministic and probabilistic tractography based on complex fibre orientation distributions. IEEE Trans Med Imaging.2009; 28(2) :269-86 (
+High Angular Resolution Diffusion Imaging Reference: Tuch DS, Reese TG, Wiegell MR, Makris N, Belliveau JW, Wedeen VJ. High angular resolution diffusion imaging reveals intravoxel white matter fiber heterogeneity. Magn Reson Med.2002 Oct;48(4) :577-82. (http://www.ncbi.nlm.nih.gov/pubmed/12353272 Reference: Descoteaux M, Deriche R, Knsche TR, Anwander A. Deterministic and probabilistic tractography based on complex fibre orientation distributions. IEEE Trans Med Imaging.2009; 28(2) :269-86 (http://www.ncbi.nlm.nih.gov/pubmed/19188114
 """
 * #113221 ^property[0].code = #keyword
 * #113221 ^property[0].valueString  = "Hardi"
@@ -16943,7 +16933,7 @@ High Angular Resolution Diffusion Imaging Reference: Tuch DS, Reese TG, Wiegell 
 * #113222 "DKI"
 """
 Dki:
-Diffusion(al) Kurtosis Imaging Reference: Jensen JH, Helpern JA, Ramani A, Lu H, Kaczynski K. Diffusional kurtosis imaging: the quantification of non-gaussian water diffusion by means of magnetic resonance imaging. Magn Reson Med. 2005 Jun;53(6) :1432-40. (
+Diffusion(al) Kurtosis Imaging Reference: Jensen JH, Helpern JA, Ramani A, Lu H, Kaczynski K. Diffusional kurtosis imaging: the quantification of non-gaussian water diffusion by means of magnetic resonance imaging. Magn Reson Med. 2005 Jun;53(6) :1432-40. (http://www.ncbi.nlm.nih.gov/pubmed/15906300
 """
 * #113222 ^property[0].code = #keyword
 * #113222 ^property[0].valueString  = "Dki"
@@ -16953,7 +16943,7 @@ Diffusion(al) Kurtosis Imaging Reference: Jensen JH, Helpern JA, Ramani A, Lu H,
 * #113223 "DTI"
 """
 Dti:
-Diffusion Tensor Imaging Reference: Winston GP. The physical and biological basis of quantitative parameters derived from diffusion MRI. Quantitative Imaging in Medicine and Surgery. 2012;2(4) :254-265.
+Diffusion Tensor Imaging Reference: Winston GP. The physical and biological basis of quantitative parameters derived from diffusion MRI. Quantitative Imaging in Medicine and Surgery. 2012;2(4) :254-265.doi:10.3978/j.issn.2223-4292.2012.12.05 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3533595/
 """
 * #113223 ^property[0].code = #keyword
 * #113223 ^property[0].valueString  = "Dti"
@@ -16963,7 +16953,7 @@ Diffusion Tensor Imaging Reference: Winston GP. The physical and biological basi
 * #113224 "DSI"
 """
 Dsi:
-Diffusion Spectrum Imaging Reference: Wedeen VJ, Wang RP, Schmahmann JD, Benner T, Tseng WY, Dai G, Pandya DN, Hagmann P, D'Arceuil H, de Crespigny AJ. Diffusion spectrum magnetic resonance imaging (DSI) tractography of crossing fibers. Neuroimage. 2008 Jul 15;41(4) :1267-77. Reference: Hagmann P, Jonasson L, Maeder P, Thiran JP, Wedeen VJ, Meuli R. Understanding diffusion MR imaging techniques: from scalar diffusion-weighted imaging to diffusion tensor imaging and beyond. Radiographics.2006 Oct;26 Suppl 1:S205-23. (
+Diffusion Spectrum Imaging Reference: Wedeen VJ, Wang RP, Schmahmann JD, Benner T, Tseng WY, Dai G, Pandya DN, Hagmann P, D'Arceuil H, de Crespigny AJ. Diffusion spectrum magnetic resonance imaging (DSI) tractography of crossing fibers. Neuroimage. 2008 Jul 15;41(4) :1267-77.doi:10.1016/j.neuroimage.2008.03.036 http://www.ncbi.nlm.nih.gov/pubmed/18495497 Reference: Hagmann P, Jonasson L, Maeder P, Thiran JP, Wedeen VJ, Meuli R. Understanding diffusion MR imaging techniques: from scalar diffusion-weighted imaging to diffusion tensor imaging and beyond. Radiographics.2006 Oct;26 Suppl 1:S205-23. (http://www.ncbi.nlm.nih.gov/pubmed/17050517
 """
 * #113224 ^property[0].code = #keyword
 * #113224 ^property[0].valueString  = "Dsi"
@@ -16973,7 +16963,7 @@ Diffusion Spectrum Imaging Reference: Wedeen VJ, Wang RP, Schmahmann JD, Benner 
 * #113225 "LSDI"
 """
 Lsdi:
-Line Scan Diffusion Imaging sequence Reference: Gudbjartsson H, Maier SE, Mulkern RV, Mrocz IA, Patz S, Jolesz FA. Line scan diffusion imaging. Magn Reson Med.1996 Oct;36(4) :509-19. (
+Line Scan Diffusion Imaging sequence Reference: Gudbjartsson H, Maier SE, Mulkern RV, Mrocz IA, Patz S, Jolesz FA. Line scan diffusion imaging. Magn Reson Med.1996 Oct;36(4) :509-19. (http://www.ncbi.nlm.nih.gov/pubmed/8892201
 """
 * #113225 ^property[0].code = #keyword
 * #113225 ^property[0].valueString  = "Lsdi"
@@ -16983,7 +16973,7 @@ Line Scan Diffusion Imaging sequence Reference: Gudbjartsson H, Maier SE, Mulker
 * #113226 "Single Shot EPI"
 """
 SingleShotEpi:
-An Echo Planar Imaging sequence in which the entire range of phase encoding steps is acquired in one repetition. Reference: Turner R, Le Bihan D, Chesnick AS. Echo-planar imaging of diffusion and perfusion. Magn Reson Med.1991 Jun;19(2) :247-53. (
+An Echo Planar Imaging sequence in which the entire range of phase encoding steps is acquired in one repetition. Reference: Turner R, Le Bihan D, Chesnick AS. Echo-planar imaging of diffusion and perfusion. Magn Reson Med.1991 Jun;19(2) :247-53. (http://www.ncbi.nlm.nih.gov/pubmed/1881311
 """
 * #113226 ^property[0].code = #keyword
 * #113226 ^property[0].valueString  = "SingleShotEpi"
@@ -16993,7 +16983,7 @@ An Echo Planar Imaging sequence in which the entire range of phase encoding step
 * #113227 "Multiple Shot EPI"
 """
 MultipleShotEpi:
-An Echo Planar Imaging sequence in which separate parts of the range of phase encoding steps are acquired in multiple repetitions. Reference: Robson MD, Anderson AW, Gore JC. Diffusion-weighted multiple shot echo planar imaging of humans without navigation. Magn Reson Med.1997 Jul;38(1) :82-8. (
+An Echo Planar Imaging sequence in which separate parts of the range of phase encoding steps are acquired in multiple repetitions. Reference: Robson MD, Anderson AW, Gore JC. Diffusion-weighted multiple shot echo planar imaging of humans without navigation. Magn Reson Med.1997 Jul;38(1) :82-8. (http://www.ncbi.nlm.nih.gov/pubmed/9211383
 """
 * #113227 ^property[0].code = #keyword
 * #113227 ^property[0].valueString  = "MultipleShotEpi"
@@ -17003,7 +16993,7 @@ An Echo Planar Imaging sequence in which separate parts of the range of phase en
 * #113228 "Parallel Imaging"
 """
 ParallelImaging:
-A imaging sequence that uses a subset of k-space data from an array of receiver coils, e.g., Sensitivity Encoding. Reference: Pruessmann KP, Weiger M, Scheidegger MB, Boesiger P. SENSE: sensitivity encoding for fast MRI. Magn Reson Med.1999 Nov;42(5) :952-62. ( Reference: Deshmane A, Gulani V, Griswold MA, Seiberlich N. Parallel MR imaging. J Magn Reson Imaging. 2012 Jul;36(1) :55-72. (
+A imaging sequence that uses a subset of k-space data from an array of receiver coils, e.g., Sensitivity Encoding. Reference: Pruessmann KP, Weiger M, Scheidegger MB, Boesiger P. SENSE: sensitivity encoding for fast MRI. Magn Reson Med.1999 Nov;42(5) :952-62. (http://www.ncbi.nlm.nih.gov/pubmed/10542355 Reference: Deshmane A, Gulani V, Griswold MA, Seiberlich N. Parallel MR imaging. J Magn Reson Imaging. 2012 Jul;36(1) :55-72. (http://www.ncbi.nlm.nih.gov/pubmed/22696125
 """
 * #113228 ^property[0].code = #keyword
 * #113228 ^property[0].valueString  = "ParallelImaging"
@@ -17013,7 +17003,7 @@ A imaging sequence that uses a subset of k-space data from an array of receiver 
 * #113231 "Single Tensor"
 """
 SingleTensor:
-Modeling anisotropic diffusion in a volume with a tensor following a Gaussian distribution (six degrees of freedom) Reference: Basser PJ, Mattiello J, LeBihan D. Estimation of the effective self-diffusion tensor from the NMR spin echo. J Magn Reson B.1994 Mar;103(3) :247-54. ( Reference: Hagmann P1, Jonasson L, Maeder P, Thiran JP, Wedeen VJ, Meuli R. Understanding diffusion MR imaging techniques: from scalar diffusion-weighted imaging to diffusion tensor imaging and beyond. Radiographics.2006 Oct;26 Suppl 1:S205-23. (
+Modeling anisotropic diffusion in a volume with a tensor following a Gaussian distribution (six degrees of freedom) Reference: Basser PJ, Mattiello J, LeBihan D. Estimation of the effective self-diffusion tensor from the NMR spin echo. J Magn Reson B.1994 Mar;103(3) :247-54. (http://www.ncbi.nlm.nih.gov/pubmed/8019776 Reference: Hagmann P1, Jonasson L, Maeder P, Thiran JP, Wedeen VJ, Meuli R. Understanding diffusion MR imaging techniques: from scalar diffusion-weighted imaging to diffusion tensor imaging and beyond. Radiographics.2006 Oct;26 Suppl 1:S205-23. (http://www.ncbi.nlm.nih.gov/pubmed/17050517
 """
 * #113231 ^property[0].code = #keyword
 * #113231 ^property[0].valueString  = "SingleTensor"
@@ -17023,7 +17013,7 @@ Modeling anisotropic diffusion in a volume with a tensor following a Gaussian di
 * #113232 "Multi Tensor"
 """
 MultiTensor:
-Modeling anisotropic diffusion in a volume by fitting of multiple tensors Reference: Ozarslan E, Mareci TH. Generalized diffusion tensor imaging and analytical relationships between diffusion tensor imaging and high angular resolution diffusion imaging. Magn Reson Med.2003 Nov;50(5) :955-65. ( Reference: Pasternak O, Assaf Y, Intrator N, Sochen N. Variational multiple-tensor fitting of fiber-ambiguous diffusion-weighted magnetic resonance imaging voxels. Magn Reson Imaging.2008 Oct;26(8) :1133-44.
+Modeling anisotropic diffusion in a volume by fitting of multiple tensors Reference: Ozarslan E, Mareci TH. Generalized diffusion tensor imaging and analytical relationships between diffusion tensor imaging and high angular resolution diffusion imaging. Magn Reson Med.2003 Nov;50(5) :955-65. (http://www.ncbi.nlm.nih.gov/pubmed/14587006 Reference: Pasternak O, Assaf Y, Intrator N, Sochen N. Variational multiple-tensor fitting of fiber-ambiguous diffusion-weighted magnetic resonance imaging voxels. Magn Reson Imaging.2008 Oct;26(8) :1133-44.doi:10.1016/j.mri.2008.01.006 http://www.ncbi.nlm.nih.gov/pubmed/18524529
 """
 * #113232 ^property[0].code = #keyword
 * #113232 ^property[0].valueString  = "MultiTensor"
@@ -17033,7 +17023,7 @@ Modeling anisotropic diffusion in a volume by fitting of multiple tensors Refere
 * #113233 "Model Free"
 """
 ModelFree:
-Reconstruction of anisotropic diffusion in a volume without imposing an underlying statistical model (data-driven approach) Reference: Wedeen VJ, Hagmann P, Tseng WY, Reese TG, Weisskoff RM. Mapping complex tissue architecture with diffusion spectrum magnetic resonance imaging. Magn Reson Med.2005 Dec;54(6) :1377-86. ( Reference: Hagmann P, Jonasson L, Maeder P, Thiran JP, Wedeen VJ, Meuli R. Understanding diffusion MR imaging techniques: from scalar diffusion-weighted imaging to diffusion tensor imaging and beyond. Radiographics.2006 Oct;26 Suppl 1:S205-23. (
+Reconstruction of anisotropic diffusion in a volume without imposing an underlying statistical model (data-driven approach) Reference: Wedeen VJ, Hagmann P, Tseng WY, Reese TG, Weisskoff RM. Mapping complex tissue architecture with diffusion spectrum magnetic resonance imaging. Magn Reson Med.2005 Dec;54(6) :1377-86. (http://www.ncbi.nlm.nih.gov/pubmed/16247738 Reference: Hagmann P, Jonasson L, Maeder P, Thiran JP, Wedeen VJ, Meuli R. Understanding diffusion MR imaging techniques: from scalar diffusion-weighted imaging to diffusion tensor imaging and beyond. Radiographics.2006 Oct;26 Suppl 1:S205-23. (http://www.ncbi.nlm.nih.gov/pubmed/17050517
 """
 * #113233 ^property[0].code = #keyword
 * #113233 ^property[0].valueString  = "ModelFree"
@@ -17043,7 +17033,7 @@ Reconstruction of anisotropic diffusion in a volume without imposing an underlyi
 * #113234 "CHARMED"
 """
 Charmed:
-Composite Hindered and Restricted Model of Diffusion Reference: Assaf Y, Basser PJ. Composite hindered and restricted model of diffusion (CHARMED) MR imaging of the human brain. Neuroimage.2005 Aug 1;27(1) :48-58. (
+Composite Hindered and Restricted Model of Diffusion Reference: Assaf Y, Basser PJ. Composite hindered and restricted model of diffusion (CHARMED) MR imaging of the human brain. Neuroimage.2005 Aug 1;27(1) :48-58. (http://www.ncbi.nlm.nih.gov/pubmed/17050517
 """
 * #113234 ^property[0].code = #keyword
 * #113234 ^property[0].valueString  = "Charmed"
@@ -17053,7 +17043,7 @@ Composite Hindered and Restricted Model of Diffusion Reference: Assaf Y, Basser 
 * #113236 "DOT"
 """
 Dot:
-Diffusion Orientation Transform Reference: Ozarslan E, Shepherd TM, Vemuri BC, Blackband SJ, Mareci TH. Resolution of complex tissue microarchitecture using the diffusion orientation transform (DOT). Neuroimage. 2006 Jul 1;31(3) :1086-103. Epub 2006 Mar 20. (
+Diffusion Orientation Transform Reference: Ozarslan E, Shepherd TM, Vemuri BC, Blackband SJ, Mareci TH. Resolution of complex tissue microarchitecture using the diffusion orientation transform (DOT). Neuroimage. 2006 Jul 1;31(3) :1086-103. Epub 2006 Mar 20. (http://www.ncbi.nlm.nih.gov/pubmed/16546404
 """
 * #113236 ^property[0].code = #keyword
 * #113236 ^property[0].valueString  = "Dot"
@@ -17063,7 +17053,7 @@ Diffusion Orientation Transform Reference: Ozarslan E, Shepherd TM, Vemuri BC, B
 * #113237 "PAS"
 """
 Pas:
-Persistent Angular Structure Reference: Jansons KM, Alexander DC. Persistent Angular Structure: new insights from diffusion MRI data. Dummy version. Inf Process Med Imaging.2003 Jul;18:672-83. (
+Persistent Angular Structure Reference: Jansons KM, Alexander DC. Persistent Angular Structure: new insights from diffusion MRI data. Dummy version. Inf Process Med Imaging.2003 Jul;18:672-83. (http://www.ncbi.nlm.nih.gov/pubmed/15344497
 """
 * #113237 ^property[0].code = #keyword
 * #113237 ^property[0].valueString  = "Pas"
@@ -17073,7 +17063,7 @@ Persistent Angular Structure Reference: Jansons KM, Alexander DC. Persistent Ang
 * #113238 "Spherical Deconvolution"
 """
 SphericalDeconvolution:
-A method to estimate the distribution of fiber orientations by deconvolution of the diffusion-weighted signal attenuation measured over the surface of a sphere expressed as the convolution over the sphere of a response function. Reference: Tournier JD, Calamante F, Gadian DG, Connelly A. Direct estimation of the fiber orientation density function from diffusion-weighted MRI data using spherical deconvolution. NeuroImage. 2004 Nov;23(3) :1176-85. (
+A method to estimate the distribution of fiber orientations by deconvolution of the diffusion-weighted signal attenuation measured over the surface of a sphere expressed as the convolution over the sphere of a response function. Reference: Tournier JD, Calamante F, Gadian DG, Connelly A. Direct estimation of the fiber orientation density function from diffusion-weighted MRI data using spherical deconvolution. NeuroImage. 2004 Nov;23(3) :1176-85. (http://www.ncbi.nlm.nih.gov/pubmed/15528117
 """
 * #113238 ^property[0].code = #keyword
 * #113238 ^property[0].valueString  = "SphericalDeconvolution"
@@ -17290,7 +17280,7 @@ retired
 * #113290 "Mono-exponential Apparent Diffusion Coefficient"
 """
 Mono-exponentialApparentDiffusionCoefficient:
-The diffusion coefficient of a mono-exponential diffusion model (ADC
+The diffusion coefficient of a mono-exponential diffusion model (ADCm
 retired
 """
 * #113290 ^property[0].code = #keyword
@@ -17301,7 +17291,7 @@ retired
 * #113291 "Slow Diffusion Coefficient"
 """
 SlowDiffusionCoefficient:
-The slow diffusion coefficient (D
+The slow diffusion coefficient (Ds
 retired
 """
 * #113291 ^property[0].code = #keyword
@@ -17312,7 +17302,7 @@ retired
 * #113292 "Fast Diffusion Coefficient"
 """
 FastDiffusionCoefficient:
-The fast diffusion coefficient (D
+The fast diffusion coefficient (Df
 retired
 """
 * #113292 ^property[0].code = #keyword
@@ -17334,7 +17324,7 @@ retired
 * #113294 "Kurtosis Diffusion Coefficient"
 """
 KurtosisDiffusionCoefficient:
-The diffusion coefficient of a kurtosis diffusion model (ADC
+The diffusion coefficient of a kurtosis diffusion model (ADCk
 retired
 """
 * #113294 ^property[0].code = #keyword
@@ -17368,16 +17358,17 @@ retired
 """
 GammaDistributionMode:
 The mode (maximum value of probability density function) of a gamma distribution diffusion model. Computed as (k-1)*theta, for k >= 1.
+retired
 """
 * #113297 ^property[0].code = #keyword
 * #113297 ^property[0].valueString  = "GammaDistributionMode"
 * #113297 ^property[1].code = #retired
-* #113297 ^property[1].valueBoolean  = false
+* #113297 ^property[1].valueBoolean  = true
 
 * #113298 "Distributed Diffusion Coefficient"
 """
 DistributedDiffusionCoefficient:
-The distributed diffusion coefficient of a stretched-exponential diffusion model (ADC
+The distributed diffusion coefficient of a stretched-exponential diffusion model (ADCs
 retired
 """
 * #113298 ^property[0].code = #keyword
@@ -17595,6 +17586,26 @@ Reference authority ICRP, 2008. Radiation Dose to Patients from Radiopharmaceuti
 * #113523 ^property[0].valueString  = "IcrpPublication106"
 * #113523 ^property[1].code = #retired
 * #113523 ^property[1].valueBoolean  = false
+
+* #113524 "ICRP Publication 128"
+"""
+IcrpPublication128:
+Reference authority ICRP, 2015. Radiation Dose to Patients from Radiopharmaceuticals: A Compendium of Current Information Related to Frequently Used Substances. ICRP Publication 128. Ann. ICRP 44(2S).
+"""
+* #113524 ^property[0].code = #keyword
+* #113524 ^property[0].valueString  = "IcrpPublication128"
+* #113524 ^property[1].code = #retired
+* #113524 ^property[1].valueBoolean  = false
+
+* #113525 "RADAR 2017"
+"""
+Radar2017:
+Reference authority Stabin MG, Siegel JA. RADAR Dose Estimate Report: A Compendium of Radiopharmaceutical Dose Estimates Based on OLINDA/EXM Version 2.0. J Nucl Med. 2018 Jan;59(1):154-160.doi:10.2967/jnumed.117.196261
+"""
+* #113525 ^property[0].code = #keyword
+* #113525 ^property[0].valueString  = "Radar2017"
+* #113525 ^property[1].code = #retired
+* #113525 ^property[1].valueBoolean  = false
 
 * #113526 "MIRDOSE"
 """
@@ -17899,7 +17910,7 @@ The type of a human-readable label.
 * #113607 "Series Number"
 """
 SeriesNumber:
-A number that identifies a Series. Corresponds to Series Number (0020,0011) of the
+A number that identifies a Series. Corresponds to Series Number (0020,0011) of thePS3.3
 """
 * #113607 ^property[0].code = #keyword
 * #113607 ^property[0].valueString  = "SeriesNumber"
@@ -17909,7 +17920,7 @@ A number that identifies a Series. Corresponds to Series Number (0020,0011) of t
 * #113608 "Acquisition Number"
 """
 AcquisitionNumber:
-A number that identifies an Acquisition. Corresponds to Acquisition Number (0020,0012) of the
+A number that identifies an Acquisition. Corresponds to Acquisition Number (0020,0012) of thePS3.3
 """
 * #113608 ^property[0].code = #keyword
 * #113608 ^property[0].valueString  = "AcquisitionNumber"
@@ -17919,7 +17930,7 @@ A number that identifies an Acquisition. Corresponds to Acquisition Number (0020
 * #113609 "Instance Number"
 """
 InstanceNumber:
-A number that identifies an Instance. Corresponds to Instance Number (0020,0013) of the
+A number that identifies an Instance. Corresponds to Instance Number (0020,0013) of thePS3.3
 """
 * #113609 ^property[0].code = #keyword
 * #113609 ^property[0].valueString  = "InstanceNumber"
@@ -18229,7 +18240,7 @@ A PET faceplate (made to fit an existing flangeless or flanged ECT phantom) acce
 * #113690 "IEC 160mm Head CT Dosimetry Phantom"
 """
 Iec160mmHeadCtDosimetryPhantom:
-A phantom used for CTDI measurement in head modes according to
+A phantom used for CTDI measurement in head modes according tobiblio_IEC60601_2_44
 """
 * #113690 ^property[0].code = #keyword
 * #113690 ^property[0].valueString  = "Iec160mmHeadCtDosimetryPhantom"
@@ -18239,7 +18250,7 @@ A phantom used for CTDI measurement in head modes according to
 * #113691 "IEC 320mm Body CT Dosimetry Phantom"
 """
 Iec320mmBodyCtDosimetryPhantom:
-A phantom used for CTDI measurement in body modes according to
+A phantom used for CTDI measurement in body modes according tobiblio_IEC60601_2_44
 """
 * #113691 ^property[0].code = #keyword
 * #113691 ^property[0].valueString  = "Iec320mmBodyCtDosimetryPhantom"
@@ -18489,7 +18500,7 @@ Dose applied at the Reference Point (RP).
 * #113739 "Positioner Primary End Angle"
 """
 PositionerPrimaryEndAngle:
-Positioner Primary Angle at the end of an irradiation event. For further definition see
+Positioner Primary Angle at the end of an irradiation event. For further definition see(112011, DCM, 'Positioner Primary Angle')
 """
 * #113739 ^property[0].code = #keyword
 * #113739 ^property[0].valueString  = "PositionerPrimaryEndAngle"
@@ -18499,7 +18510,7 @@ Positioner Primary Angle at the end of an irradiation event. For further definit
 * #113740 "Positioner Secondary End Angle"
 """
 PositionerSecondaryEndAngle:
-Positioner Secondary Angle at the end of an irradiation event. For further definition see
+Positioner Secondary Angle at the end of an irradiation event. For further definition see(112012, DCM, 'Positioner Secondary Angle')
 """
 * #113740 ^property[0].code = #keyword
 * #113740 ^property[0].valueString  = "PositionerSecondaryEndAngle"
@@ -18654,7 +18665,7 @@ The minimum thickness of the X-Ray absorbing material used in the filters.
 * #113759 "Table Longitudinal End Position"
 """
 TableLongitudinalEndPosition:
-Table Longitudinal Position at the end of an irradiation event; see
+Table Longitudinal Position at the end of an irradiation event; see(113751, DCM, 'Table Longitudinal Position')
 """
 * #113759 ^property[0].code = #keyword
 * #113759 ^property[0].valueString  = "TableLongitudinalEndPosition"
@@ -18664,7 +18675,7 @@ Table Longitudinal Position at the end of an irradiation event; see
 * #113760 "Table Lateral End Position"
 """
 TableLateralEndPosition:
-Table Lateral Position at the end of an irradiation event; see
+Table Lateral Position at the end of an irradiation event; see(113752, DCM, 'Table Lateral Position')
 """
 * #113760 ^property[0].code = #keyword
 * #113760 ^property[0].valueString  = "TableLateralEndPosition"
@@ -18674,7 +18685,7 @@ Table Lateral Position at the end of an irradiation event; see
 * #113761 "Table Height End Position"
 """
 TableHeightEndPosition:
-Table Height Position at the end of an irradiation event; see
+Table Height Position at the end of an irradiation event; see(113753, DCM, 'Table Height Position')
 """
 * #113761 ^property[0].code = #keyword
 * #113761 ^property[0].valueString  = "TableHeightEndPosition"
@@ -19304,7 +19315,7 @@ The type of exposure modulation used for the purpose of limiting the dose.
 * #113845 "Exposure Index"
 """
 ExposureIndex:
-Measure of the detector response to radiation in the relevant image region of an image acquired with a digital X-Ray imaging system as defined in IEC 62494-1; see
+Measure of the detector response to radiation in the relevant image region of an image acquired with a digital X-Ray imaging system as defined in IEC 62494-1; seePS3.3
 """
 * #113845 ^property[0].code = #keyword
 * #113845 ^property[0].valueString  = "ExposureIndex"
@@ -19314,7 +19325,7 @@ Measure of the detector response to radiation in the relevant image region of an
 * #113846 "Target Exposure Index"
 """
 TargetExposureIndex:
-The target value used to calculate the Deviation Index as defined in IEC 62494-1; see
+The target value used to calculate the Deviation Index as defined in IEC 62494-1; seePS3.3
 """
 * #113846 ^property[0].code = #keyword
 * #113846 ^property[0].valueString  = "TargetExposureIndex"
@@ -19324,7 +19335,7 @@ The target value used to calculate the Deviation Index as defined in IEC 62494-1
 * #113847 "Deviation Index"
 """
 DeviationIndex:
-A scaled representation of the accuracy of the Exposure Index compared to the Target Exposure Index as defined in IEC 62494-1; see
+A scaled representation of the accuracy of the Exposure Index compared to the Target Exposure Index as defined in IEC 62494-1; seePS3.3
 """
 * #113847 ^property[0].code = #keyword
 * #113847 ^property[0].valueString  = "DeviationIndex"
@@ -19634,7 +19645,7 @@ All planes of a multi-plane acquisition equipment.
 * #113893 "Length of Reconstructable Volume"
 """
 LengthOfReconstructableVolume:
-The length from which images may be reconstructed (i.e., excluding any overranging performed in a spiral acquisition that is required for data interpolation). Value is distinct from
+The length from which images may be reconstructed (i.e., excluding any overranging performed in a spiral acquisition that is required for data interpolation). Value is distinct from(1113825, DCM, 'Scanning Length')
 """
 * #113893 ^property[0].code = #keyword
 * #113893 ^property[0].valueString  = "LengthOfReconstructableVolume"
@@ -19684,7 +19695,7 @@ The Z location that is the bottom (lowest Z value) of the scanning length. Speci
 * #113899 "Exposed Range"
 """
 ExposedRange:
-The range along the z axis of the total volume irradiated, per The start and stop of loading corresponding to the outer edge of the full width half maximum of the free-in-air dose profile for the beam collimation used.
+The range along the z axis of the total volume irradiated, perbiblio_IEC60601_2_44 The start and stop of loading corresponding to the outer edge of the full width half maximum of the free-in-air dose profile for the beam collimation used.
 """
 * #113899 ^property[0].code = #keyword
 * #113899 ^property[0].valueString  = "ExposedRange"
@@ -19724,7 +19735,7 @@ Flag denoting whether a CTDIvol Alert Value was configured.
 * #113903 "DLP Alert Value"
 """
 DlpAlertValue:
-Cumulative Dose Length Product value configured to trigger an alert; see the NEMA Dose Check Standard
+Cumulative Dose Length Product value configured to trigger an alert; see the NEMA Dose Check Standardbiblio_NEMA_XR_25
 """
 * #113903 ^property[0].code = #keyword
 * #113903 ^property[0].valueString  = "DlpAlertValue"
@@ -19734,7 +19745,7 @@ Cumulative Dose Length Product value configured to trigger an alert; see the NEM
 * #113904 "CTDIvol Alert Value"
 """
 CtdivolAlertValue:
-Cumulative CTDIvol value configured to trigger an alert; see the NEMA Dose Check Standard
+Cumulative CTDIvol value configured to trigger an alert; see the NEMA Dose Check Standardbiblio_NEMA_XR_25
 """
 * #113904 ^property[0].code = #keyword
 * #113904 ^property[0].valueString  = "CtdivolAlertValue"
@@ -19744,7 +19755,7 @@ Cumulative CTDIvol value configured to trigger an alert; see the NEMA Dose Check
 * #113905 "Accumulated DLP Forward Estimate"
 """
 AccumulatedDlpForwardEstimate:
-A forward estimate of the accumulated DLP plus the estimated DLP for the next Protocol Element Group; see the NEMA Dose Check Standard
+A forward estimate of the accumulated DLP plus the estimated DLP for the next Protocol Element Group; see the NEMA Dose Check Standardbiblio_NEMA_XR_25
 """
 * #113905 ^property[0].code = #keyword
 * #113905 ^property[0].valueString  = "AccumulatedDlpForwardEstimate"
@@ -19754,7 +19765,7 @@ A forward estimate of the accumulated DLP plus the estimated DLP for the next Pr
 * #113906 "Accumulated CTDIvol Forward Estimate"
 """
 AccumulatedCtdivolForwardEstimate:
-A forward estimate at a given location of the accumulated CTDIvol plus the estimated CTDIvol for the next Protocol Element Group; see the NEMA Dose Check Standard
+A forward estimate at a given location of the accumulated CTDIvol plus the estimated CTDIvol for the next Protocol Element Group; see the NEMA Dose Check Standardbiblio_NEMA_XR_25
 """
 * #113906 ^property[0].code = #keyword
 * #113906 ^property[0].valueString  = "AccumulatedCtdivolForwardEstimate"
@@ -19824,7 +19835,7 @@ CTDIvol value configured to trigger a notification for a given protocol element.
 * #113913 "DLP Forward Estimate"
 """
 DlpForwardEstimate:
-A forward estimate of the DLP for the next Protocol Element Group; see the NEMA Dose Check Standard
+A forward estimate of the DLP for the next Protocol Element Group; see the NEMA Dose Check Standardbiblio_NEMA_XR_25
 """
 * #113913 ^property[0].code = #keyword
 * #113913 ^property[0].valueString  = "DlpForwardEstimate"
@@ -19834,7 +19845,7 @@ A forward estimate of the DLP for the next Protocol Element Group; see the NEMA 
 * #113914 "CTDIvol Forward Estimate"
 """
 CtdivolForwardEstimate:
-A forward estimate of the CTDIvol for the next Protocol Element Group; see the NEMA Dose Check Standard
+A forward estimate of the CTDIvol for the next Protocol Element Group; see the NEMA Dose Check Standardbiblio_NEMA_XR_25
 """
 * #113914 ^property[0].code = #keyword
 * #113914 ^property[0].valueString  = "CtdivolForwardEstimate"
@@ -19844,7 +19855,7 @@ A forward estimate of the CTDIvol for the next Protocol Element Group; see the N
 * #113915 "Alternative dose alert behavior active"
 """
 AlternativeDoseAlertBehaviorActive:
-Flag denoting whether alternative dose alert behavior has been active for CT guided interventional procedure according to the NEMA Dose Check Standard
+Flag denoting whether alternative dose alert behavior has been active for CT guided interventional procedure according to the NEMA Dose Check Standardbiblio_NEMA_XR_25
 """
 * #113915 ^property[0].code = #keyword
 * #113915 ^property[0].valueString  = "AlternativeDoseAlertBehaviorActive"
@@ -19864,7 +19875,7 @@ The amount of ionizing radiation to which the patient was exposed.
 * #113930 "Size Specific Dose Estimate"
 """
 SizeSpecificDoseEstimate:
-The Size-Specific Dose Estimate is a patient dose estimate that takes into account the size of the patient, such as described in
+The Size-Specific Dose Estimate is a patient dose estimate that takes into account the size of the patient, such as described inbiblio_AAPM_TG204 biblio_AAPM_TG220
 """
 * #113930 ^property[0].code = #keyword
 * #113930 ^property[0].valueString  = "SizeSpecificDoseEstimate"
@@ -19874,7 +19885,7 @@ The Size-Specific Dose Estimate is a patient dose estimate that takes into accou
 * #113931 "Measured Lateral Dimension"
 """
 MeasuredLateralDimension:
-The side-to-side (left to right) dimension of the body part being scanned (per
+The side-to-side (left to right) dimension of the body part being scanned (perbiblio_AAPM_TG204
 """
 * #113931 ^property[0].code = #keyword
 * #113931 ^property[0].valueString  = "MeasuredLateralDimension"
@@ -19884,7 +19895,7 @@ The side-to-side (left to right) dimension of the body part being scanned (per
 * #113932 "Measured AP Dimension"
 """
 MeasuredApDimension:
-The thickness of the body part being scanned, in the antero-posterior dimension (per
+The thickness of the body part being scanned, in the antero-posterior dimension (perbiblio_AAPM_TG204
 """
 * #113932 ^property[0].code = #keyword
 * #113932 ^property[0].valueString  = "MeasuredApDimension"
@@ -19894,7 +19905,7 @@ The thickness of the body part being scanned, in the antero-posterior dimension 
 * #113933 "Derived Effective Diameter"
 """
 DerivedEffectiveDiameter:
-The diameter of the patient at a given location along the Z-axis of the patient, assuming that the patient has a circular cross-section (per
+The diameter of the patient at a given location along the Z-axis of the patient, assuming that the patient has a circular cross-section (perbiblio_AAPM_TG204
 """
 * #113933 ^property[0].code = #keyword
 * #113933 ^property[0].valueString  = "DerivedEffectiveDiameter"
@@ -19904,7 +19915,7 @@ The diameter of the patient at a given location along the Z-axis of the patient,
 * #113934 "AAPM 204 Lateral Dimension"
 """
 Aapm204LateralDimension:
-The Size Specific Dose Estimate is computed using Table 1B (32cm phantom) or Table 2B (16cm phantom) of
+The Size Specific Dose Estimate is computed using Table 1B (32cm phantom) or Table 2B (16cm phantom) ofbiblio_AAPM_TG204
 """
 * #113934 ^property[0].code = #keyword
 * #113934 ^property[0].valueString  = "Aapm204LateralDimension"
@@ -19914,7 +19925,7 @@ The Size Specific Dose Estimate is computed using Table 1B (32cm phantom) or Tab
 * #113935 "AAPM 204 AP Dimension"
 """
 Aapm204ApDimension:
-The Size Specific Dose Estimate is computed using Table 1C (32cm phantom) or Table 2C (16cm phantom) of
+The Size Specific Dose Estimate is computed using Table 1C (32cm phantom) or Table 2C (16cm phantom) ofbiblio_AAPM_TG204
 """
 * #113935 ^property[0].code = #keyword
 * #113935 ^property[0].valueString  = "Aapm204ApDimension"
@@ -19924,7 +19935,7 @@ The Size Specific Dose Estimate is computed using Table 1C (32cm phantom) or Tab
 * #113936 "AAPM 204 Sum of Lateral and AP Dimension"
 """
 Aapm204SumOfLateralAndApDimension:
-The Size Specific Dose Estimate is computed using Table 1A (32cm phantom) or Table 2A (16cm phantom) of
+The Size Specific Dose Estimate is computed using Table 1A (32cm phantom) or Table 2A (16cm phantom) ofbiblio_AAPM_TG204
 """
 * #113936 ^property[0].code = #keyword
 * #113936 ^property[0].valueString  = "Aapm204SumOfLateralAndApDimension"
@@ -19934,7 +19945,7 @@ The Size Specific Dose Estimate is computed using Table 1A (32cm phantom) or Tab
 * #113937 "AAPM 204 Effective Diameter Estimated From Patient Age"
 """
 Aapm204EffectiveDiameterEstimatedFromPatientAge:
-The Size Specific Dose Estimate is computed using Table 1D (32cm phantom) or Table 2D (16cm phantom) using an effective diameter estimated from the patient's age using Table 3 of
+The Size Specific Dose Estimate is computed using Table 1D (32cm phantom) or Table 2D (16cm phantom) using an effective diameter estimated from the patient's age using Table 3 ofbiblio_AAPM_TG204
 """
 * #113937 ^property[0].code = #keyword
 * #113937 ^property[0].valueString  = "Aapm204EffectiveDiameterEstimatedFromPatientAge"
@@ -20204,7 +20215,7 @@ The period of time from the start of a Procedure Step until the time point estab
 * #113980 "Water Equivalent Diameter"
 """
 WaterEquivalentDiameter:
-The diameter of a cylinder of water having the same X-Ray attenuation as the patient for a specified reconstructed slice (e.g., as described in
+The diameter of a cylinder of water having the same X-Ray attenuation as the patient for a specified reconstructed slice (e.g., as described inbiblio_AAPM_TG220
 """
 * #113980 ^property[0].code = #keyword
 * #113980 ^property[0].valueString  = "WaterEquivalentDiameter"
@@ -20234,7 +20245,7 @@ The Water Equivalent Diameter integrates values for a sample of reconstructed sl
 * #113983 "Water Equivalent Diameter From Raw Data"
 """
 WaterEquivalentDiameterFromRawData:
-The Water Equivalent Diameter value is derived from Raw Data rather than reconstructed slices. See
+The Water Equivalent Diameter value is derived from Raw Data rather than reconstructed slices. Seebiblio_AAPM_TG220
 """
 * #113983 ^property[0].code = #keyword
 * #113983 ^property[0].valueString  = "WaterEquivalentDiameterFromRawData"
@@ -20244,7 +20255,7 @@ The Water Equivalent Diameter value is derived from Raw Data rather than reconst
 * #113984 "Water Equivalent Diameter From Localizer"
 """
 WaterEquivalentDiameterFromLocalizer:
-The Water Equivalent Diameter value is derived from a Localizer image. See
+The Water Equivalent Diameter value is derived from a Localizer image. Seebiblio_AAPM_TG220
 """
 * #113984 ^property[0].code = #keyword
 * #113984 ^property[0].valueString  = "WaterEquivalentDiameterFromLocalizer"
@@ -20274,7 +20285,7 @@ The Z location used for Water Equivalent Diameter estimation at a single locatio
 * #113987 "AAPM 220"
 """
 Aapm220:
-A report describing methods of calculation of diameters of cylinders of water having the same X-Ray attenuation as reconstructed CT slices of patients described in
+A report describing methods of calculation of diameters of cylinders of water having the same X-Ray attenuation as reconstructed CT slices of patients described inbiblio_AAPM_TG220
 """
 * #113987 ^property[0].code = #keyword
 * #113987 ^property[0].valueString  = "Aapm220"
@@ -20284,7 +20295,7 @@ A report describing methods of calculation of diameters of cylinders of water ha
 * #113988 "Estimated from Water Equivalent Diameter"
 """
 EstimatedFromWaterEquivalentDiameter:
-The Size Specific Dose Estimate is calculated from a single Water Equivalent Diameter value using a conversion factor as described in
+The Size Specific Dose Estimate is calculated from a single Water Equivalent Diameter value using a conversion factor as described inbiblio_AAPM_TG204
 """
 * #113988 ^property[0].code = #keyword
 * #113988 ^property[0].valueString  = "EstimatedFromWaterEquivalentDiameter"
@@ -20294,7 +20305,7 @@ The Size Specific Dose Estimate is calculated from a single Water Equivalent Dia
 * #113989 "Arithmetic Average of SSDE(z)"
 """
 ArithmeticAverageOfSsde(z):
-The Size Specific Dose Estimate is an arithmetic average of SSDE(z), calculated from Dw(z) at several z-positions over the reconstruction length. The z-positions may or may not correspond to reconstructed slices. See
+The Size Specific Dose Estimate is an arithmetic average of SSDE(z), calculated from Dw(z) at several z-positions over the reconstruction length. The z-positions may or may not correspond to reconstructed slices. Seebiblio_IEC62985
 """
 * #113989 ^property[0].code = #keyword
 * #113989 ^property[0].valueString  = "ArithmeticAverageOfSsde(z)"
@@ -20304,7 +20315,7 @@ The Size Specific Dose Estimate is an arithmetic average of SSDE(z), calculated 
 * #113990 "Arithmetic Average of Dw(z)"
 """
 ArithmeticAverageOfDw(z):
-The Water Equivalent Diameter is an arithmetic average of Dw(z) at several z-positions over the reconstruction length. The z-positions may or may not correspond to reconstructed slices. See
+The Water Equivalent Diameter is an arithmetic average of Dw(z) at several z-positions over the reconstruction length. The z-positions may or may not correspond to reconstructed slices. Seebiblio_IEC62985
 """
 * #113990 ^property[0].code = #keyword
 * #113990 ^property[0].valueString  = "ArithmeticAverageOfDw(z)"
@@ -20314,7 +20325,7 @@ The Water Equivalent Diameter is an arithmetic average of Dw(z) at several z-pos
 * #113991 "Dw Conversion Factor Coefficients"
 """
 DwConversionFactorCoefficients:
-The a and b coefficients of an exponential function as described in
+The a and b coefficients of an exponential function as described inbiblio_AAPM_TG204
 """
 * #113991 ^property[0].code = #keyword
 * #113991 ^property[0].valueString  = "DwConversionFactorCoefficients"
@@ -20334,7 +20345,7 @@ The Water Equivalent Diameter is derived from reconstructed images that do not c
 * #113993 "Size Specific Dose Estimate At Longitudinal Position Z"
 """
 SizeSpecificDoseEstimateAtLongitudinalPositionZ:
-Estimate of the average absorbed dose to the material contained in an axial plane at longitudinal position z of the object scanned. See
+Estimate of the average absorbed dose to the material contained in an axial plane at longitudinal position z of the object scanned. Seebiblio_IEC62985
 """
 * #113993 ^property[0].code = #keyword
 * #113993 ^property[0].valueString  = "SizeSpecificDoseEstimateAtLongitudinalPositionZ"
@@ -20354,7 +20365,7 @@ The patient relative longitudinal position at which other value(s) have been est
 * #113995 "Water Equivalent Diameter At Longitudinal Position Z"
 """
 WaterEquivalentDiameterAtLongitudinalPositionZ:
-Diameter of a cylinder of water having the same averaged absorbed dose as the material contained in an axial plane at longitudinal position z of the object scanned, calculable for a material of any composition, and quantifying the attenuation of any material in terms of the attenuation of water. See
+Diameter of a cylinder of water having the same averaged absorbed dose as the material contained in an axial plane at longitudinal position z of the object scanned, calculable for a material of any composition, and quantifying the attenuation of any material in terms of the attenuation of water. Seebiblio_IEC62985
 """
 * #113995 ^property[0].code = #keyword
 * #113995 ^property[0].valueString  = "WaterEquivalentDiameterAtLongitudinalPositionZ"
@@ -21374,7 +21385,7 @@ Summary of patient condition upon Discharge from a healthcare facility.
 * #121116 "Proximal Finding Site"
 """
 ProximalFindingSite:
-Proximal Anatomic Location for a differential measurement; may be considered subtype of term
+Proximal Anatomic Location for a differential measurement; may be considered subtype of term(363698007, SCT, 'Finding Site')
 """
 * #121116 ^property[0].code = #keyword
 * #121116 ^property[0].valueString  = "ProximalFindingSite"
@@ -21384,7 +21395,7 @@ Proximal Anatomic Location for a differential measurement; may be considered sub
 * #121117 "Distal Finding Site"
 """
 DistalFindingSite:
-Distal Anatomic Location for a differential measurement; may be considered subtype of term
+Distal Anatomic Location for a differential measurement; may be considered subtype of term(363698007, SCT, 'Finding Site')
 """
 * #121117 ^property[0].code = #keyword
 * #121117 ^property[0].valueString  = "DistalFindingSite"
@@ -22975,6 +22986,17 @@ The referenced beam number within the radiotherapy plan to be delivered.
 * #121389 ^property[1].code = #retired
 * #121389 ^property[1].valueBoolean  = false
 
+* #121390 "Clinical Fraction Number"
+"""
+ClinicalFractionNumber:
+An index that represents an incremental count of deliveries of fractions within a radiotherapy treatment serving a given combination of prescriptions.
+retired
+"""
+* #121390 ^property[0].code = #keyword
+* #121390 ^property[0].valueString  = "ClinicalFractionNumber"
+* #121390 ^property[1].code = #retired
+* #121390 ^property[1].valueBoolean  = true
+
 * #121401 "Derivation"
 """
 Derivation:
@@ -22988,7 +23010,7 @@ Method of deriving or calculating a measured value. E.g., mean, or maximum of se
 * #121402 "Normality"
 """
 Normality:
-Assessment of a measurement relative to a normal range of values; may be considered subtype of term
+Assessment of a measurement relative to a normal range of values; may be considered subtype of term(363713009, SCT, 'has interpretation')
 """
 * #121402 ^property[0].code = #keyword
 * #121402 ^property[0].valueString  = "Normality"
@@ -27578,7 +27600,7 @@ Longitudinal cross sectional area of plaque.
 * #122544 "Diameter Symmetry"
 """
 DiameterSymmetry:
-Symmetry of stenosis (0 = complete asymmetry, 1 = complete symmetry); see
+Symmetry of stenosis (0 = complete asymmetry, 1 = complete symmetry); seePS3.17 T.2 Definition of Diameter Symmetry with Arterial Plaques
 """
 * #122544 ^property[0].code = #keyword
 * #122544 ^property[0].valueString  = "DiameterSymmetry"
@@ -27588,7 +27610,7 @@ Symmetry of stenosis (0 = complete asymmetry, 1 = complete symmetry); see
 * #122545 "Area Symmetry"
 """
 AreaSymmetry:
-Symmetry of plaque (0 = complete asymmetry, 1 = complete symmetry); see
+Symmetry of plaque (0 = complete asymmetry, 1 = complete symmetry); seePS3.17 T.2 Definition of Diameter Symmetry with Arterial Plaques
 """
 * #122545 ^property[0].code = #keyword
 * #122545 ^property[0].valueString  = "AreaSymmetry"
@@ -29789,7 +29811,7 @@ A type of clinical acquisition protocol for creating images or image-derived mea
 * #125204 "Area-length biplane"
 """
 Area-lengthBiplane:
-Method for calculating left ventricular volume from two orthogonal views containing the true long axis (usually the apical 4 and 2 chamber views). Volume = [pL
+Method for calculating left ventricular volume from two orthogonal views containing the true long axis (usually the apical 4 and 2 chamber views). Volume = [pL11122
 """
 * #125204 ^property[0].code = #keyword
 * #125204 ^property[0].valueString  = "Area-lengthBiplane"
@@ -29799,7 +29821,7 @@ Method for calculating left ventricular volume from two orthogonal views contain
 * #125205 "Area-Length Single Plane"
 """
 Area-lengthSinglePlane:
-Method for calculating left ventricular volume from a view containing the true long axis (usually the apical 4-chamber view). Volume = [8(A)
+Method for calculating left ventricular volume from a view containing the true long axis (usually the apical 4-chamber view). Volume = [8(A)2
 """
 * #125205 ^property[0].code = #keyword
 * #125205 ^property[0].valueString  = "Area-lengthSinglePlane"
@@ -29839,7 +29861,7 @@ Method of calculating volume based on the summation of disk volumes. The disk ax
 * #125209 "Teichholz"
 """
 Teichholz:
-Method (formula) for calculating left ventricle volumes and function derivatives (EF, SV, SI, etc.) Volume = [7.0/(2.4+D) ]*D
+Method (formula) for calculating left ventricle volumes and function derivatives (EF, SV, SI, etc.) Volume = [7.0/(2.4+D) ]*D3
 """
 * #125209 ^property[0].code = #keyword
 * #125209 ^property[0].valueString  = "Teichholz"
@@ -29909,7 +29931,7 @@ For conduits in series ('in continuity'), volume flow is equal: A1*V1 = A2*V2. w
 * #125216 "Proximal Isovelocity Surface Area"
 """
 ProximalIsovelocitySurfaceArea:
-Utilizes aliasing velocity (by color Doppler) of flow into an orifice (often regurgitant or stenotic) to measure instantaneous flow rate, orifice area, and flow volume. The instantaneous flow rate = (2 Estimated Orifice area = Flow rate / The volume flow is then the product of the orifice area and Velocity Time Integral.
+Utilizes aliasing velocity (by color Doppler) of flow into an orifice (often regurgitant or stenotic) to measure instantaneous flow rate, orifice area, and flow volume. The instantaneous flow rate = (22av av p Estimated Orifice area = Flow rate /p p The volume flow is then the product of the orifice area and Velocity Time Integral.
 """
 * #125216 ^property[0].code = #keyword
 * #125216 ^property[0].valueString  = "ProximalIsovelocitySurfaceArea"
@@ -29919,7 +29941,7 @@ Utilizes aliasing velocity (by color Doppler) of flow into an orifice (often reg
 * #125217 "Full Bernoulli"
 """
 FullBernoulli:
-P = 4*(V1
+P = 4*(V122
 """
 * #125217 ^property[0].code = #keyword
 * #125217 ^property[0].valueString  = "FullBernoulli"
@@ -29959,7 +29981,7 @@ Direct measurement of an area by tracing an irregular perimeter.
 * #125221 "Left Ventricle Mass by M-mode"
 """
 LeftVentricleMassByM-mode:
-Mass = 1.04 * [(ST+LVID+PWT)
+Mass = 1.04 * [(ST+LVID+PWT)33
 """
 * #125221 ^property[0].code = #keyword
 * #125221 ^property[0].valueString  = "LeftVentricleMassByM-mode"
@@ -29969,7 +29991,7 @@ Mass = 1.04 * [(ST+LVID+PWT)
 * #125222 "Left Ventricle Mass by Truncated Ellipse"
 """
 LeftVentricleMassByTruncatedEllipse:
-Mass = 1.05P ((b + t) a = Semi-major axis from widest minor axis radius to apex. b = Short axis radius calculated from short axis cavity area t = Myocardial thickness calculated from short axis epicardial and cavity areas d = Truncated semi-major axis from widest short axis diameter to plane of mitral annulus. Mass unit is grams and length in cm.
+Mass = 1.05P ((b + t)232232 a = Semi-major axis from widest minor axis radius to apex. b = Short axis radius calculated from short axis cavity area t = Myocardial thickness calculated from short axis epicardial and cavity areas d = Truncated semi-major axis from widest short axis diameter to plane of mitral annulus. Mass unit is grams and length in cm.
 """
 * #125222 ^property[0].code = #keyword
 * #125222 ^property[0].valueString  = "LeftVentricleMassByTruncatedEllipse"
@@ -30989,7 +31011,7 @@ Measure of the peakedness of the probability distribution of a real-valued rando
 * #126061 "Root Angular Second Moment of GLCM"
 """
 RootAngularSecondMomentOfGlcm:
-The square root of the Angular Second Moment (ASM) of a Gray Level Co-occurrence Matrix (GLCM). A measure of orderliness. See
+The square root of the Angular Second Moment (ASM) of a Gray Level Co-occurrence Matrix (GLCM). A measure of orderliness. Seehttp://www.fp.ucalgary.ca/mhallbey/equations.htm
 retired
 """
 * #126061 ^property[0].code = #keyword
@@ -31000,7 +31022,7 @@ retired
 * #126067 "Gray Level Co-occurrence Matrix"
 """
 GrayLevelCo-occurrenceMatrix:
-A tabulation of how often different combinations of pixel values (gray levels) occur in an image. Abbreviated GLCM. See
+A tabulation of how often different combinations of pixel values (gray levels) occur in an image. Abbreviated GLCM. Seebiblio_IBSI_Features
 """
 * #126067 ^property[0].code = #keyword
 * #126067 ^property[0].valueString  = "GrayLevelCo-occurrenceMatrix"
@@ -31082,7 +31104,7 @@ retired
 * #126081 "RECIST 1.1"
 """
 Recist1.1:
-Response Evaluation Criteria in Solid Tumors Version 1.1. See Eisenhauer et al. 'New Response Evaluation Criteria in Solid Tumours: Revised RECIST Guideline (version 1.1).' European Journal of Cancer 45, no. 2 (n.d.): 228-47.
+Response Evaluation Criteria in Solid Tumors Version 1.1. See Eisenhauer et al. 'New Response Evaluation Criteria in Solid Tumours: Revised RECIST Guideline (version 1.1).' European Journal of Cancer 45, no. 2 (n.d.): 228-47.doi:10.1016/j.ejca.2008.10.026
 retired
 """
 * #126081 ^property[0].code = #keyword
@@ -31143,7 +31165,7 @@ The time between the start of injection of the PET radionuclide and the start of
 * #126220 "R2-Coefficient"
 """
 R2-coefficient:
-Coefficient of determination, R
+Coefficient of determination, R2
 """
 * #126220 ^property[0].code = #keyword
 * #126220 ^property[0].valueString  = "R2-coefficient"
@@ -31153,7 +31175,7 @@ Coefficient of determination, R
 * #126221 "Chi-square"
 """
 Chi-square:
-Pearson's
+Pearson's2
 """
 * #126221 ^property[0].code = #keyword
 * #126221 ^property[0].valueString  = "Chi-square"
@@ -31163,7 +31185,7 @@ Pearson's
 * #126222 "D-W"
 """
 D-w:
-Durbin-Watson statistic for detecting serial correlation in residuals. See
+Durbin-Watson statistic for detecting serial correlation in residuals. Seehttp://en.wikipedia.org/wiki/Durbin%E2%80%93Watson_statistic
 """
 * #126222 ^property[0].code = #keyword
 * #126222 ^property[0].valueString  = "D-w"
@@ -31173,7 +31195,7 @@ Durbin-Watson statistic for detecting serial correlation in residuals. See
 * #126223 "AIC"
 """
 Aic:
-Akaike information criterion. A measure of the balance between goodness of fit and number of free parameters. See Akaike H. A new look at the statistical model identification. IEEE Transactions on Automatic Control. 1974 Dec;19(6):716-23.
+Akaike information criterion. A measure of the balance between goodness of fit and number of free parameters. See Akaike H. A new look at the statistical model identification. IEEE Transactions on Automatic Control. 1974 Dec;19(6):716-23.http://dx.doi.org/10.1109/TAC.1974.1100705
 """
 * #126223 ^property[0].code = #keyword
 * #126223 ^property[0].valueString  = "Aic"
@@ -31183,7 +31205,7 @@ Akaike information criterion. A measure of the balance between goodness of fit a
 * #126224 "BIC"
 """
 Bic:
-Bayesian information criterion. A measure of the balance between goodness of fit and model complexity. See
+Bayesian information criterion. A measure of the balance between goodness of fit and model complexity. Seehttp://en.wikipedia.org/wiki/Bayesian_information_criterion
 """
 * #126224 ^property[0].code = #keyword
 * #126224 ^property[0].valueString  = "Bic"
@@ -31253,7 +31275,7 @@ Singular Value Decomposition (SVD) deconvolution
 * #126312 "Ktrans"
 """
 Ktrans:
-K See Tofts et al, 'Estimating Kinetic Parameters From Dynamic Contrast-Enhanced T1-Weighted MRI of a Diffusable Tracer: Standardized Quantities and Symbols', Journal of Magnetic Resonance Imaging, vol. 10, pp. 223-232, 1999.
+Ktrans See Tofts et al, 'Estimating Kinetic Parameters From Dynamic Contrast-Enhanced T1-Weighted MRI of a Diffusable Tracer: Standardized Quantities and Symbols', Journal of Magnetic Resonance Imaging, vol. 10, pp. 223-232, 1999.
 """
 * #126312 ^property[0].code = #keyword
 * #126312 ^property[0].valueString  = "Ktrans"
@@ -31263,7 +31285,7 @@ K See Tofts et al, 'Estimating Kinetic Parameters From Dynamic Contrast-Enhanced
 * #126313 "kep"
 """
 Kep:
-k See Tofts et al, 'Estimating Kinetic Parameters From Dynamic Contrast-Enhanced T1-Weighted MRI of a Diffusable Tracer: Standardized Quantities and Symbols', Journal of Magnetic Resonance Imaging, vol. 10, pp. 223-232, 1999.
+kep See Tofts et al, 'Estimating Kinetic Parameters From Dynamic Contrast-Enhanced T1-Weighted MRI of a Diffusable Tracer: Standardized Quantities and Symbols', Journal of Magnetic Resonance Imaging, vol. 10, pp. 223-232, 1999.
 """
 * #126313 ^property[0].code = #keyword
 * #126313 ^property[0].valueString  = "Kep"
@@ -31273,7 +31295,7 @@ k See Tofts et al, 'Estimating Kinetic Parameters From Dynamic Contrast-Enhanced
 * #126314 "ve"
 """
 Ve:
-v See Tofts et al, 'Estimating Kinetic Parameters From Dynamic Contrast-Enhanced T1-Weighted MRI of a Diffusable Tracer: Standardized Quantities and Symbols', Journal of Magnetic Resonance Imaging, vol. 10, pp. 223-232, 1999.
+ve See Tofts et al, 'Estimating Kinetic Parameters From Dynamic Contrast-Enhanced T1-Weighted MRI of a Diffusable Tracer: Standardized Quantities and Symbols', Journal of Magnetic Resonance Imaging, vol. 10, pp. 223-232, 1999.
 """
 * #126314 ^property[0].code = #keyword
 * #126314 ^property[0].valueString  = "Ve"
@@ -31323,7 +31345,7 @@ The initial area under the contrast agent concentration-time curve at 180 second
 * #126324 "IAUCBN"
 """
 Iaucbn:
-The initial area under the contrast agent concentration-time curve, normalized with the corresponding arterial input function, such that IAUC
+The initial area under the contrast agent concentration-time curve, normalized with the corresponding arterial input function, such that IAUCBNAIF
 """
 * #126324 ^property[0].code = #keyword
 * #126324 ^property[0].valueString  = "Iaucbn"
@@ -31333,7 +31355,7 @@ The initial area under the contrast agent concentration-time curve, normalized w
 * #126325 "IAUC60BN"
 """
 Iauc60bn:
-The initial area under the contrast agent concentration-time curve at 60 seconds after the onset time, normalized with the corresponding arterial input function, such that IAUC60
+The initial area under the contrast agent concentration-time curve at 60 seconds after the onset time, normalized with the corresponding arterial input function, such that IAUC60BNAIF
 """
 * #126325 ^property[0].code = #keyword
 * #126325 ^property[0].valueString  = "Iauc60bn"
@@ -31343,7 +31365,7 @@ The initial area under the contrast agent concentration-time curve at 60 seconds
 * #126326 "IAUC90BN"
 """
 Iauc90bn:
-The initial area under the contrast agent concentration-time curve at 90 seconds after the onset time, normalized with the corresponding arterial input function, such that IAUC90
+The initial area under the contrast agent concentration-time curve at 90 seconds after the onset time, normalized with the corresponding arterial input function, such that IAUC90BNAIF
 """
 * #126326 ^property[0].code = #keyword
 * #126326 ^property[0].valueString  = "Iauc90bn"
@@ -31353,7 +31375,7 @@ The initial area under the contrast agent concentration-time curve at 90 seconds
 * #126327 "IAUC180BN"
 """
 Iauc180bn:
-The initial area under the contrast agent concentration-time curve at 180 seconds after the onset time, normalized with the corresponding arterial input function, such that IAUC180
+The initial area under the contrast agent concentration-time curve at 180 seconds after the onset time, normalized with the corresponding arterial input function, such that IAUC180BNAIF
 """
 * #126327 ^property[0].code = #keyword
 * #126327 ^property[0].valueString  = "Iauc180bn"
@@ -31363,6 +31385,7 @@ The initial area under the contrast agent concentration-time curve at 180 second
 * #126330 "tau_m"
 """
 Tau_m:
+mi
 """
 * #126330 ^property[0].code = #keyword
 * #126330 ^property[0].valueString  = "Tau_m"
@@ -31372,7 +31395,7 @@ Tau_m:
 * #126331 "vp"
 """
 Vp:
-v See Tofts et al, 'Estimating Kinetic Parameters From Dynamic Contrast-Enhanced T1-Weighted MRI of a Diffusable Tracer: Standardized Quantities and Symbols', Journal of Magnetic Resonance Imaging, vol. 10, pp. 223-232, 1999.
+vp See Tofts et al, 'Estimating Kinetic Parameters From Dynamic Contrast-Enhanced T1-Weighted MRI of a Diffusable Tracer: Standardized Quantities and Symbols', Journal of Magnetic Resonance Imaging, vol. 10, pp. 223-232, 1999.
 """
 * #126331 ^property[0].code = #keyword
 * #126331 ^property[0].valueString  = "Vp"
@@ -31412,7 +31435,7 @@ A semiquantitative analysis of the contrast-enhancement concentration versus tim
 * #126343 "First Pass Leakage Profile Model"
 """
 FirstPassLeakageProfileModel:
-A tracer diffusion kinetic model that accounts for the tumor leakage profile during the first pass of contrast. See Li, Ka-Loh, Xiao Ping Zhu, John Waterton, and Alan Jackson. 'Improved 3D Quantitative Mapping of Blood Volume and Endothelial Permeability in Brain Tumors.' Journal of Magnetic Resonance Imaging 12, no. 2 (2000): 347-357.
+A tracer diffusion kinetic model that accounts for the tumor leakage profile during the first pass of contrast. See Li, Ka-Loh, Xiao Ping Zhu, John Waterton, and Alan Jackson. 'Improved 3D Quantitative Mapping of Blood Volume and Endothelial Permeability in Brain Tumors.' Journal of Magnetic Resonance Imaging 12, no. 2 (2000): 347-357.doi:10.1002/1522-2586(200008)12:2<347::AID-JMRI19>3.0.CO;2-7
 """
 * #126343 ^property[0].code = #keyword
 * #126343 ^property[0].valueString  = "FirstPassLeakageProfileModel"
@@ -31422,7 +31445,7 @@ A tracer diffusion kinetic model that accounts for the tumor leakage profile dur
 * #126344 "Shutter-Speed Model"
 """
 Shutter-speedModel:
-A tracer diffusion kinetic model that does not assume that intercompartmental water molecule exchange is infinitely fast. See Li, Xin, Wei Huang, Thomas E. Yankeelov, Alina Tudorica, William D. Rooney, and Charles S. Springer. 'Shutter-Speed Analysis of Contrast Reagent Bolus-Tracking Data: Preliminary Observations in Benign and Malignant Breast Disease.' Magnetic Resonance in Medicine 53, no. 3 (2005): 724-29.
+A tracer diffusion kinetic model that does not assume that intercompartmental water molecule exchange is infinitely fast. See Li, Xin, Wei Huang, Thomas E. Yankeelov, Alina Tudorica, William D. Rooney, and Charles S. Springer. 'Shutter-Speed Analysis of Contrast Reagent Bolus-Tracking Data: Preliminary Observations in Benign and Malignant Breast Disease.' Magnetic Resonance in Medicine 53, no. 3 (2005): 724-29.doi:10.1002/mrm.20405
 """
 * #126344 ^property[0].code = #keyword
 * #126344 ^property[0].valueString  = "Shutter-speedModel"
@@ -31432,7 +31455,7 @@ A tracer diffusion kinetic model that does not assume that intercompartmental wa
 * #126345 "Gamma Capillary Transit Time Model"
 """
 GammaCapillaryTransitTimeModel:
-A tracer diffusion kinetic model that mathematically unifies the Tofts, Extended Tofts, Adiabatic Tissue Homogeneity, and Two Compartment Exchange models See Schabel MC. A unified impulse response model for DCE-MRI. Magnetic Resonance in Medicine. 2012;68(5):1632-46.
+A tracer diffusion kinetic model that mathematically unifies the Tofts, Extended Tofts, Adiabatic Tissue Homogeneity, and Two Compartment Exchange models See Schabel MC. A unified impulse response model for DCE-MRI. Magnetic Resonance in Medicine. 2012;68(5):1632-46.doi:10.1002/mrm.24162
 """
 * #126345 ^property[0].code = #keyword
 * #126345 ^property[0].valueString  = "GammaCapillaryTransitTimeModel"
@@ -31442,7 +31465,7 @@ A tracer diffusion kinetic model that mathematically unifies the Tofts, Extended
 * #126346 "Adiabatic Tissue Homogeneity Model"
 """
 AdiabaticTissueHomogeneityModel:
-An adiabatic approximation to the tissue homogeneity tracer diffusion kinetic model, which assumes that the tracer concentration in parenchymal tissue changes slowly relative to that in capillaries. See St. Lawrence KS, Lee T-Y. An Adiabatic Approximation to the Tissue Homogeneity Model for Water Exchange in the Brain: I. Theoretical Derivation. J Cereb Blood Flow Metab. 1998 Dec;18(12):1365-77.
+An adiabatic approximation to the tissue homogeneity tracer diffusion kinetic model, which assumes that the tracer concentration in parenchymal tissue changes slowly relative to that in capillaries. See St. Lawrence KS, Lee T-Y. An Adiabatic Approximation to the Tissue Homogeneity Model for Water Exchange in the Brain: I. Theoretical Derivation. J Cereb Blood Flow Metab. 1998 Dec;18(12):1365-77.doi:10.1097/00004647-199812000-00011
 """
 * #126346 ^property[0].code = #keyword
 * #126346 ^property[0].valueString  = "AdiabaticTissueHomogeneityModel"
@@ -31482,7 +31505,7 @@ T1 measurement by Inversion Recovery (IR) method
 * #126352 "T1 by Fixed Value"
 """
 T1ByFixedValue:
-Calculation was performed using a fixed value of T1 rather than a measured value. The value could be encoded as the value of
+Calculation was performed using a fixed value of T1 rather than a measured value. The value could be encoded as the value of(126353, DCM, 'T1 Used For Calculation')
 """
 * #126352 ^property[0].code = #keyword
 * #126352 ^property[0].valueString  = "T1ByFixedValue"
@@ -31542,7 +31565,7 @@ An Arterial Input Function computed from an automatically detected Region of Int
 * #126364 "Blind Estimation of AIF"
 """
 BlindEstimationOfAif:
-A data-driven blind source separation (BSS) algorithm that estimates AIF from individuals without any presumed AIF model and initialization. See Lin, Yu-Chun, Tsung-Han Chan, Chong-Yung Chi, Shu-Hang Ng, Hao-Li Liu, Kuo-Chen Wei, Yau-Yau Wai, Chun-Chieh Wang, and Jiun-Jie Wang. 'Blind Estimation of the Arterial Input Function in Dynamic Contrast-Enhanced MRI Using Purity Maximization.' Magnetic Resonance in Medicine 68, no. 5 (November 1, 2012): 1439-49.
+A data-driven blind source separation (BSS) algorithm that estimates AIF from individuals without any presumed AIF model and initialization. See Lin, Yu-Chun, Tsung-Han Chan, Chong-Yung Chi, Shu-Hang Ng, Hao-Li Liu, Kuo-Chen Wei, Yau-Yau Wai, Chun-Chieh Wang, and Jiun-Jie Wang. 'Blind Estimation of the Arterial Input Function in Dynamic Contrast-Enhanced MRI Using Purity Maximization.' Magnetic Resonance in Medicine 68, no. 5 (November 1, 2012): 1439-49.doi:10.1002/mrm.24144
 """
 * #126364 ^property[0].code = #keyword
 * #126364 ^property[0].valueString  = "BlindEstimationOfAif"
@@ -31552,7 +31575,7 @@ A data-driven blind source separation (BSS) algorithm that estimates AIF from in
 * #126370 "Time of Peak Concentration"
 """
 TimeOfPeakConcentration:
-The time at which the concentration-time curve achieves its peak for the first time. Used as a concept name for a value or as a method. E.g., used as a method of calculation for BAT. See Shpilfoygel Med Phys 2008.
+The time at which the concentration-time curve achieves its peak for the first time. Used as a concept name for a value or as a method. E.g., used as a method of calculation for BAT. See Shpilfoygel Med Phys 2008.doi:10.1118/1.1288669
 """
 * #126370 ^property[0].code = #keyword
 * #126370 ^property[0].valueString  = "TimeOfPeakConcentration"
@@ -31572,7 +31595,7 @@ The nominal time at which arrival of a contrast bolus is detected, which is used
 * #126372 "Time of Leading Half-Peak Concentration"
 """
 TimeOfLeadingHalf-peakConcentration:
-The time at which the concentration-time curve achieves half of its peak density for the first time. Used as a concept name for a value or as a method. E.g., used as a method of calculation for BAT. See Shpilfoygel Med Phys 2008.
+The time at which the concentration-time curve achieves half of its peak density for the first time. Used as a concept name for a value or as a method. E.g., used as a method of calculation for BAT. See Shpilfoygel Med Phys 2008.doi:10.1118/1.1288669
 """
 * #126372 ^property[0].code = #keyword
 * #126372 ^property[0].valueString  = "TimeOfLeadingHalf-peakConcentration"
@@ -31582,7 +31605,7 @@ The time at which the concentration-time curve achieves half of its peak density
 * #126373 "Temporal Derivative Exceeds Threshold"
 """
 TemporalDerivativeExceedsThreshold:
-A method of determining BAT that involves computing the temporal derivative of the concentration-time curve and selecting the time when the temporal derivative exceeds a specified threshold. See Shpilfoygel Med Phys 2008.
+A method of determining BAT that involves computing the temporal derivative of the concentration-time curve and selecting the time when the temporal derivative exceeds a specified threshold. See Shpilfoygel Med Phys 2008.doi:10.1118/1.1288669
 """
 * #126373 ^property[0].code = #keyword
 * #126373 ^property[0].valueString  = "TemporalDerivativeExceedsThreshold"
@@ -31592,7 +31615,7 @@ A method of determining BAT that involves computing the temporal derivative of t
 * #126374 "Temporal Derivative Threshold"
 """
 TemporalDerivativeThreshold:
-A threshold applied to the temporal derivative of the concentration-time curve. E.g., used to establish BAT. See Shpilfoygel Med Phys 2008.
+A threshold applied to the temporal derivative of the concentration-time curve. E.g., used to establish BAT. See Shpilfoygel Med Phys 2008.doi:10.1118/1.1288669
 """
 * #126374 ^property[0].code = #keyword
 * #126374 ^property[0].valueString  = "TemporalDerivativeThreshold"
@@ -31602,7 +31625,7 @@ A threshold applied to the temporal derivative of the concentration-time curve. 
 * #126375 "Maximum Slope"
 """
 MaximumSlope:
-The maximum rate of signal intensity change within a measured region of a time-activity curve. See Boonsirikamchai, Piyaporn, Harmeet Kaur, Deborah A. Kuban, Edward Jackson, Ping Hou, and Haesun Choi. 'Use of Maximum Slope Images Generated From Dynamic Contrast-Enhanced MRI to Detect Locally Recurrent Prostate Carcinoma After Prostatectomy: A Practical Approach.' American Journal of Roentgenology 198, no. 3 (March 1, 2012): W228-W236.
+The maximum rate of signal intensity change within a measured region of a time-activity curve. See Boonsirikamchai, Piyaporn, Harmeet Kaur, Deborah A. Kuban, Edward Jackson, Ping Hou, and Haesun Choi. 'Use of Maximum Slope Images Generated From Dynamic Contrast-Enhanced MRI to Detect Locally Recurrent Prostate Carcinoma After Prostatectomy: A Practical Approach.' American Journal of Roentgenology 198, no. 3 (March 1, 2012): W228-W236.doi:10.2214/AJR.10.6387
 """
 * #126375 ^property[0].code = #keyword
 * #126375 ^property[0].valueString  = "MaximumSlope"
@@ -31612,7 +31635,7 @@ The maximum rate of signal intensity change within a measured region of a time-a
 * #126376 "Maximum Difference"
 """
 MaximumDifference:
-The maximum degree of signal intensity change within a measured region of a time-activity curve. See Boonsirikamchai, Piyaporn, Harmeet Kaur, Deborah A. Kuban, Edward Jackson, Ping Hou, and Haesun Choi. 'Use of Maximum Slope Images Generated From Dynamic Contrast-Enhanced MRI to Detect Locally Recurrent Prostate Carcinoma After Prostatectomy: A Practical Approach.' American Journal of Roentgenology 198, no. 3 (March 1, 2012): W228-W236.
+The maximum degree of signal intensity change within a measured region of a time-activity curve. See Boonsirikamchai, Piyaporn, Harmeet Kaur, Deborah A. Kuban, Edward Jackson, Ping Hou, and Haesun Choi. 'Use of Maximum Slope Images Generated From Dynamic Contrast-Enhanced MRI to Detect Locally Recurrent Prostate Carcinoma After Prostatectomy: A Practical Approach.' American Journal of Roentgenology 198, no. 3 (March 1, 2012): W228-W236.doi:10.2214/AJR.10.6387
 """
 * #126376 ^property[0].code = #keyword
 * #126376 ^property[0].valueString  = "MaximumDifference"
@@ -31702,7 +31725,7 @@ The transverse relaxation rate constant for the decay of transverse magnetizatio
 * #126396 "Magnetic Susceptibility"
 """
 MagneticSusceptibility:
-Magnetic Susceptibility is a measure of the amount of magnetization induced in a material when placed in an external magnetic field. It is the quantity encoded as the voxel intensity in Quantitative Susceptibility Map (QSM) images. It is a dimensionless quantity, usually recorded with units of parts per millions (ppm). See Liu T, Wisnieff C, Lou M, Chen W, Spincemaille P, Wang Y. Nonlinear formulation of the magnetic field to source relationship for robust quantitative susceptibility mapping. Magnetic Resonance in Medicine. 2013;69(2):467-76. See Wang Y, Liu T. Quantitative susceptibility mapping (QSM): Decoding MRI data for a tissue magnetic biomarker. Magnetic Resonance in Medicine. 2015;73(1):82-101.
+Magnetic Susceptibility is a measure of the amount of magnetization induced in a material when placed in an external magnetic field. It is the quantity encoded as the voxel intensity in Quantitative Susceptibility Map (QSM) images. It is a dimensionless quantity, usually recorded with units of parts per millions (ppm). See Liu T, Wisnieff C, Lou M, Chen W, Spincemaille P, Wang Y. Nonlinear formulation of the magnetic field to source relationship for robust quantitative susceptibility mapping. Magnetic Resonance in Medicine. 2013;69(2):467-76.http://dx.doi.org/10.1002/mrm.24272 See Wang Y, Liu T. Quantitative susceptibility mapping (QSM): Decoding MRI data for a tissue magnetic biomarker. Magnetic Resonance in Medicine. 2015;73(1):82-101.http://dx.doi.org/10.1002/mrm.25358
 """
 * #126396 ^property[0].code = #keyword
 * #126396 ^property[0].valueString  = "MagneticSusceptibility"
@@ -31742,7 +31765,7 @@ A ratio of locally measured radioactivity concentration versus the injected radi
 * #126401 "SUVbw"
 """
 Suvbw:
-Standardized Uptake Value calculated using body weight. The patient size correction factor for males and females is body weight. Defined in Sugawara et al.
+Standardized Uptake Value calculated using body weight. The patient size correction factor for males and females is body weight. Defined in Sugawara et al.http://radiology.rsna.org/content/213/2/521
 """
 * #126401 ^property[0].code = #keyword
 * #126401 ^property[0].valueString  = "Suvbw"
@@ -31752,7 +31775,7 @@ Standardized Uptake Value calculated using body weight. The patient size correct
 * #126402 "SUVlbm"
 """
 Suvlbm:
-Standardized Uptake Value calculated using lean body mass by James method. The patient size correction factor for males is 1.10 * weight - (120 or 128) * (weight/height) ^2, and for females is 1.07 * weight - 148 * (weight/height) ^2. Defined in Sugawara et al. Unfortunately, Sugawara used a parameter of 120 rather than 128, propagating an error in Morgan DJ, Bray KM. Lean Body Mass as a Predictor of Drug Dosage: Implications for Drug Therapy. Clinical Pharmacokinetics. 1994;26(4):292-307, which misquoted the original LBM definition that used 128 in James WPT, Waterlow JC. Research on Obesity: A Report of the DHSS/MRC Group. London: Her Majestys Stationery Office; 1976. Implementations differ in whether they have used 120 or 128 when using this code. See Kelly M. SUV: Advancing Comparability and Accuracy. Siemens; 2009. Available from:
+Standardized Uptake Value calculated using lean body mass by James method. The patient size correction factor for males is 1.10 * weight - (120 or 128) * (weight/height) ^2, and for females is 1.07 * weight - 148 * (weight/height) ^2. Defined in Sugawara et al.http://radiology.rsna.org/content/213/2/521 Unfortunately, Sugawara used a parameter of 120 rather than 128, propagating an error in Morgan DJ, Bray KM. Lean Body Mass as a Predictor of Drug Dosage: Implications for Drug Therapy. Clinical Pharmacokinetics. 1994;26(4):292-307, which misquoted the original LBM definition that used 128 in James WPT, Waterlow JC. Research on Obesity: A Report of the DHSS/MRC Group. London: Her Majestys Stationery Office; 1976. Implementations differ in whether they have used 120 or 128 when using this code. See Kelly M. SUV: Advancing Comparability and Accuracy. Siemens; 2009. Available from:http://www.mpcphysics.com/documents/SUV_Whitepaper_Final_11.17.09_59807428_2.pdf
 """
 * #126402 ^property[0].code = #keyword
 * #126402 ^property[0].valueString  = "Suvlbm"
@@ -31762,7 +31785,7 @@ Standardized Uptake Value calculated using lean body mass by James method. The p
 * #126403 "SUVbsa"
 """
 Suvbsa:
-Standardized Uptake Value calculated using body surface area. The patient size correction factor for males and females is weight^ 0.425 * height^0.725 * 0.007184. Defined in Sugawara et al.
+Standardized Uptake Value calculated using body surface area. The patient size correction factor for males and females is weight^ 0.425 * height^0.725 * 0.007184. Defined in Sugawara et al.http://radiology.rsna.org/content/213/2/521
 """
 * #126403 ^property[0].code = #keyword
 * #126403 ^property[0].valueString  = "Suvbsa"
@@ -31772,7 +31795,7 @@ Standardized Uptake Value calculated using body surface area. The patient size c
 * #126404 "SUVibw"
 """
 Suvibw:
-Standardized Uptake Value calculated using ideal body weight. The patient size correction factor for males is 48.0 + 1.06 * (height - 152) and for females is 45.5 + 0.91 * (height - 152). Defined in Sugawara et al.
+Standardized Uptake Value calculated using ideal body weight. The patient size correction factor for males is 48.0 + 1.06 * (height - 152) and for females is 45.5 + 0.91 * (height - 152). Defined in Sugawara et al.http://radiology.rsna.org/content/213/2/521
 """
 * #126404 ^property[0].code = #keyword
 * #126404 ^property[0].valueString  = "Suvibw"
@@ -31782,7 +31805,7 @@ Standardized Uptake Value calculated using ideal body weight. The patient size c
 * #126405 "SUVlbm(Janma)"
 """
 Suvlbm(janma):
-Standardized Uptake Value calculated using lean body mass by Janmahasatian method. The patient size correction factor for males is 9.27E3 * weight / (6.68E3 + 216 * weight / (height^2)) and for females is 9.27E3 * weight / (8.78E3 + 244 * weight / (height^2)). Defined in
+Standardized Uptake Value calculated using lean body mass by Janmahasatian method. The patient size correction factor for males is 9.27E3 * weight / (6.68E3 + 216 * weight / (height^2)) and for females is 9.27E3 * weight / (8.78E3 + 244 * weight / (height^2)). Defined inhttp://dx.doi.org/10.2165/00003088-200544100-00004 http://jnm.snmjournals.org/content/55/9/1481
 """
 * #126405 ^property[0].code = #keyword
 * #126405 ^property[0].valueString  = "Suvlbm(janma)"
@@ -31802,7 +31825,7 @@ Standardized Uptake Value calculated using lean body mass by James method, using
 * #126410 "SUV body weight calculation method"
 """
 SuvBodyWeightCalculationMethod:
-Method of calculating Standardized Uptake Value using body weight. The patient size correction factor for males and females is body weight. Defined in Sugawara et al.
+Method of calculating Standardized Uptake Value using body weight. The patient size correction factor for males and females is body weight. Defined in Sugawara et al.http://radiology.rsna.org/content/213/2/521
 """
 * #126410 ^property[0].code = #keyword
 * #126410 ^property[0].valueString  = "SuvBodyWeightCalculationMethod"
@@ -31812,7 +31835,7 @@ Method of calculating Standardized Uptake Value using body weight. The patient s
 * #126411 "SUV lean body mass calculation method"
 """
 SuvLeanBodyMassCalculationMethod:
-Method of calculating Standardized Uptake Value using lean body mass. The patient size correction factor for males is 1.10 * weight - (120 or 128) * (weight/height) ^2, and for females is 1.07 * weight - 148 * (weight/height) ^2. Defined in Sugawara et al. Unfortunately, Sugawara used a parameter of 120 rather than 128, propagating an error in Morgan DJ, Bray KM. Lean Body Mass as a Predictor of Drug Dosage: Implications for Drug Therapy. Clinical Pharmacokinetics. 1994;26(4):292-307, which misquoted the original LBM definition that used 128 in James WPT, Waterlow JC. Research on Obesity: A Report of the DHSS/MRC Group. London: Her Majestys Stationery Office; 1976. Implementations differ in whether they have used 120 or 128 when using this code. See Kelly M. SUV: Advancing Comparability and Accuracy. Siemens; 2009. Available from:
+Method of calculating Standardized Uptake Value using lean body mass. The patient size correction factor for males is 1.10 * weight - (120 or 128) * (weight/height) ^2, and for females is 1.07 * weight - 148 * (weight/height) ^2. Defined in Sugawara et al.http://radiology.rsna.org/content/213/2/521 Unfortunately, Sugawara used a parameter of 120 rather than 128, propagating an error in Morgan DJ, Bray KM. Lean Body Mass as a Predictor of Drug Dosage: Implications for Drug Therapy. Clinical Pharmacokinetics. 1994;26(4):292-307, which misquoted the original LBM definition that used 128 in James WPT, Waterlow JC. Research on Obesity: A Report of the DHSS/MRC Group. London: Her Majestys Stationery Office; 1976. Implementations differ in whether they have used 120 or 128 when using this code. See Kelly M. SUV: Advancing Comparability and Accuracy. Siemens; 2009. Available from:http://www.mpcphysics.com/documents/SUV_Whitepaper_Final_11.17.09_59807428_2.pdf
 """
 * #126411 ^property[0].code = #keyword
 * #126411 ^property[0].valueString  = "SuvLeanBodyMassCalculationMethod"
@@ -31822,7 +31845,7 @@ Method of calculating Standardized Uptake Value using lean body mass. The patien
 * #126412 "SUV body surface area calculation method"
 """
 SuvBodySurfaceAreaCalculationMethod:
-Method of calculating Standardized Uptake Value using body surface area. The patient size correction factor for males and females is weight^ 0.425 * height^0.725 * 0.007184. Defined in Sugawara et al.
+Method of calculating Standardized Uptake Value using body surface area. The patient size correction factor for males and females is weight^ 0.425 * height^0.725 * 0.007184. Defined in Sugawara et al.http://radiology.rsna.org/content/213/2/521
 """
 * #126412 ^property[0].code = #keyword
 * #126412 ^property[0].valueString  = "SuvBodySurfaceAreaCalculationMethod"
@@ -31832,7 +31855,7 @@ Method of calculating Standardized Uptake Value using body surface area. The pat
 * #126413 "SUV ideal body weight calculation method"
 """
 SuvIdealBodyWeightCalculationMethod:
-Method of calculating Standardized Uptake Value using ideal body weight. The patient size correction factor for males is 48.0 + 1.06 * (height - 152) and for females is 45.5 + 0.91 * (height - 152). Defined in Sugawara et al.
+Method of calculating Standardized Uptake Value using ideal body weight. The patient size correction factor for males is 48.0 + 1.06 * (height - 152) and for females is 45.5 + 0.91 * (height - 152). Defined in Sugawara et al.http://radiology.rsna.org/content/213/2/521
 """
 * #126413 ^property[0].code = #keyword
 * #126413 ^property[0].valueString  = "SuvIdealBodyWeightCalculationMethod"
@@ -31842,7 +31865,7 @@ Method of calculating Standardized Uptake Value using ideal body weight. The pat
 * #126414 "SUV lean body mass calculation Janmahasatian method"
 """
 SuvLeanBodyMassCalculationJanmahasatianMethod:
-Janmahasatian method of calculating Standardized Uptake Value using lean body mass. The patient size correction factor for males is 9.27E3 * weight / (6.68E3 + 216 * weight / (height^2)) and for females is 9.27E3 * weight / (8.78E3 + 244 * weight / (height^2)). Defined in
+Janmahasatian method of calculating Standardized Uptake Value using lean body mass. The patient size correction factor for males is 9.27E3 * weight / (6.68E3 + 216 * weight / (height^2)) and for females is 9.27E3 * weight / (8.78E3 + 244 * weight / (height^2)). Defined inhttp://dx.doi.org/10.2165/00003088-200544100-00004 http://jnm.snmjournals.org/content/55/9/1481
 """
 * #126414 ^property[0].code = #keyword
 * #126414 ^property[0].valueString  = "SuvLeanBodyMassCalculationJanmahasatianMethod"
@@ -32222,11 +32245,12 @@ An F 18 Glutamine PET radiotracer.
 * #126712 ""
 """
 :
+retired
 """
 * #126712 ^property[0].code = #keyword
 * #126712 ^property[0].valueString  = ""
 * #126712 ^property[1].code = #retired
-* #126712 ^property[1].valueBoolean  = false
+* #126712 ^property[1].valueBoolean  = true
 
 * #126713 "2FA F^18^"
 """
@@ -32271,7 +32295,7 @@ An I 131 cancer targeted phospholipid ether PET radiotracer.
 * #126718 "Flurpiridaz F^18^"
 """
 FlurpiridazF^18^:
-A PET radiotracer used for myocardial perfusion imaging. See Yu M, Nekolla SG, Schwaiger M, Robinson SP. The Next Generation of Cardiac Positron Emission Tomography Imaging Agents: Discovery of Flurpiridaz F-18 for Detection of Coronary Disease. Seminars in Nuclear Medicine. 2011 Jul;41(4):305-13. See SNMMI. Flurpiridaz.
+A PET radiotracer used for myocardial perfusion imaging. See Yu M, Nekolla SG, Schwaiger M, Robinson SP. The Next Generation of Cardiac Positron Emission Tomography Imaging Agents: Discovery of Flurpiridaz F-18 for Detection of Coronary Disease. Seminars in Nuclear Medicine. 2011 Jul;41(4):305-13.doi:10.1053/j.semnuclmed.2011.02.004 See SNMMI. Flurpiridaz.http://interactive.snm.org/docs/PET_PROS/flurpiridaz_%2007_30_12_Final.pdf
 """
 * #126718 ^property[0].code = #keyword
 * #126718 ^property[0].valueString  = "FlurpiridazF^18^"
@@ -32281,7 +32305,7 @@ A PET radiotracer used for myocardial perfusion imaging. See Yu M, Nekolla SG, S
 * #126719 "RO6924963 ^11^C"
 """
 Ro6924963^11^c:
-A PET radiotracer used for tau brain imaging. See Wong DF, Comley R, Kuwabara H, Rosenberg PB, Resnick SM, Ostrowitzki S, et al. First in-human PET study of 3 novel tau radiopharmaceuticals: [11C]RO6924963, [11C]RO6931643, and [18F]RO6958948. J Nucl Med. 2018 May 4; doi:10.2967/jnumed.118.209916.
+A PET radiotracer used for tau brain imaging. See Wong DF, Comley R, Kuwabara H, Rosenberg PB, Resnick SM, Ostrowitzki S, et al. First in-human PET study of 3 novel tau radiopharmaceuticals: [11C]RO6924963, [11C]RO6931643, and [18F]RO6958948. J Nucl Med. 2018 May 4; doi:10.2967/jnumed.118.209916.http://jnm.snmjournals.org/content/early/2018/05/03/jnumed.118.209916
 """
 * #126719 ^property[0].code = #keyword
 * #126719 ^property[0].valueString  = "Ro6924963^11^c"
@@ -32291,7 +32315,7 @@ A PET radiotracer used for tau brain imaging. See Wong DF, Comley R, Kuwabara H,
 * #126720 "RO6931643 ^11^C"
 """
 Ro6931643^11^c:
-A PET radiotracer used for tau brain imaging. See Wong DF, Comley R, Kuwabara H, Rosenberg PB, Resnick SM, Ostrowitzki S, et al. First in-human PET study of 3 novel tau radiopharmaceuticals: [11C]RO6924963, [11C]RO6931643, and [18F]RO6958948. J Nucl Med. 2018 May 4; doi:10.2967/jnumed.118.209916.
+A PET radiotracer used for tau brain imaging. See Wong DF, Comley R, Kuwabara H, Rosenberg PB, Resnick SM, Ostrowitzki S, et al. First in-human PET study of 3 novel tau radiopharmaceuticals: [11C]RO6924963, [11C]RO6931643, and [18F]RO6958948. J Nucl Med. 2018 May 4; doi:10.2967/jnumed.118.209916.http://jnm.snmjournals.org/content/early/2018/05/03/jnumed.118.209916
 """
 * #126720 ^property[0].code = #keyword
 * #126720 ^property[0].valueString  = "Ro6931643^11^c"
@@ -32591,7 +32615,7 @@ A Zr 89 28H1 PET Radiotracer.
 * #126753 "Nanocolloidal albumin ^89^Zr"
 """
 NanocolloidalAlbumin^89^zr:
-A Zr 89 nanocolloidal albumin PET Radiotracer. See Heuveling et al. Pilot Study on the Feasibility of PET/CT Lymphoscintigraphy with
+A Zr 89 nanocolloidal albumin PET Radiotracer. See Heuveling et al. Pilot Study on the Feasibility of PET/CT Lymphoscintigraphy with89 doi:10.2967/jnumed.112.115188 http://jnm.snmjournals.org/content/54/4/585.long
 """
 * #126753 ^property[0].code = #keyword
 * #126753 ^property[0].valueString  = "NanocolloidalAlbumin^89^zr"
@@ -32631,7 +32655,7 @@ A Zr 89 RO542908 PET Radiotracer.
 * #126757 "RO6958948 ^18^F"
 """
 Ro6958948^18^f:
-A PET radiotracer used for tau brain imaging. See Wong DF, Comley R, Kuwabara H, Rosenberg PB, Resnick SM, Ostrowitzki S, et al. First in-human PET study of 3 novel tau radiopharmaceuticals: [11C]RO6924963, [11C]RO6931643, and [18F]RO6958948. J Nucl Med. 2018 May 4; doi:10.2967/jnumed.118.209916.
+A PET radiotracer used for tau brain imaging. See Wong DF, Comley R, Kuwabara H, Rosenberg PB, Resnick SM, Ostrowitzki S, et al. First in-human PET study of 3 novel tau radiopharmaceuticals: [11C]RO6924963, [11C]RO6931643, and [18F]RO6958948. J Nucl Med. 2018 May 4; doi:10.2967/jnumed.118.209916.http://jnm.snmjournals.org/content/early/2018/05/03/jnumed.118.209916
 """
 * #126757 ^property[0].code = #keyword
 * #126757 ^property[0].valueString  = "Ro6958948^18^f"
@@ -32641,7 +32665,7 @@ A PET radiotracer used for tau brain imaging. See Wong DF, Comley R, Kuwabara H,
 * #126758 "PSMA-1007 F^18^"
 """
 Psma-1007F^18^:
-A PET radiotracer targeting PMSA used for prostate cancer imaging. See Giesel FL, Hadaschik B, Cardinale J, Radtke J, Vinsensia M, Lehnert W, et al. F-18 labelled PSMA-1007: biodistribution, radiation dosimetry and histopathological validation of tumor lesions in prostate cancer patients. Eur J Nucl Med Mol Imaging. 2017 Apr 1;44(4):67888. doi:10.1007/s00259-016-3573-4.
+A PET radiotracer targeting PMSA used for prostate cancer imaging. See Giesel FL, Hadaschik B, Cardinale J, Radtke J, Vinsensia M, Lehnert W, et al. F-18 labelled PSMA-1007: biodistribution, radiation dosimetry and histopathological validation of tumor lesions in prostate cancer patients. Eur J Nucl Med Mol Imaging. 2017 Apr 1;44(4):67888. doi:10.1007/s00259-016-3573-4.http://link.springer.com/article/10.1007/s00259-016-3573-4
 """
 * #126758 ^property[0].code = #keyword
 * #126758 ^property[0].valueString  = "Psma-1007F^18^"
@@ -32651,7 +32675,7 @@ A PET radiotracer targeting PMSA used for prostate cancer imaging. See Giesel FL
 * #126759 "PSMA-617 Ga^68^"
 """
 Psma-617Ga^68^:
-A PET radiotracer targeting PMSA used for prostate cancer imaging. See Afshar-Oromieh A, Hetzheim H, Kratochwil C, Benesova M, Eder M, Neels OC, et al. The Theranostic PSMA Ligand PSMA-617 in the Diagnosis of Prostate Cancer by PET/CT: Biodistribution in Humans, Radiation Dosimetry, and First Evaluation of Tumor Lesions. J Nucl Med. 2015 Nov 1;56(11):1697705. doi: 10.2967/jnumed.115.161299.
+A PET radiotracer targeting PMSA used for prostate cancer imaging. See Afshar-Oromieh A, Hetzheim H, Kratochwil C, Benesova M, Eder M, Neels OC, et al. The Theranostic PSMA Ligand PSMA-617 in the Diagnosis of Prostate Cancer by PET/CT: Biodistribution in Humans, Radiation Dosimetry, and First Evaluation of Tumor Lesions. J Nucl Med. 2015 Nov 1;56(11):1697705. doi: 10.2967/jnumed.115.161299.http://jnm.snmjournals.org/content/56/11/1697
 """
 * #126759 ^property[0].code = #keyword
 * #126759 ^property[0].valueString  = "Psma-617Ga^68^"
@@ -32661,7 +32685,7 @@ A PET radiotracer targeting PMSA used for prostate cancer imaging. See Afshar-Or
 * #126760 "Df-FK ^89^Zr"
 """
 Df-fk^89^zr:
-A Zr 89 Df-FK peptide PET Radiotracer. See Jacobsen O et al. MicroPET Imaging of Integrin
+A Zr 89 Df-FK peptide PET Radiotracer. See Jacobsen O et al. MicroPET Imaging of Integrinv389 doi:10.1007/s11307-010-0458-y http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3137711/
 """
 * #126760 ^property[0].code = #keyword
 * #126760 ^property[0].valueString  = "Df-fk^89^zr"
@@ -32671,7 +32695,7 @@ A Zr 89 Df-FK peptide PET Radiotracer. See Jacobsen O et al. MicroPET Imaging of
 * #126761 "Df-FK-PEG(3) ^89^Zr"
 """
 Df-fk-peg(3)^89^zr:
-A Zr 89 Df-FK-PEG(3) peptide PET Radiotracer. See Jacobsen O et al. MicroPET Imaging of Integrin
+A Zr 89 Df-FK-PEG(3) peptide PET Radiotracer. See Jacobsen O et al. MicroPET Imaging of Integrinv389 doi:10.1007/s11307-010-0458-y http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3137711/
 """
 * #126761 ^property[0].code = #keyword
 * #126761 ^property[0].valueString  = "Df-fk-peg(3)^89^zr"
@@ -32681,7 +32705,7 @@ A Zr 89 Df-FK-PEG(3) peptide PET Radiotracer. See Jacobsen O et al. MicroPET Ima
 * #126762 "Df-[FK](2) ^89^Zr"
 """
 Df-[fk](2)^89^zr:
-A Zr 89 Df-[FK](2) peptide PET Radiotracer. See Jacobsen O et al. MicroPET Imaging of Integrin
+A Zr 89 Df-[FK](2) peptide PET Radiotracer. See Jacobsen O et al. MicroPET Imaging of Integrinv389 doi:10.1007/s11307-010-0458-y http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3137711/
 """
 * #126762 ^property[0].code = #keyword
 * #126762 ^property[0].valueString  = "Df-[fk](2)^89^zr"
@@ -32691,7 +32715,7 @@ A Zr 89 Df-[FK](2) peptide PET Radiotracer. See Jacobsen O et al. MicroPET Imagi
 * #126763 "Df-[FK](2)-3PEG(4) ^89^Zr"
 """
 Df-[fk](2)-3peg(4)^89^zr:
-A Zr 89 Df-[FK](2)-3PEG(4) peptide PET Radiotracer. See Jacobsen O et al. MicroPET Imaging of Integrin
+A Zr 89 Df-[FK](2)-3PEG(4) peptide PET Radiotracer. See Jacobsen O et al. MicroPET Imaging of Integrinv389 doi:10.1007/s11307-010-0458-y http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3137711/
 """
 * #126763 ^property[0].code = #keyword
 * #126763 ^property[0].valueString  = "Df-[fk](2)-3peg(4)^89^zr"
@@ -32701,7 +32725,7 @@ A Zr 89 Df-[FK](2)-3PEG(4) peptide PET Radiotracer. See Jacobsen O et al. MicroP
 * #126764 "Iodinated I^125^ DPA-713"
 """
 IodinatedI^125^Dpa-713:
-An I125 translocator protein (TSPO) SPECT tracer. See Wang H, Pullambhatla M, Guilarte TR, Mease RC, Pomper MG. Synthesis of [
+An I125 translocator protein (TSPO) SPECT tracer. See Wang H, Pullambhatla M, Guilarte TR, Mease RC, Pomper MG. Synthesis of [125 doi:10.1007/10.1016/j.bbrc.2009.08.102 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2764231/
 """
 * #126764 ^property[0].code = #keyword
 * #126764 ^property[0].valueString  = "IodinatedI^125^Dpa-713"
@@ -32711,7 +32735,7 @@ An I125 translocator protein (TSPO) SPECT tracer. See Wang H, Pullambhatla M, Gu
 * #126765 "DPA-713 ^11^C"
 """
 Dpa-713^11^c:
-A C11 translocator protein (TSPO) PET tracer. See Endres CJ, Pomper MG, James M, Uzuner O, Hammoud DA, Watkins CC, et al. Initial Evaluation of 11C-DPA-713, a Novel TSPO PET Ligand, in Humans. J Nucl Med. 2009 Aug;50(8):127682.
+A C11 translocator protein (TSPO) PET tracer. See Endres CJ, Pomper MG, James M, Uzuner O, Hammoud DA, Watkins CC, et al. Initial Evaluation of 11C-DPA-713, a Novel TSPO PET Ligand, in Humans. J Nucl Med. 2009 Aug;50(8):127682.doi:10.2967/jnumed.109.062265 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2883612/
 """
 * #126765 ^property[0].code = #keyword
 * #126765 ^property[0].valueString  = "Dpa-713^11^c"
@@ -32721,7 +32745,7 @@ A C11 translocator protein (TSPO) PET tracer. See Endres CJ, Pomper MG, James M,
 * #126766 "DPA-714 ^18^F"
 """
 Dpa-714^18^f:
-An F18 translocator protein (TSPO) PET tracer. See Vicidomini C, Panico M, Greco A, Gargiulo S, Coda ARD, Zannetti A, et al. In vivo imaging and characterization of [18F]DPA-714, a potential new TSPO ligand, in mouse brain and peripheral tissues using small-animal PET. Nuclear Medicine and Biology. 2015 Mar 1;42(3):30916.
+An F18 translocator protein (TSPO) PET tracer. See Vicidomini C, Panico M, Greco A, Gargiulo S, Coda ARD, Zannetti A, et al. In vivo imaging and characterization of [18F]DPA-714, a potential new TSPO ligand, in mouse brain and peripheral tissues using small-animal PET. Nuclear Medicine and Biology. 2015 Mar 1;42(3):30916.doi:10.1016/j.nucmedbio.2014.11.009
 """
 * #126766 ^property[0].code = #keyword
 * #126766 ^property[0].valueString  = "Dpa-714^18^f"
@@ -32731,7 +32755,7 @@ An F18 translocator protein (TSPO) PET tracer. See Vicidomini C, Panico M, Greco
 * #126801 "IEC61217 Patient Support Continuous Yaw Angle"
 """
 Iec61217PatientSupportContinuousYawAngle:
-Patient Support isocentric rotation (in the IEC FIXED REFERENCE Coordinate System) as defined by
+Patient Support isocentric rotation (in the IEC FIXED REFERENCE Coordinate System) as defined bybiblio_IEC61217-2
 """
 * #126801 ^property[0].code = #keyword
 * #126801 ^property[0].valueString  = "Iec61217PatientSupportContinuousYawAngle"
@@ -32741,7 +32765,7 @@ Patient Support isocentric rotation (in the IEC FIXED REFERENCE Coordinate Syste
 * #126802 "IEC61217 Table Top Continuous Pitch Angle"
 """
 Iec61217TableTopContinuousPitchAngle:
-Pitch of the Table Top (in the IEC TABLE TOP Coordinate System) as defined by
+Pitch of the Table Top (in the IEC TABLE TOP Coordinate System) as defined bybiblio_IEC61217-2
 """
 * #126802 ^property[0].code = #keyword
 * #126802 ^property[0].valueString  = "Iec61217TableTopContinuousPitchAngle"
@@ -32751,7 +32775,7 @@ Pitch of the Table Top (in the IEC TABLE TOP Coordinate System) as defined by
 * #126803 "IEC61217 Table Top Continuous Roll Angle"
 """
 Iec61217TableTopContinuousRollAngle:
-Roll of the Table Top (in the IEC TABLE TOP Coordinate System) as defined by
+Roll of the Table Top (in the IEC TABLE TOP Coordinate System) as defined bybiblio_IEC61217-2
 """
 * #126803 ^property[0].code = #keyword
 * #126803 ^property[0].valueString  = "Iec61217TableTopContinuousRollAngle"
@@ -32761,7 +32785,7 @@ Roll of the Table Top (in the IEC TABLE TOP Coordinate System) as defined by
 * #126804 "IEC61217 Table Top Eccentric Axis Distance"
 """
 Iec61217TableTopEccentricAxisDistance:
-Eccentric axis offset, in mm (in the IEC PATIENT SUPPORT Coordinate System) as defined by
+Eccentric axis offset, in mm (in the IEC PATIENT SUPPORT Coordinate System) as defined bybiblio_IEC61217-2
 """
 * #126804 ^property[0].code = #keyword
 * #126804 ^property[0].valueString  = "Iec61217TableTopEccentricAxisDistance"
@@ -32771,7 +32795,7 @@ Eccentric axis offset, in mm (in the IEC PATIENT SUPPORT Coordinate System) as d
 * #126805 "IEC61217 Table Top Continuous Eccentric Angle"
 """
 Iec61217TableTopContinuousEccentricAngle:
-Table Top eccentric rotation (in the IEC TABLE TOP ECCENTRIC Coordinate System) as defined by
+Table Top eccentric rotation (in the IEC TABLE TOP ECCENTRIC Coordinate System) as defined bybiblio_IEC61217-2
 """
 * #126805 ^property[0].code = #keyword
 * #126805 ^property[0].valueString  = "Iec61217TableTopContinuousEccentricAngle"
@@ -32781,7 +32805,7 @@ Table Top eccentric rotation (in the IEC TABLE TOP ECCENTRIC Coordinate System) 
 * #126806 "IEC61217 Table Top Lateral Position"
 """
 Iec61217TableTopLateralPosition:
-Lateral displacement of the table top, in mm (in the IEC TABLE TOP Coordinate System) as defined by
+Lateral displacement of the table top, in mm (in the IEC TABLE TOP Coordinate System) as defined bybiblio_IEC61217-2
 """
 * #126806 ^property[0].code = #keyword
 * #126806 ^property[0].valueString  = "Iec61217TableTopLateralPosition"
@@ -32791,7 +32815,7 @@ Lateral displacement of the table top, in mm (in the IEC TABLE TOP Coordinate Sy
 * #126807 "IEC61217 Table Top Longitudinal Position"
 """
 Iec61217TableTopLongitudinalPosition:
-Longitudinal displacement of the table top, in mm (in the IEC TABLE TOP Coordinate system) as defined by
+Longitudinal displacement of the table top, in mm (in the IEC TABLE TOP Coordinate system) as defined bybiblio_IEC61217-2
 """
 * #126807 ^property[0].code = #keyword
 * #126807 ^property[0].valueString  = "Iec61217TableTopLongitudinalPosition"
@@ -32801,7 +32825,7 @@ Longitudinal displacement of the table top, in mm (in the IEC TABLE TOP Coordina
 * #126808 "IEC61217 Table Top Vertical Position"
 """
 Iec61217TableTopVerticalPosition:
-Vertical displacement of the table top, in mm (in the IEC TABLE TOP Coordinate System) as defined by
+Vertical displacement of the table top, in mm (in the IEC TABLE TOP Coordinate System) as defined bybiblio_IEC61217-2
 """
 * #126808 ^property[0].code = #keyword
 * #126808 ^property[0].valueString  = "Iec61217TableTopVerticalPosition"
@@ -32811,7 +32835,7 @@ Vertical displacement of the table top, in mm (in the IEC TABLE TOP Coordinate S
 * #126809 "IEC61217 Gantry Continuous Roll Angle"
 """
 Iec61217GantryContinuousRollAngle:
-Rotation of the gantry (around the Y-axis of the IEC FIXED REFERENCE Coordinate System) as defined by
+Rotation of the gantry (around the Y-axis of the IEC FIXED REFERENCE Coordinate System) as defined bybiblio_IEC61217-2
 """
 * #126809 ^property[0].code = #keyword
 * #126809 ^property[0].valueString  = "Iec61217GantryContinuousRollAngle"
@@ -32821,7 +32845,7 @@ Rotation of the gantry (around the Y-axis of the IEC FIXED REFERENCE Coordinate 
 * #126810 "IEC61217 Gantry Continuous Pitch Angle"
 """
 Iec61217GantryContinuousPitchAngle:
-Pitch angle of rotation of the gantry around the X-axis of the IEC GANTRY Coordinate System. This parameter is not specifically defined by
+Pitch angle of rotation of the gantry around the X-axis of the IEC GANTRY Coordinate System. This parameter is not specifically defined bybiblio_IEC61217-2 biblio_IEC61217-2
 """
 * #126810 ^property[0].code = #keyword
 * #126810 ^property[0].valueString  = "Iec61217GantryContinuousPitchAngle"
@@ -32831,7 +32855,7 @@ Pitch angle of rotation of the gantry around the X-axis of the IEC GANTRY Coordi
 * #126811 "IEC61217 Gantry Continuous Yaw Angle"
 """
 Iec61217GantryContinuousYawAngle:
-Yaw angle of rotation of the gantry around the Z-axis of the IEC GANTRY Coordinate System This parameter is not specifically defined by
+Yaw angle of rotation of the gantry around the Z-axis of the IEC GANTRY Coordinate System This parameter is not specifically defined bybiblio_IEC61217-2 biblio_IEC61217-2
 """
 * #126811 ^property[0].code = #keyword
 * #126811 ^property[0].valueString  = "Iec61217GantryContinuousYawAngle"
@@ -32881,7 +32905,7 @@ The body position of the imaging subject relative to the imaging equipment is wi
 * #126850 "ILCR"
 """
 Ilcr:
-The International Laboratory Code Registry (ILCR) of the Institute of Laboratory Animal Research (ILAR). See
+The International Laboratory Code Registry (ILCR) of the Institute of Laboratory Animal Research (ILAR). Seehttp://dels.nas.edu/global/ilar/lab-codes
 """
 * #126850 ^property[0].code = #keyword
 * #126850 ^property[0].valueString  = "Ilcr"
@@ -32981,7 +33005,7 @@ Cannula inserted in the nose used for delivery of inhalational anesthesia or oth
 * #127070 "Retro-orbital route"
 """
 Retro-orbitalRoute:
-A route of administration of a substance via the retro-orbital venous sinus. Yardeni T et al. (2011). Retro-orbital injections in mice. Lab Animal, 40(5), 155-160.
+A route of administration of a substance via the retro-orbital venous sinus. Yardeni T et al. (2011). Retro-orbital injections in mice. Lab Animal, 40(5), 155-160.doi:10.1038/laban0511-155 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3158461/
 """
 * #127070 ^property[0].code = #keyword
 * #127070 ^property[0].valueString  = "Retro-orbitalRoute"
@@ -33011,7 +33035,7 @@ The phase of handling of an animal that is transport between environments.
 * #127103 "Staging prior to imaging"
 """
 StagingPriorToImaging:
-The phase of handling of an animal that is staging prior to an imaging procedure (e.g., after removal from their home environment and transport cage, and awaiting preparation, induction or imaging). During this phase the animals are not subject to intervention (e.g., injection, catheterization) (cf.
+The phase of handling of an animal that is staging prior to an imaging procedure (e.g., after removal from their home environment and transport cage, and awaiting preparation, induction or imaging). During this phase the animals are not subject to intervention (e.g., injection, catheterization) (cf.127104
 """
 * #127103 ^property[0].code = #keyword
 * #127103 ^property[0].valueString  = "StagingPriorToImaging"
@@ -33021,7 +33045,7 @@ The phase of handling of an animal that is staging prior to an imaging procedure
 * #127104 "Preparation for imaging"
 """
 PreparationForImaging:
-The phase of handling of an animal that is preparation prior to an imaging procedure that involves handling and intervention (e.g., such as injection, catheterization) (cf.
+The phase of handling of an animal that is preparation prior to an imaging procedure that involves handling and intervention (e.g., such as injection, catheterization) (cf.127103
 """
 * #127104 ^property[0].code = #keyword
 * #127104 ^property[0].valueString  = "PreparationForImaging"
@@ -33691,7 +33715,7 @@ No mechanism is used to maintain the body temperature of a subject.
 * #127270 "NIH31"
 """
 Nih31:
-NIH Open Formula Rat and Mouse Ration - 18% Crude Protein Autoclavable. Specification at
+NIH Open Formula Rat and Mouse Ration - 18% Crude Protein Autoclavable. Specification athttp://www.ors.od.nih.gov/sr/dvr/Documents/SSFiles/nih31-137j2004.pdf
 """
 * #127270 ^property[0].code = #keyword
 * #127270 ^property[0].valueString  = "Nih31"
@@ -33761,7 +33785,7 @@ Water that has been purified by reverse osmosis and HCl acidified.
 * #127300 "Anesthesia Method Set"
 """
 AnesthesiaMethodSet:
-Information about different anesthesia methods used during a procedure (from AQI Schema AnesthesiaMethodSetType; see
+Information about different anesthesia methods used during a procedure (from AQI Schema AnesthesiaMethodSetType; seehttp://www.aqihq.org/qcdrDataSample/prodFiles/2018%20Files/AQISchDoc/AnesthesiaMethodSetType.html
 """
 * #127300 ^property[0].code = #keyword
 * #127300 ^property[0].valueString  = "AnesthesiaMethodSet"
@@ -33771,7 +33795,7 @@ Information about different anesthesia methods used during a procedure (from AQI
 * #127301 "Anesthesia Method"
 """
 AnesthesiaMethod:
-Information about a single anesthesia method used during a procedure (from AQI Schema AnesthesiaMethodType; see
+Information about a single anesthesia method used during a procedure (from AQI Schema AnesthesiaMethodType; seehttp://www.aqihq.org/qcdrDataSample/prodFiles/2018%20Files/AQISchDoc/AnesthesiaMethodType.html
 """
 * #127301 ^property[0].code = #keyword
 * #127301 ^property[0].valueString  = "AnesthesiaMethod"
@@ -33781,7 +33805,7 @@ Information about a single anesthesia method used during a procedure (from AQI S
 * #127302 "Anesthesia Category"
 """
 AnesthesiaCategory:
-Category of anesthesia technique used during a procedure (from AQI Schema AnesthesiaCategoryCodeType; see
+Category of anesthesia technique used during a procedure (from AQI Schema AnesthesiaCategoryCodeType; seehttp://www.aqihq.org/qcdrDataSample/prodFiles/2018%20Files/AQISchDoc/AnesthesiaCategoryCodeType.html
 """
 * #127302 ^property[0].code = #keyword
 * #127302 ^property[0].valueString  = "AnesthesiaCategory"
@@ -33791,7 +33815,7 @@ Category of anesthesia technique used during a procedure (from AQI Schema Anesth
 * #127303 "Anesthesia SubCategory"
 """
 AnesthesiaSubcategory:
-Details of anesthesia technique used during a procedure (from AQI Schema AnesthesiaMethodType; see
+Details of anesthesia technique used during a procedure (from AQI Schema AnesthesiaMethodType; seehttp://www.aqihq.org/qcdrDataSample/prodFiles/2018%20Files/AQISchDoc/AnesthesiaMethodType.html
 """
 * #127303 ^property[0].code = #keyword
 * #127303 ^property[0].valueString  = "AnesthesiaSubcategory"
@@ -33801,7 +33825,7 @@ Details of anesthesia technique used during a procedure (from AQI Schema Anesthe
 * #127310 "Airway Management Set"
 """
 AirwayManagementSet:
-Information about airway management used during a procedure (from AQI Schema AirwayManagementSetType; see
+Information about airway management used during a procedure (from AQI Schema AirwayManagementSetType; seehttp://www.aqihq.org/qcdrDataSample/prodFiles/2018%20Files/AQISchDoc/AirwayManagementSetType.html
 """
 * #127310 ^property[0].code = #keyword
 * #127310 ^property[0].valueString  = "AirwayManagementSet"
@@ -33811,7 +33835,7 @@ Information about airway management used during a procedure (from AQI Schema Air
 * #127312 "Airway Management Method"
 """
 AirwayManagementMethod:
-Type of airway management used during a procedure (from AQI Schema AirwayManagementMethodCodeType; see
+Type of airway management used during a procedure (from AQI Schema AirwayManagementMethodCodeType; seehttp://www.aqihq.org/qcdrDataSample/prodFiles/2018%20Files/AQISchDoc/AirwayManagementMethodCodeType.html
 """
 * #127312 ^property[0].code = #keyword
 * #127312 ^property[0].valueString  = "AirwayManagementMethod"
@@ -33821,7 +33845,7 @@ Type of airway management used during a procedure (from AQI Schema AirwayManagem
 * #127313 "Airway Sub-Management Method"
 """
 AirwaySub-managementMethod:
-Subtype of airway management of airway management used during a procedure (from AQI Schema AirwayManagementSubMethodCodeType; see
+Subtype of airway management of airway management used during a procedure (from AQI Schema AirwayManagementSubMethodCodeType; seehttp://www.aqihq.org/qcdrDataSample/prodFiles/2018%20Files/AQISchDoc/AirwayManagementSubMethodCodeType.html
 """
 * #127313 ^property[0].code = #keyword
 * #127313 ^property[0].valueString  = "AirwaySub-managementMethod"
@@ -33831,7 +33855,7 @@ Subtype of airway management of airway management used during a procedure (from 
 * #127320 "Medications Set"
 """
 MedicationsSet:
-Set of medications applied during the anesthesia (from AQI Schema MedicationsSetType; see
+Set of medications applied during the anesthesia (from AQI Schema MedicationsSetType; seehttp://www.aqihq.org/qcdrDataSample/prodFiles/2018%20Files/AQISchDoc/MedicationsSetType.html
 """
 * #127320 ^property[0].code = #keyword
 * #127320 ^property[0].valueString  = "MedicationsSet"
@@ -34062,11 +34086,12 @@ Preformed fibrils of mouse Tau.
 """
 Non-ionicIodinatedContrastAgent:
 An iodine containing X-Ray contrast agent that does not dissociate in water, therefore, is lower in osmolality, and has a significantly lower incidence of adverse reactions than ionic iodinated contrast agents.
+retired
 """
 * #127855 ^property[0].code = #keyword
 * #127855 ^property[0].valueString  = "Non-ionicIodinatedContrastAgent"
 * #127855 ^property[1].code = #retired
-* #127855 ^property[1].valueBoolean  = false
+* #127855 ^property[1].valueBoolean  = true
 
 * #127856 "Heart valve flail"
 """
@@ -34291,7 +34316,7 @@ A medical specialty concerned with vascular imaging.
 * #128040 "FWP by GA, Campbell, 1991"
 """
 FwpByGa,Campbell,1991:
-Fetal body weight growth percentile estimated from gestational age by method of Campbell 1991. See Campbell WA, Nardi D, Vintzileos AM, Rodis JF, Turner GW, Egan JF. Transverse Cerebellar Diameter/Abdominal Circumference Ratio Throughout Pregnancy: A Gestational Age-Independent Method to Assess Fetal Growth. Obstetrics & Gynecology. 1991;77(6):893-6. Available at:
+Fetal body weight growth percentile estimated from gestational age by method of Campbell 1991. See Campbell WA, Nardi D, Vintzileos AM, Rodis JF, Turner GW, Egan JF. Transverse Cerebellar Diameter/Abdominal Circumference Ratio Throughout Pregnancy: A Gestational Age-Independent Method to Assess Fetal Growth. Obstetrics & Gynecology. 1991;77(6):893-6. Available at:http://journals.lww.com/greenjournal/Fulltext/1991/06000/Transverse_Cerebellar_Diameter_Abdominal.19.aspx
 retired
 """
 * #128040 ^property[0].code = #keyword
@@ -34302,7 +34327,7 @@ retired
 * #128041 "FWP by GA, Hadlock, 1991"
 """
 FwpByGa,Hadlock,1991:
-Fetal body weight growth percentile estimated from gestational age by method of Hadlock 1991. See Hadlock FP, Harrist RB, Martinez-Poyer J. In utero analysis of fetal growth: a sonographic weight standard. Radiology. 1991 Oct 1;181(1):129-33. DOI:10.1148/radiology.181.1.1887021. Available at:
+Fetal body weight growth percentile estimated from gestational age by method of Hadlock 1991. See Hadlock FP, Harrist RB, Martinez-Poyer J. In utero analysis of fetal growth: a sonographic weight standard. Radiology. 1991 Oct 1;181(1):129-33. DOI:10.1148/radiology.181.1.1887021. Available at:http://dx.doi.org/10.1148/radiology.181.1.1887021
 retired
 """
 * #128041 ^property[0].code = #keyword
@@ -35105,7 +35130,7 @@ A flow image used for image processing.
 * #128252 "OCT-A amplitude decorrelation"
 """
 Oct-aAmplitudeDecorrelation:
-OCT angiography method that de-correlates the amplitudes between two consecutive B-scans from the narrowed spectral bands was computed, and all the decorrelation values within certain repeated B-scans were averaged to visualize blood vessels. Methods and algorithms for optical coherence tomography-based angiography: a review and comparison. Anqi Zhang ; Qinqin Zhang ; Chieh-Li Chen ; Ruikang K. Wang (2015). See
+OCT angiography method that de-correlates the amplitudes between two consecutive B-scans from the narrowed spectral bands was computed, and all the decorrelation values within certain repeated B-scans were averaged to visualize blood vessels. Methods and algorithms for optical coherence tomography-based angiography: a review and comparison. Anqi Zhang ; Qinqin Zhang ; Chieh-Li Chen ; Ruikang K. Wang (2015). Seehttp://biomedicaloptics.spiedigitallibrary.org/article.aspx?articleid=2464650#QuantitativeComparisons
 """
 * #128252 ^property[0].code = #keyword
 * #128252 ^property[0].valueString  = "Oct-aAmplitudeDecorrelation"
@@ -37743,7 +37768,7 @@ An alphanumeric designator of an individual within a role.
 * #128776 "Gray Level Run Length Matrix"
 """
 GrayLevelRunLengthMatrix:
-The tabulation of gray level run lengths in a particular direction in an image. Abbreviated GLRLM. See
+The tabulation of gray level run lengths in a particular direction in an image. Abbreviated GLRLM. Seebiblio_IBSI_Features
 """
 * #128776 ^property[0].code = #keyword
 * #128776 ^property[0].valueString  = "GrayLevelRunLengthMatrix"
@@ -37753,7 +37778,7 @@ The tabulation of gray level run lengths in a particular direction in an image. 
 * #128777 "Gray Level Size Zone Matrix"
 """
 GrayLevelSizeZoneMatrix:
-A tabulation of counts of the number of groups of connected voxels with a specific discretized gray level value and size. Abbreviated GLSZM. See
+A tabulation of counts of the number of groups of connected voxels with a specific discretized gray level value and size. Abbreviated GLSZM. Seebiblio_IBSI_Features
 """
 * #128777 ^property[0].code = #keyword
 * #128777 ^property[0].valueString  = "GrayLevelSizeZoneMatrix"
@@ -37763,7 +37788,7 @@ A tabulation of counts of the number of groups of connected voxels with a specif
 * #128778 "Gray Level Distance Zone Matrix"
 """
 GrayLevelDistanceZoneMatrix:
-A tabulation of counts of the number of groups (or zones) of linked voxels that share a specific discretised grey level value and possess the same distance to ROI edge. Abbreviated GLDZM. See
+A tabulation of counts of the number of groups (or zones) of linked voxels that share a specific discretised grey level value and possess the same distance to ROI edge. Abbreviated GLDZM. Seebiblio_IBSI_Features
 """
 * #128778 ^property[0].code = #keyword
 * #128778 ^property[0].valueString  = "GrayLevelDistanceZoneMatrix"
@@ -37773,7 +37798,7 @@ A tabulation of counts of the number of groups (or zones) of linked voxels that 
 * #128779 "Neighbourhood Grey Tone Difference Matrix"
 """
 NeighbourhoodGreyToneDifferenceMatrix:
-A matrix containing the sum of grey level differences of pixels/voxels with a discretised grey level and average discretised grey level of neighbouring pixels/voxels within a specified Chebyshev distance. Abbreviated NGTDM. See
+A matrix containing the sum of grey level differences of pixels/voxels with a discretised grey level and average discretised grey level of neighbouring pixels/voxels within a specified Chebyshev distance. Abbreviated NGTDM. Seebiblio_IBSI_Features
 """
 * #128779 ^property[0].code = #keyword
 * #128779 ^property[0].valueString  = "NeighbourhoodGreyToneDifferenceMatrix"
@@ -37783,7 +37808,7 @@ A matrix containing the sum of grey level differences of pixels/voxels with a di
 * #128780 "Neighbouring Grey Level Dependence Matrix"
 """
 NeighbouringGreyLevelDependenceMatrix:
-A tabulation of the counts of dependent (within a specified coarseness parameter) neighbouring discretised grey levels within a specified Chebyshev distance. Abbreviated NGLDM. See
+A tabulation of the counts of dependent (within a specified coarseness parameter) neighbouring discretised grey levels within a specified Chebyshev distance. Abbreviated NGLDM. Seebiblio_IBSI_Features
 """
 * #128780 ^property[0].code = #keyword
 * #128780 ^property[0].valueString  = "NeighbouringGreyLevelDependenceMatrix"
@@ -38353,7 +38378,7 @@ An objective to achieve a radiation dose which is equal to the specified radiati
 * #130010 "Minimum Conformity Index"
 """
 MinimumConformityIndex:
-An objective to achieve a conformity index which is greater than or equal to the specified conformity index for a radiation dose which is equal to the specified radiation dose throughout the volume. Minimum Conformity Index as defined in
+An objective to achieve a conformity index which is greater than or equal to the specified conformity index for a radiation dose which is equal to the specified radiation dose throughout the volume. Minimum Conformity Index as defined inbiblio_Feuvret
 """
 * #130010 ^property[0].code = #keyword
 * #130010 ^property[0].valueString  = "MinimumConformityIndex"
@@ -38363,7 +38388,7 @@ An objective to achieve a conformity index which is greater than or equal to the
 * #130011 "Minimum Healthy Tissue Conformity Index"
 """
 MinimumHealthyTissueConformityIndex:
-An objective to achieve a healthy tissue conformity index which is greater than or equal to the specified healthy tissue conformity index for a radiation dose which is equal to the specified radiation dose throughout the volume. Minimum Healthy Tissue Conformity Index as defined in
+An objective to achieve a healthy tissue conformity index which is greater than or equal to the specified healthy tissue conformity index for a radiation dose which is equal to the specified radiation dose throughout the volume. Minimum Healthy Tissue Conformity Index as defined inbiblio_Feuvret
 """
 * #130011 ^property[0].code = #keyword
 * #130011 ^property[0].valueString  = "MinimumHealthyTissueConformityIndex"
@@ -38373,7 +38398,7 @@ An objective to achieve a healthy tissue conformity index which is greater than 
 * #130012 "Minimum Conformation Number"
 """
 MinimumConformationNumber:
-An objective to achieve a conformation number which is greater than or equal to the specified conformation number greater for a radiation dose which is equal to the specified radiation dose throughout the volume. Minimum Conformation Number as defined in
+An objective to achieve a conformation number which is greater than or equal to the specified conformation number greater for a radiation dose which is equal to the specified radiation dose throughout the volume. Minimum Conformation Number as defined inbiblio_Feuvret
 """
 * #130012 ^property[0].code = #keyword
 * #130012 ^property[0].valueString  = "MinimumConformationNumber"
@@ -38383,7 +38408,7 @@ An objective to achieve a conformation number which is greater than or equal to 
 * #130013 "Maximum Homogeneity Index"
 """
 MaximumHomogeneityIndex:
-An objective to achieve a homogeneity index which is less than or equal to the specified homogenity index for a radiation dose which is equal to the specified radiation dose throughout the volume. Maximum Homogeneity Index as defined in
+An objective to achieve a homogeneity index which is less than or equal to the specified homogenity index for a radiation dose which is equal to the specified radiation dose throughout the volume. Maximum Homogeneity Index as defined inbiblio_Feuvret
 """
 * #130013 ^property[0].code = #keyword
 * #130013 ^property[0].valueString  = "MaximumHomogeneityIndex"
@@ -38743,7 +38768,7 @@ A volume that does not correspond to an identifiable physical entity and has use
 * #130049 "CTV Nodal"
 """
 CtvNodal:
-Clinical Target Volume encompassing diseased lymph node(s) , with margin to include surrounding sub-clinical disease as defined in
+Clinical Target Volume encompassing diseased lymph node(s) , with margin to include surrounding sub-clinical disease as defined inbiblio_ICRU50
 """
 * #130049 ^property[0].code = #keyword
 * #130049 ^property[0].valueString  = "CtvNodal"
@@ -38753,7 +38778,7 @@ Clinical Target Volume encompassing diseased lymph node(s) , with margin to incl
 * #130050 "CTV Primary"
 """
 CtvPrimary:
-Clinical Target Volume encompassing primary tumor(s) , with margin to include surrounding sub-clinical disease as defined in
+Clinical Target Volume encompassing primary tumor(s) , with margin to include surrounding sub-clinical disease as defined inbiblio_ICRU50
 """
 * #130050 ^property[0].code = #keyword
 * #130050 ^property[0].valueString  = "CtvPrimary"
@@ -38763,7 +38788,7 @@ Clinical Target Volume encompassing primary tumor(s) , with margin to include su
 * #130051 "GTV Nodal"
 """
 GtvNodal:
-Gross Tumor Volume encompassing diseased lymph nodes as defined in
+Gross Tumor Volume encompassing diseased lymph nodes as defined inbiblio_ICRU50
 """
 * #130051 ^property[0].code = #keyword
 * #130051 ^property[0].valueString  = "GtvNodal"
@@ -38773,7 +38798,7 @@ Gross Tumor Volume encompassing diseased lymph nodes as defined in
 * #130052 "GTV Primary"
 """
 GtvPrimary:
-Gross Tumor Volume encompassing primary tumor(s) as defined in
+Gross Tumor Volume encompassing primary tumor(s) as defined inbiblio_ICRU50
 """
 * #130052 ^property[0].code = #keyword
 * #130052 ^property[0].valueString  = "GtvPrimary"
@@ -38783,7 +38808,7 @@ Gross Tumor Volume encompassing primary tumor(s) as defined in
 * #130053 "PTV Nodal"
 """
 PtvNodal:
-Planning Target Volume encompassing a nodal CTV, with margin to account for uncertainty in patient positioning and organ motion as defined in
+Planning Target Volume encompassing a nodal CTV, with margin to account for uncertainty in patient positioning and organ motion as defined inbiblio_ICRU50
 """
 * #130053 ^property[0].code = #keyword
 * #130053 ^property[0].valueString  = "PtvNodal"
@@ -38793,7 +38818,7 @@ Planning Target Volume encompassing a nodal CTV, with margin to account for unce
 * #130054 "PTV Primary"
 """
 PtvPrimary:
-Planning Target Volume encompassing a primary CTV, with margin to account for uncertainty in patient positioning and organ motion as defined in
+Planning Target Volume encompassing a primary CTV, with margin to account for uncertainty in patient positioning and organ motion as defined inbiblio_ICRU50
 """
 * #130054 ^property[0].code = #keyword
 * #130054 ^property[0].valueString  = "PtvPrimary"
@@ -38813,7 +38838,7 @@ Entire Body as a target volume for radiotherapy treatment. The usual term for a 
 * #130056 "ITV"
 """
 Itv:
-Internal Target Volume encompassing the CTV, with margin to account for internal motion, often delineated using multiple images, e.g., acquired over a breathing cycle, cardiac cycle, etc, as defined in
+Internal Target Volume encompassing the CTV, with margin to account for internal motion, often delineated using multiple images, e.g., acquired over a breathing cycle, cardiac cycle, etc, as defined inbiblio_ICRU50
 """
 * #130056 ^property[0].code = #keyword
 * #130056 ^property[0].valueString  = "Itv"
@@ -38823,7 +38848,7 @@ Internal Target Volume encompassing the CTV, with margin to account for internal
 * #130057 "Planning Organ At Risk Volume"
 """
 PlanningOrganAtRiskVolume:
-Volume encompassing the Organ At Risk (Planning organ at Risk Volume (PRV)) with margin to account for uncertainty in patient positioning and organ motion as defined in
+Volume encompassing the Organ At Risk (Planning organ at Risk Volume (PRV)) with margin to account for uncertainty in patient positioning and organ motion as defined inbiblio_ICRU50
 """
 * #130057 ^property[0].code = #keyword
 * #130057 ^property[0].valueString  = "PlanningOrganAtRiskVolume"
@@ -38833,7 +38858,7 @@ Volume encompassing the Organ At Risk (Planning organ at Risk Volume (PRV)) with
 * #130058 "Avoidance Volume"
 """
 AvoidanceVolume:
-Volume to which delivered radiation dose should be minimized or limited as defined in
+Volume to which delivered radiation dose should be minimized or limited as defined inbiblio_ICRU62
 """
 * #130058 ^property[0].code = #keyword
 * #130058 ^property[0].valueString  = "AvoidanceVolume"
@@ -38843,7 +38868,7 @@ Volume to which delivered radiation dose should be minimized or limited as defin
 * #130059 "Treated Volume"
 """
 TreatedVolume:
-Volume enclosed by an isodose surface appropriate to achieve the purpose of treatment (e.g., tumor eradication or palliation) as defined in
+Volume enclosed by an isodose surface appropriate to achieve the purpose of treatment (e.g., tumor eradication or palliation) as defined inbiblio_ICRU50
 """
 * #130059 ^property[0].code = #keyword
 * #130059 ^property[0].valueString  = "TreatedVolume"
@@ -38853,7 +38878,7 @@ Volume enclosed by an isodose surface appropriate to achieve the purpose of trea
 * #130060 "Organ At Risk"
 """
 OrganAtRisk:
-Normal tissue that receives undesired radiation and may be damaged by the radiation treatment as defined in
+Normal tissue that receives undesired radiation and may be damaged by the radiation treatment as defined inbiblio_ICRU50
 """
 * #130060 ^property[0].code = #keyword
 * #130060 ^property[0].valueString  = "OrganAtRisk"
@@ -38993,7 +39018,7 @@ A point representing the machine isocenter.
 * #130074 "Specified Conformity Index"
 """
 SpecifiedConformityIndex:
-The Conformity Index for a Dosimetric Objective as defined in
+The Conformity Index for a Dosimetric Objective as defined inbiblio_Feuvret
 """
 * #130074 ^property[0].code = #keyword
 * #130074 ^property[0].valueString  = "SpecifiedConformityIndex"
@@ -39003,7 +39028,7 @@ The Conformity Index for a Dosimetric Objective as defined in
 * #130075 "Specified Healthy Tissue Conformity Index"
 """
 SpecifiedHealthyTissueConformityIndex:
-The Healthy Tissue Conformity Index for a Dosimetric Objective as defined in
+The Healthy Tissue Conformity Index for a Dosimetric Objective as defined inbiblio_Feuvret
 """
 * #130075 ^property[0].code = #keyword
 * #130075 ^property[0].valueString  = "SpecifiedHealthyTissueConformityIndex"
@@ -39013,7 +39038,7 @@ The Healthy Tissue Conformity Index for a Dosimetric Objective as defined in
 * #130076 "Specified Conformation Number"
 """
 SpecifiedConformationNumber:
-The Conformation Number for a Dosimetric Objective as defined in
+The Conformation Number for a Dosimetric Objective as defined inbiblio_Feuvret
 """
 * #130076 ^property[0].code = #keyword
 * #130076 ^property[0].valueString  = "SpecifiedConformationNumber"
@@ -39023,7 +39048,7 @@ The Conformation Number for a Dosimetric Objective as defined in
 * #130077 "Specified Homogeneity Index"
 """
 SpecifiedHomogeneityIndex:
-The Homogeneity Index for a Dosimetric Objective as defined in
+The Homogeneity Index for a Dosimetric Objective as defined inbiblio_Feuvret
 """
 * #130077 ^property[0].code = #keyword
 * #130077 ^property[0].valueString  = "SpecifiedHomogeneityIndex"
@@ -39103,7 +39128,7 @@ The average atomic number of a material.
 * #130085 "Effective Z per A"
 """
 EffectiveZPerA:
-Ratio of effective atomic number to mass (AMU
+Ratio of effective atomic number to mass (AMU-1
 """
 * #130085 ^property[0].code = #keyword
 * #130085 ^property[0].valueString  = "EffectiveZPerA"
@@ -41566,7 +41591,7 @@ Body structures of bone and soft tissue.
 * #130408 "Perivascular adipose tissue fat attenuation index"
 """
 PerivascularAdiposeTissueFatAttenuationIndex:
-A measure of weighted attenuation shifts within perivascular adipose tissue, computed as a weighted measure of attenuation in concentric layers of perivascular tissue around the arterial wall, capturing the respective perivascular attenuation gradients. Abbreviated 'FAI'. See Antoniades C, Kotanidis CP, Berman DS. State-of-the-art review article. Atherosclerosis affecting fat: What can we learn by imaging perivascular adipose tissue? Journal of Cardiovascular Computed Tomography. 2019 Mar 29;0(0). Available from:
+A measure of weighted attenuation shifts within perivascular adipose tissue, computed as a weighted measure of attenuation in concentric layers of perivascular tissue around the arterial wall, capturing the respective perivascular attenuation gradients. Abbreviated 'FAI'. See Antoniades C, Kotanidis CP, Berman DS. State-of-the-art review article. Atherosclerosis affecting fat: What can we learn by imaging perivascular adipose tissue? Journal of Cardiovascular Computed Tomography. 2019 Mar 29;0(0). Available from:http://www.journalofcardiovascularct.com/article/S1934-5925(18)30618-X/abstract
 """
 * #130408 ^property[0].code = #keyword
 * #130408 ^property[0].valueString  = "PerivascularAdiposeTissueFatAttenuationIndex"
@@ -42196,7 +42221,7 @@ An interlock triggered by the primary fluence-monitoring system.
 * #130476 "Secondary Fluence Monitoring System Interlock"
 """
 SecondaryFluenceMonitoringSystemInterlock:
-An interlock triggered by the secondary fluence-monitoring system (also known as Secondary Dose Monitoring System
+An interlock triggered by the secondary fluence-monitoring system (also known as Secondary Dose Monitoring Systembiblio_IEC60601_2_1
 """
 * #130476 ^property[0].code = #keyword
 * #130476 ^property[0].valueString  = "SecondaryFluenceMonitoringSystemInterlock"
@@ -43037,7 +43062,7 @@ Assessment of the lesions characteristics based on its appearance in Dynamic Con
 * #130564 "PI-RADS v2.0"
 """
 Pi-radsV2.0:
-Prostate Imaging Reporting and Data System (PI-RADS) version 2.0.
+Prostate Imaging Reporting and Data System (PI-RADS) version 2.0.biblio_PIRADS
 """
 * #130564 ^property[0].code = #keyword
 * #130564 ^property[0].valueString  = "Pi-radsV2.0"
@@ -43047,7 +43072,7 @@ Prostate Imaging Reporting and Data System (PI-RADS) version 2.0.
 * #130565 "PI-RADS v2.1"
 """
 Pi-radsV2.1:
-Prostate Imaging Reporting and Data System (PI-RADS) version 2.1
+Prostate Imaging Reporting and Data System (PI-RADS) version 2.1biblio_PIRADS21
 """
 * #130565 ^property[0].code = #keyword
 * #130565 ^property[0].valueString  = "Pi-radsV2.1"
@@ -43307,7 +43332,7 @@ The need to detect or measure the amount of change in the condition.
 * #130591 "Focal abnormality"
 """
 FocalAbnormality:
-Abnormality localized at a focus, central point or locus.
+Abnormality localized at a focus, central point or locus.biblio_PIRADS
 """
 * #130591 ^property[0].code = #keyword
 * #130591 ^property[0].valueString  = "FocalAbnormality"
@@ -43317,7 +43342,7 @@ Abnormality localized at a focus, central point or locus.
 * #130592 "Non-focal abnormality"
 """
 Non-focalAbnormality:
-Abnormality not localized to a single focus.
+Abnormality not localized to a single focus.biblio_PIRADS
 """
 * #130592 ^property[0].code = #keyword
 * #130592 ^property[0].valueString  = "Non-focalAbnormality"
@@ -43327,7 +43352,7 @@ Abnormality not localized to a single focus.
 * #130593 "Partially encapsulated"
 """
 PartiallyEncapsulated:
-Partially but not entirely surrounded (bounded) by a distinct tissue layer, such as a smooth low-signal line on MRI.
+Partially but not entirely surrounded (bounded) by a distinct tissue layer, such as a smooth low-signal line on MRI.biblio_PIRADS
 """
 * #130593 ^property[0].code = #keyword
 * #130593 ^property[0].valueString  = "PartiallyEncapsulated"
@@ -43337,7 +43362,7 @@ Partially but not entirely surrounded (bounded) by a distinct tissue layer, such
 * #130594 "Completely encapsulated"
 """
 CompletelyEncapsulated:
-Entirely surrounded (bounded) by a distinct tissue layer, such as a smooth low-signal line on MRI, in more than one spatial dimension (at least two imaging planes).
+Entirely surrounded (bounded) by a distinct tissue layer, such as a smooth low-signal line on MRI, in more than one spatial dimension (at least two imaging planes).biblio_PIRADS
 """
 * #130594 ^property[0].code = #keyword
 * #130594 ^property[0].valueString  = "CompletelyEncapsulated"
@@ -43347,7 +43372,7 @@ Entirely surrounded (bounded) by a distinct tissue layer, such as a smooth low-s
 * #130595 "ADC Hyperintense"
 """
 AdcHyperintense:
-Having higher signal intensity (more intense, brighter) than background tissue on the apparent diffusion coefficient map.
+Having higher signal intensity (more intense, brighter) than background tissue on the apparent diffusion coefficient map.biblio_PIRADS
 """
 * #130595 ^property[0].code = #keyword
 * #130595 ^property[0].valueString  = "AdcHyperintense"
@@ -43367,7 +43392,7 @@ Having lower intensity (darker) than a reference background tissue on apparent d
 * #130597 "Persistent delayed phase: Type 1 curve"
 """
 PersistentDelayedPhase:Type1Curve:
-Continued increase of signal intensity over time.
+Continued increase of signal intensity over time.biblio_PIRADS
 """
 * #130597 ^property[0].code = #keyword
 * #130597 ^property[0].valueString  = "PersistentDelayedPhase:Type1Curve"
@@ -43377,7 +43402,7 @@ Continued increase of signal intensity over time.
 * #130598 "Plateau delayed phase: Type 2 curve"
 """
 PlateauDelayedPhase:Type2Curve:
-Signal intensity does not change over time after its initial rise, flat; plateau refers to signal that varies <10% from the peak signal over the duration of the DCE MRI.
+Signal intensity does not change over time after its initial rise, flat; plateau refers to signal that varies <10% from the peak signal over the duration of the DCE MRI.biblio_PIRADS
 """
 * #130598 ^property[0].code = #keyword
 * #130598 ^property[0].valueString  = "PlateauDelayedPhase:Type2Curve"
@@ -43387,7 +43412,7 @@ Signal intensity does not change over time after its initial rise, flat; plateau
 * #130599 "Washout delayed phase: Type 3 curve"
 """
 WashoutDelayedPhase:Type3Curve:
-Signal intensity decreases after its highest point after its initial rise.
+Signal intensity decreases after its highest point after its initial rise.biblio_PIRADS
 """
 * #130599 ^property[0].code = #keyword
 * #130599 ^property[0].valueString  = "WashoutDelayedPhase:Type3Curve"
@@ -43397,7 +43422,7 @@ Signal intensity decreases after its highest point after its initial rise.
 * #130600 "Positive DCE"
 """
 PositiveDce:
-Focal, early enhancement corresponding to a focal peripheral zone of transition zone lesion on T2 and/or DWI MRI.
+Focal, early enhancement corresponding to a focal peripheral zone of transition zone lesion on T2 and/or DWI MRI.biblio_PIRADS
 """
 * #130600 ^property[0].code = #keyword
 * #130600 ^property[0].valueString  = "PositiveDce"
@@ -43407,7 +43432,7 @@ Focal, early enhancement corresponding to a focal peripheral zone of transition 
 * #130601 "Negative DCE"
 """
 NegativeDce:
-Lack of early enhancement. Diffuse enhancement not corresponding to a focal lesion on T2 and/or DWI MRI. Focal enhancement corresponding to a BPH lesion.
+Lack of early enhancement. Diffuse enhancement not corresponding to a focal lesion on T2 and/or DWI MRI. Focal enhancement corresponding to a BPH lesion.biblio_PIRADS
 """
 * #130601 ^property[0].code = #keyword
 * #130601 ^property[0].valueString  = "NegativeDce"
@@ -43457,7 +43482,7 @@ Class of organofluorine compounds containing only carbon and fluorine.
 * #130606 "ESUR 2012 prostate MRI acquisition requirements"
 """
 Esur2012ProstateMriAcquisitionRequirements:
-Prostate MRI technical acquisition requirements defined in
+Prostate MRI technical acquisition requirements defined inbiblio_ESURGuidelines
 """
 * #130606 ^property[0].code = #keyword
 * #130606 ^property[0].valueString  = "Esur2012ProstateMriAcquisitionRequirements"
@@ -43467,7 +43492,7 @@ Prostate MRI technical acquisition requirements defined in
 * #130607 "PI-RADS 2.0 prostate MRI acquisition requirements"
 """
 Pi-rads2.0ProstateMriAcquisitionRequirements:
-Prostate MRI technical acquisition requirements defined in PI-RADS 2.0
+Prostate MRI technical acquisition requirements defined in PI-RADS 2.0biblio_PIRADS
 """
 * #130607 ^property[0].code = #keyword
 * #130607 ^property[0].valueString  = "Pi-rads2.0ProstateMriAcquisitionRequirements"
@@ -43477,7 +43502,7 @@ Prostate MRI technical acquisition requirements defined in PI-RADS 2.0
 * #130608 "PI-RADS 2.1 prostate MRI acquisition requirements"
 """
 Pi-rads2.1ProstateMriAcquisitionRequirements:
-Prostate MRI technical acquisition requirements defined in PI-RADS 2.1
+Prostate MRI technical acquisition requirements defined in PI-RADS 2.1biblio_PIRADS21
 """
 * #130608 ^property[0].code = #keyword
 * #130608 ^property[0].valueString  = "Pi-rads2.1ProstateMriAcquisitionRequirements"
@@ -44316,81 +44341,89 @@ The point in time in a cardiac cycle when the aortic valve nominally begins open
 """
 Fp9:
 EEG electrode placement on the head located inferior frontopolar, left.
+retired
 """
 * #130710 ^property[0].code = #keyword
 * #130710 ^property[0].valueString  = "Fp9"
 * #130710 ^property[1].code = #retired
-* #130710 ^property[1].valueBoolean  = false
+* #130710 ^property[1].valueBoolean  = true
 
 * #130711 "Fp10"
 """
 Fp10:
 EEG electrode placement on the head located inferior frontopolar, right.
+retired
 """
 * #130711 ^property[0].code = #keyword
 * #130711 ^property[0].valueString  = "Fp10"
 * #130711 ^property[1].code = #retired
-* #130711 ^property[1].valueBoolean  = false
+* #130711 ^property[1].valueBoolean  = true
 
 * #130712 "AF9"
 """
 Af9:
 EEG electrode placement on the head located inferior anterior frontal, left.
+retired
 """
 * #130712 ^property[0].code = #keyword
 * #130712 ^property[0].valueString  = "Af9"
 * #130712 ^property[1].code = #retired
-* #130712 ^property[1].valueBoolean  = false
+* #130712 ^property[1].valueBoolean  = true
 
 * #130713 "AF10"
 """
 Af10:
 EEG electrode placement on the head located inferior anterior frontal, right.
+retired
 """
 * #130713 ^property[0].code = #keyword
 * #130713 ^property[0].valueString  = "Af10"
 * #130713 ^property[1].code = #retired
-* #130713 ^property[1].valueBoolean  = false
+* #130713 ^property[1].valueBoolean  = true
 
 * #130714 "PO9"
 """
 Po9:
 EEG electrode placement on the head located inferior parietooccipital, left.
+retired
 """
 * #130714 ^property[0].code = #keyword
 * #130714 ^property[0].valueString  = "Po9"
 * #130714 ^property[1].code = #retired
-* #130714 ^property[1].valueBoolean  = false
+* #130714 ^property[1].valueBoolean  = true
 
 * #130715 "PO10"
 """
 Po10:
 EEG electrode placement on the head located inferior parietooccipital, right.
+retired
 """
 * #130715 ^property[0].code = #keyword
 * #130715 ^property[0].valueString  = "Po10"
 * #130715 ^property[1].code = #retired
-* #130715 ^property[1].valueBoolean  = false
+* #130715 ^property[1].valueBoolean  = true
 
 * #130716 "O9"
 """
 O9:
 EEG electrode placement on the head located inferior occipital, left.
+retired
 """
 * #130716 ^property[0].code = #keyword
 * #130716 ^property[0].valueString  = "O9"
 * #130716 ^property[1].code = #retired
-* #130716 ^property[1].valueBoolean  = false
+* #130716 ^property[1].valueBoolean  = true
 
 * #130717 "O10"
 """
 O10:
 EEG electrode placement on the head located inferior occipital, right.
+retired
 """
 * #130717 ^property[0].code = #keyword
 * #130717 ^property[0].valueString  = "O10"
 * #130717 ^property[1].code = #retired
-* #130717 ^property[1].valueBoolean  = false
+* #130717 ^property[1].valueBoolean  = true
 
 * #130720 "Coronary Artery Disease Assessment"
 """
@@ -44727,7 +44760,7 @@ Requested data cannot be read from storage media, e.g., data physically deleted,
 * #130753 "Processed Key Object Selection"
 """
 ProcessedKeyObjectSelection:
-The SOP Instance is a Key Object Selection Document, used for referenced object change management, that has had its directives processed and is no longer to be used (see
+The SOP Instance is a Key Object Selection Document, used for referenced object change management, that has had its directives processed and is no longer to be used (seebiblio_IHE_RAD_TF_1
 """
 * #130753 ^property[0].code = #keyword
 * #130753 ^property[0].valueString  = "ProcessedKeyObjectSelection"
@@ -45177,7 +45210,7 @@ Delivered percentage of the duration of a Radiation at a given point in time. Th
 * #130801 "IEC61217 Imaging Source to Axis Distance"
 """
 Iec61217ImagingSourceToAxisDistance:
-Distance from the imaging source, in mm, to the gantry rotation axis of a IEC C-Arm Device. This parameter is not specifically defined by
+Distance from the imaging source, in mm, to the gantry rotation axis of a IEC C-Arm Device. This parameter is not specifically defined bybiblio_IEC61217-2 biblio_IEC61217-2
 """
 * #130801 ^property[0].code = #keyword
 * #130801 ^property[0].valueString  = "Iec61217ImagingSourceToAxisDistance"
@@ -45187,7 +45220,7 @@ Distance from the imaging source, in mm, to the gantry rotation axis of a IEC C-
 * #130802 "IEC61217 X-Ray Image Receptor Radial Displacement from Isocenter"
 """
 Iec61217X-rayImageReceptorRadialDisplacementFromIsocenter:
-X-Ray Image Receptor Radial Displacement From Isocenter, in mm (in the IEC GANTRY Coordinate System) as defined by
+X-Ray Image Receptor Radial Displacement From Isocenter, in mm (in the IEC GANTRY Coordinate System) as defined bybiblio_IEC61217-2
 """
 * #130802 ^property[0].code = #keyword
 * #130802 ^property[0].valueString  = "Iec61217X-rayImageReceptorRadialDisplacementFromIsocenter"
@@ -45197,7 +45230,7 @@ X-Ray Image Receptor Radial Displacement From Isocenter, in mm (in the IEC GANTR
 * #130803 "IEC61217 X-Ray Image Receptor Longitudinal Displacement"
 """
 Iec61217X-rayImageReceptorLongitudinalDisplacement:
-X-Ray Image Receptor Longitudinal Displacement, in mm (in the IEC GANTRY Coordinate System) as defined by
+X-Ray Image Receptor Longitudinal Displacement, in mm (in the IEC GANTRY Coordinate System) as defined bybiblio_IEC61217-2
 """
 * #130803 ^property[0].code = #keyword
 * #130803 ^property[0].valueString  = "Iec61217X-rayImageReceptorLongitudinalDisplacement"
@@ -45207,7 +45240,7 @@ X-Ray Image Receptor Longitudinal Displacement, in mm (in the IEC GANTRY Coordin
 * #130804 "IEC61217 X-Ray Image Receptor Lateral Displacement"
 """
 Iec61217X-rayImageReceptorLateralDisplacement:
-X-Ray Image Receptor Lateral Displacement, in mm (in the IEC GANTRY Coordinate System) as defined by
+X-Ray Image Receptor Lateral Displacement, in mm (in the IEC GANTRY Coordinate System) as defined bybiblio_IEC61217-2
 """
 * #130804 ^property[0].code = #keyword
 * #130804 ^property[0].valueString  = "Iec61217X-rayImageReceptorLateralDisplacement"
@@ -45217,7 +45250,7 @@ X-Ray Image Receptor Lateral Displacement, in mm (in the IEC GANTRY Coordinate S
 * #130805 "IEC61217 X-Ray Image Receptor Rotation"
 """
 Iec61217X-rayImageReceptorRotation:
-X-Ray Image Receptor rotation (around the z-axis of the IEC X-RAY IMAGE RECEPTOR Coordinate System) as defined by
+X-Ray Image Receptor rotation (around the z-axis of the IEC X-RAY IMAGE RECEPTOR Coordinate System) as defined bybiblio_IEC61217-2
 """
 * #130805 ^property[0].code = #keyword
 * #130805 ^property[0].valueString  = "Iec61217X-rayImageReceptorRotation"
@@ -45508,31 +45541,34 @@ The anatomy of the subject prior to the effect of a surgical procedure.
 """
 SleepStageN1:
 Non-REM Sleep Stage 1 is the transition between wakefulness and sleep.
+retired
 """
 * #130834 ^property[0].code = #keyword
 * #130834 ^property[0].valueString  = "SleepStageN1"
 * #130834 ^property[1].code = #retired
-* #130834 ^property[1].valueBoolean  = false
+* #130834 ^property[1].valueBoolean  = true
 
 * #130835 "Sleep Stage N2"
 """
 SleepStageN2:
 Non-REM Sleep Stage 2 is light sleep.
+retired
 """
 * #130835 ^property[0].code = #keyword
 * #130835 ^property[0].valueString  = "SleepStageN2"
 * #130835 ^property[1].code = #retired
-* #130835 ^property[1].valueBoolean  = false
+* #130835 ^property[1].valueBoolean  = true
 
 * #130836 "Sleep Stage N3"
 """
 SleepStageN3:
 Non-REM Sleep Stage 3 is deep sleep.
+retired
 """
 * #130836 ^property[0].code = #keyword
 * #130836 ^property[0].valueString  = "SleepStageN3"
 * #130836 ^property[1].code = #retired
-* #130836 ^property[1].valueBoolean  = false
+* #130836 ^property[1].valueBoolean  = true
 
 * #130840 "Seat Pan Height"
 """
@@ -46350,11 +46386,12 @@ The pulsatility index at the umbilical artery divided by the pulsatility index a
 """
 IvcPreloadIndex:
 The ratio of the peak retrograde flow during the A-wave to the peak forward flow during the S-wave, as measured at the inferior vena cava using pulsed-wave doppler. Abbreviated a/S.
+retired
 """
 * #131011 ^property[0].code = #keyword
 * #131011 ^property[0].valueString  = "IvcPreloadIndex"
 * #131011 ^property[1].code = #retired
-* #131011 ^property[1].valueBoolean  = false
+* #131011 ^property[1].valueBoolean  = true
 
 * #131012 "IVC S/a"
 """
@@ -46370,11 +46407,12 @@ The ratio of the peak forward flow during the S-wave to the peak retrograde flow
 """
 PeakVelocityIndex:
 A blood flow index calculated by subtracting the peak retrograde flow during the A-wave from the peak forward flow during the S-wave, then dividing by the peak forward flow during the D-wave, i.e., (S-a)/D.
+retired
 """
 * #131013 ^property[0].code = #keyword
 * #131013 ^property[0].valueString  = "PeakVelocityIndex"
 * #131013 ^property[1].code = #retired
-* #131013 ^property[1].valueBoolean  = false
+* #131013 ^property[1].valueBoolean  = true
 
 * #131014 "DV Pulsatility Index in Veins"
 """
@@ -46440,11 +46478,12 @@ A method of measuring hemodynamics in the umbilical cord by taking the measureme
 """
 DuctusArteriosusArch:
 The ductal arch formed by the ductus arteriosus as it travels from its origin at the pulmonary artery to the point of entry into the descending aorta.
+retired
 """
 * #131021 ^property[0].code = #keyword
 * #131021 ^property[0].valueString  = "DuctusArteriosusArch"
 * #131021 ^property[1].code = #retired
-* #131021 ^property[1].valueBoolean  = false
+* #131021 ^property[1].valueBoolean  = true
 
 * #131022 "Aortic arch view"
 """
@@ -46579,7 +46618,7 @@ A point-based assessment of arterial flow based on Doppler observations of the u
 * #131036 "Fetal Cardiovascular Profile Score"
 """
 FetalCardiovascularProfileScore:
-A point-based score that sums the scores of five component assessments of cardiovascular observations to evaluate fetal well-being according to Makikallio et al, Human fetal cardiovascular profile score and neonatal outcome in intrauterine growth restriction. Ultrasound Obstet Gynecol 2008; 31: 4854
+A point-based score that sums the scores of five component assessments of cardiovascular observations to evaluate fetal well-being according to Makikallio et al, Human fetal cardiovascular profile score and neonatal outcome in intrauterine growth restriction. Ultrasound Obstet Gynecol 2008; 31: 4854doi:10.1002/uog.5210
 """
 * #131036 ^property[0].code = #keyword
 * #131036 ^property[0].valueString  = "FetalCardiovascularProfileScore"
@@ -47359,7 +47398,7 @@ The distance between the tip of the free edge of a flail mitral valve leaflet or
 * #131197 "Mitral valve sphericity index"
 """
 MitralValveSphericityIndex:
-The ratio of the transverse diameter of the left ventricle at the level of the papillary muscle base divided by the longitudinal distance between the level of the papillary muscle base and the mitral annulus plane, measured at diastole in a four-chamber view. See
+The ratio of the transverse diameter of the left ventricle at the level of the papillary muscle base divided by the longitudinal distance between the level of the papillary muscle base and the mitral annulus plane, measured at diastole in a four-chamber view. Seedoi:10.1016/j.jcmg.2008.12.025
 """
 * #131197 ^property[0].code = #keyword
 * #131197 ^property[0].valueString  = "MitralValveSphericityIndex"
@@ -47649,7 +47688,7 @@ The perimeter of the left atrial appendage orifice (the plane between the left u
 * #131230 "Female-typical"
 """
 Female-typical:
-Available data indicates that diagnostics, analytics, and treatments should consider best practices associated with female reference populations. This concept and definition taken from
+Available data indicates that diagnostics, analytics, and treatments should consider best practices associated with female reference populations. This concept and definition taken fromhttp://hl7.org/fhir/extensions/StructureDefinition-patient-sexParameterForClinicalUse.html
 """
 * #131230 ^property[0].code = #keyword
 * #131230 ^property[0].valueString  = "Female-typical"
@@ -47659,7 +47698,7 @@ Available data indicates that diagnostics, analytics, and treatments should cons
 * #131231 "Male-typical"
 """
 Male-typical:
-Available data indicates that diagnostics, analytics, and treatments should consider best practices associated with male reference populations. This concept and definition taken from
+Available data indicates that diagnostics, analytics, and treatments should consider best practices associated with male reference populations. This concept and definition taken fromhttp://hl7.org/fhir/extensions/StructureDefinition-patient-sexParameterForClinicalUse.html
 """
 * #131231 ^property[0].code = #keyword
 * #131231 ^property[0].valueString  = "Male-typical"
@@ -47669,7 +47708,7 @@ Available data indicates that diagnostics, analytics, and treatments should cons
 * #131232 "Specified"
 """
 Specified:
-vailable data indicates that diagnostics, analytics, and treatment best practices may be undefined or not aligned with sex-derived reference populations. Additional information may be available in the form of comments and/or observations. This concept and definition taken from
+vailable data indicates that diagnostics, analytics, and treatment best practices may be undefined or not aligned with sex-derived reference populations. Additional information may be available in the form of comments and/or observations. This concept and definition taken fromhttp://hl7.org/fhir/extensions/StructureDefinition-patient-sexParameterForClinicalUse.html
 """
 * #131232 ^property[0].code = #keyword
 * #131232 ^property[0].valueString  = "Specified"
@@ -47679,7 +47718,7 @@ vailable data indicates that diagnostics, analytics, and treatment best practice
 * #131233 "Subject Sex Parameters for Clinical Use Category"
 """
 SubjectSexParametersForClinicalUseCategory:
-Sex Parameters for Clinical Use category of patient who is the subject of these observations. See
+Sex Parameters for Clinical Use category of patient who is the subject of these observations. Seehttp://hl7.org/fhir/extensions/StructureDefinition-patient-sexParameterForClinicalUse.html
 """
 * #131233 ^property[0].code = #keyword
 * #131233 ^property[0].valueString  = "SubjectSexParametersForClinicalUseCategory"
@@ -47689,7 +47728,7 @@ Sex Parameters for Clinical Use category of patient who is the subject of these 
 * #131234 "Sex Parameters for Clinical Use Category Comment"
 """
 SexParametersForClinicalUseCategoryComment:
-Further explanation about the choice, intention, or context of use for the sex parameter for clinical use. See
+Further explanation about the choice, intention, or context of use for the sex parameter for clinical use. Seehttp://hl7.org/fhir/extensions/StructureDefinition-patient-sexParameterForClinicalUse.html
 """
 * #131234 ^property[0].code = #keyword
 * #131234 ^property[0].valueString  = "SexParametersForClinicalUseCategoryComment"
@@ -47699,7 +47738,7 @@ Further explanation about the choice, intention, or context of use for the sex p
 * #131235 "Sex Parameters for Clinical Use Category Reference"
 """
 SexParametersForClinicalUseCategoryReference:
-Other clinical evidence or documentation that was used to determine the sex parameter for clinical use. See
+Other clinical evidence or documentation that was used to determine the sex parameter for clinical use. Seehttp://hl7.org/fhir/extensions/StructureDefinition-patient-sexParameterForClinicalUse.html
 """
 * #131235 ^property[0].code = #keyword
 * #131235 ^property[0].valueString  = "SexParametersForClinicalUseCategoryReference"
@@ -48435,4 +48474,218 @@ The plan has passed quality assurance checks.
 * #131316 ^property[0].valueString  = "PlanQaPassed"
 * #131316 ^property[1].code = #retired
 * #131316 ^property[1].valueBoolean  = false
+
+* #131320 "Linear Boltzmann Transport Equation"
+"""
+LinearBoltzmannTransportEquation:
+Absorbed dose distribution calculation through solving the linear Boltzmann transport equation.
+"""
+* #131320 ^property[0].code = #keyword
+* #131320 ^property[0].valueString  = "LinearBoltzmannTransportEquation"
+* #131320 ^property[1].code = #retired
+* #131320 ^property[1].valueBoolean  = false
+
+* #131321 "Pencil Beam Convolution"
+"""
+PencilBeamConvolution:
+Absorbed dose distribution calculation using Pencil Beam Convolution methods
+"""
+* #131321 ^property[0].code = #keyword
+* #131321 ^property[0].valueString  = "PencilBeamConvolution"
+* #131321 ^property[1].code = #retired
+* #131321 ^property[1].valueBoolean  = false
+
+* #131322 "TMR and OAR Ratios"
+"""
+TmrAndOarRatios:
+Absorbed dose distribution calculation using Tissue Maximum Ratios (TMR) and Off-Axis Ratios (OAR)
+"""
+* #131322 ^property[0].code = #keyword
+* #131322 ^property[0].valueString  = "TmrAndOarRatios"
+* #131322 ^property[1].code = #retired
+* #131322 ^property[1].valueBoolean  = false
+
+* #131323 "AAPM TG-43"
+"""
+AapmTg-43:
+Absorbed dose distribution calculation using the protocol defined by Task Group 43 of the American Academy of Physicists in Medicine.
+"""
+* #131323 ^property[0].code = #keyword
+* #131323 ^property[0].valueString  = "AapmTg-43"
+* #131323 ^property[1].code = #retired
+* #131323 ^property[1].valueBoolean  = false
+
+* #131324 "Convolution Superposition"
+"""
+ConvolutionSuperposition:
+Absorbed dose distribution calculation using Convolution Superposition methods
+"""
+* #131324 ^property[0].code = #keyword
+* #131324 ^property[0].valueString  = "ConvolutionSuperposition"
+* #131324 ^property[1].code = #retired
+* #131324 ^property[1].valueBoolean  = false
+
+* #131325 "Number of Histories"
+"""
+NumberOfHistories:
+The number of Monte Carlo simulations of radiation absorption that are run to predict the dose pattern in the patient or phantom.
+"""
+* #131325 ^property[0].code = #keyword
+* #131325 ^property[0].valueString  = "NumberOfHistories"
+* #131325 ^property[1].code = #retired
+* #131325 ^property[1].valueBoolean  = false
+
+* #131326 "Acceptable Uncertainty in Dose Result"
+"""
+AcceptableUncertaintyInDoseResult:
+The uncertainty in Monte Carlo dose result specified as acceptable to the user.
+                            The lower the uncertainty required, the more histories have to be employed.
+"""
+* #131326 ^property[0].code = #keyword
+* #131326 ^property[0].valueString  = "AcceptableUncertaintyInDoseResult"
+* #131326 ^property[1].code = #retired
+* #131326 ^property[1].valueBoolean  = false
+
+* #131330 "Calibration Intended Dose Index"
+"""
+CalibrationIntendedDoseIndex:
+The dose index for which the calibration is intended to be applicable, as determined by the calibration responsible party.
+"""
+* #131330 ^property[0].code = #keyword
+* #131330 ^property[0].valueString  = "CalibrationIntendedDoseIndex"
+* #131330 ^property[1].code = #retired
+* #131330 ^property[1].valueBoolean  = false
+
+* #131331 "Calibration Intended Acquisition Protocol"
+"""
+CalibrationIntendedAcquisitionProtocol:
+The acquisition protocol for which the calibration is intended to be applicable, as determined by the calibration responsible party.
+"""
+* #131331 ^property[0].code = #keyword
+* #131331 ^property[0].valueString  = "CalibrationIntendedAcquisitionProtocol"
+* #131331 ^property[1].code = #retired
+* #131331 ^property[1].valueBoolean  = false
+
+* #131340 "Ultrasound Attenuation Imaging"
+"""
+UltrasoundAttenuationImaging:
+A type of ultrasound imaging in which the pixel values are attenuation coefficient values. Sometimes abbreviated as ATI.
+"""
+* #131340 ^property[0].code = #keyword
+* #131340 ^property[0].valueString  = "UltrasoundAttenuationImaging"
+* #131340 ^property[1].code = #retired
+* #131340 ^property[1].valueBoolean  = false
+
+* #131341 "Ultrasound Attenuation Coefficient"
+"""
+UltrasoundAttenuationCoefficient:
+A quantitative numerical statement of the relative attenuation of the ultrasound beam at a specified location. Usually expressed in dB/cm/MHz.
+"""
+* #131341 ^property[0].code = #keyword
+* #131341 ^property[0].valueString  = "UltrasoundAttenuationCoefficient"
+* #131341 ^property[1].code = #retired
+* #131341 ^property[1].valueBoolean  = false
+
+* #131342 "Mean Ultrasound Attenuation Coefficient"
+"""
+MeanUltrasoundAttenuationCoefficient:
+The value that is computed by dividing the sum of a set of Ultrasound attenuation coefficients by the number of values.
+"""
+* #131342 ^property[0].code = #keyword
+* #131342 ^property[0].valueString  = "MeanUltrasoundAttenuationCoefficient"
+* #131342 ^property[1].code = #retired
+* #131342 ^property[1].valueBoolean  = false
+
+* #131343 "Median Ultrasound Attenuation Coefficient"
+"""
+MedianUltrasoundAttenuationCoefficient:
+The value in an ordered set of Ultrasound attenuation coefficients, below and above which there is an equal number of values.
+"""
+* #131343 ^property[0].code = #keyword
+* #131343 ^property[0].valueString  = "MedianUltrasoundAttenuationCoefficient"
+* #131343 ^property[1].code = #retired
+* #131343 ^property[1].valueBoolean  = false
+
+* #131344 "Standard Deviation of Ultrasound Attenuation Coefficient"
+"""
+StandardDeviationOfUltrasoundAttenuationCoefficient:
+For a set of ultrasound attenuation coefficients: 1) a measure of the dispersion of a frequency distribution that is the square root of the arithmetic mean of the squares of the deviation of each of the class frequencies from the arithmetic mean of the frequency distribution; 2) a parameter that indicates the way in which a probability function or a probability density function is centered around its mean and that is equal to the square root of the moment in which the deviation from the mean is squared.
+"""
+* #131344 ^property[0].code = #keyword
+* #131344 ^property[0].valueString  = "StandardDeviationOfUltrasoundAttenuationCoefficient"
+* #131344 ^property[1].code = #retired
+* #131344 ^property[1].valueBoolean  = false
+
+* #131345 "Interquartile Range of Ultrasound Attenuation Coefficient"
+"""
+InterquartileRangeOfUltrasoundAttenuationCoefficient:
+The width of the center range of a set of ultrasound attenuation coefficients within which 50% of the measured values in a reference population fall. The IQR may also be described as the first quartile value subtracted from the third quartile value, or equivalently the 25th percentile value subtracted from the 75th percentile value.
+"""
+* #131345 ^property[0].code = #keyword
+* #131345 ^property[0].valueString  = "InterquartileRangeOfUltrasoundAttenuationCoefficient"
+* #131345 ^property[1].code = #retired
+* #131345 ^property[1].valueBoolean  = false
+
+* #131346 "Interquartile Range to Median Ratio of Ultrasound Atten Coeff"
+"""
+InterquartileRangeToMedianRatioOfUltrasoundAttenCoeff:
+The interquartile range value of a set of ultrasound attenuation coefficients divided by the median value of the same set. IQR/M, which is one way to describe the variability of a set of measurements, is sometimes used as a metric of measurement quality.
+"""
+* #131346 ^property[0].code = #keyword
+* #131346 ^property[0].valueString  = "InterquartileRangeToMedianRatioOfUltrasoundAttenCoeff"
+* #131346 ^property[1].code = #retired
+* #131346 ^property[1].valueBoolean  = false
+
+* #131350 "Cardiac Axis Angle"
+"""
+CardiacAxisAngle:
+The angle between the line from the sternum to the center of the spine, and the long axis of the heart (typically aligned with the septum between the left and right ventricles).
+                            A positive angle indicates the cardiac apex pointing towards the patients left.
+                            Typically, this value is roughly 45 degrees.
+retired
+"""
+* #131350 ^property[0].code = #keyword
+* #131350 ^property[0].valueString  = "CardiacAxisAngle"
+* #131350 ^property[1].code = #retired
+* #131350 ^property[1].valueBoolean  = true
+
+* #131351 "DV S-wave peak velocity"
+"""
+DvS-wavePeakVelocity:
+The peak velocity measured in the ductus venosus during the S-wave in pulsed doppler mode in any view.
+"""
+* #131351 ^property[0].code = #keyword
+* #131351 ^property[0].valueString  = "DvS-wavePeakVelocity"
+* #131351 ^property[1].code = #retired
+* #131351 ^property[1].valueBoolean  = false
+
+* #131352 "DV a-wave peak velocity"
+"""
+DvA-wavePeakVelocity:
+The peak velocity measured in the ductus venosus during the a-wave in pulsed doppler mode in any view.
+"""
+* #131352 ^property[0].code = #keyword
+* #131352 ^property[0].valueString  = "DvA-wavePeakVelocity"
+* #131352 ^property[1].code = #retired
+* #131352 ^property[1].valueBoolean  = false
+
+* #131353 "DV preload index"
+"""
+DvPreloadIndex:
+The ratio of the peak retrograde flow during the A-wave to the peak forward flow during the S-wave, as measured at the ductus venosus using pulsed-wave doppler. Abbreviated a/S.
+"""
+* #131353 ^property[0].code = #keyword
+* #131353 ^property[0].valueString  = "DvPreloadIndex"
+* #131353 ^property[1].code = #retired
+* #131353 ^property[1].valueBoolean  = false
+
+* #131354 "DV S/a"
+"""
+DvS/a:
+The ratio of the peak forward flow during the S-wave to the peak retrograde flow during the A-wave, as measured at the ductus venosus using pulsed-wave doppler. This is the inverse of the Preload index.
+"""
+* #131354 ^property[0].code = #keyword
+* #131354 ^property[0].valueString  = "DvS/a"
+* #131354 ^property[1].code = #retired
+* #131354 ^property[1].valueBoolean  = false
 
