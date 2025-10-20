@@ -54,6 +54,21 @@
       ]
     },
     {
+      "code": "AS",
+      "display": "Angioscopy",
+      "definition": "Angioscopy:\nAn acquisition device, process or method that records images during angioscopy.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Angioscopy"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "ASMT",
       "display": "Content Assessment Result",
       "definition": "ContentAssessmentResult:\nA device, process or method that produces assessments of the content of other instances, e.g., for quality or suitability.",
@@ -159,6 +174,36 @@
       ]
     },
     {
+      "code": "CD",
+      "display": "Color flow Doppler",
+      "definition": "ColorFlowDoppler:\nAn acquisition device, process or method that performs color flow Doppler.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ColorFlowDoppler"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "CF",
+      "display": "Cinefluorography",
+      "definition": "Cinefluorography:\nAn acquisition device, process or method that performs cinefluorography.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Cinefluorography"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "CFM",
       "display": "Confocal Microscopy",
       "definition": "ConfocalMicroscopy:\nAn acquisition device, process or method that performs imaging using a confocal microscope.",
@@ -189,6 +234,21 @@
       ]
     },
     {
+      "code": "CP",
+      "display": "Culposcopy",
+      "definition": "Culposcopy:\nAn acquisition device, process or method that records images during culposcopy.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Culposcopy"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "CR",
       "display": "Computed Radiography",
       "definition": "ComputedRadiography:\nAn acquisition device, process or method that performs computed radiography.",
@@ -200,6 +260,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "CS",
+      "display": "Cystoscopy",
+      "definition": "Cystoscopy:\nAn acquisition device, process or method that records images during cystoscopy.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Cystoscopy"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -234,6 +309,36 @@
       ]
     },
     {
+      "code": "DD",
+      "display": "Duplex Doppler",
+      "definition": "DuplexDoppler:\nAn acquisition device, process or method that performs duplex Doppler.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DuplexDoppler"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "DF",
+      "display": "Digital fluoroscopy",
+      "definition": "DigitalFluoroscopy:\nAn acquisition device, process or method that performs digital fluoroscopy.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DigitalFluoroscopy"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "DG",
       "display": "Diaphanography",
       "definition": "Diaphanography:\nAn acquisition device, process or method that performs diaphanography.",
@@ -245,6 +350,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "DM",
+      "display": "Digital microscopy",
+      "definition": "DigitalMicroscopy:\nAn acquisition device, process or method that performs digital microscopy.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DigitalMicroscopy"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -294,6 +414,21 @@
       ]
     },
     {
+      "code": "DS",
+      "display": "Digital Subtraction Angiography",
+      "definition": "DigitalSubtractionAngiography:\nAn acquisition device, process or method that performs digital subtraction angiography.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DigitalSubtractionAngiography"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "DSS",
       "display": "Department System Scheduler",
       "definition": "DepartmentSystemScheduler:\nA department-based information system (for instance, Radiology or Laboratory) that provides functions related to the management of orders received from external systems or through the department systems user interface. This definition matches that of the DSS/OF Actor in the IHE Scheduled Workflow (SWF) Profile.",
@@ -320,6 +455,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "EC",
+      "display": "Echocardiography",
+      "definition": "Echocardiography:\nAn acquisition device, process or method that performs echocardiography.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Echocardiography"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -429,6 +579,21 @@
       ]
     },
     {
+      "code": "FA",
+      "display": "Fluorescein angiography",
+      "definition": "FluoresceinAngiography:\nAn acquisition device, process or method that performs fluorescein angiography.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "FluoresceinAngiography"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "FC",
       "display": "Female changed to Male",
       "definition": "FemaleChangedToMale:\nFemale sex changed to Male sex.",
@@ -485,6 +650,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "FS",
+      "display": "Fundoscopy",
+      "definition": "Fundoscopy:\nAn acquisition device, process or method that records images during fundoscopy.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Fundoscopy"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -669,6 +849,21 @@
       ]
     },
     {
+      "code": "LP",
+      "display": "Laparoscopy",
+      "definition": "Laparoscopy:\nAn acquisition device, process or method that records images during laparoscopy.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Laparoscopy"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "LS",
       "display": "Laser surface scan",
       "definition": "LaserSurfaceScan:\nAn acquisition device, process or method that performs laser surface scanning.",
@@ -710,6 +905,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "MA",
+      "display": "Magnetic resonance angiography",
+      "definition": "MagneticResonanceAngiography:\nAn acquisition device, process or method that performs magnetic resonance angiography.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "MagneticResonanceAngiography"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -800,6 +1010,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "MS",
+      "display": "Magnetic resonance spectroscopy",
+      "definition": "MagneticResonanceSpectroscopy:\nAn acquisition device, process or method that performs magnetic resonance spectroscopy.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "MagneticResonanceSpectroscopy"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -1374,6 +1599,21 @@
       ]
     },
     {
+      "code": "ST",
+      "display": "Single-photon emission computed tomography",
+      "definition": "Single-photonEmissionComputedTomography:\nAn acquisition device, process or method that performs single-photon emission computed tomography (SPECT).\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Single-photonEmissionComputedTomography"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "STAIN",
       "display": "Automated Slide Stainer",
       "definition": "AutomatedSlideStainer:\nA device, process or method that applies, in an automated manner, a stain, or reagent, to microscopy slides in preparation for imaging.",
@@ -1475,6 +1715,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "VF",
+      "display": "Videofluorography",
+      "definition": "Videofluorography:\nAn acquisition device, process or method that measures videofluorography.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Videofluorography"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -1824,6 +2079,51 @@
       ]
     },
     {
+      "code": "109020",
+      "display": "Diastolic pressure, average",
+      "definition": "DiastolicPressure,Average:\nThe average of several diastolic pressure measurements\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DiastolicPressure,Average"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "109021",
+      "display": "Diastolic pressure nadir",
+      "definition": "DiastolicPressureNadir:\nThe lowest pressure value excluding any undershoot artifact.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DiastolicPressureNadir"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "109022",
+      "display": "End diastole",
+      "definition": "EndDiastole:\nThe moment at the end of the diastolic phase of the cardiac cycle.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "EndDiastole"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "109023",
       "display": "End of expiration",
       "definition": "EndOfExpiration:\nThe moment at the end of respiratory expiration.",
@@ -1884,6 +2184,21 @@
       ]
     },
     {
+      "code": "109027",
+      "display": "Mean blood pressure",
+      "definition": "MeanBloodPressure:\nThe average blood pressure value, generally over 2 or more seconds\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "MeanBloodPressure"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "109028",
       "display": "Peak of thermal cardiac output bolus",
       "definition": "PeakOfThermalCardiacOutputBolus:\nThe peak change in blood temperature during a thermal cardiac output measurement.",
@@ -1940,6 +2255,36 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "109032",
+      "display": "Systolic pressure, average",
+      "definition": "SystolicPressure,Average:\nThe average of several systolic blood pressure measurements.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "SystolicPressure,Average"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "109033",
+      "display": "Systolic peak pressure",
+      "definition": "SystolicPeakPressure:\nThe highest systolic blood pressure value excluding any overshoot artifact\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "SystolicPeakPressure"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -2289,6 +2634,21 @@
       ]
     },
     {
+      "code": "109057",
+      "display": "Catheterization Procedure Phase",
+      "definition": "CatheterizationProcedurePhase:\nA subpart of a cardiac catheterization procedure\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "CatheterizationProcedurePhase"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "109058",
       "display": "Contrast Phase",
       "definition": "ContrastPhase:\nThe subpart of a cardiac catheterization procedure in which a radio-opaque contrast medium is injected into the patient.",
@@ -2360,6 +2720,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "109070",
+      "display": "End of systole",
+      "definition": "EndOfSystole:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "EndOfSystole"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -2469,6 +2844,21 @@
       ]
     },
     {
+      "code": "109091",
+      "display": "Cardiac Stress State",
+      "definition": "CardiacStressState:\nImaging after injection of tracer during increased cardiac workload or increased myocardial blood flow, achieved by either exercise or pharmacologic means.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "CardiacStressState"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "109092",
       "display": "Reinjection State",
       "definition": "ReinjectionState:\nImaging after injection of additional tracer under resting conditions.",
@@ -2510,6 +2900,36 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "109095",
+      "display": "Peak stress state",
+      "definition": "PeakStressState:\nPeak Cardiac stress state\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "PeakStressState"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "109096",
+      "display": "Recovery state",
+      "definition": "RecoveryState:\nRecovery from cardiac stress\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RecoveryState"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -7121,7 +7541,7 @@
     {
       "code": "110807",
       "display": "Field Map MR Signal Intensity",
-      "definition": "FieldMapMrSignalIntensity:\nSignal intensity of a Field Map MR image. A Field Map MR image provides a direct measure of the0",
+      "definition": "FieldMapMrSignalIntensity:\nSignal intensity of a Field Map MR image. A Field Map MR image provides a direct measure of theB0",
       "property": [
         {
           "code": "keyword",
@@ -7779,6 +8199,21 @@
       ]
     },
     {
+      "code": "110851",
+      "display": "X-Ray Attenuation Coefficient",
+      "definition": "X-rayAttenuationCoefficient:\nCoefficient that describes the fraction of a beam of X-Rays or gamma rays that is absorbed or scattered per unit thickness of the absorber. This value basically accounts for the number of atoms in a cubic cm volume of material and the probability of a photon being scattered or absorbed from the nucleus or an electron of one of these atoms.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "X-rayAttenuationCoefficient"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "110852",
       "display": "MR signal intensity",
       "definition": "MrSignalIntensity:\nSignal intensity of an MR image, not otherwise specified.",
@@ -8424,6 +8859,21 @@
       ]
     },
     {
+      "code": "111006",
+      "display": "Breast composition",
+      "definition": "BreastComposition:\nAssessment of annotating tissues in breast; generally including fatty, mixed or dense\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "BreastComposition"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "111007",
       "display": "Breast Outline including Pectoral Muscle Tissue",
       "definition": "BreastOutlineIncludingPectoralMuscleTissue:\nPurpose of reference for an SCOORD Content Item that is an outline of the breast that includes the pectoral muscle tissue\nretired",
@@ -8870,6 +9320,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "111037",
+      "display": "Margins",
+      "definition": "Margins:\nThe characteristic of the boundary, edges or border of a detected lesion.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Margins"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -9549,6 +10014,51 @@
       ]
     },
     {
+      "code": "111103",
+      "display": "Density",
+      "definition": "Density:\nA space-occupying lesion identified in a single image or projection\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Density"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111104",
+      "display": "Individual Calcification",
+      "definition": "IndividualCalcification:\nA single identified calcification\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "IndividualCalcification"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111105",
+      "display": "Calcification Cluster",
+      "definition": "CalcificationCluster:\nMultiple calcifications identified as occupying a small area of tissue (less than 2 cc)\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "CalcificationCluster"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "111111",
       "display": "Cooper's ligament changes",
       "definition": "Cooper'sLigamentChanges:\nStraightening or thickening of Cooper's ligaments.",
@@ -9789,6 +10299,21 @@
       ]
     },
     {
+      "code": "111137",
+      "display": "Ultrasound",
+      "definition": "Ultrasound:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Ultrasound"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "111138",
       "display": "Old films for comparison",
       "definition": "OldFilmsForComparison:\nObtain previous mammography studies to compare to present study.",
@@ -9800,6 +10325,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "111139",
+      "display": "Ductography",
+      "definition": "Ductography:\nA medical procedure used for the sampling of mammary duct tissue\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Ductography"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -10100,6 +10640,96 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "111168",
+      "display": "Scar tissue",
+      "definition": "ScarTissue:\nThe fibrous tissue replacing normal tissues destroyed by disease or injury\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ScarTissue"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111170",
+      "display": "J Wire",
+      "definition": "JWire:\nA medical appliance used for localization of non palpable breast lesions to insure that the proper area is removed in a surgical biopsy\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "JWire"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111171",
+      "display": "Pacemaker",
+      "definition": "Pacemaker:\nA medical appliance used for regulating cardiac rhythms\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Pacemaker"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111172",
+      "display": "Paddle",
+      "definition": "Paddle:\nA compression device used for obtaining mammographic images\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Paddle"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111173",
+      "display": "Collimator",
+      "definition": "Collimator:\nA device used for restricting an X-Ray beam\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Collimator"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111174",
+      "display": "ID Plate",
+      "definition": "IdPlate:\nAn area designated on a radiographic film for facility and patient ID information\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "IdPlate"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -11064,6 +11694,51 @@
       ]
     },
     {
+      "code": "111248",
+      "display": "Adenolipoma",
+      "definition": "Adenolipoma:\nA benign tumor having glandular characteristics but composed of fat, with the presence of normal mammary ducts\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Adenolipoma"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111249",
+      "display": "Ductal hyperplasia",
+      "definition": "DuctalHyperplasia:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DuctalHyperplasia"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111250",
+      "display": "Adenomyoepithelioma",
+      "definition": "Adenomyoepithelioma:\nNeoplasms composed of myoepithelial cells\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Adenomyoepithelioma"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "111251",
       "display": "Normal axillary node",
       "definition": "NormalAxillaryNode:\nAxillary node that is normal in appearance with no associated pathology.",
@@ -11109,6 +11784,21 @@
       ]
     },
     {
+      "code": "111254",
+      "display": "Asynchronous involution",
+      "definition": "AsynchronousInvolution:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "AsynchronousInvolution"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "111255",
       "display": "Benign cyst with blood",
       "definition": "BenignCystWithBlood:\nCyst with benign morphology containing blood.",
@@ -11135,6 +11825,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "111257",
+      "display": "Intracystic papilloma",
+      "definition": "IntracysticPapilloma:\nGrowing within a cystic adenoma, filling the cavity with a mass of branching epithelial processes\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "IntracysticPapilloma"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -11169,6 +11874,36 @@
       ]
     },
     {
+      "code": "111260",
+      "display": "Extra abdominal desmoid",
+      "definition": "ExtraAbdominalDesmoid:\nA deep seated firm tumor frequently occurring on the chest consisting of collagenous tissue that infiltrates surround muscle; frequently recurs but does not metastasize\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ExtraAbdominalDesmoid"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111262",
+      "display": "Epidermal inclusion cyst",
+      "definition": "EpidermalInclusionCyst:\nA cyst formed of a mass of epithelial cells, as a result of trauma has been pushed beneath the epidermis. The cyst is lined with squamous epithelium and contains concentric layers or keratin\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "EpidermalInclusionCyst"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "111263",
       "display": "Fibroadenomatoid hyperplasia",
       "definition": "FibroadenomatoidHyperplasia:\nExcessive proliferation of fibroadenoma tissue.",
@@ -11199,6 +11934,66 @@
       ]
     },
     {
+      "code": "111265",
+      "display": "Foreign body (reaction)",
+      "definition": "ForeignBody(reaction):\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ForeignBody(reaction)"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111269",
+      "display": "Galactocele",
+      "definition": "Galactocele:\nRetention cyst caused by occlusion of a lactiferous duct\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Galactocele"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111271",
+      "display": "Hemangioma - nonparenchymal, subcutaneous",
+      "definition": "Hemangioma-Nonparenchymal,Subcutaneous:\nA congenital anomaly that leads to a proliferation of blood vessels leading to a mass that resembles a neoplasm, not located in parenchymal areas but subcutaneous\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Hemangioma-Nonparenchymal,Subcutaneous"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111273",
+      "display": "Hyperplasia, usual",
+      "definition": "Hyperplasia,Usual:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Hyperplasia,Usual"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "111277",
       "display": "Juvenile papillomatosis",
       "definition": "JuvenilePapillomatosis:\nA form of fibrocystic disease in young woman with florid and sclerosing adenosis that microscopically may suggest carcinoma.",
@@ -11210,6 +12005,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "111278",
+      "display": "Lactating adenoma",
+      "definition": "LactatingAdenoma:\nEnlarging masses during lactation. A circumscribed benign tumor composed primarily of glandular structures with scanty stroma, with prominent secretory changes in the duct\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "LactatingAdenoma"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -11240,6 +12050,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "111283",
+      "display": "Myofibroblastoma",
+      "definition": "Myofibroblastoma:\nSolitary or multiple tumors of muscles and fibrous tissues, or tumors composed of myofibroblasts\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Myofibroblastoma"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -11304,6 +12129,21 @@
       ]
     },
     {
+      "code": "111288",
+      "display": "Neurofibromatosis",
+      "definition": "Neurofibromatosis:\nCondition in which there are tumors of various sizes on peripheral nerves. They may be neuromas or fibromas\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Neurofibromatosis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "111290",
       "display": "Oil cyst (fat necrosis cyst)",
       "definition": "OilCyst(fatNecrosisCyst):\nA cyst resulting from the loss of the epithelial lining of a sebaceous dermoid or lacteal cyst.",
@@ -11345,6 +12185,36 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "111293",
+      "display": "Radial scar",
+      "definition": "RadialScar:\nAn nonencapsulated stellate lesion consisting of a fibroelastic core and radiating bands of fibrous connective tissue containing lobules manifesting adenosis and ducts with papillary or diffuse intraductal hyperplasia\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RadialScar"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111294",
+      "display": "Sclerosing adenosis",
+      "definition": "SclerosingAdenosis:\nProminent interductal fibrosis of the terminal ductules\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "SclerosingAdenosis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -11439,6 +12309,21 @@
       ]
     },
     {
+      "code": "111302",
+      "display": "Angiosarcoma",
+      "definition": "Angiosarcoma:\nA malignant neoplasm occurring most often in breast and skin, believed to originate from endothelial cells of blood vessels, microscopically composed of closely packed round or spindle shaped cells, some of which line small spaces resembling vascular clefts\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Angiosarcoma"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "111303",
       "display": "Blood vessel (vascular) invasion",
       "definition": "BloodVessel(vascular)Invasion:\nHistological changes to the vascular system related to an invasive process.",
@@ -11514,6 +12399,21 @@
       ]
     },
     {
+      "code": "111308",
+      "display": "Carcinoma with metaplasia",
+      "definition": "CarcinomaWithMetaplasia:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "CarcinomaWithMetaplasia"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "111309",
       "display": "Cartilaginous and osseous change",
       "definition": "CartilaginousAndOsseousChange:\nTissue changes to bones and cartilage.",
@@ -11540,6 +12440,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "111311",
+      "display": "Carcinosarcoma",
+      "definition": "Carcinosarcoma:\nA malignant neoplasm that contains elements of carcinoma and sarcoma, so extensively intermixed as to indicate neoplasia of epithelial and mesenchymal tissue\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Carcinosarcoma"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -11574,6 +12489,21 @@
       ]
     },
     {
+      "code": "111314",
+      "display": "Intraductal carcinoma micro-papillary",
+      "definition": "IntraductalCarcinomaMicro-papillary:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "IntraductalCarcinomaMicro-papillary"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "111315",
       "display": "Intracystic papillary carcinoma",
       "definition": "IntracysticPapillaryCarcinoma:\nA malignant neoplasm characterized by the formation of numerous, irregular, finger-like projections of fibrous stroma that is covered with a surface layer of neoplastic epithelial cells found in a cyst.",
@@ -11604,6 +12534,21 @@
       ]
     },
     {
+      "code": "111317",
+      "display": "Invasive lobular carcinoma",
+      "definition": "InvasiveLobularCarcinoma:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "InvasiveLobularCarcinoma"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "111318",
       "display": "Leukemic infiltration",
       "definition": "LeukemicInfiltration:\nMammary infiltrates as a secondary manifestation in patients with established leukemia.",
@@ -11630,6 +12575,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "111321",
+      "display": "Lymphoma",
+      "definition": "Lymphoma:\nA heterogeneous group of neoplasms arising in the reticuloendoethelial and lymphatic systems\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Lymphoma"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -11769,6 +12729,21 @@
       ]
     },
     {
+      "code": "111331",
+      "display": "Malignant fibrous histiocytoma",
+      "definition": "MalignantFibrousHistiocytoma:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "MalignantFibrousHistiocytoma"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "111332",
       "display": "Multifocal invasive ductal carcinoma",
       "definition": "MultifocalInvasiveDuctalCarcinoma:\nMultiple sites of ductal carcinoma.",
@@ -11814,6 +12789,36 @@
       ]
     },
     {
+      "code": "111335",
+      "display": "Neoplasm of the mammary skin",
+      "definition": "NeoplasmOfTheMammarySkin:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "NeoplasmOfTheMammarySkin"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111336",
+      "display": "Papillary carcinoma in-situ",
+      "definition": "PapillaryCarcinomaIn-situ:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "PapillaryCarcinomaIn-situ"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "111338",
       "display": "Recurrent malignancy",
       "definition": "RecurrentMalignancy:\nRecurrent malignancy.",
@@ -11855,6 +12860,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "111342",
+      "display": "Invasive cribriform carcinoma",
+      "definition": "InvasiveCribriformCarcinoma:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "InvasiveCribriformCarcinoma"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -12669,6 +13689,21 @@
       ]
     },
     {
+      "code": "111401",
+      "display": "Reason for Procedure",
+      "definition": "ReasonForProcedure:\nConcept name for the description of why a procedure has been performed.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ReasonForProcedure"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "111402",
       "display": "Clinical Finding",
       "definition": "ClinicalFinding:\nA finding during clinical examination (i.e., history and physical examination) such as pain, palpable mass or discharge.",
@@ -12770,6 +13805,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "111409",
+      "display": "Digital Mammography",
+      "definition": "DigitalMammography:\nMammogram using a digital image acquisition system.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DigitalMammography"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -13220,6 +14270,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "111441",
+      "display": "Microclip placed",
+      "definition": "MicroclipPlaced:\nAn indicator of whether or not a radio opaque microclip was placed in the anatomy during an interventional procedure.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "MicroclipPlaced"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -14259,6 +15324,21 @@
       ]
     },
     {
+      "code": "111512",
+      "display": "Medication History",
+      "definition": "MedicationHistory:\nInformation regarding usage by the patient of certain medications, such as hormones.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "MedicationHistory"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "111513",
       "display": "Relevant Previous Procedures",
       "definition": "RelevantPreviousProcedures:\nInterventional or non-interventional procedures previously performed on the patient, such as breast biopsies.",
@@ -14270,6 +15350,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "111514",
+      "display": "Relevant Indicated Problems",
+      "definition": "RelevantIndicatedProblems:\nAbnormal conditions experienced by the patient that serve as the reason for performing a procedure, such as a physical breast examination.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RelevantIndicatedProblems"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -14525,6 +15620,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "111532",
+      "display": "Pregnancy Status",
+      "definition": "PregnancyStatus:\nDescribes the pregnancy state of a referenced subject.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "PregnancyStatus"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -15410,6 +16520,111 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "111601",
+      "display": "Green filter",
+      "definition": "GreenFilter:\nFilter that transmits green light while blocking the other colors, typically centered at 510-540 nm\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "GreenFilter"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111602",
+      "display": "Red filter",
+      "definition": "RedFilter:\nFilter that transmits red light while blocking the other colors, typically centered at 630-680 nm\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RedFilter"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111603",
+      "display": "Blue filter",
+      "definition": "BlueFilter:\nFilter that transmits blue while blocking the other colors, typically centered at 460-480 nm\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "BlueFilter"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111604",
+      "display": "Yellow-green filter",
+      "definition": "Yellow-greenFilter:\nA filter of 560nm that is used for retinal imaging and can provide good contrast and good visibility of the retinal vasculature\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Yellow-greenFilter"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111605",
+      "display": "Blue-green filter",
+      "definition": "Blue-greenFilter:\nA filter of 490nm that is used for retinal imaging because of excessive scattering of some retinal structures at very short wavelengths\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Blue-greenFilter"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111606",
+      "display": "Infrared filter",
+      "definition": "InfraredFilter:\nFilter that transmits the infrared spectrum, which is light that lies outside of the visible spectrum, with wavelengths longer than those of red light, while blocking visible light\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "InfraredFilter"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "111607",
+      "display": "Polarizing filter",
+      "definition": "PolarizingFilter:\nA filter that reduces reflections from non-metallic surfaces such as glass or water by blocking light waves that are vibrating at selected angles to the filter.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "PolarizingFilter"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -19616,7 +20831,7 @@
     {
       "code": "112036",
       "display": "ACR Position Statement",
-      "definition": "AcrPositionStatement:\nAmerican College of Radiology. ACR Position Statement for Quality Control and Improvement, Safety, Infection Control, and Patient Concerns. In:",
+      "definition": "AcrPositionStatement:\nAmerican College of Radiology. ACR Position Statement for Quality Control and Improvement, Safety, Infection Control, and Patient Concerns. In:Practice Guidelines and Technical Standards",
       "property": [
         {
           "code": "keyword",
@@ -19944,6 +21159,21 @@
       ]
     },
     {
+      "code": "112058",
+      "display": "Calcium score",
+      "definition": "CalciumScore:\nA measure often arrived at through calculation of findings from CT examination, which is a common predictor of significant stenosis of the coronary arteries.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "CalciumScore"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "112059",
       "display": "Primary complex",
       "definition": "PrimaryComplex:\nThe combination of a focus of pneumonia due to a primary infection with granulomas in the draining hilar or mediastinal lymph nodes [Fraser and Pare].",
@@ -20081,7 +21311,7 @@
     {
       "code": "112068",
       "display": "Pseudoplaque",
-      "definition": "Pseudoplaque:\nAn irregular band of peripheral pulmonary opacity adjacent to visceral pleura that simulates the appearance of a pleural plaque and is formed by coalescence of small nodules [Fraser and Pare]",
+      "definition": "Pseudoplaque:\nAn irregular band of peripheral pulmonary opacity adjacent to visceral pleura that simulates the appearance of a pleural plaque and is formed by coalescence of small nodules [Fraser and Pare].",
       "property": [
         {
           "code": "keyword",
@@ -20141,7 +21371,7 @@
     {
       "code": "112072",
       "display": "Air crescent",
-      "definition": "AirCrescent:\nAir in a crescentic shape in a nodule or mass, in which the air separates the outer wall of the lesion from an inner sequestrum, which most commonly is a fungus ball of",
+      "definition": "AirCrescent:\nAir in a crescentic shape in a nodule or mass, in which the air separates the outer wall of the lesion from an inner sequestrum, which most commonly is a fungus ball ofAspergillus",
       "property": [
         {
           "code": "keyword",
@@ -21189,6 +22419,21 @@
       ]
     },
     {
+      "code": "112142",
+      "display": "Circumscribed",
+      "definition": "Circumscribed:\nA shadow (opacity) possessing a complete or nearly complete visible border [Fraser and Pare].\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Circumscribed"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "112143",
       "display": "Air",
       "definition": "Air:\nInspired atmospheric gas. The word is sometimes used to describe gas within the body regardless of its composition or site [Fraser and Pare].",
@@ -21200,6 +22445,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "112144",
+      "display": "Soft tissue",
+      "definition": "SoftTissue:\nMaterial having X-Ray attenuation properties similar to muscle.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "SoftTissue"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -21320,6 +22580,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "112153",
+      "display": "Subpleural",
+      "definition": "Subpleural:\nSituated or occurring between the pleura and the body wall.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Subpleural"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -21489,6 +22764,96 @@
       ]
     },
     {
+      "code": "112165",
+      "display": "Difference in border shape",
+      "definition": "DifferenceInBorderShape:\nA change in the shape formed by the boundary or edges of a finding or feature.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DifferenceInBorderShape"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "112166",
+      "display": "Difference in border definition",
+      "definition": "DifferenceInBorderDefinition:\nA change in the clarity of the boundary or edges of a finding or feature.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DifferenceInBorderDefinition"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "112167",
+      "display": "Difference in distribution",
+      "definition": "DifferenceInDistribution:\nA change in the extent of spreading of a finding or feature.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DifferenceInDistribution"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "112168",
+      "display": "Difference in site involvement",
+      "definition": "DifferenceInSiteInvolvement:\nA change in the part(s) of the anatomy affected or encompassed by a finding or feature.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DifferenceInSiteInvolvement"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "112169",
+      "display": "Difference in Type of Content",
+      "definition": "DifferenceInTypeOfContent:\nA change in the matter or substance within a finding or feature.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DifferenceInTypeOfContent"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "112170",
+      "display": "Difference in Texture",
+      "definition": "DifferenceInTexture:\nA change in the surface or consistency of a finding or feature.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DifferenceInTexture"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "112171",
       "display": "Fiducial mark",
       "definition": "FiducialMark:\nA location in image space, which may or may not correspond to an anatomical reference, which is often used for registering data.",
@@ -21641,7 +23006,7 @@
     {
       "code": "112181",
       "display": "Mean Attenuation Coefficient",
-      "definition": "MeanAttenuationCoefficient:\nThe value that is computed by dividing the sum of a set of X-Ray attenuation coefficients by the number of values",
+      "definition": "MeanAttenuationCoefficient:\nThe value that is computed by dividing the sum of a set of X-Ray attenuation coefficients by the number of values.",
       "property": [
         {
           "code": "keyword",
@@ -22181,7 +23546,7 @@
     {
       "code": "112248",
       "display": "ACR Guideline, Performance of Adult CT Colonography",
-      "definition": "AcrGuideline,PerformanceOfAdultCtColonography:\nAmerican College of Radiology Practice Guideline for the Performance of Computed Tomography (CT) Colonography in Adults. In:",
+      "definition": "AcrGuideline,PerformanceOfAdultCtColonography:\nAmerican College of Radiology Practice Guideline for the Performance of Computed Tomography (CT) Colonography in Adults. In:Practice Guidelines and Technical Standards.",
       "property": [
         {
           "code": "keyword",
@@ -22196,7 +23561,7 @@
     {
       "code": "112249",
       "display": "ACR Standard, CT medical physics performance monitoring",
-      "definition": "AcrStandard,CtMedicalPhysicsPerformanceMonitoring:\nAmerican College of Radiology Technical Standard for Diagnostic Medical Physics Performance Monitoring of Computed Tomography (CT) Equipment. In:",
+      "definition": "AcrStandard,CtMedicalPhysicsPerformanceMonitoring:\nAmerican College of Radiology Technical Standard for Diagnostic Medical Physics Performance Monitoring of Computed Tomography (CT) Equipment. In:Practice Guidelines and Technical Standards.",
       "property": [
         {
           "code": "keyword",
@@ -23180,6 +24545,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "112701",
+      "display": "Gross Specimen Imaging",
+      "definition": "GrossSpecimenImaging:\nProcedure step protocol for imaging gross specimens, typically with a photographic camera (modality XC), and planning further dissection.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "GrossSpecimenImaging"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -24200,6 +25580,36 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "113055",
+      "display": "Regional Cerebral Blood Flow",
+      "definition": "RegionalCerebralBloodFlow:\nThe absolute flow rate of blood perfusing a region of the brain as volume per mass per unit of time. The mass divisor may be approximated by a measurement of volume assuming a tissue density of 1.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RegionalCerebralBloodFlow"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "113056",
+      "display": "Regional Cerebral Blood Volume",
+      "definition": "RegionalCerebralBloodVolume:\nThe absolute volume of blood perfusing a region of brain as volume per mass. The mass divisor may be approximated by a measurement of volume assuming a tissue density of 1.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RegionalCerebralBloodVolume"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -27159,6 +28569,21 @@
       ]
     },
     {
+      "code": "113681",
+      "display": "Phantom",
+      "definition": "Phantom:\nAn artificial subject of an imaging study.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Phantom"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "113682",
       "display": "ACR Accreditation Phantom - CT",
       "definition": "AcrAccreditationPhantom-Ct:\nA phantom acceptable for the ACR Computed Tomography Accreditation program.",
@@ -27399,6 +28824,36 @@
       ]
     },
     {
+      "code": "113710",
+      "display": "Niobium or Niobium compound",
+      "definition": "NiobiumOrNiobiumCompound:\nMaterial containing Niobium or a Niobium compound\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "NiobiumOrNiobiumCompound"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "113711",
+      "display": "Europium or Europium compound",
+      "definition": "EuropiumOrEuropiumCompound:\nMaterial containing Europium or a Europium compound\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "EuropiumOrEuropiumCompound"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "113720",
       "display": "Calibration Protocol",
       "definition": "CalibrationProtocol:\nDescribes the method used to derive the calibration factor.",
@@ -27620,6 +29075,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "113735",
+      "display": "Exposure Time",
+      "definition": "ExposureTime:\nCumulative time the patient has received X-Ray exposure during the irradiation event\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ExposureTime"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -28974,6 +30444,21 @@
       ]
     },
     {
+      "code": "113853",
+      "display": "Irradiation Event UID",
+      "definition": "IrradiationEventUid:\nUnique Identifier of an Irradiation Event.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "IrradiationEventUid"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "113854",
       "display": "Source of Dose Information",
       "definition": "SourceOfDoseInformation:\nMethod by which dose-related details of an Irradiation Event were obtained.",
@@ -29720,6 +31205,36 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "113922",
+      "display": "Radioactive Substance Administered",
+      "definition": "RadioactiveSubstanceAdministered:\nType, amount and route of radioactive substance administered.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RadioactiveSubstanceAdministered"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "113923",
+      "display": "Radiation Exposure and Protection Information",
+      "definition": "RadiationExposureAndProtectionInformation:\nExposure to ionizing radiation and associated preventive measures used to reduce the exposure of parts of the body like lead apron or eye, thyroid gland or gonad protection.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RadiationExposureAndProtectionInformation"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -31434,6 +32949,36 @@
       ]
     },
     {
+      "code": "121037",
+      "display": "Fetus number",
+      "definition": "FetusNumber:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "FetusNumber"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121038",
+      "display": "Number of Fetuses",
+      "definition": "NumberOfFetuses:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "NumberOfFetuses"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "121039",
       "display": "Specimen UID",
       "definition": "SpecimenUid:\nUnique Identifier of specimen that is the subject of observations.",
@@ -31449,6 +32994,21 @@
       ]
     },
     {
+      "code": "121040",
+      "display": "Specimen Accession Number",
+      "definition": "SpecimenAccessionNumber:\nAccession Number of specimen that is the subject of observations\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "SpecimenAccessionNumber"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "121041",
       "display": "Specimen Identifier",
       "definition": "SpecimenIdentifier:\nIdentifier of specimen that is the subject of observations.",
@@ -31460,6 +33020,51 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "121042",
+      "display": "Specimen Type",
+      "definition": "SpecimenType:\nCoded category of specimen that is the subject of observations\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "SpecimenType"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121043",
+      "display": "Slide Identifier",
+      "definition": "SlideIdentifier:\nIdentifier of specimen microscope slide that is the subject of observations\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "SlideIdentifier"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121044",
+      "display": "Slide UID",
+      "definition": "SlideUid:\nUnique Identifier of specimen microscope slide that is the subject of observations\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "SlideUid"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -31584,6 +33189,36 @@
       ]
     },
     {
+      "code": "121053",
+      "display": "Present",
+      "definition": "Present:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Present"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121054",
+      "display": "Absent",
+      "definition": "Absent:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Absent"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "121055",
       "display": "Path",
       "definition": "Path:\nA set of points on an image, that when connected by line segments, provide a polyline from which a linear measurement was inferred.",
@@ -31644,6 +33279,36 @@
       ]
     },
     {
+      "code": "121059",
+      "display": "Presence Undetermined",
+      "definition": "PresenceUndetermined:\nPresence or absence of a property is undetermined\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "PresenceUndetermined"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121060",
+      "display": "History",
+      "definition": "History:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "History"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "121061",
       "display": "Device Observer Manufacturer Class UID",
       "definition": "DeviceObserverManufacturerClassUid:\nManufacturer-provided Class UID(s) of device that created the observations.",
@@ -31655,6 +33320,36 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "121062",
+      "display": "Request",
+      "definition": "Request:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Request"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121064",
+      "display": "Current Procedure Descriptions",
+      "definition": "CurrentProcedureDescriptions:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "CurrentProcedureDescriptions"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -31674,6 +33369,36 @@
       ]
     },
     {
+      "code": "121066",
+      "display": "Prior Procedure Descriptions",
+      "definition": "PriorProcedureDescriptions:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "PriorProcedureDescriptions"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121068",
+      "display": "Previous Findings",
+      "definition": "PreviousFindings:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "PreviousFindings"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "121069",
       "display": "Previous Finding",
       "definition": "PreviousFinding:\nAn observation found on a prior imaging study.",
@@ -31685,6 +33410,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "121070",
+      "display": "Findings",
+      "definition": "Findings:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Findings"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -31704,6 +33444,21 @@
       ]
     },
     {
+      "code": "121072",
+      "display": "Impressions",
+      "definition": "Impressions:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Impressions"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "121073",
       "display": "Impression",
       "definition": "Impression:\nAn interpretation in the clinical context of the finding(s) on an imaging study.",
@@ -31715,6 +33470,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "121074",
+      "display": "Recommendations",
+      "definition": "Recommendations:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Recommendations"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -31734,6 +33504,21 @@
       ]
     },
     {
+      "code": "121076",
+      "display": "Conclusions",
+      "definition": "Conclusions:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Conclusions"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "121077",
       "display": "Conclusion",
       "definition": "Conclusion:\nAn interpretation in the clinical context of the finding(s) on an imaging study.",
@@ -31745,6 +33530,36 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "121078",
+      "display": "Addendum",
+      "definition": "Addendum:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Addendum"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121079",
+      "display": "Baseline",
+      "definition": "Baseline:\nInitial images used to establish a beginning condition that is used for comparison over time to look for changes. [Paraphrases NCI-PT(C1442488, UMLS, 'Baseline')\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Baseline"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -31764,6 +33579,111 @@
       ]
     },
     {
+      "code": "121081",
+      "display": "Physician",
+      "definition": "Physician:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Physician"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121082",
+      "display": "Nurse",
+      "definition": "Nurse:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Nurse"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121083",
+      "display": "Technologist",
+      "definition": "Technologist:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Technologist"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121084",
+      "display": "Radiographer",
+      "definition": "Radiographer:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Radiographer"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121085",
+      "display": "Intern",
+      "definition": "Intern:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Intern"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121086",
+      "display": "Resident",
+      "definition": "Resident:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Resident"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121087",
+      "display": "Registrar",
+      "definition": "Registrar:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Registrar"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "121088",
       "display": "Fellow",
       "definition": "Fellow:\nA medical practitioner undergoing sub-specialty training. E.g., during the period after specialty training (residency).",
@@ -31775,6 +33695,51 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "121089",
+      "display": "Attending [Consultant]",
+      "definition": "Attending[consultant]:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Attending[consultant]"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121090",
+      "display": "Scrub nurse",
+      "definition": "ScrubNurse:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ScrubNurse"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121091",
+      "display": "Surgeon",
+      "definition": "Surgeon:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Surgeon"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -31794,6 +33759,21 @@
       ]
     },
     {
+      "code": "121093",
+      "display": "Sonographer",
+      "definition": "Sonographer:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Sonographer"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "121094",
       "display": "Performing",
       "definition": "Performing:\nThe person responsible for performing the procedure.",
@@ -31805,6 +33785,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "121095",
+      "display": "Referring",
+      "definition": "Referring:\nThe person responsible for referring the patient for the procedure.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Referring"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -31869,6 +33864,21 @@
       ]
     },
     {
+      "code": "121100",
+      "display": "Circulating",
+      "definition": "Circulating:\nThe person responsible for making preparations for and monitoring the procedure.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Circulating"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "121101",
       "display": "Standby",
       "definition": "Standby:\nThe person responsible for standing by to assist with the precedure if required.",
@@ -31929,6 +33939,21 @@
       ]
     },
     {
+      "code": "121105",
+      "display": "Radiation Physicist",
+      "definition": "RadiationPhysicist:\nRadiation Physicist.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RadiationPhysicist"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "121106",
       "display": "Comment",
       "definition": "Comment:\nComment.",
@@ -31944,6 +33969,51 @@
       ]
     },
     {
+      "code": "121109",
+      "display": "Indications for Procedure",
+      "definition": "IndicationsForProcedure:\nIndications for Procedure\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "IndicationsForProcedure"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121110",
+      "display": "Patient Presentation",
+      "definition": "PatientPresentation:\nPatient condition at the beginning of a healthcare encounter\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "PatientPresentation"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121111",
+      "display": "Summary",
+      "definition": "Summary:\nSummary of a procedure, including most significant findings\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Summary"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "121112",
       "display": "Source of Measurement",
       "definition": "SourceOfMeasurement:\nImage or waveform used as source for measurement.",
@@ -31955,6 +34025,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "121113",
+      "display": "Complications",
+      "definition": "Complications:\nComplications from a procedure\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Complications"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -32784,6 +34869,21 @@
       ]
     },
     {
+      "code": "121180",
+      "display": "Key Images",
+      "definition": "KeyImages:\nList of references to images considered significant\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "KeyImages"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "121181",
       "display": "DICOM Object Catalog",
       "definition": "DicomObjectCatalog:\nList of references to DICOM SOP Instances.",
@@ -32949,6 +35049,36 @@
       ]
     },
     {
+      "code": "121201",
+      "display": "Area Outline",
+      "definition": "AreaOutline:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "AreaOutline"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121202",
+      "display": "Area of Defined Region",
+      "definition": "AreaOfDefinedRegion:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "AreaOfDefinedRegion"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "121206",
       "display": "Distance",
       "definition": "Distance:\nA one dimensional, or linear, numeric measurement between two points or features.",
@@ -32994,6 +35124,21 @@
       ]
     },
     {
+      "code": "121210",
+      "display": "Path",
+      "definition": "Path:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Path"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "121211",
       "display": "Path length",
       "definition": "PathLength:\nA one dimensional, or linear, numeric measurement along a polyline.",
@@ -33005,6 +35150,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "121213",
+      "display": "Perimeter Outline",
+      "definition": "PerimeterOutline:\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "PerimeterOutline"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -34719,6 +36879,36 @@
       ]
     },
     {
+      "code": "121427",
+      "display": "Estimated",
+      "definition": "Estimated:\nMeasurement obtained by observer estimation, rather than with a measurement tool or by calculation\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Estimated"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121428",
+      "display": "Calculated",
+      "definition": "Calculated:\nMeasurement obtained by calculation\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Calculated"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "121430",
       "display": "Concern",
       "definition": "Concern:\nIdentified issue about a state or process that has the potential to require intervention or management.",
@@ -34820,6 +37010,51 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "121437",
+      "display": "Pharmacologic and exercise stress test",
+      "definition": "PharmacologicAndExerciseStressTest:\nCardiac stress test using pharmacologic and exercise stressors\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "PharmacologicAndExerciseStressTest"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121438",
+      "display": "Paced stress test",
+      "definition": "PacedStressTest:\nCardiac stress test using an implanted or external cardiac pacing device\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "PacedStressTest"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "121439",
+      "display": "Correction of congenital cardiovascular deformity",
+      "definition": "CorrectionOfCongenitalCardiovascularDeformity:\nProcedure for correction of congenital cardiovascular deformity\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "CorrectionOfCongenitalCardiovascularDeformity"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -35964,6 +38199,21 @@
       ]
     },
     {
+      "code": "122046",
+      "display": "Equipment failure",
+      "definition": "EquipmentFailure:\nEquipment failure\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "EquipmentFailure"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "122047",
       "display": "Equipment brought to procedure room",
       "definition": "EquipmentBroughtToProcedureRoom:\nEquipment brought to procedure room.",
@@ -36155,6 +38405,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "122062",
+      "display": "15-Lead ECG",
+      "definition": "15-leadEcg:\n15-Lead electrocardiography\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "15-leadEcg"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -36635,6 +38900,36 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "122107",
+      "display": "Baseline Stenosis Measurement",
+      "definition": "BaselineStenosisMeasurement:\nLesion stenosis measured prior to any interventional procedure\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "BaselineStenosisMeasurement"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "122108",
+      "display": "Post-Intervention Stenosis Measurement",
+      "definition": "Post-interventionStenosisMeasurement:\nLesion stenosis measured after an interventional procedure\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Post-interventionStenosisMeasurement"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -38426,7 +40721,7 @@
     {
       "code": "122245",
       "display": "BSA = 1321+0.3433*WT",
-      "definition": "Bsa=1321+0.3433*wt:\nBody Surface Area computed from patient weight:BSA = 1321 + 0.3433 * WT[kg] (for pediatrics 3-30 kg) [Current, J.D. 'A Linear Equation For Estimating The Body Surface Area In Infants And Children',",
+      "definition": "Bsa=1321+0.3433*wt:\nBody Surface Area computed from patient weight:BSA = 1321 + 0.3433 * WT[kg] (for pediatrics 3-30 kg) [Current, J.D. 'A Linear Equation For Estimating The Body Surface Area In Infants And Children',The Internet Journal of Anesthesiology",
       "property": [
         {
           "code": "keyword",
@@ -38441,7 +40736,7 @@
     {
       "code": "122246",
       "display": "BSA = 0.0004688*WT^(0.8168-0.0154*log(WT))",
-      "definition": "Bsa=0.0004688*wt^(0.8168-0.0154*log(wt)):\nBSA = 0.0004688*(1000*WT)^(0.8168-0.0154*log(1000*WT)) Where (WT is weight in kilogram) Units = m2 Boyd, Edith.",
+      "definition": "Bsa=0.0004688*wt^(0.8168-0.0154*log(wt)):\nBSA = 0.0004688*(1000*WT)^(0.8168-0.0154*log(1000*WT)) Where (WT is weight in kilogram) Units = m2 Boyd, Edith.The Growth of the Surface Area of the Human Body",
       "property": [
         {
           "code": "keyword",
@@ -42866,7 +45161,7 @@
     {
       "code": "122730",
       "display": "Bazett QTc Algorithm",
-      "definition": "BazettQtcAlgorithm:\nBazett QT Correction Algorithm; QT/(RR ^ 0.5); Bazett HC. 'An analysis of the time-relations of electrocardiograms'",
+      "definition": "BazettQtcAlgorithm:\nBazett QT Correction Algorithm; QT/(RR ^ 0.5); Bazett HC. 'An analysis of the time-relations of electrocardiograms'Heart",
       "property": [
         {
           "code": "keyword",
@@ -42881,7 +45176,7 @@
     {
       "code": "122731",
       "display": "Hodges QTc Algorithm",
-      "definition": "HodgesQtcAlgorithm:\nHodges QT Correction Algorithm; QT + 1.75 (heart rate-60); Hodges M, Salerno Q, Erlien D. 'Bazett's QT correction reviewed. Evidence that a linear QT correction for heart rate is better.'",
+      "definition": "HodgesQtcAlgorithm:\nHodges QT Correction Algorithm; QT + 1.75 (heart rate-60); Hodges M, Salerno Q, Erlien D. 'Bazett's QT correction reviewed. Evidence that a linear QT correction for heart rate is better.'J Am Coll Cardiol",
       "property": [
         {
           "code": "keyword",
@@ -42896,7 +45191,7 @@
     {
       "code": "122732",
       "display": "Fridericia QTc Algorithm",
-      "definition": "FridericiaQtcAlgorithm:\nFridericia QT Correction Algorithm; QT/(RR ^ 0.333); Fridericia LS. 'The duration of systole in the electrocardiogram of normal subjects and of patients with heart disease'",
+      "definition": "FridericiaQtcAlgorithm:\nFridericia QT Correction Algorithm; QT/(RR ^ 0.333); Fridericia LS. 'The duration of systole in the electrocardiogram of normal subjects and of patients with heart disease'Acta Med Scand",
       "property": [
         {
           "code": "keyword",
@@ -42911,7 +45206,7 @@
     {
       "code": "122733",
       "display": "Framingham QTc Algorithm",
-      "definition": "FraminghamQtcAlgorithm:\nFramingham QT Correction Algorithm; QT + 0.154 (1- RR); Sagie A, Larson MG, Goldberg RJ,",
+      "definition": "FraminghamQtcAlgorithm:\nFramingham QT Correction Algorithm; QT + 0.154 (1- RR); Sagie A, Larson MG, Goldberg RJ,et al Am J Cardiol",
       "property": [
         {
           "code": "keyword",
@@ -43550,6 +45845,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "123001",
+      "display": "Radiopharmaceutical",
+      "definition": "Radiopharmaceutical:\nActive ingredient (molecular) used for radioactive tracing.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Radiopharmaceutical"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -44439,6 +46749,21 @@
       ]
     },
     {
+      "code": "125100",
+      "display": "Vascular Ultrasound Procedure Report",
+      "definition": "VascularUltrasoundProcedureReport:\nRoot Document Title for ultrasound vascular evidence reports (worksheets).\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "VascularUltrasoundProcedureReport"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "125101",
       "display": "Vessel Branch",
       "definition": "VesselBranch:\nThe particular vessel branch, such as the inferior, medial or lateral.",
@@ -44726,7 +47051,7 @@
     {
       "code": "125211",
       "display": "Biplane Ellipse",
-      "definition": "BiplaneEllipse:\nArea = P/4 X d1 X d2 d1 = anterior/posterior axis d2 = medial/lateral axis",
+      "definition": "BiplaneEllipse:\nArea = P/4 X d1 X d2 d1 = anterior/posterior axis d2 = medial/lateral axis Hagen-Ansert, Sandra L., Textbook of Diagnostic Ultrasound, ed. 3, The C.V.Mosby Co., 1989, p. 73.",
       "property": [
         {
           "code": "keyword",
@@ -44801,7 +47126,7 @@
     {
       "code": "125216",
       "display": "Proximal Isovelocity Surface Area",
-      "definition": "ProximalIsovelocitySurfaceArea:\nUtilizes aliasing velocity (by color Doppler) of flow into an orifice (often regurgitant or stenotic) to measure instantaneous flow rate, orifice area, and flow volume. The instantaneous flow rate = (22av av p Estimated Orifice area = Flow rate /p p The volume flow is then the product of the orifice area and Velocity Time Integral.",
+      "definition": "ProximalIsovelocitySurfaceArea:\nUtilizes aliasing velocity (by color Doppler) of flow into an orifice (often regurgitant or stenotic) to measure instantaneous flow rate, orifice area, and flow volume. The instantaneous flow rate = (2r2av vav r vp Estimated Orifice area = Flow rate /vp vp The volume flow is then the product of the orifice area and Velocity Time Integral.",
       "property": [
         {
           "code": "keyword",
@@ -44891,7 +47216,7 @@
     {
       "code": "125222",
       "display": "Left Ventricle Mass by Truncated Ellipse",
-      "definition": "LeftVentricleMassByTruncatedEllipse:\nMass = 1.05P ((b + t)232232 a = Semi-major axis from widest minor axis radius to apex. b = Short axis radius calculated from short axis cavity area t = Myocardial thickness calculated from short axis epicardial and cavity areas d = Truncated semi-major axis from widest short axis diameter to plane of mitral annulus. Mass unit is grams and length in cm.",
+      "definition": "LeftVentricleMassByTruncatedEllipse:\nMass = 1.05P ((b + t)232232 a = Semi-major axis from widest minor axis radius to apex. b = Short axis radius calculated from short axis cavity area t = Myocardial thickness calculated from short axis epicardial and cavity areas d = Truncated semi-major axis from widest short axis diameter to plane of mitral annulus. Mass unit is grams and length in cm. Schiller NB et al: Recommendations for quantification of the left ventricle by two-dimensional echocardiography, American Society of Echocardiography 2:364, 1989.",
       "property": [
         {
           "code": "keyword",
@@ -44906,7 +47231,7 @@
     {
       "code": "125223",
       "display": "4 Point Segment Finding Scale",
-      "definition": "4PointSegmentFindingScale:\nA four point, echocardiographic numeric scoring scheme of myocardium segments based on evaluation of wall motion and ventricle morphology.",
+      "definition": "4PointSegmentFindingScale:\nA four point, echocardiographic numeric scoring scheme of myocardium segments based on evaluation of wall motion and ventricle morphology.Recommendations for Quantitation of the Left Ventricle by Two-Dimensional Echocardiography",
       "property": [
         {
           "code": "keyword",
@@ -44921,7 +47246,7 @@
     {
       "code": "125224",
       "display": "5 Point Segment Finding Scale",
-      "definition": "5PointSegmentFindingScale:\nA five point, echocardiographic numeric scoring scheme of myocardium segments based on evaluation of wall motion and ventricle morphology.",
+      "definition": "5PointSegmentFindingScale:\nA five point, echocardiographic numeric scoring scheme of myocardium segments based on evaluation of wall motion and ventricle morphology.Recommendations for Quantitation of the Left Ventricle by Two-Dimensional Echocardiography",
       "property": [
         {
           "code": "keyword",
@@ -44936,7 +47261,7 @@
     {
       "code": "125225",
       "display": "5 Point Segment Finding Scale With Graded Hypokinesis",
-      "definition": "5PointSegmentFindingScaleWithGradedHypokinesis:\nA five point, echocardiographic numeric scoring scheme of myocardium segments based on evaluation of wall motion and ventricle morphology, with severity of hypokinesis graded.",
+      "definition": "5PointSegmentFindingScaleWithGradedHypokinesis:\nA five point, echocardiographic numeric scoring scheme of myocardium segments based on evaluation of wall motion and ventricle morphology, with severity of hypokinesis graded.Recommendations for Quantitation of the Left Ventricle by Two-Dimensional Echocardiography",
       "property": [
         {
           "code": "keyword",
@@ -44966,7 +47291,7 @@
     {
       "code": "125227",
       "display": "Modified Simpson",
-      "definition": "ModifiedSimpson:\nModified Simpson's Method of estimating ventricular volume, based on the method of disks with paired apical views. Schiller NB, et al. 'Recommendations for quantitation of the left ventricle by two-dimensional echocardiography. American Society of Echocardiography Committee on Standards, Subcommittee on Quantitation of Two-Dimensional Echocardiograms'.",
+      "definition": "ModifiedSimpson:\nModified Simpson's Method of estimating ventricular volume, based on the method of disks with paired apical views. Schiller NB, et al. 'Recommendations for quantitation of the left ventricle by two-dimensional echocardiography. American Society of Echocardiography Committee on Standards, Subcommittee on Quantitation of Two-Dimensional Echocardiograms'.J Am Soc Echocardiogr.",
       "property": [
         {
           "code": "keyword",
@@ -44990,6 +47315,36 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "125230",
+      "display": "Power Doppler",
+      "definition": "PowerDoppler:\nColor coded ultrasound images of blood flow, which depict the amplitude, or power, of Doppler signals.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "PowerDoppler"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "125231",
+      "display": "3D mode",
+      "definition": "3dMode:\nVolumetric ultrasound imaging\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "3dMode"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -46179,6 +48534,21 @@
       ]
     },
     {
+      "code": "126021",
+      "display": "Multiparametric MRI of prostate",
+      "definition": "MultiparametricMriOfProstate:\nAn MRI procedure of the prostate in which multiple parameters including diffusion, dynamic contrast and T2 are measured.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "MultiparametricMriOfProstate"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "126022",
       "display": "Multiparametric MRI of whole body",
       "definition": "MultiparametricMriOfWholeBody:\nAn MRI procedure of the whole body in which multiple parameters including diffusion, dynamic contrast and T2 are measured.",
@@ -46419,6 +48789,21 @@
       ]
     },
     {
+      "code": "126060",
+      "display": "Joint Entropy of GLCM",
+      "definition": "JointEntropyOfGlcm:\nThe zero order entropy of a Gray Level Co-occurrence Matrix (GLCM). A measure of disorder. Abbreviated ENT. See Fcm.joint.entr biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "JointEntropyOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "126061",
       "display": "Root Angular Second Moment of GLCM",
       "definition": "RootAngularSecondMomentOfGlcm:\nThe square root of the Angular Second Moment (ASM) of a Gray Level Co-occurrence Matrix (GLCM). A measure of orderliness. Seehttp://www.fp.ucalgary.ca/mhallbey/equations.htm\nretired",
@@ -46426,6 +48811,81 @@
         {
           "code": "keyword",
           "valueString": "RootAngularSecondMomentOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "126062",
+      "display": "Inverse Difference Moment of GLCM",
+      "definition": "InverseDifferenceMomentOfGlcm:\nThe Inverse Difference Moment (homogeneity) of a Gray Level Co-occurrence Matrix (GLCM). Abbreviated IDM. See Fcm.inv.diff.mom biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "InverseDifferenceMomentOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "126063",
+      "display": "Contrast of GLCM",
+      "definition": "ContrastOfGlcm:\nThe sum of squares of a Gray Level Co-occurrence Matrix (GLCM). A measure of gray level variations. Abbreviated CON. See Fcm.contrast biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ContrastOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "126064",
+      "display": "Dissimilarity of GLCM",
+      "definition": "DissimilarityOfGlcm:\nThe dissimilarity of a Gray Level Co-occurrence Matrix (GLCM). Abbreviated DIS. See Fcm.dissimilarity biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DissimilarityOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "126065",
+      "display": "Angular Second Moment of GLCM",
+      "definition": "AngularSecondMomentOfGlcm:\nThe Angular Second Moment of a Gray Level Co-occurrence Matrix (GLCM). Abbreviated ASM. See Fcm.energy biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "AngularSecondMomentOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "126066",
+      "display": "Correlation of GLCM",
+      "definition": "CorrelationOfGlcm:\nA measure of the linear dependency of gray levels on those of neighbouring pixels of a Gray Level Co-occurrence Matrix (GLCM). Abbreviated COR. See Fcm.corr biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "CorrelationOfGlcm"
         },
         {
           "code": "retired",
@@ -47546,7 +50006,7 @@
     {
       "code": "126401",
       "display": "SUVbw",
-      "definition": "Suvbw:\nStandardized Uptake Value calculated using body weight. The patient size correction factor for males and females is body weight. Defined in Sugawara et al.http://radiology.rsna.org/content/213/2/521",
+      "definition": "Suvbw:\nStandardized Uptake Value calculated using body weight. The patient size correction factor for males and females is body weight. Defined in Sugawara et al.Reevaluation of the Standardized Uptake Value for FDG: Variations with Body Weight and Methods for Correction. http://radiology.rsna.org/content/213/2/521",
       "property": [
         {
           "code": "keyword",
@@ -47561,7 +50021,7 @@
     {
       "code": "126402",
       "display": "SUVlbm",
-      "definition": "Suvlbm:\nStandardized Uptake Value calculated using lean body mass by James method. The patient size correction factor for males is 1.10 * weight - (120 or 128) * (weight/height) ^2, and for females is 1.07 * weight - 148 * (weight/height) ^2. Defined in Sugawara et al.http://radiology.rsna.org/content/213/2/521 Unfortunately, Sugawara used a parameter of 120 rather than 128, propagating an error in Morgan DJ, Bray KM. Lean Body Mass as a Predictor of Drug Dosage: Implications for Drug Therapy. Clinical Pharmacokinetics. 1994;26(4):292-307, which misquoted the original LBM definition that used 128 in James WPT, Waterlow JC. Research on Obesity: A Report of the DHSS/MRC Group. London: Her Majestys Stationery Office; 1976. Implementations differ in whether they have used 120 or 128 when using this code. See Kelly M. SUV: Advancing Comparability and Accuracy. Siemens; 2009. Available from:http://www.mpcphysics.com/documents/SUV_Whitepaper_Final_11.17.09_59807428_2.pdf",
+      "definition": "Suvlbm:\nStandardized Uptake Value calculated using lean body mass by James method. The patient size correction factor for males is 1.10 * weight - (120 or 128) * (weight/height) ^2, and for females is 1.07 * weight - 148 * (weight/height) ^2. Defined in Sugawara et al.Reevaluation of the Standardized Uptake Value for FDG: Variations with Body Weight and Methods for Correction. http://radiology.rsna.org/content/213/2/521 Unfortunately, Sugawara used a parameter of 120 rather than 128, propagating an error in Morgan DJ, Bray KM. Lean Body Mass as a Predictor of Drug Dosage: Implications for Drug Therapy. Clinical Pharmacokinetics. 1994;26(4):292-307, which misquoted the original LBM definition that used 128 in James WPT, Waterlow JC. Research on Obesity: A Report of the DHSS/MRC Group. London: Her Majestys Stationery Office; 1976. Implementations differ in whether they have used 120 or 128 when using this code. See Kelly M. SUV: Advancing Comparability and Accuracy. Siemens; 2009. Available from:http://www.mpcphysics.com/documents/SUV_Whitepaper_Final_11.17.09_59807428_2.pdf",
       "property": [
         {
           "code": "keyword",
@@ -47576,7 +50036,7 @@
     {
       "code": "126403",
       "display": "SUVbsa",
-      "definition": "Suvbsa:\nStandardized Uptake Value calculated using body surface area. The patient size correction factor for males and females is weight^ 0.425 * height^0.725 * 0.007184. Defined in Sugawara et al.http://radiology.rsna.org/content/213/2/521",
+      "definition": "Suvbsa:\nStandardized Uptake Value calculated using body surface area. The patient size correction factor for males and females is weight^ 0.425 * height^0.725 * 0.007184. Defined in Sugawara et al.Reevaluation of the Standardized Uptake Value for FDG: Variations with Body Weight and Methods for Correction. http://radiology.rsna.org/content/213/2/521",
       "property": [
         {
           "code": "keyword",
@@ -47591,7 +50051,7 @@
     {
       "code": "126404",
       "display": "SUVibw",
-      "definition": "Suvibw:\nStandardized Uptake Value calculated using ideal body weight. The patient size correction factor for males is 48.0 + 1.06 * (height - 152) and for females is 45.5 + 0.91 * (height - 152). Defined in Sugawara et al.http://radiology.rsna.org/content/213/2/521",
+      "definition": "Suvibw:\nStandardized Uptake Value calculated using ideal body weight. The patient size correction factor for males is 48.0 + 1.06 * (height - 152) and for females is 45.5 + 0.91 * (height - 152). Defined in Sugawara et al.Reevaluation of the Standardized Uptake Value for FDG: Variations with Body Weight and Methods for Correction. http://radiology.rsna.org/content/213/2/521",
       "property": [
         {
           "code": "keyword",
@@ -47606,7 +50066,7 @@
     {
       "code": "126405",
       "display": "SUVlbm(Janma)",
-      "definition": "Suvlbm(janma):\nStandardized Uptake Value calculated using lean body mass by Janmahasatian method. The patient size correction factor for males is 9.27E3 * weight / (6.68E3 + 216 * weight / (height^2)) and for females is 9.27E3 * weight / (8.78E3 + 244 * weight / (height^2)). Defined inhttp://dx.doi.org/10.2165/00003088-200544100-00004 http://jnm.snmjournals.org/content/55/9/1481",
+      "definition": "Suvlbm(janma):\nStandardized Uptake Value calculated using lean body mass by Janmahasatian method. The patient size correction factor for males is 9.27E3 * weight / (6.68E3 + 216 * weight / (height^2)) and for females is 9.27E3 * weight / (8.78E3 + 244 * weight / (height^2)). Defined inJanmahasatian et al. Quantification of Lean Bodyweight. Clin Pharmacokinet. 2005 Oct 1;44(10):1051-65. http://dx.doi.org/10.2165/00003088-200544100-00004 Tahari et al. Optimum Lean Body Formulation for Correction of Standardized Uptake Value in PET Imaging. Journal of Nuclear Medicine. 2014 Sep 1;55(9):1481-4. http://jnm.snmjournals.org/content/55/9/1481",
       "property": [
         {
           "code": "keyword",
@@ -47636,7 +50096,7 @@
     {
       "code": "126410",
       "display": "SUV body weight calculation method",
-      "definition": "SuvBodyWeightCalculationMethod:\nMethod of calculating Standardized Uptake Value using body weight. The patient size correction factor for males and females is body weight. Defined in Sugawara et al.http://radiology.rsna.org/content/213/2/521",
+      "definition": "SuvBodyWeightCalculationMethod:\nMethod of calculating Standardized Uptake Value using body weight. The patient size correction factor for males and females is body weight. Defined in Sugawara et al.Reevaluation of the Standardized Uptake Value for FDG: Variations with Body Weight and Methods for Correction. http://radiology.rsna.org/content/213/2/521",
       "property": [
         {
           "code": "keyword",
@@ -47651,7 +50111,7 @@
     {
       "code": "126411",
       "display": "SUV lean body mass calculation method",
-      "definition": "SuvLeanBodyMassCalculationMethod:\nMethod of calculating Standardized Uptake Value using lean body mass. The patient size correction factor for males is 1.10 * weight - (120 or 128) * (weight/height) ^2, and for females is 1.07 * weight - 148 * (weight/height) ^2. Defined in Sugawara et al.http://radiology.rsna.org/content/213/2/521 Unfortunately, Sugawara used a parameter of 120 rather than 128, propagating an error in Morgan DJ, Bray KM. Lean Body Mass as a Predictor of Drug Dosage: Implications for Drug Therapy. Clinical Pharmacokinetics. 1994;26(4):292-307, which misquoted the original LBM definition that used 128 in James WPT, Waterlow JC. Research on Obesity: A Report of the DHSS/MRC Group. London: Her Majestys Stationery Office; 1976. Implementations differ in whether they have used 120 or 128 when using this code. See Kelly M. SUV: Advancing Comparability and Accuracy. Siemens; 2009. Available from:http://www.mpcphysics.com/documents/SUV_Whitepaper_Final_11.17.09_59807428_2.pdf",
+      "definition": "SuvLeanBodyMassCalculationMethod:\nMethod of calculating Standardized Uptake Value using lean body mass. The patient size correction factor for males is 1.10 * weight - (120 or 128) * (weight/height) ^2, and for females is 1.07 * weight - 148 * (weight/height) ^2. Defined in Sugawara et al.Reevaluation of the Standardized Uptake Value for FDG: Variations with Body Weight and Methods for Correction. http://radiology.rsna.org/content/213/2/521 Unfortunately, Sugawara used a parameter of 120 rather than 128, propagating an error in Morgan DJ, Bray KM. Lean Body Mass as a Predictor of Drug Dosage: Implications for Drug Therapy. Clinical Pharmacokinetics. 1994;26(4):292-307, which misquoted the original LBM definition that used 128 in James WPT, Waterlow JC. Research on Obesity: A Report of the DHSS/MRC Group. London: Her Majestys Stationery Office; 1976. Implementations differ in whether they have used 120 or 128 when using this code. See Kelly M. SUV: Advancing Comparability and Accuracy. Siemens; 2009. Available from:http://www.mpcphysics.com/documents/SUV_Whitepaper_Final_11.17.09_59807428_2.pdf",
       "property": [
         {
           "code": "keyword",
@@ -47666,7 +50126,7 @@
     {
       "code": "126412",
       "display": "SUV body surface area calculation method",
-      "definition": "SuvBodySurfaceAreaCalculationMethod:\nMethod of calculating Standardized Uptake Value using body surface area. The patient size correction factor for males and females is weight^ 0.425 * height^0.725 * 0.007184. Defined in Sugawara et al.http://radiology.rsna.org/content/213/2/521",
+      "definition": "SuvBodySurfaceAreaCalculationMethod:\nMethod of calculating Standardized Uptake Value using body surface area. The patient size correction factor for males and females is weight^ 0.425 * height^0.725 * 0.007184. Defined in Sugawara et al.Reevaluation of the Standardized Uptake Value for FDG: Variations with Body Weight and Methods for Correction. http://radiology.rsna.org/content/213/2/521",
       "property": [
         {
           "code": "keyword",
@@ -47681,7 +50141,7 @@
     {
       "code": "126413",
       "display": "SUV ideal body weight calculation method",
-      "definition": "SuvIdealBodyWeightCalculationMethod:\nMethod of calculating Standardized Uptake Value using ideal body weight. The patient size correction factor for males is 48.0 + 1.06 * (height - 152) and for females is 45.5 + 0.91 * (height - 152). Defined in Sugawara et al.http://radiology.rsna.org/content/213/2/521",
+      "definition": "SuvIdealBodyWeightCalculationMethod:\nMethod of calculating Standardized Uptake Value using ideal body weight. The patient size correction factor for males is 48.0 + 1.06 * (height - 152) and for females is 45.5 + 0.91 * (height - 152). Defined in Sugawara et al.Reevaluation of the Standardized Uptake Value for FDG: Variations with Body Weight and Methods for Correction. http://radiology.rsna.org/content/213/2/521",
       "property": [
         {
           "code": "keyword",
@@ -47696,7 +50156,7 @@
     {
       "code": "126414",
       "display": "SUV lean body mass calculation Janmahasatian method",
-      "definition": "SuvLeanBodyMassCalculationJanmahasatianMethod:\nJanmahasatian method of calculating Standardized Uptake Value using lean body mass. The patient size correction factor for males is 9.27E3 * weight / (6.68E3 + 216 * weight / (height^2)) and for females is 9.27E3 * weight / (8.78E3 + 244 * weight / (height^2)). Defined inhttp://dx.doi.org/10.2165/00003088-200544100-00004 http://jnm.snmjournals.org/content/55/9/1481",
+      "definition": "SuvLeanBodyMassCalculationJanmahasatianMethod:\nJanmahasatian method of calculating Standardized Uptake Value using lean body mass. The patient size correction factor for males is 9.27E3 * weight / (6.68E3 + 216 * weight / (height^2)) and for females is 9.27E3 * weight / (8.78E3 + 244 * weight / (height^2)). Defined inJanmahasatian et al. Quantification of Lean Bodyweight. Clin Pharmacokinet. 2005 Oct 1;44(10):1051-65. http://dx.doi.org/10.2165/00003088-200544100-00004 Tahari et al. Optimum Lean Body Formulation for Correction of Standardized Uptake Value in PET Imaging. Journal of Nuclear Medicine. 2014 Sep 1;55(9):1481-4. http://jnm.snmjournals.org/content/55/9/1481",
       "property": [
         {
           "code": "keyword",
@@ -48265,11 +50725,12 @@
     },
     {
       "code": "126712",
-      "definition": ":\nretired",
+      "display": "Flubatine F^18^",
+      "definition": "FlubatineF^18^:\nAn F 18 Flubatine PET radiotracer.\nretired",
       "property": [
         {
           "code": "keyword",
-          "valueString": ""
+          "valueString": "FlubatineF^18^"
         },
         {
           "code": "retired",
@@ -48334,6 +50795,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "126717",
+      "display": "THK5351 F^18^",
+      "definition": "Thk5351F^18^:\nA PET radiotracer used for tau brain imaging. See Harada R, Okamura N, Furumoto S, Furukawa K, Ishiki A, Tomita N, et al. 18F-THK5351: A Novel PET Radiotracer for Imaging Neurofibrillary Pathology in Alzheimer Disease. Journal of Nuclear Medicine. 2016 Feb 1;57(2):208-14.doi:10.2967/jnumed.115.164848\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Thk5351F^18^"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -54413,6 +56889,21 @@
       ]
     },
     {
+      "code": "128464",
+      "display": "Radiation Dose Estimate Parameter Type",
+      "definition": "RadiationDoseEstimateParameterType:\nParameters used in mathematical, simulation, or empirical calculations for radiation dose estimation.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RadiationDoseEstimateParameterType"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
       "code": "128465",
       "display": "Equivalent Attenuator Material",
       "definition": "EquivalentAttenuatorMaterial:\nThe equivalent material used to estimate the reduction in radiation intensity.",
@@ -56584,6 +59075,771 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "128781",
+      "display": "Joint Maximum of GLCM",
+      "definition": "JointMaximumOfGlcm:\nThe probability corresponding to the most common gray level co-occurrence in the GLCM. Abbreviated MAX. See Fcm.joint.max biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "JointMaximumOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128782",
+      "display": "Joint Average of GLCM",
+      "definition": "JointAverageOfGlcm:\nThe gray level weighted sum of joint probabilities of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.joint.avg biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "JointAverageOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128783",
+      "display": "Joint Variance of GLCM",
+      "definition": "JointVarianceOfGlcm:\nThe sum of squares of the difference from the joint average of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.joint.var biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "JointVarianceOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128784",
+      "display": "Difference Average of GLCM",
+      "definition": "DifferenceAverageOfGlcm:\nThe average for the diagonal probabilities of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.diff.avg biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DifferenceAverageOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128785",
+      "display": "Difference Variance of GLCM",
+      "definition": "DifferenceVarianceOfGlcm:\nThe variance for the diagonal probabilities of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.diff.var biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DifferenceVarianceOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128786",
+      "display": "Difference Entropy of GLCM",
+      "definition": "DifferenceEntropyOfGlcm:\nThe entropy for the diagonal probabilities of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.diff.entr biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "DifferenceEntropyOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128787",
+      "display": "Sum Average of GLCM",
+      "definition": "SumAverageOfGlcm:\nThe average for the cross-diagonal probabilities of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.sum.avg biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "SumAverageOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128788",
+      "display": "Sum Variance of GLCM",
+      "definition": "SumVarianceOfGlcm:\nThe variance for the cross-diagonal probabilities of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.sum.var biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "SumVarianceOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128789",
+      "display": "Sum Entropy of GLCM",
+      "definition": "SumEntropyOfGlcm:\nThe entropy for the cross-diagonal probabilities of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.sum.entr biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "SumEntropyOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128790",
+      "display": "Inverse Difference of GLCM",
+      "definition": "InverseDifferenceOfGlcm:\nThe inverse difference of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.inv.diff biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "InverseDifferenceOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128791",
+      "display": "Inverse Difference Normalized of GLCM",
+      "definition": "InverseDifferenceNormalizedOfGlcm:\nThe normalized inverse difference of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.inv.diff.norm biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "InverseDifferenceNormalizedOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128792",
+      "display": "Inverse Difference Moment Normalized of GLCM",
+      "definition": "InverseDifferenceMomentNormalizedOfGlcm:\nThe normalized inverse difference moment of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.inv.diff.mom.norm biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "InverseDifferenceMomentNormalizedOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128793",
+      "display": "Inverse Variance of GLCM",
+      "definition": "InverseVarianceOfGlcm:\nThe inverse variance of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.inv.var biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "InverseVarianceOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128794",
+      "display": "Autocorrelation of GLCM",
+      "definition": "AutocorrelationOfGlcm:\nThe autocorrelation of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.auto.corr biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "AutocorrelationOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128795",
+      "display": "Cluster Tendency of GLCM",
+      "definition": "ClusterTendencyOfGlcm:\nThe cluster tendency of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.clust.tend biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ClusterTendencyOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128796",
+      "display": "Cluster Shade of GLCM",
+      "definition": "ClusterShadeOfGlcm:\nThe cluster shade of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.clust.shade biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ClusterShadeOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128797",
+      "display": "Cluster Prominence of GLCM",
+      "definition": "ClusterProminenceOfGlcm:\nThe cluster prominence of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.clust.prom biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ClusterProminenceOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128798",
+      "display": "First Measure of Information Correlation of GLCM",
+      "definition": "FirstMeasureOfInformationCorrelationOfGlcm:\nThe first measure of information correlation of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.info.corr.1 biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "FirstMeasureOfInformationCorrelationOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128799",
+      "display": "Second Measure of Information Correlation of GLCM",
+      "definition": "SecondMeasureOfInformationCorrelationOfGlcm:\nThe second measure of information correlation of a Gray Level Co-occurrence Matrix (GLCM). See Fcm.info.corr.2 biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "SecondMeasureOfInformationCorrelationOfGlcm"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128801",
+      "display": "Short Runs Emphasis",
+      "definition": "ShortRunsEmphasis:\nA measure of the distribution of short runs in a gray level run length matrix. Abbreviated SRE. See Frlm.sre biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ShortRunsEmphasis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128802",
+      "display": "Long Runs Emphasis",
+      "definition": "LongRunsEmphasis:\nA measure of the distribution of long runs in a gray level run length matrix. Abbreviated LRE. See Frlm.lre biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "LongRunsEmphasis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128803",
+      "display": "Low Gray Level Run Emphasis",
+      "definition": "LowGrayLevelRunEmphasis:\nA measure of the distribution of low gray level values in a gray level run length matrix. Abbreviated LGRE. See Frlm.lgre biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "LowGrayLevelRunEmphasis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128804",
+      "display": "High Gray Level Run Emphasis",
+      "definition": "HighGrayLevelRunEmphasis:\nA measure of the distribution of high gray level values in a gray level run length matrix. Abbreviated HGRE. See Frlm.hgre biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "HighGrayLevelRunEmphasis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128805",
+      "display": "Short Run Low Gray Level Emphasis",
+      "definition": "ShortRunLowGrayLevelEmphasis:\nA measure of the joint distribution of short runs and low gray level values in a gray level run length matrix. Abbreviated SRLGE. See Frlm.srlge biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ShortRunLowGrayLevelEmphasis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128806",
+      "display": "Short Run High Gray Level Emphasis",
+      "definition": "ShortRunHighGrayLevelEmphasis:\nA measure of the joint distribution of short runs and high gray level values in a gray level run length matrix. Abbreviated SRHGE. See Frlm.srhge biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ShortRunHighGrayLevelEmphasis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128807",
+      "display": "Long Run Low Gray Level Emphasis",
+      "definition": "LongRunLowGrayLevelEmphasis:\nA measure of the joint distribution of long runs and low gray level values in a gray level run length matrix. Abbreviated LRLGE. See Frlm.lrlge biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "LongRunLowGrayLevelEmphasis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128808",
+      "display": "Long Run High Gray Level Emphasis",
+      "definition": "LongRunHighGrayLevelEmphasis:\nA measure of the the joint distribution of long runs and high gray level values in a gray level run length matrix. Abbreviated LRHGE. See Frlm.lrhge biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "LongRunHighGrayLevelEmphasis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128809",
+      "display": "Gray Level Nonuniformity in Runs",
+      "definition": "GrayLevelNonuniformityInRuns:\nA measure of the similarity of gray level values throughout the image in a gray level run length matrix. Abbreviated RLM.GLNU. See Frlm.glnu biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "GrayLevelNonuniformityInRuns"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128810",
+      "display": "Gray Level Nonuniformity in Runs Normalized",
+      "definition": "GrayLevelNonuniformityInRunsNormalized:\nA normalized measure of the similarity of gray level values throughout the image in a gray level run length matrix. See Frlm.glnu.norm biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "GrayLevelNonuniformityInRunsNormalized"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128811",
+      "display": "Run Length Nonuniformity",
+      "definition": "RunLengthNonuniformity:\nA measure of the the similarity of the length of runs throughout the image in a gray level run length matrix. Abbreviated RLNU. See Frlm.rlnu biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RunLengthNonuniformity"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128812",
+      "display": "Run Length Nonuniformity Normalized",
+      "definition": "RunLengthNonuniformityNormalized:\nA normalized measure of the the similarity of the length of runs throughout the image in a gray level run length matrix. See Frlm.rlnu.norm biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RunLengthNonuniformityNormalized"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128813",
+      "display": "Run Percentage",
+      "definition": "RunPercentage:\nA measure of the homogeneity and distribution of runs of an image in a specific direction in a gray level run length matrix. Abbreviated RPC. See Frlm.r.perc biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RunPercentage"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128814",
+      "display": "Gray Level Variance in Runs",
+      "definition": "GrayLevelVarianceInRuns:\nThe variance in runs for the gray levels in a gray level run length matrix. See Frlm.gl.var biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "GrayLevelVarianceInRuns"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128815",
+      "display": "Run Length Variance",
+      "definition": "RunLengthVariance:\nThe variance in runs for run lengths in a gray level run length matrix. See Frlm.rl.var biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RunLengthVariance"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128816",
+      "display": "Run Entropy",
+      "definition": "RunEntropy:\nThe entropy of runs in a gray level run length matrix. See Frlm.rl.entr biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RunEntropy"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128821",
+      "display": "Small Zone Emphasis",
+      "definition": "SmallZoneEmphasis:\nA feature that emphasizes small zones from a gray level size zone matrix. Abbreviated SZE. See Fszm.sze biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "SmallZoneEmphasis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128822",
+      "display": "Large Zone Emphasis",
+      "definition": "LargeZoneEmphasis:\nA feature that emphasizes large zones from a gray level size zone matrix. Abbreviated LZE. See Fszm.lze biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "LargeZoneEmphasis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128823",
+      "display": "Low Gray Level Zone Emphasis",
+      "definition": "LowGrayLevelZoneEmphasis:\nA feature that emphasizes low gray level zones from a gray level size zone matrix. Abbreviated LGZE. See Fszm.lgze biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "LowGrayLevelZoneEmphasis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128824",
+      "display": "High Gray Level Zone Emphasis",
+      "definition": "HighGrayLevelZoneEmphasis:\nA feature that emphasizes high gray level zones from a gray level size zone matrix. Abbreviated LGZE. See Fszm.hgze biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "HighGrayLevelZoneEmphasis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128825",
+      "display": "Small Zone Low Gray Level Emphasis",
+      "definition": "SmallZoneLowGrayLevelEmphasis:\nA feature that emphasizes small zone sizes and low gray levels from a gray level size zone matrix. Abbreviated SZLGE. See Fszm.szlge biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "SmallZoneLowGrayLevelEmphasis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128826",
+      "display": "Small Zone High Gray Level Emphasis",
+      "definition": "SmallZoneHighGrayLevelEmphasis:\nA feature that emphasizes small zone sizes and high gray levels from a gray level size zone matrix. Abbreviated SZHGE. See Fszm.szhge biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "SmallZoneHighGrayLevelEmphasis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128827",
+      "display": "Large Zone Low Gray Level Emphasis",
+      "definition": "LargeZoneLowGrayLevelEmphasis:\nA feature that emphasizes large zone sizes and low gray levels from a gray level size zone matrix. Abbreviated LZLGE. See Fszm.lzlge biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "LargeZoneLowGrayLevelEmphasis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128828",
+      "display": "Large Zone High Gray Level Emphasis",
+      "definition": "LargeZoneHighGrayLevelEmphasis:\nA feature that emphasizes large zone sizes and high gray levels from a gray level size zone matrix. Abbreviated LZHGE. See Fszm.lzhge biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "LargeZoneHighGrayLevelEmphasis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128829",
+      "display": "Gray Level Nonuniformity of Zone Counts",
+      "definition": "GrayLevelNonuniformityOfZoneCounts:\nThe distribution of zone counts over the gray values in a gray level size zone matrix. Abbreviated SZM.GLNU. See Fszm.glnu biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "GrayLevelNonuniformityOfZoneCounts"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128830",
+      "display": "Gray Level Nonuniformity of Zone Counts Normalized",
+      "definition": "GrayLevelNonuniformityOfZoneCountsNormalized:\nThe normalized distribution of zone counts over the gray values in a gray level size zone matrix. See Fszm.glnu.norm biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "GrayLevelNonuniformityOfZoneCountsNormalized"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128831",
+      "display": "Zone Size Nonuniformity",
+      "definition": "ZoneSizeNonuniformity:\nThe distribution of zone counts over the different zone sizes in a gray level size zone matrix. Abbreviated ZSNU. See Fszm.zsnu biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ZoneSizeNonuniformity"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128832",
+      "display": "Zone Size Nonuniformity Normalized",
+      "definition": "ZoneSizeNonuniformityNormalized:\nThe normalized distribution of zone counts over the different zone sizes in a gray level size zone matrix. See Fszm.zsnu.norm biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ZoneSizeNonuniformityNormalized"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128833",
+      "display": "Zone Percentage",
+      "definition": "ZonePercentage:\nThe fraction of the number of realised zones relative to the maximum number of potential zones in a gray level size zone matrix. Abbreviated ZPERC. See Fszm.z.perc biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ZonePercentage"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128834",
+      "display": "Gray Level Variance in Zones",
+      "definition": "GrayLevelVarianceInZones:\nThe variance ithe variance in zone counts for the gray levels in a gray level size zone matrix. See Fszm.gl.var biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "GrayLevelVarianceInZones"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128835",
+      "display": "Zone Size Variance",
+      "definition": "ZoneSizeVariance:\nThe variance in zone counts for the different zone sizes in a gray level size zone matrix. See Fszm.zs.var biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ZoneSizeVariance"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "128836",
+      "display": "Zone Size Entropy",
+      "definition": "ZoneSizeEntropy:\nThe entropy of zone sizes in a gray level size zone matrix. See Fszm.zs.entr biblio_IBSI_Features\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ZoneSizeEntropy"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -59689,6 +62945,21 @@
         {
           "code": "retired",
           "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "130170",
+      "display": "Automatic with Manual Hold Phase",
+      "definition": "AutomaticWithManualHoldPhase:\nAn administration phase where the fluid is delivered automatically by an injector system and stopped under manual control by the operator.\nretired",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "AutomaticWithManualHoldPhase"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": true
         }
       ]
     },
@@ -72833,5 +76104,5 @@
     }
   ],
   "version": "2025.4.20250919",
-  "count": 4854
+  "count": 5072
 }

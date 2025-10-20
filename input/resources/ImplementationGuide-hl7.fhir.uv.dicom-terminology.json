@@ -3099,7 +3099,15 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/dicom-uids-context-group"
+          "reference": "CodeSystem/dicom-content-item-valuetypes"
+        },
+        "name": "DICOM® Content Item Value Type",
+        "description": "DICOM® Content Item Value Type extracted from (DICOM Part 3 section C.17.2-1)[https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.17.3.2.html#sect_C.17.3.2.1].",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/dicom-uids-context-group"
         },
         "name": "DICOM® Context Group UID Values",
         "description": "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3.",
@@ -3155,7 +3163,7 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/dicom-sop-classes-codesystem"
+          "reference": "ValueSet/dicom-uids-sop-classes-codesystem"
         },
         "name": "DICOM® SOP Classes",
         "description": "DICOM® SOP Classes extracted from DICOM PS3.6 Table A-1.",
@@ -3163,7 +3171,7 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/dicom-uids-color-palletes"
+          "reference": "ValueSet/dicom-uids-color-palletes"
         },
         "name": "DICOM® Standard Color Palettes",
         "description": "DICOM® Standard Color Palettes from DICOM PS3.6 Table B-1-1.",
@@ -3171,10 +3179,18 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/dicom-uids-templates"
+          "reference": "ValueSet/dicom-uids-template"
         },
         "name": "DICOM® Template UID Values",
         "description": "DICOM® Template UID Values from DICOM PS3.6 Table A-4.",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/dicom-uids-unique-identifiers"
+        },
+        "name": "DICOM® Unique Identifiers",
+        "description": "DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1.",
         "isExample": false
       },
       {
@@ -3195,9 +3211,9 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/dicom-uids-frame-of-reference"
+          "reference": "ValueSet/dicom-uids-frame-of-reference"
         },
-        "name": "DICOM® Well-known Frames of Reference",
+        "name": "DICOM® Well Known Frame of Reference UID Values",
         "description": "DICOM® Well-known Frames of Reference from DICOM PS3.6 Table A-2.",
         "isExample": false
       },

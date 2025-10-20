@@ -66,6 +66,10 @@
             "display": "Referenced File ID"
           },
           {
+            "code": "MRDRDirectoryRecordOffset",
+            "display": "MRDR Directory Record Offset"
+          },
+          {
             "code": "ReferencedSOPClassUIDInFile",
             "display": "Referenced SOP Class UID in File"
           },
@@ -80,6 +84,10 @@
           {
             "code": "ReferencedRelatedGeneralSOPClassUIDInFile",
             "display": "Referenced Related General SOP Class UID in File"
+          },
+          {
+            "code": "NumberOfReferences",
+            "display": "Number of References"
           }
         ]
       }

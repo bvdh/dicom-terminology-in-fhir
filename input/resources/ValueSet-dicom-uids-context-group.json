@@ -1,0 +1,5804 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DICOM__UID_ContextGroups",
+  "id": "dicom-uids-context-group",
+  "title": "DICOM® Context Group UID Values",
+  "description": "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3.",
+  "url": "http://dicom.nema.org/resources/CodeSystem/DICOM__UID_ContextGroups",
+  "version": "2025.4.20250919",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/CodeSystem/DICOM_UIDs",
+        "concept": [
+          {
+            "code": "1.2.840.10008.6.1.1",
+            "display": "Anatomic Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.2",
+            "display": "Anatomic Region"
+          },
+          {
+            "code": "1.2.840.10008.6.1.3",
+            "display": "Transducer Approach"
+          },
+          {
+            "code": "1.2.840.10008.6.1.4",
+            "display": "Transducer Orientation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.5",
+            "display": "Ultrasound Beam Path"
+          },
+          {
+            "code": "1.2.840.10008.6.1.6",
+            "display": "Angiographic Interventional Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.7",
+            "display": "Image Guided Therapeutic Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.8",
+            "display": "Interventional Drug"
+          },
+          {
+            "code": "1.2.840.10008.6.1.9",
+            "display": "Administration Route"
+          },
+          {
+            "code": "1.2.840.10008.6.1.10",
+            "display": "Imaging Contrast Agent"
+          },
+          {
+            "code": "1.2.840.10008.6.1.11",
+            "display": "Imaging Contrast Agent Ingredient"
+          },
+          {
+            "code": "1.2.840.10008.6.1.12",
+            "display": "Radiopharmaceutical Isotope"
+          },
+          {
+            "code": "1.2.840.10008.6.1.13",
+            "display": "Patient Orientation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.14",
+            "display": "Patient Orientation Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.15",
+            "display": "Patient Equipment Relationship"
+          },
+          {
+            "code": "1.2.840.10008.6.1.16",
+            "display": "Cranio-Caudad Angulation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.17",
+            "display": "Radiopharmaceutical"
+          },
+          {
+            "code": "1.2.840.10008.6.1.18",
+            "display": "Nuclear Medicine Projection"
+          },
+          {
+            "code": "1.2.840.10008.6.1.19",
+            "display": "Acquisition Modality"
+          },
+          {
+            "code": "1.2.840.10008.6.1.20",
+            "display": "DICOM Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.21",
+            "display": "Abstract Prior"
+          },
+          {
+            "code": "1.2.840.10008.6.1.22",
+            "display": "Numeric Value Qualifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.23",
+            "display": "Measurement Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.24",
+            "display": "Real World Value Mapping Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.25",
+            "display": "Significance Level"
+          },
+          {
+            "code": "1.2.840.10008.6.1.26",
+            "display": "Measurement Range Concept"
+          },
+          {
+            "code": "1.2.840.10008.6.1.27",
+            "display": "Normality"
+          },
+          {
+            "code": "1.2.840.10008.6.1.28",
+            "display": "Normal Range Value"
+          },
+          {
+            "code": "1.2.840.10008.6.1.29",
+            "display": "Selection Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.30",
+            "display": "Measurement Uncertainty Concept"
+          },
+          {
+            "code": "1.2.840.10008.6.1.31",
+            "display": "Population Statistical Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.32",
+            "display": "Sample Statistical Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.33",
+            "display": "Equation or Table"
+          },
+          {
+            "code": "1.2.840.10008.6.1.34",
+            "display": "Yes-No"
+          },
+          {
+            "code": "1.2.840.10008.6.1.35",
+            "display": "Present-Absent"
+          },
+          {
+            "code": "1.2.840.10008.6.1.36",
+            "display": "Normal-Abnormal"
+          },
+          {
+            "code": "1.2.840.10008.6.1.37",
+            "display": "Laterality"
+          },
+          {
+            "code": "1.2.840.10008.6.1.38",
+            "display": "Positive-Negative"
+          },
+          {
+            "code": "1.2.840.10008.6.1.39",
+            "display": "Complication Severity"
+          },
+          {
+            "code": "1.2.840.10008.6.1.40",
+            "display": "Observer Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.41",
+            "display": "Observation Subject Class"
+          },
+          {
+            "code": "1.2.840.10008.6.1.42",
+            "display": "Audio Channel Source"
+          },
+          {
+            "code": "1.2.840.10008.6.1.43",
+            "display": "ECG Lead"
+          },
+          {
+            "code": "1.2.840.10008.6.1.44",
+            "display": "Hemodynamic Waveform Source"
+          },
+          {
+            "code": "1.2.840.10008.6.1.45",
+            "display": "Cardiovascular Anatomic Structure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.46",
+            "display": "Electrophysiology Anatomic Location"
+          },
+          {
+            "code": "1.2.840.10008.6.1.47",
+            "display": "Coronary Artery Segment"
+          },
+          {
+            "code": "1.2.840.10008.6.1.48",
+            "display": "Coronary Artery"
+          },
+          {
+            "code": "1.2.840.10008.6.1.49",
+            "display": "Cardiovascular Anatomic Structure Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.50",
+            "display": "Cardiology Measurement Unit (Retired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.51",
+            "display": "Time Synchronization Channel Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.52",
+            "display": "Cardiac Procedural State Value"
+          },
+          {
+            "code": "1.2.840.10008.6.1.53",
+            "display": "Electrophysiology Measurement Function/Technique"
+          },
+          {
+            "code": "1.2.840.10008.6.1.54",
+            "display": "Hemodynamic Measurement Technique"
+          },
+          {
+            "code": "1.2.840.10008.6.1.55",
+            "display": "Catheterization Procedure Phase"
+          },
+          {
+            "code": "1.2.840.10008.6.1.56",
+            "display": "Electrophysiology Procedure Phase"
+          },
+          {
+            "code": "1.2.840.10008.6.1.57",
+            "display": "Stress Protocol"
+          },
+          {
+            "code": "1.2.840.10008.6.1.58",
+            "display": "ECG Patient State Value"
+          },
+          {
+            "code": "1.2.840.10008.6.1.59",
+            "display": "Electrode Placement Value"
+          },
+          {
+            "code": "1.2.840.10008.6.1.60",
+            "display": "XYZ Electrode Placement Values (Retired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.61",
+            "display": "Hemodynamic Physiological Challenge"
+          },
+          {
+            "code": "1.2.840.10008.6.1.62",
+            "display": "ECG Annotation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.63",
+            "display": "Hemodynamic Annotation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.64",
+            "display": "Electrophysiology Annotation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.65",
+            "display": "Procedure Log Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.66",
+            "display": "Log Note Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.67",
+            "display": "Patient Status and Event"
+          },
+          {
+            "code": "1.2.840.10008.6.1.68",
+            "display": "Percutaneous Entry"
+          },
+          {
+            "code": "1.2.840.10008.6.1.69",
+            "display": "Staff Action"
+          },
+          {
+            "code": "1.2.840.10008.6.1.70",
+            "display": "Procedure Action Value"
+          },
+          {
+            "code": "1.2.840.10008.6.1.71",
+            "display": "Non-coronary Transcatheter Intervention"
+          },
+          {
+            "code": "1.2.840.10008.6.1.72",
+            "display": "Object Reference Purpose"
+          },
+          {
+            "code": "1.2.840.10008.6.1.73",
+            "display": "Consumable Action"
+          },
+          {
+            "code": "1.2.840.10008.6.1.74",
+            "display": "Drug/Contrast Administration"
+          },
+          {
+            "code": "1.2.840.10008.6.1.75",
+            "display": "Drug/Contrast Numeric Parameter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.76",
+            "display": "Intracoronary Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.77",
+            "display": "Intervention Action/Status"
+          },
+          {
+            "code": "1.2.840.10008.6.1.78",
+            "display": "Adverse Outcome"
+          },
+          {
+            "code": "1.2.840.10008.6.1.79",
+            "display": "Procedure Urgency"
+          },
+          {
+            "code": "1.2.840.10008.6.1.80",
+            "display": "Cardiac Rhythm"
+          },
+          {
+            "code": "1.2.840.10008.6.1.81",
+            "display": "Respiration Rhythm"
+          },
+          {
+            "code": "1.2.840.10008.6.1.82",
+            "display": "Lesion Risk"
+          },
+          {
+            "code": "1.2.840.10008.6.1.83",
+            "display": "Finding Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.84",
+            "display": "Procedure Action"
+          },
+          {
+            "code": "1.2.840.10008.6.1.85",
+            "display": "Device Use Action"
+          },
+          {
+            "code": "1.2.840.10008.6.1.86",
+            "display": "Numeric Device Characteristic"
+          },
+          {
+            "code": "1.2.840.10008.6.1.87",
+            "display": "Intervention Parameter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.88",
+            "display": "Consumables Parameter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.89",
+            "display": "Equipment Event"
+          },
+          {
+            "code": "1.2.840.10008.6.1.90",
+            "display": "Cardiovascular Imaging Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.91",
+            "display": "Catheterization Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.92",
+            "display": "DateTime Qualifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.93",
+            "display": "Peripheral Pulse Location"
+          },
+          {
+            "code": "1.2.840.10008.6.1.94",
+            "display": "Patient Assessment"
+          },
+          {
+            "code": "1.2.840.10008.6.1.95",
+            "display": "Peripheral Pulse Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.96",
+            "display": "Skin Condition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.97",
+            "display": "Airway Assessment"
+          },
+          {
+            "code": "1.2.840.10008.6.1.98",
+            "display": "Calibration Object"
+          },
+          {
+            "code": "1.2.840.10008.6.1.99",
+            "display": "Calibration Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.100",
+            "display": "Cardiac Volume Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.101",
+            "display": "Index Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.102",
+            "display": "Sub-segment Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.103",
+            "display": "Contour Realignment"
+          },
+          {
+            "code": "1.2.840.10008.6.1.104",
+            "display": "Circumferential Extent"
+          },
+          {
+            "code": "1.2.840.10008.6.1.105",
+            "display": "Regional Extent"
+          },
+          {
+            "code": "1.2.840.10008.6.1.106",
+            "display": "Chamber Identification"
+          },
+          {
+            "code": "1.2.840.10008.6.1.107",
+            "display": "QA Reference Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.108",
+            "display": "Plane Identification"
+          },
+          {
+            "code": "1.2.840.10008.6.1.109",
+            "display": "Ejection Fraction"
+          },
+          {
+            "code": "1.2.840.10008.6.1.110",
+            "display": "ED Volume"
+          },
+          {
+            "code": "1.2.840.10008.6.1.111",
+            "display": "ES Volume"
+          },
+          {
+            "code": "1.2.840.10008.6.1.112",
+            "display": "Vessel Lumen Cross-sectional Area Calculation Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.113",
+            "display": "Estimated Volume"
+          },
+          {
+            "code": "1.2.840.10008.6.1.114",
+            "display": "Cardiac Contraction Phase"
+          },
+          {
+            "code": "1.2.840.10008.6.1.115",
+            "display": "IVUS Procedure Phase"
+          },
+          {
+            "code": "1.2.840.10008.6.1.116",
+            "display": "IVUS Distance Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.117",
+            "display": "IVUS Area Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.118",
+            "display": "IVUS Longitudinal Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.119",
+            "display": "IVUS Index/Ratio"
+          },
+          {
+            "code": "1.2.840.10008.6.1.120",
+            "display": "IVUS Volume Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.121",
+            "display": "Vascular Measurement Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.122",
+            "display": "Intravascular Volumetric Region"
+          },
+          {
+            "code": "1.2.840.10008.6.1.123",
+            "display": "Min/Max/Mean"
+          },
+          {
+            "code": "1.2.840.10008.6.1.124",
+            "display": "Calcium Distribution"
+          },
+          {
+            "code": "1.2.840.10008.6.1.125",
+            "display": "IVUS Lesion Morphology"
+          },
+          {
+            "code": "1.2.840.10008.6.1.126",
+            "display": "Vascular Dissection Classification"
+          },
+          {
+            "code": "1.2.840.10008.6.1.127",
+            "display": "IVUS Relative Stenosis Severity"
+          },
+          {
+            "code": "1.2.840.10008.6.1.128",
+            "display": "IVUS Non Morphological Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.129",
+            "display": "IVUS Plaque Composition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.130",
+            "display": "IVUS Fiducial Point"
+          },
+          {
+            "code": "1.2.840.10008.6.1.131",
+            "display": "IVUS Arterial Morphology"
+          },
+          {
+            "code": "1.2.840.10008.6.1.132",
+            "display": "Pressure Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.133",
+            "display": "Hemodynamic Resistance Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.134",
+            "display": "Indexed Hemodynamic Resistance Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.135",
+            "display": "Catheter Size Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.136",
+            "display": "Specimen Collection"
+          },
+          {
+            "code": "1.2.840.10008.6.1.137",
+            "display": "Blood Source Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.138",
+            "display": "Blood Gas Pressure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.139",
+            "display": "Blood Gas Content"
+          },
+          {
+            "code": "1.2.840.10008.6.1.140",
+            "display": "Blood Gas Saturation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.141",
+            "display": "Blood Base Excess"
+          },
+          {
+            "code": "1.2.840.10008.6.1.142",
+            "display": "Blood pH"
+          },
+          {
+            "code": "1.2.840.10008.6.1.143",
+            "display": "Arterial / Venous Content"
+          },
+          {
+            "code": "1.2.840.10008.6.1.144",
+            "display": "Oxygen Administration Action"
+          },
+          {
+            "code": "1.2.840.10008.6.1.145",
+            "display": "Oxygen Administration"
+          },
+          {
+            "code": "1.2.840.10008.6.1.146",
+            "display": "Circulatory Support Action"
+          },
+          {
+            "code": "1.2.840.10008.6.1.147",
+            "display": "Ventilation Action"
+          },
+          {
+            "code": "1.2.840.10008.6.1.148",
+            "display": "Pacing Action"
+          },
+          {
+            "code": "1.2.840.10008.6.1.149",
+            "display": "Circulatory Support"
+          },
+          {
+            "code": "1.2.840.10008.6.1.150",
+            "display": "Ventilation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.151",
+            "display": "Pacing"
+          },
+          {
+            "code": "1.2.840.10008.6.1.152",
+            "display": "Blood Pressure Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.153",
+            "display": "Relative Time"
+          },
+          {
+            "code": "1.2.840.10008.6.1.154",
+            "display": "Hemodynamic Patient State"
+          },
+          {
+            "code": "1.2.840.10008.6.1.155",
+            "display": "Arterial Lesion Location"
+          },
+          {
+            "code": "1.2.840.10008.6.1.156",
+            "display": "Arterial Source Location"
+          },
+          {
+            "code": "1.2.840.10008.6.1.157",
+            "display": "Venous Source Location"
+          },
+          {
+            "code": "1.2.840.10008.6.1.158",
+            "display": "Atrial Source Location"
+          },
+          {
+            "code": "1.2.840.10008.6.1.159",
+            "display": "Ventricular Source Location"
+          },
+          {
+            "code": "1.2.840.10008.6.1.160",
+            "display": "Gradient Source Location"
+          },
+          {
+            "code": "1.2.840.10008.6.1.161",
+            "display": "Pressure Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.162",
+            "display": "Blood Velocity Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.163",
+            "display": "Hemodynamic Time Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.164",
+            "display": "Non-mitral Valve Area"
+          },
+          {
+            "code": "1.2.840.10008.6.1.165",
+            "display": "Valve Area"
+          },
+          {
+            "code": "1.2.840.10008.6.1.166",
+            "display": "Hemodynamic Period Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.167",
+            "display": "Valve Flow"
+          },
+          {
+            "code": "1.2.840.10008.6.1.168",
+            "display": "Hemodynamic Flow"
+          },
+          {
+            "code": "1.2.840.10008.6.1.169",
+            "display": "Hemodynamic Resistance Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.170",
+            "display": "Hemodynamic Ratio"
+          },
+          {
+            "code": "1.2.840.10008.6.1.171",
+            "display": "Fractional Flow Reserve"
+          },
+          {
+            "code": "1.2.840.10008.6.1.172",
+            "display": "Measurement Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.173",
+            "display": "Cardiac Output Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.174",
+            "display": "Procedure Intent"
+          },
+          {
+            "code": "1.2.840.10008.6.1.175",
+            "display": "Cardiovascular Anatomic Location"
+          },
+          {
+            "code": "1.2.840.10008.6.1.176",
+            "display": "Hypertension"
+          },
+          {
+            "code": "1.2.840.10008.6.1.177",
+            "display": "Hemodynamic Assessment"
+          },
+          {
+            "code": "1.2.840.10008.6.1.178",
+            "display": "Degree Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.179",
+            "display": "Hemodynamic Measurement Phase"
+          },
+          {
+            "code": "1.2.840.10008.6.1.180",
+            "display": "Body Surface Area Equation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.181",
+            "display": "Oxygen Consumption Equation/Table"
+          },
+          {
+            "code": "1.2.840.10008.6.1.182",
+            "display": "P50 Equation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.183",
+            "display": "Framingham Score"
+          },
+          {
+            "code": "1.2.840.10008.6.1.184",
+            "display": "Framingham Table"
+          },
+          {
+            "code": "1.2.840.10008.6.1.185",
+            "display": "ECG Procedure Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.186",
+            "display": "Reason for ECG Study"
+          },
+          {
+            "code": "1.2.840.10008.6.1.187",
+            "display": "Pacemaker"
+          },
+          {
+            "code": "1.2.840.10008.6.1.188",
+            "display": "Diagnosis (Retired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.189",
+            "display": "Other Filters (Retired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.190",
+            "display": "Lead Measurement Technique"
+          },
+          {
+            "code": "1.2.840.10008.6.1.191",
+            "display": "Summary Codes ECG"
+          },
+          {
+            "code": "1.2.840.10008.6.1.192",
+            "display": "QT Correction Algorithm"
+          },
+          {
+            "code": "1.2.840.10008.6.1.193",
+            "display": "ECG Morphology Description (Retired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.194",
+            "display": "ECG Lead Noise Description"
+          },
+          {
+            "code": "1.2.840.10008.6.1.195",
+            "display": "ECG Lead Noise Modifier (Retired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.196",
+            "display": "Probability (Retired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.197",
+            "display": "Modifier (Retired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.198",
+            "display": "Trend (Retired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.199",
+            "display": "Conjunctive Term (Retired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.200",
+            "display": "ECG Interpretive Statement (Retired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.201",
+            "display": "Electrophysiology Waveform Duration"
+          },
+          {
+            "code": "1.2.840.10008.6.1.202",
+            "display": "Electrophysiology Waveform Voltage"
+          },
+          {
+            "code": "1.2.840.10008.6.1.203",
+            "display": "Cath Diagnosis"
+          },
+          {
+            "code": "1.2.840.10008.6.1.204",
+            "display": "Cardiac Valve/Tract"
+          },
+          {
+            "code": "1.2.840.10008.6.1.205",
+            "display": "Wall Motion"
+          },
+          {
+            "code": "1.2.840.10008.6.1.206",
+            "display": "Myocardium Wall Morphology Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.207",
+            "display": "Chamber Size"
+          },
+          {
+            "code": "1.2.840.10008.6.1.208",
+            "display": "Overall Contractility"
+          },
+          {
+            "code": "1.2.840.10008.6.1.209",
+            "display": "VSD Description"
+          },
+          {
+            "code": "1.2.840.10008.6.1.210",
+            "display": "Aortic Root Description"
+          },
+          {
+            "code": "1.2.840.10008.6.1.211",
+            "display": "Coronary Dominance"
+          },
+          {
+            "code": "1.2.840.10008.6.1.212",
+            "display": "Valvular Abnormality"
+          },
+          {
+            "code": "1.2.840.10008.6.1.213",
+            "display": "Vessel Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.214",
+            "display": "TIMI Flow Characteristic"
+          },
+          {
+            "code": "1.2.840.10008.6.1.215",
+            "display": "Thrombus"
+          },
+          {
+            "code": "1.2.840.10008.6.1.216",
+            "display": "Lesion Margin"
+          },
+          {
+            "code": "1.2.840.10008.6.1.217",
+            "display": "Severity"
+          },
+          {
+            "code": "1.2.840.10008.6.1.218",
+            "display": "Left Ventricle Myocardial Wall 17 Segment Model"
+          },
+          {
+            "code": "1.2.840.10008.6.1.219",
+            "display": "Myocardial Wall Segments in Projection"
+          },
+          {
+            "code": "1.2.840.10008.6.1.220",
+            "display": "Canadian Clinical Classification"
+          },
+          {
+            "code": "1.2.840.10008.6.1.221",
+            "display": "Cardiac History Date (Retired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.222",
+            "display": "Cardiovascular Surgery"
+          },
+          {
+            "code": "1.2.840.10008.6.1.223",
+            "display": "Diabetic Therapy"
+          },
+          {
+            "code": "1.2.840.10008.6.1.224",
+            "display": "MI Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.225",
+            "display": "Smoking History"
+          },
+          {
+            "code": "1.2.840.10008.6.1.226",
+            "display": "Coronary Intervention Indication"
+          },
+          {
+            "code": "1.2.840.10008.6.1.227",
+            "display": "Catheterization Indication"
+          },
+          {
+            "code": "1.2.840.10008.6.1.228",
+            "display": "Cath Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.229",
+            "display": "Admission Status"
+          },
+          {
+            "code": "1.2.840.10008.6.1.230",
+            "display": "Insurance Payor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.231",
+            "display": "Primary Cause of Death"
+          },
+          {
+            "code": "1.2.840.10008.6.1.232",
+            "display": "Acute Coronary Syndrome Time Period"
+          },
+          {
+            "code": "1.2.840.10008.6.1.233",
+            "display": "NYHA Classification"
+          },
+          {
+            "code": "1.2.840.10008.6.1.234",
+            "display": "Ischemia Non-invasive Test"
+          },
+          {
+            "code": "1.2.840.10008.6.1.235",
+            "display": "Pre-Cath Angina Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.236",
+            "display": "Cath Procedure Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.237",
+            "display": "Thrombolytic Administration"
+          },
+          {
+            "code": "1.2.840.10008.6.1.238",
+            "display": "Lab Visit Medication Administration"
+          },
+          {
+            "code": "1.2.840.10008.6.1.239",
+            "display": "PCI Medication Administration"
+          },
+          {
+            "code": "1.2.840.10008.6.1.240",
+            "display": "Clopidogrel/Ticlopidine Administration"
+          },
+          {
+            "code": "1.2.840.10008.6.1.241",
+            "display": "EF Testing Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.242",
+            "display": "Calculation Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.243",
+            "display": "Percutaneous Entry Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.244",
+            "display": "Percutaneous Closure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.245",
+            "display": "Angiographic EF Testing Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.246",
+            "display": "PCI Procedure Result"
+          },
+          {
+            "code": "1.2.840.10008.6.1.247",
+            "display": "Previously Dilated Lesion"
+          },
+          {
+            "code": "1.2.840.10008.6.1.248",
+            "display": "Guidewire Crossing"
+          },
+          {
+            "code": "1.2.840.10008.6.1.249",
+            "display": "Vascular Complication"
+          },
+          {
+            "code": "1.2.840.10008.6.1.250",
+            "display": "Cath Complication"
+          },
+          {
+            "code": "1.2.840.10008.6.1.251",
+            "display": "Cardiac Patient Risk Factor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.252",
+            "display": "Cardiac Diagnostic Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.253",
+            "display": "Cardiovascular Family History"
+          },
+          {
+            "code": "1.2.840.10008.6.1.254",
+            "display": "Hypertension Therapy"
+          },
+          {
+            "code": "1.2.840.10008.6.1.255",
+            "display": "Antilipemic Agent"
+          },
+          {
+            "code": "1.2.840.10008.6.1.256",
+            "display": "Antiarrhythmic Agent"
+          },
+          {
+            "code": "1.2.840.10008.6.1.257",
+            "display": "Myocardial Infarction Therapy"
+          },
+          {
+            "code": "1.2.840.10008.6.1.258",
+            "display": "Concern Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.259",
+            "display": "Problem Status"
+          },
+          {
+            "code": "1.2.840.10008.6.1.260",
+            "display": "Health Status"
+          },
+          {
+            "code": "1.2.840.10008.6.1.261",
+            "display": "Use Status"
+          },
+          {
+            "code": "1.2.840.10008.6.1.262",
+            "display": "Social History"
+          },
+          {
+            "code": "1.2.840.10008.6.1.263",
+            "display": "Cardiovascular Implant"
+          },
+          {
+            "code": "1.2.840.10008.6.1.264",
+            "display": "Plaque Structure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.265",
+            "display": "Stenosis Measurement Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.266",
+            "display": "Stenosis Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.267",
+            "display": "Stenosis Shape"
+          },
+          {
+            "code": "1.2.840.10008.6.1.268",
+            "display": "Volume Measurement Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.269",
+            "display": "Aneurysm Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.270",
+            "display": "Associated Condition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.271",
+            "display": "Vascular Morphology"
+          },
+          {
+            "code": "1.2.840.10008.6.1.272",
+            "display": "Stent Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.273",
+            "display": "Stent Composition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.274",
+            "display": "Source of Vascular Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.275",
+            "display": "Vascular Sclerosis Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.276",
+            "display": "Non-invasive Vascular Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.277",
+            "display": "Papillary Muscle Included/Excluded"
+          },
+          {
+            "code": "1.2.840.10008.6.1.278",
+            "display": "Respiratory Status"
+          },
+          {
+            "code": "1.2.840.10008.6.1.279",
+            "display": "Heart Rhythm"
+          },
+          {
+            "code": "1.2.840.10008.6.1.280",
+            "display": "Vessel Segment"
+          },
+          {
+            "code": "1.2.840.10008.6.1.281",
+            "display": "Pulmonary Artery"
+          },
+          {
+            "code": "1.2.840.10008.6.1.282",
+            "display": "Stenosis Length"
+          },
+          {
+            "code": "1.2.840.10008.6.1.283",
+            "display": "Stenosis Grade"
+          },
+          {
+            "code": "1.2.840.10008.6.1.284",
+            "display": "Cardiac Ejection Fraction"
+          },
+          {
+            "code": "1.2.840.10008.6.1.285",
+            "display": "Cardiac Volume Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.286",
+            "display": "Time-based Perfusion Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.287",
+            "display": "Fiducial Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.288",
+            "display": "Diameter Derivation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.289",
+            "display": "Coronary Vein"
+          },
+          {
+            "code": "1.2.840.10008.6.1.290",
+            "display": "Pulmonary Vein"
+          },
+          {
+            "code": "1.2.840.10008.6.1.291",
+            "display": "Myocardial Subsegment"
+          },
+          {
+            "code": "1.2.840.10008.6.1.292",
+            "display": "Partial View Section for Mammography"
+          },
+          {
+            "code": "1.2.840.10008.6.1.293",
+            "display": "DX Anatomy Imaged"
+          },
+          {
+            "code": "1.2.840.10008.6.1.294",
+            "display": "DX View"
+          },
+          {
+            "code": "1.2.840.10008.6.1.295",
+            "display": "DX View Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.296",
+            "display": "Projection Eponymous Name"
+          },
+          {
+            "code": "1.2.840.10008.6.1.297",
+            "display": "Anatomic Region for Mammography"
+          },
+          {
+            "code": "1.2.840.10008.6.1.298",
+            "display": "View for Mammography"
+          },
+          {
+            "code": "1.2.840.10008.6.1.299",
+            "display": "View Modifier for Mammography"
+          },
+          {
+            "code": "1.2.840.10008.6.1.300",
+            "display": "Anatomic Region for Intra-oral Radiography"
+          },
+          {
+            "code": "1.2.840.10008.6.1.301",
+            "display": "Anatomic Region Modifier for Intra-oral Radiography"
+          },
+          {
+            "code": "1.2.840.10008.6.1.302",
+            "display": "Primary Anatomic Structure for Intra-oral Radiography (Permanent Dentition - Designation of Teeth)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.303",
+            "display": "Primary Anatomic Structure for Intra-oral Radiography (Deciduous Dentition - Designation of Teeth)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.304",
+            "display": "PET Radionuclide"
+          },
+          {
+            "code": "1.2.840.10008.6.1.305",
+            "display": "PET Radiopharmaceutical"
+          },
+          {
+            "code": "1.2.840.10008.6.1.306",
+            "display": "Craniofacial Anatomic Region"
+          },
+          {
+            "code": "1.2.840.10008.6.1.307",
+            "display": "CT, MR and PET Anatomy Imaged"
+          },
+          {
+            "code": "1.2.840.10008.6.1.308",
+            "display": "Common Anatomic Region"
+          },
+          {
+            "code": "1.2.840.10008.6.1.309",
+            "display": "MR Spectroscopy Metabolite"
+          },
+          {
+            "code": "1.2.840.10008.6.1.310",
+            "display": "MR Proton Spectroscopy Metabolite"
+          },
+          {
+            "code": "1.2.840.10008.6.1.311",
+            "display": "Endoscopy Anatomic Region"
+          },
+          {
+            "code": "1.2.840.10008.6.1.312",
+            "display": "XA/XRF Anatomy Imaged"
+          },
+          {
+            "code": "1.2.840.10008.6.1.313",
+            "display": "Drug or Contrast Agent Characteristic"
+          },
+          {
+            "code": "1.2.840.10008.6.1.314",
+            "display": "General Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.315",
+            "display": "Phantom Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.316",
+            "display": "Ophthalmic Imaging Agent"
+          },
+          {
+            "code": "1.2.840.10008.6.1.317",
+            "display": "Patient Eye Movement Command"
+          },
+          {
+            "code": "1.2.840.10008.6.1.318",
+            "display": "Ophthalmic Photography Acquisition Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.319",
+            "display": "Ophthalmic Photography Illumination"
+          },
+          {
+            "code": "1.2.840.10008.6.1.320",
+            "display": "Ophthalmic Filter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.321",
+            "display": "Ophthalmic Lens"
+          },
+          {
+            "code": "1.2.840.10008.6.1.322",
+            "display": "Ophthalmic Channel Description"
+          },
+          {
+            "code": "1.2.840.10008.6.1.323",
+            "display": "Ophthalmic Image Position"
+          },
+          {
+            "code": "1.2.840.10008.6.1.324",
+            "display": "Mydriatic Agent"
+          },
+          {
+            "code": "1.2.840.10008.6.1.325",
+            "display": "Ophthalmic Anatomic Structure Imaged"
+          },
+          {
+            "code": "1.2.840.10008.6.1.326",
+            "display": "Ophthalmic Tomography Acquisition Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.327",
+            "display": "Ophthalmic OCT Anatomic Structure Imaged"
+          },
+          {
+            "code": "1.2.840.10008.6.1.328",
+            "display": "Language"
+          },
+          {
+            "code": "1.2.840.10008.6.1.329",
+            "display": "Country"
+          },
+          {
+            "code": "1.2.840.10008.6.1.330",
+            "display": "Overall Breast Composition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.331",
+            "display": "Overall Breast Composition from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.332",
+            "display": "Change Since Last Mammogram or Prior Surgery"
+          },
+          {
+            "code": "1.2.840.10008.6.1.333",
+            "display": "Change Since Last Mammogram or Prior Surgery from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.334",
+            "display": "Mammography Shape Characteristic"
+          },
+          {
+            "code": "1.2.840.10008.6.1.335",
+            "display": "Shape Characteristic from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.336",
+            "display": "Mammography Margin Characteristic"
+          },
+          {
+            "code": "1.2.840.10008.6.1.337",
+            "display": "Margin Characteristic from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.338",
+            "display": "Density Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.339",
+            "display": "Density Modifier from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.340",
+            "display": "Mammography Calcification Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.341",
+            "display": "Calcification Type from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.342",
+            "display": "Calcification Distribution Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.343",
+            "display": "Calcification Distribution Modifier from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.344",
+            "display": "Mammography Single Image Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.345",
+            "display": "Single Image Finding from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.346",
+            "display": "Mammography Composite Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.347",
+            "display": "Composite Feature from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.348",
+            "display": "Clockface Location or Region"
+          },
+          {
+            "code": "1.2.840.10008.6.1.349",
+            "display": "Clockface Location or Region from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.350",
+            "display": "Quadrant Location"
+          },
+          {
+            "code": "1.2.840.10008.6.1.351",
+            "display": "Quadrant Location from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.352",
+            "display": "Side"
+          },
+          {
+            "code": "1.2.840.10008.6.1.353",
+            "display": "Side from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.354",
+            "display": "Depth"
+          },
+          {
+            "code": "1.2.840.10008.6.1.355",
+            "display": "Depth from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.356",
+            "display": "Mammography Assessment"
+          },
+          {
+            "code": "1.2.840.10008.6.1.357",
+            "display": "Assessment from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.358",
+            "display": "Mammography Recommended Follow-up"
+          },
+          {
+            "code": "1.2.840.10008.6.1.359",
+            "display": "Recommended Follow-up from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.360",
+            "display": "Mammography Pathology Code"
+          },
+          {
+            "code": "1.2.840.10008.6.1.361",
+            "display": "Benign Pathology Code from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.362",
+            "display": "High Risk Lesion Pathology Code from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.363",
+            "display": "Malignant Pathology Code from BI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.364",
+            "display": "CAD Output Intended Use"
+          },
+          {
+            "code": "1.2.840.10008.6.1.365",
+            "display": "Composite Feature Relation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.366",
+            "display": "Feature Scope"
+          },
+          {
+            "code": "1.2.840.10008.6.1.367",
+            "display": "Mammography Quantitative Temporal Difference Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.368",
+            "display": "Mammography Qualitative Temporal Difference Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.369",
+            "display": "Nipple Characteristic"
+          },
+          {
+            "code": "1.2.840.10008.6.1.370",
+            "display": "Non-lesion Object Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.371",
+            "display": "Mammography Image Quality Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.372",
+            "display": "Result Status"
+          },
+          {
+            "code": "1.2.840.10008.6.1.373",
+            "display": "Mammography CAD Analysis Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.374",
+            "display": "Image Quality Assessment Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.375",
+            "display": "Mammography Quality Control Standard Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.376",
+            "display": "Follow-up Interval Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.377",
+            "display": "CAD Processing and Finding Summary"
+          },
+          {
+            "code": "1.2.840.10008.6.1.378",
+            "display": "CAD Operating Point Axis Label"
+          },
+          {
+            "code": "1.2.840.10008.6.1.379",
+            "display": "Breast Procedure Reported"
+          },
+          {
+            "code": "1.2.840.10008.6.1.380",
+            "display": "Breast Procedure Reason"
+          },
+          {
+            "code": "1.2.840.10008.6.1.381",
+            "display": "Breast Imaging Report Section Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.382",
+            "display": "Breast Imaging Report Element"
+          },
+          {
+            "code": "1.2.840.10008.6.1.383",
+            "display": "Breast Imaging Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.384",
+            "display": "Breast Clinical Finding or Indicated Problem"
+          },
+          {
+            "code": "1.2.840.10008.6.1.385",
+            "display": "Associated Finding for Breast"
+          },
+          {
+            "code": "1.2.840.10008.6.1.386",
+            "display": "Ductography Finding for Breast"
+          },
+          {
+            "code": "1.2.840.10008.6.1.387",
+            "display": "Procedure Modifiers for Breast"
+          },
+          {
+            "code": "1.2.840.10008.6.1.388",
+            "display": "Breast Implant Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.389",
+            "display": "Breast Biopsy Technique"
+          },
+          {
+            "code": "1.2.840.10008.6.1.390",
+            "display": "Breast Imaging Procedure Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.391",
+            "display": "Interventional Procedure Complication"
+          },
+          {
+            "code": "1.2.840.10008.6.1.392",
+            "display": "Interventional Procedure Result"
+          },
+          {
+            "code": "1.2.840.10008.6.1.393",
+            "display": "Ultrasound Finding for Breast"
+          },
+          {
+            "code": "1.2.840.10008.6.1.394",
+            "display": "Instrument Approach"
+          },
+          {
+            "code": "1.2.840.10008.6.1.395",
+            "display": "Target Confirmation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.396",
+            "display": "Fluid Color"
+          },
+          {
+            "code": "1.2.840.10008.6.1.397",
+            "display": "Tumor Stages From AJCC"
+          },
+          {
+            "code": "1.2.840.10008.6.1.398",
+            "display": "Nottingham Combined Histologic Grade"
+          },
+          {
+            "code": "1.2.840.10008.6.1.399",
+            "display": "Bloom-Richardson Histologic Grade"
+          },
+          {
+            "code": "1.2.840.10008.6.1.400",
+            "display": "Histologic Grading Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.401",
+            "display": "Breast Implant Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.402",
+            "display": "Gynecological Hormone"
+          },
+          {
+            "code": "1.2.840.10008.6.1.403",
+            "display": "Breast Cancer Risk Factor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.404",
+            "display": "Gynecological Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.405",
+            "display": "Procedures for Breast"
+          },
+          {
+            "code": "1.2.840.10008.6.1.406",
+            "display": "Mammoplasty Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.407",
+            "display": "Therapies for Breast"
+          },
+          {
+            "code": "1.2.840.10008.6.1.408",
+            "display": "Menopausal Phase"
+          },
+          {
+            "code": "1.2.840.10008.6.1.409",
+            "display": "General Risk Factor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.410",
+            "display": "OB-GYN Maternal Risk Factor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.411",
+            "display": "Substance"
+          },
+          {
+            "code": "1.2.840.10008.6.1.412",
+            "display": "Relative Usage/Exposure Amount"
+          },
+          {
+            "code": "1.2.840.10008.6.1.413",
+            "display": "Relative Frequency of Event Value"
+          },
+          {
+            "code": "1.2.840.10008.6.1.414",
+            "display": "Usage/Exposure Qualitative Concept"
+          },
+          {
+            "code": "1.2.840.10008.6.1.415",
+            "display": "Usage/Exposure/Amount Qualitative Concept"
+          },
+          {
+            "code": "1.2.840.10008.6.1.416",
+            "display": "Usage/Exposure/Frequency Qualitative Concept"
+          },
+          {
+            "code": "1.2.840.10008.6.1.417",
+            "display": "Procedure Numeric Property"
+          },
+          {
+            "code": "1.2.840.10008.6.1.418",
+            "display": "Pregnancy Status"
+          },
+          {
+            "code": "1.2.840.10008.6.1.419",
+            "display": "Side of Family"
+          },
+          {
+            "code": "1.2.840.10008.6.1.420",
+            "display": "Chest Component Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.421",
+            "display": "Chest Finding or Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.422",
+            "display": "Chest Finding or Feature Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.423",
+            "display": "Abnormal Lines Finding or Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.424",
+            "display": "Abnormal Opacity Finding or Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.425",
+            "display": "Abnormal Lucency Finding or Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.426",
+            "display": "Abnormal Texture Finding or Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.427",
+            "display": "Width Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.428",
+            "display": "Chest Anatomic Structure Abnormal Distribution"
+          },
+          {
+            "code": "1.2.840.10008.6.1.429",
+            "display": "Radiographic Anatomy Finding or Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.430",
+            "display": "Lung Anatomy Finding or Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.431",
+            "display": "Bronchovascular Anatomy Finding or Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.432",
+            "display": "Pleura Anatomy Finding or Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.433",
+            "display": "Mediastinum Anatomy Finding or Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.434",
+            "display": "Osseous Anatomy Finding or Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.435",
+            "display": "Osseous Anatomy Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.436",
+            "display": "Muscular Anatomy"
+          },
+          {
+            "code": "1.2.840.10008.6.1.437",
+            "display": "Vascular Anatomy"
+          },
+          {
+            "code": "1.2.840.10008.6.1.438",
+            "display": "Size Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.439",
+            "display": "Chest Border Shape"
+          },
+          {
+            "code": "1.2.840.10008.6.1.440",
+            "display": "Chest Border Definition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.441",
+            "display": "Chest Orientation Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.442",
+            "display": "Chest Content Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.443",
+            "display": "Chest Opacity Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.444",
+            "display": "Location in Chest"
+          },
+          {
+            "code": "1.2.840.10008.6.1.445",
+            "display": "General Chest Location"
+          },
+          {
+            "code": "1.2.840.10008.6.1.446",
+            "display": "Location in Lung"
+          },
+          {
+            "code": "1.2.840.10008.6.1.447",
+            "display": "Segment Location in Lung"
+          },
+          {
+            "code": "1.2.840.10008.6.1.448",
+            "display": "Chest Distribution Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.449",
+            "display": "Chest Site Involvement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.450",
+            "display": "Severity Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.451",
+            "display": "Chest Texture Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.452",
+            "display": "Chest Calcification Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.453",
+            "display": "Chest Quantitative Temporal Difference Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.454",
+            "display": "Chest Qualitative Temporal Difference Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.455",
+            "display": "Image Quality Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.456",
+            "display": "Chest Types of Quality Control Standard"
+          },
+          {
+            "code": "1.2.840.10008.6.1.457",
+            "display": "CAD Analysis Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.458",
+            "display": "Chest Non-lesion Object Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.459",
+            "display": "Non-lesion Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.460",
+            "display": "Calculation Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.461",
+            "display": "Attenuation Coefficient Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.462",
+            "display": "Calculated Value"
+          },
+          {
+            "code": "1.2.840.10008.6.1.463",
+            "display": "Lesion Response"
+          },
+          {
+            "code": "1.2.840.10008.6.1.464",
+            "display": "RECIST Defined Lesion Response"
+          },
+          {
+            "code": "1.2.840.10008.6.1.465",
+            "display": "Baseline Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.466",
+            "display": "Background Echotexture"
+          },
+          {
+            "code": "1.2.840.10008.6.1.467",
+            "display": "Orientation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.468",
+            "display": "Lesion Boundary"
+          },
+          {
+            "code": "1.2.840.10008.6.1.469",
+            "display": "Echo Pattern"
+          },
+          {
+            "code": "1.2.840.10008.6.1.470",
+            "display": "Posterior Acoustic Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.471",
+            "display": "Vascularity"
+          },
+          {
+            "code": "1.2.840.10008.6.1.472",
+            "display": "Correlation to Other Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.473",
+            "display": "Malignancy Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.474",
+            "display": "Breast Primary Tumor Assessment From AJCC"
+          },
+          {
+            "code": "1.2.840.10008.6.1.475",
+            "display": "Pathological Regional Lymph Node Assessment for Breast"
+          },
+          {
+            "code": "1.2.840.10008.6.1.476",
+            "display": "Assessment of Metastasis for Breast"
+          },
+          {
+            "code": "1.2.840.10008.6.1.477",
+            "display": "Menstrual Cycle Phase"
+          },
+          {
+            "code": "1.2.840.10008.6.1.478",
+            "display": "Time Interval"
+          },
+          {
+            "code": "1.2.840.10008.6.1.479",
+            "display": "Breast Linear Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.480",
+            "display": "CAD Geometry Secondary Graphical Representation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.481",
+            "display": "Diagnostic Imaging Report Document Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.482",
+            "display": "Diagnostic Imaging Report Heading"
+          },
+          {
+            "code": "1.2.840.10008.6.1.483",
+            "display": "Diagnostic Imaging Report Element"
+          },
+          {
+            "code": "1.2.840.10008.6.1.484",
+            "display": "Diagnostic Imaging Report Purpose of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.485",
+            "display": "Waveform Purpose of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.486",
+            "display": "Contributing Equipment Purpose of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.487",
+            "display": "SR Document Purpose of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.488",
+            "display": "Signature Purpose"
+          },
+          {
+            "code": "1.2.840.10008.6.1.489",
+            "display": "Media Import"
+          },
+          {
+            "code": "1.2.840.10008.6.1.490",
+            "display": "Key Object Selection Document Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.491",
+            "display": "Rejected for Quality Reason"
+          },
+          {
+            "code": "1.2.840.10008.6.1.492",
+            "display": "Best in Set"
+          },
+          {
+            "code": "1.2.840.10008.6.1.493",
+            "display": "Document Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.494",
+            "display": "RCS Registration Method Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.495",
+            "display": "Brain Atlas Fiducial"
+          },
+          {
+            "code": "1.2.840.10008.6.1.496",
+            "display": "Segmentation Property Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.497",
+            "display": "Segmentation Property Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.498",
+            "display": "Cardiac Structure Segmentation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.499",
+            "display": "CNS Segmentation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.500",
+            "display": "Abdominal Segmentation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.501",
+            "display": "Thoracic Segmentation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.502",
+            "display": "Vascular Segmentation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.503",
+            "display": "Device Segmentation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.504",
+            "display": "Artifact Segmentation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.505",
+            "display": "Lesion Segmentation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.506",
+            "display": "Pelvic Organ Segmentation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.507",
+            "display": "Physiology Segmentation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.508",
+            "display": "Referenced Image Purpose of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.509",
+            "display": "Source Image Purpose of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.510",
+            "display": "Image Derivation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.511",
+            "display": "Purpose of Reference to Alternate Representation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.512",
+            "display": "Related Series Purpose of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.513",
+            "display": "Multi-Frame Subset Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.514",
+            "display": "Person Role"
+          },
+          {
+            "code": "1.2.840.10008.6.1.515",
+            "display": "Family Member"
+          },
+          {
+            "code": "1.2.840.10008.6.1.516",
+            "display": "Organizational Role"
+          },
+          {
+            "code": "1.2.840.10008.6.1.517",
+            "display": "Performing Role"
+          },
+          {
+            "code": "1.2.840.10008.6.1.518",
+            "display": "Animal Taxonomic Rank Value"
+          },
+          {
+            "code": "1.2.840.10008.6.1.519",
+            "display": "Sex"
+          },
+          {
+            "code": "1.2.840.10008.6.1.520",
+            "display": "Age Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.521",
+            "display": "Linear Measurement Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.522",
+            "display": "Area Measurement Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.523",
+            "display": "Volume Measurement Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.524",
+            "display": "Linear Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.525",
+            "display": "Area Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.526",
+            "display": "Volume Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.527",
+            "display": "General Area Calculation Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.528",
+            "display": "General Volume Calculation Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.529",
+            "display": "Breed"
+          },
+          {
+            "code": "1.2.840.10008.6.1.530",
+            "display": "Breed Registry"
+          },
+          {
+            "code": "1.2.840.10008.6.1.531",
+            "display": "Workitem Definition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.532",
+            "display": "Non-DICOM Output Types (Retired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.533",
+            "display": "Procedure Discontinuation Reason"
+          },
+          {
+            "code": "1.2.840.10008.6.1.534",
+            "display": "Scope of Accumulation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.535",
+            "display": "UID Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.536",
+            "display": "Irradiation Event Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.537",
+            "display": "Equipment Plane Identification"
+          },
+          {
+            "code": "1.2.840.10008.6.1.538",
+            "display": "Fluoro Mode"
+          },
+          {
+            "code": "1.2.840.10008.6.1.539",
+            "display": "X-Ray Filter Material"
+          },
+          {
+            "code": "1.2.840.10008.6.1.540",
+            "display": "X-Ray Filter Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.541",
+            "display": "Dose Related Distance Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.542",
+            "display": "Measured/Calculated"
+          },
+          {
+            "code": "1.2.840.10008.6.1.543",
+            "display": "Dose Measurement Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.544",
+            "display": "Effective Dose Evaluation Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.545",
+            "display": "CT Acquisition Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.546",
+            "display": "CT IV Contrast Imaging Technique"
+          },
+          {
+            "code": "1.2.840.10008.6.1.547",
+            "display": "CT Dose Reference Authority"
+          },
+          {
+            "code": "1.2.840.10008.6.1.548",
+            "display": "Anode Target Material"
+          },
+          {
+            "code": "1.2.840.10008.6.1.549",
+            "display": "X-Ray Grid"
+          },
+          {
+            "code": "1.2.840.10008.6.1.550",
+            "display": "Ultrasound Protocol Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.551",
+            "display": "Ultrasound Protocol Stage Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.552",
+            "display": "OB-GYN Date"
+          },
+          {
+            "code": "1.2.840.10008.6.1.553",
+            "display": "Fetal Biometry Ratio"
+          },
+          {
+            "code": "1.2.840.10008.6.1.554",
+            "display": "Fetal Biometry Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.555",
+            "display": "Fetal Long Bones Biometry Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.556",
+            "display": "Fetal Cranium Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.557",
+            "display": "OB-GYN Amniotic Sac Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.558",
+            "display": "Early Gestation Biometry Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.559",
+            "display": "Ultrasound Pelvis and Uterus Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.560",
+            "display": "OB Equation/Table"
+          },
+          {
+            "code": "1.2.840.10008.6.1.561",
+            "display": "Gestational Age Equation/Table"
+          },
+          {
+            "code": "1.2.840.10008.6.1.562",
+            "display": "OB Fetal Body Weight Equation/Table"
+          },
+          {
+            "code": "1.2.840.10008.6.1.563",
+            "display": "Fetal Growth Equation/Table"
+          },
+          {
+            "code": "1.2.840.10008.6.1.564",
+            "display": "Estimated Fetal Weight Percentile Equation/Table"
+          },
+          {
+            "code": "1.2.840.10008.6.1.565",
+            "display": "Growth Distribution Rank"
+          },
+          {
+            "code": "1.2.840.10008.6.1.566",
+            "display": "OB-GYN Summary"
+          },
+          {
+            "code": "1.2.840.10008.6.1.567",
+            "display": "OB-GYN Fetus Summary"
+          },
+          {
+            "code": "1.2.840.10008.6.1.568",
+            "display": "Vascular Summary"
+          },
+          {
+            "code": "1.2.840.10008.6.1.569",
+            "display": "Temporal Period Relating to Procedure or Therapy"
+          },
+          {
+            "code": "1.2.840.10008.6.1.570",
+            "display": "Vascular Ultrasound Anatomic Location"
+          },
+          {
+            "code": "1.2.840.10008.6.1.571",
+            "display": "Extracranial Artery"
+          },
+          {
+            "code": "1.2.840.10008.6.1.572",
+            "display": "Intracranial Cerebral Vessel"
+          },
+          {
+            "code": "1.2.840.10008.6.1.573",
+            "display": "Intracranial Cerebral Vessel (Unilateral)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.574",
+            "display": "Upper Extremity Artery"
+          },
+          {
+            "code": "1.2.840.10008.6.1.575",
+            "display": "Upper Extremity Vein"
+          },
+          {
+            "code": "1.2.840.10008.6.1.576",
+            "display": "Lower Extremity Artery"
+          },
+          {
+            "code": "1.2.840.10008.6.1.577",
+            "display": "Lower Extremity Vein"
+          },
+          {
+            "code": "1.2.840.10008.6.1.578",
+            "display": "Abdominopelvic Artery (Paired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.579",
+            "display": "Abdominopelvic Artery (Unpaired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.580",
+            "display": "Abdominopelvic Vein (Paired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.581",
+            "display": "Abdominopelvic Vein (Unpaired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.582",
+            "display": "Renal Vessel"
+          },
+          {
+            "code": "1.2.840.10008.6.1.583",
+            "display": "Vessel Segment Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.584",
+            "display": "Vessel Branch Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.585",
+            "display": "Vascular Ultrasound Property"
+          },
+          {
+            "code": "1.2.840.10008.6.1.586",
+            "display": "Ultrasound Blood Velocity Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.587",
+            "display": "Vascular Index/Ratio"
+          },
+          {
+            "code": "1.2.840.10008.6.1.588",
+            "display": "Other Vascular Property"
+          },
+          {
+            "code": "1.2.840.10008.6.1.589",
+            "display": "Carotid Ratio"
+          },
+          {
+            "code": "1.2.840.10008.6.1.590",
+            "display": "Renal Ratio"
+          },
+          {
+            "code": "1.2.840.10008.6.1.591",
+            "display": "Pelvic Vasculature Anatomical Location"
+          },
+          {
+            "code": "1.2.840.10008.6.1.592",
+            "display": "Fetal Vasculature Anatomical Location"
+          },
+          {
+            "code": "1.2.840.10008.6.1.593",
+            "display": "Echocardiography Left Ventricle Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.594",
+            "display": "Left Ventricle Linear Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.595",
+            "display": "Left Ventricle Volume Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.596",
+            "display": "Left Ventricle Other Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.597",
+            "display": "Echocardiography Right Ventricle Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.598",
+            "display": "Echocardiography Left Atrium Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.599",
+            "display": "Echocardiography Right Atrium Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.600",
+            "display": "Echocardiography Mitral Valve Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.601",
+            "display": "Echocardiography Tricuspid Valve Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.602",
+            "display": "Echocardiography Pulmonic Valve Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.603",
+            "display": "Echocardiography Pulmonary Artery Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.604",
+            "display": "Echocardiography Aortic Valve Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.605",
+            "display": "Echocardiography Aorta Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.606",
+            "display": "Echocardiography Pulmonary Vein Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.607",
+            "display": "Echocardiography Vena Cava Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.608",
+            "display": "Echocardiography Hepatic Vein Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.609",
+            "display": "Echocardiography Cardiac Shunt Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.610",
+            "display": "Echocardiography Congenital Anomaly Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.611",
+            "display": "Pulmonary Vein Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.612",
+            "display": "Echocardiography Common Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.613",
+            "display": "Flow Direction"
+          },
+          {
+            "code": "1.2.840.10008.6.1.614",
+            "display": "Orifice Flow Property"
+          },
+          {
+            "code": "1.2.840.10008.6.1.615",
+            "display": "Echocardiography Stroke Volume Origin"
+          },
+          {
+            "code": "1.2.840.10008.6.1.616",
+            "display": "Ultrasound Image Mode"
+          },
+          {
+            "code": "1.2.840.10008.6.1.617",
+            "display": "Echocardiography Image View"
+          },
+          {
+            "code": "1.2.840.10008.6.1.618",
+            "display": "Echocardiography Measurement Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.619",
+            "display": "Echocardiography Volume Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.620",
+            "display": "Echocardiography Area Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.621",
+            "display": "Gradient Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.622",
+            "display": "Volume Flow Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.623",
+            "display": "Myocardium Mass Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.624",
+            "display": "Cardiac Phase"
+          },
+          {
+            "code": "1.2.840.10008.6.1.625",
+            "display": "Respiration State"
+          },
+          {
+            "code": "1.2.840.10008.6.1.626",
+            "display": "Mitral Valve Anatomic Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.627",
+            "display": "Echocardiography Anatomic Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.628",
+            "display": "Echocardiography Anatomic Site Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.629",
+            "display": "Wall Motion Scoring Scheme"
+          },
+          {
+            "code": "1.2.840.10008.6.1.630",
+            "display": "Cardiac Output Property"
+          },
+          {
+            "code": "1.2.840.10008.6.1.631",
+            "display": "Left Ventricle Area Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.632",
+            "display": "Tricuspid Valve Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.633",
+            "display": "Aortic Valve Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.634",
+            "display": "Left Ventricle Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.635",
+            "display": "Congenital Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.636",
+            "display": "Surface Processing Algorithm Family"
+          },
+          {
+            "code": "1.2.840.10008.6.1.637",
+            "display": "Stress Test Procedure Phase"
+          },
+          {
+            "code": "1.2.840.10008.6.1.638",
+            "display": "Stage"
+          },
+          {
+            "code": "1.2.840.10008.6.1.735",
+            "display": "S-M-L Size Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.736",
+            "display": "Major Coronary Artery"
+          },
+          {
+            "code": "1.2.840.10008.6.1.737",
+            "display": "Radioactivity Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.738",
+            "display": "Rest/Stress State"
+          },
+          {
+            "code": "1.2.840.10008.6.1.739",
+            "display": "PET Cardiology Protocol"
+          },
+          {
+            "code": "1.2.840.10008.6.1.740",
+            "display": "PET Cardiology Radiopharmaceutical"
+          },
+          {
+            "code": "1.2.840.10008.6.1.741",
+            "display": "NM/PET Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.742",
+            "display": "Nuclear Cardiology Protocol"
+          },
+          {
+            "code": "1.2.840.10008.6.1.743",
+            "display": "Nuclear Cardiology Radiopharmaceutical"
+          },
+          {
+            "code": "1.2.840.10008.6.1.744",
+            "display": "Attenuation Correction"
+          },
+          {
+            "code": "1.2.840.10008.6.1.745",
+            "display": "Perfusion Defect Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.746",
+            "display": "Study Quality"
+          },
+          {
+            "code": "1.2.840.10008.6.1.747",
+            "display": "Stress Imaging Quality Issue"
+          },
+          {
+            "code": "1.2.840.10008.6.1.748",
+            "display": "NM Extracardiac Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.749",
+            "display": "Attenuation Correction Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.750",
+            "display": "Level of Risk"
+          },
+          {
+            "code": "1.2.840.10008.6.1.751",
+            "display": "LV Function"
+          },
+          {
+            "code": "1.2.840.10008.6.1.752",
+            "display": "Perfusion Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.753",
+            "display": "Perfusion Morphology"
+          },
+          {
+            "code": "1.2.840.10008.6.1.754",
+            "display": "Ventricular Enlargement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.755",
+            "display": "Stress Test Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.756",
+            "display": "Indications for Stress Test"
+          },
+          {
+            "code": "1.2.840.10008.6.1.757",
+            "display": "Chest Pain"
+          },
+          {
+            "code": "1.2.840.10008.6.1.758",
+            "display": "Exerciser Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.759",
+            "display": "Stress Agent"
+          },
+          {
+            "code": "1.2.840.10008.6.1.760",
+            "display": "Indications for Pharmacological Stress Test"
+          },
+          {
+            "code": "1.2.840.10008.6.1.761",
+            "display": "Non-invasive Cardiac Imaging Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.763",
+            "display": "Exercise ECG Summary Code"
+          },
+          {
+            "code": "1.2.840.10008.6.1.764",
+            "display": "Stress Imaging Summary Code"
+          },
+          {
+            "code": "1.2.840.10008.6.1.765",
+            "display": "Speed of Response"
+          },
+          {
+            "code": "1.2.840.10008.6.1.766",
+            "display": "BP Response"
+          },
+          {
+            "code": "1.2.840.10008.6.1.767",
+            "display": "Treadmill Speed"
+          },
+          {
+            "code": "1.2.840.10008.6.1.768",
+            "display": "Stress Hemodynamic Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.769",
+            "display": "Perfusion Finding Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.770",
+            "display": "Comparison Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.771",
+            "display": "Stress Symptom"
+          },
+          {
+            "code": "1.2.840.10008.6.1.772",
+            "display": "Stress Test Termination Reason"
+          },
+          {
+            "code": "1.2.840.10008.6.1.773",
+            "display": "QTc Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.774",
+            "display": "ECG Timing Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.775",
+            "display": "ECG Axis Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.776",
+            "display": "ECG Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.777",
+            "display": "ST Segment Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.778",
+            "display": "ST Segment Location"
+          },
+          {
+            "code": "1.2.840.10008.6.1.779",
+            "display": "ST Segment Morphology"
+          },
+          {
+            "code": "1.2.840.10008.6.1.780",
+            "display": "Ectopic Beat Morphology"
+          },
+          {
+            "code": "1.2.840.10008.6.1.781",
+            "display": "Perfusion Comparison Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.782",
+            "display": "Tolerance Comparison Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.783",
+            "display": "Wall Motion Comparison Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.784",
+            "display": "Stress Scoring Scale"
+          },
+          {
+            "code": "1.2.840.10008.6.1.785",
+            "display": "Perceived Exertion Scale"
+          },
+          {
+            "code": "1.2.840.10008.6.1.786",
+            "display": "Ventricle Identification"
+          },
+          {
+            "code": "1.2.840.10008.6.1.787",
+            "display": "Colon Overall Assessment"
+          },
+          {
+            "code": "1.2.840.10008.6.1.788",
+            "display": "Colon Finding or Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.789",
+            "display": "Colon Finding or Feature Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.790",
+            "display": "Colon Non-lesion Object Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.791",
+            "display": "Anatomic Non-colon Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.792",
+            "display": "Clockface Location for Colon"
+          },
+          {
+            "code": "1.2.840.10008.6.1.793",
+            "display": "Recumbent Patient Orientation for Colon"
+          },
+          {
+            "code": "1.2.840.10008.6.1.794",
+            "display": "Colon Quantitative Temporal Difference Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.795",
+            "display": "Colon Types of Quality Control Standard"
+          },
+          {
+            "code": "1.2.840.10008.6.1.796",
+            "display": "Colon Morphology Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.797",
+            "display": "Location in Intestinal Tract"
+          },
+          {
+            "code": "1.2.840.10008.6.1.798",
+            "display": "Colon CAD Material Description"
+          },
+          {
+            "code": "1.2.840.10008.6.1.799",
+            "display": "Calculated Value for Colon Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.800",
+            "display": "Ophthalmic Horizontal Direction"
+          },
+          {
+            "code": "1.2.840.10008.6.1.801",
+            "display": "Ophthalmic Vertical Direction"
+          },
+          {
+            "code": "1.2.840.10008.6.1.802",
+            "display": "Ophthalmic Visual Acuity Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.803",
+            "display": "Arterial Pulse Waveform"
+          },
+          {
+            "code": "1.2.840.10008.6.1.804",
+            "display": "Respiration Waveform"
+          },
+          {
+            "code": "1.2.840.10008.6.1.805",
+            "display": "Ultrasound Contrast/Bolus Agent"
+          },
+          {
+            "code": "1.2.840.10008.6.1.806",
+            "display": "Protocol Interval Event"
+          },
+          {
+            "code": "1.2.840.10008.6.1.807",
+            "display": "Transducer Scan Pattern"
+          },
+          {
+            "code": "1.2.840.10008.6.1.808",
+            "display": "Ultrasound Transducer Geometry"
+          },
+          {
+            "code": "1.2.840.10008.6.1.809",
+            "display": "Ultrasound Transducer Beam Steering"
+          },
+          {
+            "code": "1.2.840.10008.6.1.810",
+            "display": "Ultrasound Transducer Application"
+          },
+          {
+            "code": "1.2.840.10008.6.1.811",
+            "display": "Instance Availability Status"
+          },
+          {
+            "code": "1.2.840.10008.6.1.812",
+            "display": "Modality PPS Discontinuation Reason"
+          },
+          {
+            "code": "1.2.840.10008.6.1.813",
+            "display": "Media Import PPS Discontinuation Reason"
+          },
+          {
+            "code": "1.2.840.10008.6.1.814",
+            "display": "DX Anatomy Imaged for Animal"
+          },
+          {
+            "code": "1.2.840.10008.6.1.815",
+            "display": "Common Anatomic Regions for Animal"
+          },
+          {
+            "code": "1.2.840.10008.6.1.816",
+            "display": "DX View for Animal"
+          },
+          {
+            "code": "1.2.840.10008.6.1.817",
+            "display": "Institutional Department/Unit/Service"
+          },
+          {
+            "code": "1.2.840.10008.6.1.818",
+            "display": "Purpose of Reference to Predecessor Report"
+          },
+          {
+            "code": "1.2.840.10008.6.1.819",
+            "display": "Visual Fixation Quality During Acquisition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.820",
+            "display": "Visual Fixation Quality Problem"
+          },
+          {
+            "code": "1.2.840.10008.6.1.821",
+            "display": "Ophthalmic Macular Grid Problem"
+          },
+          {
+            "code": "1.2.840.10008.6.1.822",
+            "display": "Organization"
+          },
+          {
+            "code": "1.2.840.10008.6.1.823",
+            "display": "Mixed Breed"
+          },
+          {
+            "code": "1.2.840.10008.6.1.824",
+            "display": "Broselow-Luten Pediatric Size Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.825",
+            "display": "CMDCTECC Calcium Scoring Patient Size Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.826",
+            "display": "Cardiac Ultrasound Report Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.827",
+            "display": "Cardiac Ultrasound Indication for Study"
+          },
+          {
+            "code": "1.2.840.10008.6.1.828",
+            "display": "Pediatric, Fetal and Congenital Cardiac Surgical Intervention"
+          },
+          {
+            "code": "1.2.840.10008.6.1.829",
+            "display": "Cardiac Ultrasound Summary Code"
+          },
+          {
+            "code": "1.2.840.10008.6.1.830",
+            "display": "Cardiac Ultrasound Fetal Summary Code"
+          },
+          {
+            "code": "1.2.840.10008.6.1.831",
+            "display": "Cardiac Ultrasound Common Linear Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.832",
+            "display": "Cardiac Ultrasound Linear Valve Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.833",
+            "display": "Cardiac Ultrasound Cardiac Function"
+          },
+          {
+            "code": "1.2.840.10008.6.1.834",
+            "display": "Cardiac Ultrasound Area Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.835",
+            "display": "Cardiac Ultrasound Hemodynamic Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.836",
+            "display": "Cardiac Ultrasound Myocardium Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.837"
+          },
+          {
+            "code": "1.2.840.10008.6.1.838",
+            "display": "Cardiac Ultrasound Left Ventricle Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.839",
+            "display": "Cardiac Ultrasound Right Ventricle Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.840",
+            "display": "Cardiac Ultrasound Ventricles Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.841",
+            "display": "Cardiac Ultrasound Pulmonary Artery Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.842",
+            "display": "Cardiac Ultrasound Pulmonary Vein"
+          },
+          {
+            "code": "1.2.840.10008.6.1.843",
+            "display": "Cardiac Ultrasound Pulmonary Valve Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.844",
+            "display": "Cardiac Ultrasound Venous Return Pulmonary Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.845",
+            "display": "Cardiac Ultrasound Venous Return Systemic Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.846",
+            "display": "Cardiac Ultrasound Atria and Atrial Septum Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.847",
+            "display": "Cardiac Ultrasound Mitral Valve Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.848",
+            "display": "Cardiac Ultrasound Tricuspid Valve Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.849",
+            "display": "Cardiac Ultrasound Atrioventricular Valve Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.850",
+            "display": "Cardiac Ultrasound Interventricular Septum Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.851",
+            "display": "Cardiac Ultrasound Aortic Valve Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.852",
+            "display": "Cardiac Ultrasound Outflow Tract Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.853",
+            "display": "Cardiac Ultrasound Semilunar Valve, Annulate and Sinus Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.854",
+            "display": "Cardiac Ultrasound Aortic Sinotubular Junction Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.855",
+            "display": "Cardiac Ultrasound Aorta Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.856",
+            "display": "Cardiac Ultrasound Coronary Artery Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.857",
+            "display": "Cardiac Ultrasound Aorto Pulmonary Connection Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.858",
+            "display": "Cardiac Ultrasound Pericardium and Pleura Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.859",
+            "display": "Cardiac Ultrasound Fetal General Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.860",
+            "display": "Cardiac Ultrasound Target Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.861",
+            "display": "Cardiac Ultrasound Target Site Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.862",
+            "display": "Cardiac Ultrasound Venous Return Systemic Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.863",
+            "display": "Cardiac Ultrasound Venous Return Pulmonary Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.864",
+            "display": "Cardiac Ultrasound Atria and Atrial Septum Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.865",
+            "display": "Cardiac Ultrasound Atrioventricular Valve Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.866",
+            "display": "Cardiac Ultrasound Interventricular Septum Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.867",
+            "display": "Cardiac Ultrasound Ventricle Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.868",
+            "display": "Cardiac Ultrasound Outflow Tract Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.869",
+            "display": "Cardiac Ultrasound Semilunar Valve, Annulus and Sinus Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.870",
+            "display": "Cardiac Ultrasound Pulmonary Artery Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.871",
+            "display": "Cardiac Ultrasound Aorta Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.872",
+            "display": "Cardiac Ultrasound Coronary Artery Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.873",
+            "display": "Cardiac Ultrasound Aortopulmonary Connection Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.874",
+            "display": "Cardiac Ultrasound Pericardium and Pleura Finding Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.876",
+            "display": "Ophthalmic Ultrasound Axial Measurements Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.877",
+            "display": "Lens Status"
+          },
+          {
+            "code": "1.2.840.10008.6.1.878",
+            "display": "Vitreous Status"
+          },
+          {
+            "code": "1.2.840.10008.6.1.879",
+            "display": "Ophthalmic Axial Length Measurements Segment Name"
+          },
+          {
+            "code": "1.2.840.10008.6.1.880",
+            "display": "Refractive Surgery Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.881",
+            "display": "Keratometry Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.882",
+            "display": "IOL Calculation Formula"
+          },
+          {
+            "code": "1.2.840.10008.6.1.883",
+            "display": "Lens Constant Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.884",
+            "display": "Refractive Error Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.885",
+            "display": "Anterior Chamber Depth Definition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.886",
+            "display": "Ophthalmic Measurement or Calculation Data Source"
+          },
+          {
+            "code": "1.2.840.10008.6.1.887",
+            "display": "Ophthalmic Axial Length Selection Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.888"
+          },
+          {
+            "code": "1.2.840.10008.6.1.889",
+            "display": "Ophthalmic Quality Metric Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.890",
+            "display": "Ophthalmic Agent Concentration Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.891",
+            "display": "Functional Condition Present During Acquisition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.892",
+            "display": "Joint Position During Acquisition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.893",
+            "display": "Joint Positioning Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.894",
+            "display": "Physical Force Applied During Acquisition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.895",
+            "display": "ECG Control Numeric Variable"
+          },
+          {
+            "code": "1.2.840.10008.6.1.896",
+            "display": "ECG Control Text Variable"
+          },
+          {
+            "code": "1.2.840.10008.6.1.897",
+            "display": "Whole Slide Microscopy Image Referenced Image Purpose of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.898",
+            "display": "Microscopy Lens Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.899",
+            "display": "Microscopy Illuminator and Sensor Color"
+          },
+          {
+            "code": "1.2.840.10008.6.1.900",
+            "display": "Microscopy Illumination Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.901",
+            "display": "Microscopy Filter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.902",
+            "display": "Microscopy Illuminator Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.903",
+            "display": "Audit Event ID"
+          },
+          {
+            "code": "1.2.840.10008.6.1.904",
+            "display": "Audit Event Type Code"
+          },
+          {
+            "code": "1.2.840.10008.6.1.905",
+            "display": "Audit Active Participant Role ID Code"
+          },
+          {
+            "code": "1.2.840.10008.6.1.906",
+            "display": "Security Alert Type Code"
+          },
+          {
+            "code": "1.2.840.10008.6.1.907",
+            "display": "Audit Participant Object ID Type Code"
+          },
+          {
+            "code": "1.2.840.10008.6.1.908",
+            "display": "Media Type Code"
+          },
+          {
+            "code": "1.2.840.10008.6.1.909",
+            "display": "Visual Field Static Perimetry Test Pattern"
+          },
+          {
+            "code": "1.2.840.10008.6.1.910",
+            "display": "Visual Field Static Perimetry Test Strategy"
+          },
+          {
+            "code": "1.2.840.10008.6.1.911",
+            "display": "Visual Field Static Perimetry Screening Test Mode"
+          },
+          {
+            "code": "1.2.840.10008.6.1.912",
+            "display": "Visual Field Static Perimetry Fixation Strategy"
+          },
+          {
+            "code": "1.2.840.10008.6.1.913",
+            "display": "Visual Field Static Perimetry Test Analysis Result"
+          },
+          {
+            "code": "1.2.840.10008.6.1.914",
+            "display": "Visual Field Illumination Color"
+          },
+          {
+            "code": "1.2.840.10008.6.1.915",
+            "display": "Visual Field Procedure Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.916",
+            "display": "Visual Field Global Index Name"
+          },
+          {
+            "code": "1.2.840.10008.6.1.917",
+            "display": "Abstract Multi-dimensional Image Model Component Semantic"
+          },
+          {
+            "code": "1.2.840.10008.6.1.918",
+            "display": "Abstract Multi-dimensional Image Model Component Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.919",
+            "display": "Abstract Multi-dimensional Image Model Dimension Semantic"
+          },
+          {
+            "code": "1.2.840.10008.6.1.920",
+            "display": "Abstract Multi-dimensional Image Model Dimension Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.921",
+            "display": "Abstract Multi-dimensional Image Model Axis Direction"
+          },
+          {
+            "code": "1.2.840.10008.6.1.922",
+            "display": "Abstract Multi-dimensional Image Model Axis Orientation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.923",
+            "display": "Abstract Multi-dimensional Image Model Qualitative Dimension Sample Semantic"
+          },
+          {
+            "code": "1.2.840.10008.6.1.924",
+            "display": "Planning Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.925",
+            "display": "De-identification Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.926",
+            "display": "Measurement Orientation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.927",
+            "display": "ECG Global Waveform Duration"
+          },
+          {
+            "code": "1.2.840.10008.6.1.930",
+            "display": "ICD"
+          },
+          {
+            "code": "1.2.840.10008.6.1.931",
+            "display": "Radiotherapy General Workitem Definition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.932",
+            "display": "Radiotherapy Acquisition Workitem Definition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.933",
+            "display": "Radiotherapy Registration Workitem Definition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.934",
+            "display": "Contrast Bolus Substance"
+          },
+          {
+            "code": "1.2.840.10008.6.1.935",
+            "display": "Label Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.936",
+            "display": "Ophthalmic Mapping Unit for Real World Value Mapping"
+          },
+          {
+            "code": "1.2.840.10008.6.1.937",
+            "display": "Ophthalmic Mapping Acquisition Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.938",
+            "display": "Retinal Thickness Definition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.939",
+            "display": "Ophthalmic Thickness Map Value Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.940",
+            "display": "Ophthalmic Map Purpose of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.941",
+            "display": "Ophthalmic Thickness Deviation Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.942",
+            "display": "Ophthalmic Anatomic Structure Reference Point"
+          },
+          {
+            "code": "1.2.840.10008.6.1.943",
+            "display": "Cardiac Synchronization Technique"
+          },
+          {
+            "code": "1.2.840.10008.6.1.944",
+            "display": "Staining Protocol"
+          },
+          {
+            "code": "1.2.840.10008.6.1.945"
+          },
+          {
+            "code": "1.2.840.10008.6.1.946"
+          },
+          {
+            "code": "1.2.840.10008.6.1.947",
+            "display": "Size Specific Dose Estimation Method for CT"
+          },
+          {
+            "code": "1.2.840.10008.6.1.948",
+            "display": "Pathology Imaging Protocol"
+          },
+          {
+            "code": "1.2.840.10008.6.1.949",
+            "display": "Magnification Selection"
+          },
+          {
+            "code": "1.2.840.10008.6.1.950",
+            "display": "Tissue Selection"
+          },
+          {
+            "code": "1.2.840.10008.6.1.951",
+            "display": "General Region of Interest Measurement Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.952",
+            "display": "Measurement Derived From Multiple ROI Measurements"
+          },
+          {
+            "code": "1.2.840.10008.6.1.953",
+            "display": "Surface Scan Acquisition Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.954",
+            "display": "Surface Scan Mode Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.956",
+            "display": "Surface Scan Registration Method Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.957",
+            "display": "Basic Cardiac View"
+          },
+          {
+            "code": "1.2.840.10008.6.1.958",
+            "display": "CT Reconstruction Algorithm"
+          },
+          {
+            "code": "1.2.840.10008.6.1.959",
+            "display": "Detector Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.960",
+            "display": "CR/DR Mechanical Configuration"
+          },
+          {
+            "code": "1.2.840.10008.6.1.961",
+            "display": "Projection X-Ray Acquisition Device Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.962",
+            "display": "Abstract Segmentation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.963",
+            "display": "Common Tissue Segmentation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.964",
+            "display": "Peripheral Nervous System Segmentation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.965",
+            "display": "Corneal Topography Mapping Unit for Real World Value Mapping"
+          },
+          {
+            "code": "1.2.840.10008.6.1.966",
+            "display": "Corneal Topography Map Value Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.967",
+            "display": "Brain Structure for Volumetric Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.968",
+            "display": "RT Dose Derivation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.969",
+            "display": "RT Dose Purpose of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.970",
+            "display": "Spectroscopy Purpose of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.971",
+            "display": "Scheduled Processing Parameter Concept Codes for RT Treatment"
+          },
+          {
+            "code": "1.2.840.10008.6.1.972",
+            "display": "Radiopharmaceutical Organ Dose Reference Authority"
+          },
+          {
+            "code": "1.2.840.10008.6.1.973",
+            "display": "Source of Radioisotope Activity Information"
+          },
+          {
+            "code": "1.2.840.10008.6.1.975",
+            "display": "Intravenous Extravasation Symptom"
+          },
+          {
+            "code": "1.2.840.10008.6.1.976",
+            "display": "Radiosensitive Organ"
+          },
+          {
+            "code": "1.2.840.10008.6.1.977",
+            "display": "Radiopharmaceutical Patient State"
+          },
+          {
+            "code": "1.2.840.10008.6.1.978",
+            "display": "GFR Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.979",
+            "display": "GFR Measurement Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.980",
+            "display": "Visual Evaluation Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.981",
+            "display": "Test Pattern Code"
+          },
+          {
+            "code": "1.2.840.10008.6.1.982",
+            "display": "Measurement Pattern Code"
+          },
+          {
+            "code": "1.2.840.10008.6.1.983",
+            "display": "Display Device Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.984",
+            "display": "SUV Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.985",
+            "display": "T1 Measurement Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.986",
+            "display": "Tracer Kinetic Model"
+          },
+          {
+            "code": "1.2.840.10008.6.1.987",
+            "display": "Perfusion Measurement Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.988",
+            "display": "Arterial Input Function Measurement Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.989",
+            "display": "Bolus Arrival Time Derivation Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.990",
+            "display": "Perfusion Analysis Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.991",
+            "display": "Quantitative Method Used for Perfusion and Tracer Kinetic Model"
+          },
+          {
+            "code": "1.2.840.10008.6.1.992",
+            "display": "Tracer Kinetic Model Parameter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.993",
+            "display": "Perfusion Model Parameter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.994",
+            "display": "Model-Independent Dynamic Contrast Analysis Parameter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.995",
+            "display": "Tracer Kinetic Modeling Covariate"
+          },
+          {
+            "code": "1.2.840.10008.6.1.996",
+            "display": "Contrast Characteristic"
+          },
+          {
+            "code": "1.2.840.10008.6.1.997",
+            "display": "Measurement Report Document Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.998",
+            "display": "Quantitative Diagnostic Imaging Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.999",
+            "display": "PET Region of Interest Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1000",
+            "display": "Gray Level Co-occurrence Matrix Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1001",
+            "display": "Texture Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1002",
+            "display": "Time Point Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1003",
+            "display": "Generic Intensity and Size Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1004",
+            "display": "Response Criteria"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1005",
+            "display": "Fetal Biometry Anatomic Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1006",
+            "display": "Fetal Long Bone Anatomic Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1007",
+            "display": "Fetal Cranium Anatomic Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1008",
+            "display": "Pelvis and Uterus Anatomic Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1009",
+            "display": "Parametric Map Derivation Image Purpose of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1010",
+            "display": "Physical Quantity Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1011",
+            "display": "Lymph Node Anatomic Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1012",
+            "display": "Head and Neck Cancer Anatomic Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1013",
+            "display": "Fiber Tract In Brainstem"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1014",
+            "display": "Projection and Thalamic Fiber"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1015",
+            "display": "Association Fiber"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1016",
+            "display": "Limbic System Tract"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1017",
+            "display": "Commissural Fiber"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1018",
+            "display": "Cranial Nerve"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1019",
+            "display": "Spinal Cord Fiber"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1020",
+            "display": "Tractography Anatomic Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1021",
+            "display": "Primary Anatomic Structure for Intra-oral Radiography (Supernumerary Dentition - Designation of Teeth)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1022",
+            "display": "Primary Anatomic Structure for Intra-oral and Craniofacial Radiography - Teeth"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1023",
+            "display": "IEC61217 Device Position Parameter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1024",
+            "display": "IEC61217 Gantry Position Parameter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1025",
+            "display": "IEC61217 Patient Support Position Parameter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1026",
+            "display": "Actionable Finding Classification"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1027",
+            "display": "Image Quality Assessment"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1028",
+            "display": "Summary Radiation Exposure Quantity"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1029",
+            "display": "Wide Field Ophthalmic Photography Transformation Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1030",
+            "display": "PET Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1031",
+            "display": "Implant Material"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1032",
+            "display": "Intervention Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1033",
+            "display": "Implant Template View Orientation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1034",
+            "display": "Implant Template Modified View Orientation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1035",
+            "display": "Implant Target Anatomy"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1036",
+            "display": "Implant Planning Landmark"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1037",
+            "display": "Human Hip Implant Planning Landmark"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1038",
+            "display": "Implant Component Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1039",
+            "display": "Human Hip Implant Component Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1040",
+            "display": "Human Trauma Implant Component Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1041",
+            "display": "Implant Fixation Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1042",
+            "display": "Device Participating Role"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1043",
+            "display": "Container Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1044",
+            "display": "Container Component Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1045",
+            "display": "Anatomic Pathology Specimen Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1046",
+            "display": "Breast Tissue Specimen Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1047",
+            "display": "Specimen Collection Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1048",
+            "display": "Specimen Sampling Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1049",
+            "display": "Specimen Preparation Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1050",
+            "display": "Specimen Stain"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1051",
+            "display": "Specimen Preparation Step"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1052",
+            "display": "Specimen Fixative"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1053",
+            "display": "Specimen Embedding Media"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1054",
+            "display": "Source of Projection X-Ray Dose Information"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1055",
+            "display": "Source of CT Dose Information"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1056",
+            "display": "Radiation Dose Reference Point"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1057",
+            "display": "Volumetric View Description"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1058",
+            "display": "Volumetric View Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1059",
+            "display": "Diffusion Acquisition Value Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1060",
+            "display": "Diffusion Model Value Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1061",
+            "display": "Diffusion Tractography Algorithm Family"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1062",
+            "display": "Diffusion Tractography Measurement Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1063",
+            "display": "Research Animal Source Registry"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1064",
+            "display": "Yes-No Only"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1065",
+            "display": "Biosafety Level"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1066",
+            "display": "Biosafety Control Reason"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1067",
+            "display": "Sex - Male Female or Both"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1068",
+            "display": "Animal Room Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1069",
+            "display": "Device Reuse"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1070",
+            "display": "Animal Bedding Material"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1071",
+            "display": "Animal Shelter Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1072",
+            "display": "Animal Feed Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1073",
+            "display": "Animal Feed Source"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1074",
+            "display": "Animal Feeding Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1075",
+            "display": "Water Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1076",
+            "display": "Anesthesia Category Code Type for Small Animal Anesthesia"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1077",
+            "display": "Anesthesia Category Code Type from Anesthesia Quality Initiative"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1078",
+            "display": "Anesthesia Induction Code Type for Small Animal Anesthesia"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1079",
+            "display": "Anesthesia Induction Code Type from Anesthesia Quality Initiative"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1080",
+            "display": "Anesthesia Maintenance Code Type for Small Animal Anesthesia"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1081",
+            "display": "Anesthesia Maintenance Code Type from Anesthesia Quality Initiative"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1082",
+            "display": "Airway Management Method Code Type for Small Animal Anesthesia"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1083",
+            "display": "Airway Management Method Code Type from Anesthesia Quality Initiative"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1084",
+            "display": "Airway Management Sub-Method Code Type for Small Animal Anesthesia"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1085",
+            "display": "Airway Management Sub-Method Code Type from Anesthesia Quality Initiative"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1086",
+            "display": "Medication Type for Small Animal Anesthesia"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1087",
+            "display": "Medication Type Code Type from Anesthesia Quality Initiative"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1088",
+            "display": "Medication for Small Animal Anesthesia"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1089",
+            "display": "Inhalational Anesthesia Agent for Small Animal Anesthesia"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1090",
+            "display": "Injectable Anesthesia Agent for Small Animal Anesthesia"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1091",
+            "display": "Premedication Agent for Small Animal Anesthesia"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1092",
+            "display": "Neuromuscular Blocking Agent for Small Animal Anesthesia"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1093",
+            "display": "Ancillary Medications for Small Animal Anesthesia"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1094",
+            "display": "Carrier Gases for Small Animal Anesthesia"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1095",
+            "display": "Local Anesthetics for Small Animal Anesthesia"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1096",
+            "display": "Procedure Phase Requiring Anesthesia"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1097",
+            "display": "Surgical Procedure Phase Requiring Anesthesia"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1098",
+            "display": "Phase of Imaging Procedure Requiring Anesthesia (Retired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1099",
+            "display": "Animal Handling Phase"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1100",
+            "display": "Heating Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1101",
+            "display": "Temperature Sensor Device Component Type for Small Animal Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1102",
+            "display": "Exogenous Substance Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1103",
+            "display": "Exogenous Substance"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1104",
+            "display": "Tumor Graft Histologic Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1105",
+            "display": "Fibril"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1106",
+            "display": "Virus"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1107",
+            "display": "Cytokine"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1108",
+            "display": "Toxin"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1109",
+            "display": "Exogenous Substance Administration Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1110",
+            "display": "Exogenous Substance Origin Tissue"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1111",
+            "display": "Preclinical Small Animal Imaging Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1112",
+            "display": "Position Reference Indicator for Frame of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1113",
+            "display": "Present-Absent Only"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1114",
+            "display": "Water Equivalent Diameter Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1115",
+            "display": "Radiotherapy Purpose of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1116",
+            "display": "Content Assessment Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1117",
+            "display": "RT Content Assessment Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1118",
+            "display": "Assessment Basis"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1119",
+            "display": "Reader Specialty"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1120",
+            "display": "Requested Report Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1121",
+            "display": "CT Transverse Plane Reference Basis"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1122",
+            "display": "Anatomical Reference Basis"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1123",
+            "display": "Anatomical Reference Basis - Head"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1124",
+            "display": "Anatomical Reference Basis - Spine"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1125",
+            "display": "Anatomical Reference Basis - Chest"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1126",
+            "display": "Anatomical Reference Basis - Abdomen/Pelvis"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1127",
+            "display": "Anatomical Reference Basis - Extremity"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1128",
+            "display": "Reference Geometry - Plane"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1129",
+            "display": "Reference Geometry - Point"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1130",
+            "display": "Patient Alignment Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1131",
+            "display": "Contraindications For CT Imaging"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1132",
+            "display": "Fiducial Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1133",
+            "display": "Fiducial"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1134",
+            "display": "Non-Image Source Instance Purpose of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1135",
+            "display": "RT Process Output"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1136",
+            "display": "RT Process Input"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1137",
+            "display": "RT Process Input Used"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1138",
+            "display": "Prostate Anatomy"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1139",
+            "display": "Prostate Sector Anatomy from PI-RADS v2"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1140",
+            "display": "Prostate Sector Anatomy from European Concensus 16 Sector (Minimal) Model"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1141",
+            "display": "Prostate Sector Anatomy from European Concensus 27 Sector (Optimal) Model"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1142",
+            "display": "Measurement Selection Reason"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1143",
+            "display": "Echo Finding Observation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1144",
+            "display": "Echo Measurement Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1145",
+            "display": "Cardiovascular Measured Property"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1146",
+            "display": "Basic Echo Anatomic Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1147",
+            "display": "Echo Flow Direction"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1148",
+            "display": "Cardiac Phase and Time Point"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1149",
+            "display": "Core Echo Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1150",
+            "display": "OCT-A Processing Algorithm Family"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1151",
+            "display": "En Face Image Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1152",
+            "display": "OPT Scan Pattern Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1153",
+            "display": "Retinal Segmentation Surface"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1154",
+            "display": "Organ for Radiation Dose Estimate"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1155",
+            "display": "Absorbed Radiation Dose Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1156",
+            "display": "Equivalent Radiation Dose Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1157",
+            "display": "Radiation Dose Estimate Distribution Representation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1158",
+            "display": "Patient Model Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1159",
+            "display": "Radiation Transport Model Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1160",
+            "display": "Attenuator Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1161",
+            "display": "Radiation Attenuator Material"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1162",
+            "display": "Estimate Method Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1163",
+            "display": "Radiation Dose Estimate Parameter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1164",
+            "display": "Radiation Dose Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1165",
+            "display": "MR Diffusion Component Semantic"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1166",
+            "display": "MR Diffusion Anisotropy Index"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1167",
+            "display": "MR Diffusion Model Parameter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1168",
+            "display": "MR Diffusion Model"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1169",
+            "display": "MR Diffusion Model Fitting Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1170",
+            "display": "MR Diffusion Model Specific Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1171",
+            "display": "MR Diffusion Model Input"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1172",
+            "display": "Diffusion Rate Area Over Time Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1173",
+            "display": "Pediatric Size Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1174",
+            "display": "Calcium Scoring Patient Size Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1175",
+            "display": "Reason for Repeating Acquisition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1176",
+            "display": "Protocol Assertion"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1177",
+            "display": "Radiotherapeutic Dose Measurement Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1178",
+            "display": "Export Additional Information Document Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1179",
+            "display": "Export Delay Reason"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1180",
+            "display": "Level of Difficulty"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1181",
+            "display": "Category of Teaching Material - Imaging"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1182",
+            "display": "Miscellaneous Document Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1183",
+            "display": "Segmentation Non-Image Source Purpose of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1184",
+            "display": "Longitudinal Temporal Event Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1185",
+            "display": "Non-lesion Object Type - Physical Object"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1186",
+            "display": "Non-lesion Object Type - Substance"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1187",
+            "display": "Non-lesion Object Type - Tissue"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1188",
+            "display": "Chest Non-lesion Object Type - Physical Object"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1189",
+            "display": "Chest Non-lesion Object Type - Tissue"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1190",
+            "display": "Tissue Segmentation Property Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1191",
+            "display": "Anatomical Structure Segmentation Property Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1192",
+            "display": "Physical Object Segmentation Property Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1193",
+            "display": "Morphologically Abnormal Structure Segmentation Property Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1194",
+            "display": "Function Segmentation Property Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1195",
+            "display": "Spatial and Relational Concept Segmentation Property Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1196",
+            "display": "Body Substance Segmentation Property Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1197",
+            "display": "Substance Segmentation Property Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1198",
+            "display": "Interpretation Request Discontinuation Reason"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1199",
+            "display": "Gray Level Run Length Based Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1200",
+            "display": "Gray Level Size Zone Based Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1201",
+            "display": "Encapsulated Document Source Purpose of Reference"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1202",
+            "display": "Model Document Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1203",
+            "display": "Purpose of Reference to Predecessor 3D Model"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1204",
+            "display": "Model Scale Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1205",
+            "display": "Model Usage"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1206",
+            "display": "Radiation Dose Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1207",
+            "display": "Radiotherapy Fiducial"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1208",
+            "display": "Multi-energy Relevant Material"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1209",
+            "display": "Multi-energy Material Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1210",
+            "display": "Dosimetric Objective Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1211",
+            "display": "Prescription Anatomy Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1212",
+            "display": "RT Segment Annotation Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1213",
+            "display": "Radiotherapy Therapeutic Role Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1214",
+            "display": "RT Geometric Information"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1215",
+            "display": "Fixation or Positioning Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1216",
+            "display": "Brachytherapy Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1217",
+            "display": "External Body Model"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1218",
+            "display": "Non-specific Volume"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1219",
+            "display": "Purpose of Reference For RT Physician Intent Input"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1220",
+            "display": "Purpose of Reference For RT Treatment Planning Input"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1221",
+            "display": "General External Radiotherapy Procedure Technique"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1222",
+            "display": "Tomotherapeutic Radiotherapy Procedure Technique"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1223",
+            "display": "Fixation Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1224",
+            "display": "Anatomical Structure For Radiotherapy"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1225",
+            "display": "RT Patient Support Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1226",
+            "display": "Radiotherapy Bolus Device Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1227",
+            "display": "Radiotherapy Block Device Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1228",
+            "display": "Radiotherapy Accessory No-slot Holder Device Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1229",
+            "display": "Radiotherapy Accessory Slot Holder Device Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1230",
+            "display": "Segmented RT Accessory Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1231",
+            "display": "Radiotherapy Treatment Energy Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1232",
+            "display": "Multi-source Radiotherapy Procedure Technique"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1233",
+            "display": "Robotic Radiotherapy Procedure Technique"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1234",
+            "display": "Radiotherapy Procedure Technique"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1235",
+            "display": "Radiation Therapy Particle"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1236",
+            "display": "Ion Therapy Particle"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1237",
+            "display": "Teletherapy Isotope"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1238",
+            "display": "Brachytherapy Isotope"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1239",
+            "display": "Single Dose Dosimetric Objective"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1240",
+            "display": "Percentage and Dose Dosimetric Objective"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1241",
+            "display": "Volume and Dose Dosimetric Objective"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1242",
+            "display": "No-Parameter Dosimetric Objective"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1243",
+            "display": "Delivery Time Structure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1244",
+            "display": "Radiotherapy Target"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1245",
+            "display": "Radiotherapy Dose Calculation Role"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1246",
+            "display": "Radiotherapy Prescribing and Segmenting Person Role"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1247",
+            "display": "Effective Dose Calculation Method Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1248",
+            "display": "Radiation Transport-based Effective Dose Method Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1249",
+            "display": "Fractionation-based Effective Dose Method Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1250",
+            "display": "Imaging Agent Administration Adverse Event"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1251",
+            "display": "Time Relative to Procedure (Retired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1252",
+            "display": "Imaging Agent Administration Phase Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1253",
+            "display": "Imaging Agent Administration Mode"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1254",
+            "display": "Imaging Agent Administration Patient State"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1255",
+            "display": "Imaging Agent Administration Premedication"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1256",
+            "display": "Imaging Agent Administration Medication"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1257",
+            "display": "Imaging Agent Administration Completion Status"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1258",
+            "display": "Imaging Agent Administration Pharmaceutical Presentation Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1259",
+            "display": "Imaging Agent Administration Consumable"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1260",
+            "display": "Flush"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1261",
+            "display": "Imaging Agent Administration Injector Event Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1262",
+            "display": "Imaging Agent Administration Step Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1263",
+            "display": "Bolus Shaping Curve"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1264",
+            "display": "Imaging Agent Administration Consumable Catheter Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1265",
+            "display": "Low High or Equal"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1266",
+            "display": "Premedication Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1267",
+            "display": "Laterality with Median"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1268",
+            "display": "Dermatology Anatomic Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1269",
+            "display": "Quantitative Image Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1270",
+            "display": "Global Shape Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1271",
+            "display": "Intensity Histogram Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1272",
+            "display": "Grey Level Distance Zone Based Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1273",
+            "display": "Neighbourhood Grey Tone Difference Based Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1274",
+            "display": "Neighbouring Grey Level Dependence Based Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1275",
+            "display": "Cornea Measurement Method Descriptor"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1276",
+            "display": "Segmented Radiotherapeutic Dose Measurement Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1277",
+            "display": "Clinical Course of Disease"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1278",
+            "display": "Racial Group"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1279",
+            "display": "Relative Laterality"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1280",
+            "display": "Brain Lesion Segmentation Type With Necrosis"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1281",
+            "display": "Brain Lesion Segmentation Type Without Necrosis"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1282",
+            "display": "Non-Acquisition Modality"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1283",
+            "display": "Modality"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1284",
+            "display": "Laterality Left-Right Only"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1285",
+            "display": "Qualitative Evaluation Modifier Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1286",
+            "display": "Qualitative Evaluation Modifier Value"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1287",
+            "display": "Generic Anatomic Location Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1288",
+            "display": "Beam Limiting Device Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1289",
+            "display": "Compensator Device Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1290",
+            "display": "Radiotherapy Treatment Machine Mode"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1291",
+            "display": "Radiotherapy Distance Reference Location"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1292",
+            "display": "Fixed Beam Limiting Device Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1293",
+            "display": "Radiotherapy Wedge Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1294",
+            "display": "RT Beam Limiting Device Orientation Label"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1295",
+            "display": "General Accessory Device Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1296",
+            "display": "Radiation Generation Mode Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1297",
+            "display": "C-Arm Photon-Electron Delivery Rate Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1298",
+            "display": "Treatment Delivery Device Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1299",
+            "display": "C-Arm Photon-Electron Dosimeter Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1300",
+            "display": "Treatment Point"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1301",
+            "display": "Equipment Reference Point"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1302",
+            "display": "Radiotherapy Treatment Planning Person Role"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1303",
+            "display": "Real Time Video Rendition Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1304",
+            "display": "Geometry Graphical Representation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1305",
+            "display": "Visual Explanation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1306",
+            "display": "Prostate Sector Anatomy from PI-RADS v2.1"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1307",
+            "display": "Radiotherapy Robotic Node Set"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1308",
+            "display": "Tomotherapeutic Dosimeter Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1309",
+            "display": "Tomotherapeutic Dose Rate Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1310",
+            "display": "Robotic Delivery Device Dosimeter Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1311",
+            "display": "Robotic Delivery Device Dose Rate Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1312",
+            "display": "Anatomic Structure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1313",
+            "display": "Mediastinum Finding or Feature"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1314",
+            "display": "Mediastinum Anatomy"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1315",
+            "display": "Vascular Ultrasound Report Document Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1316",
+            "display": "Organ Part (Non-Lateralized)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1317",
+            "display": "Organ Part (Lateralized)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1318",
+            "display": "Treatment Termination Reason"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1319",
+            "display": "Radiotherapy Treatment Delivery Person Role"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1320",
+            "display": "Radiotherapy Interlock Resolution"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1321",
+            "display": "Treatment Session Confirmation Assertion"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1322",
+            "display": "Treatment Tolerance Violation Cause"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1323",
+            "display": "Clinical Tolerance Violation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1324",
+            "display": "Machine Tolerance Violation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1325",
+            "display": "Radiotherapy Treatment Interlock"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1326",
+            "display": "Isocentric Patient Support Position Parameter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1327",
+            "display": "RT Overridden Treatment Parameter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1328",
+            "display": "EEG Lead"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1329",
+            "display": "Lead Location Near or in Muscle"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1330",
+            "display": "Lead Location Near Peripheral Nerve"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1331",
+            "display": "EOG Lead"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1332",
+            "display": "Body Position Channel"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1333",
+            "display": "EEG Annotation  Neurophysiologic Enumeration"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1334",
+            "display": "EMG Annotation  Neurophysiological Enumeration"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1335",
+            "display": "EOG Annotation  Neurophysiological Enumeration"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1336",
+            "display": "Pattern Event"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1337",
+            "display": "Device-related and Environment-related Event"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1338",
+            "display": "EEG Annotation - Neurological Monitoring Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1339",
+            "display": "OB-GYN Ultrasound Report Document Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1340",
+            "display": "Automation of Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1341",
+            "display": "OB-GYN Ultrasound Beam Path"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1342",
+            "display": "Angle Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1343",
+            "display": "Generic Purpose of Reference to Images and Coordinates in Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1344",
+            "display": "Generic Purpose of Reference to Images in Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1345",
+            "display": "Generic Purpose of Reference to Coordinates in Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1346",
+            "display": "Fitzpatrick Skin Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1347",
+            "display": "History of Malignant Melanoma"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1348",
+            "display": "History of Melanoma in Situ"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1349",
+            "display": "History of Non-Melanoma Skin Cancer"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1350",
+            "display": "Skin Disorder"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1351",
+            "display": "Patient Reported Lesion Characteristic"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1352",
+            "display": "Lesion Palpation Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1353",
+            "display": "Lesion Visual Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1354",
+            "display": "Skin Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1355",
+            "display": "Abdominopelvic Vessel"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1356",
+            "display": "Numeric Value Failure Qualifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1357",
+            "display": "Numeric Value Unknown Qualifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1358",
+            "display": "Couinaud Liver Segment"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1359",
+            "display": "Liver Segmentation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1360",
+            "display": "Contraindications For XA Imaging"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1361",
+            "display": "Neurophysiologic Stimulation Mode"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1362",
+            "display": "Reported Value Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1363",
+            "display": "Value Timing"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1364",
+            "display": "RDSR Frame of Reference Origin"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1365",
+            "display": "Microscopy Annotation Property Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1366",
+            "display": "Microscopy Measurement Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1367",
+            "display": "Prostate Reporting System"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1368",
+            "display": "MR Signal Intensity"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1369",
+            "display": "Cross-sectional Scan Plane Orientation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1370",
+            "display": "History of Prostate Disease"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1371",
+            "display": "Prostate MRI Study Quality Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1372",
+            "display": "Prostate MRI Series Quality Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1373",
+            "display": "MR Imaging Artifact"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1374",
+            "display": "Prostate DCE MRI Quality Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1375",
+            "display": "Prostate DWI MRI Quality Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1376",
+            "display": "Abdominal Intervention Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1377",
+            "display": "Abdominopelvic Intervention"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1378",
+            "display": "Prostate Cancer Diagnostic Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1379",
+            "display": "Prostate Cancer Family History"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1380",
+            "display": "Prostate Cancer Therapy"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1381",
+            "display": "Prostate MRI Assessment"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1382",
+            "display": "Overall Assessment from PI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1383",
+            "display": "Image Quality Control Standard"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1384",
+            "display": "Prostate Imaging Indication"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1385",
+            "display": "PI-RADS v2 Lesion Assessment Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1386",
+            "display": "PI-RADS v2 T2WI PZ Lesion Assessment Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1387",
+            "display": "PI-RADS v2 T2WI TZ Lesion Assessment Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1388",
+            "display": "PI-RADS v2 DWI Lesion Assessment Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1389",
+            "display": "PI-RADS v2 DCE Lesion Assessment Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1390",
+            "display": "mpMRI Assessment Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1391",
+            "display": "mpMRI Assessment Type from PI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1392",
+            "display": "mpMRI Assessment Value"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1393",
+            "display": "MRI Abnormality"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1394",
+            "display": "mpMRI Prostate Abnormality from PI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1395",
+            "display": "mpMRI Benign Prostate Abnormality from PI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1396",
+            "display": "MRI Shape Characteristic"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1397",
+            "display": "Prostate MRI Shape Characteristic from PI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1398",
+            "display": "MRI Margin Characteristic"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1399",
+            "display": "Prostate MRI Margin Characteristic from PI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1400",
+            "display": "MRI Signal Characteristic"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1401",
+            "display": "Prostate MRI Signal Characteristic from PI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1402",
+            "display": "MRI Enhancement Pattern"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1403",
+            "display": "Prostate MRI Enhancement Pattern from PI-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1404",
+            "display": "Prostate MRI Extra-prostatic Finding"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1405",
+            "display": "Prostate MRI Assessment of Extra-prostatic Anatomic Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1406",
+            "display": "MR Coil Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1407",
+            "display": "Endorectal Coil Fill Substance"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1408",
+            "display": "Prostate Relational Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1409",
+            "display": "Prostate Cancer Diagnostic Blood Lab Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1410",
+            "display": "Prostate Imaging Types of Quality Control Standard"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1411",
+            "display": "Ultrasound Shear Wave Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1412",
+            "display": "Left Ventricle Myocardial Wall 16 Segment Model (Retired)"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1413",
+            "display": "Left Ventricle Myocardial Wall 18 Segment Model"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1414",
+            "display": "Left Ventricle Basal Wall 6 Segments"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1415",
+            "display": "Left Ventricle Midlevel Wall 6 Segments"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1416",
+            "display": "Left Ventricle Apical Wall 4 Segments"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1417",
+            "display": "Left Ventricle Apical Wall 6 Segments"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1418",
+            "display": "Patient Treatment Preparation Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1419",
+            "display": "Patient Shielding Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1420",
+            "display": "Patient Treatment Preparation Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1421",
+            "display": "Patient Position Displacement Reference Point"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1422",
+            "display": "Patient Alignment Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1423",
+            "display": "Reasons for RT Radiation Treatment Omission"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1424",
+            "display": "Patient Treatment Preparation Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1425",
+            "display": "Motion Management Setup Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1426",
+            "display": "Core Echo Strain Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1427",
+            "display": "Myocardial Strain Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1428",
+            "display": "Echo Measured Strain Property"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1429",
+            "display": "Assessment from CAD-RADS"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1430",
+            "display": "CAD-RADS Stenosis Assessment Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1431",
+            "display": "CAD-RADS Assessment Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1432",
+            "display": "RT Segment Material"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1433",
+            "display": "Vertebral Anatomic Structure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1434",
+            "display": "Vertebra"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1435",
+            "display": "Intervertebral Disc"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1436",
+            "display": "Imaging Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1437",
+            "display": "NICIP Short Code Imaging Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1438",
+            "display": "NICIP SNOMED Imaging Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1439",
+            "display": "ICD-10-PCS Imaging Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1440",
+            "display": "ICD-10-PCS Nuclear Medicine Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1441",
+            "display": "ICD-10-PCS Radiation Therapy Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1442",
+            "display": "RT Segmentation Property Category"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1443",
+            "display": "Radiotherapy Registration Mark"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1444",
+            "display": "Radiotherapy Dose Region"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1445",
+            "display": "Anatomically Localized Lesion Segmentation Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1446",
+            "display": "Reason for Removal from Operational Use"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1447",
+            "display": "General Ultrasound Report Document Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1448",
+            "display": "Elastography Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1449",
+            "display": "Elastography Measurement Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1450",
+            "display": "Ultrasound Relevant Patient Condition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1451",
+            "display": "Shear Wave Detection Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1452",
+            "display": "Liver Ultrasound Study Indication"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1453",
+            "display": "Analog Waveform Filter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1454",
+            "display": "Digital Waveform Filter"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1455",
+            "display": "Waveform Filter Lookup Table Input Frequency Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1456",
+            "display": "Waveform Filter Lookup Table Output Magnitude Unit"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1457",
+            "display": "Specific Observation Subject Class"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1458",
+            "display": "Movable Beam Limiting Device Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1459",
+            "display": "Radiotherapy Acquisition WorkItem Subtasks"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1460",
+            "display": "Patient Position Acquisition Radiation Source Locations"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1461",
+            "display": "Energy Derivation Types"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1462",
+            "display": "KV Imaging Acquisition Techniques"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1463",
+            "display": "MV Imaging Acquisition Techniques"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1464",
+            "display": "Patient Position Acquisition - Projection Techniques"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1465",
+            "display": "Patient Position Acquisition  CT Techniques"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1466",
+            "display": "Patient Positioning Related Object Purposes"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1467",
+            "display": "Patient Position Acquisition Devices"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1468",
+            "display": "RT Radiation Meterset Units"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1469",
+            "display": "Acquisition Initiation Types"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1470",
+            "display": "RT Image Patient Position Acquisition Devices"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1471",
+            "display": "Photoacoustic Illumination Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1472",
+            "display": "Acoustic Coupling Medium"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1473",
+            "display": "Ultrasound Transducer Technology"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1474",
+            "display": "Speed of Sound Correction Mechanisms"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1475",
+            "display": "Photoacoustic Reconstruction Algorithm Family"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1476",
+            "display": "Photoacoustic Imaged Property"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1477",
+            "display": "X-Ray Radiation Dose Procedure Type Reported"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1478",
+            "display": "Topical Treatment"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1479",
+            "display": "Lesion Color"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1480",
+            "display": "Specimen Stain for Confocal Microscopy"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1481",
+            "display": "RT ROI Image Acquisition Context"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1482",
+            "display": "Lobe of Lung"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1483",
+            "display": "Zone of Lung"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1484",
+            "display": "Sleep Stage"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1485",
+            "display": "Patient Position Acquisition  MR Techniques"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1486",
+            "display": "RT Plan Radiotherapy Procedure Technique"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1487",
+            "display": "Waveform Annotation Classification"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1488",
+            "display": "Waveform Annotations Document Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1489",
+            "display": "EEG Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1490",
+            "display": "Patient Consciousness"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1491",
+            "display": "Follicle Type"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1492",
+            "display": "Breast Segmentation Types"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1493",
+            "display": "Implanted Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1494",
+            "display": "Similarity Measure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1495",
+            "display": "Waveform Acquisition Modality"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1496",
+            "display": "En Face Processing Algorithm Family"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1497",
+            "display": "Anterior Eye Segmentation Surface"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1498",
+            "display": "Fetal Echocardiography Image View"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1499",
+            "display": "Cardiac Ultrasound Fetal Arrhythmia Measurements"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1500",
+            "display": "Common Fetal Echocardiography Measurements"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1501",
+            "display": "Head and Neck Primary Anatomic Structure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1502",
+            "display": "VL View"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1503",
+            "display": "VL Dental View"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1504",
+            "display": "VL View Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1505",
+            "display": "VL Dental View Modifier"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1506",
+            "display": "Orthognathic Functional Condition"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1507",
+            "display": "Orthodontic Finding by Inspection"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1508",
+            "display": "Orthodontic Observable Entity"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1509",
+            "display": "Dental Occlusion"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1510",
+            "display": "Orthodontic Treatment Progress"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1511",
+            "display": "General Photography Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1512",
+            "display": "Devices for the Purpose of Dental Photography"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1513",
+            "display": "CTDI Phantom Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1514",
+            "display": "Diagnostic Imaging Procedure without IV Contrast"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1515",
+            "display": "Diagnostic Imaging Procedure with IV Contrast"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1516",
+            "display": "Structural Heart Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1517",
+            "display": "Structural Heart Device"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1518",
+            "display": "Structural Heart Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1519",
+            "display": "Aortic Valve Structural Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1520",
+            "display": "Mitral Valve Structural Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1521",
+            "display": "Tricuspid Valve Structural Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1522",
+            "display": "Structural Heart Echo Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1523",
+            "display": "Left Atrial Appendage Closure Measurement"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1524",
+            "display": "Structural Heart Procedure Anatomic Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1525",
+            "display": "Indication for Structural Heart Procedure"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1526",
+            "display": "Bradycardiac Agent"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1527",
+            "display": "Transesophageal Echocardiography Scan Plane"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1528",
+            "display": "Structural Heart Measurement Report Document Title"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1529",
+            "display": "Person Gender Identity"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1530",
+            "display": "Category of Sex Parameters for Clinical Use"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1531",
+            "display": "Third Person Pronoun Set"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1532",
+            "display": "Cardiac Structure Calcification Qualitative Evaluation"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1533",
+            "display": "Visual Field Measurements"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1534",
+            "display": "Optic Disc Key Measurements"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1535",
+            "display": "Retinal Sector Methods"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1536",
+            "display": "RNFL Sector Measurements"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1537",
+            "display": "RNFL Clockface Measurements"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1538",
+            "display": "Macular Thickness Key Measurements"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1539",
+            "display": "Ganglion Cell Measurement Extent"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1540",
+            "display": "Ganglion Cell Key Measurements"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1541",
+            "display": "Ganglion Cell Sector Measurements"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1542",
+            "display": "Ganglion Cell Sector Methods"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1543",
+            "display": "Endothelial Cell Count Measurements"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1544",
+            "display": "Ophthalmic Image ROI Measurements"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1545",
+            "display": "RT Plan Approval Assertion"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1546",
+            "display": "Estimated Delivery Date Method"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1547",
+            "display": "RT Dose Calculation Algorithm Family"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1548",
+            "display": "Dose Index for Dose Calibration"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1549",
+            "display": "Ultrasound Attenuation Imaging Site"
+          }
+        ]
+      }
+    ]
+  }
+}

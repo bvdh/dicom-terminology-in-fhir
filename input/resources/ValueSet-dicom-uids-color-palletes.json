@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DICOM_UID_ColorPalettes",
+  "id": "dicom-uids-color-palletes",
+  "title": "DICOM® Standard Color Palettes",
+  "description": "DICOM® Standard Color Palettes from DICOM PS3.6 Table B-1-1.",
+  "url": "http://dicom.nema.org/resources/CodeSystem/DICOM_UID_ColorPalettes",
+  "version": "2025.4.20250919",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/CodeSystem/DICOM_UIDs",
+        "concept": [
+          {
+            "code": "1.2.840.10008.1.5.1",
+            "display": "Hot Iron"
+          },
+          {
+            "code": "1.2.840.10008.1.5.2",
+            "display": "PET"
+          },
+          {
+            "code": "1.2.840.10008.1.5.3",
+            "display": "Hot Metal Blue"
+          },
+          {
+            "code": "1.2.840.10008.1.5.4",
+            "display": "PET 20 Step"
+          },
+          {
+            "code": "1.2.840.10008.1.5.5",
+            "display": "Spring"
+          },
+          {
+            "code": "1.2.840.10008.1.5.6",
+            "display": "Summer"
+          },
+          {
+            "code": "1.2.840.10008.1.5.7",
+            "display": "Fall"
+          },
+          {
+            "code": "1.2.840.10008.1.5.8",
+            "display": "Winter"
+          }
+        ]
+      }
+    ]
+  }
+}

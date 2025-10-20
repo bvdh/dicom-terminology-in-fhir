@@ -96,14 +96,19 @@ def toCamelCase( str: str ) -> str:
 def getElementText( element, dicom_path ):
     elementText = ''
     all_nodes = element.findall('./*', ns)
+    
+    # elementText = element.text if element is not None else ''
+    
     for node in all_nodes:
         tag = node.tag
         separator = ' '
-        new_text = ''
+        
         if ( tag.endswith("para") ):
             text = cleanText( node.text )
             other_text = getElementText( node, dicom_path )
-            text  = text+other_text
+            if other_text and len(other_text)>0:
+                text = text + other_text
+                
         elif ( tag.endswith("note") ):
             text = getElementText( node, dicom_path )
             if text and len(text) > 0:
@@ -143,8 +148,10 @@ def getElementText( element, dicom_path ):
             text = text or href or show
 
         elif ( tag.endswith('emphasis')):
-            text = getElementText( node, dicom_path )
-        
+            text = cleanText( node.text )
+            other_text = getElementText( node, dicom_path )
+            if other_text and len(other_text)>0:
+                text = text + other_text
         elif ( tag.endswith('xref')):
             text = cleanText( node.get('linkend') )
 
@@ -331,10 +338,24 @@ def cleanText( str:str ) -> str:
     Returns:
         Cleaned string
     """
+    if not str:
+        return ''
     new_text = str.encode("ascii", 'ignore').decode('ascii').strip() if str else ''
     while( new_text.find('"')>0 ):
         new_text = new_text.replace('"',"'")
     return new_text
+
+PART_TREE_ROOTS: Dict[str, List] = {}
+
+def loadPartTreeRoot( dicom_path: str, part: str ) -> List:
+    if part in PART_TREE_ROOTS:
+        return PART_TREE_ROOTS[part]
+    
+    filename = os.path.join(dicom_path, f'{part}/{part}.xml')
+    tree = ET.parse(filename)
+    root = tree.getroot()
+    PART_TREE_ROOTS[part] = root
+    return root
 
 def getOlinkText( dicom_path, targetdoc, targetptr, xrefstyle ) -> str:
     part = ''
@@ -345,10 +366,11 @@ def getOlinkText( dicom_path, targetdoc, targetptr, xrefstyle ) -> str:
     
         part = 'part' + partNo
         
-        filename = os.path.join(dicom_path, f'{part}/{part}.xml')
-        tree = ET.parse(filename)
-        root = tree.getroot()
-
+        # filename = os.path.join(dicom_path, f'{part}/{part}.xml')
+        # tree = ET.parse(filename)
+        # root = tree.getroot()
+        root = loadPartTreeRoot( dicom_path, part )
+        
         # Try to find a section with id=targetptr, then get its first child element
         section_element = root.find(f".//db:section[@{{http://www.w3.org/XML/1998/namespace}}id='{targetptr}']", ns)
         if section_element is not None:

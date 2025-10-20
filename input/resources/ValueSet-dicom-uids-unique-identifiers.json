@@ -1,0 +1,1878 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DicomUID_UniqueIdentifiers",
+  "id": "dicom-uids-unique-identifiers",
+  "title": "DICOM® Unique Identifiers",
+  "description": "DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1.",
+  "url": "http://dicom.nema.org/resources/CodeSystem/DicomUID_UniqueIdentifiers",
+  "version": "2025.4.20250919",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/CodeSystem/DICOM_UIDs",
+        "concept": [
+          {
+            "code": "1.2.840.10008.1.1",
+            "display": "Verification"
+          },
+          {
+            "code": "1.2.840.10008.1.2",
+            "display": "ImplicitVRLittleEndian"
+          },
+          {
+            "code": "1.2.840.10008.1.2.1",
+            "display": "ExplicitVRLittleEndian"
+          },
+          {
+            "code": "1.2.840.10008.1.2.1.98",
+            "display": "EncapsulatedUncompressedExplicitVRLittleEndian"
+          },
+          {
+            "code": "1.2.840.10008.1.2.1.99",
+            "display": "DeflatedExplicitVRLittleEndian"
+          },
+          {
+            "code": "1.2.840.10008.1.2.2",
+            "display": "ExplicitVRBigEndian"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.50",
+            "display": "JPEGBaseline8Bit"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.51",
+            "display": "JPEGExtended12Bit"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.52",
+            "display": "JPEGExtended35"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.53",
+            "display": "JPEGSpectralSelectionNonHierarchical68"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.54",
+            "display": "JPEGSpectralSelectionNonHierarchical79"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.55",
+            "display": "JPEGFullProgressionNonHierarchical1012"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.56",
+            "display": "JPEGFullProgressionNonHierarchical1113"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.57",
+            "display": "JPEGLossless"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.58",
+            "display": "JPEGLosslessNonHierarchical15"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.59",
+            "display": "JPEGExtendedHierarchical1618"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.60",
+            "display": "JPEGExtendedHierarchical1719"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.61",
+            "display": "JPEGSpectralSelectionHierarchical2022"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.62",
+            "display": "JPEGSpectralSelectionHierarchical2123"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.63",
+            "display": "JPEGFullProgressionHierarchical2426"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.64",
+            "display": "JPEGFullProgressionHierarchical2527"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.65",
+            "display": "JPEGLosslessHierarchical28"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.66",
+            "display": "JPEGLosslessHierarchical29"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.70",
+            "display": "JPEGLosslessSV1"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.80",
+            "display": "JPEGLSLossless"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.81",
+            "display": "JPEGLSNearLossless"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.90",
+            "display": "JPEG2000Lossless"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.91",
+            "display": "JPEG2000"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.92",
+            "display": "JPEG2000MCLossless"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.93",
+            "display": "JPEG2000MC"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.94",
+            "display": "JPIPReferenced"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.95",
+            "display": "JPIPReferencedDeflate"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.100",
+            "display": "MPEG2MPML"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.100.1",
+            "display": "MPEG2MPMLF"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.101",
+            "display": "MPEG2MPHL"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.101.1",
+            "display": "MPEG2MPHLF"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.102",
+            "display": "MPEG4HP41"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.102.1",
+            "display": "MPEG4HP41F"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.103",
+            "display": "MPEG4HP41BD"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.103.1",
+            "display": "MPEG4HP41BDF"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.104",
+            "display": "MPEG4HP422D"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.104.1",
+            "display": "MPEG4HP422DF"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.105",
+            "display": "MPEG4HP423D"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.105.1",
+            "display": "MPEG4HP423DF"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.106",
+            "display": "MPEG4HP42STEREO"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.106.1",
+            "display": "MPEG4HP42STEREOF"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.107",
+            "display": "HEVCMP51"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.108",
+            "display": "HEVCM10P51"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.110",
+            "display": "JPEGXLLossless"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.111",
+            "display": "JPEGXLJPEGRecompression"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.112",
+            "display": "JPEGXL"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.201",
+            "display": "HTJ2KLossless"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.202",
+            "display": "HTJ2KLosslessRPCL"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.203",
+            "display": "HTJ2K"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.204",
+            "display": "JPIPHTJ2KReferenced"
+          },
+          {
+            "code": "1.2.840.10008.1.2.4.205",
+            "display": "JPIPHTJ2KReferencedDeflate"
+          },
+          {
+            "code": "1.2.840.10008.1.2.5",
+            "display": "RLELossless"
+          },
+          {
+            "code": "1.2.840.10008.1.2.6.1",
+            "display": "RFC2557MIMEEncapsulation"
+          },
+          {
+            "code": "1.2.840.10008.1.2.6.2",
+            "display": "XMLEncoding"
+          },
+          {
+            "code": "1.2.840.10008.1.2.7.1",
+            "display": "SMPTEST211020UncompressedProgressiveActiveVideo"
+          },
+          {
+            "code": "1.2.840.10008.1.2.7.2",
+            "display": "SMPTEST211020UncompressedInterlacedActiveVideo"
+          },
+          {
+            "code": "1.2.840.10008.1.2.7.3",
+            "display": "SMPTEST211030PCMDigitalAudio"
+          },
+          {
+            "code": "1.2.840.10008.1.2.8.1",
+            "display": "DeflatedImageFrameCompression"
+          },
+          {
+            "code": "1.2.840.10008.1.3.10",
+            "display": "MediaStorageDirectoryStorage"
+          },
+          {
+            "code": "1.2.840.10008.1.5.1",
+            "display": "HotIronPalette"
+          },
+          {
+            "code": "1.2.840.10008.1.5.2",
+            "display": "PETPalette"
+          },
+          {
+            "code": "1.2.840.10008.1.5.3",
+            "display": "HotMetalBluePalette"
+          },
+          {
+            "code": "1.2.840.10008.1.5.4",
+            "display": "PET20StepPalette"
+          },
+          {
+            "code": "1.2.840.10008.1.5.5",
+            "display": "SpringPalette"
+          },
+          {
+            "code": "1.2.840.10008.1.5.6",
+            "display": "SummerPalette"
+          },
+          {
+            "code": "1.2.840.10008.1.5.7",
+            "display": "FallPalette"
+          },
+          {
+            "code": "1.2.840.10008.1.5.8",
+            "display": "WinterPalette"
+          },
+          {
+            "code": "1.2.840.10008.1.9",
+            "display": "BasicStudyContentNotification"
+          },
+          {
+            "code": "1.2.840.10008.1.20",
+            "display": "Papyrus3ImplicitVRLittleEndian"
+          },
+          {
+            "code": "1.2.840.10008.1.20.1",
+            "display": "StorageCommitmentPushModel"
+          },
+          {
+            "code": "1.2.840.10008.1.20.1.1",
+            "display": "StorageCommitmentPushModelInstance"
+          },
+          {
+            "code": "1.2.840.10008.1.20.2",
+            "display": "StorageCommitmentPullModel"
+          },
+          {
+            "code": "1.2.840.10008.1.20.2.1",
+            "display": "StorageCommitmentPullModelInstance"
+          },
+          {
+            "code": "1.2.840.10008.1.40",
+            "display": "ProceduralEventLogging"
+          },
+          {
+            "code": "1.2.840.10008.1.40.1",
+            "display": "ProceduralEventLoggingInstance"
+          },
+          {
+            "code": "1.2.840.10008.1.42",
+            "display": "SubstanceAdministrationLogging"
+          },
+          {
+            "code": "1.2.840.10008.1.42.1",
+            "display": "SubstanceAdministrationLoggingInstance"
+          },
+          {
+            "code": "1.2.840.10008.2.6.1",
+            "display": "DCMUID"
+          },
+          {
+            "code": "1.2.840.10008.2.16.4",
+            "display": "DCM"
+          },
+          {
+            "code": "1.2.840.10008.2.16.5",
+            "display": "MA"
+          },
+          {
+            "code": "1.2.840.10008.2.16.6",
+            "display": "UBERON"
+          },
+          {
+            "code": "1.2.840.10008.2.16.7",
+            "display": "ITIS_TSN"
+          },
+          {
+            "code": "1.2.840.10008.2.16.8",
+            "display": "MGI"
+          },
+          {
+            "code": "1.2.840.10008.2.16.9",
+            "display": "PUBCHEM_CID"
+          },
+          {
+            "code": "1.2.840.10008.2.16.10",
+            "display": "DC"
+          },
+          {
+            "code": "1.2.840.10008.2.16.11",
+            "display": "NYUMCCG"
+          },
+          {
+            "code": "1.2.840.10008.2.16.12",
+            "display": "MAYONRISBSASRG"
+          },
+          {
+            "code": "1.2.840.10008.2.16.13",
+            "display": "IBSI"
+          },
+          {
+            "code": "1.2.840.10008.2.16.14",
+            "display": "RO"
+          },
+          {
+            "code": "1.2.840.10008.2.16.15",
+            "display": "RADELEMENT"
+          },
+          {
+            "code": "1.2.840.10008.2.16.16",
+            "display": "I11"
+          },
+          {
+            "code": "1.2.840.10008.2.16.17",
+            "display": "UNS"
+          },
+          {
+            "code": "1.2.840.10008.2.16.18",
+            "display": "RRID"
+          },
+          {
+            "code": "1.2.840.10008.3.1.1.1",
+            "display": "DICOMApplicationContext"
+          },
+          {
+            "code": "1.2.840.10008.3.1.2.1.1",
+            "display": "DetachedPatientManagement"
+          },
+          {
+            "code": "1.2.840.10008.3.1.2.1.4",
+            "display": "DetachedPatientManagementMeta"
+          },
+          {
+            "code": "1.2.840.10008.3.1.2.2.1",
+            "display": "DetachedVisitManagement"
+          },
+          {
+            "code": "1.2.840.10008.3.1.2.3.1",
+            "display": "DetachedStudyManagement"
+          },
+          {
+            "code": "1.2.840.10008.3.1.2.3.2",
+            "display": "StudyComponentManagement"
+          },
+          {
+            "code": "1.2.840.10008.3.1.2.3.3",
+            "display": "ModalityPerformedProcedureStep"
+          },
+          {
+            "code": "1.2.840.10008.3.1.2.3.4",
+            "display": "ModalityPerformedProcedureStepRetrieve"
+          },
+          {
+            "code": "1.2.840.10008.3.1.2.3.5",
+            "display": "ModalityPerformedProcedureStepNotification"
+          },
+          {
+            "code": "1.2.840.10008.3.1.2.5.1",
+            "display": "DetachedResultsManagement"
+          },
+          {
+            "code": "1.2.840.10008.3.1.2.5.4",
+            "display": "DetachedResultsManagementMeta"
+          },
+          {
+            "code": "1.2.840.10008.3.1.2.5.5",
+            "display": "DetachedStudyManagementMeta"
+          },
+          {
+            "code": "1.2.840.10008.3.1.2.6.1",
+            "display": "DetachedInterpretationManagement"
+          },
+          {
+            "code": "1.2.840.10008.4.2",
+            "display": "Storage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.1",
+            "display": "BasicFilmSession"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.2",
+            "display": "BasicFilmBox"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.4",
+            "display": "BasicGrayscaleImageBox"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.4.1",
+            "display": "BasicColorImageBox"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.4.2",
+            "display": "ReferencedImageBox"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.9",
+            "display": "BasicGrayscalePrintManagementMeta"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.9.1",
+            "display": "ReferencedGrayscalePrintManagementMeta"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.14",
+            "display": "PrintJob"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.15",
+            "display": "BasicAnnotationBox"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.16",
+            "display": "Printer"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.16.376",
+            "display": "PrinterConfigurationRetrieval"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.17",
+            "display": "PrinterInstance"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.17.376",
+            "display": "PrinterConfigurationRetrievalInstance"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.18",
+            "display": "BasicColorPrintManagementMeta"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.18.1",
+            "display": "ReferencedColorPrintManagementMeta"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.22",
+            "display": "VOILUTBox"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.23",
+            "display": "PresentationLUT"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.24",
+            "display": "ImageOverlayBox"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.24.1",
+            "display": "BasicPrintImageOverlayBox"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.25",
+            "display": "PrintQueueInstance"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.26",
+            "display": "PrintQueueManagement"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.27",
+            "display": "StoredPrintStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.29",
+            "display": "HardcopyGrayscaleImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.30",
+            "display": "HardcopyColorImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.31",
+            "display": "PullPrintRequest"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.32",
+            "display": "PullStoredPrintManagementMeta"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.33",
+            "display": "MediaCreationManagement"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.40",
+            "display": "DisplaySystem"
+          },
+          {
+            "code": "1.2.840.10008.5.1.1.40.1",
+            "display": "DisplaySystemInstance"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.1",
+            "display": "ComputedRadiographyImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.1.1",
+            "display": "DigitalXRayImageStorageForPresentation"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.1.1.1",
+            "display": "DigitalXRayImageStorageForProcessing"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.1.2",
+            "display": "DigitalMammographyXRayImageStorageForPresentation"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.1.2.1",
+            "display": "DigitalMammographyXRayImageStorageForProcessing"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.1.3",
+            "display": "DigitalIntraOralXRayImageStorageForPresentation"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.1.3.1",
+            "display": "DigitalIntraOralXRayImageStorageForProcessing"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.2",
+            "display": "CTImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.2.1",
+            "display": "EnhancedCTImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.2.2",
+            "display": "LegacyConvertedEnhancedCTImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.3",
+            "display": "UltrasoundMultiFrameImageStorageRetired"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.3.1",
+            "display": "UltrasoundMultiFrameImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.4",
+            "display": "MRImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.4.1",
+            "display": "EnhancedMRImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.4.2",
+            "display": "MRSpectroscopyStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.4.3",
+            "display": "EnhancedMRColorImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.4.4",
+            "display": "LegacyConvertedEnhancedMRImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.5",
+            "display": "NuclearMedicineImageStorageRetired"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.6",
+            "display": "UltrasoundImageStorageRetired"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.6.1",
+            "display": "UltrasoundImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.6.2",
+            "display": "EnhancedUSVolumeStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.6.3",
+            "display": "PhotoacousticImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.7",
+            "display": "SecondaryCaptureImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.7.1",
+            "display": "MultiFrameSingleBitSecondaryCaptureImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.7.2",
+            "display": "MultiFrameGrayscaleByteSecondaryCaptureImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.7.3",
+            "display": "MultiFrameGrayscaleWordSecondaryCaptureImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.7.4",
+            "display": "MultiFrameTrueColorSecondaryCaptureImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.8",
+            "display": "StandaloneOverlayStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9",
+            "display": "StandaloneCurveStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.1",
+            "display": "WaveformStorageTrial"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.1.1",
+            "display": "TwelveLeadECGWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.1.2",
+            "display": "GeneralECGWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.1.3",
+            "display": "AmbulatoryECGWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.1.4",
+            "display": "General32bitECGWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.2.1",
+            "display": "HemodynamicWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.3.1",
+            "display": "CardiacElectrophysiologyWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.4.1",
+            "display": "BasicVoiceAudioWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.4.2",
+            "display": "GeneralAudioWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.5.1",
+            "display": "ArterialPulseWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.6.1",
+            "display": "RespiratoryWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.6.2",
+            "display": "MultichannelRespiratoryWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.7.1",
+            "display": "RoutineScalpElectroencephalogramWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.7.2",
+            "display": "ElectromyogramWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.7.3",
+            "display": "ElectrooculogramWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.7.4",
+            "display": "SleepElectroencephalogramWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.8.1",
+            "display": "BodyPositionWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.100.1",
+            "display": "WaveformPresentationStateStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.9.100.2",
+            "display": "WaveformAcquisitionPresentationStateStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.10",
+            "display": "StandaloneModalityLUTStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.11",
+            "display": "StandaloneVOILUTStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.11.1",
+            "display": "GrayscaleSoftcopyPresentationStateStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.11.2",
+            "display": "ColorSoftcopyPresentationStateStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.11.3",
+            "display": "PseudoColorSoftcopyPresentationStateStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.11.4",
+            "display": "BlendingSoftcopyPresentationStateStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.11.5",
+            "display": "XAXRFGrayscaleSoftcopyPresentationStateStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.11.6",
+            "display": "GrayscalePlanarMPRVolumetricPresentationStateStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.11.7",
+            "display": "CompositingPlanarMPRVolumetricPresentationStateStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.11.8",
+            "display": "AdvancedBlendingPresentationStateStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.11.9",
+            "display": "VolumeRenderingVolumetricPresentationStateStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.11.10",
+            "display": "SegmentedVolumeRenderingVolumetricPresentationStateStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.11.11",
+            "display": "MultipleVolumeRenderingVolumetricPresentationStateStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.11.12",
+            "display": "VariableModalityLUTSoftcopyPresentationStateStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.12.1",
+            "display": "XRayAngiographicImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.12.1.1",
+            "display": "EnhancedXAImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.12.2",
+            "display": "XRayRadiofluoroscopicImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.12.2.1",
+            "display": "EnhancedXRFImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.12.3",
+            "display": "XRayAngiographicBiPlaneImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.12.77"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.13.1.1",
+            "display": "XRay3DAngiographicImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.13.1.2",
+            "display": "XRay3DCraniofacialImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.13.1.3",
+            "display": "BreastTomosynthesisImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.13.1.4",
+            "display": "BreastProjectionXRayImageStorageForPresentation"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.13.1.5",
+            "display": "BreastProjectionXRayImageStorageForProcessing"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.14.1",
+            "display": "IntravascularOpticalCoherenceTomographyImageStorageForPresentation"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.14.2",
+            "display": "IntravascularOpticalCoherenceTomographyImageStorageForProcessing"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.20",
+            "display": "NuclearMedicineImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.30",
+            "display": "ParametricMapStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.40"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.66",
+            "display": "RawDataStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.66.1",
+            "display": "SpatialRegistrationStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.66.2",
+            "display": "SpatialFiducialsStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.66.3",
+            "display": "DeformableSpatialRegistrationStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.66.4",
+            "display": "SegmentationStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.66.5",
+            "display": "SurfaceSegmentationStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.66.6",
+            "display": "TractographyResultsStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.66.7",
+            "display": "LabelMapSegmentationStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.66.8",
+            "display": "HeightMapSegmentationStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.67",
+            "display": "RealWorldValueMappingStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.68.1",
+            "display": "SurfaceScanMeshStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.68.2",
+            "display": "SurfaceScanPointCloudStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1",
+            "display": "VLImageStorageTrial"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.2",
+            "display": "VLMultiFrameImageStorageTrial"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.1",
+            "display": "VLEndoscopicImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.1.1",
+            "display": "VideoEndoscopicImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.2",
+            "display": "VLMicroscopicImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.2.1",
+            "display": "VideoMicroscopicImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.3",
+            "display": "VLSlideCoordinatesMicroscopicImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.4",
+            "display": "VLPhotographicImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.4.1",
+            "display": "VideoPhotographicImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.5.1",
+            "display": "OphthalmicPhotography8BitImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.5.2",
+            "display": "OphthalmicPhotography16BitImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.5.3",
+            "display": "StereometricRelationshipStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.5.4",
+            "display": "OphthalmicTomographyImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.5.5",
+            "display": "WideFieldOphthalmicPhotographyStereographicProjectionImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.5.6",
+            "display": "WideFieldOphthalmicPhotography3DCoordinatesImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.5.7",
+            "display": "OphthalmicOpticalCoherenceTomographyEnFaceImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.5.8",
+            "display": "OphthalmicOpticalCoherenceTomographyBscanVolumeAnalysisStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.6",
+            "display": "VLWholeSlideMicroscopyImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.7",
+            "display": "DermoscopicPhotographyImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.8",
+            "display": "ConfocalMicroscopyImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.77.1.9",
+            "display": "ConfocalMicroscopyTiledPyramidalImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.78.1",
+            "display": "LensometryMeasurementsStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.78.2",
+            "display": "AutorefractionMeasurementsStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.78.3",
+            "display": "KeratometryMeasurementsStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.78.4",
+            "display": "SubjectiveRefractionMeasurementsStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.78.5",
+            "display": "VisualAcuityMeasurementsStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.78.6",
+            "display": "SpectaclePrescriptionReportStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.78.7",
+            "display": "OphthalmicAxialMeasurementsStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.78.8",
+            "display": "IntraocularLensCalculationsStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.79.1",
+            "display": "MacularGridThicknessAndVolumeReportStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.80.1",
+            "display": "OphthalmicVisualFieldStaticPerimetryMeasurementsStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.81.1",
+            "display": "OphthalmicThicknessMapStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.82.1",
+            "display": "CornealTopographyMapStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.1",
+            "display": "TextSRStorageTrial"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.2",
+            "display": "AudioSRStorageTrial"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.3",
+            "display": "DetailSRStorageTrial"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.4",
+            "display": "ComprehensiveSRStorageTrial"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.11",
+            "display": "BasicTextSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.22",
+            "display": "EnhancedSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.33",
+            "display": "ComprehensiveSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.34",
+            "display": "Comprehensive3DSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.35",
+            "display": "ExtensibleSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.40",
+            "display": "ProcedureLogStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.50",
+            "display": "MammographyCADSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.59",
+            "display": "KeyObjectSelectionDocumentStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.65",
+            "display": "ChestCADSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.67",
+            "display": "XRayRadiationDoseSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.68",
+            "display": "RadiopharmaceuticalRadiationDoseSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.69",
+            "display": "ColonCADSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.70",
+            "display": "ImplantationPlanSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.71",
+            "display": "AcquisitionContextSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.72",
+            "display": "SimplifiedAdultEchoSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.73",
+            "display": "PatientRadiationDoseSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.74",
+            "display": "PlannedImagingAgentAdministrationSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.75",
+            "display": "PerformedImagingAgentAdministrationSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.76",
+            "display": "EnhancedXRayRadiationDoseSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.77",
+            "display": "WaveformAnnotationSRStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.90.1",
+            "display": "ContentAssessmentResultsStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.91.1",
+            "display": "MicroscopyBulkSimpleAnnotationsStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.104.1",
+            "display": "EncapsulatedPDFStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.104.2",
+            "display": "EncapsulatedCDAStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.104.3",
+            "display": "EncapsulatedSTLStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.104.4",
+            "display": "EncapsulatedOBJStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.104.5",
+            "display": "EncapsulatedMTLStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.128",
+            "display": "PositronEmissionTomographyImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.128.1",
+            "display": "LegacyConvertedEnhancedPETImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.129",
+            "display": "StandalonePETCurveStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.130",
+            "display": "EnhancedPETImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.131",
+            "display": "BasicStructuredDisplayStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.200.1",
+            "display": "CTDefinedProcedureProtocolStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.200.2",
+            "display": "CTPerformedProcedureProtocolStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.200.3",
+            "display": "ProtocolApprovalStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.200.4",
+            "display": "ProtocolApprovalInformationModelFind"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.200.5",
+            "display": "ProtocolApprovalInformationModelMove"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.200.6",
+            "display": "ProtocolApprovalInformationModelGet"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.200.7",
+            "display": "XADefinedProcedureProtocolStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.200.8",
+            "display": "XAPerformedProcedureProtocolStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.201.1",
+            "display": "InventoryStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.201.2",
+            "display": "InventoryFind"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.201.3",
+            "display": "InventoryMove"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.201.4",
+            "display": "InventoryGet"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.201.5",
+            "display": "InventoryCreation"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.201.6",
+            "display": "RepositoryQuery"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.201.1.1",
+            "display": "StorageManagementInstance"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.1",
+            "display": "RTImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.2",
+            "display": "RTDoseStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.3",
+            "display": "RTStructureSetStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.4",
+            "display": "RTBeamsTreatmentRecordStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.5",
+            "display": "RTPlanStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.6",
+            "display": "RTBrachyTreatmentRecordStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.7",
+            "display": "RTTreatmentSummaryRecordStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.8",
+            "display": "RTIonPlanStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.9",
+            "display": "RTIonBeamsTreatmentRecordStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.10",
+            "display": "RTPhysicianIntentStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.11",
+            "display": "RTSegmentAnnotationStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.12",
+            "display": "RTRadiationSetStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.13",
+            "display": "CArmPhotonElectronRadiationStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.14",
+            "display": "TomotherapeuticRadiationStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.15",
+            "display": "RoboticArmRadiationStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.16",
+            "display": "RTRadiationRecordSetStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.17",
+            "display": "RTRadiationSalvageRecordStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.18",
+            "display": "TomotherapeuticRadiationRecordStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.19",
+            "display": "CArmPhotonElectronRadiationRecordStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.20",
+            "display": "RoboticRadiationRecordStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.21",
+            "display": "RTRadiationSetDeliveryInstructionStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.22",
+            "display": "RTTreatmentPreparationStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.23",
+            "display": "EnhancedRTImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.24",
+            "display": "EnhancedContinuousRTImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.481.25",
+            "display": "RTPatientPositionAcquisitionInstructionStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.501.1",
+            "display": "DICOSCTImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.501.2.1",
+            "display": "DICOSDigitalXRayImageStorageForPresentation"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.501.2.2",
+            "display": "DICOSDigitalXRayImageStorageForProcessing"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.501.3",
+            "display": "DICOSThreatDetectionReportStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.501.4",
+            "display": "DICOS2DAITStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.501.5",
+            "display": "DICOS3DAITStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.501.6",
+            "display": "DICOSQuadrupoleResonanceStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.601.1",
+            "display": "EddyCurrentImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.601.2",
+            "display": "EddyCurrentMultiFrameImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.601.3",
+            "display": "ThermographyImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.601.4",
+            "display": "ThermographyMultiFrameImageStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.601.5",
+            "display": "UltrasoundWaveformStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.2.1.1",
+            "display": "PatientRootQueryRetrieveInformationModelFind"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.2.1.2",
+            "display": "PatientRootQueryRetrieveInformationModelMove"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.2.1.3",
+            "display": "PatientRootQueryRetrieveInformationModelGet"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.2.2.1",
+            "display": "StudyRootQueryRetrieveInformationModelFind"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.2.2.2",
+            "display": "StudyRootQueryRetrieveInformationModelMove"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.2.2.3",
+            "display": "StudyRootQueryRetrieveInformationModelGet"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.2.3.1",
+            "display": "PatientStudyOnlyQueryRetrieveInformationModelFind"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.2.3.2",
+            "display": "PatientStudyOnlyQueryRetrieveInformationModelMove"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.2.3.3",
+            "display": "PatientStudyOnlyQueryRetrieveInformationModelGet"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.2.4.2",
+            "display": "CompositeInstanceRootRetrieveMove"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.2.4.3",
+            "display": "CompositeInstanceRootRetrieveGet"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.1.2.5.3",
+            "display": "CompositeInstanceRetrieveWithoutBulkDataGet"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.20.1",
+            "display": "DefinedProcedureProtocolInformationModelFind"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.20.2",
+            "display": "DefinedProcedureProtocolInformationModelMove"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.20.3",
+            "display": "DefinedProcedureProtocolInformationModelGet"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.31",
+            "display": "ModalityWorklistInformationModelFind"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.32",
+            "display": "GeneralPurposeWorklistManagementMeta"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.32.1",
+            "display": "GeneralPurposeWorklistInformationModelFind"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.32.2",
+            "display": "GeneralPurposeScheduledProcedureStep"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.32.3",
+            "display": "GeneralPurposePerformedProcedureStep"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.33",
+            "display": "InstanceAvailabilityNotification"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.1",
+            "display": "RTBeamsDeliveryInstructionStorageTrial"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.2",
+            "display": "RTConventionalMachineVerificationTrial"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.3",
+            "display": "RTIonMachineVerificationTrial"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.4",
+            "display": "UnifiedWorklistAndProcedureStepTrial"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.4.1",
+            "display": "UnifiedProcedureStepPushTrial"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.4.2",
+            "display": "UnifiedProcedureStepWatchTrial"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.4.3",
+            "display": "UnifiedProcedureStepPullTrial"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.4.4",
+            "display": "UnifiedProcedureStepEventTrial"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.5",
+            "display": "UPSGlobalSubscriptionInstance"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.5.1",
+            "display": "UPSFilteredGlobalSubscriptionInstance"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.6",
+            "display": "UnifiedWorklistAndProcedureStep"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.6.1",
+            "display": "UnifiedProcedureStepPush"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.6.2",
+            "display": "UnifiedProcedureStepWatch"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.6.3",
+            "display": "UnifiedProcedureStepPull"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.6.4",
+            "display": "UnifiedProcedureStepEvent"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.6.5",
+            "display": "UnifiedProcedureStepQuery"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.7",
+            "display": "RTBeamsDeliveryInstructionStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.8",
+            "display": "RTConventionalMachineVerification"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.9",
+            "display": "RTIonMachineVerification"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.34.10",
+            "display": "RTBrachyApplicationSetupDeliveryInstructionStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.37.1",
+            "display": "GeneralRelevantPatientInformationQuery"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.37.2",
+            "display": "BreastImagingRelevantPatientInformationQuery"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.37.3",
+            "display": "CardiacRelevantPatientInformationQuery"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.38.1",
+            "display": "HangingProtocolStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.38.2",
+            "display": "HangingProtocolInformationModelFind"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.38.3",
+            "display": "HangingProtocolInformationModelMove"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.38.4",
+            "display": "HangingProtocolInformationModelGet"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.39.1",
+            "display": "ColorPaletteStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.39.2",
+            "display": "ColorPaletteQueryRetrieveInformationModelFind"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.39.3",
+            "display": "ColorPaletteQueryRetrieveInformationModelMove"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.39.4",
+            "display": "ColorPaletteQueryRetrieveInformationModelGet"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.41",
+            "display": "ProductCharacteristicsQuery"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.42",
+            "display": "SubstanceApprovalQuery"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.43.1",
+            "display": "GenericImplantTemplateStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.43.2",
+            "display": "GenericImplantTemplateInformationModelFind"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.43.3",
+            "display": "GenericImplantTemplateInformationModelMove"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.43.4",
+            "display": "GenericImplantTemplateInformationModelGet"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.44.1",
+            "display": "ImplantAssemblyTemplateStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.44.2",
+            "display": "ImplantAssemblyTemplateInformationModelFind"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.44.3",
+            "display": "ImplantAssemblyTemplateInformationModelMove"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.44.4",
+            "display": "ImplantAssemblyTemplateInformationModelGet"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.45.1",
+            "display": "ImplantTemplateGroupStorage"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.45.2",
+            "display": "ImplantTemplateGroupInformationModelFind"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.45.3",
+            "display": "ImplantTemplateGroupInformationModelMove"
+          },
+          {
+            "code": "1.2.840.10008.5.1.4.45.4",
+            "display": "ImplantTemplateGroupInformationModelGet"
+          },
+          {
+            "code": "1.2.840.10008.7.1.1",
+            "display": "NativeDICOMModel"
+          },
+          {
+            "code": "1.2.840.10008.7.1.2",
+            "display": "AbstractMultiDimensionalImageModel"
+          },
+          {
+            "code": "1.2.840.10008.8.1.1",
+            "display": "DICOMContentMappingResource"
+          },
+          {
+            "code": "1.2.840.10008.10.1",
+            "display": "VideoEndoscopicImageRealTimeCommunication"
+          },
+          {
+            "code": "1.2.840.10008.10.2",
+            "display": "VideoPhotographicImageRealTimeCommunication"
+          },
+          {
+            "code": "1.2.840.10008.10.3",
+            "display": "AudioWaveformRealTimeCommunication"
+          },
+          {
+            "code": "1.2.840.10008.10.4",
+            "display": "RenditionSelectionDocumentRealTimeCommunication"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.1",
+            "display": "dicomDeviceName"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.2",
+            "display": "dicomDescription"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.3",
+            "display": "dicomManufacturer"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.4",
+            "display": "dicomManufacturerModelName"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.5",
+            "display": "dicomSoftwareVersion"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.6",
+            "display": "dicomVendorData"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.7",
+            "display": "dicomAETitle"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.8",
+            "display": "dicomNetworkConnectionReference"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.9",
+            "display": "dicomApplicationCluster"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.10",
+            "display": "dicomAssociationInitiator"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.11",
+            "display": "dicomAssociationAcceptor"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.12",
+            "display": "dicomHostname"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.13",
+            "display": "dicomPort"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.14",
+            "display": "dicomSOPClass"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.15",
+            "display": "dicomTransferRole"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.16",
+            "display": "dicomTransferSyntax"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.17",
+            "display": "dicomPrimaryDeviceType"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.18",
+            "display": "dicomRelatedDeviceReference"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.19",
+            "display": "dicomPreferredCalledAETitle"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.20",
+            "display": "dicomTLSCyphersuite"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.21",
+            "display": "dicomAuthorizedNodeCertificateReference"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.22",
+            "display": "dicomThisNodeCertificateReference"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.23",
+            "display": "dicomInstalled"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.24",
+            "display": "dicomStationName"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.25",
+            "display": "dicomDeviceSerialNumber"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.26",
+            "display": "dicomInstitutionName"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.27",
+            "display": "dicomInstitutionAddress"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.28",
+            "display": "dicomInstitutionDepartmentName"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.29",
+            "display": "dicomIssuerOfPatientID"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.30",
+            "display": "dicomPreferredCallingAETitle"
+          },
+          {
+            "code": "1.2.840.10008.15.0.3.31",
+            "display": "dicomSupportedCharacterSet"
+          },
+          {
+            "code": "1.2.840.10008.15.0.4.1",
+            "display": "dicomConfigurationRoot"
+          },
+          {
+            "code": "1.2.840.10008.15.0.4.2",
+            "display": "dicomDevicesRoot"
+          },
+          {
+            "code": "1.2.840.10008.15.0.4.3",
+            "display": "dicomUniqueAETitlesRegistryRoot"
+          },
+          {
+            "code": "1.2.840.10008.15.0.4.4",
+            "display": "dicomDevice"
+          },
+          {
+            "code": "1.2.840.10008.15.0.4.5",
+            "display": "dicomNetworkAE"
+          },
+          {
+            "code": "1.2.840.10008.15.0.4.6",
+            "display": "dicomNetworkConnection"
+          },
+          {
+            "code": "1.2.840.10008.15.0.4.7",
+            "display": "dicomUniqueAETitle"
+          },
+          {
+            "code": "1.2.840.10008.15.0.4.8",
+            "display": "dicomTransferCapability"
+          },
+          {
+            "code": "1.2.840.10008.15.1.1",
+            "display": "UTC"
+          }
+        ]
+      }
+    ]
+  }
+}

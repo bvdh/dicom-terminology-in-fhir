@@ -300,6 +300,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ReferencedFileID ^property[2].code = #retired
 * #ReferencedFileID ^property[2].valueBoolean = false
 
+* #MRDRDirectoryRecordOffset "MRDR Directory Record Offset" "MRDR Directory Record Offset"
+* #MRDRDirectoryRecordOffset ^property[0].code = #tag
+* #MRDRDirectoryRecordOffset ^property[0].valueString  = "00041504"
+* #MRDRDirectoryRecordOffset ^property[1].code = #vr
+* #MRDRDirectoryRecordOffset ^property[1].valueString = "UL"
+* #MRDRDirectoryRecordOffset ^property[2].code = #retired
+* #MRDRDirectoryRecordOffset ^property[2].valueBoolean = true
+
 * #ReferencedSOPClassUIDInFile "Referenced SOP Class UID in File" "Referenced SOP Class UID in File"
 * #ReferencedSOPClassUIDInFile ^property[0].code = #tag
 * #ReferencedSOPClassUIDInFile ^property[0].valueString  = "00041510"
@@ -332,6 +340,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ReferencedRelatedGeneralSOPClassUIDInFile ^property[2].code = #retired
 * #ReferencedRelatedGeneralSOPClassUIDInFile ^property[2].valueBoolean = false
 
+* #NumberOfReferences "Number of References" "Number of References"
+* #NumberOfReferences ^property[0].code = #tag
+* #NumberOfReferences ^property[0].valueString  = "00041600"
+* #NumberOfReferences ^property[1].code = #vr
+* #NumberOfReferences ^property[1].valueString = "UL"
+* #NumberOfReferences ^property[2].code = #retired
+* #NumberOfReferences ^property[2].valueBoolean = true
+
 * #CurrentFrameFunctionalGroupsSequence "Current Frame Functional Groups Sequence" "Current Frame Functional Groups Sequence"
 * #CurrentFrameFunctionalGroupsSequence ^property[0].code = #tag
 * #CurrentFrameFunctionalGroupsSequence ^property[0].valueString  = "00060001"
@@ -339,6 +355,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #CurrentFrameFunctionalGroupsSequence ^property[1].valueString = "SQ"
 * #CurrentFrameFunctionalGroupsSequence ^property[2].code = #retired
 * #CurrentFrameFunctionalGroupsSequence ^property[2].valueBoolean = false
+
+* #LengthToEnd "Length to End" "Length to End"
+* #LengthToEnd ^property[0].code = #tag
+* #LengthToEnd ^property[0].valueString  = "00080001"
+* #LengthToEnd ^property[1].code = #vr
+* #LengthToEnd ^property[1].valueString = "UL"
+* #LengthToEnd ^property[2].code = #retired
+* #LengthToEnd ^property[2].valueBoolean = true
 
 * #SpecificCharacterSet "Specific Character Set" "Specific Character Set"
 * #SpecificCharacterSet ^property[0].code = #tag
@@ -363,6 +387,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ImageType ^property[1].valueString = "CS"
 * #ImageType ^property[2].code = #retired
 * #ImageType ^property[2].valueBoolean = false
+
+* #RecognitionCode "Recognition Code" "Recognition Code"
+* #RecognitionCode ^property[0].code = #tag
+* #RecognitionCode ^property[0].valueString  = "00080010"
+* #RecognitionCode ^property[1].code = #vr
+* #RecognitionCode ^property[1].valueString = "SH"
+* #RecognitionCode ^property[2].code = #retired
+* #RecognitionCode ^property[2].valueBoolean = true
 
 * #InstanceCreationDate "Instance Creation Date" "Instance Creation Date"
 * #InstanceCreationDate ^property[0].code = #tag
@@ -484,6 +516,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ContentDate ^property[2].code = #retired
 * #ContentDate ^property[2].valueBoolean = false
 
+* #OverlayDate "Overlay Date" "Overlay Date"
+* #OverlayDate ^property[0].code = #tag
+* #OverlayDate ^property[0].valueString  = "00080024"
+* #OverlayDate ^property[1].code = #vr
+* #OverlayDate ^property[1].valueString = "DA"
+* #OverlayDate ^property[2].code = #retired
+* #OverlayDate ^property[2].valueBoolean = true
+
+* #CurveDate "Curve Date" "Curve Date"
+* #CurveDate ^property[0].code = #tag
+* #CurveDate ^property[0].valueString  = "00080025"
+* #CurveDate ^property[1].code = #vr
+* #CurveDate ^property[1].valueString = "DA"
+* #CurveDate ^property[2].code = #retired
+* #CurveDate ^property[2].valueBoolean = true
+
 * #AcquisitionDateTime "Acquisition DateTime" "Acquisition DateTime"
 * #AcquisitionDateTime ^property[0].code = #tag
 * #AcquisitionDateTime ^property[0].valueString  = "0008002A"
@@ -523,6 +571,46 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ContentTime ^property[1].valueString = "TM"
 * #ContentTime ^property[2].code = #retired
 * #ContentTime ^property[2].valueBoolean = false
+
+* #OverlayTime "Overlay Time" "Overlay Time"
+* #OverlayTime ^property[0].code = #tag
+* #OverlayTime ^property[0].valueString  = "00080034"
+* #OverlayTime ^property[1].code = #vr
+* #OverlayTime ^property[1].valueString = "TM"
+* #OverlayTime ^property[2].code = #retired
+* #OverlayTime ^property[2].valueBoolean = true
+
+* #CurveTime "Curve Time" "Curve Time"
+* #CurveTime ^property[0].code = #tag
+* #CurveTime ^property[0].valueString  = "00080035"
+* #CurveTime ^property[1].code = #vr
+* #CurveTime ^property[1].valueString = "TM"
+* #CurveTime ^property[2].code = #retired
+* #CurveTime ^property[2].valueBoolean = true
+
+* #DataSetType "Data Set Type" "Data Set Type"
+* #DataSetType ^property[0].code = #tag
+* #DataSetType ^property[0].valueString  = "00080040"
+* #DataSetType ^property[1].code = #vr
+* #DataSetType ^property[1].valueString = "US"
+* #DataSetType ^property[2].code = #retired
+* #DataSetType ^property[2].valueBoolean = true
+
+* #DataSetSubtype "Data Set Subtype" "Data Set Subtype"
+* #DataSetSubtype ^property[0].code = #tag
+* #DataSetSubtype ^property[0].valueString  = "00080041"
+* #DataSetSubtype ^property[1].code = #vr
+* #DataSetSubtype ^property[1].valueString = "LO"
+* #DataSetSubtype ^property[2].code = #retired
+* #DataSetSubtype ^property[2].valueBoolean = true
+
+* #NuclearMedicineSeriesType "Nuclear Medicine Series Type" "Nuclear Medicine Series Type"
+* #NuclearMedicineSeriesType ^property[0].code = #tag
+* #NuclearMedicineSeriesType ^property[0].valueString  = "00080042"
+* #NuclearMedicineSeriesType ^property[1].code = #vr
+* #NuclearMedicineSeriesType ^property[1].valueString = "CS"
+* #NuclearMedicineSeriesType ^property[2].code = #retired
+* #NuclearMedicineSeriesType ^property[2].valueBoolean = true
 
 * #AccessionNumber "Accession Number" "Accession Number"
 * #AccessionNumber ^property[0].code = #tag
@@ -1452,6 +1540,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #MaximumNumberOfRecords ^property[2].code = #retired
 * #MaximumNumberOfRecords ^property[2].valueBoolean = false
 
+* #NetworkID "Network ID" "Network ID"
+* #NetworkID ^property[0].code = #tag
+* #NetworkID ^property[0].valueString  = "00081000"
+* #NetworkID ^property[1].code = #vr
+* #NetworkID ^property[1].valueString = "AE"
+* #NetworkID ^property[2].code = #retired
+* #NetworkID ^property[2].valueBoolean = true
+
 * #StationName "Station Name" "Station Name"
 * #StationName ^property[0].code = #tag
 * #StationName ^property[0].valueString  = "00081010"
@@ -1604,6 +1700,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ManufacturerModelName ^property[2].code = #retired
 * #ManufacturerModelName ^property[2].valueBoolean = false
 
+* #ReferencedResultsSequence "Referenced Results Sequence" "Referenced Results Sequence"
+* #ReferencedResultsSequence ^property[0].code = #tag
+* #ReferencedResultsSequence ^property[0].valueString  = "00081100"
+* #ReferencedResultsSequence ^property[1].code = #vr
+* #ReferencedResultsSequence ^property[1].valueString = "SQ"
+* #ReferencedResultsSequence ^property[2].code = #retired
+* #ReferencedResultsSequence ^property[2].valueBoolean = true
+
 * #ReferencedStudySequence "Referenced Study Sequence" "Referenced Study Sequence"
 * #ReferencedStudySequence ^property[0].code = #tag
 * #ReferencedStudySequence ^property[0].valueString  = "00081110"
@@ -1652,6 +1756,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ReferencedVisitSequence ^property[2].code = #retired
 * #ReferencedVisitSequence ^property[2].valueBoolean = false
 
+* #ReferencedOverlaySequence "Referenced Overlay Sequence" "Referenced Overlay Sequence"
+* #ReferencedOverlaySequence ^property[0].code = #tag
+* #ReferencedOverlaySequence ^property[0].valueString  = "00081130"
+* #ReferencedOverlaySequence ^property[1].code = #vr
+* #ReferencedOverlaySequence ^property[1].valueString = "SQ"
+* #ReferencedOverlaySequence ^property[2].code = #retired
+* #ReferencedOverlaySequence ^property[2].valueBoolean = true
+
 * #ReferencedStereometricInstanceSequence "Referenced Stereometric Instance Sequence" "Referenced Stereometric Instance Sequence"
 * #ReferencedStereometricInstanceSequence ^property[0].code = #tag
 * #ReferencedStereometricInstanceSequence ^property[0].valueString  = "00081134"
@@ -1675,6 +1787,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ReferencedImageSequence ^property[1].valueString = "SQ"
 * #ReferencedImageSequence ^property[2].code = #retired
 * #ReferencedImageSequence ^property[2].valueBoolean = false
+
+* #ReferencedCurveSequence "Referenced Curve Sequence" "Referenced Curve Sequence"
+* #ReferencedCurveSequence ^property[0].code = #tag
+* #ReferencedCurveSequence ^property[0].valueString  = "00081145"
+* #ReferencedCurveSequence ^property[1].code = #vr
+* #ReferencedCurveSequence ^property[1].valueString = "SQ"
+* #ReferencedCurveSequence ^property[2].code = #retired
+* #ReferencedCurveSequence ^property[2].valueBoolean = true
 
 * #ReferencedInstanceSequence "Referenced Instance Sequence" "Referenced Instance Sequence"
 * #ReferencedInstanceSequence ^property[0].code = #tag
@@ -1900,6 +2020,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #HistologicalDiagnosesCodeSequence ^property[2].code = #retired
 * #HistologicalDiagnosesCodeSequence ^property[2].valueBoolean = false
 
+* #LossyImageCompressionRetired "Lossy Image Compression (Retired)" "Lossy Image Compression (Retired)"
+* #LossyImageCompressionRetired ^property[0].code = #tag
+* #LossyImageCompressionRetired ^property[0].valueString  = "00082110"
+* #LossyImageCompressionRetired ^property[1].code = #vr
+* #LossyImageCompressionRetired ^property[1].valueString = "CS"
+* #LossyImageCompressionRetired ^property[2].code = #retired
+* #LossyImageCompressionRetired ^property[2].valueBoolean = true
+
 * #DerivationDescription "Derivation Description" "Derivation Description"
 * #DerivationDescription ^property[0].code = #tag
 * #DerivationDescription ^property[0].valueString  = "00082111"
@@ -2036,6 +2164,30 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RecommendedDisplayFrameRate ^property[2].code = #retired
 * #RecommendedDisplayFrameRate ^property[2].valueBoolean = false
 
+* #TransducerPosition "Transducer Position" "Transducer Position"
+* #TransducerPosition ^property[0].code = #tag
+* #TransducerPosition ^property[0].valueString  = "00082200"
+* #TransducerPosition ^property[1].code = #vr
+* #TransducerPosition ^property[1].valueString = "CS"
+* #TransducerPosition ^property[2].code = #retired
+* #TransducerPosition ^property[2].valueBoolean = true
+
+* #TransducerOrientation "Transducer Orientation" "Transducer Orientation"
+* #TransducerOrientation ^property[0].code = #tag
+* #TransducerOrientation ^property[0].valueString  = "00082204"
+* #TransducerOrientation ^property[1].code = #vr
+* #TransducerOrientation ^property[1].valueString = "CS"
+* #TransducerOrientation ^property[2].code = #retired
+* #TransducerOrientation ^property[2].valueBoolean = true
+
+* #AnatomicStructure "Anatomic Structure" "Anatomic Structure"
+* #AnatomicStructure ^property[0].code = #tag
+* #AnatomicStructure ^property[0].valueString  = "00082208"
+* #AnatomicStructure ^property[1].code = #vr
+* #AnatomicStructure ^property[1].valueString = "CS"
+* #AnatomicStructure ^property[2].code = #retired
+* #AnatomicStructure ^property[2].valueBoolean = true
+
 * #AnatomicRegionSequence "Anatomic Region Sequence" "Anatomic Region Sequence"
 * #AnatomicRegionSequence ^property[0].code = #tag
 * #AnatomicRegionSequence ^property[0].valueString  = "00082218"
@@ -2060,6 +2212,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PrimaryAnatomicStructureSequence ^property[2].code = #retired
 * #PrimaryAnatomicStructureSequence ^property[2].valueBoolean = false
 
+* #AnatomicStructureSpaceOrRegionSequence "Anatomic Structure, Space or Region Sequence" "Anatomic Structure, Space or Region Sequence"
+* #AnatomicStructureSpaceOrRegionSequence ^property[0].code = #tag
+* #AnatomicStructureSpaceOrRegionSequence ^property[0].valueString  = "00082229"
+* #AnatomicStructureSpaceOrRegionSequence ^property[1].code = #vr
+* #AnatomicStructureSpaceOrRegionSequence ^property[1].valueString = "SQ"
+* #AnatomicStructureSpaceOrRegionSequence ^property[2].code = #retired
+* #AnatomicStructureSpaceOrRegionSequence ^property[2].valueBoolean = true
+
 * #PrimaryAnatomicStructureModifierSequence "Primary Anatomic Structure Modifier Sequence" "Primary Anatomic Structure Modifier Sequence"
 * #PrimaryAnatomicStructureModifierSequence ^property[0].code = #tag
 * #PrimaryAnatomicStructureModifierSequence ^property[0].valueString  = "00082230"
@@ -2067,6 +2227,110 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PrimaryAnatomicStructureModifierSequence ^property[1].valueString = "SQ"
 * #PrimaryAnatomicStructureModifierSequence ^property[2].code = #retired
 * #PrimaryAnatomicStructureModifierSequence ^property[2].valueBoolean = false
+
+* #TransducerPositionSequence "Transducer Position Sequence" "Transducer Position Sequence"
+* #TransducerPositionSequence ^property[0].code = #tag
+* #TransducerPositionSequence ^property[0].valueString  = "00082240"
+* #TransducerPositionSequence ^property[1].code = #vr
+* #TransducerPositionSequence ^property[1].valueString = "SQ"
+* #TransducerPositionSequence ^property[2].code = #retired
+* #TransducerPositionSequence ^property[2].valueBoolean = true
+
+* #TransducerPositionModifierSequence "Transducer Position Modifier Sequence" "Transducer Position Modifier Sequence"
+* #TransducerPositionModifierSequence ^property[0].code = #tag
+* #TransducerPositionModifierSequence ^property[0].valueString  = "00082242"
+* #TransducerPositionModifierSequence ^property[1].code = #vr
+* #TransducerPositionModifierSequence ^property[1].valueString = "SQ"
+* #TransducerPositionModifierSequence ^property[2].code = #retired
+* #TransducerPositionModifierSequence ^property[2].valueBoolean = true
+
+* #TransducerOrientationSequence "Transducer Orientation Sequence" "Transducer Orientation Sequence"
+* #TransducerOrientationSequence ^property[0].code = #tag
+* #TransducerOrientationSequence ^property[0].valueString  = "00082244"
+* #TransducerOrientationSequence ^property[1].code = #vr
+* #TransducerOrientationSequence ^property[1].valueString = "SQ"
+* #TransducerOrientationSequence ^property[2].code = #retired
+* #TransducerOrientationSequence ^property[2].valueBoolean = true
+
+* #TransducerOrientationModifierSequence "Transducer Orientation Modifier Sequence" "Transducer Orientation Modifier Sequence"
+* #TransducerOrientationModifierSequence ^property[0].code = #tag
+* #TransducerOrientationModifierSequence ^property[0].valueString  = "00082246"
+* #TransducerOrientationModifierSequence ^property[1].code = #vr
+* #TransducerOrientationModifierSequence ^property[1].valueString = "SQ"
+* #TransducerOrientationModifierSequence ^property[2].code = #retired
+* #TransducerOrientationModifierSequence ^property[2].valueBoolean = true
+
+* #AnatomicStructureSpaceOrRegionCodeSequenceTrial "Anatomic Structure Space Or Region Code Sequence (Trial)" "Anatomic Structure Space Or Region Code Sequence (Trial)"
+* #AnatomicStructureSpaceOrRegionCodeSequenceTrial ^property[0].code = #tag
+* #AnatomicStructureSpaceOrRegionCodeSequenceTrial ^property[0].valueString  = "00082251"
+* #AnatomicStructureSpaceOrRegionCodeSequenceTrial ^property[1].code = #vr
+* #AnatomicStructureSpaceOrRegionCodeSequenceTrial ^property[1].valueString = "SQ"
+* #AnatomicStructureSpaceOrRegionCodeSequenceTrial ^property[2].code = #retired
+* #AnatomicStructureSpaceOrRegionCodeSequenceTrial ^property[2].valueBoolean = true
+
+* #AnatomicPortalOfEntranceCodeSequenceTrial "Anatomic Portal Of Entrance Code Sequence (Trial)" "Anatomic Portal Of Entrance Code Sequence (Trial)"
+* #AnatomicPortalOfEntranceCodeSequenceTrial ^property[0].code = #tag
+* #AnatomicPortalOfEntranceCodeSequenceTrial ^property[0].valueString  = "00082253"
+* #AnatomicPortalOfEntranceCodeSequenceTrial ^property[1].code = #vr
+* #AnatomicPortalOfEntranceCodeSequenceTrial ^property[1].valueString = "SQ"
+* #AnatomicPortalOfEntranceCodeSequenceTrial ^property[2].code = #retired
+* #AnatomicPortalOfEntranceCodeSequenceTrial ^property[2].valueBoolean = true
+
+* #AnatomicApproachDirectionCodeSequenceTrial "Anatomic Approach Direction Code Sequence (Trial)" "Anatomic Approach Direction Code Sequence (Trial)"
+* #AnatomicApproachDirectionCodeSequenceTrial ^property[0].code = #tag
+* #AnatomicApproachDirectionCodeSequenceTrial ^property[0].valueString  = "00082255"
+* #AnatomicApproachDirectionCodeSequenceTrial ^property[1].code = #vr
+* #AnatomicApproachDirectionCodeSequenceTrial ^property[1].valueString = "SQ"
+* #AnatomicApproachDirectionCodeSequenceTrial ^property[2].code = #retired
+* #AnatomicApproachDirectionCodeSequenceTrial ^property[2].valueBoolean = true
+
+* #AnatomicPerspectiveDescriptionTrial "Anatomic Perspective Description (Trial)" "Anatomic Perspective Description (Trial)"
+* #AnatomicPerspectiveDescriptionTrial ^property[0].code = #tag
+* #AnatomicPerspectiveDescriptionTrial ^property[0].valueString  = "00082256"
+* #AnatomicPerspectiveDescriptionTrial ^property[1].code = #vr
+* #AnatomicPerspectiveDescriptionTrial ^property[1].valueString = "ST"
+* #AnatomicPerspectiveDescriptionTrial ^property[2].code = #retired
+* #AnatomicPerspectiveDescriptionTrial ^property[2].valueBoolean = true
+
+* #AnatomicPerspectiveCodeSequenceTrial "Anatomic Perspective Code Sequence (Trial)" "Anatomic Perspective Code Sequence (Trial)"
+* #AnatomicPerspectiveCodeSequenceTrial ^property[0].code = #tag
+* #AnatomicPerspectiveCodeSequenceTrial ^property[0].valueString  = "00082257"
+* #AnatomicPerspectiveCodeSequenceTrial ^property[1].code = #vr
+* #AnatomicPerspectiveCodeSequenceTrial ^property[1].valueString = "SQ"
+* #AnatomicPerspectiveCodeSequenceTrial ^property[2].code = #retired
+* #AnatomicPerspectiveCodeSequenceTrial ^property[2].valueBoolean = true
+
+* #AnatomicLocationOfExaminingInstrumentDescriptionTrial "Anatomic Location Of Examining Instrument Description (Trial)" "Anatomic Location Of Examining Instrument Description (Trial)"
+* #AnatomicLocationOfExaminingInstrumentDescriptionTrial ^property[0].code = #tag
+* #AnatomicLocationOfExaminingInstrumentDescriptionTrial ^property[0].valueString  = "00082258"
+* #AnatomicLocationOfExaminingInstrumentDescriptionTrial ^property[1].code = #vr
+* #AnatomicLocationOfExaminingInstrumentDescriptionTrial ^property[1].valueString = "ST"
+* #AnatomicLocationOfExaminingInstrumentDescriptionTrial ^property[2].code = #retired
+* #AnatomicLocationOfExaminingInstrumentDescriptionTrial ^property[2].valueBoolean = true
+
+* #AnatomicLocationOfExaminingInstrumentCodeSequenceTrial "Anatomic Location Of Examining Instrument Code Sequence (Trial)" "Anatomic Location Of Examining Instrument Code Sequence (Trial)"
+* #AnatomicLocationOfExaminingInstrumentCodeSequenceTrial ^property[0].code = #tag
+* #AnatomicLocationOfExaminingInstrumentCodeSequenceTrial ^property[0].valueString  = "00082259"
+* #AnatomicLocationOfExaminingInstrumentCodeSequenceTrial ^property[1].code = #vr
+* #AnatomicLocationOfExaminingInstrumentCodeSequenceTrial ^property[1].valueString = "SQ"
+* #AnatomicLocationOfExaminingInstrumentCodeSequenceTrial ^property[2].code = #retired
+* #AnatomicLocationOfExaminingInstrumentCodeSequenceTrial ^property[2].valueBoolean = true
+
+* #AnatomicStructureSpaceOrRegionModifierCodeSequenceTrial "Anatomic Structure Space Or Region Modifier Code Sequence (Trial)" "Anatomic Structure Space Or Region Modifier Code Sequence (Trial)"
+* #AnatomicStructureSpaceOrRegionModifierCodeSequenceTrial ^property[0].code = #tag
+* #AnatomicStructureSpaceOrRegionModifierCodeSequenceTrial ^property[0].valueString  = "0008225A"
+* #AnatomicStructureSpaceOrRegionModifierCodeSequenceTrial ^property[1].code = #vr
+* #AnatomicStructureSpaceOrRegionModifierCodeSequenceTrial ^property[1].valueString = "SQ"
+* #AnatomicStructureSpaceOrRegionModifierCodeSequenceTrial ^property[2].code = #retired
+* #AnatomicStructureSpaceOrRegionModifierCodeSequenceTrial ^property[2].valueBoolean = true
+
+* #OnAxisBackgroundAnatomicStructureCodeSequenceTrial "On Axis Background Anatomic Structure Code Sequence (Trial)" "On Axis Background Anatomic Structure Code Sequence (Trial)"
+* #OnAxisBackgroundAnatomicStructureCodeSequenceTrial ^property[0].code = #tag
+* #OnAxisBackgroundAnatomicStructureCodeSequenceTrial ^property[0].valueString  = "0008225C"
+* #OnAxisBackgroundAnatomicStructureCodeSequenceTrial ^property[1].code = #vr
+* #OnAxisBackgroundAnatomicStructureCodeSequenceTrial ^property[1].valueString = "SQ"
+* #OnAxisBackgroundAnatomicStructureCodeSequenceTrial ^property[2].code = #retired
+* #OnAxisBackgroundAnatomicStructureCodeSequenceTrial ^property[2].valueBoolean = true
 
 * #AlternateRepresentationSequence "Alternate Representation Sequence" "Alternate Representation Sequence"
 * #AlternateRepresentationSequence ^property[0].code = #tag
@@ -2107,6 +2371,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RadiopharmaceuticalAdministrationEventUID ^property[1].valueString = "UI"
 * #RadiopharmaceuticalAdministrationEventUID ^property[2].code = #retired
 * #RadiopharmaceuticalAdministrationEventUID ^property[2].valueBoolean = false
+
+* #IdentifyingComments "Identifying Comments" "Identifying Comments"
+* #IdentifyingComments ^property[0].code = #tag
+* #IdentifyingComments ^property[0].valueString  = "00084000"
+* #IdentifyingComments ^property[1].code = #vr
+* #IdentifyingComments ^property[1].valueString = "LT"
+* #IdentifyingComments ^property[2].code = #retired
+* #IdentifyingComments ^property[2].valueBoolean = true
 
 * #FrameType "Frame Type" "Frame Type"
 * #FrameType ^property[0].code = #tag
@@ -2596,6 +2868,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GeneticModificationsCodeSequence ^property[2].code = #retired
 * #GeneticModificationsCodeSequence ^property[2].valueBoolean = false
 
+* #OtherPatientIDs "Other Patient IDs" "Other Patient IDs"
+* #OtherPatientIDs ^property[0].code = #tag
+* #OtherPatientIDs ^property[0].valueString  = "00101000"
+* #OtherPatientIDs ^property[1].code = #vr
+* #OtherPatientIDs ^property[1].valueString = "LO"
+* #OtherPatientIDs ^property[2].code = #retired
+* #OtherPatientIDs ^property[2].valueBoolean = true
+
 * #OtherPatientNames "Other Patient Names" "Other Patient Names"
 * #OtherPatientNames ^property[0].code = #tag
 * #OtherPatientNames ^property[0].valueString  = "00101001"
@@ -2684,6 +2964,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PatientAddress ^property[2].code = #retired
 * #PatientAddress ^property[2].valueBoolean = false
 
+* #InsurancePlanIdentification "Insurance Plan Identification" "Insurance Plan Identification"
+* #InsurancePlanIdentification ^property[0].code = #tag
+* #InsurancePlanIdentification ^property[0].valueString  = "00101050"
+* #InsurancePlanIdentification ^property[1].code = #vr
+* #InsurancePlanIdentification ^property[1].valueString = "LO"
+* #InsurancePlanIdentification ^property[2].code = #retired
+* #InsurancePlanIdentification ^property[2].valueBoolean = true
+
 * #PatientMotherBirthName "Patient's Mother's Birth Name" "Patient's Mother's Birth Name"
 * #PatientMotherBirthName ^property[0].code = #tag
 * #PatientMotherBirthName ^property[0].valueString  = "00101060"
@@ -2707,6 +2995,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #BranchOfService ^property[1].valueString = "LO"
 * #BranchOfService ^property[2].code = #retired
 * #BranchOfService ^property[2].valueBoolean = false
+
+* #MedicalRecordLocator "Medical Record Locator" "Medical Record Locator"
+* #MedicalRecordLocator ^property[0].code = #tag
+* #MedicalRecordLocator ^property[0].valueString  = "00101090"
+* #MedicalRecordLocator ^property[1].code = #vr
+* #MedicalRecordLocator ^property[1].valueString = "LO"
+* #MedicalRecordLocator ^property[2].code = #retired
+* #MedicalRecordLocator ^property[2].valueBoolean = true
 
 * #ReferencedPatientPhotoSequence "Referenced Patient Photo Sequence" "Referenced Patient Photo Sequence"
 * #ReferencedPatientPhotoSequence ^property[0].code = #tag
@@ -2763,6 +3059,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PatientTelecomInformation ^property[1].valueString = "LT"
 * #PatientTelecomInformation ^property[2].code = #retired
 * #PatientTelecomInformation ^property[2].valueBoolean = false
+
+* #EthnicGroup "Ethnic Group" "Ethnic Group"
+* #EthnicGroup ^property[0].code = #tag
+* #EthnicGroup ^property[0].valueString  = "00102160"
+* #EthnicGroup ^property[1].code = #vr
+* #EthnicGroup ^property[1].valueString = "SH"
+* #EthnicGroup ^property[2].code = #retired
+* #EthnicGroup ^property[2].valueBoolean = true
 
 * #EthnicGroupCodeSequence "Ethnic Group Code Sequence" "Ethnic Group Code Sequence"
 * #EthnicGroupCodeSequence ^property[0].code = #tag
@@ -3196,6 +3500,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #EthicsCommitteeApprovalEffectivenessEndDate ^property[2].code = #retired
 * #EthicsCommitteeApprovalEffectivenessEndDate ^property[2].valueBoolean = false
 
+* #CADFileFormat "CAD File Format" "CAD File Format"
+* #CADFileFormat ^property[0].code = #tag
+* #CADFileFormat ^property[0].valueString  = "00140023"
+* #CADFileFormat ^property[1].code = #vr
+* #CADFileFormat ^property[1].valueString = "ST"
+* #CADFileFormat ^property[2].code = #retired
+* #CADFileFormat ^property[2].valueBoolean = true
+
+* #ComponentReferenceSystem "Component Reference System" "Component Reference System"
+* #ComponentReferenceSystem ^property[0].code = #tag
+* #ComponentReferenceSystem ^property[0].valueString  = "00140024"
+* #ComponentReferenceSystem ^property[1].code = #vr
+* #ComponentReferenceSystem ^property[1].valueString = "ST"
+* #ComponentReferenceSystem ^property[2].code = #retired
+* #ComponentReferenceSystem ^property[2].valueBoolean = true
+
 * #ComponentManufacturingProcedure "Component Manufacturing Procedure" "Component Manufacturing Procedure"
 * #ComponentManufacturingProcedure ^property[0].code = #tag
 * #ComponentManufacturingProcedure ^property[0].valueString  = "00140025"
@@ -3251,6 +3571,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #MaterialPropertiesDescription ^property[1].valueString = "ST"
 * #MaterialPropertiesDescription ^property[2].code = #retired
 * #MaterialPropertiesDescription ^property[2].valueBoolean = false
+
+* #MaterialPropertiesFileFormatRetired "Material Properties File Format (Retired)" "Material Properties File Format (Retired)"
+* #MaterialPropertiesFileFormatRetired ^property[0].code = #tag
+* #MaterialPropertiesFileFormatRetired ^property[0].valueString  = "00140045"
+* #MaterialPropertiesFileFormatRetired ^property[1].code = #vr
+* #MaterialPropertiesFileFormatRetired ^property[1].valueString = "ST"
+* #MaterialPropertiesFileFormatRetired ^property[2].code = #retired
+* #MaterialPropertiesFileFormatRetired ^property[2].valueBoolean = true
 
 * #MaterialNotes "Material Notes" "Material Notes"
 * #MaterialNotes ^property[0].code = #tag
@@ -6628,6 +6956,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #AdditionalDrugSequence ^property[2].code = #retired
 * #AdditionalDrugSequence ^property[2].valueBoolean = false
 
+* #Radionuclide "Radionuclide" "Radionuclide"
+* #Radionuclide ^property[0].code = #tag
+* #Radionuclide ^property[0].valueString  = "00180030"
+* #Radionuclide ^property[1].code = #vr
+* #Radionuclide ^property[1].valueString = "LO"
+* #Radionuclide ^property[2].code = #retired
+* #Radionuclide ^property[2].valueBoolean = true
+
 * #Radiopharmaceutical "Radiopharmaceutical" "Radiopharmaceutical"
 * #Radiopharmaceutical ^property[0].code = #tag
 * #Radiopharmaceutical ^property[0].valueString  = "00180031"
@@ -6635,6 +6971,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #Radiopharmaceutical ^property[1].valueString = "LO"
 * #Radiopharmaceutical ^property[2].code = #retired
 * #Radiopharmaceutical ^property[2].valueBoolean = false
+
+* #EnergyWindowCenterline "Energy Window Centerline" "Energy Window Centerline"
+* #EnergyWindowCenterline ^property[0].code = #tag
+* #EnergyWindowCenterline ^property[0].valueString  = "00180032"
+* #EnergyWindowCenterline ^property[1].code = #vr
+* #EnergyWindowCenterline ^property[1].valueString = "DS"
+* #EnergyWindowCenterline ^property[2].code = #retired
+* #EnergyWindowCenterline ^property[2].valueBoolean = true
+
+* #EnergyWindowTotalWidth "Energy Window Total Width" "Energy Window Total Width"
+* #EnergyWindowTotalWidth ^property[0].code = #tag
+* #EnergyWindowTotalWidth ^property[0].valueString  = "00180033"
+* #EnergyWindowTotalWidth ^property[1].code = #vr
+* #EnergyWindowTotalWidth ^property[1].valueString = "DS"
+* #EnergyWindowTotalWidth ^property[2].code = #retired
+* #EnergyWindowTotalWidth ^property[2].valueBoolean = true
 
 * #InterventionDrugName "Intervention Drug Name" "Intervention Drug Name"
 * #InterventionDrugName ^property[0].code = #tag
@@ -6660,6 +7012,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #InterventionSequence ^property[2].code = #retired
 * #InterventionSequence ^property[2].valueBoolean = false
 
+* #TherapyType "Therapy Type" "Therapy Type"
+* #TherapyType ^property[0].code = #tag
+* #TherapyType ^property[0].valueString  = "00180037"
+* #TherapyType ^property[1].code = #vr
+* #TherapyType ^property[1].valueString = "CS"
+* #TherapyType ^property[2].code = #retired
+* #TherapyType ^property[2].valueBoolean = true
+
 * #InterventionStatus "Intervention Status" "Intervention Status"
 * #InterventionStatus ^property[0].code = #tag
 * #InterventionStatus ^property[0].valueString  = "00180038"
@@ -6667,6 +7027,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #InterventionStatus ^property[1].valueString = "CS"
 * #InterventionStatus ^property[2].code = #retired
 * #InterventionStatus ^property[2].valueBoolean = false
+
+* #TherapyDescription "Therapy Description" "Therapy Description"
+* #TherapyDescription ^property[0].code = #tag
+* #TherapyDescription ^property[0].valueString  = "00180039"
+* #TherapyDescription ^property[1].code = #vr
+* #TherapyDescription ^property[1].valueString = "CS"
+* #TherapyDescription ^property[2].code = #retired
+* #TherapyDescription ^property[2].valueBoolean = true
 
 * #InterventionDescription "Intervention Description" "Intervention Description"
 * #InterventionDescription ^property[0].code = #tag
@@ -6972,6 +7340,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SecondaryCaptureDeviceID ^property[2].code = #retired
 * #SecondaryCaptureDeviceID ^property[2].valueBoolean = false
 
+* #HardcopyCreationDeviceID "Hardcopy Creation Device ID" "Hardcopy Creation Device ID"
+* #HardcopyCreationDeviceID ^property[0].code = #tag
+* #HardcopyCreationDeviceID ^property[0].valueString  = "00181011"
+* #HardcopyCreationDeviceID ^property[1].code = #vr
+* #HardcopyCreationDeviceID ^property[1].valueString = "LO"
+* #HardcopyCreationDeviceID ^property[2].code = #retired
+* #HardcopyCreationDeviceID ^property[2].valueBoolean = true
+
 * #DateOfSecondaryCapture "Date of Secondary Capture" "Date of Secondary Capture"
 * #DateOfSecondaryCapture ^property[0].code = #tag
 * #DateOfSecondaryCapture ^property[0].valueString  = "00181012"
@@ -6996,6 +7372,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SecondaryCaptureDeviceManufacturer ^property[2].code = #retired
 * #SecondaryCaptureDeviceManufacturer ^property[2].valueBoolean = false
 
+* #HardcopyDeviceManufacturer "Hardcopy Device Manufacturer" "Hardcopy Device Manufacturer"
+* #HardcopyDeviceManufacturer ^property[0].code = #tag
+* #HardcopyDeviceManufacturer ^property[0].valueString  = "00181017"
+* #HardcopyDeviceManufacturer ^property[1].code = #vr
+* #HardcopyDeviceManufacturer ^property[1].valueString = "LO"
+* #HardcopyDeviceManufacturer ^property[2].code = #retired
+* #HardcopyDeviceManufacturer ^property[2].valueBoolean = true
+
 * #SecondaryCaptureDeviceManufacturerModelName "Secondary Capture Device Manufacturer's Model Name" "Secondary Capture Device Manufacturer's Model Name"
 * #SecondaryCaptureDeviceManufacturerModelName ^property[0].code = #tag
 * #SecondaryCaptureDeviceManufacturerModelName ^property[0].valueString  = "00181018"
@@ -7011,6 +7395,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SecondaryCaptureDeviceSoftwareVersions ^property[1].valueString = "LO"
 * #SecondaryCaptureDeviceSoftwareVersions ^property[2].code = #retired
 * #SecondaryCaptureDeviceSoftwareVersions ^property[2].valueBoolean = false
+
+* #HardcopyDeviceSoftwareVersion "Hardcopy Device Software Version" "Hardcopy Device Software Version"
+* #HardcopyDeviceSoftwareVersion ^property[0].code = #tag
+* #HardcopyDeviceSoftwareVersion ^property[0].valueString  = "0018101A"
+* #HardcopyDeviceSoftwareVersion ^property[1].code = #vr
+* #HardcopyDeviceSoftwareVersion ^property[1].valueString = "LO"
+* #HardcopyDeviceSoftwareVersion ^property[2].code = #retired
+* #HardcopyDeviceSoftwareVersion ^property[2].valueBoolean = true
+
+* #HardcopyDeviceManufacturerModelName "Hardcopy Device Manufacturer's Model Name" "Hardcopy Device Manufacturer's Model Name"
+* #HardcopyDeviceManufacturerModelName ^property[0].code = #tag
+* #HardcopyDeviceManufacturerModelName ^property[0].valueString  = "0018101B"
+* #HardcopyDeviceManufacturerModelName ^property[1].code = #vr
+* #HardcopyDeviceManufacturerModelName ^property[1].valueString = "LO"
+* #HardcopyDeviceManufacturerModelName ^property[2].code = #retired
+* #HardcopyDeviceManufacturerModelName ^property[2].valueBoolean = true
 
 * #SoftwareVersions "Software Versions" "Software Versions"
 * #SoftwareVersions ^property[0].code = #tag
@@ -7516,6 +7916,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RotationDirection ^property[2].code = #retired
 * #RotationDirection ^property[2].valueBoolean = false
 
+* #AngularPosition "Angular Position" "Angular Position"
+* #AngularPosition ^property[0].code = #tag
+* #AngularPosition ^property[0].valueString  = "00181141"
+* #AngularPosition ^property[1].code = #vr
+* #AngularPosition ^property[1].valueString = "DS"
+* #AngularPosition ^property[2].code = #retired
+* #AngularPosition ^property[2].valueBoolean = true
+
 * #RadialPosition "Radial Position" "Radial Position"
 * #RadialPosition ^property[0].code = #tag
 * #RadialPosition ^property[0].valueString  = "00181142"
@@ -7547,6 +7955,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #CenterOfRotationOffset ^property[1].valueString = "DS"
 * #CenterOfRotationOffset ^property[2].code = #retired
 * #CenterOfRotationOffset ^property[2].valueBoolean = false
+
+* #RotationOffset "Rotation Offset" "Rotation Offset"
+* #RotationOffset ^property[0].code = #tag
+* #RotationOffset ^property[0].valueString  = "00181146"
+* #RotationOffset ^property[1].code = #vr
+* #RotationOffset ^property[1].valueString = "DS"
+* #RotationOffset ^property[2].code = #retired
+* #RotationOffset ^property[2].valueBoolean = true
 
 * #FieldOfViewShape "Field of View Shape" "Field of View Shape"
 * #FieldOfViewShape ^property[0].code = #tag
@@ -7979,6 +8395,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ConvolutionKernel ^property[1].valueString = "SH"
 * #ConvolutionKernel ^property[2].code = #retired
 * #ConvolutionKernel ^property[2].valueBoolean = false
+
+* #UpperLowerPixelValues "Upper/Lower Pixel Values" "Upper/Lower Pixel Values"
+* #UpperLowerPixelValues ^property[0].code = #tag
+* #UpperLowerPixelValues ^property[0].valueString  = "00181240"
+* #UpperLowerPixelValues ^property[1].code = #vr
+* #UpperLowerPixelValues ^property[1].valueString = "IS"
+* #UpperLowerPixelValues ^property[2].code = #retired
+* #UpperLowerPixelValues ^property[2].valueBoolean = true
 
 * #ActualFrameDuration "Actual Frame Duration" "Actual Frame Duration"
 * #ActualFrameDuration ^property[0].code = #tag
@@ -8748,6 +9172,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #LesionNumber ^property[2].code = #retired
 * #LesionNumber ^property[2].valueBoolean = false
 
+* #AcquisitionComments "Acquisition Comments" "Acquisition Comments"
+* #AcquisitionComments ^property[0].code = #tag
+* #AcquisitionComments ^property[0].valueString  = "00184000"
+* #AcquisitionComments ^property[1].code = #vr
+* #AcquisitionComments ^property[1].valueString = "LT"
+* #AcquisitionComments ^property[2].code = #retired
+* #AcquisitionComments ^property[2].valueBoolean = true
+
 * #OutputPower "Output Power" "Output Power"
 * #OutputPower ^property[0].code = #tag
 * #OutputPower ^property[0].valueString  = "00185000"
@@ -8787,6 +9219,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ProcessingFunction ^property[1].valueString = "LO"
 * #ProcessingFunction ^property[2].code = #retired
 * #ProcessingFunction ^property[2].valueBoolean = false
+
+* #PostprocessingFunction "Postprocessing Function" "Postprocessing Function"
+* #PostprocessingFunction ^property[0].code = #tag
+* #PostprocessingFunction ^property[0].valueString  = "00185021"
+* #PostprocessingFunction ^property[1].code = #vr
+* #PostprocessingFunction ^property[1].valueString = "LO"
+* #PostprocessingFunction ^property[2].code = #retired
+* #PostprocessingFunction ^property[2].valueBoolean = true
 
 * #MechanicalIndex "Mechanical Index" "Mechanical Index"
 * #MechanicalIndex ^property[0].code = #tag
@@ -8836,6 +9276,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SoftTissueSurfaceThermalIndex ^property[2].code = #retired
 * #SoftTissueSurfaceThermalIndex ^property[2].valueBoolean = false
 
+* #DynamicRange "Dynamic Range" "Dynamic Range"
+* #DynamicRange ^property[0].code = #tag
+* #DynamicRange ^property[0].valueString  = "00185030"
+* #DynamicRange ^property[1].code = #vr
+* #DynamicRange ^property[1].valueString = "DS"
+* #DynamicRange ^property[2].code = #retired
+* #DynamicRange ^property[2].valueBoolean = true
+
+* #TotalGain "Total Gain" "Total Gain"
+* #TotalGain ^property[0].code = #tag
+* #TotalGain ^property[0].valueString  = "00185040"
+* #TotalGain ^property[1].code = #vr
+* #TotalGain ^property[1].valueString = "DS"
+* #TotalGain ^property[2].code = #retired
+* #TotalGain ^property[2].valueBoolean = true
+
 * #DepthOfScanField "Depth of Scan Field" "Depth of Scan Field"
 * #DepthOfScanField ^property[0].code = #tag
 * #DepthOfScanField ^property[0].valueString  = "00185050"
@@ -8867,6 +9323,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ProjectionEponymousNameCodeSequence ^property[1].valueString = "SQ"
 * #ProjectionEponymousNameCodeSequence ^property[2].code = #retired
 * #ProjectionEponymousNameCodeSequence ^property[2].valueBoolean = false
+
+* #ImageTransformationMatrix "Image Transformation Matrix" "Image Transformation Matrix"
+* #ImageTransformationMatrix ^property[0].code = #tag
+* #ImageTransformationMatrix ^property[0].valueString  = "00185210"
+* #ImageTransformationMatrix ^property[1].code = #vr
+* #ImageTransformationMatrix ^property[1].valueString = "DS"
+* #ImageTransformationMatrix ^property[2].code = #retired
+* #ImageTransformationMatrix ^property[2].valueBoolean = true
+
+* #ImageTranslationVector "Image Translation Vector" "Image Translation Vector"
+* #ImageTranslationVector ^property[0].code = #tag
+* #ImageTranslationVector ^property[0].valueString  = "00185212"
+* #ImageTranslationVector ^property[1].code = #vr
+* #ImageTranslationVector ^property[1].valueString = "DS"
+* #ImageTranslationVector ^property[2].code = #retired
+* #ImageTranslationVector ^property[2].valueBoolean = true
 
 * #Sensitivity "Sensitivity" "Sensitivity"
 * #Sensitivity ^property[0].code = #tag
@@ -9044,6 +9516,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SteeringAngle ^property[2].code = #retired
 * #SteeringAngle ^property[2].valueBoolean = false
 
+* #DopplerSampleVolumeXPositionRetired "Doppler Sample Volume X Position (Retired)" "Doppler Sample Volume X Position (Retired)"
+* #DopplerSampleVolumeXPositionRetired ^property[0].code = #tag
+* #DopplerSampleVolumeXPositionRetired ^property[0].valueString  = "00186038"
+* #DopplerSampleVolumeXPositionRetired ^property[1].code = #vr
+* #DopplerSampleVolumeXPositionRetired ^property[1].valueString = "UL"
+* #DopplerSampleVolumeXPositionRetired ^property[2].code = #retired
+* #DopplerSampleVolumeXPositionRetired ^property[2].valueBoolean = true
+
 * #DopplerSampleVolumeXPosition "Doppler Sample Volume X Position" "Doppler Sample Volume X Position"
 * #DopplerSampleVolumeXPosition ^property[0].code = #tag
 * #DopplerSampleVolumeXPosition ^property[0].valueString  = "00186039"
@@ -9051,6 +9531,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #DopplerSampleVolumeXPosition ^property[1].valueString = "SL"
 * #DopplerSampleVolumeXPosition ^property[2].code = #retired
 * #DopplerSampleVolumeXPosition ^property[2].valueBoolean = false
+
+* #DopplerSampleVolumeYPositionRetired "Doppler Sample Volume Y Position (Retired)" "Doppler Sample Volume Y Position (Retired)"
+* #DopplerSampleVolumeYPositionRetired ^property[0].code = #tag
+* #DopplerSampleVolumeYPositionRetired ^property[0].valueString  = "0018603A"
+* #DopplerSampleVolumeYPositionRetired ^property[1].code = #vr
+* #DopplerSampleVolumeYPositionRetired ^property[1].valueString = "UL"
+* #DopplerSampleVolumeYPositionRetired ^property[2].code = #retired
+* #DopplerSampleVolumeYPositionRetired ^property[2].valueBoolean = true
 
 * #DopplerSampleVolumeYPosition "Doppler Sample Volume Y Position" "Doppler Sample Volume Y Position"
 * #DopplerSampleVolumeYPosition ^property[0].code = #tag
@@ -9060,6 +9548,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #DopplerSampleVolumeYPosition ^property[2].code = #retired
 * #DopplerSampleVolumeYPosition ^property[2].valueBoolean = false
 
+* #TMLinePositionX0Retired "TM-Line Position X0 (Retired)" "TM-Line Position X0 (Retired)"
+* #TMLinePositionX0Retired ^property[0].code = #tag
+* #TMLinePositionX0Retired ^property[0].valueString  = "0018603C"
+* #TMLinePositionX0Retired ^property[1].code = #vr
+* #TMLinePositionX0Retired ^property[1].valueString = "UL"
+* #TMLinePositionX0Retired ^property[2].code = #retired
+* #TMLinePositionX0Retired ^property[2].valueBoolean = true
+
 * #TMLinePositionX0 "TM-Line Position X0" "TM-Line Position X0"
 * #TMLinePositionX0 ^property[0].code = #tag
 * #TMLinePositionX0 ^property[0].valueString  = "0018603D"
@@ -9067,6 +9563,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #TMLinePositionX0 ^property[1].valueString = "SL"
 * #TMLinePositionX0 ^property[2].code = #retired
 * #TMLinePositionX0 ^property[2].valueBoolean = false
+
+* #TMLinePositionY0Retired "TM-Line Position Y0 (Retired)" "TM-Line Position Y0 (Retired)"
+* #TMLinePositionY0Retired ^property[0].code = #tag
+* #TMLinePositionY0Retired ^property[0].valueString  = "0018603E"
+* #TMLinePositionY0Retired ^property[1].code = #vr
+* #TMLinePositionY0Retired ^property[1].valueString = "UL"
+* #TMLinePositionY0Retired ^property[2].code = #retired
+* #TMLinePositionY0Retired ^property[2].valueBoolean = true
 
 * #TMLinePositionY0 "TM-Line Position Y0" "TM-Line Position Y0"
 * #TMLinePositionY0 ^property[0].code = #tag
@@ -9076,6 +9580,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #TMLinePositionY0 ^property[2].code = #retired
 * #TMLinePositionY0 ^property[2].valueBoolean = false
 
+* #TMLinePositionX1Retired "TM-Line Position X1 (Retired)" "TM-Line Position X1 (Retired)"
+* #TMLinePositionX1Retired ^property[0].code = #tag
+* #TMLinePositionX1Retired ^property[0].valueString  = "00186040"
+* #TMLinePositionX1Retired ^property[1].code = #vr
+* #TMLinePositionX1Retired ^property[1].valueString = "UL"
+* #TMLinePositionX1Retired ^property[2].code = #retired
+* #TMLinePositionX1Retired ^property[2].valueBoolean = true
+
 * #TMLinePositionX1 "TM-Line Position X1" "TM-Line Position X1"
 * #TMLinePositionX1 ^property[0].code = #tag
 * #TMLinePositionX1 ^property[0].valueString  = "00186041"
@@ -9083,6 +9595,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #TMLinePositionX1 ^property[1].valueString = "SL"
 * #TMLinePositionX1 ^property[2].code = #retired
 * #TMLinePositionX1 ^property[2].valueBoolean = false
+
+* #TMLinePositionY1Retired "TM-Line Position Y1 (Retired)" "TM-Line Position Y1 (Retired)"
+* #TMLinePositionY1Retired ^property[0].code = #tag
+* #TMLinePositionY1Retired ^property[0].valueString  = "00186042"
+* #TMLinePositionY1Retired ^property[1].code = #vr
+* #TMLinePositionY1Retired ^property[1].valueString = "UL"
+* #TMLinePositionY1Retired ^property[2].code = #retired
+* #TMLinePositionY1Retired ^property[2].valueBoolean = true
 
 * #TMLinePositionY1 "TM-Line Position Y1" "TM-Line Position Y1"
 * #TMLinePositionY1 ^property[0].code = #tag
@@ -10180,6 +10700,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SpectroscopyAcquisitionPhaseRows ^property[2].code = #retired
 * #SpectroscopyAcquisitionPhaseRows ^property[2].valueBoolean = false
 
+* #ParallelReductionFactorInPlaneRetired "Parallel Reduction Factor In-plane (Retired)" "Parallel Reduction Factor In-plane (Retired)"
+* #ParallelReductionFactorInPlaneRetired ^property[0].code = #tag
+* #ParallelReductionFactorInPlaneRetired ^property[0].valueString  = "00189096"
+* #ParallelReductionFactorInPlaneRetired ^property[1].code = #vr
+* #ParallelReductionFactorInPlaneRetired ^property[1].valueString = "FD"
+* #ParallelReductionFactorInPlaneRetired ^property[2].code = #retired
+* #ParallelReductionFactorInPlaneRetired ^property[2].valueBoolean = true
+
 * #TransmitterFrequency "Transmitter Frequency" "Transmitter Frequency"
 * #TransmitterFrequency ^property[0].code = #tag
 * #TransmitterFrequency ^property[0].valueString  = "00189098"
@@ -10356,6 +10884,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SpectroscopyAcquisitionOutOfPlanePhaseSteps ^property[2].code = #retired
 * #SpectroscopyAcquisitionOutOfPlanePhaseSteps ^property[2].valueBoolean = false
 
+* #BulkMotionStatus "Bulk Motion Status" "Bulk Motion Status"
+* #BulkMotionStatus ^property[0].code = #tag
+* #BulkMotionStatus ^property[0].valueString  = "00189166"
+* #BulkMotionStatus ^property[1].code = #vr
+* #BulkMotionStatus ^property[1].valueString = "CS"
+* #BulkMotionStatus ^property[2].code = #retired
+* #BulkMotionStatus ^property[2].valueBoolean = true
+
 * #ParallelReductionFactorSecondInPlane "Parallel Reduction Factor Second In-plane" "Parallel Reduction Factor Second In-plane"
 * #ParallelReductionFactorSecondInPlane ^property[0].code = #tag
 * #ParallelReductionFactorSecondInPlane ^property[0].valueString  = "00189168"
@@ -10507,6 +11043,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RespiratorySignalSourceID ^property[1].valueString = "SH"
 * #RespiratorySignalSourceID ^property[2].code = #retired
 * #RespiratorySignalSourceID ^property[2].valueBoolean = false
+
+* #ChemicalShiftMinimumIntegrationLimitInHz "Chemical Shift Minimum Integration Limit in Hz" "Chemical Shift Minimum Integration Limit in Hz"
+* #ChemicalShiftMinimumIntegrationLimitInHz ^property[0].code = #tag
+* #ChemicalShiftMinimumIntegrationLimitInHz ^property[0].valueString  = "00189195"
+* #ChemicalShiftMinimumIntegrationLimitInHz ^property[1].code = #vr
+* #ChemicalShiftMinimumIntegrationLimitInHz ^property[1].valueString = "FD"
+* #ChemicalShiftMinimumIntegrationLimitInHz ^property[2].code = #retired
+* #ChemicalShiftMinimumIntegrationLimitInHz ^property[2].valueBoolean = true
+
+* #ChemicalShiftMaximumIntegrationLimitInHz "Chemical Shift Maximum Integration Limit in Hz" "Chemical Shift Maximum Integration Limit in Hz"
+* #ChemicalShiftMaximumIntegrationLimitInHz ^property[0].code = #tag
+* #ChemicalShiftMaximumIntegrationLimitInHz ^property[0].valueString  = "00189196"
+* #ChemicalShiftMaximumIntegrationLimitInHz ^property[1].code = #vr
+* #ChemicalShiftMaximumIntegrationLimitInHz ^property[1].valueString = "FD"
+* #ChemicalShiftMaximumIntegrationLimitInHz ^property[2].code = #retired
+* #ChemicalShiftMaximumIntegrationLimitInHz ^property[2].valueBoolean = true
 
 * #MRVelocityEncodingSequence "MR Velocity Encoding Sequence" "MR Velocity Encoding Sequence"
 * #MRVelocityEncodingSequence ^property[0].code = #tag
@@ -11003,6 +11555,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ExposureModulationType ^property[1].valueString = "CS"
 * #ExposureModulationType ^property[2].code = #retired
 * #ExposureModulationType ^property[2].valueBoolean = false
+
+* #EstimatedDoseSaving "Estimated Dose Saving" "Estimated Dose Saving"
+* #EstimatedDoseSaving ^property[0].code = #tag
+* #EstimatedDoseSaving ^property[0].valueString  = "00189324"
+* #EstimatedDoseSaving ^property[1].code = #vr
+* #EstimatedDoseSaving ^property[1].valueString = "FD"
+* #EstimatedDoseSaving ^property[2].code = #retired
+* #EstimatedDoseSaving ^property[2].valueBoolean = true
 
 * #CTXRayDetailsSequence "CT X-Ray Details Sequence" "CT X-Ray Details Sequence"
 * #CTXRayDetailsSequence ^property[0].code = #tag
@@ -13476,6 +14036,46 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #InstanceNumber ^property[2].code = #retired
 * #InstanceNumber ^property[2].valueBoolean = false
 
+* #IsotopeNumber "Isotope Number" "Isotope Number"
+* #IsotopeNumber ^property[0].code = #tag
+* #IsotopeNumber ^property[0].valueString  = "00200014"
+* #IsotopeNumber ^property[1].code = #vr
+* #IsotopeNumber ^property[1].valueString = "IS"
+* #IsotopeNumber ^property[2].code = #retired
+* #IsotopeNumber ^property[2].valueBoolean = true
+
+* #PhaseNumber "Phase Number" "Phase Number"
+* #PhaseNumber ^property[0].code = #tag
+* #PhaseNumber ^property[0].valueString  = "00200015"
+* #PhaseNumber ^property[1].code = #vr
+* #PhaseNumber ^property[1].valueString = "IS"
+* #PhaseNumber ^property[2].code = #retired
+* #PhaseNumber ^property[2].valueBoolean = true
+
+* #IntervalNumber "Interval Number" "Interval Number"
+* #IntervalNumber ^property[0].code = #tag
+* #IntervalNumber ^property[0].valueString  = "00200016"
+* #IntervalNumber ^property[1].code = #vr
+* #IntervalNumber ^property[1].valueString = "IS"
+* #IntervalNumber ^property[2].code = #retired
+* #IntervalNumber ^property[2].valueBoolean = true
+
+* #TimeSlotNumber "Time Slot Number" "Time Slot Number"
+* #TimeSlotNumber ^property[0].code = #tag
+* #TimeSlotNumber ^property[0].valueString  = "00200017"
+* #TimeSlotNumber ^property[1].code = #vr
+* #TimeSlotNumber ^property[1].valueString = "IS"
+* #TimeSlotNumber ^property[2].code = #retired
+* #TimeSlotNumber ^property[2].valueBoolean = true
+
+* #AngleNumber "Angle Number" "Angle Number"
+* #AngleNumber ^property[0].code = #tag
+* #AngleNumber ^property[0].valueString  = "00200018"
+* #AngleNumber ^property[1].code = #vr
+* #AngleNumber ^property[1].valueString = "IS"
+* #AngleNumber ^property[2].code = #retired
+* #AngleNumber ^property[2].valueBoolean = true
+
 * #ItemNumber "Item Number" "Item Number"
 * #ItemNumber ^property[0].code = #tag
 * #ItemNumber ^property[0].valueString  = "00200019"
@@ -13492,6 +14092,30 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PatientOrientation ^property[2].code = #retired
 * #PatientOrientation ^property[2].valueBoolean = false
 
+* #OverlayNumber "Overlay Number" "Overlay Number"
+* #OverlayNumber ^property[0].code = #tag
+* #OverlayNumber ^property[0].valueString  = "00200022"
+* #OverlayNumber ^property[1].code = #vr
+* #OverlayNumber ^property[1].valueString = "IS"
+* #OverlayNumber ^property[2].code = #retired
+* #OverlayNumber ^property[2].valueBoolean = true
+
+* #CurveNumber "Curve Number" "Curve Number"
+* #CurveNumber ^property[0].code = #tag
+* #CurveNumber ^property[0].valueString  = "00200024"
+* #CurveNumber ^property[1].code = #vr
+* #CurveNumber ^property[1].valueString = "IS"
+* #CurveNumber ^property[2].code = #retired
+* #CurveNumber ^property[2].valueBoolean = true
+
+* #LUTNumber "LUT Number" "LUT Number"
+* #LUTNumber ^property[0].code = #tag
+* #LUTNumber ^property[0].valueString  = "00200026"
+* #LUTNumber ^property[1].code = #vr
+* #LUTNumber ^property[1].valueString = "IS"
+* #LUTNumber ^property[2].code = #retired
+* #LUTNumber ^property[2].valueBoolean = true
+
 * #PyramidLabel "Pyramid Label" "Pyramid Label"
 * #PyramidLabel ^property[0].code = #tag
 * #PyramidLabel ^property[0].valueString  = "00200027"
@@ -13499,6 +14123,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PyramidLabel ^property[1].valueString = "LO"
 * #PyramidLabel ^property[2].code = #retired
 * #PyramidLabel ^property[2].valueBoolean = false
+
+* #ImagePosition "Image Position" "Image Position"
+* #ImagePosition ^property[0].code = #tag
+* #ImagePosition ^property[0].valueString  = "00200030"
+* #ImagePosition ^property[1].code = #vr
+* #ImagePosition ^property[1].valueString = "DS"
+* #ImagePosition ^property[2].code = #retired
+* #ImagePosition ^property[2].valueBoolean = true
 
 * #ImagePositionPatient "Image Position (Patient)" "Image Position (Patient)"
 * #ImagePositionPatient ^property[0].code = #tag
@@ -13508,6 +14140,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ImagePositionPatient ^property[2].code = #retired
 * #ImagePositionPatient ^property[2].valueBoolean = false
 
+* #ImageOrientation "Image Orientation" "Image Orientation"
+* #ImageOrientation ^property[0].code = #tag
+* #ImageOrientation ^property[0].valueString  = "00200035"
+* #ImageOrientation ^property[1].code = #vr
+* #ImageOrientation ^property[1].valueString = "DS"
+* #ImageOrientation ^property[2].code = #retired
+* #ImageOrientation ^property[2].valueBoolean = true
+
 * #ImageOrientationPatient "Image Orientation (Patient)" "Image Orientation (Patient)"
 * #ImageOrientationPatient ^property[0].code = #tag
 * #ImageOrientationPatient ^property[0].valueString  = "00200037"
@@ -13515,6 +14155,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ImageOrientationPatient ^property[1].valueString = "DS"
 * #ImageOrientationPatient ^property[2].code = #retired
 * #ImageOrientationPatient ^property[2].valueBoolean = false
+
+* #Location "Location" "Location"
+* #Location ^property[0].code = #tag
+* #Location ^property[0].valueString  = "00200050"
+* #Location ^property[1].code = #vr
+* #Location ^property[1].valueString = "DS"
+* #Location ^property[2].code = #retired
+* #Location ^property[2].valueBoolean = true
 
 * #FrameOfReferenceUID "Frame of Reference UID" "Frame of Reference UID"
 * #FrameOfReferenceUID ^property[0].code = #tag
@@ -13539,6 +14187,30 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ImageLaterality ^property[1].valueString = "CS"
 * #ImageLaterality ^property[2].code = #retired
 * #ImageLaterality ^property[2].valueBoolean = false
+
+* #ImageGeometryType "Image Geometry Type" "Image Geometry Type"
+* #ImageGeometryType ^property[0].code = #tag
+* #ImageGeometryType ^property[0].valueString  = "00200070"
+* #ImageGeometryType ^property[1].code = #vr
+* #ImageGeometryType ^property[1].valueString = "LO"
+* #ImageGeometryType ^property[2].code = #retired
+* #ImageGeometryType ^property[2].valueBoolean = true
+
+* #MaskingImage "Masking Image" "Masking Image"
+* #MaskingImage ^property[0].code = #tag
+* #MaskingImage ^property[0].valueString  = "00200080"
+* #MaskingImage ^property[1].code = #vr
+* #MaskingImage ^property[1].valueString = "CS"
+* #MaskingImage ^property[2].code = #retired
+* #MaskingImage ^property[2].valueBoolean = true
+
+* #ReportNumber "Report Number" "Report Number"
+* #ReportNumber ^property[0].code = #tag
+* #ReportNumber ^property[0].valueString  = "002000AA"
+* #ReportNumber ^property[1].code = #vr
+* #ReportNumber ^property[1].valueString = "IS"
+* #ReportNumber ^property[2].code = #retired
+* #ReportNumber ^property[2].valueBoolean = true
 
 * #TemporalPositionIdentifier "Temporal Position Identifier" "Temporal Position Identifier"
 * #TemporalPositionIdentifier ^property[0].code = #tag
@@ -13580,6 +14252,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SOPInstanceUIDOfConcatenationSource ^property[2].code = #retired
 * #SOPInstanceUIDOfConcatenationSource ^property[2].valueBoolean = false
 
+* #SeriesInStudy "Series in Study" "Series in Study"
+* #SeriesInStudy ^property[0].code = #tag
+* #SeriesInStudy ^property[0].valueString  = "00201000"
+* #SeriesInStudy ^property[1].code = #vr
+* #SeriesInStudy ^property[1].valueString = "IS"
+* #SeriesInStudy ^property[2].code = #retired
+* #SeriesInStudy ^property[2].valueBoolean = true
+
+* #AcquisitionsInSeries "Acquisitions in Series" "Acquisitions in Series"
+* #AcquisitionsInSeries ^property[0].code = #tag
+* #AcquisitionsInSeries ^property[0].valueString  = "00201001"
+* #AcquisitionsInSeries ^property[1].code = #vr
+* #AcquisitionsInSeries ^property[1].valueString = "IS"
+* #AcquisitionsInSeries ^property[2].code = #retired
+* #AcquisitionsInSeries ^property[2].valueBoolean = true
+
 * #ImagesInAcquisition "Images in Acquisition" "Images in Acquisition"
 * #ImagesInAcquisition ^property[0].code = #tag
 * #ImagesInAcquisition ^property[0].valueString  = "00201002"
@@ -13587,6 +14275,38 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ImagesInAcquisition ^property[1].valueString = "IS"
 * #ImagesInAcquisition ^property[2].code = #retired
 * #ImagesInAcquisition ^property[2].valueBoolean = false
+
+* #ImagesInSeries "Images in Series" "Images in Series"
+* #ImagesInSeries ^property[0].code = #tag
+* #ImagesInSeries ^property[0].valueString  = "00201003"
+* #ImagesInSeries ^property[1].code = #vr
+* #ImagesInSeries ^property[1].valueString = "IS"
+* #ImagesInSeries ^property[2].code = #retired
+* #ImagesInSeries ^property[2].valueBoolean = true
+
+* #AcquisitionsInStudy "Acquisitions in Study" "Acquisitions in Study"
+* #AcquisitionsInStudy ^property[0].code = #tag
+* #AcquisitionsInStudy ^property[0].valueString  = "00201004"
+* #AcquisitionsInStudy ^property[1].code = #vr
+* #AcquisitionsInStudy ^property[1].valueString = "IS"
+* #AcquisitionsInStudy ^property[2].code = #retired
+* #AcquisitionsInStudy ^property[2].valueBoolean = true
+
+* #ImagesInStudy "Images in Study" "Images in Study"
+* #ImagesInStudy ^property[0].code = #tag
+* #ImagesInStudy ^property[0].valueString  = "00201005"
+* #ImagesInStudy ^property[1].code = #vr
+* #ImagesInStudy ^property[1].valueString = "IS"
+* #ImagesInStudy ^property[2].code = #retired
+* #ImagesInStudy ^property[2].valueBoolean = true
+
+* #Reference "Reference" "Reference"
+* #Reference ^property[0].code = #tag
+* #Reference ^property[0].valueString  = "00201020"
+* #Reference ^property[1].code = #vr
+* #Reference ^property[1].valueString = "LO"
+* #Reference ^property[2].code = #retired
+* #Reference ^property[2].valueBoolean = true
 
 * #TargetPositionReferenceIndicator "Target Position Reference Indicator" "Target Position Reference Indicator"
 * #TargetPositionReferenceIndicator ^property[0].code = #tag
@@ -13611,6 +14331,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SliceLocation ^property[1].valueString = "DS"
 * #SliceLocation ^property[2].code = #retired
 * #SliceLocation ^property[2].valueBoolean = false
+
+* #OtherStudyNumbers "Other Study Numbers" "Other Study Numbers"
+* #OtherStudyNumbers ^property[0].code = #tag
+* #OtherStudyNumbers ^property[0].valueString  = "00201070"
+* #OtherStudyNumbers ^property[1].code = #vr
+* #OtherStudyNumbers ^property[1].valueString = "IS"
+* #OtherStudyNumbers ^property[2].code = #retired
+* #OtherStudyNumbers ^property[2].valueBoolean = true
 
 * #NumberOfPatientRelatedStudies "Number of Patient Related Studies" "Number of Patient Related Studies"
 * #NumberOfPatientRelatedStudies ^property[0].code = #tag
@@ -13660,6 +14388,62 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #NumberOfSeriesRelatedInstances ^property[2].code = #retired
 * #NumberOfSeriesRelatedInstances ^property[2].valueBoolean = false
 
+* #SourceImageIDs "Source Image IDs" "Source Image IDs"
+* #SourceImageIDs ^property[0].code = #tag
+* #SourceImageIDs ^property[0].valueString  = "002031xx"
+* #SourceImageIDs ^property[1].code = #vr
+* #SourceImageIDs ^property[1].valueString = "CS"
+* #SourceImageIDs ^property[2].code = #retired
+* #SourceImageIDs ^property[2].valueBoolean = true
+
+* #ModifyingDeviceID "Modifying Device ID" "Modifying Device ID"
+* #ModifyingDeviceID ^property[0].code = #tag
+* #ModifyingDeviceID ^property[0].valueString  = "00203401"
+* #ModifyingDeviceID ^property[1].code = #vr
+* #ModifyingDeviceID ^property[1].valueString = "CS"
+* #ModifyingDeviceID ^property[2].code = #retired
+* #ModifyingDeviceID ^property[2].valueBoolean = true
+
+* #ModifiedImageID "Modified Image ID" "Modified Image ID"
+* #ModifiedImageID ^property[0].code = #tag
+* #ModifiedImageID ^property[0].valueString  = "00203402"
+* #ModifiedImageID ^property[1].code = #vr
+* #ModifiedImageID ^property[1].valueString = "CS"
+* #ModifiedImageID ^property[2].code = #retired
+* #ModifiedImageID ^property[2].valueBoolean = true
+
+* #ModifiedImageDate "Modified Image Date" "Modified Image Date"
+* #ModifiedImageDate ^property[0].code = #tag
+* #ModifiedImageDate ^property[0].valueString  = "00203403"
+* #ModifiedImageDate ^property[1].code = #vr
+* #ModifiedImageDate ^property[1].valueString = "DA"
+* #ModifiedImageDate ^property[2].code = #retired
+* #ModifiedImageDate ^property[2].valueBoolean = true
+
+* #ModifyingDeviceManufacturer "Modifying Device Manufacturer" "Modifying Device Manufacturer"
+* #ModifyingDeviceManufacturer ^property[0].code = #tag
+* #ModifyingDeviceManufacturer ^property[0].valueString  = "00203404"
+* #ModifyingDeviceManufacturer ^property[1].code = #vr
+* #ModifyingDeviceManufacturer ^property[1].valueString = "LO"
+* #ModifyingDeviceManufacturer ^property[2].code = #retired
+* #ModifyingDeviceManufacturer ^property[2].valueBoolean = true
+
+* #ModifiedImageTime "Modified Image Time" "Modified Image Time"
+* #ModifiedImageTime ^property[0].code = #tag
+* #ModifiedImageTime ^property[0].valueString  = "00203405"
+* #ModifiedImageTime ^property[1].code = #vr
+* #ModifiedImageTime ^property[1].valueString = "TM"
+* #ModifiedImageTime ^property[2].code = #retired
+* #ModifiedImageTime ^property[2].valueBoolean = true
+
+* #ModifiedImageDescription "Modified Image Description" "Modified Image Description"
+* #ModifiedImageDescription ^property[0].code = #tag
+* #ModifiedImageDescription ^property[0].valueString  = "00203406"
+* #ModifiedImageDescription ^property[1].code = #vr
+* #ModifiedImageDescription ^property[1].valueString = "LO"
+* #ModifiedImageDescription ^property[2].code = #retired
+* #ModifiedImageDescription ^property[2].valueBoolean = true
+
 * #ImageComments "Image Comments" "Image Comments"
 * #ImageComments ^property[0].code = #tag
 * #ImageComments ^property[0].valueString  = "00204000"
@@ -13667,6 +14451,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ImageComments ^property[1].valueString = "LT"
 * #ImageComments ^property[2].code = #retired
 * #ImageComments ^property[2].valueBoolean = false
+
+* #OriginalImageIdentification "Original Image Identification" "Original Image Identification"
+* #OriginalImageIdentification ^property[0].code = #tag
+* #OriginalImageIdentification ^property[0].valueString  = "00205000"
+* #OriginalImageIdentification ^property[1].code = #vr
+* #OriginalImageIdentification ^property[1].valueString = "AT"
+* #OriginalImageIdentification ^property[2].code = #retired
+* #OriginalImageIdentification ^property[2].valueBoolean = true
+
+* #OriginalImageIdentificationNomenclature "Original Image Identification Nomenclature" "Original Image Identification Nomenclature"
+* #OriginalImageIdentificationNomenclature ^property[0].code = #tag
+* #OriginalImageIdentificationNomenclature ^property[0].valueString  = "00205002"
+* #OriginalImageIdentificationNomenclature ^property[1].code = #vr
+* #OriginalImageIdentificationNomenclature ^property[1].valueString = "LO"
+* #OriginalImageIdentificationNomenclature ^property[2].code = #retired
+* #OriginalImageIdentificationNomenclature ^property[2].valueBoolean = true
 
 * #StackID "Stack ID" "Stack ID"
 * #StackID ^property[0].code = #tag
@@ -14844,6 +15644,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #IOLManufacturer ^property[2].code = #retired
 * #IOLManufacturer ^property[2].valueBoolean = false
 
+* #LensConstantDescription "Lens Constant Description" "Lens Constant Description"
+* #LensConstantDescription ^property[0].code = #tag
+* #LensConstantDescription ^property[0].valueString  = "00221094"
+* #LensConstantDescription ^property[1].code = #vr
+* #LensConstantDescription ^property[1].valueString = "LO"
+* #LensConstantDescription ^property[2].code = #retired
+* #LensConstantDescription ^property[2].valueBoolean = true
+
 * #ImplantName "Implant Name" "Implant Name"
 * #ImplantName ^property[0].code = #tag
 * #ImplantName ^property[0].valueString  = "00221095"
@@ -15020,6 +15828,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #OphthalmicAxialLengthDataSourceCodeSequence ^property[2].code = #retired
 * #OphthalmicAxialLengthDataSourceCodeSequence ^property[2].valueBoolean = false
 
+* #OphthalmicAxialLengthAcquisitionMethodCodeSequence "Ophthalmic Axial Length Acquisition Method Code Sequence" "Ophthalmic Axial Length Acquisition Method Code Sequence"
+* #OphthalmicAxialLengthAcquisitionMethodCodeSequence ^property[0].code = #tag
+* #OphthalmicAxialLengthAcquisitionMethodCodeSequence ^property[0].valueString  = "00221153"
+* #OphthalmicAxialLengthAcquisitionMethodCodeSequence ^property[1].code = #vr
+* #OphthalmicAxialLengthAcquisitionMethodCodeSequence ^property[1].valueString = "SQ"
+* #OphthalmicAxialLengthAcquisitionMethodCodeSequence ^property[2].code = #retired
+* #OphthalmicAxialLengthAcquisitionMethodCodeSequence ^property[2].valueBoolean = true
+
 * #SignalToNoiseRatio "Signal to Noise Ratio" "Signal to Noise Ratio"
 * #SignalToNoiseRatio ^property[0].code = #tag
 * #SignalToNoiseRatio ^property[0].valueString  = "00221155"
@@ -15123,6 +15939,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #OphthalmicAxialLengthQualityMetricSequence ^property[1].valueString = "SQ"
 * #OphthalmicAxialLengthQualityMetricSequence ^property[2].code = #retired
 * #OphthalmicAxialLengthQualityMetricSequence ^property[2].valueBoolean = false
+
+* #OphthalmicAxialLengthQualityMetricTypeCodeSequence "Ophthalmic Axial Length Quality Metric Type Code Sequence" "Ophthalmic Axial Length Quality Metric Type Code Sequence"
+* #OphthalmicAxialLengthQualityMetricTypeCodeSequence ^property[0].code = #tag
+* #OphthalmicAxialLengthQualityMetricTypeCodeSequence ^property[0].valueString  = "00221265"
+* #OphthalmicAxialLengthQualityMetricTypeCodeSequence ^property[1].code = #vr
+* #OphthalmicAxialLengthQualityMetricTypeCodeSequence ^property[1].valueString = "SQ"
+* #OphthalmicAxialLengthQualityMetricTypeCodeSequence ^property[2].code = #retired
+* #OphthalmicAxialLengthQualityMetricTypeCodeSequence ^property[2].valueBoolean = true
+
+* #OphthalmicAxialLengthQualityMetricTypeDescription "Ophthalmic Axial Length Quality Metric Type Description" "Ophthalmic Axial Length Quality Metric Type Description"
+* #OphthalmicAxialLengthQualityMetricTypeDescription ^property[0].code = #tag
+* #OphthalmicAxialLengthQualityMetricTypeDescription ^property[0].valueString  = "00221273"
+* #OphthalmicAxialLengthQualityMetricTypeDescription ^property[1].code = #vr
+* #OphthalmicAxialLengthQualityMetricTypeDescription ^property[1].valueString = "LO"
+* #OphthalmicAxialLengthQualityMetricTypeDescription ^property[2].code = #retired
+* #OphthalmicAxialLengthQualityMetricTypeDescription ^property[2].valueBoolean = true
 
 * #IntraocularLensCalculationsRightEyeSequence "Intraocular Lens Calculations Right Eye Sequence" "Intraocular Lens Calculations Right Eye Sequence"
 * #IntraocularLensCalculationsRightEyeSequence ^property[0].code = #tag
@@ -16420,6 +17252,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PhotometricInterpretation ^property[2].code = #retired
 * #PhotometricInterpretation ^property[2].valueBoolean = false
 
+* #ImageDimensions "Image Dimensions" "Image Dimensions"
+* #ImageDimensions ^property[0].code = #tag
+* #ImageDimensions ^property[0].valueString  = "00280005"
+* #ImageDimensions ^property[1].code = #vr
+* #ImageDimensions ^property[1].valueString = "US"
+* #ImageDimensions ^property[2].code = #retired
+* #ImageDimensions ^property[2].valueBoolean = true
+
 * #PlanarConfiguration "Planar Configuration" "Planar Configuration"
 * #PlanarConfiguration ^property[0].code = #tag
 * #PlanarConfiguration ^property[0].valueString  = "00280006"
@@ -16468,6 +17308,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #Columns ^property[2].code = #retired
 * #Columns ^property[2].valueBoolean = false
 
+* #Planes "Planes" "Planes"
+* #Planes ^property[0].code = #tag
+* #Planes ^property[0].valueString  = "00280012"
+* #Planes ^property[1].code = #vr
+* #Planes ^property[1].valueString = "US"
+* #Planes ^property[2].code = #retired
+* #Planes ^property[2].valueBoolean = true
+
 * #UltrasoundColorDataPresent "Ultrasound Color Data Present" "Ultrasound Color Data Present"
 * #UltrasoundColorDataPresent ^property[0].code = #tag
 * #UltrasoundColorDataPresent ^property[0].valueString  = "00280014"
@@ -16508,6 +17356,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PixelAspectRatio ^property[2].code = #retired
 * #PixelAspectRatio ^property[2].valueBoolean = false
 
+* #ImageFormat "Image Format" "Image Format"
+* #ImageFormat ^property[0].code = #tag
+* #ImageFormat ^property[0].valueString  = "00280040"
+* #ImageFormat ^property[1].code = #vr
+* #ImageFormat ^property[1].valueString = "CS"
+* #ImageFormat ^property[2].code = #retired
+* #ImageFormat ^property[2].valueBoolean = true
+
+* #ManipulatedImage "Manipulated Image" "Manipulated Image"
+* #ManipulatedImage ^property[0].code = #tag
+* #ManipulatedImage ^property[0].valueString  = "00280050"
+* #ManipulatedImage ^property[1].code = #vr
+* #ManipulatedImage ^property[1].valueString = "LO"
+* #ManipulatedImage ^property[2].code = #retired
+* #ManipulatedImage ^property[2].valueBoolean = true
+
 * #CorrectedImage "Corrected Image" "Corrected Image"
 * #CorrectedImage ^property[0].code = #tag
 * #CorrectedImage ^property[0].valueString  = "00280051"
@@ -16515,6 +17379,158 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #CorrectedImage ^property[1].valueString = "CS"
 * #CorrectedImage ^property[2].code = #retired
 * #CorrectedImage ^property[2].valueBoolean = false
+
+* #CompressionRecognitionCode "Compression Recognition Code" "Compression Recognition Code"
+* #CompressionRecognitionCode ^property[0].code = #tag
+* #CompressionRecognitionCode ^property[0].valueString  = "0028005F"
+* #CompressionRecognitionCode ^property[1].code = #vr
+* #CompressionRecognitionCode ^property[1].valueString = "LO"
+* #CompressionRecognitionCode ^property[2].code = #retired
+* #CompressionRecognitionCode ^property[2].valueBoolean = true
+
+* #CompressionCode "Compression Code" "Compression Code"
+* #CompressionCode ^property[0].code = #tag
+* #CompressionCode ^property[0].valueString  = "00280060"
+* #CompressionCode ^property[1].code = #vr
+* #CompressionCode ^property[1].valueString = "CS"
+* #CompressionCode ^property[2].code = #retired
+* #CompressionCode ^property[2].valueBoolean = true
+
+* #CompressionOriginator "Compression Originator" "Compression Originator"
+* #CompressionOriginator ^property[0].code = #tag
+* #CompressionOriginator ^property[0].valueString  = "00280061"
+* #CompressionOriginator ^property[1].code = #vr
+* #CompressionOriginator ^property[1].valueString = "SH"
+* #CompressionOriginator ^property[2].code = #retired
+* #CompressionOriginator ^property[2].valueBoolean = true
+
+* #CompressionLabel "Compression Label" "Compression Label"
+* #CompressionLabel ^property[0].code = #tag
+* #CompressionLabel ^property[0].valueString  = "00280062"
+* #CompressionLabel ^property[1].code = #vr
+* #CompressionLabel ^property[1].valueString = "LO"
+* #CompressionLabel ^property[2].code = #retired
+* #CompressionLabel ^property[2].valueBoolean = true
+
+* #CompressionDescription "Compression Description" "Compression Description"
+* #CompressionDescription ^property[0].code = #tag
+* #CompressionDescription ^property[0].valueString  = "00280063"
+* #CompressionDescription ^property[1].code = #vr
+* #CompressionDescription ^property[1].valueString = "SH"
+* #CompressionDescription ^property[2].code = #retired
+* #CompressionDescription ^property[2].valueBoolean = true
+
+* #CompressionSequence "Compression Sequence" "Compression Sequence"
+* #CompressionSequence ^property[0].code = #tag
+* #CompressionSequence ^property[0].valueString  = "00280065"
+* #CompressionSequence ^property[1].code = #vr
+* #CompressionSequence ^property[1].valueString = "CS"
+* #CompressionSequence ^property[2].code = #retired
+* #CompressionSequence ^property[2].valueBoolean = true
+
+* #CompressionStepPointers "Compression Step Pointers" "Compression Step Pointers"
+* #CompressionStepPointers ^property[0].code = #tag
+* #CompressionStepPointers ^property[0].valueString  = "00280066"
+* #CompressionStepPointers ^property[1].code = #vr
+* #CompressionStepPointers ^property[1].valueString = "AT"
+* #CompressionStepPointers ^property[2].code = #retired
+* #CompressionStepPointers ^property[2].valueBoolean = true
+
+* #RepeatInterval "Repeat Interval" "Repeat Interval"
+* #RepeatInterval ^property[0].code = #tag
+* #RepeatInterval ^property[0].valueString  = "00280068"
+* #RepeatInterval ^property[1].code = #vr
+* #RepeatInterval ^property[1].valueString = "US"
+* #RepeatInterval ^property[2].code = #retired
+* #RepeatInterval ^property[2].valueBoolean = true
+
+* #BitsGrouped "Bits Grouped" "Bits Grouped"
+* #BitsGrouped ^property[0].code = #tag
+* #BitsGrouped ^property[0].valueString  = "00280069"
+* #BitsGrouped ^property[1].code = #vr
+* #BitsGrouped ^property[1].valueString = "US"
+* #BitsGrouped ^property[2].code = #retired
+* #BitsGrouped ^property[2].valueBoolean = true
+
+* #PerimeterTable "Perimeter Table" "Perimeter Table"
+* #PerimeterTable ^property[0].code = #tag
+* #PerimeterTable ^property[0].valueString  = "00280070"
+* #PerimeterTable ^property[1].code = #vr
+* #PerimeterTable ^property[1].valueString = "US"
+* #PerimeterTable ^property[2].code = #retired
+* #PerimeterTable ^property[2].valueBoolean = true
+
+* #PerimeterValue "Perimeter Value" "Perimeter Value"
+* #PerimeterValue ^property[0].code = #tag
+* #PerimeterValue ^property[0].valueString  = "00280071"
+* #PerimeterValue ^property[1].code = #vr
+* #PerimeterValue ^property[1].valueString = "US or SS"
+* #PerimeterValue ^property[2].code = #retired
+* #PerimeterValue ^property[2].valueBoolean = true
+
+* #PredictorRows "Predictor Rows" "Predictor Rows"
+* #PredictorRows ^property[0].code = #tag
+* #PredictorRows ^property[0].valueString  = "00280080"
+* #PredictorRows ^property[1].code = #vr
+* #PredictorRows ^property[1].valueString = "US"
+* #PredictorRows ^property[2].code = #retired
+* #PredictorRows ^property[2].valueBoolean = true
+
+* #PredictorColumns "Predictor Columns" "Predictor Columns"
+* #PredictorColumns ^property[0].code = #tag
+* #PredictorColumns ^property[0].valueString  = "00280081"
+* #PredictorColumns ^property[1].code = #vr
+* #PredictorColumns ^property[1].valueString = "US"
+* #PredictorColumns ^property[2].code = #retired
+* #PredictorColumns ^property[2].valueBoolean = true
+
+* #PredictorConstants "Predictor Constants" "Predictor Constants"
+* #PredictorConstants ^property[0].code = #tag
+* #PredictorConstants ^property[0].valueString  = "00280082"
+* #PredictorConstants ^property[1].code = #vr
+* #PredictorConstants ^property[1].valueString = "US"
+* #PredictorConstants ^property[2].code = #retired
+* #PredictorConstants ^property[2].valueBoolean = true
+
+* #BlockedPixels "Blocked Pixels" "Blocked Pixels"
+* #BlockedPixels ^property[0].code = #tag
+* #BlockedPixels ^property[0].valueString  = "00280090"
+* #BlockedPixels ^property[1].code = #vr
+* #BlockedPixels ^property[1].valueString = "CS"
+* #BlockedPixels ^property[2].code = #retired
+* #BlockedPixels ^property[2].valueBoolean = true
+
+* #BlockRows "Block Rows" "Block Rows"
+* #BlockRows ^property[0].code = #tag
+* #BlockRows ^property[0].valueString  = "00280091"
+* #BlockRows ^property[1].code = #vr
+* #BlockRows ^property[1].valueString = "US"
+* #BlockRows ^property[2].code = #retired
+* #BlockRows ^property[2].valueBoolean = true
+
+* #BlockColumns "Block Columns" "Block Columns"
+* #BlockColumns ^property[0].code = #tag
+* #BlockColumns ^property[0].valueString  = "00280092"
+* #BlockColumns ^property[1].code = #vr
+* #BlockColumns ^property[1].valueString = "US"
+* #BlockColumns ^property[2].code = #retired
+* #BlockColumns ^property[2].valueBoolean = true
+
+* #RowOverlap "Row Overlap" "Row Overlap"
+* #RowOverlap ^property[0].code = #tag
+* #RowOverlap ^property[0].valueString  = "00280093"
+* #RowOverlap ^property[1].code = #vr
+* #RowOverlap ^property[1].valueString = "US"
+* #RowOverlap ^property[2].code = #retired
+* #RowOverlap ^property[2].valueBoolean = true
+
+* #ColumnOverlap "Column Overlap" "Column Overlap"
+* #ColumnOverlap ^property[0].code = #tag
+* #ColumnOverlap ^property[0].valueString  = "00280094"
+* #ColumnOverlap ^property[1].code = #vr
+* #ColumnOverlap ^property[1].valueString = "US"
+* #ColumnOverlap ^property[2].code = #retired
+* #ColumnOverlap ^property[2].valueBoolean = true
 
 * #BitsAllocated "Bits Allocated" "Bits Allocated"
 * #BitsAllocated ^property[0].code = #tag
@@ -16548,6 +17564,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PixelRepresentation ^property[2].code = #retired
 * #PixelRepresentation ^property[2].valueBoolean = false
 
+* #SmallestValidPixelValue "Smallest Valid Pixel Value" "Smallest Valid Pixel Value"
+* #SmallestValidPixelValue ^property[0].code = #tag
+* #SmallestValidPixelValue ^property[0].valueString  = "00280104"
+* #SmallestValidPixelValue ^property[1].code = #vr
+* #SmallestValidPixelValue ^property[1].valueString = "US or SS"
+* #SmallestValidPixelValue ^property[2].code = #retired
+* #SmallestValidPixelValue ^property[2].valueBoolean = true
+
+* #LargestValidPixelValue "Largest Valid Pixel Value" "Largest Valid Pixel Value"
+* #LargestValidPixelValue ^property[0].code = #tag
+* #LargestValidPixelValue ^property[0].valueString  = "00280105"
+* #LargestValidPixelValue ^property[1].code = #vr
+* #LargestValidPixelValue ^property[1].valueString = "US or SS"
+* #LargestValidPixelValue ^property[2].code = #retired
+* #LargestValidPixelValue ^property[2].valueBoolean = true
+
 * #SmallestImagePixelValue "Smallest Image Pixel Value" "Smallest Image Pixel Value"
 * #SmallestImagePixelValue ^property[0].code = #tag
 * #SmallestImagePixelValue ^property[0].valueString  = "00280106"
@@ -16579,6 +17611,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #LargestPixelValueInSeries ^property[1].valueString = "US or SS"
 * #LargestPixelValueInSeries ^property[2].code = #retired
 * #LargestPixelValueInSeries ^property[2].valueBoolean = false
+
+* #SmallestImagePixelValueInPlane "Smallest Image Pixel Value in Plane" "Smallest Image Pixel Value in Plane"
+* #SmallestImagePixelValueInPlane ^property[0].code = #tag
+* #SmallestImagePixelValueInPlane ^property[0].valueString  = "00280110"
+* #SmallestImagePixelValueInPlane ^property[1].code = #vr
+* #SmallestImagePixelValueInPlane ^property[1].valueString = "US or SS"
+* #SmallestImagePixelValueInPlane ^property[2].code = #retired
+* #SmallestImagePixelValueInPlane ^property[2].valueBoolean = true
+
+* #LargestImagePixelValueInPlane "Largest Image Pixel Value in Plane" "Largest Image Pixel Value in Plane"
+* #LargestImagePixelValueInPlane ^property[0].code = #tag
+* #LargestImagePixelValueInPlane ^property[0].valueString  = "00280111"
+* #LargestImagePixelValueInPlane ^property[1].code = #vr
+* #LargestImagePixelValueInPlane ^property[1].valueString = "US or SS"
+* #LargestImagePixelValueInPlane ^property[2].code = #retired
+* #LargestImagePixelValueInPlane ^property[2].valueBoolean = true
 
 * #PixelPaddingValue "Pixel Padding Value" "Pixel Padding Value"
 * #PixelPaddingValue ^property[0].code = #tag
@@ -16628,6 +17676,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #DoubleFloatPixelPaddingRangeLimit ^property[2].code = #retired
 * #DoubleFloatPixelPaddingRangeLimit ^property[2].valueBoolean = false
 
+* #ImageLocation "Image Location" "Image Location"
+* #ImageLocation ^property[0].code = #tag
+* #ImageLocation ^property[0].valueString  = "00280200"
+* #ImageLocation ^property[1].code = #vr
+* #ImageLocation ^property[1].valueString = "US"
+* #ImageLocation ^property[2].code = #retired
+* #ImageLocation ^property[2].valueBoolean = true
+
 * #QualityControlImage "Quality Control Image" "Quality Control Image"
 * #QualityControlImage ^property[0].code = #tag
 * #QualityControlImage ^property[0].valueString  = "00280300"
@@ -16667,6 +17723,190 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ReferencedColorPaletteInstanceUID ^property[1].valueString = "UI"
 * #ReferencedColorPaletteInstanceUID ^property[2].code = #retired
 * #ReferencedColorPaletteInstanceUID ^property[2].valueBoolean = false
+
+* #TransformLabel "Transform Label" "Transform Label"
+* #TransformLabel ^property[0].code = #tag
+* #TransformLabel ^property[0].valueString  = "00280400"
+* #TransformLabel ^property[1].code = #vr
+* #TransformLabel ^property[1].valueString = "LO"
+* #TransformLabel ^property[2].code = #retired
+* #TransformLabel ^property[2].valueBoolean = true
+
+* #TransformVersionNumber "Transform Version Number" "Transform Version Number"
+* #TransformVersionNumber ^property[0].code = #tag
+* #TransformVersionNumber ^property[0].valueString  = "00280401"
+* #TransformVersionNumber ^property[1].code = #vr
+* #TransformVersionNumber ^property[1].valueString = "LO"
+* #TransformVersionNumber ^property[2].code = #retired
+* #TransformVersionNumber ^property[2].valueBoolean = true
+
+* #NumberOfTransformSteps "Number of Transform Steps" "Number of Transform Steps"
+* #NumberOfTransformSteps ^property[0].code = #tag
+* #NumberOfTransformSteps ^property[0].valueString  = "00280402"
+* #NumberOfTransformSteps ^property[1].code = #vr
+* #NumberOfTransformSteps ^property[1].valueString = "US"
+* #NumberOfTransformSteps ^property[2].code = #retired
+* #NumberOfTransformSteps ^property[2].valueBoolean = true
+
+* #SequenceOfCompressedData "Sequence of Compressed Data" "Sequence of Compressed Data"
+* #SequenceOfCompressedData ^property[0].code = #tag
+* #SequenceOfCompressedData ^property[0].valueString  = "00280403"
+* #SequenceOfCompressedData ^property[1].code = #vr
+* #SequenceOfCompressedData ^property[1].valueString = "LO"
+* #SequenceOfCompressedData ^property[2].code = #retired
+* #SequenceOfCompressedData ^property[2].valueBoolean = true
+
+* #DetailsOfCoefficients "Details of Coefficients" "Details of Coefficients"
+* #DetailsOfCoefficients ^property[0].code = #tag
+* #DetailsOfCoefficients ^property[0].valueString  = "00280404"
+* #DetailsOfCoefficients ^property[1].code = #vr
+* #DetailsOfCoefficients ^property[1].valueString = "AT"
+* #DetailsOfCoefficients ^property[2].code = #retired
+* #DetailsOfCoefficients ^property[2].valueBoolean = true
+
+* #RowsForNthOrderCoefficients "Rows For Nth Order Coefficients" "Rows For Nth Order Coefficients"
+* #RowsForNthOrderCoefficients ^property[0].code = #tag
+* #RowsForNthOrderCoefficients ^property[0].valueString  = "002804x0"
+* #RowsForNthOrderCoefficients ^property[1].code = #vr
+* #RowsForNthOrderCoefficients ^property[1].valueString = "US"
+* #RowsForNthOrderCoefficients ^property[2].code = #retired
+* #RowsForNthOrderCoefficients ^property[2].valueBoolean = true
+
+* #ColumnsForNthOrderCoefficients "Columns For Nth Order Coefficients" "Columns For Nth Order Coefficients"
+* #ColumnsForNthOrderCoefficients ^property[0].code = #tag
+* #ColumnsForNthOrderCoefficients ^property[0].valueString  = "002804x1"
+* #ColumnsForNthOrderCoefficients ^property[1].code = #vr
+* #ColumnsForNthOrderCoefficients ^property[1].valueString = "US"
+* #ColumnsForNthOrderCoefficients ^property[2].code = #retired
+* #ColumnsForNthOrderCoefficients ^property[2].valueBoolean = true
+
+* #CoefficientCoding "Coefficient Coding" "Coefficient Coding"
+* #CoefficientCoding ^property[0].code = #tag
+* #CoefficientCoding ^property[0].valueString  = "002804x2"
+* #CoefficientCoding ^property[1].code = #vr
+* #CoefficientCoding ^property[1].valueString = "LO"
+* #CoefficientCoding ^property[2].code = #retired
+* #CoefficientCoding ^property[2].valueBoolean = true
+
+* #CoefficientCodingPointers "Coefficient Coding Pointers" "Coefficient Coding Pointers"
+* #CoefficientCodingPointers ^property[0].code = #tag
+* #CoefficientCodingPointers ^property[0].valueString  = "002804x3"
+* #CoefficientCodingPointers ^property[1].code = #vr
+* #CoefficientCodingPointers ^property[1].valueString = "AT"
+* #CoefficientCodingPointers ^property[2].code = #retired
+* #CoefficientCodingPointers ^property[2].valueBoolean = true
+
+* #DCTLabel "DCT Label" "DCT Label"
+* #DCTLabel ^property[0].code = #tag
+* #DCTLabel ^property[0].valueString  = "00280700"
+* #DCTLabel ^property[1].code = #vr
+* #DCTLabel ^property[1].valueString = "LO"
+* #DCTLabel ^property[2].code = #retired
+* #DCTLabel ^property[2].valueBoolean = true
+
+* #DataBlockDescription "Data Block Description" "Data Block Description"
+* #DataBlockDescription ^property[0].code = #tag
+* #DataBlockDescription ^property[0].valueString  = "00280701"
+* #DataBlockDescription ^property[1].code = #vr
+* #DataBlockDescription ^property[1].valueString = "CS"
+* #DataBlockDescription ^property[2].code = #retired
+* #DataBlockDescription ^property[2].valueBoolean = true
+
+* #DataBlock "Data Block" "Data Block"
+* #DataBlock ^property[0].code = #tag
+* #DataBlock ^property[0].valueString  = "00280702"
+* #DataBlock ^property[1].code = #vr
+* #DataBlock ^property[1].valueString = "AT"
+* #DataBlock ^property[2].code = #retired
+* #DataBlock ^property[2].valueBoolean = true
+
+* #NormalizationFactorFormat "Normalization Factor Format" "Normalization Factor Format"
+* #NormalizationFactorFormat ^property[0].code = #tag
+* #NormalizationFactorFormat ^property[0].valueString  = "00280710"
+* #NormalizationFactorFormat ^property[1].code = #vr
+* #NormalizationFactorFormat ^property[1].valueString = "US"
+* #NormalizationFactorFormat ^property[2].code = #retired
+* #NormalizationFactorFormat ^property[2].valueBoolean = true
+
+* #ZonalMapNumberFormat "Zonal Map Number Format" "Zonal Map Number Format"
+* #ZonalMapNumberFormat ^property[0].code = #tag
+* #ZonalMapNumberFormat ^property[0].valueString  = "00280720"
+* #ZonalMapNumberFormat ^property[1].code = #vr
+* #ZonalMapNumberFormat ^property[1].valueString = "US"
+* #ZonalMapNumberFormat ^property[2].code = #retired
+* #ZonalMapNumberFormat ^property[2].valueBoolean = true
+
+* #ZonalMapLocation "Zonal Map Location" "Zonal Map Location"
+* #ZonalMapLocation ^property[0].code = #tag
+* #ZonalMapLocation ^property[0].valueString  = "00280721"
+* #ZonalMapLocation ^property[1].code = #vr
+* #ZonalMapLocation ^property[1].valueString = "AT"
+* #ZonalMapLocation ^property[2].code = #retired
+* #ZonalMapLocation ^property[2].valueBoolean = true
+
+* #ZonalMapFormat "Zonal Map Format" "Zonal Map Format"
+* #ZonalMapFormat ^property[0].code = #tag
+* #ZonalMapFormat ^property[0].valueString  = "00280722"
+* #ZonalMapFormat ^property[1].code = #vr
+* #ZonalMapFormat ^property[1].valueString = "US"
+* #ZonalMapFormat ^property[2].code = #retired
+* #ZonalMapFormat ^property[2].valueBoolean = true
+
+* #AdaptiveMapFormat "Adaptive Map Format" "Adaptive Map Format"
+* #AdaptiveMapFormat ^property[0].code = #tag
+* #AdaptiveMapFormat ^property[0].valueString  = "00280730"
+* #AdaptiveMapFormat ^property[1].code = #vr
+* #AdaptiveMapFormat ^property[1].valueString = "US"
+* #AdaptiveMapFormat ^property[2].code = #retired
+* #AdaptiveMapFormat ^property[2].valueBoolean = true
+
+* #CodeNumberFormat "Code Number Format" "Code Number Format"
+* #CodeNumberFormat ^property[0].code = #tag
+* #CodeNumberFormat ^property[0].valueString  = "00280740"
+* #CodeNumberFormat ^property[1].code = #vr
+* #CodeNumberFormat ^property[1].valueString = "US"
+* #CodeNumberFormat ^property[2].code = #retired
+* #CodeNumberFormat ^property[2].valueBoolean = true
+
+* #CodeLabel "Code Label" "Code Label"
+* #CodeLabel ^property[0].code = #tag
+* #CodeLabel ^property[0].valueString  = "002808x0"
+* #CodeLabel ^property[1].code = #vr
+* #CodeLabel ^property[1].valueString = "CS"
+* #CodeLabel ^property[2].code = #retired
+* #CodeLabel ^property[2].valueBoolean = true
+
+* #NumberOfTables "Number of Tables" "Number of Tables"
+* #NumberOfTables ^property[0].code = #tag
+* #NumberOfTables ^property[0].valueString  = "002808x2"
+* #NumberOfTables ^property[1].code = #vr
+* #NumberOfTables ^property[1].valueString = "US"
+* #NumberOfTables ^property[2].code = #retired
+* #NumberOfTables ^property[2].valueBoolean = true
+
+* #CodeTableLocation "Code Table Location" "Code Table Location"
+* #CodeTableLocation ^property[0].code = #tag
+* #CodeTableLocation ^property[0].valueString  = "002808x3"
+* #CodeTableLocation ^property[1].code = #vr
+* #CodeTableLocation ^property[1].valueString = "AT"
+* #CodeTableLocation ^property[2].code = #retired
+* #CodeTableLocation ^property[2].valueBoolean = true
+
+* #BitsForCodeWord "Bits For Code Word" "Bits For Code Word"
+* #BitsForCodeWord ^property[0].code = #tag
+* #BitsForCodeWord ^property[0].valueString  = "002808x4"
+* #BitsForCodeWord ^property[1].code = #vr
+* #BitsForCodeWord ^property[1].valueString = "US"
+* #BitsForCodeWord ^property[2].code = #retired
+* #BitsForCodeWord ^property[2].valueBoolean = true
+
+* #ImageDataLocation "Image Data Location" "Image Data Location"
+* #ImageDataLocation ^property[0].code = #tag
+* #ImageDataLocation ^property[0].valueString  = "002808x8"
+* #ImageDataLocation ^property[1].code = #vr
+* #ImageDataLocation ^property[1].valueString = "AT"
+* #ImageDataLocation ^property[2].code = #retired
+* #ImageDataLocation ^property[2].valueBoolean = true
 
 * #PixelSpacingCalibrationType "Pixel Spacing Calibration Type" "Pixel Spacing Calibration Type"
 * #PixelSpacingCalibrationType ^property[0].code = #tag
@@ -16756,6 +17996,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #VOILUTFunction ^property[2].code = #retired
 * #VOILUTFunction ^property[2].valueBoolean = false
 
+* #GrayScale "Gray Scale" "Gray Scale"
+* #GrayScale ^property[0].code = #tag
+* #GrayScale ^property[0].valueString  = "00281080"
+* #GrayScale ^property[1].code = #vr
+* #GrayScale ^property[1].valueString = "CS"
+* #GrayScale ^property[2].code = #retired
+* #GrayScale ^property[2].valueBoolean = true
+
 * #RecommendedViewingMode "Recommended Viewing Mode" "Recommended Viewing Mode"
 * #RecommendedViewingMode ^property[0].code = #tag
 * #RecommendedViewingMode ^property[0].valueString  = "00281090"
@@ -16763,6 +18011,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RecommendedViewingMode ^property[1].valueString = "CS"
 * #RecommendedViewingMode ^property[2].code = #retired
 * #RecommendedViewingMode ^property[2].valueBoolean = false
+
+* #GrayLookupTableDescriptor "Gray Lookup Table Descriptor" "Gray Lookup Table Descriptor"
+* #GrayLookupTableDescriptor ^property[0].code = #tag
+* #GrayLookupTableDescriptor ^property[0].valueString  = "00281100"
+* #GrayLookupTableDescriptor ^property[1].code = #vr
+* #GrayLookupTableDescriptor ^property[1].valueString = "US or SS"
+* #GrayLookupTableDescriptor ^property[2].code = #retired
+* #GrayLookupTableDescriptor ^property[2].valueBoolean = true
 
 * #RedPaletteColorLookupTableDescriptor "Red Palette Color Lookup Table Descriptor" "Red Palette Color Lookup Table Descriptor"
 * #RedPaletteColorLookupTableDescriptor ^property[0].code = #tag
@@ -16796,6 +18052,30 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #AlphaPaletteColorLookupTableDescriptor ^property[2].code = #retired
 * #AlphaPaletteColorLookupTableDescriptor ^property[2].valueBoolean = false
 
+* #LargeRedPaletteColorLookupTableDescriptor "Large Red Palette Color Lookup Table Descriptor" "Large Red Palette Color Lookup Table Descriptor"
+* #LargeRedPaletteColorLookupTableDescriptor ^property[0].code = #tag
+* #LargeRedPaletteColorLookupTableDescriptor ^property[0].valueString  = "00281111"
+* #LargeRedPaletteColorLookupTableDescriptor ^property[1].code = #vr
+* #LargeRedPaletteColorLookupTableDescriptor ^property[1].valueString = "US or SS"
+* #LargeRedPaletteColorLookupTableDescriptor ^property[2].code = #retired
+* #LargeRedPaletteColorLookupTableDescriptor ^property[2].valueBoolean = true
+
+* #LargeGreenPaletteColorLookupTableDescriptor "Large Green Palette Color Lookup Table Descriptor" "Large Green Palette Color Lookup Table Descriptor"
+* #LargeGreenPaletteColorLookupTableDescriptor ^property[0].code = #tag
+* #LargeGreenPaletteColorLookupTableDescriptor ^property[0].valueString  = "00281112"
+* #LargeGreenPaletteColorLookupTableDescriptor ^property[1].code = #vr
+* #LargeGreenPaletteColorLookupTableDescriptor ^property[1].valueString = "US or SS"
+* #LargeGreenPaletteColorLookupTableDescriptor ^property[2].code = #retired
+* #LargeGreenPaletteColorLookupTableDescriptor ^property[2].valueBoolean = true
+
+* #LargeBluePaletteColorLookupTableDescriptor "Large Blue Palette Color Lookup Table Descriptor" "Large Blue Palette Color Lookup Table Descriptor"
+* #LargeBluePaletteColorLookupTableDescriptor ^property[0].code = #tag
+* #LargeBluePaletteColorLookupTableDescriptor ^property[0].valueString  = "00281113"
+* #LargeBluePaletteColorLookupTableDescriptor ^property[1].code = #vr
+* #LargeBluePaletteColorLookupTableDescriptor ^property[1].valueString = "US or SS"
+* #LargeBluePaletteColorLookupTableDescriptor ^property[2].code = #retired
+* #LargeBluePaletteColorLookupTableDescriptor ^property[2].valueBoolean = true
+
 * #PaletteColorLookupTableUID "Palette Color Lookup Table UID" "Palette Color Lookup Table UID"
 * #PaletteColorLookupTableUID ^property[0].code = #tag
 * #PaletteColorLookupTableUID ^property[0].valueString  = "00281199"
@@ -16803,6 +18083,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PaletteColorLookupTableUID ^property[1].valueString = "UI"
 * #PaletteColorLookupTableUID ^property[2].code = #retired
 * #PaletteColorLookupTableUID ^property[2].valueBoolean = false
+
+* #GrayLookupTableData "Gray Lookup Table Data" "Gray Lookup Table Data"
+* #GrayLookupTableData ^property[0].code = #tag
+* #GrayLookupTableData ^property[0].valueString  = "00281200"
+* #GrayLookupTableData ^property[1].code = #vr
+* #GrayLookupTableData ^property[1].valueString = "US or SS or OW"
+* #GrayLookupTableData ^property[2].code = #retired
+* #GrayLookupTableData ^property[2].valueBoolean = true
 
 * #RedPaletteColorLookupTableData "Red Palette Color Lookup Table Data" "Red Palette Color Lookup Table Data"
 * #RedPaletteColorLookupTableData ^property[0].code = #tag
@@ -16835,6 +18123,38 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #AlphaPaletteColorLookupTableData ^property[1].valueString = "OW"
 * #AlphaPaletteColorLookupTableData ^property[2].code = #retired
 * #AlphaPaletteColorLookupTableData ^property[2].valueBoolean = false
+
+* #LargeRedPaletteColorLookupTableData "Large Red Palette Color Lookup Table Data" "Large Red Palette Color Lookup Table Data"
+* #LargeRedPaletteColorLookupTableData ^property[0].code = #tag
+* #LargeRedPaletteColorLookupTableData ^property[0].valueString  = "00281211"
+* #LargeRedPaletteColorLookupTableData ^property[1].code = #vr
+* #LargeRedPaletteColorLookupTableData ^property[1].valueString = "OW"
+* #LargeRedPaletteColorLookupTableData ^property[2].code = #retired
+* #LargeRedPaletteColorLookupTableData ^property[2].valueBoolean = true
+
+* #LargeGreenPaletteColorLookupTableData "Large Green Palette Color Lookup Table Data" "Large Green Palette Color Lookup Table Data"
+* #LargeGreenPaletteColorLookupTableData ^property[0].code = #tag
+* #LargeGreenPaletteColorLookupTableData ^property[0].valueString  = "00281212"
+* #LargeGreenPaletteColorLookupTableData ^property[1].code = #vr
+* #LargeGreenPaletteColorLookupTableData ^property[1].valueString = "OW"
+* #LargeGreenPaletteColorLookupTableData ^property[2].code = #retired
+* #LargeGreenPaletteColorLookupTableData ^property[2].valueBoolean = true
+
+* #LargeBluePaletteColorLookupTableData "Large Blue Palette Color Lookup Table Data" "Large Blue Palette Color Lookup Table Data"
+* #LargeBluePaletteColorLookupTableData ^property[0].code = #tag
+* #LargeBluePaletteColorLookupTableData ^property[0].valueString  = "00281213"
+* #LargeBluePaletteColorLookupTableData ^property[1].code = #vr
+* #LargeBluePaletteColorLookupTableData ^property[1].valueString = "OW"
+* #LargeBluePaletteColorLookupTableData ^property[2].code = #retired
+* #LargeBluePaletteColorLookupTableData ^property[2].valueBoolean = true
+
+* #LargePaletteColorLookupTableUID "Large Palette Color Lookup Table UID" "Large Palette Color Lookup Table UID"
+* #LargePaletteColorLookupTableUID ^property[0].code = #tag
+* #LargePaletteColorLookupTableUID ^property[0].valueString  = "00281214"
+* #LargePaletteColorLookupTableUID ^property[1].code = #vr
+* #LargePaletteColorLookupTableUID ^property[1].valueString = "UI"
+* #LargePaletteColorLookupTableUID ^property[2].code = #retired
+* #LargePaletteColorLookupTableUID ^property[2].valueBoolean = true
 
 * #SegmentedRedPaletteColorLookupTableData "Segmented Red Palette Color Lookup Table Data" "Segmented Red Palette Color Lookup Table Data"
 * #SegmentedRedPaletteColorLookupTableData ^property[0].code = #tag
@@ -17148,6 +18468,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SoftcopyVOILUTSequence ^property[2].code = #retired
 * #SoftcopyVOILUTSequence ^property[2].valueBoolean = false
 
+* #ImagePresentationComments "Image Presentation Comments" "Image Presentation Comments"
+* #ImagePresentationComments ^property[0].code = #tag
+* #ImagePresentationComments ^property[0].valueString  = "00284000"
+* #ImagePresentationComments ^property[1].code = #vr
+* #ImagePresentationComments ^property[1].valueString = "LT"
+* #ImagePresentationComments ^property[2].code = #retired
+* #ImagePresentationComments ^property[2].valueBoolean = true
+
+* #BiPlaneAcquisitionSequence "Bi-Plane Acquisition Sequence" "Bi-Plane Acquisition Sequence"
+* #BiPlaneAcquisitionSequence ^property[0].code = #tag
+* #BiPlaneAcquisitionSequence ^property[0].valueString  = "00285000"
+* #BiPlaneAcquisitionSequence ^property[1].code = #vr
+* #BiPlaneAcquisitionSequence ^property[1].valueString = "SQ"
+* #BiPlaneAcquisitionSequence ^property[2].code = #retired
+* #BiPlaneAcquisitionSequence ^property[2].valueBoolean = true
+
 * #RepresentativeFrameNumber "Representative Frame Number" "Representative Frame Number"
 * #RepresentativeFrameNumber ^property[0].code = #tag
 * #RepresentativeFrameNumber ^property[0].valueString  = "00286010"
@@ -17179,6 +18515,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #FrameOfInterestType ^property[1].valueString = "CS"
 * #FrameOfInterestType ^property[2].code = #retired
 * #FrameOfInterestType ^property[2].valueBoolean = false
+
+* #MaskPointers "Mask Pointer(s)" "Mask Pointer(s)"
+* #MaskPointers ^property[0].code = #tag
+* #MaskPointers ^property[0].valueString  = "00286030"
+* #MaskPointers ^property[1].code = #vr
+* #MaskPointers ^property[1].valueString = "US"
+* #MaskPointers ^property[2].code = #retired
+* #MaskPointers ^property[2].valueBoolean = true
 
 * #RWavePointer "R Wave Pointer" "R Wave Pointer"
 * #RWavePointer ^property[0].code = #tag
@@ -17660,6 +19004,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SignalDomainColumns ^property[2].code = #retired
 * #SignalDomainColumns ^property[2].valueBoolean = false
 
+* #LargestMonochromePixelValue "Largest Monochrome Pixel Value" "Largest Monochrome Pixel Value"
+* #LargestMonochromePixelValue ^property[0].code = #tag
+* #LargestMonochromePixelValue ^property[0].valueString  = "00289099"
+* #LargestMonochromePixelValue ^property[1].code = #vr
+* #LargestMonochromePixelValue ^property[1].valueString = "US"
+* #LargestMonochromePixelValue ^property[2].code = #retired
+* #LargestMonochromePixelValue ^property[2].valueBoolean = true
+
 * #DataRepresentation "Data Representation" "Data Representation"
 * #DataRepresentation ^property[0].code = #tag
 * #DataRepresentation ^property[0].valueString  = "00289108"
@@ -17852,6 +19204,118 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #EquipmentCoordinateSystemIdentification ^property[2].code = #retired
 * #EquipmentCoordinateSystemIdentification ^property[2].valueBoolean = false
 
+* #StudyStatusID "Study Status ID" "Study Status ID"
+* #StudyStatusID ^property[0].code = #tag
+* #StudyStatusID ^property[0].valueString  = "0032000A"
+* #StudyStatusID ^property[1].code = #vr
+* #StudyStatusID ^property[1].valueString = "CS"
+* #StudyStatusID ^property[2].code = #retired
+* #StudyStatusID ^property[2].valueBoolean = true
+
+* #StudyPriorityID "Study Priority ID" "Study Priority ID"
+* #StudyPriorityID ^property[0].code = #tag
+* #StudyPriorityID ^property[0].valueString  = "0032000C"
+* #StudyPriorityID ^property[1].code = #vr
+* #StudyPriorityID ^property[1].valueString = "CS"
+* #StudyPriorityID ^property[2].code = #retired
+* #StudyPriorityID ^property[2].valueBoolean = true
+
+* #StudyIDIssuer "Study ID Issuer" "Study ID Issuer"
+* #StudyIDIssuer ^property[0].code = #tag
+* #StudyIDIssuer ^property[0].valueString  = "00320012"
+* #StudyIDIssuer ^property[1].code = #vr
+* #StudyIDIssuer ^property[1].valueString = "LO"
+* #StudyIDIssuer ^property[2].code = #retired
+* #StudyIDIssuer ^property[2].valueBoolean = true
+
+* #StudyVerifiedDate "Study Verified Date" "Study Verified Date"
+* #StudyVerifiedDate ^property[0].code = #tag
+* #StudyVerifiedDate ^property[0].valueString  = "00320032"
+* #StudyVerifiedDate ^property[1].code = #vr
+* #StudyVerifiedDate ^property[1].valueString = "DA"
+* #StudyVerifiedDate ^property[2].code = #retired
+* #StudyVerifiedDate ^property[2].valueBoolean = true
+
+* #StudyVerifiedTime "Study Verified Time" "Study Verified Time"
+* #StudyVerifiedTime ^property[0].code = #tag
+* #StudyVerifiedTime ^property[0].valueString  = "00320033"
+* #StudyVerifiedTime ^property[1].code = #vr
+* #StudyVerifiedTime ^property[1].valueString = "TM"
+* #StudyVerifiedTime ^property[2].code = #retired
+* #StudyVerifiedTime ^property[2].valueBoolean = true
+
+* #StudyReadDate "Study Read Date" "Study Read Date"
+* #StudyReadDate ^property[0].code = #tag
+* #StudyReadDate ^property[0].valueString  = "00320034"
+* #StudyReadDate ^property[1].code = #vr
+* #StudyReadDate ^property[1].valueString = "DA"
+* #StudyReadDate ^property[2].code = #retired
+* #StudyReadDate ^property[2].valueBoolean = true
+
+* #StudyReadTime "Study Read Time" "Study Read Time"
+* #StudyReadTime ^property[0].code = #tag
+* #StudyReadTime ^property[0].valueString  = "00320035"
+* #StudyReadTime ^property[1].code = #vr
+* #StudyReadTime ^property[1].valueString = "TM"
+* #StudyReadTime ^property[2].code = #retired
+* #StudyReadTime ^property[2].valueBoolean = true
+
+* #ScheduledStudyStartDate "Scheduled Study Start Date" "Scheduled Study Start Date"
+* #ScheduledStudyStartDate ^property[0].code = #tag
+* #ScheduledStudyStartDate ^property[0].valueString  = "00321000"
+* #ScheduledStudyStartDate ^property[1].code = #vr
+* #ScheduledStudyStartDate ^property[1].valueString = "DA"
+* #ScheduledStudyStartDate ^property[2].code = #retired
+* #ScheduledStudyStartDate ^property[2].valueBoolean = true
+
+* #ScheduledStudyStartTime "Scheduled Study Start Time" "Scheduled Study Start Time"
+* #ScheduledStudyStartTime ^property[0].code = #tag
+* #ScheduledStudyStartTime ^property[0].valueString  = "00321001"
+* #ScheduledStudyStartTime ^property[1].code = #vr
+* #ScheduledStudyStartTime ^property[1].valueString = "TM"
+* #ScheduledStudyStartTime ^property[2].code = #retired
+* #ScheduledStudyStartTime ^property[2].valueBoolean = true
+
+* #ScheduledStudyStopDate "Scheduled Study Stop Date" "Scheduled Study Stop Date"
+* #ScheduledStudyStopDate ^property[0].code = #tag
+* #ScheduledStudyStopDate ^property[0].valueString  = "00321010"
+* #ScheduledStudyStopDate ^property[1].code = #vr
+* #ScheduledStudyStopDate ^property[1].valueString = "DA"
+* #ScheduledStudyStopDate ^property[2].code = #retired
+* #ScheduledStudyStopDate ^property[2].valueBoolean = true
+
+* #ScheduledStudyStopTime "Scheduled Study Stop Time" "Scheduled Study Stop Time"
+* #ScheduledStudyStopTime ^property[0].code = #tag
+* #ScheduledStudyStopTime ^property[0].valueString  = "00321011"
+* #ScheduledStudyStopTime ^property[1].code = #vr
+* #ScheduledStudyStopTime ^property[1].valueString = "TM"
+* #ScheduledStudyStopTime ^property[2].code = #retired
+* #ScheduledStudyStopTime ^property[2].valueBoolean = true
+
+* #ScheduledStudyLocation "Scheduled Study Location" "Scheduled Study Location"
+* #ScheduledStudyLocation ^property[0].code = #tag
+* #ScheduledStudyLocation ^property[0].valueString  = "00321020"
+* #ScheduledStudyLocation ^property[1].code = #vr
+* #ScheduledStudyLocation ^property[1].valueString = "LO"
+* #ScheduledStudyLocation ^property[2].code = #retired
+* #ScheduledStudyLocation ^property[2].valueBoolean = true
+
+* #ScheduledStudyLocationAETitle "Scheduled Study Location AE Title" "Scheduled Study Location AE Title"
+* #ScheduledStudyLocationAETitle ^property[0].code = #tag
+* #ScheduledStudyLocationAETitle ^property[0].valueString  = "00321021"
+* #ScheduledStudyLocationAETitle ^property[1].code = #vr
+* #ScheduledStudyLocationAETitle ^property[1].valueString = "AE"
+* #ScheduledStudyLocationAETitle ^property[2].code = #retired
+* #ScheduledStudyLocationAETitle ^property[2].valueBoolean = true
+
+* #ReasonForStudy "Reason for Study" "Reason for Study"
+* #ReasonForStudy ^property[0].code = #tag
+* #ReasonForStudy ^property[0].valueString  = "00321030"
+* #ReasonForStudy ^property[1].code = #vr
+* #ReasonForStudy ^property[1].valueString = "LO"
+* #ReasonForStudy ^property[2].code = #retired
+* #ReasonForStudy ^property[2].valueBoolean = true
+
 * #RequestingPhysicianIdentificationSequence "Requesting Physician Identification Sequence" "Requesting Physician Identification Sequence"
 * #RequestingPhysicianIdentificationSequence ^property[0].code = #tag
 * #RequestingPhysicianIdentificationSequence ^property[0].valueString  = "00321031"
@@ -17883,6 +19347,46 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RequestingServiceCodeSequence ^property[1].valueString = "SQ"
 * #RequestingServiceCodeSequence ^property[2].code = #retired
 * #RequestingServiceCodeSequence ^property[2].valueBoolean = false
+
+* #StudyArrivalDate "Study Arrival Date" "Study Arrival Date"
+* #StudyArrivalDate ^property[0].code = #tag
+* #StudyArrivalDate ^property[0].valueString  = "00321040"
+* #StudyArrivalDate ^property[1].code = #vr
+* #StudyArrivalDate ^property[1].valueString = "DA"
+* #StudyArrivalDate ^property[2].code = #retired
+* #StudyArrivalDate ^property[2].valueBoolean = true
+
+* #StudyArrivalTime "Study Arrival Time" "Study Arrival Time"
+* #StudyArrivalTime ^property[0].code = #tag
+* #StudyArrivalTime ^property[0].valueString  = "00321041"
+* #StudyArrivalTime ^property[1].code = #vr
+* #StudyArrivalTime ^property[1].valueString = "TM"
+* #StudyArrivalTime ^property[2].code = #retired
+* #StudyArrivalTime ^property[2].valueBoolean = true
+
+* #StudyCompletionDate "Study Completion Date" "Study Completion Date"
+* #StudyCompletionDate ^property[0].code = #tag
+* #StudyCompletionDate ^property[0].valueString  = "00321050"
+* #StudyCompletionDate ^property[1].code = #vr
+* #StudyCompletionDate ^property[1].valueString = "DA"
+* #StudyCompletionDate ^property[2].code = #retired
+* #StudyCompletionDate ^property[2].valueBoolean = true
+
+* #StudyCompletionTime "Study Completion Time" "Study Completion Time"
+* #StudyCompletionTime ^property[0].code = #tag
+* #StudyCompletionTime ^property[0].valueString  = "00321051"
+* #StudyCompletionTime ^property[1].code = #vr
+* #StudyCompletionTime ^property[1].valueString = "TM"
+* #StudyCompletionTime ^property[2].code = #retired
+* #StudyCompletionTime ^property[2].valueBoolean = true
+
+* #StudyComponentStatusID "Study Component Status ID" "Study Component Status ID"
+* #StudyComponentStatusID ^property[0].code = #tag
+* #StudyComponentStatusID ^property[0].valueString  = "00321055"
+* #StudyComponentStatusID ^property[1].code = #vr
+* #StudyComponentStatusID ^property[1].valueString = "CS"
+* #StudyComponentStatusID ^property[2].code = #retired
+* #StudyComponentStatusID ^property[2].valueBoolean = true
 
 * #RequestedProcedureDescription "Requested Procedure Description" "Requested Procedure Description"
 * #RequestedProcedureDescription ^property[0].code = #tag
@@ -17931,6 +19435,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RequestedContrastAgent ^property[1].valueString = "LO"
 * #RequestedContrastAgent ^property[2].code = #retired
 * #RequestedContrastAgent ^property[2].valueBoolean = false
+
+* #StudyComments "Study Comments" "Study Comments"
+* #StudyComments ^property[0].code = #tag
+* #StudyComments ^property[0].valueString  = "00324000"
+* #StudyComments ^property[1].code = #vr
+* #StudyComments ^property[1].valueString = "LT"
+* #StudyComments ^property[2].code = #retired
+* #StudyComments ^property[2].valueBoolean = true
 
 * #FlowIdentifierSequence "Flow Identifier Sequence" "Flow Identifier Sequence"
 * #FlowIdentifierSequence ^property[0].code = #tag
@@ -18028,6 +19540,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #TimeOfFrameGroupSequence ^property[2].code = #retired
 * #TimeOfFrameGroupSequence ^property[2].valueBoolean = false
 
+* #ReferencedPatientAliasSequence "Referenced Patient Alias Sequence" "Referenced Patient Alias Sequence"
+* #ReferencedPatientAliasSequence ^property[0].code = #tag
+* #ReferencedPatientAliasSequence ^property[0].valueString  = "00380004"
+* #ReferencedPatientAliasSequence ^property[1].code = #vr
+* #ReferencedPatientAliasSequence ^property[1].valueString = "SQ"
+* #ReferencedPatientAliasSequence ^property[2].code = #retired
+* #ReferencedPatientAliasSequence ^property[2].valueBoolean = true
+
 * #VisitStatusID "Visit Status ID" "Visit Status ID"
 * #VisitStatusID ^property[0].code = #tag
 * #VisitStatusID ^property[0].valueString  = "00380008"
@@ -18043,6 +19563,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #AdmissionID ^property[1].valueString = "LO"
 * #AdmissionID ^property[2].code = #retired
 * #AdmissionID ^property[2].valueBoolean = false
+
+* #IssuerOfAdmissionID "Issuer of Admission ID" "Issuer of Admission ID"
+* #IssuerOfAdmissionID ^property[0].code = #tag
+* #IssuerOfAdmissionID ^property[0].valueString  = "00380011"
+* #IssuerOfAdmissionID ^property[1].code = #vr
+* #IssuerOfAdmissionID ^property[1].valueString = "LO"
+* #IssuerOfAdmissionID ^property[2].code = #retired
+* #IssuerOfAdmissionID ^property[2].valueBoolean = true
 
 * #IssuerOfAdmissionIDSequence "Issuer of Admission ID Sequence" "Issuer of Admission ID Sequence"
 * #IssuerOfAdmissionIDSequence ^property[0].code = #tag
@@ -18060,6 +19588,46 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RouteOfAdmissions ^property[2].code = #retired
 * #RouteOfAdmissions ^property[2].valueBoolean = false
 
+* #ScheduledAdmissionDate "Scheduled Admission Date" "Scheduled Admission Date"
+* #ScheduledAdmissionDate ^property[0].code = #tag
+* #ScheduledAdmissionDate ^property[0].valueString  = "0038001A"
+* #ScheduledAdmissionDate ^property[1].code = #vr
+* #ScheduledAdmissionDate ^property[1].valueString = "DA"
+* #ScheduledAdmissionDate ^property[2].code = #retired
+* #ScheduledAdmissionDate ^property[2].valueBoolean = true
+
+* #ScheduledAdmissionTime "Scheduled Admission Time" "Scheduled Admission Time"
+* #ScheduledAdmissionTime ^property[0].code = #tag
+* #ScheduledAdmissionTime ^property[0].valueString  = "0038001B"
+* #ScheduledAdmissionTime ^property[1].code = #vr
+* #ScheduledAdmissionTime ^property[1].valueString = "TM"
+* #ScheduledAdmissionTime ^property[2].code = #retired
+* #ScheduledAdmissionTime ^property[2].valueBoolean = true
+
+* #ScheduledDischargeDate "Scheduled Discharge Date" "Scheduled Discharge Date"
+* #ScheduledDischargeDate ^property[0].code = #tag
+* #ScheduledDischargeDate ^property[0].valueString  = "0038001C"
+* #ScheduledDischargeDate ^property[1].code = #vr
+* #ScheduledDischargeDate ^property[1].valueString = "DA"
+* #ScheduledDischargeDate ^property[2].code = #retired
+* #ScheduledDischargeDate ^property[2].valueBoolean = true
+
+* #ScheduledDischargeTime "Scheduled Discharge Time" "Scheduled Discharge Time"
+* #ScheduledDischargeTime ^property[0].code = #tag
+* #ScheduledDischargeTime ^property[0].valueString  = "0038001D"
+* #ScheduledDischargeTime ^property[1].code = #vr
+* #ScheduledDischargeTime ^property[1].valueString = "TM"
+* #ScheduledDischargeTime ^property[2].code = #retired
+* #ScheduledDischargeTime ^property[2].valueBoolean = true
+
+* #ScheduledPatientInstitutionResidence "Scheduled Patient Institution Residence" "Scheduled Patient Institution Residence"
+* #ScheduledPatientInstitutionResidence ^property[0].code = #tag
+* #ScheduledPatientInstitutionResidence ^property[0].valueString  = "0038001E"
+* #ScheduledPatientInstitutionResidence ^property[1].code = #vr
+* #ScheduledPatientInstitutionResidence ^property[1].valueString = "LO"
+* #ScheduledPatientInstitutionResidence ^property[2].code = #retired
+* #ScheduledPatientInstitutionResidence ^property[2].valueBoolean = true
+
 * #AdmittingDate "Admitting Date" "Admitting Date"
 * #AdmittingDate ^property[0].code = #tag
 * #AdmittingDate ^property[0].valueString  = "00380020"
@@ -18076,6 +19644,38 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #AdmittingTime ^property[2].code = #retired
 * #AdmittingTime ^property[2].valueBoolean = false
 
+* #DischargeDate "Discharge Date" "Discharge Date"
+* #DischargeDate ^property[0].code = #tag
+* #DischargeDate ^property[0].valueString  = "00380030"
+* #DischargeDate ^property[1].code = #vr
+* #DischargeDate ^property[1].valueString = "DA"
+* #DischargeDate ^property[2].code = #retired
+* #DischargeDate ^property[2].valueBoolean = true
+
+* #DischargeTime "Discharge Time" "Discharge Time"
+* #DischargeTime ^property[0].code = #tag
+* #DischargeTime ^property[0].valueString  = "00380032"
+* #DischargeTime ^property[1].code = #vr
+* #DischargeTime ^property[1].valueString = "TM"
+* #DischargeTime ^property[2].code = #retired
+* #DischargeTime ^property[2].valueBoolean = true
+
+* #DischargeDiagnosisDescription "Discharge Diagnosis Description" "Discharge Diagnosis Description"
+* #DischargeDiagnosisDescription ^property[0].code = #tag
+* #DischargeDiagnosisDescription ^property[0].valueString  = "00380040"
+* #DischargeDiagnosisDescription ^property[1].code = #vr
+* #DischargeDiagnosisDescription ^property[1].valueString = "LO"
+* #DischargeDiagnosisDescription ^property[2].code = #retired
+* #DischargeDiagnosisDescription ^property[2].valueBoolean = true
+
+* #DischargeDiagnosisCodeSequence "Discharge Diagnosis Code Sequence" "Discharge Diagnosis Code Sequence"
+* #DischargeDiagnosisCodeSequence ^property[0].code = #tag
+* #DischargeDiagnosisCodeSequence ^property[0].valueString  = "00380044"
+* #DischargeDiagnosisCodeSequence ^property[1].code = #vr
+* #DischargeDiagnosisCodeSequence ^property[1].valueString = "SQ"
+* #DischargeDiagnosisCodeSequence ^property[2].code = #retired
+* #DischargeDiagnosisCodeSequence ^property[2].valueBoolean = true
+
 * #SpecialNeeds "Special Needs" "Special Needs"
 * #SpecialNeeds ^property[0].code = #tag
 * #SpecialNeeds ^property[0].valueString  = "00380050"
@@ -18091,6 +19691,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ServiceEpisodeID ^property[1].valueString = "LO"
 * #ServiceEpisodeID ^property[2].code = #retired
 * #ServiceEpisodeID ^property[2].valueBoolean = false
+
+* #IssuerOfServiceEpisodeID "Issuer of Service Episode ID" "Issuer of Service Episode ID"
+* #IssuerOfServiceEpisodeID ^property[0].code = #tag
+* #IssuerOfServiceEpisodeID ^property[0].valueString  = "00380061"
+* #IssuerOfServiceEpisodeID ^property[1].code = #vr
+* #IssuerOfServiceEpisodeID ^property[1].valueString = "LO"
+* #IssuerOfServiceEpisodeID ^property[2].code = #retired
+* #IssuerOfServiceEpisodeID ^property[2].valueBoolean = true
 
 * #ServiceEpisodeDescription "Service Episode Description" "Service Episode Description"
 * #ServiceEpisodeDescription ^property[0].code = #tag
@@ -19052,6 +20660,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #BillingItemSequence ^property[2].code = #retired
 * #BillingItemSequence ^property[2].valueBoolean = false
 
+* #TotalTimeOfFluoroscopy "Total Time of Fluoroscopy" "Total Time of Fluoroscopy"
+* #TotalTimeOfFluoroscopy ^property[0].code = #tag
+* #TotalTimeOfFluoroscopy ^property[0].valueString  = "00400300"
+* #TotalTimeOfFluoroscopy ^property[1].code = #vr
+* #TotalTimeOfFluoroscopy ^property[1].valueString = "US"
+* #TotalTimeOfFluoroscopy ^property[2].code = #retired
+* #TotalTimeOfFluoroscopy ^property[2].valueBoolean = true
+
+* #TotalNumberOfExposures "Total Number of Exposures" "Total Number of Exposures"
+* #TotalNumberOfExposures ^property[0].code = #tag
+* #TotalNumberOfExposures ^property[0].valueString  = "00400301"
+* #TotalNumberOfExposures ^property[1].code = #vr
+* #TotalNumberOfExposures ^property[1].valueString = "US"
+* #TotalNumberOfExposures ^property[2].code = #retired
+* #TotalNumberOfExposures ^property[2].valueBoolean = true
+
 * #EntranceDose "Entrance Dose" "Entrance Dose"
 * #EntranceDose ^property[0].code = #tag
 * #EntranceDose ^property[0].valueString  = "00400302"
@@ -19075,6 +20699,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #DistanceSourceToEntrance ^property[1].valueString = "DS"
 * #DistanceSourceToEntrance ^property[2].code = #retired
 * #DistanceSourceToEntrance ^property[2].valueBoolean = false
+
+* #DistanceSourceToSupport "Distance Source to Support" "Distance Source to Support"
+* #DistanceSourceToSupport ^property[0].code = #tag
+* #DistanceSourceToSupport ^property[0].valueString  = "00400307"
+* #DistanceSourceToSupport ^property[1].code = #vr
+* #DistanceSourceToSupport ^property[1].valueString = "DS"
+* #DistanceSourceToSupport ^property[2].code = #retired
+* #DistanceSourceToSupport ^property[2].valueBoolean = true
+
+* #ExposureDoseSequence "Exposure Dose Sequence" "Exposure Dose Sequence"
+* #ExposureDoseSequence ^property[0].code = #tag
+* #ExposureDoseSequence ^property[0].valueString  = "0040030E"
+* #ExposureDoseSequence ^property[1].code = #vr
+* #ExposureDoseSequence ^property[1].valueString = "SQ"
+* #ExposureDoseSequence ^property[2].code = #retired
+* #ExposureDoseSequence ^property[2].valueBoolean = true
 
 * #CommentsOnRadiationDose "Comments on Radiation Dose" "Comments on Radiation Dose"
 * #CommentsOnRadiationDose ^property[0].code = #tag
@@ -19140,6 +20780,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #BillingSuppliesAndDevicesSequence ^property[2].code = #retired
 * #BillingSuppliesAndDevicesSequence ^property[2].valueBoolean = false
 
+* #ReferencedProcedureStepSequence "Referenced Procedure Step Sequence" "Referenced Procedure Step Sequence"
+* #ReferencedProcedureStepSequence ^property[0].code = #tag
+* #ReferencedProcedureStepSequence ^property[0].valueString  = "00400330"
+* #ReferencedProcedureStepSequence ^property[1].code = #vr
+* #ReferencedProcedureStepSequence ^property[1].valueString = "SQ"
+* #ReferencedProcedureStepSequence ^property[2].code = #retired
+* #ReferencedProcedureStepSequence ^property[2].valueBoolean = true
+
 * #PerformedSeriesSequence "Performed Series Sequence" "Performed Series Sequence"
 * #PerformedSeriesSequence ^property[0].code = #tag
 * #PerformedSeriesSequence ^property[0].valueString  = "00400340"
@@ -19179,6 +20827,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ScheduledSpecimenSequence ^property[1].valueString = "SQ"
 * #ScheduledSpecimenSequence ^property[2].code = #retired
 * #ScheduledSpecimenSequence ^property[2].valueBoolean = false
+
+* #SpecimenAccessionNumber "Specimen Accession Number" "Specimen Accession Number"
+* #SpecimenAccessionNumber ^property[0].code = #tag
+* #SpecimenAccessionNumber ^property[0].valueString  = "0040050A"
+* #SpecimenAccessionNumber ^property[1].code = #vr
+* #SpecimenAccessionNumber ^property[1].valueString = "LO"
+* #SpecimenAccessionNumber ^property[2].code = #retired
+* #SpecimenAccessionNumber ^property[2].valueBoolean = true
 
 * #ContainerIdentifier "Container Identifier" "Container Identifier"
 * #ContainerIdentifier ^property[0].code = #tag
@@ -19228,6 +20884,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ContainerComponentSequence ^property[2].code = #retired
 * #ContainerComponentSequence ^property[2].valueBoolean = false
 
+* #SpecimenSequence "Specimen Sequence" "Specimen Sequence"
+* #SpecimenSequence ^property[0].code = #tag
+* #SpecimenSequence ^property[0].valueString  = "00400550"
+* #SpecimenSequence ^property[1].code = #vr
+* #SpecimenSequence ^property[1].valueString = "SQ"
+* #SpecimenSequence ^property[2].code = #retired
+* #SpecimenSequence ^property[2].valueBoolean = true
+
 * #SpecimenIdentifier "Specimen Identifier" "Specimen Identifier"
 * #SpecimenIdentifier ^property[0].code = #tag
 * #SpecimenIdentifier ^property[0].valueString  = "00400551"
@@ -19235,6 +20899,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SpecimenIdentifier ^property[1].valueString = "LO"
 * #SpecimenIdentifier ^property[2].code = #retired
 * #SpecimenIdentifier ^property[2].valueBoolean = false
+
+* #SpecimenDescriptionSequenceTrial "Specimen Description Sequence (Trial)" "Specimen Description Sequence (Trial)"
+* #SpecimenDescriptionSequenceTrial ^property[0].code = #tag
+* #SpecimenDescriptionSequenceTrial ^property[0].valueString  = "00400552"
+* #SpecimenDescriptionSequenceTrial ^property[1].code = #vr
+* #SpecimenDescriptionSequenceTrial ^property[1].valueString = "SQ"
+* #SpecimenDescriptionSequenceTrial ^property[2].code = #retired
+* #SpecimenDescriptionSequenceTrial ^property[2].valueBoolean = true
+
+* #SpecimenDescriptionTrial "Specimen Description (Trial)" "Specimen Description (Trial)"
+* #SpecimenDescriptionTrial ^property[0].code = #tag
+* #SpecimenDescriptionTrial ^property[0].valueString  = "00400553"
+* #SpecimenDescriptionTrial ^property[1].code = #vr
+* #SpecimenDescriptionTrial ^property[1].valueString = "ST"
+* #SpecimenDescriptionTrial ^property[2].code = #retired
+* #SpecimenDescriptionTrial ^property[2].valueBoolean = true
 
 * #SpecimenUID "Specimen UID" "Specimen UID"
 * #SpecimenUID ^property[0].code = #tag
@@ -19324,6 +21004,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SpecimenLocalizationContentItemSequence ^property[2].code = #retired
 * #SpecimenLocalizationContentItemSequence ^property[2].valueBoolean = false
 
+* #SlideIdentifier "Slide Identifier" "Slide Identifier"
+* #SlideIdentifier ^property[0].code = #tag
+* #SlideIdentifier ^property[0].valueString  = "004006FA"
+* #SlideIdentifier ^property[1].code = #vr
+* #SlideIdentifier ^property[1].valueString = "LO"
+* #SlideIdentifier ^property[2].code = #retired
+* #SlideIdentifier ^property[2].valueBoolean = true
+
 * #WholeSlideMicroscopyImageFrameTypeSequence "Whole Slide Microscopy Image Frame Type Sequence" "Whole Slide Microscopy Image Frame Type Sequence"
 * #WholeSlideMicroscopyImageFrameTypeSequence ^property[0].code = #tag
 * #WholeSlideMicroscopyImageFrameTypeSequence ^property[0].valueString  = "00400710"
@@ -19364,6 +21052,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ZOffsetInSlideCoordinateSystem ^property[2].code = #retired
 * #ZOffsetInSlideCoordinateSystem ^property[2].valueBoolean = false
 
+* #PixelSpacingSequence "Pixel Spacing Sequence" "Pixel Spacing Sequence"
+* #PixelSpacingSequence ^property[0].code = #tag
+* #PixelSpacingSequence ^property[0].valueString  = "004008D8"
+* #PixelSpacingSequence ^property[1].code = #vr
+* #PixelSpacingSequence ^property[1].valueString = "SQ"
+* #PixelSpacingSequence ^property[2].code = #retired
+* #PixelSpacingSequence ^property[2].valueBoolean = true
+
+* #CoordinateSystemAxisCodeSequence "Coordinate System Axis Code Sequence" "Coordinate System Axis Code Sequence"
+* #CoordinateSystemAxisCodeSequence ^property[0].code = #tag
+* #CoordinateSystemAxisCodeSequence ^property[0].valueString  = "004008DA"
+* #CoordinateSystemAxisCodeSequence ^property[1].code = #vr
+* #CoordinateSystemAxisCodeSequence ^property[1].valueString = "SQ"
+* #CoordinateSystemAxisCodeSequence ^property[2].code = #retired
+* #CoordinateSystemAxisCodeSequence ^property[2].valueBoolean = true
+
 * #MeasurementUnitsCodeSequence "Measurement Units Code Sequence" "Measurement Units Code Sequence"
 * #MeasurementUnitsCodeSequence ^property[0].code = #tag
 * #MeasurementUnitsCodeSequence ^property[0].valueString  = "004008EA"
@@ -19371,6 +21075,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #MeasurementUnitsCodeSequence ^property[1].valueString = "SQ"
 * #MeasurementUnitsCodeSequence ^property[2].code = #retired
 * #MeasurementUnitsCodeSequence ^property[2].valueBoolean = false
+
+* #VitalStainCodeSequenceTrial "Vital Stain Code Sequence (Trial)" "Vital Stain Code Sequence (Trial)"
+* #VitalStainCodeSequenceTrial ^property[0].code = #tag
+* #VitalStainCodeSequenceTrial ^property[0].valueString  = "004009F8"
+* #VitalStainCodeSequenceTrial ^property[1].code = #vr
+* #VitalStainCodeSequenceTrial ^property[1].valueString = "SQ"
+* #VitalStainCodeSequenceTrial ^property[2].code = #retired
+* #VitalStainCodeSequenceTrial ^property[2].valueBoolean = true
 
 * #RequestedProcedureID "Requested Procedure ID" "Requested Procedure ID"
 * #RequestedProcedureID ^property[0].code = #tag
@@ -19411,6 +21123,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RequestedProcedureLocation ^property[1].valueString = "LO"
 * #RequestedProcedureLocation ^property[2].code = #retired
 * #RequestedProcedureLocation ^property[2].valueBoolean = false
+
+* #PlacerOrderNumberProcedure "Placer Order Number / Procedure" "Placer Order Number / Procedure"
+* #PlacerOrderNumberProcedure ^property[0].code = #tag
+* #PlacerOrderNumberProcedure ^property[0].valueString  = "00401006"
+* #PlacerOrderNumberProcedure ^property[1].code = #vr
+* #PlacerOrderNumberProcedure ^property[1].valueString = "SH"
+* #PlacerOrderNumberProcedure ^property[2].code = #retired
+* #PlacerOrderNumberProcedure ^property[2].valueBoolean = true
+
+* #FillerOrderNumberProcedure "Filler Order Number / Procedure" "Filler Order Number / Procedure"
+* #FillerOrderNumberProcedure ^property[0].code = #tag
+* #FillerOrderNumberProcedure ^property[0].valueString  = "00401007"
+* #FillerOrderNumberProcedure ^property[1].code = #vr
+* #FillerOrderNumberProcedure ^property[1].valueString = "SH"
+* #FillerOrderNumberProcedure ^property[2].code = #retired
+* #FillerOrderNumberProcedure ^property[2].valueBoolean = true
 
 * #ConfidentialityCode "Confidentiality Code" "Confidentiality Code"
 * #ConfidentialityCode ^property[0].code = #tag
@@ -19460,6 +21188,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ReasonForPerformedProcedureCodeSequence ^property[2].code = #retired
 * #ReasonForPerformedProcedureCodeSequence ^property[2].valueBoolean = false
 
+* #RequestedProcedureDescriptionTrial "Requested Procedure Description (Trial)" "Requested Procedure Description (Trial)"
+* #RequestedProcedureDescriptionTrial ^property[0].code = #tag
+* #RequestedProcedureDescriptionTrial ^property[0].valueString  = "00401060"
+* #RequestedProcedureDescriptionTrial ^property[1].code = #vr
+* #RequestedProcedureDescriptionTrial ^property[1].valueString = "LO"
+* #RequestedProcedureDescriptionTrial ^property[2].code = #retired
+* #RequestedProcedureDescriptionTrial ^property[2].valueBoolean = true
+
 * #PersonIdentificationCodeSequence "Person Identification Code Sequence" "Person Identification Code Sequence"
 * #PersonIdentificationCodeSequence ^property[0].code = #tag
 * #PersonIdentificationCodeSequence ^property[0].valueString  = "00401101"
@@ -19500,6 +21236,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RequestedProcedureComments ^property[2].code = #retired
 * #RequestedProcedureComments ^property[2].valueBoolean = false
 
+* #ReasonForTheImagingServiceRequest "Reason for the Imaging Service Request" "Reason for the Imaging Service Request"
+* #ReasonForTheImagingServiceRequest ^property[0].code = #tag
+* #ReasonForTheImagingServiceRequest ^property[0].valueString  = "00402001"
+* #ReasonForTheImagingServiceRequest ^property[1].code = #vr
+* #ReasonForTheImagingServiceRequest ^property[1].valueString = "LO"
+* #ReasonForTheImagingServiceRequest ^property[2].code = #retired
+* #ReasonForTheImagingServiceRequest ^property[2].valueBoolean = true
+
 * #IssueDateOfImagingServiceRequest "Issue Date of Imaging Service Request" "Issue Date of Imaging Service Request"
 * #IssueDateOfImagingServiceRequest ^property[0].code = #tag
 * #IssueDateOfImagingServiceRequest ^property[0].valueString  = "00402004"
@@ -19515,6 +21259,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #IssueTimeOfImagingServiceRequest ^property[1].valueString = "TM"
 * #IssueTimeOfImagingServiceRequest ^property[2].code = #retired
 * #IssueTimeOfImagingServiceRequest ^property[2].valueBoolean = false
+
+* #PlacerOrderNumberImagingServiceRequestRetired "Placer Order Number / Imaging Service Request (Retired)" "Placer Order Number / Imaging Service Request (Retired)"
+* #PlacerOrderNumberImagingServiceRequestRetired ^property[0].code = #tag
+* #PlacerOrderNumberImagingServiceRequestRetired ^property[0].valueString  = "00402006"
+* #PlacerOrderNumberImagingServiceRequestRetired ^property[1].code = #vr
+* #PlacerOrderNumberImagingServiceRequestRetired ^property[1].valueString = "SH"
+* #PlacerOrderNumberImagingServiceRequestRetired ^property[2].code = #retired
+* #PlacerOrderNumberImagingServiceRequestRetired ^property[2].valueBoolean = true
+
+* #FillerOrderNumberImagingServiceRequestRetired "Filler Order Number / Imaging Service Request (Retired)" "Filler Order Number / Imaging Service Request (Retired)"
+* #FillerOrderNumberImagingServiceRequestRetired ^property[0].code = #tag
+* #FillerOrderNumberImagingServiceRequestRetired ^property[0].valueString  = "00402007"
+* #FillerOrderNumberImagingServiceRequestRetired ^property[1].code = #vr
+* #FillerOrderNumberImagingServiceRequestRetired ^property[1].valueString = "SH"
+* #FillerOrderNumberImagingServiceRequestRetired ^property[2].code = #retired
+* #FillerOrderNumberImagingServiceRequestRetired ^property[2].valueBoolean = true
 
 * #OrderEnteredBy "Order Entered By" "Order Entered By"
 * #OrderEnteredBy ^property[0].code = #tag
@@ -19580,6 +21340,38 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ConfidentialityConstraintOnPatientDataDescription ^property[2].code = #retired
 * #ConfidentialityConstraintOnPatientDataDescription ^property[2].valueBoolean = false
 
+* #GeneralPurposeScheduledProcedureStepStatus "General Purpose Scheduled Procedure Step Status" "General Purpose Scheduled Procedure Step Status"
+* #GeneralPurposeScheduledProcedureStepStatus ^property[0].code = #tag
+* #GeneralPurposeScheduledProcedureStepStatus ^property[0].valueString  = "00404001"
+* #GeneralPurposeScheduledProcedureStepStatus ^property[1].code = #vr
+* #GeneralPurposeScheduledProcedureStepStatus ^property[1].valueString = "CS"
+* #GeneralPurposeScheduledProcedureStepStatus ^property[2].code = #retired
+* #GeneralPurposeScheduledProcedureStepStatus ^property[2].valueBoolean = true
+
+* #GeneralPurposePerformedProcedureStepStatus "General Purpose Performed Procedure Step Status" "General Purpose Performed Procedure Step Status"
+* #GeneralPurposePerformedProcedureStepStatus ^property[0].code = #tag
+* #GeneralPurposePerformedProcedureStepStatus ^property[0].valueString  = "00404002"
+* #GeneralPurposePerformedProcedureStepStatus ^property[1].code = #vr
+* #GeneralPurposePerformedProcedureStepStatus ^property[1].valueString = "CS"
+* #GeneralPurposePerformedProcedureStepStatus ^property[2].code = #retired
+* #GeneralPurposePerformedProcedureStepStatus ^property[2].valueBoolean = true
+
+* #GeneralPurposeScheduledProcedureStepPriority "General Purpose Scheduled Procedure Step Priority" "General Purpose Scheduled Procedure Step Priority"
+* #GeneralPurposeScheduledProcedureStepPriority ^property[0].code = #tag
+* #GeneralPurposeScheduledProcedureStepPriority ^property[0].valueString  = "00404003"
+* #GeneralPurposeScheduledProcedureStepPriority ^property[1].code = #vr
+* #GeneralPurposeScheduledProcedureStepPriority ^property[1].valueString = "CS"
+* #GeneralPurposeScheduledProcedureStepPriority ^property[2].code = #retired
+* #GeneralPurposeScheduledProcedureStepPriority ^property[2].valueBoolean = true
+
+* #ScheduledProcessingApplicationsCodeSequence "Scheduled Processing Applications Code Sequence" "Scheduled Processing Applications Code Sequence"
+* #ScheduledProcessingApplicationsCodeSequence ^property[0].code = #tag
+* #ScheduledProcessingApplicationsCodeSequence ^property[0].valueString  = "00404004"
+* #ScheduledProcessingApplicationsCodeSequence ^property[1].code = #vr
+* #ScheduledProcessingApplicationsCodeSequence ^property[1].valueString = "SQ"
+* #ScheduledProcessingApplicationsCodeSequence ^property[2].code = #retired
+* #ScheduledProcessingApplicationsCodeSequence ^property[2].valueBoolean = true
+
 * #ScheduledProcedureStepStartDateTime "Scheduled Procedure Step Start DateTime" "Scheduled Procedure Step Start DateTime"
 * #ScheduledProcedureStepStartDateTime ^property[0].code = #tag
 * #ScheduledProcedureStepStartDateTime ^property[0].valueString  = "00404005"
@@ -19587,6 +21379,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ScheduledProcedureStepStartDateTime ^property[1].valueString = "DT"
 * #ScheduledProcedureStepStartDateTime ^property[2].code = #retired
 * #ScheduledProcedureStepStartDateTime ^property[2].valueBoolean = false
+
+* #MultipleCopiesFlag "Multiple Copies Flag" "Multiple Copies Flag"
+* #MultipleCopiesFlag ^property[0].code = #tag
+* #MultipleCopiesFlag ^property[0].valueString  = "00404006"
+* #MultipleCopiesFlag ^property[1].code = #vr
+* #MultipleCopiesFlag ^property[1].valueString = "CS"
+* #MultipleCopiesFlag ^property[2].code = #retired
+* #MultipleCopiesFlag ^property[2].valueBoolean = true
+
+* #PerformedProcessingApplicationsCodeSequence "Performed Processing Applications Code Sequence" "Performed Processing Applications Code Sequence"
+* #PerformedProcessingApplicationsCodeSequence ^property[0].code = #tag
+* #PerformedProcessingApplicationsCodeSequence ^property[0].valueString  = "00404007"
+* #PerformedProcessingApplicationsCodeSequence ^property[1].code = #vr
+* #PerformedProcessingApplicationsCodeSequence ^property[1].valueString = "SQ"
+* #PerformedProcessingApplicationsCodeSequence ^property[2].code = #retired
+* #PerformedProcessingApplicationsCodeSequence ^property[2].valueBoolean = true
 
 * #ScheduledProcedureStepExpirationDateTime "Scheduled Procedure Step Expiration DateTime" "Scheduled Procedure Step Expiration DateTime"
 * #ScheduledProcedureStepExpirationDateTime ^property[0].code = #tag
@@ -19620,6 +21428,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ExpectedCompletionDateTime ^property[2].code = #retired
 * #ExpectedCompletionDateTime ^property[2].valueBoolean = false
 
+* #ResultingGeneralPurposePerformedProcedureStepsSequence "Resulting General Purpose Performed Procedure Steps Sequence" "Resulting General Purpose Performed Procedure Steps Sequence"
+* #ResultingGeneralPurposePerformedProcedureStepsSequence ^property[0].code = #tag
+* #ResultingGeneralPurposePerformedProcedureStepsSequence ^property[0].valueString  = "00404015"
+* #ResultingGeneralPurposePerformedProcedureStepsSequence ^property[1].code = #vr
+* #ResultingGeneralPurposePerformedProcedureStepsSequence ^property[1].valueString = "SQ"
+* #ResultingGeneralPurposePerformedProcedureStepsSequence ^property[2].code = #retired
+* #ResultingGeneralPurposePerformedProcedureStepsSequence ^property[2].valueBoolean = true
+
+* #ReferencedGeneralPurposeScheduledProcedureStepSequence "Referenced General Purpose Scheduled Procedure Step Sequence" "Referenced General Purpose Scheduled Procedure Step Sequence"
+* #ReferencedGeneralPurposeScheduledProcedureStepSequence ^property[0].code = #tag
+* #ReferencedGeneralPurposeScheduledProcedureStepSequence ^property[0].valueString  = "00404016"
+* #ReferencedGeneralPurposeScheduledProcedureStepSequence ^property[1].code = #vr
+* #ReferencedGeneralPurposeScheduledProcedureStepSequence ^property[1].valueString = "SQ"
+* #ReferencedGeneralPurposeScheduledProcedureStepSequence ^property[2].code = #retired
+* #ReferencedGeneralPurposeScheduledProcedureStepSequence ^property[2].valueBoolean = true
+
 * #ScheduledWorkitemCodeSequence "Scheduled Workitem Code Sequence" "Scheduled Workitem Code Sequence"
 * #ScheduledWorkitemCodeSequence ^property[0].code = #tag
 * #ScheduledWorkitemCodeSequence ^property[0].valueString  = "00404018"
@@ -19636,6 +21460,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PerformedWorkitemCodeSequence ^property[2].code = #retired
 * #PerformedWorkitemCodeSequence ^property[2].valueBoolean = false
 
+* #InputAvailabilityFlag "Input Availability Flag" "Input Availability Flag"
+* #InputAvailabilityFlag ^property[0].code = #tag
+* #InputAvailabilityFlag ^property[0].valueString  = "00404020"
+* #InputAvailabilityFlag ^property[1].code = #vr
+* #InputAvailabilityFlag ^property[1].valueString = "CS"
+* #InputAvailabilityFlag ^property[2].code = #retired
+* #InputAvailabilityFlag ^property[2].valueBoolean = true
+
 * #InputInformationSequence "Input Information Sequence" "Input Information Sequence"
 * #InputInformationSequence ^property[0].code = #tag
 * #InputInformationSequence ^property[0].valueString  = "00404021"
@@ -19643,6 +21475,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #InputInformationSequence ^property[1].valueString = "SQ"
 * #InputInformationSequence ^property[2].code = #retired
 * #InputInformationSequence ^property[2].valueBoolean = false
+
+* #RelevantInformationSequence "Relevant Information Sequence" "Relevant Information Sequence"
+* #RelevantInformationSequence ^property[0].code = #tag
+* #RelevantInformationSequence ^property[0].valueString  = "00404022"
+* #RelevantInformationSequence ^property[1].code = #vr
+* #RelevantInformationSequence ^property[1].valueString = "SQ"
+* #RelevantInformationSequence ^property[2].code = #retired
+* #RelevantInformationSequence ^property[2].valueBoolean = true
+
+* #ReferencedGeneralPurposeScheduledProcedureStepTransactionUID "Referenced General Purpose Scheduled Procedure Step Transaction UID" "Referenced General Purpose Scheduled Procedure Step Transaction UID"
+* #ReferencedGeneralPurposeScheduledProcedureStepTransactionUID ^property[0].code = #tag
+* #ReferencedGeneralPurposeScheduledProcedureStepTransactionUID ^property[0].valueString  = "00404023"
+* #ReferencedGeneralPurposeScheduledProcedureStepTransactionUID ^property[1].code = #vr
+* #ReferencedGeneralPurposeScheduledProcedureStepTransactionUID ^property[1].valueString = "UI"
+* #ReferencedGeneralPurposeScheduledProcedureStepTransactionUID ^property[2].code = #retired
+* #ReferencedGeneralPurposeScheduledProcedureStepTransactionUID ^property[2].valueBoolean = true
 
 * #ScheduledStationNameCodeSequence "Scheduled Station Name Code Sequence" "Scheduled Station Name Code Sequence"
 * #ScheduledStationNameCodeSequence ^property[0].code = #tag
@@ -19691,6 +21539,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PerformedStationGeographicLocationCodeSequence ^property[1].valueString = "SQ"
 * #PerformedStationGeographicLocationCodeSequence ^property[2].code = #retired
 * #PerformedStationGeographicLocationCodeSequence ^property[2].valueBoolean = false
+
+* #RequestedSubsequentWorkitemCodeSequence "Requested Subsequent Workitem Code Sequence" "Requested Subsequent Workitem Code Sequence"
+* #RequestedSubsequentWorkitemCodeSequence ^property[0].code = #tag
+* #RequestedSubsequentWorkitemCodeSequence ^property[0].valueString  = "00404031"
+* #RequestedSubsequentWorkitemCodeSequence ^property[1].code = #vr
+* #RequestedSubsequentWorkitemCodeSequence ^property[1].valueString = "SQ"
+* #RequestedSubsequentWorkitemCodeSequence ^property[2].code = #retired
+* #RequestedSubsequentWorkitemCodeSequence ^property[2].valueBoolean = true
+
+* #NonDICOMOutputCodeSequence "Non-DICOM Output Code Sequence" "Non-DICOM Output Code Sequence"
+* #NonDICOMOutputCodeSequence ^property[0].code = #tag
+* #NonDICOMOutputCodeSequence ^property[0].valueString  = "00404032"
+* #NonDICOMOutputCodeSequence ^property[1].code = #vr
+* #NonDICOMOutputCodeSequence ^property[1].valueString = "SQ"
+* #NonDICOMOutputCodeSequence ^property[2].code = #retired
+* #NonDICOMOutputCodeSequence ^property[2].valueBoolean = true
 
 * #OutputInformationSequence "Output Information Sequence" "Output Information Sequence"
 * #OutputInformationSequence ^property[0].code = #tag
@@ -19932,6 +21796,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RealWorldValueSlope ^property[2].code = #retired
 * #RealWorldValueSlope ^property[2].valueBoolean = false
 
+* #FindingsFlagTrial "Findings Flag (Trial)" "Findings Flag (Trial)"
+* #FindingsFlagTrial ^property[0].code = #tag
+* #FindingsFlagTrial ^property[0].valueString  = "0040A007"
+* #FindingsFlagTrial ^property[1].code = #vr
+* #FindingsFlagTrial ^property[1].valueString = "CS"
+* #FindingsFlagTrial ^property[2].code = #retired
+* #FindingsFlagTrial ^property[2].valueBoolean = true
+
 * #RelationshipType "Relationship Type" "Relationship Type"
 * #RelationshipType ^property[0].code = #tag
 * #RelationshipType ^property[0].valueString  = "0040A010"
@@ -19940,6 +21812,54 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RelationshipType ^property[2].code = #retired
 * #RelationshipType ^property[2].valueBoolean = false
 
+* #FindingsSequenceTrial "Findings Sequence (Trial)" "Findings Sequence (Trial)"
+* #FindingsSequenceTrial ^property[0].code = #tag
+* #FindingsSequenceTrial ^property[0].valueString  = "0040A020"
+* #FindingsSequenceTrial ^property[1].code = #vr
+* #FindingsSequenceTrial ^property[1].valueString = "SQ"
+* #FindingsSequenceTrial ^property[2].code = #retired
+* #FindingsSequenceTrial ^property[2].valueBoolean = true
+
+* #FindingsGroupUIDTrial "Findings Group UID (Trial)" "Findings Group UID (Trial)"
+* #FindingsGroupUIDTrial ^property[0].code = #tag
+* #FindingsGroupUIDTrial ^property[0].valueString  = "0040A021"
+* #FindingsGroupUIDTrial ^property[1].code = #vr
+* #FindingsGroupUIDTrial ^property[1].valueString = "UI"
+* #FindingsGroupUIDTrial ^property[2].code = #retired
+* #FindingsGroupUIDTrial ^property[2].valueBoolean = true
+
+* #ReferencedFindingsGroupUIDTrial "Referenced Findings Group UID (Trial)" "Referenced Findings Group UID (Trial)"
+* #ReferencedFindingsGroupUIDTrial ^property[0].code = #tag
+* #ReferencedFindingsGroupUIDTrial ^property[0].valueString  = "0040A022"
+* #ReferencedFindingsGroupUIDTrial ^property[1].code = #vr
+* #ReferencedFindingsGroupUIDTrial ^property[1].valueString = "UI"
+* #ReferencedFindingsGroupUIDTrial ^property[2].code = #retired
+* #ReferencedFindingsGroupUIDTrial ^property[2].valueBoolean = true
+
+* #FindingsGroupRecordingDateTrial "Findings Group Recording Date (Trial)" "Findings Group Recording Date (Trial)"
+* #FindingsGroupRecordingDateTrial ^property[0].code = #tag
+* #FindingsGroupRecordingDateTrial ^property[0].valueString  = "0040A023"
+* #FindingsGroupRecordingDateTrial ^property[1].code = #vr
+* #FindingsGroupRecordingDateTrial ^property[1].valueString = "DA"
+* #FindingsGroupRecordingDateTrial ^property[2].code = #retired
+* #FindingsGroupRecordingDateTrial ^property[2].valueBoolean = true
+
+* #FindingsGroupRecordingTimeTrial "Findings Group Recording Time (Trial)" "Findings Group Recording Time (Trial)"
+* #FindingsGroupRecordingTimeTrial ^property[0].code = #tag
+* #FindingsGroupRecordingTimeTrial ^property[0].valueString  = "0040A024"
+* #FindingsGroupRecordingTimeTrial ^property[1].code = #vr
+* #FindingsGroupRecordingTimeTrial ^property[1].valueString = "TM"
+* #FindingsGroupRecordingTimeTrial ^property[2].code = #retired
+* #FindingsGroupRecordingTimeTrial ^property[2].valueBoolean = true
+
+* #FindingsSourceCategoryCodeSequenceTrial "Findings Source Category Code Sequence (Trial)" "Findings Source Category Code Sequence (Trial)"
+* #FindingsSourceCategoryCodeSequenceTrial ^property[0].code = #tag
+* #FindingsSourceCategoryCodeSequenceTrial ^property[0].valueString  = "0040A026"
+* #FindingsSourceCategoryCodeSequenceTrial ^property[1].code = #vr
+* #FindingsSourceCategoryCodeSequenceTrial ^property[1].valueString = "SQ"
+* #FindingsSourceCategoryCodeSequenceTrial ^property[2].code = #retired
+* #FindingsSourceCategoryCodeSequenceTrial ^property[2].valueBoolean = true
+
 * #VerifyingOrganization "Verifying Organization" "Verifying Organization"
 * #VerifyingOrganization ^property[0].code = #tag
 * #VerifyingOrganization ^property[0].valueString  = "0040A027"
@@ -19947,6 +21867,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #VerifyingOrganization ^property[1].valueString = "LO"
 * #VerifyingOrganization ^property[2].code = #retired
 * #VerifyingOrganization ^property[2].valueBoolean = false
+
+* #DocumentingOrganizationIdentifierCodeSequenceTrial "Documenting Organization Identifier Code Sequence (Trial)" "Documenting Organization Identifier Code Sequence (Trial)"
+* #DocumentingOrganizationIdentifierCodeSequenceTrial ^property[0].code = #tag
+* #DocumentingOrganizationIdentifierCodeSequenceTrial ^property[0].valueString  = "0040A028"
+* #DocumentingOrganizationIdentifierCodeSequenceTrial ^property[1].code = #vr
+* #DocumentingOrganizationIdentifierCodeSequenceTrial ^property[1].valueString = "SQ"
+* #DocumentingOrganizationIdentifierCodeSequenceTrial ^property[2].code = #retired
+* #DocumentingOrganizationIdentifierCodeSequenceTrial ^property[2].valueBoolean = true
 
 * #VerificationDateTime "Verification DateTime" "Verification DateTime"
 * #VerificationDateTime ^property[0].code = #tag
@@ -20004,6 +21932,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ConceptNameCodeSequence ^property[2].code = #retired
 * #ConceptNameCodeSequence ^property[2].valueBoolean = false
 
+* #MeasurementPrecisionDescriptionTrial "Measurement Precision Description (Trial)" "Measurement Precision Description (Trial)"
+* #MeasurementPrecisionDescriptionTrial ^property[0].code = #tag
+* #MeasurementPrecisionDescriptionTrial ^property[0].valueString  = "0040A047"
+* #MeasurementPrecisionDescriptionTrial ^property[1].code = #vr
+* #MeasurementPrecisionDescriptionTrial ^property[1].valueString = "LO"
+* #MeasurementPrecisionDescriptionTrial ^property[2].code = #retired
+* #MeasurementPrecisionDescriptionTrial ^property[2].valueBoolean = true
+
 * #ContinuityOfContent "Continuity Of Content" "Continuity Of Content"
 * #ContinuityOfContent ^property[0].code = #tag
 * #ContinuityOfContent ^property[0].valueString  = "0040A050"
@@ -20011,6 +21947,54 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ContinuityOfContent ^property[1].valueString = "CS"
 * #ContinuityOfContent ^property[2].code = #retired
 * #ContinuityOfContent ^property[2].valueBoolean = false
+
+* #UrgencyOrPriorityAlertsTrial "Urgency or Priority Alerts (Trial)" "Urgency or Priority Alerts (Trial)"
+* #UrgencyOrPriorityAlertsTrial ^property[0].code = #tag
+* #UrgencyOrPriorityAlertsTrial ^property[0].valueString  = "0040A057"
+* #UrgencyOrPriorityAlertsTrial ^property[1].code = #vr
+* #UrgencyOrPriorityAlertsTrial ^property[1].valueString = "CS"
+* #UrgencyOrPriorityAlertsTrial ^property[2].code = #retired
+* #UrgencyOrPriorityAlertsTrial ^property[2].valueBoolean = true
+
+* #SequencingIndicatorTrial "Sequencing Indicator (Trial)" "Sequencing Indicator (Trial)"
+* #SequencingIndicatorTrial ^property[0].code = #tag
+* #SequencingIndicatorTrial ^property[0].valueString  = "0040A060"
+* #SequencingIndicatorTrial ^property[1].code = #vr
+* #SequencingIndicatorTrial ^property[1].valueString = "LO"
+* #SequencingIndicatorTrial ^property[2].code = #retired
+* #SequencingIndicatorTrial ^property[2].valueBoolean = true
+
+* #DocumentIdentifierCodeSequenceTrial "Document Identifier Code Sequence (Trial)" "Document Identifier Code Sequence (Trial)"
+* #DocumentIdentifierCodeSequenceTrial ^property[0].code = #tag
+* #DocumentIdentifierCodeSequenceTrial ^property[0].valueString  = "0040A066"
+* #DocumentIdentifierCodeSequenceTrial ^property[1].code = #vr
+* #DocumentIdentifierCodeSequenceTrial ^property[1].valueString = "SQ"
+* #DocumentIdentifierCodeSequenceTrial ^property[2].code = #retired
+* #DocumentIdentifierCodeSequenceTrial ^property[2].valueBoolean = true
+
+* #DocumentAuthorTrial "Document Author (Trial)" "Document Author (Trial)"
+* #DocumentAuthorTrial ^property[0].code = #tag
+* #DocumentAuthorTrial ^property[0].valueString  = "0040A067"
+* #DocumentAuthorTrial ^property[1].code = #vr
+* #DocumentAuthorTrial ^property[1].valueString = "PN"
+* #DocumentAuthorTrial ^property[2].code = #retired
+* #DocumentAuthorTrial ^property[2].valueBoolean = true
+
+* #DocumentAuthorIdentifierCodeSequenceTrial "Document Author Identifier Code Sequence (Trial)" "Document Author Identifier Code Sequence (Trial)"
+* #DocumentAuthorIdentifierCodeSequenceTrial ^property[0].code = #tag
+* #DocumentAuthorIdentifierCodeSequenceTrial ^property[0].valueString  = "0040A068"
+* #DocumentAuthorIdentifierCodeSequenceTrial ^property[1].code = #vr
+* #DocumentAuthorIdentifierCodeSequenceTrial ^property[1].valueString = "SQ"
+* #DocumentAuthorIdentifierCodeSequenceTrial ^property[2].code = #retired
+* #DocumentAuthorIdentifierCodeSequenceTrial ^property[2].valueBoolean = true
+
+* #IdentifierCodeSequenceTrial "Identifier Code Sequence (Trial)" "Identifier Code Sequence (Trial)"
+* #IdentifierCodeSequenceTrial ^property[0].code = #tag
+* #IdentifierCodeSequenceTrial ^property[0].valueString  = "0040A070"
+* #IdentifierCodeSequenceTrial ^property[1].code = #vr
+* #IdentifierCodeSequenceTrial ^property[1].valueString = "SQ"
+* #IdentifierCodeSequenceTrial ^property[2].code = #retired
+* #IdentifierCodeSequenceTrial ^property[2].valueBoolean = true
 
 * #VerifyingObserverSequence "Verifying Observer Sequence" "Verifying Observer Sequence"
 * #VerifyingObserverSequence ^property[0].code = #tag
@@ -20020,6 +22004,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #VerifyingObserverSequence ^property[2].code = #retired
 * #VerifyingObserverSequence ^property[2].valueBoolean = false
 
+* #ObjectBinaryIdentifierTrial "Object Binary Identifier (Trial)" "Object Binary Identifier (Trial)"
+* #ObjectBinaryIdentifierTrial ^property[0].code = #tag
+* #ObjectBinaryIdentifierTrial ^property[0].valueString  = "0040A074"
+* #ObjectBinaryIdentifierTrial ^property[1].code = #vr
+* #ObjectBinaryIdentifierTrial ^property[1].valueString = "OB"
+* #ObjectBinaryIdentifierTrial ^property[2].code = #retired
+* #ObjectBinaryIdentifierTrial ^property[2].valueBoolean = true
+
 * #VerifyingObserverName "Verifying Observer Name" "Verifying Observer Name"
 * #VerifyingObserverName ^property[0].code = #tag
 * #VerifyingObserverName ^property[0].valueString  = "0040A075"
@@ -20027,6 +22019,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #VerifyingObserverName ^property[1].valueString = "PN"
 * #VerifyingObserverName ^property[2].code = #retired
 * #VerifyingObserverName ^property[2].valueBoolean = false
+
+* #DocumentingObserverIdentifierCodeSequenceTrial "Documenting Observer Identifier Code Sequence (Trial)" "Documenting Observer Identifier Code Sequence (Trial)"
+* #DocumentingObserverIdentifierCodeSequenceTrial ^property[0].code = #tag
+* #DocumentingObserverIdentifierCodeSequenceTrial ^property[0].valueString  = "0040A076"
+* #DocumentingObserverIdentifierCodeSequenceTrial ^property[1].code = #vr
+* #DocumentingObserverIdentifierCodeSequenceTrial ^property[1].valueString = "SQ"
+* #DocumentingObserverIdentifierCodeSequenceTrial ^property[2].code = #retired
+* #DocumentingObserverIdentifierCodeSequenceTrial ^property[2].valueBoolean = true
 
 * #AuthorObserverSequence "Author Observer Sequence" "Author Observer Sequence"
 * #AuthorObserverSequence ^property[0].code = #tag
@@ -20076,6 +22076,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ObserverType ^property[2].code = #retired
 * #ObserverType ^property[2].valueBoolean = false
 
+* #ProcedureIdentifierCodeSequenceTrial "Procedure Identifier Code Sequence (Trial)" "Procedure Identifier Code Sequence (Trial)"
+* #ProcedureIdentifierCodeSequenceTrial ^property[0].code = #tag
+* #ProcedureIdentifierCodeSequenceTrial ^property[0].valueString  = "0040A085"
+* #ProcedureIdentifierCodeSequenceTrial ^property[1].code = #vr
+* #ProcedureIdentifierCodeSequenceTrial ^property[1].valueString = "SQ"
+* #ProcedureIdentifierCodeSequenceTrial ^property[2].code = #retired
+* #ProcedureIdentifierCodeSequenceTrial ^property[2].valueBoolean = true
+
 * #VerifyingObserverIdentificationCodeSequence "Verifying Observer Identification Code Sequence" "Verifying Observer Identification Code Sequence"
 * #VerifyingObserverIdentificationCodeSequence ^property[0].code = #tag
 * #VerifyingObserverIdentificationCodeSequence ^property[0].valueString  = "0040A088"
@@ -20084,6 +22092,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #VerifyingObserverIdentificationCodeSequence ^property[2].code = #retired
 * #VerifyingObserverIdentificationCodeSequence ^property[2].valueBoolean = false
 
+* #ObjectDirectoryBinaryIdentifierTrial "Object Directory Binary Identifier (Trial)" "Object Directory Binary Identifier (Trial)"
+* #ObjectDirectoryBinaryIdentifierTrial ^property[0].code = #tag
+* #ObjectDirectoryBinaryIdentifierTrial ^property[0].valueString  = "0040A089"
+* #ObjectDirectoryBinaryIdentifierTrial ^property[1].code = #vr
+* #ObjectDirectoryBinaryIdentifierTrial ^property[1].valueString = "OB"
+* #ObjectDirectoryBinaryIdentifierTrial ^property[2].code = #retired
+* #ObjectDirectoryBinaryIdentifierTrial ^property[2].valueBoolean = true
+
+* #EquivalentCDADocumentSequence "Equivalent CDA Document Sequence" "Equivalent CDA Document Sequence"
+* #EquivalentCDADocumentSequence ^property[0].code = #tag
+* #EquivalentCDADocumentSequence ^property[0].valueString  = "0040A090"
+* #EquivalentCDADocumentSequence ^property[1].code = #vr
+* #EquivalentCDADocumentSequence ^property[1].valueString = "SQ"
+* #EquivalentCDADocumentSequence ^property[2].code = #retired
+* #EquivalentCDADocumentSequence ^property[2].valueBoolean = true
+
 * #ReferencedWaveformChannels "Referenced Waveform Channels" "Referenced Waveform Channels"
 * #ReferencedWaveformChannels ^property[0].code = #tag
 * #ReferencedWaveformChannels ^property[0].valueString  = "0040A0B0"
@@ -20091,6 +22115,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ReferencedWaveformChannels ^property[1].valueString = "US"
 * #ReferencedWaveformChannels ^property[2].code = #retired
 * #ReferencedWaveformChannels ^property[2].valueBoolean = false
+
+* #DateOfDocumentOrVerbalTransactionTrial "Date of Document or Verbal Transaction (Trial)" "Date of Document or Verbal Transaction (Trial)"
+* #DateOfDocumentOrVerbalTransactionTrial ^property[0].code = #tag
+* #DateOfDocumentOrVerbalTransactionTrial ^property[0].valueString  = "0040A110"
+* #DateOfDocumentOrVerbalTransactionTrial ^property[1].code = #vr
+* #DateOfDocumentOrVerbalTransactionTrial ^property[1].valueString = "DA"
+* #DateOfDocumentOrVerbalTransactionTrial ^property[2].code = #retired
+* #DateOfDocumentOrVerbalTransactionTrial ^property[2].valueBoolean = true
+
+* #TimeOfDocumentCreationOrVerbalTransactionTrial "Time of Document Creation or Verbal Transaction (Trial)" "Time of Document Creation or Verbal Transaction (Trial)"
+* #TimeOfDocumentCreationOrVerbalTransactionTrial ^property[0].code = #tag
+* #TimeOfDocumentCreationOrVerbalTransactionTrial ^property[0].valueString  = "0040A112"
+* #TimeOfDocumentCreationOrVerbalTransactionTrial ^property[1].code = #vr
+* #TimeOfDocumentCreationOrVerbalTransactionTrial ^property[1].valueString = "TM"
+* #TimeOfDocumentCreationOrVerbalTransactionTrial ^property[2].code = #retired
+* #TimeOfDocumentCreationOrVerbalTransactionTrial ^property[2].valueBoolean = true
 
 * #DateTime "DateTime" "DateTime"
 * #DateTime ^property[0].code = #tag
@@ -20132,6 +22172,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #UID ^property[2].code = #retired
 * #UID ^property[2].valueBoolean = false
 
+* #ReportStatusIDTrial "Report Status ID (Trial)" "Report Status ID (Trial)"
+* #ReportStatusIDTrial ^property[0].code = #tag
+* #ReportStatusIDTrial ^property[0].valueString  = "0040A125"
+* #ReportStatusIDTrial ^property[1].code = #vr
+* #ReportStatusIDTrial ^property[1].valueString = "CS"
+* #ReportStatusIDTrial ^property[2].code = #retired
+* #ReportStatusIDTrial ^property[2].valueBoolean = true
+
 * #TemporalRangeType "Temporal Range Type" "Temporal Range Type"
 * #TemporalRangeType ^property[0].code = #tag
 * #TemporalRangeType ^property[0].valueString  = "0040A130"
@@ -20147,6 +22195,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ReferencedSamplePositions ^property[1].valueString = "UL"
 * #ReferencedSamplePositions ^property[2].code = #retired
 * #ReferencedSamplePositions ^property[2].valueBoolean = false
+
+* #ReferencedFrameNumbers "Referenced Frame Numbers" "Referenced Frame Numbers"
+* #ReferencedFrameNumbers ^property[0].code = #tag
+* #ReferencedFrameNumbers ^property[0].valueString  = "0040A136"
+* #ReferencedFrameNumbers ^property[1].code = #vr
+* #ReferencedFrameNumbers ^property[1].valueString = "US"
+* #ReferencedFrameNumbers ^property[2].code = #retired
+* #ReferencedFrameNumbers ^property[2].valueBoolean = true
 
 * #ReferencedTimeOffsets "Referenced Time Offsets" "Referenced Time Offsets"
 * #ReferencedTimeOffsets ^property[0].code = #tag
@@ -20196,6 +22252,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RationalDenominatorValue ^property[2].code = #retired
 * #RationalDenominatorValue ^property[2].valueBoolean = false
 
+* #ObservationCategoryCodeSequenceTrial "Observation Category Code Sequence (Trial)" "Observation Category Code Sequence (Trial)"
+* #ObservationCategoryCodeSequenceTrial ^property[0].code = #tag
+* #ObservationCategoryCodeSequenceTrial ^property[0].valueString  = "0040A167"
+* #ObservationCategoryCodeSequenceTrial ^property[1].code = #vr
+* #ObservationCategoryCodeSequenceTrial ^property[1].valueString = "SQ"
+* #ObservationCategoryCodeSequenceTrial ^property[2].code = #retired
+* #ObservationCategoryCodeSequenceTrial ^property[2].valueBoolean = true
+
 * #ConceptCodeSequence "Concept Code Sequence" "Concept Code Sequence"
 * #ConceptCodeSequence ^property[0].code = #tag
 * #ConceptCodeSequence ^property[0].valueString  = "0040A168"
@@ -20203,6 +22267,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ConceptCodeSequence ^property[1].valueString = "SQ"
 * #ConceptCodeSequence ^property[2].code = #retired
 * #ConceptCodeSequence ^property[2].valueBoolean = false
+
+* #BibliographicCitationTrial "Bibliographic Citation (Trial)" "Bibliographic Citation (Trial)"
+* #BibliographicCitationTrial ^property[0].code = #tag
+* #BibliographicCitationTrial ^property[0].valueString  = "0040A16A"
+* #BibliographicCitationTrial ^property[1].code = #vr
+* #BibliographicCitationTrial ^property[1].valueString = "ST"
+* #BibliographicCitationTrial ^property[2].code = #retired
+* #BibliographicCitationTrial ^property[2].valueBoolean = true
 
 * #PurposeOfReferenceCodeSequence "Purpose of Reference Code Sequence" "Purpose of Reference Code Sequence"
 * #PurposeOfReferenceCodeSequence ^property[0].code = #tag
@@ -20220,6 +22292,30 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ObservationUID ^property[2].code = #retired
 * #ObservationUID ^property[2].valueBoolean = false
 
+* #ReferencedObservationUIDTrial "Referenced Observation UID (Trial)" "Referenced Observation UID (Trial)"
+* #ReferencedObservationUIDTrial ^property[0].code = #tag
+* #ReferencedObservationUIDTrial ^property[0].valueString  = "0040A172"
+* #ReferencedObservationUIDTrial ^property[1].code = #vr
+* #ReferencedObservationUIDTrial ^property[1].valueString = "UI"
+* #ReferencedObservationUIDTrial ^property[2].code = #retired
+* #ReferencedObservationUIDTrial ^property[2].valueBoolean = true
+
+* #ReferencedObservationClassTrial "Referenced Observation Class (Trial)" "Referenced Observation Class (Trial)"
+* #ReferencedObservationClassTrial ^property[0].code = #tag
+* #ReferencedObservationClassTrial ^property[0].valueString  = "0040A173"
+* #ReferencedObservationClassTrial ^property[1].code = #vr
+* #ReferencedObservationClassTrial ^property[1].valueString = "CS"
+* #ReferencedObservationClassTrial ^property[2].code = #retired
+* #ReferencedObservationClassTrial ^property[2].valueBoolean = true
+
+* #ReferencedObjectObservationClassTrial "Referenced Object Observation Class (Trial)" "Referenced Object Observation Class (Trial)"
+* #ReferencedObjectObservationClassTrial ^property[0].code = #tag
+* #ReferencedObjectObservationClassTrial ^property[0].valueString  = "0040A174"
+* #ReferencedObjectObservationClassTrial ^property[1].code = #vr
+* #ReferencedObjectObservationClassTrial ^property[1].valueString = "CS"
+* #ReferencedObjectObservationClassTrial ^property[2].code = #retired
+* #ReferencedObjectObservationClassTrial ^property[2].valueBoolean = true
+
 * #AnnotationGroupNumber "Annotation Group Number" "Annotation Group Number"
 * #AnnotationGroupNumber ^property[0].code = #tag
 * #AnnotationGroupNumber ^property[0].valueString  = "0040A180"
@@ -20228,6 +22324,30 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #AnnotationGroupNumber ^property[2].code = #retired
 * #AnnotationGroupNumber ^property[2].valueBoolean = false
 
+* #ObservationDateTrial "Observation Date (Trial)" "Observation Date (Trial)"
+* #ObservationDateTrial ^property[0].code = #tag
+* #ObservationDateTrial ^property[0].valueString  = "0040A192"
+* #ObservationDateTrial ^property[1].code = #vr
+* #ObservationDateTrial ^property[1].valueString = "DA"
+* #ObservationDateTrial ^property[2].code = #retired
+* #ObservationDateTrial ^property[2].valueBoolean = true
+
+* #ObservationTimeTrial "Observation Time (Trial)" "Observation Time (Trial)"
+* #ObservationTimeTrial ^property[0].code = #tag
+* #ObservationTimeTrial ^property[0].valueString  = "0040A193"
+* #ObservationTimeTrial ^property[1].code = #vr
+* #ObservationTimeTrial ^property[1].valueString = "TM"
+* #ObservationTimeTrial ^property[2].code = #retired
+* #ObservationTimeTrial ^property[2].valueBoolean = true
+
+* #MeasurementAutomationTrial "Measurement Automation (Trial)" "Measurement Automation (Trial)"
+* #MeasurementAutomationTrial ^property[0].code = #tag
+* #MeasurementAutomationTrial ^property[0].valueString  = "0040A194"
+* #MeasurementAutomationTrial ^property[1].code = #vr
+* #MeasurementAutomationTrial ^property[1].valueString = "CS"
+* #MeasurementAutomationTrial ^property[2].code = #retired
+* #MeasurementAutomationTrial ^property[2].valueBoolean = true
+
 * #ModifierCodeSequence "Modifier Code Sequence" "Modifier Code Sequence"
 * #ModifierCodeSequence ^property[0].code = #tag
 * #ModifierCodeSequence ^property[0].valueString  = "0040A195"
@@ -20235,6 +22355,46 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ModifierCodeSequence ^property[1].valueString = "SQ"
 * #ModifierCodeSequence ^property[2].code = #retired
 * #ModifierCodeSequence ^property[2].valueBoolean = false
+
+* #IdentificationDescriptionTrial "Identification Description (Trial)" "Identification Description (Trial)"
+* #IdentificationDescriptionTrial ^property[0].code = #tag
+* #IdentificationDescriptionTrial ^property[0].valueString  = "0040A224"
+* #IdentificationDescriptionTrial ^property[1].code = #vr
+* #IdentificationDescriptionTrial ^property[1].valueString = "ST"
+* #IdentificationDescriptionTrial ^property[2].code = #retired
+* #IdentificationDescriptionTrial ^property[2].valueBoolean = true
+
+* #CoordinatesSetGeometricTypeTrial "Coordinates Set Geometric Type (Trial)" "Coordinates Set Geometric Type (Trial)"
+* #CoordinatesSetGeometricTypeTrial ^property[0].code = #tag
+* #CoordinatesSetGeometricTypeTrial ^property[0].valueString  = "0040A290"
+* #CoordinatesSetGeometricTypeTrial ^property[1].code = #vr
+* #CoordinatesSetGeometricTypeTrial ^property[1].valueString = "CS"
+* #CoordinatesSetGeometricTypeTrial ^property[2].code = #retired
+* #CoordinatesSetGeometricTypeTrial ^property[2].valueBoolean = true
+
+* #AlgorithmCodeSequenceTrial "Algorithm Code Sequence (Trial)" "Algorithm Code Sequence (Trial)"
+* #AlgorithmCodeSequenceTrial ^property[0].code = #tag
+* #AlgorithmCodeSequenceTrial ^property[0].valueString  = "0040A296"
+* #AlgorithmCodeSequenceTrial ^property[1].code = #vr
+* #AlgorithmCodeSequenceTrial ^property[1].valueString = "SQ"
+* #AlgorithmCodeSequenceTrial ^property[2].code = #retired
+* #AlgorithmCodeSequenceTrial ^property[2].valueBoolean = true
+
+* #AlgorithmDescriptionTrial "Algorithm Description (Trial)" "Algorithm Description (Trial)"
+* #AlgorithmDescriptionTrial ^property[0].code = #tag
+* #AlgorithmDescriptionTrial ^property[0].valueString  = "0040A297"
+* #AlgorithmDescriptionTrial ^property[1].code = #vr
+* #AlgorithmDescriptionTrial ^property[1].valueString = "ST"
+* #AlgorithmDescriptionTrial ^property[2].code = #retired
+* #AlgorithmDescriptionTrial ^property[2].valueBoolean = true
+
+* #PixelCoordinatesSetTrial "Pixel Coordinates Set (Trial)" "Pixel Coordinates Set (Trial)"
+* #PixelCoordinatesSetTrial ^property[0].code = #tag
+* #PixelCoordinatesSetTrial ^property[0].valueString  = "0040A29A"
+* #PixelCoordinatesSetTrial ^property[1].code = #vr
+* #PixelCoordinatesSetTrial ^property[1].valueString = "SL"
+* #PixelCoordinatesSetTrial ^property[2].code = #retired
+* #PixelCoordinatesSetTrial ^property[2].valueBoolean = true
 
 * #MeasuredValueSequence "Measured Value Sequence" "Measured Value Sequence"
 * #MeasuredValueSequence ^property[0].code = #tag
@@ -20252,6 +22412,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #NumericValueQualifierCodeSequence ^property[2].code = #retired
 * #NumericValueQualifierCodeSequence ^property[2].valueBoolean = false
 
+* #CurrentObserverTrial "Current Observer (Trial)" "Current Observer (Trial)"
+* #CurrentObserverTrial ^property[0].code = #tag
+* #CurrentObserverTrial ^property[0].valueString  = "0040A307"
+* #CurrentObserverTrial ^property[1].code = #vr
+* #CurrentObserverTrial ^property[1].valueString = "PN"
+* #CurrentObserverTrial ^property[2].code = #retired
+* #CurrentObserverTrial ^property[2].valueBoolean = true
+
 * #NumericValue "Numeric Value" "Numeric Value"
 * #NumericValue ^property[0].code = #tag
 * #NumericValue ^property[0].valueString  = "0040A30A"
@@ -20259,6 +22427,62 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #NumericValue ^property[1].valueString = "DS"
 * #NumericValue ^property[2].code = #retired
 * #NumericValue ^property[2].valueBoolean = false
+
+* #ReferencedAccessionSequenceTrial "Referenced Accession Sequence (Trial)" "Referenced Accession Sequence (Trial)"
+* #ReferencedAccessionSequenceTrial ^property[0].code = #tag
+* #ReferencedAccessionSequenceTrial ^property[0].valueString  = "0040A313"
+* #ReferencedAccessionSequenceTrial ^property[1].code = #vr
+* #ReferencedAccessionSequenceTrial ^property[1].valueString = "SQ"
+* #ReferencedAccessionSequenceTrial ^property[2].code = #retired
+* #ReferencedAccessionSequenceTrial ^property[2].valueBoolean = true
+
+* #ReportStatusCommentTrial "Report Status Comment (Trial)" "Report Status Comment (Trial)"
+* #ReportStatusCommentTrial ^property[0].code = #tag
+* #ReportStatusCommentTrial ^property[0].valueString  = "0040A33A"
+* #ReportStatusCommentTrial ^property[1].code = #vr
+* #ReportStatusCommentTrial ^property[1].valueString = "ST"
+* #ReportStatusCommentTrial ^property[2].code = #retired
+* #ReportStatusCommentTrial ^property[2].valueBoolean = true
+
+* #ProcedureContextSequenceTrial "Procedure Context Sequence (Trial)" "Procedure Context Sequence (Trial)"
+* #ProcedureContextSequenceTrial ^property[0].code = #tag
+* #ProcedureContextSequenceTrial ^property[0].valueString  = "0040A340"
+* #ProcedureContextSequenceTrial ^property[1].code = #vr
+* #ProcedureContextSequenceTrial ^property[1].valueString = "SQ"
+* #ProcedureContextSequenceTrial ^property[2].code = #retired
+* #ProcedureContextSequenceTrial ^property[2].valueBoolean = true
+
+* #VerbalSourceTrial "Verbal Source (Trial)" "Verbal Source (Trial)"
+* #VerbalSourceTrial ^property[0].code = #tag
+* #VerbalSourceTrial ^property[0].valueString  = "0040A352"
+* #VerbalSourceTrial ^property[1].code = #vr
+* #VerbalSourceTrial ^property[1].valueString = "PN"
+* #VerbalSourceTrial ^property[2].code = #retired
+* #VerbalSourceTrial ^property[2].valueBoolean = true
+
+* #AddressTrial "Address (Trial)" "Address (Trial)"
+* #AddressTrial ^property[0].code = #tag
+* #AddressTrial ^property[0].valueString  = "0040A353"
+* #AddressTrial ^property[1].code = #vr
+* #AddressTrial ^property[1].valueString = "ST"
+* #AddressTrial ^property[2].code = #retired
+* #AddressTrial ^property[2].valueBoolean = true
+
+* #TelephoneNumberTrial "Telephone Number (Trial)" "Telephone Number (Trial)"
+* #TelephoneNumberTrial ^property[0].code = #tag
+* #TelephoneNumberTrial ^property[0].valueString  = "0040A354"
+* #TelephoneNumberTrial ^property[1].code = #vr
+* #TelephoneNumberTrial ^property[1].valueString = "LO"
+* #TelephoneNumberTrial ^property[2].code = #retired
+* #TelephoneNumberTrial ^property[2].valueBoolean = true
+
+* #VerbalSourceIdentifierCodeSequenceTrial "Verbal Source Identifier Code Sequence (Trial)" "Verbal Source Identifier Code Sequence (Trial)"
+* #VerbalSourceIdentifierCodeSequenceTrial ^property[0].code = #tag
+* #VerbalSourceIdentifierCodeSequenceTrial ^property[0].valueString  = "0040A358"
+* #VerbalSourceIdentifierCodeSequenceTrial ^property[1].code = #vr
+* #VerbalSourceIdentifierCodeSequenceTrial ^property[1].valueString = "SQ"
+* #VerbalSourceIdentifierCodeSequenceTrial ^property[2].code = #retired
+* #VerbalSourceIdentifierCodeSequenceTrial ^property[2].valueBoolean = true
 
 * #PredecessorDocumentsSequence "Predecessor Documents Sequence" "Predecessor Documents Sequence"
 * #PredecessorDocumentsSequence ^property[0].code = #tag
@@ -20292,6 +22516,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #CurrentRequestedProcedureEvidenceSequence ^property[2].code = #retired
 * #CurrentRequestedProcedureEvidenceSequence ^property[2].valueBoolean = false
 
+* #ReportDetailSequenceTrial "Report Detail Sequence (Trial)" "Report Detail Sequence (Trial)"
+* #ReportDetailSequenceTrial ^property[0].code = #tag
+* #ReportDetailSequenceTrial ^property[0].valueString  = "0040A380"
+* #ReportDetailSequenceTrial ^property[1].code = #vr
+* #ReportDetailSequenceTrial ^property[1].valueString = "SQ"
+* #ReportDetailSequenceTrial ^property[2].code = #retired
+* #ReportDetailSequenceTrial ^property[2].valueBoolean = true
+
 * #PertinentOtherEvidenceSequence "Pertinent Other Evidence Sequence" "Pertinent Other Evidence Sequence"
 * #PertinentOtherEvidenceSequence ^property[0].code = #tag
 * #PertinentOtherEvidenceSequence ^property[0].valueString  = "0040A385"
@@ -20307,6 +22539,30 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #HL7StructuredDocumentReferenceSequence ^property[1].valueString = "SQ"
 * #HL7StructuredDocumentReferenceSequence ^property[2].code = #retired
 * #HL7StructuredDocumentReferenceSequence ^property[2].valueBoolean = false
+
+* #ObservationSubjectUIDTrial "Observation Subject UID (Trial)" "Observation Subject UID (Trial)"
+* #ObservationSubjectUIDTrial ^property[0].code = #tag
+* #ObservationSubjectUIDTrial ^property[0].valueString  = "0040A402"
+* #ObservationSubjectUIDTrial ^property[1].code = #vr
+* #ObservationSubjectUIDTrial ^property[1].valueString = "UI"
+* #ObservationSubjectUIDTrial ^property[2].code = #retired
+* #ObservationSubjectUIDTrial ^property[2].valueBoolean = true
+
+* #ObservationSubjectClassTrial "Observation Subject Class (Trial)" "Observation Subject Class (Trial)"
+* #ObservationSubjectClassTrial ^property[0].code = #tag
+* #ObservationSubjectClassTrial ^property[0].valueString  = "0040A403"
+* #ObservationSubjectClassTrial ^property[1].code = #vr
+* #ObservationSubjectClassTrial ^property[1].valueString = "CS"
+* #ObservationSubjectClassTrial ^property[2].code = #retired
+* #ObservationSubjectClassTrial ^property[2].valueBoolean = true
+
+* #ObservationSubjectTypeCodeSequenceTrial "Observation Subject Type Code Sequence (Trial)" "Observation Subject Type Code Sequence (Trial)"
+* #ObservationSubjectTypeCodeSequenceTrial ^property[0].code = #tag
+* #ObservationSubjectTypeCodeSequenceTrial ^property[0].valueString  = "0040A404"
+* #ObservationSubjectTypeCodeSequenceTrial ^property[1].code = #vr
+* #ObservationSubjectTypeCodeSequenceTrial ^property[1].valueString = "SQ"
+* #ObservationSubjectTypeCodeSequenceTrial ^property[2].code = #retired
+* #ObservationSubjectTypeCodeSequenceTrial ^property[2].valueBoolean = true
 
 * #CompletionFlag "Completion Flag" "Completion Flag"
 * #CompletionFlag ^property[0].code = #tag
@@ -20364,6 +22620,30 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #IdenticalDocumentsSequence ^property[2].code = #retired
 * #IdenticalDocumentsSequence ^property[2].valueBoolean = false
 
+* #ObservationSubjectContextFlagTrial "Observation Subject Context Flag (Trial)" "Observation Subject Context Flag (Trial)"
+* #ObservationSubjectContextFlagTrial ^property[0].code = #tag
+* #ObservationSubjectContextFlagTrial ^property[0].valueString  = "0040A600"
+* #ObservationSubjectContextFlagTrial ^property[1].code = #vr
+* #ObservationSubjectContextFlagTrial ^property[1].valueString = "CS"
+* #ObservationSubjectContextFlagTrial ^property[2].code = #retired
+* #ObservationSubjectContextFlagTrial ^property[2].valueBoolean = true
+
+* #ObserverContextFlagTrial "Observer Context Flag (Trial)" "Observer Context Flag (Trial)"
+* #ObserverContextFlagTrial ^property[0].code = #tag
+* #ObserverContextFlagTrial ^property[0].valueString  = "0040A601"
+* #ObserverContextFlagTrial ^property[1].code = #vr
+* #ObserverContextFlagTrial ^property[1].valueString = "CS"
+* #ObserverContextFlagTrial ^property[2].code = #retired
+* #ObserverContextFlagTrial ^property[2].valueBoolean = true
+
+* #ProcedureContextFlagTrial "Procedure Context Flag (Trial)" "Procedure Context Flag (Trial)"
+* #ProcedureContextFlagTrial ^property[0].code = #tag
+* #ProcedureContextFlagTrial ^property[0].valueString  = "0040A603"
+* #ProcedureContextFlagTrial ^property[1].code = #vr
+* #ProcedureContextFlagTrial ^property[1].valueString = "CS"
+* #ProcedureContextFlagTrial ^property[2].code = #retired
+* #ProcedureContextFlagTrial ^property[2].valueBoolean = true
+
 * #ContentSequence "Content Sequence" "Content Sequence"
 * #ContentSequence ^property[0].code = #tag
 * #ContentSequence ^property[0].valueString  = "0040A730"
@@ -20371,6 +22651,30 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ContentSequence ^property[1].valueString = "SQ"
 * #ContentSequence ^property[2].code = #retired
 * #ContentSequence ^property[2].valueBoolean = false
+
+* #RelationshipSequenceTrial "Relationship Sequence (Trial)" "Relationship Sequence (Trial)"
+* #RelationshipSequenceTrial ^property[0].code = #tag
+* #RelationshipSequenceTrial ^property[0].valueString  = "0040A731"
+* #RelationshipSequenceTrial ^property[1].code = #vr
+* #RelationshipSequenceTrial ^property[1].valueString = "SQ"
+* #RelationshipSequenceTrial ^property[2].code = #retired
+* #RelationshipSequenceTrial ^property[2].valueBoolean = true
+
+* #RelationshipTypeCodeSequenceTrial "Relationship Type Code Sequence (Trial)" "Relationship Type Code Sequence (Trial)"
+* #RelationshipTypeCodeSequenceTrial ^property[0].code = #tag
+* #RelationshipTypeCodeSequenceTrial ^property[0].valueString  = "0040A732"
+* #RelationshipTypeCodeSequenceTrial ^property[1].code = #vr
+* #RelationshipTypeCodeSequenceTrial ^property[1].valueString = "SQ"
+* #RelationshipTypeCodeSequenceTrial ^property[2].code = #retired
+* #RelationshipTypeCodeSequenceTrial ^property[2].valueBoolean = true
+
+* #LanguageCodeSequenceTrial "Language Code Sequence (Trial)" "Language Code Sequence (Trial)"
+* #LanguageCodeSequenceTrial ^property[0].code = #tag
+* #LanguageCodeSequenceTrial ^property[0].valueString  = "0040A744"
+* #LanguageCodeSequenceTrial ^property[1].code = #vr
+* #LanguageCodeSequenceTrial ^property[1].valueString = "SQ"
+* #LanguageCodeSequenceTrial ^property[2].code = #retired
+* #LanguageCodeSequenceTrial ^property[2].valueBoolean = true
 
 * #TabulatedValuesSequence "Tabulated Values Sequence" "Tabulated Values Sequence"
 * #TabulatedValuesSequence ^property[0].code = #tag
@@ -20435,6 +22739,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #CellValuesSequence ^property[1].valueString = "SQ"
 * #CellValuesSequence ^property[2].code = #retired
 * #CellValuesSequence ^property[2].valueBoolean = false
+
+* #UniformResourceLocatorTrial "Uniform Resource Locator (Trial)" "Uniform Resource Locator (Trial)"
+* #UniformResourceLocatorTrial ^property[0].code = #tag
+* #UniformResourceLocatorTrial ^property[0].valueString  = "0040A992"
+* #UniformResourceLocatorTrial ^property[1].code = #vr
+* #UniformResourceLocatorTrial ^property[1].valueString = "ST"
+* #UniformResourceLocatorTrial ^property[2].code = #retired
+* #UniformResourceLocatorTrial ^property[2].valueBoolean = true
 
 * #WaveformAnnotationSequence "Waveform Annotation Sequence" "Waveform Annotation Sequence"
 * #WaveformAnnotationSequence ^property[0].code = #tag
@@ -20603,6 +22915,46 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #TemplateIdentifier ^property[1].valueString = "CS"
 * #TemplateIdentifier ^property[2].code = #retired
 * #TemplateIdentifier ^property[2].valueBoolean = false
+
+* #TemplateVersion "Template Version" "Template Version"
+* #TemplateVersion ^property[0].code = #tag
+* #TemplateVersion ^property[0].valueString  = "0040DB06"
+* #TemplateVersion ^property[1].code = #vr
+* #TemplateVersion ^property[1].valueString = "DT"
+* #TemplateVersion ^property[2].code = #retired
+* #TemplateVersion ^property[2].valueBoolean = true
+
+* #TemplateLocalVersion "Template Local Version" "Template Local Version"
+* #TemplateLocalVersion ^property[0].code = #tag
+* #TemplateLocalVersion ^property[0].valueString  = "0040DB07"
+* #TemplateLocalVersion ^property[1].code = #vr
+* #TemplateLocalVersion ^property[1].valueString = "DT"
+* #TemplateLocalVersion ^property[2].code = #retired
+* #TemplateLocalVersion ^property[2].valueBoolean = true
+
+* #TemplateExtensionFlag "Template Extension Flag" "Template Extension Flag"
+* #TemplateExtensionFlag ^property[0].code = #tag
+* #TemplateExtensionFlag ^property[0].valueString  = "0040DB0B"
+* #TemplateExtensionFlag ^property[1].code = #vr
+* #TemplateExtensionFlag ^property[1].valueString = "CS"
+* #TemplateExtensionFlag ^property[2].code = #retired
+* #TemplateExtensionFlag ^property[2].valueBoolean = true
+
+* #TemplateExtensionOrganizationUID "Template Extension Organization UID" "Template Extension Organization UID"
+* #TemplateExtensionOrganizationUID ^property[0].code = #tag
+* #TemplateExtensionOrganizationUID ^property[0].valueString  = "0040DB0C"
+* #TemplateExtensionOrganizationUID ^property[1].code = #vr
+* #TemplateExtensionOrganizationUID ^property[1].valueString = "UI"
+* #TemplateExtensionOrganizationUID ^property[2].code = #retired
+* #TemplateExtensionOrganizationUID ^property[2].valueBoolean = true
+
+* #TemplateExtensionCreatorUID "Template Extension Creator UID" "Template Extension Creator UID"
+* #TemplateExtensionCreatorUID ^property[0].code = #tag
+* #TemplateExtensionCreatorUID ^property[0].valueString  = "0040DB0D"
+* #TemplateExtensionCreatorUID ^property[1].code = #vr
+* #TemplateExtensionCreatorUID ^property[1].valueString = "UI"
+* #TemplateExtensionCreatorUID ^property[2].code = #retired
+* #TemplateExtensionCreatorUID ^property[2].valueBoolean = true
 
 * #ReferencedContentItemIdentifier "Referenced Content Item Identifier" "Referenced Content Item Identifier"
 * #ReferencedContentItemIdentifier ^property[0].code = #tag
@@ -21908,6 +24260,30 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PaletteColorLookupTableSequence ^property[2].code = #retired
 * #PaletteColorLookupTableSequence ^property[2].valueBoolean = false
 
+* #ReferencedImageNavigationSequence "Referenced Image Navigation Sequence" "Referenced Image Navigation Sequence"
+* #ReferencedImageNavigationSequence ^property[0].code = #tag
+* #ReferencedImageNavigationSequence ^property[0].valueString  = "00480200"
+* #ReferencedImageNavigationSequence ^property[1].code = #vr
+* #ReferencedImageNavigationSequence ^property[1].valueString = "SQ"
+* #ReferencedImageNavigationSequence ^property[2].code = #retired
+* #ReferencedImageNavigationSequence ^property[2].valueBoolean = true
+
+* #TopLeftHandCornerOfLocalizerArea "Top Left Hand Corner of Localizer Area" "Top Left Hand Corner of Localizer Area"
+* #TopLeftHandCornerOfLocalizerArea ^property[0].code = #tag
+* #TopLeftHandCornerOfLocalizerArea ^property[0].valueString  = "00480201"
+* #TopLeftHandCornerOfLocalizerArea ^property[1].code = #vr
+* #TopLeftHandCornerOfLocalizerArea ^property[1].valueString = "US"
+* #TopLeftHandCornerOfLocalizerArea ^property[2].code = #retired
+* #TopLeftHandCornerOfLocalizerArea ^property[2].valueBoolean = true
+
+* #BottomRightHandCornerOfLocalizerArea "Bottom Right Hand Corner of Localizer Area" "Bottom Right Hand Corner of Localizer Area"
+* #BottomRightHandCornerOfLocalizerArea ^property[0].code = #tag
+* #BottomRightHandCornerOfLocalizerArea ^property[0].valueString  = "00480202"
+* #BottomRightHandCornerOfLocalizerArea ^property[1].code = #vr
+* #BottomRightHandCornerOfLocalizerArea ^property[1].valueString = "US"
+* #BottomRightHandCornerOfLocalizerArea ^property[2].code = #retired
+* #BottomRightHandCornerOfLocalizerArea ^property[2].valueBoolean = true
+
 * #OpticalPathIdentificationSequence "Optical Path Identification Sequence" "Optical Path Identification Sequence"
 * #OpticalPathIdentificationSequence ^property[0].code = #tag
 * #OpticalPathIdentificationSequence ^property[0].valueString  = "00480207"
@@ -22948,6 +25324,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ImageIndex ^property[2].code = #retired
 * #ImageIndex ^property[2].valueBoolean = false
 
+* #CountsIncluded "Counts Included" "Counts Included"
+* #CountsIncluded ^property[0].code = #tag
+* #CountsIncluded ^property[0].valueString  = "00541400"
+* #CountsIncluded ^property[1].code = #vr
+* #CountsIncluded ^property[1].valueString = "CS"
+* #CountsIncluded ^property[2].code = #retired
+* #CountsIncluded ^property[2].valueBoolean = true
+
+* #DeadTimeCorrectionFlag "Dead Time Correction Flag" "Dead Time Correction Flag"
+* #DeadTimeCorrectionFlag ^property[0].code = #tag
+* #DeadTimeCorrectionFlag ^property[0].valueString  = "00541401"
+* #DeadTimeCorrectionFlag ^property[1].code = #vr
+* #DeadTimeCorrectionFlag ^property[1].valueString = "CS"
+* #DeadTimeCorrectionFlag ^property[2].code = #retired
+* #DeadTimeCorrectionFlag ^property[2].valueBoolean = true
+
 * #HistogramSequence "Histogram Sequence" "Histogram Sequence"
 * #HistogramSequence ^property[0].code = #tag
 * #HistogramSequence ^property[0].valueString  = "00603000"
@@ -23460,6 +25852,30 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #DoublePointCoordinatesData ^property[2].code = #retired
 * #DoublePointCoordinatesData ^property[2].valueBoolean = false
 
+* #TrianglePointIndexList "Triangle Point Index List" "Triangle Point Index List"
+* #TrianglePointIndexList ^property[0].code = #tag
+* #TrianglePointIndexList ^property[0].valueString  = "00660023"
+* #TrianglePointIndexList ^property[1].code = #vr
+* #TrianglePointIndexList ^property[1].valueString = "OW"
+* #TrianglePointIndexList ^property[2].code = #retired
+* #TrianglePointIndexList ^property[2].valueBoolean = true
+
+* #EdgePointIndexList "Edge Point Index List" "Edge Point Index List"
+* #EdgePointIndexList ^property[0].code = #tag
+* #EdgePointIndexList ^property[0].valueString  = "00660024"
+* #EdgePointIndexList ^property[1].code = #vr
+* #EdgePointIndexList ^property[1].valueString = "OW"
+* #EdgePointIndexList ^property[2].code = #retired
+* #EdgePointIndexList ^property[2].valueBoolean = true
+
+* #VertexPointIndexList "Vertex Point Index List" "Vertex Point Index List"
+* #VertexPointIndexList ^property[0].code = #tag
+* #VertexPointIndexList ^property[0].valueString  = "00660025"
+* #VertexPointIndexList ^property[1].code = #vr
+* #VertexPointIndexList ^property[1].valueString = "OW"
+* #VertexPointIndexList ^property[2].code = #retired
+* #VertexPointIndexList ^property[2].valueBoolean = true
+
 * #TriangleStripSequence "Triangle Strip Sequence" "Triangle Strip Sequence"
 * #TriangleStripSequence ^property[0].code = #tag
 * #TriangleStripSequence ^property[0].valueString  = "00660026"
@@ -23483,6 +25899,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #LineSequence ^property[1].valueString = "SQ"
 * #LineSequence ^property[2].code = #retired
 * #LineSequence ^property[2].valueBoolean = false
+
+* #PrimitivePointIndexList "Primitive Point Index List" "Primitive Point Index List"
+* #PrimitivePointIndexList ^property[0].code = #tag
+* #PrimitivePointIndexList ^property[0].valueString  = "00660029"
+* #PrimitivePointIndexList ^property[1].code = #vr
+* #PrimitivePointIndexList ^property[1].valueString = "OW"
+* #PrimitivePointIndexList ^property[2].code = #retired
+* #PrimitivePointIndexList ^property[2].valueBoolean = true
 
 * #SurfaceCount "Surface Count" "Surface Count"
 * #SurfaceCount ^property[0].code = #tag
@@ -24628,6 +27052,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GraphicFilled ^property[2].code = #retired
 * #GraphicFilled ^property[2].valueBoolean = false
 
+* #ImageRotationRetired "Image Rotation (Retired)" "Image Rotation (Retired)"
+* #ImageRotationRetired ^property[0].code = #tag
+* #ImageRotationRetired ^property[0].valueString  = "00700040"
+* #ImageRotationRetired ^property[1].code = #vr
+* #ImageRotationRetired ^property[1].valueString = "IS"
+* #ImageRotationRetired ^property[2].code = #retired
+* #ImageRotationRetired ^property[2].valueBoolean = true
+
 * #ImageHorizontalFlip "Image Horizontal Flip" "Image Horizontal Flip"
 * #ImageHorizontalFlip ^property[0].code = #tag
 * #ImageHorizontalFlip ^property[0].valueString  = "00700041"
@@ -24643,6 +27075,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ImageRotation ^property[1].valueString = "US"
 * #ImageRotation ^property[2].code = #retired
 * #ImageRotation ^property[2].valueBoolean = false
+
+* #DisplayedAreaTopLeftHandCornerTrial "Displayed Area Top Left Hand Corner (Trial)" "Displayed Area Top Left Hand Corner (Trial)"
+* #DisplayedAreaTopLeftHandCornerTrial ^property[0].code = #tag
+* #DisplayedAreaTopLeftHandCornerTrial ^property[0].valueString  = "00700050"
+* #DisplayedAreaTopLeftHandCornerTrial ^property[1].code = #vr
+* #DisplayedAreaTopLeftHandCornerTrial ^property[1].valueString = "US"
+* #DisplayedAreaTopLeftHandCornerTrial ^property[2].code = #retired
+* #DisplayedAreaTopLeftHandCornerTrial ^property[2].valueBoolean = true
+
+* #DisplayedAreaBottomRightHandCornerTrial "Displayed Area Bottom Right Hand Corner (Trial)" "Displayed Area Bottom Right Hand Corner (Trial)"
+* #DisplayedAreaBottomRightHandCornerTrial ^property[0].code = #tag
+* #DisplayedAreaBottomRightHandCornerTrial ^property[0].valueString  = "00700051"
+* #DisplayedAreaBottomRightHandCornerTrial ^property[1].code = #vr
+* #DisplayedAreaBottomRightHandCornerTrial ^property[1].valueString = "US"
+* #DisplayedAreaBottomRightHandCornerTrial ^property[2].code = #retired
+* #DisplayedAreaBottomRightHandCornerTrial ^property[2].valueBoolean = true
 
 * #DisplayedAreaTopLeftHandCorner "Displayed Area Top Left Hand Corner" "Displayed Area Top Left Hand Corner"
 * #DisplayedAreaTopLeftHandCorner ^property[0].code = #tag
@@ -24691,6 +27139,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #GraphicLayerRecommendedDisplayGrayscaleValue ^property[1].valueString = "US"
 * #GraphicLayerRecommendedDisplayGrayscaleValue ^property[2].code = #retired
 * #GraphicLayerRecommendedDisplayGrayscaleValue ^property[2].valueBoolean = false
+
+* #GraphicLayerRecommendedDisplayRGBValue "Graphic Layer Recommended Display RGB Value" "Graphic Layer Recommended Display RGB Value"
+* #GraphicLayerRecommendedDisplayRGBValue ^property[0].code = #tag
+* #GraphicLayerRecommendedDisplayRGBValue ^property[0].valueString  = "00700067"
+* #GraphicLayerRecommendedDisplayRGBValue ^property[1].code = #vr
+* #GraphicLayerRecommendedDisplayRGBValue ^property[1].valueString = "US"
+* #GraphicLayerRecommendedDisplayRGBValue ^property[2].code = #retired
+* #GraphicLayerRecommendedDisplayRGBValue ^property[2].valueBoolean = true
 
 * #GraphicLayerDescription "Graphic Layer Description" "Graphic Layer Description"
 * #GraphicLayerDescription ^property[0].code = #tag
@@ -25404,6 +27860,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #CroppingSpecificationIndex ^property[2].code = #retired
 * #CroppingSpecificationIndex ^property[2].valueBoolean = false
 
+* #CompositingMethod "Compositing Method" "Compositing Method"
+* #CompositingMethod ^property[0].code = #tag
+* #CompositingMethod ^property[0].valueString  = "00701206"
+* #CompositingMethod ^property[1].code = #vr
+* #CompositingMethod ^property[1].valueString = "CS"
+* #CompositingMethod ^property[2].code = #retired
+* #CompositingMethod ^property[2].valueBoolean = true
+
 * #VolumetricPresentationInputNumber "Volumetric Presentation Input Number" "Volumetric Presentation Input Number"
 * #VolumetricPresentationInputNumber ^property[0].code = #tag
 * #VolumetricPresentationInputNumber ^property[0].valueString  = "00701207"
@@ -25739,6 +28203,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #WeightingTransferFunctionSequence ^property[1].valueString = "SQ"
 * #WeightingTransferFunctionSequence ^property[2].code = #retired
 * #WeightingTransferFunctionSequence ^property[2].valueBoolean = false
+
+* #WeightingLookupTableDescriptor "Weighting Lookup Table Descriptor" "Weighting Lookup Table Descriptor"
+* #WeightingLookupTableDescriptor ^property[0].code = #tag
+* #WeightingLookupTableDescriptor ^property[0].valueString  = "00701807"
+* #WeightingLookupTableDescriptor ^property[1].code = #vr
+* #WeightingLookupTableDescriptor ^property[1].valueString = "US"
+* #WeightingLookupTableDescriptor ^property[2].code = #retired
+* #WeightingLookupTableDescriptor ^property[2].valueBoolean = true
+
+* #WeightingLookupTableData "Weighting Lookup Table Data" "Weighting Lookup Table Data"
+* #WeightingLookupTableData ^property[0].code = #tag
+* #WeightingLookupTableData ^property[0].valueString  = "00701808"
+* #WeightingLookupTableData ^property[1].code = #vr
+* #WeightingLookupTableData ^property[1].valueString = "OB"
+* #WeightingLookupTableData ^property[2].code = #retired
+* #WeightingLookupTableData ^property[2].valueBoolean = true
 
 * #VolumetricAnnotationSequence "Volumetric Annotation Sequence" "Volumetric Annotation Sequence"
 * #VolumetricAnnotationSequence ^property[0].code = #tag
@@ -27028,6 +29508,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #BeamTaskType ^property[2].code = #retired
 * #BeamTaskType ^property[2].valueBoolean = false
 
+* #BeamOrderIndexTrial "Beam Order Index (Trial)" "Beam Order Index (Trial)"
+* #BeamOrderIndexTrial ^property[0].code = #tag
+* #BeamOrderIndexTrial ^property[0].valueString  = "00741024"
+* #BeamOrderIndexTrial ^property[1].code = #vr
+* #BeamOrderIndexTrial ^property[1].valueString = "IS"
+* #BeamOrderIndexTrial ^property[2].code = #retired
+* #BeamOrderIndexTrial ^property[2].valueBoolean = true
+
 * #AutosequenceFlag "Autosequence Flag" "Autosequence Flag"
 * #AutosequenceFlag ^property[0].code = #tag
 * #AutosequenceFlag ^property[0].valueString  = "00741025"
@@ -27123,6 +29611,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #DoubleExposureOrdering ^property[1].valueString = "CS"
 * #DoubleExposureOrdering ^property[2].code = #retired
 * #DoubleExposureOrdering ^property[2].valueBoolean = false
+
+* #DoubleExposureMetersetTrial "Double Exposure Meterset (Trial)" "Double Exposure Meterset (Trial)"
+* #DoubleExposureMetersetTrial ^property[0].code = #tag
+* #DoubleExposureMetersetTrial ^property[0].valueString  = "00741038"
+* #DoubleExposureMetersetTrial ^property[1].code = #vr
+* #DoubleExposureMetersetTrial ^property[1].valueString = "DS"
+* #DoubleExposureMetersetTrial ^property[2].code = #retired
+* #DoubleExposureMetersetTrial ^property[2].valueBoolean = true
+
+* #DoubleExposureFieldDeltaTrial "Double Exposure Field Delta (Trial)" "Double Exposure Field Delta (Trial)"
+* #DoubleExposureFieldDeltaTrial ^property[0].code = #tag
+* #DoubleExposureFieldDeltaTrial ^property[0].valueString  = "0074103A"
+* #DoubleExposureFieldDeltaTrial ^property[1].code = #vr
+* #DoubleExposureFieldDeltaTrial ^property[1].valueString = "DS"
+* #DoubleExposureFieldDeltaTrial ^property[2].code = #retired
+* #DoubleExposureFieldDeltaTrial ^property[2].valueBoolean = true
 
 * #RelatedReferenceRTImageSequence "Related Reference RT Image Sequence" "Related Reference RT Image Sequence"
 * #RelatedReferenceRTImageSequence ^property[0].code = #tag
@@ -27275,6 +29779,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #UnifiedProcedureStepPerformedProcedureSequence ^property[1].valueString = "SQ"
 * #UnifiedProcedureStepPerformedProcedureSequence ^property[2].code = #retired
 * #UnifiedProcedureStepPerformedProcedureSequence ^property[2].valueBoolean = false
+
+* #RelatedProcedureStepSequence "Related Procedure Step Sequence" "Related Procedure Step Sequence"
+* #RelatedProcedureStepSequence ^property[0].code = #tag
+* #RelatedProcedureStepSequence ^property[0].valueString  = "00741220"
+* #RelatedProcedureStepSequence ^property[1].code = #vr
+* #RelatedProcedureStepSequence ^property[1].valueString = "SQ"
+* #RelatedProcedureStepSequence ^property[2].code = #retired
+* #RelatedProcedureStepSequence ^property[2].valueBoolean = true
+
+* #ProcedureStepRelationshipType "Procedure Step Relationship Type" "Procedure Step Relationship Type"
+* #ProcedureStepRelationshipType ^property[0].code = #tag
+* #ProcedureStepRelationshipType ^property[0].valueString  = "00741222"
+* #ProcedureStepRelationshipType ^property[1].code = #vr
+* #ProcedureStepRelationshipType ^property[1].valueString = "LO"
+* #ProcedureStepRelationshipType ^property[2].code = #retired
+* #ProcedureStepRelationshipType ^property[2].valueBoolean = true
 
 * #ReplacedProcedureStepSequence "Replaced Procedure Step Sequence" "Replaced Procedure Step Sequence"
 * #ReplacedProcedureStepSequence ^property[0].code = #tag
@@ -28124,6 +30644,38 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #IconImageSequence ^property[2].code = #retired
 * #IconImageSequence ^property[2].valueBoolean = false
 
+* #TopicTitle "Topic Title" "Topic Title"
+* #TopicTitle ^property[0].code = #tag
+* #TopicTitle ^property[0].valueString  = "00880904"
+* #TopicTitle ^property[1].code = #vr
+* #TopicTitle ^property[1].valueString = "LO"
+* #TopicTitle ^property[2].code = #retired
+* #TopicTitle ^property[2].valueBoolean = true
+
+* #TopicSubject "Topic Subject" "Topic Subject"
+* #TopicSubject ^property[0].code = #tag
+* #TopicSubject ^property[0].valueString  = "00880906"
+* #TopicSubject ^property[1].code = #vr
+* #TopicSubject ^property[1].valueString = "ST"
+* #TopicSubject ^property[2].code = #retired
+* #TopicSubject ^property[2].valueBoolean = true
+
+* #TopicAuthor "Topic Author" "Topic Author"
+* #TopicAuthor ^property[0].code = #tag
+* #TopicAuthor ^property[0].valueString  = "00880910"
+* #TopicAuthor ^property[1].code = #vr
+* #TopicAuthor ^property[1].valueString = "LO"
+* #TopicAuthor ^property[2].code = #retired
+* #TopicAuthor ^property[2].valueBoolean = true
+
+* #TopicKeywords "Topic Keywords" "Topic Keywords"
+* #TopicKeywords ^property[0].code = #tag
+* #TopicKeywords ^property[0].valueString  = "00880912"
+* #TopicKeywords ^property[1].code = #vr
+* #TopicKeywords ^property[1].valueString = "LO"
+* #TopicKeywords ^property[2].code = #retired
+* #TopicKeywords ^property[2].valueBoolean = true
+
 * #SOPInstanceStatus "SOP Instance Status" "SOP Instance Status"
 * #SOPInstanceStatus ^property[0].code = #tag
 * #SOPInstanceStatus ^property[0].valueString  = "01000410"
@@ -28372,6 +30924,62 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #InstanceOriginStatus ^property[2].code = #retired
 * #InstanceOriginStatus ^property[2].valueBoolean = false
 
+* #EscapeTriplet "Escape Triplet" "Escape Triplet"
+* #EscapeTriplet ^property[0].code = #tag
+* #EscapeTriplet ^property[0].valueString  = "1000xxx0"
+* #EscapeTriplet ^property[1].code = #vr
+* #EscapeTriplet ^property[1].valueString = "US"
+* #EscapeTriplet ^property[2].code = #retired
+* #EscapeTriplet ^property[2].valueBoolean = true
+
+* #RunLengthTriplet "Run Length Triplet" "Run Length Triplet"
+* #RunLengthTriplet ^property[0].code = #tag
+* #RunLengthTriplet ^property[0].valueString  = "1000xxx1"
+* #RunLengthTriplet ^property[1].code = #vr
+* #RunLengthTriplet ^property[1].valueString = "US"
+* #RunLengthTriplet ^property[2].code = #retired
+* #RunLengthTriplet ^property[2].valueBoolean = true
+
+* #HuffmanTableSize "Huffman Table Size" "Huffman Table Size"
+* #HuffmanTableSize ^property[0].code = #tag
+* #HuffmanTableSize ^property[0].valueString  = "1000xxx2"
+* #HuffmanTableSize ^property[1].code = #vr
+* #HuffmanTableSize ^property[1].valueString = "US"
+* #HuffmanTableSize ^property[2].code = #retired
+* #HuffmanTableSize ^property[2].valueBoolean = true
+
+* #HuffmanTableTriplet "Huffman Table Triplet" "Huffman Table Triplet"
+* #HuffmanTableTriplet ^property[0].code = #tag
+* #HuffmanTableTriplet ^property[0].valueString  = "1000xxx3"
+* #HuffmanTableTriplet ^property[1].code = #vr
+* #HuffmanTableTriplet ^property[1].valueString = "US"
+* #HuffmanTableTriplet ^property[2].code = #retired
+* #HuffmanTableTriplet ^property[2].valueBoolean = true
+
+* #ShiftTableSize "Shift Table Size" "Shift Table Size"
+* #ShiftTableSize ^property[0].code = #tag
+* #ShiftTableSize ^property[0].valueString  = "1000xxx4"
+* #ShiftTableSize ^property[1].code = #vr
+* #ShiftTableSize ^property[1].valueString = "US"
+* #ShiftTableSize ^property[2].code = #retired
+* #ShiftTableSize ^property[2].valueBoolean = true
+
+* #ShiftTableTriplet "Shift Table Triplet" "Shift Table Triplet"
+* #ShiftTableTriplet ^property[0].code = #tag
+* #ShiftTableTriplet ^property[0].valueString  = "1000xxx5"
+* #ShiftTableTriplet ^property[1].code = #vr
+* #ShiftTableTriplet ^property[1].valueString = "US"
+* #ShiftTableTriplet ^property[2].code = #retired
+* #ShiftTableTriplet ^property[2].valueBoolean = true
+
+* #ZonalMap "Zonal Map" "Zonal Map"
+* #ZonalMap ^property[0].code = #tag
+* #ZonalMap ^property[0].valueString  = "1010xxxx"
+* #ZonalMap ^property[1].code = #vr
+* #ZonalMap ^property[1].valueString = "US"
+* #ZonalMap ^property[2].code = #retired
+* #ZonalMap ^property[2].valueBoolean = true
+
 * #NumberOfCopies "Number of Copies" "Number of Copies"
 * #NumberOfCopies ^property[0].code = #tag
 * #NumberOfCopies ^property[0].valueString  = "20000010"
@@ -28436,6 +31044,54 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #MaximumMemoryAllocation ^property[2].code = #retired
 * #MaximumMemoryAllocation ^property[2].valueBoolean = false
 
+* #ColorImagePrintingFlag "Color Image Printing Flag" "Color Image Printing Flag"
+* #ColorImagePrintingFlag ^property[0].code = #tag
+* #ColorImagePrintingFlag ^property[0].valueString  = "20000062"
+* #ColorImagePrintingFlag ^property[1].code = #vr
+* #ColorImagePrintingFlag ^property[1].valueString = "CS"
+* #ColorImagePrintingFlag ^property[2].code = #retired
+* #ColorImagePrintingFlag ^property[2].valueBoolean = true
+
+* #CollationFlag "Collation Flag" "Collation Flag"
+* #CollationFlag ^property[0].code = #tag
+* #CollationFlag ^property[0].valueString  = "20000063"
+* #CollationFlag ^property[1].code = #vr
+* #CollationFlag ^property[1].valueString = "CS"
+* #CollationFlag ^property[2].code = #retired
+* #CollationFlag ^property[2].valueBoolean = true
+
+* #AnnotationFlag "Annotation Flag" "Annotation Flag"
+* #AnnotationFlag ^property[0].code = #tag
+* #AnnotationFlag ^property[0].valueString  = "20000065"
+* #AnnotationFlag ^property[1].code = #vr
+* #AnnotationFlag ^property[1].valueString = "CS"
+* #AnnotationFlag ^property[2].code = #retired
+* #AnnotationFlag ^property[2].valueBoolean = true
+
+* #ImageOverlayFlag "Image Overlay Flag" "Image Overlay Flag"
+* #ImageOverlayFlag ^property[0].code = #tag
+* #ImageOverlayFlag ^property[0].valueString  = "20000067"
+* #ImageOverlayFlag ^property[1].code = #vr
+* #ImageOverlayFlag ^property[1].valueString = "CS"
+* #ImageOverlayFlag ^property[2].code = #retired
+* #ImageOverlayFlag ^property[2].valueBoolean = true
+
+* #PresentationLUTFlag "Presentation LUT Flag" "Presentation LUT Flag"
+* #PresentationLUTFlag ^property[0].code = #tag
+* #PresentationLUTFlag ^property[0].valueString  = "20000069"
+* #PresentationLUTFlag ^property[1].code = #vr
+* #PresentationLUTFlag ^property[1].valueString = "CS"
+* #PresentationLUTFlag ^property[2].code = #retired
+* #PresentationLUTFlag ^property[2].valueBoolean = true
+
+* #ImageBoxPresentationLUTFlag "Image Box Presentation LUT Flag" "Image Box Presentation LUT Flag"
+* #ImageBoxPresentationLUTFlag ^property[0].code = #tag
+* #ImageBoxPresentationLUTFlag ^property[0].valueString  = "2000006A"
+* #ImageBoxPresentationLUTFlag ^property[1].code = #vr
+* #ImageBoxPresentationLUTFlag ^property[1].valueString = "CS"
+* #ImageBoxPresentationLUTFlag ^property[2].code = #retired
+* #ImageBoxPresentationLUTFlag ^property[2].valueBoolean = true
+
 * #MemoryBitDepth "Memory Bit Depth" "Memory Bit Depth"
 * #MemoryBitDepth ^property[0].code = #tag
 * #MemoryBitDepth ^property[0].valueString  = "200000A0"
@@ -28483,6 +31139,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ReferencedFilmBoxSequence ^property[1].valueString = "SQ"
 * #ReferencedFilmBoxSequence ^property[2].code = #retired
 * #ReferencedFilmBoxSequence ^property[2].valueBoolean = false
+
+* #ReferencedStoredPrintSequence "Referenced Stored Print Sequence" "Referenced Stored Print Sequence"
+* #ReferencedStoredPrintSequence ^property[0].code = #tag
+* #ReferencedStoredPrintSequence ^property[0].valueString  = "20000510"
+* #ReferencedStoredPrintSequence ^property[1].code = #vr
+* #ReferencedStoredPrintSequence ^property[1].valueString = "SQ"
+* #ReferencedStoredPrintSequence ^property[2].code = #retired
+* #ReferencedStoredPrintSequence ^property[2].valueBoolean = true
 
 * #ImageDisplayFormat "Image Display Format" "Image Display Format"
 * #ImageDisplayFormat ^property[0].code = #tag
@@ -28764,6 +31428,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #BasicColorImageSequence ^property[2].code = #retired
 * #BasicColorImageSequence ^property[2].valueBoolean = false
 
+* #ReferencedImageOverlayBoxSequence "Referenced Image Overlay Box Sequence" "Referenced Image Overlay Box Sequence"
+* #ReferencedImageOverlayBoxSequence ^property[0].code = #tag
+* #ReferencedImageOverlayBoxSequence ^property[0].valueString  = "20200130"
+* #ReferencedImageOverlayBoxSequence ^property[1].code = #vr
+* #ReferencedImageOverlayBoxSequence ^property[1].valueString = "SQ"
+* #ReferencedImageOverlayBoxSequence ^property[2].code = #retired
+* #ReferencedImageOverlayBoxSequence ^property[2].valueBoolean = true
+
+* #ReferencedVOILUTBoxSequence "Referenced VOI LUT Box Sequence" "Referenced VOI LUT Box Sequence"
+* #ReferencedVOILUTBoxSequence ^property[0].code = #tag
+* #ReferencedVOILUTBoxSequence ^property[0].valueString  = "20200140"
+* #ReferencedVOILUTBoxSequence ^property[1].code = #vr
+* #ReferencedVOILUTBoxSequence ^property[1].valueString = "SQ"
+* #ReferencedVOILUTBoxSequence ^property[2].code = #retired
+* #ReferencedVOILUTBoxSequence ^property[2].valueBoolean = true
+
 * #AnnotationPosition "Annotation Position" "Annotation Position"
 * #AnnotationPosition ^property[0].code = #tag
 * #AnnotationPosition ^property[0].valueString  = "20300010"
@@ -28779,6 +31459,102 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #TextString ^property[1].valueString = "LO"
 * #TextString ^property[2].code = #retired
 * #TextString ^property[2].valueBoolean = false
+
+* #ReferencedOverlayPlaneSequence "Referenced Overlay Plane Sequence" "Referenced Overlay Plane Sequence"
+* #ReferencedOverlayPlaneSequence ^property[0].code = #tag
+* #ReferencedOverlayPlaneSequence ^property[0].valueString  = "20400010"
+* #ReferencedOverlayPlaneSequence ^property[1].code = #vr
+* #ReferencedOverlayPlaneSequence ^property[1].valueString = "SQ"
+* #ReferencedOverlayPlaneSequence ^property[2].code = #retired
+* #ReferencedOverlayPlaneSequence ^property[2].valueBoolean = true
+
+* #ReferencedOverlayPlaneGroups "Referenced Overlay Plane Groups" "Referenced Overlay Plane Groups"
+* #ReferencedOverlayPlaneGroups ^property[0].code = #tag
+* #ReferencedOverlayPlaneGroups ^property[0].valueString  = "20400011"
+* #ReferencedOverlayPlaneGroups ^property[1].code = #vr
+* #ReferencedOverlayPlaneGroups ^property[1].valueString = "US"
+* #ReferencedOverlayPlaneGroups ^property[2].code = #retired
+* #ReferencedOverlayPlaneGroups ^property[2].valueBoolean = true
+
+* #OverlayPixelDataSequence "Overlay Pixel Data Sequence" "Overlay Pixel Data Sequence"
+* #OverlayPixelDataSequence ^property[0].code = #tag
+* #OverlayPixelDataSequence ^property[0].valueString  = "20400020"
+* #OverlayPixelDataSequence ^property[1].code = #vr
+* #OverlayPixelDataSequence ^property[1].valueString = "SQ"
+* #OverlayPixelDataSequence ^property[2].code = #retired
+* #OverlayPixelDataSequence ^property[2].valueBoolean = true
+
+* #OverlayMagnificationType "Overlay Magnification Type" "Overlay Magnification Type"
+* #OverlayMagnificationType ^property[0].code = #tag
+* #OverlayMagnificationType ^property[0].valueString  = "20400060"
+* #OverlayMagnificationType ^property[1].code = #vr
+* #OverlayMagnificationType ^property[1].valueString = "CS"
+* #OverlayMagnificationType ^property[2].code = #retired
+* #OverlayMagnificationType ^property[2].valueBoolean = true
+
+* #OverlaySmoothingType "Overlay Smoothing Type" "Overlay Smoothing Type"
+* #OverlaySmoothingType ^property[0].code = #tag
+* #OverlaySmoothingType ^property[0].valueString  = "20400070"
+* #OverlaySmoothingType ^property[1].code = #vr
+* #OverlaySmoothingType ^property[1].valueString = "CS"
+* #OverlaySmoothingType ^property[2].code = #retired
+* #OverlaySmoothingType ^property[2].valueBoolean = true
+
+* #OverlayOrImageMagnification "Overlay or Image Magnification" "Overlay or Image Magnification"
+* #OverlayOrImageMagnification ^property[0].code = #tag
+* #OverlayOrImageMagnification ^property[0].valueString  = "20400072"
+* #OverlayOrImageMagnification ^property[1].code = #vr
+* #OverlayOrImageMagnification ^property[1].valueString = "CS"
+* #OverlayOrImageMagnification ^property[2].code = #retired
+* #OverlayOrImageMagnification ^property[2].valueBoolean = true
+
+* #MagnifyToNumberOfColumns "Magnify to Number of Columns" "Magnify to Number of Columns"
+* #MagnifyToNumberOfColumns ^property[0].code = #tag
+* #MagnifyToNumberOfColumns ^property[0].valueString  = "20400074"
+* #MagnifyToNumberOfColumns ^property[1].code = #vr
+* #MagnifyToNumberOfColumns ^property[1].valueString = "US"
+* #MagnifyToNumberOfColumns ^property[2].code = #retired
+* #MagnifyToNumberOfColumns ^property[2].valueBoolean = true
+
+* #OverlayForegroundDensity "Overlay Foreground Density" "Overlay Foreground Density"
+* #OverlayForegroundDensity ^property[0].code = #tag
+* #OverlayForegroundDensity ^property[0].valueString  = "20400080"
+* #OverlayForegroundDensity ^property[1].code = #vr
+* #OverlayForegroundDensity ^property[1].valueString = "CS"
+* #OverlayForegroundDensity ^property[2].code = #retired
+* #OverlayForegroundDensity ^property[2].valueBoolean = true
+
+* #OverlayBackgroundDensity "Overlay Background Density" "Overlay Background Density"
+* #OverlayBackgroundDensity ^property[0].code = #tag
+* #OverlayBackgroundDensity ^property[0].valueString  = "20400082"
+* #OverlayBackgroundDensity ^property[1].code = #vr
+* #OverlayBackgroundDensity ^property[1].valueString = "CS"
+* #OverlayBackgroundDensity ^property[2].code = #retired
+* #OverlayBackgroundDensity ^property[2].valueBoolean = true
+
+* #OverlayMode "Overlay Mode" "Overlay Mode"
+* #OverlayMode ^property[0].code = #tag
+* #OverlayMode ^property[0].valueString  = "20400090"
+* #OverlayMode ^property[1].code = #vr
+* #OverlayMode ^property[1].valueString = "CS"
+* #OverlayMode ^property[2].code = #retired
+* #OverlayMode ^property[2].valueBoolean = true
+
+* #ThresholdDensity "Threshold Density" "Threshold Density"
+* #ThresholdDensity ^property[0].code = #tag
+* #ThresholdDensity ^property[0].valueString  = "20400100"
+* #ThresholdDensity ^property[1].code = #vr
+* #ThresholdDensity ^property[1].valueString = "CS"
+* #ThresholdDensity ^property[2].code = #retired
+* #ThresholdDensity ^property[2].valueBoolean = true
+
+* #ReferencedImageBoxSequenceRetired "Referenced Image Box Sequence (Retired)" "Referenced Image Box Sequence (Retired)"
+* #ReferencedImageBoxSequenceRetired ^property[0].code = #tag
+* #ReferencedImageBoxSequenceRetired ^property[0].valueString  = "20400500"
+* #ReferencedImageBoxSequenceRetired ^property[1].code = #vr
+* #ReferencedImageBoxSequenceRetired ^property[1].valueString = "SQ"
+* #ReferencedImageBoxSequenceRetired ^property[2].code = #retired
+* #ReferencedImageBoxSequenceRetired ^property[2].valueBoolean = true
 
 * #PresentationLUTSequence "Presentation LUT Sequence" "Presentation LUT Sequence"
 * #PresentationLUTSequence ^property[0].code = #tag
@@ -28803,6 +31579,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ReferencedPresentationLUTSequence ^property[1].valueString = "SQ"
 * #ReferencedPresentationLUTSequence ^property[2].code = #retired
 * #ReferencedPresentationLUTSequence ^property[2].valueBoolean = false
+
+* #PrintJobID "Print Job ID" "Print Job ID"
+* #PrintJobID ^property[0].code = #tag
+* #PrintJobID ^property[0].valueString  = "21000010"
+* #PrintJobID ^property[1].code = #vr
+* #PrintJobID ^property[1].valueString = "SH"
+* #PrintJobID ^property[2].code = #retired
+* #PrintJobID ^property[2].valueBoolean = true
 
 * #ExecutionStatus "Execution Status" "Execution Status"
 * #ExecutionStatus ^property[0].code = #tag
@@ -28868,6 +31652,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #NumberOfFilms ^property[2].code = #retired
 * #NumberOfFilms ^property[2].valueBoolean = false
 
+* #ReferencedPrintJobSequencePullStoredPrint "Referenced Print Job Sequence (Pull Stored Print)" "Referenced Print Job Sequence (Pull Stored Print)"
+* #ReferencedPrintJobSequencePullStoredPrint ^property[0].code = #tag
+* #ReferencedPrintJobSequencePullStoredPrint ^property[0].valueString  = "21000500"
+* #ReferencedPrintJobSequencePullStoredPrint ^property[1].code = #vr
+* #ReferencedPrintJobSequencePullStoredPrint ^property[1].valueString = "SQ"
+* #ReferencedPrintJobSequencePullStoredPrint ^property[2].code = #retired
+* #ReferencedPrintJobSequencePullStoredPrint ^property[2].valueBoolean = true
+
 * #PrinterStatus "Printer Status" "Printer Status"
 * #PrinterStatus ^property[0].code = #tag
 * #PrinterStatus ^property[0].valueString  = "21100010"
@@ -28891,6 +31683,94 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PrinterName ^property[1].valueString = "LO"
 * #PrinterName ^property[2].code = #retired
 * #PrinterName ^property[2].valueBoolean = false
+
+* #PrintQueueID "Print Queue ID" "Print Queue ID"
+* #PrintQueueID ^property[0].code = #tag
+* #PrintQueueID ^property[0].valueString  = "21100099"
+* #PrintQueueID ^property[1].code = #vr
+* #PrintQueueID ^property[1].valueString = "SH"
+* #PrintQueueID ^property[2].code = #retired
+* #PrintQueueID ^property[2].valueBoolean = true
+
+* #QueueStatus "Queue Status" "Queue Status"
+* #QueueStatus ^property[0].code = #tag
+* #QueueStatus ^property[0].valueString  = "21200010"
+* #QueueStatus ^property[1].code = #vr
+* #QueueStatus ^property[1].valueString = "CS"
+* #QueueStatus ^property[2].code = #retired
+* #QueueStatus ^property[2].valueBoolean = true
+
+* #PrintJobDescriptionSequence "Print Job Description Sequence" "Print Job Description Sequence"
+* #PrintJobDescriptionSequence ^property[0].code = #tag
+* #PrintJobDescriptionSequence ^property[0].valueString  = "21200050"
+* #PrintJobDescriptionSequence ^property[1].code = #vr
+* #PrintJobDescriptionSequence ^property[1].valueString = "SQ"
+* #PrintJobDescriptionSequence ^property[2].code = #retired
+* #PrintJobDescriptionSequence ^property[2].valueBoolean = true
+
+* #ReferencedPrintJobSequence "Referenced Print Job Sequence" "Referenced Print Job Sequence"
+* #ReferencedPrintJobSequence ^property[0].code = #tag
+* #ReferencedPrintJobSequence ^property[0].valueString  = "21200070"
+* #ReferencedPrintJobSequence ^property[1].code = #vr
+* #ReferencedPrintJobSequence ^property[1].valueString = "SQ"
+* #ReferencedPrintJobSequence ^property[2].code = #retired
+* #ReferencedPrintJobSequence ^property[2].valueBoolean = true
+
+* #PrintManagementCapabilitiesSequence "Print Management Capabilities Sequence" "Print Management Capabilities Sequence"
+* #PrintManagementCapabilitiesSequence ^property[0].code = #tag
+* #PrintManagementCapabilitiesSequence ^property[0].valueString  = "21300010"
+* #PrintManagementCapabilitiesSequence ^property[1].code = #vr
+* #PrintManagementCapabilitiesSequence ^property[1].valueString = "SQ"
+* #PrintManagementCapabilitiesSequence ^property[2].code = #retired
+* #PrintManagementCapabilitiesSequence ^property[2].valueBoolean = true
+
+* #PrinterCharacteristicsSequence "Printer Characteristics Sequence" "Printer Characteristics Sequence"
+* #PrinterCharacteristicsSequence ^property[0].code = #tag
+* #PrinterCharacteristicsSequence ^property[0].valueString  = "21300015"
+* #PrinterCharacteristicsSequence ^property[1].code = #vr
+* #PrinterCharacteristicsSequence ^property[1].valueString = "SQ"
+* #PrinterCharacteristicsSequence ^property[2].code = #retired
+* #PrinterCharacteristicsSequence ^property[2].valueBoolean = true
+
+* #FilmBoxContentSequence "Film Box Content Sequence" "Film Box Content Sequence"
+* #FilmBoxContentSequence ^property[0].code = #tag
+* #FilmBoxContentSequence ^property[0].valueString  = "21300030"
+* #FilmBoxContentSequence ^property[1].code = #vr
+* #FilmBoxContentSequence ^property[1].valueString = "SQ"
+* #FilmBoxContentSequence ^property[2].code = #retired
+* #FilmBoxContentSequence ^property[2].valueBoolean = true
+
+* #ImageBoxContentSequence "Image Box Content Sequence" "Image Box Content Sequence"
+* #ImageBoxContentSequence ^property[0].code = #tag
+* #ImageBoxContentSequence ^property[0].valueString  = "21300040"
+* #ImageBoxContentSequence ^property[1].code = #vr
+* #ImageBoxContentSequence ^property[1].valueString = "SQ"
+* #ImageBoxContentSequence ^property[2].code = #retired
+* #ImageBoxContentSequence ^property[2].valueBoolean = true
+
+* #AnnotationContentSequence "Annotation Content Sequence" "Annotation Content Sequence"
+* #AnnotationContentSequence ^property[0].code = #tag
+* #AnnotationContentSequence ^property[0].valueString  = "21300050"
+* #AnnotationContentSequence ^property[1].code = #vr
+* #AnnotationContentSequence ^property[1].valueString = "SQ"
+* #AnnotationContentSequence ^property[2].code = #retired
+* #AnnotationContentSequence ^property[2].valueBoolean = true
+
+* #ImageOverlayBoxContentSequence "Image Overlay Box Content Sequence" "Image Overlay Box Content Sequence"
+* #ImageOverlayBoxContentSequence ^property[0].code = #tag
+* #ImageOverlayBoxContentSequence ^property[0].valueString  = "21300060"
+* #ImageOverlayBoxContentSequence ^property[1].code = #vr
+* #ImageOverlayBoxContentSequence ^property[1].valueString = "SQ"
+* #ImageOverlayBoxContentSequence ^property[2].code = #retired
+* #ImageOverlayBoxContentSequence ^property[2].valueBoolean = true
+
+* #PresentationLUTContentSequence "Presentation LUT Content Sequence" "Presentation LUT Content Sequence"
+* #PresentationLUTContentSequence ^property[0].code = #tag
+* #PresentationLUTContentSequence ^property[0].valueString  = "21300080"
+* #PresentationLUTContentSequence ^property[1].code = #vr
+* #PresentationLUTContentSequence ^property[1].valueString = "SQ"
+* #PresentationLUTContentSequence ^property[2].code = #retired
+* #PresentationLUTContentSequence ^property[2].valueBoolean = true
 
 * #ProposedStudySequence "Proposed Study Sequence" "Proposed Study Sequence"
 * #ProposedStudySequence ^property[0].code = #tag
@@ -29748,6 +32628,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #DoseGridScaling ^property[2].code = #retired
 * #DoseGridScaling ^property[2].valueBoolean = false
 
+* #RTDoseROISequence "RT Dose ROI Sequence" "RT Dose ROI Sequence"
+* #RTDoseROISequence ^property[0].code = #tag
+* #RTDoseROISequence ^property[0].valueString  = "30040010"
+* #RTDoseROISequence ^property[1].code = #vr
+* #RTDoseROISequence ^property[1].valueString = "SQ"
+* #RTDoseROISequence ^property[2].code = #retired
+* #RTDoseROISequence ^property[2].valueBoolean = true
+
 * #DoseValue "Dose Value" "Dose Value"
 * #DoseValue ^property[0].code = #tag
 * #DoseValue ^property[0].valueString  = "30040012"
@@ -30124,6 +33012,22 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ContourGeometricType ^property[2].code = #retired
 * #ContourGeometricType ^property[2].valueBoolean = false
 
+* #ContourSlabThickness "Contour Slab Thickness" "Contour Slab Thickness"
+* #ContourSlabThickness ^property[0].code = #tag
+* #ContourSlabThickness ^property[0].valueString  = "30060044"
+* #ContourSlabThickness ^property[1].code = #vr
+* #ContourSlabThickness ^property[1].valueString = "DS"
+* #ContourSlabThickness ^property[2].code = #retired
+* #ContourSlabThickness ^property[2].valueBoolean = true
+
+* #ContourOffsetVector "Contour Offset Vector" "Contour Offset Vector"
+* #ContourOffsetVector ^property[0].code = #tag
+* #ContourOffsetVector ^property[0].valueString  = "30060045"
+* #ContourOffsetVector ^property[1].code = #vr
+* #ContourOffsetVector ^property[1].valueString = "DS"
+* #ContourOffsetVector ^property[2].code = #retired
+* #ContourOffsetVector ^property[2].valueBoolean = true
+
 * #NumberOfContourPoints "Number of Contour Points" "Number of Contour Points"
 * #NumberOfContourPoints ^property[0].code = #tag
 * #NumberOfContourPoints ^property[0].valueString  = "30060046"
@@ -30139,6 +33043,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ContourNumber ^property[1].valueString = "IS"
 * #ContourNumber ^property[2].code = #retired
 * #ContourNumber ^property[2].valueBoolean = false
+
+* #AttachedContours "Attached Contours" "Attached Contours"
+* #AttachedContours ^property[0].code = #tag
+* #AttachedContours ^property[0].valueString  = "30060049"
+* #AttachedContours ^property[1].code = #vr
+* #AttachedContours ^property[1].valueString = "IS"
+* #AttachedContours ^property[2].code = #retired
+* #AttachedContours ^property[2].valueBoolean = true
 
 * #SourcePixelPlanesCharacteristicsSequence "Source Pixel Planes Characteristics Sequence" "Source Pixel Planes Characteristics Sequence"
 * #SourcePixelPlanesCharacteristicsSequence ^property[0].code = #tag
@@ -30220,6 +33132,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ReferencedROINumber ^property[2].code = #retired
 * #ReferencedROINumber ^property[2].valueBoolean = false
 
+* #ROIObservationLabel "ROI Observation Label" "ROI Observation Label"
+* #ROIObservationLabel ^property[0].code = #tag
+* #ROIObservationLabel ^property[0].valueString  = "30060085"
+* #ROIObservationLabel ^property[1].code = #vr
+* #ROIObservationLabel ^property[1].valueString = "SH"
+* #ROIObservationLabel ^property[2].code = #retired
+* #ROIObservationLabel ^property[2].valueBoolean = true
+
 * #RTROIIdentificationCodeSequence "RT ROI Identification Code Sequence" "RT ROI Identification Code Sequence"
 * #RTROIIdentificationCodeSequence ^property[0].code = #tag
 * #RTROIIdentificationCodeSequence ^property[0].valueString  = "30060086"
@@ -30227,6 +33147,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RTROIIdentificationCodeSequence ^property[1].valueString = "SQ"
 * #RTROIIdentificationCodeSequence ^property[2].code = #retired
 * #RTROIIdentificationCodeSequence ^property[2].valueBoolean = false
+
+* #ROIObservationDescription "ROI Observation Description" "ROI Observation Description"
+* #ROIObservationDescription ^property[0].code = #tag
+* #ROIObservationDescription ^property[0].valueString  = "30060088"
+* #ROIObservationDescription ^property[1].code = #vr
+* #ROIObservationDescription ^property[1].valueString = "ST"
+* #ROIObservationDescription ^property[2].code = #retired
+* #ROIObservationDescription ^property[2].valueBoolean = true
 
 * #RelatedRTROIObservationsSequence "Related RT ROI Observations Sequence" "Related RT ROI Observations Sequence"
 * #RelatedRTROIObservationsSequence ^property[0].code = #tag
@@ -30299,6 +33227,38 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ROIElementalCompositionAtomicMassFraction ^property[1].valueString = "FL"
 * #ROIElementalCompositionAtomicMassFraction ^property[2].code = #retired
 * #ROIElementalCompositionAtomicMassFraction ^property[2].valueBoolean = false
+
+* #AdditionalRTROIIdentificationCodeSequence "Additional RT ROI Identification Code Sequence" "Additional RT ROI Identification Code Sequence"
+* #AdditionalRTROIIdentificationCodeSequence ^property[0].code = #tag
+* #AdditionalRTROIIdentificationCodeSequence ^property[0].valueString  = "300600B9"
+* #AdditionalRTROIIdentificationCodeSequence ^property[1].code = #vr
+* #AdditionalRTROIIdentificationCodeSequence ^property[1].valueString = "SQ"
+* #AdditionalRTROIIdentificationCodeSequence ^property[2].code = #retired
+* #AdditionalRTROIIdentificationCodeSequence ^property[2].valueBoolean = true
+
+* #FrameOfReferenceRelationshipSequence "Frame of Reference Relationship Sequence" "Frame of Reference Relationship Sequence"
+* #FrameOfReferenceRelationshipSequence ^property[0].code = #tag
+* #FrameOfReferenceRelationshipSequence ^property[0].valueString  = "300600C0"
+* #FrameOfReferenceRelationshipSequence ^property[1].code = #vr
+* #FrameOfReferenceRelationshipSequence ^property[1].valueString = "SQ"
+* #FrameOfReferenceRelationshipSequence ^property[2].code = #retired
+* #FrameOfReferenceRelationshipSequence ^property[2].valueBoolean = true
+
+* #RelatedFrameOfReferenceUID "Related Frame of Reference UID" "Related Frame of Reference UID"
+* #RelatedFrameOfReferenceUID ^property[0].code = #tag
+* #RelatedFrameOfReferenceUID ^property[0].valueString  = "300600C2"
+* #RelatedFrameOfReferenceUID ^property[1].code = #vr
+* #RelatedFrameOfReferenceUID ^property[1].valueString = "UI"
+* #RelatedFrameOfReferenceUID ^property[2].code = #retired
+* #RelatedFrameOfReferenceUID ^property[2].valueBoolean = true
+
+* #FrameOfReferenceTransformationType "Frame of Reference Transformation Type" "Frame of Reference Transformation Type"
+* #FrameOfReferenceTransformationType ^property[0].code = #tag
+* #FrameOfReferenceTransformationType ^property[0].valueString  = "300600C4"
+* #FrameOfReferenceTransformationType ^property[1].code = #vr
+* #FrameOfReferenceTransformationType ^property[1].valueString = "CS"
+* #FrameOfReferenceTransformationType ^property[2].code = #retired
+* #FrameOfReferenceTransformationType ^property[2].valueBoolean = true
 
 * #FrameOfReferenceTransformationMatrix "Frame of Reference Transformation Matrix" "Frame of Reference Transformation Matrix"
 * #FrameOfReferenceTransformationMatrix ^property[0].code = #tag
@@ -30419,6 +33379,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #TreatmentTerminationStatus ^property[1].valueString = "CS"
 * #TreatmentTerminationStatus ^property[2].code = #retired
 * #TreatmentTerminationStatus ^property[2].valueBoolean = false
+
+* #TreatmentTerminationCode "Treatment Termination Code" "Treatment Termination Code"
+* #TreatmentTerminationCode ^property[0].code = #tag
+* #TreatmentTerminationCode ^property[0].valueString  = "3008002B"
+* #TreatmentTerminationCode ^property[1].code = #vr
+* #TreatmentTerminationCode ^property[1].valueString = "SH"
+* #TreatmentTerminationCode ^property[2].code = #retired
+* #TreatmentTerminationCode ^property[2].valueBoolean = true
 
 * #TreatmentVerificationStatus "Treatment Verification Status" "Treatment Verification Status"
 * #TreatmentVerificationStatus ^property[0].code = #tag
@@ -31188,6 +34156,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PlanIntent ^property[2].code = #retired
 * #PlanIntent ^property[2].valueBoolean = false
 
+* #TreatmentSites "Treatment Sites" "Treatment Sites"
+* #TreatmentSites ^property[0].code = #tag
+* #TreatmentSites ^property[0].valueString  = "300A000B"
+* #TreatmentSites ^property[1].code = #vr
+* #TreatmentSites ^property[1].valueString = "LO"
+* #TreatmentSites ^property[2].code = #retired
+* #TreatmentSites ^property[2].valueBoolean = true
+
 * #RTPlanGeometry "RT Plan Geometry" "RT Plan Geometry"
 * #RTPlanGeometry ^property[0].code = #tag
 * #RTPlanGeometry ^property[0].valueString  = "300A000C"
@@ -31564,6 +34540,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #NumberOfBeams ^property[2].code = #retired
 * #NumberOfBeams ^property[2].valueBoolean = false
 
+* #BeamDoseSpecificationPoint "Beam Dose Specification Point" "Beam Dose Specification Point"
+* #BeamDoseSpecificationPoint ^property[0].code = #tag
+* #BeamDoseSpecificationPoint ^property[0].valueString  = "300A0082"
+* #BeamDoseSpecificationPoint ^property[1].code = #vr
+* #BeamDoseSpecificationPoint ^property[1].valueString = "DS"
+* #BeamDoseSpecificationPoint ^property[2].code = #retired
+* #BeamDoseSpecificationPoint ^property[2].valueBoolean = true
+
 * #ReferencedDoseReferenceUID "Referenced Dose Reference UID" "Referenced Dose Reference UID"
 * #ReferencedDoseReferenceUID ^property[0].code = #tag
 * #ReferencedDoseReferenceUID ^property[0].valueString  = "300A0083"
@@ -31627,6 +34611,30 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #BeamDoseVerificationControlPointSequence ^property[1].valueString = "SQ"
 * #BeamDoseVerificationControlPointSequence ^property[2].code = #retired
 * #BeamDoseVerificationControlPointSequence ^property[2].valueBoolean = false
+
+* #AverageBeamDosePointDepth "Average Beam Dose Point Depth" "Average Beam Dose Point Depth"
+* #AverageBeamDosePointDepth ^property[0].code = #tag
+* #AverageBeamDosePointDepth ^property[0].valueString  = "300A008D"
+* #AverageBeamDosePointDepth ^property[1].code = #vr
+* #AverageBeamDosePointDepth ^property[1].valueString = "FL"
+* #AverageBeamDosePointDepth ^property[2].code = #retired
+* #AverageBeamDosePointDepth ^property[2].valueBoolean = true
+
+* #AverageBeamDosePointEquivalentDepth "Average Beam Dose Point Equivalent Depth" "Average Beam Dose Point Equivalent Depth"
+* #AverageBeamDosePointEquivalentDepth ^property[0].code = #tag
+* #AverageBeamDosePointEquivalentDepth ^property[0].valueString  = "300A008E"
+* #AverageBeamDosePointEquivalentDepth ^property[1].code = #vr
+* #AverageBeamDosePointEquivalentDepth ^property[1].valueString = "FL"
+* #AverageBeamDosePointEquivalentDepth ^property[2].code = #retired
+* #AverageBeamDosePointEquivalentDepth ^property[2].valueBoolean = true
+
+* #AverageBeamDosePointSSD "Average Beam Dose Point SSD" "Average Beam Dose Point SSD"
+* #AverageBeamDosePointSSD ^property[0].code = #tag
+* #AverageBeamDosePointSSD ^property[0].valueString  = "300A008F"
+* #AverageBeamDosePointSSD ^property[1].code = #vr
+* #AverageBeamDosePointSSD ^property[1].valueString = "FL"
+* #AverageBeamDosePointSSD ^property[2].code = #retired
+* #AverageBeamDosePointSSD ^property[2].valueBoolean = true
 
 * #BeamDoseType "Beam Dose Type" "Beam Dose Type"
 * #BeamDoseType ^property[0].code = #tag
@@ -34748,6 +37756,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ReferencedRTInstanceSequence ^property[2].code = #retired
 * #ReferencedRTInstanceSequence ^property[2].valueBoolean = false
 
+* #ReferencedRTPatientSetupSequence "Referenced RT Patient Setup Sequence" "Referenced RT Patient Setup Sequence"
+* #ReferencedRTPatientSetupSequence ^property[0].code = #tag
+* #ReferencedRTPatientSetupSequence ^property[0].valueString  = "300A0632"
+* #ReferencedRTPatientSetupSequence ^property[1].code = #vr
+* #ReferencedRTPatientSetupSequence ^property[1].valueString = "SQ"
+* #ReferencedRTPatientSetupSequence ^property[2].code = #retired
+* #ReferencedRTPatientSetupSequence ^property[2].valueBoolean = true
+
 * #SourceToPatientSurfaceDistance "Source to Patient Surface Distance" "Source to Patient Surface Distance"
 * #SourceToPatientSurfaceDistance ^property[0].code = #tag
 * #SourceToPatientSurfaceDistance ^property[0].valueString  = "300A0634"
@@ -34971,6 +37987,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ParallelRTBeamDelimiterLeafMountingSide ^property[1].valueString = "CS"
 * #ParallelRTBeamDelimiterLeafMountingSide ^property[2].code = #retired
 * #ParallelRTBeamDelimiterLeafMountingSide ^property[2].valueBoolean = false
+
+* #PatientSetupUID "Patient Setup UID" "Patient Setup UID"
+* #PatientSetupUID ^property[0].code = #tag
+* #PatientSetupUID ^property[0].valueString  = "300A0650"
+* #PatientSetupUID ^property[1].code = #vr
+* #PatientSetupUID ^property[1].valueString = "UI"
+* #PatientSetupUID ^property[2].code = #retired
+* #PatientSetupUID ^property[2].valueBoolean = true
 
 * #WedgeDefinitionSequence "Wedge Definition Sequence" "Wedge Definition Sequence"
 * #WedgeDefinitionSequence ^property[0].code = #tag
@@ -37532,6 +40556,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #TreatmentSiteModifierCodeSequence ^property[2].code = #retired
 * #TreatmentSiteModifierCodeSequence ^property[2].valueBoolean = false
 
+* #RoboticBaseLocationIndicator "Robotic Base Location Indicator" "Robotic Base Location Indicator"
+* #RoboticBaseLocationIndicator ^property[0].code = #tag
+* #RoboticBaseLocationIndicator ^property[0].valueString  = "30100090"
+* #RoboticBaseLocationIndicator ^property[1].code = #vr
+* #RoboticBaseLocationIndicator ^property[1].valueString = "CS"
+* #RoboticBaseLocationIndicator ^property[2].code = #retired
+* #RoboticBaseLocationIndicator ^property[2].valueBoolean = true
+
 * #RoboticPathNodeSetCodeSequence "Robotic Path Node Set Code Sequence" "Robotic Path Node Set Code Sequence"
 * #RoboticPathNodeSetCodeSequence ^property[0].code = #tag
 * #RoboticPathNodeSetCodeSequence ^property[0].valueString  = "30100091"
@@ -37619,6 +40651,246 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ConceptualVolumeIdentificationSequence ^property[1].valueString = "SQ"
 * #ConceptualVolumeIdentificationSequence ^property[2].code = #retired
 * #ConceptualVolumeIdentificationSequence ^property[2].valueBoolean = false
+
+* #Arbitrary "Arbitrary" "Arbitrary"
+* #Arbitrary ^property[0].code = #tag
+* #Arbitrary ^property[0].valueString  = "40000010"
+* #Arbitrary ^property[1].code = #vr
+* #Arbitrary ^property[1].valueString = "LT"
+* #Arbitrary ^property[2].code = #retired
+* #Arbitrary ^property[2].valueBoolean = true
+
+* #TextComments "Text Comments" "Text Comments"
+* #TextComments ^property[0].code = #tag
+* #TextComments ^property[0].valueString  = "40004000"
+* #TextComments ^property[1].code = #vr
+* #TextComments ^property[1].valueString = "LT"
+* #TextComments ^property[2].code = #retired
+* #TextComments ^property[2].valueBoolean = true
+
+* #ResultsID "Results ID" "Results ID"
+* #ResultsID ^property[0].code = #tag
+* #ResultsID ^property[0].valueString  = "40080040"
+* #ResultsID ^property[1].code = #vr
+* #ResultsID ^property[1].valueString = "SH"
+* #ResultsID ^property[2].code = #retired
+* #ResultsID ^property[2].valueBoolean = true
+
+* #ResultsIDIssuer "Results ID Issuer" "Results ID Issuer"
+* #ResultsIDIssuer ^property[0].code = #tag
+* #ResultsIDIssuer ^property[0].valueString  = "40080042"
+* #ResultsIDIssuer ^property[1].code = #vr
+* #ResultsIDIssuer ^property[1].valueString = "LO"
+* #ResultsIDIssuer ^property[2].code = #retired
+* #ResultsIDIssuer ^property[2].valueBoolean = true
+
+* #ReferencedInterpretationSequence "Referenced Interpretation Sequence" "Referenced Interpretation Sequence"
+* #ReferencedInterpretationSequence ^property[0].code = #tag
+* #ReferencedInterpretationSequence ^property[0].valueString  = "40080050"
+* #ReferencedInterpretationSequence ^property[1].code = #vr
+* #ReferencedInterpretationSequence ^property[1].valueString = "SQ"
+* #ReferencedInterpretationSequence ^property[2].code = #retired
+* #ReferencedInterpretationSequence ^property[2].valueBoolean = true
+
+* #ReportProductionStatusTrial "Report Production Status (Trial)" "Report Production Status (Trial)"
+* #ReportProductionStatusTrial ^property[0].code = #tag
+* #ReportProductionStatusTrial ^property[0].valueString  = "400800FF"
+* #ReportProductionStatusTrial ^property[1].code = #vr
+* #ReportProductionStatusTrial ^property[1].valueString = "CS"
+* #ReportProductionStatusTrial ^property[2].code = #retired
+* #ReportProductionStatusTrial ^property[2].valueBoolean = true
+
+* #InterpretationRecordedDate "Interpretation Recorded Date" "Interpretation Recorded Date"
+* #InterpretationRecordedDate ^property[0].code = #tag
+* #InterpretationRecordedDate ^property[0].valueString  = "40080100"
+* #InterpretationRecordedDate ^property[1].code = #vr
+* #InterpretationRecordedDate ^property[1].valueString = "DA"
+* #InterpretationRecordedDate ^property[2].code = #retired
+* #InterpretationRecordedDate ^property[2].valueBoolean = true
+
+* #InterpretationRecordedTime "Interpretation Recorded Time" "Interpretation Recorded Time"
+* #InterpretationRecordedTime ^property[0].code = #tag
+* #InterpretationRecordedTime ^property[0].valueString  = "40080101"
+* #InterpretationRecordedTime ^property[1].code = #vr
+* #InterpretationRecordedTime ^property[1].valueString = "TM"
+* #InterpretationRecordedTime ^property[2].code = #retired
+* #InterpretationRecordedTime ^property[2].valueBoolean = true
+
+* #InterpretationRecorder "Interpretation Recorder" "Interpretation Recorder"
+* #InterpretationRecorder ^property[0].code = #tag
+* #InterpretationRecorder ^property[0].valueString  = "40080102"
+* #InterpretationRecorder ^property[1].code = #vr
+* #InterpretationRecorder ^property[1].valueString = "PN"
+* #InterpretationRecorder ^property[2].code = #retired
+* #InterpretationRecorder ^property[2].valueBoolean = true
+
+* #ReferenceToRecordedSound "Reference to Recorded Sound" "Reference to Recorded Sound"
+* #ReferenceToRecordedSound ^property[0].code = #tag
+* #ReferenceToRecordedSound ^property[0].valueString  = "40080103"
+* #ReferenceToRecordedSound ^property[1].code = #vr
+* #ReferenceToRecordedSound ^property[1].valueString = "LO"
+* #ReferenceToRecordedSound ^property[2].code = #retired
+* #ReferenceToRecordedSound ^property[2].valueBoolean = true
+
+* #InterpretationTranscriptionDate "Interpretation Transcription Date" "Interpretation Transcription Date"
+* #InterpretationTranscriptionDate ^property[0].code = #tag
+* #InterpretationTranscriptionDate ^property[0].valueString  = "40080108"
+* #InterpretationTranscriptionDate ^property[1].code = #vr
+* #InterpretationTranscriptionDate ^property[1].valueString = "DA"
+* #InterpretationTranscriptionDate ^property[2].code = #retired
+* #InterpretationTranscriptionDate ^property[2].valueBoolean = true
+
+* #InterpretationTranscriptionTime "Interpretation Transcription Time" "Interpretation Transcription Time"
+* #InterpretationTranscriptionTime ^property[0].code = #tag
+* #InterpretationTranscriptionTime ^property[0].valueString  = "40080109"
+* #InterpretationTranscriptionTime ^property[1].code = #vr
+* #InterpretationTranscriptionTime ^property[1].valueString = "TM"
+* #InterpretationTranscriptionTime ^property[2].code = #retired
+* #InterpretationTranscriptionTime ^property[2].valueBoolean = true
+
+* #InterpretationTranscriber "Interpretation Transcriber" "Interpretation Transcriber"
+* #InterpretationTranscriber ^property[0].code = #tag
+* #InterpretationTranscriber ^property[0].valueString  = "4008010A"
+* #InterpretationTranscriber ^property[1].code = #vr
+* #InterpretationTranscriber ^property[1].valueString = "PN"
+* #InterpretationTranscriber ^property[2].code = #retired
+* #InterpretationTranscriber ^property[2].valueBoolean = true
+
+* #InterpretationText "Interpretation Text" "Interpretation Text"
+* #InterpretationText ^property[0].code = #tag
+* #InterpretationText ^property[0].valueString  = "4008010B"
+* #InterpretationText ^property[1].code = #vr
+* #InterpretationText ^property[1].valueString = "ST"
+* #InterpretationText ^property[2].code = #retired
+* #InterpretationText ^property[2].valueBoolean = true
+
+* #InterpretationAuthor "Interpretation Author" "Interpretation Author"
+* #InterpretationAuthor ^property[0].code = #tag
+* #InterpretationAuthor ^property[0].valueString  = "4008010C"
+* #InterpretationAuthor ^property[1].code = #vr
+* #InterpretationAuthor ^property[1].valueString = "PN"
+* #InterpretationAuthor ^property[2].code = #retired
+* #InterpretationAuthor ^property[2].valueBoolean = true
+
+* #InterpretationApproverSequence "Interpretation Approver Sequence" "Interpretation Approver Sequence"
+* #InterpretationApproverSequence ^property[0].code = #tag
+* #InterpretationApproverSequence ^property[0].valueString  = "40080111"
+* #InterpretationApproverSequence ^property[1].code = #vr
+* #InterpretationApproverSequence ^property[1].valueString = "SQ"
+* #InterpretationApproverSequence ^property[2].code = #retired
+* #InterpretationApproverSequence ^property[2].valueBoolean = true
+
+* #InterpretationApprovalDate "Interpretation Approval Date" "Interpretation Approval Date"
+* #InterpretationApprovalDate ^property[0].code = #tag
+* #InterpretationApprovalDate ^property[0].valueString  = "40080112"
+* #InterpretationApprovalDate ^property[1].code = #vr
+* #InterpretationApprovalDate ^property[1].valueString = "DA"
+* #InterpretationApprovalDate ^property[2].code = #retired
+* #InterpretationApprovalDate ^property[2].valueBoolean = true
+
+* #InterpretationApprovalTime "Interpretation Approval Time" "Interpretation Approval Time"
+* #InterpretationApprovalTime ^property[0].code = #tag
+* #InterpretationApprovalTime ^property[0].valueString  = "40080113"
+* #InterpretationApprovalTime ^property[1].code = #vr
+* #InterpretationApprovalTime ^property[1].valueString = "TM"
+* #InterpretationApprovalTime ^property[2].code = #retired
+* #InterpretationApprovalTime ^property[2].valueBoolean = true
+
+* #PhysicianApprovingInterpretation "Physician Approving Interpretation" "Physician Approving Interpretation"
+* #PhysicianApprovingInterpretation ^property[0].code = #tag
+* #PhysicianApprovingInterpretation ^property[0].valueString  = "40080114"
+* #PhysicianApprovingInterpretation ^property[1].code = #vr
+* #PhysicianApprovingInterpretation ^property[1].valueString = "PN"
+* #PhysicianApprovingInterpretation ^property[2].code = #retired
+* #PhysicianApprovingInterpretation ^property[2].valueBoolean = true
+
+* #InterpretationDiagnosisDescription "Interpretation Diagnosis Description" "Interpretation Diagnosis Description"
+* #InterpretationDiagnosisDescription ^property[0].code = #tag
+* #InterpretationDiagnosisDescription ^property[0].valueString  = "40080115"
+* #InterpretationDiagnosisDescription ^property[1].code = #vr
+* #InterpretationDiagnosisDescription ^property[1].valueString = "LT"
+* #InterpretationDiagnosisDescription ^property[2].code = #retired
+* #InterpretationDiagnosisDescription ^property[2].valueBoolean = true
+
+* #InterpretationDiagnosisCodeSequence "Interpretation Diagnosis Code Sequence" "Interpretation Diagnosis Code Sequence"
+* #InterpretationDiagnosisCodeSequence ^property[0].code = #tag
+* #InterpretationDiagnosisCodeSequence ^property[0].valueString  = "40080117"
+* #InterpretationDiagnosisCodeSequence ^property[1].code = #vr
+* #InterpretationDiagnosisCodeSequence ^property[1].valueString = "SQ"
+* #InterpretationDiagnosisCodeSequence ^property[2].code = #retired
+* #InterpretationDiagnosisCodeSequence ^property[2].valueBoolean = true
+
+* #ResultsDistributionListSequence "Results Distribution List Sequence" "Results Distribution List Sequence"
+* #ResultsDistributionListSequence ^property[0].code = #tag
+* #ResultsDistributionListSequence ^property[0].valueString  = "40080118"
+* #ResultsDistributionListSequence ^property[1].code = #vr
+* #ResultsDistributionListSequence ^property[1].valueString = "SQ"
+* #ResultsDistributionListSequence ^property[2].code = #retired
+* #ResultsDistributionListSequence ^property[2].valueBoolean = true
+
+* #DistributionName "Distribution Name" "Distribution Name"
+* #DistributionName ^property[0].code = #tag
+* #DistributionName ^property[0].valueString  = "40080119"
+* #DistributionName ^property[1].code = #vr
+* #DistributionName ^property[1].valueString = "PN"
+* #DistributionName ^property[2].code = #retired
+* #DistributionName ^property[2].valueBoolean = true
+
+* #DistributionAddress "Distribution Address" "Distribution Address"
+* #DistributionAddress ^property[0].code = #tag
+* #DistributionAddress ^property[0].valueString  = "4008011A"
+* #DistributionAddress ^property[1].code = #vr
+* #DistributionAddress ^property[1].valueString = "LO"
+* #DistributionAddress ^property[2].code = #retired
+* #DistributionAddress ^property[2].valueBoolean = true
+
+* #InterpretationID "Interpretation ID" "Interpretation ID"
+* #InterpretationID ^property[0].code = #tag
+* #InterpretationID ^property[0].valueString  = "40080200"
+* #InterpretationID ^property[1].code = #vr
+* #InterpretationID ^property[1].valueString = "SH"
+* #InterpretationID ^property[2].code = #retired
+* #InterpretationID ^property[2].valueBoolean = true
+
+* #InterpretationIDIssuer "Interpretation ID Issuer" "Interpretation ID Issuer"
+* #InterpretationIDIssuer ^property[0].code = #tag
+* #InterpretationIDIssuer ^property[0].valueString  = "40080202"
+* #InterpretationIDIssuer ^property[1].code = #vr
+* #InterpretationIDIssuer ^property[1].valueString = "LO"
+* #InterpretationIDIssuer ^property[2].code = #retired
+* #InterpretationIDIssuer ^property[2].valueBoolean = true
+
+* #InterpretationTypeID "Interpretation Type ID" "Interpretation Type ID"
+* #InterpretationTypeID ^property[0].code = #tag
+* #InterpretationTypeID ^property[0].valueString  = "40080210"
+* #InterpretationTypeID ^property[1].code = #vr
+* #InterpretationTypeID ^property[1].valueString = "CS"
+* #InterpretationTypeID ^property[2].code = #retired
+* #InterpretationTypeID ^property[2].valueBoolean = true
+
+* #InterpretationStatusID "Interpretation Status ID" "Interpretation Status ID"
+* #InterpretationStatusID ^property[0].code = #tag
+* #InterpretationStatusID ^property[0].valueString  = "40080212"
+* #InterpretationStatusID ^property[1].code = #vr
+* #InterpretationStatusID ^property[1].valueString = "CS"
+* #InterpretationStatusID ^property[2].code = #retired
+* #InterpretationStatusID ^property[2].valueBoolean = true
+
+* #Impressions "Impressions" "Impressions"
+* #Impressions ^property[0].code = #tag
+* #Impressions ^property[0].valueString  = "40080300"
+* #Impressions ^property[1].code = #vr
+* #Impressions ^property[1].valueString = "ST"
+* #Impressions ^property[2].code = #retired
+* #Impressions ^property[2].valueBoolean = true
+
+* #ResultsComments "Results Comments" "Results Comments"
+* #ResultsComments ^property[0].code = #tag
+* #ResultsComments ^property[0].valueString  = "40084000"
+* #ResultsComments ^property[1].code = #vr
+* #ResultsComments ^property[1].valueString = "ST"
+* #ResultsComments ^property[2].code = #retired
+* #ResultsComments ^property[2].valueBoolean = true
 
 * #LowEnergyDetectors "Low Energy Detectors" "Low Energy Detectors"
 * #LowEnergyDetectors ^property[0].code = #tag
@@ -38316,6 +41588,214 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #MACParametersSequence ^property[2].code = #retired
 * #MACParametersSequence ^property[2].valueBoolean = false
 
+* #CurveDimensions "Curve Dimensions" "Curve Dimensions"
+* #CurveDimensions ^property[0].code = #tag
+* #CurveDimensions ^property[0].valueString  = "50xx0005"
+* #CurveDimensions ^property[1].code = #vr
+* #CurveDimensions ^property[1].valueString = "US"
+* #CurveDimensions ^property[2].code = #retired
+* #CurveDimensions ^property[2].valueBoolean = true
+
+* #NumberOfPoints "Number of Points" "Number of Points"
+* #NumberOfPoints ^property[0].code = #tag
+* #NumberOfPoints ^property[0].valueString  = "50xx0010"
+* #NumberOfPoints ^property[1].code = #vr
+* #NumberOfPoints ^property[1].valueString = "US"
+* #NumberOfPoints ^property[2].code = #retired
+* #NumberOfPoints ^property[2].valueBoolean = true
+
+* #TypeOfData "Type of Data" "Type of Data"
+* #TypeOfData ^property[0].code = #tag
+* #TypeOfData ^property[0].valueString  = "50xx0020"
+* #TypeOfData ^property[1].code = #vr
+* #TypeOfData ^property[1].valueString = "CS"
+* #TypeOfData ^property[2].code = #retired
+* #TypeOfData ^property[2].valueBoolean = true
+
+* #CurveDescription "Curve Description" "Curve Description"
+* #CurveDescription ^property[0].code = #tag
+* #CurveDescription ^property[0].valueString  = "50xx0022"
+* #CurveDescription ^property[1].code = #vr
+* #CurveDescription ^property[1].valueString = "LO"
+* #CurveDescription ^property[2].code = #retired
+* #CurveDescription ^property[2].valueBoolean = true
+
+* #AxisUnits "Axis Units" "Axis Units"
+* #AxisUnits ^property[0].code = #tag
+* #AxisUnits ^property[0].valueString  = "50xx0030"
+* #AxisUnits ^property[1].code = #vr
+* #AxisUnits ^property[1].valueString = "SH"
+* #AxisUnits ^property[2].code = #retired
+* #AxisUnits ^property[2].valueBoolean = true
+
+* #AxisLabels "Axis Labels" "Axis Labels"
+* #AxisLabels ^property[0].code = #tag
+* #AxisLabels ^property[0].valueString  = "50xx0040"
+* #AxisLabels ^property[1].code = #vr
+* #AxisLabels ^property[1].valueString = "SH"
+* #AxisLabels ^property[2].code = #retired
+* #AxisLabels ^property[2].valueBoolean = true
+
+* #DataValueRepresentation "Data Value Representation" "Data Value Representation"
+* #DataValueRepresentation ^property[0].code = #tag
+* #DataValueRepresentation ^property[0].valueString  = "50xx0103"
+* #DataValueRepresentation ^property[1].code = #vr
+* #DataValueRepresentation ^property[1].valueString = "US"
+* #DataValueRepresentation ^property[2].code = #retired
+* #DataValueRepresentation ^property[2].valueBoolean = true
+
+* #MinimumCoordinateValue "Minimum Coordinate Value" "Minimum Coordinate Value"
+* #MinimumCoordinateValue ^property[0].code = #tag
+* #MinimumCoordinateValue ^property[0].valueString  = "50xx0104"
+* #MinimumCoordinateValue ^property[1].code = #vr
+* #MinimumCoordinateValue ^property[1].valueString = "US"
+* #MinimumCoordinateValue ^property[2].code = #retired
+* #MinimumCoordinateValue ^property[2].valueBoolean = true
+
+* #MaximumCoordinateValue "Maximum Coordinate Value" "Maximum Coordinate Value"
+* #MaximumCoordinateValue ^property[0].code = #tag
+* #MaximumCoordinateValue ^property[0].valueString  = "50xx0105"
+* #MaximumCoordinateValue ^property[1].code = #vr
+* #MaximumCoordinateValue ^property[1].valueString = "US"
+* #MaximumCoordinateValue ^property[2].code = #retired
+* #MaximumCoordinateValue ^property[2].valueBoolean = true
+
+* #CurveRange "Curve Range" "Curve Range"
+* #CurveRange ^property[0].code = #tag
+* #CurveRange ^property[0].valueString  = "50xx0106"
+* #CurveRange ^property[1].code = #vr
+* #CurveRange ^property[1].valueString = "SH"
+* #CurveRange ^property[2].code = #retired
+* #CurveRange ^property[2].valueBoolean = true
+
+* #CurveDataDescriptor "Curve Data Descriptor" "Curve Data Descriptor"
+* #CurveDataDescriptor ^property[0].code = #tag
+* #CurveDataDescriptor ^property[0].valueString  = "50xx0110"
+* #CurveDataDescriptor ^property[1].code = #vr
+* #CurveDataDescriptor ^property[1].valueString = "US"
+* #CurveDataDescriptor ^property[2].code = #retired
+* #CurveDataDescriptor ^property[2].valueBoolean = true
+
+* #CoordinateStartValue "Coordinate Start Value" "Coordinate Start Value"
+* #CoordinateStartValue ^property[0].code = #tag
+* #CoordinateStartValue ^property[0].valueString  = "50xx0112"
+* #CoordinateStartValue ^property[1].code = #vr
+* #CoordinateStartValue ^property[1].valueString = "US"
+* #CoordinateStartValue ^property[2].code = #retired
+* #CoordinateStartValue ^property[2].valueBoolean = true
+
+* #CoordinateStepValue "Coordinate Step Value" "Coordinate Step Value"
+* #CoordinateStepValue ^property[0].code = #tag
+* #CoordinateStepValue ^property[0].valueString  = "50xx0114"
+* #CoordinateStepValue ^property[1].code = #vr
+* #CoordinateStepValue ^property[1].valueString = "US"
+* #CoordinateStepValue ^property[2].code = #retired
+* #CoordinateStepValue ^property[2].valueBoolean = true
+
+* #CurveActivationLayer "Curve Activation Layer" "Curve Activation Layer"
+* #CurveActivationLayer ^property[0].code = #tag
+* #CurveActivationLayer ^property[0].valueString  = "50xx1001"
+* #CurveActivationLayer ^property[1].code = #vr
+* #CurveActivationLayer ^property[1].valueString = "CS"
+* #CurveActivationLayer ^property[2].code = #retired
+* #CurveActivationLayer ^property[2].valueBoolean = true
+
+* #AudioType "Audio Type" "Audio Type"
+* #AudioType ^property[0].code = #tag
+* #AudioType ^property[0].valueString  = "50xx2000"
+* #AudioType ^property[1].code = #vr
+* #AudioType ^property[1].valueString = "US"
+* #AudioType ^property[2].code = #retired
+* #AudioType ^property[2].valueBoolean = true
+
+* #AudioSampleFormat "Audio Sample Format" "Audio Sample Format"
+* #AudioSampleFormat ^property[0].code = #tag
+* #AudioSampleFormat ^property[0].valueString  = "50xx2002"
+* #AudioSampleFormat ^property[1].code = #vr
+* #AudioSampleFormat ^property[1].valueString = "US"
+* #AudioSampleFormat ^property[2].code = #retired
+* #AudioSampleFormat ^property[2].valueBoolean = true
+
+* #NumberOfChannels "Number of Channels" "Number of Channels"
+* #NumberOfChannels ^property[0].code = #tag
+* #NumberOfChannels ^property[0].valueString  = "50xx2004"
+* #NumberOfChannels ^property[1].code = #vr
+* #NumberOfChannels ^property[1].valueString = "US"
+* #NumberOfChannels ^property[2].code = #retired
+* #NumberOfChannels ^property[2].valueBoolean = true
+
+* #NumberOfSamples "Number of Samples" "Number of Samples"
+* #NumberOfSamples ^property[0].code = #tag
+* #NumberOfSamples ^property[0].valueString  = "50xx2006"
+* #NumberOfSamples ^property[1].code = #vr
+* #NumberOfSamples ^property[1].valueString = "UL"
+* #NumberOfSamples ^property[2].code = #retired
+* #NumberOfSamples ^property[2].valueBoolean = true
+
+* #SampleRate "Sample Rate" "Sample Rate"
+* #SampleRate ^property[0].code = #tag
+* #SampleRate ^property[0].valueString  = "50xx2008"
+* #SampleRate ^property[1].code = #vr
+* #SampleRate ^property[1].valueString = "UL"
+* #SampleRate ^property[2].code = #retired
+* #SampleRate ^property[2].valueBoolean = true
+
+* #TotalTime "Total Time" "Total Time"
+* #TotalTime ^property[0].code = #tag
+* #TotalTime ^property[0].valueString  = "50xx200A"
+* #TotalTime ^property[1].code = #vr
+* #TotalTime ^property[1].valueString = "UL"
+* #TotalTime ^property[2].code = #retired
+* #TotalTime ^property[2].valueBoolean = true
+
+* #AudioSampleData "Audio Sample Data" "Audio Sample Data"
+* #AudioSampleData ^property[0].code = #tag
+* #AudioSampleData ^property[0].valueString  = "50xx200C"
+* #AudioSampleData ^property[1].code = #vr
+* #AudioSampleData ^property[1].valueString = "OB or OW"
+* #AudioSampleData ^property[2].code = #retired
+* #AudioSampleData ^property[2].valueBoolean = true
+
+* #AudioComments "Audio Comments" "Audio Comments"
+* #AudioComments ^property[0].code = #tag
+* #AudioComments ^property[0].valueString  = "50xx200E"
+* #AudioComments ^property[1].code = #vr
+* #AudioComments ^property[1].valueString = "LT"
+* #AudioComments ^property[2].code = #retired
+* #AudioComments ^property[2].valueBoolean = true
+
+* #CurveLabel "Curve Label" "Curve Label"
+* #CurveLabel ^property[0].code = #tag
+* #CurveLabel ^property[0].valueString  = "50xx2500"
+* #CurveLabel ^property[1].code = #vr
+* #CurveLabel ^property[1].valueString = "LO"
+* #CurveLabel ^property[2].code = #retired
+* #CurveLabel ^property[2].valueBoolean = true
+
+* #CurveReferencedOverlaySequence "Curve Referenced Overlay Sequence" "Curve Referenced Overlay Sequence"
+* #CurveReferencedOverlaySequence ^property[0].code = #tag
+* #CurveReferencedOverlaySequence ^property[0].valueString  = "50xx2600"
+* #CurveReferencedOverlaySequence ^property[1].code = #vr
+* #CurveReferencedOverlaySequence ^property[1].valueString = "SQ"
+* #CurveReferencedOverlaySequence ^property[2].code = #retired
+* #CurveReferencedOverlaySequence ^property[2].valueBoolean = true
+
+* #CurveReferencedOverlayGroup "Curve Referenced Overlay Group" "Curve Referenced Overlay Group"
+* #CurveReferencedOverlayGroup ^property[0].code = #tag
+* #CurveReferencedOverlayGroup ^property[0].valueString  = "50xx2610"
+* #CurveReferencedOverlayGroup ^property[1].code = #vr
+* #CurveReferencedOverlayGroup ^property[1].valueString = "US"
+* #CurveReferencedOverlayGroup ^property[2].code = #retired
+* #CurveReferencedOverlayGroup ^property[2].valueBoolean = true
+
+* #CurveData "Curve Data" "Curve Data"
+* #CurveData ^property[0].code = #tag
+* #CurveData ^property[0].valueString  = "50xx3000"
+* #CurveData ^property[1].code = #vr
+* #CurveData ^property[1].valueString = "OB or OW"
+* #CurveData ^property[2].code = #retired
+* #CurveData ^property[2].valueBoolean = true
+
 * #SharedFunctionalGroupsSequence "Shared Functional Groups Sequence" "Shared Functional Groups Sequence"
 * #SharedFunctionalGroupsSequence ^property[0].code = #tag
 * #SharedFunctionalGroupsSequence ^property[0].valueString  = "52009229"
@@ -38420,6 +41900,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #OverlayColumns ^property[2].code = #retired
 * #OverlayColumns ^property[2].valueBoolean = false
 
+* #OverlayPlanes "Overlay Planes" "Overlay Planes"
+* #OverlayPlanes ^property[0].code = #tag
+* #OverlayPlanes ^property[0].valueString  = "60xx0012"
+* #OverlayPlanes ^property[1].code = #vr
+* #OverlayPlanes ^property[1].valueString = "US"
+* #OverlayPlanes ^property[2].code = #retired
+* #OverlayPlanes ^property[2].valueBoolean = true
+
 * #NumberOfFramesInOverlay "Number of Frames in Overlay" "Number of Frames in Overlay"
 * #NumberOfFramesInOverlay ^property[0].code = #tag
 * #NumberOfFramesInOverlay ^property[0].valueString  = "60xx0015"
@@ -38468,6 +41956,70 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #ImageFrameOrigin ^property[2].code = #retired
 * #ImageFrameOrigin ^property[2].valueBoolean = false
 
+* #OverlayPlaneOrigin "Overlay Plane Origin" "Overlay Plane Origin"
+* #OverlayPlaneOrigin ^property[0].code = #tag
+* #OverlayPlaneOrigin ^property[0].valueString  = "60xx0052"
+* #OverlayPlaneOrigin ^property[1].code = #vr
+* #OverlayPlaneOrigin ^property[1].valueString = "US"
+* #OverlayPlaneOrigin ^property[2].code = #retired
+* #OverlayPlaneOrigin ^property[2].valueBoolean = true
+
+* #OverlayCompressionCode "Overlay Compression Code" "Overlay Compression Code"
+* #OverlayCompressionCode ^property[0].code = #tag
+* #OverlayCompressionCode ^property[0].valueString  = "60xx0060"
+* #OverlayCompressionCode ^property[1].code = #vr
+* #OverlayCompressionCode ^property[1].valueString = "CS"
+* #OverlayCompressionCode ^property[2].code = #retired
+* #OverlayCompressionCode ^property[2].valueBoolean = true
+
+* #OverlayCompressionOriginator "Overlay Compression Originator" "Overlay Compression Originator"
+* #OverlayCompressionOriginator ^property[0].code = #tag
+* #OverlayCompressionOriginator ^property[0].valueString  = "60xx0061"
+* #OverlayCompressionOriginator ^property[1].code = #vr
+* #OverlayCompressionOriginator ^property[1].valueString = "SH"
+* #OverlayCompressionOriginator ^property[2].code = #retired
+* #OverlayCompressionOriginator ^property[2].valueBoolean = true
+
+* #OverlayCompressionLabel "Overlay Compression Label" "Overlay Compression Label"
+* #OverlayCompressionLabel ^property[0].code = #tag
+* #OverlayCompressionLabel ^property[0].valueString  = "60xx0062"
+* #OverlayCompressionLabel ^property[1].code = #vr
+* #OverlayCompressionLabel ^property[1].valueString = "SH"
+* #OverlayCompressionLabel ^property[2].code = #retired
+* #OverlayCompressionLabel ^property[2].valueBoolean = true
+
+* #OverlayCompressionDescription "Overlay Compression Description" "Overlay Compression Description"
+* #OverlayCompressionDescription ^property[0].code = #tag
+* #OverlayCompressionDescription ^property[0].valueString  = "60xx0063"
+* #OverlayCompressionDescription ^property[1].code = #vr
+* #OverlayCompressionDescription ^property[1].valueString = "CS"
+* #OverlayCompressionDescription ^property[2].code = #retired
+* #OverlayCompressionDescription ^property[2].valueBoolean = true
+
+* #OverlayCompressionStepPointers "Overlay Compression Step Pointers" "Overlay Compression Step Pointers"
+* #OverlayCompressionStepPointers ^property[0].code = #tag
+* #OverlayCompressionStepPointers ^property[0].valueString  = "60xx0066"
+* #OverlayCompressionStepPointers ^property[1].code = #vr
+* #OverlayCompressionStepPointers ^property[1].valueString = "AT"
+* #OverlayCompressionStepPointers ^property[2].code = #retired
+* #OverlayCompressionStepPointers ^property[2].valueBoolean = true
+
+* #OverlayRepeatInterval "Overlay Repeat Interval" "Overlay Repeat Interval"
+* #OverlayRepeatInterval ^property[0].code = #tag
+* #OverlayRepeatInterval ^property[0].valueString  = "60xx0068"
+* #OverlayRepeatInterval ^property[1].code = #vr
+* #OverlayRepeatInterval ^property[1].valueString = "US"
+* #OverlayRepeatInterval ^property[2].code = #retired
+* #OverlayRepeatInterval ^property[2].valueBoolean = true
+
+* #OverlayBitsGrouped "Overlay Bits Grouped" "Overlay Bits Grouped"
+* #OverlayBitsGrouped ^property[0].code = #tag
+* #OverlayBitsGrouped ^property[0].valueString  = "60xx0069"
+* #OverlayBitsGrouped ^property[1].code = #vr
+* #OverlayBitsGrouped ^property[1].valueString = "US"
+* #OverlayBitsGrouped ^property[2].code = #retired
+* #OverlayBitsGrouped ^property[2].valueBoolean = true
+
 * #OverlayBitsAllocated "Overlay Bits Allocated" "Overlay Bits Allocated"
 * #OverlayBitsAllocated ^property[0].code = #tag
 * #OverlayBitsAllocated ^property[0].valueString  = "60xx0100"
@@ -38484,6 +42036,54 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #OverlayBitPosition ^property[2].code = #retired
 * #OverlayBitPosition ^property[2].valueBoolean = false
 
+* #OverlayFormat "Overlay Format" "Overlay Format"
+* #OverlayFormat ^property[0].code = #tag
+* #OverlayFormat ^property[0].valueString  = "60xx0110"
+* #OverlayFormat ^property[1].code = #vr
+* #OverlayFormat ^property[1].valueString = "CS"
+* #OverlayFormat ^property[2].code = #retired
+* #OverlayFormat ^property[2].valueBoolean = true
+
+* #OverlayLocation "Overlay Location" "Overlay Location"
+* #OverlayLocation ^property[0].code = #tag
+* #OverlayLocation ^property[0].valueString  = "60xx0200"
+* #OverlayLocation ^property[1].code = #vr
+* #OverlayLocation ^property[1].valueString = "US"
+* #OverlayLocation ^property[2].code = #retired
+* #OverlayLocation ^property[2].valueBoolean = true
+
+* #OverlayCodeLabel "Overlay Code Label" "Overlay Code Label"
+* #OverlayCodeLabel ^property[0].code = #tag
+* #OverlayCodeLabel ^property[0].valueString  = "60xx0800"
+* #OverlayCodeLabel ^property[1].code = #vr
+* #OverlayCodeLabel ^property[1].valueString = "CS"
+* #OverlayCodeLabel ^property[2].code = #retired
+* #OverlayCodeLabel ^property[2].valueBoolean = true
+
+* #OverlayNumberOfTables "Overlay Number of Tables" "Overlay Number of Tables"
+* #OverlayNumberOfTables ^property[0].code = #tag
+* #OverlayNumberOfTables ^property[0].valueString  = "60xx0802"
+* #OverlayNumberOfTables ^property[1].code = #vr
+* #OverlayNumberOfTables ^property[1].valueString = "US"
+* #OverlayNumberOfTables ^property[2].code = #retired
+* #OverlayNumberOfTables ^property[2].valueBoolean = true
+
+* #OverlayCodeTableLocation "Overlay Code Table Location" "Overlay Code Table Location"
+* #OverlayCodeTableLocation ^property[0].code = #tag
+* #OverlayCodeTableLocation ^property[0].valueString  = "60xx0803"
+* #OverlayCodeTableLocation ^property[1].code = #vr
+* #OverlayCodeTableLocation ^property[1].valueString = "AT"
+* #OverlayCodeTableLocation ^property[2].code = #retired
+* #OverlayCodeTableLocation ^property[2].valueBoolean = true
+
+* #OverlayBitsForCodeWord "Overlay Bits For Code Word" "Overlay Bits For Code Word"
+* #OverlayBitsForCodeWord ^property[0].code = #tag
+* #OverlayBitsForCodeWord ^property[0].valueString  = "60xx0804"
+* #OverlayBitsForCodeWord ^property[1].code = #vr
+* #OverlayBitsForCodeWord ^property[1].valueString = "US"
+* #OverlayBitsForCodeWord ^property[2].code = #retired
+* #OverlayBitsForCodeWord ^property[2].valueBoolean = true
+
 * #OverlayActivationLayer "Overlay Activation Layer" "Overlay Activation Layer"
 * #OverlayActivationLayer ^property[0].code = #tag
 * #OverlayActivationLayer ^property[0].valueString  = "60xx1001"
@@ -38491,6 +42091,70 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #OverlayActivationLayer ^property[1].valueString = "CS"
 * #OverlayActivationLayer ^property[2].code = #retired
 * #OverlayActivationLayer ^property[2].valueBoolean = false
+
+* #OverlayDescriptorGray "Overlay Descriptor - Gray" "Overlay Descriptor - Gray"
+* #OverlayDescriptorGray ^property[0].code = #tag
+* #OverlayDescriptorGray ^property[0].valueString  = "60xx1100"
+* #OverlayDescriptorGray ^property[1].code = #vr
+* #OverlayDescriptorGray ^property[1].valueString = "US"
+* #OverlayDescriptorGray ^property[2].code = #retired
+* #OverlayDescriptorGray ^property[2].valueBoolean = true
+
+* #OverlayDescriptorRed "Overlay Descriptor - Red" "Overlay Descriptor - Red"
+* #OverlayDescriptorRed ^property[0].code = #tag
+* #OverlayDescriptorRed ^property[0].valueString  = "60xx1101"
+* #OverlayDescriptorRed ^property[1].code = #vr
+* #OverlayDescriptorRed ^property[1].valueString = "US"
+* #OverlayDescriptorRed ^property[2].code = #retired
+* #OverlayDescriptorRed ^property[2].valueBoolean = true
+
+* #OverlayDescriptorGreen "Overlay Descriptor - Green" "Overlay Descriptor - Green"
+* #OverlayDescriptorGreen ^property[0].code = #tag
+* #OverlayDescriptorGreen ^property[0].valueString  = "60xx1102"
+* #OverlayDescriptorGreen ^property[1].code = #vr
+* #OverlayDescriptorGreen ^property[1].valueString = "US"
+* #OverlayDescriptorGreen ^property[2].code = #retired
+* #OverlayDescriptorGreen ^property[2].valueBoolean = true
+
+* #OverlayDescriptorBlue "Overlay Descriptor - Blue" "Overlay Descriptor - Blue"
+* #OverlayDescriptorBlue ^property[0].code = #tag
+* #OverlayDescriptorBlue ^property[0].valueString  = "60xx1103"
+* #OverlayDescriptorBlue ^property[1].code = #vr
+* #OverlayDescriptorBlue ^property[1].valueString = "US"
+* #OverlayDescriptorBlue ^property[2].code = #retired
+* #OverlayDescriptorBlue ^property[2].valueBoolean = true
+
+* #OverlaysGray "Overlays - Gray" "Overlays - Gray"
+* #OverlaysGray ^property[0].code = #tag
+* #OverlaysGray ^property[0].valueString  = "60xx1200"
+* #OverlaysGray ^property[1].code = #vr
+* #OverlaysGray ^property[1].valueString = "US"
+* #OverlaysGray ^property[2].code = #retired
+* #OverlaysGray ^property[2].valueBoolean = true
+
+* #OverlaysRed "Overlays - Red" "Overlays - Red"
+* #OverlaysRed ^property[0].code = #tag
+* #OverlaysRed ^property[0].valueString  = "60xx1201"
+* #OverlaysRed ^property[1].code = #vr
+* #OverlaysRed ^property[1].valueString = "US"
+* #OverlaysRed ^property[2].code = #retired
+* #OverlaysRed ^property[2].valueBoolean = true
+
+* #OverlaysGreen "Overlays - Green" "Overlays - Green"
+* #OverlaysGreen ^property[0].code = #tag
+* #OverlaysGreen ^property[0].valueString  = "60xx1202"
+* #OverlaysGreen ^property[1].code = #vr
+* #OverlaysGreen ^property[1].valueString = "US"
+* #OverlaysGreen ^property[2].code = #retired
+* #OverlaysGreen ^property[2].valueBoolean = true
+
+* #OverlaysBlue "Overlays - Blue" "Overlays - Blue"
+* #OverlaysBlue ^property[0].code = #tag
+* #OverlaysBlue ^property[0].valueString  = "60xx1203"
+* #OverlaysBlue ^property[1].code = #vr
+* #OverlaysBlue ^property[1].valueString = "US"
+* #OverlaysBlue ^property[2].code = #retired
+* #OverlaysBlue ^property[2].valueBoolean = true
 
 * #ROIArea "ROI Area" "ROI Area"
 * #ROIArea ^property[0].code = #tag
@@ -38531,6 +42195,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #OverlayData ^property[1].valueString = "OB or OW"
 * #OverlayData ^property[2].code = #retired
 * #OverlayData ^property[2].valueBoolean = false
+
+* #OverlayComments "Overlay Comments" "Overlay Comments"
+* #OverlayComments ^property[0].code = #tag
+* #OverlayComments ^property[0].valueString  = "60xx4000"
+* #OverlayComments ^property[1].code = #vr
+* #OverlayComments ^property[1].valueString = "LT"
+* #OverlayComments ^property[2].code = #retired
+* #OverlayComments ^property[2].valueBoolean = true
 
 * #ExtendedOffsetTable "Extended Offset Table" "Extended Offset Table"
 * #ExtendedOffsetTable ^property[0].code = #tag
@@ -38579,6 +42251,70 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #PixelData ^property[1].valueString = "OB or OW"
 * #PixelData ^property[2].code = #retired
 * #PixelData ^property[2].valueBoolean = false
+
+* #CoefficientsSDVN "Coefficients SDVN" "Coefficients SDVN"
+* #CoefficientsSDVN ^property[0].code = #tag
+* #CoefficientsSDVN ^property[0].valueString  = "7FE00020"
+* #CoefficientsSDVN ^property[1].code = #vr
+* #CoefficientsSDVN ^property[1].valueString = "OW"
+* #CoefficientsSDVN ^property[2].code = #retired
+* #CoefficientsSDVN ^property[2].valueBoolean = true
+
+* #CoefficientsSDHN "Coefficients SDHN" "Coefficients SDHN"
+* #CoefficientsSDHN ^property[0].code = #tag
+* #CoefficientsSDHN ^property[0].valueString  = "7FE00030"
+* #CoefficientsSDHN ^property[1].code = #vr
+* #CoefficientsSDHN ^property[1].valueString = "OW"
+* #CoefficientsSDHN ^property[2].code = #retired
+* #CoefficientsSDHN ^property[2].valueBoolean = true
+
+* #CoefficientsSDDN "Coefficients SDDN" "Coefficients SDDN"
+* #CoefficientsSDDN ^property[0].code = #tag
+* #CoefficientsSDDN ^property[0].valueString  = "7FE00040"
+* #CoefficientsSDDN ^property[1].code = #vr
+* #CoefficientsSDDN ^property[1].valueString = "OW"
+* #CoefficientsSDDN ^property[2].code = #retired
+* #CoefficientsSDDN ^property[2].valueBoolean = true
+
+* #VariablePixelData "Variable Pixel Data" "Variable Pixel Data"
+* #VariablePixelData ^property[0].code = #tag
+* #VariablePixelData ^property[0].valueString  = "7Fxx0010"
+* #VariablePixelData ^property[1].code = #vr
+* #VariablePixelData ^property[1].valueString = "OB or OW"
+* #VariablePixelData ^property[2].code = #retired
+* #VariablePixelData ^property[2].valueBoolean = true
+
+* #VariableNextDataGroup "Variable Next Data Group" "Variable Next Data Group"
+* #VariableNextDataGroup ^property[0].code = #tag
+* #VariableNextDataGroup ^property[0].valueString  = "7Fxx0011"
+* #VariableNextDataGroup ^property[1].code = #vr
+* #VariableNextDataGroup ^property[1].valueString = "US"
+* #VariableNextDataGroup ^property[2].code = #retired
+* #VariableNextDataGroup ^property[2].valueBoolean = true
+
+* #VariableCoefficientsSDVN "Variable Coefficients SDVN" "Variable Coefficients SDVN"
+* #VariableCoefficientsSDVN ^property[0].code = #tag
+* #VariableCoefficientsSDVN ^property[0].valueString  = "7Fxx0020"
+* #VariableCoefficientsSDVN ^property[1].code = #vr
+* #VariableCoefficientsSDVN ^property[1].valueString = "OW"
+* #VariableCoefficientsSDVN ^property[2].code = #retired
+* #VariableCoefficientsSDVN ^property[2].valueBoolean = true
+
+* #VariableCoefficientsSDHN "Variable Coefficients SDHN" "Variable Coefficients SDHN"
+* #VariableCoefficientsSDHN ^property[0].code = #tag
+* #VariableCoefficientsSDHN ^property[0].valueString  = "7Fxx0030"
+* #VariableCoefficientsSDHN ^property[1].code = #vr
+* #VariableCoefficientsSDHN ^property[1].valueString = "OW"
+* #VariableCoefficientsSDHN ^property[2].code = #retired
+* #VariableCoefficientsSDHN ^property[2].valueBoolean = true
+
+* #VariableCoefficientsSDDN "Variable Coefficients SDDN" "Variable Coefficients SDDN"
+* #VariableCoefficientsSDDN ^property[0].code = #tag
+* #VariableCoefficientsSDDN ^property[0].valueString  = "7Fxx0040"
+* #VariableCoefficientsSDDN ^property[1].code = #vr
+* #VariableCoefficientsSDDN ^property[1].valueString = "OW"
+* #VariableCoefficientsSDDN ^property[2].code = #retired
+* #VariableCoefficientsSDDN ^property[2].valueBoolean = true
 
 * #DigitalSignaturesSequence "Digital Signatures Sequence" "Digital Signatures Sequence"
 * #DigitalSignaturesSequence ^property[0].code = #tag
