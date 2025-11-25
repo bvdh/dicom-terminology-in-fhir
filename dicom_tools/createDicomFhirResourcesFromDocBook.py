@@ -13,6 +13,7 @@ from uids import writeUidsCodeSystemAndValueSets
 from doc_book_tools import getCanonicalVersion
 from downloadAllValueSets import downloadAllDicomValueSets
 from vr_table import writeVrCodeSystem
+from anatomical_region_and_body_part import writeAnatomicalRegionAndBodyPartValueSets
 from variable_lists import writeVariableLists
 
 def main(args=None):
@@ -38,6 +39,9 @@ def main(args=None):
     writeVrCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
 
     writeValueTypeDefinitionCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
+
+    writeAnatomicalRegionAndBodyPartValueSets( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
+
     # writeEnumeratedFields( fsh_path=fsh_path, dicom_path=dicom_path )
 
     # 20250915 - work with Davids Valuesets for now
