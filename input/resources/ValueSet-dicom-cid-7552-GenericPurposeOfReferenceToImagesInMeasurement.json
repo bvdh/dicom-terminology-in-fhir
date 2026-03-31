@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GenericPurposeOfReferenceToImagesInMeasurement",
+  "id": "dicom-cid-7552-GenericPurposeOfReferenceToImagesInMeasurement",
+  "description": "Generic Purpose of Reference to Images in Measurement",
+  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-cid-7552-GenericPurposeOfReferenceToImagesInMeasurement",
+  "version": "None",
+  "title": "Generic Purpose of Reference to Images in Measurement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "121112",
+            "display": "Source of Measurement"
+          }
+        ]
+      }
+    ]
+  }
+}

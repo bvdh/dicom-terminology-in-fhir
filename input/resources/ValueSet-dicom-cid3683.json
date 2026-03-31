@@ -1,0 +1,10 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid3683",
+  "id": "dicom-cid3683",
+  "description": "None",
+  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-cid3683",
+  "version": "None",
+  "title": "Modifier (Retired)"
+}

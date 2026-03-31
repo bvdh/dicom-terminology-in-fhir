@@ -1,0 +1,10 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid61",
+  "id": "dicom-cid61",
+  "description": "None",
+  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-cid61",
+  "version": "None",
+  "title": "Time Relative to Procedure (Retired)"
+}

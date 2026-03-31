@@ -1,0 +1,89 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ModelIndependentDynamicContrastAnalysisParameter",
+  "id": "dicom-cid-4109-ModelIndependentDynamicContrastAnalysisParameter",
+  "description": "(126326, DCM, 'IAUC90BN')BN http://www.rsna.org/QIBA_Protocols_and_Profiles.aspx AJR http://dx.doi.org/10.2214/AJR.09.3116 The type of contrast agent and the AIF used for blood normalization may or may not be post-coordinated. E.g., voxel-wise IAUCBN (246205007, SCT, 'Quantity') (126326, DCM, 'IAUC90BN') (370129005, SCT, 'Measurement Method') (126362, DCM, 'User-defined AIF ROI') (123011, DCM, 'Contrast Bolus/Agent') (58281002, SCT, 'Gadolinium') E.g., an IAUCBN NUM(126326, DCM, 'IAUC90BN') >HAS CONCEPT MOD: CODE(370129005, SCT, 'Measurement Method') (126364, DCM, 'Blind Estimation of AIF') Note that the generic ROI measurement templates do not have the contrast/bolus agent as a parameter; this may be implicit from context, or inherited from the (121058",
+  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-cid-4109-ModelIndependentDynamicContrastAnalysisParameter",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.994"
+    }
+  ],
+  "version": "20150916",
+  "title": "Model-Independent Dynamic Contrast Analysis Parameter",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "126320",
+            "display": "IAUC"
+          },
+          {
+            "code": "126321",
+            "display": "IAUC60"
+          },
+          {
+            "code": "126322",
+            "display": "IAUC90"
+          },
+          {
+            "code": "126323",
+            "display": "IAUC180"
+          },
+          {
+            "code": "126324",
+            "display": "IAUCBN"
+          },
+          {
+            "code": "126325",
+            "display": "IAUC60BN"
+          },
+          {
+            "code": "126326",
+            "display": "IAUC90BN"
+          },
+          {
+            "code": "126327",
+            "display": "IAUC180BN"
+          },
+          {
+            "code": "126370",
+            "display": "Time of Peak Concentration"
+          },
+          {
+            "code": "126372",
+            "display": "Time of Leading Half-Peak Concentration"
+          },
+          {
+            "code": "126371",
+            "display": "Bolus Arrival Time"
+          },
+          {
+            "code": "113069",
+            "display": "Time To Peak"
+          },
+          {
+            "code": "126374",
+            "display": "Temporal Derivative Threshold"
+          },
+          {
+            "code": "126375",
+            "display": "Maximum Slope"
+          },
+          {
+            "code": "126376",
+            "display": "Maximum Difference"
+          },
+          {
+            "code": "126377",
+            "display": "Tracer Concentration"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "FetalAnatomySurveyAssessmentFaceAndNeck",
+  "id": "dicom-cid-12042-FetalAnatomySurveyAssessmentFaceAndNeck",
+  "description": "Fetal Anatomy Survey Assessment - Face and Neck",
+  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-cid-12042-FetalAnatomySurveyAssessmentFaceAndNeck",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1552"
+    }
+  ],
+  "version": "20251113",
+  "title": "Fetal Anatomy Survey Assessment - Face and Neck",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "52795006",
+            "display": "Forehead"
+          },
+          {
+            "code": "363654007",
+            "display": "Orbit"
+          },
+          {
+            "code": "81745001",
+            "display": "Eyeball"
+          },
+          {
+            "code": "78076003",
+            "display": "Eye Lens"
+          },
+          {
+            "code": "74386004",
+            "display": "Nasal bone"
+          },
+          {
+            "code": "45206002",
+            "display": "Nose"
+          },
+          {
+            "code": "1797002",
+            "display": "Nostril"
+          },
+          {
+            "code": "72914001",
+            "display": "Palate"
+          },
+          {
+            "code": "70925003",
+            "display": "Maxilla"
+          },
+          {
+            "code": "11681001",
+            "display": "Upper lip"
+          },
+          {
+            "code": "32032005",
+            "display": "Lower Lip"
+          },
+          {
+            "code": "91609006",
+            "display": "Mandible"
+          },
+          {
+            "code": "21974007",
+            "display": "Tongue"
+          },
+          {
+            "code": "117590005",
+            "display": "Ear"
+          },
+          {
+            "code": "45048000",
+            "display": "Neck"
+          },
+          {
+            "code": "1187337007",
+            "display": "Jugular fossa"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "T-D1110",
+            "display": "Forehead"
+          },
+          {
+            "code": "T-D14AE",
+            "display": "Orbit"
+          },
+          {
+            "code": "T-AA770",
+            "display": "Eyeball"
+          },
+          {
+            "code": "T-AA700",
+            "display": "Eye Lens"
+          },
+          {
+            "code": "T-11149",
+            "display": "Nasal bone"
+          },
+          {
+            "code": "T-21000",
+            "display": "Nose"
+          },
+          {
+            "code": "T-21310",
+            "display": "Nostril"
+          },
+          {
+            "code": "T-51100",
+            "display": "Palate"
+          },
+          {
+            "code": "T-11170",
+            "display": "Maxilla"
+          },
+          {
+            "code": "T-52100",
+            "display": "Upper lip"
+          },
+          {
+            "code": "T-52200",
+            "display": "Lower Lip"
+          },
+          {
+            "code": "T-11180",
+            "display": "Mandible"
+          },
+          {
+            "code": "T-53000",
+            "display": "Tongue"
+          },
+          {
+            "code": "T-AB001",
+            "display": "Ear"
+          },
+          {
+            "code": "T-D1600",
+            "display": "Neck"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0016540",
+            "display": "Forehead"
+          },
+          {
+            "code": "C0029180",
+            "display": "Orbit"
+          },
+          {
+            "code": "C0229242",
+            "display": "Eyeball"
+          },
+          {
+            "code": "C0023317",
+            "display": "Eye Lens"
+          },
+          {
+            "code": "C0027422",
+            "display": "Nasal bone"
+          },
+          {
+            "code": "C0028429",
+            "display": "Nose"
+          },
+          {
+            "code": "C0595944",
+            "display": "Nostril"
+          },
+          {
+            "code": "C0700374",
+            "display": "Palate"
+          },
+          {
+            "code": "C0024947",
+            "display": "Maxilla"
+          },
+          {
+            "code": "C0458582",
+            "display": "Upper lip"
+          },
+          {
+            "code": "C0458583",
+            "display": "Lower Lip"
+          },
+          {
+            "code": "C0024687",
+            "display": "Mandible"
+          },
+          {
+            "code": "C0040408",
+            "display": "Tongue"
+          },
+          {
+            "code": "C0013443",
+            "display": "Ear"
+          },
+          {
+            "code": "C0027530",
+            "display": "Neck"
+          },
+          {
+            "code": "C0927941",
+            "display": "Jugular fossa"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "131373",
+            "display": "Midsagittal facial profile"
+          },
+          {
+            "code": "131372",
+            "display": "Retronasaltriangle"
+          },
+          {
+            "code": "131375",
+            "display": "Jugular lymphatic sac"
+          }
+        ]
+      }
+    ]
+  }
+}

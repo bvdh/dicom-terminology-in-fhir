@@ -33,21 +33,18 @@ def main(args=None):
     canonicalVersion = getCanonicalVersion( dicom_path )
 
     writeUidsCodeSystemAndValueSets( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
-
     writeDataElementsCodeSystemAndValueSets( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
     writeDcmCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
     writeVrCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
-
     writeValueTypeDefinitionCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
-
     writeAnatomicalRegionAndBodyPartValueSets( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
+
+    # 202603 - alignment with DICOM - define Valuesets here
+    writeCidValueSets( fsh_path=fsh_path, dicom_path=dicom_path )
 
     # writeEnumeratedFields( fsh_path=fsh_path, dicom_path=dicom_path )
 
-    # 20250915 - work with Davids Valuesets for now
-    # removed in favor of downloaded ValueSets
-    # writeCidValueSets( fsh_path=fsh_path, dicom_path=dicom_path )
-    downloadAllDicomValueSets( resources_path=resources_path )
+    # downloadAllDicomValueSets( resources_path=resources_path )
     
     # writeVariableLists( fsh_path=fsh_path, dicom_path=dicom_path )
     

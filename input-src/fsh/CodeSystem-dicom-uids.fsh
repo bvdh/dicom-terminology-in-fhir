@@ -3,7 +3,7 @@ Id: dicom-uids
 Title: "DICOM® Unique Identifiers"
 Description: "DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1."
 * ^url = "http://dicom.nema.org/resources/CodeSystem/DICOM_UIDs"
-* ^version = "2025.4.20250919"
+* ^version = "2025.?.20251120"
 * ^caseSensitive = true
 * ^content = #complete
 * ^experimental = false
@@ -9945,6 +9945,96 @@ Description: "DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1."
 * #1.2.840.10008.6.1.155 ^property[1].valueString = "CID3604"
 * #1.2.840.10008.6.1.155 ^property[2].code = #retired
 * #1.2.840.10008.6.1.155 ^property[2].valueString = "false"
+
+
+* #1.2.840.10008.6.1.1550 "Fetal Anatomy Survey Assessment" "Fetal Anatomy Survey Assessment with identifier CID 12040"
+* #1.2.840.10008.6.1.1550 ^property[0].code = #type
+* #1.2.840.10008.6.1.1550 ^property[0].valueString  = "Context Group UID"
+* #1.2.840.10008.6.1.1550 ^property[1].code = #keyword
+* #1.2.840.10008.6.1.1550 ^property[1].valueString = "CID12040"
+* #1.2.840.10008.6.1.1550 ^property[2].code = #retired
+* #1.2.840.10008.6.1.1550 ^property[2].valueString = "false"
+
+
+* #1.2.840.10008.6.1.1551 "Fetal Anatomy Survey Assessment - Head" "Fetal Anatomy Survey Assessment - Head with identifier CID 12041"
+* #1.2.840.10008.6.1.1551 ^property[0].code = #type
+* #1.2.840.10008.6.1.1551 ^property[0].valueString  = "Context Group UID"
+* #1.2.840.10008.6.1.1551 ^property[1].code = #keyword
+* #1.2.840.10008.6.1.1551 ^property[1].valueString = "CID12041"
+* #1.2.840.10008.6.1.1551 ^property[2].code = #retired
+* #1.2.840.10008.6.1.1551 ^property[2].valueString = "false"
+
+
+* #1.2.840.10008.6.1.1552 "Fetal Anatomy Survey Assessment - Face and Neck" "Fetal Anatomy Survey Assessment - Face and Neck with identifier CID 12042"
+* #1.2.840.10008.6.1.1552 ^property[0].code = #type
+* #1.2.840.10008.6.1.1552 ^property[0].valueString  = "Context Group UID"
+* #1.2.840.10008.6.1.1552 ^property[1].code = #keyword
+* #1.2.840.10008.6.1.1552 ^property[1].valueString = "CID12042"
+* #1.2.840.10008.6.1.1552 ^property[2].code = #retired
+* #1.2.840.10008.6.1.1552 ^property[2].valueString = "false"
+
+
+* #1.2.840.10008.6.1.1553 "Fetal Anatomy Survey Assessment - Chest" "Fetal Anatomy Survey Assessment - Chest with identifier CID 12043"
+* #1.2.840.10008.6.1.1553 ^property[0].code = #type
+* #1.2.840.10008.6.1.1553 ^property[0].valueString  = "Context Group UID"
+* #1.2.840.10008.6.1.1553 ^property[1].code = #keyword
+* #1.2.840.10008.6.1.1553 ^property[1].valueString = "CID12043"
+* #1.2.840.10008.6.1.1553 ^property[2].code = #retired
+* #1.2.840.10008.6.1.1553 ^property[2].valueString = "false"
+
+
+* #1.2.840.10008.6.1.1554 "Fetal Anatomy Survey Assessment - Heart" "Fetal Anatomy Survey Assessment - Heart with identifier CID 12044"
+* #1.2.840.10008.6.1.1554 ^property[0].code = #type
+* #1.2.840.10008.6.1.1554 ^property[0].valueString  = "Context Group UID"
+* #1.2.840.10008.6.1.1554 ^property[1].code = #keyword
+* #1.2.840.10008.6.1.1554 ^property[1].valueString = "CID12044"
+* #1.2.840.10008.6.1.1554 ^property[2].code = #retired
+* #1.2.840.10008.6.1.1554 ^property[2].valueString = "false"
+
+
+* #1.2.840.10008.6.1.1555 "Fetal Anatomy Survey Assessment - Abdomen and Pelvis" "Fetal Anatomy Survey Assessment - Abdomen and Pelvis with identifier CID 12045"
+* #1.2.840.10008.6.1.1555 ^property[0].code = #type
+* #1.2.840.10008.6.1.1555 ^property[0].valueString  = "Context Group UID"
+* #1.2.840.10008.6.1.1555 ^property[1].code = #keyword
+* #1.2.840.10008.6.1.1555 ^property[1].valueString = "CID12045"
+* #1.2.840.10008.6.1.1555 ^property[2].code = #retired
+* #1.2.840.10008.6.1.1555 ^property[2].valueString = "false"
+
+
+* #1.2.840.10008.6.1.1556 "Fetal Anatomy Survey Assessment - Spine" "Fetal Anatomy Survey Assessment - Spine with identifier CID 12046"
+* #1.2.840.10008.6.1.1556 ^property[0].code = #type
+* #1.2.840.10008.6.1.1556 ^property[0].valueString  = "Context Group UID"
+* #1.2.840.10008.6.1.1556 ^property[1].code = #keyword
+* #1.2.840.10008.6.1.1556 ^property[1].valueString = "CID12046"
+* #1.2.840.10008.6.1.1556 ^property[2].code = #retired
+* #1.2.840.10008.6.1.1556 ^property[2].valueString = "false"
+
+
+* #1.2.840.10008.6.1.1557 "Fetal Anatomy Survey Assessment - Extremities" "Fetal Anatomy Survey Assessment - Extremities with identifier CID 12047"
+* #1.2.840.10008.6.1.1557 ^property[0].code = #type
+* #1.2.840.10008.6.1.1557 ^property[0].valueString  = "Context Group UID"
+* #1.2.840.10008.6.1.1557 ^property[1].code = #keyword
+* #1.2.840.10008.6.1.1557 ^property[1].valueString = "CID12047"
+* #1.2.840.10008.6.1.1557 ^property[2].code = #retired
+* #1.2.840.10008.6.1.1557 ^property[2].valueString = "false"
+
+
+* #1.2.840.10008.6.1.1558 "Fetal Anatomy Survey Assessment - Maternal" "Fetal Anatomy Survey Assessment - Maternal with identifier CID 12048"
+* #1.2.840.10008.6.1.1558 ^property[0].code = #type
+* #1.2.840.10008.6.1.1558 ^property[0].valueString  = "Context Group UID"
+* #1.2.840.10008.6.1.1558 ^property[1].code = #keyword
+* #1.2.840.10008.6.1.1558 ^property[1].valueString = "CID12048"
+* #1.2.840.10008.6.1.1558 ^property[2].code = #retired
+* #1.2.840.10008.6.1.1558 ^property[2].valueString = "false"
+
+
+* #1.2.840.10008.6.1.1559 "Fetal Anatomy Survey Practice Guideline" "Fetal Anatomy Survey Practice Guideline with identifier CID 12049"
+* #1.2.840.10008.6.1.1559 ^property[0].code = #type
+* #1.2.840.10008.6.1.1559 ^property[0].valueString  = "Context Group UID"
+* #1.2.840.10008.6.1.1559 ^property[1].code = #keyword
+* #1.2.840.10008.6.1.1559 ^property[1].valueString = "CID12049"
+* #1.2.840.10008.6.1.1559 ^property[2].code = #retired
+* #1.2.840.10008.6.1.1559 ^property[2].valueString = "false"
 
 
 * #1.2.840.10008.6.1.156 "Arterial Source Location" "Arterial Source Location with identifier CID 3606"

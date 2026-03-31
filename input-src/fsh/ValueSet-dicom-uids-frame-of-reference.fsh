@@ -3,7 +3,7 @@ Id: dicom-uids-frame-of-reference
 Title: "DICOM® Well Known Frame of Reference UID Values"
 Description: "DICOM® Well-known Frames of Reference from DICOM PS3.6 Table A-2."
 * ^url = "http://dicom.nema.org/resources/CodeSystem/DICOM_UIS_WellknownFrameofReference"
-* ^version = "2025.4.20250919"
+* ^version = "2025.?.20251120"
 * ^experimental = false
 
 

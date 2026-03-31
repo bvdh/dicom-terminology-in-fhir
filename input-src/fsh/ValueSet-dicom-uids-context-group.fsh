@@ -3,7 +3,7 @@ Id: dicom-uids-context-group
 Title: "DICOM® Context Group UID Values"
 Description: "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3."
 * ^url = "http://dicom.nema.org/resources/CodeSystem/DICOM__UID_ContextGroups"
-* ^version = "2025.4.20250919"
+* ^version = "2025.?.20251120"
 * ^experimental = false
 
 
@@ -1454,3 +1454,13 @@ Description: "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3."
 * DICOM_UIDs#1.2.840.10008.6.1.1547 "RT Dose Calculation Algorithm Family"
 * DICOM_UIDs#1.2.840.10008.6.1.1548 "Dose Index for Dose Calibration"
 * DICOM_UIDs#1.2.840.10008.6.1.1549 "Ultrasound Attenuation Imaging Site"
+* DICOM_UIDs#1.2.840.10008.6.1.1550 "Fetal Anatomy Survey Assessment"
+* DICOM_UIDs#1.2.840.10008.6.1.1551 "Fetal Anatomy Survey Assessment - Head"
+* DICOM_UIDs#1.2.840.10008.6.1.1552 "Fetal Anatomy Survey Assessment - Face and Neck"
+* DICOM_UIDs#1.2.840.10008.6.1.1553 "Fetal Anatomy Survey Assessment - Chest"
+* DICOM_UIDs#1.2.840.10008.6.1.1554 "Fetal Anatomy Survey Assessment - Heart"
+* DICOM_UIDs#1.2.840.10008.6.1.1555 "Fetal Anatomy Survey Assessment - Abdomen and Pelvis"
+* DICOM_UIDs#1.2.840.10008.6.1.1556 "Fetal Anatomy Survey Assessment - Spine"
+* DICOM_UIDs#1.2.840.10008.6.1.1557 "Fetal Anatomy Survey Assessment - Extremities"
+* DICOM_UIDs#1.2.840.10008.6.1.1558 "Fetal Anatomy Survey Assessment - Maternal"
+* DICOM_UIDs#1.2.840.10008.6.1.1559 "Fetal Anatomy Survey Practice Guideline"

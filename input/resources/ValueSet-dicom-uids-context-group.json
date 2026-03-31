@@ -6,7 +6,7 @@
   "title": "DICOM® Context Group UID Values",
   "description": "DICOM® Context Group UID Values from DICOM PS3.6 Table A-3.",
   "url": "http://dicom.nema.org/resources/CodeSystem/DICOM__UID_ContextGroups",
-  "version": "2025.4.20250919",
+  "version": "2025.?.20251120",
   "experimental": false,
   "compose": {
     "include": [
@@ -5796,6 +5796,46 @@
           {
             "code": "1.2.840.10008.6.1.1549",
             "display": "Ultrasound Attenuation Imaging Site"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1550",
+            "display": "Fetal Anatomy Survey Assessment"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1551",
+            "display": "Fetal Anatomy Survey Assessment - Head"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1552",
+            "display": "Fetal Anatomy Survey Assessment - Face and Neck"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1553",
+            "display": "Fetal Anatomy Survey Assessment - Chest"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1554",
+            "display": "Fetal Anatomy Survey Assessment - Heart"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1555",
+            "display": "Fetal Anatomy Survey Assessment - Abdomen and Pelvis"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1556",
+            "display": "Fetal Anatomy Survey Assessment - Spine"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1557",
+            "display": "Fetal Anatomy Survey Assessment - Extremities"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1558",
+            "display": "Fetal Anatomy Survey Assessment - Maternal"
+          },
+          {
+            "code": "1.2.840.10008.6.1.1559",
+            "display": "Fetal Anatomy Survey Practice Guideline"
           }
         ]
       }

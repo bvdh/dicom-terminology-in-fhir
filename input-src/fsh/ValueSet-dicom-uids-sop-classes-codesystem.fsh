@@ -3,7 +3,7 @@ Id: dicom-uids-sop-classes-codesystem
 Title: "DICOM® SOP Classes"
 Description: "DICOM® SOP Classes extracted from DICOM PS3.6 Table A-1."
 * ^url = "http://dicom.nema.org/resources/CodeSystem/DICOM_UID_SOPClasses"
-* ^version = "2025.4.20250919"
+* ^version = "2025.?.20251120"
 * ^experimental = false
 
 

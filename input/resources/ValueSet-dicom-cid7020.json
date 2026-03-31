@@ -1,0 +1,10 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid7020",
+  "id": "dicom-cid7020",
+  "description": "\n1 A subset of this Context Group directly applicable to imaging reports is insect_CID_7000\n2 The LOINC Coding Scheme can be found athttp://loinc.org/",
+  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-cid7020",
+  "version": "None",
+  "title": "Document Title"
+}

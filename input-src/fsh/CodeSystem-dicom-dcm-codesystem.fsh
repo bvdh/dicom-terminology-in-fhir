@@ -16,7 +16,7 @@ Description: "DICOM® Controlled Terminology Definitions (Coding Scheme Designat
 * ^property[=].type = #boolean
 
 * ^url = "http://dicom.nema.org/resources/ontology/DCM"
-* ^version = "2025.4.20250919"
+* ^version = "2025.?.20251120"
 
 * #ANN "Annotation"
 """
@@ -18138,7 +18138,6 @@ retired
 * #113252 "Kurtosis diffusion model"
 """
 KurtosisDiffusionModel:
-.
 retired
 """
 * #113252 ^property[0].code = #keyword
@@ -18149,7 +18148,6 @@ retired
 * #113253 "Gamma distribution model"
 """
 GammaDistributionModel:
-.
 retired
 """
 * #113253 ^property[0].code = #keyword
@@ -18160,7 +18158,6 @@ retired
 * #113254 "Stretched exponential diffusion model"
 """
 StretchedExponentialDiffusionModel:
-.
 retired
 """
 * #113254 ^property[0].code = #keyword
@@ -18171,7 +18168,6 @@ retired
 * #113255 "Truncated Gaussian diffusion model"
 """
 TruncatedGaussianDiffusionModel:
-.
 retired
 """
 * #113255 ^property[0].code = #keyword
@@ -24340,6 +24336,36 @@ A report that is not complete.
 * #121363 ^property[1].code = #retired
 * #121363 ^property[1].valueBoolean  = false
 
+* #121367 "Composed from deformable registration"
+"""
+ComposedFromDeformableRegistration:
+The dose object was created by deforming a previously calculated RT Dose instance.
+"""
+* #121367 ^property[0].code = #keyword
+* #121367 ^property[0].valueString  = "ComposedFromDeformableRegistration"
+* #121367 ^property[1].code = #retired
+* #121367 ^property[1].valueBoolean  = false
+
+* #121368 "Composed from image series other than planning image series"
+"""
+ComposedFromImageSeriesOtherThanPlanningImageSeries:
+The dose object was calculated on an image series different from the planning image series of a previously existing RT Dose instance.
+"""
+* #121368 ^property[0].code = #keyword
+* #121368 ^property[0].valueString  = "ComposedFromImageSeriesOtherThanPlanningImageSeries"
+* #121368 ^property[1].code = #retired
+* #121368 ^property[1].valueBoolean  = false
+
+* #121369 "omposed from setup perturbation"
+"""
+OmposedFromSetupPerturbation:
+The dose object was calculated by taking into account the perturbations in patient setup compared to a previously calculated RT Dose instance.
+"""
+* #121369 ^property[0].code = #keyword
+* #121369 ^property[0].valueString  = "OmposedFromSetupPerturbation"
+* #121369 ^property[1].code = #retired
+* #121369 ^property[1].valueBoolean  = false
+
 * #121370 "Composed from prior doses"
 """
 ComposedFromPriorDoses:
@@ -24594,7 +24620,7 @@ Description of a population of measurements.
 * #121406 "Reference Authority"
 """
 ReferenceAuthority:
-Bibliographic or clinical reference for a Description of a population of measurements.
+Bibliographic or clinical reference, such as for a description of a population of measurements.
 """
 * #121406 ^property[0].code = #keyword
 * #121406 ^property[0].valueString  = "ReferenceAuthority"
@@ -33805,6 +33831,16 @@ A Zr 89 Df-CD45 PET Radiotracer.
 * #126520 ^property[0].valueString  = "Df-cd45^89^zr"
 * #126520 ^property[1].code = #retired
 * #126520 ^property[1].valueBoolean  = false
+
+* #126521 "Glucose C^11^"
+"""
+GlucoseC^11^:
+A C 11 Glucose PET Radiotracer.
+"""
+* #126521 ^property[0].code = #keyword
+* #126521 ^property[0].valueString  = "GlucoseC^11^"
+* #126521 ^property[1].code = #retired
+* #126521 ^property[1].valueBoolean  = false
 
 * #126600 "^44^Scandium"
 """
@@ -51047,4 +51083,164 @@ The ratio of the peak forward flow during the S-wave to the peak retrograde flow
 * #131354 ^property[0].valueString  = "DvS/a"
 * #131354 ^property[1].code = #retired
 * #131354 ^property[1].valueBoolean  = false
+
+* #131360 "Rejection Withdrawn"
+"""
+RejectionWithdrawn:
+List of objects that were previously rejected but whose rejection has been withdrawn, potentially restoring their accessibility.
+"""
+* #131360 ^property[0].code = #keyword
+* #131360 ^property[0].valueString  = "RejectionWithdrawn"
+* #131360 ^property[1].code = #retired
+* #131360 ^property[1].valueBoolean  = false
+
+* #131370 "Fetal Anatomy Survey"
+"""
+FetalAnatomySurvey:
+Report section for assessments of fetal anatomy as normal/abnormal.
+"""
+* #131370 ^property[0].code = #keyword
+* #131370 ^property[0].valueString  = "FetalAnatomySurvey"
+* #131370 ^property[1].code = #retired
+* #131370 ^property[1].valueBoolean  = false
+
+* #131371 "Abdominal attachment of umbilical cord"
+"""
+AbdominalAttachmentOfUmbilicalCord:
+The structural attachment of the umbilical cord to the abdomen of the fetus.
+"""
+* #131371 ^property[0].code = #keyword
+* #131371 ^property[0].valueString  = "AbdominalAttachmentOfUmbilicalCord"
+* #131371 ^property[1].code = #retired
+* #131371 ^property[1].valueBoolean  = false
+
+* #131372 "Retronasal triangle"
+"""
+RetronasalTriangle:
+A sonographic landmark comprised of the three echogenic lines formed by the two frontal processes of the maxilla and the palate visualized in the coronal view of the fetal face posterior to the nose. Relevant to early screening for cleft palate.
+"""
+* #131372 ^property[0].code = #keyword
+* #131372 ^property[0].valueString  = "RetronasalTriangle"
+* #131372 ^property[1].code = #retired
+* #131372 ^property[1].valueBoolean  = false
+
+* #131373 "Midsagittal facial profile"
+"""
+MidsagittalFacialProfile:
+A view of the face in a sagittal plane roughly on the left-right line of symmetry (i.e. centered on the nose).
+"""
+* #131373 ^property[0].code = #keyword
+* #131373 ^property[0].valueString  = "MidsagittalFacialProfile"
+* #131373 ^property[1].code = #retired
+* #131373 ^property[1].valueBoolean  = false
+
+* #131374 "Cardiac axis"
+"""
+CardiacAxis:
+A qualitative assessment of the orientation of the axis of the heart (i.e. the line roughly from the apex of the left ventricle to the aortic valve). Typically oriented 30 to 60 degrees to the left of vertical.
+"""
+* #131374 ^property[0].code = #keyword
+* #131374 ^property[0].valueString  = "CardiacAxis"
+* #131374 ^property[1].code = #retired
+* #131374 ^property[1].valueBoolean  = false
+
+* #131375 "Jugular lymphatic sac"
+"""
+JugularLymphaticSac:
+An embryonic structure near the internal jugular vein that seeds lymphatic vessels and nodes of the head, neck, and upper body.
+"""
+* #131375 ^property[0].code = #keyword
+* #131375 ^property[0].valueString  = "JugularLymphaticSac"
+* #131375 ^property[1].code = #retired
+* #131375 ^property[1].valueBoolean  = false
+
+* #131376 "Transthalamic coronal view"
+"""
+TransthalamicCoronalView:
+A coronal view of the fetal head in a plane that passes through the thalami that is expected to show the interhemispheric fissure, the cavum septum pellucidum, the corpus callosum, and the frontal horns of the lateral ventricles.
+"""
+* #131376 ^property[0].code = #keyword
+* #131376 ^property[0].valueString  = "TransthalamicCoronalView"
+* #131376 ^property[1].code = #retired
+* #131376 ^property[1].valueBoolean  = false
+
+* #131377 "Midsagittal view"
+"""
+MidsagittalView:
+A sagittal view of the head passing through the left-right midline of the brain.
+"""
+* #131377 ^property[0].code = #keyword
+* #131377 ^property[0].valueString  = "MidsagittalView"
+* #131377 ^property[1].code = #retired
+* #131377 ^property[1].valueBoolean  = false
+
+* #131378 "High short axis view"
+"""
+HighShortAxisView:
+A short axis view that passes through the base of the heart that is expected to show the aortic valve (en face) , the right ventricular outflow tract and the pulmonary artery.
+"""
+* #131378 ^property[0].code = #keyword
+* #131378 ^property[0].valueString  = "HighShortAxisView"
+* #131378 ^property[1].code = #retired
+* #131378 ^property[1].valueBoolean  = false
+
+* #131379 "Antegrade ductus venosus"
+"""
+AntegradeDuctusVenosus:
+Antegrade blood flow in the ductus venosus.
+"""
+* #131379 ^property[0].code = #keyword
+* #131379 ^property[0].valueString  = "AntegradeDuctusVenosus"
+* #131379 ^property[1].code = #retired
+* #131379 ^property[1].valueBoolean  = false
+
+* #131380 "ISUOG 1st Trimester 2023"
+"""
+Isuog1stTrimester2023:
+Practice Guideline ISUOG, 2023. ISUOG Practice Guidelines (updated) : performance of 11-14-week ultrasound scan. Ultrasound ObstetGynecol 2023; 61:127-143.doi:10.1002/uog.26106
+"""
+* #131380 ^property[0].code = #keyword
+* #131380 ^property[0].valueString  = "Isuog1stTrimester2023"
+* #131380 ^property[1].code = #retired
+* #131380 ^property[1].valueBoolean  = false
+
+* #131381 "ISUOG 2nd Trimester 2022"
+"""
+Isuog2ndTrimester2022:
+Practice Guideline ISUOG, 2022. ISUOG Practice Guidelines (updated) : performance of the routine mid-trimester fetal ultrasound scan. Ultrasound ObstetGynecol 2022; 59:840-856.doi:10.1002/uog.24888
+"""
+* #131381 ^property[0].code = #keyword
+* #131381 ^property[0].valueString  = "Isuog2ndTrimester2022"
+* #131381 ^property[1].code = #retired
+* #131381 ^property[1].valueBoolean  = false
+
+* #131382 "ISUOG 3rd Trimester 2024"
+"""
+Isuog3rdTrimester2024:
+Practice Guideline ISUOG, 2024. ISUOG Practice Guidelines: performance of third-trimester obstetric ultrasound scan. Ultrasound ObstetGynecol 2024; 63:131-147.10.1002/uog.27538
+"""
+* #131382 ^property[0].code = #keyword
+* #131382 ^property[0].valueString  = "Isuog3rdTrimester2024"
+* #131382 ^property[1].code = #retired
+* #131382 ^property[1].valueBoolean  = false
+
+* #131383 "JSUM Fetal Morphology 2021"
+"""
+JsumFetalMorphology2021:
+Practice Guideline JSUM. 2021. JSUM Standard evaluation method for fetal morphology using ultrasound.http://www.jsum.or.jp/uploads_files/guideline/shindanbosyuu/fetal_classification.pdf
+"""
+* #131383 ^property[0].code = #keyword
+* #131383 ^property[0].valueString  = "JsumFetalMorphology2021"
+* #131383 ^property[1].code = #retired
+* #131383 ^property[1].valueBoolean  = false
+
+* #131384 "JDMS Fetal Anatomy 2014"
+"""
+JdmsFetalAnatomy2014:
+Consensus Report Wax, J et al. Consensus Report on the Detailed Fetal Anatomic Ultrasound Examination: Indications, Components, and Qualifications. Journal of Diagnostic Medical Sonography, Vol 30, Issue 3, May 2014, 107-113.10.1177/8756479314532221
+"""
+* #131384 ^property[0].code = #keyword
+* #131384 ^property[0].valueString  = "JdmsFetalAnatomy2014"
+* #131384 ^property[1].code = #retired
+* #131384 ^property[1].valueBoolean  = false
 

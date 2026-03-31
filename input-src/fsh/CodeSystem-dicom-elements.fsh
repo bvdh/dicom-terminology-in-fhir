@@ -7,7 +7,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * ^experimental = false
 
 * ^url = "http://dicom.nema.org/resources/CodeSystem/DICOM_Elements"
-* ^version = "2025.4.20250919"
+* ^version = "2025.?.20251120"
 
 * ^property[+].code = #tag
 * ^property[=].description = "tag"

@@ -27041,7 +27041,7 @@
     {
       "code": "113252",
       "display": "Kurtosis diffusion model",
-      "definition": "KurtosisDiffusionModel:\n.\nretired",
+      "definition": "KurtosisDiffusionModel:\nretired",
       "property": [
         {
           "code": "keyword",
@@ -27056,7 +27056,7 @@
     {
       "code": "113253",
       "display": "Gamma distribution model",
-      "definition": "GammaDistributionModel:\n.\nretired",
+      "definition": "GammaDistributionModel:\nretired",
       "property": [
         {
           "code": "keyword",
@@ -27071,7 +27071,7 @@
     {
       "code": "113254",
       "display": "Stretched exponential diffusion model",
-      "definition": "StretchedExponentialDiffusionModel:\n.\nretired",
+      "definition": "StretchedExponentialDiffusionModel:\nretired",
       "property": [
         {
           "code": "keyword",
@@ -27086,7 +27086,7 @@
     {
       "code": "113255",
       "display": "Truncated Gaussian diffusion model",
-      "definition": "TruncatedGaussianDiffusionModel:\n.\nretired",
+      "definition": "TruncatedGaussianDiffusionModel:\nretired",
       "property": [
         {
           "code": "keyword",
@@ -36264,6 +36264,51 @@
       ]
     },
     {
+      "code": "121367",
+      "display": "Composed from deformable registration",
+      "definition": "ComposedFromDeformableRegistration:\nThe dose object was created by deforming a previously calculated RT Dose instance.",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ComposedFromDeformableRegistration"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "121368",
+      "display": "Composed from image series other than planning image series",
+      "definition": "ComposedFromImageSeriesOtherThanPlanningImageSeries:\nThe dose object was calculated on an image series different from the planning image series of a previously existing RT Dose instance.",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "ComposedFromImageSeriesOtherThanPlanningImageSeries"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "121369",
+      "display": "omposed from setup perturbation",
+      "definition": "OmposedFromSetupPerturbation:\nThe dose object was calculated by taking into account the perturbations in patient setup compared to a previously calculated RT Dose instance.",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "OmposedFromSetupPerturbation"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
       "code": "121370",
       "display": "Composed from prior doses",
       "definition": "ComposedFromPriorDoses:\nThe dose object created was calculated by summation of existing, previously calculated, RT Dose instances.",
@@ -36641,7 +36686,7 @@
     {
       "code": "121406",
       "display": "Reference Authority",
-      "definition": "ReferenceAuthority:\nBibliographic or clinical reference for a Description of a population of measurements.",
+      "definition": "ReferenceAuthority:\nBibliographic or clinical reference, such as for a description of a population of measurements.",
       "property": [
         {
           "code": "keyword",
@@ -50416,6 +50461,21 @@
         {
           "code": "keyword",
           "valueString": "Df-cd45^89^zr"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "126521",
+      "display": "Glucose C^11^",
+      "definition": "GlucoseC^11^:\nA C 11 Glucose PET Radiotracer.",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "GlucoseC^11^"
         },
         {
           "code": "retired",
@@ -76087,6 +76147,246 @@
           "valueBoolean": false
         }
       ]
+    },
+    {
+      "code": "131360",
+      "display": "Rejection Withdrawn",
+      "definition": "RejectionWithdrawn:\nList of objects that were previously rejected but whose rejection has been withdrawn, potentially restoring their accessibility.",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RejectionWithdrawn"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "131370",
+      "display": "Fetal Anatomy Survey",
+      "definition": "FetalAnatomySurvey:\nReport section for assessments of fetal anatomy as normal/abnormal.",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "FetalAnatomySurvey"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "131371",
+      "display": "Abdominal attachment of umbilical cord",
+      "definition": "AbdominalAttachmentOfUmbilicalCord:\nThe structural attachment of the umbilical cord to the abdomen of the fetus.",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "AbdominalAttachmentOfUmbilicalCord"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "131372",
+      "display": "Retronasal triangle",
+      "definition": "RetronasalTriangle:\nA sonographic landmark comprised of the three echogenic lines formed by the two frontal processes of the maxilla and the palate visualized in the coronal view of the fetal face posterior to the nose. Relevant to early screening for cleft palate.",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "RetronasalTriangle"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "131373",
+      "display": "Midsagittal facial profile",
+      "definition": "MidsagittalFacialProfile:\nA view of the face in a sagittal plane roughly on the left-right line of symmetry (i.e. centered on the nose).",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "MidsagittalFacialProfile"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "131374",
+      "display": "Cardiac axis",
+      "definition": "CardiacAxis:\nA qualitative assessment of the orientation of the axis of the heart (i.e. the line roughly from the apex of the left ventricle to the aortic valve). Typically oriented 30 to 60 degrees to the left of vertical.",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "CardiacAxis"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "131375",
+      "display": "Jugular lymphatic sac",
+      "definition": "JugularLymphaticSac:\nAn embryonic structure near the internal jugular vein that seeds lymphatic vessels and nodes of the head, neck, and upper body.",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "JugularLymphaticSac"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "131376",
+      "display": "Transthalamic coronal view",
+      "definition": "TransthalamicCoronalView:\nA coronal view of the fetal head in a plane that passes through the thalami that is expected to show the interhemispheric fissure, the cavum septum pellucidum, the corpus callosum, and the frontal horns of the lateral ventricles.",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "TransthalamicCoronalView"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "131377",
+      "display": "Midsagittal view",
+      "definition": "MidsagittalView:\nA sagittal view of the head passing through the left-right midline of the brain.",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "MidsagittalView"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "131378",
+      "display": "High short axis view",
+      "definition": "HighShortAxisView:\nA short axis view that passes through the base of the heart that is expected to show the aortic valve (en face) , the right ventricular outflow tract and the pulmonary artery.",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "HighShortAxisView"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "131379",
+      "display": "Antegrade ductus venosus",
+      "definition": "AntegradeDuctusVenosus:\nAntegrade blood flow in the ductus venosus.",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "AntegradeDuctusVenosus"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "131380",
+      "display": "ISUOG 1st Trimester 2023",
+      "definition": "Isuog1stTrimester2023:\nPractice Guideline ISUOG, 2023. ISUOG Practice Guidelines (updated) : performance of 11-14-week ultrasound scan. Ultrasound ObstetGynecol 2023; 61:127-143.doi:10.1002/uog.26106",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Isuog1stTrimester2023"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "131381",
+      "display": "ISUOG 2nd Trimester 2022",
+      "definition": "Isuog2ndTrimester2022:\nPractice Guideline ISUOG, 2022. ISUOG Practice Guidelines (updated) : performance of the routine mid-trimester fetal ultrasound scan. Ultrasound ObstetGynecol 2022; 59:840-856.doi:10.1002/uog.24888",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Isuog2ndTrimester2022"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "131382",
+      "display": "ISUOG 3rd Trimester 2024",
+      "definition": "Isuog3rdTrimester2024:\nPractice Guideline ISUOG, 2024. ISUOG Practice Guidelines: performance of third-trimester obstetric ultrasound scan. Ultrasound ObstetGynecol 2024; 63:131-147.10.1002/uog.27538",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "Isuog3rdTrimester2024"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "131383",
+      "display": "JSUM Fetal Morphology 2021",
+      "definition": "JsumFetalMorphology2021:\nPractice Guideline JSUM. 2021. JSUM Standard evaluation method for fetal morphology using ultrasound.http://www.jsum.or.jp/uploads_files/guideline/shindanbosyuu/fetal_classification.pdf",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "JsumFetalMorphology2021"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "131384",
+      "display": "JDMS Fetal Anatomy 2014",
+      "definition": "JdmsFetalAnatomy2014:\nConsensus Report Wax, J et al. Consensus Report on the Detailed Fetal Anatomic Ultrasound Examination: Indications, Components, and Qualifications. Journal of Diagnostic Medical Sonography, Vol 30, Issue 3, May 2014, 107-113.10.1177/8756479314532221",
+      "property": [
+        {
+          "code": "keyword",
+          "valueString": "JdmsFetalAnatomy2014"
+        },
+        {
+          "code": "retired",
+          "valueBoolean": false
+        }
+      ]
     }
   ],
   "caseSensitive": true,
@@ -76103,6 +76403,6 @@
       "type": "boolean"
     }
   ],
-  "version": "2025.4.20250919",
-  "count": 5072
+  "version": "2025.?.20251120",
+  "count": 5092
 }

@@ -1,0 +1,10 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid3673",
+  "id": "dicom-cid3673",
+  "description": "None",
+  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-cid3673",
+  "version": "None",
+  "title": "Diagnosis (Retired)"
+}

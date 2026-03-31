@@ -7,7 +7,7 @@
   "description": "DICOM® File Meta elements extracted from DICOM PS3.6 Table 7-1.",
   "url": "http://dicom.nema.org/resources/ValueSet/DICOM_File_Meta_Elements",
   "experimental": false,
-  "version": "2025.4.20250919",
+  "version": "2025.?.20251120",
   "compose": {
     "include": [
       {

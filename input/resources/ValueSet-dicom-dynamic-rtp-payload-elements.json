@@ -7,7 +7,7 @@
   "description": "DICOM® Dynamic RTP Payload elements extracted from DICOM PS3.6 Table 9-1.",
   "url": "http://dicom.nema.org/resources/ValueSet/DICOM_Dynamic_RTP_Payload_Elements",
   "experimental": false,
-  "version": "2025.4.20250919",
+  "version": "2025.?.20251120",
   "compose": {
     "include": [
       {

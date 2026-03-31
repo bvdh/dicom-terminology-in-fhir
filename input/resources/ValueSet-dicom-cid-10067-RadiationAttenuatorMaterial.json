@@ -1,0 +1,88 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RadiationAttenuatorMaterial",
+  "id": "dicom-cid-10067-RadiationAttenuatorMaterial",
+  "description": "Radiation Attenuator Material",
+  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-cid-10067-RadiationAttenuatorMaterial",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1161"
+    }
+  ],
+  "version": "20250907",
+  "title": "Radiation Attenuator Material",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-cid-10006-XRayFilterMaterial"
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "256501007",
+            "display": "Carbon Fiber"
+          },
+          {
+            "code": "88014003",
+            "display": "Beryllium"
+          },
+          {
+            "code": "427811002",
+            "display": "Polymethyl methacrylate"
+          },
+          {
+            "code": "412154003",
+            "display": "Polycarbonate"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/srt",
+        "concept": [
+          {
+            "code": "F-61202",
+            "display": "Carbon Fiber"
+          },
+          {
+            "code": "C-12300",
+            "display": "Beryllium"
+          },
+          {
+            "code": "C-2A171",
+            "display": "Polymethyl methacrylate"
+          },
+          {
+            "code": "F-61DF8",
+            "display": "Polycarbonate"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0108411",
+            "display": "Carbon Fiber"
+          },
+          {
+            "code": "C0064329",
+            "display": "Kevlar Aramid Fiber"
+          },
+          {
+            "code": "C0005533",
+            "display": "Polymethyl methacrylate"
+          },
+          {
+            "code": "C0175905",
+            "display": "Polycarbonate"
+          }
+        ]
+      }
+    ]
+  }
+}

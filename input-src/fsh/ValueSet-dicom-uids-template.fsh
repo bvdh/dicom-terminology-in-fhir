@@ -3,7 +3,7 @@ Id: dicom-uids-template
 Title: "DICOM® Template UID Values"
 Description: "DICOM® Template UID Values from DICOM PS3.6 Table A-4."
 * ^url = "http://dicom.nema.org/resources/CodeSystem/DICOM_UID_Template"
-* ^version = "2025.4.20250919"
+* ^version = "2025.?.20251120"
 * ^experimental = false
 
 

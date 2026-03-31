@@ -1,0 +1,10 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid3672",
+  "id": "dicom-cid3672",
+  "description": "\n1 A prior version of this Context Group used codes from the SCP-ECG vocabulary.\n2 Further information athttp://www.hrsonline.org/Practice-Guidance/Clinical-Guidelines-Documents/2002-The-Revised-NASPE-BPEG-Generic-Code-for-Antibradycardia-AdaptiveRate-and-Multisite-Pacing",
+  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-cid3672",
+  "version": "None",
+  "title": "Pacemaker"
+}

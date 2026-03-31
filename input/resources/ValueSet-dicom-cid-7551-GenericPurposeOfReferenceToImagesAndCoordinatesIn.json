@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GenericPurposeOfReferenceToImagesAndCoordinatesInMeasurement",
+  "id": "dicom-cid-7551-GenericPurposeOfReferenceToImagesAndCoordinatesIn",
+  "description": "Generic Purpose of Reference to Images and Coordinates in Measurement",
+  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-cid-7551-GenericPurposeOfReferenceToImagesAndCoordinatesIn",
+  "version": "None",
+  "title": "Generic Purpose of Reference to Images and Coordinates in Measurement",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-cid-7552-GenericPurposeOfReferenceToImagesInMeasurement"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-cid-7553-GenericPurposeOfReferenceToCoordinatesInMeasureme"
+        ]
+      }
+    ]
+  }
+}

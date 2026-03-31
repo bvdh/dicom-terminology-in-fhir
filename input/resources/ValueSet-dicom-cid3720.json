@@ -1,0 +1,10 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Cid3720",
+  "id": "dicom-cid3720",
+  "description": "None",
+  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-cid3720",
+  "version": "None",
+  "title": "Cardiac History Date (Retired)"
+}

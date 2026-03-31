@@ -2,7 +2,7 @@ import os
 from typing import List
 import xml.etree.ElementTree as ET
 
-from doc_book_tools import getDataDicomTable, getElementText, getTableData,  getVariableListEntries, toCamelCase
+from doc_book_tools import cleanText, getDataDicomTable, getElementText, getTableData,  getVariableListEntries, toCamelCase
 
 FHIR_SYSTEM_DICTIONARY = dict(
             ACR  = 'http://terminology.hl7.org/CodeSystem/ACR',
@@ -61,16 +61,19 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
             
             # Extract title
             title_element = section.find('.//db:title', ns)
-            title_text = cleanTextFromElement(title_element)
+            title_text = getElementText(title_element, dicom_path )
+            title_text = title_text if len(title_text)>0 else cleanText(title_element.text)
             title_text  = title_text[:1].upper() + title_text[1:]
 
             # Extract caption
             caption_element = section.find('.//db:caption', ns)
-            caption_text = cleanTextFromElement( caption_element )
+            caption_text = getElementText(caption_element, dicom_path ) if caption_element is not None else None
+            caption_text = caption_text if caption_text and len(caption_text)>0 else cleanText(caption_element.text) if caption_element is not None else None
 
             # Extract note
             note_element = section.find('.//db:note', ns)
-            note_text = getElementText(note_element)
+            note_text = getElementText(note_element, dicom_path ) if note_element is not None else None
+            note_text = note_text if note_text and len(note_text)>0 else cleanText(note_element.text) if note_element is not None else None   
 
             # Extract description
             description_elements = section.findall('.//db:para', ns)
@@ -80,7 +83,7 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
                 description_text = note_text
 
             # get keywords
-            defined_terms = getVariableListEntries(section )
+            defined_terms = getVariableListEntries(section, dicom_path )
             keywords = defined_terms.get('Keyword:', [])
             keyword  = keywords[0] if isinstance(keywords, List) and len(keywords) > 0 else f'{toCamelCase(section_label)}'
             keyword  = keyword[:1].upper() + keyword[1:]
@@ -94,7 +97,7 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
 
             if fhir_id is not None:
                 # Retrieve values
-                headers, values = getTableData(section) 
+                headers, values = getTableData(section, dicom_path) 
 
                 header = headers[0] if headers else []
                 codingSchemeIndex = header.index('Coding Scheme Designator') if 'Coding Scheme Designator' in header else -1
@@ -127,14 +130,14 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
                     writtenCodes = set()
                     for value in values:
                         if ( value[0].startswith('Include') ):
-                            include = value[0].replace('Include (', '').replace(')', '').strip()
+                            include = value[0].replace('Include', '').replace(')', '').strip()
                             includes.append(include)
                             fsh_file.write(f'* include codes from valueset {include.replace('sect_','')}\n\n')
                         else:
                             if codingSchemeIndex >= 0 and codeValueIndex >= 0 and codeMeaningIndex >= 0:
-                                coding_scheme = value[codingSchemeIndex].strip()
-                                code = value[codeValueIndex].strip()
-                                codeMeaning = value[codeMeaningIndex].strip()
+                                coding_scheme = value[codingSchemeIndex].strip() if len(value) > codingSchemeIndex else None
+                                code          = value[codeValueIndex].strip()    if len(value) > codeValueIndex else None
+                                codeMeaning   = value[codeMeaningIndex].strip()  if len(value) > codeMeaningIndex else None
                                 system = FHIR_SYSTEM_DICTIONARY.get(coding_scheme, None)
                                 
                                 if system is not None:

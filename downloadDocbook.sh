@@ -1,2 +1,1 @@
-wget -r https://dicom.nema.org/medical/dicom/2025d/
-wget -r https://dicom.nema.org/medical/dicom/current/
+wget -m https://dicom.nema.org/medical/dicom/

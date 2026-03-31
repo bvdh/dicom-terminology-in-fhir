@@ -5,9 +5,10 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.uv.dicom-terminology
 canonical:  http://dicom.nema.org/resources/CodeSystem/
+# canonical:  https://dicom.nema.org/medical/dicom/current/output/fhir/
 name: DICOM Terminology in FHIR
 status: draft # draft | active | retired | unknown
-version: 2025.2.20250711 #2025c
+version: 2025.11.15 #2025e
 fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
 releaseLabel: ci-build

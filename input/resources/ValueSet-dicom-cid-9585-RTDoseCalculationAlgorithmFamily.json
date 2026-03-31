@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "RTDoseCalculationAlgorithmFamily",
+  "id": "dicom-cid-9585-RTDoseCalculationAlgorithmFamily",
+  "description": "RT Dose Calculation Algorithm Family",
+  "url": "http://dicom.nema.org/resources/CodeSystem//ValueSet/dicom-cid-9585-RTDoseCalculationAlgorithmFamily",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.840.10008.6.1.1547"
+    }
+  ],
+  "version": "20250907",
+  "title": "RT Dose Calculation Algorithm Family",
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.nlm.nih.gov/mesh",
+        "concept": [
+          {
+            "code": "D009010",
+            "display": "Monte Carlo Method"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/umls",
+        "concept": [
+          {
+            "code": "C0026507",
+            "display": "Monte Carlo Method"
+          }
+        ]
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "131320",
+            "display": "Linear Boltzmann Transport Equation"
+          },
+          {
+            "code": "131321",
+            "display": "Pencil Beam Convolution"
+          },
+          {
+            "code": "131324",
+            "display": "Convolution Superposition"
+          },
+          {
+            "code": "131322",
+            "display": "TMR and OAR Ratios"
+          },
+          {
+            "code": "131323",
+            "display": "AAPM TG-43"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -20964,6 +20964,196 @@
       ]
     },
     {
+      "code": "1.2.840.10008.6.1.1550",
+      "display": "Fetal Anatomy Survey Assessment",
+      "definition": "Fetal Anatomy Survey Assessment with identifier CID 12040",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Context Group UID"
+        },
+        {
+          "code": "keyword",
+          "valueString": "CID12040"
+        },
+        {
+          "code": "retired",
+          "valueString": "false"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.6.1.1551",
+      "display": "Fetal Anatomy Survey Assessment - Head",
+      "definition": "Fetal Anatomy Survey Assessment - Head with identifier CID 12041",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Context Group UID"
+        },
+        {
+          "code": "keyword",
+          "valueString": "CID12041"
+        },
+        {
+          "code": "retired",
+          "valueString": "false"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.6.1.1552",
+      "display": "Fetal Anatomy Survey Assessment - Face and Neck",
+      "definition": "Fetal Anatomy Survey Assessment - Face and Neck with identifier CID 12042",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Context Group UID"
+        },
+        {
+          "code": "keyword",
+          "valueString": "CID12042"
+        },
+        {
+          "code": "retired",
+          "valueString": "false"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.6.1.1553",
+      "display": "Fetal Anatomy Survey Assessment - Chest",
+      "definition": "Fetal Anatomy Survey Assessment - Chest with identifier CID 12043",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Context Group UID"
+        },
+        {
+          "code": "keyword",
+          "valueString": "CID12043"
+        },
+        {
+          "code": "retired",
+          "valueString": "false"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.6.1.1554",
+      "display": "Fetal Anatomy Survey Assessment - Heart",
+      "definition": "Fetal Anatomy Survey Assessment - Heart with identifier CID 12044",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Context Group UID"
+        },
+        {
+          "code": "keyword",
+          "valueString": "CID12044"
+        },
+        {
+          "code": "retired",
+          "valueString": "false"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.6.1.1555",
+      "display": "Fetal Anatomy Survey Assessment - Abdomen and Pelvis",
+      "definition": "Fetal Anatomy Survey Assessment - Abdomen and Pelvis with identifier CID 12045",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Context Group UID"
+        },
+        {
+          "code": "keyword",
+          "valueString": "CID12045"
+        },
+        {
+          "code": "retired",
+          "valueString": "false"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.6.1.1556",
+      "display": "Fetal Anatomy Survey Assessment - Spine",
+      "definition": "Fetal Anatomy Survey Assessment - Spine with identifier CID 12046",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Context Group UID"
+        },
+        {
+          "code": "keyword",
+          "valueString": "CID12046"
+        },
+        {
+          "code": "retired",
+          "valueString": "false"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.6.1.1557",
+      "display": "Fetal Anatomy Survey Assessment - Extremities",
+      "definition": "Fetal Anatomy Survey Assessment - Extremities with identifier CID 12047",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Context Group UID"
+        },
+        {
+          "code": "keyword",
+          "valueString": "CID12047"
+        },
+        {
+          "code": "retired",
+          "valueString": "false"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.6.1.1558",
+      "display": "Fetal Anatomy Survey Assessment - Maternal",
+      "definition": "Fetal Anatomy Survey Assessment - Maternal with identifier CID 12048",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Context Group UID"
+        },
+        {
+          "code": "keyword",
+          "valueString": "CID12048"
+        },
+        {
+          "code": "retired",
+          "valueString": "false"
+        }
+      ]
+    },
+    {
+      "code": "1.2.840.10008.6.1.1559",
+      "display": "Fetal Anatomy Survey Practice Guideline",
+      "definition": "Fetal Anatomy Survey Practice Guideline with identifier CID 12049",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "Context Group UID"
+        },
+        {
+          "code": "keyword",
+          "valueString": "CID12049"
+        },
+        {
+          "code": "retired",
+          "valueString": "false"
+        }
+      ]
+    },
+    {
       "code": "1.2.840.10008.6.1.156",
       "display": "Arterial Source Location",
       "definition": "Arterial Source Location with identifier CID 3606",
@@ -37319,7 +37509,7 @@
       ]
     }
   ],
-  "version": "2025.4.20250919",
+  "version": "2025.?.20251120",
   "caseSensitive": true,
   "experimental": false,
   "property": [
@@ -37339,5 +37529,5 @@
       "type": "boolean"
     }
   ],
-  "count": 1964
+  "count": 1974
 }

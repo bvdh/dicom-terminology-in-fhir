@@ -97,7 +97,7 @@ def getElementText( element, dicom_path ):
     elementText = ''
     all_nodes = element.findall('./*', ns)
     
-    # elementText = element.text if element is not None else ''
+    # elementText = cleanText(element.text) if (element is not None) and len(all_nodes) == 0 else ''
     
     for node in all_nodes:
         tag = node.tag
@@ -186,23 +186,23 @@ def getElementText( element, dicom_path ):
     #         elementText = elementText + para_text
     return elementText
 
-def getParaText( element ):
-    para_text = cleanTextFromElement(element)
+# def getParaText( element ):
+#     para_text = cleanTextFromElement(element)
 
-    if para_text.find( 'xref' )>0 :
-        print('embedded xref')
+#     if para_text.find( 'xref' )>0 :
+#         print('embedded xref')
 
-    if para_text.find( 'emphasis' )>0 :
-        print('embedded emphasis')
+#     if para_text.find( 'emphasis' )>0 :
+#         print('embedded emphasis')
     
-    if para_text.find( 'olink' )>0 :
-        print('embedded olink')
+#     if para_text.find( 'olink' )>0 :
+#         print('embedded olink')
 
-    element_text = getElementText( element, dicom_path )
+#     element_text = getElementText( element, dicom_path )
 
-    field_text = para_text or element_text
+#     field_text = para_text or element_text
 
-    return field_text
+#     return field_text
 
 def getLinks( element ):
     link_elements = element.findall('.//db:link', ns) if element != None else []
@@ -217,7 +217,7 @@ def getLinks( element ):
 
     return link_text
 
-def getVariableListEntries( element: ET.Element ) -> Dict[str, List[str]]:
+def getVariableListEntries( element: ET.Element, dicom_path: str ) -> Dict[str, List[str]]:
     variableLists = element.findall(".//db:variablelist", ns)
 
     variableListEntries = dict()
@@ -226,20 +226,20 @@ def getVariableListEntries( element: ET.Element ) -> Dict[str, List[str]]:
         for variable in variableList:
             
             termNode = variable.find(".//db:term", ns)
-            term = getParaText(termNode)
+            term = getElementText(termNode, dicom_path)
             variable_texts = []
 
             listItems = variable.findall(".//db:listitem", ns)
             for listItem in listItems:
                 paraNode = listItem.find( './/db:para', ns)
-                para_text = getParaText(listItem)
+                para_text = getElementText(paraNode, dicom_path)
                 variable_texts.append(para_text)
 
             variableListEntries[term] = variable_texts
 
     return variableListEntries
 
-def getTableData( element: ET.Element  )-> (List[List[str]], List[List[str]]):
+def getTableData( element: ET.Element, dicom_path: str )-> (List[List[str]], List[List[str]]):
     """
     Extract values from a table element.
     
@@ -257,7 +257,7 @@ def getTableData( element: ET.Element  )-> (List[List[str]], List[List[str]]):
     thead = table.find('.//db:thead', ns)
     tbody = table.find('.//db:tbody', ns)
     
-    headers = getRowValues(thead) if thead is not None else []
+    headers = getRowValues(thead, dicom_path) if thead is not None else []
     values = []
     
     rows = tbody.findall('.//db:tr', ns)
@@ -265,32 +265,33 @@ def getTableData( element: ET.Element  )-> (List[List[str]], List[List[str]]):
         tds = row.findall('.//db:td', ns)
         td_values = []
         for td in tds:
-            para_elements = td.findall('.//db:para', ns)
-            link_elements = td.findall('.//db:link', ns)
+            text= getElementText( td, dicom_path )
+            # para_elements = td.findall('.//db:para', ns)
+            # link_elements = td.findall('.//db:link', ns)
 
-            link_text = ''
-            for link in link_elements:
-                if link is not None:
-                    text = cleanText( link.text )
-                    href = cleanText( link.get('{http://www.w3.org/1999/xlink}href') )
-                    show = cleanText( link.get('{http://www.w3.org/1999/xlink}show') )
-                    link_text = text or href or show
+            # link_text = ''
+            # for link in link_elements:
+            #     if link is not None:
+            #         text = cleanText( link.text )
+            #         href = cleanText( link.get('{http://www.w3.org/1999/xlink}href') )
+            #         show = cleanText( link.get('{http://www.w3.org/1999/xlink}show') )
+            #         link_text = text or href or show
 
-            para_text = ''
-            for para in para_elements:
-                para_text = getParaText(para)
-                xref_element = para.find('.//db:xref', ns)
-                if xref_element is not None:
-                    xref_text = cleanText( xref_element.get('linkend') )
-                    if xref_text:
-                        para_text += f' ({xref_text})'
+            # para_text = ''
+            # for para in para_elements:
+            #     para_text = getElementText(para, dicom_path)
+            #     xref_element = para.find('.//db:xref', ns)
+            #     if xref_element is not None:
+            #         xref_text = cleanText( xref_element.get('linkend') )
+            #         if xref_text:
+            #             para_text += f' ({xref_text})'
 
-            td_values.append(para_text or link_text) 
+            td_values.append(text) 
         values.append(td_values)
 
     return headers, values
 
-def getRowValues( element: ET.Element ) -> List[List[str]]:
+def getRowValues( element: ET.Element, dicom_path: str ) -> List[List[str]]:
     """
     Extract values from a row element.
     
@@ -309,22 +310,22 @@ def getRowValues( element: ET.Element ) -> List[List[str]]:
         all = tds + ths
         td_values = []
         for td in all:
-            para_elements = td.findall('.//db:para', ns)
-            link_elements = td.findall('.//db:link', ns)
+            # para_elements = td.findall('.//db:para', ns)
+            # link_elements = td.findall('.//db:link', ns)
+            link_text = getElementText( td, dicom_path )
+            # link_text = ''
+            # for link in link_elements:
+            #     if link is not None:
+            #         text = cleanText( link.text )
+            #         href = cleanText( link.get('{http://www.w3.org/1999/xlink}href') )
+            #         show = cleanText( link.get('{http://www.w3.org/1999/xlink}show') )
+            #         link_text = text or href or show
 
-            link_text = ''
-            for link in link_elements:
-                if link is not None:
-                    text = cleanText( link.text )
-                    href = cleanText( link.get('{http://www.w3.org/1999/xlink}href') )
-                    show = cleanText( link.get('{http://www.w3.org/1999/xlink}show') )
-                    link_text = text or href or show
+            # para_text = ''
+            # for para in para_elements:
+            #     para_text = getElementText(para, dicom_path)
 
-            para_text = ''
-            for para in para_elements:
-                para_text = getParaText(para)
-
-            td_values.append(para_text or link_text) 
+            td_values.append(link_text) 
         values.append(td_values)
     return values
 
