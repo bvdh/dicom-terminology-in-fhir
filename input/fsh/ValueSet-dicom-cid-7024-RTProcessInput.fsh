@@ -1,0 +1,29 @@
+ValueSet    : CID_7024
+Id          : dicom-cid-7024-RTProcessInput
+Description :
+"""
+The concepts in the CID are intended to be a declarative statement to represent the potential input of an operation, without implying that this operation is part of a particular workflow, that this input will be used at all in any subsequent operation, that only parts of the referenced instances will be used, or that instances other than those referenced will be used as input.
+"""
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1136"
+* ^version = "20160908"
+* ^title = "RT Process Input"
+* ^name = "RTProcessInput"
+* DICOM_DCM_CodeSystem#128180 "For RT Workflow" 
+
+* DICOM_DCM_CodeSystem#128197 "For RT Prescription" 
+
+* DICOM_DCM_CodeSystem#128198 "For RT Treatment Planning" 
+
+* DICOM_DCM_CodeSystem#128200 "For RT Plan Summation" 
+
+* DICOM_DCM_CodeSystem#128201 "For Physician Review" 
+
+* DICOM_DCM_CodeSystem#128202 "For Physicist Review" 
+
+* DICOM_DCM_CodeSystem#128204 "For Plan Quality Assurance" 
+
+* DICOM_DCM_CodeSystem#128205 "For Machine Quality Assurance" 
+
+* DICOM_DCM_CodeSystem#128206 "For Patient Setup Verification" 
+

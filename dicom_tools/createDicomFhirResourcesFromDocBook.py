@@ -25,8 +25,8 @@ def main(args=None):
     parser.add_argument("--dicom_version", help="DICOM version", type=str, required=False)
     
     args = parser.parse_args()
-    fsh_path = args.fsh_path or os.path.join(Path(__file__).parent.parent, 'input-src', 'fsh')
-    resources_path = args.fsh_path or os.path.join(Path(__file__).parent.parent, 'input-src', 'resources')
+    fsh_path = args.fsh_path or os.path.join(Path(__file__).parent.parent, 'input', 'fsh')
+    resources_path = args.fsh_path or os.path.join(Path(__file__).parent.parent, 'input', 'resources')
     dicom_version = args.dicom_version or 'current'
     dicom_path = os.path.join(Path(__file__).parent.parent, 'dicom.nema.org', 'medical', 'dicom', dicom_version, 'source', 'docbook');
        

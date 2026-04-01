@@ -1,0 +1,17 @@
+ValueSet    : CID_9402
+Id          : dicom-cid-9402-IEC61217GantryPositionParameter
+Description :
+"""
+IEC61217 Gantry Position Parameter
+"""
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1024"
+* ^version = "20130518"
+* ^title = "IEC61217 Gantry Position Parameter"
+* ^name = "IEC61217GantryPositionParameter"
+* DICOM_DCM_CodeSystem#126809 "IEC61217 Gantry Continuous Roll Angle" 
+
+* DICOM_DCM_CodeSystem#126810 "IEC61217 Gantry Continuous Pitch Angle" 
+
+* DICOM_DCM_CodeSystem#126811 "IEC61217 Gantry Continuous Yaw Angle" 
+

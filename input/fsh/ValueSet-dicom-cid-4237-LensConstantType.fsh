@@ -1,0 +1,31 @@
+ValueSet    : CID_4237
+Id          : dicom-cid-4237-LensConstantType
+Description :
+"""
+Lens Constant Type
+"""
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.883"
+* ^version = "20190124"
+* ^title = "Lens Constant Type"
+* ^name = "LensConstantType"
+* http://snomed.info/sct#397263007 "A-Constant" 
+* http://snomed.info/srt#F-048FA "A-Constant" 
+* http://terminology.hl7.org/CodeSystem/umls#C1301307 "A-Constant" 
+
+* DICOM_DCM_CodeSystem#111768 "ACD Constant" 
+
+* DICOM_DCM_CodeSystem#111769 "Haigis a0" 
+
+* DICOM_DCM_CodeSystem#111770 "Haigis a1" 
+
+* DICOM_DCM_CodeSystem#111771 "Haigis a2" 
+
+* DICOM_DCM_CodeSystem#111772 "Hoffer pACD Constant" 
+
+* DICOM_DCM_CodeSystem#111773 "Surgeon Factor" 
+
+* DICOM_DCM_CodeSystem#111866 "Barrett Lens Factor" 
+
+* DICOM_DCM_CodeSystem#111867 "Barrett Design Factor" 
+

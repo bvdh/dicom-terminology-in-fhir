@@ -1,0 +1,32 @@
+ValueSet: DICOM_UID_Template
+Id: dicom-uids-template
+Title: "DICOM® Template UID Values"
+Description: "DICOM® Template UID Values from DICOM PS3.6 Table A-4."
+* ^version = "2025.?.20251120"
+* ^experimental = false
+
+
+* DICOM_UIDs#1.2.840.10008.9.1 "Imaging Report"
+* DICOM_UIDs#1.2.840.10008.9.2 "Clinical Information"
+* DICOM_UIDs#1.2.840.10008.9.3 "Imaging Procedure Description"
+* DICOM_UIDs#1.2.840.10008.9.4 "Comparison Study"
+* DICOM_UIDs#1.2.840.10008.9.5 "Impression"
+* DICOM_UIDs#1.2.840.10008.9.6 "Addendum"
+* DICOM_UIDs#1.2.840.10008.9.7 "Request"
+* DICOM_UIDs#1.2.840.10008.9.8 "Radiation Exposure and Protection Information"
+* DICOM_UIDs#1.2.840.10008.9.9 "Fetus Findings"
+* DICOM_UIDs#1.2.840.10008.9.10 "Labeled Subsection"
+* DICOM_UIDs#1.2.840.10008.9.11 "Communication of Actionable Findings"
+* DICOM_UIDs#1.2.840.10008.9.12 "Recommendation"
+* DICOM_UIDs#1.2.840.10008.9.13 "Procedural Medication"
+* DICOM_UIDs#1.2.840.10008.9.14 "Procedure Technique"
+* DICOM_UIDs#1.2.840.10008.9.15 "Image Quality"
+* DICOM_UIDs#1.2.840.10008.9.16 "Study Act"
+* DICOM_UIDs#1.2.840.10008.9.17 "Series Act"
+* DICOM_UIDs#1.2.840.10008.9.18 "SOP Instance Observation"
+* DICOM_UIDs#1.2.840.10008.9.19 "Section Text"
+* DICOM_UIDs#1.2.840.10008.9.20 "General Header"
+* DICOM_UIDs#1.2.840.10008.9.21 "Imaging Header"
+* DICOM_UIDs#1.2.840.10008.9.22 "Parent Document"
+* DICOM_UIDs#1.2.840.10008.9.23 "General Section Entries"
+* DICOM_UIDs#1.2.840.10008.9.24 "Imaging Addendum Report"

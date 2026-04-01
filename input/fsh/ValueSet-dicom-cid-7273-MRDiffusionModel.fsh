@@ -1,0 +1,23 @@
+ValueSet    : CID_7273
+Id          : dicom-cid-7273-MRDiffusionModel
+Description :
+"""
+MR Diffusion Model
+"""
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1168"
+* ^version = "20170413"
+* ^title = "MR Diffusion Model"
+* ^name = "MRDiffusionModel"
+* DICOM_DCM_CodeSystem#113250 "Mono-exponential diffusion model" 
+
+* DICOM_DCM_CodeSystem#113251 "Bi-exponential (IVIM) diffusion model" 
+
+* DICOM_DCM_CodeSystem#113252 "Kurtosis diffusion model" 
+
+* DICOM_DCM_CodeSystem#113253 "Gamma distribution model" 
+
+* DICOM_DCM_CodeSystem#113254 "Stretched exponential diffusion model" 
+
+* DICOM_DCM_CodeSystem#113255 "Truncated Gaussian diffusion model" 
+

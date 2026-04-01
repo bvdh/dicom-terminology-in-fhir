@@ -1,0 +1,23 @@
+ValueSet    : CID_402
+Id          : dicom-cid-402-AuditActiveParticipantRoleIDCode
+Description :
+"""
+Audit Active Participant Role ID Code
+"""
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.905"
+* ^version = "20100826"
+* ^title = "Audit Active Participant Role ID Code"
+* ^name = "AuditActiveParticipantRoleIDCode"
+* DICOM_DCM_CodeSystem#110150 "Application" 
+
+* DICOM_DCM_CodeSystem#110151 "Application Launcher" 
+
+* DICOM_DCM_CodeSystem#110152 "Destination Role ID" 
+
+* DICOM_DCM_CodeSystem#110153 "Source Role ID" 
+
+* DICOM_DCM_CodeSystem#110154 "Destination Media" 
+
+* DICOM_DCM_CodeSystem#110155 "Source Media" 
+

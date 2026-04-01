@@ -8,7 +8,7 @@ from doc_book_tools import getDataDicomTable, toCamelCase
 TABLE_URL = 'https://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_D.html#table_D-1'
 PART             = 'part16'
 TABLE_ID         = 'D-1'
-CODESYSTEM_NAME  = 'DICOMDCMCodeSystem'
+CODESYSTEM_NAME  = 'DICOM_DCM_CodeSystem'
 CODESYSTEM_ID    = 'dicom-dcm-codesystem'
 CODESYSTEM_TITLE = 'DICOM® Controlled Terminology Definitions (Coding Scheme Designator \'DCM\' Coding Scheme Version \'01\')'
 CODESYSTEM_DESCRIPTION = f'{CODESYSTEM_TITLE} extracted from DICOM PS3.16 Table D-1.'

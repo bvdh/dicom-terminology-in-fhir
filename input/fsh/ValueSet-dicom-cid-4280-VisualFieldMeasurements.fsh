@@ -1,0 +1,17 @@
+ValueSet    : CID_4280
+Id          : dicom-cid-4280-VisualFieldMeasurements
+Description :
+"""
+Visual Field Measurements
+"""
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1533"
+* ^version = "20250707"
+* ^title = "Visual Field Measurements"
+* ^name = "VisualFieldMeasurements"
+* DICOM_DCM_CodeSystem#111852 "Visual Field Index" 
+
+* DICOM_DCM_CodeSystem#111853 "Visual Field Loss Due to Diffuse Defect" 
+
+* DICOM_DCM_CodeSystem#111854 "Visual Field Loss Due to Local Defect" 
+

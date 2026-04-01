@@ -70,7 +70,7 @@ def writeDataElementsCodeSystemAndValueSets( fsh_path:str, dicom_path:str, canon
         fsh_file.write('* ^caseSensitive = true\n')
         fsh_file.write('* ^content = #complete\n')
         fsh_file.write('* ^experimental = false\n\n')
-        fsh_file.write(f'* ^url = "http://dicom.nema.org/resources/CodeSystem/{CODESYSTEM_NAME}"\n')
+        # fsh_file.write(f'* ^url = "http://dicom.nema.org/resources/CodeSystem/{CODESYSTEM_NAME}"\n')
         fsh_file.write(f'* ^version = "{canonicalVersion}"\n')
         fsh_file.write('\n')
         
@@ -124,7 +124,7 @@ def writeDataElementsCodeSystemAndValueSetsOrg( fsh_path:str, canonicalVersion )
         fsh_file.write('* ^caseSensitive = true\n')
         fsh_file.write('* ^content = #complete\n')
         fsh_file.write('* ^experimental = false\n\n')
-        fsh_file.write(f'* ^url = "http://dicom.nema.org/resources/CodeSystem/{CODESYSTEM_NAME}"\n')
+        # fsh_file.write(f'* ^url = "http://dicom.nema.org/resources/CodeSystem/{CODESYSTEM_NAME}"\n')
         fsh_file.write(f'* ^version = "{canonicalVersion}"\n')
         fsh_file.write('\n')
         

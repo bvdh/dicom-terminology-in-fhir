@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.uv.dicom-terminology
-canonical:  http://dicom.nema.org/resources/CodeSystem/
+canonical:  http://dicom.org/terminology/fhir/uv/
 # canonical:  https://dicom.nema.org/medical/dicom/current/output/fhir/
 name: DICOM Terminology in FHIR
 status: draft # draft | active | retired | unknown
@@ -73,14 +73,10 @@ dependencies:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 #
-# pages:
-#   index.md:
-#     title: Example Home
-#   implementation.xml:
-#   examples.xml:
-#     title: Examples Overview
-#     simpleExamples.xml:
-#     complexExamples.xml:
+pages:
+  index.md:
+  development.md:
+    title: Development & Architecture
 #
 #
 # The parameters property represents IG.definition.parameter. Rather
@@ -106,6 +102,7 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Development: development.html
   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
