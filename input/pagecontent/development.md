@@ -52,12 +52,10 @@ This Implementation Guide is built through an integrated pipeline that combines:
 ├── ig.ini                    # IG Publisher entry point
 ├── sushi-config.yaml         # SUSHI configuration & IG metadata
 ├── package.json              # Node.js project metadata
-├── input-cache/
-│   ├── schemas/              # FHIR schema definitions
-│   └── txcache/              # Terminology service cache (commit to git!)
 └── input/
     ├── ignoreWarnings.txt    # FHIR validation warning suppression list
-    └── resources/            # Direct FHIR resources (downloaded ValueSets)
+    └── fsh/                  # The generated FHIR shorthand files
+    └── pagecontent/          # the pages in this specification
 ```
 
 ### Python Tools (`dicom_tools/`)

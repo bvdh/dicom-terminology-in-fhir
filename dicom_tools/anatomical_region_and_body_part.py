@@ -23,6 +23,7 @@ SOURCES = [
 
 def writeAnatomicalRegionAndBodyPartValueSets(fsh_path: str, dicom_path: str, canonicalVersion: str) -> None:
     bodypartExaminedList = set()
+
     entryList = []
 
     for source in SOURCES:
@@ -42,9 +43,9 @@ def writeAnatomicalRegionAndBodyPartValueSets(fsh_path: str, dicom_path: str, ca
     with open(os.path.join(fsh_path, bpe_fsh_code_system_filename), 'w') as fsh_file:
         fsh_file.write(f'CodeSystem: DICOM_CodeSystem_BodyPartExamined\n')
         fsh_file.write(f'Id: dicom-code-system-body-part-examined\n')
-        fsh_file.write(f'Title: Body Part Examined\n')
-        fsh_file.write(f'Description: Body part examined codes extracted from DICOM PS3.16 Table L-1 and L-2. They'+
-                       f'are used to specify the body part examined in a medical imaging study in tags Anatomic Region Sequence (0008,2218) and Body Part Examined (0018,0015).\n')   
+        fsh_file.write(f'Title: "Body Part Examined"\n')
+        fsh_file.write(f'Description: "Body part examined codes extracted from DICOM PS3.16 Table L-1 and L-2. They'+
+                       f'are used to specify the body part examined in a medical imaging study in tags Anatomic Region Sequence (0008,2218) and Body Part Examined (0018,0015)."\n')   
         fsh_file.write('* ^caseSensitive = true\n')
         fsh_file.write('* ^content = #complete\n')
         fsh_file.write('* ^experimental = false\n\n')
@@ -55,7 +56,7 @@ def writeAnatomicalRegionAndBodyPartValueSets(fsh_path: str, dicom_path: str, ca
         fsh_file.write('\n')
     
         # value_list = getDataElementsFromDicomTable()
-        for bodypartExamined in bodypartExaminedList:
+        for bodypartExamined in sorted(bodypartExaminedList):
             displays = set()
             display     = ''
             description = ''

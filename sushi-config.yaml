@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.uv.dicom-terminology
-canonical:  http://dicom.org/terminology/fhir/uv/
+canonical:  http://dicom.org/terminology/fhir/uv
 # canonical:  https://dicom.nema.org/medical/dicom/current/output/fhir/
 name: DICOM Terminology in FHIR
 status: draft # draft | active | retired | unknown

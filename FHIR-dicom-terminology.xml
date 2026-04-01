@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="ii" url="http://dicom.nema.org/resources/CodeSystem/">
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="ii" url="http://dicom.org/terminology/fhir/uv/">
 <version code="current" url=""/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
@@ -132,6 +132,7 @@
 <artifact id="ValueSet/dicom-cid-3612-BloodVelocityMeasurement" key="ValueSet-dicom-cid-3612-BloodVelocityMeasurement" name="Blood Velocity Measurement"/>
 <artifact id="ValueSet/dicom-cid-3528-BloodpH" key="ValueSet-dicom-cid-3528-BloodpH" name="Blood pH"/>
 <artifact id="ValueSet/dicom-cid-6070-BloomRichardsonHistologicGrade" key="ValueSet-dicom-cid-6070-BloomRichardsonHistologicGrade" name="Bloom-Richardson Histologic Grade"/>
+<artifact id="CodeSystem/dicom-code-system-body-part-examined" key="CodeSystem-dicom-code-system-body-part-examined" name="Body Part Examined"/>
 <artifact id="ValueSet/dicom-cid-3034-BodyPositionChannel" key="ValueSet-dicom-cid-3034-BodyPositionChannel" name="Body Position Channel"/>
 <artifact id="ValueSet/dicom-cid-7197-BodySubstanceSegmentationPropertyType" key="ValueSet-dicom-cid-7197-BodySubstanceSegmentationPropertyType" name="Body Substance Segmentation Property Type"/>
 <artifact id="ValueSet/dicom-cid-3663-BodySurfaceAreaEquation" key="ValueSet-dicom-cid-3663-BodySurfaceAreaEquation" name="Body Surface Area Equation"/>
@@ -365,14 +366,9 @@
 <artifact id="ValueSet/dicom-cid-6312-CrossSectionalScanPlaneOrientation" key="ValueSet-dicom-cid-6312-CrossSectionalScanPlaneOrientation" name="Cross-sectional Scan Plane Orientation"/>
 <artifact id="ValueSet/dicom-cid-642-Cytokine" key="ValueSet-dicom-cid-642-Cytokine" name="Cytokine"/>
 <artifact id="ValueSet/dicom-cid-30-DICOMDevice" key="ValueSet-dicom-cid-30-DICOMDevice" name="DICOM Device"/>
-<artifact id="ImplementationGuide/hl7.fhir.uv.dicom-terminology" key="ImplementationGuide-hl7.fhir.uv.dicom-terminology" name="DICOMTerminologyinFHIR"/>
-<artifact id="ValueSet/dicom-anatomical-region-and-body-part-codes" key="ValueSet-dicom-anatomical-region-and-body-part-codes" name="DICOM® Anatomical Region and Body Part Codes"/>
-<artifact id="CodeSystem/dicom-anatomical-region-and-body-part-codes" key="CodeSystem-dicom-anatomical-region-and-body-part-codes" name="DICOM® Anatomical Region and Body Part Codes"/>
 <artifact id="CodeSystem/dicom-content-item-valuetypes" key="CodeSystem-dicom-content-item-valuetypes" name="DICOM® Content Item Value Type"/>
 <artifact id="ValueSet/dicom-uids-context-group" key="ValueSet-dicom-uids-context-group" name="DICOM® Context Group UID Values"/>
 <artifact id="CodeSystem/dicom-dcm-codesystem" key="CodeSystem-dicom-dcm-codesystem" name="DICOM® Controlled Terminology Definitions (Coding Scheme Designator 'DCM' Coding Scheme Version '01')"/>
-<artifact id="ValueSet/dicom-corresponding-codes-and-terms-for-large-animals" key="ValueSet-dicom-corresponding-codes-and-terms-for-large-animals" name="DICOM® Corresponding Codes and Terms for Large Animals"/>
-<artifact id="CodeSystem/dicom-corresponding-codes-and-terms-for-large-animals" key="CodeSystem-dicom-corresponding-codes-and-terms-for-large-animals" name="DICOM® Corresponding Codes and Terms for Large Animals"/>
 <artifact id="ValueSet/dicom-data-elements" key="ValueSet-dicom-data-elements" name="DICOM® Data Elements"/>
 <artifact id="CodeSystem/dicom-elements" key="CodeSystem-dicom-elements" name="DICOM® Data Elements"/>
 <artifact id="ValueSet/dicom-directory-structure-elements" key="ValueSet-dicom-directory-structure-elements" name="DICOM® Directory Structure Elements"/>
@@ -1490,6 +1486,7 @@
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
-<page key="index" name="Home"/>
+<page key="development" name="Development &amp; Architecture"/>
+<page key="index" name="Index"/>
 <page key="toc" name="Table of Contents"/>
 </specification>
