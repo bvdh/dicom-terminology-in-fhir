@@ -5,6 +5,6 @@ Description :
 Further information athttp://www.hrsonline.org/News/ep-history/topics-in-depth/modecodehistory.cfm
 """
 * ^version = "None"
-* ^title = "ICD"
+* ^title = "ICD (CID 3692)"
 * ^name = "Cid3692"
 * ^experimental = false

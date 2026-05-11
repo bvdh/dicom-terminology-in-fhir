@@ -7,7 +7,7 @@ Source of Projection X-Ray Dose Information
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1054"
 * ^version = "20120406"
-* ^title = "Source of Projection X-Ray Dose Information"
+* ^title = "Source of Projection X-Ray Dose Information (CID 10020)"
 * ^name = "SourceOfProjectionXRayDoseInformation"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113856 //"Automated Data Collection" 
@@ -18,7 +18,6 @@ Source of Projection X-Ray Dose Information
 
 * http://snomed.info/sct#15869005 //"Dosimeter" 
 * http://snomed.info/srt#A-2C090 //"Dosimeter" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0180488 //"Dosimeter" 
 
 * DICOM_DCM_CodeSystem#113866 //"Copied From Image Attributes" 
 

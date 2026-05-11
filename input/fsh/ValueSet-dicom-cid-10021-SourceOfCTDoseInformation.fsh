@@ -7,7 +7,7 @@ Source of CT Dose Information
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1055"
 * ^version = "20081028"
-* ^title = "Source of CT Dose Information"
+* ^title = "Source of CT Dose Information (CID 10021)"
 * ^name = "SourceOfCTDoseInformation"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113856 //"Automated Data Collection" 

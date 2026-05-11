@@ -7,7 +7,7 @@ Audit Active Participant Role ID Code
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.905"
 * ^version = "20260128"
-* ^title = "Audit Active Participant Role ID Code"
+* ^title = "Audit Active Participant Role ID Code (CID 402)"
 * ^name = "AuditActiveParticipantRoleIDCode"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#110150 //"Application" 
@@ -26,5 +26,4 @@ Audit Active Participant Role ID Code
 
 * http://snomed.info/sct#125676002 //"Person" 
 * http://snomed.info/srt#S-00002 //"Person" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0027361 //"Person" 
 

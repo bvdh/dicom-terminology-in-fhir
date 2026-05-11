@@ -7,7 +7,7 @@ Ganglion Cell Sector Methods
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1542"
 * ^version = "20250707"
-* ^title = "Ganglion Cell Sector Methods"
+* ^title = "Ganglion Cell Sector Methods (CID 4289)"
 * ^name = "GanglionCellSectorMethods"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131301 //"Semicircular sectors" 

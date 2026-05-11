@@ -7,7 +7,7 @@ The values in this Context Group correspond to the Defined Terms for Reconstruct
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.958"
 * ^version = "20130207"
-* ^title = "CT Reconstruction Algorithm"
+* ^title = "CT Reconstruction Algorithm (CID 10033)"
 * ^name = "CTReconstructionAlgorithm"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113962 //"Filtered Back Projection" 

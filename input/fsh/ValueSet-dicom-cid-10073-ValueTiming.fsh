@@ -7,7 +7,7 @@ Value Timing
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1363"
 * ^version = "20210328"
-* ^title = "Value Timing"
+* ^title = "Value Timing (CID 10073)"
 * ^name = "ValueTiming"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130532 //"Duration of Time Period" 

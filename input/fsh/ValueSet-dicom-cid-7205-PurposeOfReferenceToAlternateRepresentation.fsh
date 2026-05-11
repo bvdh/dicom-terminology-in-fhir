@@ -7,7 +7,7 @@ Purpose of Reference to Alternate Representation
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.511"
 * ^version = "20040322"
-* ^title = "Purpose of Reference to Alternate Representation"
+* ^title = "Purpose of Reference to Alternate Representation (CID 7205)"
 * ^name = "PurposeOfReferenceToAlternateRepresentation"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121324 //"Source image" 

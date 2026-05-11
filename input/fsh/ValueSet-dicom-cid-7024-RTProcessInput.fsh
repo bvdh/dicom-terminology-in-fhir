@@ -7,7 +7,7 @@ The concepts in the CID are intended to be a declarative statement to represent 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1136"
 * ^version = "20160908"
-* ^title = "RT Process Input"
+* ^title = "RT Process Input (CID 7024)"
 * ^name = "RTProcessInput"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128180 //"For RT Workflow" 

@@ -7,7 +7,7 @@ Vascular Dissection Classification
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.126"
 * ^version = "20180325"
-* ^title = "Vascular Dissection Classification"
+* ^title = "Vascular Dissection Classification (CID 3492)"
 * ^name = "VascularDissectionClassification"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122399 //"Medial Dissection" 
@@ -18,7 +18,6 @@ Vascular Dissection Classification
 
 * http://snomed.info/sct#54493002 //"Intramural hematoma" 
 * http://snomed.info/srt#M-35063 //"Intramural hematoma" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0333200 //"Intramural hematoma" 
 
 * DICOM_DCM_CodeSystem#122388 //"Intra-stent Dissection" 
 

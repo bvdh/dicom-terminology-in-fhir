@@ -7,7 +7,7 @@ Projection X-Ray Acquisition Device Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.961"
 * ^version = "20120406"
-* ^title = "Projection X-Ray Acquisition Device Type"
+* ^title = "Projection X-Ray Acquisition Device Type (CID 10032)"
 * ^name = "ProjectionXRayAcquisitionDeviceType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113957 //"Fluoroscopy-Guided Projection Radiography System" 

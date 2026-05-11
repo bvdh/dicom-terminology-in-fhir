@@ -7,7 +7,7 @@ In future extensions, Mammography Assessment terms that are not derived from BI-
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.356"
 * ^version = "20050822"
-* ^title = "Mammography Assessment"
+* ^title = "Mammography Assessment (CID 6026)"
 * ^name = "MammographyAssessment"
 * ^experimental = false
 * include codes from valueset CID_6027

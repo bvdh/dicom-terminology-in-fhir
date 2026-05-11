@@ -7,7 +7,7 @@ Radiotherapy Treatment Interlock
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1325"
 * ^version = "20230904"
-* ^title = "Radiotherapy Treatment Interlock"
+* ^title = "Radiotherapy Treatment Interlock (CID 9568)"
 * ^name = "RadiotherapyTreatmentInterlock"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130475 //"Primary Fluence Monitoring System Interlock" 

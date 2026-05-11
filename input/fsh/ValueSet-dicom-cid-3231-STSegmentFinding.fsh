@@ -7,12 +7,11 @@ ST Segment Finding
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.777"
 * ^version = "20080927"
-* ^title = "ST Segment Finding"
+* ^title = "ST Segment Finding (CID 3231)"
 * ^name = "STSegmentFinding"
 * ^experimental = false
 * http://snomed.info/sct#164929001 //"ST Interval Normal" 
 * http://snomed.info/srt#F-000C3 //"ST Interval Normal" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0438164 //"ST Interval Normal" 
 
 * DICOM_DCM_CodeSystem#122750 //"Non-diagnostic - low heart rate" 
 
@@ -22,11 +21,9 @@ ST Segment Finding
 
 * http://snomed.info/sct#260408008 //"Weakly positive" 
 * http://snomed.info/srt#G-A205 //"Weakly positive" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0442730 //"Weakly positive" 
 
 * http://snomed.info/sct#10828004 //"Positive" 
 * http://snomed.info/srt#G-A200 //"Positive" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1446409 //"Positive" 
 
 * DICOM_DCM_CodeSystem#122755 //"Strongly positive" 
 

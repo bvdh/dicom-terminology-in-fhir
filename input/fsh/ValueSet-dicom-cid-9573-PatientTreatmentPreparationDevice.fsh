@@ -7,7 +7,7 @@ Patient Treatment Preparation Device
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1420"
 * ^version = "20240612"
-* ^title = "Patient Treatment Preparation Device"
+* ^title = "Patient Treatment Preparation Device (CID 9573)"
 * ^name = "PatientTreatmentPreparationDevice"
 * ^experimental = false
 * include codes from valueset CID_9513

@@ -10,16 +10,14 @@ Description :
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.174"
 * ^version = "20230630"
-* ^title = "Procedure Intent"
+* ^title = "Procedure Intent (CID 3629)"
 * ^name = "ProcedureIntent"
 * ^experimental = false
 * http://snomed.info/sct#261004008 //"Diagnostic Intent" 
 * http://snomed.info/srt#R-408C3 //"Diagnostic Intent" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0348026 //"Diagnostic Intent" 
 
 * http://snomed.info/sct#262202000 //"Therapeutic Intent" 
 * http://snomed.info/srt#R-41531 //"Therapeutic Intent" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0302350 //"Therapeutic Intent" 
 
 * http://snomed.info/sct#1279505009 //"Combined Diagnostic and Therapeutic Intent" 
 
@@ -27,49 +25,37 @@ Description :
 
 * http://snomed.info/sct#373825000 //"Staging intent" 
 * http://snomed.info/srt#R-408F2 //"Staging intent" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1276306 //"Staging intent" 
 
 * http://snomed.info/sct#363675004 //"Guidance Intent" 
 * http://snomed.info/srt#R-40641 //"Guidance Intent" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1285529 //"Guidance Intent" 
 
 * http://snomed.info/sct#363676003 //"Palliative Intent" 
 * http://snomed.info/srt#R-40642 //"Palliative Intent" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1285530 //"Palliative Intent" 
 
 * http://snomed.info/sct#360156006 //"Screening Intent" 
 * http://snomed.info/srt#R-42453 //"Screening Intent" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1305399 //"Screening Intent" 
 
 * http://snomed.info/sct#447295008 //"Forensic Intent" 
 * http://snomed.info/srt#R-40644 //"Forensic Intent" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2960804 //"Forensic Intent" 
 
 * http://snomed.info/sct#421974008 //"Adjunct intent" 
 * http://snomed.info/srt#R-41564 //"Adjunct intent" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1719882 //"Adjunct intent" 
 
 * http://snomed.info/sct#373846009 //"Adjuvant intent" 
 * http://snomed.info/srt#R-41561 //"Adjuvant intent" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1298675 //"Adjuvant intent" 
 
 * http://snomed.info/sct#373808002 //"Curative intent" 
 * http://snomed.info/srt#R-41560 //"Curative intent" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1276305 //"Curative intent" 
 
 * http://snomed.info/sct#373847000 //"Neo-adjuvant intent" 
 * http://snomed.info/srt#R-41562 //"Neo-adjuvant intent" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1298676 //"Neo-adjuvant intent" 
 
 * http://snomed.info/sct#399707004 //"Supportive intent" 
 * http://snomed.info/srt#R-41563 //"Supportive intent" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1302630 //"Supportive intent" 
 
 * http://snomed.info/sct#129428001 //"Preventive intent" 
 * http://snomed.info/srt#P0-02179 //"Preventive intent" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1456501 //"Preventive intent" 
 
 * http://snomed.info/sct#360271000 //"Prophylactic intent" 
 * http://snomed.info/srt#P0-021FD //"Prophylactic intent" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0199176 //"Prophylactic intent" 
 

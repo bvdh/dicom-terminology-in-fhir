@@ -7,7 +7,7 @@ Location in Chest
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.444"
 * ^version = "20030108"
-* ^title = "Location in Chest"
+* ^title = "Location in Chest (CID 6124)"
 * ^name = "LocationInChest"
 * ^experimental = false
 * include codes from valueset CID_6125

@@ -7,23 +7,18 @@ VL Dental View Modifier
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1505"
 * ^version = "20250330"
-* ^title = "VL Dental View Modifier"
+* ^title = "VL Dental View Modifier (CID 4065)"
 * ^name = "VLDentalViewModifier"
 * ^experimental = false
 * http://snomed.info/sct#789131009 //"Close up photographic view of teeth without magnification" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C5230357 //"Close up photographic view of teeth without magnification" 
 
 * http://snomed.info/sct#787610003 //"Mirrored photo image intraoral corrected" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C5192865 //"Mirrored photo image intraoral corrected" 
 
 * http://snomed.info/sct#789310004 //"Mirrored photo image of teeth corrected flipped horizontally" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C5230459 //"Mirrored photo image of teeth corrected flipped horizontally" 
 
 * http://snomed.info/sct#789311000 //"Mirrored photo image of teeth corrected flipped vertically" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C5230460 //"Mirrored photo image of teeth corrected flipped vertically" 
 
 * http://snomed.info/sct#789312007 //"Mirrored photo image of teeth corrected rotated 180 deg" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C5230461 //"Mirrored photo image of teeth corrected rotated 180 deg" 
 
 * http://snomed.info/sct#787612006 //"Photo image extraoral with 45 degree view" 
 

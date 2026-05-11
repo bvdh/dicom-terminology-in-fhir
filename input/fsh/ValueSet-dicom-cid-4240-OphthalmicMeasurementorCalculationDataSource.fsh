@@ -7,7 +7,7 @@ Ophthalmic Measurement or Calculation Data Source
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.886"
 * ^version = "20190124"
-* ^title = "Ophthalmic Measurement or Calculation Data Source"
+* ^title = "Ophthalmic Measurement or Calculation Data Source (CID 4240)"
 * ^name = "OphthalmicMeasurementorCalculationDataSource"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111780 //"Measurement From This Device" 

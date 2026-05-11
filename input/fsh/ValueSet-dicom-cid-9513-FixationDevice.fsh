@@ -7,12 +7,11 @@ Fixation Device
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1223"
 * ^version = "20240612"
-* ^title = "Fixation Device"
+* ^title = "Fixation Device (CID 9513)"
 * ^name = "FixationDevice"
 * ^experimental = false
 * http://snomed.info/sct#228745001 //"Bite block" 
 * http://snomed.info/srt#A-01105 //"Bite block" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0179321 //"Bite block" 
 
 * DICOM_DCM_CodeSystem#130110 //"Headframe" 
 
@@ -26,7 +25,6 @@ Fixation Device
 
 * http://snomed.info/sct#706683002 //"Headrest" 
 * http://snomed.info/srt#R-FEEC3 //"Headrest" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0181130 //"Headrest" 
 
 * DICOM_DCM_CodeSystem#130116 //"Breast Board" 
 
@@ -50,7 +48,6 @@ Fixation Device
 
 * http://snomed.info/sct#20406008 //"Backrest" 
 * http://snomed.info/srt#A-12260 //"Backrest" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0336586 //"Backrest" 
 
 * DICOM_DCM_CodeSystem#130852 //"Shin Rest" 
 
@@ -58,7 +55,6 @@ Fixation Device
 
 * http://snomed.info/sct#468115008 //"Armrest" 
 * http://snomed.info/srt#R-FCFCC //"Armrest" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3880585 //"Armrest" 
 
 * DICOM_DCM_CodeSystem#130854 //"Hand Grips" 
 

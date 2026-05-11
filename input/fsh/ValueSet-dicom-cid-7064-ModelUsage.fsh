@@ -7,14 +7,13 @@ Model Usage
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1205"
 * ^version = "20180403"
-* ^title = "Model Usage"
+* ^title = "Model Usage (CID 7064)"
 * ^name = "ModelUsage"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#129012 //"Educational Intent" 
 
 * http://snomed.info/sct#261004008 //"Diagnostic Intent" 
 * http://snomed.info/srt#R-408C3 //"Diagnostic Intent" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0348026 //"Diagnostic Intent" 
 
 * DICOM_DCM_CodeSystem#129013 //"Planning Intent" 
 

@@ -7,20 +7,16 @@ Echocardiography Hepatic Vein Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.608"
 * ^version = "20030918"
-* ^title = "Echocardiography Hepatic Vein Measurement"
+* ^title = "Echocardiography Hepatic Vein Measurement (CID 12216)"
 * ^name = "EchocardiographyHepaticVeinMeasurement"
 * ^experimental = false
 * include codes from valueset CID_12220
 
 * http://loinc.org#29471-0 //"Hepatic Vein Systolic Peak Velocity" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0944919 //"Hepatic Vein Systolic Peak Velocity" 
 
 * http://loinc.org#29472-8 //"Hepatic Vein Diastolic Peak Velocity" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0944920 //"Hepatic Vein Diastolic Peak Velocity" 
 
 * http://loinc.org#29473-6 //"Hepatic Vein Systolic to Diastolic Ratio" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0944921 //"Hepatic Vein Systolic to Diastolic Ratio" 
 
 * http://loinc.org#29474-4 //"Hepatic Vein Atrial Contraction Reversal Peak Velocity" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0944922 //"Hepatic Vein Atrial Contraction Reversal Peak Velocity" 
 

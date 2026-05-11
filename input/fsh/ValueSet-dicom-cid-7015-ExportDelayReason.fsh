@@ -7,7 +7,7 @@ Export Delay Reason
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1179"
 * ^version = "20170914"
-* ^title = "Export Delay Reason"
+* ^title = "Export Delay Reason (CID 7015)"
 * ^name = "ExportDelayReason"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128715 //"Delay export until final report is available" 

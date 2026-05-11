@@ -7,6 +7,6 @@ Description :
  2 Further information athttp://www.hrsonline.org/Practice-Guidance/Clinical-Guidelines-Documents/2002-The-Revised-NASPE-BPEG-Generic-Code-for-Antibradycardia-AdaptiveRate-and-Multisite-Pacing
 """
 * ^version = "None"
-* ^title = "Pacemaker"
+* ^title = "Pacemaker (CID 3672)"
 * ^name = "Cid3672"
 * ^experimental = false

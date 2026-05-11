@@ -7,7 +7,7 @@ PI-RADS v2 DCE Lesion Assessment Category
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1389"
 * ^version = "20210714"
-* ^title = "PI-RADS v2 DCE Lesion Assessment Category"
+* ^title = "PI-RADS v2 DCE Lesion Assessment Category (CID 6332)"
 * ^name = "PIRADSv2DCELesionAssessmentCategory"
 * ^experimental = false
 * http://www.radlex.org#RID50320 //"PI-RADS DCE -ve" 

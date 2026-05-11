@@ -7,7 +7,7 @@ Retinal Sector Methods
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1535"
 * ^version = "20250707"
-* ^title = "Retinal Sector Methods"
+* ^title = "Retinal Sector Methods (CID 4282)"
 * ^name = "RetinalSectorMethods"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131301 //"Semicircular sectors" 

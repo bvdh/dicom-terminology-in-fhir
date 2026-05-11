@@ -7,7 +7,7 @@ Circulatory Support Action
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.146"
 * ^version = "20030327"
-* ^title = "Circulatory Support Action"
+* ^title = "Circulatory Support Action (CID 3550)"
 * ^name = "CirculatorySupportAction"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121157 //"Begin Circulatory Support" 

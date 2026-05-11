@@ -7,7 +7,7 @@ Hemodynamic Time Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.163"
 * ^version = "20030327"
-* ^title = "Hemodynamic Time Measurement"
+* ^title = "Hemodynamic Time Measurement (CID 3613)"
 * ^name = "HemodynamicTimeMeasurement"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122182 //"R-R interval" 

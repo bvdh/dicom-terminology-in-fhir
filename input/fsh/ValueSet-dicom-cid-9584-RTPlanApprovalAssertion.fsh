@@ -7,7 +7,7 @@ RT Plan Approval Assertion
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1545"
 * ^version = "20250709"
-* ^title = "RT Plan Approval Assertion"
+* ^title = "RT Plan Approval Assertion (CID 9584)"
 * ^name = "RTPlanApprovalAssertion"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131315 //"Plan meets prescription" 

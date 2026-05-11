@@ -7,22 +7,18 @@ Ultrasound Relevant Patient Condition
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1450"
 * ^version = "20220628"
-* ^title = "Ultrasound Relevant Patient Condition"
+* ^title = "Ultrasound Relevant Patient Condition (CID 12323)"
 * ^name = "UltrasoundRelevantPatientCondition"
 * ^experimental = false
 * http://snomed.info/sct#76281005 //"Hepatic Congestion" 
 * http://snomed.info/srt#D5-81210 //"Hepatic Congestion" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0267821 //"Hepatic Congestion" 
 
 * http://snomed.info/sct#37871000 //"Acute Hepatitis" 
 * http://snomed.info/srt#D5-80140 //"Acute Hepatitis" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0267797 //"Acute Hepatitis" 
 
 * http://snomed.info/sct#440565004 //"Not Fasting" 
 * http://snomed.info/srt#R-21604 //"Not Fasting" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2585491 //"Not Fasting" 
 
 * http://snomed.info/sct#441509002 //"Patient has pacemaker" 
 * http://snomed.info/srt#R-00728 //"Patient has pacemaker" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2712998 //"Patient has pacemaker" 
 

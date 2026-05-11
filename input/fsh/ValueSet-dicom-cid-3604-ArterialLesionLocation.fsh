@@ -7,7 +7,7 @@ Arterial Lesion Location
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.155"
 * ^version = "20030327"
-* ^title = "Arterial Lesion Location"
+* ^title = "Arterial Lesion Location (CID 3604)"
 * ^name = "ArterialLesionLocation"
 * ^experimental = false
 * include codes from valueset CID_3015

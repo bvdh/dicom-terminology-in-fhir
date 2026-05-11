@@ -7,36 +7,29 @@ Ophthalmic Image Position
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.323"
 * ^version = "20110825"
-* ^title = "Ophthalmic Image Position"
+* ^title = "Ophthalmic Image Position (CID 4207)"
 * ^name = "OphthalmicImagePosition"
 * ^experimental = false
 * http://snomed.info/sct#408734008 //"Diabetic Retinopathy Study field 1" 
 * http://snomed.info/srt#R-10229 //"Diabetic Retinopathy Study field 1" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1443282 //"Diabetic Retinopathy Study field 1" 
 
 * http://snomed.info/sct#410434001 //"Diabetic Retinopathy Study field 2" 
 * http://snomed.info/srt#R-1022A //"Diabetic Retinopathy Study field 2" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1444567 //"Diabetic Retinopathy Study field 2" 
 
 * http://snomed.info/sct#410435000 //"Diabetic Retinopathy Study field 3" 
 * http://snomed.info/srt#R-1022B //"Diabetic Retinopathy Study field 3" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1444568 //"Diabetic Retinopathy Study field 3" 
 
 * http://snomed.info/sct#410436004 //"Diabetic Retinopathy Study field 4" 
 * http://snomed.info/srt#R-1022C //"Diabetic Retinopathy Study field 4" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1444569 //"Diabetic Retinopathy Study field 4" 
 
 * http://snomed.info/sct#410437008 //"Diabetic Retinopathy Study field 5" 
 * http://snomed.info/srt#R-1022E //"Diabetic Retinopathy Study field 5" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1444570 //"Diabetic Retinopathy Study field 5" 
 
 * http://snomed.info/sct#410438003 //"Diabetic Retinopathy Study field 6" 
 * http://snomed.info/srt#R-1022F //"Diabetic Retinopathy Study field 6" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1444571 //"Diabetic Retinopathy Study field 6" 
 
 * http://snomed.info/sct#410439006 //"Diabetic Retinopathy Study field 7" 
 * http://snomed.info/srt#R-10231 //"Diabetic Retinopathy Study field 7" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1444572 //"Diabetic Retinopathy Study field 7" 
 
 * DICOM_DCM_CodeSystem#111621 //"Field 1 for Joslin 3 field" 
 

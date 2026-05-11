@@ -7,14 +7,12 @@ Joint Positioning Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.893"
 * ^version = "20100625"
-* ^title = "Joint Positioning Method"
+* ^title = "Joint Positioning Method (CID 93)"
 * ^name = "JointPositioningMethod"
 * ^experimental = false
 * http://snomed.info/sct#21278004 //"Passive movement" 
 * http://snomed.info/srt#F-13060 //"Passive movement" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0079991 //"Passive movement" 
 
 * http://snomed.info/sct#118745001 //"Manipulation of joint" 
 * http://snomed.info/srt#P0-05083 //"Manipulation of joint" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1292923 //"Manipulation of joint" 
 

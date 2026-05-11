@@ -7,7 +7,7 @@ Radiotherapy Distance Reference Location
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1291"
 * ^version = "20190715"
-* ^title = "Radiotherapy Distance Reference Location"
+* ^title = "Radiotherapy Distance Reference Location (CID 9544)"
 * ^name = "RadiotherapyDistanceReferenceLocation"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130358 //"Nominal Radiation Source Location" 

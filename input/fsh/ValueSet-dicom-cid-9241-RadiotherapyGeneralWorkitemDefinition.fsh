@@ -7,7 +7,7 @@ Radiotherapy General Workitem Definition
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.931"
 * ^version = "20240612"
-* ^title = "Radiotherapy General Workitem Definition"
+* ^title = "Radiotherapy General Workitem Definition (CID 9241)"
 * ^name = "RadiotherapyGeneralWorkitemDefinition"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121701 //"RT Patient Setup" 

@@ -7,7 +7,7 @@ Clinical Tolerance Violation Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1323"
 * ^version = "20200624"
-* ^title = "Clinical Tolerance Violation Type"
+* ^title = "Clinical Tolerance Violation Type (CID 9566)"
 * ^name = "ClinicalToleranceViolationType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130468 //"Beam Targeting Tolerance Violation" 

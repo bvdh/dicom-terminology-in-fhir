@@ -7,7 +7,7 @@ General Risk Factor
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.409"
 * ^version = "20040112"
-* ^title = "General Risk Factor"
+* ^title = "General Risk Factor (CID 6087)"
 * ^name = "GeneralRiskFactor"
 * ^experimental = false
 * include codes from valueset CID_6081

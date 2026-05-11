@@ -7,7 +7,7 @@ Radiotherapy Robotic Node Set
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1307"
 * ^version = "20200117"
-* ^title = "Radiotherapy Robotic Node Set"
+* ^title = "Radiotherapy Robotic Node Set (CID 9556)"
 * ^name = "RadiotherapyRoboticNodeSet"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130362 //"Head Node Set" 

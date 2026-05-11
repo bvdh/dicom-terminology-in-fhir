@@ -7,7 +7,7 @@ Attenuation Correction
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.744"
 * ^version = "20080927"
-* ^title = "Attenuation Correction"
+* ^title = "Attenuation Correction (CID 3112)"
 * ^name = "AttenuationCorrection"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122726 //"Algorithmic Attenuation Correction" 

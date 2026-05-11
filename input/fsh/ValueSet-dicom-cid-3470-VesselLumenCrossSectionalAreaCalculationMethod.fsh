@@ -7,7 +7,7 @@ Vessel Lumen Cross-sectional Area Calculation Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.112"
 * ^version = "20040614"
-* ^title = "Vessel Lumen Cross-sectional Area Calculation Method"
+* ^title = "Vessel Lumen Cross-sectional Area Calculation Method (CID 3470)"
 * ^name = "VesselLumenCrossSectionalAreaCalculationMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122473 //"Circular method" 

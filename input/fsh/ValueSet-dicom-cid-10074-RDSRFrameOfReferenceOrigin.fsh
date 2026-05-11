@@ -7,7 +7,7 @@ RDSR Frame of Reference Origin
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1364"
 * ^version = "20210328"
-* ^title = "RDSR Frame of Reference Origin"
+* ^title = "RDSR Frame of Reference Origin (CID 10074)"
 * ^name = "RDSRFrameOfReferenceOrigin"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130536 //"Room Origin" 

@@ -7,7 +7,7 @@ Audit Event Type Code
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.904"
 * ^version = "20170914"
-* ^title = "Audit Event Type Code"
+* ^title = "Audit Event Type Code (CID 401)"
 * ^name = "AuditEventTypeCode"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#110120 //"Application Start" 

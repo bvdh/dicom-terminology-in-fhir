@@ -7,7 +7,7 @@ Whole Slide Microscopy Image Referenced Image Purpose of Reference
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.897"
 * ^version = "20100824"
-* ^title = "Whole Slide Microscopy Image Referenced Image Purpose of Reference"
+* ^title = "Whole Slide Microscopy Image Referenced Image Purpose of Reference (CID 8120)"
 * ^name = "WholeSlideMicroscopyImageReferencedImagePurposeOfReference"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121311 //"Localizer" 

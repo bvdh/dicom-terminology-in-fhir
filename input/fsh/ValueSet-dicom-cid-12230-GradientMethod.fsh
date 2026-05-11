@@ -7,7 +7,7 @@ Gradient Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.621"
 * ^version = "20030918"
-* ^title = "Gradient Method"
+* ^title = "Gradient Method (CID 12230)"
 * ^name = "GradientMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#125217 //"Full Bernoulli" 

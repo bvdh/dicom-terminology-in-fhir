@@ -7,7 +7,7 @@ Procedures for Breast
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.405"
 * ^version = "20040112"
-* ^title = "Procedures for Breast"
+* ^title = "Procedures for Breast (CID 6083)"
 * ^name = "ProceduresForBreast"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111564 //"Nipple discharge cytology" 

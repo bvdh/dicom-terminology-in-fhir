@@ -7,7 +7,7 @@ mpMRI Assessment Value
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1392"
 * ^version = "20210714"
-* ^title = "MpMRI Assessment Value"
+* ^title = "MpMRI Assessment Value (CID 6335)"
 * ^name = "MpMRIAssessmentValue"
 * ^experimental = false
 * include codes from valueset CID_6336

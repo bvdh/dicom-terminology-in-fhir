@@ -7,7 +7,7 @@ RT ROI Image Acquisition Context
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1481"
 * ^version = "20240114"
-* ^title = "RT ROI Image Acquisition Context"
+* ^title = "RT ROI Image Acquisition Context (CID 9272)"
 * ^name = "RTROIImageAcquisitionContext"
 * ^experimental = false
 * include codes from valueset CID_3823

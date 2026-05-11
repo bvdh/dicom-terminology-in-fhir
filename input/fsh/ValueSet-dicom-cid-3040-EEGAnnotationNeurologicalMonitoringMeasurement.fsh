@@ -7,7 +7,7 @@ Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1338"
 * ^version = "20200623"
-* ^title = "EEG Annotation - Neurological Monitoring Measurement"
+* ^title = "EEG Annotation - Neurological Monitoring Measurement (CID 3040)"
 * ^name = "EEGAnnotationNeurologicalMonitoringMeasurement"
 * ^experimental = false
 * urn:iso:std:iso:11073:10101#2:22784 //"Circum head" 

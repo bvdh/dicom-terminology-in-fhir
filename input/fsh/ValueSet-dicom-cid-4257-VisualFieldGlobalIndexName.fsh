@@ -7,7 +7,7 @@ Visual Field Global Index Name
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.916"
 * ^version = "20100827"
-* ^title = "Visual Field Global Index Name"
+* ^title = "Visual Field Global Index Name (CID 4257)"
 * ^name = "VisualFieldGlobalIndexName"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111852 //"Visual Field Index" 

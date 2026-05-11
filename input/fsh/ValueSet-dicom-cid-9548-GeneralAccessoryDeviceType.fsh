@@ -7,7 +7,7 @@ General Accessory Device Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1295"
 * ^version = "20190715"
-* ^title = "General Accessory Device Type"
+* ^title = "General Accessory Device Type (CID 9548)"
 * ^name = "GeneralAccessoryDeviceType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130349 //"Graticule" 

@@ -7,7 +7,7 @@ Log Note Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.66"
 * ^version = "20030327"
-* ^title = "Log Note Type"
+* ^title = "Log Note Type (CID 3401)"
 * ^name = "LogNoteType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121171 //"Tech Note" 

@@ -7,7 +7,7 @@ Mammography Image Quality Finding
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.371"
 * ^version = "20020904"
-* ^title = "Mammography Image Quality Finding"
+* ^title = "Mammography Image Quality Finding (CID 6041)"
 * ^name = "MammographyImageQualityFinding"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111177 //"View and Laterality Marker is missing" 

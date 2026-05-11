@@ -7,7 +7,7 @@ Visual Field Static Perimetry Test Strategy
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.910"
 * ^version = "20100827"
-* ^title = "Visual Field Static Perimetry Test Strategy"
+* ^title = "Visual Field Static Perimetry Test Strategy (CID 4251)"
 * ^name = "VisualFieldStaticPerimetryTestStrategy"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111815 //"Visual Field SITA-Standard Test Strategy" 

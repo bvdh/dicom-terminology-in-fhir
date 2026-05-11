@@ -7,7 +7,7 @@ Interpretation Request Discontinuation Reason
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1198"
 * ^version = "20171122"
-* ^title = "Interpretation Request Discontinuation Reason"
+* ^title = "Interpretation Request Discontinuation Reason (CID 9303)"
 * ^name = "InterpretationRequestDiscontinuationReason"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#110526 //"Resource pre-empted" 

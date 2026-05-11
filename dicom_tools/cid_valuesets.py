@@ -26,7 +26,8 @@ FHIR_SYSTEM_DICTIONARY = dict(
             SCT  = 'http://snomed.info/sct',
             SRT  = 'http://snomed.info/srt',
             UCUM = 'http://unitsofmeasure.org',
-            UMLS = 'http://terminology.hl7.org/CodeSystem/umls/sab',
+            # UMLS = 'http://terminology.hl7.org/CodeSystem/umls/sab',
+            UMLS = 'http://terminology.hl7.org/CodeSystem/umls',
             UNS  = 'UNSCodeSystem'
         )
 
@@ -107,11 +108,12 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
                 umlsConceptUniqueIdIndex = header.index('UMLS Concept Unique ID') if 'UMLS Concept Unique ID' in header else -1
                 
                 fsh_filename = f'ValueSet-{fhir_id}.fsh'
+                cid_label = section_label.replace(' ','_')
                 print(f'Generating FHIR Shorthand for CID in {fsh_path}/{fsh_filename}')
 
                 # write value sets
                 with open(os.path.join(fsh_path, fsh_filename), 'w') as fsh_file:
-                    fsh_file.write(f'ValueSet    : {section_label.replace(' ','_')}\n')
+                    fsh_file.write(f'ValueSet    : {cid_label}\n')
                     fsh_file.write(f'Id          : {fhir_id[:64]}\n')
                     fsh_file.write(f'Description :\n')
                     fsh_file.write(f'"""\n')
@@ -121,7 +123,7 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
                         fsh_file.write(f'* ^identifier.system = "urn:ietf:rfc:3986"\n')
                         fsh_file.write(f'* ^identifier.value  = "urn:oid:{uid}"\n')
                     fsh_file.write(f'* ^version = "{version}"\n')
-                    fsh_file.write(f'* ^title = "{title_text}"\n')
+                    fsh_file.write(f'* ^title = "{title_text} ({section_label})"\n')
                     fsh_file.write(f'* ^name = "{keyword}"\n')
                     fsh_file.write(f'* ^experimental = false\n')
 
@@ -166,11 +168,12 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
 
                                 if umlsConceptUniqueIdIndex >= 0 and len(value) > umlsConceptUniqueIdIndex and value[umlsConceptUniqueIdIndex]:
                                     codeExpression = f'{FHIR_SYSTEM_DICTIONARY['UMLS']}#{value[umlsConceptUniqueIdIndex]}'
-                                    if not codeExpression in writtenCodes:
-                                        fsh_file.write(f'* {codeExpression} //"{codeMeaning}" \n')
-                                    else:
-                                        fsh_file.write(f'// * {codeExpression} "{codeMeaning}" \n')
-                                    writtenCodes.add(codeExpression)
+                                    # disabled as UMLS does not resolve
+                                    # if not codeExpression in writtenCodes:
+                                    #     fsh_file.write(f'* {codeExpression} //"{codeMeaning}" \n')
+                                    # else:
+                                    #     fsh_file.write(f'// * {codeExpression} "{codeMeaning}" \n')
+                                    # writtenCodes.add(codeExpression)
                                     allcodes['UMLS'][value[umlsConceptUniqueIdIndex]] = codeMeaning
 
                                     if ( snomedCt2UmlsMapping.get(code) is None ):

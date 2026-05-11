@@ -7,7 +7,7 @@ Retinal Thickness Definition
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.938"
 * ^version = "20110825"
-* ^title = "Retinal Thickness Definition"
+* ^title = "Retinal Thickness Definition (CID 4262)"
 * ^name = "RetinalThicknessDefinition"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111925 //"Retinal nerve fiber layer thickness" 

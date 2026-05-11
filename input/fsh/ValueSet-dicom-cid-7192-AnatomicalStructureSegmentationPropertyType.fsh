@@ -7,7 +7,7 @@ Anatomical Structure Segmentation Property Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1191"
 * ^version = "20240915"
-* ^title = "Anatomical Structure Segmentation Property Type"
+* ^title = "Anatomical Structure Segmentation Property Type (CID 7192)"
 * ^name = "AnatomicalStructureSegmentationPropertyType"
 * ^experimental = false
 * include codes from valueset CID_4
@@ -62,5 +62,4 @@ Anatomical Structure Segmentation Property Type
 
 * http://snomed.info/sct#91806002 //"Body cavity" 
 * http://snomed.info/srt#T-D00A3 //"Body cavity" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0333343 //"Body cavity" 
 

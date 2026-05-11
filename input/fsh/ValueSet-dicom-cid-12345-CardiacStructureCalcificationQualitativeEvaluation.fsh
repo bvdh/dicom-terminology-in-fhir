@@ -7,7 +7,7 @@ Cardiac Structure Calcification Qualitative Evaluation
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1532"
 * ^version = "20250407"
-* ^title = "Cardiac Structure Calcification Qualitative Evaluation"
+* ^title = "Cardiac Structure Calcification Qualitative Evaluation (CID 12345)"
 * ^name = "CardiacStructureCalcificationQualitativeEvaluation"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131142 //"Aortic annulus calcification severity" 

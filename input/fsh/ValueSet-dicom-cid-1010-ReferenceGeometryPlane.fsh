@@ -7,7 +7,7 @@ Reference Geometry - Plane
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1128"
 * ^version = "20160905"
-* ^title = "Reference Geometry - Plane"
+* ^title = "Reference Geometry - Plane (CID 1010)"
 * ^name = "ReferenceGeometryPlane"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128128 //"Plane through Anterior Extent" 

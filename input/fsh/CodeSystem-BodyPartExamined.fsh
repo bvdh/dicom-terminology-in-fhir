@@ -332,7 +332,7 @@ Description: "Body part examined codes extracted from DICOM PS3.16 Table L-1 and
 
 * #INTRACRANIAL "Intracranial" "Intracranial"
 
-* #JAW "Jaw region, Mandible" "Jaw region, Mandible"
+* #JAW "Mandible, Jaw region" "Mandible, Jaw region"
 
 * #JEJUNUM "Jejunum" "Jejunum"
 

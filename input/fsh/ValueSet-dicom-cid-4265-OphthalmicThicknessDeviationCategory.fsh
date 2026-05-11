@@ -7,7 +7,7 @@ Ophthalmic Thickness Deviation Category
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.941"
 * ^version = "20110825"
-* ^title = "Ophthalmic Thickness Deviation Category"
+* ^title = "Ophthalmic Thickness Deviation Category (CID 4265)"
 * ^name = "OphthalmicThicknessDeviationCategory"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111935 //"p>5%" 

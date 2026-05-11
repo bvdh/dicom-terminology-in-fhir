@@ -7,7 +7,7 @@ Radiotherapy Purpose of Reference
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1115"
 * ^version = "20240616"
-* ^title = "Radiotherapy Purpose of Reference"
+* ^title = "Radiotherapy Purpose of Reference (CID 7022)"
 * ^name = "RadiotherapyPurposeOfReference"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121310 //"RT treatment plan for the position being verified" 

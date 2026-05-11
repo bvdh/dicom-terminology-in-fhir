@@ -7,7 +7,7 @@ Mitral Valve Structural Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1520"
 * ^version = "20250405"
-* ^title = "Mitral Valve Structural Measurement"
+* ^title = "Mitral Valve Structural Measurement (CID 12335)"
 * ^name = "MitralValveStructuralMeasurement"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131173 //"Mitral anterior leaflet A1 scallop length" 

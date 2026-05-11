@@ -7,7 +7,7 @@ Abstract Multi-dimensional Image Model Component Unit
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.918"
 * ^version = "20180605"
-* ^title = "Abstract Multi-dimensional Image Model Component Unit"
+* ^title = "Abstract Multi-dimensional Image Model Component Unit (CID 7181)"
 * ^name = "AbstractMultiDimensionalImageModelComponentUnit"
 * ^experimental = false
 * include codes from valueset CID_3500

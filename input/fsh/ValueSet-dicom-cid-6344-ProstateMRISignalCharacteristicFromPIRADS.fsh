@@ -7,7 +7,7 @@ Prostate MRI Signal Characteristic from PI-RADS
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1401"
 * ^version = "20210714"
-* ^title = "Prostate MRI Signal Characteristic from PI-RADS"
+* ^title = "Prostate MRI Signal Characteristic from PI-RADS (CID 6344)"
 * ^name = "ProstateMRISignalCharacteristicFromPIRADS"
 * ^experimental = false
 * http://www.radlex.org#RID35805 //"Hyperintense" 
@@ -23,7 +23,6 @@ Prostate MRI Signal Characteristic from PI-RADS
 * http://www.radlex.org#RID49501 //"T2 hypointensity" 
 
 * http://www.radlex.org#RID43349 //"Restricted diffusion" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2826108 //"Restricted diffusion" 
 
 * http://www.radlex.org#RID39536 //"Diffusion-weighted hypersensitivity" 
 

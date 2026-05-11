@@ -7,7 +7,7 @@ RECIST Defined Lesion Response
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.464"
 * ^version = "20030108"
-* ^title = "RECIST Defined Lesion Response"
+* ^title = "RECIST Defined Lesion Response (CID 6144)"
 * ^name = "RECISTDefinedLesionResponse"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#112041 //"Target Lesion Complete Response" 

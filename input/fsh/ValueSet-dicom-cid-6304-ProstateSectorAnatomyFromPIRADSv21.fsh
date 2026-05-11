@@ -7,7 +7,7 @@ Frombiblio_PIRADS21
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1306"
 * ^version = "20200117"
-* ^title = "Prostate Sector Anatomy from PI-RADS v2.1"
+* ^title = "Prostate Sector Anatomy from PI-RADS v2.1 (CID 6304)"
 * ^name = "ProstateSectorAnatomyFromPIRADSv21"
 * ^experimental = false
 * include codes from valueset CID_6301

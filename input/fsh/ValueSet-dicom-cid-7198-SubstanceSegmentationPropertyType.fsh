@@ -7,7 +7,7 @@ Substance Segmentation Property Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1197"
 * ^version = "20170914"
-* ^title = "Substance Segmentation Property Type"
+* ^title = "Substance Segmentation Property Type (CID 7198)"
 * ^name = "SubstanceSegmentationPropertyType"
 * ^experimental = false
 * include codes from valueset CID_6402

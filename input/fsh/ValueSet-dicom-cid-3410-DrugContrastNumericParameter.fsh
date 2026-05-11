@@ -7,7 +7,7 @@ Drug/Contrast Numeric Parameter
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.75"
 * ^version = "20070124"
-* ^title = "Drug/Contrast Numeric Parameter"
+* ^title = "Drug/Contrast Numeric Parameter (CID 3410)"
 * ^name = "DrugContrastNumericParameter"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122091 //"Volume administered" 

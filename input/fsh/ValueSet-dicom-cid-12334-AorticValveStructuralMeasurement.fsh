@@ -7,13 +7,12 @@ Aortic Valve Structural Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1519"
 * ^version = "20250405"
-* ^title = "Aortic Valve Structural Measurement"
+* ^title = "Aortic Valve Structural Measurement (CID 12334)"
 * ^name = "AorticValveStructuralMeasurement"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131140 //"Aorta sinotubular junction area" 
 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2059685 //"Aortic annulus area" 
-// * http://terminology.hl7.org/CodeSystem/umls/sab#C2059685 "Aortic annulus area" 
+* http://terminology.hl7.org/CodeSystem/umls#C2059685 //"Aortic annulus area" 
 
 * DICOM_DCM_CodeSystem#131143 //"Aortic annulus max diameter" 
 
@@ -29,8 +28,7 @@ Aortic Valve Structural Measurement
 
 * DICOM_DCM_CodeSystem#131150 //"Aortic sinus of valsalva area" 
 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2059455 //"Aortic sinus of valsalva diameter" 
-// * http://terminology.hl7.org/CodeSystem/umls/sab#C2059455 "Aortic sinus of valsalva diameter" 
+* http://terminology.hl7.org/CodeSystem/umls#C2059455 //"Aortic sinus of valsalva diameter" 
 
 * DICOM_DCM_CodeSystem#131152 //"Aortic valve coaptation length" 
 

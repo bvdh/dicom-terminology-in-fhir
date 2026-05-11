@@ -7,7 +7,7 @@ CAD Geometry Secondary Graphical Representation
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.480"
 * ^version = "20060822"
-* ^title = "CAD Geometry Secondary Graphical Representation"
+* ^title = "CAD Geometry Secondary Graphical Representation (CID 6166)"
 * ^name = "CADGeometrySecondaryGraphicalRepresentation"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113661 //"Outline of lobulations" 
@@ -24,11 +24,9 @@ CAD Geometry Secondary Graphical Representation
 
 * http://snomed.info/sct#103339001 //"Long axis" 
 * http://snomed.info/srt#G-A185 //"Long axis" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0522487 //"Long axis" 
 
 * http://snomed.info/sct#103340004 //"Short axis" 
 * http://snomed.info/srt#G-A186 //"Short axis" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0522488 //"Short axis" 
 
 * DICOM_DCM_CodeSystem#113669 //"Orthogonal location arc" 
 

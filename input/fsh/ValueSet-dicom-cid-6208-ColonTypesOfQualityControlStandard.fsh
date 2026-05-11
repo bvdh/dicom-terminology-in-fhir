@@ -7,7 +7,7 @@ Colon Types of Quality Control Standard
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.795"
 * ^version = "20090402"
-* ^title = "Colon Types of Quality Control Standard"
+* ^title = "Colon Types of Quality Control Standard (CID 6208)"
 * ^name = "ColonTypesOfQualityControlStandard"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#112036 //"ACR Position Statement" 

@@ -7,7 +7,7 @@ Shear Wave Detection Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1451"
 * ^version = "20220628"
-* ^title = "Shear Wave Detection Method"
+* ^title = "Shear Wave Detection Method (CID 12324)"
 * ^name = "ShearWaveDetectionMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130756 //"Particle Displacement Method" 

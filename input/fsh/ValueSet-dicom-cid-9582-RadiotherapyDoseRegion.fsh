@@ -7,7 +7,7 @@ Radiotherapy Dose Region
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1444"
 * ^version = "20220402"
-* ^title = "Radiotherapy Dose Region"
+* ^title = "Radiotherapy Dose Region (CID 9582)"
 * ^name = "RadiotherapyDoseRegion"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130747 //"Isodose Volume" 

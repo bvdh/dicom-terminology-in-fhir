@@ -7,7 +7,7 @@ Insurance Payor
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.230"
 * ^version = "20030327"
-* ^title = "Insurance Payor"
+* ^title = "Insurance Payor (CID 3730)"
 * ^name = "InsurancePayor"
 * ^experimental = false
 * http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#18-1 //"Government" 

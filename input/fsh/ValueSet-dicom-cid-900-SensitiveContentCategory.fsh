@@ -7,7 +7,7 @@ Sensitive Content Category
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1560"
 * ^version = "20260123"
-* ^title = "Sensitive Content Category"
+* ^title = "Sensitive Content Category (CID 900)"
 * ^name = "SensitiveContentCategory"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131390 //"No Sensitive Content Identified" 

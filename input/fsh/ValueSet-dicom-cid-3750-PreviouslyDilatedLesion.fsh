@@ -7,7 +7,7 @@ Previously Dilated Lesion
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.247"
 * ^version = "20030327"
-* ^title = "Previously Dilated Lesion"
+* ^title = "Previously Dilated Lesion (CID 3750)"
 * ^name = "PreviouslyDilatedLesion"
 * ^experimental = false
 * http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#108-0 //"not previously treated" 

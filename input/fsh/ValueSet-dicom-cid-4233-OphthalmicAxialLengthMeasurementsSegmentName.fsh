@@ -7,16 +7,14 @@ Ophthalmic Axial Length Measurements Segment Name
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.879"
 * ^version = "20100623"
-* ^title = "Ophthalmic Axial Length Measurements Segment Name"
+* ^title = "Ophthalmic Axial Length Measurements Segment Name (CID 4233)"
 * ^name = "OphthalmicAxialLengthMeasurementsSegmentName"
 * ^experimental = false
 * http://snomed.info/sct#28726007 //"Cornea" 
 * http://snomed.info/srt#T-AA200 //"Cornea" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0010031 //"Cornea" 
 
 * http://snomed.info/sct#31636006 //"Anterior Chamber" 
 * http://snomed.info/srt#T-AA050 //"Anterior Chamber" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0003151 //"Anterior Chamber" 
 
 * DICOM_DCM_CodeSystem#111778 //"Single or Anterior Lens" 
 
@@ -24,5 +22,4 @@ Ophthalmic Axial Length Measurements Segment Name
 
 * http://snomed.info/sct#26386000 //"Vitreous Cavity" 
 * http://snomed.info/srt#T-AA079 //"Vitreous Cavity" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0229095 //"Vitreous Cavity" 
 

@@ -7,7 +7,7 @@ Surface Scan Registration Method Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.956"
 * ^version = "20121129"
-* ^title = "Surface Scan Registration Method Type"
+* ^title = "Surface Scan Registration Method Type (CID 8203)"
 * ^name = "SurfaceScanRegistrationMethodType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#114213 //"Iterative Closest Point" 

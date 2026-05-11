@@ -7,10 +7,9 @@ Dose Measurement Device
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.543"
 * ^version = "20051101"
-* ^title = "Dose Measurement Device"
+* ^title = "Dose Measurement Device (CID 10010)"
 * ^name = "DoseMeasurementDevice"
 * ^experimental = false
 * http://snomed.info/sct#15869005 //"Dosimeter" 
 * http://snomed.info/srt#A-2C090 //"Dosimeter" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0180488 //"Dosimeter" 
 

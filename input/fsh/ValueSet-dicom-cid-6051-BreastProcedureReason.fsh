@@ -7,7 +7,7 @@ Some of these terms were obtained from BI-RADS
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.380"
 * ^version = "20230630"
-* ^title = "Breast Procedure Reason"
+* ^title = "Breast Procedure Reason (CID 6051)"
 * ^name = "BreastProcedureReason"
 * ^experimental = false
 * include codes from valueset CID_6061
@@ -24,21 +24,17 @@ Some of these terms were obtained from BI-RADS
 
 * http://snomed.info/sct#59214008 //"Reduction mammoplasty" 
 * http://snomed.info/srt#P1-48830 //"Reduction mammoplasty" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0191922 //"Reduction mammoplasty" 
 
 * http://snomed.info/sct#429479009 //"History of radiation therapy" 
 * http://snomed.info/srt#P0-099EB //"History of radiation therapy" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1996966 //"History of radiation therapy" 
 
 * http://snomed.info/sct#22890008 //"Augmentation mammoplasty" 
 * http://snomed.info/srt#P1-48840 //"Augmentation mammoplasty" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0191925 //"Augmentation mammoplasty" 
 
 * DICOM_DCM_CodeSystem#111419 //"Additional evaluation requested from abnormal screening study" 
 
 * http://snomed.info/sct#384692006 //"Brachytherapy" 
 * http://snomed.info/srt#P5-C018A //"Brachytherapy" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0006098 //"Brachytherapy" 
 
 * DICOM_DCM_CodeSystem#111420 //"History of benign breast biopsy" 
 
@@ -50,7 +46,6 @@ Some of these terms were obtained from BI-RADS
 
 * http://snomed.info/sct#415076002 //"Personal history of breast cancer" 
 * http://snomed.info/srt#G-03D3 //"Personal history of breast cancer" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1387407 //"Personal history of breast cancer" 
 
 * DICOM_DCM_CodeSystem#111590 //"Recall for technical reasons" 
 

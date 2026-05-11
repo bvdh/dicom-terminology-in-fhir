@@ -7,7 +7,7 @@ Patient Model Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1158"
 * ^version = "20170405"
-* ^title = "Patient Model Type"
+* ^title = "Patient Model Type (CID 10064)"
 * ^name = "PatientModelType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128418 //"Simple Object Model" 

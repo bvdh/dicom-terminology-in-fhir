@@ -7,10 +7,9 @@ Teletherapy Isotope
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1237"
 * ^version = "20181112"
-* ^title = "Teletherapy Isotope"
+* ^title = "Teletherapy Isotope (CID 9527)"
 * ^name = "TeletherapyIsotope"
 * ^experimental = false
 * http://snomed.info/sct#5405008 //"^60^Cobalt" 
 * http://snomed.info/srt#C-144A6 //"^60^Cobalt" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0303395 //"^60^Cobalt" 
 

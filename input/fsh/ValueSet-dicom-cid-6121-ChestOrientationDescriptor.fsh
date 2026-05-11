@@ -7,18 +7,15 @@ Chest Orientation Descriptor
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.441"
 * ^version = "20030108"
-* ^title = "Chest Orientation Descriptor"
+* ^title = "Chest Orientation Descriptor (CID 6121)"
 * ^name = "ChestOrientationDescriptor"
 * ^experimental = false
 * http://snomed.info/sct#24020000 //"Horizontal" 
 * http://snomed.info/srt#G-A142 //"Horizontal" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0205126 //"Horizontal" 
 
 * http://snomed.info/sct#33096000 //"Vertical" 
 * http://snomed.info/srt#G-A144 //"Vertical" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0205128 //"Vertical" 
 
 * http://snomed.info/sct#21114003 //"Oblique" 
 * http://snomed.info/srt#G-A472 //"Oblique" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0205315 //"Oblique" 
 

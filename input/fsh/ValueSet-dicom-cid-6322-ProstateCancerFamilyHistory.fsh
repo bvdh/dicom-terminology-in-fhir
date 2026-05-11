@@ -7,7 +7,7 @@ Prostate Cancer Family History
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1379"
 * ^version = "20210714"
-* ^title = "Prostate Cancer Family History"
+* ^title = "Prostate Cancer Family History (CID 6322)"
 * ^name = "ProstateCancerFamilyHistory"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111562 //"Family history of prostate cancer" 
@@ -16,5 +16,4 @@ Prostate Cancer Family History
 
 * http://snomed.info/sct#407559004 //"Family history unknown" 
 * http://snomed.info/srt#F-03F6E //"Family history unknown" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1319897 //"Family history unknown" 
 

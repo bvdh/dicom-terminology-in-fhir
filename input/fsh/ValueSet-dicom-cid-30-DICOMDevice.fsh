@@ -7,7 +7,7 @@ DICOM Device
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.20"
 * ^version = "20190327"
-* ^title = "DICOM Device"
+* ^title = "DICOM Device (CID 30)"
 * ^name = "DICOMDevice"
 * ^experimental = false
 * include codes from valueset CID_29

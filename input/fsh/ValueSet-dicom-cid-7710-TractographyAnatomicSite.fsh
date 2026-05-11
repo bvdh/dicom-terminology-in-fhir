@@ -7,7 +7,7 @@ Tractography Anatomic Site
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1020"
 * ^version = "20221224"
-* ^title = "Tractography Anatomic Site"
+* ^title = "Tractography Anatomic Site (CID 7710)"
 * ^name = "TractographyAnatomicSite"
 * ^experimental = false
 * include codes from valueset CID_7701
@@ -26,35 +26,27 @@ Tractography Anatomic Site
 
 * http://snomed.info/sct#33060004 //"Cerebellar white matter" 
 * http://snomed.info/srt#T-A6080 //"Cerebellar white matter" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0152381 //"Cerebellar white matter" 
 
 * http://snomed.info/sct#68523003 //"Cerebral white matter" 
 * http://snomed.info/srt#T-A2030 //"Cerebral white matter" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0152295 //"Cerebral white matter" 
 
 * http://snomed.info/sct#27088001 //"Spinal cord white matter" 
 * http://snomed.info/srt#T-A7070 //"Spinal cord white matter" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0458457 //"Spinal cord white matter" 
 
 * http://snomed.info/sct#389080008 //"White matter of brain and spinal cord" 
 * http://snomed.info/srt#T-A0095 //"White matter of brain and spinal cord" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1300311 //"White matter of brain and spinal cord" 
 
 * DICOM_DCM_CodeSystem#110706 //"Perilesional White Matter" 
 
 * http://snomed.info/sct#84782009 //"Peripheral nerve" 
 * http://snomed.info/srt#T-A0500 //"Peripheral nerve" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0031119 //"Peripheral nerve" 
 
 * http://snomed.info/sct#127954009 //"Skeletal muscle" 
 * http://snomed.info/srt#T-D0684 //"Skeletal muscle" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0242692 //"Skeletal muscle" 
 
 * http://snomed.info/sct#122448007 //"Cardiac muscle" 
 * http://snomed.info/srt#T-1300D //"Cardiac muscle" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0027061 //"Cardiac muscle" 
 
 * http://snomed.info/sct#706342009 //"Phantom" 
 * http://snomed.info/srt#R-FE0C7 //"Phantom" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0282611 //"Phantom" 
 

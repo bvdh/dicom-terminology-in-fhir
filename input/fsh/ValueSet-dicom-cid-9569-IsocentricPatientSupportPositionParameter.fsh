@@ -7,7 +7,7 @@ Isocentric Patient Support Position Parameter
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1326"
 * ^version = "20200624"
-* ^title = "Isocentric Patient Support Position Parameter"
+* ^title = "Isocentric Patient Support Position Parameter (CID 9569)"
 * ^name = "IsocentricPatientSupportPositionParameter"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#126812 //"Isocentric Patient Support Continuous Pitch Angle" 

@@ -7,14 +7,12 @@ Ophthalmic Horizontal Direction
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.800"
 * ^version = "20080124"
-* ^title = "Ophthalmic Horizontal Direction"
+* ^title = "Ophthalmic Horizontal Direction (CID 4214)"
 * ^name = "OphthalmicHorizontalDirection"
 * ^experimental = false
 * http://snomed.info/sct#255460003 //"Inward" 
 * http://snomed.info/srt#G-C028 //"Inward" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0439786 //"Inward" 
 
 * http://snomed.info/sct#255543005 //"Outward" 
 * http://snomed.info/srt#R-404C7 //"Outward" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0439788 //"Outward" 
 

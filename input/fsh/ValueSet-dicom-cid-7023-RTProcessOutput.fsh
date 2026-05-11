@@ -7,7 +7,7 @@ The concepts in the CID are intended to be a declarative statement to represent 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1135"
 * ^version = "20160908"
-* ^title = "RT Process Output"
+* ^title = "RT Process Output (CID 7023)"
 * ^name = "RTProcessOutput"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128184 //"Pre-Planning Result" 

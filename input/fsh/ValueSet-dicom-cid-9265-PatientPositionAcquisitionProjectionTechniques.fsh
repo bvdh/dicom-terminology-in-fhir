@@ -7,7 +7,7 @@ Patient Position Acquisition - Projection Techniques
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1464"
 * ^version = "20221225"
-* ^title = "Patient Position Acquisition - Projection Techniques"
+* ^title = "Patient Position Acquisition - Projection Techniques (CID 9265)"
 * ^name = "PatientPositionAcquisitionProjectionTechniques"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121702 //"RT Patient Position Acquisition, single plane MV" 

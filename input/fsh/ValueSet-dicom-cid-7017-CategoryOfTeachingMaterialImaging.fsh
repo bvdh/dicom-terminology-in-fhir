@@ -7,7 +7,7 @@ The contents of this Context Group correspond to the American Board of Radiology
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1181"
 * ^version = "20170914"
-* ^title = "Category of Teaching Material - Imaging"
+* ^title = "Category of Teaching Material - Imaging (CID 7017)"
 * ^name = "CategoryOfTeachingMaterialImaging"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128728 //"Musculoskeletal imaging subject matter" 

@@ -7,7 +7,7 @@ Electrophysiology Annotation
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.64"
 * ^version = "20020904"
-* ^title = "Electrophysiology Annotation"
+* ^title = "Electrophysiology Annotation (CID 3339)"
 * ^name = "ElectrophysiologyAnnotation"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#109038 //"Ablation off" 

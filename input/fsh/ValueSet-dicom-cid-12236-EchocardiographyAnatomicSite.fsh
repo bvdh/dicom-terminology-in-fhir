@@ -7,7 +7,7 @@ Echocardiography Anatomic Site
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.627"
 * ^version = "20110818"
-* ^title = "Echocardiography Anatomic Site"
+* ^title = "Echocardiography Anatomic Site (CID 12236)"
 * ^name = "EchocardiographyAnatomicSite"
 * ^experimental = false
 * include codes from valueset CID_12235
@@ -24,9 +24,7 @@ Echocardiography Anatomic Site
 
 * http://snomed.info/sct#253678000 //"Thoracic Aortic Coarctation" 
 * http://snomed.info/srt#D4-32030 //"Thoracic Aortic Coarctation" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0345086 //"Thoracic Aortic Coarctation" 
 
 * http://snomed.info/sct#373945007 //"Pericardial effusion" 
 * http://snomed.info/srt#D3-90008 //"Pericardial effusion" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0031039 //"Pericardial effusion" 
 

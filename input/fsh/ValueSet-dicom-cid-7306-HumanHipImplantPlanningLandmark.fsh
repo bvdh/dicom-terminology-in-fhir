@@ -7,7 +7,7 @@ Human Hip Implant Planning Landmark
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1037"
 * ^version = "20101102"
-* ^title = "Human Hip Implant Planning Landmark"
+* ^title = "Human Hip Implant Planning Landmark (CID 7306)"
 * ^name = "HumanHipImplantPlanningLandmark"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#112302 //"Anatomical axis of femur" 

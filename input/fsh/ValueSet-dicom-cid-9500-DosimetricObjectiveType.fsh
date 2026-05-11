@@ -7,7 +7,7 @@ Dosimetric Objective Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1210"
 * ^version = "20181112"
-* ^title = "Dosimetric Objective Type"
+* ^title = "Dosimetric Objective Type (CID 9500)"
 * ^name = "DosimetricObjectiveType"
 * ^experimental = false
 * include codes from valueset CID_9532

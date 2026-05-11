@@ -7,7 +7,7 @@ PI-RADS v2 T2WI TZ Lesion Assessment Category
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1387"
 * ^version = "20210714"
-* ^title = "PI-RADS v2 T2WI TZ Lesion Assessment Category"
+* ^title = "PI-RADS v2 T2WI TZ Lesion Assessment Category (CID 6330)"
 * ^name = "PIRADSv2T2WITZLesionAssessmentCategory"
 * ^experimental = false
 * http://www.radlex.org#RID50308 //"PI-RADS 1 - T2WI TZ Very low" 

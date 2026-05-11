@@ -7,7 +7,7 @@ In future extensions, Mammography Composite Feature terms that are not derived f
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.346"
 * ^version = "20050110"
-* ^title = "Mammography Composite Feature"
+* ^title = "Mammography Composite Feature (CID 6016)"
 * ^name = "MammographyCompositeFeature"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111459 //"Mass with calcifications" 

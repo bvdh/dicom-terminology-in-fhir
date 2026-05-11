@@ -7,7 +7,7 @@ Exogenous Substance
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1103"
 * ^version = "20151110"
-* ^title = "Exogenous Substance"
+* ^title = "Exogenous Substance (CID 638)"
 * ^name = "ExogenousSubstance"
 * ^experimental = false
 * include codes from valueset CID_639

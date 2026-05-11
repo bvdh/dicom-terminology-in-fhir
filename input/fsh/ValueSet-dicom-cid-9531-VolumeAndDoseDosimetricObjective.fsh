@@ -7,7 +7,7 @@ Volume and Dose Dosimetric Objective
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1241"
 * ^version = "20181112"
-* ^title = "Volume and Dose Dosimetric Objective"
+* ^title = "Volume and Dose Dosimetric Objective (CID 9531)"
 * ^name = "VolumeAndDoseDosimetricObjective"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130016 //"Minimum Absolute Volume at Radiation Dose" 

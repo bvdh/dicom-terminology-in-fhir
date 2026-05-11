@@ -7,38 +7,30 @@ In a prior version of this table, SNOMED codes T-51005 through T-5100C were spec
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.301"
 * ^version = "20150318"
-* ^title = "Anatomic Region Modifier for Intra-oral Radiography"
+* ^title = "Anatomic Region Modifier for Intra-oral Radiography (CID 4017)"
 * ^name = "AnatomicRegionModifierForIntraoralRadiography"
 * ^experimental = false
 * http://snomed.info/sct#699453001 //"Central incisor region" 
 * http://snomed.info/srt#R-FB322 //"Central incisor region" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3697198 //"Central incisor region" 
 
 * http://snomed.info/sct#699511000 //"Lateral incisor region" 
 * http://snomed.info/srt#R-FB35C //"Lateral incisor region" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3697187 //"Lateral incisor region" 
 
 * http://snomed.info/sct#699510004 //"Canine region" 
 * http://snomed.info/srt#R-FB35B //"Canine region" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3697045 //"Canine region" 
 
 * http://snomed.info/sct#699509009 //"First premolar region" 
 * http://snomed.info/srt#R-FB35A //"First premolar region" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3697100 //"First premolar region" 
 
 * http://snomed.info/sct#699508001 //"Second premolar region" 
 * http://snomed.info/srt#R-FB359 //"Second premolar region" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3698067 //"Second premolar region" 
 
 * http://snomed.info/sct#699507006 //"First molar region" 
 * http://snomed.info/srt#R-FB358 //"First molar region" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3698498 //"First molar region" 
 
 * http://snomed.info/sct#699505003 //"Second molar region" 
 * http://snomed.info/srt#R-FB356 //"Second molar region" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3698361 //"Second molar region" 
 
 * http://snomed.info/sct#699503005 //"Third molar region" 
 * http://snomed.info/srt#R-FB354 //"Third molar region" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3697261 //"Third molar region" 
 

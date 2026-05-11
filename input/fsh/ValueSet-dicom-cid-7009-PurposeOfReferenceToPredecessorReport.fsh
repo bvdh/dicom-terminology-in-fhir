@@ -7,7 +7,7 @@ The concepts of replaced and addended correspond to REPLACEMENT and ADDENDUM in 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.818"
 * ^version = "20090826"
-* ^title = "Purpose of Reference to Predecessor Report"
+* ^title = "Purpose of Reference to Predecessor Report (CID 7009)"
 * ^name = "PurposeOfReferenceToPredecessorReport"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121360 //"Replaced report" 

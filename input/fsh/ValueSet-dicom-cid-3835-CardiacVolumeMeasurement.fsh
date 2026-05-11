@@ -7,7 +7,7 @@ Cardiac Volume Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.285"
 * ^version = "20051103"
-* ^title = "Cardiac Volume Measurement"
+* ^title = "Cardiac Volume Measurement (CID 3835)"
 * ^name = "CardiacVolumeMeasurement"
 * ^experimental = false
 * include codes from valueset CID_3468
@@ -16,5 +16,4 @@ Cardiac Volume Measurement
 
 * http://snomed.info/sct#90096001 //"Stroke Volume" 
 * http://snomed.info/srt#F-32120 //"Stroke Volume" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0038455 //"Stroke Volume" 
 

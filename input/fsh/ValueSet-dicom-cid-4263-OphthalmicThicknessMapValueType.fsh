@@ -7,7 +7,7 @@ Ophthalmic Thickness Map Value Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.939"
 * ^version = "20110825"
-* ^title = "Ophthalmic Thickness Map Value Type"
+* ^title = "Ophthalmic Thickness Map Value Type (CID 4263)"
 * ^name = "OphthalmicThicknessMapValueType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111930 //"Absolute ophthalmic thickness" 

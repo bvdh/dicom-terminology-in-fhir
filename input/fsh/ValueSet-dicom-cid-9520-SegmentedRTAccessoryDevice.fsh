@@ -7,7 +7,7 @@ Segmented RT Accessory Device
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1230"
 * ^version = "20181112"
-* ^title = "Segmented RT Accessory Device"
+* ^title = "Segmented RT Accessory Device (CID 9520)"
 * ^name = "SegmentedRTAccessoryDevice"
 * ^experimental = false
 * include codes from valueset CID_9513

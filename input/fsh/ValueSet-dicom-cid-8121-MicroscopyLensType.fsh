@@ -7,18 +7,15 @@ Microscopy Lens Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.898"
 * ^version = "20100824"
-* ^title = "Microscopy Lens Type"
+* ^title = "Microscopy Lens Type (CID 8121)"
 * ^name = "MicroscopyLensType"
 * ^experimental = false
 * http://snomed.info/sct#445621001 //"High power non-immersion lens" 
 * http://snomed.info/srt#A-0011A //"High power non-immersion lens" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2919938 //"High power non-immersion lens" 
 
 * http://snomed.info/sct#445622008 //"Oil immersion lens" 
 * http://snomed.info/srt#A-0011B //"Oil immersion lens" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2919939 //"Oil immersion lens" 
 
 * http://snomed.info/sct#445601002 //"Slide overview lens" 
 * http://snomed.info/srt#A-00118 //"Slide overview lens" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2919940 //"Slide overview lens" 
 

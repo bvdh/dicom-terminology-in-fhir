@@ -7,7 +7,7 @@ Prostate Imaging Types of Quality Control Standard
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1410"
 * ^version = "20210714"
-* ^title = "Prostate Imaging Types of Quality Control Standard"
+* ^title = "Prostate Imaging Types of Quality Control Standard (CID 6353)"
 * ^name = "ProstateImagingTypesOfQualityControlStandard"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130606 //"ESUR 2012 prostate MRI acquisition requirements" 

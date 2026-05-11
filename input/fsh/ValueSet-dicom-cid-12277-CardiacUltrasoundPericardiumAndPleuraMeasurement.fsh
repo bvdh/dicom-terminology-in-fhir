@@ -7,7 +7,7 @@ Cardiac Ultrasound Pericardium and Pleura Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.858"
 * ^version = "20100317"
-* ^title = "Cardiac Ultrasound Pericardium and Pleura Measurement"
+* ^title = "Cardiac Ultrasound Pericardium and Pleura Measurement (CID 12277)"
 * ^name = "CardiacUltrasoundPericardiumAndPleuraMeasurement"
 * ^experimental = false
 * include codes from valueset CID_12250

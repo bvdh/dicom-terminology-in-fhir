@@ -7,7 +7,7 @@ The use of 'Lesion' as opposed to 'Finding' is done to follow the conventions al
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1385"
 * ^version = "20210714"
-* ^title = "PI-RADS v2 Lesion Assessment Category"
+* ^title = "PI-RADS v2 Lesion Assessment Category (CID 6328)"
 * ^name = "PIRADSv2LesionAssessmentCategory"
 * ^experimental = false
 * http://www.radlex.org#RID50296 //"PI-RADS 1 - Very low (lesion)" 

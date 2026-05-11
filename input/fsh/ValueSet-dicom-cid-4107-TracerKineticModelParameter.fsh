@@ -7,7 +7,7 @@ Tracer Kinetic Model Parameter
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.992"
 * ^version = "20141110"
-* ^title = "Tracer Kinetic Model Parameter"
+* ^title = "Tracer Kinetic Model Parameter (CID 4107)"
 * ^name = "TracerKineticModelParameter"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#126312 //"Ktrans" 

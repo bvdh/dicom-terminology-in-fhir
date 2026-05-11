@@ -7,7 +7,7 @@ From BI-RADS
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.468"
 * ^version = "20050822"
-* ^title = "Lesion Boundary"
+* ^title = "Lesion Boundary (CID 6153)"
 * ^name = "LesionBoundary"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111358 //"Abrupt interface" 

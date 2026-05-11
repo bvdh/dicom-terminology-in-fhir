@@ -7,7 +7,7 @@ PET Region of Interest Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.999"
 * ^version = "20141110"
-* ^title = "PET Region of Interest Measurement"
+* ^title = "PET Region of Interest Measurement (CID 7466)"
 * ^name = "PETRegionOfInterestMeasurement"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#126032 //"Metabolic Volume" 

@@ -7,7 +7,7 @@ Effective Dose Calculation Method Category
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1247"
 * ^version = "20181112"
-* ^title = "Effective Dose Calculation Method Category"
+* ^title = "Effective Dose Calculation Method Category (CID 9537)"
 * ^name = "EffectiveDoseCalculationMethodCategory"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130126 //"Radiation transport-based methods" 

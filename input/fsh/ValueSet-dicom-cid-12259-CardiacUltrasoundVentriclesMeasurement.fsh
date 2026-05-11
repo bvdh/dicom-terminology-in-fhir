@@ -7,7 +7,7 @@ Cardiac Ultrasound Ventricles Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.840"
 * ^version = "20100317"
-* ^title = "Cardiac Ultrasound Ventricles Measurement"
+* ^title = "Cardiac Ultrasound Ventricles Measurement (CID 12259)"
 * ^name = "CardiacUltrasoundVentriclesMeasurement"
 * ^experimental = false
 * include codes from valueset CID_12257

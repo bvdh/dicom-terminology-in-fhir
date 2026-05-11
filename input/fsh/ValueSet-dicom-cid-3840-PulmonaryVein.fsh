@@ -7,34 +7,27 @@ A previous version of this Context Group used terms with the SNOMED concept 'ent
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.290"
 * ^version = "20110818"
-* ^title = "Pulmonary Vein"
+* ^title = "Pulmonary Vein (CID 3840)"
 * ^name = "PulmonaryVein"
 * ^experimental = false
 * http://snomed.info/sct#430757002 //"Pulmonary Vein" 
 * http://snomed.info/srt#T-4858F //"Pulmonary Vein" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2317442 //"Pulmonary Vein" 
 
 * http://snomed.info/sct#27706005 //"Left Pulmonary Vein" 
 * http://snomed.info/srt#T-48502 //"Left Pulmonary Vein" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0226670 //"Left Pulmonary Vein" 
 
 * http://snomed.info/sct#51249003 //"Inferior Left Pulmonary Vein" 
 * http://snomed.info/srt#T-48540 //"Inferior Left Pulmonary Vein" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0226686 //"Inferior Left Pulmonary Vein" 
 
 * http://snomed.info/sct#43863001 //"Superior Left Pulmonary Vein" 
 * http://snomed.info/srt#T-48530 //"Superior Left Pulmonary Vein" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0226682 //"Superior Left Pulmonary Vein" 
 
 * http://snomed.info/sct#91539005 //"Right Pulmonary Vein" 
 * http://snomed.info/srt#T-48501 //"Right Pulmonary Vein" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0226669 //"Right Pulmonary Vein" 
 
 * http://snomed.info/sct#113273001 //"Inferior Right Pulmonary Vein" 
 * http://snomed.info/srt#T-48520 //"Inferior Right Pulmonary Vein" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0226676 //"Inferior Right Pulmonary Vein" 
 
 * http://snomed.info/sct#8629005 //"Superior Right Pulmonary Vein" 
 * http://snomed.info/srt#T-48510 //"Superior Right Pulmonary Vein" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0226671 //"Superior Right Pulmonary Vein" 
 

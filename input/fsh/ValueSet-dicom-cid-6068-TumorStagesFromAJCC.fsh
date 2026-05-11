@@ -7,7 +7,7 @@ Tumor Stages From AJCC
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.397"
 * ^version = "20040112"
-* ^title = "Tumor Stages From AJCC"
+* ^title = "Tumor Stages From AJCC (CID 6068)"
 * ^name = "TumorStagesFromAJCC"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111494 //"Stage 0" 

@@ -7,7 +7,7 @@ Workitem Definition
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.531"
 * ^version = "20160601"
-* ^title = "Workitem Definition"
+* ^title = "Workitem Definition (CID 9231)"
 * ^name = "WorkitemDefinition"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#110001 //"Image Processing" 

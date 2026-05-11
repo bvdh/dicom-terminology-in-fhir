@@ -7,7 +7,7 @@ Gray Level Run Length Based Feature
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1199"
 * ^version = "20190121"
-* ^title = "Gray Level Run Length Based Feature"
+* ^title = "Gray Level Run Length Based Feature (CID 7475)"
 * ^name = "GrayLevelRunLengthBasedFeature"
 * ^experimental = false
 * IBSICodeSystem#22OV //"Short Runs Emphasis" 

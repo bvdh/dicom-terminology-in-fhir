@@ -9,12 +9,11 @@ Description :
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1153"
 * ^version = "20240915"
-* ^title = "Retinal Segmentation Surface"
+* ^title = "Retinal Segmentation Surface (CID 4273)"
 * ^name = "RetinalSegmentationSurface"
 * ^experimental = false
 * http://snomed.info/sct#280677004 //"ILM - Internal limiting membrane" 
 * http://snomed.info/srt#T-AA62D //"ILM - Internal limiting membrane" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0459664 //"ILM - Internal limiting membrane" 
 
 * DICOM_DCM_CodeSystem#128289 //"Outer surface of RNFL" 
 
@@ -30,7 +29,6 @@ Description :
 
 * http://snomed.info/sct#76710003 //"ELM - External limiting membrane" 
 * http://snomed.info/srt#T-AA650 //"ELM - External limiting membrane" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0229209 //"ELM - External limiting membrane" 
 
 * DICOM_DCM_CodeSystem#128297 //"Inner surface of the RPE" 
 
@@ -46,7 +44,6 @@ Description :
 
 * http://snomed.info/sct#30322002 //"Lamina cribrosa of sclera" 
 * http://snomed.info/srt#T-AA120 //"Lamina cribrosa of sclera" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0229114 //"Lamina cribrosa of sclera" 
 
 * DICOM_DCM_CodeSystem#128320 //"Inner surface of the ellipsoid zone" 
 

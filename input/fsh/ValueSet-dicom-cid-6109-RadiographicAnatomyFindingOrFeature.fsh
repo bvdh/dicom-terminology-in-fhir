@@ -7,7 +7,7 @@ Original source of terms is [Fraser and Pare].
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.429"
 * ^version = "20030108"
-* ^title = "Radiographic Anatomy Finding or Feature"
+* ^title = "Radiographic Anatomy Finding or Feature (CID 6109)"
 * ^name = "RadiographicAnatomyFindingOrFeature"
 * ^experimental = false
 * include codes from valueset CID_6110

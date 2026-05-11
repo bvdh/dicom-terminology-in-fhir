@@ -5,6 +5,6 @@ Description :
 None
 """
 * ^version = "None"
-* ^title = "Left Ventricle Myocardial Wall 16 Segment Model (Retired)"
+* ^title = "Left Ventricle Myocardial Wall 16 Segment Model (Retired) (CID 3780)"
 * ^name = "Cid3780"
 * ^experimental = false

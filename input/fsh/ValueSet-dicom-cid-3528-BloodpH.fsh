@@ -7,15 +7,12 @@ Blood pH
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.142"
 * ^version = "20030327"
-* ^title = "Blood pH"
+* ^title = "Blood pH (CID 3528)"
 * ^name = "BloodpH"
 * ^experimental = false
 * http://loinc.org#11558-4 //"Blood pH" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0550447 //"Blood pH" 
 
 * http://loinc.org#2744-1 //"Arterial Blood pH" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0364887 //"Arterial Blood pH" 
 
 * http://loinc.org#2746-6 //"Venous Blood pH" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0364889 //"Venous Blood pH" 
 

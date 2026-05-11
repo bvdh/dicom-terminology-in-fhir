@@ -7,7 +7,7 @@ Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.59"
 * ^version = "20080927"
-* ^title = "Electrode Placement Value"
+* ^title = "Electrode Placement Value (CID 3263)"
 * ^name = "ElectrodePlacementValue"
 * ^experimental = false
 * urn:iso:std:iso:11073:10101#10:11264 //"Unspecified 12-lead system" 

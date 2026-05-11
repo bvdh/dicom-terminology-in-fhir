@@ -7,7 +7,7 @@ Motion Management Setup Device
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1425"
 * ^version = "20210906"
-* ^title = "Motion Management Setup Device"
+* ^title = "Motion Management Setup Device (CID 9578)"
 * ^name = "MotionManagementSetupDevice"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130650 //"Coaching Device" 

@@ -7,7 +7,7 @@ Model Scale Unit
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1204"
 * ^version = "20180403"
-* ^title = "Model Scale Unit"
+* ^title = "Model Scale Unit (CID 7063)"
 * ^name = "ModelScaleUnit"
 * ^experimental = false
 * http://unitsofmeasure.org#m //"m" 

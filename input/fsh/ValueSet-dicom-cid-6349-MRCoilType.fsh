@@ -7,9 +7,8 @@ MR Coil Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1406"
 * ^version = "20210714"
-* ^title = "MR Coil Type"
+* ^title = "MR Coil Type (CID 6349)"
 * ^name = "MRCoilType"
 * ^experimental = false
 * http://www.radlex.org#RID10809 //"Endorectal coil" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C4552787 //"Endorectal coil" 
 

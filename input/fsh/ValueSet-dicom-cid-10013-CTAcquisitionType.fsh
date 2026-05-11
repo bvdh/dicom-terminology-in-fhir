@@ -7,14 +7,13 @@ CT Acquisition Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.545"
 * ^version = "20160314"
-* ^title = "CT Acquisition Type"
+* ^title = "CT Acquisition Type (CID 10013)"
 * ^name = "CTAcquisitionType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113804 //"Sequenced Acquisition" 
 
 * http://snomed.info/sct#116152004 //"Spiral Acquisition" 
 * http://snomed.info/srt#P5-08001 //"Spiral Acquisition" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0860888 //"Spiral Acquisition" 
 
 * DICOM_DCM_CodeSystem#113805 //"Constant Angle Acquisition" 
 
@@ -24,5 +23,4 @@ CT Acquisition Type
 
 * http://snomed.info/sct#702569007 //"Cone Beam Acquisition" 
 * http://snomed.info/srt#R-FB8F1 //"Cone Beam Acquisition" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3839509 //"Cone Beam Acquisition" 
 

@@ -7,7 +7,7 @@ MRI Margin Characteristic
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1398"
 * ^version = "20210714"
-* ^title = "MRI Margin Characteristic"
+* ^title = "MRI Margin Characteristic (CID 6341)"
 * ^name = "MRIMarginCharacteristic"
 * ^experimental = false
 * include codes from valueset CID_6342

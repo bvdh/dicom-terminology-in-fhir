@@ -7,7 +7,7 @@ Arterial Pulse Waveform
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.803"
 * ^version = "20090409"
-* ^title = "Arterial Pulse Waveform"
+* ^title = "Arterial Pulse Waveform (CID 3004)"
 * ^name = "ArterialPulseWaveform"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#109116 //"Arterial Pulse Waveform" 

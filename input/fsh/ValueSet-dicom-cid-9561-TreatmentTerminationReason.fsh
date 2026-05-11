@@ -7,7 +7,7 @@ Treatment Termination Reason
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1318"
 * ^version = "20240114"
-* ^title = "Treatment Termination Reason"
+* ^title = "Treatment Termination Reason (CID 9561)"
 * ^name = "TreatmentTerminationReason"
 * ^experimental = false
 * include codes from valueset CID_9568

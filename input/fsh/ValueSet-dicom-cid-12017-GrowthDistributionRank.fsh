@@ -7,7 +7,7 @@ Growth Distribution Rank
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.565"
 * ^version = "20030130"
-* ^title = "Growth Distribution Rank"
+* ^title = "Growth Distribution Rank (CID 12017)"
 * ^name = "GrowthDistributionRank"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#125012 //"Growth Percentile Rank" 

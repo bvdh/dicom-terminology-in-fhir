@@ -7,7 +7,7 @@ IEC61217 Gantry Position Parameter
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1024"
 * ^version = "20130518"
-* ^title = "IEC61217 Gantry Position Parameter"
+* ^title = "IEC61217 Gantry Position Parameter (CID 9402)"
 * ^name = "IEC61217GantryPositionParameter"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#126809 //"IEC61217 Gantry Continuous Roll Angle" 

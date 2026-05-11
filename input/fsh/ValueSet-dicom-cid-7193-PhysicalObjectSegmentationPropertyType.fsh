@@ -7,7 +7,7 @@ Physical Object Segmentation Property Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1192"
 * ^version = "20170914"
-* ^title = "Physical Object Segmentation Property Type"
+* ^title = "Physical Object Segmentation Property Type (CID 7193)"
 * ^name = "PhysicalObjectSegmentationPropertyType"
 * ^experimental = false
 * include codes from valueset CID_8

@@ -7,7 +7,7 @@ Patient Status and Event
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.67"
 * ^version = "20090615"
-* ^title = "Patient Status and Event"
+* ^title = "Patient Status and Event (CID 3402)"
 * ^name = "PatientStatusAndEvent"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122001 //"Patient called to procedure room" 

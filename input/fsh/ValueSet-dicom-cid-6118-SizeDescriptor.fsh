@@ -7,7 +7,7 @@ Size Descriptor
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.438"
 * ^version = "20030108"
-* ^title = "Size Descriptor"
+* ^title = "Size Descriptor (CID 6118)"
 * ^name = "SizeDescriptor"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#112131 //"Extremely small" 
@@ -16,19 +16,15 @@ Size Descriptor
 
 * http://snomed.info/sct#255507004 //"Small" 
 * http://snomed.info/srt#R-404A8 //"Small" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0700321 //"Small" 
 
 * http://snomed.info/sct#255508009 //"Medium" 
 * http://snomed.info/srt#R-404A9 //"Medium" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0439536 //"Medium" 
 
 * http://snomed.info/sct#255509001 //"Large" 
 * http://snomed.info/srt#R-404AA //"Large" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0549177 //"Large" 
 
 * http://snomed.info/sct#260376009 //"Enlarged" 
 * http://snomed.info/srt#R-40750 //"Enlarged" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0442800 //"Enlarged" 
 
 * DICOM_DCM_CodeSystem#112133 //"Too small" 
 

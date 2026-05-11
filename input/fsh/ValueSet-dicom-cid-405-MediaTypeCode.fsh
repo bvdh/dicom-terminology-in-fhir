@@ -7,7 +7,7 @@ Media Type Code
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.908"
 * ^version = "20260128"
-* ^title = "Media Type Code"
+* ^title = "Media Type Code (CID 405)"
 * ^name = "MediaTypeCode"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#110030 //"USB Disk Emulation" 

@@ -7,7 +7,7 @@ Guidewire Crossing
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.248"
 * ^version = "20030327"
-* ^title = "Guidewire Crossing"
+* ^title = "Guidewire Crossing (CID 3752)"
 * ^name = "GuidewireCrossing"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122301 //"Guidewire crossing lesion unsuccessful" 

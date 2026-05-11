@@ -7,11 +7,10 @@ MR Diffusion Model Parameter
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1167"
 * ^version = "20170413"
-* ^title = "MR Diffusion Model Parameter"
+* ^title = "MR Diffusion Model Parameter (CID 7272)"
 * ^name = "MRDiffusionModelParameter"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113041 //"Apparent Diffusion Coefficient" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3890194 //"Apparent Diffusion Coefficient" 
 
 * DICOM_DCM_CodeSystem#113289 //"Diffusion Coefficient" 
 

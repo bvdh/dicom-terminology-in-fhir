@@ -7,24 +7,20 @@ Mydriatic Agent
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.324"
 * ^version = "20190817"
-* ^title = "Mydriatic Agent"
+* ^title = "Mydriatic Agent (CID 4208)"
 * ^name = "MydriaticAgent"
 * ^experimental = false
 * http://snomed.info/sct#771928002 //"Atropine" 
 
 * http://snomed.info/sct#82264009 //"Homatropine" 
 * http://snomed.info/srt#C-677C0 //"Homatropine" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0062922 //"Homatropine" 
 
 * http://snomed.info/sct#8348002 //"Cyclopentolate" 
 * http://snomed.info/srt#C-97520 //"Cyclopentolate" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0010582 //"Cyclopentolate" 
 
 * http://snomed.info/sct#386693003 //"Phenylephrine" 
 * http://snomed.info/srt#C-68165 //"Phenylephrine" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0717985 //"Phenylephrine" 
 
 * http://snomed.info/sct#9190005 //"Tropicamide" 
 * http://snomed.info/srt#C-97580 //"Tropicamide" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0041190 //"Tropicamide" 
 

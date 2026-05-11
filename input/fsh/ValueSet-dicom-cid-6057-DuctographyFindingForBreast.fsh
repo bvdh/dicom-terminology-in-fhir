@@ -7,7 +7,7 @@ These terms were obtained from BI-RADS
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.386"
 * ^version = "20040112"
-* ^title = "Ductography Finding for Breast"
+* ^title = "Ductography Finding for Breast (CID 6057)"
 * ^name = "DuctographyFindingForBreast"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111287 //"Normal breast tissue" 
@@ -16,7 +16,6 @@ These terms were obtained from BI-RADS
 
 * http://snomed.info/sct#22049009 //"Mammary duct ectasia" 
 * http://snomed.info/srt#D7-90370 //"Mammary duct ectasia" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0152442 //"Mammary duct ectasia" 
 
 * DICOM_DCM_CodeSystem#111426 //"Multiple filling defect" 
 

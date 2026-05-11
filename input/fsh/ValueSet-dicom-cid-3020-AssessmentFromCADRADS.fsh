@@ -7,7 +7,7 @@ Assessment from CAD-RADS
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1429"
 * ^version = "20211114"
-* ^title = "Assessment from CAD-RADS"
+* ^title = "Assessment from CAD-RADS (CID 3020)"
 * ^name = "AssessmentFromCADRADS"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130723 //"0 - Documented absence of CAD" 

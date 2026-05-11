@@ -7,7 +7,7 @@ Tracer Kinetic Model
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.986"
 * ^version = "20160316"
-* ^title = "Tracer Kinetic Model"
+* ^title = "Tracer Kinetic Model (CID 4101)"
 * ^name = "TracerKineticModel"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#126340 //"Standard Tofts Model" 

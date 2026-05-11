@@ -7,7 +7,7 @@ Overall Assessment from PI-RADS
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1382"
 * ^version = "20210714"
-* ^title = "Overall Assessment from PI-RADS"
+* ^title = "Overall Assessment from PI-RADS (CID 6325)"
 * ^name = "OverallAssessmentFromPIRADS"
 * ^experimental = false
 * http://www.radlex.org#RID50289 //"PI-RADS 1 - Very low" 

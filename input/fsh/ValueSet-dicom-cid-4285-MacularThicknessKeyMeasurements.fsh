@@ -7,7 +7,7 @@ The Macular grid measurement concepts, based on the ETDRS grid, are included in 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1538"
 * ^version = "20250707"
-* ^title = "Macular Thickness Key Measurements"
+* ^title = "Macular Thickness Key Measurements (CID 4285)"
 * ^name = "MacularThicknessKeyMeasurements"
 * ^experimental = false
 * http://loinc.org#57108-3 //"Macular Grid.Center Point Thickness" 

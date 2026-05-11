@@ -7,7 +7,7 @@ Ganglion Cell Sector Measurements
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1541"
 * ^version = "20250707"
-* ^title = "Ganglion Cell Sector Measurements"
+* ^title = "Ganglion Cell Sector Measurements (CID 4288)"
 * ^name = "GanglionCellSectorMeasurements"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131275 //"Retinal ROI height" 

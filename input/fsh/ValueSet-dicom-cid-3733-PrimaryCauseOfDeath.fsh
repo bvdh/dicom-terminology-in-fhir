@@ -7,7 +7,7 @@ Primary Cause of Death
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.231"
 * ^version = "20030327"
-* ^title = "Primary Cause of Death"
+* ^title = "Primary Cause of Death (CID 3733)"
 * ^name = "PrimaryCauseOfDeath"
 * ^experimental = false
 * http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-1 //"Cardiac" 

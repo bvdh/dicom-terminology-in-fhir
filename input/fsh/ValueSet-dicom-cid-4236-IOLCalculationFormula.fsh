@@ -7,7 +7,7 @@ IOL Calculation Formula
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.882"
 * ^version = "20250401"
-* ^title = "IOL Calculation Formula"
+* ^title = "IOL Calculation Formula (CID 4236)"
 * ^name = "IOLCalculationFormula"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111760 //"Haigis" 

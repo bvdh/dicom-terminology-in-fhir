@@ -7,7 +7,7 @@ Planning Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.924"
 * ^version = "20101102"
-* ^title = "Planning Method"
+* ^title = "Planning Method (CID 7320)"
 * ^name = "PlanningMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#112340 //"Generic 2D Planning" 

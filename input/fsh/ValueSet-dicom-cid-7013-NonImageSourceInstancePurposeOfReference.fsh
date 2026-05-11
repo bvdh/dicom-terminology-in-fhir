@@ -7,7 +7,7 @@ This Context Group previously contained a code for 'source image', which has bee
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1134"
 * ^version = "20200920"
-* ^title = "Non-Image Source Instance Purpose of Reference"
+* ^title = "Non-Image Source Instance Purpose of Reference (CID 7013)"
 * ^name = "NonImageSourceInstancePurposeOfReference"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128224 //"Source measurement" 

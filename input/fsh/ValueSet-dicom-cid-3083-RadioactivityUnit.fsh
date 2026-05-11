@@ -7,7 +7,7 @@ Unit Radioactivity
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.737"
 * ^version = "20080927"
-* ^title = "Radioactivity Unit"
+* ^title = "Radioactivity Unit (CID 3083)"
 * ^name = "RadioactivityUnit"
 * ^experimental = false
 * http://unitsofmeasure.org#Bq //"becquerel" 

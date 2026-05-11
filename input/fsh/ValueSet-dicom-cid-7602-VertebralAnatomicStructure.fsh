@@ -7,7 +7,7 @@ Vertebral Anatomic Structure
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1433"
 * ^version = "20220115"
-* ^title = "Vertebral Anatomic Structure"
+* ^title = "Vertebral Anatomic Structure (CID 7602)"
 * ^name = "VertebralAnatomicStructure"
 * ^experimental = false
 * include codes from valueset CID_7603

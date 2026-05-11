@@ -7,18 +7,15 @@ Contraindications For CT Imaging
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1131"
 * ^version = "20210328"
-* ^title = "Contraindications For CT Imaging"
+* ^title = "Contraindications For CT Imaging (CID 1200)"
 * ^name = "ContraindicationsForCTImaging"
 * ^experimental = false
 * http://snomed.info/sct#293637006 //"Contrast Media Allergy" 
 * http://snomed.info/srt#DF-10F41 //"Contrast Media Allergy" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0570562 //"Contrast Media Allergy" 
 
 * http://snomed.info/sct#77386006 //"Patient currently pregnant" 
 * http://snomed.info/srt#F-84000 //"Patient currently pregnant" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0549206 //"Patient currently pregnant" 
 
 * http://snomed.info/sct#236423003 //"Impaired Renal Function" 
 * http://snomed.info/srt#D7-11007 //"Impaired Renal Function" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1565489 //"Impaired Renal Function" 
 

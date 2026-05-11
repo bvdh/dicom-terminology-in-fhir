@@ -7,7 +7,7 @@ Radiopharmaceutical Organ Dose Reference Authority
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.972"
 * ^version = "20250907"
-* ^title = "Radiopharmaceutical Organ Dose Reference Authority"
+* ^title = "Radiopharmaceutical Organ Dose Reference Authority (CID 10040)"
 * ^name = "RadiopharmaceuticalOrganDoseReferenceAuthority"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113520 //"MIRD Pamphlet 1" 

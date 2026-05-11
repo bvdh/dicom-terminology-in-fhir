@@ -7,7 +7,7 @@ Imaging Agent Administration Injector Event Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1261"
 * ^version = "20210325"
-* ^title = "Imaging Agent Administration Injector Event Type"
+* ^title = "Imaging Agent Administration Injector Event Type (CID 71)"
 * ^name = "ImagingAgentAdministrationInjectorEventType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130150 //"Pressure above warning limit" 

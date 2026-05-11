@@ -7,7 +7,7 @@ Radiotherapy Dose Intent Codes
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1567"
 * ^version = "20260201"
-* ^title = "Radiotherapy Dose Intent Codes"
+* ^title = "Radiotherapy Dose Intent Codes (CID 9589)"
 * ^name = "RadiotherapyDoseIntentCodes"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131403 //"For treatment delivery" 

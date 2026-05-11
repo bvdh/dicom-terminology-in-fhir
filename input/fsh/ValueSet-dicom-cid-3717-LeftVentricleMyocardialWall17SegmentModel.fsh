@@ -7,7 +7,7 @@ Left Ventricle Myocardial Wall 17 Segment Model
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.218"
 * ^version = "20030327"
-* ^title = "Left Ventricle Myocardial Wall 17 Segment Model"
+* ^title = "Left Ventricle Myocardial Wall 17 Segment Model (CID 3717)"
 * ^name = "LeftVentricleMyocardialWall17SegmentModel"
 * ^experimental = false
 * include codes from valueset CID_3782
@@ -18,5 +18,4 @@ Left Ventricle Myocardial Wall 17 Segment Model
 
 * http://snomed.info/sct#128564006 //"apex of left ventricle" 
 * http://snomed.info/srt#T-32602 //"apex of left ventricle" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0580781 //"apex of left ventricle" 
 

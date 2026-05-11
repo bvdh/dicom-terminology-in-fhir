@@ -7,7 +7,7 @@ Previously, concepts specific to the brain (e.g., regional cerebral blood flow) 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.993"
 * ^version = "20190326"
-* ^title = "Perfusion Model Parameter"
+* ^title = "Perfusion Model Parameter (CID 4108)"
 * ^name = "PerfusionModelParameter"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#126390 //"Absolute Regional Blood Flow" 

@@ -7,12 +7,11 @@ Nuclear Cardiology Protocol
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.742"
 * ^version = "20080927"
-* ^title = "Nuclear Cardiology Protocol"
+* ^title = "Nuclear Cardiology Protocol (CID 3110)"
 * ^name = "NuclearCardiologyProtocol"
 * ^experimental = false
 * http://snomed.info/sct#431511008 //"Stress thallium procedure" 
 * http://snomed.info/srt#P5-D300B //"Stress thallium procedure" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2316301 //"Stress thallium procedure" 
 
 * DICOM_DCM_CodeSystem#122781 //"Rest thallium/stress technetium procedure" 
 

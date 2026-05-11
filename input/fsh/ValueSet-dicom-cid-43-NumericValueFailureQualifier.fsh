@@ -7,7 +7,7 @@ Numeric Value Failure Qualifier
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1356"
 * ^version = "20210120"
-* ^title = "Numeric Value Failure Qualifier"
+* ^title = "Numeric Value Failure Qualifier (CID 43)"
 * ^name = "NumericValueFailureQualifier"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#114000 //"Not a number" 

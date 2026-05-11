@@ -7,7 +7,7 @@ Patient Position Acquisition  MR Techniques
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1485"
 * ^version = "20240612"
-* ^title = "Patient Position Acquisition  MR Techniques"
+* ^title = "Patient Position Acquisition  MR Techniques (CID 9273)"
 * ^name = "PatientPositionAcquisitionMRTechniques"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121737 //"RT Patient Position Acquisition, MR" 

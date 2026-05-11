@@ -7,7 +7,7 @@ Radiotherapy Acquisition WorkItem Subtasks
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1459"
 * ^version = "20221225"
-* ^title = "Radiotherapy Acquisition WorkItem Subtasks"
+* ^title = "Radiotherapy Acquisition WorkItem Subtasks (CID 9260)"
 * ^name = "RadiotherapyAcquisitionWorkItemSubtasks"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130785 //"RT Patient Position Acquisition, Cone-Beam CT kV" 

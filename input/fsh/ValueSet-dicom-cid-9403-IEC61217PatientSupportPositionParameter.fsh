@@ -7,7 +7,7 @@ IEC61217 Patient Support Position Parameter
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1025"
 * ^version = "20130518"
-* ^title = "IEC61217 Patient Support Position Parameter"
+* ^title = "IEC61217 Patient Support Position Parameter (CID 9403)"
 * ^name = "IEC61217PatientSupportPositionParameter"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#126801 //"IEC61217 Patient Support Continuous Yaw Angle" 

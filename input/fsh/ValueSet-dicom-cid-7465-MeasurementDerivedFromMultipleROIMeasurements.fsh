@@ -7,7 +7,7 @@ Measurement Derived From Multiple ROI Measurements
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.952"
 * ^version = "20240913"
-* ^title = "Measurement Derived From Multiple ROI Measurements"
+* ^title = "Measurement Derived From Multiple ROI Measurements (CID 7465)"
 * ^name = "MeasurementDerivedFromMultipleROIMeasurements"
 * ^experimental = false
 * include codes from valueset CID_226

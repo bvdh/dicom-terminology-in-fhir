@@ -7,7 +7,7 @@ RT Dose Derivation
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.968"
 * ^version = "20251111"
-* ^title = "RT Dose Derivation"
+* ^title = "RT Dose Derivation (CID 7220)"
 * ^name = "RTDoseDerivation"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121370 //"Composed from prior doses" 

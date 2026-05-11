@@ -7,7 +7,7 @@ Modality PPS Discontinuation Reason
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.812"
 * ^version = "20140419"
-* ^title = "Modality PPS Discontinuation Reason"
+* ^title = "Modality PPS Discontinuation Reason (CID 9301)"
 * ^name = "ModalityPPSDiscontinuationReason"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#110500 //"Doctor canceled procedure" 
@@ -46,9 +46,7 @@ Modality PPS Discontinuation Reason
 
 * http://snomed.info/sct#95384003 //"Injection Site Extravasation" 
 * http://snomed.info/srt#D0-B0330 //"Injection Site Extravasation" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0521500 //"Injection Site Extravasation" 
 
 * http://snomed.info/sct#292094009 //"Radiopharmaceutical Adverse Reaction" 
 * http://snomed.info/srt#DF-10780 //"Radiopharmaceutical Adverse Reaction" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0569412 //"Radiopharmaceutical Adverse Reaction" 
 

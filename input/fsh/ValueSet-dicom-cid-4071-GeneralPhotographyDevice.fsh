@@ -7,7 +7,7 @@ General Photography Device
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1511"
 * ^version = "20250330"
-* ^title = "General Photography Device"
+* ^title = "General Photography Device (CID 4071)"
 * ^name = "GeneralPhotographyDevice"
 * ^experimental = false
 * include codes from valueset CID_4202

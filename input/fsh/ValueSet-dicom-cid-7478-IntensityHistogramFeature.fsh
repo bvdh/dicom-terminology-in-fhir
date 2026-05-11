@@ -7,7 +7,7 @@ Intensity Histogram Feature
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1271"
 * ^version = "20190121"
-* ^title = "Intensity Histogram Feature"
+* ^title = "Intensity Histogram Feature (CID 7478)"
 * ^name = "IntensityHistogramFeature"
 * ^experimental = false
 * IBSICodeSystem#X6K6 //"Intensity Histogram Mean" 

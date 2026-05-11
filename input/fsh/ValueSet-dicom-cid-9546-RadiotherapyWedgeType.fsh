@@ -7,7 +7,7 @@ Radiotherapy Wedge Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1293"
 * ^version = "20190715"
-* ^title = "Radiotherapy Wedge Type"
+* ^title = "Radiotherapy Wedge Type (CID 9546)"
 * ^name = "RadiotherapyWedgeType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130346 //"Hard Wedge" 

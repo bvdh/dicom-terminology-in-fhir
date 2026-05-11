@@ -7,7 +7,7 @@ Device Reuse
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1069"
 * ^version = "20151110"
-* ^title = "Device Reuse"
+* ^title = "Device Reuse (CID 604)"
 * ^name = "DeviceReuse"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#127177 //"Unused" 

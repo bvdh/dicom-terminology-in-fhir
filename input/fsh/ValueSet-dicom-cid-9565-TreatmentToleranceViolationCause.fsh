@@ -7,7 +7,7 @@ Treatment Tolerance Violation Cause
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1322"
 * ^version = "20200624"
-* ^title = "Treatment Tolerance Violation Cause"
+* ^title = "Treatment Tolerance Violation Cause (CID 9565)"
 * ^name = "TreatmentToleranceViolationCause"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130461 //"Inappropriate Patient Orientation" 

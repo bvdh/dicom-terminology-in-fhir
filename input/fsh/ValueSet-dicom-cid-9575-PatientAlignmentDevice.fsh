@@ -7,7 +7,7 @@ Patient Alignment Device
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1422"
 * ^version = "20210906"
-* ^title = "Patient Alignment Device"
+* ^title = "Patient Alignment Device (CID 9575)"
 * ^name = "PatientAlignmentDevice"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128151 //"Laser Cross-hairs" 

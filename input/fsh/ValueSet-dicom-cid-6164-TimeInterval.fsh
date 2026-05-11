@@ -7,7 +7,7 @@ Time Interval
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.478"
 * ^version = "20050822"
-* ^title = "Time Interval"
+* ^title = "Time Interval (CID 6164)"
 * ^name = "TimeInterval"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111396 //"< 3 months ago" 

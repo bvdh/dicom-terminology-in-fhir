@@ -7,7 +7,7 @@ Transesophageal Echocardiography Scan Plane
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1527"
 * ^version = "20250405"
-* ^title = "Transesophageal Echocardiography Scan Plane"
+* ^title = "Transesophageal Echocardiography Scan Plane (CID 12343)"
 * ^name = "TransesophagealEchocardiographyScanPlane"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131100 //"Mid-esophageal 0 degree TEE" 

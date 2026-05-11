@@ -7,7 +7,7 @@ Target Confirmation
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.395"
 * ^version = "20040112"
-* ^title = "Target Confirmation"
+* ^title = "Target Confirmation (CID 6066)"
 * ^name = "TargetConfirmation"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111443 //"Target completely contained in the specimen" 

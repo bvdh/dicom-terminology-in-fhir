@@ -7,7 +7,7 @@ Implant Component Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1038"
 * ^version = "20101102"
-* ^title = "Implant Component Type"
+* ^title = "Implant Component Type (CID 7307)"
 * ^name = "ImplantComponentType"
 * ^experimental = false
 * include codes from valueset CID_7308

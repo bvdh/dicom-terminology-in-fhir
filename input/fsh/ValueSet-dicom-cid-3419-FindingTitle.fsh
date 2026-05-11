@@ -7,7 +7,7 @@ Finding Title
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.83"
 * ^version = "20030327"
-* ^title = "Finding Title"
+* ^title = "Finding Title (CID 3419)"
 * ^name = "FindingTitle"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121071 //"Finding" 

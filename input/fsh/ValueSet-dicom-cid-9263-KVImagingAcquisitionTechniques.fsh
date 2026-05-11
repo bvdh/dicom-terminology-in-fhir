@@ -7,7 +7,7 @@ KV Imaging Acquisition Techniques
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1462"
 * ^version = "20221225"
-* ^title = "KV Imaging Acquisition Techniques"
+* ^title = "KV Imaging Acquisition Techniques (CID 9263)"
 * ^name = "KVImagingAcquisitionTechniques"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121704 //"RT Patient Position Acquisition, single plane kV" 

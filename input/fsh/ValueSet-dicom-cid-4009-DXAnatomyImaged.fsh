@@ -7,7 +7,7 @@ DX Anatomy Imaged
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.293"
 * ^version = "20040114"
-* ^title = "DX Anatomy Imaged"
+* ^title = "DX Anatomy Imaged (CID 4009)"
 * ^name = "DXAnatomyImaged"
 * ^experimental = false
 * include codes from valueset CID_4031

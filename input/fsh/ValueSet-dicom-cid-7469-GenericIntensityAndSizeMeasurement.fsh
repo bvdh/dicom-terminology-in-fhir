@@ -7,7 +7,7 @@ Generic Intensity and Size Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1003"
 * ^version = "20240913"
-* ^title = "Generic Intensity and Size Measurement"
+* ^title = "Generic Intensity and Size Measurement (CID 7469)"
 * ^name = "GenericIntensityAndSizeMeasurement"
 * ^experimental = false
 * include codes from valueset CID_7180

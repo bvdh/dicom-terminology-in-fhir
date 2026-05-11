@@ -7,7 +7,7 @@ Patient Alignment Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1130"
 * ^version = "20160905"
-* ^title = "Patient Alignment Method"
+* ^title = "Patient Alignment Method (CID 1015)"
 * ^name = "PatientAlignmentMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128151 //"Laser Cross-hairs" 

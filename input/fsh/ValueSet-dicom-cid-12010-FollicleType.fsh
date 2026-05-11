@@ -7,7 +7,7 @@ Follicle Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1491"
 * ^version = "20240912"
-* ^title = "Follicle Type"
+* ^title = "Follicle Type (CID 12010)"
 * ^name = "FollicleType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130909 //"Dominant Follicle" 

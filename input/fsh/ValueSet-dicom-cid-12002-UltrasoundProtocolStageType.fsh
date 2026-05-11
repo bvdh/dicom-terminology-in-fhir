@@ -7,7 +7,7 @@ A prior version of this Context Group used many codes that are not actually in S
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.551"
 * ^version = "20081027"
-* ^title = "Ultrasound Protocol Stage Type"
+* ^title = "Ultrasound Protocol Stage Type (CID 12002)"
 * ^name = "UltrasoundProtocolStageType"
 * ^experimental = false
 * include codes from valueset CID_3207
@@ -16,13 +16,10 @@ A prior version of this Context Group used many codes that are not actually in S
 
 * http://snomed.info/sct#18590009 //"Cardiac pacing" 
 * http://snomed.info/srt#P2-35000 //"Cardiac pacing" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0199640 //"Cardiac pacing" 
 
 * http://snomed.info/sct#128965002 //"Hand grip" 
 * http://snomed.info/srt#P2-71306 //"Hand grip" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1293900 //"Hand grip" 
 
 * http://snomed.info/sct#261039008 //"Valsalva maneuver" 
 * http://snomed.info/srt#R-40928 //"Valsalva maneuver" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0042293 //"Valsalva maneuver" 
 

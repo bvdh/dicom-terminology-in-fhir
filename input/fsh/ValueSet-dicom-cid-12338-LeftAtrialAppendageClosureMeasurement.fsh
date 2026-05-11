@@ -7,7 +7,7 @@ Left Atrial Appendage Closure Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1523"
 * ^version = "20250405"
-* ^title = "Left Atrial Appendage Closure Measurement"
+* ^title = "Left Atrial Appendage Closure Measurement (CID 12338)"
 * ^name = "LeftAtrialAppendageClosureMeasurement"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131217 //"Left atrial appendage closure device circumference" 

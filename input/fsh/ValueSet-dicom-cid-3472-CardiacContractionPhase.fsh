@@ -7,14 +7,12 @@ Cardiac Contraction Phase
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.114"
 * ^version = "20071031"
-* ^title = "Cardiac Contraction Phase"
+* ^title = "Cardiac Contraction Phase (CID 3472)"
 * ^name = "CardiacContractionPhase"
 * ^experimental = false
 * http://snomed.info/sct#111973004 //"Systolic" 
 * http://snomed.info/srt#F-32020 //"Systolic" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0039155 //"Systolic" 
 
 * http://snomed.info/sct#90892000 //"Diastolic" 
 * http://snomed.info/srt#F-32010 //"Diastolic" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0012000 //"Diastolic" 
 

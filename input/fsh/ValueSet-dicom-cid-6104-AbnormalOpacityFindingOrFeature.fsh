@@ -7,7 +7,7 @@ Original source of terms is [Fraser and Pare].
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.424"
 * ^version = "20030108"
-* ^title = "Abnormal Opacity Finding or Feature"
+* ^title = "Abnormal Opacity Finding or Feature (CID 6104)"
 * ^name = "AbnormalOpacityFindingOrFeature"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#112066 //"Beaded septum sign" 
@@ -26,7 +26,6 @@ Original source of terms is [Fraser and Pare].
 
 * http://snomed.info/sct#308689002 //"Coin lesion" 
 * http://snomed.info/srt#F-20172 //"Coin lesion" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0009250 //"Coin lesion" 
 
 * DICOM_DCM_CodeSystem#112118 //"Density" 
 
@@ -38,13 +37,11 @@ Original source of terms is [Fraser and Pare].
 
 * http://snomed.info/sct#4147007 //"Mass" 
 * http://snomed.info/srt#M-03000 //"Mass" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0577559 //"Mass" 
 
 * DICOM_DCM_CodeSystem#112122 //"Micronodule" 
 
 * http://snomed.info/sct#27925004 //"Nodule" 
 * http://snomed.info/srt#M-03010 //"Nodule" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0028259 //"Nodule" 
 
 * DICOM_DCM_CodeSystem#112001 //"Opacity" 
 
@@ -60,5 +57,4 @@ Original source of terms is [Fraser and Pare].
 
 * http://snomed.info/sct#59282003 //"Pulmonary embolism" 
 * http://snomed.info/srt#D3-40230 //"Pulmonary embolism" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0034065 //"Pulmonary embolism" 
 

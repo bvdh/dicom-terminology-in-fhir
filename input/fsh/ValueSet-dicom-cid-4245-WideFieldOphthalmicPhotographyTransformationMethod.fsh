@@ -7,7 +7,7 @@ Wide Field Ophthalmic Photography Transformation Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1029"
 * ^version = "20150326"
-* ^title = "Wide Field Ophthalmic Photography Transformation Method"
+* ^title = "Wide Field Ophthalmic Photography Transformation Method (CID 4245)"
 * ^name = "WideFieldOphthalmicPhotographyTransformationMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111791 //"Spherical projection" 

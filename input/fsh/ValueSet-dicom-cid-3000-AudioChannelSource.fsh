@@ -7,7 +7,7 @@ Audio Channel Source
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.42"
 * ^version = "20040326"
-* ^title = "Audio Channel Source"
+* ^title = "Audio Channel Source (CID 3000)"
 * ^name = "AudioChannelSource"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#109110 //"Voice" 

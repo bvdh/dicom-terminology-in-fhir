@@ -7,7 +7,7 @@ Body Position Channel
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1332"
 * ^version = "20200623"
-* ^title = "Body Position Channel"
+* ^title = "Body Position Channel (CID 3034)"
 * ^name = "BodyPositionChannel"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130410 //"Patient position" 

@@ -7,7 +7,7 @@ MR Diffusion Model Specific Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1170"
 * ^version = "20170413"
-* ^title = "MR Diffusion Model Specific Method"
+* ^title = "MR Diffusion Model Specific Method (CID 7275)"
 * ^name = "MRDiffusionModelSpecificMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113285 //"Voxelwise selection of b-value" 

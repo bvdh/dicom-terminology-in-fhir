@@ -7,7 +7,7 @@ Radiotherapy Treatment Machine Mode
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1290"
 * ^version = "20190715"
-* ^title = "Radiotherapy Treatment Machine Mode"
+* ^title = "Radiotherapy Treatment Machine Mode (CID 9543)"
 * ^name = "RadiotherapyTreatmentMachineMode"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130341 //"Total Body Irradiation" 

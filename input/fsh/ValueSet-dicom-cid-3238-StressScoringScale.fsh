@@ -7,12 +7,11 @@ Stress Scoring Scale
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.784"
 * ^version = "20080927"
-* ^title = "Stress Scoring Scale"
+* ^title = "Stress Scoring Scale (CID 3238)"
 * ^name = "StressScoringScale"
 * ^experimental = false
 * http://snomed.info/sct#304915008 //"Duke treadmill score" 
 * http://snomed.info/srt#G-E002 //"Duke treadmill score" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0582804 //"Duke treadmill score" 
 
 * DICOM_DCM_CodeSystem#122770 //"Ratio of achieved to predicted maximal oxygen consumption" 
 

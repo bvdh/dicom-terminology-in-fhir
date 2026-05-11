@@ -7,26 +7,21 @@ The concept for syringe (physical object) is used in this Context Group as disti
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1259"
 * ^version = "20220922"
-* ^title = "Imaging Agent Administration Consumable"
+* ^title = "Imaging Agent Administration Consumable (CID 69)"
 * ^name = "ImagingAgentAdministrationConsumable"
 * ^experimental = false
 * http://snomed.info/sct#61968008 //"Syringe" 
 * http://snomed.info/srt#A-10150 //"Syringe" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0039142 //"Syringe" 
 
 * http://snomed.info/sct#19923001 //"Catheter" 
 * http://snomed.info/srt#A-26800 //"Catheter" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0085590 //"Catheter" 
 
 * http://snomed.info/sct#83059008 //"Tube" 
 * http://snomed.info/srt#A-26400 //"Tube" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0175730 //"Tube" 
 
 * http://snomed.info/sct#79068005 //"Needle" 
 * http://snomed.info/srt#A-30360 //"Needle" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0027551 //"Needle" 
 
 * http://snomed.info/sct#68276009 //"Bottle" 
 * http://snomed.info/srt#A-27500 //"Bottle" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0179376 //"Bottle" 
 

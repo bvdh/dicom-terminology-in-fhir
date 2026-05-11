@@ -7,18 +7,16 @@ IVUS Area Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.117"
 * ^version = "20040614"
-* ^title = "IVUS Area Measurement"
+* ^title = "IVUS Area Measurement (CID 3482)"
 * ^name = "IVUSAreaMeasurement"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122333 //"EEM Cross-Sectional Area" 
 
 * http://snomed.info/sct#397415007 //"Vessel lumen cross-sectional area" 
 * http://snomed.info/srt#G-0366 //"Vessel lumen cross-sectional area" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1301410 //"Vessel lumen cross-sectional area" 
 
 * http://snomed.info/sct#408705002 //"Stent Cross-Sectional Area" 
 * http://snomed.info/srt#R-101AF //"Stent Cross-Sectional Area" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1443255 //"Stent Cross-Sectional Area" 
 
 * DICOM_DCM_CodeSystem#122334 //"Plaque plus Media Cross-Sectional Area" 
 

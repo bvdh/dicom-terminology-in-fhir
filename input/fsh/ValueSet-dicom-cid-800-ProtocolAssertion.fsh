@@ -7,7 +7,7 @@ Protocol Assertion
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1176"
 * ^version = "20160626"
-* ^title = "Protocol Assertion"
+* ^title = "Protocol Assertion (CID 800)"
 * ^name = "ProtocolAssertion"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128601 //"Appropriate for the indications" 

@@ -7,7 +7,7 @@ Many Composite SOP Instances with Modality (0008,0060) Values corresponding to C
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1282"
 * ^version = "20200118"
-* ^title = "Non-Acquisition Modality"
+* ^title = "Non-Acquisition Modality (CID 32)"
 * ^name = "NonAcquisitionModality"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#ASMT //"Content Assessment Result" 

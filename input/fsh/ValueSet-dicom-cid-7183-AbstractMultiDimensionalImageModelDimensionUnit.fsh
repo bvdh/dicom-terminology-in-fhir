@@ -7,7 +7,7 @@ Abstract Multi-dimensional Image Model Dimension Unit
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.920"
 * ^version = "20100825"
-* ^title = "Abstract Multi-dimensional Image Model Dimension Unit"
+* ^title = "Abstract Multi-dimensional Image Model Dimension Unit (CID 7183)"
 * ^name = "AbstractMultiDimensionalImageModelDimensionUnit"
 * ^experimental = false
 * include codes from valueset CID_7460

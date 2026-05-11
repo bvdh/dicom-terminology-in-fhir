@@ -7,16 +7,14 @@ Oxygen Administration
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.145"
 * ^version = "20030327"
-* ^title = "Oxygen Administration"
+* ^title = "Oxygen Administration (CID 3531)"
 * ^name = "OxygenAdministration"
 * ^experimental = false
 * http://snomed.info/sct#371907003 //"Oxygen Administration by nasal cannula" 
 * http://snomed.info/srt#R-0034A //"Oxygen Administration by nasal cannula" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1299376 //"Oxygen Administration by nasal cannula" 
 
 * http://snomed.info/sct#371908008 //"Oxygen Administration by mask" 
 * http://snomed.info/srt#R-00349 //"Oxygen Administration by mask" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1299377 //"Oxygen Administration by mask" 
 
 * DICOM_DCM_CodeSystem#121163 //"Oxygen Administration by ventilator" 
 

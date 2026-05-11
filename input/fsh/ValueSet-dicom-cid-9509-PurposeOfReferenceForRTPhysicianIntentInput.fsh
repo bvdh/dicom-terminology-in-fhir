@@ -7,7 +7,7 @@ Purpose of Reference for RT Physician Intent Input
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1219"
 * ^version = "20181112"
-* ^title = "Purpose of Reference For RT Physician Intent Input"
+* ^title = "Purpose of Reference For RT Physician Intent Input (CID 9509)"
 * ^name = "PurposeOfReferenceForRTPhysicianIntentInput"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130135 //"Historical RT Prescription" 

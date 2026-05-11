@@ -10,6 +10,6 @@ Description :
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.3.6.1.4.1.12009.10.2.5.1"
 * ^version = "Not versioned"
-* ^title = "LOINC-RSNA Radiology Imaging Procedure"
+* ^title = "LOINC-RSNA Radiology Imaging Procedure (CID 102)"
 * ^name = "Cid102"
 * ^experimental = false

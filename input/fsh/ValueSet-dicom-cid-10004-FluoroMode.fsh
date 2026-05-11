@@ -7,7 +7,7 @@ Fluoro Mode
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.538"
 * ^version = "20051101"
-* ^title = "Fluoro Mode"
+* ^title = "Fluoro Mode (CID 10004)"
 * ^name = "FluoroMode"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113630 //"Continuous" 

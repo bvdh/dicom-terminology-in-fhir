@@ -7,7 +7,7 @@ Waveform Acquisition Modality
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1495"
 * ^version = "20240913"
-* ^title = "Waveform Acquisition Modality"
+* ^title = "Waveform Acquisition Modality (CID 34)"
 * ^name = "WaveformAcquisitionModality"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#EPS //"Cardiac Electrophysiology" 

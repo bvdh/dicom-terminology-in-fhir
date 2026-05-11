@@ -7,7 +7,7 @@ Diffusion Tractography Algorithm Family
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1061"
 * ^version = "20150918"
-* ^title = "Diffusion Tractography Algorithm Family"
+* ^title = "Diffusion Tractography Algorithm Family (CID 7262)"
 * ^name = "DiffusionTractographyAlgorithmFamily"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113211 //"Deterministic" 

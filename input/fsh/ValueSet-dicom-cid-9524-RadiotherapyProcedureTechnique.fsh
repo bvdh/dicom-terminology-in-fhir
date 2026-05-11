@@ -7,7 +7,7 @@ Radiotherapy Procedure Technique
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1234"
 * ^version = "20181112"
-* ^title = "Radiotherapy Procedure Technique"
+* ^title = "Radiotherapy Procedure Technique (CID 9524)"
 * ^name = "RadiotherapyProcedureTechnique"
 * ^experimental = false
 * include codes from valueset CID_9511

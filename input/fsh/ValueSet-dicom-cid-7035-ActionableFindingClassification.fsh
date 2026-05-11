@@ -7,7 +7,7 @@ Actionable Finding Classification
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1026"
 * ^version = "20150324"
-* ^title = "Actionable Finding Classification"
+* ^title = "Actionable Finding Classification (CID 7035)"
 * ^name = "ActionableFindingClassification"
 * ^experimental = false
 * http://www.radlex.org#RID49480 //"ACR Category 1 Actionable Finding" 

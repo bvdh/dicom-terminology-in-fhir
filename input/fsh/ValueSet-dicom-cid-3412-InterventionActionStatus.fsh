@@ -7,7 +7,7 @@ Intervention Action/Status
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.77"
 * ^version = "20030327"
-* ^title = "Intervention Action/Status"
+* ^title = "Intervention Action/Status (CID 3412)"
 * ^name = "InterventionActionStatus"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122301 //"Guidewire crossing lesion unsuccessful" 

@@ -7,12 +7,11 @@ Left Ventricle Apical Wall 6 Segments
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1417"
 * ^version = "20210904"
-* ^title = "Left Ventricle Apical Wall 6 Segments"
+* ^title = "Left Ventricle Apical Wall 6 Segments (CID 3785)"
 * ^name = "LeftVentricleApicalWall6Segments"
 * ^experimental = false
 * http://snomed.info/sct#264844003 //"left ventricle apical anterior segment" 
 * http://snomed.info/srt#T-32613 //"left ventricle apical anterior segment" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0555922 //"left ventricle apical anterior segment" 
 
 * DICOM_DCM_CodeSystem#130623 //"left ventricle apical anterolateral segment" 
 
@@ -20,7 +19,6 @@ Left Ventricle Apical Wall 6 Segments
 
 * http://snomed.info/sct#264849008 //"left ventricle apical inferior segment" 
 * http://snomed.info/srt#T-32618 //"left ventricle apical inferior segment" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0555930 //"left ventricle apical inferior segment" 
 
 * DICOM_DCM_CodeSystem#130622 //"left ventricle apical inferolateral segment" 
 

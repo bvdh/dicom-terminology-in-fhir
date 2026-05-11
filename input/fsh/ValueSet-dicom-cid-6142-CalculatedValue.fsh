@@ -7,7 +7,7 @@ Calculated Value
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.462"
 * ^version = "20240611"
-* ^title = "Calculated Value"
+* ^title = "Calculated Value (CID 6142)"
 * ^name = "CalculatedValue"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#112017 //"Cavity extent as percent of volume" 
@@ -18,7 +18,6 @@ Calculated Value
 
 * http://snomed.info/sct#450360000 //"Coronary artery calcium score" 
 * http://snomed.info/srt#F-F3012 //"Coronary artery calcium score" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2825178 //"Coronary artery calcium score" 
 
 * DICOM_DCM_CodeSystem#112191 //"Breast tissue density" 
 

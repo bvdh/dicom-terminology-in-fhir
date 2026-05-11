@@ -5,6 +5,6 @@ Description :
 None
 """
 * ^version = "None"
-* ^title = "Organization"
+* ^title = "Organization (CID 5002)"
 * ^name = "Cid5002"
 * ^experimental = false

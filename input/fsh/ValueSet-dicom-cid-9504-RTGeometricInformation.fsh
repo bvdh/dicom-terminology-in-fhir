@@ -7,7 +7,7 @@ RT Geometric Information
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1214"
 * ^version = "20181112"
-* ^title = "RT Geometric Information"
+* ^title = "RT Geometric Information (CID 9504)"
 * ^name = "RTGeometricInformation"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130069 //"Patient Setup Point" 

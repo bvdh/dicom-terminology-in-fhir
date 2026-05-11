@@ -7,7 +7,7 @@ Regional Extent
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.105"
 * ^version = "20040614"
-* ^title = "Regional Extent"
+* ^title = "Regional Extent (CID 3461)"
 * ^name = "RegionalExtent"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122466 //"Single LAD Region in RAO Projection" 

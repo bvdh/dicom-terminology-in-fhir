@@ -7,7 +7,7 @@ MR Spectroscopy Metabolite
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.309"
 * ^version = "20040322"
-* ^title = "MR Spectroscopy Metabolite"
+* ^title = "MR Spectroscopy Metabolite (CID 4032)"
 * ^name = "MRSpectroscopyMetabolite"
 * ^experimental = false
 * include codes from valueset CID_4033

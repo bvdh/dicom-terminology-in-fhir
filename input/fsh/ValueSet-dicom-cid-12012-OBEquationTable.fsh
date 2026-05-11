@@ -7,7 +7,7 @@ OB Equation/Table
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.560"
 * ^version = "20030130"
-* ^title = "OB Equation/Table"
+* ^title = "OB Equation/Table (CID 12012)"
 * ^name = "OBEquationTable"
 * ^experimental = false
 * include codes from valueset CID_12013

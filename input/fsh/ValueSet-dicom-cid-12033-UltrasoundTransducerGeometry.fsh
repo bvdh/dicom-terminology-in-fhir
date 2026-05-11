@@ -7,7 +7,7 @@ Ultrasound Transducer Geometry
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.808"
 * ^version = "20230626"
-* ^title = "Ultrasound Transducer Geometry"
+* ^title = "Ultrasound Transducer Geometry (CID 12033)"
 * ^name = "UltrasoundTransducerGeometry"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#125251 //"Non-imaging Doppler ultrasound transducer geometry" 

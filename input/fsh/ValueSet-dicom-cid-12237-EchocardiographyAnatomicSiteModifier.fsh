@@ -7,7 +7,7 @@ Echocardiography Anatomic Site Modifier
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.628"
 * ^version = "20030918"
-* ^title = "Echocardiography Anatomic Site Modifier"
+* ^title = "Echocardiography Anatomic Site Modifier (CID 12237)"
 * ^name = "EchocardiographyAnatomicSiteModifier"
 * ^experimental = false
 * include codes from valueset CID_12219

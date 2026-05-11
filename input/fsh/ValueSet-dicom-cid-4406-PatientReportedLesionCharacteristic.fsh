@@ -7,30 +7,24 @@ The concept(162499001, SCT, 'Symptom has changed')
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1351"
 * ^version = "20231115"
-* ^title = "Patient Reported Lesion Characteristic"
+* ^title = "Patient Reported Lesion Characteristic (CID 4406)"
 * ^name = "PatientReportedLesionCharacteristic"
 * ^experimental = false
 * http://snomed.info/sct#418363000 //"Itching" 
 * http://snomed.info/srt#F-A21A7 //"Itching" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0033774 //"Itching" 
 
 * http://snomed.info/sct#247441003 //"Erythema" 
 * http://snomed.info/srt#F-4410C //"Erythema" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C4552417 //"Erythema" 
 
 * http://snomed.info/sct#162499001 //"Symptom has changed" 
 * http://snomed.info/srt#R-20A12 //"Symptom has changed" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0436317 //"Symptom has changed" 
 
 * http://snomed.info/sct#271767006 //"Peeling" 
 * http://snomed.info/srt#F-41506 //"Peeling" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0237849 //"Peeling" 
 
 * http://snomed.info/sct#297968009 //"Bleeding skin" 
 * http://snomed.info/srt#F-40031 //"Bleeding skin" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0574741 //"Bleeding skin" 
 
 * http://snomed.info/sct#403598008 //"Painful skin" 
 * http://snomed.info/srt#F-A219C //"Painful skin" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2032737 //"Painful skin" 
 

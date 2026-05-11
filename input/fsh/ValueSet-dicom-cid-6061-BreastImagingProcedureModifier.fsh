@@ -7,16 +7,14 @@ Breast Imaging Procedure Modifier
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.390"
 * ^version = "20090819"
-* ^title = "Breast Imaging Procedure Modifier"
+* ^title = "Breast Imaging Procedure Modifier (CID 6061)"
 * ^name = "BreastImagingProcedureModifier"
 * ^experimental = false
 * http://snomed.info/sct#360156006 //"Screening" 
 * http://snomed.info/srt#R-42453 //"Screening" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1305399 //"Screening" 
 
 * http://snomed.info/sct#261004008 //"Diagnostic" 
 * http://snomed.info/srt#R-408C3 //"Diagnostic" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0348026 //"Diagnostic" 
 
 * DICOM_DCM_CodeSystem#111127 //"Targeted" 
 

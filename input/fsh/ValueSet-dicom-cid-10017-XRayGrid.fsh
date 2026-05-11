@@ -7,7 +7,7 @@ X-Ray Grid
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.549"
 * ^version = "20210903"
-* ^title = "X-Ray Grid"
+* ^title = "X-Ray Grid (CID 10017)"
 * ^name = "XRayGrid"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111641 //"Fixed grid" 

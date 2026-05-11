@@ -7,7 +7,7 @@ Imaging findings will be applicable for indications other than PI-RADS disease a
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1368"
 * ^version = "20210714"
-* ^title = "MR Signal Intensity"
+* ^title = "MR Signal Intensity (CID 6311)"
 * ^name = "MRSignalIntensity"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#110805 //"T2 Weighted MR Signal Intensity" 

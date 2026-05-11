@@ -7,7 +7,7 @@ Radiation Dose Reference Point
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1056"
 * ^version = "20230121"
-* ^title = "Radiation Dose Reference Point"
+* ^title = "Radiation Dose Reference Point (CID 10025)"
 * ^name = "RadiationDoseReferencePoint"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113860 //"15cm from Isocenter toward Source" 

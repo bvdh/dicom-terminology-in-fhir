@@ -7,7 +7,7 @@ Cardiac Synchronization Technique
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.943"
 * ^version = "20111028"
-* ^title = "Cardiac Synchronization Technique"
+* ^title = "Cardiac Synchronization Technique (CID 3104)"
 * ^name = "CardiacSynchronizationTechnique"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#109080 //"Real time acquisition" 

@@ -7,7 +7,7 @@ Feature Scope
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.366"
 * ^version = "20020904"
-* ^title = "Feature Scope"
+* ^title = "Feature Scope (CID 6036)"
 * ^name = "FeatureScope"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111156 //"Feature detected on the only image" 

@@ -7,7 +7,7 @@ In future extensions, Depth terms that are not derived from BI-RADS should be ad
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.354"
 * ^version = "20020904"
-* ^title = "Depth"
+* ^title = "Depth (CID 6024)"
 * ^name = "Depth"
 * ^experimental = false
 * include codes from valueset CID_6025

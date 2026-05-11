@@ -7,7 +7,7 @@ Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1361"
 * ^version = "20210325"
-* ^title = "Neurophysiologic Stimulation Mode"
+* ^title = "Neurophysiologic Stimulation Mode (CID 3041)"
 * ^name = "NeurophysiologicStimulationMode"
 * ^experimental = false
 * urn:iso:std:iso:11073:10101#2:53539 //"Flash stimulus" 

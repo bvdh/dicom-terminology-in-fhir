@@ -7,7 +7,7 @@ Audit Event ID
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.903"
 * ^version = "20170416"
-* ^title = "Audit Event ID"
+* ^title = "Audit Event ID (CID 400)"
 * ^name = "AuditEventID"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#110100 //"Application Activity" 

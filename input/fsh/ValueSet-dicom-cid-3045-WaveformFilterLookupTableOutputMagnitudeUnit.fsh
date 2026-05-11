@@ -7,7 +7,7 @@ Waveform Filter Lookup Table Output Magnitude Unit
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1456"
 * ^version = "20220630"
-* ^title = "Waveform Filter Lookup Table Output Magnitude Unit"
+* ^title = "Waveform Filter Lookup Table Output Magnitude Unit (CID 3045)"
 * ^name = "WaveformFilterLookupTableOutputMagnitudeUnit"
 * ^experimental = false
 * http://unitsofmeasure.org#dB[uV] //"dB(V)" 

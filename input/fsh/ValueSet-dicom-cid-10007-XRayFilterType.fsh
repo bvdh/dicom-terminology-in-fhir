@@ -7,7 +7,7 @@ X-Ray Filter Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.540"
 * ^version = "20131010"
-* ^title = "X-Ray Filter Type"
+* ^title = "X-Ray Filter Type (CID 10007)"
 * ^name = "XRayFilterType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113650 //"Strip filter" 

@@ -7,7 +7,7 @@ RT Content Assessment Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1117"
 * ^version = "20160318"
-* ^title = "RT Content Assessment Type"
+* ^title = "RT Content Assessment Type (CID 702)"
 * ^name = "RTContentAssessmentType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121373 //"RT Pre-Treatment Dose Check" 

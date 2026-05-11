@@ -7,7 +7,7 @@ Corneal Topography Map Value Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.966"
 * ^version = "20131014"
-* ^title = "Corneal Topography Map Value Type"
+* ^title = "Corneal Topography Map Value Type (CID 4268)"
 * ^name = "CornealTopographyMapValueType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111940 //"Corneal axial power map" 

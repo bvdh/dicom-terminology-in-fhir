@@ -7,7 +7,7 @@ RCS Registration Method Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.494"
 * ^version = "20200920"
-* ^title = "RCS Registration Method Type"
+* ^title = "RCS Registration Method Type (CID 7100)"
 * ^name = "RCSRegistrationMethodType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#125021 //"Frame of Reference Identity" 

@@ -5,7 +5,7 @@ Description :
 Generic Purpose of Reference to Images and Coordinates in Measurement
 """
 * ^version = "None"
-* ^title = "Generic Purpose of Reference to Images and Coordinates in Measurement"
+* ^title = "Generic Purpose of Reference to Images and Coordinates in Measurement (CID 7551)"
 * ^name = "GenericPurposeOfReferenceToImagesAndCoordinatesInMeasurement"
 * ^experimental = false
 * include codes from valueset CID_7552

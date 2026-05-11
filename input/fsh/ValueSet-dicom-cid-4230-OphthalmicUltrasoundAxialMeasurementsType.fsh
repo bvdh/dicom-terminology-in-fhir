@@ -7,7 +7,7 @@ Ophthalmic Ultrasound Axial Measurements Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.876"
 * ^version = "20100623"
-* ^title = "Ophthalmic Ultrasound Axial Measurements Type"
+* ^title = "Ophthalmic Ultrasound Axial Measurements Type (CID 4230)"
 * ^name = "OphthalmicUltrasoundAxialMeasurementsType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111750 //"Ultrasound Contact" 

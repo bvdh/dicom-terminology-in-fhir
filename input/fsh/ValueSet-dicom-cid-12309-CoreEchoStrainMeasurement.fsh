@@ -7,7 +7,7 @@ Core Echo Strain Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1426"
 * ^version = "20211112"
-* ^title = "Core Echo Strain Measurement"
+* ^title = "Core Echo Strain Measurement (CID 12309)"
 * ^name = "CoreEchoStrainMeasurement"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130686 //"LV End-systolic GLS Multiview Mean (Endocardial)" 

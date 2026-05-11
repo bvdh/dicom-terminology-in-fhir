@@ -8,7 +8,7 @@ Description :
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.991"
 * ^version = "20141110"
-* ^title = "Quantitative Method Used for Perfusion and Tracer Kinetic Model"
+* ^title = "Quantitative Method Used for Perfusion and Tracer Kinetic Model (CID 4106)"
 * ^name = "QuantitativeMethodUsedForPerfusionAndTracerKineticModel"
 * ^experimental = false
 * include codes from valueset CID_4100

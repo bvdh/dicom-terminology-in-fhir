@@ -7,22 +7,18 @@ BP Response
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.766"
 * ^version = "20080927"
-* ^title = "BP Response"
+* ^title = "BP Response (CID 3211)"
 * ^name = "BPResponse"
 * ^experimental = false
 * http://snomed.info/sct#17621005 //"normal" 
 * http://snomed.info/srt#G-A460 //"normal" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0205307 //"normal" 
 
 * http://snomed.info/sct#45007003 //"Hypotensive" 
 * http://snomed.info/srt#D3-04000 //"Hypotensive" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0020649 //"Hypotensive" 
 
 * http://snomed.info/sct#38341003 //"Hypertensive" 
 * http://snomed.info/srt#D3-02000 //"Hypertensive" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0020538 //"Hypertensive" 
 
 * http://snomed.info/sct#428247006 //"blunted" 
 * http://snomed.info/srt#R-40AA7 //"blunted" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1997138 //"blunted" 
 

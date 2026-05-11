@@ -7,7 +7,7 @@ Scheduled Processing Parameter Concept Codes for RT Treatment
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.971"
 * ^version = "20170413"
-* ^title = "Scheduled Processing Parameter Concept Codes for RT Treatment"
+* ^title = "Scheduled Processing Parameter Concept Codes for RT Treatment (CID 9250)"
 * ^name = "ScheduledProcessingParameterConceptCodesForRTTreatment"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121740 //"Treatment Delivery Type" 

@@ -7,7 +7,7 @@ Relative Usage/Exposure Amount
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.412"
 * ^version = "20050822"
-* ^title = "Relative Usage/Exposure Amount"
+* ^title = "Relative Usage/Exposure Amount (CID 6090)"
 * ^name = "RelativeUsageExposureAmount"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111575 //"High" 

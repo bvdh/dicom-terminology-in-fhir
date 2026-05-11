@@ -7,18 +7,15 @@ Cardiac Ultrasound Atrioventricular Valve Finding Site
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.865"
 * ^version = "20160314"
-* ^title = "Cardiac Ultrasound Atrioventricular Valve Finding Site"
+* ^title = "Cardiac Ultrasound Atrioventricular Valve Finding Site (CID 12285)"
 * ^name = "CardiacUltrasoundAtrioventricularValveFindingSite"
 * ^experimental = false
 * http://snomed.info/sct#91134007 //"Mitral Valve" 
 * http://snomed.info/srt#T-35300 //"Mitral Valve" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0026264 //"Mitral Valve" 
 
 * http://snomed.info/sct#46030003 //"Tricuspid Valve" 
 * http://snomed.info/srt#T-35100 //"Tricuspid Valve" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0040960 //"Tricuspid Valve" 
 
 * http://snomed.info/sct#312522004 //"Common non-mitral non-tricuspid Atrioventricular Valve Structure" 
 * http://snomed.info/srt#T-35008 //"Common non-mitral non-tricuspid Atrioventricular Valve Structure" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0729875 //"Common non-mitral non-tricuspid Atrioventricular Valve Structure" 
 

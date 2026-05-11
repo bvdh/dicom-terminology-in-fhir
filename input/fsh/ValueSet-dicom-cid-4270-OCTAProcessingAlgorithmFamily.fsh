@@ -7,7 +7,7 @@ OCT-A Processing Algorithm Family
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1150"
 * ^version = "20181110"
-* ^title = "OCT-A Processing Algorithm Family"
+* ^title = "OCT-A Processing Algorithm Family (CID 4270)"
 * ^name = "OCTAProcessingAlgorithmFamily"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128252 //"OCT-A amplitude decorrelation" 

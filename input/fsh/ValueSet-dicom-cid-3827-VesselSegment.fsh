@@ -7,7 +7,7 @@ Vessel Segment
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.280"
 * ^version = "20051103"
-* ^title = "Vessel Segment"
+* ^title = "Vessel Segment (CID 3827)"
 * ^name = "VesselSegment"
 * ^experimental = false
 * include codes from valueset CID_12105

@@ -7,7 +7,7 @@ The contents of this table were derived from the information available athttp://
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.530"
 * ^version = "20060822"
-* ^title = "Breed Registry"
+* ^title = "Breed Registry (CID 7481)"
 * ^name = "BreedRegistry"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#109200 //"America Kennel Club" 

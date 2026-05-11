@@ -7,7 +7,7 @@ Patient Position Acquisition  CT Techniques
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1465"
 * ^version = "20221225"
-* ^title = "Patient Position Acquisition  CT Techniques"
+* ^title = "Patient Position Acquisition  CT Techniques (CID 9266)"
 * ^name = "PatientPositionAcquisitionCTTechniques"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121707 //"RT Patient Position Acquisition, CT kV" 

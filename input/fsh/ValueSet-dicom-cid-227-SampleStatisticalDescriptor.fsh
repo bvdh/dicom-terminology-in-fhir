@@ -7,7 +7,7 @@ Sample Statistical Descriptor
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.32"
 * ^version = "20030327"
-* ^title = "Sample Statistical Descriptor"
+* ^title = "Sample Statistical Descriptor (CID 227)"
 * ^name = "SampleStatisticalDescriptor"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121415 //"Percentile Ranking of measurement" 

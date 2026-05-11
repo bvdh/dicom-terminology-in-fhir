@@ -7,7 +7,7 @@ In future extensions, MRI Assessment terms that are not derived from PI-RADS sho
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1381"
 * ^version = "20210714"
-* ^title = "Prostate MRI Assessment"
+* ^title = "Prostate MRI Assessment (CID 6324)"
 * ^name = "ProstateMRIAssessment"
 * ^experimental = false
 * include codes from valueset CID_6325

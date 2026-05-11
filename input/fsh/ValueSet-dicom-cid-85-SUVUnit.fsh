@@ -7,7 +7,7 @@ The formulas for the determination of SUVbw, SUVbsa, SUVlbm (James) and SUVibw a
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.984"
 * ^version = "20161106"
-* ^title = "SUV Unit"
+* ^title = "SUV Unit (CID 85)"
 * ^name = "SUVUnit"
 * ^experimental = false
 * http://unitsofmeasure.org#g/ml{SUVbw} //"Standardized Uptake Value body weight" 

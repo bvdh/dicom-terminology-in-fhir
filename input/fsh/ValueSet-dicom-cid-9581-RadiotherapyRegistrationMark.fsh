@@ -7,7 +7,7 @@ Radiotherapy Registration Mark
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1443"
 * ^version = "20220402"
-* ^title = "Radiotherapy Registration Mark"
+* ^title = "Radiotherapy Registration Mark (CID 9581)"
 * ^name = "RadiotherapyRegistrationMark"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#112171 //"Fiducial mark" 

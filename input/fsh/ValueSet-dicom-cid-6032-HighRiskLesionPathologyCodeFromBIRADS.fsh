@@ -7,24 +7,20 @@ From BI-RADS Third Edition, with Addendum 3.1 (National Mammography Database,F11
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.362"
 * ^version = "20020904"
-* ^title = "High Risk Lesion Pathology Code from BI-RADS"
+* ^title = "High Risk Lesion Pathology Code from BI-RADS (CID 6032)"
 * ^name = "HighRiskLesionPathologyCodeFromBIRADS"
 * ^experimental = false
 * http://snomed.info/sct#6660000 //"Atypical intraductal hyperplasia" 
 * http://snomed.info/srt#M-72175 //"Atypical intraductal hyperplasia" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0521187 //"Atypical intraductal hyperplasia" 
 
 * http://snomed.info/sct#33889003 //"Atypical lobular hyperplasia" 
 * http://snomed.info/srt#M-72105 //"Atypical lobular hyperplasia" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0442835 //"Atypical lobular hyperplasia" 
 
 * http://snomed.info/sct#109888004 //"Lobular carcinoma in situ of breast" 
 * http://snomed.info/srt#D7-F0A02 //"Lobular carcinoma in situ of breast" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0279563 //"Lobular carcinoma in situ of breast" 
 
 * DICOM_DCM_CodeSystem#111299 //"Peripheral duct papillomas" 
 
 * http://snomed.info/sct#71232009 //"Phyllodes tumor" 
 * http://snomed.info/srt#M-90201 //"Phyllodes tumor" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0010701 //"Phyllodes tumor" 
 

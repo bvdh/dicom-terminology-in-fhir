@@ -7,7 +7,7 @@ RT Plan Radiotherapy Procedure Technique
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1486"
 * ^version = "20240616"
-* ^title = "RT Plan Radiotherapy Procedure Technique"
+* ^title = "RT Plan Radiotherapy Procedure Technique (CID 9583)"
 * ^name = "RTPlanRadiotherapyProcedureTechnique"
 * ^experimental = false
 * include codes from valueset CID_9511

@@ -7,14 +7,12 @@ Respiration State
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.625"
 * ^version = "20030918"
-* ^title = "Respiration State"
+* ^title = "Respiration State (CID 12234)"
 * ^name = "RespirationState"
 * ^experimental = false
 * http://snomed.info/sct#14910006 //"Inspiration" 
 * http://snomed.info/srt#F-20010 //"Inspiration" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0004048 //"Inspiration" 
 
 * http://snomed.info/sct#58322009 //"Expiration" 
 * http://snomed.info/srt#F-20020 //"Expiration" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0231800 //"Expiration" 
 

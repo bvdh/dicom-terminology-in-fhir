@@ -7,7 +7,7 @@ PET Unit
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1030"
 * ^version = "20170914"
-* ^title = "PET Unit"
+* ^title = "PET Unit (CID 84)"
 * ^name = "PETUnit"
 * ^experimental = false
 * include codes from valueset CID_85

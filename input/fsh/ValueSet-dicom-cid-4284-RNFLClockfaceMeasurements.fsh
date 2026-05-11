@@ -7,7 +7,7 @@ RNFL Clockface Measurements
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1537"
 * ^version = "20250707"
-* ^title = "RNFL Clockface Measurements"
+* ^title = "RNFL Clockface Measurements (CID 4284)"
 * ^name = "RNFLClockfaceMeasurements"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131274 //"Retinal ROI width" 

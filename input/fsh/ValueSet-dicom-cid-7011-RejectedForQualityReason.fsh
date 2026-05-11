@@ -7,7 +7,7 @@ Rejected for Quality Reason
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.491"
 * ^version = "20020904"
-* ^title = "Rejected for Quality Reason"
+* ^title = "Rejected for Quality Reason (CID 7011)"
 * ^name = "RejectedForQualityReason"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111207 //"Image artifact(s)" 

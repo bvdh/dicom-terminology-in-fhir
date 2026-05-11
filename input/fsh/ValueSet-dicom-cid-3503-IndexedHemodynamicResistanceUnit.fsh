@@ -7,7 +7,7 @@ Indexed Hemodynamic Resistance Unit
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.134"
 * ^version = "20120327"
-* ^title = "Indexed Hemodynamic Resistance Unit"
+* ^title = "Indexed Hemodynamic Resistance Unit (CID 3503)"
 * ^name = "IndexedHemodynamicResistanceUnit"
 * ^experimental = false
 * http://unitsofmeasure.org#[PRU]/m2 //"P.R.U./m2" 

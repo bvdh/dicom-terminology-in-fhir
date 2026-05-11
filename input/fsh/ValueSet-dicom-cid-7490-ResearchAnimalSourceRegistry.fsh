@@ -7,7 +7,7 @@ Research Animal Source Registry
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1063"
 * ^version = "20151110"
-* ^title = "Research Animal Source Registry"
+* ^title = "Research Animal Source Registry (CID 7490)"
 * ^name = "ResearchAnimalSourceRegistry"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#126850 //"ILCR" 

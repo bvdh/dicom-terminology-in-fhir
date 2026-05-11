@@ -7,7 +7,7 @@ Vascular Ultrasound Property
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.585"
 * ^version = "20030327"
-* ^title = "Vascular Ultrasound Property"
+* ^title = "Vascular Ultrasound Property (CID 12119)"
 * ^name = "VascularUltrasoundProperty"
 * ^experimental = false
 * include codes from valueset CID_12120

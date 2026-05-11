@@ -7,12 +7,11 @@ Lens Constant Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.883"
 * ^version = "20190124"
-* ^title = "Lens Constant Type"
+* ^title = "Lens Constant Type (CID 4237)"
 * ^name = "LensConstantType"
 * ^experimental = false
 * http://snomed.info/sct#397263007 //"A-Constant" 
 * http://snomed.info/srt#F-048FA //"A-Constant" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1301307 //"A-Constant" 
 
 * DICOM_DCM_CodeSystem#111768 //"ACD Constant" 
 

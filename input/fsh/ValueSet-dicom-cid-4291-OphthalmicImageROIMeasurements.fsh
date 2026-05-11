@@ -7,7 +7,7 @@ Ophthalmic Image ROI Measurements
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1544"
 * ^version = "20250707"
-* ^title = "Ophthalmic Image ROI Measurements"
+* ^title = "Ophthalmic Image ROI Measurements (CID 4291)"
 * ^name = "OphthalmicImageROIMeasurements"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131310 //"Geographic atrophy area" 

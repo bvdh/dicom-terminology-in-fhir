@@ -7,7 +7,7 @@ Treadmill Speed
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.767"
 * ^version = "20080927"
-* ^title = "Treadmill Speed"
+* ^title = "Treadmill Speed (CID 3212)"
 * ^name = "TreadmillSpeed"
 * ^experimental = false
 * http://unitsofmeasure.org#km/h //"km/h" 

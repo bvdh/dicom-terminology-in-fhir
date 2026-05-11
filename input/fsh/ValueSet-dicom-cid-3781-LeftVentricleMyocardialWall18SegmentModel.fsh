@@ -7,7 +7,7 @@ Left Ventricle Myocardial Wall 18 Segment Model
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1413"
 * ^version = "20210904"
-* ^title = "Left Ventricle Myocardial Wall 18 Segment Model"
+* ^title = "Left Ventricle Myocardial Wall 18 Segment Model (CID 3781)"
 * ^name = "LeftVentricleMyocardialWall18SegmentModel"
 * ^experimental = false
 * include codes from valueset CID_3782

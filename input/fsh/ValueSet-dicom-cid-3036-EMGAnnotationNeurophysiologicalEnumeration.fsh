@@ -7,7 +7,7 @@ Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1334"
 * ^version = "20200623"
-* ^title = "EMG Annotation  Neurophysiological Enumeration"
+* ^title = "EMG Annotation  Neurophysiological Enumeration (CID 3036)"
 * ^name = "EMGAnnotationNeurophysiologicalEnumeration"
 * ^experimental = false
 * urn:iso:std:iso:11073:10101#2:24336 //"EMG unspecified waveform" 

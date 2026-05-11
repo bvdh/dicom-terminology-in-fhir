@@ -7,7 +7,7 @@ CAD Processing and Finding Summary
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.377"
 * ^version = "20020904"
-* ^title = "CAD Processing and Finding Summary"
+* ^title = "CAD Processing and Finding Summary (CID 6047)"
 * ^name = "CADProcessingAndFindingSummary"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111241 //"All algorithms succeeded; without findings" 

@@ -7,7 +7,7 @@ Non-coronary Transcatheter Intervention
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.71"
 * ^version = "20030327"
-* ^title = "Non-coronary Transcatheter Intervention"
+* ^title = "Non-coronary Transcatheter Intervention (CID 3406)"
 * ^name = "NonCoronaryTranscatheterIntervention"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122053 //"Valvular Intervention" 

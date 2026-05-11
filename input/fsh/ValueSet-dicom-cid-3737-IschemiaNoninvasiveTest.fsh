@@ -7,7 +7,7 @@ Ischemia Non-invasive Test
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.234"
 * ^version = "20030327"
-* ^title = "Ischemia Non-invasive Test"
+* ^title = "Ischemia Non-invasive Test (CID 3737)"
 * ^name = "IschemiaNoninvasiveTest"
 * ^experimental = false
 * http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#48-1 //"Not Done" 

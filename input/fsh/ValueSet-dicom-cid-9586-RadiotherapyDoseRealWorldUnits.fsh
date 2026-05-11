@@ -7,7 +7,7 @@ Radiotherapy Dose Real World Units
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1564"
 * ^version = "20260201"
-* ^title = "Radiotherapy Dose Real World Units"
+* ^title = "Radiotherapy Dose Real World Units (CID 9586)"
 * ^name = "RadiotherapyDoseRealWorldUnits"
 * ^experimental = false
 * http://unitsofmeasure.org#Gy //"Gray" 

@@ -7,7 +7,7 @@ DX Anatomy Imaged for Animal
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.814"
 * ^version = "20090717"
-* ^title = "DX Anatomy Imaged for Animal"
+* ^title = "DX Anatomy Imaged for Animal (CID 7482)"
 * ^name = "DXAnatomyImagedForAnimal"
 * ^experimental = false
 * include codes from valueset CID_7483

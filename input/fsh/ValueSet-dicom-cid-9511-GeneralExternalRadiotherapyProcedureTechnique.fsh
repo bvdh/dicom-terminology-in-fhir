@@ -7,7 +7,7 @@ General External Radiotherapy Procedure Technique
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1221"
 * ^version = "20181112"
-* ^title = "General External Radiotherapy Procedure Technique"
+* ^title = "General External Radiotherapy Procedure Technique (CID 9511)"
 * ^name = "GeneralExternalRadiotherapyProcedureTechnique"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130102 //"Static Beam" 

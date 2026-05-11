@@ -5,7 +5,7 @@ Description :
 Global Shape Descriptor
 """
 * ^version = "None"
-* ^title = "Global Shape Descriptor"
+* ^title = "Global Shape Descriptor (CID 7477)"
 * ^name = "GlobalShapeDescriptor"
 * ^experimental = false
 * IBSICodeSystem#RNU0 //"Volume of Mesh" 

@@ -7,7 +7,7 @@ Follow-up Interval Unit
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.376"
 * ^version = "20020904"
-* ^title = "Follow-up Interval Unit"
+* ^title = "Follow-up Interval Unit (CID 6046)"
 * ^name = "FollowupIntervalUnit"
 * ^experimental = false
 * http://unitsofmeasure.org#d //"day" 

@@ -7,18 +7,15 @@ In prior editions, this Context Group included the NCDR 2.0b codes as the primar
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.225"
 * ^version = "20070827"
-* ^title = "Smoking History"
+* ^title = "Smoking History (CID 3724)"
 * ^name = "SmokingHistory"
 * ^experimental = false
 * http://snomed.info/sct#266919005 //"No History of Smoking" 
 * http://snomed.info/srt#F-9321F //"No History of Smoking" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0425293 //"No History of Smoking" 
 
 * http://snomed.info/sct#77176002 //"Current Smoker" 
 * http://snomed.info/srt#S-32000 //"Current Smoker" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3241966 //"Current Smoker" 
 
 * http://snomed.info/sct#8517006 //"Former Smoker" 
 * http://snomed.info/srt#S-32070 //"Former Smoker" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0337671 //"Former Smoker" 
 

@@ -7,7 +7,7 @@ Bolus Shaping Curve
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1263"
 * ^version = "20181115"
-* ^title = "Bolus Shaping Curve"
+* ^title = "Bolus Shaping Curve (CID 73)"
 * ^name = "BolusShapingCurve"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130252 //"Negative exponential" 

@@ -7,18 +7,15 @@ In prior editions, this Context Group included NCDR 2.0b codes as the primary se
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.211"
 * ^version = "20111028"
-* ^title = "Coronary Dominance"
+* ^title = "Coronary Dominance (CID 3710)"
 * ^name = "CoronaryDominance"
 * ^experimental = false
 * http://snomed.info/sct#253729004 //"Left Coronary Dominance" 
 * http://snomed.info/srt#D4-3252C //"Left Coronary Dominance" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0345136 //"Left Coronary Dominance" 
 
 * http://snomed.info/sct#253728007 //"Right Coronary Dominance" 
 * http://snomed.info/srt#D4-3252B //"Right Coronary Dominance" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0345135 //"Right Coronary Dominance" 
 
 * http://snomed.info/sct#253730009 //"Balanced Coronary Dominance" 
 * http://snomed.info/srt#D4-3252D //"Balanced Coronary Dominance" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0345137 //"Balanced Coronary Dominance" 
 

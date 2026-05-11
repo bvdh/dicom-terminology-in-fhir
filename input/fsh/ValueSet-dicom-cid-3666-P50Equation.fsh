@@ -7,7 +7,7 @@ P50 Equation
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.182"
 * ^version = "20030327"
-* ^title = "P50 Equation"
+* ^title = "P50 Equation (CID 3666)"
 * ^name = "P50Equation"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122256 //"if (prem age< 3days) P50 = 19.9" 

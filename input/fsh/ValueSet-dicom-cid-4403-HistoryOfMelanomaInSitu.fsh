@@ -7,10 +7,9 @@ History of Melanoma in Situ
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1348"
 * ^version = "20201115"
-* ^title = "History of Melanoma in Situ"
+* ^title = "History of Melanoma in Situ (CID 4403)"
 * ^name = "HistoryOfMelanomaInSitu"
 * ^experimental = false
 * http://snomed.info/sct#1251000119106 //"History of melanoma in situ of the skin" 
 * http://snomed.info/srt#R-FAC47 //"History of melanoma in situ of the skin" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3266774 //"History of melanoma in situ of the skin" 
 

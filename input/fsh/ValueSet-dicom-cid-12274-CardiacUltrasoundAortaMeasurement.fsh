@@ -7,7 +7,7 @@ Cardiac Ultrasound Aorta Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.855"
 * ^version = "20240920"
-* ^title = "Cardiac Ultrasound Aorta Measurement"
+* ^title = "Cardiac Ultrasound Aorta Measurement (CID 12274)"
 * ^name = "CardiacUltrasoundAortaMeasurement"
 * ^experimental = false
 * include codes from valueset CID_12220

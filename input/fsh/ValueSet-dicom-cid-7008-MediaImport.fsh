@@ -7,7 +7,7 @@ Media Import
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.489"
 * ^version = "20061024"
-* ^title = "Media Import"
+* ^title = "Media Import (CID 7008)"
 * ^name = "MediaImport"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#110020 //"Sheet Film Digitized" 

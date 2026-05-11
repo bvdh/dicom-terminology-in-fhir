@@ -7,7 +7,7 @@ Related Series Purpose of Reference
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.512"
 * ^version = "20140627"
-* ^title = "Related Series Purpose of Reference"
+* ^title = "Related Series Purpose of Reference (CID 7210)"
 * ^name = "RelatedSeriesPurposeOfReference"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122400 //"Simultaneously Acquired" 

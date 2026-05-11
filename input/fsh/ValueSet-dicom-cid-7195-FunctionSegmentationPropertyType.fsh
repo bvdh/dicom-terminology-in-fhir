@@ -7,7 +7,7 @@ Function Segmentation Property Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1194"
 * ^version = "20170914"
-* ^title = "Function Segmentation Property Type"
+* ^title = "Function Segmentation Property Type (CID 7195)"
 * ^name = "FunctionSegmentationPropertyType"
 * ^experimental = false
 * include codes from valueset CID_7161

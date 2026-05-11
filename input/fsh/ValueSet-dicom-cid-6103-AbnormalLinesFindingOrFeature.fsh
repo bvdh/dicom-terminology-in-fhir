@@ -7,7 +7,7 @@ Original source of terms is [Fraser and Pare].
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.423"
 * ^version = "20030108"
-* ^title = "Abnormal Lines Finding or Feature"
+* ^title = "Abnormal Lines Finding or Feature (CID 6103)"
 * ^name = "AbnormalLinesFindingOrFeature"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#112065 //"Reticulonodular pattern" 
@@ -32,7 +32,6 @@ Original source of terms is [Fraser and Pare].
 
 * http://snomed.info/sct#40779009 //"Plate-like atelectasis" 
 * http://snomed.info/srt#D2-60302 //"Plate-like atelectasis" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0264494 //"Plate-like atelectasis" 
 
 * DICOM_DCM_CodeSystem#112113 //"Reticular pattern" 
 

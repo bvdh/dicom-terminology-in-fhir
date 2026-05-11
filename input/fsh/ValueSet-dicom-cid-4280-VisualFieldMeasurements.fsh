@@ -7,7 +7,7 @@ Visual Field Measurements
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1533"
 * ^version = "20250707"
-* ^title = "Visual Field Measurements"
+* ^title = "Visual Field Measurements (CID 4280)"
 * ^name = "VisualFieldMeasurements"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111852 //"Visual Field Index" 

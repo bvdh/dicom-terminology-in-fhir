@@ -7,7 +7,7 @@ Imaging Agent Administration Mode
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1253"
 * ^version = "20181115"
-* ^title = "Imaging Agent Administration Mode"
+* ^title = "Imaging Agent Administration Mode (CID 63)"
 * ^name = "ImagingAgentAdministrationMode"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130173 //"Automated Administration" 

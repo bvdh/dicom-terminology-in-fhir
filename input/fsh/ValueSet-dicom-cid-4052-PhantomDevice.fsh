@@ -7,7 +7,7 @@ Phantom Device
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.315"
 * ^version = "20221224"
-* ^title = "Phantom Device"
+* ^title = "Phantom Device (CID 4052)"
 * ^name = "PhantomDevice"
 * ^experimental = false
 * include codes from valueset CID_4053

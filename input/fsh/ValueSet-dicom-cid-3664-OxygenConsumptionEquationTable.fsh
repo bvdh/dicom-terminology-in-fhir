@@ -7,7 +7,7 @@ Oxygen Consumption Equation/Table
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.181"
 * ^version = "20030327"
-* ^title = "Oxygen Consumption Equation/Table"
+* ^title = "Oxygen Consumption Equation/Table (CID 3664)"
 * ^name = "OxygenConsumptionEquationTable"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122247 //"VO2male = BSA (138.1 - 11.49 * loge(age) + 0.378 * HRf)" 

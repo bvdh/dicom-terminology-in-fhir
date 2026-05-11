@@ -7,7 +7,7 @@ Microscopy Illumination Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.900"
 * ^version = "20100824"
-* ^title = "Microscopy Illumination Method"
+* ^title = "Microscopy Illumination Method (CID 8123)"
 * ^name = "MicroscopyIlluminationMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111741 //"Transmission illumination" 

@@ -7,7 +7,7 @@ Neighbourhood Grey Tone Difference Based Feature
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1273"
 * ^version = "20190121"
-* ^title = "Neighbourhood Grey Tone Difference Based Feature"
+* ^title = "Neighbourhood Grey Tone Difference Based Feature (CID 7500)"
 * ^name = "NeighbourhoodGreyToneDifferenceBasedFeature"
 * ^experimental = false
 * IBSICodeSystem#QCDE //"Coarseness of NGTDM" 

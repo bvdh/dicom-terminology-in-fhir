@@ -7,7 +7,7 @@ Category of Sex Parameters for Clinical Use
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1530"
 * ^version = "20250406"
-* ^title = "Category of Sex Parameters for Clinical Use"
+* ^title = "Category of Sex Parameters for Clinical Use (CID 7459)"
 * ^name = "CategoryOfSexParametersForClinicalUse"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131230 //"Female-typical" 

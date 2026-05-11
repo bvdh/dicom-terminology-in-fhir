@@ -7,7 +7,7 @@ Ventilation Action
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.147"
 * ^version = "20030327"
-* ^title = "Ventilation Action"
+* ^title = "Ventilation Action (CID 3551)"
 * ^name = "VentilationAction"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121168 //"Begin Ventilation" 

@@ -7,16 +7,14 @@ Model Document Title
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1202"
 * ^version = "20180403"
-* ^title = "Model Document Title"
+* ^title = "Model Document Title (CID 7061)"
 * ^name = "ModelDocumentTitle"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121324 //"Source image" 
 
 * http://loinc.org#85041-2 //"MR 3D CAM model" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C4297407 //"MR 3D CAM model" 
 
 * http://loinc.org#85040-4 //"CT 3D CAM model" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C4297408 //"CT 3D CAM model" 
 
 * DICOM_DCM_CodeSystem#129018 //"US 3D CAM model" 
 

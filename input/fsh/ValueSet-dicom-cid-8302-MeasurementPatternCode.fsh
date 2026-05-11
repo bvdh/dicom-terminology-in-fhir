@@ -7,7 +7,7 @@ Measurement Pattern Code
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.982"
 * ^version = "20140331"
-* ^title = "Measurement Pattern Code"
+* ^title = "Measurement Pattern Code (CID 8302)"
 * ^name = "MeasurementPatternCode"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#109843 //"TG18-UNL10 Pattern" 

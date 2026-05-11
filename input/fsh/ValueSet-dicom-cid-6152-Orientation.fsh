@@ -7,7 +7,7 @@ From BI-RADS
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.467"
 * ^version = "20050822"
-* ^title = "Orientation"
+* ^title = "Orientation (CID 6152)"
 * ^name = "Orientation"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111355 //"Parallel" 

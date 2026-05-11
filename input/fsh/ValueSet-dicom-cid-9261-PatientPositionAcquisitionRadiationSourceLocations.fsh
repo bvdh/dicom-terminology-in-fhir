@@ -7,7 +7,7 @@ Patient Position Acquisition Radiation Source Locations
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1460"
 * ^version = "20221225"
-* ^title = "Patient Position Acquisition Radiation Source Locations"
+* ^title = "Patient Position Acquisition Radiation Source Locations (CID 9261)"
 * ^name = "PatientPositionAcquisitionRadiationSourceLocations"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130358 //"Nominal Radiation Source Location" 

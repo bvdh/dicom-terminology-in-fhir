@@ -7,7 +7,7 @@ Patient Position Displacement Reference Point
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1421"
 * ^version = "20210906"
-* ^title = "Patient Position Displacement Reference Point"
+* ^title = "Patient Position Displacement Reference Point (CID 9574)"
 * ^name = "PatientPositionDisplacementReferencePoint"
 * ^experimental = false
 * include codes from valueset CID_9553

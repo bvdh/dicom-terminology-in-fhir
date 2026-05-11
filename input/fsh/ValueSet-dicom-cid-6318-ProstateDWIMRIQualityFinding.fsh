@@ -7,7 +7,7 @@ Prostate DWI MRI Quality Finding
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1375"
 * ^version = "20210714"
-* ^title = "Prostate DWI MRI Quality Finding"
+* ^title = "Prostate DWI MRI Quality Finding (CID 6318)"
 * ^name = "ProstateDWIMRIQualityFinding"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130583 //"Expected b-value is missing" 

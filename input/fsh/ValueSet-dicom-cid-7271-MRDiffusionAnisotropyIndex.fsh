@@ -7,7 +7,7 @@ MR Diffusion Anisotropy Index
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1166"
 * ^version = "20170413"
-* ^title = "MR Diffusion Anisotropy Index"
+* ^title = "MR Diffusion Anisotropy Index (CID 7271)"
 * ^name = "MRDiffusionAnisotropyIndex"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#110808 //"Fractional Anisotropy" 

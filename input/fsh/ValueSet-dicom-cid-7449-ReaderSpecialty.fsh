@@ -7,7 +7,7 @@ Reader Specialty
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1119"
 * ^version = "20160601"
-* ^title = "Reader Specialty"
+* ^title = "Reader Specialty (CID 7449)"
 * ^name = "ReaderSpecialty"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128006 //"Abdominal Imaging Specialty" 

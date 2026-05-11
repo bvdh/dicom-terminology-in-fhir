@@ -7,7 +7,7 @@ Sex - Male Female or Both
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1067"
 * ^version = "20151110"
-* ^title = "Sex - Male Female or Both"
+* ^title = "Sex - Male Female or Both (CID 7457)"
 * ^name = "SexMaleFemaleOrBoth"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#M //"Male" 

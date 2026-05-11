@@ -7,7 +7,7 @@ Texture Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1001"
 * ^version = "20190121"
-* ^title = "Texture Measurement"
+* ^title = "Texture Measurement (CID 7468)"
 * ^name = "TextureMeasurement"
 * ^experimental = false
 * include codes from valueset CID_7478

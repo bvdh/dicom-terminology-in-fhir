@@ -7,7 +7,7 @@ The anatomic location relevant to the application of any AIF method is not pre-c
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.988"
 * ^version = "20141110"
-* ^title = "Arterial Input Function Measurement Method"
+* ^title = "Arterial Input Function Measurement Method (CID 4103)"
 * ^name = "ArterialInputFunctionMeasurementMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#126360 //"AIF Ignored" 

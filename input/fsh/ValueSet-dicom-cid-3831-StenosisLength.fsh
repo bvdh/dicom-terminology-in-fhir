@@ -7,14 +7,12 @@ Stenosis Length
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.282"
 * ^version = "20051103"
-* ^title = "Stenosis Length"
+* ^title = "Stenosis Length (CID 3831)"
 * ^name = "StenosisLength"
 * ^experimental = false
 * http://snomed.info/sct#255511005 //"long" 
 * http://snomed.info/srt#R-404AC //"long" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0205166 //"long" 
 
 * http://snomed.info/sct#367450005 //"short" 
 * http://snomed.info/srt#R-4235F //"short" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1806781 //"short" 
 

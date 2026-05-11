@@ -7,7 +7,7 @@ Pre-Cath Angina Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.235"
 * ^version = "20030327"
-* ^title = "Pre-Cath Angina Type"
+* ^title = "Pre-Cath Angina Type (CID 3738)"
 * ^name = "PreCathAnginaType"
 * ^experimental = false
 * http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#49-I //"Atypical Chest Pain" 

@@ -7,7 +7,7 @@ Detector Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.959"
 * ^version = "20120406"
-* ^title = "Detector Type"
+* ^title = "Detector Type (CID 10030)"
 * ^name = "DetectorType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113948 //"Direct Detector" 

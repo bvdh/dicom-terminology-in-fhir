@@ -7,7 +7,7 @@ Contour Realignment
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.103"
 * ^version = "20040614"
-* ^title = "Contour Realignment"
+* ^title = "Contour Realignment (CID 3458)"
 * ^name = "ContourRealignment"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122475 //"Center of Gravity" 

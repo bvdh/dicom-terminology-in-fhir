@@ -7,7 +7,7 @@ Dose Index for Dose Calibration
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1548"
 * ^version = "20250907"
-* ^title = "Dose Index for Dose Calibration"
+* ^title = "Dose Index for Dose Calibration (CID 10012)"
 * ^name = "DoseIndexForDoseCalibration"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111631 //"Average Glandular Dose" 

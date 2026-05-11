@@ -7,7 +7,7 @@ Radiotherapy Target
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1244"
 * ^version = "20181112"
-* ^title = "Radiotherapy Target"
+* ^title = "Radiotherapy Target (CID 9534)"
 * ^name = "RadiotherapyTarget"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130049 //"CTV Nodal" 
@@ -16,7 +16,6 @@ Radiotherapy Target
 
 * http://snomed.info/sct#228792002 //"CTV" 
 * http://snomed.info/srt#R-429EB //"CTV" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0454198 //"CTV" 
 
 * DICOM_DCM_CodeSystem#130051 //"GTV Nodal" 
 
@@ -24,7 +23,6 @@ Radiotherapy Target
 
 * http://snomed.info/sct#228791009 //"GTV" 
 * http://snomed.info/srt#R-429E0 //"GTV" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0475645 //"GTV" 
 
 * DICOM_DCM_CodeSystem#130053 //"PTV Nodal" 
 
@@ -32,7 +30,6 @@ Radiotherapy Target
 
 * http://snomed.info/sct#228793007 //"PTV" 
 * http://snomed.info/srt#R-429EC //"PTV" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0454199 //"PTV" 
 
 * DICOM_DCM_CodeSystem#130056 //"ITV" 
 
@@ -40,7 +37,6 @@ Radiotherapy Target
 
 * http://snomed.info/sct#228790005 //"Irradiated Volume" 
 * http://snomed.info/srt#R-429DF //"Irradiated Volume" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0454197 //"Irradiated Volume" 
 
 * DICOM_DCM_CodeSystem#130055 //"Entire Body Target Volume" 
 

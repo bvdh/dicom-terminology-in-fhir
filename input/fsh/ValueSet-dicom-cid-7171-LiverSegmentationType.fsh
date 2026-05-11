@@ -7,7 +7,7 @@ Liver Segmentation Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1359"
 * ^version = "20210120"
-* ^title = "Liver Segmentation Type"
+* ^title = "Liver Segmentation Type (CID 7171)"
 * ^name = "LiverSegmentationType"
 * ^experimental = false
 * include codes from valueset CID_7170

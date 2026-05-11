@@ -7,21 +7,17 @@ Biosafety Control Reason
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1066"
 * ^version = "20151110"
-* ^title = "Biosafety Control Reason"
+* ^title = "Biosafety Control Reason (CID 602)"
 * ^name = "BiosafetyControlReason"
 * ^experimental = false
 * http://snomed.info/sct#409595003 //"Biohazardous material" 
 * http://snomed.info/srt#F-61E79 //"Biohazardous material" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0079021 //"Biohazardous material" 
 
 * http://snomed.info/sct#88376000 //"Carcinogen" 
 * http://snomed.info/srt#C-29000 //"Carcinogen" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0007090 //"Carcinogen" 
 
 * http://snomed.info/sct#370388006 //"Patient immunocompromised" 
 * http://snomed.info/srt#F-00D5F //"Patient immunocompromised" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0085393 //"Patient immunocompromised" 
 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0003069 //"Transgenic animal" 
-// * http://terminology.hl7.org/CodeSystem/umls/sab#C0003069 "Transgenic animal" 
+* http://terminology.hl7.org/CodeSystem/umls#C0003069 //"Transgenic animal" 
 

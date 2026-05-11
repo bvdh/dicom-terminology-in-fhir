@@ -7,7 +7,7 @@ Calibration Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.99"
 * ^version = "20040614"
-* ^title = "Calibration Method"
+* ^title = "Calibration Method (CID 3452)"
 * ^name = "CalibrationMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122486 //"Geometric Isocenter" 

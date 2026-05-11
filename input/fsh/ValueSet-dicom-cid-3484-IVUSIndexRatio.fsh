@@ -7,7 +7,7 @@ IVUS Index/Ratio
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.119"
 * ^version = "20040614"
-* ^title = "IVUS Index/Ratio"
+* ^title = "IVUS Index/Ratio (CID 3484)"
 * ^name = "IVUSIndexRatio"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122343 //"Lumen Eccentricity Index" 

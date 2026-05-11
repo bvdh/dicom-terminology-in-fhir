@@ -7,7 +7,7 @@ Scope of Accumulation
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.534"
 * ^version = "20131010"
-* ^title = "Scope of Accumulation"
+* ^title = "Scope of Accumulation (CID 10000)"
 * ^name = "ScopeOfAccumulation"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113014 //"Study" 

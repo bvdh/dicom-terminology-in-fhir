@@ -7,7 +7,7 @@ Size Specific Dose Estimation Method for CT
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.947"
 * ^version = "20200919"
-* ^title = "Size Specific Dose Estimation Method for CT"
+* ^title = "Size Specific Dose Estimation Method for CT (CID 10023)"
 * ^name = "SizeSpecificDoseEstimationMethodForCT"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113934 //"AAPM 204 Lateral Dimension" 

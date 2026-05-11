@@ -10,7 +10,7 @@ Description :
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.62"
 * ^version = "20130613"
-* ^title = "ECG Annotation"
+* ^title = "ECG Annotation (CID 3335)"
 * ^name = "ECGAnnotation"
 * ^experimental = false
 * urn:iso:std:iso:11073:10101#10:256 //"P wave" 

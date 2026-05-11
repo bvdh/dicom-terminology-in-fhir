@@ -7,7 +7,7 @@ XA/XRF Anatomy Imaged
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.312"
 * ^version = "20050822"
-* ^title = "XA/XRF Anatomy Imaged"
+* ^title = "XA/XRF Anatomy Imaged (CID 4042)"
 * ^name = "XAXRFAnatomyImaged"
 * ^experimental = false
 * include codes from valueset CID_3010

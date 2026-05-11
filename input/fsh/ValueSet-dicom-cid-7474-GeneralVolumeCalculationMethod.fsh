@@ -7,7 +7,7 @@ General Volume Calculation Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.528"
 * ^version = "20200920"
-* ^title = "General Volume Calculation Method"
+* ^title = "General Volume Calculation Method (CID 7474)"
 * ^name = "GeneralVolumeCalculationMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122503 //"Integration of sum of closed areas on contiguous slices method for volume" 

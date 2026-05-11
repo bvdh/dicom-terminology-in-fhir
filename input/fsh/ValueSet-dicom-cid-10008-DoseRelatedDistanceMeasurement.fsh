@@ -7,7 +7,7 @@ Dose Related Distance Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.541"
 * ^version = "20170914"
-* ^title = "Dose Related Distance Measurement"
+* ^title = "Dose Related Distance Measurement (CID 10008)"
 * ^name = "DoseRelatedDistanceMeasurement"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113748 //"Distance Source to Isocenter" 

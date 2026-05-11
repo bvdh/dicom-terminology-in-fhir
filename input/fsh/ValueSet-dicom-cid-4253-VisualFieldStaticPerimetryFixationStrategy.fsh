@@ -7,7 +7,7 @@ Visual Field Static Perimetry Fixation Strategy
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.912"
 * ^version = "20100827"
-* ^title = "Visual Field Static Perimetry Fixation Strategy"
+* ^title = "Visual Field Static Perimetry Fixation Strategy (CID 4253)"
 * ^name = "VisualFieldStaticPerimetryFixationStrategy"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111843 //"Automated Optical" 
@@ -20,5 +20,4 @@ Visual Field Static Perimetry Fixation Strategy
 
 * http://snomed.info/sct#260413007 //"None" 
 * http://snomed.info/srt#R-40775 //"None" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0549184 //"None" 
 

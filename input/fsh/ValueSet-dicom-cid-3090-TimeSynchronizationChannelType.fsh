@@ -7,7 +7,7 @@ Time Synchronization Channel Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.51"
 * ^version = "20020904"
-* ^title = "Time Synchronization Channel Type"
+* ^title = "Time Synchronization Channel Type (CID 3090)"
 * ^name = "TimeSynchronizationChannelType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#109001 //"Digital timecode (NOS)" 

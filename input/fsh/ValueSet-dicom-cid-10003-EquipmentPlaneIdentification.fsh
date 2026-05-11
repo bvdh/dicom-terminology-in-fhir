@@ -7,7 +7,7 @@ Equipment Plane Identification
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.537"
 * ^version = "20081028"
-* ^title = "Equipment Plane Identification"
+* ^title = "Equipment Plane Identification (CID 10003)"
 * ^name = "EquipmentPlaneIdentification"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113620 //"Plane A" 

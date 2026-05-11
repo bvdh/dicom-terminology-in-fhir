@@ -7,35 +7,28 @@ X-Ray Radiation Dose Procedure Type Reported
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1477"
 * ^version = "20260321"
-* ^title = "X-Ray Radiation Dose Procedure Type Reported"
+* ^title = "X-Ray Radiation Dose Procedure Type Reported (CID 10005)"
 * ^name = "XRayRadiationDoseProcedureTypeReported"
 * ^experimental = false
 * http://snomed.info/sct#168537006 //"Plain radiography" 
 * http://snomed.info/srt#P5-009FA //"Plain radiography" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1306645 //"Plain radiography" 
 
 * http://snomed.info/sct#71651007 //"Mammography" 
 * http://snomed.info/srt#P5-40010 //"Mammography" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0024671 //"Mammography" 
 
 * http://snomed.info/sct#44491008 //"Fluoroscopy" 
 * http://snomed.info/srt#P5-06000 //"Fluoroscopy" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0016356 //"Fluoroscopy" 
 
 * http://snomed.info/sct#1373320005 //"Fluoroscopy and radiography" 
 
 * http://snomed.info/sct#77477000 //"Computed tomography" 
 * http://snomed.info/srt#P5-08000 //"Computed tomography" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0040405 //"Computed tomography" 
 
 * http://snomed.info/sct#717193008 //"Cone beam computed tomography" 
 * http://snomed.info/srt#R-FFB4A //"Cone beam computed tomography" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1956110 //"Cone beam computed tomography" 
 
 * http://snomed.info/sct#241686001 //"Dual energy X-Ray absorptiometry" 
 * http://snomed.info/srt#P5-00027 //"Dual energy X-Ray absorptiometry" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1510486 //"Dual energy X-Ray absorptiometry" 
 
 * http://snomed.info/sct#1290849002 //"Dental radiography" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0034575 //"Dental radiography" 
 

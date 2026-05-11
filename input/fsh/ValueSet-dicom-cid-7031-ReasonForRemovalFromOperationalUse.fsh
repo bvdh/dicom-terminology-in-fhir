@@ -7,7 +7,7 @@ Reason for Removal from Operational Use
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1446"
 * ^version = "20220624"
-* ^title = "Reason for Removal from Operational Use"
+* ^title = "Reason for Removal from Operational Use (CID 7031)"
 * ^name = "ReasonForRemovalFromOperationalUse"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113001 //"Rejected for Quality Reasons" 

@@ -7,28 +7,23 @@ Implant Material
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1031"
 * ^version = "20220115"
-* ^title = "Implant Material"
+* ^title = "Implant Material (CID 7300)"
 * ^name = "ImplantMaterial"
 * ^experimental = false
 * http://snomed.info/sct#261250004 //"Nickel Titanium" 
 * http://snomed.info/srt#F-61166 //"Nickel Titanium" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0076736 //"Nickel Titanium" 
 
 * http://snomed.info/sct#256496006 //"Gold Alloy" 
 * http://snomed.info/srt#F-611FC //"Gold Alloy" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0018027 //"Gold Alloy" 
 
 * http://snomed.info/sct#256506002 //"Stainless Steel Material" 
 * http://snomed.info/srt#F-61207 //"Stainless Steel Material" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0038126 //"Stainless Steel Material" 
 
 * http://snomed.info/sct#412155002 //"Polymer" 
 * http://snomed.info/srt#F-61DF9 //"Polymer" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0032521 //"Polymer" 
 
 * http://snomed.info/sct#256501007 //"Carbon Fiber" 
 * http://snomed.info/srt#F-61202 //"Carbon Fiber" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0108411 //"Carbon Fiber" 
 
 * UNSCodeSystem#S31673 //"Stainless steel (SS316L)" 
 

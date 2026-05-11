@@ -7,7 +7,7 @@ Waveform Purpose of Reference
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.485"
 * ^version = "20090409"
-* ^title = "Waveform Purpose of Reference"
+* ^title = "Waveform Purpose of Reference (CID 7004)"
 * ^name = "WaveformPurposeOfReference"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121301 //"Simultaneous Doppler" 

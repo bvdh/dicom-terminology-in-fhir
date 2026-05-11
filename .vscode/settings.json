@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd /home/nly98977/SwArchives/bvdh/dicom-terminology-in-fhir && test -f output/qa\\.html && echo \"qa\\.html exists\" \\|\\| echo \"qa\\.html missing\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

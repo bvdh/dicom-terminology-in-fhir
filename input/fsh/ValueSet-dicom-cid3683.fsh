@@ -5,6 +5,6 @@ Description :
 None
 """
 * ^version = "None"
-* ^title = "Modifier (Retired)"
+* ^title = "Modifier (Retired) (CID 3683)"
 * ^name = "Cid3683"
 * ^experimental = false

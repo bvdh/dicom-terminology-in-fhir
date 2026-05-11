@@ -7,7 +7,7 @@ Staff Action
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.69"
 * ^version = "20030327"
-* ^title = "Staff Action"
+* ^title = "Staff Action (CID 3404)"
 * ^name = "StaffAction"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122041 //"Personnel Arrived" 

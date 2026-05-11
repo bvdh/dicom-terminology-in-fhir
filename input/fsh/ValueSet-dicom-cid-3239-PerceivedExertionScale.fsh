@@ -7,7 +7,7 @@ Perceived Exertion Scale
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.785"
 * ^version = "20080927"
-* ^title = "Perceived Exertion Scale"
+* ^title = "Perceived Exertion Scale (CID 3239)"
 * ^name = "PerceivedExertionScale"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122734 //"Borg RPE Scale" 

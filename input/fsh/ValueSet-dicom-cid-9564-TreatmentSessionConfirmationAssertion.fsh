@@ -7,7 +7,7 @@ Treatment Session Confirmation Assertion
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1321"
 * ^version = "20200624"
-* ^title = "Treatment Session Confirmation Assertion"
+* ^title = "Treatment Session Confirmation Assertion (CID 9564)"
 * ^name = "TreatmentSessionConfirmationAssertion"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130456 //"Bolus Present" 

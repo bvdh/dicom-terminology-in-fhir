@@ -7,7 +7,7 @@ MR Diffusion Model Input
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1171"
 * ^version = "20170413"
-* ^title = "MR Diffusion Model Input"
+* ^title = "MR Diffusion Model Input (CID 7276)"
 * ^name = "MRDiffusionModelInput"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113240 //"Source image diffusion b-value" 

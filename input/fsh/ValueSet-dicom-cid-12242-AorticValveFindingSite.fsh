@@ -7,10 +7,9 @@ Aortic Valve Finding Site
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.633"
 * ^version = "20040614"
-* ^title = "Aortic Valve Finding Site"
+* ^title = "Aortic Valve Finding Site (CID 12242)"
 * ^name = "AorticValveFindingSite"
 * ^experimental = false
 * http://snomed.info/sct#77583004 //"Aortic Valve Ring" 
 * http://snomed.info/srt#T-35410 //"Aortic Valve Ring" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0225957 //"Aortic Valve Ring" 
 

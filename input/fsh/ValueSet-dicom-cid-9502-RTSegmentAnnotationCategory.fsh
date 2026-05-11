@@ -7,7 +7,7 @@ RT Segment Annotation Category
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1212"
 * ^version = "20191110"
-* ^title = "RT Segment Annotation Category"
+* ^title = "RT Segment Annotation Category (CID 9502)"
 * ^name = "RTSegmentAnnotationCategory"
 * ^experimental = false
 * include codes from valueset CID_9503

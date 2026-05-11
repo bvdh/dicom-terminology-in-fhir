@@ -7,14 +7,12 @@ ComplicationSeverity
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.39"
 * ^version = "20040112"
-* ^title = "Complication Severity"
+* ^title = "Complication Severity (CID 251)"
 * ^name = "ComplicationSeverity"
 * ^experimental = false
 * http://snomed.info/sct#255603008 //"Major" 
 * http://snomed.info/srt#R-404F9 //"Major" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0205164 //"Major" 
 
 * http://snomed.info/sct#255606000 //"Minor" 
 * http://snomed.info/srt#R-404FC //"Minor" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0205165 //"Minor" 
 

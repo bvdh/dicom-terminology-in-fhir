@@ -7,12 +7,11 @@ Drug or Contrast Agent Characteristic
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.313"
 * ^version = "20070124"
-* ^title = "Drug or Contrast Agent Characteristic"
+* ^title = "Drug or Contrast Agent Characteristic (CID 4050)"
 * ^name = "DrugOrContrastAgentCharacteristic"
 * ^experimental = false
 * http://snomed.info/sct#127489000 //"Active Ingredient" 
 * http://snomed.info/srt#G-C52F //"Active Ingredient" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1292749 //"Active Ingredient" 
 
 * DICOM_DCM_CodeSystem#121380 //"Active Ingredient Undiluted Concentration" 
 
@@ -20,5 +19,4 @@ Drug or Contrast Agent Characteristic
 
 * http://snomed.info/sct#118565006 //"Volume" 
 * http://snomed.info/srt#G-D705 //"Volume" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0449468 //"Volume" 
 

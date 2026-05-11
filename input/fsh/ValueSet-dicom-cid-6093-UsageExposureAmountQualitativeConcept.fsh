@@ -7,7 +7,7 @@ Usage/Exposure/Amount Qualitative Concept
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.415"
 * ^version = "20040112"
-* ^title = "Usage/Exposure/Amount Qualitative Concept"
+* ^title = "Usage/Exposure/Amount Qualitative Concept (CID 6093)"
 * ^name = "UsageExposureAmountQualitativeConcept"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111581 //"Relative dose amount" 

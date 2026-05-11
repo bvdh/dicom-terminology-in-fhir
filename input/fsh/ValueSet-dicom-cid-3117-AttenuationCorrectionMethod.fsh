@@ -7,7 +7,7 @@ Attenuation Correction Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.749"
 * ^version = "20080927"
-* ^title = "Attenuation Correction Method"
+* ^title = "Attenuation Correction Method (CID 3117)"
 * ^name = "AttenuationCorrectionMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122720 //"OSEM algorithm" 

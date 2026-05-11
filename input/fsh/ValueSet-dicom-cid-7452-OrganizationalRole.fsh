@@ -11,16 +11,14 @@ Description :
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.516"
 * ^version = "20170626"
-* ^title = "Organizational Role"
+* ^title = "Organizational Role (CID 7452)"
 * ^name = "OrganizationalRole"
 * ^experimental = false
 * http://snomed.info/sct#158965000 //"Medical Practitioner" 
 * http://snomed.info/srt#J-0016E //"Medical Practitioner" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1306754 //"Medical Practitioner" 
 
 * http://snomed.info/sct#309343006 //"Physician" 
 * http://snomed.info/srt#J-004E8 //"Physician" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0031831 //"Physician" 
 
 * DICOM_DCM_CodeSystem#128670 //"Head of Radiology" 
 
@@ -36,62 +34,47 @@ Description :
 
 * http://snomed.info/sct#106292003 //"Nurse" 
 * http://snomed.info/srt#J-07100 //"Nurse" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0028661 //"Nurse" 
 
 * http://snomed.info/sct#159016003 //"Radiologic Technologist" 
 * http://snomed.info/srt#J-00187 //"Radiologic Technologist" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0402007 //"Radiologic Technologist" 
 
 * DICOM_DCM_CodeSystem#128674 //"Lead Radiologic Technologist" 
 
 * http://snomed.info/sct#3430008 //"Radiation Therapist" 
 * http://snomed.info/srt#J-06173 //"Radiation Therapist" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0278604 //"Radiation Therapist" 
 
 // * http://snomed.info/sct#159016003 "Radiographer" 
 // * http://snomed.info/srt#J-00187 "Radiographer" 
-// * http://terminology.hl7.org/CodeSystem/umls/sab#C0402007 "Radiographer" 
 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1144859 //"Intern" 
-// * http://terminology.hl7.org/CodeSystem/umls/sab#C1144859 "Intern" 
+* http://terminology.hl7.org/CodeSystem/umls#C1144859 //"Intern" 
 
 * http://snomed.info/sct#405277009 //"Resident" 
 * http://snomed.info/srt#J-005E6 //"Resident" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1320928 //"Resident" 
 
 * http://snomed.info/sct#158971006 //"Registrar" 
 * http://snomed.info/srt#J-00172 //"Registrar" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0401974 //"Registrar" 
 
 * DICOM_DCM_CodeSystem#121088 //"Fellow" 
 
 * http://snomed.info/sct#405279007 //"Attending" 
 * http://snomed.info/srt#J-005E8 //"Attending" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1320929 //"Attending" 
 
 * http://snomed.info/sct#309390008 //"Consultant" 
 * http://snomed.info/srt#J-0050A //"Consultant" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0586911 //"Consultant" 
 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1441532 //"Consulting Physician" 
-// * http://terminology.hl7.org/CodeSystem/umls/sab#C1441532 "Consulting Physician" 
+* http://terminology.hl7.org/CodeSystem/umls#C1441532 //"Consulting Physician" 
 
 * http://snomed.info/sct#415506007 //"Scrub nurse" 
 * http://snomed.info/srt#J-0714A //"Scrub nurse" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1531952 //"Scrub nurse" 
 
 * http://snomed.info/sct#304292004 //"Surgeon" 
 * http://snomed.info/srt#J-00556 //"Surgeon" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0582175 //"Surgeon" 
 
 * DICOM_DCM_CodeSystem#121092 //"Sonologist" 
 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1954848 //"Sonographer" 
-// * http://terminology.hl7.org/CodeSystem/umls/sab#C1954848 "Sonographer" 
+* http://terminology.hl7.org/CodeSystem/umls#C1954848 //"Sonographer" 
 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2985483 //"Radiation Physicist" 
-// * http://terminology.hl7.org/CodeSystem/umls/sab#C2985483 "Radiation Physicist" 
+* http://terminology.hl7.org/CodeSystem/umls#C2985483 //"Radiation Physicist" 
 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1708969 //"Medical Physicist" 
-// * http://terminology.hl7.org/CodeSystem/umls/sab#C1708969 "Medical Physicist" 
+* http://terminology.hl7.org/CodeSystem/umls#C1708969 //"Medical Physicist" 
 

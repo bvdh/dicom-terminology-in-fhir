@@ -7,30 +7,24 @@ Perfusion Comparison Finding
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.781"
 * ^version = "20080927"
-* ^title = "Perfusion Comparison Finding"
+* ^title = "Perfusion Comparison Finding (CID 3235)"
 * ^name = "PerfusionComparisonFinding"
 * ^experimental = false
 * http://snomed.info/sct#260388006 //"No change" 
 * http://snomed.info/srt#R-4075C //"No change" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0442739 //"No change" 
 
 * http://snomed.info/sct#428927006 //"New ischemia" 
 * http://snomed.info/srt#R-215D9 //"New ischemia" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1997666 //"New ischemia" 
 
 * http://snomed.info/sct#429232006 //"Less ischemia" 
 * http://snomed.info/srt#R-215DE //"Less ischemia" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1998148 //"Less ischemia" 
 
 * http://snomed.info/sct#428824000 //"Resolution of ischemia" 
 * http://snomed.info/srt#R-215D5 //"Resolution of ischemia" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1996952 //"Resolution of ischemia" 
 
 * http://snomed.info/sct#429477006 //"More ischemia" 
 * http://snomed.info/srt#R-215E1 //"More ischemia" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1997854 //"More ischemia" 
 
 * http://snomed.info/sct#429391004 //"New infarction" 
 * http://snomed.info/srt#R-215E0 //"New infarction" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1997076 //"New infarction" 
 

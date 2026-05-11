@@ -7,7 +7,7 @@ Purpose of Reference for RT Treatment Planning Input
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1220"
 * ^version = "20250330"
-* ^title = "Purpose of Reference For RT Treatment Planning Input"
+* ^title = "Purpose of Reference For RT Treatment Planning Input (CID 9510)"
 * ^name = "PurposeOfReferenceForRTTreatmentPlanningInput"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128181 //"Diagnostic Source Images" 

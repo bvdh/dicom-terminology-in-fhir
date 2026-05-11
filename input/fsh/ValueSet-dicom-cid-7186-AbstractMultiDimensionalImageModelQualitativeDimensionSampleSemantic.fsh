@@ -7,7 +7,7 @@ Abstract Multi-dimensional Image Model Qualitative Dimension Sample Semantic
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.923"
 * ^version = "20100825"
-* ^title = "Abstract Multi-dimensional Image Model Qualitative Dimension Sample Semantic"
+* ^title = "Abstract Multi-dimensional Image Model Qualitative Dimension Sample Semantic (CID 7186)"
 * ^name = "AbstractMultiDimensionalImageModelQualitativeDimensionSampleSemantic"
 * ^experimental = false
 * include codes from valueset CID_4033

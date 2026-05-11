@@ -7,7 +7,7 @@ Patient Treatment Preparation Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1418"
 * ^version = "20210906"
-* ^title = "Patient Treatment Preparation Method"
+* ^title = "Patient Treatment Preparation Method (CID 9571)"
 * ^name = "PatientTreatmentPreparationMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130630 //"Isocentric Setup Method" 

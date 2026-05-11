@@ -7,18 +7,16 @@ Brain Atlas Fiducial
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.495"
 * ^version = "20040115"
-* ^title = "Brain Atlas Fiducial"
+* ^title = "Brain Atlas Fiducial (CID 7101)"
 * ^name = "BrainAtlasFiducial"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#125030 //"Inter-Hemispheric Plane" 
 
 * http://snomed.info/sct#62872008 //"Anterior Commissure" 
 * http://snomed.info/srt#T-A2980 //"Anterior Commissure" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0152335 //"Anterior Commissure" 
 
 * http://snomed.info/sct#279336005 //"Posterior Commissure" 
 * http://snomed.info/srt#T-A4904 //"Posterior Commissure" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0152327 //"Posterior Commissure" 
 
 * DICOM_DCM_CodeSystem#125031 //"Right Hemisphere Most Anterior" 
 

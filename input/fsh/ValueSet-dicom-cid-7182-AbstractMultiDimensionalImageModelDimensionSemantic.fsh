@@ -7,7 +7,7 @@ Abstract Multi-dimensional Image Model Dimension Semantic
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.919"
 * ^version = "20100825"
-* ^title = "Abstract Multi-dimensional Image Model Dimension Semantic"
+* ^title = "Abstract Multi-dimensional Image Model Dimension Semantic (CID 7182)"
 * ^name = "AbstractMultiDimensionalImageModelDimensionSemantic"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#110856 //"Linear Displacement" 

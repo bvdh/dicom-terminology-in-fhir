@@ -7,30 +7,24 @@ Specimen Embedding Media
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1053"
 * ^version = "20080626"
-* ^title = "Specimen Embedding Media"
+* ^title = "Specimen Embedding Media (CID 8115)"
 * ^name = "SpecimenEmbeddingMedia"
 * ^experimental = false
 * http://snomed.info/sct#311731000 //"Paraffin wax" 
 * http://snomed.info/srt#F-616D8 //"Paraffin wax" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0030415 //"Paraffin wax" 
 
 * http://snomed.info/sct#433469005 //"Tissue freezing medium" 
 * http://snomed.info/srt#F-62232 //"Tissue freezing medium" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2315537 //"Tissue freezing medium" 
 
 * http://snomed.info/sct#61088005 //"Plastic" 
 * http://snomed.info/srt#C-2A000 //"Plastic" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0032167 //"Plastic" 
 
 * http://snomed.info/sct#10249006 //"Agar" 
 * http://snomed.info/srt#C-84085 //"Agar" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0001771 //"Agar" 
 
 * http://snomed.info/sct#65345002 //"Epoxy resin" 
 * http://snomed.info/srt#C-2A400 //"Epoxy resin" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0014631 //"Epoxy resin" 
 
 * http://snomed.info/sct#261712009 //"Acrylic resin" 
 * http://snomed.info/srt#C-100EA //"Acrylic resin" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0444831 //"Acrylic resin" 
 

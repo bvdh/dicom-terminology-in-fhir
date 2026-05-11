@@ -43,7 +43,7 @@ SOURCES = [
         'label': '6-1',
         'name': 'DICOM_Data_Elements',
         'id': 'dicom-data-elements',
-        'title': 'DICOM® Data Elements',
+        'title': 'DICOM® Data Elements (ValueSet)',
         'description': 'DICOM® Data elements extracted from DICOM PS3.6 Table 6-1.',
         'url': 'https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_6.html'
     },

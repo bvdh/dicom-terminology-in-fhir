@@ -7,7 +7,7 @@ Optic Disc Key Measurements
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1534"
 * ^version = "20250707"
-* ^title = "Optic Disc Key Measurements"
+* ^title = "Optic Disc Key Measurements (CID 4281)"
 * ^name = "OpticDiscKeyMeasurements"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131256 //"Cup to disc area ratio" 

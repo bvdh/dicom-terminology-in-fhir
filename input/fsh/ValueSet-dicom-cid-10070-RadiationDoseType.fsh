@@ -7,7 +7,7 @@ Radiation Dose Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1164"
 * ^version = "20170405"
-* ^title = "Radiation Dose Type"
+* ^title = "Radiation Dose Type (CID 10070)"
 * ^name = "RadiationDoseType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128513 //"Absorbed Dose" 

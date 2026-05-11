@@ -7,22 +7,18 @@ From BI-RADS Third Edition (National Mammography Database, E82)
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.339"
 * ^version = "20020904"
-* ^title = "Density Modifier from BI-RADS"
+* ^title = "Density Modifier from BI-RADS (CID 6009)"
 * ^name = "DensityModifierFromBIRADS"
 * ^experimental = false
 * http://snomed.info/sct#129744006 //"High density lesion" 
 * http://snomed.info/srt#F-01751 //"High density lesion" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1268672 //"High density lesion" 
 
 * http://snomed.info/sct#129745007 //"Equal density (isodense) lesion" 
 * http://snomed.info/srt#F-01752 //"Equal density (isodense) lesion" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1268673 //"Equal density (isodense) lesion" 
 
 * http://snomed.info/sct#129746008 //"Low density (not containing fat) lesion" 
 * http://snomed.info/srt#F-01753 //"Low density (not containing fat) lesion" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1268674 //"Low density (not containing fat) lesion" 
 
 * http://snomed.info/sct#129747004 //"Fat containing (radiolucent) lesion" 
 * http://snomed.info/srt#F-01754 //"Fat containing (radiolucent) lesion" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1268675 //"Fat containing (radiolucent) lesion" 
 

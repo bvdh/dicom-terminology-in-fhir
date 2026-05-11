@@ -7,7 +7,7 @@ In future extensions, Quadrant Location terms that are not derived from BI-RADS 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.350"
 * ^version = "20020904"
-* ^title = "Quadrant Location"
+* ^title = "Quadrant Location (CID 6020)"
 * ^name = "QuadrantLocation"
 * ^experimental = false
 * include codes from valueset CID_6021

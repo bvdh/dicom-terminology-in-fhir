@@ -7,7 +7,7 @@ Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1336"
 * ^version = "20200623"
-* ^title = "Pattern Event"
+* ^title = "Pattern Event (CID 3038)"
 * ^name = "PatternEvent"
 * ^experimental = false
 * urn:iso:std:iso:11073:10101#3:3158 //"Irregular heart rate" 

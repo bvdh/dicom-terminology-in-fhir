@@ -7,7 +7,7 @@ Radiotherapy Registration Workitem Definition
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.933"
 * ^version = "20240612"
-* ^title = "Radiotherapy Registration Workitem Definition"
+* ^title = "Radiotherapy Registration Workitem Definition (CID 9243)"
 * ^name = "RadiotherapyRegistrationWorkitemDefinition"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121712 //"RT Patient Position Registration, single plane" 

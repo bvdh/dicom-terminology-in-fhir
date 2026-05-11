@@ -7,7 +7,7 @@ Acute Coronary Syndrome Time Period
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.232"
 * ^version = "20030327"
-* ^title = "Acute Coronary Syndrome Time Period"
+* ^title = "Acute Coronary Syndrome Time Period (CID 3735)"
 * ^name = "AcuteCoronarySyndromeTimePeriod"
 * ^experimental = false
 * http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#51-1 //"< = 6 hours" 

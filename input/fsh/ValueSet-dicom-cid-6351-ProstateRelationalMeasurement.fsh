@@ -7,7 +7,7 @@ Prostate Relational Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1408"
 * ^version = "20210714"
-* ^title = "Prostate Relational Measurement"
+* ^title = "Prostate Relational Measurement (CID 6351)"
 * ^name = "ProstateRelationalMeasurement"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130557 //"Distance from neurovascular bundle" 

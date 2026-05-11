@@ -7,7 +7,7 @@ These terms were obtained from BI-RADS
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.401"
 * ^version = "20040112"
-* ^title = "Breast Implant Finding"
+* ^title = "Breast Implant Finding (CID 6072)"
 * ^name = "BreastImplantFinding"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111503 //"Normal implants" 
@@ -26,7 +26,6 @@ These terms were obtained from BI-RADS
 
 * http://snomed.info/sct#237473006 //"Rupture of breast implant" 
 * http://snomed.info/srt#DD-66544 //"Rupture of breast implant" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0405491 //"Rupture of breast implant" 
 
 * DICOM_DCM_CodeSystem#111510 //"Explantation" 
 

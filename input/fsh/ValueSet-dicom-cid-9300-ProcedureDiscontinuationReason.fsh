@@ -7,7 +7,7 @@ Procedure Discontinuation Reason
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.533"
 * ^version = "20181115"
-* ^title = "Procedure Discontinuation Reason"
+* ^title = "Procedure Discontinuation Reason (CID 9300)"
 * ^name = "ProcedureDiscontinuationReason"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#110526 //"Resource pre-empted" 

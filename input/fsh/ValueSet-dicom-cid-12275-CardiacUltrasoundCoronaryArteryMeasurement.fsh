@@ -7,7 +7,7 @@ Cardiac Ultrasound Coronary Artery Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.856"
 * ^version = "20100317"
-* ^title = "Cardiac Ultrasound Coronary Artery Measurement"
+* ^title = "Cardiac Ultrasound Coronary Artery Measurement (CID 12275)"
 * ^name = "CardiacUltrasoundCoronaryArteryMeasurement"
 * ^experimental = false
 * include codes from valueset CID_12220

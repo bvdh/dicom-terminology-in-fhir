@@ -7,18 +7,15 @@ Pelvis and Uterus Anatomic Site
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1008"
 * ^version = "20141110"
-* ^title = "Pelvis and Uterus Anatomic Site"
+* ^title = "Pelvis and Uterus Anatomic Site (CID 12023)"
 * ^name = "PelvisAndUterusAnatomicSite"
 * ^experimental = false
 * http://snomed.info/sct#71252005 //"Cervix" 
 * http://snomed.info/srt#T-83200 //"Cervix" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0007874 //"Cervix" 
 
 * http://snomed.info/sct#2739003 //"Endometrium" 
 * http://snomed.info/srt#T-83400 //"Endometrium" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0014180 //"Endometrium" 
 
 * http://snomed.info/sct#35039007 //"Uterus" 
 * http://snomed.info/srt#T-83000 //"Uterus" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0042149 //"Uterus" 
 

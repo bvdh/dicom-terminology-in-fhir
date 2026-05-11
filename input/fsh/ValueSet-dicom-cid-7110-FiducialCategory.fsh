@@ -7,20 +7,17 @@ Fiducial Category
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1132"
 * ^version = "20160919"
-* ^title = "Fiducial Category"
+* ^title = "Fiducial Category (CID 7110)"
 * ^name = "FiducialCategory"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#112171 //"Fiducial mark" 
 
 * http://snomed.info/sct#711101009 //"Anatomical point" 
 * http://snomed.info/srt#R-FF2E7 //"Anatomical point" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0504079 //"Anatomical point" 
 
 * http://snomed.info/sct#183973000 //"Body surface point" 
 * http://snomed.info/srt#T-D002F //"Body surface point" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0567332 //"Body surface point" 
 
 * http://snomed.info/sct#706484002 //"Body reference point marker" 
 * http://snomed.info/srt#R-FDCFF //"Body reference point marker" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3872476 //"Body reference point marker" 
 

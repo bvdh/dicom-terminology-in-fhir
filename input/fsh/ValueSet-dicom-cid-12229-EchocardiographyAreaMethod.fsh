@@ -7,7 +7,7 @@ Echocardiography Area Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.620"
 * ^version = "20030918"
-* ^title = "Echocardiography Area Method"
+* ^title = "Echocardiography Area Method (CID 12229)"
 * ^name = "EchocardiographyAreaMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#125210 //"Area by Pressure Half-Time" 

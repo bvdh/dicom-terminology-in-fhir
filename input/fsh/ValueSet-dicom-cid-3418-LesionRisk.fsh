@@ -7,7 +7,7 @@ Lesion Risk
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.82"
 * ^version = "20030327"
-* ^title = "Lesion Risk"
+* ^title = "Lesion Risk (CID 3418)"
 * ^name = "LesionRisk"
 * ^experimental = false
 * http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#111-1 //"Low Risk Lesion" 

@@ -7,7 +7,7 @@ Some of these terms were obtained from BI-RADS
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.403"
 * ^version = "20160314"
-* ^title = "Breast Cancer Risk Factor"
+* ^title = "Breast Cancer Risk Factor (CID 6081)"
 * ^name = "BreastCancerRiskFactor"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111550 //"Personal breast cancer history" 
@@ -22,7 +22,6 @@ Some of these terms were obtained from BI-RADS
 
 * http://snomed.info/sct#102877006 //"Nulliparous" 
 * http://snomed.info/srt#F-84430 //"Nulliparous" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0425979 //"Nulliparous" 
 
 * DICOM_DCM_CodeSystem#111555 //"Late child bearing (after 30)" 
 
@@ -34,7 +33,6 @@ Some of these terms were obtained from BI-RADS
 
 * http://snomed.info/sct#429740004 //"Family history of breast cancer" 
 * http://snomed.info/srt#G-04C5 //"Family history of breast cancer" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1261325 //"Family history of breast cancer" 
 
 * DICOM_DCM_CodeSystem#111559 //"Weak family history of breast cancer" 
 
@@ -48,5 +46,4 @@ Some of these terms were obtained from BI-RADS
 
 * http://snomed.info/sct#313376005 //"No family history of breast carcinoma" 
 * http://snomed.info/srt#R-207AD //"No family history of breast carcinoma" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1277317 //"No family history of breast carcinoma" 
 

@@ -7,7 +7,7 @@ Display Device Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.983"
 * ^version = "20170417"
-* ^title = "Display Device Type"
+* ^title = "Display Device Type (CID 8303)"
 * ^name = "DisplayDeviceType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#109991 //"CRT Display" 

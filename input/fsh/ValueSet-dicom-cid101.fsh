@@ -7,7 +7,7 @@ Imaging Procedure
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1436"
 * ^version = "20250401"
-* ^title = "Imaging Procedure"
+* ^title = "Imaging Procedure (CID 101)"
 * ^name = "Cid101"
 * ^experimental = false
 * include codes from valueset CID_100

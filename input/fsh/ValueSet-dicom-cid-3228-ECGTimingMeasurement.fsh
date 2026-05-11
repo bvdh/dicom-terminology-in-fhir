@@ -7,7 +7,7 @@ Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.774"
 * ^version = "20080927"
-* ^title = "ECG Timing Measurement"
+* ^title = "ECG Timing Measurement (CID 3228)"
 * ^name = "ECGTimingMeasurement"
 * ^experimental = false
 * urn:iso:std:iso:11073:10101#2:15872 //"PR interval global" 

@@ -7,7 +7,7 @@ Echocardiography Congenital Anomaly Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.610"
 * ^version = "20100317"
-* ^title = "Echocardiography Congenital Anomaly Measurement"
+* ^title = "Echocardiography Congenital Anomaly Measurement (CID 12218)"
 * ^name = "EchocardiographyCongenitalAnomalyMeasurement"
 * ^experimental = false
 * include codes from valueset CID_12220

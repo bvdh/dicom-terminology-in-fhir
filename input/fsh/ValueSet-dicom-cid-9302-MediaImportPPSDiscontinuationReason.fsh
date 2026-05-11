@@ -7,7 +7,7 @@ Media Import PPS Discontinuation Reason
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.813"
 * ^version = "20090616"
-* ^title = "Media Import PPS Discontinuation Reason"
+* ^title = "Media Import PPS Discontinuation Reason (CID 9302)"
 * ^name = "MediaImportPPSDiscontinuationReason"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#110521 //"Objects incorrectly formatted" 

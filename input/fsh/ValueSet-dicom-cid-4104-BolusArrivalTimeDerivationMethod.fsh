@@ -7,7 +7,7 @@ Bolus Arrival Time Derivation Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.989"
 * ^version = "20141110"
-* ^title = "Bolus Arrival Time Derivation Method"
+* ^title = "Bolus Arrival Time Derivation Method (CID 4104)"
 * ^name = "BolusArrivalTimeDerivationMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#126373 //"Temporal Derivative Exceeds Threshold" 

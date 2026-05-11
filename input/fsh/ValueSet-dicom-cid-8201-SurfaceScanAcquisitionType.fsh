@@ -7,7 +7,7 @@ Surface Scan Acquisition Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.953"
 * ^version = "20121129"
-* ^title = "Surface Scan Acquisition Type"
+* ^title = "Surface Scan Acquisition Type (CID 8201)"
 * ^name = "SurfaceScanAcquisitionType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#114201 //"Time of flight" 

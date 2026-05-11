@@ -7,7 +7,7 @@ Medication for Small Animal Anesthesia
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1088"
 * ^version = "20151110"
-* ^title = "Medication for Small Animal Anesthesia"
+* ^title = "Medication for Small Animal Anesthesia (CID 623)"
 * ^name = "MedicationForSmallAnimalAnesthesia"
 * ^experimental = false
 * include codes from valueset CID_624

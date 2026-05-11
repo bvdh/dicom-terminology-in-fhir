@@ -7,10 +7,9 @@ Chest Non-lesion Object Type - Tissue
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1189"
 * ^version = "20170914"
-* ^title = "Chest Non-lesion Object Type - Tissue"
+* ^title = "Chest Non-lesion Object Type - Tissue (CID 6405)"
 * ^name = "ChestNonLesionObjectTypeTissue"
 * ^experimental = false
 * http://snomed.info/sct#12402003 //"Scar tissue" 
 * http://snomed.info/srt#M-78060 //"Scar tissue" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2004491 //"Scar tissue" 
 

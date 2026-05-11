@@ -7,7 +7,7 @@ Drug/Contrast Administration
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.74"
 * ^version = "20030327"
-* ^title = "Drug/Contrast Administration"
+* ^title = "Drug/Contrast Administration (CID 3409)"
 * ^name = "DrugContrastAdministration"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122081 //"Drug start" 

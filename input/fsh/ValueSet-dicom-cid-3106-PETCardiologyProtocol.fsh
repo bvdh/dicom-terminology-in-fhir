@@ -7,7 +7,7 @@ PET Cardiology Protocol
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.739"
 * ^version = "20080927"
-* ^title = "PET Cardiology Protocol"
+* ^title = "PET Cardiology Protocol (CID 3106)"
 * ^name = "PETCardiologyProtocol"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122791 //"PET Myocardial Perfusion, Rest only" 

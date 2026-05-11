@@ -7,7 +7,7 @@ Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.895"
 * ^version = "20110330"
-* ^title = "ECG Control Numeric Variable"
+* ^title = "ECG Control Numeric Variable (CID 3690)"
 * ^name = "ECGControlNumericVariable"
 * ^experimental = false
 * urn:iso:std:iso:11073:10101#10:11393 //"Sample rate" 

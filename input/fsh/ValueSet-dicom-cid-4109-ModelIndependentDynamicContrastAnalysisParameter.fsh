@@ -7,7 +7,7 @@ Description :
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.994"
 * ^version = "20150916"
-* ^title = "Model-Independent Dynamic Contrast Analysis Parameter"
+* ^title = "Model-Independent Dynamic Contrast Analysis Parameter (CID 4109)"
 * ^name = "ModelIndependentDynamicContrastAnalysisParameter"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#126320 //"IAUC" 

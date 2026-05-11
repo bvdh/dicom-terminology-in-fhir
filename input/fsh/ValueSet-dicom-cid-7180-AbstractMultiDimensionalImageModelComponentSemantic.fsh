@@ -7,7 +7,7 @@ Abstract Multi-dimensional Image Model Component Semantic
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.917"
 * ^version = "20191108"
-* ^title = "Abstract Multi-dimensional Image Model Component Semantic"
+* ^title = "Abstract Multi-dimensional Image Model Component Semantic (CID 7180)"
 * ^name = "AbstractMultiDimensionalImageModelComponentSemantic"
 * ^experimental = false
 * include codes from valueset CID_4033
@@ -76,7 +76,6 @@ Abstract Multi-dimensional Image Model Component Semantic
 
 * http://snomed.info/sct#425704008 //"Power Doppler" 
 * http://snomed.info/srt#P0-02241 //"Power Doppler" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1960437 //"Power Doppler" 
 
 * DICOM_DCM_CodeSystem#110829 //"Flow Variance" 
 
@@ -180,7 +179,6 @@ Abstract Multi-dimensional Image Model Component Semantic
 
 * http://snomed.info/sct#256674009 //"Fat" 
 * http://snomed.info/srt#T-D008A //"Fat" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0015677 //"Fat" 
 
 * DICOM_DCM_CodeSystem#129100 //"Fat fraction" 
 
@@ -198,7 +196,6 @@ Abstract Multi-dimensional Image Model Component Semantic
 
 * http://snomed.info/sct#11713004 //"Water" 
 * http://snomed.info/srt#C-10120 //"Water" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0043047 //"Water" 
 
 * DICOM_DCM_CodeSystem#129103 //"Water fraction" 
 

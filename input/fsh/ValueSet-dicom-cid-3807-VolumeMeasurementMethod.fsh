@@ -7,7 +7,7 @@ Volume Measurement Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.268"
 * ^version = "20051103"
-* ^title = "Volume Measurement Method"
+* ^title = "Volume Measurement Method (CID 3807)"
 * ^name = "VolumeMeasurementMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122650 //"Area Based Method" 

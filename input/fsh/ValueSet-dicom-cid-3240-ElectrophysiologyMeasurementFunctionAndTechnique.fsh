@@ -7,7 +7,7 @@ Electrophysiology Measurement Function/Technique
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.53"
 * ^version = "20020904"
-* ^title = "Electrophysiology Measurement Function/Technique"
+* ^title = "Electrophysiology Measurement Function/Technique (CID 3240)"
 * ^name = "ElectrophysiologyMeasurementFunctionAndTechnique"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#109006 //"Differential signal" 

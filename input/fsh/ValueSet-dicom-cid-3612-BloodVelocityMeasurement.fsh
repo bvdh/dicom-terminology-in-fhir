@@ -7,7 +7,7 @@ Blood Velocity Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.162"
 * ^version = "20030327"
-* ^title = "Blood Velocity Measurement"
+* ^title = "Blood Velocity Measurement (CID 3612)"
 * ^name = "BloodVelocityMeasurement"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122201 //"Diastolic blood velocity, mean" 

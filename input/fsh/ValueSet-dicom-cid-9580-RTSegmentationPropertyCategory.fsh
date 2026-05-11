@@ -7,7 +7,7 @@ RT Segmentation Property Category
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1442"
 * ^version = "20220402"
-* ^title = "RT Segmentation Property Category"
+* ^title = "RT Segmentation Property Category (CID 9580)"
 * ^name = "RTSegmentationPropertyCategory"
 * ^experimental = false
 * include codes from valueset CID_7150

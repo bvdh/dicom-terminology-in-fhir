@@ -7,7 +7,7 @@ Implant Template Modified View Orientation
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1034"
 * ^version = "20101102"
-* ^title = "Implant Template Modified View Orientation"
+* ^title = "Implant Template Modified View Orientation (CID 7303)"
 * ^name = "ImplantTemplateModifiedViewOrientation"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#112300 //"AP+45" 

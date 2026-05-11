@@ -7,7 +7,7 @@ Perfusion Measurement Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.987"
 * ^version = "20141110"
-* ^title = "Perfusion Measurement Method"
+* ^title = "Perfusion Measurement Method (CID 4102)"
 * ^name = "PerfusionMeasurementMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#126300 //"Perfusion analysis by Stable Xenon CT technique" 

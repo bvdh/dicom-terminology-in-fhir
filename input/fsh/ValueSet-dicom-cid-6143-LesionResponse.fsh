@@ -7,7 +7,7 @@ Lesion Response
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.463"
 * ^version = "20030108"
-* ^title = "Lesion Response"
+* ^title = "Lesion Response (CID 6143)"
 * ^name = "LesionResponse"
 * ^experimental = false
 * include codes from valueset CID_6144

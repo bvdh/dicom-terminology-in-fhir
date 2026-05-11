@@ -5,6 +5,6 @@ Description :
 None
 """
 * ^version = "None"
-* ^title = "Non-DICOM Output Types (Retired)"
+* ^title = "Non-DICOM Output Types (Retired) (CID 9232)"
 * ^name = "Cid9232"
 * ^experimental = false

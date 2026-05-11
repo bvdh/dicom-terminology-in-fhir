@@ -5,7 +5,7 @@ Description :
 Generic Purpose of Reference to Coordinates in Measurement
 """
 * ^version = "None"
-* ^title = "Generic Purpose of Reference to Coordinates in Measurement"
+* ^title = "Generic Purpose of Reference to Coordinates in Measurement (CID 7553)"
 * ^name = "GenericPurposeOfReferenceToCoordinatesInMeasurement"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121223 //"Arm of angle" 

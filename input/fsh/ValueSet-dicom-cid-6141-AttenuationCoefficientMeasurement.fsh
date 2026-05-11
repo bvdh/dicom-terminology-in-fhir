@@ -7,7 +7,7 @@ Attenuation Coefficient Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.461"
 * ^version = "20030108"
-* ^title = "Attenuation Coefficient Measurement"
+* ^title = "Attenuation Coefficient Measurement (CID 6141)"
 * ^name = "AttenuationCoefficientMeasurement"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#112031 //"Attenuation Coefficient" 

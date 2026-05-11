@@ -7,7 +7,7 @@ Ultrasound Shear Wave Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1411"
 * ^version = "20190817"
-* ^title = "Ultrasound Shear Wave Measurement"
+* ^title = "Ultrasound Shear Wave Measurement (CID 12308)"
 * ^name = "UltrasoundShearWaveMeasurement"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130611 //"Shear Wave Speed" 
@@ -20,5 +20,4 @@ Ultrasound Shear Wave Measurement
 
 * http://snomed.info/sct#131184002 //"Area of defined region" 
 * http://snomed.info/srt#G-A16A //"Area of defined region" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1295720 //"Area of defined region" 
 

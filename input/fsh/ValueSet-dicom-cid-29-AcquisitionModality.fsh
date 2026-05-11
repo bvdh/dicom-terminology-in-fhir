@@ -7,7 +7,7 @@ This Context Group is not the complete set of codes that may appear in Modality 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.19"
 * ^version = "20231115"
-* ^title = "Acquisition Modality"
+* ^title = "Acquisition Modality (CID 29)"
 * ^name = "AcquisitionModality"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#AR //"Autorefraction" 

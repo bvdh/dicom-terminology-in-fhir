@@ -7,7 +7,7 @@ UID Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.535"
 * ^version = "20190327"
-* ^title = "UID Type"
+* ^title = "UID Type (CID 10001)"
 * ^name = "UIDType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#110180 //"Study Instance UID" 

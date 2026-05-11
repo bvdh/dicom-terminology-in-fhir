@@ -7,7 +7,7 @@ Image Quality Finding
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.455"
 * ^version = "20090402"
-* ^title = "Image Quality Finding"
+* ^title = "Image Quality Finding (CID 6135)"
 * ^name = "ImageQualityFinding"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111208 //"Grid artifact(s)" 

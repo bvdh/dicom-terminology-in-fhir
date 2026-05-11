@@ -9,7 +9,7 @@ Description :
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.201"
 * ^version = "20110330"
-* ^title = "Electrophysiology Waveform Duration"
+* ^title = "Electrophysiology Waveform Duration (CID 3687)"
 * ^name = "ElectrophysiologyWaveformDuration"
 * ^experimental = false
 * urn:iso:std:iso:11073:10101#2:6656 //"P duration, per lead" 

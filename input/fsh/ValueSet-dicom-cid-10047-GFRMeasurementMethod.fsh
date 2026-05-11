@@ -7,7 +7,7 @@ GFR Measurement Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.979"
 * ^version = "20140419"
-* ^title = "GFR Measurement Method"
+* ^title = "GFR Measurement Method (CID 10047)"
 * ^name = "GFRMeasurementMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113570 //"Cockroft-Gault Formula estimation of GFR" 

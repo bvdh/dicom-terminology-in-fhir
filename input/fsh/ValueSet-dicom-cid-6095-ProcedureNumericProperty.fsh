@@ -7,7 +7,7 @@ Procedure Numeric Property
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.417"
 * ^version = "20040112"
-* ^title = "Procedure Numeric Property"
+* ^title = "Procedure Numeric Property (CID 6095)"
 * ^name = "ProcedureNumericProperty"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111465 //"Needle Gauge" 

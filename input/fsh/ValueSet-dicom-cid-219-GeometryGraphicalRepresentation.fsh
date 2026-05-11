@@ -7,12 +7,11 @@ Geometry Graphical Representation
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1304"
 * ^version = "20240611"
-* ^title = "Geometry Graphical Representation"
+* ^title = "Geometry Graphical Representation (CID 219)"
 * ^name = "GeometryGraphicalRepresentation"
 * ^experimental = false
 * http://snomed.info/sct#75958009 //"Bounded by" 
 * http://snomed.info/srt#G-C020 //"Bounded by" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0332297 //"Bounded by" 
 
 * DICOM_DCM_CodeSystem#111010 //"Center" 
 

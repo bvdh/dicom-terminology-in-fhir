@@ -7,7 +7,7 @@ Visual Field Static Perimetry Screening Test Mode
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.911"
 * ^version = "20100827"
-* ^title = "Visual Field Static Perimetry Screening Test Mode"
+* ^title = "Visual Field Static Perimetry Screening Test Mode (CID 4252)"
 * ^name = "VisualFieldStaticPerimetryScreeningTestMode"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111838 //"Age corrected" 

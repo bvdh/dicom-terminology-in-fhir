@@ -7,7 +7,7 @@ Radiotherapy Dose Calculation Role
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1245"
 * ^version = "20181112"
-* ^title = "Radiotherapy Dose Calculation Role"
+* ^title = "Radiotherapy Dose Calculation Role (CID 9535)"
 * ^name = "RadiotherapyDoseCalculationRole"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130057 //"Planning Organ At Risk Volume" 

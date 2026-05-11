@@ -7,7 +7,7 @@ Cardiac Ultrasound Outflow Tract Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.852"
 * ^version = "20240920"
-* ^title = "Cardiac Ultrasound Outflow Tract Measurement"
+* ^title = "Cardiac Ultrasound Outflow Tract Measurement (CID 12271)"
 * ^name = "CardiacUltrasoundOutflowTractMeasurement"
 * ^experimental = false
 * include codes from valueset CID_12257

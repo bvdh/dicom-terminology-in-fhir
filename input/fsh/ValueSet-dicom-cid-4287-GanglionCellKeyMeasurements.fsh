@@ -7,7 +7,7 @@ Ganglion Cell Key Measurements
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1540"
 * ^version = "20250707"
-* ^title = "Ganglion Cell Key Measurements"
+* ^title = "Ganglion Cell Key Measurements (CID 4287)"
 * ^name = "GanglionCellKeyMeasurements"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131274 //"Retinal ROI width" 

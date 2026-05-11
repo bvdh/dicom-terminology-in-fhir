@@ -7,7 +7,7 @@ Beam Limiting Device Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1288"
 * ^version = "20190715"
-* ^title = "Beam Limiting Device Type"
+* ^title = "Beam Limiting Device Type (CID 9541)"
 * ^name = "BeamLimitingDeviceType"
 * ^experimental = false
 * include codes from valueset CID_9540

@@ -7,14 +7,12 @@ Perfusion Finding Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.769"
 * ^version = "20080927"
-* ^title = "Perfusion Finding Method"
+* ^title = "Perfusion Finding Method (CID 3215)"
 * ^name = "PerfusionFindingMethod"
 * ^experimental = false
 * http://snomed.info/sct#258181008 //"ECG analysis" 
 * http://snomed.info/srt#R-41D8B //"ECG analysis" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0442977 //"ECG analysis" 
 
 * http://snomed.info/sct#24587005 //"Image analysis" 
 * http://snomed.info/srt#P3-41910 //"Image analysis" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0200765 //"Image analysis" 
 

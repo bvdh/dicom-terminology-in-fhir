@@ -7,12 +7,11 @@ Volume Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.526"
 * ^version = "20190121"
-* ^title = "Volume Measurement"
+* ^title = "Volume Measurement (CID 7472)"
 * ^name = "VolumeMeasurement"
 * ^experimental = false
 * http://snomed.info/sct#118565006 //"Volume" 
 * http://snomed.info/srt#G-D705 //"Volume" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0449468 //"Volume" 
 
 * DICOM_DCM_CodeSystem#121216 //"Volume estimated from single 2D region" 
 

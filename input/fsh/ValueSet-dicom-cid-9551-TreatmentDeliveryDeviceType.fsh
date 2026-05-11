@@ -7,7 +7,7 @@ Treatment Delivery Device Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1298"
 * ^version = "20190715"
-* ^title = "Treatment Delivery Device Type"
+* ^title = "Treatment Delivery Device Type (CID 9551)"
 * ^name = "TreatmentDeliveryDeviceType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130361 //"Radiotherapy Treatment Device" 

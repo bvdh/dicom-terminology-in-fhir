@@ -7,7 +7,7 @@ From BI-RADS
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.466"
 * ^version = "20050822"
-* ^title = "Background Echotexture"
+* ^title = "Background Echotexture (CID 6151)"
 * ^name = "BackgroundEchotexture"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111351 //"Homogeneous fat echotexture" 

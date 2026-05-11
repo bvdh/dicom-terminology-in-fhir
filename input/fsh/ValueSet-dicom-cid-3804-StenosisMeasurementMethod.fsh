@@ -7,7 +7,7 @@ Stenosis Measurement Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.265"
 * ^version = "20051103"
-* ^title = "Stenosis Measurement Method"
+* ^title = "Stenosis Measurement Method (CID 3804)"
 * ^name = "StenosisMeasurementMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122655 //"NASCET" 

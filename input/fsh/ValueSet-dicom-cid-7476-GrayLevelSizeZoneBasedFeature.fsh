@@ -7,7 +7,7 @@ Gray Level Size Zone Based Feature
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1200"
 * ^version = "20190121"
-* ^title = "Gray Level Size Zone Based Feature"
+* ^title = "Gray Level Size Zone Based Feature (CID 7476)"
 * ^name = "GrayLevelSizeZoneBasedFeature"
 * ^experimental = false
 * IBSICodeSystem#5QRC //"Small Zone Emphasis" 

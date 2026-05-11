@@ -7,7 +7,7 @@ Prostate MRI Study Quality Finding
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1371"
 * ^version = "20210714"
-* ^title = "Prostate MRI Study Quality Finding"
+* ^title = "Prostate MRI Study Quality Finding (CID 6314)"
 * ^name = "ProstateMRIStudyQualityFinding"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130570 //"Protocol not followed" 

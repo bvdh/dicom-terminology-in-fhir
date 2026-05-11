@@ -7,12 +7,11 @@ Imaging Agent Administration Completion Status
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1257"
 * ^version = "20181115"
-* ^title = "Imaging Agent Administration Completion Status"
+* ^title = "Imaging Agent Administration Completion Status (CID 67)"
 * ^name = "ImagingAgentAdministrationCompletionStatus"
 * ^experimental = false
 * http://snomed.info/sct#255594003 //"Complete" 
 * http://snomed.info/srt#R-404F1 //"Complete" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0205197 //"Complete" 
 
 * DICOM_DCM_CodeSystem#130156 //"Terminated due to pressure above termination limit" 
 

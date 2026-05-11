@@ -7,7 +7,7 @@ CAD-RADS Stenosis Assessment Modifier
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1430"
 * ^version = "20211114"
-* ^title = "CAD-RADS Stenosis Assessment Modifier"
+* ^title = "CAD-RADS Stenosis Assessment Modifier (CID 3021)"
 * ^name = "CADRADSStenosisAssessmentModifier"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130728 //"4A - Severe stenosis" 

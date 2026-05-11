@@ -7,7 +7,7 @@ MR Imaging Artifact
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1373"
 * ^version = "20210714"
-* ^title = "MR Imaging Artifact"
+* ^title = "MR Imaging Artifact (CID 6316)"
 * ^name = "MRImagingArtifact"
 * ^experimental = false
 * http://www.radlex.org#RID11423 //"Motion related artifact" 

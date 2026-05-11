@@ -7,7 +7,7 @@ Fixed Beam Limiting Device Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1292"
 * ^version = "20190715"
-* ^title = "Fixed Beam Limiting Device Type"
+* ^title = "Fixed Beam Limiting Device Type (CID 9545)"
 * ^name = "FixedBeamLimitingDeviceType"
 * ^experimental = false
 * include codes from valueset CID_9517

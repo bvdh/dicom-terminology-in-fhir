@@ -7,20 +7,17 @@ Note: Nominal is an alternative to mean, median, max, min, etc. that expresses t
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1362"
 * ^version = "20240817"
-* ^title = "Reported Value Type"
+* ^title = "Reported Value Type (CID 10072)"
 * ^name = "ReportedValueType"
 * ^experimental = false
 * include codes from valueset CID_3488
 
 * http://snomed.info/sct#373099004 //"Median" 
 * http://snomed.info/srt#R-00319 //"Median" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1298795 //"Median" 
 
 * http://snomed.info/sct#373100007 //"Mode" 
 * http://snomed.info/srt#R-0032E //"Mode" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1298796 //"Mode" 
 
 * http://snomed.info/sct#117362005 //"Nominal" 
 * http://snomed.info/srt#G-D301 //"Nominal" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1264625 //"Nominal" 
 

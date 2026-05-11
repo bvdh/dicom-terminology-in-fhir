@@ -7,7 +7,7 @@ PI-RADS v2 DWI Lesion Assessment Category
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1388"
 * ^version = "20210714"
-* ^title = "PI-RADS v2 DWI Lesion Assessment Category"
+* ^title = "PI-RADS v2 DWI Lesion Assessment Category (CID 6331)"
 * ^name = "PIRADSv2DWILesionAssessmentCategory"
 * ^experimental = false
 * http://www.radlex.org#RID50314 //"PI-RADS 1 - DWI Very low" 

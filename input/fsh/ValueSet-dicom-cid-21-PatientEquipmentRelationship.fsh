@@ -11,24 +11,20 @@ Description :
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.15"
 * ^version = "20151110"
-* ^title = "Patient Equipment Relationship"
+* ^title = "Patient Equipment Relationship (CID 21)"
 * ^name = "PatientEquipmentRelationship"
 * ^experimental = false
 * http://snomed.info/sct#399366008 //"oblique" 
 * http://snomed.info/srt#R-10516 //"oblique" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1302343 //"oblique" 
 
 * http://snomed.info/sct#102540008 //"headfirst" 
 * http://snomed.info/srt#F-10470 //"headfirst" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0522020 //"headfirst" 
 
 * http://snomed.info/sct#102541007 //"feet-first" 
 * http://snomed.info/srt#F-10480 //"feet-first" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0522022 //"feet-first" 
 
 * http://snomed.info/sct#399220000 //"transverse" 
 * http://snomed.info/srt#R-10515 //"transverse" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1302259 //"transverse" 
 
 * DICOM_DCM_CodeSystem#126830 //"left first" 
 

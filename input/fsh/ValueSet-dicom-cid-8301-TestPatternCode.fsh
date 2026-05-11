@@ -7,7 +7,7 @@ This CID formerly contained(109931, DCM, 'DIN Graycale Pattern') (109932, DCM, '
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.981"
 * ^version = "20260320"
-* ^title = "Test Pattern Code"
+* ^title = "Test Pattern Code (CID 8301)"
 * ^name = "TestPatternCode"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#109801 //"TG18-QC Pattern" 

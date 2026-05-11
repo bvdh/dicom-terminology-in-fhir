@@ -7,7 +7,7 @@ Radiation Dose Estimate Parameter
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1163"
 * ^version = "20170405"
-* ^title = "Radiation Dose Estimate Parameter"
+* ^title = "Radiation Dose Estimate Parameter (CID 10069)"
 * ^name = "RadiationDoseEstimateParameter"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128405 //"Breast Thickness" 
@@ -53,7 +53,6 @@ Radiation Dose Estimate Parameter
 * DICOM_DCM_CodeSystem#128527 //"Distance Correction" 
 
 * http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70774 //"Unit Conversion Factor" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C2349023 //"Unit Conversion Factor" 
 
 * DICOM_DCM_CodeSystem#121206 //"Distance" 
 

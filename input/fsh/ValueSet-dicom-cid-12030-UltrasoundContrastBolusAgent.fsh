@@ -9,7 +9,7 @@ Description :
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.805"
 * ^version = "20160605"
-* ^title = "Ultrasound Contrast/Bolus Agent"
+* ^title = "Ultrasound Contrast/Bolus Agent (CID 12030)"
 * ^name = "UltrasoundContrastBolusAgent"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#125901 //"CARDIOsphere" 

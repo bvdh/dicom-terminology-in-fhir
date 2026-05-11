@@ -5,6 +5,6 @@ Description :
 None
 """
 * ^version = "None"
-* ^title = "XYZ Electrode Placement Values (Retired)"
+* ^title = "XYZ Electrode Placement Values (Retired) (CID 3264)"
 * ^name = "Cid3264"
 * ^experimental = false

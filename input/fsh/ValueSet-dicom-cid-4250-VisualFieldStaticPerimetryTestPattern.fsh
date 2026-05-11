@@ -7,7 +7,7 @@ Visual Field Static Perimetry Test Pattern
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.909"
 * ^version = "20100827"
-* ^title = "Visual Field Static Perimetry Test Pattern"
+* ^title = "Visual Field Static Perimetry Test Pattern (CID 4250)"
 * ^name = "VisualFieldStaticPerimetryTestPattern"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111800 //"Visual Field 24-2 Test Pattern" 

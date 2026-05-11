@@ -7,7 +7,7 @@ CR/DR Mechanical Configuration
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.960"
 * ^version = "20120406"
-* ^title = "CR/DR Mechanical Configuration"
+* ^title = "CR/DR Mechanical Configuration (CID 10031)"
 * ^name = "CRDRMechanicalConfiguration"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113953 //"Unmounted Detector" 

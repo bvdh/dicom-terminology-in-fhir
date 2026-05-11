@@ -7,7 +7,7 @@ Cardiac Volume Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.100"
 * ^version = "20040614"
-* ^title = "Cardiac Volume Method"
+* ^title = "Cardiac Volume Method (CID 3453)"
 * ^name = "CardiacVolumeMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122558 //"Area Length Kennedy" 

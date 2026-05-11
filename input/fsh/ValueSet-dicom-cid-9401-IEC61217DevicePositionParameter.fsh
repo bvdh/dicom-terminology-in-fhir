@@ -7,7 +7,7 @@ IEC61217 Device Position Parameter
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1023"
 * ^version = "20130518"
-* ^title = "IEC61217 Device Position Parameter"
+* ^title = "IEC61217 Device Position Parameter (CID 9401)"
 * ^name = "IEC61217DevicePositionParameter"
 * ^experimental = false
 * include codes from valueset CID_9402

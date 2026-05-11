@@ -7,7 +7,7 @@ Radiotherapy Accessory No-Slot Holder Device Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1228"
 * ^version = "20181112"
-* ^title = "Radiotherapy Accessory No-slot Holder Device Type"
+* ^title = "Radiotherapy Accessory No-slot Holder Device Type (CID 9518)"
 * ^name = "RadiotherapyAccessoryNoslotHolderDeviceType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130124 //"Accessory Tray" 

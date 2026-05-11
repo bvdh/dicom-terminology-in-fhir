@@ -7,7 +7,7 @@ In future extensions, Mammography Characteristics of Shape terms that are not de
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.334"
 * ^version = "20020904"
-* ^title = "Mammography Shape Characteristic"
+* ^title = "Mammography Shape Characteristic (CID 6004)"
 * ^name = "MammographyShapeCharacteristic"
 * ^experimental = false
 * include codes from valueset CID_6005

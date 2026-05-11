@@ -7,7 +7,7 @@ Radiation Dose Unit
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1206"
 * ^version = "20180605"
-* ^title = "Radiation Dose Unit"
+* ^title = "Radiation Dose Unit (CID 10071)"
 * ^name = "RadiationDoseUnit"
 * ^experimental = false
 * http://unitsofmeasure.org#Gy //"Gy" 

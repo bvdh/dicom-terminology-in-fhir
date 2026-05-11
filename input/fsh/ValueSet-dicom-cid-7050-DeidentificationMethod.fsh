@@ -7,7 +7,7 @@ De-identification Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.925"
 * ^version = "20170914"
-* ^title = "De-identification Method"
+* ^title = "De-identification Method (CID 7050)"
 * ^name = "DeidentificationMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113100 //"Basic Application Confidentiality Profile" 

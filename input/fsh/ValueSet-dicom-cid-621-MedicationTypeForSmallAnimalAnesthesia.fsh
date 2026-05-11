@@ -7,7 +7,7 @@ Medication Type for Small Animal Anesthesia
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1086"
 * ^version = "20151110"
-* ^title = "Medication Type for Small Animal Anesthesia"
+* ^title = "Medication Type for Small Animal Anesthesia (CID 621)"
 * ^name = "MedicationTypeForSmallAnimalAnesthesia"
 * ^experimental = false
 * include codes from valueset CID_622

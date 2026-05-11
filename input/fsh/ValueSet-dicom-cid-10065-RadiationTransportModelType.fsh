@@ -7,7 +7,7 @@ Radiation Transport Model Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1159"
 * ^version = "20170405"
-* ^title = "Radiation Transport Model Type"
+* ^title = "Radiation Transport Model Type (CID 10065)"
 * ^name = "RadiationTransportModelType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128421 //"Geometric Radiation Transport Model" 

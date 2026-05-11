@@ -7,7 +7,7 @@ Referenced Image Purpose of Reference
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.508"
 * ^version = "20220402"
-* ^title = "Referenced Image Purpose of Reference"
+* ^title = "Referenced Image Purpose of Reference (CID 7201)"
 * ^name = "ReferencedImagePurposeOfReference"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121311 //"Localizer" 

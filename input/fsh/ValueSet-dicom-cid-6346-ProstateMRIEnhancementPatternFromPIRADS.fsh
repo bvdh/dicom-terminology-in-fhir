@@ -7,7 +7,7 @@ Prostate MRI Enhancement Pattern from PI-RADS
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1403"
 * ^version = "20210714"
-* ^title = "Prostate MRI Enhancement Pattern from PI-RADS"
+* ^title = "Prostate MRI Enhancement Pattern from PI-RADS (CID 6346)"
 * ^name = "ProstateMRIEnhancementPatternFromPIRADS"
 * ^experimental = false
 * http://www.radlex.org#RID49530 //"Early phase wash-in" 

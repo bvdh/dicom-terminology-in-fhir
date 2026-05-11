@@ -7,7 +7,7 @@ Area Measurement Unit
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.522"
 * ^version = "20020904"
-* ^title = "Area Measurement Unit"
+* ^title = "Area Measurement Unit (CID 7461)"
 * ^name = "AreaMeasurementUnit"
 * ^experimental = false
 * http://unitsofmeasure.org#cm2 //"square centimeter" 

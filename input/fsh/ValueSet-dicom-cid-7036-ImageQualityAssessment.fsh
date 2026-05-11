@@ -7,7 +7,7 @@ Image Quality Assessment
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1027"
 * ^version = "20150324"
-* ^title = "Image Quality Assessment"
+* ^title = "Image Quality Assessment (CID 7036)"
 * ^name = "ImageQualityAssessment"
 * ^experimental = false
 * http://www.radlex.org#RID12 //"Diagnostic quality" 

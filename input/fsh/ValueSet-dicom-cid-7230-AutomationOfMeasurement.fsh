@@ -7,14 +7,12 @@ Automation of Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1319"
 * ^version = "20200704"
-* ^title = "Automation of Measurement"
+* ^title = "Automation of Measurement (CID 7230)"
 * ^name = "AutomationOfMeasurement"
 * ^experimental = false
 * http://snomed.info/sct#8359006 //"Automated" 
 * http://snomed.info/srt#G-D231 //"Automated" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0205554 //"Automated" 
 
 * http://snomed.info/sct#87982008 //"Manual" 
 * http://snomed.info/srt#G-D221 //"Manual" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0175674 //"Manual" 
 

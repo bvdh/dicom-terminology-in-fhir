@@ -7,16 +7,14 @@ Numeric Device Characteristic
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.86"
 * ^version = "20160314"
-* ^title = "Numeric Device Characteristic"
+* ^title = "Numeric Device Characteristic (CID 3423)"
 * ^name = "NumericDeviceCharacteristic"
 * ^experimental = false
 * http://snomed.info/sct#410668003 //"Length" 
 * http://snomed.info/srt#G-D7FE //"Length" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1444754 //"Length" 
 
 * http://snomed.info/sct#81827009 //"Diameter" 
 * http://snomed.info/srt#M-02550 //"Diameter" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1301886 //"Diameter" 
 
 * DICOM_DCM_CodeSystem#122097 //"Catheter Curve" 
 
@@ -24,7 +22,6 @@ Numeric Device Characteristic
 
 * http://snomed.info/sct#118565006 //"Volume" 
 * http://snomed.info/srt#G-D705 //"Volume" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0449468 //"Volume" 
 
 * DICOM_DCM_CodeSystem#121208 //"Inter-Marker Distance" 
 

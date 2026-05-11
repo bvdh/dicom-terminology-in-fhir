@@ -7,7 +7,7 @@ Percutaneous Closure
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.244"
 * ^version = "20030327"
-* ^title = "Percutaneous Closure"
+* ^title = "Percutaneous Closure (CID 3747)"
 * ^name = "PercutaneousClosure"
 * ^experimental = false
 * http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#75-0 //"No closure device used at percutaneous entry" 

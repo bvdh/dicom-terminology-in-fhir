@@ -7,7 +7,7 @@ Ultrasound Transducer Beam Steering
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.809"
 * ^version = "20090409"
-* ^title = "Ultrasound Transducer Beam Steering"
+* ^title = "Ultrasound Transducer Beam Steering (CID 12034)"
 * ^name = "UltrasoundTransducerBeamSteering"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#125257 //"Fixed beam direction" 

@@ -5,7 +5,7 @@ Description :
 Generic Purpose of Reference to Images in Measurement
 """
 * ^version = "None"
-* ^title = "Generic Purpose of Reference to Images in Measurement"
+* ^title = "Generic Purpose of Reference to Images in Measurement (CID 7552)"
 * ^name = "GenericPurposeOfReferenceToImagesInMeasurement"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121112 //"Source of Measurement" 

@@ -7,7 +7,7 @@ Multi-energy Material Unit
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1209"
 * ^version = "20181109"
-* ^title = "Multi-energy Material Unit"
+* ^title = "Multi-energy Material Unit (CID 301)"
 * ^name = "MultienergyMaterialUnit"
 * ^experimental = false
 * http://unitsofmeasure.org#mg/cm3 //"mg/cm3" 

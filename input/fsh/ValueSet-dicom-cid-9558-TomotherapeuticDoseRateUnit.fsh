@@ -7,7 +7,7 @@ Tomotherapeutic Dose Rate Unit
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1309"
 * ^version = "20200117"
-* ^title = "Tomotherapeutic Dose Rate Unit"
+* ^title = "Tomotherapeutic Dose Rate Unit (CID 9558)"
 * ^name = "TomotherapeuticDoseRateUnit"
 * ^experimental = false
 * http://unitsofmeasure.org#Gy/s //"Gy/s" 

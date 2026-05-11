@@ -7,7 +7,7 @@ Quantitative Image Feature
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1269"
 * ^version = "20200920"
-* ^title = "Quantitative Image Feature"
+* ^title = "Quantitative Image Feature (CID 218)"
 * ^name = "QuantitativeImageFeature"
 * ^experimental = false
 * include codes from valueset CID_7468

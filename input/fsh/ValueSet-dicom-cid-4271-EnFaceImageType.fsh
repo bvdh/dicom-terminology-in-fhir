@@ -7,7 +7,7 @@ En Face Image Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1151"
 * ^version = "20240915"
-* ^title = "En Face Image Type"
+* ^title = "En Face Image Type (CID 4271)"
 * ^name = "EnFaceImageType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128257 //"Retina depth encoded vasculature flow" 

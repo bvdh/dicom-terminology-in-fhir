@@ -10,7 +10,7 @@ Description :
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.519"
 * ^version = "20250406"
-* ^title = "Sex"
+* ^title = "Sex (CID 7455)"
 * ^name = "Sex"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#M //"Male" 

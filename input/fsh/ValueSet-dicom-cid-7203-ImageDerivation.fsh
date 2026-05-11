@@ -7,7 +7,7 @@ This Context Group contains relaively generic descriptions of image processing, 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.510"
 * ^version = "20200920"
-* ^title = "Image Derivation"
+* ^title = "Image Derivation (CID 7203)"
 * ^name = "ImageDerivation"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113040 //"Lossy Compression" 

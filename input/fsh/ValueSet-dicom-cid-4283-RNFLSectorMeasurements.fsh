@@ -7,7 +7,7 @@ RNFL Sector Measurements
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1536"
 * ^version = "20250707"
-* ^title = "RNFL Sector Measurements"
+* ^title = "RNFL Sector Measurements (CID 4283)"
 * ^name = "RNFLSectorMeasurements"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131264 //"RNFL average thickness" 

@@ -7,7 +7,7 @@ Cardiovascular Anatomic Location
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.175"
 * ^version = "20030327"
-* ^title = "Cardiovascular Anatomic Location"
+* ^title = "Cardiovascular Anatomic Location (CID 3630)"
 * ^name = "CardiovascularAnatomicLocation"
 * ^experimental = false
 * include codes from valueset CID_3606

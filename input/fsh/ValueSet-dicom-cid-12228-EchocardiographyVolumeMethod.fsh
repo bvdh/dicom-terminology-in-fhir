@@ -7,7 +7,7 @@ Echocardiography Volume Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.619"
 * ^version = "20100317"
-* ^title = "Echocardiography Volume Method"
+* ^title = "Echocardiography Volume Method (CID 12228)"
 * ^name = "EchocardiographyVolumeMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#125204 //"Area-Length Biplane" 

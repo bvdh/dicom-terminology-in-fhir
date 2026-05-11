@@ -7,7 +7,7 @@ Radiotherapy Therapeutic Role Category
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1213"
 * ^version = "20181112"
-* ^title = "Radiotherapy Therapeutic Role Category"
+* ^title = "Radiotherapy Therapeutic Role Category (CID 9503)"
 * ^name = "RadiotherapyTherapeuticRoleCategory"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130041 //"RT Target" 

@@ -7,12 +7,11 @@ The intraperitoneal route is added to the AQI value set, since that route is use
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1078"
 * ^version = "20151110"
-* ^title = "Anesthesia Induction Code Type for Small Animal Anesthesia"
+* ^title = "Anesthesia Induction Code Type for Small Animal Anesthesia (CID 613)"
 * ^name = "AnesthesiaInductionCodeTypeForSmallAnimalAnesthesia"
 * ^experimental = false
 * include codes from valueset CID_614
 
 * http://snomed.info/sct#38239002 //"Intraperitoneal route" 
 * http://snomed.info/srt#G-D106 //"Intraperitoneal route" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1522583 //"Intraperitoneal route" 
 

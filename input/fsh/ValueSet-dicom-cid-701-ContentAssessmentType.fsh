@@ -7,7 +7,7 @@ Content Assessment Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1116"
 * ^version = "20160318"
-* ^title = "Content Assessment Type"
+* ^title = "Content Assessment Type (CID 701)"
 * ^name = "ContentAssessmentType"
 * ^experimental = false
 * include codes from valueset CID_702

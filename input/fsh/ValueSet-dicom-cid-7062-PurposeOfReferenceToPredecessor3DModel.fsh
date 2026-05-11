@@ -7,7 +7,7 @@ Purpose of Reference to Predecessor 3D Model
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1203"
 * ^version = "20180403"
-* ^title = "Purpose of Reference to Predecessor 3D Model"
+* ^title = "Purpose of Reference to Predecessor 3D Model (CID 7062)"
 * ^name = "PurposeOfReferenceToPredecessor3DModel"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#129010 //"Edited Model" 

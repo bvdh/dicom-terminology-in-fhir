@@ -7,6 +7,6 @@ Description :
  2 The LOINC Coding Scheme can be found athttp://loinc.org/
 """
 * ^version = "None"
-* ^title = "Document Title"
+* ^title = "Document Title (CID 7020)"
 * ^name = "Cid7020"
 * ^experimental = false

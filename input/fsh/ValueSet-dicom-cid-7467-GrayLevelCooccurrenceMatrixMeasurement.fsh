@@ -7,7 +7,7 @@ Gray Level Co-occurrence Matrix Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1000"
 * ^version = "20190121"
-* ^title = "Gray Level Co-occurrence Matrix Measurement"
+* ^title = "Gray Level Co-occurrence Matrix Measurement (CID 7467)"
 * ^name = "GrayLevelCooccurrenceMatrixMeasurement"
 * ^experimental = false
 * IBSICodeSystem#TU9B //"Joint Entropy of GLCM" 

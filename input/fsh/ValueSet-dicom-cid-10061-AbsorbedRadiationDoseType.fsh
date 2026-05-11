@@ -7,7 +7,7 @@ Absorbed Radiation Dose Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1155"
 * ^version = "20170405"
-* ^title = "Absorbed Radiation Dose Type"
+* ^title = "Absorbed Radiation Dose Type (CID 10061)"
 * ^name = "AbsorbedRadiationDoseType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#128531 //"Maximum Absorbed Radiation Dose" 

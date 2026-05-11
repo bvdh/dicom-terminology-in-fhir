@@ -7,7 +7,7 @@ SR Document Purpose of Reference
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.487"
 * ^version = "20061023"
-* ^title = "SR Document Purpose of Reference"
+* ^title = "SR Document Purpose of Reference (CID 7006)"
 * ^name = "SRDocumentPurposeOfReference"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121331 //"Equivalent CDA Document" 

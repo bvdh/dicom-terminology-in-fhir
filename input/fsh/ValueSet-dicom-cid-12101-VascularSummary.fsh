@@ -7,7 +7,7 @@ Vascular Summary
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.568"
 * ^version = "20030327"
-* ^title = "Vascular Summary"
+* ^title = "Vascular Summary (CID 12101)"
 * ^name = "VascularSummary"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121106 //"Comment" 

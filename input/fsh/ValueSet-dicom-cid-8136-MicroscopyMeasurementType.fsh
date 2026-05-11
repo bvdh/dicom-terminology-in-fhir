@@ -7,10 +7,9 @@ Microscopy Measurement Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1366"
 * ^version = "20210712"
-* ^title = "Microscopy Measurement Type"
+* ^title = "Microscopy Measurement Type (CID 8136)"
 * ^name = "MicroscopyMeasurementType"
 * ^experimental = false
 * http://snomed.info/sct#42798000 //"Area" 
 * http://snomed.info/srt#G-A166 //"Area" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0205146 //"Area" 
 

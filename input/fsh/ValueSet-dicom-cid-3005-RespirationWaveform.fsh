@@ -7,7 +7,7 @@ Respiration Waveform
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.804"
 * ^version = "20200623"
-* ^title = "Respiration Waveform"
+* ^title = "Respiration Waveform (CID 3005)"
 * ^name = "RespirationWaveform"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#109117 //"Respiration Waveform" 

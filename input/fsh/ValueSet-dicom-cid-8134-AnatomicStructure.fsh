@@ -7,7 +7,7 @@ Anatomic Structure
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1312"
 * ^version = "20220115"
-* ^title = "Anatomic Structure"
+* ^title = "Anatomic Structure (CID 8134)"
 * ^name = "AnatomicStructure"
 * ^experimental = false
 * include codes from valueset CID_4
@@ -92,21 +92,16 @@ Anatomic Structure
 
 * http://snomed.info/sct#36582005 //"Brachial plexus" 
 * http://snomed.info/srt#T-A9090 //"Brachial plexus" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0006090 //"Brachial plexus" 
 
 * http://snomed.info/sct#87644002 //"Epididymis" 
 * http://snomed.info/srt#T-95000 //"Epididymis" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0014533 //"Epididymis" 
 
 * http://snomed.info/sct#53342003 //"Internal nose" 
 * http://snomed.info/srt#T-21300 //"Internal nose" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0225425 //"Internal nose" 
 
 * http://snomed.info/sct#78067005 //"Placenta" 
 * http://snomed.info/srt#T-F1100 //"Placenta" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0032043 //"Placenta" 
 
 * http://snomed.info/sct#29870000 //"Umbilical cord" 
 * http://snomed.info/srt#T-F1800 //"Umbilical cord" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0041633 //"Umbilical cord" 
 

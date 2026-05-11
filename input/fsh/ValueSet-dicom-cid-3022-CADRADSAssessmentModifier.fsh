@@ -7,7 +7,7 @@ CAD-RADS Assessment Modifier
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1431"
 * ^version = "20211114"
-* ^title = "CAD-RADS Assessment Modifier"
+* ^title = "CAD-RADS Assessment Modifier (CID 3022)"
 * ^name = "CADRADSAssessmentModifier"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130732 //"N - Non-diagnostic segments" 

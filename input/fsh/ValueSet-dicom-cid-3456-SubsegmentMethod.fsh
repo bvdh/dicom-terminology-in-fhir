@@ -7,7 +7,7 @@ Sub-segment Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.102"
 * ^version = "20040614"
-* ^title = "Sub-segment Method"
+* ^title = "Sub-segment Method (CID 3456)"
 * ^name = "SubsegmentMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122574 //"Equidistant method" 

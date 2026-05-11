@@ -7,7 +7,7 @@ In a prior version of this Context Group a code(130170, DCM, 'Automatic with Man
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1252"
 * ^version = "20210325"
-* ^title = "Imaging Agent Administration Phase Type"
+* ^title = "Imaging Agent Administration Phase Type (CID 62)"
 * ^name = "ImagingAgentAdministrationPhaseType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130168 //"Automatic Programmed Administration Phase" 

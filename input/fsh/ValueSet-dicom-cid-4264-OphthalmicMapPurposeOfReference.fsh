@@ -7,7 +7,7 @@ Ophthalmic Map Purpose of Reference
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.940"
 * ^version = "20110825"
-* ^title = "Ophthalmic Map Purpose of Reference"
+* ^title = "Ophthalmic Map Purpose of Reference (CID 4264)"
 * ^name = "OphthalmicMapPurposeOfReference"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121311 //"Localizer" 

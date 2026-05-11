@@ -7,7 +7,7 @@ CAD Operating Point Axis Label
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.378"
 * ^version = "20060612"
-* ^title = "CAD Operating Point Axis Label"
+* ^title = "CAD Operating Point Axis Label (CID 6048)"
 * ^name = "CADOperatingPointAxisLabel"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111012 //"Certainty of Finding" 

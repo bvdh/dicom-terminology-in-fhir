@@ -7,7 +7,7 @@ Summary Radiation Exposure Quantity
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1028"
 * ^version = "20220331"
-* ^title = "Summary Radiation Exposure Quantity"
+* ^title = "Summary Radiation Exposure Quantity (CID 10050)"
 * ^name = "SummaryRadiationExposureQuantity"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111636 //"Entrance Exposure at RP" 

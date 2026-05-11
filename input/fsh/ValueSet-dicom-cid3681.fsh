@@ -5,6 +5,6 @@ Description :
 None
 """
 * ^version = "None"
-* ^title = "ECG Lead Noise Modifier (Retired)"
+* ^title = "ECG Lead Noise Modifier (Retired) (CID 3681)"
 * ^name = "Cid3681"
 * ^experimental = false

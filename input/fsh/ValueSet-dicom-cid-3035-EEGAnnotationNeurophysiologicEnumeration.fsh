@@ -7,7 +7,7 @@ Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1333"
 * ^version = "20240616"
-* ^title = "EEG Annotation  Neurophysiologic Enumeration"
+* ^title = "EEG Annotation  Neurophysiologic Enumeration (CID 3035)"
 * ^name = "EEGAnnotationNeurophysiologicEnumeration"
 * ^experimental = false
 * urn:iso:std:iso:11073:10101#2:23560 //"Background activity" 

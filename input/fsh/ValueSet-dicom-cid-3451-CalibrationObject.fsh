@@ -7,16 +7,14 @@ Calibration Object
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.98"
 * ^version = "20040614"
-* ^title = "Calibration Object"
+* ^title = "Calibration Object (CID 3451)"
 * ^name = "CalibrationObject"
 * ^experimental = false
 * http://snomed.info/sct#19923001 //"Catheter" 
 * http://snomed.info/srt#A-26800 //"Catheter" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0085590 //"Catheter" 
 
 * http://snomed.info/sct#102304005 //"Measuring Ruler" 
 * http://snomed.info/srt#A-10141 //"Measuring Ruler" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0522637 //"Measuring Ruler" 
 
 * DICOM_DCM_CodeSystem#122485 //"Sphere" 
 

@@ -7,7 +7,7 @@ This Context Group includes the open source diets described in Barnard DE et al.
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1072"
 * ^version = "20151110"
-* ^title = "Animal Feed Type"
+* ^title = "Animal Feed Type (CID 607)"
 * ^name = "AnimalFeedType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#127271 //"NIH07" 

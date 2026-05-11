@@ -7,11 +7,10 @@ Structural Heart Measurement
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1518"
 * ^version = "20250405"
-* ^title = "Structural Heart Measurement"
+* ^title = "Structural Heart Measurement (CID 12333)"
 * ^name = "StructuralHeartMeasurement"
 * ^experimental = false
 * http://loinc.org#8277-6 //"BSA" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0487992 //"BSA" 
 
 * DICOM_DCM_CodeSystem#131130 //"Transseptal puncture height" 
 

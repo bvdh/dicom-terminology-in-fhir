@@ -7,7 +7,7 @@ PCI Procedure Result
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.246"
 * ^version = "20030327"
-* ^title = "PCI Procedure Result"
+* ^title = "PCI Procedure Result (CID 3749)"
 * ^name = "PCIProcedureResult"
 * ^experimental = false
 * http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#100-1 //"Successful" 

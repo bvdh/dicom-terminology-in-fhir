@@ -7,7 +7,7 @@ Analog Waveform Filter
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1453"
 * ^version = "20220630"
-* ^title = "Analog Waveform Filter"
+* ^title = "Analog Waveform Filter (CID 3042)"
 * ^name = "AnalogWaveformFilter"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130760 //"Butterworth filter" 

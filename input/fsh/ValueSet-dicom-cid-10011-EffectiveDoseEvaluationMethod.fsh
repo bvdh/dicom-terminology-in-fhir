@@ -7,7 +7,7 @@ Effective Dose Evaluation Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.544"
 * ^version = "20071031"
-* ^title = "Effective Dose Evaluation Method"
+* ^title = "Effective Dose Evaluation Method (CID 10011)"
 * ^name = "EffectiveDoseEvaluationMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113800 //"DLP to E conversion via MC computation" 

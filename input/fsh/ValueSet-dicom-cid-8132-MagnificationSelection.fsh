@@ -7,7 +7,7 @@ Magnification Selection
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.949"
 * ^version = "20120605"
-* ^title = "Magnification Selection"
+* ^title = "Magnification Selection (CID 8132)"
 * ^name = "MagnificationSelection"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#112715 //"5X" 

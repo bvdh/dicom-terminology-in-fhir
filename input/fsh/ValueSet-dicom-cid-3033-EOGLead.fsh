@@ -9,7 +9,7 @@ Description :
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1331"
 * ^version = "20200623"
-* ^title = "EOG Lead"
+* ^title = "EOG Lead (CID 3033)"
 * ^name = "EOGLead"
 * ^experimental = false
 * urn:iso:std:iso:11073:10101#7:1320 //"E0" 

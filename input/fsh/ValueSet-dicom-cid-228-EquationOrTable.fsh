@@ -7,7 +7,7 @@ Equation or Table
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.33"
 * ^version = "20030327"
-* ^title = "Equation or Table"
+* ^title = "Equation or Table (CID 228)"
 * ^name = "EquationOrTable"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121420 //"Equation" 

@@ -7,7 +7,7 @@ Body Surface Area Equation
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.180"
 * ^version = "20100609"
-* ^title = "Body Surface Area Equation"
+* ^title = "Body Surface Area Equation (CID 3663)"
 * ^name = "BodySurfaceAreaEquation"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122240 //"BSA = 0.003207*WT^(0.7285-0.0188*log(WT))*HT^0.3" 

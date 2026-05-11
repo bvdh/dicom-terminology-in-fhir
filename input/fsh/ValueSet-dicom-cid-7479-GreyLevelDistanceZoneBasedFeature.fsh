@@ -7,7 +7,7 @@ Grey Level Distance Zone Based Feature
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1272"
 * ^version = "20190121"
-* ^title = "Grey Level Distance Zone Based Feature"
+* ^title = "Grey Level Distance Zone Based Feature (CID 7479)"
 * ^name = "GreyLevelDistanceZoneBasedFeature"
 * ^experimental = false
 * IBSICodeSystem#0GBI //"Small Distance Emphasis" 

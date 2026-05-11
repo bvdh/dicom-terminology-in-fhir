@@ -7,7 +7,7 @@ Delivery Time Structure
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1243"
 * ^version = "20181112"
-* ^title = "Delivery Time Structure"
+* ^title = "Delivery Time Structure (CID 9533)"
 * ^name = "DeliveryTimeStructure"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130096 //"Single Fraction" 

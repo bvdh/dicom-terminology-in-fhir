@@ -9,46 +9,36 @@ Description :
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1111"
 * ^version = "20151110"
-* ^title = "Preclinical Small Animal Imaging Procedure"
+* ^title = "Preclinical Small Animal Imaging Procedure (CID 646)"
 * ^name = "PreclinicalSmallAnimalImagingProcedure"
 * ^experimental = false
 * http://loinc.org#46305-9 //"Whole body CT" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1830206 //"Whole body CT" 
 
 * http://loinc.org#24725-4 //"Head CT" 
 * http://snomed.info/srt#P5-08067 //"Head CT" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0202691 //"Head CT" 
 
 * http://loinc.org#46358-8 //"MRI whole body" 
 * http://snomed.info/srt#P5-0905E //"MRI whole body" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1830259 //"MRI whole body" 
 
 * http://loinc.org#24590-2 //"Brain MRI" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0881827 //"Brain MRI" 
 
 * http://loinc.org#44139-4 //"PET whole body" 
 * http://snomed.info/srt#R-FB9B7 //"PET whole body" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1715409 //"PET whole body" 
 
 * http://loinc.org#44138-6 //"Brain PET" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0412493 //"Brain PET" 
 
 * http://loinc.org#42175-0 //"Radionuclide scan of whole body" 
 * http://snomed.info/srt#P5-D0072 //"Radionuclide scan of whole body" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1626178 //"Radionuclide scan of whole body" 
 
 * http://loinc.org#24730-4 //"Radionuclide brain scan" 
 * http://snomed.info/srt#P5-D9020 //"Radionuclide brain scan" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0581582 //"Radionuclide brain scan" 
 
 * DICOM_DCM_CodeSystem#127901 //"SPECT of whole body" 
 
 * http://loinc.org#39632-5 //"Brain SPECT" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C1543694 //"Brain SPECT" 
 
 * DICOM_DCM_CodeSystem#127902 //"SPECT CT of whole body" 
 
 * http://snomed.info/sct#24135002 //"Ultrasonography of total body" 
 * http://snomed.info/srt#P5-B0008 //"Ultrasonography of total body" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0203309 //"Ultrasonography of total body" 
 

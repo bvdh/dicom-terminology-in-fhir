@@ -7,7 +7,7 @@ Surface Processing Algorithm Family
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.636"
 * ^version = "20080829"
-* ^title = "Surface Processing Algorithm Family"
+* ^title = "Surface Processing Algorithm Family (CID 7162)"
 * ^name = "SurfaceProcessingAlgorithmFamily"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#123101 //"Neighborhood Analysis" 

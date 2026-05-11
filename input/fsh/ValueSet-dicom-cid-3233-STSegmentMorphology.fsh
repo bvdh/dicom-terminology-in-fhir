@@ -7,7 +7,7 @@ ST Segment Morphology
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.779"
 * ^version = "20080927"
-* ^title = "ST Segment Morphology"
+* ^title = "ST Segment Morphology (CID 3233)"
 * ^name = "STSegmentMorphology"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122757 //"ST Depression - Horizontal" 
@@ -18,9 +18,7 @@ ST Segment Morphology
 
 * http://snomed.info/sct#76388001 //"ST Elevation" 
 * http://snomed.info/srt#F-38277 //"ST Elevation" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0520886 //"ST Elevation" 
 
 * http://snomed.info/sct#26141007 //"ST Depression" 
 * http://snomed.info/srt#F-38278 //"ST Depression" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0520887 //"ST Depression" 
 

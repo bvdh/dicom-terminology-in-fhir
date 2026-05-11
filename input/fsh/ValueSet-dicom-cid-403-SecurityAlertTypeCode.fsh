@@ -7,7 +7,7 @@ Security Alert Type Code
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.906"
 * ^version = "20170914"
-* ^title = "Security Alert Type Code"
+* ^title = "Security Alert Type Code (CID 403)"
 * ^name = "SecurityAlertTypeCode"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#110120 //"Application Start" 

@@ -7,12 +7,11 @@ Usage/Exposure Qualitative Concept
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.414"
 * ^version = "20040112"
-* ^title = "Usage/Exposure Qualitative Concept"
+* ^title = "Usage/Exposure Qualitative Concept (CID 6092)"
 * ^name = "UsageExposureQualitativeConcept"
 * ^experimental = false
 * http://snomed.info/sct#260911001 //"Dosage" 
 * http://snomed.info/srt#G-C0B7 //"Dosage" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0178602 //"Dosage" 
 
 * DICOM_DCM_CodeSystem#111578 //"Dose frequency" 
 

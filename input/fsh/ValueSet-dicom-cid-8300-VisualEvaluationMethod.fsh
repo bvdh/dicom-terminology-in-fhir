@@ -7,7 +7,7 @@ Visual Evaluation Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.980"
 * ^version = "20140331"
-* ^title = "Visual Evaluation Method"
+* ^title = "Visual Evaluation Method (CID 8300)"
 * ^name = "VisualEvaluationMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#109701 //"Overall image quality evaluation" 

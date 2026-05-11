@@ -7,7 +7,7 @@ Movable Beam Limiting Device Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1458"
 * ^version = "20221224"
-* ^title = "Movable Beam Limiting Device Type"
+* ^title = "Movable Beam Limiting Device Type (CID 9540)"
 * ^name = "MovableBeamLimitingDeviceType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130330 //"Jaw Pair" 

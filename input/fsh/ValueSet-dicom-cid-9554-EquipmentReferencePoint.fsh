@@ -7,7 +7,7 @@ Equipment Reference Point
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1301"
 * ^version = "20190715"
-* ^title = "Equipment Reference Point"
+* ^title = "Equipment Reference Point (CID 9554)"
 * ^name = "EquipmentReferencePoint"
 * ^experimental = false
 * include codes from valueset CID_9544

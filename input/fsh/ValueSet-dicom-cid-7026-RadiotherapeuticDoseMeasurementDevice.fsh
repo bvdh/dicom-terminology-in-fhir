@@ -7,12 +7,11 @@ Radiotherapeutic Dose Measurement Device
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1177"
 * ^version = "20221201"
-* ^title = "Radiotherapeutic Dose Measurement Device"
+* ^title = "Radiotherapeutic Dose Measurement Device (CID 7026)"
 * ^name = "RadiotherapeuticDoseMeasurementDevice"
 * ^experimental = false
 * http://snomed.info/sct#706247001 //"Medical X-Ray film" 
 * http://snomed.info/srt#R-FCCF2 //"Medical X-Ray film" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3873821 //"Medical X-Ray film" 
 
 * DICOM_DCM_CodeSystem#128701 //"3D Gel" 
 
@@ -22,7 +21,6 @@ Radiotherapeutic Dose Measurement Device
 
 * http://snomed.info/sct#464983000 //"Thermoluminescent radiation dosimeter" 
 * http://snomed.info/srt#R-FCE69 //"Thermoluminescent radiation dosimeter" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3881975 //"Thermoluminescent radiation dosimeter" 
 
 * DICOM_DCM_CodeSystem#128704 //"Diode" 
 
@@ -30,7 +28,6 @@ Radiotherapeutic Dose Measurement Device
 
 * http://snomed.info/sct#701933006 //"MOSFET radiation therapy dosimetry system dosimeter" 
 * http://snomed.info/srt#R-FCC16 //"MOSFET radiation therapy dosimetry system dosimeter" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3872923 //"MOSFET radiation therapy dosimetry system dosimeter" 
 
 * DICOM_DCM_CodeSystem#128706 //"OSLD" 
 
@@ -38,7 +35,6 @@ Radiotherapeutic Dose Measurement Device
 
 * http://snomed.info/sct#468440006 //"Digital imager" 
 * http://snomed.info/srt#R-FD5EB //"Digital imager" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C3877969 //"Digital imager" 
 
 * DICOM_DCM_CodeSystem#128708 //"Diamond Detector" 
 

@@ -7,7 +7,7 @@ Echo Finding Observation Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1143"
 * ^version = "20161109"
-* ^title = "Echo Finding Observation Type"
+* ^title = "Echo Finding Observation Type (CID 12302)"
 * ^name = "EchoFindingObservationType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#125311 //"Structure of the Finding Site" 
@@ -16,5 +16,4 @@ Echo Finding Observation Type
 
 * http://snomed.info/sct#44324008 //"Hemodynamic Measurements" 
 * http://snomed.info/srt#PA-50030 //"Hemodynamic Measurements" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0204901 //"Hemodynamic Measurements" 
 

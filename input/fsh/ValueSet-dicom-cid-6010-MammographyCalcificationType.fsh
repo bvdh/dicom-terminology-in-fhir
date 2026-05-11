@@ -7,7 +7,7 @@ In future extensions, Mammography Calcification Types terms that are not derived
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.340"
 * ^version = "20020904"
-* ^title = "Mammography Calcification Type"
+* ^title = "Mammography Calcification Type (CID 6010)"
 * ^name = "MammographyCalcificationType"
 * ^experimental = false
 * include codes from valueset CID_6011

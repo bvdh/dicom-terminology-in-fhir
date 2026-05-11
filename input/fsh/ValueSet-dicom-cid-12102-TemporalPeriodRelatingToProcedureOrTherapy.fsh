@@ -9,18 +9,15 @@ Description :
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.569"
 * ^version = "20050110"
-* ^title = "Temporal Period Relating to Procedure or Therapy"
+* ^title = "Temporal Period Relating to Procedure or Therapy (CID 12102)"
 * ^name = "TemporalPeriodRelatingToProcedureOrTherapy"
 * ^experimental = false
 * http://snomed.info/sct#303110006 //"After Procedure" 
 * http://snomed.info/srt#R-422A4 //"After Procedure" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0580203 //"After Procedure" 
 
 * http://snomed.info/sct#307154001 //"During Procedure" 
 * http://snomed.info/srt#R-40FBA //"During Procedure" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0585033 //"During Procedure" 
 
 * http://snomed.info/sct#307153007 //"Before Procedure" 
 * http://snomed.info/srt#R-40FB9 //"Before Procedure" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0585032 //"Before Procedure" 
 

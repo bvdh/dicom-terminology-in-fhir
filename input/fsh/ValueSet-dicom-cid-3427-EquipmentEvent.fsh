@@ -7,7 +7,7 @@ Equipment Event
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.89"
 * ^version = "20100608"
-* ^title = "Equipment Event"
+* ^title = "Equipment Event (CID 3427)"
 * ^name = "EquipmentEvent"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#110501 //"Equipment failure" 

@@ -7,7 +7,7 @@ IVUS Relative Stenosis Severity
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.127"
 * ^version = "20040614"
-* ^title = "IVUS Relative Stenosis Severity"
+* ^title = "IVUS Relative Stenosis Severity (CID 3493)"
 * ^name = "IVUSRelativeStenosisSeverity"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122367 //"T-1 Worst" 

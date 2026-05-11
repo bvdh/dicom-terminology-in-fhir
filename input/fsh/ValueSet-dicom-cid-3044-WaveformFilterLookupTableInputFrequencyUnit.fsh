@@ -7,7 +7,7 @@ Waveform Filter Lookup Table Input Frequency Unit
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1455"
 * ^version = "20220630"
-* ^title = "Waveform Filter Lookup Table Input Frequency Unit"
+* ^title = "Waveform Filter Lookup Table Input Frequency Unit (CID 3044)"
 * ^name = "WaveformFilterLookupTableInputFrequencyUnit"
 * ^experimental = false
 * http://unitsofmeasure.org#Hz //"Hz" 

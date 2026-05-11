@@ -7,7 +7,7 @@ Quality Segmentation Property Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1568"
 * ^version = "20260319"
-* ^title = "Quality Segmentation Property Type"
+* ^title = "Quality Segmentation Property Type (CID 7164)"
 * ^name = "QualitySegmentationPropertyType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#131501 //"Usable tissue" 
@@ -15,10 +15,8 @@ Quality Segmentation Property Type
 * DICOM_DCM_CodeSystem#131502 //"Unusable tissue" 
 
 * http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C166240 //"Tumor tissue" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C5237811 //"Tumor tissue" 
 
 * http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C166238 //"Non-tumor tissue" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C5237809 //"Non-tumor tissue" 
 
 * DICOM_DCM_CodeSystem#131503 //"In focus" 
 
@@ -52,5 +50,4 @@ Quality Segmentation Property Type
 
 * http://snomed.info/sct#56117007 //"Air bubble" 
 * http://snomed.info/srt#A-80232 //"Air bubble" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0001863 //"Air bubble" 
 

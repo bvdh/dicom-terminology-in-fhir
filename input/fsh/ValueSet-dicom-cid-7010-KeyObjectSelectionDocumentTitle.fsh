@@ -7,7 +7,7 @@ Key Object Selection Document Title
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.490"
 * ^version = "20251111"
-* ^title = "Key Object Selection Document Title"
+* ^title = "Key Object Selection Document Title (CID 7010)"
 * ^name = "KeyObjectSelectionDocumentTitle"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113000 //"Of Interest" 

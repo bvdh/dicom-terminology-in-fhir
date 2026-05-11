@@ -7,7 +7,7 @@ In future extensions, Mammography Pathology Codes terms that are not derived fro
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.360"
 * ^version = "20020904"
-* ^title = "Mammography Pathology Code"
+* ^title = "Mammography Pathology Code (CID 6030)"
 * ^name = "MammographyPathologyCode"
 * ^experimental = false
 * include codes from valueset CID_6031

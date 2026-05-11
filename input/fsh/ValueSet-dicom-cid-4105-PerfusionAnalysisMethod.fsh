@@ -7,7 +7,7 @@ Perfusion Analysis Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.990"
 * ^version = "20141110"
-* ^title = "Perfusion Analysis Method"
+* ^title = "Perfusion Analysis Method (CID 4105)"
 * ^name = "PerfusionAnalysisMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#126310 //"Least Mean Square deconvolution" 

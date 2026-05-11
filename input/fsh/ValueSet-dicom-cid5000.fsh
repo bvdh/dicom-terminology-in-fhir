@@ -12,6 +12,6 @@ Description :
  7 In previous releases of the Standard, this Context Group provided only language identifiers, with national or regional variant identified in a separate Attribute or Content Item.
 """
 * ^version = "None"
-* ^title = "Language"
+* ^title = "Language (CID 5000)"
 * ^name = "Cid5000"
 * ^experimental = false

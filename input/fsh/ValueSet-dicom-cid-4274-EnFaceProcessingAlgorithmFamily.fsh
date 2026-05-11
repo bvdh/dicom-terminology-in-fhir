@@ -7,7 +7,7 @@ En Face Processing Algorithm Family
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1496"
 * ^version = "20240915"
-* ^title = "En Face Processing Algorithm Family"
+* ^title = "En Face Processing Algorithm Family (CID 4274)"
 * ^name = "EnFaceProcessingAlgorithmFamily"
 * ^experimental = false
 * include codes from valueset CID_4270

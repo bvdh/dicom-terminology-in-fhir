@@ -7,7 +7,7 @@ Image Quality Assessment Type
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.374"
 * ^version = "20020904"
-* ^title = "Image Quality Assessment Type"
+* ^title = "Image Quality Assessment Type (CID 6044)"
 * ^name = "ImageQualityAssessmentType"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111235 //"Unusable - Quality renders image unusable" 

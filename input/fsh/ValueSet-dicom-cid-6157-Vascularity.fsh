@@ -7,7 +7,7 @@ From BI-RADS
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.471"
 * ^version = "20050822"
-* ^title = "Vascularity"
+* ^title = "Vascularity (CID 6157)"
 * ^name = "Vascularity"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#111373 //"Vascularity not present" 

@@ -7,7 +7,7 @@ CT Dose Reference Authority
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.547"
 * ^version = "20081027"
-* ^title = "CT Dose Reference Authority"
+* ^title = "CT Dose Reference Authority (CID 10015)"
 * ^name = "CTDoseReferenceAuthority"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113808 //"ICRP Pub 60" 

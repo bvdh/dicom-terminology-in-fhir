@@ -7,7 +7,7 @@ Real Time Video Rendition Title
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1303"
 * ^version = "20190915"
-* ^title = "Real Time Video Rendition Title"
+* ^title = "Real Time Video Rendition Title (CID 7070)"
 * ^name = "RealTimeVideoRenditionTitle"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#130370 //"RTV Rendition" 

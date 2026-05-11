@@ -7,14 +7,13 @@ Elastography Measurement Site
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1449"
 * ^version = "20220628"
-* ^title = "Elastography Measurement Site"
+* ^title = "Elastography Measurement Site (CID 12322)"
 * ^name = "ElastographyMeasurementSite"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#125040 //"Background" 
 
 * http://snomed.info/sct#237495005 //"Thyroid Nodule" 
 * http://snomed.info/srt#DB-80106 //"Thyroid Nodule" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0040137 //"Thyroid Nodule" 
 
 * include codes from valueset CID_7170
 

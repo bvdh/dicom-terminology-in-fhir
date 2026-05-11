@@ -7,24 +7,20 @@ A prior version of this Context Group used codes from the SCP-ECG vocabulary.
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.191"
 * ^version = "20111028"
-* ^title = "Summary Codes ECG"
+* ^title = "Summary Codes ECG (CID 3677)"
 * ^name = "SummaryCodesECG"
 * ^experimental = false
 * http://snomed.info/sct#164854000 //"Normal ECG" 
 * http://snomed.info/srt#F-000B7 //"Normal ECG" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0522054 //"Normal ECG" 
 
 * http://snomed.info/sct#102594003 //"Abnormal ECG" 
 * http://snomed.info/srt#F-38002 //"Abnormal ECG" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0522055 //"Abnormal ECG" 
 
 * http://snomed.info/sct#251135002 //"Borderline Normal ECG" 
 * http://snomed.info/srt#F-38056 //"Borderline Normal ECG" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0428951 //"Borderline Normal ECG" 
 
 * http://snomed.info/sct#370359005 //"ECG Equivocal" 
 * http://snomed.info/srt#F-38095 //"ECG Equivocal" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0438155 //"ECG Equivocal" 
 
 * DICOM_DCM_CodeSystem#122753 //"Non-diagnostic ECG" 
 

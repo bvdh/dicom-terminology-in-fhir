@@ -7,7 +7,7 @@ Selection Method
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.29"
 * ^version = "20030327"
-* ^title = "Selection Method"
+* ^title = "Selection Method (CID 224)"
 * ^name = "SelectionMethod"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#121410 //"User chosen value" 

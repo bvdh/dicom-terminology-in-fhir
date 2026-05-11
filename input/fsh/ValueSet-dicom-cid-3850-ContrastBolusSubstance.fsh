@@ -7,7 +7,7 @@ Contrast Bolus Substance
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.934"
 * ^version = "20200310"
-* ^title = "Contrast Bolus Substance"
+* ^title = "Contrast Bolus Substance (CID 3850)"
 * ^name = "ContrastBolusSubstance"
 * ^experimental = false
 * include codes from valueset CID_70

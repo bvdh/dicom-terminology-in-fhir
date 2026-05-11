@@ -7,7 +7,7 @@ Neighbouring Grey Level Dependence Based Feature
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1274"
 * ^version = "20190121"
-* ^title = "Neighbouring Grey Level Dependence Based Feature"
+* ^title = "Neighbouring Grey Level Dependence Based Feature (CID 7501)"
 * ^name = "NeighbouringGreyLevelDependenceBasedFeature"
 * ^experimental = false
 * IBSICodeSystem#SODN //"Low dependence emphasis" 

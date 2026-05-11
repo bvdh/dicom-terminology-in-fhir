@@ -7,7 +7,7 @@ CMDCTECC Calcium Scoring Patient Size Category
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.825"
 * ^version = "20100127"
-* ^title = "CMDCTECC Calcium Scoring Patient Size Category"
+* ^title = "CMDCTECC Calcium Scoring Patient Size Category (CID 7042)"
 * ^name = "CMDCTECCCalciumScoringPatientSizeCategory"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#113601 //"Small: < 32.0 cm lateral thickness" 

@@ -9,7 +9,7 @@ Description :
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1328"
 * ^version = "20211114"
-* ^title = "EEG Lead"
+* ^title = "EEG Lead (CID 3030)"
 * ^name = "EEGLead"
 * ^experimental = false
 * urn:iso:std:iso:11073:10101#7:996 //"Nz" 

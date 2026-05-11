@@ -7,14 +7,13 @@ Myocardium Wall Morphology Finding
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.206"
 * ^version = "20030327"
-* ^title = "Myocardium Wall Morphology Finding"
+* ^title = "Myocardium Wall Morphology Finding (CID 3704)"
 * ^name = "MyocardiumWallMorphologyFinding"
 * ^experimental = false
 * DICOM_DCM_CodeSystem#122112 //"Normal Myocardium" 
 
 * http://snomed.info/sct#90539001 //"Ventricular Aneurysm" 
 * http://snomed.info/srt#D3-10510 //"Ventricular Aneurysm" 
-* http://terminology.hl7.org/CodeSystem/umls/sab#C0392464 //"Ventricular Aneurysm" 
 
 * DICOM_DCM_CodeSystem#122113 //"Scarred Myocardium" 
 
