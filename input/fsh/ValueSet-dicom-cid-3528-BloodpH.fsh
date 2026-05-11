@@ -9,12 +9,13 @@ Blood pH
 * ^version = "20030327"
 * ^title = "Blood pH"
 * ^name = "BloodpH"
-* http://loinc.org#11558-4 "Blood pH" 
-* http://terminology.hl7.org/CodeSystem/umls#C0550447 "Blood pH" 
+* ^experimental = false
+* http://loinc.org#11558-4 //"Blood pH" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0550447 //"Blood pH" 
 
-* http://loinc.org#2744-1 "Arterial Blood pH" 
-* http://terminology.hl7.org/CodeSystem/umls#C0364887 "Arterial Blood pH" 
+* http://loinc.org#2744-1 //"Arterial Blood pH" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0364887 //"Arterial Blood pH" 
 
-* http://loinc.org#2746-6 "Venous Blood pH" 
-* http://terminology.hl7.org/CodeSystem/umls#C0364889 "Venous Blood pH" 
+* http://loinc.org#2746-6 //"Venous Blood pH" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0364889 //"Venous Blood pH" 
 

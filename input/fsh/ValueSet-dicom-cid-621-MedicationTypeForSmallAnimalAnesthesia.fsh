@@ -9,7 +9,8 @@ Medication Type for Small Animal Anesthesia
 * ^version = "20151110"
 * ^title = "Medication Type for Small Animal Anesthesia"
 * ^name = "MedicationTypeForSmallAnimalAnesthesia"
+* ^experimental = false
 * include codes from valueset CID_622
 
-* DICOM_DCM_CodeSystem#127330 "Carrier gas" 
+* DICOM_DCM_CodeSystem#127330 //"Carrier gas" 
 

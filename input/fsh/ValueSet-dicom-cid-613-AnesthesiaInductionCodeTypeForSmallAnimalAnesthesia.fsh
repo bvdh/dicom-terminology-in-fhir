@@ -9,9 +9,10 @@ The intraperitoneal route is added to the AQI value set, since that route is use
 * ^version = "20151110"
 * ^title = "Anesthesia Induction Code Type for Small Animal Anesthesia"
 * ^name = "AnesthesiaInductionCodeTypeForSmallAnimalAnesthesia"
+* ^experimental = false
 * include codes from valueset CID_614
 
-* http://snomed.info/sct#38239002 "Intraperitoneal route" 
-* http://snomed.info/srt#G-D106 "Intraperitoneal route" 
-* http://terminology.hl7.org/CodeSystem/umls#C1522583 "Intraperitoneal route" 
+* http://snomed.info/sct#38239002 //"Intraperitoneal route" 
+* http://snomed.info/srt#G-D106 //"Intraperitoneal route" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1522583 //"Intraperitoneal route" 
 

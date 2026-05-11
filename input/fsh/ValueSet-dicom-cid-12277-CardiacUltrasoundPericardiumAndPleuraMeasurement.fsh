@@ -9,5 +9,6 @@ Cardiac Ultrasound Pericardium and Pleura Measurement
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Pericardium and Pleura Measurement"
 * ^name = "CardiacUltrasoundPericardiumAndPleuraMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12250
 

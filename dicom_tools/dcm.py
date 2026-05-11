@@ -45,7 +45,7 @@ def writeDcmCodeSystem( fsh_path:str, dicom_path:str, canonicalVersion:str ) -> 
         fsh_file.write('* ^property[=].description = "Whether the code is retired"\n')
         fsh_file.write('* ^property[=].type = #boolean\n')
         fsh_file.write('\n')
-        fsh_file.write('* ^url = "http://dicom.nema.org/resources/ontology/DCM"\n')
+        # fsh_file.write('* ^url = "http://dicom.nema.org/resources/ontology/DCM"\n')
         fsh_file.write(f'* ^version = "{canonicalVersion}"\n')
         fsh_file.write('\n')
 

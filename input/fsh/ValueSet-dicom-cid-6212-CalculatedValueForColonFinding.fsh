@@ -9,15 +9,16 @@ Calculated Value for Colon Finding
 * ^version = "20090402"
 * ^title = "Calculated Value for Colon Finding"
 * ^name = "CalculatedValueForColonFinding"
-* http://snomed.info/sct#395511002 "Polyp stalk length" 
-* http://snomed.info/srt#R-0045B "Polyp stalk length" 
-* http://terminology.hl7.org/CodeSystem/umls#C1273121 "Polyp stalk length" 
+* ^experimental = false
+* http://snomed.info/sct#395511002 //"Polyp stalk length" 
+* http://snomed.info/srt#R-0045B //"Polyp stalk length" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1273121 //"Polyp stalk length" 
 
-* http://snomed.info/sct#373197004 "Polyp size, largest dimension" 
-* http://snomed.info/srt#R-00286 "Polyp size, largest dimension" 
-* http://terminology.hl7.org/CodeSystem/umls#C1272618 "Polyp size, largest dimension" 
+* http://snomed.info/sct#373197004 //"Polyp size, largest dimension" 
+* http://snomed.info/srt#R-00286 //"Polyp size, largest dimension" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1272618 //"Polyp size, largest dimension" 
 
-* DICOM_DCM_CodeSystem#112232 "Polyp stalk width" 
+* DICOM_DCM_CodeSystem#112232 //"Polyp stalk width" 
 
-* DICOM_DCM_CodeSystem#112233 "Distance from anus" 
+* DICOM_DCM_CodeSystem#112233 //"Distance from anus" 
 

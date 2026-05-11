@@ -9,13 +9,14 @@ Follicle Type
 * ^version = "20240912"
 * ^title = "Follicle Type"
 * ^name = "FollicleType"
-* DICOM_DCM_CodeSystem#130909 "Dominant Follicle" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130909 //"Dominant Follicle" 
 
-* DICOM_DCM_CodeSystem#130910 "Antral Follicle" 
+* DICOM_DCM_CodeSystem#130910 //"Antral Follicle" 
 
-* DICOM_DCM_CodeSystem#130911 "Secondary Follicle" 
+* DICOM_DCM_CodeSystem#130911 //"Secondary Follicle" 
 
-* DICOM_DCM_CodeSystem#130912 "Primary Follicle" 
+* DICOM_DCM_CodeSystem#130912 //"Primary Follicle" 
 
-* DICOM_DCM_CodeSystem#130913 "Primordial Follicle" 
+* DICOM_DCM_CodeSystem#130913 //"Primordial Follicle" 
 

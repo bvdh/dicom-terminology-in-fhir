@@ -9,7 +9,8 @@ Wide Field Ophthalmic Photography Transformation Method
 * ^version = "20150326"
 * ^title = "Wide Field Ophthalmic Photography Transformation Method"
 * ^name = "WideFieldOphthalmicPhotographyTransformationMethod"
-* DICOM_DCM_CodeSystem#111791 "Spherical projection" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111791 //"Spherical projection" 
 
-* DICOM_DCM_CodeSystem#111792 "Surface contour mapping" 
+* DICOM_DCM_CodeSystem#111792 //"Surface contour mapping" 
 

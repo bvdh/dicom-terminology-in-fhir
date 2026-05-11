@@ -9,7 +9,8 @@ Tricuspid Valve Finding Site
 * ^version = "20170914"
 * ^title = "Tricuspid Valve Finding Site"
 * ^name = "TricuspidValveFindingSite"
-* http://snomed.info/sct#113259005 "Tricuspid Annulus" 
-* http://snomed.info/srt#T-35110 "Tricuspid Annulus" 
-* http://terminology.hl7.org/CodeSystem/umls#C0225926 "Tricuspid Annulus" 
+* ^experimental = false
+* http://snomed.info/sct#113259005 //"Tricuspid Annulus" 
+* http://snomed.info/srt#T-35110 //"Tricuspid Annulus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0225926 //"Tricuspid Annulus" 
 

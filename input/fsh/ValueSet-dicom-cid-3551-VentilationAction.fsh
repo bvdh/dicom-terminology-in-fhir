@@ -9,7 +9,8 @@ Ventilation Action
 * ^version = "20030327"
 * ^title = "Ventilation Action"
 * ^name = "VentilationAction"
-* DICOM_DCM_CodeSystem#121168 "Begin Ventilation" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121168 //"Begin Ventilation" 
 
-* DICOM_DCM_CodeSystem#121169 "End Ventilation" 
+* DICOM_DCM_CodeSystem#121169 //"End Ventilation" 
 

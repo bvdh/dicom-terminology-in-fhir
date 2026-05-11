@@ -9,15 +9,16 @@ In prior editions, this Context Group included NCDR 2.0b codes as the primary se
 * ^version = "20111028"
 * ^title = "Coronary Dominance"
 * ^name = "CoronaryDominance"
-* http://snomed.info/sct#253729004 "Left Coronary Dominance" 
-* http://snomed.info/srt#D4-3252C "Left Coronary Dominance" 
-* http://terminology.hl7.org/CodeSystem/umls#C0345136 "Left Coronary Dominance" 
+* ^experimental = false
+* http://snomed.info/sct#253729004 //"Left Coronary Dominance" 
+* http://snomed.info/srt#D4-3252C //"Left Coronary Dominance" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0345136 //"Left Coronary Dominance" 
 
-* http://snomed.info/sct#253728007 "Right Coronary Dominance" 
-* http://snomed.info/srt#D4-3252B "Right Coronary Dominance" 
-* http://terminology.hl7.org/CodeSystem/umls#C0345135 "Right Coronary Dominance" 
+* http://snomed.info/sct#253728007 //"Right Coronary Dominance" 
+* http://snomed.info/srt#D4-3252B //"Right Coronary Dominance" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0345135 //"Right Coronary Dominance" 
 
-* http://snomed.info/sct#253730009 "Balanced Coronary Dominance" 
-* http://snomed.info/srt#D4-3252D "Balanced Coronary Dominance" 
-* http://terminology.hl7.org/CodeSystem/umls#C0345137 "Balanced Coronary Dominance" 
+* http://snomed.info/sct#253730009 //"Balanced Coronary Dominance" 
+* http://snomed.info/srt#D4-3252D //"Balanced Coronary Dominance" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0345137 //"Balanced Coronary Dominance" 
 

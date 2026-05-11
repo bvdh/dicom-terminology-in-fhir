@@ -9,7 +9,8 @@ Anterior Chamber Depth Definition
 * ^version = "20100623"
 * ^title = "Anterior Chamber Depth Definition"
 * ^name = "AnteriorChamberDepthDefinition"
-* DICOM_DCM_CodeSystem#111776 "Front Of Cornea To Front Of Lens" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111776 //"Front Of Cornea To Front Of Lens" 
 
-* DICOM_DCM_CodeSystem#111777 "Back Of Cornea To Front Of Lens" 
+* DICOM_DCM_CodeSystem#111777 //"Back Of Cornea To Front Of Lens" 
 

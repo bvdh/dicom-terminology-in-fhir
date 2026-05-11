@@ -9,7 +9,8 @@ Multi-Frame Subset Type
 * ^version = "20070625"
 * ^title = "Multi-Frame Subset Type"
 * ^name = "MultiFrameSubsetType"
-* DICOM_DCM_CodeSystem#121190 "Referenced Frames" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121190 //"Referenced Frames" 
 
-* DICOM_DCM_CodeSystem#121191 "Referenced Segment" 
+* DICOM_DCM_CodeSystem#121191 //"Referenced Segment" 
 

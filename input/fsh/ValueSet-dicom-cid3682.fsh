@@ -7,3 +7,4 @@ None
 * ^version = "None"
 * ^title = "Probability (Retired)"
 * ^name = "Cid3682"
+* ^experimental = false

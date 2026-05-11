@@ -9,9 +9,10 @@ Diagnostic Imaging Procedure without IV Contrast
 * ^version = "20250401"
 * ^title = "Diagnostic Imaging Procedure without IV Contrast"
 * ^name = "DiagnosticImagingProcedureWithoutIVContrast"
-* http://snomed.info/sct#399331006 "CT without contrast" 
-* http://snomed.info/srt#P5-0808E "CT without contrast" 
-* http://terminology.hl7.org/CodeSystem/umls#C1275400 "CT without contrast" 
+* ^experimental = false
+* http://snomed.info/sct#399331006 //"CT without contrast" 
+* http://snomed.info/srt#P5-0808E //"CT without contrast" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1275400 //"CT without contrast" 
 
-* http://snomed.info/sct#1187246003 "CT of abdominal aorta without contrast" 
+* http://snomed.info/sct#1187246003 //"CT of abdominal aorta without contrast" 
 

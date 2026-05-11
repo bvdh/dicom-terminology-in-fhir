@@ -9,9 +9,10 @@ Patient Model Type
 * ^version = "20170405"
 * ^title = "Patient Model Type"
 * ^name = "PatientModelType"
-* DICOM_DCM_CodeSystem#128418 "Simple Object Model" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128418 //"Simple Object Model" 
 
-* DICOM_DCM_CodeSystem#128404 "Anthropomorphic Model" 
+* DICOM_DCM_CodeSystem#128404 //"Anthropomorphic Model" 
 
-* DICOM_DCM_CodeSystem#128494 "Patient Segmented Model" 
+* DICOM_DCM_CodeSystem#128494 //"Patient Segmented Model" 
 

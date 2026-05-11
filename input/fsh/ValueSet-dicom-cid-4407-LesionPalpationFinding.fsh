@@ -9,11 +9,12 @@ Lesion Palpation Finding
 * ^version = "20231115"
 * ^title = "Lesion Palpation Finding"
 * ^name = "LesionPalpationFinding"
-* DICOM_DCM_CodeSystem#130485 "Firm skin lesion" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130485 //"Firm skin lesion" 
 
-* DICOM_DCM_CodeSystem#130486 "Raised skin lesion" 
-* http://terminology.hl7.org/CodeSystem/umls#C0748816 "Raised skin lesion" 
+* DICOM_DCM_CodeSystem#130486 //"Raised skin lesion" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0748816 //"Raised skin lesion" 
 
-* http://terminology.hl7.org/CodeSystem/umls#C2071496 "Mobile skin lesion" 
-// * http://terminology.hl7.org/CodeSystem/umls#C2071496 "Mobile skin lesion" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2071496 //"Mobile skin lesion" 
+// * http://terminology.hl7.org/CodeSystem/umls/sab#C2071496 "Mobile skin lesion" 
 

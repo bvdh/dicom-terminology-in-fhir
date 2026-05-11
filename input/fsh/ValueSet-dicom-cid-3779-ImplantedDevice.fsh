@@ -9,13 +9,14 @@ Implanted Device
 * ^version = "20240913"
 * ^title = "Implanted Device"
 * ^name = "ImplantedDevice"
+* ^experimental = false
 * include codes from valueset CID_3777
 
-* http://snomed.info/sct#69805005 "Insulin pump" 
-* http://snomed.info/srt#A-28040 "Insulin pump" 
-* http://terminology.hl7.org/CodeSystem/umls#C1140609 "Insulin pump" 
+* http://snomed.info/sct#69805005 //"Insulin pump" 
+* http://snomed.info/srt#A-28040 //"Insulin pump" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1140609 //"Insulin pump" 
 
-* http://snomed.info/sct#43252007 "Cochlear Implant" 
-* http://snomed.info/srt#A-04232 "Cochlear Implant" 
-* http://terminology.hl7.org/CodeSystem/umls#C0009199 "Cochlear Implant" 
+* http://snomed.info/sct#43252007 //"Cochlear Implant" 
+* http://snomed.info/srt#A-04232 //"Cochlear Implant" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0009199 //"Cochlear Implant" 
 

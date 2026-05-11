@@ -9,5 +9,6 @@ MRI Shape Characteristic
 * ^version = "20210714"
 * ^title = "MRI Shape Characteristic"
 * ^name = "MRIShapeCharacteristic"
+* ^experimental = false
 * include codes from valueset CID_6340
 

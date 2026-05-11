@@ -9,7 +9,8 @@ Reference Geometry - Point
 * ^version = "20160905"
 * ^title = "Reference Geometry - Point"
 * ^name = "ReferenceGeometryPoint"
-* DICOM_DCM_CodeSystem#128137 "Geometric Centerpoint" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128137 //"Geometric Centerpoint" 
 
-* DICOM_DCM_CodeSystem#128138 "Center of Mass" 
+* DICOM_DCM_CodeSystem#128138 //"Center of Mass" 
 

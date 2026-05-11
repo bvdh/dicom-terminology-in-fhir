@@ -9,7 +9,8 @@ Tomotherapeutic Dose Rate Unit
 * ^version = "20200117"
 * ^title = "Tomotherapeutic Dose Rate Unit"
 * ^name = "TomotherapeuticDoseRateUnit"
-* http://unitsofmeasure.org#Gy/s "Gy/s" 
+* ^experimental = false
+* http://unitsofmeasure.org#Gy/s //"Gy/s" 
 
-* http://unitsofmeasure.org#{MU}/s "Monitor Units/s" 
+* http://unitsofmeasure.org#{MU}/s //"Monitor Units/s" 
 

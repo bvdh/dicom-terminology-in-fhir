@@ -9,15 +9,16 @@ Purpose of Reference for RT Physician Intent Input
 * ^version = "20181112"
 * ^title = "Purpose of Reference For RT Physician Intent Input"
 * ^name = "PurposeOfReferenceForRTPhysicianIntentInput"
-* DICOM_DCM_CodeSystem#130135 "Historical RT Prescription" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130135 //"Historical RT Prescription" 
 
-* DICOM_DCM_CodeSystem#128181 "Diagnostic Source Images" 
+* DICOM_DCM_CodeSystem#128181 //"Diagnostic Source Images" 
 
-* DICOM_DCM_CodeSystem#128182 "Segmentation Result" 
+* DICOM_DCM_CodeSystem#128182 //"Segmentation Result" 
 
-* DICOM_DCM_CodeSystem#128183 "Registration Result" 
+* DICOM_DCM_CodeSystem#128183 //"Registration Result" 
 
-* DICOM_DCM_CodeSystem#130136 "RT Prescription Input Images" 
+* DICOM_DCM_CodeSystem#130136 //"RT Prescription Input Images" 
 
-* http://loinc.org#30954-2 "Relevant Diagnostic Tests and/or Laboratory Data" 
+* http://loinc.org#30954-2 //"Relevant Diagnostic Tests and/or Laboratory Data" 
 

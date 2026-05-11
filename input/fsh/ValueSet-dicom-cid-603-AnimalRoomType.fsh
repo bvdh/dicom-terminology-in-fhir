@@ -11,21 +11,22 @@ Description :
 * ^version = "20151110"
 * ^title = "Animal Room Type"
 * ^name = "AnimalRoomType"
-* DICOM_DCM_CodeSystem#127370 "Animal housing room" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#127370 //"Animal housing room" 
 
-* DICOM_DCM_CodeSystem#127371 "Preparation room" 
+* DICOM_DCM_CodeSystem#127371 //"Preparation room" 
 
-* DICOM_DCM_CodeSystem#127372 "Imaging procedure room" 
+* DICOM_DCM_CodeSystem#127372 //"Imaging procedure room" 
 
-* http://snomed.info/sct#414485004 "Induction room" 
-* http://snomed.info/srt#R-305D6 "Induction room" 
-* http://terminology.hl7.org/CodeSystem/umls#C1532289 "Induction room" 
+* http://snomed.info/sct#414485004 //"Induction room" 
+* http://snomed.info/srt#R-305D6 //"Induction room" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1532289 //"Induction room" 
 
-* http://snomed.info/sct#398161000 "Recovery room" 
-* http://snomed.info/srt#R-305C3 "Recovery room" 
-* http://terminology.hl7.org/CodeSystem/umls#C0198828 "Recovery room" 
+* http://snomed.info/sct#398161000 //"Recovery room" 
+* http://snomed.info/srt#R-305C3 //"Recovery room" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0198828 //"Recovery room" 
 
-* http://snomed.info/sct#409688003 "Isolation room" 
-* http://snomed.info/srt#R-305D3 "Isolation room" 
-* http://terminology.hl7.org/CodeSystem/umls#C1443994 "Isolation room" 
+* http://snomed.info/sct#409688003 //"Isolation room" 
+* http://snomed.info/srt#R-305D3 //"Isolation room" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1443994 //"Isolation room" 
 

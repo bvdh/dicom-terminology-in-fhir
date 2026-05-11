@@ -9,17 +9,18 @@ Original source of terms is [Fraser and Pare].
 * ^version = "20030108"
 * ^title = "Chest Opacity Descriptor"
 * ^name = "ChestOpacityDescriptor"
-* DICOM_DCM_CodeSystem#112146 "Acinar" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112146 //"Acinar" 
 
-* DICOM_DCM_CodeSystem#112147 "Air space" 
+* DICOM_DCM_CodeSystem#112147 //"Air space" 
 
-* DICOM_DCM_CodeSystem#112148 "Fibronodular" 
+* DICOM_DCM_CodeSystem#112148 //"Fibronodular" 
 
-* DICOM_DCM_CodeSystem#112149 "Fluffy" 
+* DICOM_DCM_CodeSystem#112149 //"Fluffy" 
 
-* DICOM_DCM_CodeSystem#112150 "Linear" 
+* DICOM_DCM_CodeSystem#112150 //"Linear" 
 
-* DICOM_DCM_CodeSystem#112151 "Profusion" 
+* DICOM_DCM_CodeSystem#112151 //"Profusion" 
 
-* DICOM_DCM_CodeSystem#112152 "Silhouette sign" 
+* DICOM_DCM_CodeSystem#112152 //"Silhouette sign" 
 

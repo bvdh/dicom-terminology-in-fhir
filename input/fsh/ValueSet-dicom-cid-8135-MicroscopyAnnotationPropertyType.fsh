@@ -9,11 +9,12 @@ Microscopy Annotation Property Type
 * ^version = "20210712"
 * ^title = "Microscopy Annotation Property Type"
 * ^name = "MicroscopyAnnotationPropertyType"
-* http://snomed.info/sct#4421005 "Cell" 
-* http://snomed.info/srt#T-E0000 "Cell" 
-* http://terminology.hl7.org/CodeSystem/umls#C0007634 "Cell" 
+* ^experimental = false
+* http://snomed.info/sct#4421005 //"Cell" 
+* http://snomed.info/srt#T-E0000 //"Cell" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0007634 //"Cell" 
 
-* http://snomed.info/sct#84640000 "Nucleus" 
-* http://snomed.info/srt#T-E0100 "Nucleus" 
-* http://terminology.hl7.org/CodeSystem/umls#C0007610 "Nucleus" 
+* http://snomed.info/sct#84640000 //"Nucleus" 
+* http://snomed.info/srt#T-E0100 //"Nucleus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0007610 //"Nucleus" 
 

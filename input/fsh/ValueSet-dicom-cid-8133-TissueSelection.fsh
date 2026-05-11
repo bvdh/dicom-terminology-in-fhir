@@ -9,9 +9,10 @@ Tissue Selection
 * ^version = "20120605"
 * ^title = "Tissue Selection"
 * ^name = "TissueSelection"
-* DICOM_DCM_CodeSystem#112719 "Nominal empty tile suppression" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112719 //"Nominal empty tile suppression" 
 
-* DICOM_DCM_CodeSystem#112720 "High threshold empty tile suppression" 
+* DICOM_DCM_CodeSystem#112720 //"High threshold empty tile suppression" 
 
-* DICOM_DCM_CodeSystem#112721 "No empty tile suppression" 
+* DICOM_DCM_CodeSystem#112721 //"No empty tile suppression" 
 

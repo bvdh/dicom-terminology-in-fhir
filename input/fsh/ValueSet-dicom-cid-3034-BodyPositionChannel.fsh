@@ -9,9 +9,10 @@ Body Position Channel
 * ^version = "20200623"
 * ^title = "Body Position Channel"
 * ^name = "BodyPositionChannel"
-* DICOM_DCM_CodeSystem#130410 "Patient position" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130410 //"Patient position" 
 
-* DICOM_DCM_CodeSystem#130411 "Patient rotation longitudinal" 
+* DICOM_DCM_CodeSystem#130411 //"Patient rotation longitudinal" 
 
-* DICOM_DCM_CodeSystem#130412 "Patient elevation" 
+* DICOM_DCM_CodeSystem#130412 //"Patient elevation" 
 

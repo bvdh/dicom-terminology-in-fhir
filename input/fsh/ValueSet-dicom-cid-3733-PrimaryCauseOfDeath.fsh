@@ -9,19 +9,20 @@ Primary Cause of Death
 * ^version = "20030327"
 * ^title = "Primary Cause of Death"
 * ^name = "PrimaryCauseOfDeath"
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-1 "Cardiac" 
+* ^experimental = false
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-1 //"Cardiac" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-2 "Neurologic" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-2 //"Neurologic" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-3 "Renal" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-3 //"Renal" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-4 "Vascular" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-4 //"Vascular" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-5 "Infection" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-5 //"Infection" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-6 "Pulmonary" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-6 //"Pulmonary" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-7 "Valvular" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-7 //"Valvular" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-8 "Other" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#25-8 //"Other" 
 

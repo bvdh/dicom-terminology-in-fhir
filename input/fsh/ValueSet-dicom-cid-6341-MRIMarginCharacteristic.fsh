@@ -9,5 +9,6 @@ MRI Margin Characteristic
 * ^version = "20210714"
 * ^title = "MRI Margin Characteristic"
 * ^name = "MRIMarginCharacteristic"
+* ^experimental = false
 * include codes from valueset CID_6342
 

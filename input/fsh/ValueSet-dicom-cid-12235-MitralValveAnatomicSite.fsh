@@ -9,15 +9,16 @@ Mitral Valve Anatomic Site
 * ^version = "20170914"
 * ^title = "Mitral Valve Anatomic Site"
 * ^name = "MitralValveAnatomicSite"
-* http://snomed.info/sct#399093001 "Medial Mitral Annulus" 
-* http://snomed.info/srt#G-0391 "Medial Mitral Annulus" 
-* http://terminology.hl7.org/CodeSystem/umls#C1302199 "Medial Mitral Annulus" 
+* ^experimental = false
+* http://snomed.info/sct#399093001 //"Medial Mitral Annulus" 
+* http://snomed.info/srt#G-0391 //"Medial Mitral Annulus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1302199 //"Medial Mitral Annulus" 
 
-* http://snomed.info/sct#399086000 "Lateral Mitral Annulus" 
-* http://snomed.info/srt#G-0392 "Lateral Mitral Annulus" 
-* http://terminology.hl7.org/CodeSystem/umls#C1302198 "Lateral Mitral Annulus" 
+* http://snomed.info/sct#399086000 //"Lateral Mitral Annulus" 
+* http://snomed.info/srt#G-0392 //"Lateral Mitral Annulus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1302198 //"Lateral Mitral Annulus" 
 
-* http://snomed.info/sct#65197004 "Mitral Annulus" 
-* http://snomed.info/srt#T-35310 "Mitral Annulus" 
-* http://terminology.hl7.org/CodeSystem/umls#C0225947 "Mitral Annulus" 
+* http://snomed.info/sct#65197004 //"Mitral Annulus" 
+* http://snomed.info/srt#T-35310 //"Mitral Annulus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0225947 //"Mitral Annulus" 
 

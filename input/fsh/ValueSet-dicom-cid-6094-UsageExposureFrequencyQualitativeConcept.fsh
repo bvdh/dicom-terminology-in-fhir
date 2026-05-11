@@ -9,9 +9,10 @@ Usage/Exposure/Frequency Qualitative Concept
 * ^version = "20040112"
 * ^title = "Usage/Exposure/Frequency Qualitative Concept"
 * ^name = "UsageExposureFrequencyQualitativeConcept"
-* DICOM_DCM_CodeSystem#111584 "Relative dose frequency" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111584 //"Relative dose frequency" 
 
-* DICOM_DCM_CodeSystem#111585 "Relative frequency of exposure" 
+* DICOM_DCM_CodeSystem#111585 //"Relative frequency of exposure" 
 
-* DICOM_DCM_CodeSystem#111586 "Relative frequency of use" 
+* DICOM_DCM_CodeSystem#111586 //"Relative frequency of use" 
 

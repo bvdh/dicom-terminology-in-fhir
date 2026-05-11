@@ -9,11 +9,12 @@ Effective Dose Evaluation Method
 * ^version = "20071031"
 * ^title = "Effective Dose Evaluation Method"
 * ^name = "EffectiveDoseEvaluationMethod"
-* DICOM_DCM_CodeSystem#113800 "DLP to E conversion via MC computation" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113800 //"DLP to E conversion via MC computation" 
 
-* DICOM_DCM_CodeSystem#113801 "CTDIfreeair to E conversion via MC computation" 
+* DICOM_DCM_CodeSystem#113801 //"CTDIfreeair to E conversion via MC computation" 
 
-* DICOM_DCM_CodeSystem#113802 "DLP to E conversion via measurement" 
+* DICOM_DCM_CodeSystem#113802 //"DLP to E conversion via measurement" 
 
-* DICOM_DCM_CodeSystem#113803 "CTDIfreeair to E conversion via measurement" 
+* DICOM_DCM_CodeSystem#113803 //"CTDIfreeair to E conversion via measurement" 
 

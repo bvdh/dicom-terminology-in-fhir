@@ -9,15 +9,16 @@ Radiation Transport Model Type
 * ^version = "20170405"
 * ^title = "Radiation Transport Model Type"
 * ^name = "RadiationTransportModelType"
-* DICOM_DCM_CodeSystem#128421 "Geometric Radiation Transport Model" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128421 //"Geometric Radiation Transport Model" 
 
-* DICOM_DCM_CodeSystem#128422 "Voxelized Radiation Transport Model" 
+* DICOM_DCM_CodeSystem#128422 //"Voxelized Radiation Transport Model" 
 
-* DICOM_DCM_CodeSystem#128423 "Mesh Radiation Transport Model" 
+* DICOM_DCM_CodeSystem#128423 //"Mesh Radiation Transport Model" 
 
-* DICOM_DCM_CodeSystem#128424 "NURBS Radiation Transport Model" 
+* DICOM_DCM_CodeSystem#128424 //"NURBS Radiation Transport Model" 
 
-* DICOM_DCM_CodeSystem#128497 "Measured Radiation Dose" 
+* DICOM_DCM_CodeSystem#128497 //"Measured Radiation Dose" 
 
-* DICOM_DCM_CodeSystem#128406 "BREP Radiation Transport Model" 
+* DICOM_DCM_CodeSystem#128406 //"BREP Radiation Transport Model" 
 

@@ -9,6 +9,7 @@ Cardiac Ultrasound Semilunar Valve, Annulate and Sinus Measurement
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Semilunar Valve, Annulate and Sinus Measurement"
 * ^name = "CardiacUltrasoundSemilunarValveAnnulateAndSinusMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12262
 
 * include codes from valueset CID_12270

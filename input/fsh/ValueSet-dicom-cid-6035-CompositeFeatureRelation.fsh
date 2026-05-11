@@ -9,9 +9,10 @@ Composite Feature Relation
 * ^version = "20020904"
 * ^title = "Composite Feature Relation"
 * ^name = "CompositeFeatureRelation"
-* DICOM_DCM_CodeSystem#111153 "Target Content Items are related temporally" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111153 //"Target Content Items are related temporally" 
 
-* DICOM_DCM_CodeSystem#111154 "Target Content Items are related spatially" 
+* DICOM_DCM_CodeSystem#111154 //"Target Content Items are related spatially" 
 
-* DICOM_DCM_CodeSystem#111155 "Target Content Items are related contra-laterally" 
+* DICOM_DCM_CodeSystem#111155 //"Target Content Items are related contra-laterally" 
 

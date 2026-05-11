@@ -9,17 +9,18 @@ Target Confirmation
 * ^version = "20040112"
 * ^title = "Target Confirmation"
 * ^name = "TargetConfirmation"
-* DICOM_DCM_CodeSystem#111443 "Target completely contained in the specimen" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111443 //"Target completely contained in the specimen" 
 
-* DICOM_DCM_CodeSystem#111444 "Target partially obtained in the specimen" 
+* DICOM_DCM_CodeSystem#111444 //"Target partially obtained in the specimen" 
 
-* DICOM_DCM_CodeSystem#111445 "Target not in the specimen" 
+* DICOM_DCM_CodeSystem#111445 //"Target not in the specimen" 
 
-* DICOM_DCM_CodeSystem#111446 "Calcifications seen in the core" 
+* DICOM_DCM_CodeSystem#111446 //"Calcifications seen in the core" 
 
-* DICOM_DCM_CodeSystem#111447 "Lesion completely removed" 
+* DICOM_DCM_CodeSystem#111447 //"Lesion completely removed" 
 
-* DICOM_DCM_CodeSystem#111448 "Lesion partially removed" 
+* DICOM_DCM_CodeSystem#111448 //"Lesion partially removed" 
 
-* DICOM_DCM_CodeSystem#111449 "Fluid obtained" 
+* DICOM_DCM_CodeSystem#111449 //"Fluid obtained" 
 

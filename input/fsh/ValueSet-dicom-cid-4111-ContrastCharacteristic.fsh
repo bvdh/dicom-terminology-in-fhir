@@ -9,5 +9,6 @@ Contrast Characteristic
 * ^version = "20141110"
 * ^title = "Contrast Characteristic"
 * ^name = "ContrastCharacteristic"
-* DICOM_DCM_CodeSystem#126380 "Contrast Longitudinal Relaxivity" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#126380 //"Contrast Longitudinal Relaxivity" 
 

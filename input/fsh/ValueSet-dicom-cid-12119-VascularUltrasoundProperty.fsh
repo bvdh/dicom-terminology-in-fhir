@@ -9,6 +9,7 @@ Vascular Ultrasound Property
 * ^version = "20030327"
 * ^title = "Vascular Ultrasound Property"
 * ^name = "VascularUltrasoundProperty"
+* ^experimental = false
 * include codes from valueset CID_12120
 
 * include codes from valueset CID_12121

@@ -9,7 +9,8 @@ Device Reuse
 * ^version = "20151110"
 * ^title = "Device Reuse"
 * ^name = "DeviceReuse"
-* DICOM_DCM_CodeSystem#127177 "Unused" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#127177 //"Unused" 
 
-* DICOM_DCM_CodeSystem#127178 "Reused" 
+* DICOM_DCM_CodeSystem#127178 //"Reused" 
 

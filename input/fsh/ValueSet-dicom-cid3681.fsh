@@ -7,3 +7,4 @@ None
 * ^version = "None"
 * ^title = "ECG Lead Noise Modifier (Retired)"
 * ^name = "Cid3681"
+* ^experimental = false

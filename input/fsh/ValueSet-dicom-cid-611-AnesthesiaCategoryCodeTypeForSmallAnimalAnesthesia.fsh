@@ -9,5 +9,6 @@ Anesthesia Category Code Type for Small Animal Anesthesia
 * ^version = "20151110"
 * ^title = "Anesthesia Category Code Type for Small Animal Anesthesia"
 * ^name = "AnesthesiaCategoryCodeTypeForSmallAnimalAnesthesia"
+* ^experimental = false
 * include codes from valueset CID_612
 

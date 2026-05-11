@@ -9,7 +9,8 @@ Treadmill Speed
 * ^version = "20080927"
 * ^title = "Treadmill Speed"
 * ^name = "TreadmillSpeed"
-* http://unitsofmeasure.org#km/h "km/h" 
+* ^experimental = false
+* http://unitsofmeasure.org#km/h //"km/h" 
 
-* http://unitsofmeasure.org#[mi_i]/h "mph" 
+* http://unitsofmeasure.org#[mi_i]/h //"mph" 
 

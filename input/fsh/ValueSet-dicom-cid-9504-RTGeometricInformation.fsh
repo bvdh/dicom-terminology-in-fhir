@@ -9,13 +9,14 @@ RT Geometric Information
 * ^version = "20181112"
 * ^title = "RT Geometric Information"
 * ^name = "RTGeometricInformation"
-* DICOM_DCM_CodeSystem#130069 "Patient Setup Point" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130069 //"Patient Setup Point" 
 
-* DICOM_DCM_CodeSystem#130070 "Room Laser Patient Setup Point" 
+* DICOM_DCM_CodeSystem#130070 //"Room Laser Patient Setup Point" 
 
-* DICOM_DCM_CodeSystem#130071 "Moveable Laser Patient Setup Point" 
+* DICOM_DCM_CodeSystem#130071 //"Moveable Laser Patient Setup Point" 
 
-* DICOM_DCM_CodeSystem#130072 "Reference Acquisition Point" 
+* DICOM_DCM_CodeSystem#130072 //"Reference Acquisition Point" 
 
-* DICOM_DCM_CodeSystem#130073 "Isocentric Treatment Location Point" 
+* DICOM_DCM_CodeSystem#130073 //"Isocentric Treatment Location Point" 
 

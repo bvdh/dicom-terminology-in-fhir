@@ -9,6 +9,7 @@ Volumetric View Description
 * ^version = "20150915"
 * ^title = "Volumetric View Description"
 * ^name = "VolumetricViewDescription"
+* ^experimental = false
 * include codes from valueset CID_6
 
 * include codes from valueset CID_26

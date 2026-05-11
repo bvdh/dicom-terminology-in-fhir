@@ -9,11 +9,12 @@ A 'cubic decimeter' is a 'liter', just as a 'cubic centimeter' is a 'milliliter'
 * ^version = "20020904"
 * ^title = "Volume Measurement Unit"
 * ^name = "VolumeMeasurementUnit"
-* http://unitsofmeasure.org#dm3 "cubic decimeter" 
+* ^experimental = false
+* http://unitsofmeasure.org#dm3 //"cubic decimeter" 
 
-* http://unitsofmeasure.org#cm3 "cubic centimeter" 
+* http://unitsofmeasure.org#cm3 //"cubic centimeter" 
 
-* http://unitsofmeasure.org#mm3 "cubic millimeter" 
+* http://unitsofmeasure.org#mm3 //"cubic millimeter" 
 
-* http://unitsofmeasure.org#um3 "cubic micrometer" 
+* http://unitsofmeasure.org#um3 //"cubic micrometer" 
 

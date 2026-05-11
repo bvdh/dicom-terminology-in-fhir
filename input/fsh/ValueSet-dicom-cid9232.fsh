@@ -7,3 +7,4 @@ None
 * ^version = "None"
 * ^title = "Non-DICOM Output Types (Retired)"
 * ^name = "Cid9232"
+* ^experimental = false

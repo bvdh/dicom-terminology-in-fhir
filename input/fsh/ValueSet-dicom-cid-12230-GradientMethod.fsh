@@ -9,7 +9,8 @@ Gradient Method
 * ^version = "20030918"
 * ^title = "Gradient Method"
 * ^name = "GradientMethod"
-* DICOM_DCM_CodeSystem#125217 "Full Bernoulli" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#125217 //"Full Bernoulli" 
 
-* DICOM_DCM_CodeSystem#125218 "Simplified Bernoulli" 
+* DICOM_DCM_CodeSystem#125218 //"Simplified Bernoulli" 
 

@@ -9,7 +9,8 @@ Fluoro Mode
 * ^version = "20051101"
 * ^title = "Fluoro Mode"
 * ^name = "FluoroMode"
-* DICOM_DCM_CodeSystem#113630 "Continuous" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113630 //"Continuous" 
 
-* DICOM_DCM_CodeSystem#113631 "Pulsed" 
+* DICOM_DCM_CodeSystem#113631 //"Pulsed" 
 

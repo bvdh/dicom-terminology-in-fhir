@@ -9,17 +9,18 @@ Treatment Tolerance Violation Cause
 * ^version = "20200624"
 * ^title = "Treatment Tolerance Violation Cause"
 * ^name = "TreatmentToleranceViolationCause"
-* DICOM_DCM_CodeSystem#130461 "Inappropriate Patient Orientation" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130461 //"Inappropriate Patient Orientation" 
 
-* DICOM_DCM_CodeSystem#130462 "Inappropriate Patient Position" 
+* DICOM_DCM_CodeSystem#130462 //"Inappropriate Patient Position" 
 
-* DICOM_DCM_CodeSystem#130463 "Machine Not Available" 
+* DICOM_DCM_CodeSystem#130463 //"Machine Not Available" 
 
-* DICOM_DCM_CodeSystem#130464 "Change in Patient Anatomy" 
+* DICOM_DCM_CodeSystem#130464 //"Change in Patient Anatomy" 
 
-* DICOM_DCM_CodeSystem#130465 "Machine Calibration Adjustment" 
+* DICOM_DCM_CodeSystem#130465 //"Machine Calibration Adjustment" 
 
-* DICOM_DCM_CodeSystem#130466 "Unavailability of a Beam Modifier" 
+* DICOM_DCM_CodeSystem#130466 //"Unavailability of a Beam Modifier" 
 
-* DICOM_DCM_CodeSystem#130467 "Machine Capability License Expired" 
+* DICOM_DCM_CodeSystem#130467 //"Machine Capability License Expired" 
 

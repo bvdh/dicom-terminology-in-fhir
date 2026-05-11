@@ -9,19 +9,20 @@ In a prior version of this table, the code T-D1217 was specified for the concept
 * ^version = "20150318"
 * ^title = "Anatomic Region for Intra-oral Radiography"
 * ^name = "AnatomicRegionForIntraoralRadiography"
-* http://snomed.info/sct#661005 "Jaw region" 
-* http://snomed.info/srt#T-D1213 "Jaw region" 
-* http://terminology.hl7.org/CodeSystem/umls#C3887617 "Jaw region" 
+* ^experimental = false
+* http://snomed.info/sct#661005 //"Jaw region" 
+* http://snomed.info/srt#T-D1213 //"Jaw region" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C3887617 //"Jaw region" 
 
-* http://snomed.info/sct#70925003 "Maxilla" 
-* http://snomed.info/srt#T-11170 "Maxilla" 
-* http://terminology.hl7.org/CodeSystem/umls#C0024947 "Maxilla" 
+* http://snomed.info/sct#70925003 //"Maxilla" 
+* http://snomed.info/srt#T-11170 //"Maxilla" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0024947 //"Maxilla" 
 
-* http://snomed.info/sct#91609006 "Mandible" 
-* http://snomed.info/srt#T-11180 "Mandible" 
-* http://terminology.hl7.org/CodeSystem/umls#C0024687 "Mandible" 
+* http://snomed.info/sct#91609006 //"Mandible" 
+* http://snomed.info/srt#T-11180 //"Mandible" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0024687 //"Mandible" 
 
-* http://snomed.info/sct#28035005 "Teeth, gums and supporting structures" 
-* http://snomed.info/srt#T-54000 "Teeth, gums and supporting structures" 
-* http://terminology.hl7.org/CodeSystem/umls#C0702127 "Teeth, gums and supporting structures" 
+* http://snomed.info/sct#28035005 //"Teeth, gums and supporting structures" 
+* http://snomed.info/srt#T-54000 //"Teeth, gums and supporting structures" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0702127 //"Teeth, gums and supporting structures" 
 

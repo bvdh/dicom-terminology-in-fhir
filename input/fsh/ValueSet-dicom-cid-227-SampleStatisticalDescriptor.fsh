@@ -9,7 +9,8 @@ Sample Statistical Descriptor
 * ^version = "20030327"
 * ^title = "Sample Statistical Descriptor"
 * ^name = "SampleStatisticalDescriptor"
-* DICOM_DCM_CodeSystem#121415 "Percentile Ranking of measurement" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121415 //"Percentile Ranking of measurement" 
 
-* DICOM_DCM_CodeSystem#121416 "Z-Score of measurement" 
+* DICOM_DCM_CodeSystem#121416 //"Z-Score of measurement" 
 

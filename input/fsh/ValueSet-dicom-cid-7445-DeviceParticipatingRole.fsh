@@ -9,9 +9,10 @@ Device Participating Role
 * ^version = "20120406"
 * ^title = "Device Participating Role"
 * ^name = "DeviceParticipatingRole"
-* DICOM_DCM_CodeSystem#113859 "Irradiating Device" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113859 //"Irradiating Device" 
 
-* DICOM_DCM_CodeSystem#121097 "Recording" 
+* DICOM_DCM_CodeSystem#121097 //"Recording" 
 
-* DICOM_DCM_CodeSystem#113942 "X-Ray Reading Device" 
+* DICOM_DCM_CodeSystem#113942 //"X-Ray Reading Device" 
 

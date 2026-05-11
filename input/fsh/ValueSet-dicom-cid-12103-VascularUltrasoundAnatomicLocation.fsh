@@ -9,6 +9,7 @@ Vascular Ultrasound Anatomic Location
 * ^version = "20030327"
 * ^title = "Vascular Ultrasound Anatomic Location"
 * ^name = "VascularUltrasoundAnatomicLocation"
+* ^experimental = false
 * include codes from valueset CID_12104
 
 * include codes from valueset CID_12105

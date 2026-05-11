@@ -9,13 +9,14 @@ Related Series Purpose of Reference
 * ^version = "20140627"
 * ^title = "Related Series Purpose of Reference"
 * ^name = "RelatedSeriesPurposeOfReference"
-* DICOM_DCM_CodeSystem#122400 "Simultaneously Acquired" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122400 //"Simultaneously Acquired" 
 
-* DICOM_DCM_CodeSystem#122401 "Same Anatomy" 
+* DICOM_DCM_CodeSystem#122401 //"Same Anatomy" 
 
-* DICOM_DCM_CodeSystem#122402 "Same Indication" 
+* DICOM_DCM_CodeSystem#122402 //"Same Indication" 
 
-* DICOM_DCM_CodeSystem#122403 "For Attenuation Correction" 
+* DICOM_DCM_CodeSystem#122403 //"For Attenuation Correction" 
 
-* DICOM_DCM_CodeSystem#121323 "Source series for image processing operation" 
+* DICOM_DCM_CodeSystem#121323 //"Source series for image processing operation" 
 

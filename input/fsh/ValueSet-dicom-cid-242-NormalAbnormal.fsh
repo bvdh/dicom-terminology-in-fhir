@@ -9,15 +9,16 @@ Normal-Abnormal
 * ^version = "20170914"
 * ^title = "Normal-Abnormal"
 * ^name = "NormalAbnormal"
-* http://snomed.info/sct#17621005 "Normal" 
-* http://snomed.info/srt#G-A460 "Normal" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205307 "Normal" 
+* ^experimental = false
+* http://snomed.info/sct#17621005 //"Normal" 
+* http://snomed.info/srt#G-A460 //"Normal" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205307 //"Normal" 
 
-* http://snomed.info/sct#263654008 "Abnormal" 
-* http://snomed.info/srt#R-42037 "Abnormal" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205161 "Abnormal" 
+* http://snomed.info/sct#263654008 //"Abnormal" 
+* http://snomed.info/srt#R-42037 //"Abnormal" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205161 //"Abnormal" 
 
-* http://snomed.info/sct#371934000 "Normality Undetermined" 
-* http://snomed.info/srt#R-0039B "Normality Undetermined" 
-* http://terminology.hl7.org/CodeSystem/umls#C1299401 "Normality Undetermined" 
+* http://snomed.info/sct#371934000 //"Normality Undetermined" 
+* http://snomed.info/srt#R-0039B //"Normality Undetermined" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1299401 //"Normality Undetermined" 
 

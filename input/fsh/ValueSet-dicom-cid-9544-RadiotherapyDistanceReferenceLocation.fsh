@@ -9,7 +9,8 @@ Radiotherapy Distance Reference Location
 * ^version = "20190715"
 * ^title = "Radiotherapy Distance Reference Location"
 * ^name = "RadiotherapyDistanceReferenceLocation"
-* DICOM_DCM_CodeSystem#130358 "Nominal Radiation Source Location" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130358 //"Nominal Radiation Source Location" 
 
-* DICOM_DCM_CodeSystem#130359 "Treatment Machine Isocenter" 
+* DICOM_DCM_CodeSystem#130359 //"Treatment Machine Isocenter" 
 

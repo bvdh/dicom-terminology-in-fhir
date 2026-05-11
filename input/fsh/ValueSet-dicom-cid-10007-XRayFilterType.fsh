@@ -9,13 +9,14 @@ X-Ray Filter Type
 * ^version = "20131010"
 * ^title = "X-Ray Filter Type"
 * ^name = "XRayFilterType"
-* DICOM_DCM_CodeSystem#113650 "Strip filter" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113650 //"Strip filter" 
 
-* DICOM_DCM_CodeSystem#113651 "Wedge filter" 
+* DICOM_DCM_CodeSystem#113651 //"Wedge filter" 
 
-* DICOM_DCM_CodeSystem#113652 "Butterfly filter" 
+* DICOM_DCM_CodeSystem#113652 //"Butterfly filter" 
 
-* DICOM_DCM_CodeSystem#113653 "Flat filter" 
+* DICOM_DCM_CodeSystem#113653 //"Flat filter" 
 
-* DICOM_DCM_CodeSystem#111609 "No Filter" 
+* DICOM_DCM_CodeSystem#111609 //"No Filter" 
 

@@ -9,5 +9,6 @@ Echocardiography Anatomic Site Modifier
 * ^version = "20030918"
 * ^title = "Echocardiography Anatomic Site Modifier"
 * ^name = "EchocardiographyAnatomicSiteModifier"
+* ^experimental = false
 * include codes from valueset CID_12219
 

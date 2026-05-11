@@ -9,5 +9,6 @@ C-Arm Photon-Electron Delivery Rate Unit
 * ^version = "20190715"
 * ^title = "C-Arm Photon-Electron Delivery Rate Unit"
 * ^name = "CArmPhotonElectronDeliveryRateUnit"
-* http://unitsofmeasure.org#{MU}/s "Monitor Units/Second" 
+* ^experimental = false
+* http://unitsofmeasure.org#{MU}/s //"Monitor Units/Second" 
 

@@ -9,6 +9,7 @@ Measurement Range Concept
 * ^version = "20030327"
 * ^title = "Measurement Range Concept"
 * ^name = "MeasurementRangeConcept"
+* ^experimental = false
 * include codes from valueset CID_226
 
 * include codes from valueset CID_227

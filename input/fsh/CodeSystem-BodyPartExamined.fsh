@@ -6,696 +6,696 @@ Description: "Body part examined codes extracted from DICOM PS3.16 Table L-1 and
 * ^content = #complete
 * ^experimental = false
 
-* ^version = "2025.?.20251120"
+* ^version = "2026.2.20260327"
 
 
-
-* #NECKCHEST "Neck and Chest" "Neck and Chest"
-
-* #ABDOMEN "Abdomen" "Abdomen"
-
-* #THALAMUS "Thalamus" "Thalamus"
-
-* #FEMORALV "Femoral vein" "Femoral vein"
-
-* #PROSTATE "Prostate" "Prostate"
-
-* #FOREARM "Forearm" "Forearm"
-
-* #PROFFEMV "Profunda femoris vein" "Profunda femoris vein"
-
-* #SPLENICA "Splenic artery" "Splenic artery"
-
-* #HIP "Hip joint" "Hip joint"
-
-* #RENALV "Renal vein" "Renal vein"
-
-* #PANCREAS "Pancreas" "Pancreas"
-
-* #FEMORALA "Femoral artery" "Femoral artery"
-
-* #GLUTEAL "Gluteal region" "Gluteal region"
-
-* #EXTILIACA "External iliac artery" "External iliac artery"
-
-* #BILIARYTRACT "Biliary tract" "Biliary tract"
-
-* #FEMUR "Femur" "Femur"
-
-* #VAGINA "Vagina" "Vagina"
-
-* #PELVISLOWEXTREMT "Pelvis and lower extremities" "Pelvis and lower extremities"
-
-* #INTILIACA "Internal iliac artery" "Internal iliac artery"
-
-* #FOOT "Foot" "Foot"
-
-* #SUPRAPUBIC "Suprapubic region" "Suprapubic region"
-
-* #ANTECUBITALV "Antecubital vein" "Antecubital vein"
-
-* #MOUTH "Mouth" "Mouth"
-
-* #SELLA "Sella turcica" "Sella turcica"
-
-* #URETHRA "Urethra" "Urethra"
-
-* #ATLANTOOCCIPITAL "Atlanto-occipital joint" "Atlanto-occipital joint"
-
-* #FACE "Face" "Face"
-
-* #RFEMORALA "Right femoral artery" "Right femoral artery"
-
-* #LPULMONARYA "Left pulmonary artery" "Left pulmonary artery"
-
-* #ORBIT "Orbital structure" "Orbital structure"
-
-* #SUBMANDIBULAR "Submandibular gland" "Submandibular gland"
-
-* #FLANK "Flank" "Flank"
-
-* #COLON "Colon" "Colon"
-
-* #CALF "Calf of leg" "Calf of leg"
-
-* #CHEST "Chest" "Chest"
-
-* #SMALLINTESTINE "Small intestine" "Small intestine"
 
 * #3RDVENTRICLE "Third ventricle" "Third ventricle"
 
-* #FETALDIGIT "Fetal digit" "Fetal digit"
+* #4THVENTRICLE "Fourth ventricle" "Fourth ventricle"
 
-* #BREAST "Breast" "Breast"
-
-* #COCCYX "Coccyx" "Coccyx"
-
-* #LUNG "Lung" "Lung"
-
-* #ARTERY "Artery" "Artery"
-
-* #LVENTRICLE "Left ventricle" "Left ventricle"
-
-* #UPPERTRUNK "Upper trunk" "Upper trunk"
-
-* #LATVENTRICLE "Lateral Ventricle" "Lateral Ventricle"
-
-* #ELBOW "Elbow joint" "Elbow joint"
-
-* #SHOULDER "Shoulder" "Shoulder"
-
-* #OCCIPTALV "Occipital vein" "Occipital vein"
-
-* #LACRIMALA "Lacrimal artery" "Lacrimal artery"
-
-* #POPLITEALFOSSA "Popliteal fossa" "Popliteal fossa"
-
-* #THORACICAORTA "Thoracic aorta" "Thoracic aorta"
-
-* #SPLENICV "Splenic vein" "Splenic vein"
-
-* #HEART "Heart" "Heart"
-
-* #SCJOINT "Sternoclavicular joint" "Sternoclavicular joint"
-
-* #CCA "Common carotid artery" "Common carotid artery"
-
-* #EXTREMITY "Extremity" "Extremity"
-
-* #TSPINE "Thoracic spine" "Thoracic spine"
-
-* #LHEPATICV "Left hepatic vein" "Left hepatic vein"
-
-* #PHARYNX "Pharynx" "Pharynx"
-
-* #COMMONBILEDUCT "Common bile duct" "Common bile duct"
-
-* #SCLERA "Sclera" "Sclera"
-
-* #RUQ "Right upper quadrant of abdomen" "Right upper quadrant of abdomen"
-
-* #POSTIBIALA "Posterior tibial artery" "Posterior tibial artery"
-
-* #CARDIOVASCSYS "Cardiovascular system" "Cardiovascular system"
-
-* #RADIALA "Radial artery" "Radial artery"
-
-* #CEREBRALA "Cerebral artery" "Cerebral artery"
-
-* #ENDONASAL "Endo-nasal" "Endo-nasal"
-
-* #SCALP "Scalp" "Scalp"
-
-* #ENDOURETHRAL "Endo-urethral" "Endo-urethral"
-
-* #RLQ "Right lower quadrant of abdomen" "Right lower quadrant of abdomen"
-
-* #CARPUS "Carpus" "Carpus"
-
-* #UPPERARM "Upper arm" "Upper arm"
-
-* #CEREBELLUM "Cerebellum" "Cerebellum"
-
-* #LINGUALA "Lingual artery" "Lingual artery"
-
-* #MANDIBLE "Mandible" "Mandible"
-
-* #MESENTRICA "Mesenteric artery" "Mesenteric artery"
-
-* #RENALA "Renal artery" "Renal artery"
-
-* #PENILEA "Penile artery" "Penile artery"
-
-* #RETROPERITONEUM "Retroperitoneum" "Retroperitoneum"
-
-* #STOMACH "Stomach" "Stomach"
-
-* #WHOLEBODY "Entire body" "Entire body"
-
-* #PULMONARYV "Pulmonary vein" "Pulmonary vein"
-
-* #FOREFOOT "Forefoot" "Forefoot"
-
-* #BUTTOCK "Buttock" "Buttock"
-
-* #SUPTHYROIDA "Superior thyroid artery" "Superior thyroid artery"
-
-* #TAIL "Coccygeal vertrebrae" "Coccygeal vertrebrae"
-
-* #GASTRICV "Gastric vein" "Gastric vein"
-
-* #LARYNX "Larynx" "Larynx"
-
-* #PARATHYROID "Parathyroid" "Parathyroid"
+* #ABDOMEN "Abdomen" "Abdomen"
 
 * #ABDOMENPELVIS "Abdomen and Pelvis" "Abdomen and Pelvis"
 
-* #SEMVESICLE "Seminal vesicle" "Seminal vesicle"
+* #ABDOMINALAORTA "Abdominal aorta" "Abdominal aorta"
 
-* #LUQ "Left upper quadrant of abdomen" "Left upper quadrant of abdomen"
-
-* #CHOROIDPLEXUS "Choroid plexus" "Choroid plexus"
-
-* #FOREFETLOCK "Fetlock of forelimb" "Fetlock of forelimb"
-
-* #CULDESAC "Rectouterine pouch" "Rectouterine pouch"
-
-* #JEJUNUM "Jejunum" "Jejunum"
-
-* #PORTALV "Portal vein" "Portal vein"
-
-* #SAPHENOUSV "Saphenous vein" "Saphenous vein"
-
-* #FACIALA "Facial artery" "Facial artery"
-
-* #ENDOESOPHAGEAL "Endo-esophageal" "Endo-esophageal"
-
-* #ATLANTOAXIAL "Atlantal-axial joint" "Atlantal-axial joint"
-
-* #FETALLEG "Fetal leg" "Fetal leg"
-
-* #LFEMORALA "Left femoral artery" "Left femoral artery"
-
-* #PENIS "Penis" "Penis"
-
-* #UMBILICAL "Umbilical region" "Umbilical region"
-
-* #BRONCHUS "Bronchus" "Bronchus"
-
-* #CORNEA "Cornea" "Cornea"
-
-* #BLADDER "Bladder" "Bladder"
-
-* #MESENTRICV "Mesenteric vein" "Mesenteric vein"
-
-* #MCA "Middle cerebral artery" "Middle cerebral artery"
-
-* #PARASTERNAL "Parasternal" "Parasternal"
-
-* #ECA "External carotid artery" "External carotid artery"
-
-* #AXILLA "Axilla" "Axilla"
-
-* #HUMERUS "Humerus" "Humerus"
-
-* #ILIUM "Ilium" "Ilium"
-
-* #CHESTABDPELVIS "Chest, Abdomen and Pelvis" "Chest, Abdomen and Pelvis"
-
-* #LUMBAR "Lumbar region" "Lumbar region"
-
-* #CSPINE "Cervical spine" "Cervical spine"
-
-* #URINARYTRACT "Urinary tract" "Urinary tract"
-
-* #ENDOURETERIC "Endo-ureteric" "Endo-ureteric"
-
-* #IAC "Internal Auditory Canal" "Internal Auditory Canal"
-
-* #OPHTHALMICA "Ophthalmic artery" "Ophthalmic artery"
-
-* #HYPOPHARYNX "Hypopharynx" "Hypopharynx"
-
-* #THORAX "Chest" "Chest"
-
-* #SUPRACLAVICULAR "Supraclavicular region of neck" "Supraclavicular region of neck"
-
-* #RADIUS "Radius" "Radius"
-
-* #ASCAORTA "Ascending aorta" "Ascending aorta"
-
-* #ULNA "Ulna" "Ulna"
-
-* #LPORTALV "Left portal vein" "Left portal vein"
-
-* #SFA "Superficial femoral artery" "Superficial femoral artery"
-
-* #PERINEUM "Perineum" "Perineum"
-
-* #PELVIS "Pelvis" "Pelvis"
-
-* #ILIACA "Iliac artery" "Iliac artery"
-
-* #OPTICCANAL "Optic canal" "Optic canal"
-
-* #TMJ "Temporomandibular joint" "Temporomandibular joint"
-
-* #SUBCLAVIANA "Subclavian artery" "Subclavian artery"
-
-* #CELIACA "Celiac artery" "Celiac artery"
-
-* #BRAIN "Brain" "Brain"
-
-* #MEDIASTINUM "Mediastinum" "Mediastinum"
-
-* #LOWERLIMB "Lower limb" "Lower limb"
-
-* #BULB "Carotid bulb" "Carotid bulb"
-
-* #PULMONARYA "Pulmonary artery" "Pulmonary artery"
-
-* #TARSUS "Tarsus" "Tarsus"
-
-* #POPLITEALV "Popliteal vein" "Popliteal vein"
-
-* #AXILLARYA "Axillary Artery" "Axillary Artery"
-
-* #BASILARA "Basilar artery" "Basilar artery"
-
-* #FONTANEL "Fontanel of skull" "Fontanel of skull"
-
-* #NECK "Neck" "Neck"
-
-* #ANTCOMMA "Anterior communicating artery" "Anterior communicating artery"
+* #ACA "Anterior cerebral artery" "Anterior cerebral artery"
 
 * #ACJOINT "Acromioclavicular joint" "Acromioclavicular joint"
 
-* #CERVIX "Cervix" "Cervix"
-
-* #SCAPULA "Scapula" "Scapula"
-
-* #NOSE "Nose" "Nose"
-
-* #RVENTRICLE "Right ventricle" "Right ventricle"
-
-* #APPENDIX "Appendix" "Appendix"
-
-* #LSSPINE "Lumbo-sacral spine" "Lumbo-sacral spine"
-
-* #PCA "Posterior cerebral artery" "Posterior cerebral artery"
-
-* #UGITRACT "Upper gastro-intestinal tract" "Upper gastro-intestinal tract"
-
-* #SPINE "Spine" "Spine"
-
-* #LHYPOCHONDRIAC "Left hypochondriac region" "Left hypochondriac region"
-
-* #SVC "Superior vena cava" "Superior vena cava"
-
-* #FIBULA "Fibula" "Fibula"
-
-* #RINGUINAL "Right inguinal region" "Right inguinal region"
-
-* #TRUNK "Trunk" "Trunk"
-
-* #CIRCLEOFWILLIS "Circle of Willis" "Circle of Willis"
-
-* #SCROTUM "Scrotum" "Scrotum"
-
-* #ANTSPINALA "Anterior spinal artery" "Anterior spinal artery"
-
-* #INNOMINATEV "Innominate vein" "Innominate vein"
-
-* #ENDOVASCULAR "Endo-vascular" "Endo-vascular"
-
-* #ILEUM "Ileum" "Ileum"
-
-* #THYROID "Thyroid" "Thyroid"
-
-* #ENDOVESICAL "Endo-vesical" "Endo-vesical"
-
-* #ENDOVENOUS "Endo-venous" "Endo-venous"
-
-* #HAND "Hand" "Hand"
-
-* #LUMBARA "Lumbar artery" "Lumbar artery"
-
-* #ABDOMINALAORTA "Abdominal aorta" "Abdominal aorta"
-
-* #TONGUE "Tongue" "Tongue"
-
-* #POSCOMMA "Posterior communicating artery" "Posterior communicating artery"
-
-* #KNEE "Knee" "Knee"
-
-* #FETALHEART "Fetal heart" "Fetal heart"
-
-* #CEREBHEMISPHERE "Cerebral hemisphere" "Cerebral hemisphere"
-
-* #FRONTALSINUS "Frontal sinus" "Frontal sinus"
-
-* #NASOPHARYNX "Nasopharynx" "Nasopharynx"
-
-* #EYE "Eye" "Eye"
-
-* #MASTOID "Mastoid bone" "Mastoid bone"
-
-* #ENDORENAL "Endo-renal" "Endo-renal"
-
-* #LOWERTRUNK "Lower trunk" "Lower trunk"
-
-* #LUMEN "Lumen of blood vessel" "Lumen of blood vessel"
-
-* #SSPINE "Sacrum" "Sacrum"
-
-* #AZYGOSVEIN "Azygos vein" "Azygos vein"
-
 * #ADRENAL "Adrenal gland" "Adrenal gland"
-
-* #DISTALPHALANX "Distal phalanx" "Distal phalanx"
-
-* #EAC "External auditory canal" "External auditory canal"
-
-* #CEPHALICV "Cephalic vein" "Cephalic vein"
-
-* #ENDOCARDIAC "Endo-cardiac" "Endo-cardiac"
-
-* #LIVER "Liver" "Liver"
-
-* #SFV "Superficial femoral vein" "Superficial femoral vein"
-
-* #LLUMBAR "Left lumbar region" "Left lumbar region"
-
-* #HEPATICV "Hepatic vein" "Hepatic vein"
-
-* #KIDNEY "Kidney" "Kidney"
-
-* #INTMAMMARYA "Internal mammary artery" "Internal mammary artery"
-
-* #UPPERLIMB "Upper limb" "Upper limb"
-
-* #EXTILIACV "External iliac vein" "External iliac vein"
-
-* #INTJUGULARV "Internal jugular vein" "Internal jugular vein"
-
-* #FORENAVICULAR "Navicular of forefoot" "Navicular of forefoot"
-
-* #INNOMINATEA "Innominate artery" "Innominate artery"
-
-* #HINDPASTERN "Pastern of hindfoot" "Pastern of hindfoot"
-
-* #CTSPINE "Cervico-thoracic spine" "Cervico-thoracic spine"
-
-* #WRIST "Wrist joint" "Wrist joint"
-
-* #LINGUINAL "Left inguinal region" "Left inguinal region"
-
-* #SIJOINT "Sacroiliac joint" "Sacroiliac joint"
-
-* #ENDORECTAL "Endo-rectal" "Endo-rectal"
-
-* #CAROTID "Carotid Artery" "Carotid Artery"
-
-* #METACARPUS "Metacarpus" "Metacarpus"
-
-* #RSUPPULMONARYV "Superior right pulmonary vein" "Superior right pulmonary vein"
-
-* #SPINALCORD "Spinal cord" "Spinal cord"
-
-* #EPIDIDYMIS "Epididymis" "Epididymis"
-
-* #BACK "Back" "Back"
-
-* #DUODENUM "Duodenum" "Duodenum"
-
-* #ENDOVAGINAL "Endo-vaginal" "Endo-vaginal"
-
-* #LSPINE "Lumbar spine" "Lumbar spine"
-
-* #ANTTIBIALA "Anterior tibial artery" "Anterior tibial artery"
-
-* #RHYPOCHONDRIAC "Right hypochondriac region" "Right hypochondriac region"
-
-* #CHEEK "Cheek" "Cheek"
-
-* #INTRACRANIAL "Intracranial" "Intracranial"
-
-* #TIBIA "Tibia" "Tibia"
-
-* #FOREPASTERN "Pastern of forefoot" "Pastern of forefoot"
-
-* #VERTEBRALA "Vertebral artery" "Vertebral artery"
-
-* #GALLBLADDER "Gallbladder" "Gallbladder"
-
-* #PATELLA "Patella" "Patella"
-
-* #CORONARYSINUS "Coronary sinus" "Coronary sinus"
-
-* #ENDOARTERIAL "Endo-arterial" "Endo-arterial"
-
-* #OVARY "Ovary" "Ovary"
-
-* #UMBILICALA "Umbilical artery" "Umbilical artery"
-
-* #ANTCARDIACV "Anterior cardiac vein" "Anterior cardiac vein"
-
-* #POPLITEALA "Popliteal artery" "Popliteal artery"
-
-* #TRACHEA "Trachea" "Trachea"
-
-* #AORTICARCH "Aortic arch" "Aortic arch"
 
 * #AMNIOTICFLUID "Amniotic fluid" "Amniotic fluid"
 
+* #ANKLE "Ankle joint" "Ankle joint"
+
+* #ANTCARDIACV "Anterior cardiac vein" "Anterior cardiac vein"
+
+* #ANTCOMMA "Anterior communicating artery" "Anterior communicating artery"
+
+* #ANTECUBITALV "Antecubital vein" "Antecubital vein"
+
+* #ANTSPINALA "Anterior spinal artery" "Anterior spinal artery"
+
+* #ANTTIBIALA "Anterior tibial artery" "Anterior tibial artery"
+
+* #ANUSRECTUMSIGMD "Anus, rectum and sigmoid colon" "Anus, rectum and sigmoid colon"
+
+* #AORTA "Aorta" "Aorta"
+
+* #AORTICARCH "Aortic arch" "Aortic arch"
+
+* #APPENDIX "Appendix" "Appendix"
+
+* #ARTERY "Artery" "Artery"
+
+* #ASCAORTA "Ascending aorta" "Ascending aorta"
+
+* #ASCENDINGCOLON "Ascending colon" "Ascending colon"
+
+* #ATLANTOAXIAL "Atlantal-axial joint" "Atlantal-axial joint"
+
+* #ATLANTOOCCIPITAL "Atlanto-occipital joint" "Atlanto-occipital joint"
+
+* #AXILLA "Axilla" "Axilla"
+
+* #AXILLARYA "Axillary Artery" "Axillary Artery"
+
+* #AXILLARYV "Axillary vein" "Axillary vein"
+
+* #AZYGOSVEIN "Azygos vein" "Azygos vein"
+
+* #BACK "Back" "Back"
+
+* #BASILARA "Basilar artery" "Basilar artery"
+
+* #BILEDUCT "Bile duct" "Bile duct"
+
+* #BILIARYTRACT "Biliary tract" "Biliary tract"
+
+* #BLADDER "Bladder" "Bladder"
+
+* #BLADDERURETHRA "Bladder and urethra" "Bladder and urethra"
+
+* #BRACHIALA "Brachial artery" "Brachial artery"
+
+* #BRACHIALV "Brachial vein" "Brachial vein"
+
+* #BRAIN "Brain" "Brain"
+
+* #BREAST "Breast" "Breast"
+
+* #BRONCHUS "Bronchus" "Bronchus"
+
+* #BULB "Carotid bulb" "Carotid bulb"
+
+* #BUTTOCK "Buttock" "Buttock"
+
+* #CALCANEUS "Calcaneus" "Calcaneus"
+
+* #CALF "Calf of leg" "Calf of leg"
+
+* #CARDIOVASCSYS "Cardiovascular system" "Cardiovascular system"
+
+* #CAROTID "Carotid Artery" "Carotid Artery"
+
+* #CARPUS "Carpus" "Carpus"
+
+* #CCA "Common carotid artery" "Common carotid artery"
+
+* #CELIACA "Celiac artery" "Celiac artery"
+
+* #CEPHALICV "Cephalic vein" "Cephalic vein"
+
+* #CEREBELLUM "Cerebellum" "Cerebellum"
+
+* #CEREBHEMISPHERE "Cerebral hemisphere" "Cerebral hemisphere"
+
+* #CEREBRALA "Cerebral artery" "Cerebral artery"
+
+* #CERVIX "Cervix" "Cervix"
+
+* #CFA "Common femoral artery" "Common femoral artery"
+
+* #CFV "Common femoral vein" "Common femoral vein"
+
+* #CHEEK "Cheek" "Cheek"
+
+* #CHEST "Chest" "Chest"
+
+* #CHESTABDOMEN "Chest and Abdomen" "Chest and Abdomen"
+
+* #CHESTABDPELVIS "Chest, Abdomen and Pelvis" "Chest, Abdomen and Pelvis"
+
+* #CHOROIDPLEXUS "Choroid plexus" "Choroid plexus"
+
+* #CIRCLEOFWILLIS "Circle of Willis" "Circle of Willis"
+
+* #CLAVICLE "Clavicle" "Clavicle"
+
+* #COCCYX "Coccyx" "Coccyx"
+
+* #COLON "Colon" "Colon"
+
+* #COMILIACA "Common iliac artery" "Common iliac artery"
+
+* #COMILIACV "Common iliac vein" "Common iliac vein"
+
+* #COMMONBILEDUCT "Common bile duct" "Common bile duct"
+
+* #CORNEA "Cornea" "Cornea"
+
+* #CORONARYARTERY "Coronary artery" "Coronary artery"
+
+* #CORONARYSINUS "Coronary sinus" "Coronary sinus"
+
+* #CSPINE "Cervical spine" "Cervical spine"
+
+* #CTSPINE "Cervico-thoracic spine" "Cervico-thoracic spine"
+
+* #CULDESAC "Rectouterine pouch" "Rectouterine pouch"
+
+* #DESCAORTA "Descending aorta" "Descending aorta"
+
+* #DESCENDINGCOLON "Descending colon" "Descending colon"
+
+* #DIGIT "Digit" "Digit"
+
+* #DISTALPHALANX "Distal phalanx" "Distal phalanx"
+
+* #DUODENUM "Duodenum" "Duodenum"
+
+* #EAC "External auditory canal" "External auditory canal"
+
+* #EAR "Ear" "Ear"
+
+* #ECA "External carotid artery" "External carotid artery"
+
+* #ELBOW "Elbow joint" "Elbow joint"
+
+* #ENDOARTERIAL "Endo-arterial" "Endo-arterial"
+
+* #ENDOCARDIAC "Endo-cardiac" "Endo-cardiac"
+
+* #ENDOESOPHAGEAL "Endo-esophageal" "Endo-esophageal"
+
+* #ENDOMETRIUM "Endometrium" "Endometrium"
+
+* #ENDONASAL "Endo-nasal" "Endo-nasal"
+
+* #ENDONASOPHARYNYX "Endo-nasopharyngeal" "Endo-nasopharyngeal"
+
+* #ENDORECTAL "Endo-rectal" "Endo-rectal"
+
+* #ENDORENAL "Endo-renal" "Endo-renal"
+
+* #ENDOURETERIC "Endo-ureteric" "Endo-ureteric"
+
+* #ENDOURETHRAL "Endo-urethral" "Endo-urethral"
+
+* #ENDOVAGINAL "Endo-vaginal" "Endo-vaginal"
+
+* #ENDOVASCULAR "Endo-vascular" "Endo-vascular"
+
+* #ENDOVENOUS "Endo-venous" "Endo-venous"
+
+* #ENDOVESICAL "Endo-vesical" "Endo-vesical"
+
+* #EPIDIDYMIS "Epididymis" "Epididymis"
+
+* #EPIGASTRIC "Epigastric region" "Epigastric region"
+
+* #ESOPHAGUS "Esophagus" "Esophagus"
+
+* #EXTILIACA "External iliac artery" "External iliac artery"
+
+* #EXTILIACV "External iliac vein" "External iliac vein"
+
+* #EXTJUGV "External jugular vein" "External jugular vein"
+
+* #EXTREMITY "Extremity" "Extremity"
+
+* #EYE "Eye" "Eye"
+
+* #EYELID "Eyelid" "Eyelid"
+
+* #FACE "Face" "Face"
+
+* #FACIALA "Facial artery" "Facial artery"
+
+* #FEMORALA "Femoral artery" "Femoral artery"
+
+* #FEMORALV "Femoral vein" "Femoral vein"
+
+* #FEMUR "Femur" "Femur"
+
+* #FETALARM "Fetal arm" "Fetal arm"
+
+* #FETALDIGIT "Fetal digit" "Fetal digit"
+
+* #FETALHEART "Fetal heart" "Fetal heart"
+
+* #FETALLEG "Fetal leg" "Fetal leg"
+
+* #FETALPOLE "Fetal pole" "Fetal pole"
+
+* #FIBULA "Fibula" "Fibula"
+
+* #FINGER "Finger" "Finger"
+
+* #FLANK "Flank" "Flank"
+
+* #FONTANEL "Fontanel of skull" "Fontanel of skull"
+
+* #FOOT "Foot" "Foot"
+
+* #FOREARM "Forearm" "Forearm"
+
+* #FOREFETLOCK "Fetlock of forelimb" "Fetlock of forelimb"
+
+* #FOREFOOT "Forefoot" "Forefoot"
+
+* #FORENAVICULAR "Navicular of forefoot" "Navicular of forefoot"
+
+* #FOREPASTERN "Pastern of forefoot" "Pastern of forefoot"
+
+* #FRONTALSINUS "Frontal sinus" "Frontal sinus"
+
+* #GALLBLADDER "Gallbladder" "Gallbladder"
+
+* #GASTRICV "Gastric vein" "Gastric vein"
+
+* #GENICULARA "Genicular artery" "Genicular artery"
+
+* #GESTSAC "Gestational sac" "Gestational sac"
+
+* #GLUTEAL "Gluteal region" "Gluteal region"
+
+* #GSV "Great saphenous vein" "Great saphenous vein"
+
+* #HAND "Hand" "Hand"
+
+* #HEAD "Head" "Head"
+
 * #HEADNECK "Head and Neck" "Head and Neck"
+
+* #HEART "Heart" "Heart"
+
+* #HEPATICA "Hepatic artery" "Hepatic artery"
+
+* #HEPATICV "Hepatic vein" "Hepatic vein"
+
+* #HINDFETLOCK "Fetlock of hindlimb" "Fetlock of hindlimb"
+
+* #HINDFOOT "Hindfoot" "Hindfoot"
+
+* #HINDNAVICULAR "Navicular of hindfoot" "Navicular of hindfoot"
+
+* #HINDPASTERN "Pastern of hindfoot" "Pastern of hindfoot"
+
+* #HIP "Hip joint" "Hip joint"
+
+* #HUMERUS "Humerus" "Humerus"
+
+* #HYPOGASTRIC "Hypogastric region" "Hypogastric region"
+
+* #HYPOPHARYNX "Hypopharynx" "Hypopharynx"
+
+* #IAC "Internal Auditory Canal" "Internal Auditory Canal"
+
+* #ICA "Internal carotid artery" "Internal carotid artery"
+
+* #ILEUM "Ileum" "Ileum"
+
+* #ILIACA "Iliac artery" "Iliac artery"
+
+* #ILIACV "Iliac vein" "Iliac vein"
+
+* #ILIUM "Ilium" "Ilium"
 
 * #INFMESA "Inferior mesenteric artery" "Inferior mesenteric artery"
 
 * #INFVENACAVA "Inferior vena cava" "Inferior vena cava"
 
-* #RHEPATICV "Right hepatic vein" "Right hepatic vein"
-
-* #HINDNAVICULAR "Navicular of hindfoot" "Navicular of hindfoot"
-
-* #PHANTOM "Phantom" "Phantom"
-
-* #LATRIUM "Left atrium" "Left atrium"
-
-* #TRACHEABRONCHUS "Trachea and bronchus" "Trachea and bronchus"
-
-* #JOINT "Joint" "Joint"
-
-* #SKULL "Skull" "Skull"
-
-* #UPRURINARYTRACT "Upper urinary tract" "Upper urinary tract"
-
-* #PROFFEMA "Profunda femoris artery" "Profunda femoris artery"
-
-* #THIGH "Thigh" "Thigh"
-
-* #RATRIUM "Right atrium" "Right atrium"
-
-* #ESOPHAGUS "Esophagus" "Esophagus"
-
-* #LOWERLEG "Lower leg" "Lower leg"
-
-* #ACA "Anterior cerebral artery" "Anterior cerebral artery"
-
-* #RLUMBAR "Right lumbar region" "Right lumbar region"
-
-* #GESTSAC "Gestational sac" "Gestational sac"
-
-* #4THVENTRICLE "Fourth ventricle" "Fourth ventricle"
-
-* #TIBIAFIBULA "Tibia and fibula" "Tibia and fibula"
-
-* #OCCPITALA "Occipital artery" "Occipital artery"
-
-* #VULVA "Vulva" "Vulva"
-
-* #ENDOMETRIUM "Endometrium" "Endometrium"
-
-* #HEPATICA "Hepatic artery" "Hepatic artery"
-
-* #STERNUM "Sternum" "Sternum"
-
-* #UTERUS "Uterus" "Uterus"
-
-* #ILIACV "Iliac vein" "Iliac vein"
-
-* #RECTUM "Rectum" "Rectum"
-
-* #THUMB "Thumb" "Thumb"
-
-* #SFJ "Saphenofemoral junction" "Saphenofemoral junction"
-
-* #METATARSUS "Metatarsus" "Metatarsus"
-
-* #AXILLARYV "Axillary vein" "Axillary vein"
-
-* #CHESTABDOMEN "Chest and Abdomen" "Chest and Abdomen"
-
-* #NECKCHESTABDOMEN "Neck, Chest and Abdomen" "Neck, Chest and Abdomen"
-
-* #PHARYNXLARYNX "Pharynx and larynx" "Pharynx and larynx"
-
-* #PERONEALA "Peroneal artery" "Peroneal artery"
-
-* #DIGIT "Digit" "Digit"
-
-* #EPIGASTRIC "Epigastric region" "Epigastric region"
-
-* #FETALARM "Fetal arm" "Fetal arm"
-
-* #GENICULARA "Genicular artery" "Genicular artery"
-
-* #SMA "Superior mesenteric artery" "Superior mesenteric artery"
-
 * #INGUINAL "Inguinal region" "Inguinal region"
 
-* #ANUSRECTUMSIGMD "Anus, rectum and sigmoid colon" "Anus, rectum and sigmoid colon"
+* #INNOMINATEA "Innominate artery" "Innominate artery"
 
-* #LLQ "Left lower quadrant of abdomen" "Left lower quadrant of abdomen"
+* #INNOMINATEV "Innominate vein" "Innominate vein"
 
-* #NECKCHESTABDPELV "Neck, Chest, Abdomen and Pelvis" "Neck, Chest, Abdomen and Pelvis"
+* #INTILIACA "Internal iliac artery" "Internal iliac artery"
 
-* #CALCANEUS "Calcaneus" "Calcaneus"
+* #INTJUGULARV "Internal jugular vein" "Internal jugular vein"
 
-* #BLADDERURETHRA "Bladder and urethra" "Bladder and urethra"
+* #INTMAMMARYA "Internal mammary artery" "Internal mammary artery"
 
-* #RPORTALV "Right portal vein" "Right portal vein"
-
-* #UMBILICALV "Umbilical vein" "Umbilical vein"
-
-* #WING "Wing" "Wing"
-
-* #TESTIS "Testis" "Testis"
-
-* #DESCAORTA "Descending aorta" "Descending aorta"
-
-* #HEAD "Head" "Head"
-
-* #CLAVICLE "Clavicle" "Clavicle"
-
-* #MAXILLA "Maxilla" "Maxilla"
-
-* #THYMUS "Thymus" "Thymus"
-
-* #COMILIACA "Common iliac artery" "Common iliac artery"
-
-* #ASCENDINGCOLON "Ascending colon" "Ascending colon"
-
-* #DESCENDINGCOLON "Descending colon" "Descending colon"
-
-* #STIFLE "Stiffle" "Stiffle"
-
-* #RIB "Rib" "Rib"
-
-* #COMILIACV "Common iliac vein" "Common iliac vein"
-
-* #MORISONSPOUCH "Morisons pouch" "Morisons pouch"
-
-* #RADIUSULNA "Radius and ulna" "Radius and ulna"
-
-* #MIDHEPATICV "Middle hepatic vein" "Middle hepatic vein"
-
-* #FINGER "Finger" "Finger"
-
-* #ICA "Internal carotid artery" "Internal carotid artery"
-
-* #ULNARA "Ulnar artery" "Ulnar artery"
-
-* #ZYGOMA "Zygoma" "Zygoma"
-
-* #BRACHIALA "Brachial artery" "Brachial artery"
-
-* #VEIN "Vein" "Vein"
-
-* #SUBCOSTAL "Subcostal" "Subcostal"
-
-* #LARGEINTESTINE "Large intestine" "Large intestine"
-
-* #CFA "Common femoral artery" "Common femoral artery"
-
-* #BILEDUCT "Bile duct" "Bile duct"
-
-* #FETALPOLE "Fetal pole" "Fetal pole"
-
-* #CFV "Common femoral vein" "Common femoral vein"
-
-* #ENDONASOPHARYNYX "Endo-nasopharyngeal" "Endo-nasopharyngeal"
-
-* #RPULMONARYA "Right pulmonary artery" "Right pulmonary artery"
-
-* #SESAMOID "Sesamoid bones of foot" "Sesamoid bones of foot"
-
-* #TOE "Toe" "Toe"
-
-* #HINDFOOT "Hindfoot" "Hindfoot"
+* #INTRACRANIAL "Intracranial" "Intracranial"
 
 * #JAW "Jaw region, Mandible" "Jaw region, Mandible"
 
-* #BRACHIALV "Brachial vein" "Brachial vein"
+* #JEJUNUM "Jejunum" "Jejunum"
 
-* #GSV "Great saphenous vein" "Great saphenous vein"
+* #JOINT "Joint" "Joint"
 
-* #SIGMOID "Sigmoid colon" "Sigmoid colon"
+* #KIDNEY "Kidney" "Kidney"
 
-* #PANCBILEDUCT "Pancreatic duct and bile duct systems" "Pancreatic duct and bile duct systems"
+* #KNEE "Knee" "Knee"
 
-* #PAROTID "Parotid gland" "Parotid gland"
+* #LACRIMALA "Lacrimal artery" "Lacrimal artery"
 
-* #EYELID "Eyelid" "Eyelid"
+* #LARGEINTESTINE "Large intestine" "Large intestine"
 
-* #AORTA "Aorta" "Aorta"
+* #LARYNX "Larynx" "Larynx"
 
-* #ANKLE "Ankle joint" "Ankle joint"
+* #LATRIUM "Left atrium" "Left atrium"
 
-* #SPLEEN "Spleen" "Spleen"
-
-* #HINDFETLOCK "Fetlock of hindlimb" "Fetlock of hindlimb"
+* #LATVENTRICLE "Lateral Ventricle" "Lateral Ventricle"
 
 * #LEGS "All legs" "All legs"
 
-* #CORONARYARTERY "Coronary artery" "Coronary artery"
+* #LFEMORALA "Left femoral artery" "Left femoral artery"
 
-* #PANCREATICDUCT "Pancreatic duct" "Pancreatic duct"
+* #LHEPATICV "Left hepatic vein" "Left hepatic vein"
 
-* #EXTJUGV "External jugular vein" "External jugular vein"
+* #LHYPOCHONDRIAC "Left hypochondriac region" "Left hypochondriac region"
 
-* #SUBCLAVIANV "Subclavian vein" "Subclavian vein"
+* #LINGUALA "Lingual artery" "Lingual artery"
 
-* #EAR "Ear" "Ear"
+* #LINGUINAL "Left inguinal region" "Left inguinal region"
 
-* #PLACENTA "Placenta" "Placenta"
+* #LIVER "Liver" "Liver"
 
-* #TLSPINE "Thoraco-lumbar spine" "Thoraco-lumbar spine"
+* #LLQ "Left lower quadrant of abdomen" "Left lower quadrant of abdomen"
 
-* #HYPOGASTRIC "Hypogastric region" "Hypogastric region"
+* #LLUMBAR "Left lumbar region" "Left lumbar region"
 
-* #URETER "Ureter" "Ureter"
+* #LOWERLEG "Lower leg" "Lower leg"
+
+* #LOWERLIMB "Lower limb" "Lower limb"
+
+* #LOWERTRUNK "Lower trunk" "Lower trunk"
+
+* #LPORTALV "Left portal vein" "Left portal vein"
+
+* #LPULMONARYA "Left pulmonary artery" "Left pulmonary artery"
+
+* #LSPINE "Lumbar spine" "Lumbar spine"
+
+* #LSSPINE "Lumbo-sacral spine" "Lumbo-sacral spine"
 
 * #LSUPPULMONARYV "Superior left pulmonary vein" "Superior left pulmonary vein"
 
+* #LUMBAR "Lumbar region" "Lumbar region"
+
+* #LUMBARA "Lumbar artery" "Lumbar artery"
+
+* #LUMEN "Lumen of blood vessel" "Lumen of blood vessel"
+
+* #LUNG "Lung" "Lung"
+
+* #LUQ "Left upper quadrant of abdomen" "Left upper quadrant of abdomen"
+
+* #LVENTRICLE "Left ventricle" "Left ventricle"
+
+* #MANDIBLE "Mandible" "Mandible"
+
+* #MASTOID "Mastoid bone" "Mastoid bone"
+
+* #MAXILLA "Maxilla" "Maxilla"
+
+* #MCA "Middle cerebral artery" "Middle cerebral artery"
+
+* #MEDIASTINUM "Mediastinum" "Mediastinum"
+
+* #MESENTRICA "Mesenteric artery" "Mesenteric artery"
+
+* #MESENTRICV "Mesenteric vein" "Mesenteric vein"
+
+* #METACARPUS "Metacarpus" "Metacarpus"
+
+* #METATARSUS "Metatarsus" "Metatarsus"
+
+* #MIDHEPATICV "Middle hepatic vein" "Middle hepatic vein"
+
+* #MORISONSPOUCH "Morisons pouch" "Morisons pouch"
+
+* #MOUTH "Mouth" "Mouth"
+
+* #NASOPHARYNX "Nasopharynx" "Nasopharynx"
+
+* #NECK "Neck" "Neck"
+
+* #NECKCHEST "Neck and Chest" "Neck and Chest"
+
+* #NECKCHESTABDOMEN "Neck, Chest and Abdomen" "Neck, Chest and Abdomen"
+
+* #NECKCHESTABDPELV "Neck, Chest, Abdomen and Pelvis" "Neck, Chest, Abdomen and Pelvis"
+
+* #NOSE "Nose" "Nose"
+
+* #OCCIPTALV "Occipital vein" "Occipital vein"
+
+* #OCCPITALA "Occipital artery" "Occipital artery"
+
+* #OPHTHALMICA "Ophthalmic artery" "Ophthalmic artery"
+
+* #OPTICCANAL "Optic canal" "Optic canal"
+
+* #ORBIT "Orbital structure" "Orbital structure"
+
+* #OVARY "Ovary" "Ovary"
+
+* #PANCBILEDUCT "Pancreatic duct and bile duct systems" "Pancreatic duct and bile duct systems"
+
+* #PANCREAS "Pancreas" "Pancreas"
+
+* #PANCREATICDUCT "Pancreatic duct" "Pancreatic duct"
+
+* #PARASTERNAL "Parasternal" "Parasternal"
+
+* #PARATHYROID "Parathyroid" "Parathyroid"
+
+* #PAROTID "Parotid gland" "Parotid gland"
+
+* #PATELLA "Patella" "Patella"
+
+* #PCA "Posterior cerebral artery" "Posterior cerebral artery"
+
+* #PELVIS "Pelvis" "Pelvis"
+
+* #PELVISLOWEXTREMT "Pelvis and lower extremities" "Pelvis and lower extremities"
+
+* #PENILEA "Penile artery" "Penile artery"
+
+* #PENIS "Penis" "Penis"
+
+* #PERINEUM "Perineum" "Perineum"
+
+* #PERONEALA "Peroneal artery" "Peroneal artery"
+
+* #PHANTOM "Phantom" "Phantom"
+
+* #PHARYNX "Pharynx" "Pharynx"
+
+* #PHARYNXLARYNX "Pharynx and larynx" "Pharynx and larynx"
+
+* #PLACENTA "Placenta" "Placenta"
+
+* #POPLITEALA "Popliteal artery" "Popliteal artery"
+
+* #POPLITEALFOSSA "Popliteal fossa" "Popliteal fossa"
+
+* #POPLITEALV "Popliteal vein" "Popliteal vein"
+
+* #PORTALV "Portal vein" "Portal vein"
+
+* #POSCOMMA "Posterior communicating artery" "Posterior communicating artery"
+
+* #POSTIBIALA "Posterior tibial artery" "Posterior tibial artery"
+
+* #PROFFEMA "Profunda femoris artery" "Profunda femoris artery"
+
+* #PROFFEMV "Profunda femoris vein" "Profunda femoris vein"
+
+* #PROSTATE "Prostate" "Prostate"
+
+* #PULMONARYA "Pulmonary artery" "Pulmonary artery"
+
+* #PULMONARYV "Pulmonary vein" "Pulmonary vein"
+
+* #RADIALA "Radial artery" "Radial artery"
+
+* #RADIUS "Radius" "Radius"
+
+* #RADIUSULNA "Radius and ulna" "Radius and ulna"
+
+* #RATRIUM "Right atrium" "Right atrium"
+
+* #RECTUM "Rectum" "Rectum"
+
+* #RENALA "Renal artery" "Renal artery"
+
+* #RENALV "Renal vein" "Renal vein"
+
+* #RETROPERITONEUM "Retroperitoneum" "Retroperitoneum"
+
+* #RFEMORALA "Right femoral artery" "Right femoral artery"
+
+* #RHEPATICV "Right hepatic vein" "Right hepatic vein"
+
+* #RHYPOCHONDRIAC "Right hypochondriac region" "Right hypochondriac region"
+
+* #RIB "Rib" "Rib"
+
+* #RINGUINAL "Right inguinal region" "Right inguinal region"
+
+* #RLQ "Right lower quadrant of abdomen" "Right lower quadrant of abdomen"
+
+* #RLUMBAR "Right lumbar region" "Right lumbar region"
+
+* #RPORTALV "Right portal vein" "Right portal vein"
+
+* #RPULMONARYA "Right pulmonary artery" "Right pulmonary artery"
+
+* #RSUPPULMONARYV "Superior right pulmonary vein" "Superior right pulmonary vein"
+
+* #RUQ "Right upper quadrant of abdomen" "Right upper quadrant of abdomen"
+
+* #RVENTRICLE "Right ventricle" "Right ventricle"
+
+* #SAPHENOUSV "Saphenous vein" "Saphenous vein"
+
+* #SCALP "Scalp" "Scalp"
+
+* #SCAPULA "Scapula" "Scapula"
+
+* #SCJOINT "Sternoclavicular joint" "Sternoclavicular joint"
+
+* #SCLERA "Sclera" "Sclera"
+
+* #SCROTUM "Scrotum" "Scrotum"
+
+* #SELLA "Sella turcica" "Sella turcica"
+
+* #SEMVESICLE "Seminal vesicle" "Seminal vesicle"
+
+* #SESAMOID "Sesamoid bones of foot" "Sesamoid bones of foot"
+
+* #SFA "Superficial femoral artery" "Superficial femoral artery"
+
+* #SFJ "Saphenofemoral junction" "Saphenofemoral junction"
+
+* #SFV "Superficial femoral vein" "Superficial femoral vein"
+
+* #SHOULDER "Shoulder" "Shoulder"
+
+* #SIGMOID "Sigmoid colon" "Sigmoid colon"
+
+* #SIJOINT "Sacroiliac joint" "Sacroiliac joint"
+
+* #SKULL "Skull" "Skull"
+
+* #SMA "Superior mesenteric artery" "Superior mesenteric artery"
+
+* #SMALLINTESTINE "Small intestine" "Small intestine"
+
+* #SPINALCORD "Spinal cord" "Spinal cord"
+
+* #SPINE "Spine" "Spine"
+
+* #SPLEEN "Spleen" "Spleen"
+
+* #SPLENICA "Splenic artery" "Splenic artery"
+
+* #SPLENICV "Splenic vein" "Splenic vein"
+
+* #SSPINE "Sacrum" "Sacrum"
+
+* #STERNUM "Sternum" "Sternum"
+
+* #STIFLE "Stiffle" "Stiffle"
+
+* #STOMACH "Stomach" "Stomach"
+
+* #SUBCLAVIANA "Subclavian artery" "Subclavian artery"
+
+* #SUBCLAVIANV "Subclavian vein" "Subclavian vein"
+
+* #SUBCOSTAL "Subcostal" "Subcostal"
+
+* #SUBMANDIBULAR "Submandibular gland" "Submandibular gland"
+
+* #SUPRACLAVICULAR "Supraclavicular region of neck" "Supraclavicular region of neck"
+
+* #SUPRAPUBIC "Suprapubic region" "Suprapubic region"
+
+* #SUPTHYROIDA "Superior thyroid artery" "Superior thyroid artery"
+
+* #SVC "Superior vena cava" "Superior vena cava"
+
+* #TAIL "Coccygeal vertrebrae" "Coccygeal vertrebrae"
+
+* #TARSUS "Tarsus" "Tarsus"
+
+* #TESTIS "Testis" "Testis"
+
+* #THALAMUS "Thalamus" "Thalamus"
+
+* #THIGH "Thigh" "Thigh"
+
+* #THORACICAORTA "Thoracic aorta" "Thoracic aorta"
+
+* #THORAX "Chest" "Chest"
+
+* #THUMB "Thumb" "Thumb"
+
+* #THYMUS "Thymus" "Thymus"
+
+* #THYROID "Thyroid" "Thyroid"
+
+* #TIBIA "Tibia" "Tibia"
+
+* #TIBIAFIBULA "Tibia and fibula" "Tibia and fibula"
+
+* #TLSPINE "Thoraco-lumbar spine" "Thoraco-lumbar spine"
+
+* #TMJ "Temporomandibular joint" "Temporomandibular joint"
+
+* #TOE "Toe" "Toe"
+
+* #TONGUE "Tongue" "Tongue"
+
+* #TRACHEA "Trachea" "Trachea"
+
+* #TRACHEABRONCHUS "Trachea and bronchus" "Trachea and bronchus"
+
 * #TRANSVERSECOLON "Transverse colon" "Transverse colon"
+
+* #TRUNK "Trunk" "Trunk"
+
+* #TSPINE "Thoracic spine" "Thoracic spine"
+
+* #UGITRACT "Upper gastro-intestinal tract" "Upper gastro-intestinal tract"
+
+* #ULNA "Ulna" "Ulna"
+
+* #ULNARA "Ulnar artery" "Ulnar artery"
+
+* #UMBILICAL "Umbilical region" "Umbilical region"
+
+* #UMBILICALA "Umbilical artery" "Umbilical artery"
+
+* #UMBILICALV "Umbilical vein" "Umbilical vein"
+
+* #UPPERARM "Upper arm" "Upper arm"
+
+* #UPPERLIMB "Upper limb" "Upper limb"
+
+* #UPPERTRUNK "Upper trunk" "Upper trunk"
+
+* #UPRURINARYTRACT "Upper urinary tract" "Upper urinary tract"
+
+* #URETER "Ureter" "Ureter"
+
+* #URETHRA "Urethra" "Urethra"
+
+* #URINARYTRACT "Urinary tract" "Urinary tract"
+
+* #UTERUS "Uterus" "Uterus"
+
+* #VAGINA "Vagina" "Vagina"
+
+* #VEIN "Vein" "Vein"
+
+* #VERTEBRALA "Vertebral artery" "Vertebral artery"
+
+* #VULVA "Vulva" "Vulva"
+
+* #WHOLEBODY "Entire body" "Entire body"
+
+* #WING "Wing" "Wing"
+
+* #WRIST "Wrist joint" "Wrist joint"
+
+* #ZYGOMA "Zygoma" "Zygoma"

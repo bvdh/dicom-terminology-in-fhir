@@ -9,9 +9,10 @@ Wall Motion Scoring Scheme
 * ^version = "20050321"
 * ^title = "Wall Motion Scoring Scheme"
 * ^name = "WallMotionScoringScheme"
-* DICOM_DCM_CodeSystem#125223 "4 Point Segment Finding Scale" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#125223 //"4 Point Segment Finding Scale" 
 
-* DICOM_DCM_CodeSystem#125224 "5 Point Segment Finding Scale" 
+* DICOM_DCM_CodeSystem#125224 //"5 Point Segment Finding Scale" 
 
-* DICOM_DCM_CodeSystem#125225 "5 Point Segment Finding Scale With Graded Hypokinesis" 
+* DICOM_DCM_CodeSystem#125225 //"5 Point Segment Finding Scale With Graded Hypokinesis" 
 

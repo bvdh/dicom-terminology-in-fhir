@@ -9,13 +9,14 @@ Organ for Radiation Dose Estimate
 * ^version = "20221224"
 * ^title = "Organ for Radiation Dose Estimate"
 * ^name = "OrganForRadiationDoseEstimate"
+* ^experimental = false
 * include codes from valueset CID_10044
 
-* http://snomed.info/sct#38266002 "Entire body" 
-* http://snomed.info/srt#T-D0010 "Entire body" 
-* http://terminology.hl7.org/CodeSystem/umls#C0229960 "Entire body" 
+* http://snomed.info/sct#38266002 //"Entire body" 
+* http://snomed.info/srt#T-D0010 //"Entire body" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0229960 //"Entire body" 
 
-* http://snomed.info/sct#706342009 "Phantom" 
-* http://snomed.info/srt#R-FE0C7 "Phantom" 
-* http://terminology.hl7.org/CodeSystem/umls#C0282611 "Phantom" 
+* http://snomed.info/sct#706342009 //"Phantom" 
+* http://snomed.info/srt#R-FE0C7 //"Phantom" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0282611 //"Phantom" 
 

@@ -9,6 +9,7 @@ This Context Group contains the complete set of defined codes that correspond to
 * ^version = "20190327"
 * ^title = "Modality"
 * ^name = "Modality"
+* ^experimental = false
 * include codes from valueset CID_29
 
 * include codes from valueset CID_32

@@ -7,3 +7,4 @@ None
 * ^version = "None"
 * ^title = "XYZ Electrode Placement Values (Retired)"
 * ^name = "Cid3264"
+* ^experimental = false

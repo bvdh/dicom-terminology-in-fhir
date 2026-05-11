@@ -9,6 +9,7 @@ RT Plan Radiotherapy Procedure Technique
 * ^version = "20240616"
 * ^title = "RT Plan Radiotherapy Procedure Technique"
 * ^name = "RTPlanRadiotherapyProcedureTechnique"
+* ^experimental = false
 * include codes from valueset CID_9511
 
 * include codes from valueset CID_9512

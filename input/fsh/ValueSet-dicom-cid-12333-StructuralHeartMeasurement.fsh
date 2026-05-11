@@ -9,10 +9,11 @@ Structural Heart Measurement
 * ^version = "20250405"
 * ^title = "Structural Heart Measurement"
 * ^name = "StructuralHeartMeasurement"
-* http://loinc.org#8277-6 "BSA" 
-* http://terminology.hl7.org/CodeSystem/umls#C0487992 "BSA" 
+* ^experimental = false
+* http://loinc.org#8277-6 //"BSA" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0487992 //"BSA" 
 
-* DICOM_DCM_CodeSystem#131130 "Transseptal puncture height" 
+* DICOM_DCM_CodeSystem#131130 //"Transseptal puncture height" 
 
 * include codes from valueset CID_12334
 

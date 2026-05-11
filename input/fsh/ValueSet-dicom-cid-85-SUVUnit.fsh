@@ -9,15 +9,16 @@ The formulas for the determination of SUVbw, SUVbsa, SUVlbm (James) and SUVibw a
 * ^version = "20161106"
 * ^title = "SUV Unit"
 * ^name = "SUVUnit"
-* http://unitsofmeasure.org#g/ml{SUVbw} "Standardized Uptake Value body weight" 
+* ^experimental = false
+* http://unitsofmeasure.org#g/ml{SUVbw} //"Standardized Uptake Value body weight" 
 
-* http://unitsofmeasure.org#g/ml{SUVlbm} "Standardized Uptake Value lean body mass (James)" 
+* http://unitsofmeasure.org#g/ml{SUVlbm} //"Standardized Uptake Value lean body mass (James)" 
 
-* http://unitsofmeasure.org#g/ml{SUVlbm(James128)} "Standardized Uptake Value lean body mass (James 128 multiplier)" 
+* http://unitsofmeasure.org#g/ml{SUVlbm(James128)} //"Standardized Uptake Value lean body mass (James 128 multiplier)" 
 
-* http://unitsofmeasure.org#g/ml{SUVlbm(Janma)} "Standardized Uptake Value lean body mass (Janma)" 
+* http://unitsofmeasure.org#g/ml{SUVlbm(Janma)} //"Standardized Uptake Value lean body mass (Janma)" 
 
-* http://unitsofmeasure.org#cm2/ml{SUVbsa} "Standardized Uptake Value body surface area" 
+* http://unitsofmeasure.org#cm2/ml{SUVbsa} //"Standardized Uptake Value body surface area" 
 
-* http://unitsofmeasure.org#g/ml{SUVibw} "Standardized Uptake Value ideal body weight" 
+* http://unitsofmeasure.org#g/ml{SUVibw} //"Standardized Uptake Value ideal body weight" 
 

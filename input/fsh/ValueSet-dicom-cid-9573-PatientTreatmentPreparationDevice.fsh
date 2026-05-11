@@ -9,6 +9,7 @@ Patient Treatment Preparation Device
 * ^version = "20240612"
 * ^title = "Patient Treatment Preparation Device"
 * ^name = "PatientTreatmentPreparationDevice"
+* ^experimental = false
 * include codes from valueset CID_9513
 
 * include codes from valueset CID_9515

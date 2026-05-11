@@ -9,5 +9,6 @@ Implant Planning Landmark
 * ^version = "20101102"
 * ^title = "Implant Planning Landmark"
 * ^name = "ImplantPlanningLandmark"
+* ^experimental = false
 * include codes from valueset CID_7306
 

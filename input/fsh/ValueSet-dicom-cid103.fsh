@@ -9,3 +9,4 @@ None
 * ^version = "Not versioned"
 * ^title = "NICIP Short Code Imaging Procedure"
 * ^name = "Cid103"
+* ^experimental = false

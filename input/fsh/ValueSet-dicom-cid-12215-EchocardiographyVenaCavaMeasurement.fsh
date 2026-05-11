@@ -9,11 +9,12 @@ Echocardiography Vena Cava Measurement
 * ^version = "20030918"
 * ^title = "Echocardiography Vena Cava Measurement"
 * ^name = "EchocardiographyVenaCavaMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
-* http://loinc.org#18006-7 "Inferior Vena Cava Diameter" 
-* http://terminology.hl7.org/CodeSystem/umls#C0801056 "Inferior Vena Cava Diameter" 
+* http://loinc.org#18006-7 //"Inferior Vena Cava Diameter" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0801056 //"Inferior Vena Cava Diameter" 
 
-* http://loinc.org#18050-5 "Inferior Vena Cava % Collapse" 
-* http://terminology.hl7.org/CodeSystem/umls#C0801099 "Inferior Vena Cava % Collapse" 
+* http://loinc.org#18050-5 //"Inferior Vena Cava % Collapse" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0801099 //"Inferior Vena Cava % Collapse" 
 

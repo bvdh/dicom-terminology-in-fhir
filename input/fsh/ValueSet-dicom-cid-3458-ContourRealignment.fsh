@@ -9,9 +9,10 @@ Contour Realignment
 * ^version = "20040614"
 * ^title = "Contour Realignment"
 * ^name = "ContourRealignment"
-* DICOM_DCM_CodeSystem#122475 "Center of Gravity" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122475 //"Center of Gravity" 
 
-* DICOM_DCM_CodeSystem#122476 "Long Axis Based" 
+* DICOM_DCM_CodeSystem#122476 //"Long Axis Based" 
 
-* DICOM_DCM_CodeSystem#122477 "No Realignment" 
+* DICOM_DCM_CodeSystem#122477 //"No Realignment" 
 

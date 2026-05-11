@@ -9,15 +9,16 @@ Audio Channel Source
 * ^version = "20040326"
 * ^title = "Audio Channel Source"
 * ^name = "AudioChannelSource"
-* DICOM_DCM_CodeSystem#109110 "Voice" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#109110 //"Voice" 
 
-* DICOM_DCM_CodeSystem#109111 "Operator's narrative" 
+* DICOM_DCM_CodeSystem#109111 //"Operator's narrative" 
 
-* DICOM_DCM_CodeSystem#109112 "Ambient room environment" 
+* DICOM_DCM_CodeSystem#109112 //"Ambient room environment" 
 
-* DICOM_DCM_CodeSystem#109113 "Doppler audio" 
+* DICOM_DCM_CodeSystem#109113 //"Doppler audio" 
 
-* DICOM_DCM_CodeSystem#109114 "Phonocardiogram" 
+* DICOM_DCM_CodeSystem#109114 //"Phonocardiogram" 
 
-* DICOM_DCM_CodeSystem#109115 "Physiological audio signal" 
+* DICOM_DCM_CodeSystem#109115 //"Physiological audio signal" 
 

@@ -9,13 +9,14 @@ Abstract Multi-dimensional Image Model Dimension Unit
 * ^version = "20100825"
 * ^title = "Abstract Multi-dimensional Image Model Dimension Unit"
 * ^name = "AbstractMultiDimensionalImageModelDimensionUnit"
+* ^experimental = false
 * include codes from valueset CID_7460
 
-* http://unitsofmeasure.org#ms "Millisecond" 
+* http://unitsofmeasure.org#ms //"Millisecond" 
 
-* http://unitsofmeasure.org#s "Second" 
+* http://unitsofmeasure.org#s //"Second" 
 
-* http://unitsofmeasure.org#deg "Degree" 
+* http://unitsofmeasure.org#deg //"Degree" 
 
-* http://unitsofmeasure.org#rad "Radian" 
+* http://unitsofmeasure.org#rad //"Radian" 
 

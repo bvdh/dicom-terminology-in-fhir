@@ -9,23 +9,24 @@ Treatment Termination Reason
 * ^version = "20240114"
 * ^title = "Treatment Termination Reason"
 * ^name = "TreatmentTerminationReason"
+* ^experimental = false
 * include codes from valueset CID_9568
 
-* DICOM_DCM_CodeSystem#110504 "Patient died" 
+* DICOM_DCM_CodeSystem#110504 //"Patient died" 
 
-* DICOM_DCM_CodeSystem#110505 "Patient refused to continue procedure" 
+* DICOM_DCM_CodeSystem#110505 //"Patient refused to continue procedure" 
 
-* DICOM_DCM_CodeSystem#110513 "Discontinued for unspecified reason" 
+* DICOM_DCM_CodeSystem#110513 //"Discontinued for unspecified reason" 
 
-* DICOM_DCM_CodeSystem#110515 "Patient condition prevented continuing" 
+* DICOM_DCM_CodeSystem#110515 //"Patient condition prevented continuing" 
 
-* DICOM_DCM_CodeSystem#110500 "Doctor canceled procedure" 
+* DICOM_DCM_CodeSystem#110500 //"Doctor canceled procedure" 
 
-* DICOM_DCM_CodeSystem#110501 "Equipment failure" 
+* DICOM_DCM_CodeSystem#110501 //"Equipment failure" 
 
-* DICOM_DCM_CodeSystem#110518 "Patient Movement" 
+* DICOM_DCM_CodeSystem#110518 //"Patient Movement" 
 
-* DICOM_DCM_CodeSystem#110519 "Operator Error" 
+* DICOM_DCM_CodeSystem#110519 //"Operator Error" 
 
-* DICOM_DCM_CodeSystem#110520 "Channel Obstruction" 
+* DICOM_DCM_CodeSystem#110520 //"Channel Obstruction" 
 

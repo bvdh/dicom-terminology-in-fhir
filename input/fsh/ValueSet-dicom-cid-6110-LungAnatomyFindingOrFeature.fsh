@@ -9,15 +9,16 @@ Original source of terms is [Fraser and Pare].
 * ^version = "20030108"
 * ^title = "Lung Anatomy Finding or Feature"
 * ^name = "LungAnatomyFindingOrFeature"
-* http://snomed.info/sct#31094006 "Lobe of lung" 
-* http://snomed.info/srt#T-28770 "Lobe of lung" 
-* http://terminology.hl7.org/CodeSystem/umls#C0225752 "Lobe of lung" 
+* ^experimental = false
+* http://snomed.info/sct#31094006 //"Lobe of lung" 
+* http://snomed.info/srt#T-28770 //"Lobe of lung" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0225752 //"Lobe of lung" 
 
-* DICOM_DCM_CodeSystem#112085 "Midlung window" 
+* DICOM_DCM_CodeSystem#112085 //"Midlung window" 
 
-* DICOM_DCM_CodeSystem#112054 "Secondary pulmonary lobule" 
+* DICOM_DCM_CodeSystem#112054 //"Secondary pulmonary lobule" 
 
-* http://snomed.info/sct#72674008 "Segment of lung" 
-* http://snomed.info/srt#T-280D0 "Segment of lung" 
-* http://terminology.hl7.org/CodeSystem/umls#C0225705 "Segment of lung" 
+* http://snomed.info/sct#72674008 //"Segment of lung" 
+* http://snomed.info/srt#T-280D0 //"Segment of lung" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0225705 //"Segment of lung" 
 

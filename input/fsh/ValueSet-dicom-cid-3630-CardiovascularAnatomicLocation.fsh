@@ -9,6 +9,7 @@ Cardiovascular Anatomic Location
 * ^version = "20030327"
 * ^title = "Cardiovascular Anatomic Location"
 * ^name = "CardiovascularAnatomicLocation"
+* ^experimental = false
 * include codes from valueset CID_3606
 
 * include codes from valueset CID_3607

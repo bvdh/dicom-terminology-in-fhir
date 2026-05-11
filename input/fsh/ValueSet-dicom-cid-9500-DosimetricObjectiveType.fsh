@@ -9,6 +9,7 @@ Dosimetric Objective Type
 * ^version = "20181112"
 * ^title = "Dosimetric Objective Type"
 * ^name = "DosimetricObjectiveType"
+* ^experimental = false
 * include codes from valueset CID_9532
 
 * include codes from valueset CID_9529
@@ -17,11 +18,11 @@ Dosimetric Objective Type
 
 * include codes from valueset CID_9531
 
-* DICOM_DCM_CodeSystem#130074 "Specified Conformity Index" 
+* DICOM_DCM_CodeSystem#130074 //"Specified Conformity Index" 
 
-* DICOM_DCM_CodeSystem#130075 "Specified Healthy Tissue Conformity Index" 
+* DICOM_DCM_CodeSystem#130075 //"Specified Healthy Tissue Conformity Index" 
 
-* DICOM_DCM_CodeSystem#130076 "Specified Conformation Number" 
+* DICOM_DCM_CodeSystem#130076 //"Specified Conformation Number" 
 
-* DICOM_DCM_CodeSystem#130077 "Specified Homogeneity Index" 
+* DICOM_DCM_CodeSystem#130077 //"Specified Homogeneity Index" 
 

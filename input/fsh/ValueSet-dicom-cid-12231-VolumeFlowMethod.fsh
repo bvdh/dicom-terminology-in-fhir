@@ -9,7 +9,8 @@ Volume Flow Method
 * ^version = "20030918"
 * ^title = "Volume Flow Method"
 * ^name = "VolumeFlowMethod"
-* DICOM_DCM_CodeSystem#125219 "Doppler Volume Flow" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#125219 //"Doppler Volume Flow" 
 
-* DICOM_DCM_CodeSystem#125216 "Proximal Isovelocity Surface Area" 
+* DICOM_DCM_CodeSystem#125216 //"Proximal Isovelocity Surface Area" 
 

@@ -9,9 +9,10 @@ Ophthalmic Thickness Map Value Type
 * ^version = "20110825"
 * ^title = "Ophthalmic Thickness Map Value Type"
 * ^name = "OphthalmicThicknessMapValueType"
-* DICOM_DCM_CodeSystem#111930 "Absolute ophthalmic thickness" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111930 //"Absolute ophthalmic thickness" 
 
-* DICOM_DCM_CodeSystem#111931 "Thickness deviation category from normative data" 
+* DICOM_DCM_CodeSystem#111931 //"Thickness deviation category from normative data" 
 
-* DICOM_DCM_CodeSystem#111932 "Thickness deviation from normative data" 
+* DICOM_DCM_CodeSystem#111932 //"Thickness deviation from normative data" 
 

@@ -9,13 +9,14 @@ Ischemia Non-invasive Test
 * ^version = "20030327"
 * ^title = "Ischemia Non-invasive Test"
 * ^name = "IschemiaNoninvasiveTest"
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#48-1 "Not Done" 
+* ^experimental = false
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#48-1 //"Not Done" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#48-2 "Positive" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#48-2 //"Positive" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#48-3 "Negative" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#48-3 //"Negative" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#48-4 "Equivocal" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#48-4 //"Equivocal" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#48-5 "Arrhythmia" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#48-5 //"Arrhythmia" 
 

@@ -9,7 +9,8 @@ In future extensions, Mammography Assessment terms that are not derived from BI-
 * ^version = "20050822"
 * ^title = "Mammography Assessment"
 * ^name = "MammographyAssessment"
+* ^experimental = false
 * include codes from valueset CID_6027
 
-* DICOM_DCM_CodeSystem#111120 "Post Procedure Mammograms for Marker Placement" 
+* DICOM_DCM_CodeSystem#111120 //"Post Procedure Mammograms for Marker Placement" 
 

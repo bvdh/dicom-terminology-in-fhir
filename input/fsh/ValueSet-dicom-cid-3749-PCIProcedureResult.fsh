@@ -9,9 +9,10 @@ PCI Procedure Result
 * ^version = "20030327"
 * ^title = "PCI Procedure Result"
 * ^name = "PCIProcedureResult"
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#100-1 "Successful" 
+* ^experimental = false
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#100-1 //"Successful" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#100-2 "Partially successful" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#100-2 //"Partially successful" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#100-3 "Unsuccessful" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#100-3 //"Unsuccessful" 
 

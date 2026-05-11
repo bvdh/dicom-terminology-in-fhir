@@ -9,19 +9,20 @@ A prior version of this Context Group used many codes that are not actually in S
 * ^version = "20081027"
 * ^title = "Ultrasound Protocol Stage Type"
 * ^name = "UltrasoundProtocolStageType"
+* ^experimental = false
 * include codes from valueset CID_3207
 
 * include codes from valueset CID_12102
 
-* http://snomed.info/sct#18590009 "Cardiac pacing" 
-* http://snomed.info/srt#P2-35000 "Cardiac pacing" 
-* http://terminology.hl7.org/CodeSystem/umls#C0199640 "Cardiac pacing" 
+* http://snomed.info/sct#18590009 //"Cardiac pacing" 
+* http://snomed.info/srt#P2-35000 //"Cardiac pacing" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0199640 //"Cardiac pacing" 
 
-* http://snomed.info/sct#128965002 "Hand grip" 
-* http://snomed.info/srt#P2-71306 "Hand grip" 
-* http://terminology.hl7.org/CodeSystem/umls#C1293900 "Hand grip" 
+* http://snomed.info/sct#128965002 //"Hand grip" 
+* http://snomed.info/srt#P2-71306 //"Hand grip" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1293900 //"Hand grip" 
 
-* http://snomed.info/sct#261039008 "Valsalva maneuver" 
-* http://snomed.info/srt#R-40928 "Valsalva maneuver" 
-* http://terminology.hl7.org/CodeSystem/umls#C0042293 "Valsalva maneuver" 
+* http://snomed.info/sct#261039008 //"Valsalva maneuver" 
+* http://snomed.info/srt#R-40928 //"Valsalva maneuver" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0042293 //"Valsalva maneuver" 
 

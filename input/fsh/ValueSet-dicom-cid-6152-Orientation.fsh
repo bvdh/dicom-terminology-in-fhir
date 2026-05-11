@@ -9,7 +9,8 @@ From BI-RADS
 * ^version = "20050822"
 * ^title = "Orientation"
 * ^name = "Orientation"
-* DICOM_DCM_CodeSystem#111355 "Parallel" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111355 //"Parallel" 
 
-* DICOM_DCM_CodeSystem#111356 "Not parallel" 
+* DICOM_DCM_CodeSystem#111356 //"Not parallel" 
 

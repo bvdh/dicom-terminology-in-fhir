@@ -9,15 +9,16 @@ Age Unit
 * ^version = "20020904"
 * ^title = "Age Unit"
 * ^name = "AgeUnit"
-* http://unitsofmeasure.org#a "year" 
+* ^experimental = false
+* http://unitsofmeasure.org#a //"year" 
 
-* http://unitsofmeasure.org#mo "month" 
+* http://unitsofmeasure.org#mo //"month" 
 
-* http://unitsofmeasure.org#wk "week" 
+* http://unitsofmeasure.org#wk //"week" 
 
-* http://unitsofmeasure.org#d "day" 
+* http://unitsofmeasure.org#d //"day" 
 
-* http://unitsofmeasure.org#h "hour" 
+* http://unitsofmeasure.org#h //"hour" 
 
-* http://unitsofmeasure.org#min "minute" 
+* http://unitsofmeasure.org#min //"minute" 
 

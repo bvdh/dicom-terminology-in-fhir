@@ -9,7 +9,8 @@ Tomotherapeutic Dosimeter Unit
 * ^version = "20200117"
 * ^title = "Tomotherapeutic Dosimeter Unit"
 * ^name = "TomotherapeuticDosimeterUnit"
-* http://unitsofmeasure.org#s "s" 
+* ^experimental = false
+* http://unitsofmeasure.org#s //"s" 
 
-* http://unitsofmeasure.org#{MU} "Monitor Units" 
+* http://unitsofmeasure.org#{MU} //"Monitor Units" 
 

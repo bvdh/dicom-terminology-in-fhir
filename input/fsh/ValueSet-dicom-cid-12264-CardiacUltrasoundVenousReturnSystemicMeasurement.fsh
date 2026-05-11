@@ -9,6 +9,7 @@ Cardiac Ultrasound Venous Return Systemic Measurement
 * ^version = "20240920"
 * ^title = "Cardiac Ultrasound Venous Return Systemic Measurement"
 * ^name = "CardiacUltrasoundVenousReturnSystemicMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
 * include codes from valueset CID_12222

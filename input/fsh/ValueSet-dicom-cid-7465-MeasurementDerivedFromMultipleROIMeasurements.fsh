@@ -9,6 +9,7 @@ Measurement Derived From Multiple ROI Measurements
 * ^version = "20240913"
 * ^title = "Measurement Derived From Multiple ROI Measurements"
 * ^name = "MeasurementDerivedFromMultipleROIMeasurements"
+* ^experimental = false
 * include codes from valueset CID_226
 
 * include codes from valueset CID_227

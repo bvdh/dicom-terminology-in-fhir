@@ -9,3 +9,4 @@ None
 * ^version = "Not versioned"
 * ^title = "ICD-10-PCS Imaging Procedure"
 * ^name = "Cid105"
+* ^experimental = false

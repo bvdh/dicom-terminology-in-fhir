@@ -9,9 +9,10 @@ Label Type
 * ^version = "20110816"
 * ^title = "Label Type"
 * ^name = "LabelType"
-* DICOM_DCM_CodeSystem#113607 "Series Number" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113607 //"Series Number" 
 
-* DICOM_DCM_CodeSystem#113608 "Acquisition Number" 
+* DICOM_DCM_CodeSystem#113608 //"Acquisition Number" 
 
-* DICOM_DCM_CodeSystem#113609 "Instance Number" 
+* DICOM_DCM_CodeSystem#113609 //"Instance Number" 
 

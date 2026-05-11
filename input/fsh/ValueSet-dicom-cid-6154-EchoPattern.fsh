@@ -9,13 +9,14 @@ From BI-RADS
 * ^version = "20050822"
 * ^title = "Echo Pattern"
 * ^name = "EchoPattern"
-* DICOM_DCM_CodeSystem#111361 "Anechoic" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111361 //"Anechoic" 
 
-* DICOM_DCM_CodeSystem#111362 "Hyperechoic" 
+* DICOM_DCM_CodeSystem#111362 //"Hyperechoic" 
 
-* DICOM_DCM_CodeSystem#111363 "Complex" 
+* DICOM_DCM_CodeSystem#111363 //"Complex" 
 
-* DICOM_DCM_CodeSystem#111364 "Hypoechoic" 
+* DICOM_DCM_CodeSystem#111364 //"Hypoechoic" 
 
-* DICOM_DCM_CodeSystem#111365 "Isoechoic" 
+* DICOM_DCM_CodeSystem#111365 //"Isoechoic" 
 

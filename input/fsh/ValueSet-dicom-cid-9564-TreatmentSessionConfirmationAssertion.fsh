@@ -9,13 +9,14 @@ Treatment Session Confirmation Assertion
 * ^version = "20200624"
 * ^title = "Treatment Session Confirmation Assertion"
 * ^name = "TreatmentSessionConfirmationAssertion"
-* DICOM_DCM_CodeSystem#130456 "Bolus Present" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130456 //"Bolus Present" 
 
-* DICOM_DCM_CodeSystem#130457 "Cone Present" 
+* DICOM_DCM_CodeSystem#130457 //"Cone Present" 
 
-* DICOM_DCM_CodeSystem#130458 "Block Present" 
+* DICOM_DCM_CodeSystem#130458 //"Block Present" 
 
-* DICOM_DCM_CodeSystem#130459 "Applicator Present" 
+* DICOM_DCM_CodeSystem#130459 //"Applicator Present" 
 
-* DICOM_DCM_CodeSystem#130460 "Headframe Present" 
+* DICOM_DCM_CodeSystem#130460 //"Headframe Present" 
 

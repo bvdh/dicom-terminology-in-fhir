@@ -9,9 +9,10 @@ In future extensions, Clockface Location or Region terms that are not derived fr
 * ^version = "20020904"
 * ^title = "Clockface Location or Region"
 * ^name = "ClockfaceLocationOrRegion"
+* ^experimental = false
 * include codes from valueset CID_6019
 
-* http://snomed.info/sct#78904004 "Chest wall" 
-* http://snomed.info/srt#T-D3050 "Chest wall" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205076 "Chest wall" 
+* http://snomed.info/sct#78904004 //"Chest wall" 
+* http://snomed.info/srt#T-D3050 //"Chest wall" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205076 //"Chest wall" 
 

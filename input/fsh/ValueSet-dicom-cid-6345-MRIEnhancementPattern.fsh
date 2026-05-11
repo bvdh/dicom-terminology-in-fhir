@@ -9,5 +9,6 @@ MRI Enhancement Pattern
 * ^version = "20210714"
 * ^title = "MRI Enhancement Pattern"
 * ^name = "MRIEnhancementPattern"
+* ^experimental = false
 * include codes from valueset CID_6346
 

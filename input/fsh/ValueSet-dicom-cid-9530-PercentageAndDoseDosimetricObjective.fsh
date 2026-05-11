@@ -9,7 +9,8 @@ Percentage and Dose Dosimetric Objective
 * ^version = "20181112"
 * ^title = "Percentage and Dose Dosimetric Objective"
 * ^name = "PercentageAndDoseDosimetricObjective"
-* DICOM_DCM_CodeSystem#130014 "Minimum Percent Volume at Radiation Dose" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130014 //"Minimum Percent Volume at Radiation Dose" 
 
-* DICOM_DCM_CodeSystem#130015 "Maximum Percent Volume at Radiation Dose" 
+* DICOM_DCM_CodeSystem#130015 //"Maximum Percent Volume at Radiation Dose" 
 

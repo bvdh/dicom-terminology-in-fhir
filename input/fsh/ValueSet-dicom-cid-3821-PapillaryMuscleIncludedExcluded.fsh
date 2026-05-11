@@ -9,7 +9,8 @@ Papillary Muscle Included/Excluded
 * ^version = "20051103"
 * ^title = "Papillary Muscle Included/Excluded"
 * ^name = "PapillaryMuscleIncludedExcluded"
-* DICOM_DCM_CodeSystem#122620 "Papillary Muscle Excluded" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122620 //"Papillary Muscle Excluded" 
 
-* DICOM_DCM_CodeSystem#122621 "Papillary Muscle Included" 
+* DICOM_DCM_CodeSystem#122621 //"Papillary Muscle Included" 
 

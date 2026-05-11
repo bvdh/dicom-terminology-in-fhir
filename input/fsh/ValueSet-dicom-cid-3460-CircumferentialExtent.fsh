@@ -9,7 +9,8 @@ Circumferential Extent
 * ^version = "20040614"
 * ^title = "Circumferential Extent"
 * ^name = "CircumferentialExtent"
-* DICOM_DCM_CodeSystem#122464 "LAD Region in RAO Projection" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122464 //"LAD Region in RAO Projection" 
 
-* DICOM_DCM_CodeSystem#122465 "RCA Region in RAO Projection" 
+* DICOM_DCM_CodeSystem#122465 //"RCA Region in RAO Projection" 
 

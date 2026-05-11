@@ -9,6 +9,7 @@ Cardiac Ultrasound Atrioventricular Valve Measurement
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Atrioventricular Valve Measurement"
 * ^name = "CardiacUltrasoundAtrioventricularValveseasurement"
+* ^experimental = false
 * include codes from valueset CID_12266
 
 * include codes from valueset CID_12267

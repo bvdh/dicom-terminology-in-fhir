@@ -9,13 +9,14 @@ CAD Processing and Finding Summary
 * ^version = "20020904"
 * ^title = "CAD Processing and Finding Summary"
 * ^name = "CADProcessingAndFindingSummary"
-* DICOM_DCM_CodeSystem#111241 "All algorithms succeeded; without findings" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111241 //"All algorithms succeeded; without findings" 
 
-* DICOM_DCM_CodeSystem#111242 "All algorithms succeeded; with findings" 
+* DICOM_DCM_CodeSystem#111242 //"All algorithms succeeded; with findings" 
 
-* DICOM_DCM_CodeSystem#111243 "Not all algorithms succeeded; without findings" 
+* DICOM_DCM_CodeSystem#111243 //"Not all algorithms succeeded; without findings" 
 
-* DICOM_DCM_CodeSystem#111244 "Not all algorithms succeeded; with findings" 
+* DICOM_DCM_CodeSystem#111244 //"Not all algorithms succeeded; with findings" 
 
-* DICOM_DCM_CodeSystem#111245 "No algorithms succeeded; without findings" 
+* DICOM_DCM_CodeSystem#111245 //"No algorithms succeeded; without findings" 
 

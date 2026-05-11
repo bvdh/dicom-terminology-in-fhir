@@ -9,6 +9,7 @@ Original source of terms is [Fraser and Pare].
 * ^version = "20130617"
 * ^title = "Mediastinum Anatomy Finding or Feature"
 * ^name = "MediastinumAnatomyFindingOrFeature"
+* ^experimental = false
 * include codes from valueset CID_6148
 
 * include codes from valueset CID_6149

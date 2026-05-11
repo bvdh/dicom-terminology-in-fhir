@@ -9,19 +9,20 @@ CAD Operating Point Axis Label
 * ^version = "20060612"
 * ^title = "CAD Operating Point Axis Label"
 * ^name = "CADOperatingPointAxisLabel"
-* DICOM_DCM_CodeSystem#111012 "Certainty of Finding" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111012 //"Certainty of Finding" 
 
-* DICOM_DCM_CodeSystem#111047 "Probability of cancer" 
+* DICOM_DCM_CodeSystem#111047 //"Probability of cancer" 
 
-* DICOM_DCM_CodeSystem#111086 "False Markers per Image" 
+* DICOM_DCM_CodeSystem#111086 //"False Markers per Image" 
 
-* DICOM_DCM_CodeSystem#111087 "False Markers per Case" 
+* DICOM_DCM_CodeSystem#111087 //"False Markers per Case" 
 
-* DICOM_DCM_CodeSystem#111088 "Case Sensitivity" 
+* DICOM_DCM_CodeSystem#111088 //"Case Sensitivity" 
 
-* DICOM_DCM_CodeSystem#111089 "Lesion Sensitivity" 
+* DICOM_DCM_CodeSystem#111089 //"Lesion Sensitivity" 
 
-* DICOM_DCM_CodeSystem#111090 "Case Specificity" 
+* DICOM_DCM_CodeSystem#111090 //"Case Specificity" 
 
-* DICOM_DCM_CodeSystem#111091 "Image Specificity" 
+* DICOM_DCM_CodeSystem#111091 //"Image Specificity" 
 

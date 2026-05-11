@@ -9,15 +9,16 @@ Prostate Cancer Therapy
 * ^version = "20210714"
 * ^title = "Prostate Cancer Therapy"
 * ^name = "ProstateCancerTherapy"
-* http://snomed.info/sct#707266006 "Androgen Deprivation Therapy" 
-* http://snomed.info/srt#R-FC5CD "Androgen Deprivation Therapy" 
-* http://terminology.hl7.org/CodeSystem/umls#C0279492 "Androgen Deprivation Therapy" 
+* ^experimental = false
+* http://snomed.info/sct#707266006 //"Androgen Deprivation Therapy" 
+* http://snomed.info/srt#R-FC5CD //"Androgen Deprivation Therapy" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0279492 //"Androgen Deprivation Therapy" 
 
-* http://snomed.info/sct#425767004 "Implantation of radioactive seed into prostate" 
-* http://snomed.info/srt#P5-C0641 "Implantation of radioactive seed into prostate" 
-* http://terminology.hl7.org/CodeSystem/umls#C1960738 "Implantation of radioactive seed into prostate" 
+* http://snomed.info/sct#425767004 //"Implantation of radioactive seed into prostate" 
+* http://snomed.info/srt#P5-C0641 //"Implantation of radioactive seed into prostate" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1960738 //"Implantation of radioactive seed into prostate" 
 
-* http://snomed.info/sct#90470006 "Prostatectomy" 
-* http://snomed.info/srt#P1-78320 "Prostatectomy" 
-* http://terminology.hl7.org/CodeSystem/umls#C0033573 "Prostatectomy" 
+* http://snomed.info/sct#90470006 //"Prostatectomy" 
+* http://snomed.info/srt#P1-78320 //"Prostatectomy" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0033573 //"Prostatectomy" 
 

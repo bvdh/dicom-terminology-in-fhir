@@ -9,7 +9,8 @@ Aortic Valve Finding Site
 * ^version = "20040614"
 * ^title = "Aortic Valve Finding Site"
 * ^name = "AorticValveFindingSite"
-* http://snomed.info/sct#77583004 "Aortic Valve Ring" 
-* http://snomed.info/srt#T-35410 "Aortic Valve Ring" 
-* http://terminology.hl7.org/CodeSystem/umls#C0225957 "Aortic Valve Ring" 
+* ^experimental = false
+* http://snomed.info/sct#77583004 //"Aortic Valve Ring" 
+* http://snomed.info/srt#T-35410 //"Aortic Valve Ring" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0225957 //"Aortic Valve Ring" 
 

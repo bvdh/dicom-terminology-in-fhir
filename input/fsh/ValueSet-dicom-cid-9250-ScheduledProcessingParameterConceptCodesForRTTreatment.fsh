@@ -9,5 +9,6 @@ Scheduled Processing Parameter Concept Codes for RT Treatment
 * ^version = "20170413"
 * ^title = "Scheduled Processing Parameter Concept Codes for RT Treatment"
 * ^name = "ScheduledProcessingParameterConceptCodesForRTTreatment"
-* DICOM_DCM_CodeSystem#121740 "Treatment Delivery Type" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121740 //"Treatment Delivery Type" 
 

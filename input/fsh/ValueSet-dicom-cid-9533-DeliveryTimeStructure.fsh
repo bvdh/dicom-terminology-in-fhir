@@ -9,15 +9,16 @@ Delivery Time Structure
 * ^version = "20181112"
 * ^title = "Delivery Time Structure"
 * ^name = "DeliveryTimeStructure"
-* DICOM_DCM_CodeSystem#130096 "Single Fraction" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130096 //"Single Fraction" 
 
-* DICOM_DCM_CodeSystem#130097 "Standard Fractionation" 
+* DICOM_DCM_CodeSystem#130097 //"Standard Fractionation" 
 
-* DICOM_DCM_CodeSystem#130098 "Hypo-fractionation" 
+* DICOM_DCM_CodeSystem#130098 //"Hypo-fractionation" 
 
-* DICOM_DCM_CodeSystem#130099 "Hyper-fractionation" 
+* DICOM_DCM_CodeSystem#130099 //"Hyper-fractionation" 
 
-* DICOM_DCM_CodeSystem#130100 "Continuous Temporary" 
+* DICOM_DCM_CodeSystem#130100 //"Continuous Temporary" 
 
-* DICOM_DCM_CodeSystem#130101 "Continuous Permanent" 
+* DICOM_DCM_CodeSystem#130101 //"Continuous Permanent" 
 

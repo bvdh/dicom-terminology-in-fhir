@@ -9,7 +9,8 @@ Bolus Shaping Curve
 * ^version = "20181115"
 * ^title = "Bolus Shaping Curve"
 * ^name = "BolusShapingCurve"
-* DICOM_DCM_CodeSystem#130252 "Negative exponential" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130252 //"Negative exponential" 
 
-* DICOM_DCM_CodeSystem#130253 "Linear Curve" 
+* DICOM_DCM_CodeSystem#130253 //"Linear Curve" 
 

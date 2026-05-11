@@ -9,13 +9,14 @@ Neighbourhood Grey Tone Difference Based Feature
 * ^version = "20190121"
 * ^title = "Neighbourhood Grey Tone Difference Based Feature"
 * ^name = "NeighbourhoodGreyToneDifferenceBasedFeature"
-* IBSICodeSystem#QCDE "Coarseness of NGTDM" 
+* ^experimental = false
+* IBSICodeSystem#QCDE //"Coarseness of NGTDM" 
 
-* IBSICodeSystem#65HE "Contrast of NGTDM" 
+* IBSICodeSystem#65HE //"Contrast of NGTDM" 
 
-* IBSICodeSystem#NQ30 "Busyness of NGTDM" 
+* IBSICodeSystem#NQ30 //"Busyness of NGTDM" 
 
-* IBSICodeSystem#HDEZ "Complexity of NGTDM" 
+* IBSICodeSystem#HDEZ //"Complexity of NGTDM" 
 
-* IBSICodeSystem#1X9X "Strength of NGTDM" 
+* IBSICodeSystem#1X9X //"Strength of NGTDM" 
 

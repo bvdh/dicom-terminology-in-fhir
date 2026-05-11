@@ -9,19 +9,20 @@ From BI-RADS Third Edition (National Mammography Database, E77)
 * ^version = "20020904"
 * ^title = "Overall Breast Composition from BI-RADS"
 * ^name = "OverallBreastCompositionFromBIRADS"
-* http://snomed.info/sct#129716005 "Almost entirely fat" 
-* http://snomed.info/srt#F-01711 "Almost entirely fat" 
-* http://terminology.hl7.org/CodeSystem/umls#C0231248 "Almost entirely fat" 
+* ^experimental = false
+* http://snomed.info/sct#129716005 //"Almost entirely fat" 
+* http://snomed.info/srt#F-01711 //"Almost entirely fat" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0231248 //"Almost entirely fat" 
 
-* http://snomed.info/sct#129717001 "Scattered fibroglandular densities" 
-* http://snomed.info/srt#F-01712 "Scattered fibroglandular densities" 
-* http://terminology.hl7.org/CodeSystem/umls#C0544447 "Scattered fibroglandular densities" 
+* http://snomed.info/sct#129717001 //"Scattered fibroglandular densities" 
+* http://snomed.info/srt#F-01712 //"Scattered fibroglandular densities" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0544447 //"Scattered fibroglandular densities" 
 
-* http://snomed.info/sct#129718006 "Heterogeneously dense" 
-* http://snomed.info/srt#F-01713 "Heterogeneously dense" 
-* http://terminology.hl7.org/CodeSystem/umls#C0231249 "Heterogeneously dense" 
+* http://snomed.info/sct#129718006 //"Heterogeneously dense" 
+* http://snomed.info/srt#F-01713 //"Heterogeneously dense" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0231249 //"Heterogeneously dense" 
 
-* http://snomed.info/sct#129719003 "Extremely dense" 
-* http://snomed.info/srt#F-01714 "Extremely dense" 
-* http://terminology.hl7.org/CodeSystem/umls#C1268647 "Extremely dense" 
+* http://snomed.info/sct#129719003 //"Extremely dense" 
+* http://snomed.info/srt#F-01714 //"Extremely dense" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1268647 //"Extremely dense" 
 

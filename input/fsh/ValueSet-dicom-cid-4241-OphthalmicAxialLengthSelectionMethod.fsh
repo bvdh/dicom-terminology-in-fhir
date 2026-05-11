@@ -9,7 +9,8 @@ Ophthalmic Axial Length Selection Method
 * ^version = "20100623"
 * ^title = "Ophthalmic Axial Length Selection Method"
 * ^name = "OphthalmicAxialLengthSelectionMethod"
-* DICOM_DCM_CodeSystem#121412 "Mean value chosen" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121412 //"Mean value chosen" 
 
-* DICOM_DCM_CodeSystem#121410 "User chosen value" 
+* DICOM_DCM_CodeSystem#121410 //"User chosen value" 
 

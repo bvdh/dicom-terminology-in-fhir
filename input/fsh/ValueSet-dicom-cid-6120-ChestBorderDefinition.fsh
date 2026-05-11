@@ -9,25 +9,26 @@ Original source of terms is [Fraser and Pare].
 * ^version = "20190326"
 * ^title = "Chest Border Definition"
 * ^name = "ChestBorderDefinition"
-* http://snomed.info/sct#260409000 "Well defined" 
-* http://snomed.info/srt#R-40771 "Well defined" 
-* http://terminology.hl7.org/CodeSystem/umls#C0442825 "Well defined" 
+* ^experimental = false
+* http://snomed.info/sct#260409000 //"Well defined" 
+* http://snomed.info/srt#R-40771 //"Well defined" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0442825 //"Well defined" 
 
-* DICOM_DCM_CodeSystem#112137 "Sharply defined" 
+* DICOM_DCM_CodeSystem#112137 //"Sharply defined" 
 
-* http://snomed.info/sct#300841009 "Poorly defined" 
-* http://snomed.info/srt#R-428E7 "Poorly defined" 
-* http://terminology.hl7.org/CodeSystem/umls#C0577553 "Poorly defined" 
+* http://snomed.info/sct#300841009 //"Poorly defined" 
+* http://snomed.info/srt#R-428E7 //"Poorly defined" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0577553 //"Poorly defined" 
 
-* DICOM_DCM_CodeSystem#112138 "Distinctly defined" 
+* DICOM_DCM_CodeSystem#112138 //"Distinctly defined" 
 
-* DICOM_DCM_CodeSystem#112139 "Well demarcated" 
+* DICOM_DCM_CodeSystem#112139 //"Well demarcated" 
 
-* DICOM_DCM_CodeSystem#112140 "Sharply demarcated" 
+* DICOM_DCM_CodeSystem#112140 //"Sharply demarcated" 
 
-* DICOM_DCM_CodeSystem#112141 "Poorly demarcated" 
+* DICOM_DCM_CodeSystem#112141 //"Poorly demarcated" 
 
-* http://snomed.info/sct#263706005 "Circumscribed" 
-* http://snomed.info/srt#R-4205A "Circumscribed" 
-* http://terminology.hl7.org/CodeSystem/umls#C1282914 "Circumscribed" 
+* http://snomed.info/sct#263706005 //"Circumscribed" 
+* http://snomed.info/srt#R-4205A //"Circumscribed" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1282914 //"Circumscribed" 
 

@@ -9,11 +9,12 @@ Stenosis Length
 * ^version = "20051103"
 * ^title = "Stenosis Length"
 * ^name = "StenosisLength"
-* http://snomed.info/sct#255511005 "long" 
-* http://snomed.info/srt#R-404AC "long" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205166 "long" 
+* ^experimental = false
+* http://snomed.info/sct#255511005 //"long" 
+* http://snomed.info/srt#R-404AC //"long" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205166 //"long" 
 
-* http://snomed.info/sct#367450005 "short" 
-* http://snomed.info/srt#R-4235F "short" 
-* http://terminology.hl7.org/CodeSystem/umls#C1806781 "short" 
+* http://snomed.info/sct#367450005 //"short" 
+* http://snomed.info/srt#R-4235F //"short" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1806781 //"short" 
 

@@ -9,6 +9,7 @@ Colon Finding or Feature Modifier
 * ^version = "20090402"
 * ^title = "Colon Finding or Feature Modifier"
 * ^name = "ColonFindingOrFeatureModifier"
+* ^experimental = false
 * include codes from valueset CID_6203
 
 * include codes from valueset CID_6204

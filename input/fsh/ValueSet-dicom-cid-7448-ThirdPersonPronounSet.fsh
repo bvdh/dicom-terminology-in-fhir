@@ -9,12 +9,13 @@ These LOINC codes specifically reflect English pronouns and their usage. There a
 * ^version = "20250406"
 * ^title = "Third Person Pronoun Set"
 * ^name = "ThirdPersonPronounSet"
-* http://loinc.org#LA29518-0 "he/him/his/his/himself" 
-* http://terminology.hl7.org/CodeSystem/umls#C4740695 "he/him/his/his/himself" 
+* ^experimental = false
+* http://loinc.org#LA29518-0 //"he/him/his/his/himself" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C4740695 //"he/him/his/his/himself" 
 
-* http://loinc.org#LA29519-8 "she/her/her/hers/herself" 
-* http://terminology.hl7.org/CodeSystem/umls#C4740696 "she/her/her/hers/herself" 
+* http://loinc.org#LA29519-8 //"she/her/her/hers/herself" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C4740696 //"she/her/her/hers/herself" 
 
-* http://loinc.org#LA29520-6 "they/them/their/theirs/themselves" 
-* http://terminology.hl7.org/CodeSystem/umls#C4740697 "they/them/their/theirs/themselves" 
+* http://loinc.org#LA29520-6 //"they/them/their/theirs/themselves" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C4740697 //"they/them/their/theirs/themselves" 
 

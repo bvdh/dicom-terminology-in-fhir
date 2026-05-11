@@ -9,21 +9,22 @@ Media Import
 * ^version = "20061024"
 * ^title = "Media Import"
 * ^name = "MediaImport"
-* DICOM_DCM_CodeSystem#110020 "Sheet Film Digitized" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#110020 //"Sheet Film Digitized" 
 
-* DICOM_DCM_CodeSystem#110021 "Cine Film Digitized" 
+* DICOM_DCM_CodeSystem#110021 //"Cine Film Digitized" 
 
-* DICOM_DCM_CodeSystem#110022 "Video Tape Digitized" 
+* DICOM_DCM_CodeSystem#110022 //"Video Tape Digitized" 
 
-* DICOM_DCM_CodeSystem#110023 "Paper Digitized" 
+* DICOM_DCM_CodeSystem#110023 //"Paper Digitized" 
 
-* DICOM_DCM_CodeSystem#110024 "CD Imported" 
+* DICOM_DCM_CodeSystem#110024 //"CD Imported" 
 
-* DICOM_DCM_CodeSystem#110025 "DVD Imported" 
+* DICOM_DCM_CodeSystem#110025 //"DVD Imported" 
 
-* DICOM_DCM_CodeSystem#110026 "MOD Imported" 
+* DICOM_DCM_CodeSystem#110026 //"MOD Imported" 
 
-* DICOM_DCM_CodeSystem#110027 "Studies Imported" 
+* DICOM_DCM_CodeSystem#110027 //"Studies Imported" 
 
-* DICOM_DCM_CodeSystem#110028 "Instances Imported" 
+* DICOM_DCM_CodeSystem#110028 //"Instances Imported" 
 

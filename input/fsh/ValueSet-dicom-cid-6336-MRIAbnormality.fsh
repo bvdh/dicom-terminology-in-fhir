@@ -9,5 +9,6 @@ MRI Abnormality
 * ^version = "20210714"
 * ^title = "MRI Abnormality"
 * ^name = "MRIAbnormality"
+* ^experimental = false
 * include codes from valueset CID_6337
 

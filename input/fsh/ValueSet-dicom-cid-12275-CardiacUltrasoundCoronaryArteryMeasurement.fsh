@@ -9,6 +9,7 @@ Cardiac Ultrasound Coronary Artery Measurement
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Coronary Artery Measurement"
 * ^name = "CardiacUltrasoundCoronaryArteryMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
 * include codes from valueset CID_12222

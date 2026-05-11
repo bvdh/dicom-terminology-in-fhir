@@ -9,7 +9,8 @@ Effective Dose Calculation Method Category
 * ^version = "20181112"
 * ^title = "Effective Dose Calculation Method Category"
 * ^name = "EffectiveDoseCalculationMethodCategory"
-* DICOM_DCM_CodeSystem#130126 "Radiation transport-based methods" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130126 //"Radiation transport-based methods" 
 
-* DICOM_DCM_CodeSystem#130127 "Fractionation-based or temporally-based methods" 
+* DICOM_DCM_CodeSystem#130127 //"Fractionation-based or temporally-based methods" 
 

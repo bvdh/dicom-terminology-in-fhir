@@ -9,7 +9,8 @@ Requested Report Type
 * ^version = "20160601"
 * ^title = "Requested Report Type"
 * ^name = "RequestedReportType"
-* DICOM_DCM_CodeSystem#121362 "Preliminary Report" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121362 //"Preliminary Report" 
 
-* DICOM_DCM_CodeSystem#128005 "Final Report" 
+* DICOM_DCM_CodeSystem#128005 //"Final Report" 
 

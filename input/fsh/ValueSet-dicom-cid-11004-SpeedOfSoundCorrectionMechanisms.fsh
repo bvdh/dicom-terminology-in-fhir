@@ -9,9 +9,10 @@ Speed of Sound Correction Mechanisms
 * ^version = "20230626"
 * ^title = "Speed of Sound Correction Mechanisms"
 * ^name = "SpeedOfSoundCorrectionMechanisms"
-* DICOM_DCM_CodeSystem#130818 "Uniform Speed of Sound Correction" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130818 //"Uniform Speed of Sound Correction" 
 
-* DICOM_DCM_CodeSystem#130819 "Dual Speed of Sound Correction" 
+* DICOM_DCM_CodeSystem#130819 //"Dual Speed of Sound Correction" 
 
-* DICOM_DCM_CodeSystem#130820 "Speed of Sound Map Correction" 
+* DICOM_DCM_CodeSystem#130820 //"Speed of Sound Map Correction" 
 

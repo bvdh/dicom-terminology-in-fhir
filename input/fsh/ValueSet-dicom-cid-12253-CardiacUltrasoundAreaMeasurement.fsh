@@ -9,13 +9,14 @@ Cardiac Ultrasound Area Measurement
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Area Measurement"
 * ^name = "CardiacUltrasoundAreaMeasurement"
-* http://loinc.org#20226-7 "Flow Area" 
-* http://terminology.hl7.org/CodeSystem/umls#C0803041 "Flow Area" 
+* ^experimental = false
+* http://loinc.org#20226-7 //"Flow Area" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0803041 //"Flow Area" 
 
-* http://snomed.info/sct#42798000 "Area" 
-* http://snomed.info/srt#G-A166 "Area" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205146 "Area" 
+* http://snomed.info/sct#42798000 //"Area" 
+* http://snomed.info/srt#G-A166 //"Area" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205146 //"Area" 
 
-* http://loinc.org#59123-0 "Jet Area" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923474 "Jet Area" 
+* http://loinc.org#59123-0 //"Jet Area" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2923474 //"Jet Area" 
 

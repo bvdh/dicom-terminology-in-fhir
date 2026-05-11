@@ -9,7 +9,8 @@ Non-lesion Object Type - Tissue
 * ^version = "20170914"
 * ^title = "Non-lesion Object Type - Tissue"
 * ^name = "NonLesionObjectTypeTissue"
-* http://snomed.info/sct#12402003 "Scar tissue" 
-* http://snomed.info/srt#M-78060 "Scar tissue" 
-* http://terminology.hl7.org/CodeSystem/umls#C2004491 "Scar tissue" 
+* ^experimental = false
+* http://snomed.info/sct#12402003 //"Scar tissue" 
+* http://snomed.info/srt#M-78060 //"Scar tissue" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2004491 //"Scar tissue" 
 

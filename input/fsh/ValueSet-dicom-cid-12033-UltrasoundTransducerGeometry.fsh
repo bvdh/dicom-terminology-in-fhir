@@ -9,19 +9,20 @@ Ultrasound Transducer Geometry
 * ^version = "20230626"
 * ^title = "Ultrasound Transducer Geometry"
 * ^name = "UltrasoundTransducerGeometry"
-* DICOM_DCM_CodeSystem#125251 "Non-imaging Doppler ultrasound transducer geometry" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#125251 //"Non-imaging Doppler ultrasound transducer geometry" 
 
-* DICOM_DCM_CodeSystem#125252 "Linear ultrasound transducer geometry" 
+* DICOM_DCM_CodeSystem#125252 //"Linear ultrasound transducer geometry" 
 
-* DICOM_DCM_CodeSystem#125253 "Curved linear ultrasound transducer geometry" 
+* DICOM_DCM_CodeSystem#125253 //"Curved linear ultrasound transducer geometry" 
 
-* DICOM_DCM_CodeSystem#125254 "Sector ultrasound transducer geometry" 
+* DICOM_DCM_CodeSystem#125254 //"Sector ultrasound transducer geometry" 
 
-* DICOM_DCM_CodeSystem#125255 "Radial ultrasound transducer geometry" 
+* DICOM_DCM_CodeSystem#125255 //"Radial ultrasound transducer geometry" 
 
-* DICOM_DCM_CodeSystem#125256 "Ring ultrasound transducer geometry" 
+* DICOM_DCM_CodeSystem#125256 //"Ring ultrasound transducer geometry" 
 
-* DICOM_DCM_CodeSystem#130808 "Planar matrix ultrasound transducer geometry" 
+* DICOM_DCM_CodeSystem#130808 //"Planar matrix ultrasound transducer geometry" 
 
-* DICOM_DCM_CodeSystem#130809 "Hemispherical ultrasound transducer geometry" 
+* DICOM_DCM_CodeSystem#130809 //"Hemispherical ultrasound transducer geometry" 
 

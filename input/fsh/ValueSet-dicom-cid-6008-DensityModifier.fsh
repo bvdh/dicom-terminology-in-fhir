@@ -9,5 +9,6 @@ In future extensions, Density Modifier terms that are not derived from BI-RADS s
 * ^version = "20020904"
 * ^title = "Density Modifier"
 * ^name = "DensityModifier"
+* ^experimental = false
 * include codes from valueset CID_6009
 

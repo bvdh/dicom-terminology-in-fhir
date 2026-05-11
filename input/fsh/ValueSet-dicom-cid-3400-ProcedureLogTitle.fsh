@@ -9,5 +9,6 @@ Procedure Log Title
 * ^version = "20030327"
 * ^title = "Procedure Log Title"
 * ^name = "ProcedureLogTitle"
-* DICOM_DCM_CodeSystem#121120 "Cath Lab Procedure Log" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121120 //"Cath Lab Procedure Log" 
 

@@ -9,6 +9,7 @@ Numeric Value Qualifier
 * ^version = "20020114"
 * ^title = "Numeric Value Qualifier"
 * ^name = "NumericValueQualifier"
+* ^experimental = false
 * include codes from valueset CID_43
 
 * include codes from valueset CID_44

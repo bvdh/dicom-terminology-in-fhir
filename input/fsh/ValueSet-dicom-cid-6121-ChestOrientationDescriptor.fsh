@@ -9,15 +9,16 @@ Chest Orientation Descriptor
 * ^version = "20030108"
 * ^title = "Chest Orientation Descriptor"
 * ^name = "ChestOrientationDescriptor"
-* http://snomed.info/sct#24020000 "Horizontal" 
-* http://snomed.info/srt#G-A142 "Horizontal" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205126 "Horizontal" 
+* ^experimental = false
+* http://snomed.info/sct#24020000 //"Horizontal" 
+* http://snomed.info/srt#G-A142 //"Horizontal" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205126 //"Horizontal" 
 
-* http://snomed.info/sct#33096000 "Vertical" 
-* http://snomed.info/srt#G-A144 "Vertical" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205128 "Vertical" 
+* http://snomed.info/sct#33096000 //"Vertical" 
+* http://snomed.info/srt#G-A144 //"Vertical" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205128 //"Vertical" 
 
-* http://snomed.info/sct#21114003 "Oblique" 
-* http://snomed.info/srt#G-A472 "Oblique" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205315 "Oblique" 
+* http://snomed.info/sct#21114003 //"Oblique" 
+* http://snomed.info/srt#G-A472 //"Oblique" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205315 //"Oblique" 
 

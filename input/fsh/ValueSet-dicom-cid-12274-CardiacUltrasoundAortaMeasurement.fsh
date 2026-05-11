@@ -9,6 +9,7 @@ Cardiac Ultrasound Aorta Measurement
 * ^version = "20240920"
 * ^title = "Cardiac Ultrasound Aorta Measurement"
 * ^name = "CardiacUltrasoundAortaMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
 * include codes from valueset CID_12222
@@ -19,7 +20,7 @@ Cardiac Ultrasound Aorta Measurement
 
 * include codes from valueset CID_12273
 
-* DICOM_DCM_CodeSystem#131003 "Left Atrium-Descending Aorta Distance" 
+* DICOM_DCM_CodeSystem#131003 //"Left Atrium-Descending Aorta Distance" 
 
-* DICOM_DCM_CodeSystem#131004 "Post-Left Atrium Space Index" 
+* DICOM_DCM_CodeSystem#131004 //"Post-Left Atrium Space Index" 
 

@@ -9,13 +9,14 @@ Fetal Anatomy Survey Practice Guideline
 * ^version = "20251113"
 * ^title = "Fetal Anatomy Survey Practice Guideline"
 * ^name = "FetalAnatomySurveyPracticeGuideline"
-* DICOM_DCM_CodeSystem#131380 "ISUOG 1st Trimester 2023" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#131380 //"ISUOG 1st Trimester 2023" 
 
-* DICOM_DCM_CodeSystem#131381 "ISUOG 2nd Trimester 2022" 
+* DICOM_DCM_CodeSystem#131381 //"ISUOG 2nd Trimester 2022" 
 
-* DICOM_DCM_CodeSystem#131382 "ISUOG 3rd Trimester 2024" 
+* DICOM_DCM_CodeSystem#131382 //"ISUOG 3rd Trimester 2024" 
 
-* DICOM_DCM_CodeSystem#131383 "JSUM Fetal Morphology 2022" 
+* DICOM_DCM_CodeSystem#131383 //"JSUM Fetal Morphology 2021" 
 
-* DICOM_DCM_CodeSystem#131384 "JDMS Fetal Anatomy 2014" 
+* DICOM_DCM_CodeSystem#131384 //"JDMS Fetal Anatomy 2014" 
 

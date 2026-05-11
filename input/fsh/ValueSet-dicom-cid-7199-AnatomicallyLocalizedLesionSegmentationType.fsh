@@ -9,7 +9,8 @@ Anatomically Localized Lesion Segmentation Type
 * ^version = "20220402"
 * ^title = "Anatomically Localized Lesion Segmentation Type"
 * ^name = "AnatomicallyLocalizedLesionSegmentationType"
-* http://snomed.info/sct#301766008 "Lesion of Brain" 
-* http://snomed.info/srt#F-A004A "Lesion of Brain" 
-* http://terminology.hl7.org/CodeSystem/umls#C0221505 "Lesion of Brain" 
+* ^experimental = false
+* http://snomed.info/sct#301766008 //"Lesion of Brain" 
+* http://snomed.info/srt#F-A004A //"Lesion of Brain" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0221505 //"Lesion of Brain" 
 

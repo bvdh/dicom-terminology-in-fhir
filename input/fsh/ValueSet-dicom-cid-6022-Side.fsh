@@ -9,5 +9,6 @@ In future extensions, Side terms that are not derived from BI-RADS should be add
 * ^version = "20020904"
 * ^title = "Side"
 * ^name = "Side"
+* ^experimental = false
 * include codes from valueset CID_6023
 

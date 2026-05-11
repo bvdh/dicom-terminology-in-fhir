@@ -9,6 +9,7 @@ mpMRI Assessment Value
 * ^version = "20210714"
 * ^title = "MpMRI Assessment Value"
 * ^name = "MpMRIAssessmentValue"
+* ^experimental = false
 * include codes from valueset CID_6336
 
 * include codes from valueset CID_6339

@@ -9,11 +9,12 @@ Positive-Negative
 * ^version = "20040112"
 * ^title = "Positive-Negative"
 * ^name = "PositiveNegative"
-* http://snomed.info/sct#10828004 "Positive" 
-* http://snomed.info/srt#G-A200 "Positive" 
-* http://terminology.hl7.org/CodeSystem/umls#C1446409 "Positive" 
+* ^experimental = false
+* http://snomed.info/sct#10828004 //"Positive" 
+* http://snomed.info/srt#G-A200 //"Positive" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1446409 //"Positive" 
 
-* http://snomed.info/sct#260385009 "Negative" 
-* http://snomed.info/srt#R-40759 "Negative" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205160 "Negative" 
+* http://snomed.info/sct#260385009 //"Negative" 
+* http://snomed.info/srt#R-40759 //"Negative" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205160 //"Negative" 
 

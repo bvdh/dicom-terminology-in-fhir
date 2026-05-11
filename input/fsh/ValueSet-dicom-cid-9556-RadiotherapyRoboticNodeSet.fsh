@@ -9,13 +9,14 @@ Radiotherapy Robotic Node Set
 * ^version = "20200117"
 * ^title = "Radiotherapy Robotic Node Set"
 * ^name = "RadiotherapyRoboticNodeSet"
-* DICOM_DCM_CodeSystem#130362 "Head Node Set" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130362 //"Head Node Set" 
 
-* DICOM_DCM_CodeSystem#130363 "Body Node Set" 
+* DICOM_DCM_CodeSystem#130363 //"Body Node Set" 
 
-* DICOM_DCM_CodeSystem#130364 "Trigeminal Node Set" 
+* DICOM_DCM_CodeSystem#130364 //"Trigeminal Node Set" 
 
-* DICOM_DCM_CodeSystem#130365 "QA Node Pair" 
+* DICOM_DCM_CodeSystem#130365 //"QA Node Pair" 
 
-* DICOM_DCM_CodeSystem#130366 "QA Node" 
+* DICOM_DCM_CodeSystem#130366 //"QA Node" 
 

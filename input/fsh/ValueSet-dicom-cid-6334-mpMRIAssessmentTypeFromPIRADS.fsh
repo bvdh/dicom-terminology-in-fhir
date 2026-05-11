@@ -9,16 +9,17 @@ mpMRI Assessment Type from PI-RADS
 * ^version = "20250908"
 * ^title = "MpMRI Assessment Type from PI-RADS"
 * ^name = "MpMRIAssessmentTypeFromPIRADS"
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9440 "Abnormality" 
-* http://terminology.hl7.org/CodeSystem/umls#C1704258 "Abnormality" 
+* ^experimental = false
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9440 //"Abnormality" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1704258 //"Abnormality" 
 
-* http://snomed.info/sct#300842002 "Shape" 
-* http://snomed.info/srt#G-C2FE "Shape" 
-* http://terminology.hl7.org/CodeSystem/umls#C0522512 "Shape" 
+* http://snomed.info/sct#300842002 //"Shape" 
+* http://snomed.info/srt#G-C2FE //"Shape" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0522512 //"Shape" 
 
-* http://snomed.info/sct#112233002 "Margin" 
+* http://snomed.info/sct#112233002 //"Margin" 
 
-* http://www.radlex.org#RID6049 "Signal characteristic" 
+* http://www.radlex.org#RID6049 //"Signal characteristic" 
 
-* http://www.radlex.org#RID6058 "Enhancement pattern" 
+* http://www.radlex.org#RID6058 //"Enhancement pattern" 
 

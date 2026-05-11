@@ -9,9 +9,10 @@ PI-RADS v2 DCE Lesion Assessment Category
 * ^version = "20210714"
 * ^title = "PI-RADS v2 DCE Lesion Assessment Category"
 * ^name = "PIRADSv2DCELesionAssessmentCategory"
-* http://www.radlex.org#RID50320 "PI-RADS DCE -ve" 
+* ^experimental = false
+* http://www.radlex.org#RID50320 //"PI-RADS DCE -ve" 
 
-* http://www.radlex.org#RID50321 "PI-RADS DCE +ve" 
+* http://www.radlex.org#RID50321 //"PI-RADS DCE +ve" 
 
-* http://www.radlex.org#RID50327 "PI-RADS X - DCE Inadequate or absent" 
+* http://www.radlex.org#RID50327 //"PI-RADS X - DCE Inadequate or absent" 
 

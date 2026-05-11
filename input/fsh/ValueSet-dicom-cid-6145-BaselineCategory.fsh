@@ -9,9 +9,10 @@ From RECIST
 * ^version = "20030108"
 * ^title = "Baseline Category"
 * ^name = "BaselineCategory"
-* DICOM_DCM_CodeSystem#112074 "Target Lesion at Baseline" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112074 //"Target Lesion at Baseline" 
 
-* DICOM_DCM_CodeSystem#112075 "Non-Target Lesion at Baseline" 
+* DICOM_DCM_CodeSystem#112075 //"Non-Target Lesion at Baseline" 
 
-* DICOM_DCM_CodeSystem#112076 "Non-Lesion at Baseline" 
+* DICOM_DCM_CodeSystem#112076 //"Non-Lesion at Baseline" 
 

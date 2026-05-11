@@ -9,7 +9,8 @@ Implant Template Modified View Orientation
 * ^version = "20101102"
 * ^title = "Implant Template Modified View Orientation"
 * ^name = "ImplantTemplateModifiedViewOrientation"
-* DICOM_DCM_CodeSystem#112300 "AP+45" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112300 //"AP+45" 
 
-* DICOM_DCM_CodeSystem#112301 "AP-45" 
+* DICOM_DCM_CodeSystem#112301 //"AP-45" 
 

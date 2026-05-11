@@ -9,15 +9,16 @@ Relative Time
 * ^version = "20030327"
 * ^title = "Relative Time"
 * ^name = "RelativeTime"
-* http://snomed.info/sct#272113006 "Before" 
-* http://snomed.info/srt#R-407E0 "Before" 
-* http://terminology.hl7.org/CodeSystem/umls#C0740175 "Before" 
+* ^experimental = false
+* http://snomed.info/sct#272113006 //"Before" 
+* http://snomed.info/srt#R-407E0 //"Before" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0740175 //"Before" 
 
-* http://snomed.info/sct#272114000 "During" 
-* http://snomed.info/srt#R-407E1 "During" 
-* http://terminology.hl7.org/CodeSystem/umls#C0347985 "During" 
+* http://snomed.info/sct#272114000 //"During" 
+* http://snomed.info/srt#R-407E1 //"During" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0347985 //"During" 
 
-* http://snomed.info/sct#288563008 "After" 
-* http://snomed.info/srt#R-42517 "After" 
-* http://terminology.hl7.org/CodeSystem/umls#C0687676 "After" 
+* http://snomed.info/sct#288563008 //"After" 
+* http://snomed.info/srt#R-42517 //"After" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0687676 //"After" 
 

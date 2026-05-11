@@ -9,17 +9,18 @@ IVUS Non Morphological Finding
 * ^version = "20040614"
 * ^title = "IVUS Non Morphological Finding"
 * ^name = "IVUSNonMorphologicalFinding"
-* DICOM_DCM_CodeSystem#122360 "True Lumen" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122360 //"True Lumen" 
 
-* http://snomed.info/sct#408707005 "Arterial Blood Stasis" 
-* http://snomed.info/srt#R-101B3 "Arterial Blood Stasis" 
-* http://terminology.hl7.org/CodeSystem/umls#C1443257 "Arterial Blood Stasis" 
+* http://snomed.info/sct#408707005 //"Arterial Blood Stasis" 
+* http://snomed.info/srt#R-101B3 //"Arterial Blood Stasis" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1443257 //"Arterial Blood Stasis" 
 
-* http://snomed.info/sct#408709008 "Incomplete Stent apposition" 
-* http://snomed.info/srt#R-101B5 "Incomplete Stent apposition" 
-* http://terminology.hl7.org/CodeSystem/umls#C1443259 "Incomplete Stent apposition" 
+* http://snomed.info/sct#408709008 //"Incomplete Stent apposition" 
+* http://snomed.info/srt#R-101B5 //"Incomplete Stent apposition" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1443259 //"Incomplete Stent apposition" 
 
-* http://snomed.info/sct#408710003 "Acquired Incomplete stent apposition" 
-* http://snomed.info/srt#R-101B6 "Acquired Incomplete stent apposition" 
-* http://terminology.hl7.org/CodeSystem/umls#C1443260 "Acquired Incomplete stent apposition" 
+* http://snomed.info/sct#408710003 //"Acquired Incomplete stent apposition" 
+* http://snomed.info/srt#R-101B6 //"Acquired Incomplete stent apposition" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1443260 //"Acquired Incomplete stent apposition" 
 

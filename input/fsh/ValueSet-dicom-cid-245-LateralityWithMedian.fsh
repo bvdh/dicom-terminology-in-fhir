@@ -9,7 +9,8 @@ Laterality with Median
 * ^version = "20190524"
 * ^title = "Laterality with Median"
 * ^name = "LateralityWithMedian"
+* ^experimental = false
 * include codes from valueset CID_244
 
-* DICOM_DCM_CodeSystem#130290 "Median" 
+* DICOM_DCM_CodeSystem#130290 //"Median" 
 

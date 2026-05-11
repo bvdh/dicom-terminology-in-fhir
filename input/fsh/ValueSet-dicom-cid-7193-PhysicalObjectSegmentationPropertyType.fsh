@@ -9,6 +9,7 @@ Physical Object Segmentation Property Type
 * ^version = "20170914"
 * ^title = "Physical Object Segmentation Property Type"
 * ^name = "PhysicalObjectSegmentationPropertyType"
+* ^experimental = false
 * include codes from valueset CID_8
 
 * include codes from valueset CID_6401

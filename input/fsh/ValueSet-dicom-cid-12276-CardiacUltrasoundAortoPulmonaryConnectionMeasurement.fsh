@@ -9,12 +9,13 @@ Cardiac Ultrasound Aorto Pulmonary Connection Measurement
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Aorto Pulmonary Connection Measurement"
 * ^name = "CardiacUltrasoundAortoPulmonaryConnectionMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
 * include codes from valueset CID_12222
 
 * include codes from valueset CID_3612
 
-* http://loinc.org#29462-9 "Pulmonary-to-Systemic Shunt Flow Ratio" 
-* http://terminology.hl7.org/CodeSystem/umls#C0944910 "Pulmonary-to-Systemic Shunt Flow Ratio" 
+* http://loinc.org#29462-9 //"Pulmonary-to-Systemic Shunt Flow Ratio" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0944910 //"Pulmonary-to-Systemic Shunt Flow Ratio" 
 

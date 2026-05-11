@@ -9,7 +9,8 @@ From BI-RADS
 * ^version = "20050822"
 * ^title = "Lesion Boundary"
 * ^name = "LesionBoundary"
-* DICOM_DCM_CodeSystem#111358 "Abrupt interface" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111358 //"Abrupt interface" 
 
-* DICOM_DCM_CodeSystem#111359 "Echogenic halo" 
+* DICOM_DCM_CodeSystem#111359 //"Echogenic halo" 
 

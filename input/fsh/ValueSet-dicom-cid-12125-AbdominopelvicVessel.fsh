@@ -9,6 +9,7 @@ Abdominopelvic Vessel
 * ^version = "20201116"
 * ^title = "Abdominopelvic Vessel"
 * ^name = "AbdominopelvicVessel"
+* ^experimental = false
 * include codes from valueset CID_12111
 
 * include codes from valueset CID_12112

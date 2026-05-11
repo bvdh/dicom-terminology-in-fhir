@@ -9,7 +9,8 @@ Airway Management Method Code Type for Small Animal Anesthesia
 * ^version = "20151110"
 * ^title = "Airway Management Method Code Type for Small Animal Anesthesia"
 * ^name = "AirwayManagementMethodCodeTypeForSmallAnimalAnesthesia"
+* ^experimental = false
 * include codes from valueset CID_618
 
-* DICOM_DCM_CodeSystem#127060 "Nose cone" 
+* DICOM_DCM_CodeSystem#127060 //"Nose cone" 
 

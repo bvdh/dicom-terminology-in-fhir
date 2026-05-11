@@ -9,13 +9,14 @@ The anatomic location relevant to the application of any AIF method is not pre-c
 * ^version = "20141110"
 * ^title = "Arterial Input Function Measurement Method"
 * ^name = "ArterialInputFunctionMeasurementMethod"
-* DICOM_DCM_CodeSystem#126360 "AIF Ignored" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#126360 //"AIF Ignored" 
 
-* DICOM_DCM_CodeSystem#126361 "Population Averaged AIF" 
+* DICOM_DCM_CodeSystem#126361 //"Population Averaged AIF" 
 
-* DICOM_DCM_CodeSystem#126362 "User-defined AIF ROI" 
+* DICOM_DCM_CodeSystem#126362 //"User-defined AIF ROI" 
 
-* DICOM_DCM_CodeSystem#126363 "Automatically Detected AIF ROI" 
+* DICOM_DCM_CodeSystem#126363 //"Automatically Detected AIF ROI" 
 
-* DICOM_DCM_CodeSystem#126364 "Blind Estimation of AIF" 
+* DICOM_DCM_CodeSystem#126364 //"Blind Estimation of AIF" 
 

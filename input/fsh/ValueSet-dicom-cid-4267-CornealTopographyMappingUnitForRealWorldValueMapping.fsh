@@ -9,9 +9,10 @@ Corneal Topography Mapping Unit for Real World Value Mapping
 * ^version = "20131014"
 * ^title = "Corneal Topography Mapping Unit for Real World Value Mapping"
 * ^name = "CornealTopographyMappingUnitForRealWorldValueMapping"
-* http://unitsofmeasure.org#um "micrometer" 
+* ^experimental = false
+* http://unitsofmeasure.org#um //"micrometer" 
 
-* http://unitsofmeasure.org#diop "diopters" 
+* http://unitsofmeasure.org#diop //"diopters" 
 
-* http://unitsofmeasure.org#mm "mm" 
+* http://unitsofmeasure.org#mm //"mm" 
 

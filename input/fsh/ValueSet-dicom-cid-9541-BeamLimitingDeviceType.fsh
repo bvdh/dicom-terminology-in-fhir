@@ -9,6 +9,7 @@ Beam Limiting Device Type
 * ^version = "20190715"
 * ^title = "Beam Limiting Device Type"
 * ^name = "BeamLimitingDeviceType"
+* ^experimental = false
 * include codes from valueset CID_9540
 
 * include codes from valueset CID_9545

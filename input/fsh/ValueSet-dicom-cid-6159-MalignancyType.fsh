@@ -9,10 +9,11 @@ From BI-RADS
 * ^version = "20050822"
 * ^title = "Malignancy Type"
 * ^name = "MalignancyType"
-* DICOM_DCM_CodeSystem#111389 "Invasive breast carcinoma" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111389 //"Invasive breast carcinoma" 
 
-* http://snomed.info/sct#1162814007 "Non-infiltrating intraductal carcinoma" 
-* http://terminology.hl7.org/CodeSystem/umls#C0007124 "Non-infiltrating intraductal carcinoma" 
+* http://snomed.info/sct#1162814007 //"Non-infiltrating intraductal carcinoma" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0007124 //"Non-infiltrating intraductal carcinoma" 
 
-* DICOM_DCM_CodeSystem#111390 "Other malignancy type" 
+* DICOM_DCM_CodeSystem#111390 //"Other malignancy type" 
 

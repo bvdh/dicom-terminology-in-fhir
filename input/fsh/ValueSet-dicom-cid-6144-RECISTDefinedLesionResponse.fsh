@@ -9,17 +9,18 @@ RECIST Defined Lesion Response
 * ^version = "20030108"
 * ^title = "RECIST Defined Lesion Response"
 * ^name = "RECISTDefinedLesionResponse"
-* DICOM_DCM_CodeSystem#112041 "Target Lesion Complete Response" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112041 //"Target Lesion Complete Response" 
 
-* DICOM_DCM_CodeSystem#112042 "Target Lesion Partial Response" 
+* DICOM_DCM_CodeSystem#112042 //"Target Lesion Partial Response" 
 
-* DICOM_DCM_CodeSystem#112043 "Target Lesion Progressive Disease" 
+* DICOM_DCM_CodeSystem#112043 //"Target Lesion Progressive Disease" 
 
-* DICOM_DCM_CodeSystem#112044 "Target Lesion Stable Disease" 
+* DICOM_DCM_CodeSystem#112044 //"Target Lesion Stable Disease" 
 
-* DICOM_DCM_CodeSystem#112045 "Non-Target Lesion Complete Response" 
+* DICOM_DCM_CodeSystem#112045 //"Non-Target Lesion Complete Response" 
 
-* DICOM_DCM_CodeSystem#112046 "Non-Target Lesion Incomplete Response or Stable Disease" 
+* DICOM_DCM_CodeSystem#112046 //"Non-Target Lesion Incomplete Response or Stable Disease" 
 
-* DICOM_DCM_CodeSystem#112047 "Non-Target Lesion Progressive Disease" 
+* DICOM_DCM_CodeSystem#112047 //"Non-Target Lesion Progressive Disease" 
 

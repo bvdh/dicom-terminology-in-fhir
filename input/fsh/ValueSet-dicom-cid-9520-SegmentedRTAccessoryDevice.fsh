@@ -9,6 +9,7 @@ Segmented RT Accessory Device
 * ^version = "20181112"
 * ^title = "Segmented RT Accessory Device"
 * ^name = "SegmentedRTAccessoryDevice"
+* ^experimental = false
 * include codes from valueset CID_9513
 
 * include codes from valueset CID_9506

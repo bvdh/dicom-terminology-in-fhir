@@ -9,7 +9,8 @@ Catheter Size Unit
 * ^version = "20030327"
 * ^title = "Catheter Size Unit"
 * ^name = "CatheterSizeUnit"
-* http://unitsofmeasure.org#[Ch] "french" 
+* ^experimental = false
+* http://unitsofmeasure.org#[Ch] //"french" 
 
-* http://unitsofmeasure.org#mm "mm" 
+* http://unitsofmeasure.org#mm //"mm" 
 

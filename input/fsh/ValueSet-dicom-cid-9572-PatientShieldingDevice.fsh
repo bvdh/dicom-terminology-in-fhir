@@ -9,15 +9,16 @@ Patient Shielding Device
 * ^version = "20210906"
 * ^title = "Patient Shielding Device"
 * ^name = "PatientShieldingDevice"
-* http://snomed.info/sct#470204007 "Gonad radiation shield" 
-* http://snomed.info/srt#R-FD178 "Gonad radiation shield" 
-* http://terminology.hl7.org/CodeSystem/umls#C3881517 "Gonad radiation shield" 
+* ^experimental = false
+* http://snomed.info/sct#470204007 //"Gonad radiation shield" 
+* http://snomed.info/srt#R-FD178 //"Gonad radiation shield" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C3881517 //"Gonad radiation shield" 
 
-* http://snomed.info/sct#469266003 "Eye radiation shield" 
-* http://snomed.info/srt#R-FCAEF "Eye radiation shield" 
-* http://terminology.hl7.org/CodeSystem/umls#C3878290 "Eye radiation shield" 
+* http://snomed.info/sct#469266003 //"Eye radiation shield" 
+* http://snomed.info/srt#R-FCAEF //"Eye radiation shield" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C3878290 //"Eye radiation shield" 
 
-* DICOM_DCM_CodeSystem#130640 "Cavity radiation shield" 
+* DICOM_DCM_CodeSystem#130640 //"Cavity radiation shield" 
 
-* DICOM_DCM_CodeSystem#130641 "Independent radiation shield" 
+* DICOM_DCM_CodeSystem#130641 //"Independent radiation shield" 
 

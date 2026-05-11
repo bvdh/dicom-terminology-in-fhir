@@ -9,7 +9,8 @@ Prostate Reporting System
 * ^version = "20210714"
 * ^title = "Prostate Reporting System"
 * ^name = "ProstateReportingSystem"
-* DICOM_DCM_CodeSystem#130564 "PI-RADS v2.0" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130564 //"PI-RADS v2.0" 
 
-* DICOM_DCM_CodeSystem#130565 "PI-RADS v2.1" 
+* DICOM_DCM_CodeSystem#130565 //"PI-RADS v2.1" 
 

@@ -9,5 +9,6 @@ Radiotherapy Dose Region
 * ^version = "20220402"
 * ^title = "Radiotherapy Dose Region"
 * ^name = "RadiotherapyDoseRegion"
-* DICOM_DCM_CodeSystem#130747 "Isodose Volume" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130747 //"Isodose Volume" 
 

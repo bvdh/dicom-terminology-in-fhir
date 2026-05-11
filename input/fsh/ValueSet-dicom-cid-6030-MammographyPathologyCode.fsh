@@ -9,6 +9,7 @@ In future extensions, Mammography Pathology Codes terms that are not derived fro
 * ^version = "20020904"
 * ^title = "Mammography Pathology Code"
 * ^name = "MammographyPathologyCode"
+* ^experimental = false
 * include codes from valueset CID_6031
 
 * include codes from valueset CID_6032

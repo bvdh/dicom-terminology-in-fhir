@@ -9,11 +9,12 @@ Respiration State
 * ^version = "20030918"
 * ^title = "Respiration State"
 * ^name = "RespirationState"
-* http://snomed.info/sct#14910006 "Inspiration" 
-* http://snomed.info/srt#F-20010 "Inspiration" 
-* http://terminology.hl7.org/CodeSystem/umls#C0004048 "Inspiration" 
+* ^experimental = false
+* http://snomed.info/sct#14910006 //"Inspiration" 
+* http://snomed.info/srt#F-20010 //"Inspiration" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0004048 //"Inspiration" 
 
-* http://snomed.info/sct#58322009 "Expiration" 
-* http://snomed.info/srt#F-20020 "Expiration" 
-* http://terminology.hl7.org/CodeSystem/umls#C0231800 "Expiration" 
+* http://snomed.info/sct#58322009 //"Expiration" 
+* http://snomed.info/srt#F-20020 //"Expiration" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0231800 //"Expiration" 
 

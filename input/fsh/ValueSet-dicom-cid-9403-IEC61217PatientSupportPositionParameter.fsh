@@ -9,19 +9,20 @@ IEC61217 Patient Support Position Parameter
 * ^version = "20130518"
 * ^title = "IEC61217 Patient Support Position Parameter"
 * ^name = "IEC61217PatientSupportPositionParameter"
-* DICOM_DCM_CodeSystem#126801 "IEC61217 Patient Support Continuous Yaw Angle" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#126801 //"IEC61217 Patient Support Continuous Yaw Angle" 
 
-* DICOM_DCM_CodeSystem#126802 "IEC61217 Table Top Continuous Pitch Angle" 
+* DICOM_DCM_CodeSystem#126802 //"IEC61217 Table Top Continuous Pitch Angle" 
 
-* DICOM_DCM_CodeSystem#126803 "IEC61217 Table Top Continuous Roll Angle" 
+* DICOM_DCM_CodeSystem#126803 //"IEC61217 Table Top Continuous Roll Angle" 
 
-* DICOM_DCM_CodeSystem#126804 "IEC61217 Table Top Eccentric Axis Distance" 
+* DICOM_DCM_CodeSystem#126804 //"IEC61217 Table Top Eccentric Axis Distance" 
 
-* DICOM_DCM_CodeSystem#126805 "IEC61217 Table Top Continuous Eccentric Angle" 
+* DICOM_DCM_CodeSystem#126805 //"IEC61217 Table Top Continuous Eccentric Angle" 
 
-* DICOM_DCM_CodeSystem#126806 "IEC61217 Table Top Lateral Position" 
+* DICOM_DCM_CodeSystem#126806 //"IEC61217 Table Top Lateral Position" 
 
-* DICOM_DCM_CodeSystem#126807 "IEC61217 Table Top Longitudinal Position" 
+* DICOM_DCM_CodeSystem#126807 //"IEC61217 Table Top Longitudinal Position" 
 
-* DICOM_DCM_CodeSystem#126808 "IEC61217 Table Top Vertical Position" 
+* DICOM_DCM_CodeSystem#126808 //"IEC61217 Table Top Vertical Position" 
 

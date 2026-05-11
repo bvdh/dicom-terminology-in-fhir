@@ -9,11 +9,12 @@ Location in Lung
 * ^version = "20240611"
 * ^title = "Location in Lung"
 * ^name = "LocationInLung"
+* ^experimental = false
 * include codes from valueset CID_6171
 
 * include codes from valueset CID_6170
 
-* http://snomed.info/sct#68599007 "Subpleural" 
-* http://snomed.info/srt#T-29020 "Subpleural" 
-* http://terminology.hl7.org/CodeSystem/umls#C0225775 "Subpleural" 
+* http://snomed.info/sct#68599007 //"Subpleural" 
+* http://snomed.info/srt#T-29020 //"Subpleural" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0225775 //"Subpleural" 
 

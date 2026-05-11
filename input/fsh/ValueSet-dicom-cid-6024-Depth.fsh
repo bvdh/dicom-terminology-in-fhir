@@ -9,5 +9,6 @@ In future extensions, Depth terms that are not derived from BI-RADS should be ad
 * ^version = "20020904"
 * ^title = "Depth"
 * ^name = "Depth"
+* ^experimental = false
 * include codes from valueset CID_6025
 

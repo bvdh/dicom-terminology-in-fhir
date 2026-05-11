@@ -9,11 +9,12 @@ Water Equivalent Diameter Method
 * ^version = "20200919"
 * ^title = "Water Equivalent Diameter Method"
 * ^name = "WaterEquivalentDiameterMethod"
-* DICOM_DCM_CodeSystem#113981 "Water Equivalent Diameter Representative Value" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113981 //"Water Equivalent Diameter Representative Value" 
 
-* DICOM_DCM_CodeSystem#113982 "Water Equivalent Diameter Integrated Across Scan Range" 
+* DICOM_DCM_CodeSystem#113982 //"Water Equivalent Diameter Integrated Across Scan Range" 
 
-* DICOM_DCM_CodeSystem#113983 "Water Equivalent Diameter From Raw Data" 
+* DICOM_DCM_CodeSystem#113983 //"Water Equivalent Diameter From Raw Data" 
 
-* DICOM_DCM_CodeSystem#113984 "Water Equivalent Diameter From Localizer" 
+* DICOM_DCM_CodeSystem#113984 //"Water Equivalent Diameter From Localizer" 
 

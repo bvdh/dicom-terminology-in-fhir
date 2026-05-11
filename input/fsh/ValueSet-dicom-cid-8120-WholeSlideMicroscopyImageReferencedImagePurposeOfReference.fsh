@@ -9,15 +9,16 @@ Whole Slide Microscopy Image Referenced Image Purpose of Reference
 * ^version = "20100824"
 * ^title = "Whole Slide Microscopy Image Referenced Image Purpose of Reference"
 * ^name = "WholeSlideMicroscopyImageReferencedImagePurposeOfReference"
-* DICOM_DCM_CodeSystem#121311 "Localizer" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121311 //"Localizer" 
 
-* DICOM_DCM_CodeSystem#121350 "Same acquisition at lower resolution" 
+* DICOM_DCM_CodeSystem#121350 //"Same acquisition at lower resolution" 
 
-* DICOM_DCM_CodeSystem#121351 "Same acquisition at higher resolution" 
+* DICOM_DCM_CodeSystem#121351 //"Same acquisition at higher resolution" 
 
-* DICOM_DCM_CodeSystem#121352 "Same acquisition at different focal depth" 
+* DICOM_DCM_CodeSystem#121352 //"Same acquisition at different focal depth" 
 
-* DICOM_DCM_CodeSystem#121353 "Same acquisition at different spectral band" 
+* DICOM_DCM_CodeSystem#121353 //"Same acquisition at different spectral band" 
 
-* DICOM_DCM_CodeSystem#121354 "Imaged container label" 
+* DICOM_DCM_CodeSystem#121354 //"Imaged container label" 
 

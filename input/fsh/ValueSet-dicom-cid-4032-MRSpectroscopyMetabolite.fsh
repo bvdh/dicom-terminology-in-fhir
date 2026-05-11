@@ -9,5 +9,6 @@ MR Spectroscopy Metabolite
 * ^version = "20040322"
 * ^title = "MR Spectroscopy Metabolite"
 * ^name = "MRSpectroscopyMetabolite"
+* ^experimental = false
 * include codes from valueset CID_4033
 

@@ -9,13 +9,14 @@ IVUS Arterial Morphology
 * ^version = "20050110"
 * ^title = "IVUS Arterial Morphology"
 * ^name = "IVUSArterialMorphology"
-* http://snomed.info/sct#67170007 "Lumen of artery" 
-* http://snomed.info/srt#T-41100 "Lumen of artery" 
-* http://terminology.hl7.org/CodeSystem/umls#C0225997 "Lumen of artery" 
+* ^experimental = false
+* http://snomed.info/sct#67170007 //"Lumen of artery" 
+* http://snomed.info/srt#T-41100 //"Lumen of artery" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0225997 //"Lumen of artery" 
 
-* http://snomed.info/sct#414165007 "External Elastic Membrane" 
-* http://snomed.info/srt#R-102AE "External Elastic Membrane" 
-* http://terminology.hl7.org/CodeSystem/umls#C1532733 "External Elastic Membrane" 
+* http://snomed.info/sct#414165007 //"External Elastic Membrane" 
+* http://snomed.info/srt#R-102AE //"External Elastic Membrane" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1532733 //"External Elastic Membrane" 
 
 * include codes from valueset CID_3495
 

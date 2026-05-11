@@ -9,5 +9,6 @@ Content Assessment Type
 * ^version = "20160318"
 * ^title = "Content Assessment Type"
 * ^name = "ContentAssessmentType"
+* ^experimental = false
 * include codes from valueset CID_702
 

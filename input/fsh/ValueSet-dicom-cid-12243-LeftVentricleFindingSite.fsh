@@ -9,7 +9,8 @@ Left Ventricle Finding Site
 * ^version = "20040614"
 * ^title = "Left Ventricle Finding Site"
 * ^name = "LeftVentricleFindingSite"
-* http://snomed.info/sct#13418002 "Left Ventricle Outflow Tract" 
-* http://snomed.info/srt#T-32650 "Left Ventricle Outflow Tract" 
-* http://terminology.hl7.org/CodeSystem/umls#C0225912 "Left Ventricle Outflow Tract" 
+* ^experimental = false
+* http://snomed.info/sct#13418002 //"Left Ventricle Outflow Tract" 
+* http://snomed.info/srt#T-32650 //"Left Ventricle Outflow Tract" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0225912 //"Left Ventricle Outflow Tract" 
 

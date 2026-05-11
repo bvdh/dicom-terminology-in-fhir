@@ -9,11 +9,12 @@ Previously Dilated Lesion
 * ^version = "20030327"
 * ^title = "Previously Dilated Lesion"
 * ^name = "PreviouslyDilatedLesion"
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#108-0 "not previously treated" 
+* ^experimental = false
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#108-0 //"not previously treated" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#108-1 "balloon only" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#108-1 //"balloon only" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#108-2 "stent only" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#108-2 //"stent only" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#108-3 "other/any combination" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#108-3 //"other/any combination" 
 

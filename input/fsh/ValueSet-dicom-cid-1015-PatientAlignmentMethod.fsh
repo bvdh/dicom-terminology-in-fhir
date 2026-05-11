@@ -9,5 +9,6 @@ Patient Alignment Method
 * ^version = "20160905"
 * ^title = "Patient Alignment Method"
 * ^name = "PatientAlignmentMethod"
-* DICOM_DCM_CodeSystem#128151 "Laser Cross-hairs" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128151 //"Laser Cross-hairs" 
 

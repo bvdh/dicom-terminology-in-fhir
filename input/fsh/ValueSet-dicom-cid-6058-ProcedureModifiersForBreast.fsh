@@ -9,6 +9,7 @@ Procedure Modifiers for Breast
 * ^version = "20050822"
 * ^title = "Procedure Modifiers for Breast"
 * ^name = "ProcedureModifiersForBreast"
+* ^experimental = false
 * include codes from valueset CID_6059
 
 * include codes from valueset CID_6060

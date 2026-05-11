@@ -9,5 +9,6 @@ Research Animal Source Registry
 * ^version = "20151110"
 * ^title = "Research Animal Source Registry"
 * ^name = "ResearchAnimalSourceRegistry"
-* DICOM_DCM_CodeSystem#126850 "ILCR" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#126850 //"ILCR" 
 

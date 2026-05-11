@@ -10,6 +10,7 @@ Description :
 * ^version = "20141110"
 * ^title = "Quantitative Method Used for Perfusion and Tracer Kinetic Model"
 * ^name = "QuantitativeMethodUsedForPerfusionAndTracerKineticModel"
+* ^experimental = false
 * include codes from valueset CID_4100
 
 * include codes from valueset CID_4101
@@ -22,5 +23,5 @@ Description :
 
 * include codes from valueset CID_4105
 
-* DICOM_DCM_CodeSystem#126342 "Model-free concentration-time quantitification" 
+* DICOM_DCM_CodeSystem#126342 //"Model-free concentration-time quantitification" 
 

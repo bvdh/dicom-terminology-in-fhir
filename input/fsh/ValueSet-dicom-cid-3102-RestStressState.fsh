@@ -9,9 +9,10 @@ Rest/Stress State
 * ^version = "20080927"
 * ^title = "Rest/Stress State"
 * ^name = "RestStressState"
-* http://snomed.info/sct#128975004 "Resting State" 
-* http://snomed.info/srt#F-01604 "Resting State" 
-* http://terminology.hl7.org/CodeSystem/umls#C0679218 "Resting State" 
+* ^experimental = false
+* http://snomed.info/sct#128975004 //"Resting State" 
+* http://snomed.info/srt#F-01604 //"Resting State" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0679218 //"Resting State" 
 
-* DICOM_DCM_CodeSystem#109091 "Cardiac Stress State" 
+* DICOM_DCM_CodeSystem#109091 //"Cardiac Stress State" 
 

@@ -9,7 +9,8 @@ Perceived Exertion Scale
 * ^version = "20080927"
 * ^title = "Perceived Exertion Scale"
 * ^name = "PerceivedExertionScale"
-* DICOM_DCM_CodeSystem#122734 "Borg RPE Scale" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122734 //"Borg RPE Scale" 
 
-* DICOM_DCM_CodeSystem#122735 "Borg CR10 Scale" 
+* DICOM_DCM_CodeSystem#122735 //"Borg CR10 Scale" 
 

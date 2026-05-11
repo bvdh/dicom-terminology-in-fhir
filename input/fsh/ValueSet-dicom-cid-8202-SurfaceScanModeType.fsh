@@ -9,11 +9,12 @@ Surface Scan Mode Type
 * ^version = "20121129"
 * ^title = "Surface Scan Mode Type"
 * ^name = "SurfaceScanModeType"
-* DICOM_DCM_CodeSystem#114209 "Turntable Scan Method" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#114209 //"Turntable Scan Method" 
 
-* DICOM_DCM_CodeSystem#114210 "High resolution" 
+* DICOM_DCM_CodeSystem#114210 //"High resolution" 
 
-* DICOM_DCM_CodeSystem#114211 "Fast mode" 
+* DICOM_DCM_CodeSystem#114211 //"Fast mode" 
 
-* DICOM_DCM_CodeSystem#114216 "Checkerboard" 
+* DICOM_DCM_CodeSystem#114216 //"Checkerboard" 
 

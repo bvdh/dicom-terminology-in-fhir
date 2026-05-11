@@ -7,3 +7,4 @@ None
 * ^version = "None"
 * ^title = "Modifier (Retired)"
 * ^name = "Cid3683"
+* ^experimental = false

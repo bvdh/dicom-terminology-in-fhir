@@ -9,9 +9,10 @@ Airway Assessment
 * ^version = "20030327"
 * ^title = "Airway Assessment"
 * ^name = "AirwayAssessment"
-* DICOM_DCM_CodeSystem#122281 "airway unobstructed" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122281 //"airway unobstructed" 
 
-* DICOM_DCM_CodeSystem#122282 "airway partially obstructed" 
+* DICOM_DCM_CodeSystem#122282 //"airway partially obstructed" 
 
-* DICOM_DCM_CodeSystem#122283 "airway severely obstructed" 
+* DICOM_DCM_CodeSystem#122283 //"airway severely obstructed" 
 

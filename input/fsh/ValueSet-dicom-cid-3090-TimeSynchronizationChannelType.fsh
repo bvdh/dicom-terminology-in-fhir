@@ -9,13 +9,14 @@ Time Synchronization Channel Type
 * ^version = "20020904"
 * ^title = "Time Synchronization Channel Type"
 * ^name = "TimeSynchronizationChannelType"
-* DICOM_DCM_CodeSystem#109001 "Digital timecode (NOS)" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#109001 //"Digital timecode (NOS)" 
 
-* DICOM_DCM_CodeSystem#109002 "ECG-based gating signal, processed" 
+* DICOM_DCM_CodeSystem#109002 //"ECG-based gating signal, processed" 
 
-* DICOM_DCM_CodeSystem#109003 "IRIG-B timecode" 
+* DICOM_DCM_CodeSystem#109003 //"IRIG-B timecode" 
 
-* DICOM_DCM_CodeSystem#109004 "X-Ray Fluoroscopy On Signal" 
+* DICOM_DCM_CodeSystem#109004 //"X-Ray Fluoroscopy On Signal" 
 
-* DICOM_DCM_CodeSystem#109005 "X-Ray On Trigger" 
+* DICOM_DCM_CodeSystem#109005 //"X-Ray On Trigger" 
 

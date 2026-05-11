@@ -9,11 +9,12 @@ Premedication Agent for Small Animal Anesthesia
 * ^version = "20151110"
 * ^title = "Premedication Agent for Small Animal Anesthesia"
 * ^name = "PremedicationAgentForSmallAnimalAnesthesia"
-* http://snomed.info/sct#96218000 "Acepromazine" 
-* http://snomed.info/srt#C-62960 "Acepromazine" 
-* http://terminology.hl7.org/CodeSystem/umls#C0000959 "Acepromazine" 
+* ^experimental = false
+* http://snomed.info/sct#96218000 //"Acepromazine" 
+* http://snomed.info/srt#C-62960 //"Acepromazine" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0000959 //"Acepromazine" 
 
-* http://snomed.info/sct#387258005 "Chlorpromazine" 
-* http://snomed.info/srt#F-61A7F "Chlorpromazine" 
-* http://terminology.hl7.org/CodeSystem/umls#C0008286 "Chlorpromazine" 
+* http://snomed.info/sct#387258005 //"Chlorpromazine" 
+* http://snomed.info/srt#F-61A7F //"Chlorpromazine" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0008286 //"Chlorpromazine" 
 

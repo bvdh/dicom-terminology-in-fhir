@@ -9,7 +9,8 @@ Segmentation Non-Image Source Purpose of Reference
 * ^version = "20240914"
 * ^title = "Segmentation Non-Image Source Purpose of Reference"
 * ^name = "SegmentationNonImageSourcePurposeOfReference"
-* DICOM_DCM_CodeSystem#128227 "Source real world value map" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128227 //"Source real world value map" 
 
-* DICOM_DCM_CodeSystem#128228 "Source segmentation" 
+* DICOM_DCM_CodeSystem#128228 //"Source segmentation" 
 

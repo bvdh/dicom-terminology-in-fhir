@@ -9,9 +9,10 @@ Source of Radioisotope Activity Information
 * ^version = "20140419"
 * ^title = "Source of Radioisotope Activity Information"
 * ^name = "SourceOfRadioisotopeActivityInformation"
-* DICOM_DCM_CodeSystem#113541 "Dose Calibrator" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113541 //"Dose Calibrator" 
 
-* DICOM_DCM_CodeSystem#113542 "Infusion System" 
+* DICOM_DCM_CodeSystem#113542 //"Infusion System" 
 
-* DICOM_DCM_CodeSystem#113543 "Radioisotope Generator" 
+* DICOM_DCM_CodeSystem#113543 //"Radioisotope Generator" 
 

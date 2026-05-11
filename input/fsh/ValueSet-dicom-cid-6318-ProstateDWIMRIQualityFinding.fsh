@@ -9,11 +9,12 @@ Prostate DWI MRI Quality Finding
 * ^version = "20210714"
 * ^title = "Prostate DWI MRI Quality Finding"
 * ^name = "ProstateDWIMRIQualityFinding"
-* DICOM_DCM_CodeSystem#130583 "Expected b-value is missing" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130583 //"Expected b-value is missing" 
 
-* DICOM_DCM_CodeSystem#130584 "Severe distortion in the area of interest" 
+* DICOM_DCM_CodeSystem#130584 //"Severe distortion in the area of interest" 
 
-* DICOM_DCM_CodeSystem#130585 "Expected ADC map is missing" 
+* DICOM_DCM_CodeSystem#130585 //"Expected ADC map is missing" 
 
-* DICOM_DCM_CodeSystem#130586 "Distortion artifact in the area of interest" 
+* DICOM_DCM_CodeSystem#130586 //"Distortion artifact in the area of interest" 
 

@@ -9,7 +9,8 @@ Ophthalmic Agent Concentration Unit
 * ^version = "20100623"
 * ^title = "Ophthalmic Agent Concentration Unit"
 * ^name = "OphthalmicAgentConcentrationUnit"
-* http://unitsofmeasure.org#% "Percent" 
+* ^experimental = false
+* http://unitsofmeasure.org#% //"Percent" 
 
-* http://unitsofmeasure.org#mg/ml "mg/ml" 
+* http://unitsofmeasure.org#mg/ml //"mg/ml" 
 

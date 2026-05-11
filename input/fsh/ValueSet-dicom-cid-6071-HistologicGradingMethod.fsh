@@ -9,9 +9,10 @@ Histologic Grading Method
 * ^version = "20040112"
 * ^title = "Histologic Grading Method"
 * ^name = "HistologicGradingMethod"
-* DICOM_DCM_CodeSystem#111502 "Bloom-Richardson Grade" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111502 //"Bloom-Richardson Grade" 
 
-* http://snomed.info/sct#372276001 "Nottingham Combined Grade" 
-* http://snomed.info/srt#R-00288 "Nottingham Combined Grade" 
-* http://terminology.hl7.org/CodeSystem/umls#C1276778 "Nottingham Combined Grade" 
+* http://snomed.info/sct#372276001 //"Nottingham Combined Grade" 
+* http://snomed.info/srt#R-00288 //"Nottingham Combined Grade" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1276778 //"Nottingham Combined Grade" 
 

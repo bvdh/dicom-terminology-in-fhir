@@ -9,19 +9,20 @@ MR Diffusion Model Fitting Method
 * ^version = "20170413"
 * ^title = "MR Diffusion Model Fitting Method"
 * ^name = "MRDiffusionModelFittingMethod"
-* DICOM_DCM_CodeSystem#113260 "Log of ratio of two samples" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113260 //"Log of ratio of two samples" 
 
-* DICOM_DCM_CodeSystem#113261 "Least squares fit of multiple samples" 
+* DICOM_DCM_CodeSystem#113261 //"Least squares fit of multiple samples" 
 
-* DICOM_DCM_CodeSystem#113265 "Levenberg-Marquardt" 
+* DICOM_DCM_CodeSystem#113265 //"Levenberg-Marquardt" 
 
-* DICOM_DCM_CodeSystem#113266 "Trust-Region" 
+* DICOM_DCM_CodeSystem#113266 //"Trust-Region" 
 
-* DICOM_DCM_CodeSystem#113267 "Fixed-Dp" 
+* DICOM_DCM_CodeSystem#113267 //"Fixed-Dp" 
 
-* DICOM_DCM_CodeSystem#113268 "Segmented-Unconstrained" 
+* DICOM_DCM_CodeSystem#113268 //"Segmented-Unconstrained" 
 
-* DICOM_DCM_CodeSystem#113269 "Segmented-Constrained" 
+* DICOM_DCM_CodeSystem#113269 //"Segmented-Constrained" 
 
-* DICOM_DCM_CodeSystem#113270 "Bayesian-Probability" 
+* DICOM_DCM_CodeSystem#113270 //"Bayesian-Probability" 
 

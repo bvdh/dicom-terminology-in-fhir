@@ -9,15 +9,16 @@ Visual Field Static Perimetry Screening Test Mode
 * ^version = "20100827"
 * ^title = "Visual Field Static Perimetry Screening Test Mode"
 * ^name = "VisualFieldStaticPerimetryScreeningTestMode"
-* DICOM_DCM_CodeSystem#111838 "Age corrected" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111838 //"Age corrected" 
 
-* DICOM_DCM_CodeSystem#111839 "Threshold related" 
+* DICOM_DCM_CodeSystem#111839 //"Threshold related" 
 
-* DICOM_DCM_CodeSystem#111840 "Single luminance" 
+* DICOM_DCM_CodeSystem#111840 //"Single luminance" 
 
-* DICOM_DCM_CodeSystem#111841 "Foveal sensitivity related" 
+* DICOM_DCM_CodeSystem#111841 //"Foveal sensitivity related" 
 
-* DICOM_DCM_CodeSystem#111842 "Related to non macular sensitivity" 
+* DICOM_DCM_CodeSystem#111842 //"Related to non macular sensitivity" 
 
-* DICOM_DCM_CodeSystem#121410 "User chosen value" 
+* DICOM_DCM_CodeSystem#121410 //"User chosen value" 
 

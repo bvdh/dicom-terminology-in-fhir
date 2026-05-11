@@ -9,29 +9,30 @@ Ophthalmic Visual Acuity Type
 * ^version = "20080124"
 * ^title = "Ophthalmic Visual Acuity Type"
 * ^name = "OphthalmicVisualAcuityType"
-* DICOM_DCM_CodeSystem#111685 "Autorefraction Visual Acuity" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111685 //"Autorefraction Visual Acuity" 
 
-* DICOM_DCM_CodeSystem#111686 "Habitual Visual Acuity" 
+* DICOM_DCM_CodeSystem#111686 //"Habitual Visual Acuity" 
 
-* DICOM_DCM_CodeSystem#111687 "Prescription Visual Acuity" 
+* DICOM_DCM_CodeSystem#111687 //"Prescription Visual Acuity" 
 
-* http://snomed.info/sct#424622008 "Potential Acuity Meter Visual Acuity" 
-* http://snomed.info/srt#F-04ECE "Potential Acuity Meter Visual Acuity" 
-* http://terminology.hl7.org/CodeSystem/umls#C1827765 "Potential Acuity Meter Visual Acuity" 
+* http://snomed.info/sct#424622008 //"Potential Acuity Meter Visual Acuity" 
+* http://snomed.info/srt#F-04ECE //"Potential Acuity Meter Visual Acuity" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1827765 //"Potential Acuity Meter Visual Acuity" 
 
-* http://snomed.info/sct#419775003 "Best Corrected Visual Acuity" 
-* http://snomed.info/srt#F-04D54 "Best Corrected Visual Acuity" 
-* http://terminology.hl7.org/CodeSystem/umls#C1690532 "Best Corrected Visual Acuity" 
+* http://snomed.info/sct#419775003 //"Best Corrected Visual Acuity" 
+* http://snomed.info/srt#F-04D54 //"Best Corrected Visual Acuity" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1690532 //"Best Corrected Visual Acuity" 
 
-* http://snomed.info/sct#420050001 "Uncorrected Visual Acuity" 
-* http://snomed.info/srt#F-04D53 "Uncorrected Visual Acuity" 
-* http://terminology.hl7.org/CodeSystem/umls#C1637380 "Uncorrected Visual Acuity" 
+* http://snomed.info/sct#420050001 //"Uncorrected Visual Acuity" 
+* http://snomed.info/srt#F-04D53 //"Uncorrected Visual Acuity" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1637380 //"Uncorrected Visual Acuity" 
 
-* http://snomed.info/sct#419475002 "Pinhole Visual Acuity" 
-* http://snomed.info/srt#F-04D55 "Pinhole Visual Acuity" 
-* http://terminology.hl7.org/CodeSystem/umls#C1642831 "Pinhole Visual Acuity" 
+* http://snomed.info/sct#419475002 //"Pinhole Visual Acuity" 
+* http://snomed.info/srt#F-04D55 //"Pinhole Visual Acuity" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1642831 //"Pinhole Visual Acuity" 
 
-* http://snomed.info/sct#425141002 "Brightness Acuity Testing Visual Acuity" 
-* http://snomed.info/srt#F-04ECF "Brightness Acuity Testing Visual Acuity" 
-* http://terminology.hl7.org/CodeSystem/umls#C1827482 "Brightness Acuity Testing Visual Acuity" 
+* http://snomed.info/sct#425141002 //"Brightness Acuity Testing Visual Acuity" 
+* http://snomed.info/srt#F-04ECF //"Brightness Acuity Testing Visual Acuity" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1827482 //"Brightness Acuity Testing Visual Acuity" 
 

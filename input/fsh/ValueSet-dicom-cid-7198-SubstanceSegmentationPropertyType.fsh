@@ -9,5 +9,6 @@ Substance Segmentation Property Type
 * ^version = "20170914"
 * ^title = "Substance Segmentation Property Type"
 * ^name = "SubstanceSegmentationPropertyType"
+* ^experimental = false
 * include codes from valueset CID_6402
 

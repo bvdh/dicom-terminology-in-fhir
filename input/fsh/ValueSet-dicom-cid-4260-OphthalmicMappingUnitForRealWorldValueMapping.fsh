@@ -9,5 +9,6 @@ Ophthalmic Mapping Unit for Real World Value Mapping
 * ^version = "20110825"
 * ^title = "Ophthalmic Mapping Unit for Real World Value Mapping"
 * ^name = "OphthalmicMappingUnitForRealWorldValueMapping"
-* http://unitsofmeasure.org#um "micrometer" 
+* ^experimental = false
+* http://unitsofmeasure.org#um //"micrometer" 
 

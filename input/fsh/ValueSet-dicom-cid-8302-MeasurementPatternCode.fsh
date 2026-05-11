@@ -9,7 +9,8 @@ Measurement Pattern Code
 * ^version = "20140331"
 * ^title = "Measurement Pattern Code"
 * ^name = "MeasurementPatternCode"
-* DICOM_DCM_CodeSystem#109843 "TG18-UNL10 Pattern" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#109843 //"TG18-UNL10 Pattern" 
 
-* DICOM_DCM_CodeSystem#109844 "TG18-UNL80 Pattern" 
+* DICOM_DCM_CodeSystem#109844 //"TG18-UNL80 Pattern" 
 

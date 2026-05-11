@@ -9,6 +9,7 @@ Procedure Phase Requiring Anesthesia
 * ^version = "20151110"
 * ^title = "Procedure Phase Requiring Anesthesia"
 * ^name = "ProcedurePhaseRequiringAnesthesia"
+* ^experimental = false
 * include codes from valueset CID_632
 
 * include codes from valueset CID_12102

@@ -9,5 +9,6 @@ In future extensions, Mammography Characteristics of Margin terms that are not d
 * ^version = "20020904"
 * ^title = "Mammography Margin Characteristic"
 * ^name = "MammographyMarginCharacteristic"
+* ^experimental = false
 * include codes from valueset CID_6007
 

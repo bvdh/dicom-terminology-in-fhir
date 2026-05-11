@@ -9,11 +9,12 @@ Cranio-Caudad Angulation
 * ^version = "20020904"
 * ^title = "Cranio-Caudad Angulation"
 * ^name = "CranioCaudadAngulation"
-* http://snomed.info/sct#66787007 "Cephalic" 
-* http://snomed.info/srt#G-A107 "Cephalic" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205096 "Cephalic" 
+* ^experimental = false
+* http://snomed.info/sct#66787007 //"Cephalic" 
+* http://snomed.info/srt#G-A107 //"Cephalic" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205096 //"Cephalic" 
 
-* http://snomed.info/sct#3583002 "Caudal" 
-* http://snomed.info/srt#G-A108 "Caudal" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205097 "Caudal" 
+* http://snomed.info/sct#3583002 //"Caudal" 
+* http://snomed.info/srt#G-A108 //"Caudal" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205097 //"Caudal" 
 

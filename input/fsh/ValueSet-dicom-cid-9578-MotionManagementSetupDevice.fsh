@@ -9,7 +9,8 @@ Motion Management Setup Device
 * ^version = "20210906"
 * ^title = "Motion Management Setup Device"
 * ^name = "MotionManagementSetupDevice"
-* DICOM_DCM_CodeSystem#130650 "Coaching Device" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130650 //"Coaching Device" 
 
-* DICOM_DCM_CodeSystem#130651 "Patient Distraction Device" 
+* DICOM_DCM_CodeSystem#130651 //"Patient Distraction Device" 
 

@@ -9,21 +9,22 @@ Specific Observation Subject Class
 * ^version = "20221201"
 * ^title = "Specific Observation Subject Class"
 * ^name = "SpecificObservationSubjectClass"
-* DICOM_DCM_CodeSystem#121025 "Patient" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121025 //"Patient" 
 
-* DICOM_DCM_CodeSystem#113014 "Study" 
+* DICOM_DCM_CodeSystem#113014 //"Study" 
 
-* DICOM_DCM_CodeSystem#113015 "Series" 
+* DICOM_DCM_CodeSystem#113015 //"Series" 
 
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48179 "Image" 
-* http://terminology.hl7.org/CodeSystem/umls#C1704922 "Image" 
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48179 //"Image" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1704922 //"Image" 
 
-* DICOM_DCM_CodeSystem#130781 "Image frame" 
+* DICOM_DCM_CodeSystem#130781 //"Image frame" 
 
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C85402 "Imaging Region of Interest" 
-* http://terminology.hl7.org/CodeSystem/umls#C0807727 "Imaging Region of Interest" 
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C85402 //"Imaging Region of Interest" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0807727 //"Imaging Region of Interest" 
 
-* http://snomed.info/sct#260893003 "Waveform" 
-* http://snomed.info/srt#G-C0AE "Waveform" 
-* http://terminology.hl7.org/CodeSystem/umls#C0450448 "Waveform" 
+* http://snomed.info/sct#260893003 //"Waveform" 
+* http://snomed.info/srt#G-C0AE //"Waveform" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0450448 //"Waveform" 
 

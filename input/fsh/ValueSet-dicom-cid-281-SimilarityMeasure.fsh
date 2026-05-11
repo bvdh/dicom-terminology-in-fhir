@@ -9,7 +9,8 @@ Similarity Measure
 * ^version = "20240913"
 * ^title = "Similarity Measure"
 * ^name = "SimilarityMeasure"
-* DICOM_DCM_CodeSystem#130920 "Dice Similarity Coefficient" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130920 //"Dice Similarity Coefficient" 
 
-* DICOM_DCM_CodeSystem#130921 "Jaccard Index" 
+* DICOM_DCM_CodeSystem#130921 //"Jaccard Index" 
 

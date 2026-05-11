@@ -9,7 +9,8 @@ Intracranial Cerebral Vessel (Unilateral)
 * ^version = "20030327"
 * ^title = "Intracranial Cerebral Vessel (Unilateral)"
 * ^name = "IntracranialCerebralVesselUnilateral"
-* http://snomed.info/sct#59011009 "Basilar Artery" 
-* http://snomed.info/srt#T-45800 "Basilar Artery" 
-* http://terminology.hl7.org/CodeSystem/umls#C0004811 "Basilar Artery" 
+* ^experimental = false
+* http://snomed.info/sct#59011009 //"Basilar Artery" 
+* http://snomed.info/srt#T-45800 //"Basilar Artery" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0004811 //"Basilar Artery" 
 

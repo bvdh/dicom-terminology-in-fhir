@@ -9,7 +9,8 @@ Ophthalmic Quality Metric Type
 * ^version = "20100623"
 * ^title = "Ophthalmic Quality Metric Type"
 * ^name = "OphthalmicQualityMetricType"
-* DICOM_DCM_CodeSystem#111786 "Standard Deviation of measurements used" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111786 //"Standard Deviation of measurements used" 
 
-* DICOM_DCM_CodeSystem#111787 "Signal to Noise Ratio" 
+* DICOM_DCM_CodeSystem#111787 //"Signal to Noise Ratio" 
 

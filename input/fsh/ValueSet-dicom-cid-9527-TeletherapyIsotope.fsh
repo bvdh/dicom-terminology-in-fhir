@@ -9,7 +9,8 @@ Teletherapy Isotope
 * ^version = "20181112"
 * ^title = "Teletherapy Isotope"
 * ^name = "TeletherapyIsotope"
-* http://snomed.info/sct#5405008 "^60^Cobalt" 
-* http://snomed.info/srt#C-144A6 "^60^Cobalt" 
-* http://terminology.hl7.org/CodeSystem/umls#C0303395 "^60^Cobalt" 
+* ^experimental = false
+* http://snomed.info/sct#5405008 //"^60^Cobalt" 
+* http://snomed.info/srt#C-144A6 //"^60^Cobalt" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0303395 //"^60^Cobalt" 
 

@@ -9,9 +9,10 @@ Usage/Exposure/Amount Qualitative Concept
 * ^version = "20040112"
 * ^title = "Usage/Exposure/Amount Qualitative Concept"
 * ^name = "UsageExposureAmountQualitativeConcept"
-* DICOM_DCM_CodeSystem#111581 "Relative dose amount" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111581 //"Relative dose amount" 
 
-* DICOM_DCM_CodeSystem#111582 "Relative amount of exposure" 
+* DICOM_DCM_CodeSystem#111582 //"Relative amount of exposure" 
 
-* DICOM_DCM_CodeSystem#111583 "Relative amount of use" 
+* DICOM_DCM_CodeSystem#111583 //"Relative amount of use" 
 

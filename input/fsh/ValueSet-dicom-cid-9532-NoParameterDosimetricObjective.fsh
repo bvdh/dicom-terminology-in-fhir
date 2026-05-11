@@ -9,5 +9,6 @@ No-Parameter Dosimetric Objective
 * ^version = "20181112"
 * ^title = "No-Parameter Dosimetric Objective"
 * ^name = "NoParameterDosimetricObjective"
-* DICOM_DCM_CodeSystem#130018 "Minimize Meterset" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130018 //"Minimize Meterset" 
 

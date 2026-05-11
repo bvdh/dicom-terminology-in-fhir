@@ -9,15 +9,16 @@ Visual Field Static Perimetry Fixation Strategy
 * ^version = "20100827"
 * ^title = "Visual Field Static Perimetry Fixation Strategy"
 * ^name = "VisualFieldStaticPerimetryFixationStrategy"
-* DICOM_DCM_CodeSystem#111843 "Automated Optical" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111843 //"Automated Optical" 
 
-* DICOM_DCM_CodeSystem#111844 "Blind Spot Monitoring" 
+* DICOM_DCM_CodeSystem#111844 //"Blind Spot Monitoring" 
 
-* DICOM_DCM_CodeSystem#111845 "Macular Fixation Testing" 
+* DICOM_DCM_CodeSystem#111845 //"Macular Fixation Testing" 
 
-* DICOM_DCM_CodeSystem#111846 "Observation by Examiner" 
+* DICOM_DCM_CodeSystem#111846 //"Observation by Examiner" 
 
-* http://snomed.info/sct#260413007 "None" 
-* http://snomed.info/srt#R-40775 "None" 
-* http://terminology.hl7.org/CodeSystem/umls#C0549184 "None" 
+* http://snomed.info/sct#260413007 //"None" 
+* http://snomed.info/srt#R-40775 //"None" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0549184 //"None" 
 

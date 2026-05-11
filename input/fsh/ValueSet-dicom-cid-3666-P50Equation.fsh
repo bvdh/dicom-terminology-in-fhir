@@ -9,15 +9,16 @@ P50 Equation
 * ^version = "20030327"
 * ^title = "P50 Equation"
 * ^name = "P50Equation"
-* DICOM_DCM_CodeSystem#122256 "if (prem age< 3days) P50 = 19.9" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122256 //"if (prem age< 3days) P50 = 19.9" 
 
-* DICOM_DCM_CodeSystem#122257 "if (age < 1day) P50 = 21.6" 
+* DICOM_DCM_CodeSystem#122257 //"if (age < 1day) P50 = 21.6" 
 
-* DICOM_DCM_CodeSystem#122258 "if (age < 30day) P50 = 24.6" 
+* DICOM_DCM_CodeSystem#122258 //"if (age < 30day) P50 = 24.6" 
 
-* DICOM_DCM_CodeSystem#122259 "if (age < 18y) P50 = 27.2" 
+* DICOM_DCM_CodeSystem#122259 //"if (age < 18y) P50 = 27.2" 
 
-* DICOM_DCM_CodeSystem#122260 "if (age < 40y) P50 = 27.4" 
+* DICOM_DCM_CodeSystem#122260 //"if (age < 40y) P50 = 27.4" 
 
-* DICOM_DCM_CodeSystem#122261 "if (age > 60y) P50 = 29.3" 
+* DICOM_DCM_CodeSystem#122261 //"if (age > 60y) P50 = 29.3" 
 

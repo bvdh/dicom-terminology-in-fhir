@@ -9,6 +9,7 @@ Echocardiography Left Ventricle Measurement
 * ^version = "20030918"
 * ^title = "Echocardiography Left Ventricle Measurement"
 * ^name = "EchocardiographyLeftVentricleMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
 * include codes from valueset CID_12201

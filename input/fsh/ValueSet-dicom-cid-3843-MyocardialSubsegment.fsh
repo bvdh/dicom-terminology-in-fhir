@@ -9,11 +9,12 @@ Myocardial Subsegment
 * ^version = "20051103"
 * ^title = "Myocardial Subsegment"
 * ^name = "MyocardialSubsegment"
-* http://snomed.info/sct#304059001 "endocardial" 
-* http://snomed.info/srt#R-427E6 "endocardial" 
-* http://terminology.hl7.org/CodeSystem/umls#C0014124 "endocardial" 
+* ^experimental = false
+* http://snomed.info/sct#304059001 //"endocardial" 
+* http://snomed.info/srt#R-427E6 //"endocardial" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0014124 //"endocardial" 
 
-* http://snomed.info/sct#261073003 "epicardial" 
-* http://snomed.info/srt#R-40940 "epicardial" 
-* http://terminology.hl7.org/CodeSystem/umls#C0442016 "epicardial" 
+* http://snomed.info/sct#261073003 //"epicardial" 
+* http://snomed.info/srt#R-40940 //"epicardial" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0442016 //"epicardial" 
 

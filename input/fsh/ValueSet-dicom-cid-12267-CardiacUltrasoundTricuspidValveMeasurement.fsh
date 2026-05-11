@@ -9,6 +9,7 @@ Cardiac Ultrasound Tricuspid Valve Measurement
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Tricuspid Valve Measurement"
 * ^name = "CardiacUltrasoundTricuspidValveMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
 * include codes from valueset CID_12222
@@ -25,10 +26,10 @@ Cardiac Ultrasound Tricuspid Valve Measurement
 
 * include codes from valueset CID_3612
 
-* http://snomed.info/sct#371847009 "Tricuspid Diastolic Filling Period (DFPt)" 
-* http://snomed.info/srt#R-003A9 "Tricuspid Diastolic Filling Period (DFPt)" 
-* http://terminology.hl7.org/CodeSystem/umls#C1299324 "Tricuspid Diastolic Filling Period (DFPt)" 
+* http://snomed.info/sct#371847009 //"Tricuspid Diastolic Filling Period (DFPt)" 
+* http://snomed.info/srt#R-003A9 //"Tricuspid Diastolic Filling Period (DFPt)" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1299324 //"Tricuspid Diastolic Filling Period (DFPt)" 
 
-* http://loinc.org#20296-0 "Time from Q wave to Tricuspid Valve Opens" 
-* http://terminology.hl7.org/CodeSystem/umls#C0803111 "Time from Q wave to Tricuspid Valve Opens" 
+* http://loinc.org#20296-0 //"Time from Q wave to Tricuspid Valve Opens" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0803111 //"Time from Q wave to Tricuspid Valve Opens" 
 

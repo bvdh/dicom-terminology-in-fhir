@@ -9,12 +9,13 @@ Prostate Cancer Diagnostic Blood Lab Measurement
 * ^version = "20210714"
 * ^title = "Prostate Cancer Diagnostic Blood Lab Measurement"
 * ^name = "ProstateCancerDiagnosticBloodLabMeasurement"
-* http://loinc.org#2857-1 "Prostate Cancer Antigen" 
-* http://terminology.hl7.org/CodeSystem/umls#C0365000 "Prostate Cancer Antigen" 
+* ^experimental = false
+* http://loinc.org#2857-1 //"Prostate Cancer Antigen" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0365000 //"Prostate Cancer Antigen" 
 
-* http://loinc.org#15325-4 "Prostate specific Antigen Density" 
-* http://terminology.hl7.org/CodeSystem/umls#C0798494 "Prostate specific Antigen Density" 
+* http://loinc.org#15325-4 //"Prostate specific Antigen Density" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0798494 //"Prostate specific Antigen Density" 
 
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142184 "4Kscore" 
-* http://terminology.hl7.org/CodeSystem/umls#C4684457 "4Kscore" 
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142184 //"4Kscore" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C4684457 //"4Kscore" 
 

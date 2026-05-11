@@ -9,11 +9,12 @@ Model Scale Unit
 * ^version = "20180403"
 * ^title = "Model Scale Unit"
 * ^name = "ModelScaleUnit"
-* http://unitsofmeasure.org#m "m" 
+* ^experimental = false
+* http://unitsofmeasure.org#m //"m" 
 
-* http://unitsofmeasure.org#cm "cm" 
+* http://unitsofmeasure.org#cm //"cm" 
 
-* http://unitsofmeasure.org#mm "mm" 
+* http://unitsofmeasure.org#mm //"mm" 
 
-* http://unitsofmeasure.org#um "um" 
+* http://unitsofmeasure.org#um //"um" 
 

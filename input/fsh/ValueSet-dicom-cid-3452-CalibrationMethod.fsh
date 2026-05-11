@@ -9,9 +9,10 @@ Calibration Method
 * ^version = "20040614"
 * ^title = "Calibration Method"
 * ^name = "CalibrationMethod"
-* DICOM_DCM_CodeSystem#122486 "Geometric Isocenter" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122486 //"Geometric Isocenter" 
 
-* DICOM_DCM_CodeSystem#122487 "Geometric Non-Isocenter" 
+* DICOM_DCM_CodeSystem#122487 //"Geometric Non-Isocenter" 
 
-* DICOM_DCM_CodeSystem#122488 "Calibration Object Used" 
+* DICOM_DCM_CodeSystem#122488 //"Calibration Object Used" 
 

@@ -9,7 +9,8 @@ Attenuation Correction Method
 * ^version = "20080927"
 * ^title = "Attenuation Correction Method"
 * ^name = "AttenuationCorrectionMethod"
-* DICOM_DCM_CodeSystem#122720 "OSEM algorithm" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122720 //"OSEM algorithm" 
 
-* DICOM_DCM_CodeSystem#122721 "Chang method" 
+* DICOM_DCM_CodeSystem#122721 //"Chang method" 
 

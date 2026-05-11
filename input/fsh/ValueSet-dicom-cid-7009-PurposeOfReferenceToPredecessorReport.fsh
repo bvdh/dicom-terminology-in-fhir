@@ -9,13 +9,14 @@ The concepts of replaced and addended correspond to REPLACEMENT and ADDENDUM in 
 * ^version = "20090826"
 * ^title = "Purpose of Reference to Predecessor Report"
 * ^name = "PurposeOfReferenceToPredecessorReport"
-* DICOM_DCM_CodeSystem#121360 "Replaced report" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121360 //"Replaced report" 
 
-* DICOM_DCM_CodeSystem#121361 "Addended report" 
+* DICOM_DCM_CodeSystem#121361 //"Addended report" 
 
-* DICOM_DCM_CodeSystem#121362 "Preliminary report" 
+* DICOM_DCM_CodeSystem#121362 //"Preliminary report" 
 
-* DICOM_DCM_CodeSystem#121363 "Partial report" 
+* DICOM_DCM_CodeSystem#121363 //"Partial report" 
 
-* DICOM_DCM_CodeSystem#122073 "Current procedure evidence" 
+* DICOM_DCM_CodeSystem#122073 //"Current procedure evidence" 
 

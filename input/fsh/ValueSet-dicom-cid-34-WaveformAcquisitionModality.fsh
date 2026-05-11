@@ -9,19 +9,20 @@ Waveform Acquisition Modality
 * ^version = "20240913"
 * ^title = "Waveform Acquisition Modality"
 * ^name = "WaveformAcquisitionModality"
-* DICOM_DCM_CodeSystem#EPS "Cardiac Electrophysiology" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#EPS //"Cardiac Electrophysiology" 
 
-* DICOM_DCM_CodeSystem#ECG "Electrocardiography" 
+* DICOM_DCM_CodeSystem#ECG //"Electrocardiography" 
 
-* DICOM_DCM_CodeSystem#EEG "Electroencephalography" 
+* DICOM_DCM_CodeSystem#EEG //"Electroencephalography" 
 
-* DICOM_DCM_CodeSystem#EMG "Electromyography" 
+* DICOM_DCM_CodeSystem#EMG //"Electromyography" 
 
-* DICOM_DCM_CodeSystem#EOG "Electrooculography" 
+* DICOM_DCM_CodeSystem#EOG //"Electrooculography" 
 
-* DICOM_DCM_CodeSystem#HD "Hemodynamic" 
+* DICOM_DCM_CodeSystem#HD //"Hemodynamic" 
 
-* DICOM_DCM_CodeSystem#POS "Position Sensor" 
+* DICOM_DCM_CodeSystem#POS //"Position Sensor" 
 
-* DICOM_DCM_CodeSystem#RESP "Respiratory" 
+* DICOM_DCM_CodeSystem#RESP //"Respiratory" 
 

@@ -9,7 +9,8 @@ General Area Calculation Method
 * ^version = "20070827"
 * ^title = "General Area Calculation Method"
 * ^name = "GeneralAreaCalculationMethod"
-* DICOM_DCM_CodeSystem#122501 "Area of closed irregular polygon" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122501 //"Area of closed irregular polygon" 
 
-* DICOM_DCM_CodeSystem#122502 "Area of a closed NURBS" 
+* DICOM_DCM_CodeSystem#122502 //"Area of a closed NURBS" 
 

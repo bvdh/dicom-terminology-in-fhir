@@ -9,7 +9,8 @@ Vessel Lumen Cross-sectional Area Calculation Method
 * ^version = "20040614"
 * ^title = "Vessel Lumen Cross-sectional Area Calculation Method"
 * ^name = "VesselLumenCrossSectionalAreaCalculationMethod"
-* DICOM_DCM_CodeSystem#122473 "Circular method" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122473 //"Circular method" 
 
-* DICOM_DCM_CodeSystem#122474 "Densitometric method" 
+* DICOM_DCM_CodeSystem#122474 //"Densitometric method" 
 

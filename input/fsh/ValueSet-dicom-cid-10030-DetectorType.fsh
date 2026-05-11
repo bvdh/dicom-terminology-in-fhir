@@ -9,11 +9,12 @@ Detector Type
 * ^version = "20120406"
 * ^title = "Detector Type"
 * ^name = "DetectorType"
-* DICOM_DCM_CodeSystem#113948 "Direct Detector" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113948 //"Direct Detector" 
 
-* DICOM_DCM_CodeSystem#113949 "Indirect Detector" 
+* DICOM_DCM_CodeSystem#113949 //"Indirect Detector" 
 
-* DICOM_DCM_CodeSystem#113950 "Storage Detector" 
+* DICOM_DCM_CodeSystem#113950 //"Storage Detector" 
 
-* DICOM_DCM_CodeSystem#113951 "Film" 
+* DICOM_DCM_CodeSystem#113951 //"Film" 
 

@@ -9,9 +9,10 @@ General Volume Calculation Method
 * ^version = "20200920"
 * ^title = "General Volume Calculation Method"
 * ^name = "GeneralVolumeCalculationMethod"
-* DICOM_DCM_CodeSystem#122503 "Integration of sum of closed areas on contiguous slices method for volume" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122503 //"Integration of sum of closed areas on contiguous slices method for volume" 
 
-* DICOM_DCM_CodeSystem#126030 "Sum of segmented voxel method for volume" 
+* DICOM_DCM_CodeSystem#126030 //"Sum of segmented voxel method for volume" 
 
-* DICOM_DCM_CodeSystem#126029 "LWH method for volume of ellipsoid" 
+* DICOM_DCM_CodeSystem#126029 //"LWH method for volume of ellipsoid" 
 

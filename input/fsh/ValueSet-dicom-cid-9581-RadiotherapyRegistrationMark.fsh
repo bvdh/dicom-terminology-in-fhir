@@ -9,5 +9,6 @@ Radiotherapy Registration Mark
 * ^version = "20220402"
 * ^title = "Radiotherapy Registration Mark"
 * ^name = "RadiotherapyRegistrationMark"
-* DICOM_DCM_CodeSystem#112171 "Fiducial mark" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112171 //"Fiducial mark" 
 

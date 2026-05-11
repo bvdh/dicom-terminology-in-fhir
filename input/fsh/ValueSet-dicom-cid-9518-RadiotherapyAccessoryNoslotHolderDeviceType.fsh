@@ -9,5 +9,6 @@ Radiotherapy Accessory No-Slot Holder Device Type
 * ^version = "20181112"
 * ^title = "Radiotherapy Accessory No-slot Holder Device Type"
 * ^name = "RadiotherapyAccessoryNoslotHolderDeviceType"
-* DICOM_DCM_CodeSystem#130124 "Accessory Tray" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130124 //"Accessory Tray" 
 

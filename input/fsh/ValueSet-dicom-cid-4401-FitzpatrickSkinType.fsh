@@ -9,21 +9,22 @@ Fitzpatrick Skin Type
 * ^version = "20250122"
 * ^title = "Fitzpatrick Skin Type"
 * ^name = "FitzpatrickSkinType"
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74569 "Fitzpatrick Skin Type I" 
-* http://terminology.hl7.org/CodeSystem/umls#C2700185 "Fitzpatrick Skin Type I" 
+* ^experimental = false
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74569 //"Fitzpatrick Skin Type I" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2700185 //"Fitzpatrick Skin Type I" 
 
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74570 "Fitzpatrick Skin Type II" 
-* http://terminology.hl7.org/CodeSystem/umls#C2700186 "Fitzpatrick Skin Type II" 
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74570 //"Fitzpatrick Skin Type II" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2700186 //"Fitzpatrick Skin Type II" 
 
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74571 "Fitzpatrick Skin Type III" 
-* http://terminology.hl7.org/CodeSystem/umls#C2700187 "Fitzpatrick Skin Type III" 
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74571 //"Fitzpatrick Skin Type III" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2700187 //"Fitzpatrick Skin Type III" 
 
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74572 "Fitzpatrick Skin Type IV" 
-* http://terminology.hl7.org/CodeSystem/umls#C2700188 "Fitzpatrick Skin Type IV" 
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74572 //"Fitzpatrick Skin Type IV" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2700188 //"Fitzpatrick Skin Type IV" 
 
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74573 "Fitzpatrick Skin Type V" 
-* http://terminology.hl7.org/CodeSystem/umls#C2700189 "Fitzpatrick Skin Type V" 
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74573 //"Fitzpatrick Skin Type V" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2700189 //"Fitzpatrick Skin Type V" 
 
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74574 "Fitzpatrick Skin Type VI" 
-* http://terminology.hl7.org/CodeSystem/umls#C2700190 "Fitzpatrick Skin Type VI" 
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74574 //"Fitzpatrick Skin Type VI" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2700190 //"Fitzpatrick Skin Type VI" 
 

@@ -9,6 +9,7 @@ Anatomical Reference Basis
 * ^version = "20160905"
 * ^title = "Anatomical Reference Basis"
 * ^name = "AnatomicalReferenceBasis"
+* ^experimental = false
 * include codes from valueset CID_1002
 
 * include codes from valueset CID_1003

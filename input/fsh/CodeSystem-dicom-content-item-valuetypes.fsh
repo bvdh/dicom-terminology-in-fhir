@@ -2,7 +2,7 @@ CodeSystem: DICOM_ContentItemValueTypes
 Id: dicom-content-item-valuetypes
 Title: "DICOM® Content Item Value Type"
 Description: "DICOM® Content Item Value Type extracted from (DICOM Part 3 section C.17.2-1)[https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.17.3.2.html#sect_C.17.3.2.1]."
-* ^version = "2025.?.20251120"
+* ^version = "2026.2.20260327"
 * ^caseSensitive = true
 * ^content = #complete
 * ^experimental = false

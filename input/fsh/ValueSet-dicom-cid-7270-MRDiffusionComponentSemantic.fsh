@@ -9,17 +9,18 @@ MR Diffusion Component Semantic
 * ^version = "20170413"
 * ^title = "MR Diffusion Component Semantic"
 * ^name = "MRDiffusionComponentSemantic"
-* DICOM_DCM_CodeSystem#113043 "Diffusion weighted" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113043 //"Diffusion weighted" 
 
-* DICOM_DCM_CodeSystem#110810 "Volumetric Diffusion Dxx Component" 
+* DICOM_DCM_CodeSystem#110810 //"Volumetric Diffusion Dxx Component" 
 
-* DICOM_DCM_CodeSystem#110811 "Volumetric Diffusion Dxy Component" 
+* DICOM_DCM_CodeSystem#110811 //"Volumetric Diffusion Dxy Component" 
 
-* DICOM_DCM_CodeSystem#110812 "Volumetric Diffusion Dxz Component" 
+* DICOM_DCM_CodeSystem#110812 //"Volumetric Diffusion Dxz Component" 
 
-* DICOM_DCM_CodeSystem#110813 "Volumetric Diffusion Dyy Component" 
+* DICOM_DCM_CodeSystem#110813 //"Volumetric Diffusion Dyy Component" 
 
-* DICOM_DCM_CodeSystem#110814 "Volumetric Diffusion Dyz Component" 
+* DICOM_DCM_CodeSystem#110814 //"Volumetric Diffusion Dyz Component" 
 
-* DICOM_DCM_CodeSystem#110815 "Volumetric Diffusion Dzz Component" 
+* DICOM_DCM_CodeSystem#110815 //"Volumetric Diffusion Dzz Component" 
 

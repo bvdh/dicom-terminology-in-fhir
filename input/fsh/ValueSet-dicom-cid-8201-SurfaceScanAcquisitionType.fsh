@@ -9,19 +9,20 @@ Surface Scan Acquisition Type
 * ^version = "20121129"
 * ^title = "Surface Scan Acquisition Type"
 * ^name = "SurfaceScanAcquisitionType"
-* DICOM_DCM_CodeSystem#114201 "Time of flight" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#114201 //"Time of flight" 
 
-* DICOM_DCM_CodeSystem#114202 "Interferometry" 
+* DICOM_DCM_CodeSystem#114202 //"Interferometry" 
 
-* DICOM_DCM_CodeSystem#114203 "Laser scanning" 
+* DICOM_DCM_CodeSystem#114203 //"Laser scanning" 
 
-* DICOM_DCM_CodeSystem#114204 "Pattern projection" 
+* DICOM_DCM_CodeSystem#114204 //"Pattern projection" 
 
-* DICOM_DCM_CodeSystem#114205 "Shape from shading" 
+* DICOM_DCM_CodeSystem#114205 //"Shape from shading" 
 
-* DICOM_DCM_CodeSystem#114206 "Shape from motion" 
+* DICOM_DCM_CodeSystem#114206 //"Shape from motion" 
 
-* DICOM_DCM_CodeSystem#114207 "Confocal imaging" 
+* DICOM_DCM_CodeSystem#114207 //"Confocal imaging" 
 
-* DICOM_DCM_CodeSystem#114208 "Point Cloud Algorithmic" 
+* DICOM_DCM_CodeSystem#114208 //"Point Cloud Algorithmic" 
 

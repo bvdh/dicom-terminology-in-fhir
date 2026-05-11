@@ -9,7 +9,8 @@ DateTime Qualifier
 * ^version = "20030327"
 * ^title = "DateTime Qualifier"
 * ^name = "DateTimeQualifier"
-* DICOM_DCM_CodeSystem#121136 "DateTime Unsynchronized" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121136 //"DateTime Unsynchronized" 
 
-* DICOM_DCM_CodeSystem#121137 "DateTime Estimated" 
+* DICOM_DCM_CodeSystem#121137 //"DateTime Estimated" 
 

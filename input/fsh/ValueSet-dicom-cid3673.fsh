@@ -7,3 +7,4 @@ None
 * ^version = "None"
 * ^title = "Diagnosis (Retired)"
 * ^name = "Cid3673"
+* ^experimental = false

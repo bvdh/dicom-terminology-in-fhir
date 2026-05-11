@@ -9,6 +9,7 @@ Vessel Segment
 * ^version = "20051103"
 * ^title = "Vessel Segment"
 * ^name = "VesselSegment"
+* ^experimental = false
 * include codes from valueset CID_12105
 
 * include codes from valueset CID_12106

@@ -9,13 +9,14 @@ SR Document Purpose of Reference
 * ^version = "20061023"
 * ^title = "SR Document Purpose of Reference"
 * ^name = "SRDocumentPurposeOfReference"
-* DICOM_DCM_CodeSystem#121331 "Equivalent CDA Document" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121331 //"Equivalent CDA Document" 
 
-* DICOM_DCM_CodeSystem#121332 "Complete Rendering for Presentation" 
+* DICOM_DCM_CodeSystem#121332 //"Complete Rendering for Presentation" 
 
-* DICOM_DCM_CodeSystem#121333 "Partial Rendering for Presentation" 
+* DICOM_DCM_CodeSystem#121333 //"Partial Rendering for Presentation" 
 
-* DICOM_DCM_CodeSystem#121334 "Extended Rendering for Presentation" 
+* DICOM_DCM_CodeSystem#121334 //"Extended Rendering for Presentation" 
 
-* DICOM_DCM_CodeSystem#121335 "Source Document" 
+* DICOM_DCM_CodeSystem#121335 //"Source Document" 
 

@@ -9,9 +9,10 @@ Coronary Intervention Indication
 * ^version = "20030327"
 * ^title = "Coronary Intervention Indication"
 * ^name = "CoronaryInterventionIndication"
-* DICOM_DCM_CodeSystem#122171 "Coronary lesion > = 50% stenosis" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122171 //"Coronary lesion > = 50% stenosis" 
 
-* http://snomed.info/sct#89138009 "Cardiogenic Shock" 
-* http://snomed.info/srt#D3-00200 "Cardiogenic Shock" 
-* http://terminology.hl7.org/CodeSystem/umls#C0036980 "Cardiogenic Shock" 
+* http://snomed.info/sct#89138009 //"Cardiogenic Shock" 
+* http://snomed.info/srt#D3-00200 //"Cardiogenic Shock" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0036980 //"Cardiogenic Shock" 
 

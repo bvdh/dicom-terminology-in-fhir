@@ -9,12 +9,13 @@ OB-GYN Ultrasound Report Document Title
 * ^version = "20200704"
 * ^title = "OB-GYN Ultrasound Report Document Title"
 * ^name = "OBGYNUltrasoundReportDocumentTitle"
-* DICOM_DCM_CodeSystem#125000 "OB-GYN Ultrasound Procedure Report" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#125000 //"OB-GYN Ultrasound Procedure Report" 
 
-* http://loinc.org#24869-0 "US Pelvis" 
-* http://terminology.hl7.org/CodeSystem/umls#C0882060 "US Pelvis" 
+* http://loinc.org#24869-0 //"US Pelvis" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0882060 //"US Pelvis" 
 
-* http://snomed.info/sct#268445003 "" 
-* http://snomed.info/srt#P5-B005A "" 
-* http://terminology.hl7.org/CodeSystem/umls#C0412555 "" 
+* http://snomed.info/sct#268445003 //"" 
+* http://snomed.info/srt#P5-B005A //"" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0412555 //"" 
 

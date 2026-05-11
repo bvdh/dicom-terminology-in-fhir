@@ -9,13 +9,14 @@ Retinal Thickness Definition
 * ^version = "20110825"
 * ^title = "Retinal Thickness Definition"
 * ^name = "RetinalThicknessDefinition"
-* DICOM_DCM_CodeSystem#111925 "Retinal nerve fiber layer thickness" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111925 //"Retinal nerve fiber layer thickness" 
 
-* DICOM_DCM_CodeSystem#111926 "Ganglion cell complex thickness" 
+* DICOM_DCM_CodeSystem#111926 //"Ganglion cell complex thickness" 
 
-* DICOM_DCM_CodeSystem#111927 "Total retinal thickness (ILM to IS-OS)" 
+* DICOM_DCM_CodeSystem#111927 //"Total retinal thickness (ILM to IS-OS)" 
 
-* DICOM_DCM_CodeSystem#111928 "Total retinal thickness (ILM to RPE)" 
+* DICOM_DCM_CodeSystem#111928 //"Total retinal thickness (ILM to RPE)" 
 
-* DICOM_DCM_CodeSystem#111929 "Total retinal thickness (ILM to BM)" 
+* DICOM_DCM_CodeSystem#111929 //"Total retinal thickness (ILM to BM)" 
 

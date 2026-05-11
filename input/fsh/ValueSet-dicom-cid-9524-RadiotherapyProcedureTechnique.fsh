@@ -9,6 +9,7 @@ Radiotherapy Procedure Technique
 * ^version = "20181112"
 * ^title = "Radiotherapy Procedure Technique"
 * ^name = "RadiotherapyProcedureTechnique"
+* ^experimental = false
 * include codes from valueset CID_9511
 
 * include codes from valueset CID_9512

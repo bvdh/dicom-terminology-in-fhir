@@ -9,11 +9,12 @@ Feature Scope
 * ^version = "20020904"
 * ^title = "Feature Scope"
 * ^name = "FeatureScope"
-* DICOM_DCM_CodeSystem#111156 "Feature detected on the only image" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111156 //"Feature detected on the only image" 
 
-* DICOM_DCM_CodeSystem#111157 "Feature detected on only one of the images" 
+* DICOM_DCM_CodeSystem#111157 //"Feature detected on only one of the images" 
 
-* DICOM_DCM_CodeSystem#111158 "Feature detected on multiple images" 
+* DICOM_DCM_CodeSystem#111158 //"Feature detected on multiple images" 
 
-* DICOM_DCM_CodeSystem#111159 "Feature detected on images from multiple modalities" 
+* DICOM_DCM_CodeSystem#111159 //"Feature detected on images from multiple modalities" 
 

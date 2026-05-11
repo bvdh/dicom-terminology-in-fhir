@@ -9,11 +9,12 @@ Prostate MRI Series Quality Finding
 * ^version = "20210714"
 * ^title = "Prostate MRI Series Quality Finding"
 * ^name = "ProstateMRISeriesQualityFinding"
-* DICOM_DCM_CodeSystem#130576 "Anatomy coverage incomplete" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130576 //"Anatomy coverage incomplete" 
 
-* DICOM_DCM_CodeSystem#130577 "Poor FOV selection" 
+* DICOM_DCM_CodeSystem#130577 //"Poor FOV selection" 
 
-* DICOM_DCM_CodeSystem#130578 "Poor SNR" 
+* DICOM_DCM_CodeSystem#130578 //"Poor SNR" 
 
 * include codes from valueset CID_6316
 

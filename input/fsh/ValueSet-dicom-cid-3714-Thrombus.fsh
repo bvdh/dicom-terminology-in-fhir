@@ -9,19 +9,20 @@ Thrombus
 * ^version = "20030327"
 * ^title = "Thrombus"
 * ^name = "Thrombus"
-* http://snomed.info/sct#373140001 "No Thrombus" 
-* http://snomed.info/srt#R-0033A "No Thrombus" 
-* http://terminology.hl7.org/CodeSystem/umls#C1276764 "No Thrombus" 
+* ^experimental = false
+* http://snomed.info/sct#373140001 //"No Thrombus" 
+* http://snomed.info/srt#R-0033A //"No Thrombus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1276764 //"No Thrombus" 
 
-* http://snomed.info/sct#373141002 "Possible Thrombus" 
-* http://snomed.info/srt#R-00356 "Possible Thrombus" 
-* http://terminology.hl7.org/CodeSystem/umls#C1298825 "Possible Thrombus" 
+* http://snomed.info/sct#373141002 //"Possible Thrombus" 
+* http://snomed.info/srt#R-00356 //"Possible Thrombus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1298825 //"Possible Thrombus" 
 
-* http://snomed.info/sct#373142009 "Definite Thrombus" 
-* http://snomed.info/srt#R-002F1 "Definite Thrombus" 
-* http://terminology.hl7.org/CodeSystem/umls#C1298826 "Definite Thrombus" 
+* http://snomed.info/sct#373142009 //"Definite Thrombus" 
+* http://snomed.info/srt#R-002F1 //"Definite Thrombus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1298826 //"Definite Thrombus" 
 
-* http://snomed.info/sct#373143004 "Severe Thrombus" 
-* http://snomed.info/srt#R-00371 "Severe Thrombus" 
-* http://terminology.hl7.org/CodeSystem/umls#C1298827 "Severe Thrombus" 
+* http://snomed.info/sct#373143004 //"Severe Thrombus" 
+* http://snomed.info/srt#R-00371 //"Severe Thrombus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1298827 //"Severe Thrombus" 
 

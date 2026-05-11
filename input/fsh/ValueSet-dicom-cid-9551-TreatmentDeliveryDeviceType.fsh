@@ -9,5 +9,6 @@ Treatment Delivery Device Type
 * ^version = "20190715"
 * ^title = "Treatment Delivery Device Type"
 * ^name = "TreatmentDeliveryDeviceType"
-* DICOM_DCM_CodeSystem#130361 "Radiotherapy Treatment Device" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130361 //"Radiotherapy Treatment Device" 
 

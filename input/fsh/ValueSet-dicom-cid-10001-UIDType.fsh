@@ -9,11 +9,12 @@ UID Type
 * ^version = "20190327"
 * ^title = "UID Type"
 * ^name = "UIDType"
-* DICOM_DCM_CodeSystem#110180 "Study Instance UID" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#110180 //"Study Instance UID" 
 
-* DICOM_DCM_CodeSystem#112002 "Series Instance UID" 
+* DICOM_DCM_CodeSystem#112002 //"Series Instance UID" 
 
-* DICOM_DCM_CodeSystem#121126 "Performed Procedure Step SOP Instance UID" 
+* DICOM_DCM_CodeSystem#121126 //"Performed Procedure Step SOP Instance UID" 
 
-* DICOM_DCM_CodeSystem#113769 "Irradiation Event UID" 
+* DICOM_DCM_CodeSystem#113769 //"Irradiation Event UID" 
 

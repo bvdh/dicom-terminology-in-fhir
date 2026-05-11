@@ -9,15 +9,16 @@ Visual Fixation Quality During Acquisition
 * ^version = "20090917"
 * ^title = "Visual Fixation Quality During Acquisition"
 * ^name = "VisualFixationQualityDuringAcquisition"
-* http://snomed.info/sct#55011004 "Steady" 
-* http://snomed.info/srt#G-A555 "Steady" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205361 "Steady" 
+* ^experimental = false
+* http://snomed.info/sct#55011004 //"Steady" 
+* http://snomed.info/srt#G-A555 //"Steady" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205361 //"Steady" 
 
-* http://snomed.info/sct#103361006 "Not Steady" 
-* http://snomed.info/srt#G-A556 "Not Steady" 
-* http://terminology.hl7.org/CodeSystem/umls#C0439829 "Not Steady" 
+* http://snomed.info/sct#103361006 //"Not Steady" 
+* http://snomed.info/srt#G-A556 //"Not Steady" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0439829 //"Not Steady" 
 
-* http://snomed.info/sct#82334004 "Indeterminate" 
-* http://snomed.info/srt#G-A385 "Indeterminate" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205258 "Indeterminate" 
+* http://snomed.info/sct#82334004 //"Indeterminate" 
+* http://snomed.info/srt#G-A385 //"Indeterminate" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205258 //"Indeterminate" 
 

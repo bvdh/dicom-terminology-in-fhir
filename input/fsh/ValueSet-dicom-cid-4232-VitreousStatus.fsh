@@ -9,19 +9,20 @@ Vitreous Status
 * ^version = "20100623"
 * ^title = "Vitreous Status"
 * ^name = "VitreousStatus"
-* http://snomed.info/sct#247094004 "Gas in vitreous cavity" 
-* http://snomed.info/srt#F-035F3 "Gas in vitreous cavity" 
-* http://terminology.hl7.org/CodeSystem/umls#C0423372 "Gas in vitreous cavity" 
+* ^experimental = false
+* http://snomed.info/sct#247094004 //"Gas in vitreous cavity" 
+* http://snomed.info/srt#F-035F3 //"Gas in vitreous cavity" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0423372 //"Gas in vitreous cavity" 
 
-* http://snomed.info/sct#232077005 "Post-Vitrectomy" 
-* http://snomed.info/srt#DA-7930D "Post-Vitrectomy" 
-* http://terminology.hl7.org/CodeSystem/umls#C0339563 "Post-Vitrectomy" 
+* http://snomed.info/sct#232077005 //"Post-Vitrectomy" 
+* http://snomed.info/srt#DA-7930D //"Post-Vitrectomy" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0339563 //"Post-Vitrectomy" 
 
-* http://snomed.info/sct#247095003 "Silicone Oil" 
-* http://snomed.info/srt#F-035FD "Silicone Oil" 
-* http://terminology.hl7.org/CodeSystem/umls#C0423373 "Silicone Oil" 
+* http://snomed.info/sct#247095003 //"Silicone Oil" 
+* http://snomed.info/srt#F-035FD //"Silicone Oil" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0423373 //"Silicone Oil" 
 
-* http://snomed.info/sct#372242005 "Vitreous Only" 
-* http://snomed.info/srt#T-AA092 "Vitreous Only" 
-* http://terminology.hl7.org/CodeSystem/umls#C1299205 "Vitreous Only" 
+* http://snomed.info/sct#372242005 //"Vitreous Only" 
+* http://snomed.info/srt#T-AA092 //"Vitreous Only" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1299205 //"Vitreous Only" 
 

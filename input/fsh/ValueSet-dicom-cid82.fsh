@@ -7,3 +7,4 @@ Equivalent to the HL7 Value Set 'Units of Measure case sensitive' 2.16.840.1.113
 * ^version = "None"
 * ^title = "Measurement Unit"
 * ^name = "Cid82"
+* ^experimental = false

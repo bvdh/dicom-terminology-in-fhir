@@ -9,11 +9,12 @@ Diameter Derivation
 * ^version = "20051103"
 * ^title = "Diameter Derivation"
 * ^name = "DiameterDerivation"
+* ^experimental = false
 * include codes from valueset CID_3488
 
-* http://snomed.info/sct#62824007 "Transverse" 
-* http://snomed.info/srt#G-A117 "Transverse" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205106 "Transverse" 
+* http://snomed.info/sct#62824007 //"Transverse" 
+* http://snomed.info/srt#G-A117 //"Transverse" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205106 //"Transverse" 
 
-* DICOM_DCM_CodeSystem#122675 "Anterior-Posterior" 
+* DICOM_DCM_CodeSystem#122675 //"Anterior-Posterior" 
 

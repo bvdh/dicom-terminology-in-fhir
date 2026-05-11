@@ -9,6 +9,7 @@ Cardiac Ultrasound Ventricles Measurement
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Ventricles Measurement"
 * ^name = "CardiacUltrasoundVentriclesMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12257
 
 * include codes from valueset CID_12258

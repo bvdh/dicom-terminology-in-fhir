@@ -9,14 +9,15 @@ Cardiac Ultrasound Myocardium Measurement
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Myocardium Measurement"
 * ^name = "CardiacUltrasoundMyocardiumMeasurement"
-* DICOM_DCM_CodeSystem#122447 "Wall Mass" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122447 //"Wall Mass" 
 
-* http://loinc.org#59099-2 "Myocardial Performance Index (Tei)" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923433 "Myocardial Performance Index (Tei)" 
+* http://loinc.org#59099-2 //"Myocardial Performance Index (Tei)" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2923433 //"Myocardial Performance Index (Tei)" 
 
-* http://loinc.org#59094-3 "Endocardial Area" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923423 "Endocardial Area" 
+* http://loinc.org#59094-3 //"Endocardial Area" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2923423 //"Endocardial Area" 
 
-* http://loinc.org#59093-5 "Epicardial Area" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923421 "Epicardial Area" 
+* http://loinc.org#59093-5 //"Epicardial Area" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2923421 //"Epicardial Area" 
 

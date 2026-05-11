@@ -9,17 +9,18 @@ History of Prostate Disease
 * ^version = "20210714"
 * ^title = "History of Prostate Disease"
 * ^name = "HistoryOfProstateDisease"
-* http://snomed.info/sct#9713002 "Prostatitis" 
-* http://snomed.info/srt#D7-51010 "Prostatitis" 
-* http://terminology.hl7.org/CodeSystem/umls#C0033581 "Prostatitis" 
+* ^experimental = false
+* http://snomed.info/sct#9713002 //"Prostatitis" 
+* http://snomed.info/srt#D7-51010 //"Prostatitis" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0033581 //"Prostatitis" 
 
-* http://snomed.info/sct#254900004 "Prostate cancer" 
-* http://snomed.info/srt#D7-F0465 "Prostate cancer" 
-* http://terminology.hl7.org/CodeSystem/umls#C0600139 "Prostate cancer" 
+* http://snomed.info/sct#254900004 //"Prostate cancer" 
+* http://snomed.info/srt#D7-F0465 //"Prostate cancer" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0600139 //"Prostate cancer" 
 
-* http://snomed.info/sct#444808002 "Benign Prostate Hyperplasia" 
-* http://snomed.info/srt#D7-F047C "Benign Prostate Hyperplasia" 
-* http://terminology.hl7.org/CodeSystem/umls#C0878697 "Benign Prostate Hyperplasia" 
+* http://snomed.info/sct#444808002 //"Benign Prostate Hyperplasia" 
+* http://snomed.info/srt#D7-F047C //"Benign Prostate Hyperplasia" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0878697 //"Benign Prostate Hyperplasia" 
 
-* DICOM_DCM_CodeSystem#130569 "Utricle cyst" 
+* DICOM_DCM_CodeSystem#130569 //"Utricle cyst" 
 

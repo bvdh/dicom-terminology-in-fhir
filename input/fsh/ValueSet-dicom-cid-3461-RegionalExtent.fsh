@@ -9,17 +9,18 @@ Regional Extent
 * ^version = "20040614"
 * ^title = "Regional Extent"
 * ^name = "RegionalExtent"
-* DICOM_DCM_CodeSystem#122466 "Single LAD Region in RAO Projection" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122466 //"Single LAD Region in RAO Projection" 
 
-* DICOM_DCM_CodeSystem#122467 "Single RCA Region in RAO Projection" 
+* DICOM_DCM_CodeSystem#122467 //"Single RCA Region in RAO Projection" 
 
-* DICOM_DCM_CodeSystem#122468 "Multiple LAD Region in RAO Projection" 
+* DICOM_DCM_CodeSystem#122468 //"Multiple LAD Region in RAO Projection" 
 
-* DICOM_DCM_CodeSystem#122469 "Multiple RCA Region in RAO Projection" 
+* DICOM_DCM_CodeSystem#122469 //"Multiple RCA Region in RAO Projection" 
 
-* DICOM_DCM_CodeSystem#122470 "LAD Region in LAO Projection" 
+* DICOM_DCM_CodeSystem#122470 //"LAD Region in LAO Projection" 
 
-* DICOM_DCM_CodeSystem#122471 "RCA Region in LAO Projection" 
+* DICOM_DCM_CodeSystem#122471 //"RCA Region in LAO Projection" 
 
-* DICOM_DCM_CodeSystem#122472 "CFX Region in LAO Projection" 
+* DICOM_DCM_CodeSystem#122472 //"CFX Region in LAO Projection" 
 

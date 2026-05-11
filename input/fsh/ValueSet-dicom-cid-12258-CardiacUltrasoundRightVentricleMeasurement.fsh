@@ -9,6 +9,7 @@ Cardiac Ultrasound Right Ventricle Measurement
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Right Ventricle Measurement"
 * ^name = "CardiacUltrasoundRightVentricleMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
 * include codes from valueset CID_12222
@@ -21,7 +22,7 @@ Cardiac Ultrasound Right Ventricle Measurement
 
 * include codes from valueset CID_12255
 
-* http://snomed.info/sct#118565006 "Volume" 
-* http://snomed.info/srt#G-D705 "Volume" 
-* http://terminology.hl7.org/CodeSystem/umls#C0449468 "Volume" 
+* http://snomed.info/sct#118565006 //"Volume" 
+* http://snomed.info/srt#G-D705 //"Volume" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0449468 //"Volume" 
 

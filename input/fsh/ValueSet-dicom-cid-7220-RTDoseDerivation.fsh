@@ -9,17 +9,18 @@ RT Dose Derivation
 * ^version = "20251111"
 * ^title = "RT Dose Derivation"
 * ^name = "RTDoseDerivation"
-* DICOM_DCM_CodeSystem#121370 "Composed from prior doses" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121370 //"Composed from prior doses" 
 
-* DICOM_DCM_CodeSystem#121371 "Composed from prior doses and current plan" 
+* DICOM_DCM_CodeSystem#121371 //"Composed from prior doses and current plan" 
 
-* DICOM_DCM_CodeSystem#121377 "Composed with radiobiological effects" 
+* DICOM_DCM_CodeSystem#121377 //"Composed with radiobiological effects" 
 
-* DICOM_DCM_CodeSystem#121378 "Composed with weighting for fractions delivered" 
+* DICOM_DCM_CodeSystem#121378 //"Composed with weighting for fractions delivered" 
 
-* DICOM_DCM_CodeSystem#121367 "Composed from deformable registration" 
+* DICOM_DCM_CodeSystem#121367 //"Composed from deformable registration" 
 
-* DICOM_DCM_CodeSystem#121368 "Composed from image series other than planning image series" 
+* DICOM_DCM_CodeSystem#121368 //"Composed from image series other than planning image series" 
 
-* DICOM_DCM_CodeSystem#121369 "Composed from setup perturbation" 
+* DICOM_DCM_CodeSystem#121369 //"Composed from setup perturbation" 
 

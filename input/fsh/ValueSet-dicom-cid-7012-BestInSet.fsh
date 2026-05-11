@@ -9,11 +9,12 @@ Best in Set
 * ^version = "20020904"
 * ^title = "Best in Set"
 * ^name = "BestInSet"
-* DICOM_DCM_CodeSystem#113014 "Study" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113014 //"Study" 
 
-* DICOM_DCM_CodeSystem#113015 "Series" 
+* DICOM_DCM_CodeSystem#113015 //"Series" 
 
-* DICOM_DCM_CodeSystem#113016 "Performed Procedure Step" 
+* DICOM_DCM_CodeSystem#113016 //"Performed Procedure Step" 
 
-* DICOM_DCM_CodeSystem#113017 "Stage-View" 
+* DICOM_DCM_CodeSystem#113017 //"Stage-View" 
 

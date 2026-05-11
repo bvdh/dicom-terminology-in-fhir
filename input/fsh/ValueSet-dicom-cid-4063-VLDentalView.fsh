@@ -9,7 +9,8 @@ VL Dental View
 * ^version = "20250330"
 * ^title = "VL Dental View"
 * ^name = "VLDentalView"
-* http://snomed.info/sct#260499007 "Occlusal projection" 
-* http://snomed.info/srt#R-40810 "Occlusal projection" 
-* http://terminology.hl7.org/CodeSystem/umls#C0442276 "Occlusal projection" 
+* ^experimental = false
+* http://snomed.info/sct#260499007 //"Occlusal projection" 
+* http://snomed.info/srt#R-40810 //"Occlusal projection" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0442276 //"Occlusal projection" 
 

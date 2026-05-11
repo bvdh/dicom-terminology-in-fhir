@@ -12,39 +12,40 @@ Description :
 * ^version = "20250401"
 * ^title = "Time Point Type"
 * ^name = "TimePointType"
-* http://terminology.hl7.org/CodeSystem/umls#C1442488 "Baseline" 
-// * http://terminology.hl7.org/CodeSystem/umls#C1442488 "Baseline" 
+* ^experimental = false
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1442488 //"Baseline" 
+// * http://terminology.hl7.org/CodeSystem/umls/sab#C1442488 "Baseline" 
 
-* http://terminology.hl7.org/CodeSystem/umls#C3539075 "Pretreatment" 
-// * http://terminology.hl7.org/CodeSystem/umls#C3539075 "Pretreatment" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C3539075 //"Pretreatment" 
+// * http://terminology.hl7.org/CodeSystem/umls/sab#C3539075 "Pretreatment" 
 
-* DICOM_DCM_CodeSystem#126074 "Posttreatment" 
+* DICOM_DCM_CodeSystem#126074 //"Posttreatment" 
 
-* DICOM_DCM_CodeSystem#126075 "Eligibility" 
+* DICOM_DCM_CodeSystem#126075 //"Eligibility" 
 
-* http://terminology.hl7.org/CodeSystem/umls#C1699701 "Unscheduled" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1699701 //"Unscheduled" 
 
-* http://terminology.hl7.org/CodeSystem/umls#C1708760 "Nadir" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1708760 //"Nadir" 
 
-* http://snomed.info/sct#262068006 "Pre-operative" 
-* http://snomed.info/srt#R-413C5 "Pre-operative" 
-* http://terminology.hl7.org/CodeSystem/umls#C0445204 "Pre-operative" 
+* http://snomed.info/sct#262068006 //"Pre-operative" 
+* http://snomed.info/srt#R-413C5 //"Pre-operative" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0445204 //"Pre-operative" 
 
-* http://snomed.info/sct#262061000 "Post-operative" 
-* http://snomed.info/srt#R-413B7 "Post-operative" 
-* http://terminology.hl7.org/CodeSystem/umls#C0032790 "Post-operative" 
+* http://snomed.info/sct#262061000 //"Post-operative" 
+* http://snomed.info/srt#R-413B7 //"Post-operative" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0032790 //"Post-operative" 
 
-* http://snomed.info/sct#264908009 "Post-radiation" 
-* http://snomed.info/srt#R-424A6 "Post-radiation" 
-* http://terminology.hl7.org/CodeSystem/umls#C0445177 "Post-radiation" 
+* http://snomed.info/sct#264908009 //"Post-radiation" 
+* http://snomed.info/srt#R-424A6 //"Post-radiation" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0445177 //"Post-radiation" 
 
-* http://snomed.info/sct#262502001 "Post-chemotherapy" 
-* http://snomed.info/srt#R-41AEA "Post-chemotherapy" 
-* http://terminology.hl7.org/CodeSystem/umls#C0439577 "Post-chemotherapy" 
+* http://snomed.info/sct#262502001 //"Post-chemotherapy" 
+* http://snomed.info/srt#R-41AEA //"Post-chemotherapy" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0439577 //"Post-chemotherapy" 
 
-* http://snomed.info/sct#1345242003 "Maintenance antineoplastic therapy" 
+* http://snomed.info/sct#1345242003 //"Maintenance antineoplastic therapy" 
 
-* http://snomed.info/sct#25173007 "Recurrence of tumor" 
-* http://snomed.info/srt#G-F517 "Recurrence of tumor" 
-* http://terminology.hl7.org/CodeSystem/umls#C0521158 "Recurrence of tumor" 
+* http://snomed.info/sct#25173007 //"Recurrence of tumor" 
+* http://snomed.info/srt#G-F517 //"Recurrence of tumor" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0521158 //"Recurrence of tumor" 
 

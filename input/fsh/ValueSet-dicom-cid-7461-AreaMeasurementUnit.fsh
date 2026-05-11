@@ -9,9 +9,10 @@ Area Measurement Unit
 * ^version = "20020904"
 * ^title = "Area Measurement Unit"
 * ^name = "AreaMeasurementUnit"
-* http://unitsofmeasure.org#cm2 "square centimeter" 
+* ^experimental = false
+* http://unitsofmeasure.org#cm2 //"square centimeter" 
 
-* http://unitsofmeasure.org#mm2 "square millimeter" 
+* http://unitsofmeasure.org#mm2 //"square millimeter" 
 
-* http://unitsofmeasure.org#um2 "square micrometer" 
+* http://unitsofmeasure.org#um2 //"square micrometer" 
 

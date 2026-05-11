@@ -9,25 +9,26 @@ Specimen Preparation Procedure
 * ^version = "20080626"
 * ^title = "Specimen Preparation Procedure"
 * ^name = "SpecimenPreparationProcedure"
-* http://snomed.info/sct#17636008 "Specimen collection" 
-* http://snomed.info/srt#P3-02000 "Specimen collection" 
-* http://terminology.hl7.org/CodeSystem/umls#C0200345 "Specimen collection" 
+* ^experimental = false
+* http://snomed.info/sct#17636008 //"Specimen collection" 
+* http://snomed.info/srt#P3-02000 //"Specimen collection" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0200345 //"Specimen collection" 
 
-* http://snomed.info/sct#428995007 "Specimen receiving" 
-* http://snomed.info/srt#P3-05013 "Specimen receiving" 
-* http://terminology.hl7.org/CodeSystem/umls#C1997702 "Specimen receiving" 
+* http://snomed.info/sct#428995007 //"Specimen receiving" 
+* http://snomed.info/srt#P3-05013 //"Specimen receiving" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1997702 //"Specimen receiving" 
 
-* http://snomed.info/sct#433465004 "Sampling of tissue specimen" 
-* http://snomed.info/srt#P3-4000A "Sampling of tissue specimen" 
-* http://terminology.hl7.org/CodeSystem/umls#C2316400 "Sampling of tissue specimen" 
+* http://snomed.info/sct#433465004 //"Sampling of tissue specimen" 
+* http://snomed.info/srt#P3-4000A //"Sampling of tissue specimen" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2316400 //"Sampling of tissue specimen" 
 
-* http://snomed.info/sct#127790008 "Staining" 
-* http://snomed.info/srt#P3-00003 "Staining" 
-* http://terminology.hl7.org/CodeSystem/umls#C0487602 "Staining" 
+* http://snomed.info/sct#127790008 //"Staining" 
+* http://snomed.info/srt#P3-00003 //"Staining" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0487602 //"Staining" 
 
-* http://snomed.info/sct#9265001 "Specimen processing" 
-* http://snomed.info/srt#P3-05000 "Specimen processing" 
-* http://terminology.hl7.org/CodeSystem/umls#C0037793 "Specimen processing" 
+* http://snomed.info/sct#9265001 //"Specimen processing" 
+* http://snomed.info/srt#P3-05000 //"Specimen processing" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0037793 //"Specimen processing" 
 
-* DICOM_DCM_CodeSystem#111729 "Specimen storage" 
+* DICOM_DCM_CodeSystem#111729 //"Specimen storage" 
 

@@ -9,39 +9,40 @@ Radiotherapy Fiducial
 * ^version = "20180917"
 * ^title = "Radiotherapy Fiducial"
 * ^name = "RadiotherapyFiducial"
-* DICOM_DCM_CodeSystem#129301 "Coil Marker" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#129301 //"Coil Marker" 
 
-* DICOM_DCM_CodeSystem#122485 "Sphere" 
+* DICOM_DCM_CodeSystem#122485 //"Sphere" 
 
-* DICOM_DCM_CodeSystem#129303 "Cylinder Marker" 
+* DICOM_DCM_CodeSystem#129303 //"Cylinder Marker" 
 
-* http://snomed.info/sct#102378009 "BB Shot (Lead Pellet)" 
-* http://snomed.info/srt#A-32475 "BB Shot (Lead Pellet)" 
-* http://terminology.hl7.org/CodeSystem/umls#C0522706 "BB Shot (Lead Pellet)" 
+* http://snomed.info/sct#102378009 //"BB Shot (Lead Pellet)" 
+* http://snomed.info/srt#A-32475 //"BB Shot (Lead Pellet)" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0522706 //"BB Shot (Lead Pellet)" 
 
-* DICOM_DCM_CodeSystem#129305 "Wire Marker" 
+* DICOM_DCM_CodeSystem#129305 //"Wire Marker" 
 
-* DICOM_DCM_CodeSystem#129306 "Transponder Marker" 
+* DICOM_DCM_CodeSystem#129306 //"Transponder Marker" 
 
-* http://snomed.info/sct#19443004 "Radioactive implant" 
-* http://snomed.info/srt#A-04034 "Radioactive implant" 
-* http://terminology.hl7.org/CodeSystem/umls#C0521196 "Radioactive implant" 
+* http://snomed.info/sct#19443004 //"Radioactive implant" 
+* http://snomed.info/srt#A-04034 //"Radioactive implant" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0521196 //"Radioactive implant" 
 
-* DICOM_DCM_CodeSystem#129308 "MR Marker" 
+* DICOM_DCM_CodeSystem#129308 //"MR Marker" 
 
-* DICOM_DCM_CodeSystem#129309 "Infrared Reflector Marker" 
+* DICOM_DCM_CodeSystem#129309 //"Infrared Reflector Marker" 
 
-* DICOM_DCM_CodeSystem#129310 "Visible Reflector Marker" 
+* DICOM_DCM_CodeSystem#129310 //"Visible Reflector Marker" 
 
-* http://snomed.info/sct#77720000 "Clip" 
-* http://snomed.info/srt#A-12062 "Clip" 
-* http://terminology.hl7.org/CodeSystem/umls#C0175722 "Clip" 
+* http://snomed.info/sct#77720000 //"Clip" 
+* http://snomed.info/srt#A-12062 //"Clip" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0175722 //"Clip" 
 
-* http://snomed.info/sct#19923001 "Catheter" 
-* http://snomed.info/srt#A-26800 "Catheter" 
-* http://terminology.hl7.org/CodeSystem/umls#C0085590 "Catheter" 
+* http://snomed.info/sct#19923001 //"Catheter" 
+* http://snomed.info/srt#A-26800 //"Catheter" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0085590 //"Catheter" 
 
-* http://snomed.info/sct#385420005 "Contrast media" 
-* http://snomed.info/srt#F-61D54 "Contrast media" 
-* http://terminology.hl7.org/CodeSystem/umls#C0009924 "Contrast media" 
+* http://snomed.info/sct#385420005 //"Contrast media" 
+* http://snomed.info/srt#F-61D54 //"Contrast media" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0009924 //"Contrast media" 
 

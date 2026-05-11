@@ -9,9 +9,10 @@ Object Reference Purpose
 * ^version = "20030327"
 * ^title = "Object Reference Purpose"
 * ^name = "ObjectReferencePurpose"
-* DICOM_DCM_CodeSystem#122072 "Pre-procedure log" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122072 //"Pre-procedure log" 
 
-* DICOM_DCM_CodeSystem#122073 "Current procedure evidence" 
+* DICOM_DCM_CodeSystem#122073 //"Current procedure evidence" 
 
-* DICOM_DCM_CodeSystem#122075 "Prior report for current patient" 
+* DICOM_DCM_CodeSystem#122075 //"Prior report for current patient" 
 

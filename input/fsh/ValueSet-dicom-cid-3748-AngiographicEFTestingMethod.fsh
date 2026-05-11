@@ -9,7 +9,8 @@ Angiographic EF Testing Method
 * ^version = "20030327"
 * ^title = "Angiographic EF Testing Method"
 * ^name = "AngiographicEFTestingMethod"
-* DICOM_DCM_CodeSystem#122059 "Single plane Angiography" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122059 //"Single plane Angiography" 
 
-* DICOM_DCM_CodeSystem#122060 "Bi-plane Angiography" 
+* DICOM_DCM_CodeSystem#122060 //"Bi-plane Angiography" 
 

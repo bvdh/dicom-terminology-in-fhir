@@ -9,21 +9,22 @@ RNFL Sector Measurements
 * ^version = "20250707"
 * ^title = "RNFL Sector Measurements"
 * ^name = "RNFLSectorMeasurements"
-* DICOM_DCM_CodeSystem#131264 "RNFL average thickness" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#131264 //"RNFL average thickness" 
 
-* DICOM_DCM_CodeSystem#131265 "RNFL inferior sector thickness" 
+* DICOM_DCM_CodeSystem#131265 //"RNFL inferior sector thickness" 
 
-* DICOM_DCM_CodeSystem#131266 "RNFL superior sector thickness" 
+* DICOM_DCM_CodeSystem#131266 //"RNFL superior sector thickness" 
 
-* DICOM_DCM_CodeSystem#131267 "RNFL temporal sector thickness" 
+* DICOM_DCM_CodeSystem#131267 //"RNFL temporal sector thickness" 
 
-* DICOM_DCM_CodeSystem#131268 "RNFL nasal sector thickness" 
+* DICOM_DCM_CodeSystem#131268 //"RNFL nasal sector thickness" 
 
-* DICOM_DCM_CodeSystem#131269 "RNFL nasal-superior sector thickness" 
+* DICOM_DCM_CodeSystem#131269 //"RNFL nasal-superior sector thickness" 
 
-* DICOM_DCM_CodeSystem#131270 "RNFL nasal-inferior sector thickness" 
+* DICOM_DCM_CodeSystem#131270 //"RNFL nasal-inferior sector thickness" 
 
-* DICOM_DCM_CodeSystem#131271 "RNFL temporal-inferior sector thickness" 
+* DICOM_DCM_CodeSystem#131271 //"RNFL temporal-inferior sector thickness" 
 
-* DICOM_DCM_CodeSystem#131272 "RNFL temporal-superior sector thickness" 
+* DICOM_DCM_CodeSystem#131272 //"RNFL temporal-superior sector thickness" 
 

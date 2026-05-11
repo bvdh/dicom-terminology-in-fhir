@@ -9,11 +9,12 @@ Fixed Beam Limiting Device Type
 * ^version = "20190715"
 * ^title = "Fixed Beam Limiting Device Type"
 * ^name = "FixedBeamLimitingDeviceType"
+* ^experimental = false
 * include codes from valueset CID_9517
 
-* DICOM_DCM_CodeSystem#130343 "Electron Fixed Aperture" 
+* DICOM_DCM_CodeSystem#130343 //"Electron Fixed Aperture" 
 
-* DICOM_DCM_CodeSystem#130344 "Photon Fixed Aperture" 
+* DICOM_DCM_CodeSystem#130344 //"Photon Fixed Aperture" 
 
-* DICOM_DCM_CodeSystem#130345 "Intraoperative Fixed Aperture" 
+* DICOM_DCM_CodeSystem#130345 //"Intraoperative Fixed Aperture" 
 

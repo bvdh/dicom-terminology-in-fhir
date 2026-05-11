@@ -9,7 +9,8 @@ Observer Type
 * ^version = "20040920"
 * ^title = "Observer Type"
 * ^name = "ObserverType"
-* DICOM_DCM_CodeSystem#121006 "Person" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121006 //"Person" 
 
-* DICOM_DCM_CodeSystem#121007 "Device" 
+* DICOM_DCM_CodeSystem#121007 //"Device" 
 

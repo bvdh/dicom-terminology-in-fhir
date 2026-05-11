@@ -9,7 +9,8 @@ Estimated Volume
 * ^version = "20040614"
 * ^title = "Estimated Volume"
 * ^name = "EstimatedVolume"
-* DICOM_DCM_CodeSystem#121216 "Volume estimated from single 2D region" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121216 //"Volume estimated from single 2D region" 
 
-* DICOM_DCM_CodeSystem#121218 "Volume estimated from two non-coplanar 2D regions" 
+* DICOM_DCM_CodeSystem#121218 //"Volume estimated from two non-coplanar 2D regions" 
 

@@ -9,5 +9,6 @@ In future extensions, Change Since Last Mammogram or Prior Surgery terms that ar
 * ^version = "20020904"
 * ^title = "Change Since Last Mammogram or Prior Surgery"
 * ^name = "ChangeSinceLastMammogramOrPriorSurgery"
+* ^experimental = false
 * include codes from valueset CID_6003
 

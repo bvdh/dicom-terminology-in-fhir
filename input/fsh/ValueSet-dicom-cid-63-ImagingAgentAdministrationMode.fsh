@@ -9,7 +9,8 @@ Imaging Agent Administration Mode
 * ^version = "20181115"
 * ^title = "Imaging Agent Administration Mode"
 * ^name = "ImagingAgentAdministrationMode"
-* DICOM_DCM_CodeSystem#130173 "Automated Administration" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130173 //"Automated Administration" 
 
-* DICOM_DCM_CodeSystem#130174 "Manual Administration" 
+* DICOM_DCM_CodeSystem#130174 //"Manual Administration" 
 

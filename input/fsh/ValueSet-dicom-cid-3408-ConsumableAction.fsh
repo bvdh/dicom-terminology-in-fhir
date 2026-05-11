@@ -9,11 +9,12 @@ Consumable Action
 * ^version = "20030327"
 * ^title = "Consumable Action"
 * ^name = "ConsumableAction"
-* DICOM_DCM_CodeSystem#122076 "Consumable taken from inventory" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122076 //"Consumable taken from inventory" 
 
-* DICOM_DCM_CodeSystem#122077 "Consumable returned to inventory" 
+* DICOM_DCM_CodeSystem#122077 //"Consumable returned to inventory" 
 
-* DICOM_DCM_CodeSystem#122078 "Remaining consumable disposed" 
+* DICOM_DCM_CodeSystem#122078 //"Remaining consumable disposed" 
 
-* DICOM_DCM_CodeSystem#122079 "Consumable unusable" 
+* DICOM_DCM_CodeSystem#122079 //"Consumable unusable" 
 

@@ -9,7 +9,8 @@ RT Beam Limiting Device Orientation Label
 * ^version = "20190715"
 * ^title = "RT Beam Limiting Device Orientation Label"
 * ^name = "RTBeamLimitingDeviceOrientationLabel"
-* DICOM_DCM_CodeSystem#130334 "X Orientation" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130334 //"X Orientation" 
 
-* DICOM_DCM_CodeSystem#130335 "Y Orientation" 
+* DICOM_DCM_CodeSystem#130335 //"Y Orientation" 
 

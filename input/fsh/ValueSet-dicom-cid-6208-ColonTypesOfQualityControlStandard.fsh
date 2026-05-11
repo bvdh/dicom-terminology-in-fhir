@@ -9,11 +9,12 @@ Colon Types of Quality Control Standard
 * ^version = "20090402"
 * ^title = "Colon Types of Quality Control Standard"
 * ^name = "ColonTypesOfQualityControlStandard"
-* DICOM_DCM_CodeSystem#112036 "ACR Position Statement" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112036 //"ACR Position Statement" 
 
-* DICOM_DCM_CodeSystem#111240 "Institutionally defined quality control standard" 
+* DICOM_DCM_CodeSystem#111240 //"Institutionally defined quality control standard" 
 
-* DICOM_DCM_CodeSystem#112248 "ACR Guideline, Performance of Adult CT Colonography" 
+* DICOM_DCM_CodeSystem#112248 //"ACR Guideline, Performance of Adult CT Colonography" 
 
-* DICOM_DCM_CodeSystem#112249 "ACR Standard, CT medical physics performance monitoring" 
+* DICOM_DCM_CodeSystem#112249 //"ACR Standard, CT medical physics performance monitoring" 
 

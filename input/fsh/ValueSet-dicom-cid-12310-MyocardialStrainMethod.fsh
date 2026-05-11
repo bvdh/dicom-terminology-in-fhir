@@ -9,9 +9,10 @@ Myocardial Strain Method
 * ^version = "20211112"
 * ^title = "Myocardial Strain Method"
 * ^name = "MyocardialStrainMethod"
-* DICOM_DCM_CodeSystem#130683 "Endocardial Method" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130683 //"Endocardial Method" 
 
-* DICOM_DCM_CodeSystem#130684 "Epicardial Method" 
+* DICOM_DCM_CodeSystem#130684 //"Epicardial Method" 
 
-* DICOM_DCM_CodeSystem#130685 "Myocardial Midlayer Method" 
+* DICOM_DCM_CodeSystem#130685 //"Myocardial Midlayer Method" 
 

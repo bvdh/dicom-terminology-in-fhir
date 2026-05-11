@@ -9,9 +9,10 @@ Radiotherapy Block Device Type
 * ^version = "20181112"
 * ^title = "Radiotherapy Block Device Type"
 * ^name = "RadiotherapyBlockDeviceType"
-* http://snomed.info/sct#228739009 "Shielding Block" 
-* http://snomed.info/srt#A-010FE "Shielding Block" 
-* http://terminology.hl7.org/CodeSystem/umls#C0454148 "Shielding Block" 
+* ^experimental = false
+* http://snomed.info/sct#228739009 //"Shielding Block" 
+* http://snomed.info/srt#A-010FE //"Shielding Block" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0454148 //"Shielding Block" 
 
-* DICOM_DCM_CodeSystem#130123 "Aperture Block" 
+* DICOM_DCM_CodeSystem#130123 //"Aperture Block" 
 

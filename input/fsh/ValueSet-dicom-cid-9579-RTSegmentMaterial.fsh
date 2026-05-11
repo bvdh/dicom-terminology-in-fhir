@@ -9,5 +9,6 @@ RT Segment Material
 * ^version = "20220115"
 * ^title = "RT Segment Material"
 * ^name = "RTSegmentMaterial"
+* ^experimental = false
 * include codes from valueset CID_7300
 

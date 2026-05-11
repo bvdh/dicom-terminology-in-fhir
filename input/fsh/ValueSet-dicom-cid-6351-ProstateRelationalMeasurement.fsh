@@ -9,7 +9,8 @@ Prostate Relational Measurement
 * ^version = "20210714"
 * ^title = "Prostate Relational Measurement"
 * ^name = "ProstateRelationalMeasurement"
-* DICOM_DCM_CodeSystem#130557 "Distance from neurovascular bundle" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130557 //"Distance from neurovascular bundle" 
 
-* DICOM_DCM_CodeSystem#130558 "Lesion capsular contact length" 
+* DICOM_DCM_CodeSystem#130558 //"Lesion capsular contact length" 
 

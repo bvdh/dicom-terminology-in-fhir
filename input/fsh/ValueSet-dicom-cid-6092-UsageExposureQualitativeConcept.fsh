@@ -9,13 +9,14 @@ Usage/Exposure Qualitative Concept
 * ^version = "20040112"
 * ^title = "Usage/Exposure Qualitative Concept"
 * ^name = "UsageExposureQualitativeConcept"
-* http://snomed.info/sct#260911001 "Dosage" 
-* http://snomed.info/srt#G-C0B7 "Dosage" 
-* http://terminology.hl7.org/CodeSystem/umls#C0178602 "Dosage" 
+* ^experimental = false
+* http://snomed.info/sct#260911001 //"Dosage" 
+* http://snomed.info/srt#G-C0B7 //"Dosage" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0178602 //"Dosage" 
 
-* DICOM_DCM_CodeSystem#111578 "Dose frequency" 
+* DICOM_DCM_CodeSystem#111578 //"Dose frequency" 
 
-* DICOM_DCM_CodeSystem#111579 "Rate of exposure" 
+* DICOM_DCM_CodeSystem#111579 //"Rate of exposure" 
 
-* DICOM_DCM_CodeSystem#111580 "Volume of use" 
+* DICOM_DCM_CodeSystem#111580 //"Volume of use" 
 

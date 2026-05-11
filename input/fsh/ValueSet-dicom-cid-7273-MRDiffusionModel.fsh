@@ -9,15 +9,16 @@ MR Diffusion Model
 * ^version = "20170413"
 * ^title = "MR Diffusion Model"
 * ^name = "MRDiffusionModel"
-* DICOM_DCM_CodeSystem#113250 "Mono-exponential diffusion model" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113250 //"Mono-exponential diffusion model" 
 
-* DICOM_DCM_CodeSystem#113251 "Bi-exponential (IVIM) diffusion model" 
+* DICOM_DCM_CodeSystem#113251 //"Bi-exponential (IVIM) diffusion model" 
 
-* DICOM_DCM_CodeSystem#113252 "Kurtosis diffusion model" 
+* DICOM_DCM_CodeSystem#113252 //"Kurtosis diffusion model" 
 
-* DICOM_DCM_CodeSystem#113253 "Gamma distribution model" 
+* DICOM_DCM_CodeSystem#113253 //"Gamma distribution model" 
 
-* DICOM_DCM_CodeSystem#113254 "Stretched exponential diffusion model" 
+* DICOM_DCM_CodeSystem#113254 //"Stretched exponential diffusion model" 
 
-* DICOM_DCM_CodeSystem#113255 "Truncated Gaussian diffusion model" 
+* DICOM_DCM_CodeSystem#113255 //"Truncated Gaussian diffusion model" 
 

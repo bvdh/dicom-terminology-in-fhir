@@ -2,7 +2,7 @@ CodeSystem: DICOM_VRencodings
 Id: dicom-vr-encodings
 Title: "DICOM® Value Representations"
 Description: "DICOM® Value Representations extracted from (DICOM PS5.6.2 Table A-1)[https://dicom.nema.org/dicom/2013/output/chtml/part05/sect_6.2.html]."
-* ^version = "2025.?.20251120"
+* ^version = "2026.2.20260327"
 * ^caseSensitive = true
 * ^content = #complete
 * ^experimental = false
@@ -35,7 +35,7 @@ Uppercase characters, '0'-'9', the SPACE character, and underscore '_', of the D
 * #DA "DA Date " 
 """
 A string of characters of the format YYYYMMDD; where YYYY shall contain year, MM shall contain the month, and DD shall contain the day, interpreted as a date of the Gregorian calendar system. Example: 
-* "19930822" would represent August 22, 1993. Note:
+* '19930822' would represent August 22, 1993. Note:
  1 The ACR-NEMA Standard 300 (predecessor to DICOM) supported a string of characters of the format YYYY.MM.DD for this VR. Use of this format is not compliant.
  2 See also DT VR in this table.
  3 Dates before year 1582, e.g., used for dating historical or archeological items, are interpreted as proleptic Gregorian calendar dates, unless otherwise specified. Alternatively, in the context of a Query with Empty Value Matching (seePS3.4
@@ -171,9 +171,9 @@ not applicable
 """
 A string of characters of the format HHMMSS.FFFFFF; where HH contains hours (range '00' - '23'), MM contains minutes (range '00' - '59'), SS contains seconds (range '00' - '60'), and FFFFFF contains a fractional part of a second as small as 1 millionth of a second (range '000000' - '999999'). A 24-hour clock is used. Midnight shall be represented by only '0000' since '2400' would violate the hour range.
         The string may be padded with trailing spaces. Leading and embedded spaces are not allowed. One or more of the components MM, SS, or FFFFFF may be unspecified as long as every component to the right of an unspecified component is also unspecified, which indicates that the Value is not precise to the precision of those unspecified components. The FFFFFF component, if present, shall contain 1 to 6 digits. If FFFFFF is unspecified the preceding '.' shall not be included. Examples: 
- 1 "070907.0705 " represents a time of 7 hours, 9 minutes and 7.0705 seconds.
- 2 "1010" represents a time of 10 hours, and 10 minutes.
- 3 "021 " is an invalid Value. Note:
+ 1 '070907.0705 ' represents a time of 7 hours, 9 minutes and 7.0705 seconds.
+ 2 '1010' represents a time of 10 hours, and 10 minutes.
+ 3 '021 ' is an invalid Value. Note:
  1 The ACR-NEMA Standard 300 (predecessor to DICOM) supported a string of characters of the format HH:MM:SS.frac for this VR. Use of this format is not compliant.
  2 See also DT VR in this table.
  3 The SS component may have a Value of 60 only for a leap second. Alternatively, in the context of a Query with Empty Value Matching (seePS3.4

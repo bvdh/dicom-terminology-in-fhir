@@ -9,11 +9,12 @@ ED Volume
 * ^version = "20110124"
 * ^title = "ED Volume"
 * ^name = "EDVolume"
-* http://loinc.org#8821-1 "Left Ventricular ED Volume" 
-* http://terminology.hl7.org/CodeSystem/umls#C0488738 "Left Ventricular ED Volume" 
+* ^experimental = false
+* http://loinc.org#8821-1 //"Left Ventricular ED Volume" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0488738 //"Left Ventricular ED Volume" 
 
-* http://loinc.org#8822-9 "Right Ventricular ED Volume" 
-* http://terminology.hl7.org/CodeSystem/umls#C0488739 "Right Ventricular ED Volume" 
+* http://loinc.org#8822-9 //"Right Ventricular ED Volume" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0488739 //"Right Ventricular ED Volume" 
 
-* DICOM_DCM_CodeSystem#122407 "Left Atrial ED Volume" 
+* DICOM_DCM_CodeSystem#122407 //"Left Atrial ED Volume" 
 

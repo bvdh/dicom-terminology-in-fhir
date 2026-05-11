@@ -9,11 +9,12 @@ Cardiac Structure Calcification Qualitative Evaluation
 * ^version = "20250407"
 * ^title = "Cardiac Structure Calcification Qualitative Evaluation"
 * ^name = "CardiacStructureCalcificationQualitativeEvaluation"
-* DICOM_DCM_CodeSystem#131142 "Aortic annulus calcification severity" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#131142 //"Aortic annulus calcification severity" 
 
-* DICOM_DCM_CodeSystem#131147 "Aortic commissures calcification severity" 
+* DICOM_DCM_CodeSystem#131147 //"Aortic commissures calcification severity" 
 
-* DICOM_DCM_CodeSystem#131167 "Left ventricular outflow tract calcification severity" 
+* DICOM_DCM_CodeSystem#131167 //"Left ventricular outflow tract calcification severity" 
 
-* DICOM_DCM_CodeSystem#131184 "Mitral annulus calcification severity" 
+* DICOM_DCM_CodeSystem#131184 //"Mitral annulus calcification severity" 
 

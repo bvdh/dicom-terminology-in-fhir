@@ -9,15 +9,16 @@ Ultrasound Shear Wave Measurement
 * ^version = "20190817"
 * ^title = "Ultrasound Shear Wave Measurement"
 * ^name = "UltrasoundShearWaveMeasurement"
-* DICOM_DCM_CodeSystem#130611 "Shear Wave Speed" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130611 //"Shear Wave Speed" 
 
-* DICOM_DCM_CodeSystem#110830 "Elasticity" 
+* DICOM_DCM_CodeSystem#110830 //"Elasticity" 
 
-* DICOM_DCM_CodeSystem#130612 "Shear Wave Dispersion Slope" 
+* DICOM_DCM_CodeSystem#130612 //"Shear Wave Dispersion Slope" 
 
-* DICOM_DCM_CodeSystem#130613 "ROI Depth" 
+* DICOM_DCM_CodeSystem#130613 //"ROI Depth" 
 
-* http://snomed.info/sct#131184002 "Area of defined region" 
-* http://snomed.info/srt#G-A16A "Area of defined region" 
-* http://terminology.hl7.org/CodeSystem/umls#C1295720 "Area of defined region" 
+* http://snomed.info/sct#131184002 //"Area of defined region" 
+* http://snomed.info/srt#G-A16A //"Area of defined region" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1295720 //"Area of defined region" 
 

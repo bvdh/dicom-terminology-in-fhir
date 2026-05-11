@@ -9,7 +9,8 @@ The values in this Context Group correspond to the Defined Terms for Reconstruct
 * ^version = "20130207"
 * ^title = "CT Reconstruction Algorithm"
 * ^name = "CTReconstructionAlgorithm"
-* DICOM_DCM_CodeSystem#113962 "Filtered Back Projection" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113962 //"Filtered Back Projection" 
 
-* DICOM_DCM_CodeSystem#113963 "Iterative Reconstruction" 
+* DICOM_DCM_CodeSystem#113963 //"Iterative Reconstruction" 
 

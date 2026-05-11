@@ -9,17 +9,18 @@ Procedure Discontinuation Reason
 * ^version = "20181115"
 * ^title = "Procedure Discontinuation Reason"
 * ^name = "ProcedureDiscontinuationReason"
-* DICOM_DCM_CodeSystem#110526 "Resource pre-empted" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#110526 //"Resource pre-empted" 
 
-* DICOM_DCM_CodeSystem#110527 "Resource inadequate" 
+* DICOM_DCM_CodeSystem#110527 //"Resource inadequate" 
 
-* DICOM_DCM_CodeSystem#110533 "Workitem expired" 
+* DICOM_DCM_CodeSystem#110533 //"Workitem expired" 
 
-* DICOM_DCM_CodeSystem#110528 "Discontinued Procedure Step rescheduled" 
+* DICOM_DCM_CodeSystem#110528 //"Discontinued Procedure Step rescheduled" 
 
-* DICOM_DCM_CodeSystem#110529 "Discontinued Procedure Step rescheduling recommended" 
+* DICOM_DCM_CodeSystem#110529 //"Discontinued Procedure Step rescheduling recommended" 
 
-* DICOM_DCM_CodeSystem#110530 "Workitem assignment rejected by assigned resource" 
+* DICOM_DCM_CodeSystem#110530 //"Workitem assignment rejected by assigned resource" 
 
 * include codes from valueset CID_9301
 

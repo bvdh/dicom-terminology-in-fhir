@@ -9,7 +9,8 @@ Radiotherapy Treatment Machine Mode
 * ^version = "20190715"
 * ^title = "Radiotherapy Treatment Machine Mode"
 * ^name = "RadiotherapyTreatmentMachineMode"
-* DICOM_DCM_CodeSystem#130341 "Total Body Irradiation" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130341 //"Total Body Irradiation" 
 
-* DICOM_DCM_CodeSystem#130342 "Total Skin Irradiation" 
+* DICOM_DCM_CodeSystem#130342 //"Total Skin Irradiation" 
 

@@ -9,11 +9,12 @@ Cardiac Synchronization Technique
 * ^version = "20111028"
 * ^title = "Cardiac Synchronization Technique"
 * ^name = "CardiacSynchronizationTechnique"
-* DICOM_DCM_CodeSystem#109080 "Real time acquisition" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#109080 //"Real time acquisition" 
 
-* DICOM_DCM_CodeSystem#109081 "Prospective gating" 
+* DICOM_DCM_CodeSystem#109081 //"Prospective gating" 
 
-* DICOM_DCM_CodeSystem#109082 "Retrospective gating" 
+* DICOM_DCM_CodeSystem#109082 //"Retrospective gating" 
 
-* DICOM_DCM_CodeSystem#109083 "Paced" 
+* DICOM_DCM_CodeSystem#109083 //"Paced" 
 

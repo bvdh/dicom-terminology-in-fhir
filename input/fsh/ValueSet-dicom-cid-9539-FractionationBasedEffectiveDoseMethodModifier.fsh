@@ -9,13 +9,14 @@ Fractionation-Based Effective Dose Method Modifer
 * ^version = "20181112"
 * ^title = "Fractionation-based Effective Dose Method Modifier"
 * ^name = "FractionationBasedEffectiveDoseMethodModifier"
-* DICOM_DCM_CodeSystem#130130 "Equivalent 2-Gray Fractions Model" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130130 //"Equivalent 2-Gray Fractions Model" 
 
-* DICOM_DCM_CodeSystem#130131 "Linear-Quadratic Model" 
+* DICOM_DCM_CodeSystem#130131 //"Linear-Quadratic Model" 
 
-* DICOM_DCM_CodeSystem#130132 "Linear-Quadratic Model with Time Factor" 
+* DICOM_DCM_CodeSystem#130132 //"Linear-Quadratic Model with Time Factor" 
 
-* DICOM_DCM_CodeSystem#130133 "Linear-Quadratic-Linear Model" 
+* DICOM_DCM_CodeSystem#130133 //"Linear-Quadratic-Linear Model" 
 
-* DICOM_DCM_CodeSystem#130134 "Linear-Quadratic Model for Low-Dose Rate Brachytherapy" 
+* DICOM_DCM_CodeSystem#130134 //"Linear-Quadratic Model for Low-Dose Rate Brachytherapy" 
 

@@ -9,11 +9,12 @@ Equipment Event
 * ^version = "20100608"
 * ^title = "Equipment Event"
 * ^name = "EquipmentEvent"
-* DICOM_DCM_CodeSystem#110501 "Equipment failure" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#110501 //"Equipment failure" 
 
-* DICOM_DCM_CodeSystem#122047 "Equipment brought to procedure room" 
+* DICOM_DCM_CodeSystem#122047 //"Equipment brought to procedure room" 
 
-* DICOM_DCM_CodeSystem#122048 "Equipment ready" 
+* DICOM_DCM_CodeSystem#122048 //"Equipment ready" 
 
-* DICOM_DCM_CodeSystem#122049 "Equipment removed" 
+* DICOM_DCM_CodeSystem#122049 //"Equipment removed" 
 

@@ -9,15 +9,16 @@ En Face Processing Algorithm Family
 * ^version = "20240915"
 * ^title = "En Face Processing Algorithm Family"
 * ^name = "EnFaceProcessingAlgorithmFamily"
+* ^experimental = false
 * include codes from valueset CID_4270
 
-* DICOM_DCM_CodeSystem#113078 "Maximum intensity projection" 
+* DICOM_DCM_CodeSystem#113078 //"Maximum intensity projection" 
 
-* DICOM_DCM_CodeSystem#113079 "Minimum intensity projection" 
+* DICOM_DCM_CodeSystem#113079 //"Minimum intensity projection" 
 
-* DICOM_DCM_CodeSystem#130924 "Mean intensity projection" 
+* DICOM_DCM_CodeSystem#130924 //"Mean intensity projection" 
 
-* DICOM_DCM_CodeSystem#130925 "Median intensity projection" 
+* DICOM_DCM_CodeSystem#130925 //"Median intensity projection" 
 
-* DICOM_DCM_CodeSystem#130926 "Summation projection" 
+* DICOM_DCM_CodeSystem#130926 //"Summation projection" 
 

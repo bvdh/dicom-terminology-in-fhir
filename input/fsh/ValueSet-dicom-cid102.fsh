@@ -12,3 +12,4 @@ Description :
 * ^version = "Not versioned"
 * ^title = "LOINC-RSNA Radiology Imaging Procedure"
 * ^name = "Cid102"
+* ^experimental = false

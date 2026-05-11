@@ -9,11 +9,12 @@ Laterality Left-Right Only
 * ^version = "20190524"
 * ^title = "Laterality Left-Right Only"
 * ^name = "LateralityLeftRightOnly"
-* http://snomed.info/sct#24028007 "Right" 
-* http://snomed.info/srt#G-A100 "Right" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205090 "Right" 
+* ^experimental = false
+* http://snomed.info/sct#24028007 //"Right" 
+* http://snomed.info/srt#G-A100 //"Right" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205090 //"Right" 
 
-* http://snomed.info/sct#7771000 "Left" 
-* http://snomed.info/srt#G-A101 "Left" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205091 "Left" 
+* http://snomed.info/sct#7771000 //"Left" 
+* http://snomed.info/srt#G-A101 //"Left" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205091 //"Left" 
 

@@ -9,6 +9,7 @@ Original source of terms is [Fraser and Pare].
 * ^version = "20030108"
 * ^title = "Radiographic Anatomy Finding or Feature"
 * ^name = "RadiographicAnatomyFindingOrFeature"
+* ^experimental = false
 * include codes from valueset CID_6110
 
 * include codes from valueset CID_6111
@@ -23,9 +24,9 @@ Original source of terms is [Fraser and Pare].
 
 * include codes from valueset CID_6117
 
-* DICOM_DCM_CodeSystem#112082 "Interface" 
+* DICOM_DCM_CodeSystem#112082 //"Interface" 
 
-* DICOM_DCM_CodeSystem#112083 "Line" 
+* DICOM_DCM_CodeSystem#112083 //"Line" 
 
-* DICOM_DCM_CodeSystem#112084 "Lucency" 
+* DICOM_DCM_CodeSystem#112084 //"Lucency" 
 

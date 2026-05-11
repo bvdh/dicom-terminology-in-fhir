@@ -9,11 +9,12 @@ Visual Field Procedure Modifier
 * ^version = "20100827"
 * ^title = "Visual Field Procedure Modifier"
 * ^name = "VisualFieldProcedureModifier"
-* http://snomed.info/sct#360156006 "Screening" 
-* http://snomed.info/srt#R-42453 "Screening" 
-* http://terminology.hl7.org/CodeSystem/umls#C1305399 "Screening" 
+* ^experimental = false
+* http://snomed.info/sct#360156006 //"Screening" 
+* http://snomed.info/srt#R-42453 //"Screening" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1305399 //"Screening" 
 
-* http://snomed.info/sct#261004008 "Diagnostic" 
-* http://snomed.info/srt#R-408C3 "Diagnostic" 
-* http://terminology.hl7.org/CodeSystem/umls#C0348026 "Diagnostic" 
+* http://snomed.info/sct#261004008 //"Diagnostic" 
+* http://snomed.info/srt#R-408C3 //"Diagnostic" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0348026 //"Diagnostic" 
 

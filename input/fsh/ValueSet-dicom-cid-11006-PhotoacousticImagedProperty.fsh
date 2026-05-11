@@ -9,27 +9,28 @@ Photoacoustic Imaged Property
 * ^version = "20230626"
 * ^title = "Photoacoustic Imaged Property"
 * ^name = "PhotoacousticImagedProperty"
-* DICOM_DCM_CodeSystem#110819 "Blood Oxygenation Level" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#110819 //"Blood Oxygenation Level" 
 
-* DICOM_DCM_CodeSystem#130823 "Blood Deoxygenation Level" 
+* DICOM_DCM_CodeSystem#130823 //"Blood Deoxygenation Level" 
 
-* http://snomed.info/sct#38082009 "Hemoglobin" 
-* http://snomed.info/srt#F-D5000 "Hemoglobin" 
-* http://terminology.hl7.org/CodeSystem/umls#C0019046 "Hemoglobin" 
+* http://snomed.info/sct#38082009 //"Hemoglobin" 
+* http://snomed.info/srt#F-D5000 //"Hemoglobin" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0019046 //"Hemoglobin" 
 
-* DICOM_DCM_CodeSystem#110830 "Elasticity" 
+* DICOM_DCM_CodeSystem#110830 //"Elasticity" 
 
-* DICOM_DCM_CodeSystem#110831 "Perfusion" 
+* DICOM_DCM_CodeSystem#110831 //"Perfusion" 
 
-* http://snomed.info/sct#59094002 "Melanin" 
-* http://snomed.info/srt#F-62750 "Melanin" 
-* http://terminology.hl7.org/CodeSystem/umls#C0025196 "Melanin" 
+* http://snomed.info/sct#59094002 //"Melanin" 
+* http://snomed.info/srt#F-62750 //"Melanin" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0025196 //"Melanin" 
 
-* http://snomed.info/sct#11713004 "Water" 
-* http://snomed.info/srt#C-10120 "Water" 
-* http://terminology.hl7.org/CodeSystem/umls#C0043047 "Water" 
+* http://snomed.info/sct#11713004 //"Water" 
+* http://snomed.info/srt#C-10120 //"Water" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0043047 //"Water" 
 
-* http://snomed.info/sct#70106000 "Lipid" 
-* http://snomed.info/srt#F-63600 "Lipid" 
-* http://terminology.hl7.org/CodeSystem/umls#C0023779 "Lipid" 
+* http://snomed.info/sct#70106000 //"Lipid" 
+* http://snomed.info/srt#F-63600 //"Lipid" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0023779 //"Lipid" 
 

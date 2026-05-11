@@ -14,3 +14,4 @@ Description :
 * ^version = "None"
 * ^title = "Language"
 * ^name = "Cid5000"
+* ^experimental = false

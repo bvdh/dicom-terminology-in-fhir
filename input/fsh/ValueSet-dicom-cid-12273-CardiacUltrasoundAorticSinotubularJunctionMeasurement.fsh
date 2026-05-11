@@ -9,12 +9,13 @@ Cardiac Ultrasound Aortic Sinotubular Junction Measurement
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Aortic Sinotubular Junction Measurement"
 * ^name = "CardiacUltrasoundAorticSinotubularJunctionMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
 * include codes from valueset CID_12222
 
 * include codes from valueset CID_12250
 
-* http://loinc.org#59116-4 "Aortic Sinotubular Junction to Aortic Root Ratio" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923462 "Aortic Sinotubular Junction to Aortic Root Ratio" 
+* http://loinc.org#59116-4 //"Aortic Sinotubular Junction to Aortic Root Ratio" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2923462 //"Aortic Sinotubular Junction to Aortic Root Ratio" 
 

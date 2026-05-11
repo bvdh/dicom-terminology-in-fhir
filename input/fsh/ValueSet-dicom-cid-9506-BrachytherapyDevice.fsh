@@ -9,9 +9,10 @@ Brachytherapy Device
 * ^version = "20181112"
 * ^title = "Brachytherapy Device"
 * ^name = "BrachytherapyDevice"
-* DICOM_DCM_CodeSystem#130078 "Brachytherapy source applicator" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130078 //"Brachytherapy source applicator" 
 
-* DICOM_DCM_CodeSystem#130079 "Brachytherapy channel shield" 
+* DICOM_DCM_CodeSystem#130079 //"Brachytherapy channel shield" 
 
-* DICOM_DCM_CodeSystem#130080 "Brachytherapy channel" 
+* DICOM_DCM_CodeSystem#130080 //"Brachytherapy channel" 
 

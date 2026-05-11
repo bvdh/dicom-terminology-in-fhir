@@ -9,7 +9,8 @@ Original source of terms is [Fraser and Pare].
 * ^version = "20030108"
 * ^title = "Chest Texture Descriptor"
 * ^name = "ChestTextureDescriptor"
-* DICOM_DCM_CodeSystem#112160 "Homogeneous" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112160 //"Homogeneous" 
 
-* DICOM_DCM_CodeSystem#112161 "Inhomogeneous" 
+* DICOM_DCM_CodeSystem#112161 //"Inhomogeneous" 
 

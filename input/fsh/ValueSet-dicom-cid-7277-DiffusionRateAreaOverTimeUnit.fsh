@@ -9,11 +9,12 @@ Diffusion Rate Area Over Time Unit
 * ^version = "20170413"
 * ^title = "Diffusion Rate Area Over Time Unit"
 * ^name = "DiffusionRateAreaOverTimeUnit"
-* http://unitsofmeasure.org#mm2/s "mm2/s" 
+* ^experimental = false
+* http://unitsofmeasure.org#mm2/s //"mm2/s" 
 
-* http://unitsofmeasure.org#um2/ms "um2/ms" 
+* http://unitsofmeasure.org#um2/ms //"um2/ms" 
 
-* http://unitsofmeasure.org#um2/s "um2/s" 
+* http://unitsofmeasure.org#um2/s //"um2/s" 
 
-* http://unitsofmeasure.org#10-6.mm2/s "10-6.mm2/s" 
+* http://unitsofmeasure.org#10-6.mm2/s //"10-6.mm2/s" 
 

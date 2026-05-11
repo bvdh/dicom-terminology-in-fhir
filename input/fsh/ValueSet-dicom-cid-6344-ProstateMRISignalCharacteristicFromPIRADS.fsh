@@ -9,30 +9,31 @@ Prostate MRI Signal Characteristic from PI-RADS
 * ^version = "20210714"
 * ^title = "Prostate MRI Signal Characteristic from PI-RADS"
 * ^name = "ProstateMRISignalCharacteristicFromPIRADS"
-* http://www.radlex.org#RID35805 "Hyperintense" 
+* ^experimental = false
+* http://www.radlex.org#RID35805 //"Hyperintense" 
 
-* http://www.radlex.org#RID39467 "T2 Hyperintensity" 
+* http://www.radlex.org#RID39467 //"T2 Hyperintensity" 
 
-* http://www.radlex.org#RID6053 "Isointense" 
+* http://www.radlex.org#RID6053 //"Isointense" 
 
-* http://www.radlex.org#RID35804 "Hypointense" 
+* http://www.radlex.org#RID35804 //"Hypointense" 
 
-* http://www.radlex.org#RID49500 "Markedly hypointense" 
+* http://www.radlex.org#RID49500 //"Markedly hypointense" 
 
-* http://www.radlex.org#RID49501 "T2 hypointensity" 
+* http://www.radlex.org#RID49501 //"T2 hypointensity" 
 
-* http://www.radlex.org#RID43349 "Restricted diffusion" 
-* http://terminology.hl7.org/CodeSystem/umls#C2826108 "Restricted diffusion" 
+* http://www.radlex.org#RID43349 //"Restricted diffusion" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2826108 //"Restricted diffusion" 
 
-* http://www.radlex.org#RID39536 "Diffusion-weighted hypersensitivity" 
+* http://www.radlex.org#RID39536 //"Diffusion-weighted hypersensitivity" 
 
-* DICOM_DCM_CodeSystem#130595 "ADC Hyperintense" 
+* DICOM_DCM_CodeSystem#130595 //"ADC Hyperintense" 
 
-* DICOM_DCM_CodeSystem#130596 "ADC Hypointense" 
+* DICOM_DCM_CodeSystem#130596 //"ADC Hypointense" 
 
-* http://www.radlex.org#RID49499 "Organized chaos" 
+* http://www.radlex.org#RID49499 //"Organized chaos" 
 
-* http://www.radlex.org#RID6060 "Heterogeneous" 
+* http://www.radlex.org#RID6060 //"Heterogeneous" 
 
-* DICOM_DCM_CodeSystem#112160 "Homogeneous" 
+* DICOM_DCM_CodeSystem#112160 //"Homogeneous" 
 

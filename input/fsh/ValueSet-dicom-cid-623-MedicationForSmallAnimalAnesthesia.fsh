@@ -9,6 +9,7 @@ Medication for Small Animal Anesthesia
 * ^version = "20151110"
 * ^title = "Medication for Small Animal Anesthesia"
 * ^name = "MedicationForSmallAnimalAnesthesia"
+* ^experimental = false
 * include codes from valueset CID_624
 
 * include codes from valueset CID_625

@@ -9,5 +9,6 @@ In future extensions, MRI Assessment terms that are not derived from PI-RADS sho
 * ^version = "20210714"
 * ^title = "Prostate MRI Assessment"
 * ^name = "ProstateMRIAssessment"
+* ^experimental = false
 * include codes from valueset CID_6325
 

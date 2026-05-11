@@ -9,11 +9,12 @@ Export Additional Information Document Title
 * ^version = "20170914"
 * ^title = "Export Additional Information Document Title"
 * ^name = "ExportAdditionalInformationDocumentTitle"
-* DICOM_DCM_CodeSystem#128710 "For Teaching File Export" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128710 //"For Teaching File Export" 
 
-* DICOM_DCM_CodeSystem#128711 "For Clinical Trial Export" 
+* DICOM_DCM_CodeSystem#128711 //"For Clinical Trial Export" 
 
-* DICOM_DCM_CodeSystem#128713 "For Research Collection Export" 
+* DICOM_DCM_CodeSystem#128713 //"For Research Collection Export" 
 
-* DICOM_DCM_CodeSystem#128714 "For Publication Export" 
+* DICOM_DCM_CodeSystem#128714 //"For Publication Export" 
 

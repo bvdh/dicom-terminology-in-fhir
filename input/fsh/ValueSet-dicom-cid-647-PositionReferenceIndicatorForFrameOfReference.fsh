@@ -9,9 +9,10 @@ An FMA code is used for bregma since SNOMED only contains fetal bregma.
 * ^version = "20151110"
 * ^title = "Position Reference Indicator for Frame of Reference"
 * ^name = "PositionReferenceIndicatorForFrameOfReference"
-* DigitalAnatomistFoundationalModelOfAnatomyCodeSystem#264776 "Bregma" 
-* http://terminology.hl7.org/CodeSystem/umls#C0934419 "Bregma" 
+* ^experimental = false
+* DigitalAnatomistFoundationalModelOfAnatomyCodeSystem#264776 //"Bregma" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0934419 //"Bregma" 
 
-* DigitalAnatomistFoundationalModelOfAnatomyCodeSystem#264773 "Lambda" 
-* http://terminology.hl7.org/CodeSystem/umls#C0926407 "Lambda" 
+* DigitalAnatomistFoundationalModelOfAnatomyCodeSystem#264773 //"Lambda" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0926407 //"Lambda" 
 

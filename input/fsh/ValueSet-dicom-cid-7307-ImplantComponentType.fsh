@@ -9,6 +9,7 @@ Implant Component Type
 * ^version = "20101102"
 * ^title = "Implant Component Type"
 * ^name = "ImplantComponentType"
+* ^experimental = false
 * include codes from valueset CID_7308
 
 * include codes from valueset CID_7309

@@ -9,9 +9,10 @@ Projection X-Ray Acquisition Device Type
 * ^version = "20120406"
 * ^title = "Projection X-Ray Acquisition Device Type"
 * ^name = "ProjectionXRayAcquisitionDeviceType"
-* DICOM_DCM_CodeSystem#113957 "Fluoroscopy-Guided Projection Radiography System" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113957 //"Fluoroscopy-Guided Projection Radiography System" 
 
-* DICOM_DCM_CodeSystem#113958 "Integrated Projection Radiography System" 
+* DICOM_DCM_CodeSystem#113958 //"Integrated Projection Radiography System" 
 
-* DICOM_DCM_CodeSystem#113959 "Cassette-based Projection Radiography System" 
+* DICOM_DCM_CodeSystem#113959 //"Cassette-based Projection Radiography System" 
 

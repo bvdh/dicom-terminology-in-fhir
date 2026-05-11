@@ -464,6 +464,8 @@ def getCanonicalVersion(dicom_path: str) -> str:
             publicationVersionNumber = 3
         elif publicationVersion.endswith('d' ) :    
             publicationVersionNumber = 4
+        elif publicationVersion.endswith('e' ) :    
+            publicationVersionNumber = 5
         else:
             publicationVersionNumber = "?"
 

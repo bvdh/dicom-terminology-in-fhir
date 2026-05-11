@@ -9,11 +9,12 @@ In this Context Group, SNOMED substance codes are used in preference to product 
 * ^version = "20151110"
 * ^title = "Neuromuscular Blocking Agent for Small Animal Anesthesia"
 * ^name = "NeuromuscularBlockingAgentForSmallAnimalAnesthesia"
-* http://snomed.info/sct#372724004 "Succinylcholine" 
-* http://snomed.info/srt#F-61916 "Succinylcholine" 
-* http://terminology.hl7.org/CodeSystem/umls#C0038627 "Succinylcholine" 
+* ^experimental = false
+* http://snomed.info/sct#372724004 //"Succinylcholine" 
+* http://snomed.info/srt#F-61916 //"Succinylcholine" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0038627 //"Succinylcholine" 
 
-* http://snomed.info/sct#373738000 "Pancuronium" 
-* http://snomed.info/srt#F-61639 "Pancuronium" 
-* http://terminology.hl7.org/CodeSystem/umls#C0030310 "Pancuronium" 
+* http://snomed.info/sct#373738000 //"Pancuronium" 
+* http://snomed.info/srt#F-61639 //"Pancuronium" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0030310 //"Pancuronium" 
 

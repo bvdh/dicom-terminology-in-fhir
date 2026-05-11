@@ -9,6 +9,7 @@ Arterial Lesion Location
 * ^version = "20030327"
 * ^title = "Arterial Lesion Location"
 * ^name = "ArterialLesionLocation"
+* ^experimental = false
 * include codes from valueset CID_3015
 
 * include codes from valueset CID_3606

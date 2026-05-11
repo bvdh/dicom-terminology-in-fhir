@@ -9,7 +9,8 @@ Reason for Repeating Acquisition
 * ^version = "20170418"
 * ^title = "Reason for Repeating Acquisition"
 * ^name = "ReasonForRepeatingAcquisition"
-* DICOM_DCM_CodeSystem#128553 "Patient motion" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128553 //"Patient motion" 
 
-* DICOM_DCM_CodeSystem#128554 "Suboptimal contrast timing" 
+* DICOM_DCM_CodeSystem#128554 //"Suboptimal contrast timing" 
 

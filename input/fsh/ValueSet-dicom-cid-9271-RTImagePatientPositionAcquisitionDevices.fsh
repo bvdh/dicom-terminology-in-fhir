@@ -9,11 +9,12 @@ RT Image Patient Position Acquisition Devices
 * ^version = "20221225"
 * ^title = "RT Image Patient Position Acquisition Devices"
 * ^name = "RTImagePatientPositionAcquisitionDevices"
-* http://snomed.info/sct#468440006 "Digital imager, radiation therapy" 
-* http://snomed.info/srt#R-FD5EB "Digital imager, radiation therapy" 
-* http://terminology.hl7.org/CodeSystem/umls#C3877969 "Digital imager, radiation therapy" 
+* ^experimental = false
+* http://snomed.info/sct#468440006 //"Digital imager, radiation therapy" 
+* http://snomed.info/srt#R-FD5EB //"Digital imager, radiation therapy" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C3877969 //"Digital imager, radiation therapy" 
 
-* http://snomed.info/sct#466556008 "X-Ray film cassette, manual" 
-* http://snomed.info/srt#R-FCF46 "X-Ray film cassette, manual" 
-* http://terminology.hl7.org/CodeSystem/umls#C3882079 "X-Ray film cassette, manual" 
+* http://snomed.info/sct#466556008 //"X-Ray film cassette, manual" 
+* http://snomed.info/srt#R-FCF46 //"X-Ray film cassette, manual" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C3882079 //"X-Ray film cassette, manual" 
 

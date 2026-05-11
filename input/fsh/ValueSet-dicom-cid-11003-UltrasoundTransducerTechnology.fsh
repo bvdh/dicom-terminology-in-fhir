@@ -9,9 +9,10 @@ Ultrasound Transducer Technology
 * ^version = "20230626"
 * ^title = "Ultrasound Transducer Technology"
 * ^name = "UltrasoundTransducerTechnology"
-* DICOM_DCM_CodeSystem#130815 "Piezocomposite Transducer" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130815 //"Piezocomposite Transducer" 
 
-* DICOM_DCM_CodeSystem#130816 "MEMS-based Transducer" 
+* DICOM_DCM_CodeSystem#130816 //"MEMS-based Transducer" 
 
-* DICOM_DCM_CodeSystem#130817 "Interferometric Transducer" 
+* DICOM_DCM_CodeSystem#130817 //"Interferometric Transducer" 
 

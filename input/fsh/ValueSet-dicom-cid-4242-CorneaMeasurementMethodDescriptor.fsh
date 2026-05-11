@@ -9,9 +9,10 @@ Cornea Measurement Method Descriptor
 * ^version = "20190124"
 * ^title = "Cornea Measurement Method Descriptor"
 * ^name = "CorneaMeasurementMethodDescriptor"
-* DICOM_DCM_CodeSystem#111758 "Total Cornea Power Measurement Method" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111758 //"Total Cornea Power Measurement Method" 
 
-* DICOM_DCM_CodeSystem#111759 "Posterior Cornea Surface Measurement Method" 
+* DICOM_DCM_CodeSystem#111759 //"Posterior Cornea Surface Measurement Method" 
 
 * include codes from valueset CID_4235
 

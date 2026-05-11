@@ -9,6 +9,7 @@ Qualitative Evaluation Modifier Value
 * ^version = "20190524"
 * ^title = "Qualitative Evaluation Modifier Value"
 * ^name = "QualitativeEvaluationModifierValue"
+* ^experimental = false
 * include codes from valueset CID_245
 
 * include codes from valueset CID_212

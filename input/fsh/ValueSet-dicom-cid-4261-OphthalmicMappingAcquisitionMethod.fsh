@@ -9,13 +9,14 @@ Ophthalmic Mapping Acquisition Method
 * ^version = "20110825"
 * ^title = "Ophthalmic Mapping Acquisition Method"
 * ^name = "OphthalmicMappingAcquisitionMethod"
-* DICOM_DCM_CodeSystem#111920 "Time domain" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111920 //"Time domain" 
 
-* DICOM_DCM_CodeSystem#111921 "Spectral domain" 
+* DICOM_DCM_CodeSystem#111921 //"Spectral domain" 
 
-* DICOM_DCM_CodeSystem#111922 "No corneal compensation" 
+* DICOM_DCM_CodeSystem#111922 //"No corneal compensation" 
 
-* DICOM_DCM_CodeSystem#111923 "Corneal birefringence compensation" 
+* DICOM_DCM_CodeSystem#111923 //"Corneal birefringence compensation" 
 
-* DICOM_DCM_CodeSystem#111924 "Retinal topography" 
+* DICOM_DCM_CodeSystem#111924 //"Retinal topography" 
 

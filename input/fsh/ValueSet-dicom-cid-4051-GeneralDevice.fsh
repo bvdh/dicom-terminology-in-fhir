@@ -9,6 +9,7 @@ General Device
 * ^version = "20160525"
 * ^title = "General Device"
 * ^name = "GeneralDevice"
+* ^experimental = false
 * include codes from valueset CID_8
 
 * include codes from valueset CID_3451
@@ -17,7 +18,7 @@ General Device
 
 * include codes from valueset CID_4071
 
-* http://snomed.info/sct#61968008 "Syringe" 
-* http://snomed.info/srt#A-10150 "Syringe" 
-* http://terminology.hl7.org/CodeSystem/umls#C0039142 "Syringe" 
+* http://snomed.info/sct#61968008 //"Syringe" 
+* http://snomed.info/srt#A-10150 //"Syringe" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0039142 //"Syringe" 
 

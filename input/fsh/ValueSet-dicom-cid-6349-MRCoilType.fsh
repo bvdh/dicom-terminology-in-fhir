@@ -9,6 +9,7 @@ MR Coil Type
 * ^version = "20210714"
 * ^title = "MR Coil Type"
 * ^name = "MRCoilType"
-* http://www.radlex.org#RID10809 "Endorectal coil" 
-* http://terminology.hl7.org/CodeSystem/umls#C4552787 "Endorectal coil" 
+* ^experimental = false
+* http://www.radlex.org#RID10809 //"Endorectal coil" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C4552787 //"Endorectal coil" 
 

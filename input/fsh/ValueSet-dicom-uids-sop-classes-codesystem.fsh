@@ -2,7 +2,7 @@ ValueSet: DICOM_UID_SOPClasses
 Id: dicom-uids-sop-classes-codesystem
 Title: "DICOM® SOP Classes"
 Description: "DICOM® SOP Classes extracted from DICOM PS3.6 Table A-1."
-* ^version = "2025.?.20251120"
+* ^version = "2026.2.20260327"
 * ^experimental = false
 
 

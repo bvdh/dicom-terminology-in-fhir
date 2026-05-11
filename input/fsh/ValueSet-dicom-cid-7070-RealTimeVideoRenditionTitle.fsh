@@ -9,11 +9,12 @@ Real Time Video Rendition Title
 * ^version = "20190915"
 * ^title = "Real Time Video Rendition Title"
 * ^name = "RealTimeVideoRenditionTitle"
-* DICOM_DCM_CodeSystem#130370 "RTV Rendition" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130370 //"RTV Rendition" 
 
-* DICOM_DCM_CodeSystem#130371 "RTV Audio and Video Rendition" 
+* DICOM_DCM_CodeSystem#130371 //"RTV Audio and Video Rendition" 
 
-* DICOM_DCM_CodeSystem#130372 "RTV Stereo Video Rendition" 
+* DICOM_DCM_CodeSystem#130372 //"RTV Stereo Video Rendition" 
 
-* DICOM_DCM_CodeSystem#130373 "RTV Audio and Stereo Video Rendition" 
+* DICOM_DCM_CodeSystem#130373 //"RTV Audio and Stereo Video Rendition" 
 

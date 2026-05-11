@@ -9,9 +9,10 @@ Linear Measurement Unit
 * ^version = "20020904"
 * ^title = "Linear Measurement Unit"
 * ^name = "LinearMeasurementUnit"
-* http://unitsofmeasure.org#cm "centimeter" 
+* ^experimental = false
+* http://unitsofmeasure.org#cm //"centimeter" 
 
-* http://unitsofmeasure.org#mm "millimeter" 
+* http://unitsofmeasure.org#mm //"millimeter" 
 
-* http://unitsofmeasure.org#um "micrometer" 
+* http://unitsofmeasure.org#um //"micrometer" 
 

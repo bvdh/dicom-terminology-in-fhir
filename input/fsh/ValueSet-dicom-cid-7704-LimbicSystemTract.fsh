@@ -9,14 +9,15 @@ Limbic System Tract
 * ^version = "20150106"
 * ^title = "Limbic System Tract"
 * ^name = "LimbicSystemTract"
-* http://snomed.info/sct#37035000 "cingulum" 
-* http://snomed.info/srt#T-A2840 "cingulum" 
-* http://terminology.hl7.org/CodeSystem/umls#C0228272 "cingulum" 
+* ^experimental = false
+* http://snomed.info/sct#37035000 //"cingulum" 
+* http://snomed.info/srt#T-A2840 //"cingulum" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0228272 //"cingulum" 
 
-* http://snomed.info/sct#87463005 "fornix" 
-* http://snomed.info/srt#T-A2970 "fornix" 
-* http://terminology.hl7.org/CodeSystem/umls#C0152334 "fornix" 
+* http://snomed.info/sct#87463005 //"fornix" 
+* http://snomed.info/srt#T-A2970 //"fornix" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0152334 //"fornix" 
 
-* NEUCodeSystem#286 "stria terminalis" 
-* http://terminology.hl7.org/CodeSystem/umls#C0175243 "stria terminalis" 
+* NEUCodeSystem#286 //"stria terminalis" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0175243 //"stria terminalis" 
 

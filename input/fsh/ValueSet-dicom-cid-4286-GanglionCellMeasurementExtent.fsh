@@ -9,11 +9,12 @@ Ganglion Cell Measurement Extent
 * ^version = "20250707"
 * ^title = "Ganglion Cell Measurement Extent"
 * ^name = "GanglionCellMeasurementExtent"
-* http://snomed.info/sct#39197003 "Ganglion cell layer" 
-* http://snomed.info/srt#T-AA680 "Ganglion cell layer" 
-* http://terminology.hl7.org/CodeSystem/umls#C0229218 "Ganglion cell layer" 
+* ^experimental = false
+* http://snomed.info/sct#39197003 //"Ganglion cell layer" 
+* http://snomed.info/srt#T-AA680 //"Ganglion cell layer" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0229218 //"Ganglion cell layer" 
 
-* DICOM_DCM_CodeSystem#131299 "Ganglion cell and inner plexiform layers" 
+* DICOM_DCM_CodeSystem#131299 //"Ganglion cell and inner plexiform layers" 
 
-* DICOM_DCM_CodeSystem#131300 "Ganglion cell complex" 
+* DICOM_DCM_CodeSystem#131300 //"Ganglion cell complex" 
 

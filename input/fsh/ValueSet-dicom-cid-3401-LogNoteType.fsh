@@ -9,13 +9,14 @@ Log Note Type
 * ^version = "20030327"
 * ^title = "Log Note Type"
 * ^name = "LogNoteType"
-* DICOM_DCM_CodeSystem#121171 "Tech Note" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121171 //"Tech Note" 
 
-* DICOM_DCM_CodeSystem#121172 "Nursing Note" 
+* DICOM_DCM_CodeSystem#121172 //"Nursing Note" 
 
-* DICOM_DCM_CodeSystem#121173 "Physician Note" 
+* DICOM_DCM_CodeSystem#121173 //"Physician Note" 
 
-* DICOM_DCM_CodeSystem#121174 "Procedure Note" 
+* DICOM_DCM_CodeSystem#121174 //"Procedure Note" 
 
-* DICOM_DCM_CodeSystem#121123 "Patient Status or Event" 
+* DICOM_DCM_CodeSystem#121123 //"Patient Status or Event" 
 

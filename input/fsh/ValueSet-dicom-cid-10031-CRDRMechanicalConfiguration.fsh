@@ -9,11 +9,12 @@ CR/DR Mechanical Configuration
 * ^version = "20120406"
 * ^title = "CR/DR Mechanical Configuration"
 * ^name = "CRDRMechanicalConfiguration"
-* DICOM_DCM_CodeSystem#113953 "Unmounted Detector" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113953 //"Unmounted Detector" 
 
-* DICOM_DCM_CodeSystem#113952 "Table Mount" 
+* DICOM_DCM_CodeSystem#113952 //"Table Mount" 
 
-* DICOM_DCM_CodeSystem#113954 "Upright Stand Mount" 
+* DICOM_DCM_CodeSystem#113954 //"Upright Stand Mount" 
 
-* DICOM_DCM_CodeSystem#113955 "C-Arm Mount" 
+* DICOM_DCM_CodeSystem#113955 //"C-Arm Mount" 
 

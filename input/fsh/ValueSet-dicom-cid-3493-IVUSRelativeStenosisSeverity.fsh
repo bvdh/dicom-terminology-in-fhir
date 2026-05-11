@@ -9,11 +9,12 @@ IVUS Relative Stenosis Severity
 * ^version = "20040614"
 * ^title = "IVUS Relative Stenosis Severity"
 * ^name = "IVUSRelativeStenosisSeverity"
-* DICOM_DCM_CodeSystem#122367 "T-1 Worst" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122367 //"T-1 Worst" 
 
-* DICOM_DCM_CodeSystem#122368 "T-2 Secondary" 
+* DICOM_DCM_CodeSystem#122368 //"T-2 Secondary" 
 
-* DICOM_DCM_CodeSystem#122369 "T-3 Secondary" 
+* DICOM_DCM_CodeSystem#122369 //"T-3 Secondary" 
 
-* DICOM_DCM_CodeSystem#122370 "T-4 Secondary" 
+* DICOM_DCM_CodeSystem#122370 //"T-4 Secondary" 
 

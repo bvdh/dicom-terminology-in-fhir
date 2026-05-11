@@ -9,15 +9,16 @@ Patient Treatment Preparation Method
 * ^version = "20210906"
 * ^title = "Patient Treatment Preparation Method"
 * ^name = "PatientTreatmentPreparationMethod"
-* DICOM_DCM_CodeSystem#130630 "Isocentric Setup Method" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130630 //"Isocentric Setup Method" 
 
-* DICOM_DCM_CodeSystem#130631 "Controlled SSD Setup Method" 
+* DICOM_DCM_CodeSystem#130631 //"Controlled SSD Setup Method" 
 
-* DICOM_DCM_CodeSystem#130632 "TBI Setup Method" 
+* DICOM_DCM_CodeSystem#130632 //"TBI Setup Method" 
 
-* DICOM_DCM_CodeSystem#130633 "Stereotactic Setup Method" 
+* DICOM_DCM_CodeSystem#130633 //"Stereotactic Setup Method" 
 
-* DICOM_DCM_CodeSystem#130634 "Skin Apposition Setup Method" 
+* DICOM_DCM_CodeSystem#130634 //"Skin Apposition Setup Method" 
 
-* DICOM_DCM_CodeSystem#130635 "Ocular Gaze Setup Method" 
+* DICOM_DCM_CodeSystem#130635 //"Ocular Gaze Setup Method" 
 

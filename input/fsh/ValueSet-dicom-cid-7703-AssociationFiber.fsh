@@ -9,43 +9,44 @@ The SLF is distinguished from the AF (even though SNOMED and UMLS treat them as 
 * ^version = "20150106"
 * ^title = "Association Fiber"
 * ^name = "AssociationFiber"
-* NEUCodeSystem#2080 "superior longitudinal fasciculus" 
-* http://terminology.hl7.org/CodeSystem/umls#C0228270 "superior longitudinal fasciculus" 
+* ^experimental = false
+* NEUCodeSystem#2080 //"superior longitudinal fasciculus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0228270 //"superior longitudinal fasciculus" 
 
-* DICOM_DCM_CodeSystem#110703 "superior longitudinal fasciculus I" 
+* DICOM_DCM_CodeSystem#110703 //"superior longitudinal fasciculus I" 
 
-* DICOM_DCM_CodeSystem#110704 "superior longitudinal fasciculus II" 
+* DICOM_DCM_CodeSystem#110704 //"superior longitudinal fasciculus II" 
 
-* DICOM_DCM_CodeSystem#110705 "superior longitudinal fasciculus III" 
+* DICOM_DCM_CodeSystem#110705 //"superior longitudinal fasciculus III" 
 
-* NEUCodeSystem#2063 "arcuate fasciculus" 
-* http://terminology.hl7.org/CodeSystem/umls#C2329633 "arcuate fasciculus" 
+* NEUCodeSystem#2063 //"arcuate fasciculus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2329633 //"arcuate fasciculus" 
 
-* http://snomed.info/sct#55233005 "inferior longitudinal fasciculus" 
-* http://snomed.info/srt#T-A2850 "inferior longitudinal fasciculus" 
-* http://terminology.hl7.org/CodeSystem/umls#C0228273 "inferior longitudinal fasciculus" 
+* http://snomed.info/sct#55233005 //"inferior longitudinal fasciculus" 
+* http://snomed.info/srt#T-A2850 //"inferior longitudinal fasciculus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0228273 //"inferior longitudinal fasciculus" 
 
-* http://snomed.info/sct#13958008 "superior fronto-occipital fasciculus" 
-* http://snomed.info/srt#T-A2860 "superior fronto-occipital fasciculus" 
-* http://terminology.hl7.org/CodeSystem/umls#C0228274 "superior fronto-occipital fasciculus" 
+* http://snomed.info/sct#13958008 //"superior fronto-occipital fasciculus" 
+* http://snomed.info/srt#T-A2860 //"superior fronto-occipital fasciculus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0228274 //"superior fronto-occipital fasciculus" 
 
-* http://snomed.info/sct#35664009 "inferior fronto-occipital fasciculus" 
-* http://snomed.info/srt#T-A2861 "inferior fronto-occipital fasciculus" 
-* http://terminology.hl7.org/CodeSystem/umls#C0228275 "inferior fronto-occipital fasciculus" 
+* http://snomed.info/sct#35664009 //"inferior fronto-occipital fasciculus" 
+* http://snomed.info/srt#T-A2861 //"inferior fronto-occipital fasciculus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0228275 //"inferior fronto-occipital fasciculus" 
 
-* http://snomed.info/sct#26230003 "uncinate fasciculus" 
-* http://snomed.info/srt#T-A2830 "uncinate fasciculus" 
-* http://terminology.hl7.org/CodeSystem/umls#C0228271 "uncinate fasciculus" 
+* http://snomed.info/sct#26230003 //"uncinate fasciculus" 
+* http://snomed.info/srt#T-A2830 //"uncinate fasciculus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0228271 //"uncinate fasciculus" 
 
-* http://snomed.info/sct#80434005 "vertical occipital fasciculus" 
-* http://snomed.info/srt#T-A2870 "vertical occipital fasciculus" 
-* http://terminology.hl7.org/CodeSystem/umls#C0228276 "vertical occipital fasciculus" 
+* http://snomed.info/sct#80434005 //"vertical occipital fasciculus" 
+* http://snomed.info/srt#T-A2870 //"vertical occipital fasciculus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0228276 //"vertical occipital fasciculus" 
 
 // * http://snomed.info/sct#35664009 "inferior fronto-occipital fasciculus" 
 // * http://snomed.info/srt#T-A2861 "inferior fronto-occipital fasciculus" 
-// * http://terminology.hl7.org/CodeSystem/umls#C0228275 "inferior fronto-occipital fasciculus" 
+// * http://terminology.hl7.org/CodeSystem/umls/sab#C0228275 "inferior fronto-occipital fasciculus" 
 
 // * http://snomed.info/sct#13958008 "superior fronto-occipital fasciculus" 
 // * http://snomed.info/srt#T-A2860 "superior fronto-occipital fasciculus" 
-// * http://terminology.hl7.org/CodeSystem/umls#C0228274 "superior fronto-occipital fasciculus" 
+// * http://terminology.hl7.org/CodeSystem/umls/sab#C0228274 "superior fronto-occipital fasciculus" 
 

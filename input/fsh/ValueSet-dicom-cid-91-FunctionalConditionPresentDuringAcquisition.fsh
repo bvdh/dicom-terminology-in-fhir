@@ -9,19 +9,20 @@ Functional Condition Present During Acquisition
 * ^version = "20170914"
 * ^title = "Functional Condition Present During Acquisition"
 * ^name = "FunctionalConditionPresentDuringAcquisition"
+* ^experimental = false
 * include codes from valueset CID_3271
 
-* http://snomed.info/sct#43914001 "Phonation" 
-* http://snomed.info/srt#F-F7100 "Phonation" 
-* http://terminology.hl7.org/CodeSystem/umls#C0031577 "Phonation" 
+* http://snomed.info/sct#43914001 //"Phonation" 
+* http://snomed.info/srt#F-F7100 //"Phonation" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0031577 //"Phonation" 
 
-* http://snomed.info/sct#87731000 "Weight bearing" 
-* http://snomed.info/srt#F-12300 "Weight bearing" 
-* http://terminology.hl7.org/CodeSystem/umls#C0231573 "Weight bearing" 
+* http://snomed.info/sct#87731000 //"Weight bearing" 
+* http://snomed.info/srt#F-12300 //"Weight bearing" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0231573 //"Weight bearing" 
 
-* DICOM_DCM_CodeSystem#109137 "During voiding" 
+* DICOM_DCM_CodeSystem#109137 //"During voiding" 
 
-* DICOM_DCM_CodeSystem#109134 "Prior to voiding" 
+* DICOM_DCM_CodeSystem#109134 //"Prior to voiding" 
 
-* DICOM_DCM_CodeSystem#109135 "Post voiding" 
+* DICOM_DCM_CodeSystem#109135 //"Post voiding" 
 

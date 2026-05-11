@@ -9,7 +9,8 @@ CAD-RADS Stenosis Assessment Modifier
 * ^version = "20211114"
 * ^title = "CAD-RADS Stenosis Assessment Modifier"
 * ^name = "CADRADSStenosisAssessmentModifier"
-* DICOM_DCM_CodeSystem#130728 "4A - Severe stenosis" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130728 //"4A - Severe stenosis" 
 
-* DICOM_DCM_CodeSystem#130729 "4B - Severe stenosis" 
+* DICOM_DCM_CodeSystem#130729 //"4B - Severe stenosis" 
 

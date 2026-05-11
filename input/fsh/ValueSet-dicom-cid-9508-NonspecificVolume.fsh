@@ -9,7 +9,8 @@ Nonspecific Volume
 * ^version = "20181112"
 * ^title = "Non-specific Volume"
 * ^name = "NonspecificVolume"
-* DICOM_DCM_CodeSystem#130048 "Unclassified Volume" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130048 //"Unclassified Volume" 
 
-* DICOM_DCM_CodeSystem#130081 "Unclassified Combination" 
+* DICOM_DCM_CodeSystem#130081 //"Unclassified Combination" 
 

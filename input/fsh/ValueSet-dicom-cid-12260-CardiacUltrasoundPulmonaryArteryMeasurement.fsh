@@ -9,6 +9,7 @@ Cardiac Ultrasound Pulmonary Artery Measurement
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Pulmonary Artery Measurement"
 * ^name = "CardiacUltrasoundPulmonaryArteryMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
 * include codes from valueset CID_12222

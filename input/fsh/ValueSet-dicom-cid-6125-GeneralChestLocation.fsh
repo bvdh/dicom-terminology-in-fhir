@@ -9,19 +9,20 @@ General Chest Location
 * ^version = "20030108"
 * ^title = "General Chest Location"
 * ^name = "GeneralChestLocation"
-* http://snomed.info/sct#26216008 "Central" 
-* http://snomed.info/srt#G-A110 "Central" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205099 "Central" 
+* ^experimental = false
+* http://snomed.info/sct#26216008 //"Central" 
+* http://snomed.info/srt#G-A110 //"Central" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205099 //"Central" 
 
-* http://snomed.info/sct#14414005 "Peripheral" 
-* http://snomed.info/srt#G-A111 "Peripheral" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205100 "Peripheral" 
+* http://snomed.info/sct#14414005 //"Peripheral" 
+* http://snomed.info/srt#G-A111 //"Peripheral" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205100 //"Peripheral" 
 
-* http://snomed.info/sct#43674008 "Apical" 
-* http://snomed.info/srt#G-A122 "Apical" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205111 "Apical" 
+* http://snomed.info/sct#43674008 //"Apical" 
+* http://snomed.info/srt#G-A122 //"Apical" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205111 //"Apical" 
 
-* http://snomed.info/sct#57195005 "Basal" 
-* http://snomed.info/srt#G-A123 "Basal" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205112 "Basal" 
+* http://snomed.info/sct#57195005 //"Basal" 
+* http://snomed.info/srt#G-A123 //"Basal" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205112 //"Basal" 
 

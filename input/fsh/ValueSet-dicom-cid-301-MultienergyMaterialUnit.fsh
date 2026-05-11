@@ -9,17 +9,18 @@ Multi-energy Material Unit
 * ^version = "20181109"
 * ^title = "Multi-energy Material Unit"
 * ^name = "MultienergyMaterialUnit"
-* http://unitsofmeasure.org#mg/cm3 "mg/cm^3" 
+* ^experimental = false
+* http://unitsofmeasure.org#mg/cm3 //"mg/cm3" 
 
-* http://unitsofmeasure.org#[hnsf'U] "Hounsfield Unit" 
+* http://unitsofmeasure.org#[hnsf'U] //"Hounsfield Unit" 
 
-* http://unitsofmeasure.org#10*23/ml "Electron Density" 
+* http://unitsofmeasure.org#10*23/ml //"Electron Density" 
 
-* DICOM_DCM_CodeSystem#129320 "Effective Atomic Number" 
+* DICOM_DCM_CodeSystem#129320 //"Effective Atomic Number" 
 
-* DICOM_DCM_CodeSystem#129321 "Modified Hounsfield Unit" 
+* DICOM_DCM_CodeSystem#129321 //"Modified Hounsfield Unit" 
 
-* http://unitsofmeasure.org#mg/ml "mg/ml" 
+* http://unitsofmeasure.org#mg/ml //"mg/ml" 
 
-* http://unitsofmeasure.org#% "Percent" 
+* http://unitsofmeasure.org#% //"Percent" 
 

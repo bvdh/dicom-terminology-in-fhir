@@ -9,15 +9,16 @@ Zone of Lung
 * ^version = "20240611"
 * ^title = "Zone of Lung"
 * ^name = "ZoneOfLung"
-* http://snomed.info/sct#281392002 "Upper zone of lung" 
-* http://snomed.info/srt#T-D3208 "Upper zone of lung" 
-* http://terminology.hl7.org/CodeSystem/umls#C0559286 "Upper zone of lung" 
+* ^experimental = false
+* http://snomed.info/sct#281392002 //"Upper zone of lung" 
+* http://snomed.info/srt#T-D3208 //"Upper zone of lung" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0559286 //"Upper zone of lung" 
 
-* http://snomed.info/sct#281393007 "Middle zone of lung" 
-* http://snomed.info/srt#T-D3209 "Middle zone of lung" 
-* http://terminology.hl7.org/CodeSystem/umls#C0559287 "Middle zone of lung" 
+* http://snomed.info/sct#281393007 //"Middle zone of lung" 
+* http://snomed.info/srt#T-D3209 //"Middle zone of lung" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0559287 //"Middle zone of lung" 
 
-* http://snomed.info/sct#281394001 "Lower zone of lung" 
-* http://snomed.info/srt#T-D320A "Lower zone of lung" 
-* http://terminology.hl7.org/CodeSystem/umls#C0559288 "Lower zone of lung" 
+* http://snomed.info/sct#281394001 //"Lower zone of lung" 
+* http://snomed.info/srt#T-D320A //"Lower zone of lung" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0559288 //"Lower zone of lung" 
 

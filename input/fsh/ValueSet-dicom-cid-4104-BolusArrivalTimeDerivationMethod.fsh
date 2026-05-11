@@ -9,9 +9,10 @@ Bolus Arrival Time Derivation Method
 * ^version = "20141110"
 * ^title = "Bolus Arrival Time Derivation Method"
 * ^name = "BolusArrivalTimeDerivationMethod"
-* DICOM_DCM_CodeSystem#126373 "Temporal Derivative Exceeds Threshold" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#126373 //"Temporal Derivative Exceeds Threshold" 
 
-* DICOM_DCM_CodeSystem#126370 "Time of Peak Concentration" 
+* DICOM_DCM_CodeSystem#126370 //"Time of Peak Concentration" 
 
-* DICOM_DCM_CodeSystem#126372 "Time of Leading Half-Peak Concentration" 
+* DICOM_DCM_CodeSystem#126372 //"Time of Leading Half-Peak Concentration" 
 

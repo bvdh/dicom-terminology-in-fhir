@@ -9,11 +9,12 @@ Echo Finding Observation Type
 * ^version = "20161109"
 * ^title = "Echo Finding Observation Type"
 * ^name = "EchoFindingObservationType"
-* DICOM_DCM_CodeSystem#125311 "Structure of the Finding Site" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#125311 //"Structure of the Finding Site" 
 
-* DICOM_DCM_CodeSystem#125312 "Behavior of the Finding Site" 
+* DICOM_DCM_CodeSystem#125312 //"Behavior of the Finding Site" 
 
-* http://snomed.info/sct#44324008 "Hemodynamic Measurements" 
-* http://snomed.info/srt#PA-50030 "Hemodynamic Measurements" 
-* http://terminology.hl7.org/CodeSystem/umls#C0204901 "Hemodynamic Measurements" 
+* http://snomed.info/sct#44324008 //"Hemodynamic Measurements" 
+* http://snomed.info/srt#PA-50030 //"Hemodynamic Measurements" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0204901 //"Hemodynamic Measurements" 
 

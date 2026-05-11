@@ -9,9 +9,10 @@ Framingham Score
 * ^version = "20030327"
 * ^title = "Framingham Score"
 * ^name = "FraminghamScore"
-* DICOM_DCM_CodeSystem#122230 "10 Year CHD Risk" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122230 //"10 Year CHD Risk" 
 
-* DICOM_DCM_CodeSystem#122231 "Comparative Average10 Year CHD Risk" 
+* DICOM_DCM_CodeSystem#122231 //"Comparative Average10 Year CHD Risk" 
 
-* DICOM_DCM_CodeSystem#122232 "Comparative Low10 Year CHD Risk" 
+* DICOM_DCM_CodeSystem#122232 //"Comparative Low10 Year CHD Risk" 
 

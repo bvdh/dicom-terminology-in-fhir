@@ -11,15 +11,16 @@ Description :
 * ^version = "20151110"
 * ^title = "Local Anesthetics for Small Animal Anesthesia"
 * ^name = "LocalAnestheticsForSmallAnimalAnesthesia"
-* http://snomed.info/sct#387150008 "Bupivacaine" 
-* http://snomed.info/srt#F-61A28 "Bupivacaine" 
-* http://terminology.hl7.org/CodeSystem/umls#C0006400 "Bupivacaine" 
+* ^experimental = false
+* http://snomed.info/sct#387150008 //"Bupivacaine" 
+* http://snomed.info/srt#F-61A28 //"Bupivacaine" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0006400 //"Bupivacaine" 
 
-* http://snomed.info/sct#346553009 "Lidocaine + Prilocaine" 
-* http://snomed.info/srt#C-80477 "Lidocaine + Prilocaine" 
-* http://terminology.hl7.org/CodeSystem/umls#C0617623 "Lidocaine + Prilocaine" 
+* http://snomed.info/sct#346553009 //"Lidocaine + Prilocaine" 
+* http://snomed.info/srt#C-80477 //"Lidocaine + Prilocaine" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0617623 //"Lidocaine + Prilocaine" 
 
-* http://snomed.info/sct#387480006 "Lidocaine" 
-* http://snomed.info/srt#F-61BD0 "Lidocaine" 
-* http://terminology.hl7.org/CodeSystem/umls#C0023660 "Lidocaine" 
+* http://snomed.info/sct#387480006 //"Lidocaine" 
+* http://snomed.info/srt#F-61BD0 //"Lidocaine" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0023660 //"Lidocaine" 
 

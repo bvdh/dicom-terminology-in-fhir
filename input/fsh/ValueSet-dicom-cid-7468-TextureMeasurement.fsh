@@ -9,6 +9,7 @@ Texture Measurement
 * ^version = "20190121"
 * ^title = "Texture Measurement"
 * ^name = "TextureMeasurement"
+* ^experimental = false
 * include codes from valueset CID_7478
 
 * include codes from valueset CID_7467
@@ -23,5 +24,5 @@ Texture Measurement
 
 * include codes from valueset CID_7501
 
-* DICOM_DCM_CodeSystem#126050 "Fractal Dimension" 
+* DICOM_DCM_CodeSystem#126050 //"Fractal Dimension" 
 

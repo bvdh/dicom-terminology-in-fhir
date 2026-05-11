@@ -9,17 +9,18 @@ In future extensions, Mammography Single Image Finding terms that are not derive
 * ^version = "20020904"
 * ^title = "Mammography Single Image Finding"
 * ^name = "MammographySingleImageFinding"
+* ^experimental = false
 * include codes from valueset CID_6015
 
-* DICOM_DCM_CodeSystem#111099 "Selected region" 
+* DICOM_DCM_CodeSystem#111099 //"Selected region" 
 
-* DICOM_DCM_CodeSystem#111100 "Breast geometry" 
+* DICOM_DCM_CodeSystem#111100 //"Breast geometry" 
 
-* DICOM_DCM_CodeSystem#111101 "Image Quality" 
+* DICOM_DCM_CodeSystem#111101 //"Image Quality" 
 
-* DICOM_DCM_CodeSystem#111102 "Non-lesion" 
+* DICOM_DCM_CodeSystem#111102 //"Non-lesion" 
 
-* http://snomed.info/sct#24142002 "Nipple" 
-* http://snomed.info/srt#T-04100 "Nipple" 
-* http://terminology.hl7.org/CodeSystem/umls#C0028109 "Nipple" 
+* http://snomed.info/sct#24142002 //"Nipple" 
+* http://snomed.info/srt#T-04100 //"Nipple" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0028109 //"Nipple" 
 

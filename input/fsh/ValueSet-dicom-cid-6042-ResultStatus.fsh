@@ -9,11 +9,12 @@ Result Status
 * ^version = "20020904"
 * ^title = "Result Status"
 * ^name = "ResultStatus"
-* DICOM_DCM_CodeSystem#111222 "Succeeded" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111222 //"Succeeded" 
 
-* DICOM_DCM_CodeSystem#111223 "Partially Succeeded" 
+* DICOM_DCM_CodeSystem#111223 //"Partially Succeeded" 
 
-* DICOM_DCM_CodeSystem#111224 "Failed" 
+* DICOM_DCM_CodeSystem#111224 //"Failed" 
 
-* DICOM_DCM_CodeSystem#111225 "Not Attempted" 
+* DICOM_DCM_CodeSystem#111225 //"Not Attempted" 
 

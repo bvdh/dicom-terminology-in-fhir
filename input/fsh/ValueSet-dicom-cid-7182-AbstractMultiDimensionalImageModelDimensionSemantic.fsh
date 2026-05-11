@@ -9,11 +9,12 @@ Abstract Multi-dimensional Image Model Dimension Semantic
 * ^version = "20100825"
 * ^title = "Abstract Multi-dimensional Image Model Dimension Semantic"
 * ^name = "AbstractMultiDimensionalImageModelDimensionSemantic"
-* DICOM_DCM_CodeSystem#110856 "Linear Displacement" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#110856 //"Linear Displacement" 
 
-* DICOM_DCM_CodeSystem#110857 "Photon Energy" 
+* DICOM_DCM_CodeSystem#110857 //"Photon Energy" 
 
-* DICOM_DCM_CodeSystem#110858 "Time" 
+* DICOM_DCM_CodeSystem#110858 //"Time" 
 
-* DICOM_DCM_CodeSystem#110859 "Angle" 
+* DICOM_DCM_CodeSystem#110859 //"Angle" 
 

@@ -9,11 +9,12 @@ Keratometry Descriptor
 * ^version = "20100623"
 * ^title = "Keratometry Descriptor"
 * ^name = "KeratometryDescriptor"
-* DICOM_DCM_CodeSystem#111753 "Manual Keratometry" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111753 //"Manual Keratometry" 
 
-* DICOM_DCM_CodeSystem#111754 "Auto Keratometry" 
+* DICOM_DCM_CodeSystem#111754 //"Auto Keratometry" 
 
-* DICOM_DCM_CodeSystem#111755 "Simulated Keratometry" 
+* DICOM_DCM_CodeSystem#111755 //"Simulated Keratometry" 
 
-* DICOM_DCM_CodeSystem#111756 "Equivalent K-reading" 
+* DICOM_DCM_CodeSystem#111756 //"Equivalent K-reading" 
 

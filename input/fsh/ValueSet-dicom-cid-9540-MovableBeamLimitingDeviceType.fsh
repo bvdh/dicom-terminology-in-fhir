@@ -9,11 +9,12 @@ Movable Beam Limiting Device Type
 * ^version = "20221224"
 * ^title = "Movable Beam Limiting Device Type"
 * ^name = "MovableBeamLimitingDeviceType"
-* DICOM_DCM_CodeSystem#130330 "Jaw Pair" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130330 //"Jaw Pair" 
 
-* DICOM_DCM_CodeSystem#130331 "Leaf Pairs" 
+* DICOM_DCM_CodeSystem#130331 //"Leaf Pairs" 
 
-* DICOM_DCM_CodeSystem#130332 "Variable Circular Collimator" 
+* DICOM_DCM_CodeSystem#130332 //"Variable Circular Collimator" 
 
-* DICOM_DCM_CodeSystem#130333 "Single Leaves" 
+* DICOM_DCM_CodeSystem#130333 //"Single Leaves" 
 

@@ -9,7 +9,8 @@ Encapsulated Document Source Purpose of Reference
 * ^version = "20180403"
 * ^title = "Encapsulated Document Source Purpose of Reference"
 * ^name = "EncapsulatedDocumentSourcePurposeOfReference"
-* DICOM_DCM_CodeSystem#121324 "Source image" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121324 //"Source image" 
 
 * include codes from valueset CID_7013
 

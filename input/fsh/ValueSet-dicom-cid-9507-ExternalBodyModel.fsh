@@ -9,7 +9,8 @@ External Body Model
 * ^version = "20181112"
 * ^title = "External Body Model"
 * ^name = "ExternalBodyModel"
-* DICOM_DCM_CodeSystem#130067 "Patient Anatomy Model" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130067 //"Patient Anatomy Model" 
 
-* DICOM_DCM_CodeSystem#130068 "Extended Patient Anatomy Model" 
+* DICOM_DCM_CodeSystem#130068 //"Extended Patient Anatomy Model" 
 

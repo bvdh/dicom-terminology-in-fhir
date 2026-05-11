@@ -9,7 +9,8 @@ Perfusion Analysis Method
 * ^version = "20141110"
 * ^title = "Perfusion Analysis Method"
 * ^name = "PerfusionAnalysisMethod"
-* DICOM_DCM_CodeSystem#126310 "Least Mean Square deconvolution" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#126310 //"Least Mean Square deconvolution" 
 
-* DICOM_DCM_CodeSystem#126311 "Singular Value Decomposition deconvolution" 
+* DICOM_DCM_CodeSystem#126311 //"Singular Value Decomposition deconvolution" 
 

@@ -9,9 +9,10 @@ From BI-RADS
 * ^version = "20050822"
 * ^title = "Background Echotexture"
 * ^name = "BackgroundEchotexture"
-* DICOM_DCM_CodeSystem#111351 "Homogeneous fat echotexture" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111351 //"Homogeneous fat echotexture" 
 
-* DICOM_DCM_CodeSystem#111352 "Homogeneous fibroglandular echotexture" 
+* DICOM_DCM_CodeSystem#111352 //"Homogeneous fibroglandular echotexture" 
 
-* DICOM_DCM_CodeSystem#111353 "Heterogeneous echotexture" 
+* DICOM_DCM_CodeSystem#111353 //"Heterogeneous echotexture" 
 

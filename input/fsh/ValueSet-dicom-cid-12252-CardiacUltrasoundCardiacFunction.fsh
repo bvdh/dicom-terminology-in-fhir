@@ -9,19 +9,20 @@ Cardiac Ultrasound Cardiac Function
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Cardiac Function"
 * ^name = "CardiacUltrasoundCardiacFunction"
-* http://snomed.info/sct#70822001 "Cardiac ejection fraction" 
-* http://snomed.info/srt#F-32070 "Cardiac ejection fraction" 
-* http://terminology.hl7.org/CodeSystem/umls#C0232174 "Cardiac ejection fraction" 
+* ^experimental = false
+* http://snomed.info/sct#70822001 //"Cardiac ejection fraction" 
+* http://snomed.info/srt#F-32070 //"Cardiac ejection fraction" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0232174 //"Cardiac ejection fraction" 
 
-* http://loinc.org#59117-2 "Mean Velocity of Circumferential Fiber Shortening (Mean VcFv)" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923464 "Mean Velocity of Circumferential Fiber Shortening (Mean VcFv)" 
+* http://loinc.org#59117-2 //"Mean Velocity of Circumferential Fiber Shortening (Mean VcFv)" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2923464 //"Mean Velocity of Circumferential Fiber Shortening (Mean VcFv)" 
 
-* http://loinc.org#59118-0 "HR-Corrected Mean Velocity of Circumferential Fiber Shortening" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923466 "HR-Corrected Mean Velocity of Circumferential Fiber Shortening" 
+* http://loinc.org#59118-0 //"HR-Corrected Mean Velocity of Circumferential Fiber Shortening" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2923466 //"HR-Corrected Mean Velocity of Circumferential Fiber Shortening" 
 
-* http://loinc.org#59092-7 "% Thickening" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923420 "% Thickening" 
+* http://loinc.org#59092-7 //"% Thickening" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2923420 //"% Thickening" 
 
-* http://loinc.org#59132-1 "Fractional Shortening" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923490 "Fractional Shortening" 
+* http://loinc.org#59132-1 //"Fractional Shortening" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2923490 //"Fractional Shortening" 
 

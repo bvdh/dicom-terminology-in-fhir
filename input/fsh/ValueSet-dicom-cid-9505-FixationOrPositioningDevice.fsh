@@ -9,6 +9,7 @@ Fixation or Positioning Device
 * ^version = "20181112"
 * ^title = "Fixation or Positioning Device"
 * ^name = "FixationOrPositioningDevice"
+* ^experimental = false
 * include codes from valueset CID_9513
 
 * include codes from valueset CID_9515

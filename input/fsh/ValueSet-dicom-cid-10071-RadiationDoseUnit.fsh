@@ -9,7 +9,8 @@ Radiation Dose Unit
 * ^version = "20180605"
 * ^title = "Radiation Dose Unit"
 * ^name = "RadiationDoseUnit"
-* http://unitsofmeasure.org#Gy "Gy" 
+* ^experimental = false
+* http://unitsofmeasure.org#Gy //"Gy" 
 
-* http://unitsofmeasure.org#Sv "Sv" 
+* http://unitsofmeasure.org#Sv //"Sv" 
 

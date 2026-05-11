@@ -9,9 +9,10 @@ Mammography Quality Control Standard Type
 * ^version = "20020904"
 * ^title = "Mammography Quality Control Standard Type"
 * ^name = "MammographyQualityControlStandardType"
-* DICOM_DCM_CodeSystem#111238 "Mammography Quality Control Manual 1999, ACR" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111238 //"Mammography Quality Control Manual 1999, ACR" 
 
-* DICOM_DCM_CodeSystem#111239 "Title 21 CFR Section 900, Subpart B" 
+* DICOM_DCM_CodeSystem#111239 //"Title 21 CFR Section 900, Subpart B" 
 
-* DICOM_DCM_CodeSystem#111240 "Institutionally defined quality control standard" 
+* DICOM_DCM_CodeSystem#111240 //"Institutionally defined quality control standard" 
 

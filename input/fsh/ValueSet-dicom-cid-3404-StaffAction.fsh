@@ -9,13 +9,14 @@ Staff Action
 * ^version = "20030327"
 * ^title = "Staff Action"
 * ^name = "StaffAction"
-* DICOM_DCM_CodeSystem#122041 "Personnel Arrived" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122041 //"Personnel Arrived" 
 
-* DICOM_DCM_CodeSystem#122042 "Personnel Departed" 
+* DICOM_DCM_CodeSystem#122042 //"Personnel Departed" 
 
-* DICOM_DCM_CodeSystem#122043 "Page Sent To" 
+* DICOM_DCM_CodeSystem#122043 //"Page Sent To" 
 
-* DICOM_DCM_CodeSystem#122044 "Consultation With" 
+* DICOM_DCM_CodeSystem#122044 //"Consultation With" 
 
-* DICOM_DCM_CodeSystem#122045 "Office called" 
+* DICOM_DCM_CodeSystem#122045 //"Office called" 
 

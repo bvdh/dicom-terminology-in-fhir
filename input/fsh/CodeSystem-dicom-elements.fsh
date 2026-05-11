@@ -6,7 +6,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * ^content = #complete
 * ^experimental = false
 
-* ^version = "2025.?.20251120"
+* ^version = "2026.2.20260327"
 
 * ^property[+].code = #tag
 * ^property[=].description = "tag"
@@ -482,6 +482,14 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #SyntheticData ^property[1].valueString = "CS"
 * #SyntheticData ^property[2].code = #retired
 * #SyntheticData ^property[2].valueBoolean = false
+
+* #SensitiveContentCodeSequence "Sensitive Content Code Sequence" "Sensitive Content Code Sequence"
+* #SensitiveContentCodeSequence ^property[0].code = #tag
+* #SensitiveContentCodeSequence ^property[0].valueString  = "0008001D"
+* #SensitiveContentCodeSequence ^property[1].code = #vr
+* #SensitiveContentCodeSequence ^property[1].valueString = "SQ"
+* #SensitiveContentCodeSequence ^property[2].code = #retired
+* #SensitiveContentCodeSequence ^property[2].valueBoolean = false
 
 * #StudyDate "Study Date" "Study Date"
 * #StudyDate ^property[0].code = #tag
@@ -5843,7 +5851,7 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #MovingWindowPaddingScheme ^property[2].code = #retired
 * #MovingWindowPaddingScheme ^property[2].valueBoolean = false
 
-* #MovingWindowPaddingLength "Moving Window Padding Sength" "Moving Window Padding Sength"
+* #MovingWindowPaddingLength "Moving Window Padding Length" "Moving Window Padding Length"
 * #MovingWindowPaddingLength ^property[0].code = #tag
 * #MovingWindowPaddingLength ^property[0].valueString  = "00146051"
 * #MovingWindowPaddingLength ^property[1].code = #vr
@@ -12034,6 +12042,30 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #XRayMassAttenuationCoefficient ^property[1].valueString = "DS"
 * #XRayMassAttenuationCoefficient ^property[2].code = #retired
 * #XRayMassAttenuationCoefficient ^property[2].valueBoolean = false
+
+* #MetalArtifactReductionSequence "Metal Artifact Reduction Sequence" "Metal Artifact Reduction Sequence"
+* #MetalArtifactReductionSequence ^property[0].code = #tag
+* #MetalArtifactReductionSequence ^property[0].valueString  = "00189390"
+* #MetalArtifactReductionSequence ^property[1].code = #vr
+* #MetalArtifactReductionSequence ^property[1].valueString = "SQ"
+* #MetalArtifactReductionSequence ^property[2].code = #retired
+* #MetalArtifactReductionSequence ^property[2].valueBoolean = false
+
+* #MetalArtifactReductionApplied "Metal Artifact Reduction Applied" "Metal Artifact Reduction Applied"
+* #MetalArtifactReductionApplied ^property[0].code = #tag
+* #MetalArtifactReductionApplied ^property[0].valueString  = "00189391"
+* #MetalArtifactReductionApplied ^property[1].code = #vr
+* #MetalArtifactReductionApplied ^property[1].valueString = "CS"
+* #MetalArtifactReductionApplied ^property[2].code = #retired
+* #MetalArtifactReductionApplied ^property[2].valueBoolean = false
+
+* #MetalArtifactReductionAlgorithmIdentificationSequence "Metal Artifact Reduction Algorithm Identification Sequence" "Metal Artifact Reduction Algorithm Identification Sequence"
+* #MetalArtifactReductionAlgorithmIdentificationSequence ^property[0].code = #tag
+* #MetalArtifactReductionAlgorithmIdentificationSequence ^property[0].valueString  = "00189392"
+* #MetalArtifactReductionAlgorithmIdentificationSequence ^property[1].code = #vr
+* #MetalArtifactReductionAlgorithmIdentificationSequence ^property[1].valueString = "SQ"
+* #MetalArtifactReductionAlgorithmIdentificationSequence ^property[2].code = #retired
+* #MetalArtifactReductionAlgorithmIdentificationSequence ^property[2].valueBoolean = false
 
 * #ProjectionPixelCalibrationSequence "Projection Pixel Calibration Sequence" "Projection Pixel Calibration Sequence"
 * #ProjectionPixelCalibrationSequence ^property[0].code = #tag
@@ -32658,6 +32690,46 @@ Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * #RecommendedIsodoseLevelSequence ^property[1].valueString = "SQ"
 * #RecommendedIsodoseLevelSequence ^property[2].code = #retired
 * #RecommendedIsodoseLevelSequence ^property[2].valueBoolean = false
+
+* #DoseUnitCodeSequence "Dose Unit Code Sequence" "Dose Unit Code Sequence"
+* #DoseUnitCodeSequence ^property[0].code = #tag
+* #DoseUnitCodeSequence ^property[0].valueString  = "30040020"
+* #DoseUnitCodeSequence ^property[1].code = #vr
+* #DoseUnitCodeSequence ^property[1].valueString = "SQ"
+* #DoseUnitCodeSequence ^property[2].code = #retired
+* #DoseUnitCodeSequence ^property[2].valueBoolean = false
+
+* #RTDoseInterpretedTypeCodeSequence "RT Dose Interpreted Type Code Sequence" "RT Dose Interpreted Type Code Sequence"
+* #RTDoseInterpretedTypeCodeSequence ^property[0].code = #tag
+* #RTDoseInterpretedTypeCodeSequence ^property[0].valueString  = "30040021"
+* #RTDoseInterpretedTypeCodeSequence ^property[1].code = #vr
+* #RTDoseInterpretedTypeCodeSequence ^property[1].valueString = "SQ"
+* #RTDoseInterpretedTypeCodeSequence ^property[2].code = #retired
+* #RTDoseInterpretedTypeCodeSequence ^property[2].valueBoolean = false
+
+* #RTDoseInterpretedTypeCodeModifierSequence "RT Dose Interpreted Type Code Modifier Sequence" "RT Dose Interpreted Type Code Modifier Sequence"
+* #RTDoseInterpretedTypeCodeModifierSequence ^property[0].code = #tag
+* #RTDoseInterpretedTypeCodeModifierSequence ^property[0].valueString  = "30040022"
+* #RTDoseInterpretedTypeCodeModifierSequence ^property[1].code = #vr
+* #RTDoseInterpretedTypeCodeModifierSequence ^property[1].valueString = "SQ"
+* #RTDoseInterpretedTypeCodeModifierSequence ^property[2].code = #retired
+* #RTDoseInterpretedTypeCodeModifierSequence ^property[2].valueBoolean = false
+
+* #DoseRadiobiologicalInterpretationSequence "Dose Radiobiological Interpretation Sequence" "Dose Radiobiological Interpretation Sequence"
+* #DoseRadiobiologicalInterpretationSequence ^property[0].code = #tag
+* #DoseRadiobiologicalInterpretationSequence ^property[0].valueString  = "30040023"
+* #DoseRadiobiologicalInterpretationSequence ^property[1].code = #vr
+* #DoseRadiobiologicalInterpretationSequence ^property[1].valueString = "SQ"
+* #DoseRadiobiologicalInterpretationSequence ^property[2].code = #retired
+* #DoseRadiobiologicalInterpretationSequence ^property[2].valueBoolean = false
+
+* #RTDoseIntentCodeSequence "RT Dose Intent Code Sequence" "RT Dose Intent Code Sequence"
+* #RTDoseIntentCodeSequence ^property[0].code = #tag
+* #RTDoseIntentCodeSequence ^property[0].valueString  = "30040024"
+* #RTDoseIntentCodeSequence ^property[1].code = #vr
+* #RTDoseIntentCodeSequence ^property[1].valueString = "SQ"
+* #RTDoseIntentCodeSequence ^property[2].code = #retired
+* #RTDoseIntentCodeSequence ^property[2].valueBoolean = false
 
 * #DVHNormalizationPoint "DVH Normalization Point" "DVH Normalization Point"
 * #DVHNormalizationPoint ^property[0].code = #tag

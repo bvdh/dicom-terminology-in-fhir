@@ -9,6 +9,7 @@ Anatomical Structure for Radiotherapy
 * ^version = "20181112"
 * ^title = "Anatomical Structure For Radiotherapy"
 * ^name = "AnatomicalStructureForRadiotherapy"
+* ^experimental = false
 * include codes from valueset CID_4031
 
 * include codes from valueset CID_7192

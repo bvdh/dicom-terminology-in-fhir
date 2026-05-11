@@ -9,13 +9,14 @@ Ganglion Cell Sector Methods
 * ^version = "20250707"
 * ^title = "Ganglion Cell Sector Methods"
 * ^name = "GanglionCellSectorMethods"
-* DICOM_DCM_CodeSystem#131301 "Semicircular sectors" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#131301 //"Semicircular sectors" 
 
-* DICOM_DCM_CodeSystem#131302 "Quadrant sectors" 
+* DICOM_DCM_CodeSystem#131302 //"Quadrant sectors" 
 
-* DICOM_DCM_CodeSystem#131303 "SNIT rectangular sectors" 
+* DICOM_DCM_CodeSystem#131303 //"SNIT rectangular sectors" 
 
-* DICOM_DCM_CodeSystem#131304 "Elliptical annulus sectors" 
+* DICOM_DCM_CodeSystem#131304 //"Elliptical annulus sectors" 
 
-* DICOM_DCM_CodeSystem#131307 "Posterior pole 8x8 grid" 
+* DICOM_DCM_CodeSystem#131307 //"Posterior pole 8x8 grid" 
 

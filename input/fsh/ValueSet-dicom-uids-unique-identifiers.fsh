@@ -2,7 +2,7 @@ ValueSet: DicomUID_UniqueIdentifiers
 Id: dicom-uids-unique-identifiers
 Title: "DICOM® Unique Identifiers"
 Description: "DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1."
-* ^version = "2025.?.20251120"
+* ^version = "2026.2.20260327"
 * ^experimental = false
 
 

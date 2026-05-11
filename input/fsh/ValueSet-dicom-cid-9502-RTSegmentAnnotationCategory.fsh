@@ -9,6 +9,7 @@ RT Segment Annotation Category
 * ^version = "20191110"
 * ^title = "RT Segment Annotation Category"
 * ^name = "RTSegmentAnnotationCategory"
+* ^experimental = false
 * include codes from valueset CID_9503
 
 * include codes from valueset CID_9580

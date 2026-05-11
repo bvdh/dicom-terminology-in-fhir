@@ -9,7 +9,8 @@ Pressure Unit
 * ^version = "20030327"
 * ^title = "Pressure Unit"
 * ^name = "PressureUnit"
-* http://unitsofmeasure.org#mm[Hg] "mmHg" 
+* ^experimental = false
+* http://unitsofmeasure.org#mm[Hg] //"mmHg" 
 
-* http://unitsofmeasure.org#kPa "kPa" 
+* http://unitsofmeasure.org#kPa //"kPa" 
 

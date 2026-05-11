@@ -9,5 +9,6 @@ RT Dose Purpose of Reference
 * ^version = "20140106"
 * ^title = "RT Dose Purpose of Reference"
 * ^name = "RTDosePurposeOfReference"
-* DICOM_DCM_CodeSystem#121372 "Source dose for composing current dose" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121372 //"Source dose for composing current dose" 
 

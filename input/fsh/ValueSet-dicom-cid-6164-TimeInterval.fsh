@@ -9,11 +9,12 @@ Time Interval
 * ^version = "20050822"
 * ^title = "Time Interval"
 * ^name = "TimeInterval"
-* DICOM_DCM_CodeSystem#111396 "< 3 months ago" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111396 //"< 3 months ago" 
 
-* DICOM_DCM_CodeSystem#111397 "4 months to 1 year ago" 
+* DICOM_DCM_CodeSystem#111397 //"4 months to 1 year ago" 
 
-* DICOM_DCM_CodeSystem#111398 "> 1 year ago" 
+* DICOM_DCM_CodeSystem#111398 //"> 1 year ago" 
 
-* DICOM_DCM_CodeSystem#111399 "Timeframe uncertain" 
+* DICOM_DCM_CodeSystem#111399 //"Timeframe uncertain" 
 

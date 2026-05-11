@@ -9,11 +9,12 @@ Radiotherapy Interlock Resolution
 * ^version = "20220116"
 * ^title = "Radiotherapy Interlock Resolution"
 * ^name = "RadiotherapyInterlockResolution"
-* DICOM_DCM_CodeSystem#130453 "Treatment Terminated" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130453 //"Treatment Terminated" 
 
-* DICOM_DCM_CodeSystem#130454 "Interlock Overridden" 
+* DICOM_DCM_CodeSystem#130454 //"Interlock Overridden" 
 
-* DICOM_DCM_CodeSystem#130455 "Patient Repositioned" 
+* DICOM_DCM_CodeSystem#130455 //"Patient Repositioned" 
 
-* DICOM_DCM_CodeSystem#130744 "Interlock Resolved" 
+* DICOM_DCM_CodeSystem#130744 //"Interlock Resolved" 
 

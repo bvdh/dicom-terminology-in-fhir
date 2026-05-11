@@ -9,19 +9,20 @@ Human Trauma Implant Component Type
 * ^version = "20101102"
 * ^title = "Human Trauma Implant Component Type"
 * ^name = "HumanTraumaImplantComponentType"
-* http://snomed.info/sct#68183006 "Screw" 
-* http://snomed.info/srt#A-12030 "Screw" 
-* http://terminology.hl7.org/CodeSystem/umls#C0005975 "Screw" 
+* ^experimental = false
+* http://snomed.info/sct#68183006 //"Screw" 
+* http://snomed.info/srt#A-12030 //"Screw" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0005975 //"Screw" 
 
-* http://snomed.info/sct#271003 "Bone Plate" 
-* http://snomed.info/srt#A-12010 "Bone Plate" 
-* http://terminology.hl7.org/CodeSystem/umls#C0005971 "Bone Plate" 
+* http://snomed.info/sct#271003 //"Bone Plate" 
+* http://snomed.info/srt#A-12010 //"Bone Plate" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0005971 //"Bone Plate" 
 
-* http://snomed.info/sct#257327003 "DHS Plate" 
-* http://snomed.info/srt#A-12018 "DHS Plate" 
-* http://terminology.hl7.org/CodeSystem/umls#C0441261 "DHS Plate" 
+* http://snomed.info/sct#257327003 //"DHS Plate" 
+* http://snomed.info/srt#A-12018 //"DHS Plate" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0441261 //"DHS Plate" 
 
-* http://snomed.info/sct#63289001 "Bone Nail" 
-* http://snomed.info/srt#A-12020 "Bone Nail" 
-* http://terminology.hl7.org/CodeSystem/umls#C0336579 "Bone Nail" 
+* http://snomed.info/sct#63289001 //"Bone Nail" 
+* http://snomed.info/srt#A-12020 //"Bone Nail" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0336579 //"Bone Nail" 
 

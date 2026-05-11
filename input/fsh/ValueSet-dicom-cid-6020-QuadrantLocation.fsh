@@ -9,5 +9,6 @@ In future extensions, Quadrant Location terms that are not derived from BI-RADS 
 * ^version = "20020904"
 * ^title = "Quadrant Location"
 * ^name = "QuadrantLocation"
+* ^experimental = false
 * include codes from valueset CID_6021
 

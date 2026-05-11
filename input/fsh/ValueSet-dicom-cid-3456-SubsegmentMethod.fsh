@@ -9,7 +9,8 @@ Sub-segment Method
 * ^version = "20040614"
 * ^title = "Sub-segment Method"
 * ^name = "SubsegmentMethod"
-* DICOM_DCM_CodeSystem#122574 "Equidistant method" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122574 //"Equidistant method" 
 
-* DICOM_DCM_CodeSystem#122575 "User selected method" 
+* DICOM_DCM_CodeSystem#122575 //"User selected method" 
 

@@ -9,9 +9,10 @@ Finding Title
 * ^version = "20030327"
 * ^title = "Finding Title"
 * ^name = "FindingTitle"
-* DICOM_DCM_CodeSystem#121071 "Finding" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121071 //"Finding" 
 
-* DICOM_DCM_CodeSystem#121073 "Impression" 
+* DICOM_DCM_CodeSystem#121073 //"Impression" 
 
-* DICOM_DCM_CodeSystem#121075 "Recommendation" 
+* DICOM_DCM_CodeSystem#121075 //"Recommendation" 
 

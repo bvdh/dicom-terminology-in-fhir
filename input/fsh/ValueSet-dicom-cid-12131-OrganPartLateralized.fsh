@@ -9,11 +9,12 @@ Organ Part (Lateralized)
 * ^version = "20200310"
 * ^title = "Organ Part (Lateralized)"
 * ^name = "OrganPartLateralized"
-* http://snomed.info/sct#79163004 "Left lobe of thyroid" 
-* http://snomed.info/srt#T-B6200 "Left lobe of thyroid" 
-* http://terminology.hl7.org/CodeSystem/umls#C0229582 "Left lobe of thyroid" 
+* ^experimental = false
+* http://snomed.info/sct#79163004 //"Left lobe of thyroid" 
+* http://snomed.info/srt#T-B6200 //"Left lobe of thyroid" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0229582 //"Left lobe of thyroid" 
 
-* http://snomed.info/sct#29565003 "Right lobe of thyroid" 
-* http://snomed.info/srt#T-B6100 "Right lobe of thyroid" 
-* http://terminology.hl7.org/CodeSystem/umls#C0229581 "Right lobe of thyroid" 
+* http://snomed.info/sct#29565003 //"Right lobe of thyroid" 
+* http://snomed.info/srt#T-B6100 //"Right lobe of thyroid" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0229581 //"Right lobe of thyroid" 
 

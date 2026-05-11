@@ -9,6 +9,7 @@ Renal Ratio
 * ^version = "20030327"
 * ^title = "Renal Ratio"
 * ^name = "RenalRatio"
-* http://loinc.org#33869-9 "Renal Artery/Aorta velocity ratio" 
-* http://terminology.hl7.org/CodeSystem/umls#C1316332 "Renal Artery/Aorta velocity ratio" 
+* ^experimental = false
+* http://loinc.org#33869-9 //"Renal Artery/Aorta velocity ratio" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1316332 //"Renal Artery/Aorta velocity ratio" 
 

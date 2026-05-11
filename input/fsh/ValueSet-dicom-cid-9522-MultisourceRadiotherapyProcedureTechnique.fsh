@@ -9,5 +9,6 @@ Multi-Source Radiotherapy Procedure Technique
 * ^version = "20181112"
 * ^title = "Multi-source Radiotherapy Procedure Technique"
 * ^name = "MultisourceRadiotherapyProcedureTechnique"
-* DICOM_DCM_CodeSystem#130138 "Multiple Fixed Sources" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130138 //"Multiple Fixed Sources" 
 

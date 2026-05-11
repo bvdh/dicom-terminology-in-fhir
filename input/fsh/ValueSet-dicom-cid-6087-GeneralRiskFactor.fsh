@@ -9,6 +9,7 @@ General Risk Factor
 * ^version = "20040112"
 * ^title = "General Risk Factor"
 * ^name = "GeneralRiskFactor"
+* ^experimental = false
 * include codes from valueset CID_6081
 
 * include codes from valueset CID_6088

@@ -9,17 +9,18 @@ This Context Group contains SNOMED procedure code equivalents of enumerated stri
 * ^version = "20230630"
 * ^title = "Airway Management Sub-Method Code Type from Anesthesia Quality Initiative"
 * ^name = "AirwayManagementSubMethodCodeTypeFromAnesthesiaQualityInitiative"
-* http://terminology.hl7.org/CodeSystem/umls#C2223982 "Inverse ratio ventilation" 
-// * http://terminology.hl7.org/CodeSystem/umls#C2223982 "Inverse ratio ventilation" 
+* ^experimental = false
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2223982 //"Inverse ratio ventilation" 
+// * http://terminology.hl7.org/CodeSystem/umls/sab#C2223982 "Inverse ratio ventilation" 
 
-* http://snomed.info/sct#243154003 "High frequency ventilation" 
-* http://snomed.info/srt#P2-22914 "High frequency ventilation" 
-* http://terminology.hl7.org/CodeSystem/umls#C0019540 "High frequency ventilation" 
+* http://snomed.info/sct#243154003 //"High frequency ventilation" 
+* http://snomed.info/srt#P2-22914 //"High frequency ventilation" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0019540 //"High frequency ventilation" 
 
-* http://snomed.info/sct#448442005 "Transtracheal jet ventilation" 
-* http://snomed.info/srt#P2-22933 "Transtracheal jet ventilation" 
-* http://terminology.hl7.org/CodeSystem/umls#C3164603 "Transtracheal jet ventilation" 
+* http://snomed.info/sct#448442005 //"Transtracheal jet ventilation" 
+* http://snomed.info/srt#P2-22933 //"Transtracheal jet ventilation" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C3164603 //"Transtracheal jet ventilation" 
 
-* http://snomed.info/sct#1260411001 "Continuous flow apneic ventilation" 
-* http://terminology.hl7.org/CodeSystem/umls#C0419018 "Continuous flow apneic ventilation" 
+* http://snomed.info/sct#1260411001 //"Continuous flow apneic ventilation" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0419018 //"Continuous flow apneic ventilation" 
 

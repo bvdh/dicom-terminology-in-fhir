@@ -9,9 +9,10 @@ Sex - Male Female or Both
 * ^version = "20151110"
 * ^title = "Sex - Male Female or Both"
 * ^name = "SexMaleFemaleOrBoth"
-* DICOM_DCM_CodeSystem#M "Male" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#M //"Male" 
 
-* DICOM_DCM_CodeSystem#F "Female" 
+* DICOM_DCM_CodeSystem#F //"Female" 
 
-* DICOM_DCM_CodeSystem#127146 "Mixed sex" 
+* DICOM_DCM_CodeSystem#127146 //"Mixed sex" 
 

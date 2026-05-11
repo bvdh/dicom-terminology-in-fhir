@@ -9,19 +9,20 @@ In prior editions, this Context Group included the NCDR 2.0b codes as the primar
 * ^version = "20070827"
 * ^title = "NYHA Classification"
 * ^name = "NYHAClassification"
-* http://snomed.info/sct#420300004 "NYHA Class I" 
-* http://snomed.info/srt#F-3018B "NYHA Class I" 
-* http://terminology.hl7.org/CodeSystem/umls#C1319793 "NYHA Class I" 
+* ^experimental = false
+* http://snomed.info/sct#420300004 //"NYHA Class I" 
+* http://snomed.info/srt#F-3018B //"NYHA Class I" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1319793 //"NYHA Class I" 
 
-* http://snomed.info/sct#421704003 "NYHA Class II" 
-* http://snomed.info/srt#F-3018C "NYHA Class II" 
-* http://terminology.hl7.org/CodeSystem/umls#C1319794 "NYHA Class II" 
+* http://snomed.info/sct#421704003 //"NYHA Class II" 
+* http://snomed.info/srt#F-3018C //"NYHA Class II" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1319794 //"NYHA Class II" 
 
-* http://snomed.info/sct#420913000 "NYHA Class III" 
-* http://snomed.info/srt#F-3018D "NYHA Class III" 
-* http://terminology.hl7.org/CodeSystem/umls#C1319795 "NYHA Class III" 
+* http://snomed.info/sct#420913000 //"NYHA Class III" 
+* http://snomed.info/srt#F-3018D //"NYHA Class III" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1319795 //"NYHA Class III" 
 
-* http://snomed.info/sct#422293003 "NYHA Class IV" 
-* http://snomed.info/srt#F-3018E "NYHA Class IV" 
-* http://terminology.hl7.org/CodeSystem/umls#C1319796 "NYHA Class IV" 
+* http://snomed.info/sct#422293003 //"NYHA Class IV" 
+* http://snomed.info/srt#F-3018E //"NYHA Class IV" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1319796 //"NYHA Class IV" 
 

@@ -9,15 +9,16 @@ Prescription Anatomy Category
 * ^version = "20191110"
 * ^title = "Prescription Anatomy Category"
 * ^name = "PrescriptionAnatomyCategory"
-* http://snomed.info/sct#91723000 "Anatomical Structure" 
-* http://snomed.info/srt#T-D0005 "Anatomical Structure" 
-* http://terminology.hl7.org/CodeSystem/umls#C1268086 "Anatomical Structure" 
+* ^experimental = false
+* http://snomed.info/sct#91723000 //"Anatomical Structure" 
+* http://snomed.info/srt#T-D0005 //"Anatomical Structure" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1268086 //"Anatomical Structure" 
 
-* DICOM_DCM_CodeSystem#130047 "External Body Model" 
+* DICOM_DCM_CodeSystem#130047 //"External Body Model" 
 
-* http://snomed.info/sct#260787004 "Physical object" 
-* http://snomed.info/srt#A-00004 "Physical object" 
-* http://terminology.hl7.org/CodeSystem/umls#C0085089 "Physical object" 
+* http://snomed.info/sct#260787004 //"Physical object" 
+* http://snomed.info/srt#A-00004 //"Physical object" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0085089 //"Physical object" 
 
-* DICOM_DCM_CodeSystem#130046 "Non-specific Volume" 
+* DICOM_DCM_CodeSystem#130046 //"Non-specific Volume" 
 

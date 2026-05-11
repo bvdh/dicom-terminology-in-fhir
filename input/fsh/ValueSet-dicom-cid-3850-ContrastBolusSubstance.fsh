@@ -9,6 +9,7 @@ Contrast Bolus Substance
 * ^version = "20200310"
 * ^title = "Contrast Bolus Substance"
 * ^name = "ContrastBolusSubstance"
+* ^experimental = false
 * include codes from valueset CID_70
 
 * include codes from valueset CID_12

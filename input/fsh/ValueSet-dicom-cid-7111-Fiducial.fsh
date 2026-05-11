@@ -9,6 +9,7 @@ Fiducial
 * ^version = "20180917"
 * ^title = "Fiducial"
 * ^name = "Fiducial"
+* ^experimental = false
 * include codes from valueset CID_3496
 
 * include codes from valueset CID_3837

@@ -9,5 +9,6 @@ MR Diffusion Model Input
 * ^version = "20170413"
 * ^title = "MR Diffusion Model Input"
 * ^name = "MRDiffusionModelInput"
-* DICOM_DCM_CodeSystem#113240 "Source image diffusion b-value" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113240 //"Source image diffusion b-value" 
 

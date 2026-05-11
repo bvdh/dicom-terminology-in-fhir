@@ -9,15 +9,16 @@ Waveform Annotation Classification
 * ^version = "20240616"
 * ^title = "Waveform Annotation Classification"
 * ^name = "WaveformAnnotationClassification"
-* DICOM_DCM_CodeSystem#130860 "Pattern Event" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130860 //"Pattern Event" 
 
-* DICOM_DCM_CodeSystem#130861 "EEG Annotation" 
+* DICOM_DCM_CodeSystem#130861 //"EEG Annotation" 
 
-* DICOM_DCM_CodeSystem#130862 "EMG Annotation" 
+* DICOM_DCM_CodeSystem#130862 //"EMG Annotation" 
 
-* DICOM_DCM_CodeSystem#130863 "EOG Annotation" 
+* DICOM_DCM_CodeSystem#130863 //"EOG Annotation" 
 
-* DICOM_DCM_CodeSystem#130864 "Device-related and Environment-related Event" 
+* DICOM_DCM_CodeSystem#130864 //"Device-related and Environment-related Event" 
 
-* DICOM_DCM_CodeSystem#130865 "Patient Consciousness" 
+* DICOM_DCM_CodeSystem#130865 //"Patient Consciousness" 
 

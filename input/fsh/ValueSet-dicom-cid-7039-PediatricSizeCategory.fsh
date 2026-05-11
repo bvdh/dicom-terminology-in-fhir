@@ -9,5 +9,6 @@ Pediatric Size Category
 * ^version = "20170417"
 * ^title = "Pediatric Size Category"
 * ^name = "PediatricSizeCategory"
+* ^experimental = false
 * include codes from valueset CID_7040
 

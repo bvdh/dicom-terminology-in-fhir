@@ -9,11 +9,12 @@ Animal Shelter Type
 * ^version = "20151110"
 * ^title = "Animal Shelter Type"
 * ^name = "AnimalShelterType"
-* http://snomed.info/sct#260413007 "None" 
-* http://snomed.info/srt#R-40775 "None" 
-* http://terminology.hl7.org/CodeSystem/umls#C0549184 "None" 
+* ^experimental = false
+* http://snomed.info/sct#260413007 //"None" 
+* http://snomed.info/srt#R-40775 //"None" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0549184 //"None" 
 
-* DICOM_DCM_CodeSystem#127220 "Igloo" 
+* DICOM_DCM_CodeSystem#127220 //"Igloo" 
 
-* DICOM_DCM_CodeSystem#127221 "Red translucent igloo" 
+* DICOM_DCM_CodeSystem#127221 //"Red translucent igloo" 
 

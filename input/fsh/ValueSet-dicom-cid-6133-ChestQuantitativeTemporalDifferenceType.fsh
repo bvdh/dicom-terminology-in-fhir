@@ -9,11 +9,12 @@ Chest Quantitative Temporal Difference Type
 * ^version = "20100604"
 * ^title = "Chest Quantitative Temporal Difference Type"
 * ^name = "ChestQuantitativeTemporalDifferenceType"
-* http://snomed.info/sct#442714003 "Difference in size" 
-* http://snomed.info/srt#F-05173 "Difference in size" 
-* http://terminology.hl7.org/CodeSystem/umls#C2711955 "Difference in size" 
+* ^experimental = false
+* http://snomed.info/sct#442714003 //"Difference in size" 
+* http://snomed.info/srt#F-05173 //"Difference in size" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2711955 //"Difference in size" 
 
-* http://snomed.info/sct#442726008 "Difference in location" 
-* http://snomed.info/srt#F-05179 "Difference in location" 
-* http://terminology.hl7.org/CodeSystem/umls#C2711109 "Difference in location" 
+* http://snomed.info/sct#442726008 //"Difference in location" 
+* http://snomed.info/srt#F-05179 //"Difference in location" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2711109 //"Difference in location" 
 

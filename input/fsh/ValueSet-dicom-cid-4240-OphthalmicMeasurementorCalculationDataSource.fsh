@@ -9,17 +9,18 @@ Ophthalmic Measurement or Calculation Data Source
 * ^version = "20190124"
 * ^title = "Ophthalmic Measurement or Calculation Data Source"
 * ^name = "OphthalmicMeasurementorCalculationDataSource"
-* DICOM_DCM_CodeSystem#111780 "Measurement From This Device" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111780 //"Measurement From This Device" 
 
-* DICOM_DCM_CodeSystem#113857 "Manual Entry" 
+* DICOM_DCM_CodeSystem#113857 //"Manual Entry" 
 
-* DICOM_DCM_CodeSystem#111781 "External Data Source" 
+* DICOM_DCM_CodeSystem#111781 //"External Data Source" 
 
-* DICOM_DCM_CodeSystem#111782 "Axial Measurements SOP Instance" 
+* DICOM_DCM_CodeSystem#111782 //"Axial Measurements SOP Instance" 
 
-* DICOM_DCM_CodeSystem#111783 "Refractive Measurements SOP Instance" 
+* DICOM_DCM_CodeSystem#111783 //"Refractive Measurements SOP Instance" 
 
-* DICOM_DCM_CodeSystem#111784 "Autorefraction Measurements SOP Instance" 
+* DICOM_DCM_CodeSystem#111784 //"Autorefraction Measurements SOP Instance" 
 
-* DICOM_DCM_CodeSystem#111757 "Keratometry Measurements SOP Instance" 
+* DICOM_DCM_CodeSystem#111757 //"Keratometry Measurements SOP Instance" 
 

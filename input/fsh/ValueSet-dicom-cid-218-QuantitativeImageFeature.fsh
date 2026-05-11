@@ -9,6 +9,7 @@ Quantitative Image Feature
 * ^version = "20200920"
 * ^title = "Quantitative Image Feature"
 * ^name = "QuantitativeImageFeature"
+* ^experimental = false
 * include codes from valueset CID_7468
 
 * include codes from valueset CID_7469

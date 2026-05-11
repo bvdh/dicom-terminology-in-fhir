@@ -9,9 +9,10 @@ Unit Radioactivity
 * ^version = "20080927"
 * ^title = "Radioactivity Unit"
 * ^name = "RadioactivityUnit"
-* http://unitsofmeasure.org#Bq "becquerel" 
+* ^experimental = false
+* http://unitsofmeasure.org#Bq //"becquerel" 
 
-* http://unitsofmeasure.org#MBq "megabecquerel" 
+* http://unitsofmeasure.org#MBq //"megabecquerel" 
 
-* http://unitsofmeasure.org#mCi "millicurie" 
+* http://unitsofmeasure.org#mCi //"millicurie" 
 

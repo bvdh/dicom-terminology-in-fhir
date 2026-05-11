@@ -9,17 +9,18 @@ In future extensions, Mammography Recommended Follow-up terms that are not deriv
 * ^version = "20020904"
 * ^title = "Mammography Recommended Follow-up"
 * ^name = "MammographyRecommendedFollowup"
+* ^experimental = false
 * include codes from valueset CID_6029
 
-* DICOM_DCM_CodeSystem#111121 "Follow-up post biopsy as directed by clinician" 
+* DICOM_DCM_CodeSystem#111121 //"Follow-up post biopsy as directed by clinician" 
 
-* http://snomed.info/sct#371572003 "Nuclear medicine procedure" 
-* http://snomed.info/srt#P0-006F1 "Nuclear medicine procedure" 
-* http://terminology.hl7.org/CodeSystem/umls#C0203634 "Nuclear medicine procedure" 
+* http://snomed.info/sct#371572003 //"Nuclear medicine procedure" 
+* http://snomed.info/srt#P0-006F1 //"Nuclear medicine procedure" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0203634 //"Nuclear medicine procedure" 
 
-* http://snomed.info/sct#386053000 "Evaluation procedure" 
-* http://snomed.info/srt#P0-009B4 "Evaluation procedure" 
-* http://terminology.hl7.org/CodeSystem/umls#C1261322 "Evaluation procedure" 
+* http://snomed.info/sct#386053000 //"Evaluation procedure" 
+* http://snomed.info/srt#P0-009B4 //"Evaluation procedure" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1261322 //"Evaluation procedure" 
 
-* DICOM_DCM_CodeSystem#111410 "Surgical consult" 
+* DICOM_DCM_CodeSystem#111410 //"Surgical consult" 
 

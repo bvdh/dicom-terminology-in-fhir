@@ -9,13 +9,14 @@ Colon Overall Assessment
 * ^version = "20090402"
 * ^title = "Colon Overall Assessment"
 * ^name = "ColonOverallAssessment"
-* DICOM_DCM_CodeSystem#112240 "C0 - Inadequate Study/Awaiting Prior Comparisons" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112240 //"C0 - Inadequate Study/Awaiting Prior Comparisons" 
 
-* DICOM_DCM_CodeSystem#112241 "C1 - Normal Colon or Benign Lesion" 
+* DICOM_DCM_CodeSystem#112241 //"C1 - Normal Colon or Benign Lesion" 
 
-* DICOM_DCM_CodeSystem#112242 "C2 - Intermediate Polyp or Indeterminate Finding" 
+* DICOM_DCM_CodeSystem#112242 //"C2 - Intermediate Polyp or Indeterminate Finding" 
 
-* DICOM_DCM_CodeSystem#112243 "C3 - Polyp, Possibly Advanced Adenoma" 
+* DICOM_DCM_CodeSystem#112243 //"C3 - Polyp, Possibly Advanced Adenoma" 
 
-* DICOM_DCM_CodeSystem#112244 "C4 - Colonic Mass, Likely Malignant" 
+* DICOM_DCM_CodeSystem#112244 //"C4 - Colonic Mass, Likely Malignant" 
 

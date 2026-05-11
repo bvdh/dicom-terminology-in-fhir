@@ -9,17 +9,18 @@ Imaging findings will be applicable for indications other than PI-RADS disease a
 * ^version = "20210714"
 * ^title = "MR Signal Intensity"
 * ^name = "MRSignalIntensity"
-* DICOM_DCM_CodeSystem#110805 "T2 Weighted MR Signal Intensity" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#110805 //"T2 Weighted MR Signal Intensity" 
 
-* DICOM_DCM_CodeSystem#113043 "Diffusion weighted" 
+* DICOM_DCM_CodeSystem#113043 //"Diffusion weighted" 
 
-* DICOM_DCM_CodeSystem#130566 "Diffusion-weighted Acquisition Highest b-value image" 
+* DICOM_DCM_CodeSystem#130566 //"Diffusion-weighted Acquisition Highest b-value image" 
 
-* DICOM_DCM_CodeSystem#130567 "Dynamic Contrast-Enhanced Acquisition" 
+* DICOM_DCM_CodeSystem#130567 //"Dynamic Contrast-Enhanced Acquisition" 
 
-* DICOM_DCM_CodeSystem#130568 "Dynamic Contrast-Enhanced Acquisition Subtraction image" 
+* DICOM_DCM_CodeSystem#130568 //"Dynamic Contrast-Enhanced Acquisition Subtraction image" 
 
-* DICOM_DCM_CodeSystem#110804 "T1 Weighted MR Signal Intensity" 
+* DICOM_DCM_CodeSystem#110804 //"T1 Weighted MR Signal Intensity" 
 
-* DICOM_DCM_CodeSystem#113041 "Apparent Diffusion Coefficient" 
+* DICOM_DCM_CodeSystem#113041 //"Apparent Diffusion Coefficient" 
 

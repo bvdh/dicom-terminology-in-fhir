@@ -9,19 +9,20 @@ Electrophysiology Measurement Function/Technique
 * ^version = "20020904"
 * ^title = "Electrophysiology Measurement Function/Technique"
 * ^name = "ElectrophysiologyMeasurementFunctionAndTechnique"
-* DICOM_DCM_CodeSystem#109006 "Differential signal" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#109006 //"Differential signal" 
 
-* DICOM_DCM_CodeSystem#109007 "His bundle electrogram" 
+* DICOM_DCM_CodeSystem#109007 //"His bundle electrogram" 
 
-* DICOM_DCM_CodeSystem#109008 "Monopole signal" 
+* DICOM_DCM_CodeSystem#109008 //"Monopole signal" 
 
-* DICOM_DCM_CodeSystem#109009 "Pacing (electrical) stimulus, voltage" 
+* DICOM_DCM_CodeSystem#109009 //"Pacing (electrical) stimulus, voltage" 
 
-* DICOM_DCM_CodeSystem#109010 "Radio frequency ablation, power" 
+* DICOM_DCM_CodeSystem#109010 //"Radio frequency ablation, power" 
 
-* DICOM_DCM_CodeSystem#109011 "Voltage measurement by basket catheter" 
+* DICOM_DCM_CodeSystem#109011 //"Voltage measurement by basket catheter" 
 
-* DICOM_DCM_CodeSystem#109012 "Voltage measurement by mapping catheter" 
+* DICOM_DCM_CodeSystem#109012 //"Voltage measurement by mapping catheter" 
 
-* DICOM_DCM_CodeSystem#109013 "Voltage measurement" 
+* DICOM_DCM_CodeSystem#109013 //"Voltage measurement" 
 

@@ -9,9 +9,10 @@ T1 Measurement Method
 * ^version = "20141110"
 * ^title = "T1 Measurement Method"
 * ^name = "T1MeasurementMethod"
-* DICOM_DCM_CodeSystem#126350 "T1 by Multiple Flip Angles" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#126350 //"T1 by Multiple Flip Angles" 
 
-* DICOM_DCM_CodeSystem#126351 "T1 by Inversion Recovery" 
+* DICOM_DCM_CodeSystem#126351 //"T1 by Inversion Recovery" 
 
-* DICOM_DCM_CodeSystem#126352 "T1 by Fixed Value" 
+* DICOM_DCM_CodeSystem#126352 //"T1 by Fixed Value" 
 

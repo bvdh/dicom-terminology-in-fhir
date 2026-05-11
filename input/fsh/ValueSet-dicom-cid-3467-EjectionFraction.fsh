@@ -9,11 +9,12 @@ Ejection Fraction
 * ^version = "20040614"
 * ^title = "Ejection Fraction"
 * ^name = "EjectionFraction"
-* http://loinc.org#8808-8 "Left Ventricular Ejection Fraction by Angiography" 
-* http://terminology.hl7.org/CodeSystem/umls#C0488723 "Left Ventricular Ejection Fraction by Angiography" 
+* ^experimental = false
+* http://loinc.org#8808-8 //"Left Ventricular Ejection Fraction by Angiography" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0488723 //"Left Ventricular Ejection Fraction by Angiography" 
 
-* http://loinc.org#8815-3 "Right Ventricular Ejection Fraction by Angiography" 
-* http://terminology.hl7.org/CodeSystem/umls#C0488731 "Right Ventricular Ejection Fraction by Angiography" 
+* http://loinc.org#8815-3 //"Right Ventricular Ejection Fraction by Angiography" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0488731 //"Right Ventricular Ejection Fraction by Angiography" 
 
-* DICOM_DCM_CodeSystem#122406 "Left Atrial Ejection Fraction by Angiography" 
+* DICOM_DCM_CodeSystem#122406 //"Left Atrial Ejection Fraction by Angiography" 
 

@@ -9,11 +9,12 @@ Vascular Measurement Site
 * ^version = "20051103"
 * ^title = "Vascular Measurement Site"
 * ^name = "VascularMeasurementSite"
-* DICOM_DCM_CodeSystem#122380 "Proximal Reference" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122380 //"Proximal Reference" 
 
-* DICOM_DCM_CodeSystem#122381 "Distal Reference" 
+* DICOM_DCM_CodeSystem#122381 //"Distal Reference" 
 
-* DICOM_DCM_CodeSystem#122382 "Site of Lumen Minimum" 
+* DICOM_DCM_CodeSystem#122382 //"Site of Lumen Minimum" 
 
-* DICOM_DCM_CodeSystem#122687 "Site of Lumen Maximum" 
+* DICOM_DCM_CodeSystem#122687 //"Site of Lumen Maximum" 
 

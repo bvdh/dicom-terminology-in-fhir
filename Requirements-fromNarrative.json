@@ -1,7 +1,7 @@
 {
   "resourceType" : "Requirements",
   "id" : "fromNarrative",
-  "url" : "http://dicom.org/terminology/fhir/uv//Requirements/fromNarrative",
+  "url" : "http://dicom.org/terminology/fhir/uv/Requirements/fromNarrative",
   "name" : "FromNarrative",
   "title" : "Narrative Conformance Statements",
   "status" : "active",

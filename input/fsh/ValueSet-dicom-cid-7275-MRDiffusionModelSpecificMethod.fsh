@@ -9,5 +9,6 @@ MR Diffusion Model Specific Method
 * ^version = "20170413"
 * ^title = "MR Diffusion Model Specific Method"
 * ^name = "MRDiffusionModelSpecificMethod"
-* DICOM_DCM_CodeSystem#113285 "Voxelwise selection of b-value" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113285 //"Voxelwise selection of b-value" 
 

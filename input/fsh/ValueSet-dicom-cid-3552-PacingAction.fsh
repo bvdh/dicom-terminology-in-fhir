@@ -9,7 +9,8 @@ Pacing Action
 * ^version = "20030327"
 * ^title = "Pacing Action"
 * ^name = "PacingAction"
-* DICOM_DCM_CodeSystem#121166 "Begin Pacing" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121166 //"Begin Pacing" 
 
-* DICOM_DCM_CodeSystem#121167 "End Pacing" 
+* DICOM_DCM_CodeSystem#121167 //"End Pacing" 
 

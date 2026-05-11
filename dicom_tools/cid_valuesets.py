@@ -26,7 +26,7 @@ FHIR_SYSTEM_DICTIONARY = dict(
             SCT  = 'http://snomed.info/sct',
             SRT  = 'http://snomed.info/srt',
             UCUM = 'http://unitsofmeasure.org',
-            UMLS = 'http://terminology.hl7.org/CodeSystem/umls',
+            UMLS = 'http://terminology.hl7.org/CodeSystem/umls/sab',
             UNS  = 'UNSCodeSystem'
         )
 
@@ -123,6 +123,7 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
                     fsh_file.write(f'* ^version = "{version}"\n')
                     fsh_file.write(f'* ^title = "{title_text}"\n')
                     fsh_file.write(f'* ^name = "{keyword}"\n')
+                    fsh_file.write(f'* ^experimental = false\n')
 
                     includes = []
 
@@ -143,7 +144,9 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
                                 if system is not None:
                                     codeExpression = f'{system}#{code}'
                                     if not codeExpression in writtenCodes:
-                                        fsh_file.write(f'* {codeExpression} "{codeMeaning}" \n')
+                                        fsh_file.write(f'* {codeExpression} //"{codeMeaning}" \n')
+                                        # fsh_file.write(f'* {codeExpression} ^designation.use = http://snomed.info/sct#900000000000013009 "Synonym (core metadata concept)" \n') 
+                                        # fsh_file.write(f'* {codeExpression} ^designation.value = "{codeMeaning}" // Display value in DICOM\n') 
                                     else:
                                         fsh_file.write(f'// * {codeExpression} "{codeMeaning}" \n')
                                     writtenCodes.add(codeExpression)
@@ -154,7 +157,7 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
                                 if snomedRtIdxIndex >= 0 and len(value) > snomedRtIdxIndex and value[snomedRtIdxIndex] :
                                     codeExpression = f'{FHIR_SYSTEM_DICTIONARY['SRT']}#{value[snomedRtIdxIndex]}'
                                     if not codeExpression in writtenCodes:
-                                        fsh_file.write(f'* {codeExpression} "{codeMeaning}" \n')
+                                        fsh_file.write(f'* {codeExpression} //"{codeMeaning}" \n')
                                     else:
                                         fsh_file.write(f'// * {codeExpression} "{codeMeaning}" \n')
                                     writtenCodes.add(codeExpression)
@@ -164,7 +167,7 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
                                 if umlsConceptUniqueIdIndex >= 0 and len(value) > umlsConceptUniqueIdIndex and value[umlsConceptUniqueIdIndex]:
                                     codeExpression = f'{FHIR_SYSTEM_DICTIONARY['UMLS']}#{value[umlsConceptUniqueIdIndex]}'
                                     if not codeExpression in writtenCodes:
-                                        fsh_file.write(f'* {codeExpression} "{codeMeaning}" \n')
+                                        fsh_file.write(f'* {codeExpression} //"{codeMeaning}" \n')
                                     else:
                                         fsh_file.write(f'// * {codeExpression} "{codeMeaning}" \n')
                                     writtenCodes.add(codeExpression)

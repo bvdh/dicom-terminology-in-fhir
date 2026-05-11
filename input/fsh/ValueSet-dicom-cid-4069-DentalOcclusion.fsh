@@ -9,10 +9,11 @@ Dental Occlusion
 * ^version = "20250330"
 * ^title = "Dental Occlusion"
 * ^name = "DentalOcclusion"
-* http://snomed.info/sct#110320000 "Centric occlusion" 
-* http://snomed.info/srt#F-51154 "Centric occlusion" 
-* http://terminology.hl7.org/CodeSystem/umls#C1268896 "Centric occlusion" 
+* ^experimental = false
+* http://snomed.info/sct#110320000 //"Centric occlusion" 
+* http://snomed.info/srt#F-51154 //"Centric occlusion" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1268896 //"Centric occlusion" 
 
-* http://snomed.info/sct#736783005 "Centric relation" 
-* http://terminology.hl7.org/CodeSystem/umls#C0007702 "Centric relation" 
+* http://snomed.info/sct#736783005 //"Centric relation" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0007702 //"Centric relation" 
 

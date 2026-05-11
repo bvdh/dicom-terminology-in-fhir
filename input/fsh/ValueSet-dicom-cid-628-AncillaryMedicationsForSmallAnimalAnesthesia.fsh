@@ -9,4 +9,5 @@ This Context Group is currently empty since no ancillary medications have been i
 * ^version = "20151110"
 * ^title = "Ancillary Medications for Small Animal Anesthesia"
 * ^name = "AncillaryMedicationsForSmallAnimalAnesthesia"
+* ^experimental = false
 

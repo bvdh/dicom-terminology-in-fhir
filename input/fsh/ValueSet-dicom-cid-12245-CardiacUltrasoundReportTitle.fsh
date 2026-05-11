@@ -9,9 +9,10 @@ Cardiac Ultrasound Report Title
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Report Title"
 * ^name = "CardiacUltrasoundReportTitle"
-* DICOM_DCM_CodeSystem#125195 "Pediatric Cardiac Ultrasound Report" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#125195 //"Pediatric Cardiac Ultrasound Report" 
 
-* DICOM_DCM_CodeSystem#125196 "Fetal Cardiac Ultrasound Report" 
+* DICOM_DCM_CodeSystem#125196 //"Fetal Cardiac Ultrasound Report" 
 
-* DICOM_DCM_CodeSystem#125197 "Adult Congenital Cardiac Ultrasound Report" 
+* DICOM_DCM_CodeSystem#125197 //"Adult Congenital Cardiac Ultrasound Report" 
 

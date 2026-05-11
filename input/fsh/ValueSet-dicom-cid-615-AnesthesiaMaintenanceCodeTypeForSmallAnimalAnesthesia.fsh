@@ -9,5 +9,6 @@ Anesthesia Maintenance Code Type for Small Animal Anesthesia
 * ^version = "20151110"
 * ^title = "Anesthesia Maintenance Code Type for Small Animal Anesthesia"
 * ^name = "AnesthesiaMaintenanceCodeTypeForSmallAnimalAnesthesia"
+* ^experimental = false
 * include codes from valueset CID_616
 

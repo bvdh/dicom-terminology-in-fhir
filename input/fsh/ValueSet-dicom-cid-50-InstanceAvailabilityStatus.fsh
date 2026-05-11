@@ -9,11 +9,12 @@ Instance Availability Status
 * ^version = "20090616"
 * ^title = "Instance Availability Status"
 * ^name = "InstanceAvailabilityStatus"
-* DICOM_DCM_CodeSystem#NEARLINE "Nearline" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#NEARLINE //"Nearline" 
 
-* DICOM_DCM_CodeSystem#OFFLINE "Offline" 
+* DICOM_DCM_CodeSystem#OFFLINE //"Offline" 
 
-* DICOM_DCM_CodeSystem#ONLINE "Online" 
+* DICOM_DCM_CodeSystem#ONLINE //"Online" 
 
-* DICOM_DCM_CodeSystem#UNAVAILABLE "Unavailable" 
+* DICOM_DCM_CodeSystem#UNAVAILABLE //"Unavailable" 
 

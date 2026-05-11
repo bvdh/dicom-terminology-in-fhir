@@ -9,11 +9,12 @@ Waveform Filter Lookup Table Input Frequency Unit
 * ^version = "20220630"
 * ^title = "Waveform Filter Lookup Table Input Frequency Unit"
 * ^name = "WaveformFilterLookupTableInputFrequencyUnit"
-* http://unitsofmeasure.org#Hz "Hz" 
+* ^experimental = false
+* http://unitsofmeasure.org#Hz //"Hz" 
 
-* http://unitsofmeasure.org#rad/s "rad/s" 
+* http://unitsofmeasure.org#rad/s //"rad/s" 
 
-* DICOM_DCM_CodeSystem#130774 "Hz normalized" 
+* DICOM_DCM_CodeSystem#130774 //"Hz normalized" 
 
-* DICOM_DCM_CodeSystem#130775 "Hz angular" 
+* DICOM_DCM_CodeSystem#130775 //"Hz angular" 
 

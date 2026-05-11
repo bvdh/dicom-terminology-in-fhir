@@ -9,7 +9,8 @@ Growth Distribution Rank
 * ^version = "20030130"
 * ^title = "Growth Distribution Rank"
 * ^name = "GrowthDistributionRank"
-* DICOM_DCM_CodeSystem#125012 "Growth Percentile Rank" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#125012 //"Growth Percentile Rank" 
 
-* DICOM_DCM_CodeSystem#125013 "Growth Z-score" 
+* DICOM_DCM_CodeSystem#125013 //"Growth Z-score" 
 

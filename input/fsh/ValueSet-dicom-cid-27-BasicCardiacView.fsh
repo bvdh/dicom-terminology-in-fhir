@@ -9,15 +9,16 @@ Basic Cardiac View
 * ^version = "20120822"
 * ^title = "Basic Cardiac View"
 * ^name = "BasicCardiacView"
-* http://snomed.info/sct#103340004 "Short Axis" 
-* http://snomed.info/srt#G-A186 "Short Axis" 
-* http://terminology.hl7.org/CodeSystem/umls#C0522488 "Short Axis" 
+* ^experimental = false
+* http://snomed.info/sct#103340004 //"Short Axis" 
+* http://snomed.info/srt#G-A186 //"Short Axis" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0522488 //"Short Axis" 
 
-* http://snomed.info/sct#131185001 "Vertical Long Axis" 
-* http://snomed.info/srt#G-A18A "Vertical Long Axis" 
-* http://terminology.hl7.org/CodeSystem/umls#C1295721 "Vertical Long Axis" 
+* http://snomed.info/sct#131185001 //"Vertical Long Axis" 
+* http://snomed.info/srt#G-A18A //"Vertical Long Axis" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1295721 //"Vertical Long Axis" 
 
-* http://snomed.info/sct#131186000 "Horizontal Long Axis" 
-* http://snomed.info/srt#G-A18B "Horizontal Long Axis" 
-* http://terminology.hl7.org/CodeSystem/umls#C1295722 "Horizontal Long Axis" 
+* http://snomed.info/sct#131186000 //"Horizontal Long Axis" 
+* http://snomed.info/srt#G-A18B //"Horizontal Long Axis" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1295722 //"Horizontal Long Axis" 
 

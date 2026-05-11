@@ -9,6 +9,7 @@ Echocardiography Measurement Method
 * ^version = "20240920"
 * ^title = "Echocardiography Measurement Method"
 * ^name = "EchocardiographyMeasurementMethod"
+* ^experimental = false
 * include codes from valueset CID_12228
 
 * include codes from valueset CID_12229
@@ -21,9 +22,9 @@ Echocardiography Measurement Method
 
 * include codes from valueset CID_12310
 
-* DICOM_DCM_CodeSystem#131019 "Inlet Included" 
+* DICOM_DCM_CodeSystem#131019 //"Inlet Included" 
 
-* DICOM_DCM_CodeSystem#131020 "Free Cord Loop Method" 
+* DICOM_DCM_CodeSystem#131020 //"Free Cord Loop Method" 
 
-* DICOM_DCM_CodeSystem#125316 "Directly measured" 
+* DICOM_DCM_CodeSystem#125316 //"Directly measured" 
 

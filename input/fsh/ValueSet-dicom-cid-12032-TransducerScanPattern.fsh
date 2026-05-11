@@ -9,9 +9,10 @@ Transducer Scan Pattern
 * ^version = "20090409"
 * ^title = "Transducer Scan Pattern"
 * ^name = "TransducerScanPattern"
-* DICOM_DCM_CodeSystem#125240 "Line scan pattern" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#125240 //"Line scan pattern" 
 
-* DICOM_DCM_CodeSystem#125241 "Plane scan pattern" 
+* DICOM_DCM_CodeSystem#125241 //"Plane scan pattern" 
 
-* DICOM_DCM_CodeSystem#125242 "Volume scan pattern" 
+* DICOM_DCM_CodeSystem#125242 //"Volume scan pattern" 
 

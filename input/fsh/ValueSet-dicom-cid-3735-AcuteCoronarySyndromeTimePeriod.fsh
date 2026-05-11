@@ -9,9 +9,10 @@ Acute Coronary Syndrome Time Period
 * ^version = "20030327"
 * ^title = "Acute Coronary Syndrome Time Period"
 * ^name = "AcuteCoronarySyndromeTimePeriod"
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#51-1 "< = 6 hours" 
+* ^experimental = false
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#51-1 //"< = 6 hours" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#51-2 "between 6 hours and 24 hours" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#51-2 //"between 6 hours and 24 hours" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#51-3 "between 24 hours and 7 days" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#51-3 //"between 24 hours and 7 days" 
 

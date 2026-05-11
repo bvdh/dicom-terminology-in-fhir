@@ -9,7 +9,8 @@ Radiotherapy Bolus Device Type
 * ^version = "20181112"
 * ^title = "Radiotherapy Bolus Device Type"
 * ^name = "RadiotherapyBolusDeviceType"
-* http://snomed.info/sct#228736002 "Surface Bolus" 
-* http://snomed.info/srt#A-010FB "Surface Bolus" 
-* http://terminology.hl7.org/CodeSystem/umls#C0454145 "Surface Bolus" 
+* ^experimental = false
+* http://snomed.info/sct#228736002 //"Surface Bolus" 
+* http://snomed.info/srt#A-010FB //"Surface Bolus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0454145 //"Surface Bolus" 
 

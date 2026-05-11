@@ -9,15 +9,16 @@ Prostate MRI Extra-prostatic Finding
 * ^version = "20210714"
 * ^title = "Prostate MRI Extra-prostatic Finding"
 * ^name = "ProstateMRIExtraprostaticFinding"
-* http://snomed.info/sct#94222008 "Bony metastasis" 
-* http://snomed.info/srt#D1-F0106 "Bony metastasis" 
-* http://terminology.hl7.org/CodeSystem/umls#C0153690 "Bony metastasis" 
+* ^experimental = false
+* http://snomed.info/sct#94222008 //"Bony metastasis" 
+* http://snomed.info/srt#D1-F0106 //"Bony metastasis" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0153690 //"Bony metastasis" 
 
-* http://snomed.info/sct#30746006 "Lymphadenopathy" 
-* http://snomed.info/srt#DC-72130 "Lymphadenopathy" 
-* http://terminology.hl7.org/CodeSystem/umls#C0497156 "Lymphadenopathy" 
+* http://snomed.info/sct#30746006 //"Lymphadenopathy" 
+* http://snomed.info/srt#DC-72130 //"Lymphadenopathy" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0497156 //"Lymphadenopathy" 
 
-* http://snomed.info/sct#255503000 "Entire" 
-* http://snomed.info/srt#R-404A4 "Entire" 
-* http://terminology.hl7.org/CodeSystem/umls#C0439751 "Entire" 
+* http://snomed.info/sct#255503000 //"Entire" 
+* http://snomed.info/srt#R-404A4 //"Entire" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0439751 //"Entire" 
 

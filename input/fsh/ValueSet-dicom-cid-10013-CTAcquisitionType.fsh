@@ -9,19 +9,20 @@ CT Acquisition Type
 * ^version = "20160314"
 * ^title = "CT Acquisition Type"
 * ^name = "CTAcquisitionType"
-* DICOM_DCM_CodeSystem#113804 "Sequenced Acquisition" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113804 //"Sequenced Acquisition" 
 
-* http://snomed.info/sct#116152004 "Spiral Acquisition" 
-* http://snomed.info/srt#P5-08001 "Spiral Acquisition" 
-* http://terminology.hl7.org/CodeSystem/umls#C0860888 "Spiral Acquisition" 
+* http://snomed.info/sct#116152004 //"Spiral Acquisition" 
+* http://snomed.info/srt#P5-08001 //"Spiral Acquisition" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0860888 //"Spiral Acquisition" 
 
-* DICOM_DCM_CodeSystem#113805 "Constant Angle Acquisition" 
+* DICOM_DCM_CodeSystem#113805 //"Constant Angle Acquisition" 
 
-* DICOM_DCM_CodeSystem#113806 "Stationary Acquisition" 
+* DICOM_DCM_CodeSystem#113806 //"Stationary Acquisition" 
 
-* DICOM_DCM_CodeSystem#113807 "Free Acquisition" 
+* DICOM_DCM_CodeSystem#113807 //"Free Acquisition" 
 
-* http://snomed.info/sct#702569007 "Cone Beam Acquisition" 
-* http://snomed.info/srt#R-FB8F1 "Cone Beam Acquisition" 
-* http://terminology.hl7.org/CodeSystem/umls#C3839509 "Cone Beam Acquisition" 
+* http://snomed.info/sct#702569007 //"Cone Beam Acquisition" 
+* http://snomed.info/srt#R-FB8F1 //"Cone Beam Acquisition" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C3839509 //"Cone Beam Acquisition" 
 

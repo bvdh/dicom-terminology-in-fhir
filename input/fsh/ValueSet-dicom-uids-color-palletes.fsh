@@ -2,7 +2,7 @@ ValueSet: DICOM_UID_ColorPalettes
 Id: dicom-uids-color-palletes
 Title: "DICOM® Standard Color Palettes"
 Description: "DICOM® Standard Color Palettes from DICOM PS3.6 Table B-1-1."
-* ^version = "2025.?.20251120"
+* ^version = "2026.2.20260327"
 * ^experimental = false
 
 

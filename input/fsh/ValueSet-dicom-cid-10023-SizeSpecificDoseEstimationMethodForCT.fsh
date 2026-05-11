@@ -9,15 +9,16 @@ Size Specific Dose Estimation Method for CT
 * ^version = "20200919"
 * ^title = "Size Specific Dose Estimation Method for CT"
 * ^name = "SizeSpecificDoseEstimationMethodForCT"
-* DICOM_DCM_CodeSystem#113934 "AAPM 204 Lateral Dimension" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113934 //"AAPM 204 Lateral Dimension" 
 
-* DICOM_DCM_CodeSystem#113935 "AAPM 204 AP Dimension" 
+* DICOM_DCM_CodeSystem#113935 //"AAPM 204 AP Dimension" 
 
-* DICOM_DCM_CodeSystem#113936 "AAPM 204 Sum of Lateral and AP Dimension" 
+* DICOM_DCM_CodeSystem#113936 //"AAPM 204 Sum of Lateral and AP Dimension" 
 
-* DICOM_DCM_CodeSystem#113937 "AAPM 204 Effective Diameter Estimated From Patient Age" 
+* DICOM_DCM_CodeSystem#113937 //"AAPM 204 Effective Diameter Estimated From Patient Age" 
 
-* DICOM_DCM_CodeSystem#113988 "Estimated from Water Equivalent Diameter" 
+* DICOM_DCM_CodeSystem#113988 //"Estimated from Water Equivalent Diameter" 
 
-* DICOM_DCM_CodeSystem#113989 "Arithmetic Average of SSDE(z)" 
+* DICOM_DCM_CodeSystem#113989 //"Arithmetic Average of SSDE(z)" 
 

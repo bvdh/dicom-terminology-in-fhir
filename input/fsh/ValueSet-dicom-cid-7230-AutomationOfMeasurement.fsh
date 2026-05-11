@@ -9,11 +9,12 @@ Automation of Measurement
 * ^version = "20200704"
 * ^title = "Automation of Measurement"
 * ^name = "AutomationOfMeasurement"
-* http://snomed.info/sct#8359006 "Automated" 
-* http://snomed.info/srt#G-D231 "Automated" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205554 "Automated" 
+* ^experimental = false
+* http://snomed.info/sct#8359006 //"Automated" 
+* http://snomed.info/srt#G-D231 //"Automated" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205554 //"Automated" 
 
-* http://snomed.info/sct#87982008 "Manual" 
-* http://snomed.info/srt#G-D221 "Manual" 
-* http://terminology.hl7.org/CodeSystem/umls#C0175674 "Manual" 
+* http://snomed.info/sct#87982008 //"Manual" 
+* http://snomed.info/srt#G-D221 //"Manual" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0175674 //"Manual" 
 

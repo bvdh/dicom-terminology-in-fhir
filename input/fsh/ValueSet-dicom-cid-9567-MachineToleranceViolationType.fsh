@@ -9,11 +9,12 @@ Machine Tolerance Violation Type
 * ^version = "20200624"
 * ^title = "Machine Tolerance Violation Type"
 * ^name = "MachineToleranceViolationType"
-* DICOM_DCM_CodeSystem#130471 "Jaw Position Tolerance Violation" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130471 //"Jaw Position Tolerance Violation" 
 
-* DICOM_DCM_CodeSystem#130472 "MLC Position Tolerance Violation" 
+* DICOM_DCM_CodeSystem#130472 //"MLC Position Tolerance Violation" 
 
-* DICOM_DCM_CodeSystem#130473 "Source Position Tolerance Violation" 
+* DICOM_DCM_CodeSystem#130473 //"Source Position Tolerance Violation" 
 
-* DICOM_DCM_CodeSystem#130474 "Dose Rate Tolerance Violation" 
+* DICOM_DCM_CodeSystem#130474 //"Dose Rate Tolerance Violation" 
 

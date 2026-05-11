@@ -9,11 +9,12 @@ Relative Usage/Exposure Amount
 * ^version = "20050822"
 * ^title = "Relative Usage/Exposure Amount"
 * ^name = "RelativeUsageExposureAmount"
-* DICOM_DCM_CodeSystem#111575 "High" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111575 //"High" 
 
-* DICOM_DCM_CodeSystem#111576 "Medium" 
+* DICOM_DCM_CodeSystem#111576 //"Medium" 
 
-* DICOM_DCM_CodeSystem#111577 "Low" 
+* DICOM_DCM_CodeSystem#111577 //"Low" 
 
-* DICOM_DCM_CodeSystem#111587 "No known exposure" 
+* DICOM_DCM_CodeSystem#111587 //"No known exposure" 
 

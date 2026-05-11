@@ -9,13 +9,14 @@ Myocardium Wall Morphology Finding
 * ^version = "20030327"
 * ^title = "Myocardium Wall Morphology Finding"
 * ^name = "MyocardiumWallMorphologyFinding"
-* DICOM_DCM_CodeSystem#122112 "Normal Myocardium" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122112 //"Normal Myocardium" 
 
-* http://snomed.info/sct#90539001 "Ventricular Aneurysm" 
-* http://snomed.info/srt#D3-10510 "Ventricular Aneurysm" 
-* http://terminology.hl7.org/CodeSystem/umls#C0392464 "Ventricular Aneurysm" 
+* http://snomed.info/sct#90539001 //"Ventricular Aneurysm" 
+* http://snomed.info/srt#D3-10510 //"Ventricular Aneurysm" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0392464 //"Ventricular Aneurysm" 
 
-* DICOM_DCM_CodeSystem#122113 "Scarred Myocardium" 
+* DICOM_DCM_CodeSystem#122113 //"Scarred Myocardium" 
 
-* DICOM_DCM_CodeSystem#122114 "Thinning Myocardium" 
+* DICOM_DCM_CodeSystem#122114 //"Thinning Myocardium" 
 

@@ -84,13 +84,13 @@ def writeUidsCodeSystemAndValueSets( fsh_path:str, dicom_path:str, canonicalVers
             fsh_file.write(f'\n')
             if len(value[0]) > 0:
                 fsh_file.write(f'\n')
-                fsh_file.write(f'* #{value[0]} "{value[1]}" "{value[2]}"\n')
+                fsh_file.write(f'* #{value[0]} "{value[1] if len(value[1])>0 else '-'}" "{value[2]}"\n')
                 fsh_file.write(f'* #{value[0]} ^property[0].code = #type\n')
                 fsh_file.write(f'* #{value[0]} ^property[0].valueString  = "{value[3]}"\n')
                 fsh_file.write(f'* #{value[0]} ^property[1].code = #keyword\n')
-                fsh_file.write(f'* #{value[0]} ^property[1].valueString = "{value[4]}"\n')
+                fsh_file.write(f'* #{value[0]} ^property[1].valueString = "{value[4] if len(value[4])>0 else '-'}"\n')
                 fsh_file.write(f'* #{value[0]} ^property[2].code = #retired\n')
-                fsh_file.write(f'* #{value[0]} ^property[2].valueString = "{value[5]}"\n')
+                fsh_file.write(f'* #{value[0]} ^property[2].valueBoolean = {value[5]}\n')
                         
 
 def getUidMainDataDicomTable(fsh_path:str, dicom_path:str, canonicalVersion:str ):

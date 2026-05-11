@@ -9,7 +9,8 @@ History of Melanoma in Situ
 * ^version = "20201115"
 * ^title = "History of Melanoma in Situ"
 * ^name = "HistoryOfMelanomaInSitu"
-* http://snomed.info/sct#1251000119106 "History of melanoma in situ of the skin" 
-* http://snomed.info/srt#R-FAC47 "History of melanoma in situ of the skin" 
-* http://terminology.hl7.org/CodeSystem/umls#C3266774 "History of melanoma in situ of the skin" 
+* ^experimental = false
+* http://snomed.info/sct#1251000119106 //"History of melanoma in situ of the skin" 
+* http://snomed.info/srt#R-FAC47 //"History of melanoma in situ of the skin" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C3266774 //"History of melanoma in situ of the skin" 
 

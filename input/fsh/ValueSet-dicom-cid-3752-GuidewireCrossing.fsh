@@ -9,7 +9,8 @@ Guidewire Crossing
 * ^version = "20030327"
 * ^title = "Guidewire Crossing"
 * ^name = "GuidewireCrossing"
-* DICOM_DCM_CodeSystem#122301 "Guidewire crossing lesion unsuccessful" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122301 //"Guidewire crossing lesion unsuccessful" 
 
-* DICOM_DCM_CodeSystem#122302 "Guidewire crossing lesion successful" 
+* DICOM_DCM_CodeSystem#122302 //"Guidewire crossing lesion successful" 
 

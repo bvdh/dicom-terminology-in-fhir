@@ -9,9 +9,10 @@ OB-GYN Summary
 * ^version = "20030130"
 * ^title = "OB-GYN Summary"
 * ^name = "OBGYNSummary"
-* http://loinc.org#11878-6 "Number of Fetuses by US" 
-* http://terminology.hl7.org/CodeSystem/umls#C0551995 "Number of Fetuses by US" 
+* ^experimental = false
+* http://loinc.org#11878-6 //"Number of Fetuses by US" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0551995 //"Number of Fetuses by US" 
 
-* http://loinc.org#11886-9 "Gestational Age by ovulation date" 
-* http://terminology.hl7.org/CodeSystem/umls#C0552003 "Gestational Age by ovulation date" 
+* http://loinc.org#11886-9 //"Gestational Age by ovulation date" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0552003 //"Gestational Age by ovulation date" 
 

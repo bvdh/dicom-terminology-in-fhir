@@ -9,9 +9,10 @@ MR Diffusion Anisotropy Index
 * ^version = "20170413"
 * ^title = "MR Diffusion Anisotropy Index"
 * ^name = "MRDiffusionAnisotropyIndex"
-* DICOM_DCM_CodeSystem#110808 "Fractional Anisotropy" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#110808 //"Fractional Anisotropy" 
 
-* DICOM_DCM_CodeSystem#110809 "Relative Anisotropy" 
+* DICOM_DCM_CodeSystem#110809 //"Relative Anisotropy" 
 
-* DICOM_DCM_CodeSystem#113288 "Volume Ratio" 
+* DICOM_DCM_CodeSystem#113288 //"Volume Ratio" 
 

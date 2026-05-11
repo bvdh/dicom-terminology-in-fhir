@@ -9,13 +9,14 @@ Corneal Topography Map Value Type
 * ^version = "20131014"
 * ^title = "Corneal Topography Map Value Type"
 * ^name = "CornealTopographyMapValueType"
-* DICOM_DCM_CodeSystem#111940 "Corneal axial power map" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111940 //"Corneal axial power map" 
 
-* DICOM_DCM_CodeSystem#111941 "Corneal instantaneous power map" 
+* DICOM_DCM_CodeSystem#111941 //"Corneal instantaneous power map" 
 
-* DICOM_DCM_CodeSystem#111942 "Corneal refractive power map" 
+* DICOM_DCM_CodeSystem#111942 //"Corneal refractive power map" 
 
-* DICOM_DCM_CodeSystem#111943 "Corneal elevation map" 
+* DICOM_DCM_CodeSystem#111943 //"Corneal elevation map" 
 
-* DICOM_DCM_CodeSystem#111944 "Corneal wavefront map" 
+* DICOM_DCM_CodeSystem#111944 //"Corneal wavefront map" 
 

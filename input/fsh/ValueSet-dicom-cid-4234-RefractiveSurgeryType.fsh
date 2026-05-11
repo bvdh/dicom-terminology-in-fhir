@@ -9,21 +9,22 @@ Refractive Surgery Type
 * ^version = "20181111"
 * ^title = "Refractive Surgery Type"
 * ^name = "RefractiveSurgeryType"
-* http://snomed.info/sct#51683002 "RK" 
-* http://snomed.info/srt#P1-A3102 "RK" 
-* http://terminology.hl7.org/CodeSystem/umls#C0022607 "RK" 
+* ^experimental = false
+* http://snomed.info/sct#51683002 //"RK" 
+* http://snomed.info/srt#P1-A3102 //"RK" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0022607 //"RK" 
 
-* http://snomed.info/sct#397516006 "PRK" 
-* http://snomed.info/srt#P1-A3835 "PRK" 
-* http://terminology.hl7.org/CodeSystem/umls#C0395416 "PRK" 
+* http://snomed.info/sct#397516006 //"PRK" 
+* http://snomed.info/srt#P1-A3835 //"PRK" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0395416 //"PRK" 
 
-* http://snomed.info/sct#312965008 "LASIK" 
-* http://snomed.info/srt#P0-0526F "LASIK" 
-* http://terminology.hl7.org/CodeSystem/umls#C0752094 "LASIK" 
+* http://snomed.info/sct#312965008 //"LASIK" 
+* http://snomed.info/srt#P0-0526F //"LASIK" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0752094 //"LASIK" 
 
-* http://snomed.info/sct#414582004 "LASEK" 
-* http://snomed.info/srt#P1-A3846 "LASEK" 
-* http://terminology.hl7.org/CodeSystem/umls#C1449939 "LASEK" 
+* http://snomed.info/sct#414582004 //"LASEK" 
+* http://snomed.info/srt#P1-A3846 //"LASEK" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1449939 //"LASEK" 
 
-* DICOM_DCM_CodeSystem#111681 "SMILE" 
+* DICOM_DCM_CodeSystem#111681 //"SMILE" 
 

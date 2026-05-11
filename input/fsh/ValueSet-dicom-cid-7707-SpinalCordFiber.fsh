@@ -9,15 +9,16 @@ Spinal Cord Fiber
 * ^version = "20150106"
 * ^title = "Spinal Cord Fiber"
 * ^name = "SpinalCordFiber"
-* http://snomed.info/sct#59752008 "dorsal funiculus" 
-* http://snomed.info/srt#T-A7081 "dorsal funiculus" 
-* http://terminology.hl7.org/CodeSystem/umls#C0228576 "dorsal funiculus" 
+* ^experimental = false
+* http://snomed.info/sct#59752008 //"dorsal funiculus" 
+* http://snomed.info/srt#T-A7081 //"dorsal funiculus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0228576 //"dorsal funiculus" 
 
-* http://snomed.info/sct#31701002 "ventral funiculus" 
-* http://snomed.info/srt#T-A7061 "ventral funiculus" 
-* http://terminology.hl7.org/CodeSystem/umls#C0228570 "ventral funiculus" 
+* http://snomed.info/sct#31701002 //"ventral funiculus" 
+* http://snomed.info/srt#T-A7061 //"ventral funiculus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0228570 //"ventral funiculus" 
 
-* http://snomed.info/sct#14892003 "lateral funiculus" 
-* http://snomed.info/srt#T-A7091 "lateral funiculus" 
-* http://terminology.hl7.org/CodeSystem/umls#C0228583 "lateral funiculus" 
+* http://snomed.info/sct#14892003 //"lateral funiculus" 
+* http://snomed.info/srt#T-A7091 //"lateral funiculus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0228583 //"lateral funiculus" 
 

@@ -9,6 +9,7 @@ OB Equation/Table
 * ^version = "20030130"
 * ^title = "OB Equation/Table"
 * ^name = "OBEquationTable"
+* ^experimental = false
 * include codes from valueset CID_12013
 
 * include codes from valueset CID_12014

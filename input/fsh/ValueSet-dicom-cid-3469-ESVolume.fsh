@@ -9,11 +9,12 @@ ES Volume
 * ^version = "20040614"
 * ^title = "ES Volume"
 * ^name = "ESVolume"
-* http://loinc.org#8823-7 "Left Ventricular ES Volume" 
-* http://terminology.hl7.org/CodeSystem/umls#C0488740 "Left Ventricular ES Volume" 
+* ^experimental = false
+* http://loinc.org#8823-7 //"Left Ventricular ES Volume" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0488740 //"Left Ventricular ES Volume" 
 
-* http://loinc.org#8824-5 "Right Ventricular ES Volume" 
-* http://terminology.hl7.org/CodeSystem/umls#C0488741 "Right Ventricular ES Volume" 
+* http://loinc.org#8824-5 //"Right Ventricular ES Volume" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0488741 //"Right Ventricular ES Volume" 
 
-* DICOM_DCM_CodeSystem#122408 "Left Atrial ES Volume" 
+* DICOM_DCM_CodeSystem#122408 //"Left Atrial ES Volume" 
 

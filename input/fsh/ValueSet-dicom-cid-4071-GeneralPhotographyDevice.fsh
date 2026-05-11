@@ -9,6 +9,7 @@ General Photography Device
 * ^version = "20250330"
 * ^title = "General Photography Device"
 * ^name = "GeneralPhotographyDevice"
+* ^experimental = false
 * include codes from valueset CID_4202
 
 * include codes from valueset CID_4072

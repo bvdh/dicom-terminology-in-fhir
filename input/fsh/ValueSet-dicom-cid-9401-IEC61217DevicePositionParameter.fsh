@@ -9,6 +9,7 @@ IEC61217 Device Position Parameter
 * ^version = "20130518"
 * ^title = "IEC61217 Device Position Parameter"
 * ^name = "IEC61217DevicePositionParameter"
+* ^experimental = false
 * include codes from valueset CID_9402
 
 * include codes from valueset CID_9403

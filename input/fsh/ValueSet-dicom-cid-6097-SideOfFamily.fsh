@@ -9,9 +9,10 @@ Side of Family
 * ^version = "20040112"
 * ^title = "Side of Family"
 * ^name = "SideOfFamily"
-* DICOM_DCM_CodeSystem#111541 "Maternal" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111541 //"Maternal" 
 
-* http://snomed.info/sct#224944003 "Paternal" 
-* http://snomed.info/srt#R-40333 "Paternal" 
-* http://terminology.hl7.org/CodeSystem/umls#C0337493 "Paternal" 
+* http://snomed.info/sct#224944003 //"Paternal" 
+* http://snomed.info/srt#R-40333 //"Paternal" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0337493 //"Paternal" 
 

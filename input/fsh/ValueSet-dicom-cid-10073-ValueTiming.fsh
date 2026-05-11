@@ -9,11 +9,12 @@ Value Timing
 * ^version = "20210328"
 * ^title = "Value Timing"
 * ^name = "ValueTiming"
-* DICOM_DCM_CodeSystem#130532 "Duration of Time Period" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130532 //"Duration of Time Period" 
 
-* DICOM_DCM_CodeSystem#130533 "Beginning of Time Period" 
+* DICOM_DCM_CodeSystem#130533 //"Beginning of Time Period" 
 
-* DICOM_DCM_CodeSystem#130534 "End of Time Period" 
+* DICOM_DCM_CodeSystem#130534 //"End of Time Period" 
 
-* DICOM_DCM_CodeSystem#130535 "Middle of Time Period" 
+* DICOM_DCM_CodeSystem#130535 //"Middle of Time Period" 
 

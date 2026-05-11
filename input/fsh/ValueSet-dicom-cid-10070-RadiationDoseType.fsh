@@ -9,7 +9,8 @@ Radiation Dose Type
 * ^version = "20170405"
 * ^title = "Radiation Dose Type"
 * ^name = "RadiationDoseType"
-* DICOM_DCM_CodeSystem#128513 "Absorbed Dose" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128513 //"Absorbed Dose" 
 
-* DICOM_DCM_CodeSystem#128512 "Equivalent Dose" 
+* DICOM_DCM_CodeSystem#128512 //"Equivalent Dose" 
 

@@ -9,15 +9,16 @@ Water Type
 * ^version = "20151110"
 * ^title = "Water Type"
 * ^name = "WaterType"
-* http://snomed.info/sct#444923006 "Tap water" 
-* http://snomed.info/srt#C-101E9 "Tap water" 
-* http://terminology.hl7.org/CodeSystem/umls#C2919405 "Tap water" 
+* ^experimental = false
+* http://snomed.info/sct#444923006 //"Tap water" 
+* http://snomed.info/srt#C-101E9 //"Tap water" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2919405 //"Tap water" 
 
-* http://snomed.info/sct#444883009 "Distilled water" 
-* http://snomed.info/srt#C-101E8 "Distilled water" 
-* http://terminology.hl7.org/CodeSystem/umls#C0790233 "Distilled water" 
+* http://snomed.info/sct#444883009 //"Distilled water" 
+* http://snomed.info/srt#C-101E8 //"Distilled water" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0790233 //"Distilled water" 
 
-* DICOM_DCM_CodeSystem#127290 "Reverse osmosis purified water" 
+* DICOM_DCM_CodeSystem#127290 //"Reverse osmosis purified water" 
 
-* DICOM_DCM_CodeSystem#127291 "Reverse osmosis purified, HCl acidified water" 
+* DICOM_DCM_CodeSystem#127291 //"Reverse osmosis purified, HCl acidified water" 
 

@@ -9,15 +9,16 @@ Heart Rhythm
 * ^version = "20051103"
 * ^title = "Heart Rhythm"
 * ^name = "HeartRhythm"
-* http://snomed.info/sct#64730000 "normal sinus rhythm" 
-* http://snomed.info/srt#F-33300 "normal sinus rhythm" 
-* http://terminology.hl7.org/CodeSystem/umls#C0232202 "normal sinus rhythm" 
+* ^experimental = false
+* http://snomed.info/sct#64730000 //"normal sinus rhythm" 
+* http://snomed.info/srt#F-33300 //"normal sinus rhythm" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0232202 //"normal sinus rhythm" 
 
-* http://snomed.info/sct#17366009 "atrial arrhythmia" 
-* http://snomed.info/srt#D3-31500 "atrial arrhythmia" 
-* http://terminology.hl7.org/CodeSystem/umls#C0085611 "atrial arrhythmia" 
+* http://snomed.info/sct#17366009 //"atrial arrhythmia" 
+* http://snomed.info/srt#D3-31500 //"atrial arrhythmia" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0085611 //"atrial arrhythmia" 
 
-* http://snomed.info/sct#44103008 "ventricular arrhythmia" 
-* http://snomed.info/srt#D3-31715 "ventricular arrhythmia" 
-* http://terminology.hl7.org/CodeSystem/umls#C0085612 "ventricular arrhythmia" 
+* http://snomed.info/sct#44103008 //"ventricular arrhythmia" 
+* http://snomed.info/srt#D3-31715 //"ventricular arrhythmia" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0085612 //"ventricular arrhythmia" 
 

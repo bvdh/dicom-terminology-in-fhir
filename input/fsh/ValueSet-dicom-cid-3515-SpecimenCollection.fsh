@@ -9,15 +9,16 @@ Specimen Collection
 * ^version = "20030327"
 * ^title = "Specimen Collection"
 * ^name = "SpecimenCollection"
-* http://snomed.info/sct#17636008 "specimen collection" 
-* http://snomed.info/srt#P3-02000 "specimen collection" 
-* http://terminology.hl7.org/CodeSystem/umls#C0200345 "specimen collection" 
+* ^experimental = false
+* http://snomed.info/sct#17636008 //"specimen collection" 
+* http://snomed.info/srt#P3-02000 //"specimen collection" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0200345 //"specimen collection" 
 
-* http://snomed.info/sct#82078001 "collection of blood specimen for laboratory" 
-* http://snomed.info/srt#PA-20110 "collection of blood specimen for laboratory" 
-* http://terminology.hl7.org/CodeSystem/umls#C0005834 "collection of blood specimen for laboratory" 
+* http://snomed.info/sct#82078001 //"collection of blood specimen for laboratory" 
+* http://snomed.info/srt#PA-20110 //"collection of blood specimen for laboratory" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0005834 //"collection of blood specimen for laboratory" 
 
-* http://snomed.info/sct#243776001 "blood sampling from extracorporeal blood circuit" 
-* http://snomed.info/srt#PA-2011E "blood sampling from extracorporeal blood circuit" 
-* http://terminology.hl7.org/CodeSystem/umls#C0419352 "blood sampling from extracorporeal blood circuit" 
+* http://snomed.info/sct#243776001 //"blood sampling from extracorporeal blood circuit" 
+* http://snomed.info/srt#PA-2011E //"blood sampling from extracorporeal blood circuit" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0419352 //"blood sampling from extracorporeal blood circuit" 
 

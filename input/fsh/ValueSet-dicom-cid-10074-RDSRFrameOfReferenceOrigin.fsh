@@ -9,13 +9,14 @@ RDSR Frame of Reference Origin
 * ^version = "20210328"
 * ^title = "RDSR Frame of Reference Origin"
 * ^name = "RDSRFrameOfReferenceOrigin"
-* DICOM_DCM_CodeSystem#130536 "Room Origin" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130536 //"Room Origin" 
 
-* DICOM_DCM_CodeSystem#130537 "Equipment Origin" 
+* DICOM_DCM_CodeSystem#130537 //"Equipment Origin" 
 
-* DICOM_DCM_CodeSystem#130538 "Patient Support Origin" 
+* DICOM_DCM_CodeSystem#130538 //"Patient Support Origin" 
 
-* DICOM_DCM_CodeSystem#130539 "Isocenter Origin" 
+* DICOM_DCM_CodeSystem#130539 //"Isocenter Origin" 
 
-* DICOM_DCM_CodeSystem#130540 "Patient Coordinate System Origin" 
+* DICOM_DCM_CodeSystem#130540 //"Patient Coordinate System Origin" 
 

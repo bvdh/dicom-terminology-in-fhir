@@ -9,21 +9,22 @@ Echo Measured Strain Property
 * ^version = "20211112"
 * ^title = "Echo Measured Strain Property"
 * ^name = "EchoMeasuredStrainProperty"
-* DICOM_DCM_CodeSystem#130670 "Longitudinal Lagrangian Strain" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130670 //"Longitudinal Lagrangian Strain" 
 
-* DICOM_DCM_CodeSystem#130671 "Peak Longitudinal Lagrangian Strain" 
+* DICOM_DCM_CodeSystem#130671 //"Peak Longitudinal Lagrangian Strain" 
 
-* DICOM_DCM_CodeSystem#130672 "Time to Peak Longitudinal Lagrangian Strain" 
+* DICOM_DCM_CodeSystem#130672 //"Time to Peak Longitudinal Lagrangian Strain" 
 
-* DICOM_DCM_CodeSystem#130673 "Mechanical Dispersion" 
+* DICOM_DCM_CodeSystem#130673 //"Mechanical Dispersion" 
 
-* DICOM_DCM_CodeSystem#130674 "Longitudinal Lagrangian Strain Rate" 
+* DICOM_DCM_CodeSystem#130674 //"Longitudinal Lagrangian Strain Rate" 
 
-* DICOM_DCM_CodeSystem#130675 "Radial Lagrangian Strain" 
+* DICOM_DCM_CodeSystem#130675 //"Radial Lagrangian Strain" 
 
-* DICOM_DCM_CodeSystem#130676 "Radial Lagrangian Strain Rate" 
+* DICOM_DCM_CodeSystem#130676 //"Radial Lagrangian Strain Rate" 
 
-* DICOM_DCM_CodeSystem#130677 "Circumferential Lagrangian Strain" 
+* DICOM_DCM_CodeSystem#130677 //"Circumferential Lagrangian Strain" 
 
-* DICOM_DCM_CodeSystem#130678 "Circumferential Lagrangian Strain Rate" 
+* DICOM_DCM_CodeSystem#130678 //"Circumferential Lagrangian Strain Rate" 
 

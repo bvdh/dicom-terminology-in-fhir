@@ -9,5 +9,6 @@ Airway Management Sub-Method Code Type for Small Animal Anesthesia
 * ^version = "20151110"
 * ^title = "Airway Management Sub-Method Code Type for Small Animal Anesthesia"
 * ^name = "AirwayManagementSubMethodCodeTypeForSmallAnimalAnesthesia"
+* ^experimental = false
 * include codes from valueset CID_620
 

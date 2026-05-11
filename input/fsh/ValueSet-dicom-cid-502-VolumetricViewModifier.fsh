@@ -9,6 +9,7 @@ Volumetric View Modifier
 * ^version = "20150915"
 * ^title = "Volumetric View Modifier"
 * ^name = "VolumetricViewModifier"
+* ^experimental = false
 * include codes from valueset CID_6
 
 * include codes from valueset CID_23

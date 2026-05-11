@@ -9,7 +9,8 @@ RT Content Assessment Type
 * ^version = "20160318"
 * ^title = "RT Content Assessment Type"
 * ^name = "RTContentAssessmentType"
-* DICOM_DCM_CodeSystem#121373 "RT Pre-Treatment Dose Check" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121373 //"RT Pre-Treatment Dose Check" 
 
-* DICOM_DCM_CodeSystem#121374 "RT Pre-Treatment Consistency Check" 
+* DICOM_DCM_CodeSystem#121374 //"RT Pre-Treatment Consistency Check" 
 

@@ -9,6 +9,7 @@ The use of(111176, DCM, 'Unspecified') sect_TID_4015 sect_TID_4100 sect_TID_4102
 * ^version = "20170914"
 * ^title = "Chest Non-lesion Object Type"
 * ^name = "ChestNonLesionObjectType"
+* ^experimental = false
 * include codes from valueset CID_6404
 
 * include codes from valueset CID_6405

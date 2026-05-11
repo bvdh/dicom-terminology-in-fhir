@@ -9,6 +9,7 @@ Generic Intensity and Size Measurement
 * ^version = "20240913"
 * ^title = "Generic Intensity and Size Measurement"
 * ^name = "GenericIntensityAndSizeMeasurement"
+* ^experimental = false
 * include codes from valueset CID_7180
 
 * include codes from valueset CID_7470
@@ -17,7 +18,7 @@ Generic Intensity and Size Measurement
 
 * include codes from valueset CID_7472
 
-* DICOM_DCM_CodeSystem#130922 "Number of pixels" 
+* DICOM_DCM_CodeSystem#130922 //"Number of pixels" 
 
-* DICOM_DCM_CodeSystem#130923 "Number of voxels" 
+* DICOM_DCM_CodeSystem#130923 //"Number of voxels" 
 

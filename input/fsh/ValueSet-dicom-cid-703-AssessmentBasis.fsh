@@ -9,7 +9,8 @@ Assessment Basis
 * ^version = "20160318"
 * ^title = "Assessment Basis"
 * ^name = "AssessmentBasis"
-* DICOM_DCM_CodeSystem#121375 "Assessment By Comparison" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121375 //"Assessment By Comparison" 
 
-* DICOM_DCM_CodeSystem#121376 "Assessment By Rules" 
+* DICOM_DCM_CodeSystem#121376 //"Assessment By Rules" 
 

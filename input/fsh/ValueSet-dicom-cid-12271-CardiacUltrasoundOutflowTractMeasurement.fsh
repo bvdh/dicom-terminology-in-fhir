@@ -9,6 +9,7 @@ Cardiac Ultrasound Outflow Tract Measurement
 * ^version = "20240920"
 * ^title = "Cardiac Ultrasound Outflow Tract Measurement"
 * ^name = "CardiacUltrasoundOutflowTractMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12257
 
 * include codes from valueset CID_12258

@@ -9,11 +9,12 @@ Prostate Imaging Types of Quality Control Standard
 * ^version = "20210714"
 * ^title = "Prostate Imaging Types of Quality Control Standard"
 * ^name = "ProstateImagingTypesOfQualityControlStandard"
-* DICOM_DCM_CodeSystem#130606 "ESUR 2012 prostate MRI acquisition requirements" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130606 //"ESUR 2012 prostate MRI acquisition requirements" 
 
-* DICOM_DCM_CodeSystem#130607 "PI-RADS 2.0 prostate MRI acquisition requirements" 
+* DICOM_DCM_CodeSystem#130607 //"PI-RADS 2.0 prostate MRI acquisition requirements" 
 
-* DICOM_DCM_CodeSystem#130608 "PI-RADS 2.1 prostate MRI acquisition requirements" 
+* DICOM_DCM_CodeSystem#130608 //"PI-RADS 2.1 prostate MRI acquisition requirements" 
 
-* DICOM_DCM_CodeSystem#111240 "Institutionally defined quality control standard" 
+* DICOM_DCM_CodeSystem#111240 //"Institutionally defined quality control standard" 
 

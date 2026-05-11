@@ -9,13 +9,14 @@ Equivalent Radiation Dose Type
 * ^version = "20170405"
 * ^title = "Equivalent Radiation Dose Type"
 * ^name = "EquivalentRadiationDoseType"
-* DICOM_DCM_CodeSystem#128535 "Maximum Equivalent Radiation Dose" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128535 //"Maximum Equivalent Radiation Dose" 
 
-* DICOM_DCM_CodeSystem#128536 "Minimum Equivalent Radiation Dose" 
+* DICOM_DCM_CodeSystem#128536 //"Minimum Equivalent Radiation Dose" 
 
-* DICOM_DCM_CodeSystem#128537 "Mean Equivalent Radiation Dose" 
+* DICOM_DCM_CodeSystem#128537 //"Mean Equivalent Radiation Dose" 
 
-* DICOM_DCM_CodeSystem#128538 "Mode Equivalent Radiation Dose" 
+* DICOM_DCM_CodeSystem#128538 //"Mode Equivalent Radiation Dose" 
 
-* DICOM_DCM_CodeSystem#128540 "Median Equivalent Radiation Dose" 
+* DICOM_DCM_CodeSystem#128540 //"Median Equivalent Radiation Dose" 
 

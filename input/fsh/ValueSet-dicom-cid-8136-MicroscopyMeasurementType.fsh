@@ -9,7 +9,8 @@ Microscopy Measurement Type
 * ^version = "20210712"
 * ^title = "Microscopy Measurement Type"
 * ^name = "MicroscopyMeasurementType"
-* http://snomed.info/sct#42798000 "Area" 
-* http://snomed.info/srt#G-A166 "Area" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205146 "Area" 
+* ^experimental = false
+* http://snomed.info/sct#42798000 //"Area" 
+* http://snomed.info/srt#G-A166 //"Area" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205146 //"Area" 
 

@@ -9,7 +9,8 @@ Physiology Segmentation Type
 * ^version = "20060822"
 * ^title = "Physiology Segmentation Type"
 * ^name = "PhysiologySegmentationType"
-* http://snomed.info/sct#371863001 "Perfusion" 
-* http://snomed.info/srt#R-0039F "Perfusion" 
-* http://terminology.hl7.org/CodeSystem/umls#C1276288 "Perfusion" 
+* ^experimental = false
+* http://snomed.info/sct#371863001 //"Perfusion" 
+* http://snomed.info/srt#R-0039F //"Perfusion" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1276288 //"Perfusion" 
 

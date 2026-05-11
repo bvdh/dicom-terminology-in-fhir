@@ -9,11 +9,12 @@ OB-GYN Ultrasound Beam Path
 * ^version = "20200704"
 * ^title = "OB-GYN Ultrasound Beam Path"
 * ^name = "OBGYNUltrasoundBeamPath"
-* http://snomed.info/sct#66739002 "Trans-abdominal" 
-* http://snomed.info/srt#G-D001 "Trans-abdominal" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205496 "Trans-abdominal" 
+* ^experimental = false
+* http://snomed.info/sct#66739002 //"Trans-abdominal" 
+* http://snomed.info/srt#G-D001 //"Trans-abdominal" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205496 //"Trans-abdominal" 
 
-* http://snomed.info/sct#54300008 "Trans-vaginal" 
-* http://snomed.info/srt#G-D002 "Trans-vaginal" 
-* http://terminology.hl7.org/CodeSystem/umls#C0175672 "Trans-vaginal" 
+* http://snomed.info/sct#54300008 //"Trans-vaginal" 
+* http://snomed.info/srt#G-D002 //"Trans-vaginal" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0175672 //"Trans-vaginal" 
 

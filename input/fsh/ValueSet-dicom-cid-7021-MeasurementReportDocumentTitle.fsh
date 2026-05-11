@@ -9,11 +9,12 @@ Measurement Report Document Title
 * ^version = "20141110"
 * ^title = "Measurement Report Document Title"
 * ^name = "MeasurementReportDocumentTitle"
-* DICOM_DCM_CodeSystem#126000 "Imaging Measurement Report" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#126000 //"Imaging Measurement Report" 
 
-* DICOM_DCM_CodeSystem#126001 "Oncology Measurement Report" 
+* DICOM_DCM_CodeSystem#126001 //"Oncology Measurement Report" 
 
-* DICOM_DCM_CodeSystem#126002 "Dynamic Contrast MR Measurement Report" 
+* DICOM_DCM_CodeSystem#126002 //"Dynamic Contrast MR Measurement Report" 
 
-* DICOM_DCM_CodeSystem#126003 "PET Measurement Report" 
+* DICOM_DCM_CodeSystem#126003 //"PET Measurement Report" 
 

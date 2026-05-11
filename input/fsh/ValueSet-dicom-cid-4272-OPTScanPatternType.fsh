@@ -9,23 +9,24 @@ OPT Scan Pattern Type
 * ^version = "20170405"
 * ^title = "OPT Scan Pattern Type"
 * ^name = "OPTScanPatternType"
-* DICOM_DCM_CodeSystem#128279 "Cube B-scan pattern" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128279 //"Cube B-scan pattern" 
 
-* DICOM_DCM_CodeSystem#128280 "Raster B-scan pattern" 
+* DICOM_DCM_CodeSystem#128280 //"Raster B-scan pattern" 
 
-* DICOM_DCM_CodeSystem#128281 "Line B-scan pattern" 
+* DICOM_DCM_CodeSystem#128281 //"Line B-scan pattern" 
 
-* DICOM_DCM_CodeSystem#128282 "Radial B-scan pattern" 
+* DICOM_DCM_CodeSystem#128282 //"Radial B-scan pattern" 
 
-* DICOM_DCM_CodeSystem#128283 "Cross B-scan pattern" 
+* DICOM_DCM_CodeSystem#128283 //"Cross B-scan pattern" 
 
-* DICOM_DCM_CodeSystem#128284 "Circle B-scan pattern" 
+* DICOM_DCM_CodeSystem#128284 //"Circle B-scan pattern" 
 
-* DICOM_DCM_CodeSystem#128285 "Concentric circle B-scan pattern" 
+* DICOM_DCM_CodeSystem#128285 //"Concentric circle B-scan pattern" 
 
-* DICOM_DCM_CodeSystem#128286 "Circle-raster B-scan pattern" 
+* DICOM_DCM_CodeSystem#128286 //"Circle-raster B-scan pattern" 
 
-* DICOM_DCM_CodeSystem#128287 "Circle-radial B-scan pattern" 
+* DICOM_DCM_CodeSystem#128287 //"Circle-radial B-scan pattern" 
 
-* DICOM_DCM_CodeSystem#128288 "Grid B-scan pattern" 
+* DICOM_DCM_CodeSystem#128288 //"Grid B-scan pattern" 
 

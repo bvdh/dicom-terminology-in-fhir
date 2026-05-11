@@ -9,15 +9,16 @@ PET Cardiology Protocol
 * ^version = "20080927"
 * ^title = "PET Cardiology Protocol"
 * ^name = "PETCardiologyProtocol"
-* DICOM_DCM_CodeSystem#122791 "PET Myocardial Perfusion, Rest only" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122791 //"PET Myocardial Perfusion, Rest only" 
 
-* DICOM_DCM_CodeSystem#122792 "PET Myocardial Perfusion, Stress only" 
+* DICOM_DCM_CodeSystem#122792 //"PET Myocardial Perfusion, Stress only" 
 
-* DICOM_DCM_CodeSystem#122793 "PET Myocardial Perfusion, Rest and Stress" 
+* DICOM_DCM_CodeSystem#122793 //"PET Myocardial Perfusion, Rest and Stress" 
 
-* DICOM_DCM_CodeSystem#122795 "PET Myocardial Viability, Rest only" 
+* DICOM_DCM_CodeSystem#122795 //"PET Myocardial Viability, Rest only" 
 
-* DICOM_DCM_CodeSystem#122796 "PET Myocardial Viability, Stress only" 
+* DICOM_DCM_CodeSystem#122796 //"PET Myocardial Viability, Stress only" 
 
-* DICOM_DCM_CodeSystem#122797 "PET Myocardial Viability, Rest and Stress" 
+* DICOM_DCM_CodeSystem#122797 //"PET Myocardial Viability, Rest and Stress" 
 

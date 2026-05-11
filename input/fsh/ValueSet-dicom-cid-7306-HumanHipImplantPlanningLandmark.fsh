@@ -9,9 +9,10 @@ Human Hip Implant Planning Landmark
 * ^version = "20101102"
 * ^title = "Human Hip Implant Planning Landmark"
 * ^name = "HumanHipImplantPlanningLandmark"
-* DICOM_DCM_CodeSystem#112302 "Anatomical axis of femur" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112302 //"Anatomical axis of femur" 
 
-* DICOM_DCM_CodeSystem#112303 "Acetabular Center of Rotation" 
+* DICOM_DCM_CodeSystem#112303 //"Acetabular Center of Rotation" 
 
-* DICOM_DCM_CodeSystem#112304 "Femur Head Center of Rotation" 
+* DICOM_DCM_CodeSystem#112304 //"Femur Head Center of Rotation" 
 

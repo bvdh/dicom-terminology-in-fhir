@@ -9,5 +9,6 @@ Compensator Device Type
 * ^version = "20190715"
 * ^title = "Compensator Device Type"
 * ^name = "CompensatorDeviceType"
-* DICOM_DCM_CodeSystem#130340 "Physical Compensator" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130340 //"Physical Compensator" 
 

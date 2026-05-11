@@ -9,17 +9,18 @@ Breast Imaging Finding
 * ^version = "20050110"
 * ^title = "Breast Imaging Finding"
 * ^name = "BreastImagingFinding"
-* http://snomed.info/sct#290084006 "Breast normal" 
-* http://snomed.info/srt#F-8A084 "Breast normal" 
-* http://terminology.hl7.org/CodeSystem/umls#C0567498 "Breast normal" 
+* ^experimental = false
+* http://snomed.info/sct#290084006 //"Breast normal" 
+* http://snomed.info/srt#F-8A084 //"Breast normal" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0567498 //"Breast normal" 
 
-* http://snomed.info/sct#309587003 "Calcification of breast" 
-* http://snomed.info/srt#F-8A057 "Calcification of breast" 
-* http://terminology.hl7.org/CodeSystem/umls#C0587094 "Calcification of breast" 
+* http://snomed.info/sct#309587003 //"Calcification of breast" 
+* http://snomed.info/srt#F-8A057 //"Calcification of breast" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0587094 //"Calcification of breast" 
 
-* http://snomed.info/sct#40388003 "Implant" 
-* http://snomed.info/srt#A-04010 "Implant" 
-* http://terminology.hl7.org/CodeSystem/umls#C0021102 "Implant" 
+* http://snomed.info/sct#40388003 //"Implant" 
+* http://snomed.info/srt#A-04010 //"Implant" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0021102 //"Implant" 
 
 * include codes from valueset CID_6016
 

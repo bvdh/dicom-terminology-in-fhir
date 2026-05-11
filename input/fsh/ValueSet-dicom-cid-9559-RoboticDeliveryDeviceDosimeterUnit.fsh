@@ -9,5 +9,6 @@ Robotic Delivery Device Dosimeter Unit
 * ^version = "20200117"
 * ^title = "Robotic Delivery Device Dosimeter Unit"
 * ^name = "RoboticDeliveryDeviceDosimeterUnit"
-* http://unitsofmeasure.org#{MU} "Monitor Units" 
+* ^experimental = false
+* http://unitsofmeasure.org#{MU} //"Monitor Units" 
 

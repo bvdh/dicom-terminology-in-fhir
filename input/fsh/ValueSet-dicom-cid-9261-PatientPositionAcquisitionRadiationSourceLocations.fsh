@@ -9,7 +9,8 @@ Patient Position Acquisition Radiation Source Locations
 * ^version = "20221225"
 * ^title = "Patient Position Acquisition Radiation Source Locations"
 * ^name = "PatientPositionAcquisitionRadiationSourceLocations"
-* DICOM_DCM_CodeSystem#130358 "Nominal Radiation Source Location" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130358 //"Nominal Radiation Source Location" 
 
-* DICOM_DCM_CodeSystem#130789 "Nominal Imaging Source Location" 
+* DICOM_DCM_CodeSystem#130789 //"Nominal Imaging Source Location" 
 

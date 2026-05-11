@@ -9,9 +9,10 @@ Audit Participant Object ID Type Code
 * ^version = "20100621"
 * ^title = "Audit Participant Object ID Type Code"
 * ^name = "AuditParticipantObjectIDTypeCode"
-* DICOM_DCM_CodeSystem#110180 "Study Instance UID" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#110180 //"Study Instance UID" 
 
-* DICOM_DCM_CodeSystem#110181 "SOP Class UID" 
+* DICOM_DCM_CodeSystem#110181 //"SOP Class UID" 
 
-* DICOM_DCM_CodeSystem#110182 "Node ID" 
+* DICOM_DCM_CodeSystem#110182 //"Node ID" 
 

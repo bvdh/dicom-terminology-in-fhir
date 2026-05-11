@@ -9,5 +9,6 @@ In future extensions, Mammography Characteristics of Shape terms that are not de
 * ^version = "20020904"
 * ^title = "Mammography Shape Characteristic"
 * ^name = "MammographyShapeCharacteristic"
+* ^experimental = false
 * include codes from valueset CID_6005
 

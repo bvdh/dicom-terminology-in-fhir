@@ -9,5 +9,6 @@ C-Arm Photon-Electron Dosimeter Unit
 * ^version = "20190715"
 * ^title = "C-Arm Photon-Electron Dosimeter Unit"
 * ^name = "CArmPhotonElectronDosimeterUnit"
-* http://unitsofmeasure.org#{MU} "Monitor Units" 
+* ^experimental = false
+* http://unitsofmeasure.org#{MU} //"Monitor Units" 
 

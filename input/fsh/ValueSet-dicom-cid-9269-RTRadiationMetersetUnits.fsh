@@ -9,6 +9,7 @@ RT Radiation Meterset Units
 * ^version = "20221225"
 * ^title = "RT Radiation Meterset Units"
 * ^name = "RTRadiationMetersetUnits"
+* ^experimental = false
 * include codes from valueset CID_9552
 
 * include codes from valueset CID_9557

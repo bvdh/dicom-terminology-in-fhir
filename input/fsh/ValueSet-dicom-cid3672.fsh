@@ -9,3 +9,4 @@ Description :
 * ^version = "None"
 * ^title = "Pacemaker"
 * ^name = "Cid3672"
+* ^experimental = false

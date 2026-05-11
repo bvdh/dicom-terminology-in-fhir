@@ -9,11 +9,12 @@ Attenuation Correction
 * ^version = "20080927"
 * ^title = "Attenuation Correction"
 * ^name = "AttenuationCorrection"
-* DICOM_DCM_CodeSystem#122726 "Algorithmic Attenuation Correction" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122726 //"Algorithmic Attenuation Correction" 
 
-* DICOM_DCM_CodeSystem#122727 "NM Transmission Attenuation Correction" 
+* DICOM_DCM_CodeSystem#122727 //"NM Transmission Attenuation Correction" 
 
-* DICOM_DCM_CodeSystem#122728 "CT-based Attenuation Correction" 
+* DICOM_DCM_CodeSystem#122728 //"CT-based Attenuation Correction" 
 
-* DICOM_DCM_CodeSystem#122729 "No Attenuation Correction" 
+* DICOM_DCM_CodeSystem#122729 //"No Attenuation Correction" 
 

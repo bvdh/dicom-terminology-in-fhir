@@ -9,7 +9,8 @@ Volume and Dose Dosimetric Objective
 * ^version = "20181112"
 * ^title = "Volume and Dose Dosimetric Objective"
 * ^name = "VolumeAndDoseDosimetricObjective"
-* DICOM_DCM_CodeSystem#130016 "Minimum Absolute Volume at Radiation Dose" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130016 //"Minimum Absolute Volume at Radiation Dose" 
 
-* DICOM_DCM_CodeSystem#130017 "Maximum Absolute Volume at Radiation Dose" 
+* DICOM_DCM_CodeSystem#130017 //"Maximum Absolute Volume at Radiation Dose" 
 

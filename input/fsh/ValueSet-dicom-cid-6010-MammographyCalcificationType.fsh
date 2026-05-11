@@ -9,5 +9,6 @@ In future extensions, Mammography Calcification Types terms that are not derived
 * ^version = "20020904"
 * ^title = "Mammography Calcification Type"
 * ^name = "MammographyCalcificationType"
+* ^experimental = false
 * include codes from valueset CID_6011
 

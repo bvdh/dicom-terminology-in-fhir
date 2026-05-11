@@ -9,6 +9,7 @@ Location in Chest
 * ^version = "20030108"
 * ^title = "Location in Chest"
 * ^name = "LocationInChest"
+* ^experimental = false
 * include codes from valueset CID_6125
 
 * include codes from valueset CID_6126

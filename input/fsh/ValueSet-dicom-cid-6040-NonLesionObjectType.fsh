@@ -9,11 +9,12 @@ The use of(111176, DCM, 'Unspecified') sect_TID_4012
 * ^version = "20170914"
 * ^title = "Non-lesion Object Type"
 * ^name = "NonLesionObjectType"
+* ^experimental = false
 * include codes from valueset CID_6401
 
 * include codes from valueset CID_6402
 
 * include codes from valueset CID_6403
 
-* DICOM_DCM_CodeSystem#111176 "Unspecified" 
+* DICOM_DCM_CodeSystem#111176 //"Unspecified" 
 

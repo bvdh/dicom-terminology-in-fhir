@@ -9,15 +9,16 @@ Microscopy Lens Type
 * ^version = "20100824"
 * ^title = "Microscopy Lens Type"
 * ^name = "MicroscopyLensType"
-* http://snomed.info/sct#445621001 "High power non-immersion lens" 
-* http://snomed.info/srt#A-0011A "High power non-immersion lens" 
-* http://terminology.hl7.org/CodeSystem/umls#C2919938 "High power non-immersion lens" 
+* ^experimental = false
+* http://snomed.info/sct#445621001 //"High power non-immersion lens" 
+* http://snomed.info/srt#A-0011A //"High power non-immersion lens" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2919938 //"High power non-immersion lens" 
 
-* http://snomed.info/sct#445622008 "Oil immersion lens" 
-* http://snomed.info/srt#A-0011B "Oil immersion lens" 
-* http://terminology.hl7.org/CodeSystem/umls#C2919939 "Oil immersion lens" 
+* http://snomed.info/sct#445622008 //"Oil immersion lens" 
+* http://snomed.info/srt#A-0011B //"Oil immersion lens" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2919939 //"Oil immersion lens" 
 
-* http://snomed.info/sct#445601002 "Slide overview lens" 
-* http://snomed.info/srt#A-00118 "Slide overview lens" 
-* http://terminology.hl7.org/CodeSystem/umls#C2919940 "Slide overview lens" 
+* http://snomed.info/sct#445601002 //"Slide overview lens" 
+* http://snomed.info/srt#A-00118 //"Slide overview lens" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2919940 //"Slide overview lens" 
 

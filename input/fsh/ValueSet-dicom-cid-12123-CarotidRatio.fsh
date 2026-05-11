@@ -9,6 +9,7 @@ Carotid Ratio
 * ^version = "20030327"
 * ^title = "Carotid Ratio"
 * ^name = "CarotidRatio"
-* http://loinc.org#33868-1 "ICA/CCA velocity ratio" 
-* http://terminology.hl7.org/CodeSystem/umls#C1316331 "ICA/CCA velocity ratio" 
+* ^experimental = false
+* http://loinc.org#33868-1 //"ICA/CCA velocity ratio" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1316331 //"ICA/CCA velocity ratio" 
 

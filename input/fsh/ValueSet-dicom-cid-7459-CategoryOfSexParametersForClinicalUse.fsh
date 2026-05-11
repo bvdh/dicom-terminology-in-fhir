@@ -9,9 +9,10 @@ Category of Sex Parameters for Clinical Use
 * ^version = "20250406"
 * ^title = "Category of Sex Parameters for Clinical Use"
 * ^name = "CategoryOfSexParametersForClinicalUse"
-* DICOM_DCM_CodeSystem#131230 "Female-typical" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#131230 //"Female-typical" 
 
-* DICOM_DCM_CodeSystem#131231 "Male-typical" 
+* DICOM_DCM_CodeSystem#131231 //"Male-typical" 
 
-* DICOM_DCM_CodeSystem#131232 "Specified" 
+* DICOM_DCM_CodeSystem#131232 //"Specified" 
 

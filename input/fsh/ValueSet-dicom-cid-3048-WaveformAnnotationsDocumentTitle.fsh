@@ -9,9 +9,10 @@ Waveform Annotations Document Title
 * ^version = "20240616"
 * ^title = "Waveform Annotations Document Title"
 * ^name = "WaveformAnnotationsDocumentTitle"
-* DICOM_DCM_CodeSystem#130867 "Neurophysiology Recording Annotations" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130867 //"Neurophysiology Recording Annotations" 
 
-* DICOM_DCM_CodeSystem#130868 "Neurophysiology Post-hoc Review Annotations" 
+* DICOM_DCM_CodeSystem#130868 //"Neurophysiology Post-hoc Review Annotations" 
 
-* DICOM_DCM_CodeSystem#130869 "Neurophysiology Automated Analysis Annotations" 
+* DICOM_DCM_CodeSystem#130869 //"Neurophysiology Automated Analysis Annotations" 
 

@@ -9,7 +9,8 @@ RT Plan Approval Assertion
 * ^version = "20250709"
 * ^title = "RT Plan Approval Assertion"
 * ^name = "RTPlanApprovalAssertion"
-* DICOM_DCM_CodeSystem#131315 "Plan meets prescription" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#131315 //"Plan meets prescription" 
 
-* DICOM_DCM_CodeSystem#131316 "Plan QA passed" 
+* DICOM_DCM_CodeSystem#131316 //"Plan QA passed" 
 

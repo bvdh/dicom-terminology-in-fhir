@@ -9,11 +9,12 @@ Prostate Cancer Family History
 * ^version = "20210714"
 * ^title = "Prostate Cancer Family History"
 * ^name = "ProstateCancerFamilyHistory"
-* DICOM_DCM_CodeSystem#111562 "Family history of prostate cancer" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111562 //"Family history of prostate cancer" 
 
-* DICOM_DCM_CodeSystem#130587 "No family history of prostate cancer" 
+* DICOM_DCM_CodeSystem#130587 //"No family history of prostate cancer" 
 
-* http://snomed.info/sct#407559004 "Family history unknown" 
-* http://snomed.info/srt#F-03F6E "Family history unknown" 
-* http://terminology.hl7.org/CodeSystem/umls#C1319897 "Family history unknown" 
+* http://snomed.info/sct#407559004 //"Family history unknown" 
+* http://snomed.info/srt#F-03F6E //"Family history unknown" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1319897 //"Family history unknown" 
 

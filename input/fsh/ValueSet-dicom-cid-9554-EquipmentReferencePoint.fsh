@@ -9,7 +9,8 @@ Equipment Reference Point
 * ^version = "20190715"
 * ^title = "Equipment Reference Point"
 * ^name = "EquipmentReferencePoint"
+* ^experimental = false
 * include codes from valueset CID_9544
 
-* DICOM_DCM_CodeSystem#130360 "Fixed Laser Setup Point" 
+* DICOM_DCM_CodeSystem#130360 //"Fixed Laser Setup Point" 
 

@@ -9,9 +9,10 @@ Clinical Course of Disease
 * ^version = "20190125"
 * ^title = "Clinical Course of Disease"
 * ^name = "ClinicalCourseOfDisease"
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40413 "No Evidence of Disease" 
-* http://terminology.hl7.org/CodeSystem/umls#C1518340 "No Evidence of Disease" 
+* ^experimental = false
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40413 //"No Evidence of Disease" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1518340 //"No Evidence of Disease" 
 
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38155 "Recurrent Disease" 
-* http://terminology.hl7.org/CodeSystem/umls#C0277556 "Recurrent Disease" 
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38155 //"Recurrent Disease" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0277556 //"Recurrent Disease" 
 

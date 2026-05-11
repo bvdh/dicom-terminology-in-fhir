@@ -9,11 +9,12 @@ Follow-up Interval Unit
 * ^version = "20020904"
 * ^title = "Follow-up Interval Unit"
 * ^name = "FollowupIntervalUnit"
-* http://unitsofmeasure.org#d "day" 
+* ^experimental = false
+* http://unitsofmeasure.org#d //"day" 
 
-* http://unitsofmeasure.org#wk "week" 
+* http://unitsofmeasure.org#wk //"week" 
 
-* http://unitsofmeasure.org#mo "month" 
+* http://unitsofmeasure.org#mo //"month" 
 
-* http://unitsofmeasure.org#a "year" 
+* http://unitsofmeasure.org#a //"year" 
 

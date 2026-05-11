@@ -9,7 +9,8 @@ Procedures for Breast
 * ^version = "20040112"
 * ^title = "Procedures for Breast"
 * ^name = "ProceduresForBreast"
-* DICOM_DCM_CodeSystem#111564 "Nipple discharge cytology" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111564 //"Nipple discharge cytology" 
 
 * include codes from valueset CID_6050
 

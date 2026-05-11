@@ -9,9 +9,10 @@ CTDI Phantom Device
 * ^version = "20250331"
 * ^title = "CTDI Phantom Device"
 * ^name = "CTDIPhantomDevice"
-* DICOM_DCM_CodeSystem#113690 "IEC 160mm Head CT Dosimetry Phantom" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113690 //"IEC 160mm Head CT Dosimetry Phantom" 
 
-* DICOM_DCM_CodeSystem#113691 "IEC 320mm Body CT Dosimetry Phantom" 
+* DICOM_DCM_CodeSystem#113691 //"IEC 320mm Body CT Dosimetry Phantom" 
 
-* DICOM_DCM_CodeSystem#130541 "100 mm Pediatric Head CT Dosimetry Phantom" 
+* DICOM_DCM_CodeSystem#130541 //"100 mm Pediatric Head CT Dosimetry Phantom" 
 

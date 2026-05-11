@@ -9,33 +9,34 @@ Visual Field Static Perimetry Test Pattern
 * ^version = "20100827"
 * ^title = "Visual Field Static Perimetry Test Pattern"
 * ^name = "VisualFieldStaticPerimetryTestPattern"
-* DICOM_DCM_CodeSystem#111800 "Visual Field 24-2 Test Pattern" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111800 //"Visual Field 24-2 Test Pattern" 
 
-* DICOM_DCM_CodeSystem#111801 "Visual Field 10-2 Test Pattern" 
+* DICOM_DCM_CodeSystem#111801 //"Visual Field 10-2 Test Pattern" 
 
-* DICOM_DCM_CodeSystem#111802 "Visual Field 30-2 Test Pattern" 
+* DICOM_DCM_CodeSystem#111802 //"Visual Field 30-2 Test Pattern" 
 
-* DICOM_DCM_CodeSystem#111803 "Visual Field 60-4 Test Pattern" 
+* DICOM_DCM_CodeSystem#111803 //"Visual Field 60-4 Test Pattern" 
 
-* DICOM_DCM_CodeSystem#111804 "Visual Field Macula Test Pattern" 
+* DICOM_DCM_CodeSystem#111804 //"Visual Field Macula Test Pattern" 
 
-* DICOM_DCM_CodeSystem#111805 "Visual Field Central 40 Point Test Pattern" 
+* DICOM_DCM_CodeSystem#111805 //"Visual Field Central 40 Point Test Pattern" 
 
-* DICOM_DCM_CodeSystem#111806 "Visual Field Central 76 Point Test Pattern" 
+* DICOM_DCM_CodeSystem#111806 //"Visual Field Central 76 Point Test Pattern" 
 
-* DICOM_DCM_CodeSystem#111807 "Visual Field Peripheral 60 Point Test Pattern" 
+* DICOM_DCM_CodeSystem#111807 //"Visual Field Peripheral 60 Point Test Pattern" 
 
-* DICOM_DCM_CodeSystem#111808 "Visual Field Full Field 81 Point Test Pattern" 
+* DICOM_DCM_CodeSystem#111808 //"Visual Field Full Field 81 Point Test Pattern" 
 
-* DICOM_DCM_CodeSystem#111809 "Visual Field Full Field 120 Point Test Pattern" 
+* DICOM_DCM_CodeSystem#111809 //"Visual Field Full Field 120 Point Test Pattern" 
 
-* DICOM_DCM_CodeSystem#111810 "Visual Field G Test Pattern" 
+* DICOM_DCM_CodeSystem#111810 //"Visual Field G Test Pattern" 
 
-* DICOM_DCM_CodeSystem#111811 "Visual Field M Test Pattern" 
+* DICOM_DCM_CodeSystem#111811 //"Visual Field M Test Pattern" 
 
-* DICOM_DCM_CodeSystem#111812 "Visual Field 07 Test Pattern" 
+* DICOM_DCM_CodeSystem#111812 //"Visual Field 07 Test Pattern" 
 
-* DICOM_DCM_CodeSystem#111813 "Visual Field LVC Test Pattern" 
+* DICOM_DCM_CodeSystem#111813 //"Visual Field LVC Test Pattern" 
 
-* DICOM_DCM_CodeSystem#111814 "Visual Field Central Test Pattern" 
+* DICOM_DCM_CodeSystem#111814 //"Visual Field Central Test Pattern" 
 

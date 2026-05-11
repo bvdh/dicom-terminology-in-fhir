@@ -9,13 +9,14 @@ Visual Field Global Index Name
 * ^version = "20100827"
 * ^title = "Visual Field Global Index Name"
 * ^name = "VisualFieldGlobalIndexName"
-* DICOM_DCM_CodeSystem#111852 "Visual Field Index" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111852 //"Visual Field Index" 
 
-* DICOM_DCM_CodeSystem#111853 "Visual Field Loss Due to Diffuse Defect" 
+* DICOM_DCM_CodeSystem#111853 //"Visual Field Loss Due to Diffuse Defect" 
 
-* DICOM_DCM_CodeSystem#111854 "Visual Field Loss Due to Local Defect" 
+* DICOM_DCM_CodeSystem#111854 //"Visual Field Loss Due to Local Defect" 
 
-* DICOM_DCM_CodeSystem#111855 "Glaucoma Hemifield Test Analysis" 
+* DICOM_DCM_CodeSystem#111855 //"Glaucoma Hemifield Test Analysis" 
 
-* DICOM_DCM_CodeSystem#111856 "Optical Fixation Measurements" 
+* DICOM_DCM_CodeSystem#111856 //"Optical Fixation Measurements" 
 

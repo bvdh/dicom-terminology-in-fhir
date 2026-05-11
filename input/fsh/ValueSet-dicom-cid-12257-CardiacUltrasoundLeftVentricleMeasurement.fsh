@@ -9,6 +9,7 @@ Cardiac Ultrasound Left Ventricle Measurement
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Left Ventricle Measurement"
 * ^name = "CardiacUltrasoundLeftVentricleMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
 * include codes from valueset CID_12222
@@ -25,35 +26,35 @@ Cardiac Ultrasound Left Ventricle Measurement
 
 * include codes from valueset CID_12255
 
-* http://snomed.info/sct#118565006 "Volume" 
-* http://snomed.info/srt#G-D705 "Volume" 
-* http://terminology.hl7.org/CodeSystem/umls#C0449468 "Volume" 
+* http://snomed.info/sct#118565006 //"Volume" 
+* http://snomed.info/srt#G-D705 //"Volume" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0449468 //"Volume" 
 
-* http://loinc.org#18155-2 "Interventricular Septum to Posterior Wall Thickness Ratio" 
-* http://terminology.hl7.org/CodeSystem/umls#C0801204 "Interventricular Septum to Posterior Wall Thickness Ratio" 
+* http://loinc.org#18155-2 //"Interventricular Septum to Posterior Wall Thickness Ratio" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0801204 //"Interventricular Septum to Posterior Wall Thickness Ratio" 
 
-* http://snomed.info/sct#399140004 "Ratio of MV Peak Velocity to LV Peak Tissue Velocity E-Wave" 
-* http://snomed.info/srt#G-037B "Ratio of MV Peak Velocity to LV Peak Tissue Velocity E-Wave" 
-* http://terminology.hl7.org/CodeSystem/umls#C1275825 "Ratio of MV Peak Velocity to LV Peak Tissue Velocity E-Wave" 
+* http://snomed.info/sct#399140004 //"Ratio of MV Peak Velocity to LV Peak Tissue Velocity E-Wave" 
+* http://snomed.info/srt#G-037B //"Ratio of MV Peak Velocity to LV Peak Tissue Velocity E-Wave" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1275825 //"Ratio of MV Peak Velocity to LV Peak Tissue Velocity E-Wave" 
 
-* http://loinc.org#59097-6 "Left Ventricle Meridional Wall Stress" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923429 "Left Ventricle Meridional Wall Stress" 
+* http://loinc.org#59097-6 //"Left Ventricle Meridional Wall Stress" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2923429 //"Left Ventricle Meridional Wall Stress" 
 
-* http://loinc.org#59095-0 "Time to Left Ventricle S Tissue Velocity" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923425 "Time to Left Ventricle S Tissue Velocity" 
+* http://loinc.org#59095-0 //"Time to Left Ventricle S Tissue Velocity" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2923425 //"Time to Left Ventricle S Tissue Velocity" 
 
-* http://loinc.org#59096-8 "Time to Left Ventricle E Tissue Velocity" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923427 "Time to Left Ventricle E Tissue Velocity" 
+* http://loinc.org#59096-8 //"Time to Left Ventricle E Tissue Velocity" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2923427 //"Time to Left Ventricle E Tissue Velocity" 
 
-* http://loinc.org#59124-8 "Tissue Velocity Time Integral (VTI) for the area under Left Ventricle E wave" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923476 "Tissue Velocity Time Integral (VTI) for the area under Left Ventricle E wave" 
+* http://loinc.org#59124-8 //"Tissue Velocity Time Integral (VTI) for the area under Left Ventricle E wave" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2923476 //"Tissue Velocity Time Integral (VTI) for the area under Left Ventricle E wave" 
 
-* http://loinc.org#59125-5 "Tissue Velocity Time Integral (VTI) for the area under Left Ventricle A wave" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923478 "Tissue Velocity Time Integral (VTI) for the area under Left Ventricle A wave" 
+* http://loinc.org#59125-5 //"Tissue Velocity Time Integral (VTI) for the area under Left Ventricle A wave" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2923478 //"Tissue Velocity Time Integral (VTI) for the area under Left Ventricle A wave" 
 
-* http://loinc.org#59129-7 "Left Ventricle E to A Tissue Velocity Ratio" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923485 "Left Ventricle E to A Tissue Velocity Ratio" 
+* http://loinc.org#59129-7 //"Left Ventricle E to A Tissue Velocity Ratio" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2923485 //"Left Ventricle E to A Tissue Velocity Ratio" 
 
-* http://loinc.org#59133-9 "Peak Tissue Velocity" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923492 "Peak Tissue Velocity" 
+* http://loinc.org#59133-9 //"Peak Tissue Velocity" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2923492 //"Peak Tissue Velocity" 
 

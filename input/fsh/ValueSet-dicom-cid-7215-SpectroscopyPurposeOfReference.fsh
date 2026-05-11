@@ -9,5 +9,6 @@ Spectroscopy Purpose of Reference
 * ^version = "20140105"
 * ^title = "Spectroscopy Purpose of Reference"
 * ^name = "SpectroscopyPurposeOfReference"
-* DICOM_DCM_CodeSystem#121318 "Spectroscopy Data for Water Phase Correction" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121318 //"Spectroscopy Data for Water Phase Correction" 
 

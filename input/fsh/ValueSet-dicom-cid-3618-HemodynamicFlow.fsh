@@ -9,7 +9,8 @@ Hemodynamic Flow
 * ^version = "20030327"
 * ^title = "Hemodynamic Flow"
 * ^name = "HemodynamicFlow"
-* DICOM_DCM_CodeSystem#122161 "Pulmonary Flow" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122161 //"Pulmonary Flow" 
 
-* DICOM_DCM_CodeSystem#122162 "Systemic Flow" 
+* DICOM_DCM_CodeSystem#122162 //"Systemic Flow" 
 

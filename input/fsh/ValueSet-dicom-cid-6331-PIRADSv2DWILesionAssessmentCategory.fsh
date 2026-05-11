@@ -9,15 +9,16 @@ PI-RADS v2 DWI Lesion Assessment Category
 * ^version = "20210714"
 * ^title = "PI-RADS v2 DWI Lesion Assessment Category"
 * ^name = "PIRADSv2DWILesionAssessmentCategory"
-* http://www.radlex.org#RID50314 "PI-RADS 1 - DWI Very low" 
+* ^experimental = false
+* http://www.radlex.org#RID50314 //"PI-RADS 1 - DWI Very low" 
 
-* http://www.radlex.org#RID50315 "PI-RADS 2 - DWI Low" 
+* http://www.radlex.org#RID50315 //"PI-RADS 2 - DWI Low" 
 
-* http://www.radlex.org#RID50316 "PI-RADS 3 - DWI Intermediate" 
+* http://www.radlex.org#RID50316 //"PI-RADS 3 - DWI Intermediate" 
 
-* http://www.radlex.org#RID50317 "PI-RADS 4 - DWI High" 
+* http://www.radlex.org#RID50317 //"PI-RADS 4 - DWI High" 
 
-* http://www.radlex.org#RID50318 "PI-RADS 5 - DWI Very high" 
+* http://www.radlex.org#RID50318 //"PI-RADS 5 - DWI Very high" 
 
-* http://www.radlex.org#RID50326 "PI-RADS X - DWI Inadequate or absent" 
+* http://www.radlex.org#RID50326 //"PI-RADS X - DWI Inadequate or absent" 
 

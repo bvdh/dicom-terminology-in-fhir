@@ -9,6 +9,7 @@ Cardiac Ultrasound Venous Return Pulmonary Measurement
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Venous Return Pulmonary Measurement"
 * ^name = "CardiacUltrasoundVenousReturnPulmonaryMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12261
 
 * include codes from valueset CID_12262

@@ -9,11 +9,12 @@ ComplicationSeverity
 * ^version = "20040112"
 * ^title = "Complication Severity"
 * ^name = "ComplicationSeverity"
-* http://snomed.info/sct#255603008 "Major" 
-* http://snomed.info/srt#R-404F9 "Major" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205164 "Major" 
+* ^experimental = false
+* http://snomed.info/sct#255603008 //"Major" 
+* http://snomed.info/srt#R-404F9 //"Major" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205164 //"Major" 
 
-* http://snomed.info/sct#255606000 "Minor" 
-* http://snomed.info/srt#R-404FC "Minor" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205165 "Minor" 
+* http://snomed.info/sct#255606000 //"Minor" 
+* http://snomed.info/srt#R-404FC //"Minor" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205165 //"Minor" 
 

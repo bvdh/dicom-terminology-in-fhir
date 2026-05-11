@@ -9,7 +9,8 @@ Anatomic Region for Mammography
 * ^version = "20020904"
 * ^title = "Anatomic Region for Mammography"
 * ^name = "AnatomicRegionForMammography"
-* http://snomed.info/sct#76752008 "Breast" 
-* http://snomed.info/srt#T-04000 "Breast" 
-* http://terminology.hl7.org/CodeSystem/umls#C0006141 "Breast" 
+* ^experimental = false
+* http://snomed.info/sct#76752008 //"Breast" 
+* http://snomed.info/srt#T-04000 //"Breast" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0006141 //"Breast" 
 

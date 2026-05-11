@@ -9,15 +9,16 @@ Ventilation
 * ^version = "20030327"
 * ^title = "Ventilation"
 * ^name = "Ventilation"
-* http://snomed.info/sct#371785003 "Ambu Bag" 
-* http://snomed.info/srt#R-002CC "Ambu Bag" 
-* http://terminology.hl7.org/CodeSystem/umls#C0221812 "Ambu Bag" 
+* ^experimental = false
+* http://snomed.info/sct#371785003 //"Ambu Bag" 
+* http://snomed.info/srt#R-002CC //"Ambu Bag" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0221812 //"Ambu Bag" 
 
-* http://snomed.info/sct#371786002 "Pressure Support Ventilator" 
-* http://snomed.info/srt#R-00359 "Pressure Support Ventilator" 
-* http://terminology.hl7.org/CodeSystem/umls#C1299420 "Pressure Support Ventilator" 
+* http://snomed.info/sct#371786002 //"Pressure Support Ventilator" 
+* http://snomed.info/srt#R-00359 //"Pressure Support Ventilator" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1299420 //"Pressure Support Ventilator" 
 
-* http://snomed.info/sct#371787006 "Volume Support Ventilator" 
-* http://snomed.info/srt#R-0038C "Volume Support Ventilator" 
-* http://terminology.hl7.org/CodeSystem/umls#C1299421 "Volume Support Ventilator" 
+* http://snomed.info/sct#371787006 //"Volume Support Ventilator" 
+* http://snomed.info/srt#R-0038C //"Volume Support Ventilator" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1299421 //"Volume Support Ventilator" 
 

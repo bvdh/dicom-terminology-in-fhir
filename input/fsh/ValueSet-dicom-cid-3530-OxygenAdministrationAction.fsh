@@ -9,7 +9,8 @@ Oxygen Administration Action
 * ^version = "20030327"
 * ^title = "Oxygen Administration Action"
 * ^name = "OxygenAdministrationAction"
-* DICOM_DCM_CodeSystem#121161 "Begin oxygen administration" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121161 //"Begin oxygen administration" 
 
-* DICOM_DCM_CodeSystem#121162 "End oxygen administration" 
+* DICOM_DCM_CodeSystem#121162 //"End oxygen administration" 
 

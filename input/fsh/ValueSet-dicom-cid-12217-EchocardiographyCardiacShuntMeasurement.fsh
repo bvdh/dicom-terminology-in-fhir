@@ -9,8 +9,9 @@ Echocardiography Cardiac Shunt Measurement
 * ^version = "20030918"
 * ^title = "Echocardiography Cardiac Shunt Measurement"
 * ^name = "EchocardiographyCardiacShuntMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
-* http://loinc.org#29462-9 "Pulmonary-to-Systemic Shunt Flow Ratio" 
-* http://terminology.hl7.org/CodeSystem/umls#C0944910 "Pulmonary-to-Systemic Shunt Flow Ratio" 
+* http://loinc.org#29462-9 //"Pulmonary-to-Systemic Shunt Flow Ratio" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0944910 //"Pulmonary-to-Systemic Shunt Flow Ratio" 
 

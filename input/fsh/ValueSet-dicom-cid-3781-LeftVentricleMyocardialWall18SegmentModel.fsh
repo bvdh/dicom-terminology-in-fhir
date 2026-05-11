@@ -9,6 +9,7 @@ Left Ventricle Myocardial Wall 18 Segment Model
 * ^version = "20210904"
 * ^title = "Left Ventricle Myocardial Wall 18 Segment Model"
 * ^name = "LeftVentricleMyocardialWall18SegmentModel"
+* ^experimental = false
 * include codes from valueset CID_3782
 
 * include codes from valueset CID_3783

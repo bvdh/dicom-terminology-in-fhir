@@ -9,7 +9,8 @@ Purpose of Reference to Predecessor 3D Model
 * ^version = "20180403"
 * ^title = "Purpose of Reference to Predecessor 3D Model"
 * ^name = "PurposeOfReferenceToPredecessor3DModel"
-* DICOM_DCM_CodeSystem#129010 "Edited Model" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#129010 //"Edited Model" 
 
-* DICOM_DCM_CodeSystem#129011 "Component Model" 
+* DICOM_DCM_CodeSystem#129011 //"Component Model" 
 

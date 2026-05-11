@@ -9,9 +9,10 @@ Ultrasound Transducer Beam Steering
 * ^version = "20090409"
 * ^title = "Ultrasound Transducer Beam Steering"
 * ^name = "UltrasoundTransducerBeamSteering"
-* DICOM_DCM_CodeSystem#125257 "Fixed beam direction" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#125257 //"Fixed beam direction" 
 
-* DICOM_DCM_CodeSystem#125258 "Mechanical beam steering" 
+* DICOM_DCM_CodeSystem#125258 //"Mechanical beam steering" 
 
-* DICOM_DCM_CodeSystem#125259 "Phased beam steering" 
+* DICOM_DCM_CodeSystem#125259 //"Phased beam steering" 
 

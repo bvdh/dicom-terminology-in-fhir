@@ -9,11 +9,12 @@ Framingham Table
 * ^version = "20030327"
 * ^title = "Framingham Table"
 * ^name = "FraminghamTable"
-* DICOM_DCM_CodeSystem#122233 "LDL Cholesterol Score Sheet for Men" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122233 //"LDL Cholesterol Score Sheet for Men" 
 
-* DICOM_DCM_CodeSystem#122234 "LDL Cholesterol Score Sheet for Women" 
+* DICOM_DCM_CodeSystem#122234 //"LDL Cholesterol Score Sheet for Women" 
 
-* DICOM_DCM_CodeSystem#122235 "Total Cholesterol Score Sheet for Men" 
+* DICOM_DCM_CodeSystem#122235 //"Total Cholesterol Score Sheet for Men" 
 
-* DICOM_DCM_CodeSystem#122236 "Total Cholesterol Score Sheet for Women" 
+* DICOM_DCM_CodeSystem#122236 //"Total Cholesterol Score Sheet for Women" 
 

@@ -9,7 +9,8 @@ Dose Measurement Device
 * ^version = "20051101"
 * ^title = "Dose Measurement Device"
 * ^name = "DoseMeasurementDevice"
-* http://snomed.info/sct#15869005 "Dosimeter" 
-* http://snomed.info/srt#A-2C090 "Dosimeter" 
-* http://terminology.hl7.org/CodeSystem/umls#C0180488 "Dosimeter" 
+* ^experimental = false
+* http://snomed.info/sct#15869005 //"Dosimeter" 
+* http://snomed.info/srt#A-2C090 //"Dosimeter" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0180488 //"Dosimeter" 
 

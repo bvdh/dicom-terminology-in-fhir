@@ -9,5 +9,6 @@ Endothelial Cell Count Measurements
 * ^version = "20250707"
 * ^title = "Endothelial Cell Count Measurements"
 * ^name = "EndothelialCellCountMeasurements"
-* DICOM_DCM_CodeSystem#131309 "Endothelial cell density" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#131309 //"Endothelial cell density" 
 

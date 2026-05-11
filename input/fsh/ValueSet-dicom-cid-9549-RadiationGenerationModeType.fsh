@@ -9,9 +9,10 @@ Radiation Generation Mode Type
 * ^version = "20190715"
 * ^title = "Radiation Generation Mode Type"
 * ^name = "RadiationGenerationModeType"
-* DICOM_DCM_CodeSystem#130355 "Flattening Filter Beam" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130355 //"Flattening Filter Beam" 
 
-* DICOM_DCM_CodeSystem#130356 "Non-Flattening Filter Beam" 
+* DICOM_DCM_CodeSystem#130356 //"Non-Flattening Filter Beam" 
 
-* DICOM_DCM_CodeSystem#130357 "Partial Flattening Filter Beam" 
+* DICOM_DCM_CodeSystem#130357 //"Partial Flattening Filter Beam" 
 

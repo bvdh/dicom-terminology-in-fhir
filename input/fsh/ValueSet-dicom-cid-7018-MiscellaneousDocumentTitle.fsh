@@ -9,5 +9,6 @@ Miscellaneous Document Title
 * ^version = "20170914"
 * ^title = "Miscellaneous Document Title"
 * ^name = "MiscellaneousDocumentTitle"
-* DICOM_DCM_CodeSystem#128712 "Additional Teaching File Information" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128712 //"Additional Teaching File Information" 
 

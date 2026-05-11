@@ -7,3 +7,4 @@ None
 * ^version = "None"
 * ^title = "Other Filters (Retired)"
 * ^name = "Cid3675"
+* ^experimental = false

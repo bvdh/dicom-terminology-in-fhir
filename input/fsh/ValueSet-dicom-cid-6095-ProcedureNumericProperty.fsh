@@ -9,7 +9,8 @@ Procedure Numeric Property
 * ^version = "20040112"
 * ^title = "Procedure Numeric Property"
 * ^name = "ProcedureNumericProperty"
-* DICOM_DCM_CodeSystem#111465 "Needle Gauge" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111465 //"Needle Gauge" 
 
-* DICOM_DCM_CodeSystem#111467 "Needle Length" 
+* DICOM_DCM_CodeSystem#111467 //"Needle Length" 
 

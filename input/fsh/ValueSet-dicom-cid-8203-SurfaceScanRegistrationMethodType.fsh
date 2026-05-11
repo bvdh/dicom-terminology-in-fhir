@@ -9,9 +9,10 @@ Surface Scan Registration Method Type
 * ^version = "20121129"
 * ^title = "Surface Scan Registration Method Type"
 * ^name = "SurfaceScanRegistrationMethodType"
-* DICOM_DCM_CodeSystem#114213 "Iterative Closest Point" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#114213 //"Iterative Closest Point" 
 
-* DICOM_DCM_CodeSystem#125022 "Fiducial Alignment" 
+* DICOM_DCM_CodeSystem#125022 //"Fiducial Alignment" 
 
-* DICOM_DCM_CodeSystem#114215 "Freehand" 
+* DICOM_DCM_CodeSystem#114215 //"Freehand" 
 

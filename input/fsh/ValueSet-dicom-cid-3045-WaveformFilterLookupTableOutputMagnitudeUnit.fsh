@@ -9,13 +9,14 @@ Waveform Filter Lookup Table Output Magnitude Unit
 * ^version = "20220630"
 * ^title = "Waveform Filter Lookup Table Output Magnitude Unit"
 * ^name = "WaveformFilterLookupTableOutputMagnitudeUnit"
-* http://unitsofmeasure.org#dB[uV] "dB(V)" 
+* ^experimental = false
+* http://unitsofmeasure.org#dB[uV] //"dB(V)" 
 
-* http://unitsofmeasure.org#dB[mV] "dB(mV)" 
+* http://unitsofmeasure.org#dB[mV] //"dB(mV)" 
 
-* DICOM_DCM_CodeSystem#130776 "Magnitude normalized" 
+* DICOM_DCM_CodeSystem#130776 //"Magnitude normalized" 
 
-* http://unitsofmeasure.org#mV "mV" 
+* http://unitsofmeasure.org#mV //"mV" 
 
-* http://unitsofmeasure.org#uV "V" 
+* http://unitsofmeasure.org#uV //"V" 
 

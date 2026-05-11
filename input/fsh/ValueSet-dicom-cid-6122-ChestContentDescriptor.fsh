@@ -9,19 +9,20 @@ Original source of terms is [Fraser and Pare].
 * ^version = "20200921"
 * ^title = "Chest Content Descriptor"
 * ^name = "ChestContentDescriptor"
-* DICOM_DCM_CodeSystem#112143 "Air" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112143 //"Air" 
 
-* http://snomed.info/sct#256674009 "Fat" 
-* http://snomed.info/srt#T-D008A "Fat" 
-* http://terminology.hl7.org/CodeSystem/umls#C0015677 "Fat" 
+* http://snomed.info/sct#256674009 //"Fat" 
+* http://snomed.info/srt#T-D008A //"Fat" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0015677 //"Fat" 
 
-* http://snomed.info/sct#87784001 "Soft tissue" 
-* http://snomed.info/srt#T-1A000 "Soft tissue" 
-* http://terminology.hl7.org/CodeSystem/umls#C0225317 "Soft tissue" 
+* http://snomed.info/sct#87784001 //"Soft tissue" 
+* http://snomed.info/srt#T-1A000 //"Soft tissue" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0225317 //"Soft tissue" 
 
-* DICOM_DCM_CodeSystem#112145 "Calcium" 
+* DICOM_DCM_CodeSystem#112145 //"Calcium" 
 
-* http://snomed.info/sct#19227008 "Foreign material (iodized oil, mercury,talc)" 
-* http://snomed.info/srt#M-30400 "Foreign material (iodized oil, mercury,talc)" 
-* http://terminology.hl7.org/CodeSystem/umls#C0016542 "Foreign material (iodized oil, mercury,talc)" 
+* http://snomed.info/sct#19227008 //"Foreign material (iodized oil, mercury,talc)" 
+* http://snomed.info/srt#M-30400 //"Foreign material (iodized oil, mercury,talc)" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0016542 //"Foreign material (iodized oil, mercury,talc)" 
 

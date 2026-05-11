@@ -9,6 +9,7 @@ Primary Anatomic Structure for Intra-oral and Craniofacial Radiography - Teeth
 * ^version = "20150318"
 * ^title = "Primary Anatomic Structure for Intra-oral and Craniofacial Radiography - Teeth"
 * ^name = "PrimaryAnatomicStructureForIntraoralAndCraniofacialRadiographyTeeth"
+* ^experimental = false
 * include codes from valueset CID_4018
 
 * include codes from valueset CID_4019

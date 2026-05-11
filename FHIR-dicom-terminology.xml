@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="ii" url="http://dicom.org/terminology/fhir/uv/">
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="ii" url="http://dicom.org/terminology/fhir/uv">
 <version code="current" url=""/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
@@ -85,6 +85,7 @@
 <artifact id="ValueSet/dicom-cid-3709-AorticRootDescription" key="ValueSet-dicom-cid-3709-AorticRootDescription" name="Aortic Root Description"/>
 <artifact id="ValueSet/dicom-cid-12242-AorticValveFindingSite" key="ValueSet-dicom-cid-12242-AorticValveFindingSite" name="Aortic Valve Finding Site"/>
 <artifact id="ValueSet/dicom-cid-12334-AorticValveStructuralMeasurement" key="ValueSet-dicom-cid-12334-AorticValveStructuralMeasurement" name="Aortic Valve Structural Measurement"/>
+<artifact id="ValueSet/dicom-cid-406-ApplicationTypeCode" key="ValueSet-dicom-cid-406-ApplicationTypeCode" name="Application Type Code"/>
 <artifact id="ValueSet/dicom-cid-7471-AreaMeasurement" key="ValueSet-dicom-cid-7471-AreaMeasurement" name="Area Measurement"/>
 <artifact id="ValueSet/dicom-cid-7461-AreaMeasurementUnit" key="ValueSet-dicom-cid-7461-AreaMeasurementUnit" name="Area Measurement Unit"/>
 <artifact id="ValueSet/dicom-cid-3529-ArterialVenousContent" key="ValueSet-dicom-cid-3529-ArterialVenousContent" name="Arterial / Venous Content"/>
@@ -158,7 +159,7 @@
 <artifact id="ValueSet/dicom-cid-6160-BreastPrimaryTumorAssessmentFromAJCC" key="ValueSet-dicom-cid-6160-BreastPrimaryTumorAssessmentFromAJCC" name="Breast Primary Tumor Assessment From AJCC"/>
 <artifact id="ValueSet/dicom-cid-6051-BreastProcedureReason" key="ValueSet-dicom-cid-6051-BreastProcedureReason" name="Breast Procedure Reason"/>
 <artifact id="ValueSet/dicom-cid-6050-BreastProcedureReported" key="ValueSet-dicom-cid-6050-BreastProcedureReported" name="Breast Procedure Reported"/>
-<artifact id="ValueSet/dicom-cid7163" key="ValueSet-dicom-cid7163" name="Breast Segmentation Types"/>
+<artifact id="ValueSet/dicom-cid7163" key="ValueSet-dicom-cid7163" name="Breast Tissue Segmentation Type"/>
 <artifact id="ValueSet/dicom-cid-8104-BreastTissueSpecimenType" key="ValueSet-dicom-cid-8104-BreastTissueSpecimenType" name="Breast Tissue Specimen Type"/>
 <artifact id="ValueSet/dicom-cid-7480-Breed" key="ValueSet-dicom-cid-7480-Breed" name="Breed"/>
 <artifact id="ValueSet/dicom-cid-7481-BreedRegistry" key="ValueSet-dicom-cid-7481-BreedRegistry" name="Breed Registry"/>
@@ -542,6 +543,7 @@
 <artifact id="ValueSet/dicom-cid-12015-FetalGrowthEquationTable" key="ValueSet-dicom-cid-12015-FetalGrowthEquationTable" name="Fetal Growth Equation/Table"/>
 <artifact id="ValueSet/dicom-cid-12021-FetalLongBoneAnatomicSite" key="ValueSet-dicom-cid-12021-FetalLongBoneAnatomicSite" name="Fetal Long Bone Anatomic Site"/>
 <artifact id="ValueSet/dicom-cid-12006-FetalLongBonesBiometryMeasurement" key="ValueSet-dicom-cid-12006-FetalLongBonesBiometryMeasurement" name="Fetal Long Bones Biometry Measurement"/>
+<artifact id="ValueSet/dicom-cid-12028-FetalUltrasoundZScoreReferenceAuthority" key="ValueSet-dicom-cid-12028-FetalUltrasoundZScoreReferenceAuthority" name="Fetal Ultrasound Z-Score Reference Authority"/>
 <artifact id="ValueSet/dicom-cid-12141-FetalVasculatureAnatomicalLocation" key="ValueSet-dicom-cid-12141-FetalVasculatureAnatomicalLocation" name="Fetal Vasculature Anatomical Location"/>
 <artifact id="ValueSet/dicom-cid-7701-FiberTractInBrainstem" key="ValueSet-dicom-cid-7701-FiberTractInBrainstem" name="Fiber Tract In Brainstem"/>
 <artifact id="ValueSet/dicom-cid-640-Fibril" key="ValueSet-dicom-cid-640-Fibril" name="Fibril"/>
@@ -826,6 +828,7 @@
 <artifact id="ValueSet/dicom-cid-623-MedicationForSmallAnimalAnesthesia" key="ValueSet-dicom-cid-623-MedicationForSmallAnimalAnesthesia" name="Medication for Small Animal Anesthesia"/>
 <artifact id="ValueSet/dicom-cid-6086-MenopausalPhase" key="ValueSet-dicom-cid-6086-MenopausalPhase" name="Menopausal Phase"/>
 <artifact id="ValueSet/dicom-cid-6163-MenstrualCyclePhase" key="ValueSet-dicom-cid-6163-MenstrualCyclePhase" name="Menstrual Cycle Phase"/>
+<artifact id="ValueSet/dicom-cid-10036-MetalArtifactReductionAlgorithmFamily" key="ValueSet-dicom-cid-10036-MetalArtifactReductionAlgorithmFamily" name="Metal Artifact Reduction Algorithm Family"/>
 <artifact id="ValueSet/dicom-cid-8135-MicroscopyAnnotationPropertyType" key="ValueSet-dicom-cid-8135-MicroscopyAnnotationPropertyType" name="Microscopy Annotation Property Type"/>
 <artifact id="ValueSet/dicom-cid-8124-MicroscopyFilter" key="ValueSet-dicom-cid-8124-MicroscopyFilter" name="Microscopy Filter"/>
 <artifact id="ValueSet/dicom-cid-8123-MicroscopyIlluminationMethod" key="ValueSet-dicom-cid-8123-MicroscopyIlluminationMethod" name="Microscopy Illumination Method"/>
@@ -1124,6 +1127,7 @@
 <artifact id="ValueSet/dicom-cid-6021-QuadrantLocationFromBIRADS" key="ValueSet-dicom-cid-6021-QuadrantLocationFromBIRADS" name="Quadrant Location from BI-RADS"/>
 <artifact id="ValueSet/dicom-cid-210-QualitativeEvaluationModifierType" key="ValueSet-dicom-cid-210-QualitativeEvaluationModifierType" name="Qualitative Evaluation Modifier Type"/>
 <artifact id="ValueSet/dicom-cid-211-QualitativeEvaluationModifierValue" key="ValueSet-dicom-cid-211-QualitativeEvaluationModifierValue" name="Qualitative Evaluation Modifier Value"/>
+<artifact id="ValueSet/dicom-cid-7164-QualitySegmentationPropertyType" key="ValueSet-dicom-cid-7164-QualitySegmentationPropertyType" name="Quality Segmentation Property Type"/>
 <artifact id="ValueSet/dicom-cid-100-QuantitativeDiagnosticImagingProcedure" key="ValueSet-dicom-cid-100-QuantitativeDiagnosticImagingProcedure" name="Quantitative Diagnostic Imaging Procedure"/>
 <artifact id="ValueSet/dicom-cid-218-QuantitativeImageFeature" key="ValueSet-dicom-cid-218-QuantitativeImageFeature" name="Quantitative Image Feature"/>
 <artifact id="ValueSet/dicom-cid-4106-QuantitativeMethodUsedForPerfusionAndTracerKineti" key="ValueSet-dicom-cid-4106-QuantitativeMethodUsedForPerfusionAndTracerKineti" name="Quantitative Method Used for Perfusion and Tracer Kinetic Model"/>
@@ -1178,6 +1182,10 @@
 <artifact id="ValueSet/dicom-cid-9516-RadiotherapyBolusDeviceType" key="ValueSet-dicom-cid-9516-RadiotherapyBolusDeviceType" name="Radiotherapy Bolus Device Type"/>
 <artifact id="ValueSet/dicom-cid-9544-RadiotherapyDistanceReferenceLocation" key="ValueSet-dicom-cid-9544-RadiotherapyDistanceReferenceLocation" name="Radiotherapy Distance Reference Location"/>
 <artifact id="ValueSet/dicom-cid-9535-RadiotherapyDoseCalculationRole" key="ValueSet-dicom-cid-9535-RadiotherapyDoseCalculationRole" name="Radiotherapy Dose Calculation Role"/>
+<artifact id="ValueSet/dicom-cid-9589-RadiotherapyDoseIntentCodes" key="ValueSet-dicom-cid-9589-RadiotherapyDoseIntentCodes" name="Radiotherapy Dose Intent Codes"/>
+<artifact id="ValueSet/dicom-cid-9587-RadiotherapyDoseInterpretedTypeCodes" key="ValueSet-dicom-cid-9587-RadiotherapyDoseInterpretedTypeCodes" name="Radiotherapy Dose Interpreted Type Codes"/>
+<artifact id="ValueSet/dicom-cid-9588-RadiotherapyDoseInterpretedTypeModifierCodes" key="ValueSet-dicom-cid-9588-RadiotherapyDoseInterpretedTypeModifierCodes" name="Radiotherapy Dose Interpreted Type Modifier Codes"/>
+<artifact id="ValueSet/dicom-cid-9586-RadiotherapyDoseRealWorldUnits" key="ValueSet-dicom-cid-9586-RadiotherapyDoseRealWorldUnits" name="Radiotherapy Dose Real World Units"/>
 <artifact id="ValueSet/dicom-cid-9582-RadiotherapyDoseRegion" key="ValueSet-dicom-cid-9582-RadiotherapyDoseRegion" name="Radiotherapy Dose Region"/>
 <artifact id="ValueSet/dicom-cid-7112-RadiotherapyFiducial" key="ValueSet-dicom-cid-7112-RadiotherapyFiducial" name="Radiotherapy Fiducial"/>
 <artifact id="ValueSet/dicom-cid-9241-RadiotherapyGeneralWorkitemDefinition" key="ValueSet-dicom-cid-9241-RadiotherapyGeneralWorkitemDefinition" name="Radiotherapy General Workitem Definition"/>
@@ -1253,6 +1261,8 @@
 <artifact id="ValueSet/dicom-cid-9520-SegmentedRTAccessoryDevice" key="ValueSet-dicom-cid-9520-SegmentedRTAccessoryDevice" name="Segmented RT Accessory Device"/>
 <artifact id="ValueSet/dicom-cid-7027-SegmentedRadiotherapeuticDoseMeasurementDevice" key="ValueSet-dicom-cid-7027-SegmentedRadiotherapeuticDoseMeasurementDevice" name="Segmented Radiotherapeutic Dose Measurement Device"/>
 <artifact id="ValueSet/dicom-cid-224-SelectionMethod" key="ValueSet-dicom-cid-224-SelectionMethod" name="Selection Method"/>
+<artifact id="ValueSet/dicom-cid-900-SensitiveContentCategory" key="ValueSet-dicom-cid-900-SensitiveContentCategory" name="Sensitive Content Category"/>
+<artifact id="ValueSet/dicom-cid-901-SensitiveContentDetail" key="ValueSet-dicom-cid-901-SensitiveContentDetail" name="Sensitive Content Detail"/>
 <artifact id="ValueSet/dicom-cid-3716-Severity" key="ValueSet-dicom-cid-3716-Severity" name="Severity"/>
 <artifact id="ValueSet/dicom-cid-6130-SeverityDescriptor" key="ValueSet-dicom-cid-6130-SeverityDescriptor" name="Severity Descriptor"/>
 <artifact id="ValueSet/dicom-cid-7455-Sex" key="ValueSet-dicom-cid-7455-Sex" name="Sex"/>
@@ -1394,6 +1404,7 @@
 <artifact id="ValueSet/dicom-cid-12034-UltrasoundTransducerBeamSteering" key="ValueSet-dicom-cid-12034-UltrasoundTransducerBeamSteering" name="Ultrasound Transducer Beam Steering"/>
 <artifact id="ValueSet/dicom-cid-12033-UltrasoundTransducerGeometry" key="ValueSet-dicom-cid-12033-UltrasoundTransducerGeometry" name="Ultrasound Transducer Geometry"/>
 <artifact id="ValueSet/dicom-cid-11003-UltrasoundTransducerTechnology" key="ValueSet-dicom-cid-11003-UltrasoundTransducerTechnology" name="Ultrasound Transducer Technology"/>
+<artifact id="ValueSet/dicom-cid-12027-UltrasoundZScorePopulationIndex" key="ValueSet-dicom-cid-12027-UltrasoundZScorePopulationIndex" name="Ultrasound Z-Score Population Index"/>
 <artifact id="ValueSet/dicom-cid-12107-UpperExtremityArtery" key="ValueSet-dicom-cid-12107-UpperExtremityArtery" name="Upper Extremity Artery"/>
 <artifact id="ValueSet/dicom-cid-12108-UpperExtremityVein" key="ValueSet-dicom-cid-12108-UpperExtremityVein" name="Upper Extremity Vein"/>
 <artifact id="ValueSet/dicom-cid-6092-UsageExposureQualitativeConcept" key="ValueSet-dicom-cid-6092-UsageExposureQualitativeConcept" name="Usage/Exposure Qualitative Concept"/>
@@ -1477,6 +1488,7 @@
 <artifact id="ValueSet/dicom-cid-10006-XRayFilterMaterial" key="ValueSet-dicom-cid-10006-XRayFilterMaterial" name="X-Ray Filter Material"/>
 <artifact id="ValueSet/dicom-cid-10007-XRayFilterType" key="ValueSet-dicom-cid-10007-XRayFilterType" name="X-Ray Filter Type"/>
 <artifact id="ValueSet/dicom-cid-10017-XRayGrid" key="ValueSet-dicom-cid-10017-XRayGrid" name="X-Ray Grid"/>
+<artifact id="ValueSet/dicom-cid-10035-XRayModulationType" key="ValueSet-dicom-cid-10035-XRayModulationType" name="X-Ray Modulation Type"/>
 <artifact id="ValueSet/dicom-cid-10005-XRayRadiationDoseProcedureTypeReported" key="ValueSet-dicom-cid-10005-XRayRadiationDoseProcedureTypeReported" name="X-Ray Radiation Dose Procedure Type Reported"/>
 <artifact id="ValueSet/dicom-cid-4042-XAXRFAnatomyImaged" key="ValueSet-dicom-cid-4042-XAXRFAnatomyImaged" name="XA/XRF Anatomy Imaged"/>
 <artifact id="ValueSet/dicom-cid3264" key="ValueSet-dicom-cid3264" name="XYZ Electrode Placement Values (Retired)"/>

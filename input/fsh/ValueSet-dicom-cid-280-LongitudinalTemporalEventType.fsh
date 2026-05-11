@@ -9,9 +9,10 @@ Longitudinal Temporal Event Type
 * ^version = "20241110"
 * ^title = "Longitudinal Temporal Event Type"
 * ^name = "LongitudinalTemporalEventType"
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C37948 "Enrollment" 
-* http://terminology.hl7.org/CodeSystem/umls#C1516879 "Enrollment" 
+* ^experimental = false
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C37948 //"Enrollment" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1516879 //"Enrollment" 
 
-* http://terminology.hl7.org/CodeSystem/umls#C1442488 "Baseline" 
-// * http://terminology.hl7.org/CodeSystem/umls#C1442488 "Baseline" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1442488 //"Baseline" 
+// * http://terminology.hl7.org/CodeSystem/umls/sab#C1442488 "Baseline" 
 

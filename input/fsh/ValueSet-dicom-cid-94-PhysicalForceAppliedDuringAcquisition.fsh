@@ -9,15 +9,16 @@ Physical Force Applied During Acquisition
 * ^version = "20100625"
 * ^title = "Physical Force Applied During Acquisition"
 * ^name = "PhysicalForceAppliedDuringAcquisition"
-* http://snomed.info/sct#129411004 "Traction - action" 
-* http://snomed.info/srt#P0-02160 "Traction - action" 
-* http://terminology.hl7.org/CodeSystem/umls#C0040597 "Traction - action" 
+* ^experimental = false
+* http://snomed.info/sct#129411004 //"Traction - action" 
+* http://snomed.info/srt#P0-02160 //"Traction - action" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0040597 //"Traction - action" 
 
-* http://snomed.info/sct#263720003 "Compression - action" 
-* http://snomed.info/srt#P0-021B2 "Compression - action" 
-* http://terminology.hl7.org/CodeSystem/umls#C0565514 "Compression - action" 
+* http://snomed.info/sct#263720003 //"Compression - action" 
+* http://snomed.info/srt#P0-021B2 //"Compression - action" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0565514 //"Compression - action" 
 
-* http://snomed.info/sct#257912008 "Rotation - action" 
-* http://snomed.info/srt#P0-021AB "Rotation - action" 
-* http://terminology.hl7.org/CodeSystem/umls#C0677597 "Rotation - action" 
+* http://snomed.info/sct#257912008 //"Rotation - action" 
+* http://snomed.info/srt#P0-021AB //"Rotation - action" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0677597 //"Rotation - action" 
 

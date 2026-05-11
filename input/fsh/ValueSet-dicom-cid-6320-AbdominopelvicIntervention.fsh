@@ -9,20 +9,21 @@ Abdominopelvic Intervention
 * ^version = "20230630"
 * ^title = "Abdominopelvic Intervention"
 * ^name = "AbdominopelvicIntervention"
-* http://snomed.info/sct#609638001 "Operation on pelvic region of trunk" 
-* http://snomed.info/srt#P1-12033 "Operation on pelvic region of trunk" 
-* http://terminology.hl7.org/CodeSystem/umls#C0186080 "Operation on pelvic region of trunk" 
+* ^experimental = false
+* http://snomed.info/sct#609638001 //"Operation on pelvic region of trunk" 
+* http://snomed.info/srt#P1-12033 //"Operation on pelvic region of trunk" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0186080 //"Operation on pelvic region of trunk" 
 
-* http://snomed.info/sct#90470006 "Prostatectomy" 
-* http://snomed.info/srt#P1-78320 "Prostatectomy" 
-* http://terminology.hl7.org/CodeSystem/umls#C0033573 "Prostatectomy" 
+* http://snomed.info/sct#90470006 //"Prostatectomy" 
+* http://snomed.info/srt#P1-78320 //"Prostatectomy" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0033573 //"Prostatectomy" 
 
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15215 "Cryoablation" 
-* http://terminology.hl7.org/CodeSystem/umls#C0010408 "Cryoablation" 
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15215 //"Cryoablation" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0010408 //"Cryoablation" 
 
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131483 "Irreversible electroporation" 
-* http://terminology.hl7.org/CodeSystem/umls#C4319935 "Irreversible electroporation" 
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131483 //"Irreversible electroporation" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C4319935 //"Irreversible electroporation" 
 
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68681 "Focused ultrasound ablation" 
-* http://terminology.hl7.org/CodeSystem/umls#C2348970 "Focused ultrasound ablation" 
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68681 //"Focused ultrasound ablation" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2348970 //"Focused ultrasound ablation" 
 

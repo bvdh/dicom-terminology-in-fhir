@@ -9,20 +9,21 @@ RT ROI Image Acquisition Context
 * ^version = "20240114"
 * ^title = "RT ROI Image Acquisition Context"
 * ^name = "RTROIImageAcquisitionContext"
+* ^experimental = false
 * include codes from valueset CID_3823
 
-* DICOM_DCM_CodeSystem#109134 "Prior to voiding" 
+* DICOM_DCM_CodeSystem#109134 //"Prior to voiding" 
 
-* DICOM_DCM_CodeSystem#109135 "Post voiding" 
+* DICOM_DCM_CodeSystem#109135 //"Post voiding" 
 
-* http://snomed.info/sct#249602003 "Full Rectum" 
-* http://snomed.info/srt#F-5012D "Full Rectum" 
+* http://snomed.info/sct#249602003 //"Full Rectum" 
+* http://snomed.info/srt#F-5012D //"Full Rectum" 
 
-* http://snomed.info/sct#249599008 "Empty Rectum" 
-* http://snomed.info/srt#F-5012A "Empty Rectum" 
+* http://snomed.info/sct#249599008 //"Empty Rectum" 
+* http://snomed.info/srt#F-5012A //"Empty Rectum" 
 
-* DICOM_DCM_CodeSystem#130833 "Pre-surgical anatomy" 
+* DICOM_DCM_CodeSystem#130833 //"Pre-surgical anatomy" 
 
-* http://snomed.info/sct#245849007 "Post-surgical anatomy" 
-* http://snomed.info/srt#T-D0169 "Post-surgical anatomy" 
+* http://snomed.info/sct#245849007 //"Post-surgical anatomy" 
+* http://snomed.info/srt#T-D0169 //"Post-surgical anatomy" 
 

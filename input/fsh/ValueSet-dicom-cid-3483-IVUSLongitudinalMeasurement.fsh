@@ -9,15 +9,16 @@ IVUS Longitudinal Measurement
 * ^version = "20050110"
 * ^title = "IVUS Longitudinal Measurement"
 * ^name = "IVUSLongitudinalMeasurement"
-* http://snomed.info/sct#408703009 "Stent Length" 
-* http://snomed.info/srt#R-101B0 "Stent Length" 
-* http://terminology.hl7.org/CodeSystem/umls#C1443253 "Stent Length" 
+* ^experimental = false
+* http://snomed.info/sct#408703009 //"Stent Length" 
+* http://snomed.info/srt#R-101B0 //"Stent Length" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1443253 //"Stent Length" 
 
-* http://snomed.info/sct#408716009 "Stenotic Lesion Length" 
-* http://snomed.info/srt#R-101BC "Stenotic Lesion Length" 
-* http://terminology.hl7.org/CodeSystem/umls#C1443266 "Stenotic Lesion Length" 
+* http://snomed.info/sct#408716009 //"Stenotic Lesion Length" 
+* http://snomed.info/srt#R-101BC //"Stenotic Lesion Length" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1443266 //"Stenotic Lesion Length" 
 
-* DICOM_DCM_CodeSystem#122341 "Calcium Length" 
+* DICOM_DCM_CodeSystem#122341 //"Calcium Length" 
 
-* DICOM_DCM_CodeSystem#122364 "Stent Gap" 
+* DICOM_DCM_CodeSystem#122364 //"Stent Gap" 
 

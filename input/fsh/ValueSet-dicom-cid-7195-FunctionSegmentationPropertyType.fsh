@@ -9,5 +9,6 @@ Function Segmentation Property Type
 * ^version = "20170914"
 * ^title = "Function Segmentation Property Type"
 * ^name = "FunctionSegmentationPropertyType"
+* ^experimental = false
 * include codes from valueset CID_7161
 

@@ -9,11 +9,12 @@ Cardiac Volume Measurement
 * ^version = "20051103"
 * ^title = "Cardiac Volume Measurement"
 * ^name = "CardiacVolumeMeasurement"
+* ^experimental = false
 * include codes from valueset CID_3468
 
 * include codes from valueset CID_3469
 
-* http://snomed.info/sct#90096001 "Stroke Volume" 
-* http://snomed.info/srt#F-32120 "Stroke Volume" 
-* http://terminology.hl7.org/CodeSystem/umls#C0038455 "Stroke Volume" 
+* http://snomed.info/sct#90096001 //"Stroke Volume" 
+* http://snomed.info/srt#F-32120 //"Stroke Volume" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0038455 //"Stroke Volume" 
 

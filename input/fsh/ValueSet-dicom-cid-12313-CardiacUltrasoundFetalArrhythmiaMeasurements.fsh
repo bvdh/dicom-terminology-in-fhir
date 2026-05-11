@@ -9,11 +9,12 @@ Cardiac Ultrasound Fetal Arrhythmia Measurements
 * ^version = "20240920"
 * ^title = "Cardiac Ultrasound Fetal Arrhythmia Measurements"
 * ^name = "CardiacUltrasoundFetalArrhythmiaMeasurements"
-* urn:iso:std:iso:11073:10101#2:16020 "Atrial Heart Rate" 
+* ^experimental = false
+* urn:iso:std:iso:11073:10101#2:16020 //"Atrial Heart Rate" 
 
-* urn:iso:std:iso:11073:10101#2:16016 "Ventricular Heart Rate" 
+* urn:iso:std:iso:11073:10101#2:16016 //"Ventricular Heart Rate" 
 
-* DICOM_DCM_CodeSystem#131002 "Atrioventricular time interval" 
+* DICOM_DCM_CodeSystem#131002 //"Atrioventricular time interval" 
 
-* DICOM_DCM_CodeSystem#131001 "Ventriculoatrial time interval" 
+* DICOM_DCM_CodeSystem#131001 //"Ventriculoatrial time interval" 
 

@@ -9,7 +9,8 @@ Image Quality Control Standard
 * ^version = "20210714"
 * ^title = "Image Quality Control Standard"
 * ^name = "ImageQualityControlStandard"
-* DICOM_DCM_CodeSystem#111240 "Institutionally defined quality control standard" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111240 //"Institutionally defined quality control standard" 
 
 * include codes from valueset CID_6353
 

@@ -9,27 +9,28 @@ The Macular grid measurement concepts, based on the ETDRS grid, are included in 
 * ^version = "20250707"
 * ^title = "Macular Thickness Key Measurements"
 * ^name = "MacularThicknessKeyMeasurements"
-* http://loinc.org#57108-3 "Macular grid.center point thickness by OCT" 
+* ^experimental = false
+* http://loinc.org#57108-3 //"Macular Grid.Center Point Thickness" 
 
-* http://loinc.org#57109-1 "Macular grid.center subfield thickness by OCT" 
+* http://loinc.org#57109-1 //"Macular Grid.Center Subfield Thickness" 
 
-* http://loinc.org#57110-9 "Macular grid.inner superior subfield thickness by OCT" 
+* http://loinc.org#57110-9 //"Macular Grid.Inner Superior Subfield Thickness" 
 
-* http://loinc.org#57111-7 "Macular grid.inner nasal subfield thickness by OCT" 
+* http://loinc.org#57111-7 //"Macular Grid.Inner Nasal Subfield Thickness" 
 
-* http://loinc.org#57112-5 "Macular grid.inner inferior subfield thickness by OCT" 
+* http://loinc.org#57112-5 //"Macular Grid.Inner Inferior Subfield Thickness" 
 
-* http://loinc.org#57113-3 "Macular grid.inner temporal subfield thickness by OCT" 
+* http://loinc.org#57113-3 //"Macular Grid.Inner Temporal Subfield Thickness" 
 
-* http://loinc.org#57114-1 "Macular grid.outer superior subfield thickness by OCT" 
+* http://loinc.org#57114-1 //"Macular Grid.Outer Superior Subfield Thickness" 
 
-* http://loinc.org#57115-8 "Macular grid.outer nasal subfield thickness by OCT" 
+* http://loinc.org#57115-8 //"Macular Grid.Outer Nasal Subfield Thickness" 
 
-* http://loinc.org#57116-6 "Macular grid.outer inferior subfield thickness by OCT" 
+* http://loinc.org#57116-6 //"Macular Grid.Outer Inferior Subfield Thickness" 
 
-* http://loinc.org#57117-4 "Macular grid.outer temporal subfield thickness by OCT" 
+* http://loinc.org#57117-4 //"Macular Grid.Outer Temporal Subfield Thickness" 
 
-* http://loinc.org#57118-2 "Macular grid.total volume by OCT" 
+* http://loinc.org#57118-2 //"Macular Grid.Total Volume" 
 
-* DICOM_DCM_CodeSystem#131255 "Average macular thickness" 
+* DICOM_DCM_CodeSystem#131255 //"Average macular thickness" 
 

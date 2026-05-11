@@ -9,3 +9,4 @@ None
 * ^version = "Not versioned"
 * ^title = "ICD-10-PCS Nuclear Medicine Procedure"
 * ^name = "Cid106"
+* ^experimental = false

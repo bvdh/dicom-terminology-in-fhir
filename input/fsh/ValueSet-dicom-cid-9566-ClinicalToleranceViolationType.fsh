@@ -9,9 +9,10 @@ Clinical Tolerance Violation Type
 * ^version = "20200624"
 * ^title = "Clinical Tolerance Violation Type"
 * ^name = "ClinicalToleranceViolationType"
-* DICOM_DCM_CodeSystem#130468 "Beam Targeting Tolerance Violation" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130468 //"Beam Targeting Tolerance Violation" 
 
-* DICOM_DCM_CodeSystem#130469 "Meterset Tolerance Violation" 
+* DICOM_DCM_CodeSystem#130469 //"Meterset Tolerance Violation" 
 
-* DICOM_DCM_CodeSystem#130470 "Delivery Rate Tolerance Violation" 
+* DICOM_DCM_CodeSystem#130470 //"Delivery Rate Tolerance Violation" 
 

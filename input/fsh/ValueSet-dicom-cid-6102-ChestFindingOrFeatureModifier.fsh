@@ -9,6 +9,7 @@ Chest Finding or Feature Modifier
 * ^version = "20030108"
 * ^title = "Chest Finding or Feature Modifier"
 * ^name = "ChestFindingOrFeatureModifier"
+* ^experimental = false
 * include codes from valueset CID_6103
 
 * include codes from valueset CID_6104

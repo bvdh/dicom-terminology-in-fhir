@@ -9,11 +9,12 @@ Stenosis Shape
 * ^version = "20051103"
 * ^title = "Stenosis Shape"
 * ^name = "StenosisShape"
-* http://snomed.info/sct#255465008 "concentric" 
-* http://snomed.info/srt#R-4047B "concentric" 
-* http://terminology.hl7.org/CodeSystem/umls#C0439744 "concentric" 
+* ^experimental = false
+* http://snomed.info/sct#255465008 //"concentric" 
+* http://snomed.info/srt#R-4047B //"concentric" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0439744 //"concentric" 
 
-* http://snomed.info/sct#255380003 "eccentric" 
-* http://snomed.info/srt#R-40416 "eccentric" 
-* http://terminology.hl7.org/CodeSystem/umls#C0439740 "eccentric" 
+* http://snomed.info/sct#255380003 //"eccentric" 
+* http://snomed.info/srt#R-40416 //"eccentric" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0439740 //"eccentric" 
 

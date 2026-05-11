@@ -9,11 +9,12 @@ Stent Composition
 * ^version = "20051103"
 * ^title = "Stent Composition"
 * ^name = "StentComposition"
-* http://snomed.info/sct#257363003 "metal stent" 
-* http://snomed.info/srt#A-25502 "metal stent" 
-* http://terminology.hl7.org/CodeSystem/umls#C0441290 "metal stent" 
+* ^experimental = false
+* http://snomed.info/sct#257363003 //"metal stent" 
+* http://snomed.info/srt#A-25502 //"metal stent" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0441290 //"metal stent" 
 
-* http://snomed.info/sct#257362008 "plastic stent" 
-* http://snomed.info/srt#A-25501 "plastic stent" 
-* http://terminology.hl7.org/CodeSystem/umls#C0441289 "plastic stent" 
+* http://snomed.info/sct#257362008 //"plastic stent" 
+* http://snomed.info/srt#A-25501 //"plastic stent" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0441289 //"plastic stent" 
 

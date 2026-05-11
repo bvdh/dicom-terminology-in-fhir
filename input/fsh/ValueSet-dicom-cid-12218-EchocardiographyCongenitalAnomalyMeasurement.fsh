@@ -9,6 +9,7 @@ Echocardiography Congenital Anomaly Measurement
 * ^version = "20100317"
 * ^title = "Echocardiography Congenital Anomaly Measurement"
 * ^name = "EchocardiographyCongenitalAnomalyMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
 * include codes from valueset CID_12222

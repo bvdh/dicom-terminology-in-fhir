@@ -9,13 +9,14 @@ Transesophageal Echocardiography Scan Plane
 * ^version = "20250405"
 * ^title = "Transesophageal Echocardiography Scan Plane"
 * ^name = "TransesophagealEchocardiographyScanPlane"
-* DICOM_DCM_CodeSystem#131100 "Mid-esophageal 0 degree TEE" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#131100 //"Mid-esophageal 0 degree TEE" 
 
-* DICOM_DCM_CodeSystem#131101 "Mid-esophageal 45 degree TEE" 
+* DICOM_DCM_CodeSystem#131101 //"Mid-esophageal 45 degree TEE" 
 
-* DICOM_DCM_CodeSystem#131102 "Mid-esophageal 60 degree TEE" 
+* DICOM_DCM_CodeSystem#131102 //"Mid-esophageal 60 degree TEE" 
 
-* DICOM_DCM_CodeSystem#131103 "Mid-esophageal 90 degree TEE" 
+* DICOM_DCM_CodeSystem#131103 //"Mid-esophageal 90 degree TEE" 
 
-* DICOM_DCM_CodeSystem#131104 "Mid-esophageal 135 degree TEE" 
+* DICOM_DCM_CodeSystem#131104 //"Mid-esophageal 135 degree TEE" 
 

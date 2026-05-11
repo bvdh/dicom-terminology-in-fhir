@@ -9,7 +9,8 @@ Blood Pressure Method
 * ^version = "20030327"
 * ^title = "Blood Pressure Method"
 * ^name = "BloodPressureMethod"
-* http://snomed.info/sct#371911009 "Blood pressure cuff method" 
-* http://snomed.info/srt#R-00318 "Blood pressure cuff method" 
-* http://terminology.hl7.org/CodeSystem/umls#C1299380 "Blood pressure cuff method" 
+* ^experimental = false
+* http://snomed.info/sct#371911009 //"Blood pressure cuff method" 
+* http://snomed.info/srt#R-00318 //"Blood pressure cuff method" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1299380 //"Blood pressure cuff method" 
 

@@ -9,11 +9,12 @@ Patient Position Displacement Reference Point
 * ^version = "20210906"
 * ^title = "Patient Position Displacement Reference Point"
 * ^name = "PatientPositionDisplacementReferencePoint"
+* ^experimental = false
 * include codes from valueset CID_9553
 
-* DICOM_DCM_CodeSystem#130069 "Patient Setup Point" 
+* DICOM_DCM_CodeSystem#130069 //"Patient Setup Point" 
 
-* DICOM_DCM_CodeSystem#130070 "Room Laser Patient Setup Point" 
+* DICOM_DCM_CodeSystem#130070 //"Room Laser Patient Setup Point" 
 
-* DICOM_DCM_CodeSystem#130071 "Moveable Laser Patient Setup Point" 
+* DICOM_DCM_CodeSystem#130071 //"Moveable Laser Patient Setup Point" 
 

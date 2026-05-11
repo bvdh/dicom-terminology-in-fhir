@@ -9,11 +9,12 @@ Magnification Selection
 * ^version = "20120605"
 * ^title = "Magnification Selection"
 * ^name = "MagnificationSelection"
-* DICOM_DCM_CodeSystem#112715 "5X" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112715 //"5X" 
 
-* DICOM_DCM_CodeSystem#112716 "10X" 
+* DICOM_DCM_CodeSystem#112716 //"10X" 
 
-* DICOM_DCM_CodeSystem#112717 "20X" 
+* DICOM_DCM_CodeSystem#112717 //"20X" 
 
-* DICOM_DCM_CodeSystem#112718 "40X" 
+* DICOM_DCM_CodeSystem#112718 //"40X" 
 

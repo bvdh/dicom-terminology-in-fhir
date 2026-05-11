@@ -9,5 +9,6 @@ Patient Positioning Related Object Purposes
 * ^version = "20221225"
 * ^title = "Patient Positioning Related Object Purposes"
 * ^name = "PatientPositioningRelatedObjectPurposes"
-* DICOM_DCM_CodeSystem#130790 "RT Patient Positioning Reference Image" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130790 //"RT Patient Positioning Reference Image" 
 

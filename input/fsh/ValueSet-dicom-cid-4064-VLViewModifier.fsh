@@ -9,15 +9,16 @@ VL View Modifier
 * ^version = "20250330"
 * ^title = "VL View Modifier"
 * ^name = "VLViewModifier"
-* http://snomed.info/sct#789135000 "Mirrored image uncorrected" 
-* http://terminology.hl7.org/CodeSystem/umls#C5230360 "Mirrored image uncorrected" 
+* ^experimental = false
+* http://snomed.info/sct#789135000 //"Mirrored image uncorrected" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C5230360 //"Mirrored image uncorrected" 
 
-* http://snomed.info/sct#789134001 "Mirrored image uncorrected flipped horizontally" 
-* http://terminology.hl7.org/CodeSystem/umls#C5230389 "Mirrored image uncorrected flipped horizontally" 
+* http://snomed.info/sct#789134001 //"Mirrored image uncorrected flipped horizontally" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C5230389 //"Mirrored image uncorrected flipped horizontally" 
 
-* http://snomed.info/sct#789132002 "Mirrored image uncorrected flipped horizontally and vertically" 
-* http://terminology.hl7.org/CodeSystem/umls#C5230358 "Mirrored image uncorrected flipped horizontally and vertically" 
+* http://snomed.info/sct#789132002 //"Mirrored image uncorrected flipped horizontally and vertically" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C5230358 //"Mirrored image uncorrected flipped horizontally and vertically" 
 
-* http://snomed.info/sct#789133007 "Mirrored image uncorrected flipped vertically" 
-* http://terminology.hl7.org/CodeSystem/umls#C5230359 "Mirrored image uncorrected flipped vertically" 
+* http://snomed.info/sct#789133007 //"Mirrored image uncorrected flipped vertically" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C5230359 //"Mirrored image uncorrected flipped vertically" 
 

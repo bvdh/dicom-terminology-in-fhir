@@ -9,5 +9,6 @@ Robotic Delivery Device Dose Rate Unit
 * ^version = "20200117"
 * ^title = "Robotic Delivery Device Dose Rate Unit"
 * ^name = "RoboticDeliveryDeviceDoseRateUnit"
-* http://unitsofmeasure.org#Gy/s "Gy/s" 
+* ^experimental = false
+* http://unitsofmeasure.org#Gy/s //"Gy/s" 
 

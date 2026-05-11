@@ -9,5 +9,6 @@ Arterial Pulse Waveform
 * ^version = "20090409"
 * ^title = "Arterial Pulse Waveform"
 * ^name = "ArterialPulseWaveform"
-* DICOM_DCM_CodeSystem#109116 "Arterial Pulse Waveform" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#109116 //"Arterial Pulse Waveform" 
 

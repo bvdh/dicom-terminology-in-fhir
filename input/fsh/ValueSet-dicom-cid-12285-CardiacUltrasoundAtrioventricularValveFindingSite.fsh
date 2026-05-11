@@ -9,15 +9,16 @@ Cardiac Ultrasound Atrioventricular Valve Finding Site
 * ^version = "20160314"
 * ^title = "Cardiac Ultrasound Atrioventricular Valve Finding Site"
 * ^name = "CardiacUltrasoundAtrioventricularValveFindingSite"
-* http://snomed.info/sct#91134007 "Mitral Valve" 
-* http://snomed.info/srt#T-35300 "Mitral Valve" 
-* http://terminology.hl7.org/CodeSystem/umls#C0026264 "Mitral Valve" 
+* ^experimental = false
+* http://snomed.info/sct#91134007 //"Mitral Valve" 
+* http://snomed.info/srt#T-35300 //"Mitral Valve" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0026264 //"Mitral Valve" 
 
-* http://snomed.info/sct#46030003 "Tricuspid Valve" 
-* http://snomed.info/srt#T-35100 "Tricuspid Valve" 
-* http://terminology.hl7.org/CodeSystem/umls#C0040960 "Tricuspid Valve" 
+* http://snomed.info/sct#46030003 //"Tricuspid Valve" 
+* http://snomed.info/srt#T-35100 //"Tricuspid Valve" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0040960 //"Tricuspid Valve" 
 
-* http://snomed.info/sct#312522004 "Common non-mitral non-tricuspid Atrioventricular Valve Structure" 
-* http://snomed.info/srt#T-35008 "Common non-mitral non-tricuspid Atrioventricular Valve Structure" 
-* http://terminology.hl7.org/CodeSystem/umls#C0729875 "Common non-mitral non-tricuspid Atrioventricular Valve Structure" 
+* http://snomed.info/sct#312522004 //"Common non-mitral non-tricuspid Atrioventricular Valve Structure" 
+* http://snomed.info/srt#T-35008 //"Common non-mitral non-tricuspid Atrioventricular Valve Structure" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0729875 //"Common non-mitral non-tricuspid Atrioventricular Valve Structure" 
 

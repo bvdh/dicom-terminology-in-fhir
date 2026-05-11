@@ -9,9 +9,10 @@ Ganglion Cell Key Measurements
 * ^version = "20250707"
 * ^title = "Ganglion Cell Key Measurements"
 * ^name = "GanglionCellKeyMeasurements"
-* DICOM_DCM_CodeSystem#131274 "Retinal ROI width" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#131274 //"Retinal ROI width" 
 
-* DICOM_DCM_CodeSystem#131288 "Average ganglion cell thickness" 
+* DICOM_DCM_CodeSystem#131288 //"Average ganglion cell thickness" 
 
-* DICOM_DCM_CodeSystem#131289 "Minimum ganglion cell thickness" 
+* DICOM_DCM_CodeSystem#131289 //"Minimum ganglion cell thickness" 
 

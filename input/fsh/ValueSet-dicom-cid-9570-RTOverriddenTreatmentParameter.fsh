@@ -9,6 +9,7 @@ RT Overridden Treatment Parameter
 * ^version = "20200624"
 * ^title = "RT Overridden Treatment Parameter"
 * ^name = "RTOverriddenTreatmentParameter"
+* ^experimental = false
 * include codes from valueset CID_9401
 
 * include codes from valueset CID_9569

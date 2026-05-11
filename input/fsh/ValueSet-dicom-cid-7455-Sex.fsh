@@ -12,27 +12,28 @@ Description :
 * ^version = "20250406"
 * ^title = "Sex"
 * ^name = "Sex"
-* DICOM_DCM_CodeSystem#M "Male" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#M //"Male" 
 
-* DICOM_DCM_CodeSystem#F "Female" 
+* DICOM_DCM_CodeSystem#F //"Female" 
 
-* DICOM_DCM_CodeSystem#U "Unknown sex" 
+* DICOM_DCM_CodeSystem#U //"Unknown sex" 
 
-* DICOM_DCM_CodeSystem#MP "Male Pseudohermaphrodite" 
+* DICOM_DCM_CodeSystem#MP //"Male Pseudohermaphrodite" 
 
-* DICOM_DCM_CodeSystem#FP "Female Pseudohermaphrodite" 
+* DICOM_DCM_CodeSystem#FP //"Female Pseudohermaphrodite" 
 
-* DICOM_DCM_CodeSystem#H "Hermaphrodite" 
+* DICOM_DCM_CodeSystem#H //"Hermaphrodite" 
 
-* DICOM_DCM_CodeSystem#MC "Male changed to Female" 
+* DICOM_DCM_CodeSystem#MC //"Male changed to Female" 
 
-* DICOM_DCM_CodeSystem#FC "Female changed to Male" 
+* DICOM_DCM_CodeSystem#FC //"Female changed to Male" 
 
-* DICOM_DCM_CodeSystem#121104 "Ambiguous sex" 
+* DICOM_DCM_CodeSystem#121104 //"Ambiguous sex" 
 
-* DICOM_DCM_CodeSystem#121102 "Other sex" 
+* DICOM_DCM_CodeSystem#121102 //"Other sex" 
 
-* DICOM_DCM_CodeSystem#121103 "Undetermined sex" 
+* DICOM_DCM_CodeSystem#121103 //"Undetermined sex" 
 
 * include codes from valueset CID_7459
 

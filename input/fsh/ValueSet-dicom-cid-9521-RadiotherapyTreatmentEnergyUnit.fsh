@@ -9,9 +9,10 @@ Radiotherapy Treatment Energy Unit
 * ^version = "20181112"
 * ^title = "Radiotherapy Treatment Energy Unit"
 * ^name = "RadiotherapyTreatmentEnergyUnit"
-* http://unitsofmeasure.org#MV "Megavolt" 
+* ^experimental = false
+* http://unitsofmeasure.org#MV //"Megavolt" 
 
-* http://unitsofmeasure.org#MeV "Megaelectronvolt" 
+* http://unitsofmeasure.org#MeV //"Megaelectronvolt" 
 
-* http://unitsofmeasure.org#kV "Kilovolt" 
+* http://unitsofmeasure.org#kV //"Kilovolt" 
 

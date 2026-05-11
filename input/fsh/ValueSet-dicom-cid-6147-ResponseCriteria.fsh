@@ -9,11 +9,12 @@ Response Criteria
 * ^version = "20141110"
 * ^title = "Response Criteria"
 * ^name = "ResponseCriteria"
-* DICOM_DCM_CodeSystem#112029 "WHO" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112029 //"WHO" 
 
-* DICOM_DCM_CodeSystem#126080 "RECIST 1.0" 
+* DICOM_DCM_CodeSystem#126080 //"RECIST 1.0" 
 
-* DICOM_DCM_CodeSystem#126081 "RECIST 1.1" 
+* DICOM_DCM_CodeSystem#126081 //"RECIST 1.1" 
 
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C114879 "RANO" 
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C114879 //"RANO" 
 

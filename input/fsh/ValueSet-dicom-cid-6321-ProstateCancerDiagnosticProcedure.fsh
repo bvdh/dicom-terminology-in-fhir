@@ -9,11 +9,12 @@ Prostate Cancer Diagnostic Procedure
 * ^version = "20210714"
 * ^title = "Prostate Cancer Diagnostic Procedure"
 * ^name = "ProstateCancerDiagnosticProcedure"
-* http://snomed.info/sct#63476009 "Prostate Cancer Antigen Measurement" 
-* http://snomed.info/srt#P3-67350 "Prostate Cancer Antigen Measurement" 
-* http://terminology.hl7.org/CodeSystem/umls#C0201544 "Prostate Cancer Antigen Measurement" 
+* ^experimental = false
+* http://snomed.info/sct#63476009 //"Prostate Cancer Antigen Measurement" 
+* http://snomed.info/srt#P3-67350 //"Prostate Cancer Antigen Measurement" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0201544 //"Prostate Cancer Antigen Measurement" 
 
-* http://snomed.info/sct#410006001 "Digital Examination of Rectum" 
-* http://snomed.info/srt#P2-015A2 "Digital Examination of Rectum" 
-* http://terminology.hl7.org/CodeSystem/umls#C1384593 "Digital Examination of Rectum" 
+* http://snomed.info/sct#410006001 //"Digital Examination of Rectum" 
+* http://snomed.info/srt#P2-015A2 //"Digital Examination of Rectum" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1384593 //"Digital Examination of Rectum" 
 

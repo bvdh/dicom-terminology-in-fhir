@@ -9,11 +9,12 @@ Non-lesion Modifier
 * ^version = "20030108"
 * ^title = "Non-lesion Modifier"
 * ^name = "NonLesionModifier"
-* http://snomed.info/sct#260521003 "Internal" 
-* http://snomed.info/srt#R-40819 "Internal" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205102 "Internal" 
+* ^experimental = false
+* http://snomed.info/sct#260521003 //"Internal" 
+* http://snomed.info/srt#R-40819 //"Internal" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205102 //"Internal" 
 
-* http://snomed.info/sct#261074009 "External" 
-* http://snomed.info/srt#R-40941 "External" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205101 "External" 
+* http://snomed.info/sct#261074009 //"External" 
+* http://snomed.info/srt#R-40941 //"External" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205101 //"External" 
 

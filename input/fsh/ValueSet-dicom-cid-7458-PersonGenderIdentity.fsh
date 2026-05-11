@@ -9,12 +9,13 @@ Person Gender Identity
 * ^version = "20250406"
 * ^title = "Person Gender Identity"
 * ^name = "PersonGenderIdentity"
-* http://snomed.info/sct#446141000124107 "Identifies as female gender" 
-* http://terminology.hl7.org/CodeSystem/umls#C3887375 "Identifies as female gender" 
+* ^experimental = false
+* http://snomed.info/sct#446141000124107 //"Identifies as female gender" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C3887375 //"Identifies as female gender" 
 
-* http://snomed.info/sct#446151000124109 "Identifies as male gender" 
-* http://terminology.hl7.org/CodeSystem/umls#C3887374 "Identifies as male gender" 
+* http://snomed.info/sct#446151000124109 //"Identifies as male gender" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C3887374 //"Identifies as male gender" 
 
-* http://snomed.info/sct#33791000087105 "Identifies as nonbinary gender" 
-* http://terminology.hl7.org/CodeSystem/umls#C3887376 "Identifies as nonbinary gender" 
+* http://snomed.info/sct#33791000087105 //"Identifies as nonbinary gender" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C3887376 //"Identifies as nonbinary gender" 
 

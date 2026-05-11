@@ -9,9 +9,10 @@ Visual Field Measurements
 * ^version = "20250707"
 * ^title = "Visual Field Measurements"
 * ^name = "VisualFieldMeasurements"
-* DICOM_DCM_CodeSystem#111852 "Visual Field Index" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111852 //"Visual Field Index" 
 
-* DICOM_DCM_CodeSystem#111853 "Visual Field Loss Due to Diffuse Defect" 
+* DICOM_DCM_CodeSystem#111853 //"Visual Field Loss Due to Diffuse Defect" 
 
-* DICOM_DCM_CodeSystem#111854 "Visual Field Loss Due to Local Defect" 
+* DICOM_DCM_CodeSystem#111854 //"Visual Field Loss Due to Local Defect" 
 

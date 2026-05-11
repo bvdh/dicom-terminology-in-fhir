@@ -9,5 +9,6 @@ Ophthalmic Image ROI Measurements
 * ^version = "20250707"
 * ^title = "Ophthalmic Image ROI Measurements"
 * ^name = "OphthalmicImageROIMeasurements"
-* DICOM_DCM_CodeSystem#131310 "Geographic atrophy area" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#131310 //"Geographic atrophy area" 
 

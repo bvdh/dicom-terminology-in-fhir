@@ -9,13 +9,14 @@ KV Imaging Acquisition Techniques
 * ^version = "20221225"
 * ^title = "KV Imaging Acquisition Techniques"
 * ^name = "KVImagingAcquisitionTechniques"
-* DICOM_DCM_CodeSystem#121704 "RT Patient Position Acquisition, single plane kV" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121704 //"RT Patient Position Acquisition, single plane kV" 
 
-* DICOM_DCM_CodeSystem#121707 "RT Patient Position Acquisition, CT kV" 
+* DICOM_DCM_CodeSystem#121707 //"RT Patient Position Acquisition, CT kV" 
 
-* DICOM_DCM_CodeSystem#130785 "RT Patient Position Acquisition, Cone-Beam CT kV" 
+* DICOM_DCM_CodeSystem#130785 //"RT Patient Position Acquisition, Cone-Beam CT kV" 
 
-* DICOM_DCM_CodeSystem#130786 "RT Patient Position Acquisition, Conventional CT kV" 
+* DICOM_DCM_CodeSystem#130786 //"RT Patient Position Acquisition, Conventional CT kV" 
 
-* DICOM_DCM_CodeSystem#130784 "RT Patient Position Acquisition, Film Cassette kV" 
+* DICOM_DCM_CodeSystem#130784 //"RT Patient Position Acquisition, Film Cassette kV" 
 

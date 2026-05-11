@@ -9,7 +9,8 @@ Photoacoustic Reconstruction Algorithm Family
 * ^version = "20230626"
 * ^title = "Photoacoustic Reconstruction Algorithm Family"
 * ^name = "PhotoacousticReconstructionAlgorithmFamily"
-* DICOM_DCM_CodeSystem#130821 "Spherical Back Projection" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130821 //"Spherical Back Projection" 
 
-* DICOM_DCM_CodeSystem#130822 "Numerical Acoustic Model" 
+* DICOM_DCM_CodeSystem#130822 //"Numerical Acoustic Model" 
 

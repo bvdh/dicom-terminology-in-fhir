@@ -9,13 +9,14 @@ This Context Group previously contained a code for 'source image', which has bee
 * ^version = "20200920"
 * ^title = "Non-Image Source Instance Purpose of Reference"
 * ^name = "NonImageSourceInstancePurposeOfReference"
-* DICOM_DCM_CodeSystem#128224 "Source measurement" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128224 //"Source measurement" 
 
-* DICOM_DCM_CodeSystem#128225 "Source report" 
+* DICOM_DCM_CodeSystem#128225 //"Source report" 
 
-* DICOM_DCM_CodeSystem#128226 "Source raw data" 
+* DICOM_DCM_CodeSystem#128226 //"Source raw data" 
 
-* DICOM_DCM_CodeSystem#125028 "Source Deformable Spatial Registration" 
+* DICOM_DCM_CodeSystem#125028 //"Source Deformable Spatial Registration" 
 
 * include codes from valueset CID_7019
 

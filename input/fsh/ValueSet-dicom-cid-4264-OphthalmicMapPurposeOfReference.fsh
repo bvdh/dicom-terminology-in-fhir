@@ -9,9 +9,10 @@ Ophthalmic Map Purpose of Reference
 * ^version = "20110825"
 * ^title = "Ophthalmic Map Purpose of Reference"
 * ^name = "OphthalmicMapPurposeOfReference"
-* DICOM_DCM_CodeSystem#121311 "Localizer" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121311 //"Localizer" 
 
-* DICOM_DCM_CodeSystem#121322 "Source image for image processing operation" 
+* DICOM_DCM_CodeSystem#121322 //"Source image for image processing operation" 
 
-* DICOM_DCM_CodeSystem#111933 "Related ophthalmic thickness map" 
+* DICOM_DCM_CodeSystem#111933 //"Related ophthalmic thickness map" 
 

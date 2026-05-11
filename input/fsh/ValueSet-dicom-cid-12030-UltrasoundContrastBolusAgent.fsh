@@ -11,23 +11,24 @@ Description :
 * ^version = "20160605"
 * ^title = "Ultrasound Contrast/Bolus Agent"
 * ^name = "UltrasoundContrastBolusAgent"
-* DICOM_DCM_CodeSystem#125901 "CARDIOsphere" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#125901 //"CARDIOsphere" 
 
-* http://hl7.org/fhir/sid/ndc#11994-011-04 "Definity" 
+* http://hl7.org/fhir/sid/ndc#11994-011-04 //"Definity" 
 
-* DICOM_DCM_CodeSystem#125902 "Echovist" 
+* DICOM_DCM_CodeSystem#125902 //"Echovist" 
 
-* DICOM_DCM_CodeSystem#125903 "Imagify" 
+* DICOM_DCM_CodeSystem#125903 //"Imagify" 
 
-* DICOM_DCM_CodeSystem#125904 "Levovist" 
+* DICOM_DCM_CodeSystem#125904 //"Levovist" 
 
-* http://hl7.org/fhir/sid/ndc#0407-2707-03 "Optison" 
+* http://hl7.org/fhir/sid/ndc#0407-2707-03 //"Optison" 
 
-* DICOM_DCM_CodeSystem#125905 "Sonazoid" 
+* DICOM_DCM_CodeSystem#125905 //"Sonazoid" 
 
-* DICOM_DCM_CodeSystem#125906 "SonoVue" 
+* DICOM_DCM_CodeSystem#125906 //"SonoVue" 
 
-* DICOM_DCM_CodeSystem#125907 "Targestar-B" 
+* DICOM_DCM_CodeSystem#125907 //"Targestar-B" 
 
-* DICOM_DCM_CodeSystem#125908 "Targestar-P" 
+* DICOM_DCM_CodeSystem#125908 //"Targestar-P" 
 

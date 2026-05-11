@@ -9,21 +9,22 @@ Microscopy Illumination Method
 * ^version = "20100824"
 * ^title = "Microscopy Illumination Method"
 * ^name = "MicroscopyIlluminationMethod"
-* DICOM_DCM_CodeSystem#111741 "Transmission illumination" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111741 //"Transmission illumination" 
 
-* DICOM_DCM_CodeSystem#111742 "Reflection illumination" 
+* DICOM_DCM_CodeSystem#111742 //"Reflection illumination" 
 
-* DICOM_DCM_CodeSystem#111743 "Epifluorescence illumination" 
+* DICOM_DCM_CodeSystem#111743 //"Epifluorescence illumination" 
 
-* DICOM_DCM_CodeSystem#111744 "Brightfield illumination" 
+* DICOM_DCM_CodeSystem#111744 //"Brightfield illumination" 
 
-* DICOM_DCM_CodeSystem#111745 "Darkfield illumination" 
+* DICOM_DCM_CodeSystem#111745 //"Darkfield illumination" 
 
-* DICOM_DCM_CodeSystem#111746 "Oblique illumination" 
+* DICOM_DCM_CodeSystem#111746 //"Oblique illumination" 
 
-* DICOM_DCM_CodeSystem#111747 "Phase contrast illumination" 
+* DICOM_DCM_CodeSystem#111747 //"Phase contrast illumination" 
 
-* DICOM_DCM_CodeSystem#111748 "Differential interference contrast" 
+* DICOM_DCM_CodeSystem#111748 //"Differential interference contrast" 
 
-* DICOM_DCM_CodeSystem#111749 "Total internal reflection fluorescence" 
+* DICOM_DCM_CodeSystem#111749 //"Total internal reflection fluorescence" 
 

@@ -9,6 +9,7 @@ Exogenous Substance
 * ^version = "20151110"
 * ^title = "Exogenous Substance"
 * ^name = "ExogenousSubstance"
+* ^experimental = false
 * include codes from valueset CID_639
 
 * include codes from valueset CID_640

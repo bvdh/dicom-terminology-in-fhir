@@ -2,7 +2,7 @@ ValueSet: DICOM_UID_Template
 Id: dicom-uids-template
 Title: "DICOM® Template UID Values"
 Description: "DICOM® Template UID Values from DICOM PS3.6 Table A-4."
-* ^version = "2025.?.20251120"
+* ^version = "2026.2.20260327"
 * ^experimental = false
 
 

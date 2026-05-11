@@ -9,15 +9,16 @@ Animal Bedding Material
 * ^version = "20151110"
 * ^title = "Animal Bedding Material"
 * ^name = "AnimalBeddingMaterial"
-* DICOM_DCM_CodeSystem#127230 "Aspen chip bedding" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#127230 //"Aspen chip bedding" 
 
-* DICOM_DCM_CodeSystem#127231 "Aspen shaving bedding" 
+* DICOM_DCM_CodeSystem#127231 //"Aspen shaving bedding" 
 
-* DICOM_DCM_CodeSystem#127232 "Corn cob bedding" 
+* DICOM_DCM_CodeSystem#127232 //"Corn cob bedding" 
 
-* DICOM_DCM_CodeSystem#127233 "Paper-based bedding" 
+* DICOM_DCM_CodeSystem#127233 //"Paper-based bedding" 
 
-* DICOM_DCM_CodeSystem#127234 "Pine chip bedding" 
+* DICOM_DCM_CodeSystem#127234 //"Pine chip bedding" 
 
-* DICOM_DCM_CodeSystem#127235 "Pine shaving bedding" 
+* DICOM_DCM_CodeSystem#127235 //"Pine shaving bedding" 
 

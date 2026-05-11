@@ -9,25 +9,26 @@ Valvular Abnormality
 * ^version = "20160314"
 * ^title = "Valvular Abnormality"
 * ^name = "ValvularAbnormality"
-* http://snomed.info/sct#44241007 "Stenosis" 
-* http://snomed.info/srt#D3-29001 "Stenosis" 
-* http://terminology.hl7.org/CodeSystem/umls#C0264878 "Stenosis" 
+* ^experimental = false
+* http://snomed.info/sct#44241007 //"Stenosis" 
+* http://snomed.info/srt#D3-29001 //"Stenosis" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0264878 //"Stenosis" 
 
-* http://snomed.info/sct#10337008 "Regurgitation" 
-* http://snomed.info/srt#F-32400 "Regurgitation" 
-* http://terminology.hl7.org/CodeSystem/umls#C0042300 "Regurgitation" 
+* http://snomed.info/sct#10337008 //"Regurgitation" 
+* http://snomed.info/srt#F-32400 //"Regurgitation" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0042300 //"Regurgitation" 
 
-* http://snomed.info/sct#373136005 "Calcified Heart Valve" 
-* http://snomed.info/srt#R-0030B "Calcified Heart Valve" 
-* http://terminology.hl7.org/CodeSystem/umls#C1142152 "Calcified Heart Valve" 
+* http://snomed.info/sct#373136005 //"Calcified Heart Valve" 
+* http://snomed.info/srt#R-0030B //"Calcified Heart Valve" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1142152 //"Calcified Heart Valve" 
 
-* http://snomed.info/sct#373137001 "Immobile Heart Valve" 
-* http://snomed.info/srt#R-0030F "Immobile Heart Valve" 
-* http://terminology.hl7.org/CodeSystem/umls#C1298822 "Immobile Heart Valve" 
+* http://snomed.info/sct#373137001 //"Immobile Heart Valve" 
+* http://snomed.info/srt#R-0030F //"Immobile Heart Valve" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1298822 //"Immobile Heart Valve" 
 
-* DICOM_DCM_CodeSystem#127856 "Heart Valve Flail" 
+* DICOM_DCM_CodeSystem#127856 //"Heart Valve Flail" 
 
-* http://snomed.info/sct#89736004 "Valvular endocarditis" 
-* http://snomed.info/srt#D3-28005 "Valvular endocarditis" 
-* http://terminology.hl7.org/CodeSystem/umls#C0264865 "Valvular endocarditis" 
+* http://snomed.info/sct#89736004 //"Valvular endocarditis" 
+* http://snomed.info/srt#D3-28005 //"Valvular endocarditis" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0264865 //"Valvular endocarditis" 
 

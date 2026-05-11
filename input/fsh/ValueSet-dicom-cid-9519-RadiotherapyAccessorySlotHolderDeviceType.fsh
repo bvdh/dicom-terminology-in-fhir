@@ -9,5 +9,6 @@ Radiotherapy Accessory Slot Holder Device Type
 * ^version = "20181112"
 * ^title = "Radiotherapy Accessory Slot Holder Device Type"
 * ^name = "RadiotherapyAccessorySlotHolderDeviceType"
-* DICOM_DCM_CodeSystem#130125 "Radiotherapy Applicator" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130125 //"Radiotherapy Applicator" 
 

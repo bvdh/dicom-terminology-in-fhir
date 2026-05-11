@@ -9,24 +9,25 @@ Hemodynamic Ratio
 * ^version = "20030327"
 * ^title = "Hemodynamic Ratio"
 * ^name = "HemodynamicRatio"
-* http://loinc.org#8581-1 "Tibial/brachial index" 
-* http://terminology.hl7.org/CodeSystem/umls#C0488220 "Tibial/brachial index" 
+* ^experimental = false
+* http://loinc.org#8581-1 //"Tibial/brachial index" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0488220 //"Tibial/brachial index" 
 
-* http://snomed.info/sct#251050008 "Pulmonary/Systemic Flow Ratio" 
-* http://snomed.info/srt#F-0238B "Pulmonary/Systemic Flow Ratio" 
-* http://terminology.hl7.org/CodeSystem/umls#C0428854 "Pulmonary/Systemic Flow Ratio" 
+* http://snomed.info/sct#251050008 //"Pulmonary/Systemic Flow Ratio" 
+* http://snomed.info/srt#F-0238B //"Pulmonary/Systemic Flow Ratio" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0428854 //"Pulmonary/Systemic Flow Ratio" 
 
-* DICOM_DCM_CodeSystem#122217 "Coronary Flow reserve" 
+* DICOM_DCM_CodeSystem#122217 //"Coronary Flow reserve" 
 
-* DICOM_DCM_CodeSystem#122218 "Diastolic/Systolic velocity ratio" 
+* DICOM_DCM_CodeSystem#122218 //"Diastolic/Systolic velocity ratio" 
 
-* DICOM_DCM_CodeSystem#122219 "Hyperemic ratio" 
+* DICOM_DCM_CodeSystem#122219 //"Hyperemic ratio" 
 
-* http://snomed.info/sct#252068008 "Pulsatility Index" 
-* http://snomed.info/srt#F-031A2 "Pulsatility Index" 
-* http://terminology.hl7.org/CodeSystem/umls#C0429863 "Pulsatility Index" 
+* http://snomed.info/sct#252068008 //"Pulsatility Index" 
+* http://snomed.info/srt#F-031A2 //"Pulsatility Index" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0429863 //"Pulsatility Index" 
 
-* DICOM_DCM_CodeSystem#122220 "Hemodynamic Resistance Index" 
+* DICOM_DCM_CodeSystem#122220 //"Hemodynamic Resistance Index" 
 
 * include codes from valueset CID_3621
 

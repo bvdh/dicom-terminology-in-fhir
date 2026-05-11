@@ -9,6 +9,7 @@ Imaging Procedure
 * ^version = "20250401"
 * ^title = "Imaging Procedure"
 * ^name = "Cid101"
+* ^experimental = false
 * include codes from valueset CID_100
 
 * include codes from valueset CID_102

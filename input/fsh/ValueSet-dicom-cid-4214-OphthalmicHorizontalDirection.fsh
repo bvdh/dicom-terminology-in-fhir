@@ -9,11 +9,12 @@ Ophthalmic Horizontal Direction
 * ^version = "20080124"
 * ^title = "Ophthalmic Horizontal Direction"
 * ^name = "OphthalmicHorizontalDirection"
-* http://snomed.info/sct#255460003 "Inward" 
-* http://snomed.info/srt#G-C028 "Inward" 
-* http://terminology.hl7.org/CodeSystem/umls#C0439786 "Inward" 
+* ^experimental = false
+* http://snomed.info/sct#255460003 //"Inward" 
+* http://snomed.info/srt#G-C028 //"Inward" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0439786 //"Inward" 
 
-* http://snomed.info/sct#255543005 "Outward" 
-* http://snomed.info/srt#R-404C7 "Outward" 
-* http://terminology.hl7.org/CodeSystem/umls#C0439788 "Outward" 
+* http://snomed.info/sct#255543005 //"Outward" 
+* http://snomed.info/srt#R-404C7 //"Outward" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0439788 //"Outward" 
 

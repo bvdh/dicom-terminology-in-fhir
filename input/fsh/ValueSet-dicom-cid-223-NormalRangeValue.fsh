@@ -9,11 +9,12 @@ Normal Range Value
 * ^version = "20170914"
 * ^title = "Normal Range Value"
 * ^name = "NormalRangeValue"
-* http://snomed.info/sct#371933006 "Normal Range Upper Limit" 
-* http://snomed.info/srt#R-0038B "Normal Range Upper Limit" 
-* http://terminology.hl7.org/CodeSystem/umls#C1299400 "Normal Range Upper Limit" 
+* ^experimental = false
+* http://snomed.info/sct#371933006 //"Normal Range Upper Limit" 
+* http://snomed.info/srt#R-0038B //"Normal Range Upper Limit" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1299400 //"Normal Range Upper Limit" 
 
-* http://snomed.info/sct#385524004 "Normal Range Lower Limit" 
-* http://snomed.info/srt#R-41F90 "Normal Range Lower Limit" 
-* http://terminology.hl7.org/CodeSystem/umls#C1272773 "Normal Range Lower Limit" 
+* http://snomed.info/sct#385524004 //"Normal Range Lower Limit" 
+* http://snomed.info/srt#R-41F90 //"Normal Range Lower Limit" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1272773 //"Normal Range Lower Limit" 
 

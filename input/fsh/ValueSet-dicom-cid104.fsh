@@ -9,3 +9,4 @@ The NICIP SNOMED Subset of Imaging Procedures is not included in the licensing a
 * ^version = "Not versioned"
 * ^title = "NICIP SNOMED Imaging Procedure"
 * ^name = "Cid104"
+* ^experimental = false

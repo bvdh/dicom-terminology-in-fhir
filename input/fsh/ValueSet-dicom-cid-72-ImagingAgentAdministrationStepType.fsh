@@ -9,11 +9,12 @@ Imaging Agent Administration Step Type
 * ^version = "20181115"
 * ^title = "Imaging Agent Administration Step Type"
 * ^name = "ImagingAgentAdministrationStepType"
-* DICOM_DCM_CodeSystem#130247 "Patency Test Injection" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130247 //"Patency Test Injection" 
 
-* DICOM_DCM_CodeSystem#130248 "Transit Time Test Injection" 
+* DICOM_DCM_CodeSystem#130248 //"Transit Time Test Injection" 
 
-* DICOM_DCM_CodeSystem#130249 "Diagnostic Administration" 
+* DICOM_DCM_CodeSystem#130249 //"Diagnostic Administration" 
 
-* DICOM_DCM_CodeSystem#130251 "Flush Administration" 
+* DICOM_DCM_CodeSystem#130251 //"Flush Administration" 
 

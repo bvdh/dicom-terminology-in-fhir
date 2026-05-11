@@ -9,5 +9,6 @@ Lesion Response
 * ^version = "20030108"
 * ^title = "Lesion Response"
 * ^name = "LesionResponse"
+* ^experimental = false
 * include codes from valueset CID_6144
 

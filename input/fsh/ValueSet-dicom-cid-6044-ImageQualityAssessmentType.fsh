@@ -9,9 +9,10 @@ Image Quality Assessment Type
 * ^version = "20020904"
 * ^title = "Image Quality Assessment Type"
 * ^name = "ImageQualityAssessmentType"
-* DICOM_DCM_CodeSystem#111235 "Unusable - Quality renders image unusable" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111235 //"Unusable - Quality renders image unusable" 
 
-* DICOM_DCM_CodeSystem#111236 "Usable - Does not meet the quality control standard" 
+* DICOM_DCM_CodeSystem#111236 //"Usable - Does not meet the quality control standard" 
 
-* DICOM_DCM_CodeSystem#111237 "Usable - Meets the quality control standard" 
+* DICOM_DCM_CodeSystem#111237 //"Usable - Meets the quality control standard" 
 

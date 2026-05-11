@@ -9,5 +9,6 @@ Patient Position Acquisition  MR Techniques
 * ^version = "20240612"
 * ^title = "Patient Position Acquisition  MR Techniques"
 * ^name = "PatientPositionAcquisitionMRTechniques"
-* DICOM_DCM_CodeSystem#121737 "RT Patient Position Acquisition, MR" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121737 //"RT Patient Position Acquisition, MR" 
 

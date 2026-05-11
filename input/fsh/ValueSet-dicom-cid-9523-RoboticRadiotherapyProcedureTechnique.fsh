@@ -9,7 +9,8 @@ Robotic Radiotherapy Procedure Technique
 * ^version = "20181112"
 * ^title = "Robotic Radiotherapy Procedure Technique"
 * ^name = "RoboticRadiotherapyProcedureTechnique"
-* DICOM_DCM_CodeSystem#130139 "Synchronized Robotic Treatment" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130139 //"Synchronized Robotic Treatment" 
 
-* DICOM_DCM_CodeSystem#130140 "Non-Synchronized Robotic Treatment" 
+* DICOM_DCM_CodeSystem#130140 //"Non-Synchronized Robotic Treatment" 
 

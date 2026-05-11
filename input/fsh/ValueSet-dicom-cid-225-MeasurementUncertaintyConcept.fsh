@@ -9,15 +9,16 @@ Measurement Uncertainty Concept
 * ^version = "20030327"
 * ^title = "Measurement Uncertainty Concept"
 * ^name = "MeasurementUncertaintyConcept"
-* http://snomed.info/sct#371884006 "+/-, range of measurement uncertainty" 
-* http://snomed.info/srt#R-00363 "+/-, range of measurement uncertainty" 
-* http://terminology.hl7.org/CodeSystem/umls#C1299354 "+/-, range of measurement uncertainty" 
+* ^experimental = false
+* http://snomed.info/sct#371884006 //"+/-, range of measurement uncertainty" 
+* http://snomed.info/srt#R-00363 //"+/-, range of measurement uncertainty" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1299354 //"+/-, range of measurement uncertainty" 
 
-* http://snomed.info/sct#371886008 "+, range of upper measurement uncertainty" 
-* http://snomed.info/srt#R-00364 "+, range of upper measurement uncertainty" 
-* http://terminology.hl7.org/CodeSystem/umls#C1299356 "+, range of upper measurement uncertainty" 
+* http://snomed.info/sct#371886008 //"+, range of upper measurement uncertainty" 
+* http://snomed.info/srt#R-00364 //"+, range of upper measurement uncertainty" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1299356 //"+, range of upper measurement uncertainty" 
 
-* http://snomed.info/sct#371885007 "-, range of lower measurement uncertainty" 
-* http://snomed.info/srt#R-00362 "-, range of lower measurement uncertainty" 
-* http://terminology.hl7.org/CodeSystem/umls#C1299355 "-, range of lower measurement uncertainty" 
+* http://snomed.info/sct#371885007 //"-, range of lower measurement uncertainty" 
+* http://snomed.info/srt#R-00362 //"-, range of lower measurement uncertainty" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1299355 //"-, range of lower measurement uncertainty" 
 

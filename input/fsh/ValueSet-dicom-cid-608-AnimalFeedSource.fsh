@@ -9,8 +9,9 @@ Description :
 * ^version = "20151110"
 * ^title = "Animal Feed Source"
 * ^name = "AnimalFeedSource"
-* http://terminology.hl7.org/CodeSystem/umls#C1547887 "Commercial product" 
-// * http://terminology.hl7.org/CodeSystem/umls#C1547887 "Commercial product" 
+* ^experimental = false
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1547887 //"Commercial product" 
+// * http://terminology.hl7.org/CodeSystem/umls/sab#C1547887 "Commercial product" 
 
-* DICOM_DCM_CodeSystem#127390 "Locally manufactured product" 
+* DICOM_DCM_CodeSystem#127390 //"Locally manufactured product" 
 

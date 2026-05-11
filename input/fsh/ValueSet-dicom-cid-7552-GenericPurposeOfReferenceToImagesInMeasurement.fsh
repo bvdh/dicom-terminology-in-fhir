@@ -7,5 +7,6 @@ Generic Purpose of Reference to Images in Measurement
 * ^version = "None"
 * ^title = "Generic Purpose of Reference to Images in Measurement"
 * ^name = "GenericPurposeOfReferenceToImagesInMeasurement"
-* DICOM_DCM_CodeSystem#121112 "Source of Measurement" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121112 //"Source of Measurement" 
 

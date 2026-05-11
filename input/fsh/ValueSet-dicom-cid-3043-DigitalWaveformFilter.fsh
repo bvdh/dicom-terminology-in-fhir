@@ -9,11 +9,12 @@ Digital Waveform Filter
 * ^version = "20220630"
 * ^title = "Digital Waveform Filter"
 * ^name = "DigitalWaveformFilter"
-* DICOM_DCM_CodeSystem#130770 "FIR filter" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130770 //"FIR filter" 
 
-* DICOM_DCM_CodeSystem#130771 "CIC filter" 
+* DICOM_DCM_CodeSystem#130771 //"CIC filter" 
 
-* DICOM_DCM_CodeSystem#130772 "IIR filter" 
+* DICOM_DCM_CodeSystem#130772 //"IIR filter" 
 
-* DICOM_DCM_CodeSystem#130773 "Biquad filter" 
+* DICOM_DCM_CodeSystem#130773 //"Biquad filter" 
 

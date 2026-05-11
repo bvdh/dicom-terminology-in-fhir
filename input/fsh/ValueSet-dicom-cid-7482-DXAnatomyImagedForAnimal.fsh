@@ -9,5 +9,6 @@ DX Anatomy Imaged for Animal
 * ^version = "20090717"
 * ^title = "DX Anatomy Imaged for Animal"
 * ^name = "DXAnatomyImagedForAnimal"
+* ^experimental = false
 * include codes from valueset CID_7483
 

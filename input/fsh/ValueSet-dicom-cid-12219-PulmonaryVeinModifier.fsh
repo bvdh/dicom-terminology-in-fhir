@@ -9,19 +9,20 @@ Pulmonary Vein Modifier
 * ^version = "20030918"
 * ^title = "Pulmonary Vein Modifier"
 * ^name = "PulmonaryVeinModifier"
-* http://snomed.info/sct#255499006 "Right Upper Segment" 
-* http://snomed.info/srt#R-404A0 "Right Upper Segment" 
-* http://terminology.hl7.org/CodeSystem/umls#C0442064 "Right Upper Segment" 
+* ^experimental = false
+* http://snomed.info/sct#255499006 //"Right Upper Segment" 
+* http://snomed.info/srt#R-404A0 //"Right Upper Segment" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0442064 //"Right Upper Segment" 
 
-* http://snomed.info/sct#255496004 "Right Lower Segment" 
-* http://snomed.info/srt#R-4049E "Right Lower Segment" 
-* http://terminology.hl7.org/CodeSystem/umls#C0442067 "Right Lower Segment" 
+* http://snomed.info/sct#255496004 //"Right Lower Segment" 
+* http://snomed.info/srt#R-4049E //"Right Lower Segment" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0442067 //"Right Lower Segment" 
 
-* http://snomed.info/sct#255482005 "Left Upper Segment" 
-* http://snomed.info/srt#R-40491 "Left Upper Segment" 
-* http://terminology.hl7.org/CodeSystem/umls#C0442065 "Left Upper Segment" 
+* http://snomed.info/sct#255482005 //"Left Upper Segment" 
+* http://snomed.info/srt#R-40491 //"Left Upper Segment" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0442065 //"Left Upper Segment" 
 
-* http://snomed.info/sct#264068005 "Left Lower Segment" 
-* http://snomed.info/srt#R-4214B "Left Lower Segment" 
-* http://terminology.hl7.org/CodeSystem/umls#C0442068 "Left Lower Segment" 
+* http://snomed.info/sct#264068005 //"Left Lower Segment" 
+* http://snomed.info/srt#R-4214B //"Left Lower Segment" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0442068 //"Left Lower Segment" 
 

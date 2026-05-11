@@ -9,5 +9,6 @@ Liver Segmentation Type
 * ^version = "20210120"
 * ^title = "Liver Segmentation Type"
 * ^name = "LiverSegmentationType"
+* ^experimental = false
 * include codes from valueset CID_7170
 

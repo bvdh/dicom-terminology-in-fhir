@@ -9,11 +9,12 @@ Equipment Plane Identification
 * ^version = "20081028"
 * ^title = "Equipment Plane Identification"
 * ^name = "EquipmentPlaneIdentification"
-* DICOM_DCM_CodeSystem#113620 "Plane A" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113620 //"Plane A" 
 
-* DICOM_DCM_CodeSystem#113621 "Plane B" 
+* DICOM_DCM_CodeSystem#113621 //"Plane B" 
 
-* DICOM_DCM_CodeSystem#113622 "Single Plane" 
+* DICOM_DCM_CodeSystem#113622 //"Single Plane" 
 
-* DICOM_DCM_CodeSystem#113890 "All Planes" 
+* DICOM_DCM_CodeSystem#113890 //"All Planes" 
 

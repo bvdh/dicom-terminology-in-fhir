@@ -9,19 +9,20 @@ Previously, concepts specific to the brain (e.g., regional cerebral blood flow) 
 * ^version = "20190326"
 * ^title = "Perfusion Model Parameter"
 * ^name = "PerfusionModelParameter"
-* DICOM_DCM_CodeSystem#126390 "Absolute Regional Blood Flow" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#126390 //"Absolute Regional Blood Flow" 
 
-* DICOM_DCM_CodeSystem#126391 "Absolute Regional Blood Volume" 
+* DICOM_DCM_CodeSystem#126391 //"Absolute Regional Blood Volume" 
 
-* DICOM_DCM_CodeSystem#126397 "Relative Regional Blood Flow" 
+* DICOM_DCM_CodeSystem#126397 //"Relative Regional Blood Flow" 
 
-* DICOM_DCM_CodeSystem#126398 "Relative Regional Blood Volume" 
+* DICOM_DCM_CodeSystem#126398 //"Relative Regional Blood Volume" 
 
-* DICOM_DCM_CodeSystem#113052 "Mean Transit Time" 
+* DICOM_DCM_CodeSystem#113052 //"Mean Transit Time" 
 
-* DICOM_DCM_CodeSystem#113069 "Time To Peak" 
+* DICOM_DCM_CodeSystem#113069 //"Time To Peak" 
 
-* DICOM_DCM_CodeSystem#126392 "Oxygen Extraction Fraction" 
+* DICOM_DCM_CodeSystem#126392 //"Oxygen Extraction Fraction" 
 
-* DICOM_DCM_CodeSystem#113084 "Tmax" 
+* DICOM_DCM_CodeSystem#113084 //"Tmax" 
 

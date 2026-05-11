@@ -9,12 +9,13 @@ Estimate Method Type
 * ^version = "20170405"
 * ^title = "Estimate Method Type"
 * ^name = "EstimateMethodType"
-* https://www.nlm.nih.gov/mesh#D009010 "Monte Carlo Method" 
-* http://terminology.hl7.org/CodeSystem/umls#C0026507 "Monte Carlo Method" 
+* ^experimental = false
+* https://www.nlm.nih.gov/mesh#D009010 //"Monte Carlo Method" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0026507 //"Monte Carlo Method" 
 
-* DICOM_DCM_CodeSystem#128479 "Tabular Data Algorithm" 
+* DICOM_DCM_CodeSystem#128479 //"Tabular Data Algorithm" 
 
-* DICOM_DCM_CodeSystem#128480 "Analytical Algorithm" 
+* DICOM_DCM_CodeSystem#128480 //"Analytical Algorithm" 
 
-* DICOM_DCM_CodeSystem#128481 "Empirical Algorithm" 
+* DICOM_DCM_CodeSystem#128481 //"Empirical Algorithm" 
 

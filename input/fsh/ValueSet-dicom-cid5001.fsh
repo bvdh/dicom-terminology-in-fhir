@@ -7,3 +7,4 @@ The two letter country codes of ISO 3166 may be obtained athttp://www.iso.org/ob
 * ^version = "None"
 * ^title = "Country"
 * ^name = "Cid5001"
+* ^experimental = false

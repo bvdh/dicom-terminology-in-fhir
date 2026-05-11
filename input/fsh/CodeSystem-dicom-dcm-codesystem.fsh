@@ -15,8 +15,7 @@ Description: "DICOM® Controlled Terminology Definitions (Coding Scheme Designat
 * ^property[=].description = "Whether the code is retired"
 * ^property[=].type = #boolean
 
-* ^url = "http://dicom.nema.org/resources/ontology/DCM"
-* ^version = "2025.?.20251120"
+* ^version = "2026.2.20260327"
 
 * #ANN "Annotation"
 """
@@ -3621,32 +3620,38 @@ The IEC BN18 Pattern is used as an alternative to the TG18-LN-18 Pattern, to avo
 * #109931 "DIN Grayscale Pattern"
 """
 DinGrayscalePattern:
-Test image 'Bild 2' for the gray-scale reproduction of imaging devices. Seebiblio_DIN6868-57
+Test image 'Bild 2' for the gray-scale reproduction of imaging devices. See retired standard DIN 6868-57:2001.
+                            The replacement norm DIN 6868-157 references test patterns frombiblio_AAPM_OR03
+retired
 """
 * #109931 ^property[0].code = #keyword
 * #109931 ^property[0].valueString  = "DinGrayscalePattern"
 * #109931 ^property[1].code = #retired
-* #109931 ^property[1].valueBoolean  = false
+* #109931 ^property[1].valueBoolean  = true
 
 * #109932 "DIN Geometry Pattern"
 """
 DinGeometryPattern:
-Test image 'Bild 3' for the geometrical imaging properties of imaging devices. Seebiblio_DIN6868-57
+Test image 'Bild 3' for the geometrical imaging properties of imaging devices. See retired standard DIN 6868-57:2001.
+                            The replacement norm DIN 6868-157 references test patterns frombiblio_AAPM_OR03
+retired
 """
 * #109932 ^property[0].code = #keyword
 * #109932 ^property[0].valueString  = "DinGeometryPattern"
 * #109932 ^property[1].code = #retired
-* #109932 ^property[1].valueBoolean  = false
+* #109932 ^property[1].valueBoolean  = true
 
 * #109933 "DIN Resolution Pattern"
 """
 DinResolutionPattern:
-Test image 'Bild 5' for displaying the spatial and contrast resolution as well as the line structure of imaging devices. Seebiblio_DIN6868-57
+Test image 'Bild 5' for displaying the spatial and contrast resolution as well as the line structure of imaging devices. See retired standard DIN 6868-57:2001.
+                            The replacement norm DIN 6868-157 references test patterns frombiblio_AAPM_OR03
+retired
 """
 * #109933 ^property[0].code = #keyword
 * #109933 ^property[0].valueString  = "DinResolutionPattern"
 * #109933 ^property[1].code = #retired
-* #109933 ^property[1].valueBoolean  = false
+* #109933 ^property[1].valueBoolean  = true
 
 * #109941 "White Pattern"
 """
@@ -3992,11 +3997,12 @@ A device that connects using the USB hard drive interface. These may be USB-Stic
 """
 Email:
 Email and email attachments used as a media for data transport.
+retired
 """
 * #110031 ^property[0].code = #keyword
 * #110031 ^property[0].valueString  = "Email"
 * #110031 ^property[1].code = #retired
-* #110031 ^property[1].valueBoolean  = false
+* #110031 ^property[1].valueBoolean  = true
 
 * #110032 "CD"
 """
@@ -4051,7 +4057,7 @@ Media that comply with the Secure Digital Card standard.
 * #110037 "URI"
 """
 Uri:
-URI Identifier for network or other resource, see RFC3968.
+URI Identifier for network or other resource, seebiblio_RFC_3986
 """
 * #110037 ^property[0].code = #keyword
 * #110037 ^property[0].valueString  = "Uri"
@@ -4551,7 +4557,7 @@ Audit participant role ID of the sender of data.
 * #110154 "Destination Media"
 """
 DestinationMedia:
-Audit participant role ID of media receiving data during an export.
+Audit participant role ID of persistent or transient storage media receiving data during an export.
 """
 * #110154 ^property[0].code = #keyword
 * #110154 ^property[0].valueString  = "DestinationMedia"
@@ -4561,12 +4567,54 @@ Audit participant role ID of media receiving data during an export.
 * #110155 "Source Media"
 """
 SourceMedia:
-Audit participant role ID of media providing data during an import.
+Audit participant role ID of persistent or transient storage media providing data during an import.
 """
 * #110155 ^property[0].code = #keyword
 * #110155 ^property[0].valueString  = "SourceMedia"
 * #110155 ^property[1].code = #retired
 * #110155 ^property[1].valueBoolean  = false
+
+* #110156 "Initiator Role ID"
+"""
+InitiatorRoleId:
+Audit participant role ID of the entity that initiated the import, export, or transfer event.
+"""
+* #110156 ^property[0].code = #keyword
+* #110156 ^property[0].valueString  = "InitiatorRoleId"
+* #110156 ^property[1].code = #retired
+* #110156 ^property[1].valueBoolean  = false
+
+* #110157 "Email Message"
+"""
+EmailMessage:
+A message transported by email.
+"""
+* #110157 ^property[0].code = #keyword
+* #110157 ^property[0].valueString  = "EmailMessage"
+* #110157 ^property[1].code = #retired
+* #110157 ^property[1].valueBoolean  = false
+
+* #110158 "Clipboard Manager"
+"""
+ClipboardManager:
+A service that manages multiple copied or cut items and allows pasting of content within and between applications.
+                            A clipboard manager may have multiple independent storage areas and keep a history of copied items.
+"""
+* #110158 ^property[0].code = #keyword
+* #110158 ^property[0].valueString  = "ClipboardManager"
+* #110158 ^property[1].code = #retired
+* #110158 ^property[1].valueBoolean  = false
+
+* #110159 "Messaging System"
+"""
+MessagingSystem:
+A service that communicates messages between applications or systems, identified by intended destination or claimed source
+                            (e.g., mailto:, sms:, chat handles).
+"""
+* #110159 ^property[0].code = #keyword
+* #110159 ^property[0].valueString  = "MessagingSystem"
+* #110159 ^property[1].code = #retired
+* #110159 ^property[1].valueBoolean  = false
 
 * #110180 "Study Instance UID"
 """
@@ -21588,6 +21636,56 @@ Measurement not available: Value indeterminate.
 * #114011 ^property[1].code = #retired
 * #114011 ^property[1].valueBoolean  = false
 
+* #114100 "No modulation"
+"""
+NoModulation:
+Current is not modulated. Current is as defined in the protocol.
+"""
+* #114100 ^property[0].code = #keyword
+* #114100 ^property[0].valueString  = "NoModulation"
+* #114100 ^property[1].code = #retired
+* #114100 ^property[1].valueBoolean  = false
+
+* #114101 "Angular modulation"
+"""
+AngularModulation:
+Current is modulated over different tube angles.
+"""
+* #114101 ^property[0].code = #keyword
+* #114101 ^property[0].valueString  = "AngularModulation"
+* #114101 ^property[1].code = #retired
+* #114101 ^property[1].valueBoolean  = false
+
+* #114102 "Longitudinal modulation"
+"""
+LongitudinalModulation:
+Current is modulated along the axis of the table.
+"""
+* #114102 ^property[0].code = #keyword
+* #114102 ^property[0].valueString  = "LongitudinalModulation"
+* #114102 ^property[1].code = #retired
+* #114102 ^property[1].valueBoolean  = false
+
+* #114103 "ECG-based modulation"
+"""
+Ecg-basedModulation:
+Current is modulated based on the cardiac phase.
+"""
+* #114103 ^property[0].code = #keyword
+* #114103 ^property[0].valueString  = "Ecg-basedModulation"
+* #114103 ^property[1].code = #retired
+* #114103 ^property[1].valueBoolean  = false
+
+* #114104 "Organ-based modulation"
+"""
+Organ-basedModulation:
+Current is modulated based on the organs in the field of view.
+"""
+* #114104 ^property[0].code = #keyword
+* #114104 ^property[0].valueString  = "Organ-basedModulation"
+* #114104 ^property[1].code = #retired
+* #114104 ^property[1].valueBoolean  = false
+
 * #114201 "Time of flight"
 """
 TimeOfFlight:
@@ -24356,13 +24454,13 @@ The dose object was calculated on an image series different from the planning im
 * #121368 ^property[1].code = #retired
 * #121368 ^property[1].valueBoolean  = false
 
-* #121369 "omposed from setup perturbation"
+* #121369 "Composed from setup perturbation"
 """
-OmposedFromSetupPerturbation:
+ComposedFromSetupPerturbation:
 The dose object was calculated by taking into account the perturbations in patient setup compared to a previously calculated RT Dose instance.
 """
 * #121369 ^property[0].code = #keyword
-* #121369 ^property[0].valueString  = "OmposedFromSetupPerturbation"
+* #121369 ^property[0].valueString  = "ComposedFromSetupPerturbation"
 * #121369 ^property[1].code = #retired
 * #121369 ^property[1].valueBoolean  = false
 
@@ -24716,6 +24814,16 @@ Z-score of an observation value with respect a reference population, expressed a
 * #121417 ^property[0].valueString  = "2SigmaDeviationOfPopulation"
 * #121417 ^property[1].code = #retired
 * #121417 ^property[1].valueBoolean  = false
+
+* #121418 "Population Index"
+"""
+PopulationIndex:
+The index concept whose value is used to select a subset of a reference population.
+"""
+* #121418 ^property[0].code = #keyword
+* #121418 ^property[0].valueString  = "PopulationIndex"
+* #121418 ^property[1].code = #retired
+* #121418 ^property[1].valueBoolean  = false
 
 * #121420 "Equation"
 """
@@ -50743,7 +50851,7 @@ Anatomic region including the ganglion cell layer (GCL) and the inner plexiform 
 * #131300 "Ganglion cell complex"
 """
 GanglionCellComplex:
-Anatomic region including the Ganglion cell layer (GCL) , the inner plexiform layer (IPL) , and the retinal nerve fiber layer (RNFL).
+Anatomic region including the Ganglion cell layer (GCL), the inner plexiform layer (IPL), and the retinal nerve fiber layer (RNFL).
 """
 * #131300 ^property[0].code = #keyword
 * #131300 ^property[0].valueString  = "GanglionCellComplex"
@@ -51243,4 +51351,444 @@ Consensus Report Wax, J et al. Consensus Report on the Detailed Fetal Anatomic U
 * #131384 ^property[0].valueString  = "JdmsFetalAnatomy2014"
 * #131384 ^property[1].code = #retired
 * #131384 ^property[1].valueBoolean  = false
+
+* #131390 "No Sensitive Content Identified"
+"""
+NoSensitiveContentIdentified:
+No sensitive content was identified in this image.
+"""
+* #131390 ^property[0].code = #keyword
+* #131390 ^property[0].valueString  = "NoSensitiveContentIdentified"
+* #131390 ^property[1].code = #retired
+* #131390 ^property[1].valueBoolean  = false
+
+* #131391 "Nudity Content"
+"""
+NudityContent:
+The image includes content which may be considered to constitute nudity, such as photos of genitals, breasts, buttocks, etc.
+"""
+* #131391 ^property[0].code = #keyword
+* #131391 ^property[0].valueString  = "NudityContent"
+* #131391 ^property[1].code = #retired
+* #131391 ^property[1].valueBoolean  = false
+
+* #131392 "Personal Content"
+"""
+PersonalContent:
+The image includes content deemed personal by the image subject. This might include photos of abuse injuries, plastic surgeries, or photos indicating the religion, culture, or politics of the image subject.
+"""
+* #131392 ^property[0].code = #keyword
+* #131392 ^property[0].valueString  = "PersonalContent"
+* #131392 ^property[1].code = #retired
+* #131392 ^property[1].valueBoolean  = false
+
+* #131393 "Identifying Content"
+"""
+IdentifyingContent:
+The image includes content commonly used to identify the image subjects, such as photos of the face, tattoos, birthmarks, fingerprints, dental structures, retina, etc.
+"""
+* #131393 ^property[0].code = #keyword
+* #131393 ^property[0].valueString  = "IdentifyingContent"
+* #131393 ^property[1].code = #retired
+* #131393 ^property[1].valueBoolean  = false
+
+* #131394 "Gruesome Content"
+"""
+GruesomeContent:
+The image includes content considered gruesome, gory, or violent by some viewers, such as photos of abuse injuries, trauma, surgery, autopsy, or blood.
+"""
+* #131394 ^property[0].code = #keyword
+* #131394 ^property[0].valueString  = "GruesomeContent"
+* #131394 ^property[1].code = #retired
+* #131394 ^property[1].valueBoolean  = false
+
+* #131395 "Sensitive Content"
+"""
+SensitiveContent:
+The image includes content considered sensitive for unspecified reasons, such as religious, cultural, or political sensitivities.
+"""
+* #131395 ^property[0].code = #keyword
+* #131395 ^property[0].valueString  = "SensitiveContent"
+* #131395 ^property[1].code = #retired
+* #131395 ^property[1].valueBoolean  = false
+
+* #131396 "Excised Tissue"
+"""
+ExcisedTissue:
+Tissue that has been excised from the patient.
+"""
+* #131396 ^property[0].code = #keyword
+* #131396 ^property[0].valueString  = "ExcisedTissue"
+* #131396 ^property[1].code = #retired
+* #131396 ^property[1].valueBoolean  = false
+
+* #131400 "Radiation Dose"
+"""
+RadiationDose:
+Dose deposited by ionizing radiation.
+"""
+* #131400 ^property[0].code = #keyword
+* #131400 ^property[0].valueString  = "RadiationDose"
+* #131400 ^property[1].code = #retired
+* #131400 ^property[1].valueBoolean  = false
+
+* #131401 "Dose Rate"
+"""
+DoseRate:
+Rate of ionizing radiation dose deposition.
+"""
+* #131401 ^property[0].code = #keyword
+* #131401 ^property[0].valueString  = "DoseRate"
+* #131401 ^property[1].code = #retired
+* #131401 ^property[1].valueBoolean  = false
+
+* #131402 "Specific Absorption Rate"
+"""
+SpecificAbsorptionRate:
+Rate at which energy of ionizing radiation or radiofrequency energy is absorbed per unit mass. Abbreviated as SAR.
+"""
+* #131402 ^property[0].code = #keyword
+* #131402 ^property[0].valueString  = "SpecificAbsorptionRate"
+* #131402 ^property[1].code = #retired
+* #131402 ^property[1].valueBoolean  = false
+
+* #131403 "For treatment delivery"
+"""
+ForTreatmentDelivery:
+To be calculated and delivered based on an RT Plan.
+"""
+* #131403 ^property[0].code = #keyword
+* #131403 ^property[0].valueString  = "ForTreatmentDelivery"
+* #131403 ^property[1].code = #retired
+* #131403 ^property[1].valueBoolean  = false
+
+* #131404 "For evaluation"
+"""
+ForEvaluation:
+To be used for the evaluation of a plan. E.g., the dose may have been derived by a spatial transformation or may include radiobiological effects.
+"""
+* #131404 ^property[0].code = #keyword
+* #131404 ^property[0].valueString  = "ForEvaluation"
+* #131404 ^property[1].code = #retired
+* #131404 ^property[1].valueBoolean  = false
+
+* #131405 "For verification"
+"""
+ForVerification:
+To be used for quality assurance verification procedures.
+"""
+* #131405 ^property[0].code = #keyword
+* #131405 ^property[0].valueString  = "ForVerification"
+* #131405 ^property[1].code = #retired
+* #131405 ^property[1].valueBoolean  = false
+
+* #131406 "Spatially Transformed Dose"
+"""
+SpatiallyTransformedDose:
+Dose is spatially transformed, e.g., by deformable registration.
+"""
+* #131406 ^property[0].code = #keyword
+* #131406 ^property[0].valueString  = "SpatiallyTransformedDose"
+* #131406 ^property[1].code = #retired
+* #131406 ^property[1].valueBoolean  = false
+
+* #131407 "Derived Dose"
+"""
+DerivedDose:
+Dose is derived from another dose, e.g., by radiobiological weighting.
+"""
+* #131407 ^property[0].code = #keyword
+* #131407 ^property[0].valueString  = "DerivedDose"
+* #131407 ^property[1].code = #retired
+* #131407 ^property[1].valueBoolean  = false
+
+* #131501 "Usable tissue"
+"""
+UsableTissue:
+A region within a sample that contains tissue that is usable.
+"""
+* #131501 ^property[0].code = #keyword
+* #131501 ^property[0].valueString  = "UsableTissue"
+* #131501 ^property[1].code = #retired
+* #131501 ^property[1].valueBoolean  = false
+
+* #131502 "Unusable tissue"
+"""
+UnusableTissue:
+A region within a sample that contains tissue that is not usable.
+"""
+* #131502 ^property[0].code = #keyword
+* #131502 ^property[0].valueString  = "UnusableTissue"
+* #131502 ^property[1].code = #retired
+* #131502 ^property[1].valueBoolean  = false
+
+* #131503 "In focus"
+"""
+InFocus:
+A region within a sample that is in focus.
+"""
+* #131503 ^property[0].code = #keyword
+* #131503 ^property[0].valueString  = "InFocus"
+* #131503 ^property[1].code = #retired
+* #131503 ^property[1].valueBoolean  = false
+
+* #131504 "Out of focus"
+"""
+OutOfFocus:
+A region within a sample that is not in focus.
+"""
+* #131504 ^property[0].code = #keyword
+* #131504 ^property[0].valueString  = "OutOfFocus"
+* #131504 ^property[1].code = #retired
+* #131504 ^property[1].valueBoolean  = false
+
+* #131505 "Cover slip defect"
+"""
+CoverSlipDefect:
+A region within a sample where there is a defect in the slide cover slip (such as a crack or chip).
+"""
+* #131505 ^property[0].code = #keyword
+* #131505 ^property[0].valueString  = "CoverSlipDefect"
+* #131505 ^property[1].code = #retired
+* #131505 ^property[1].valueBoolean  = false
+
+* #131506 "Folded tissue"
+"""
+FoldedTissue:
+A region within a sample that contains folded tissue.
+"""
+* #131506 ^property[0].code = #keyword
+* #131506 ^property[0].valueString  = "FoldedTissue"
+* #131506 ^property[1].code = #retired
+* #131506 ^property[1].valueBoolean  = false
+
+* #131507 "Adequately stained"
+"""
+AdequatelyStained:
+A region within a sample that is adequately stained.
+"""
+* #131507 ^property[0].code = #keyword
+* #131507 ^property[0].valueString  = "AdequatelyStained"
+* #131507 ^property[1].code = #retired
+* #131507 ^property[1].valueBoolean  = false
+
+* #131508 "Inadequately stained"
+"""
+InadequatelyStained:
+A region within a sample that is not adequately stained.
+"""
+* #131508 ^property[0].code = #keyword
+* #131508 ^property[0].valueString  = "InadequatelyStained"
+* #131508 ^property[1].code = #retired
+* #131508 ^property[1].valueBoolean  = false
+
+* #131509 "Cut off tissue"
+"""
+CutOffTissue:
+A region within a sample where tissue is cut off at the edge of the viewable area.
+"""
+* #131509 ^property[0].code = #keyword
+* #131509 ^property[0].valueString  = "CutOffTissue"
+* #131509 ^property[1].code = #retired
+* #131509 ^property[1].valueBoolean  = false
+
+* #131510 "Coverslip edge"
+"""
+CoverslipEdge:
+A region within a sample that contains the edge of the coverslip.
+"""
+* #131510 ^property[0].code = #keyword
+* #131510 ^property[0].valueString  = "CoverslipEdge"
+* #131510 ^property[1].code = #retired
+* #131510 ^property[1].valueBoolean  = false
+
+* #131511 "Slide marking"
+"""
+SlideMarking:
+A region within a sample that contains pen markings applied to the slide.
+"""
+* #131511 ^property[0].code = #keyword
+* #131511 ^property[0].valueString  = "SlideMarking"
+* #131511 ^property[1].code = #retired
+* #131511 ^property[1].valueBoolean  = false
+
+* #131512 "Stitching"
+"""
+Stitching:
+A region within a sample that contains tile stitching discontinuities.
+"""
+* #131512 ^property[0].code = #keyword
+* #131512 ^property[0].valueString  = "Stitching"
+* #131512 ^property[1].code = #retired
+* #131512 ^property[1].valueBoolean  = false
+
+* #131513 "Stripes"
+"""
+Stripes:
+A region within a sample that contains a periodic illumination non-uniformity pattern.
+"""
+* #131513 ^property[0].code = #keyword
+* #131513 ^property[0].valueString  = "Stripes"
+* #131513 ^property[1].code = #retired
+* #131513 ^property[1].valueBoolean  = false
+
+* #131514 "Foreign material"
+"""
+ForeignMaterial:
+A region within a sample that contains foreign material (such as dust, hair, thread, fingerprint).
+"""
+* #131514 ^property[0].code = #keyword
+* #131514 ^property[0].valueString  = "ForeignMaterial"
+* #131514 ^property[1].code = #retired
+* #131514 ^property[1].valueBoolean  = false
+
+* #131515 "Scratch"
+"""
+Scratch:
+A region within a sample that contains a scratch on the glass slide or coverslip.
+"""
+* #131515 ^property[0].code = #keyword
+* #131515 ^property[0].valueString  = "Scratch"
+* #131515 ^property[1].code = #retired
+* #131515 ^property[1].valueBoolean  = false
+
+* #131516 "Tissue marking"
+"""
+TissueMarking:
+A region within a sample that is coloured with a marker applied to the tissue (such as surgical ink).
+"""
+* #131516 ^property[0].code = #keyword
+* #131516 ^property[0].valueString  = "TissueMarking"
+* #131516 ^property[1].code = #retired
+* #131516 ^property[1].valueBoolean  = false
+
+* #131517 "Unscanned tissue"
+"""
+UnscannedTissue:
+A region outside a sample that corresponds to tissue not digitized at high resolution.
+"""
+* #131517 ^property[0].code = #keyword
+* #131517 ^property[0].valueString  = "UnscannedTissue"
+* #131517 ^property[1].code = #retired
+* #131517 ^property[1].valueBoolean  = false
+
+* #131530 "Internal Os Distance"
+"""
+InternalOsDistance:
+The curved distance along the inner surface of the uterus from the leading edge of the placenta to the internal os of the cervix. Sometimes also referred to as Edge to Os Distance or Placenta Internal Os Distance. Sometimes abbreviated as IOD, EOD, or PI.
+"""
+* #131530 ^property[0].code = #keyword
+* #131530 ^property[0].valueString  = "InternalOsDistance"
+* #131530 ^property[1].code = #retired
+* #131530 ^property[1].valueBoolean  = false
+
+* #131531 "Schneider 2005"
+"""
+Schneider2005:
+Schneider C. et al., Development of Z-scores for fetal cardiac dimensions from echocardiography, Ultrasound Obstet Gynecol 2005; 26: 599605. doi:10.1002/uog.2597
+"""
+* #131531 ^property[0].code = #keyword
+* #131531 ^property[0].valueString  = "Schneider2005"
+* #131531 ^property[1].code = #retired
+* #131531 ^property[1].valueBoolean  = false
+
+* #131532 "Vigneswaran 2018"
+"""
+Vigneswaran2018:
+Vigneswaran T. et al., Reference Ranges for the Size of the Fetal Cardiac Outflow Tracts From 13 to 36 Weeks Gestation: A Single-Center Study of Over 7000 Cases. Circulation Cardiovascular imaging. 2018;11(7):e007575. doi:10.1161/CIRCIMAGING.118.007575
+"""
+* #131532 ^property[0].code = #keyword
+* #131532 ^property[0].valueString  = "Vigneswaran2018"
+* #131532 ^property[1].code = #retired
+* #131532 ^property[1].valueBoolean  = false
+
+* #131533 "Zidere 2021"
+"""
+Zidere2021:
+Zidere V. et al., Reference ranges for the pulsed wave doppler of the fetal cardiac inflow and outflow tracts from 13 to 36 weeks gestation. Journal of the American Society of Echocardiography. 2021; Sep;34(9):1007-1016 doi:10.1016/j.echo.2021.04.017
+"""
+* #131533 ^property[0].code = #keyword
+* #131533 ^property[0].valueString  = "Zidere2021"
+* #131533 ^property[1].code = #retired
+* #131533 ^property[1].valueBoolean  = false
+
+* #131534 "Krishnan 2016"
+"""
+Krishnan2016:
+Krishnan T. et al., Predictive Models for Normal Fetal Cardiac Structures. Journal of the American Society of Echocardiography 2016 Volume 29 Number 12: 1197-1206. doi:10.1016/j.echo.2016.08.019
+"""
+* #131534 ^property[0].code = #keyword
+* #131534 ^property[0].valueString  = "Krishnan2016"
+* #131534 ^property[1].code = #retired
+* #131534 ^property[1].valueBoolean  = false
+
+* #131535 "Pasquini 2007"
+"""
+Pasquini2007:
+Pasquini L. et al., Z-scores of the fetal aortic isthmus and duct: an aid to assessing arch hypoplasia. Ultrasound Obstet Gynecol. 2007 Jun;29(6):628-33. doi:10.1002/uog.4021
+"""
+* #131535 ^property[0].code = #keyword
+* #131535 ^property[0].valueString  = "Pasquini2007"
+* #131535 ^property[1].code = #retired
+* #131535 ^property[1].valueBoolean  = false
+
+* #131536 "Boston Childrens Zscore Data"
+"""
+BostonChildrensZscoreData:
+Boston Childrens Hospital z-score system data.http://zscore.chboston.org/
+"""
+* #131536 ^property[0].code = #keyword
+* #131536 ^property[0].valueString  = "BostonChildrensZscoreData"
+* #131536 ^property[1].code = #retired
+* #131536 ^property[1].valueBoolean  = false
+
+* #131540 "Iterative MAR"
+"""
+IterativeMar:
+Metal Artifact Reduction that uses iterative reconstruction techniques.
+"""
+* #131540 ^property[0].code = #keyword
+* #131540 ^property[0].valueString  = "IterativeMar"
+* #131540 ^property[1].code = #retired
+* #131540 ^property[1].valueBoolean  = false
+
+* #131541 "Image-Space MAR"
+"""
+Image-spaceMar:
+Metal Artifact Reduction that is applied after reconstruction in the image domain.
+"""
+* #131541 ^property[0].code = #keyword
+* #131541 ^property[0].valueString  = "Image-spaceMar"
+* #131541 ^property[1].code = #retired
+* #131541 ^property[1].valueBoolean  = false
+
+* #131542 "Projection-Space MAR"
+"""
+Projection-spaceMar:
+Metal Artifact Reduction that is applied in the raw projection data domain.
+"""
+* #131542 ^property[0].code = #keyword
+* #131542 ^property[0].valueString  = "Projection-spaceMar"
+* #131542 ^property[1].code = #retired
+* #131542 ^property[1].valueBoolean  = false
+
+* #131543 "Multi-Energy MAR"
+"""
+Multi-energyMar:
+Metal Artifact Reduction that utilizes spectral separation of materials with multi-energy CT (MECT).
+"""
+* #131543 ^property[0].code = #keyword
+* #131543 ^property[0].valueString  = "Multi-energyMar"
+* #131543 ^property[1].code = #retired
+* #131543 ^property[1].valueBoolean  = false
+
+* #131544 "AI-Based MAR"
+"""
+Ai-basedMar:
+Metal Artifact Reduction that employs artificial intelligence or machine learning.
+"""
+* #131544 ^property[0].code = #keyword
+* #131544 ^property[0].valueString  = "Ai-basedMar"
+* #131544 ^property[1].code = #retired
+* #131544 ^property[1].valueBoolean  = false
 

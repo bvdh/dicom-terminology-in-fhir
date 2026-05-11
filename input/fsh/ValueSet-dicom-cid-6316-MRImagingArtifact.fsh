@@ -9,21 +9,22 @@ MR Imaging Artifact
 * ^version = "20210714"
 * ^title = "MR Imaging Artifact"
 * ^name = "MRImagingArtifact"
-* http://www.radlex.org#RID11423 "Motion related artifact" 
+* ^experimental = false
+* http://www.radlex.org#RID11423 //"Motion related artifact" 
 
-* http://www.radlex.org#RID11395 "Phase wraparound artifact" 
+* http://www.radlex.org#RID11395 //"Phase wraparound artifact" 
 
-* http://www.radlex.org#RID11424 "Smearing" 
+* http://www.radlex.org#RID11424 //"Smearing" 
 
-* http://www.radlex.org#RID11426 "Ghost" 
+* http://www.radlex.org#RID11426 //"Ghost" 
 
-* http://www.radlex.org#RID11372 "Tissue magnetic susceptibility effect" 
+* http://www.radlex.org#RID11372 //"Tissue magnetic susceptibility effect" 
 
-* http://www.radlex.org#RID11370 "Ferromagnetic implant magnetic susceptibility effect" 
+* http://www.radlex.org#RID11370 //"Ferromagnetic implant magnetic susceptibility effect" 
 
-* http://www.radlex.org#RID11408 "Non-uniform signal intensity artifact" 
+* http://www.radlex.org#RID11408 //"Non-uniform signal intensity artifact" 
 
-* http://www.radlex.org#RID11464 "Parallel imaging artifact" 
+* http://www.radlex.org#RID11464 //"Parallel imaging artifact" 
 
-* http://www.radlex.org#RID11374 "Chemical shift artifact" 
+* http://www.radlex.org#RID11374 //"Chemical shift artifact" 
 

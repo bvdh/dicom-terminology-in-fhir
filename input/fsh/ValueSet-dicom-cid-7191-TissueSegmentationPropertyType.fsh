@@ -9,6 +9,7 @@ Tissue Segmentation Property Type
 * ^version = "20170914"
 * ^title = "Tissue Segmentation Property Type"
 * ^name = "TissueSegmentationPropertyType"
+* ^experimental = false
 * include codes from valueset CID_6403
 
 * include codes from valueset CID_6405

@@ -9,7 +9,8 @@ Adverse Outcome
 * ^version = "20030327"
 * ^title = "Adverse Outcome"
 * ^name = "AdverseOutcome"
-* DICOM_DCM_CodeSystem#122167 "Death During Catheterization" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122167 //"Death During Catheterization" 
 
 * include codes from valueset CID_3754
 

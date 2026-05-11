@@ -9,7 +9,8 @@ CT Dose Reference Authority
 * ^version = "20081027"
 * ^title = "CT Dose Reference Authority"
 * ^name = "CTDoseReferenceAuthority"
-* DICOM_DCM_CodeSystem#113808 "ICRP Pub 60" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113808 //"ICRP Pub 60" 
 
-* DICOM_DCM_CodeSystem#113841 "ICRP Pub 103" 
+* DICOM_DCM_CodeSystem#113841 //"ICRP Pub 103" 
 

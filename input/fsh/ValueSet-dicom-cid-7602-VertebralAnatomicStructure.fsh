@@ -9,6 +9,7 @@ Vertebral Anatomic Structure
 * ^version = "20220115"
 * ^title = "Vertebral Anatomic Structure"
 * ^name = "VertebralAnatomicStructure"
+* ^experimental = false
 * include codes from valueset CID_7603
 
 * include codes from valueset CID_7604

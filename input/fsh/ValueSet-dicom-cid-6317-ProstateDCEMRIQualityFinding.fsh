@@ -9,11 +9,12 @@ Prostate DCE MRI Quality Finding
 * ^version = "20210714"
 * ^title = "Prostate DCE MRI Quality Finding"
 * ^name = "ProstateDCEMRIQualityFinding"
-* DICOM_DCM_CodeSystem#130579 "Poor contrast timing" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130579 //"Poor contrast timing" 
 
-* DICOM_DCM_CodeSystem#130580 "Inadequate contrast enhancement" 
+* DICOM_DCM_CodeSystem#130580 //"Inadequate contrast enhancement" 
 
-* DICOM_DCM_CodeSystem#130581 "Subtraction image missing" 
+* DICOM_DCM_CodeSystem#130581 //"Subtraction image missing" 
 
-* DICOM_DCM_CodeSystem#130582 "Unwanted subtraction images" 
+* DICOM_DCM_CodeSystem#130582 //"Unwanted subtraction images" 
 

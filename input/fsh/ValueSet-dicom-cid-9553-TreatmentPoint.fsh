@@ -9,5 +9,6 @@ Treatment Point
 * ^version = "20190715"
 * ^title = "Treatment Point"
 * ^name = "TreatmentPoint"
-* DICOM_DCM_CodeSystem#130073 "Isocentric Treatment Location Point" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130073 //"Isocentric Treatment Location Point" 
 

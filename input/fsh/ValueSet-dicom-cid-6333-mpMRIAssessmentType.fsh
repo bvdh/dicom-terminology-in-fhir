@@ -9,5 +9,6 @@ mpMRI Assessment Type
 * ^version = "20210714"
 * ^title = "MpMRI Assessment Type"
 * ^name = "MpMRIAssessmentType"
+* ^experimental = false
 * include codes from valueset CID_6334
 

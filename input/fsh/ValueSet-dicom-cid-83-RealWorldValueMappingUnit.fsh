@@ -9,7 +9,8 @@ Real World Value Mapping Unit
 * ^version = "20080123"
 * ^title = "Real World Value Mapping Unit"
 * ^name = "RealWorldValueMappingUnit"
+* ^experimental = false
 * include codes from valueset CID_84
 
-* http://unitsofmeasure.org#[hnsf'U] "Hounsfield unit" 
+* http://unitsofmeasure.org#[hnsf'U] //"Hounsfield unit" 
 

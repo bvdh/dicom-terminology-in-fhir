@@ -6,9 +6,10 @@ Segmentation Property Type
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.497"
-* ^version = "20170914"
+* ^version = "20260319"
 * ^title = "Segmentation Property Type"
 * ^name = "SegmentationPropertyType"
+* ^experimental = false
 * include codes from valueset CID_7191
 
 * include codes from valueset CID_7192
@@ -24,4 +25,6 @@ Segmentation Property Type
 * include codes from valueset CID_7197
 
 * include codes from valueset CID_4273
+
+* include codes from valueset CID_7164
 

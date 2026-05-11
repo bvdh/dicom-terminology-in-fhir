@@ -9,19 +9,20 @@ Ophthalmic Axial Length Measurements Segment Name
 * ^version = "20100623"
 * ^title = "Ophthalmic Axial Length Measurements Segment Name"
 * ^name = "OphthalmicAxialLengthMeasurementsSegmentName"
-* http://snomed.info/sct#28726007 "Cornea" 
-* http://snomed.info/srt#T-AA200 "Cornea" 
-* http://terminology.hl7.org/CodeSystem/umls#C0010031 "Cornea" 
+* ^experimental = false
+* http://snomed.info/sct#28726007 //"Cornea" 
+* http://snomed.info/srt#T-AA200 //"Cornea" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0010031 //"Cornea" 
 
-* http://snomed.info/sct#31636006 "Anterior Chamber" 
-* http://snomed.info/srt#T-AA050 "Anterior Chamber" 
-* http://terminology.hl7.org/CodeSystem/umls#C0003151 "Anterior Chamber" 
+* http://snomed.info/sct#31636006 //"Anterior Chamber" 
+* http://snomed.info/srt#T-AA050 //"Anterior Chamber" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0003151 //"Anterior Chamber" 
 
-* DICOM_DCM_CodeSystem#111778 "Single or Anterior Lens" 
+* DICOM_DCM_CodeSystem#111778 //"Single or Anterior Lens" 
 
-* DICOM_DCM_CodeSystem#111779 "Posterior Lens" 
+* DICOM_DCM_CodeSystem#111779 //"Posterior Lens" 
 
-* http://snomed.info/sct#26386000 "Vitreous Cavity" 
-* http://snomed.info/srt#T-AA079 "Vitreous Cavity" 
-* http://terminology.hl7.org/CodeSystem/umls#C0229095 "Vitreous Cavity" 
+* http://snomed.info/sct#26386000 //"Vitreous Cavity" 
+* http://snomed.info/srt#T-AA079 //"Vitreous Cavity" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0229095 //"Vitreous Cavity" 
 

@@ -9,11 +9,12 @@ Insurance Payor
 * ^version = "20030327"
 * ^title = "Insurance Payor"
 * ^name = "InsurancePayor"
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#18-1 "Government" 
+* ^experimental = false
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#18-1 //"Government" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#18-2 "Commercial" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#18-2 //"Commercial" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#18-3 "Health Maintenance Organization" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#18-3 //"Health Maintenance Organization" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#18-4 "None" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#18-4 //"None" 
 

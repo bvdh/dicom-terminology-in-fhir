@@ -9,13 +9,14 @@ Purpose of Reference to Alternate Representation
 * ^version = "20040322"
 * ^title = "Purpose of Reference to Alternate Representation"
 * ^name = "PurposeOfReferenceToAlternateRepresentation"
-* DICOM_DCM_CodeSystem#121324 "Source image" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121324 //"Source image" 
 
-* DICOM_DCM_CodeSystem#121325 "Lossy compressed image" 
+* DICOM_DCM_CodeSystem#121325 //"Lossy compressed image" 
 
-* DICOM_DCM_CodeSystem#121326 "Alternate SOP Class instance" 
+* DICOM_DCM_CodeSystem#121326 //"Alternate SOP Class instance" 
 
-* DICOM_DCM_CodeSystem#121327 "Full fidelity image" 
+* DICOM_DCM_CodeSystem#121327 //"Full fidelity image" 
 
-* DICOM_DCM_CodeSystem#121328 "Alternate Photometric Interpretation image" 
+* DICOM_DCM_CodeSystem#121328 //"Alternate Photometric Interpretation image" 
 

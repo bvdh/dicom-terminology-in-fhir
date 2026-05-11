@@ -9,15 +9,16 @@ Premedication Type
 * ^version = "20181115"
 * ^title = "Premedication Type"
 * ^name = "PremedicationType"
-* DICOM_DCM_CodeSystem#123012 "Pre-Medication" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#123012 //"Pre-Medication" 
 
-* DICOM_DCM_CodeSystem#130259 "Contrast Reaction Prophylactic Agent" 
+* DICOM_DCM_CodeSystem#130259 //"Contrast Reaction Prophylactic Agent" 
 
-* http://snomed.info/sct#372614000 "Sedative" 
-* http://snomed.info/srt#F-6171D "Sedative" 
-* http://terminology.hl7.org/CodeSystem/umls#C0036557 "Sedative" 
+* http://snomed.info/sct#372614000 //"Sedative" 
+* http://snomed.info/srt#F-6171D //"Sedative" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0036557 //"Sedative" 
 
-* http://snomed.info/sct#52017007 "Antiemetic" 
-* http://snomed.info/srt#C-85800 "Antiemetic" 
-* http://terminology.hl7.org/CodeSystem/umls#C0003297 "Antiemetic" 
+* http://snomed.info/sct#52017007 //"Antiemetic" 
+* http://snomed.info/srt#C-85800 //"Antiemetic" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0003297 //"Antiemetic" 
 

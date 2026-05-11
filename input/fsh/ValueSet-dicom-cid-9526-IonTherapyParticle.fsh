@@ -9,18 +9,19 @@ Ion Therapy Particle
 * ^version = "20190817"
 * ^title = "Ion Therapy Particle"
 * ^name = "IonTherapyParticle"
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C597 "Ion" 
-* http://terminology.hl7.org/CodeSystem/umls#C0022023 "Ion" 
+* ^experimental = false
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C597 //"Ion" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0022023 //"Ion" 
 
-* http://snomed.info/sct#89177007 "Proton" 
-* http://snomed.info/srt#C-10005 "Proton" 
-* http://terminology.hl7.org/CodeSystem/umls#C0033727 "Proton" 
+* http://snomed.info/sct#89177007 //"Proton" 
+* http://snomed.info/srt#C-10005 //"Proton" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0033727 //"Proton" 
 
-* DICOM_DCM_CodeSystem#130141 "^3^Helium nucleus" 
+* DICOM_DCM_CodeSystem#130141 //"^3^Helium nucleus" 
 
-* DICOM_DCM_CodeSystem#130142 "^4^Helium nucleus" 
+* DICOM_DCM_CodeSystem#130142 //"^4^Helium nucleus" 
 
-* DICOM_DCM_CodeSystem#130143 "^12^Carbon nucleus" 
+* DICOM_DCM_CodeSystem#130143 //"^12^Carbon nucleus" 
 
-* DICOM_DCM_CodeSystem#130144 "^16^Oxygen nucleus" 
+* DICOM_DCM_CodeSystem#130144 //"^16^Oxygen nucleus" 
 

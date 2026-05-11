@@ -9,5 +9,6 @@ In future extensions, Overall Breast Composition terms that are not derived from
 * ^version = "20020904"
 * ^title = "Overall Breast Composition"
 * ^name = "OverallBreastComposition"
+* ^experimental = false
 * include codes from valueset CID_6001
 

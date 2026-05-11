@@ -9,9 +9,10 @@ Selection Method
 * ^version = "20030327"
 * ^title = "Selection Method"
 * ^name = "SelectionMethod"
-* DICOM_DCM_CodeSystem#121410 "User chosen value" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121410 //"User chosen value" 
 
-* DICOM_DCM_CodeSystem#121411 "Most recent value chosen" 
+* DICOM_DCM_CodeSystem#121411 //"Most recent value chosen" 
 
-* DICOM_DCM_CodeSystem#121412 "Mean value chosen" 
+* DICOM_DCM_CodeSystem#121412 //"Mean value chosen" 
 

@@ -9,5 +9,6 @@ In future extensions, Calcification Distribution Modifier terms that are not der
 * ^version = "20020904"
 * ^title = "Calcification Distribution Modifier"
 * ^name = "CalcificationDistributionModifier"
+* ^experimental = false
 * include codes from valueset CID_6013
 

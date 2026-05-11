@@ -9,14 +9,15 @@ Patient Orientation
 * ^version = "20160314"
 * ^title = "Patient Orientation"
 * ^name = "PatientOrientation"
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C86043 "erect" 
-* http://terminology.hl7.org/CodeSystem/umls#C0522015 "erect" 
+* ^experimental = false
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C86043 //"erect" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0522015 //"erect" 
 
-* http://snomed.info/sct#102538003 "recumbent" 
-* http://snomed.info/srt#F-10450 "recumbent" 
-* http://terminology.hl7.org/CodeSystem/umls#C0444334 "recumbent" 
+* http://snomed.info/sct#102538003 //"recumbent" 
+* http://snomed.info/srt#F-10450 //"recumbent" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0444334 //"recumbent" 
 
-* http://snomed.info/sct#102539006 "semi-erect" 
-* http://snomed.info/srt#F-10460 "semi-erect" 
-* http://terminology.hl7.org/CodeSystem/umls#C0522018 "semi-erect" 
+* http://snomed.info/sct#102539006 //"semi-erect" 
+* http://snomed.info/srt#F-10460 //"semi-erect" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0522018 //"semi-erect" 
 

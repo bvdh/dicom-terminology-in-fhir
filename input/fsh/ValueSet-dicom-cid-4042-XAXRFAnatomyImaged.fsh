@@ -9,6 +9,7 @@ XA/XRF Anatomy Imaged
 * ^version = "20050822"
 * ^title = "XA/XRF Anatomy Imaged"
 * ^name = "XAXRFAnatomyImaged"
+* ^experimental = false
 * include codes from valueset CID_3010
 
 * include codes from valueset CID_4031

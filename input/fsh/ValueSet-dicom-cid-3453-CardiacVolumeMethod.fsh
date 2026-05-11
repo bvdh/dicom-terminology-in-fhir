@@ -9,19 +9,20 @@ Cardiac Volume Method
 * ^version = "20040614"
 * ^title = "Cardiac Volume Method"
 * ^name = "CardiacVolumeMethod"
-* DICOM_DCM_CodeSystem#122558 "Area Length Kennedy" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122558 //"Area Length Kennedy" 
 
-* DICOM_DCM_CodeSystem#122559 "Area Length Dodge" 
+* DICOM_DCM_CodeSystem#122559 //"Area Length Dodge" 
 
-* DICOM_DCM_CodeSystem#122560 "Area Length Wynne" 
+* DICOM_DCM_CodeSystem#122560 //"Area Length Wynne" 
 
-* DICOM_DCM_CodeSystem#122562 "Multiple Slices" 
+* DICOM_DCM_CodeSystem#122562 //"Multiple Slices" 
 
-* DICOM_DCM_CodeSystem#122563 "Boak" 
+* DICOM_DCM_CodeSystem#122563 //"Boak" 
 
-* DICOM_DCM_CodeSystem#122564 "TS Pyramid" 
+* DICOM_DCM_CodeSystem#122564 //"TS Pyramid" 
 
-* DICOM_DCM_CodeSystem#122565 "Two Chamber" 
+* DICOM_DCM_CodeSystem#122565 //"Two Chamber" 
 
-* DICOM_DCM_CodeSystem#122566 "Parallelepiped" 
+* DICOM_DCM_CodeSystem#122566 //"Parallelepiped" 
 

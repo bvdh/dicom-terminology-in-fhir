@@ -9,13 +9,14 @@ Planning Method
 * ^version = "20101102"
 * ^title = "Planning Method"
 * ^name = "PlanningMethod"
-* DICOM_DCM_CodeSystem#112340 "Generic 2D Planning" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112340 //"Generic 2D Planning" 
 
-* DICOM_DCM_CodeSystem#112341 "Generic 3D Planning" 
+* DICOM_DCM_CodeSystem#112341 //"Generic 3D Planning" 
 
-* DICOM_DCM_CodeSystem#112342 "Generic Planning for Hip Replacement" 
+* DICOM_DCM_CodeSystem#112342 //"Generic Planning for Hip Replacement" 
 
-* DICOM_DCM_CodeSystem#112343 "Generic Planning for Knee Replacement" 
+* DICOM_DCM_CodeSystem#112343 //"Generic Planning for Knee Replacement" 
 
-* DICOM_DCM_CodeSystem#112344 "Mller Method Planning for Hip Replacement" 
+* DICOM_DCM_CodeSystem#112344 //"Mller Method Planning for Hip Replacement" 
 

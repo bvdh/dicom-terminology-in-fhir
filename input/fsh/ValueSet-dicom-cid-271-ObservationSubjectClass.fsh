@@ -9,11 +9,12 @@ Observation Subject Class
 * ^version = "20071102"
 * ^title = "Observation Subject Class"
 * ^name = "ObservationSubjectClass"
-* DICOM_DCM_CodeSystem#121025 "Patient" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121025 //"Patient" 
 
-* DICOM_DCM_CodeSystem#121026 "Fetus" 
+* DICOM_DCM_CodeSystem#121026 //"Fetus" 
 
-* DICOM_DCM_CodeSystem#121027 "Specimen" 
+* DICOM_DCM_CodeSystem#121027 //"Specimen" 
 
-* DICOM_DCM_CodeSystem#121192 "Device Subject" 
+* DICOM_DCM_CodeSystem#121192 //"Device Subject" 
 

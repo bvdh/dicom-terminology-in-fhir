@@ -9,6 +9,7 @@ Cardiac Ultrasound Interventricular Septum Measurement
 * ^version = "20100317"
 * ^title = "Cardiac Ultrasound Interventricular Septum Measurement"
 * ^name = "CardiacUltrasoundInterventricularSeptumMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
 * include codes from valueset CID_12222

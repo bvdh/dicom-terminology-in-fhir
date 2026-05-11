@@ -9,11 +9,12 @@ Nipple Characteristic
 * ^version = "20240611"
 * ^title = "Nipple Characteristic"
 * ^name = "NippleCharacteristic"
-* http://snomed.info/sct#31842008 "Normal shape" 
-* http://snomed.info/srt#M-02000 "Normal shape" 
-* http://terminology.hl7.org/CodeSystem/umls#C0332480 "Normal shape" 
+* ^experimental = false
+* http://snomed.info/sct#31842008 //"Normal shape" 
+* http://snomed.info/srt#M-02000 //"Normal shape" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0332480 //"Normal shape" 
 
-* http://snomed.info/sct#271955004 "Nipple retraction" 
-* http://snomed.info/srt#R-F160E "Nipple retraction" 
-* http://terminology.hl7.org/CodeSystem/umls#C0221370 "Nipple retraction" 
+* http://snomed.info/sct#271955004 //"Nipple retraction" 
+* http://snomed.info/srt#R-F160E //"Nipple retraction" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0221370 //"Nipple retraction" 
 

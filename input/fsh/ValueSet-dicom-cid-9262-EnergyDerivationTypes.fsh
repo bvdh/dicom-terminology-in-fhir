@@ -9,7 +9,8 @@ Energy Derivation Types
 * ^version = "20221225"
 * ^title = "Energy Derivation Types"
 * ^name = "EnergyDerivationTypes"
-* DICOM_DCM_CodeSystem#130806 "Configured Lowest Imaging Energy" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130806 //"Configured Lowest Imaging Energy" 
 
-* DICOM_DCM_CodeSystem#130807 "Configured Default Imaging Energy" 
+* DICOM_DCM_CodeSystem#130807 //"Configured Default Imaging Energy" 
 

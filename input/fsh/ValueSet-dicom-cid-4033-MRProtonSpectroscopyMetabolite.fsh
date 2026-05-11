@@ -9,53 +9,54 @@ For the purpose of this Context Group, where possible, the resonance peak in the
 * ^version = "20160314"
 * ^title = "MR Proton Spectroscopy Metabolite"
 * ^name = "MRProtonSpectroscopyMetabolite"
-* http://snomed.info/sct#115391007 "N-acetylaspartate" 
-* http://snomed.info/srt#F-65C50 "N-acetylaspartate" 
-* http://terminology.hl7.org/CodeSystem/umls#C0067684 "N-acetylaspartate" 
+* ^experimental = false
+* http://snomed.info/sct#115391007 //"N-acetylaspartate" 
+* http://snomed.info/srt#F-65C50 //"N-acetylaspartate" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0067684 //"N-acetylaspartate" 
 
-* http://snomed.info/sct#59351004 "Citrate" 
-* http://snomed.info/srt#F-61080 "Citrate" 
-* http://terminology.hl7.org/CodeSystem/umls#C0376259 "Citrate" 
+* http://snomed.info/sct#59351004 //"Citrate" 
+* http://snomed.info/srt#F-61080 //"Citrate" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0376259 //"Citrate" 
 
-* http://snomed.info/sct#65123005 "Choline" 
-* http://snomed.info/srt#F-61620 "Choline" 
-* http://terminology.hl7.org/CodeSystem/umls#C0008405 "Choline" 
+* http://snomed.info/sct#65123005 //"Choline" 
+* http://snomed.info/srt#F-61620 //"Choline" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0008405 //"Choline" 
 
-* http://snomed.info/sct#14804005 "Creatine" 
-* http://snomed.info/srt#F-61380 "Creatine" 
-* http://terminology.hl7.org/CodeSystem/umls#C0010286 "Creatine" 
+* http://snomed.info/sct#14804005 //"Creatine" 
+* http://snomed.info/srt#F-61380 //"Creatine" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0010286 //"Creatine" 
 
-* DICOM_DCM_CodeSystem#113094 "Creatine and Choline" 
+* DICOM_DCM_CodeSystem#113094 //"Creatine and Choline" 
 
-* http://snomed.info/sct#83036002 "Lactate" 
-* http://snomed.info/srt#F-61760 "Lactate" 
-* http://terminology.hl7.org/CodeSystem/umls#C0376261 "Lactate" 
+* http://snomed.info/sct#83036002 //"Lactate" 
+* http://snomed.info/srt#F-61760 //"Lactate" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0376261 //"Lactate" 
 
-* http://snomed.info/sct#70106000 "Lipid" 
-* http://snomed.info/srt#F-63600 "Lipid" 
-* http://terminology.hl7.org/CodeSystem/umls#C0023779 "Lipid" 
+* http://snomed.info/sct#70106000 //"Lipid" 
+* http://snomed.info/srt#F-63600 //"Lipid" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0023779 //"Lipid" 
 
-* DICOM_DCM_CodeSystem#113095 "Lipid and Lactate" 
+* DICOM_DCM_CodeSystem#113095 //"Lipid and Lactate" 
 
-* DICOM_DCM_CodeSystem#113080 "Glutamate and glutamine" 
+* DICOM_DCM_CodeSystem#113080 //"Glutamate and glutamine" 
 
-* http://snomed.info/sct#25761002 "Glutamine" 
-* http://snomed.info/srt#F-64210 "Glutamine" 
-* http://terminology.hl7.org/CodeSystem/umls#C0017797 "Glutamine" 
+* http://snomed.info/sct#25761002 //"Glutamine" 
+* http://snomed.info/srt#F-64210 //"Glutamine" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0017797 //"Glutamine" 
 
-* http://snomed.info/sct#10944007 "Tuarine" 
-* http://snomed.info/srt#F-64460 "Tuarine" 
-* http://terminology.hl7.org/CodeSystem/umls#C0039350 "Tuarine" 
+* http://snomed.info/sct#10944007 //"Tuarine" 
+* http://snomed.info/srt#F-64460 //"Tuarine" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0039350 //"Tuarine" 
 
-* http://snomed.info/sct#72164009 "Inositol" 
-* http://snomed.info/srt#F-61A90 "Inositol" 
-* http://terminology.hl7.org/CodeSystem/umls#C0021547 "Inositol" 
+* http://snomed.info/sct#72164009 //"Inositol" 
+* http://snomed.info/srt#F-61A90 //"Inositol" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0021547 //"Inositol" 
 
-* DICOM_DCM_CodeSystem#113081 "Choline/Creatine Ratio" 
+* DICOM_DCM_CodeSystem#113081 //"Choline/Creatine Ratio" 
 
-* DICOM_DCM_CodeSystem#113082 "N-acetylaspartate/Creatine Ratio" 
+* DICOM_DCM_CodeSystem#113082 //"N-acetylaspartate/Creatine Ratio" 
 
-* DICOM_DCM_CodeSystem#113083 "N-acetylaspartate/Choline Ratio" 
+* DICOM_DCM_CodeSystem#113083 //"N-acetylaspartate/Choline Ratio" 
 
-* DICOM_DCM_CodeSystem#113096 "Creatine+Choline/Citrate Ratio" 
+* DICOM_DCM_CodeSystem#113096 //"Creatine+Choline/Citrate Ratio" 
 

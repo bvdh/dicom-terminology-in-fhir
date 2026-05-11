@@ -9,9 +9,10 @@ Level of Difficulty
 * ^version = "20170914"
 * ^title = "Level of Difficulty"
 * ^name = "LevelOfDifficulty"
-* DICOM_DCM_CodeSystem#128725 "Primary level" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128725 //"Primary level" 
 
-* DICOM_DCM_CodeSystem#128726 "Intermediate level" 
+* DICOM_DCM_CodeSystem#128726 //"Intermediate level" 
 
-* DICOM_DCM_CodeSystem#128727 "Advanced level" 
+* DICOM_DCM_CodeSystem#128727 //"Advanced level" 
 

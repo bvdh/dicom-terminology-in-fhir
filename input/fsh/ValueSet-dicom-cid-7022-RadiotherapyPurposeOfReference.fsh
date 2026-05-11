@@ -9,11 +9,12 @@ Radiotherapy Purpose of Reference
 * ^version = "20240616"
 * ^title = "Radiotherapy Purpose of Reference"
 * ^name = "RadiotherapyPurposeOfReference"
-* DICOM_DCM_CodeSystem#121310 "RT treatment plan for the position being verified" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121310 //"RT treatment plan for the position being verified" 
 
-* DICOM_DCM_CodeSystem#129210 "Registration used in Planning" 
+* DICOM_DCM_CodeSystem#129210 //"Registration used in Planning" 
 
-* DICOM_DCM_CodeSystem#129211 "Registration created during Treatment" 
+* DICOM_DCM_CodeSystem#129211 //"Registration created during Treatment" 
 
-* DICOM_DCM_CodeSystem#129212 "Dose from prior Treatment" 
+* DICOM_DCM_CodeSystem#129212 //"Dose from prior Treatment" 
 

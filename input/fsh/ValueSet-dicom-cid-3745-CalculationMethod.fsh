@@ -9,11 +9,12 @@ Calculation Method
 * ^version = "20050110"
 * ^title = "Calculation Method"
 * ^name = "CalculationMethod"
-* http://snomed.info/sct#414135002 "Estimated" 
-* http://snomed.info/srt#R-10260 "Estimated" 
-* http://terminology.hl7.org/CodeSystem/umls#C0750572 "Estimated" 
+* ^experimental = false
+* http://snomed.info/sct#414135002 //"Estimated" 
+* http://snomed.info/srt#R-10260 //"Estimated" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0750572 //"Estimated" 
 
-* http://snomed.info/sct#258090004 "Calculated" 
-* http://snomed.info/srt#R-41D2D "Calculated" 
-* http://terminology.hl7.org/CodeSystem/umls#C0444686 "Calculated" 
+* http://snomed.info/sct#258090004 //"Calculated" 
+* http://snomed.info/srt#R-41D2D //"Calculated" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0444686 //"Calculated" 
 

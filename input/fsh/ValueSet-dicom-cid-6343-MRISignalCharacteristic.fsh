@@ -9,5 +9,6 @@ MRI Signal Characteristic
 * ^version = "20210714"
 * ^title = "MRI Signal Characteristic"
 * ^name = "MRISignalCharacteristic"
+* ^experimental = false
 * include codes from valueset CID_6344
 

@@ -9,15 +9,16 @@ MV Imaging Acquisition Techniques
 * ^version = "20221225"
 * ^title = "MV Imaging Acquisition Techniques"
 * ^name = "MVImagingAcquisitionTechniques"
-* DICOM_DCM_CodeSystem#121702 "RT Patient Position Acquisition, single plane MV" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121702 //"RT Patient Position Acquisition, single plane MV" 
 
-* DICOM_DCM_CodeSystem#121708 "RT Patient Position Acquisition, CT MV" 
+* DICOM_DCM_CodeSystem#121708 //"RT Patient Position Acquisition, CT MV" 
 
-* DICOM_DCM_CodeSystem#130787 "RT Patient Position Acquisition, Cone-Beam CT MV" 
+* DICOM_DCM_CodeSystem#130787 //"RT Patient Position Acquisition, Cone-Beam CT MV" 
 
-* DICOM_DCM_CodeSystem#130788 "RT Patient Position Acquisition, Conventional CT MV" 
+* DICOM_DCM_CodeSystem#130788 //"RT Patient Position Acquisition, Conventional CT MV" 
 
-* DICOM_DCM_CodeSystem#130782 "RT Patient Position Acquisition, Integrated Dose MV" 
+* DICOM_DCM_CodeSystem#130782 //"RT Patient Position Acquisition, Integrated Dose MV" 
 
-* DICOM_DCM_CodeSystem#130783 "RT Patient Position Acquisition, Film Cassette MV" 
+* DICOM_DCM_CodeSystem#130783 //"RT Patient Position Acquisition, Film Cassette MV" 
 

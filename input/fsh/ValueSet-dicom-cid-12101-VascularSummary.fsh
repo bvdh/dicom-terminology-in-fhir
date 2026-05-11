@@ -9,5 +9,6 @@ Vascular Summary
 * ^version = "20030327"
 * ^title = "Vascular Summary"
 * ^name = "VascularSummary"
-* DICOM_DCM_CodeSystem#121106 "Comment" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121106 //"Comment" 
 

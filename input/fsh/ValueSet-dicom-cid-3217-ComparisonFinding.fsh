@@ -9,7 +9,8 @@ Comparison Finding
 * ^version = "20080927"
 * ^title = "Comparison Finding"
 * ^name = "ComparisonFinding"
-* DICOM_DCM_CodeSystem#122775 "Agreement with prior findings" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122775 //"Agreement with prior findings" 
 
-* DICOM_DCM_CodeSystem#122776 "Disagreement with prior findings" 
+* DICOM_DCM_CodeSystem#122776 //"Disagreement with prior findings" 
 

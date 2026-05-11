@@ -9,9 +9,10 @@ Radiotherapy Therapeutic Role Category
 * ^version = "20181112"
 * ^title = "Radiotherapy Therapeutic Role Category"
 * ^name = "RadiotherapyTherapeuticRoleCategory"
-* DICOM_DCM_CodeSystem#130041 "RT Target" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130041 //"RT Target" 
 
-* DICOM_DCM_CodeSystem#130042 "RT Dose Calculation Structure" 
+* DICOM_DCM_CodeSystem#130042 //"RT Dose Calculation Structure" 
 
-* DICOM_DCM_CodeSystem#130746 "RT Registration Mark" 
+* DICOM_DCM_CodeSystem#130746 //"RT Registration Mark" 
 

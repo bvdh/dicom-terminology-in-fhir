@@ -9,9 +9,10 @@ Radiotherapy Wedge Type
 * ^version = "20190715"
 * ^title = "Radiotherapy Wedge Type"
 * ^name = "RadiotherapyWedgeType"
-* DICOM_DCM_CodeSystem#130346 "Hard Wedge" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130346 //"Hard Wedge" 
 
-* DICOM_DCM_CodeSystem#130347 "Motorized Wedge" 
+* DICOM_DCM_CodeSystem#130347 //"Motorized Wedge" 
 
-* DICOM_DCM_CodeSystem#130348 "Dynamic Wedge" 
+* DICOM_DCM_CodeSystem#130348 //"Dynamic Wedge" 
 

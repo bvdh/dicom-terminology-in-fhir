@@ -9,11 +9,12 @@ Study Quality
 * ^version = "20080927"
 * ^title = "Study Quality"
 * ^name = "StudyQuality"
-* DICOM_DCM_CodeSystem#122740 "Excellent image quality" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122740 //"Excellent image quality" 
 
-* DICOM_DCM_CodeSystem#122741 "Good image quality" 
+* DICOM_DCM_CodeSystem#122741 //"Good image quality" 
 
-* DICOM_DCM_CodeSystem#122742 "Poor image quality" 
+* DICOM_DCM_CodeSystem#122742 //"Poor image quality" 
 
-* DICOM_DCM_CodeSystem#111235 "Unusable - Quality renders image unusable" 
+* DICOM_DCM_CodeSystem#111235 //"Unusable - Quality renders image unusable" 
 

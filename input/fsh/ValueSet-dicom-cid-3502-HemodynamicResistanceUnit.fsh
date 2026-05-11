@@ -9,9 +9,10 @@ P.R.U. is in units of mm[Hg].s/ml; Wood Units is in mm[Hg].min/l
 * ^version = "20120327"
 * ^title = "Hemodynamic Resistance Unit"
 * ^name = "HemodynamicResistanceUnit"
-* http://unitsofmeasure.org#[PRU] "P.R.U." 
+* ^experimental = false
+* http://unitsofmeasure.org#[PRU] //"P.R.U." 
 
-* http://unitsofmeasure.org#[wood'U] "Wood U" 
+* http://unitsofmeasure.org#[wood'U] //"Wood U" 
 
-* http://unitsofmeasure.org#dyn.s.cm-5 "dyn.s.cm-5" 
+* http://unitsofmeasure.org#dyn.s.cm-5 //"dyn.s.cm-5" 
 

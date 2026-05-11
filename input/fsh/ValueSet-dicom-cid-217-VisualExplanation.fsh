@@ -9,9 +9,10 @@ Visual Explanation
 * ^version = "20191108"
 * ^title = "Visual Explanation"
 * ^name = "VisualExplanation"
-* DICOM_DCM_CodeSystem#130402 "Class activation" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130402 //"Class activation" 
 
-* DICOM_DCM_CodeSystem#130403 "Gradient-weighted class activation" 
+* DICOM_DCM_CodeSystem#130403 //"Gradient-weighted class activation" 
 
-* DICOM_DCM_CodeSystem#130404 "Saliency" 
+* DICOM_DCM_CodeSystem#130404 //"Saliency" 
 

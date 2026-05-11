@@ -9,19 +9,20 @@ Display Device Type
 * ^version = "20170417"
 * ^title = "Display Device Type"
 * ^name = "DisplayDeviceType"
-* DICOM_DCM_CodeSystem#109991 "CRT Display" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#109991 //"CRT Display" 
 
-* DICOM_DCM_CodeSystem#109992 "Liquid Crystal Display" 
+* DICOM_DCM_CodeSystem#109992 //"Liquid Crystal Display" 
 
-* DICOM_DCM_CodeSystem#109993 "Plasma Display" 
+* DICOM_DCM_CodeSystem#109993 //"Plasma Display" 
 
-* DICOM_DCM_CodeSystem#109994 "OLED" 
+* DICOM_DCM_CodeSystem#109994 //"OLED" 
 
-* DICOM_DCM_CodeSystem#109995 "DLP Rear Projection System" 
+* DICOM_DCM_CodeSystem#109995 //"DLP Rear Projection System" 
 
-* DICOM_DCM_CodeSystem#109996 "DLP Front Projection System" 
+* DICOM_DCM_CodeSystem#109996 //"DLP Front Projection System" 
 
-* DICOM_DCM_CodeSystem#109997 "CRT Rear Projection System" 
+* DICOM_DCM_CodeSystem#109997 //"CRT Rear Projection System" 
 
-* DICOM_DCM_CodeSystem#109998 "CRT Front Projection System" 
+* DICOM_DCM_CodeSystem#109998 //"CRT Front Projection System" 
 

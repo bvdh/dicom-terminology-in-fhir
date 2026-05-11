@@ -9,6 +9,7 @@ Fetal Anatomy Survey Assessment
 * ^version = "20251113"
 * ^title = "Fetal Anatomy Survey Assessment"
 * ^name = "FetalAnatomySurveyAssessment"
+* ^experimental = false
 * include codes from valueset CID_12041
 
 * include codes from valueset CID_12042
@@ -25,7 +26,7 @@ Fetal Anatomy Survey Assessment
 
 * include codes from valueset CID_12048
 
-* http://snomed.info/sct#55460000 "Fetal Structure" 
-* http://snomed.info/srt#T-F5201 "Fetal Structure" 
-* http://terminology.hl7.org/CodeSystem/umls#C0524584 "Fetal Structure" 
+* http://snomed.info/sct#55460000 //"Fetal Structure" 
+* http://snomed.info/srt#T-F5201 //"Fetal Structure" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0524584 //"Fetal Structure" 
 

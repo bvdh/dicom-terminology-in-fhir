@@ -9,36 +9,37 @@ General Region of Interest Measurement Modifier
 * ^version = "20121101"
 * ^title = "General Region of Interest Measurement Modifier"
 * ^name = "GeneralRegionOfInterestMeasurementModifier"
+* ^experimental = false
 * include codes from valueset CID_3488
 
-* http://snomed.info/sct#386136009 "Standard Deviation" 
-* http://snomed.info/srt#R-10047 "Standard Deviation" 
-* http://terminology.hl7.org/CodeSystem/umls#C0871420 "Standard Deviation" 
+* http://snomed.info/sct#386136009 //"Standard Deviation" 
+* http://snomed.info/srt#R-10047 //"Standard Deviation" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0871420 //"Standard Deviation" 
 
-* http://snomed.info/sct#255619001 "Total" 
-* http://snomed.info/srt#R-40507 "Total" 
-* http://terminology.hl7.org/CodeSystem/umls#C0439810 "Total" 
+* http://snomed.info/sct#255619001 //"Total" 
+* http://snomed.info/srt#R-40507 //"Total" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0439810 //"Total" 
 
-* http://snomed.info/sct#373099004 "Median" 
-* http://snomed.info/srt#R-00319 "Median" 
-* http://terminology.hl7.org/CodeSystem/umls#C1298795 "Median" 
+* http://snomed.info/sct#373099004 //"Median" 
+* http://snomed.info/srt#R-00319 //"Median" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1298795 //"Median" 
 
-* http://snomed.info/sct#373100007 "Mode" 
-* http://snomed.info/srt#R-0032E "Mode" 
-* http://terminology.hl7.org/CodeSystem/umls#C1298796 "Mode" 
+* http://snomed.info/sct#373100007 //"Mode" 
+* http://snomed.info/srt#R-0032E //"Mode" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1298796 //"Mode" 
 
-* DICOM_DCM_CodeSystem#126031 "Peak Value Within ROI" 
+* DICOM_DCM_CodeSystem#126031 //"Peak Value Within ROI" 
 
-* http://terminology.hl7.org/CodeSystem/umls#C0681921 "Coefficient of Variance" 
-// * http://terminology.hl7.org/CodeSystem/umls#C0681921 "Coefficient of Variance" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0681921 //"Coefficient of Variance" 
+// * http://terminology.hl7.org/CodeSystem/umls/sab#C0681921 "Coefficient of Variance" 
 
-* DICOM_DCM_CodeSystem#126051 "Skewness" 
+* DICOM_DCM_CodeSystem#126051 //"Skewness" 
 
-* DICOM_DCM_CodeSystem#126052 "Kurtosis" 
+* DICOM_DCM_CodeSystem#126052 //"Kurtosis" 
 
-* http://terminology.hl7.org/CodeSystem/umls#C1711260 "Variance" 
-// * http://terminology.hl7.org/CodeSystem/umls#C1711260 "Variance" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1711260 //"Variance" 
+// * http://terminology.hl7.org/CodeSystem/umls/sab#C1711260 "Variance" 
 
-* http://terminology.hl7.org/CodeSystem/umls#C2347976 "Root Mean Square" 
-// * http://terminology.hl7.org/CodeSystem/umls#C2347976 "Root Mean Square" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C2347976 //"Root Mean Square" 
+// * http://terminology.hl7.org/CodeSystem/umls/sab#C2347976 "Root Mean Square" 
 

@@ -9,29 +9,30 @@ Original source of terms is [Fraser and Pare].
 * ^version = "20030108"
 * ^title = "Chest Calcification Descriptor"
 * ^name = "ChestCalcificationDescriptor"
-* http://snomed.info/sct#129751002 "Eggshell calcification" 
-* http://snomed.info/srt#F-01763 "Eggshell calcification" 
-* http://terminology.hl7.org/CodeSystem/umls#C1313950 "Eggshell calcification" 
+* ^experimental = false
+* http://snomed.info/sct#129751002 //"Eggshell calcification" 
+* http://snomed.info/srt#F-01763 //"Eggshell calcification" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1313950 //"Eggshell calcification" 
 
-* http://snomed.info/sct#129749001 "Coarse (popcorn-like) calcification" 
-* http://snomed.info/srt#F-01761 "Coarse (popcorn-like) calcification" 
-* http://terminology.hl7.org/CodeSystem/umls#C1268677 "Coarse (popcorn-like) calcification" 
+* http://snomed.info/sct#129749001 //"Coarse (popcorn-like) calcification" 
+* http://snomed.info/srt#F-01761 //"Coarse (popcorn-like) calcification" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1268677 //"Coarse (popcorn-like) calcification" 
 
-* DICOM_DCM_CodeSystem#112162 "Target" 
+* DICOM_DCM_CodeSystem#112162 //"Target" 
 
-* http://snomed.info/sct#88446008 "Laminated" 
-* http://snomed.info/srt#G-A405 "Laminated" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205274 "Laminated" 
+* http://snomed.info/sct#88446008 //"Laminated" 
+* http://snomed.info/srt#G-A405 //"Laminated" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205274 //"Laminated" 
 
-* DICOM_DCM_CodeSystem#112163 "Fibrocalcific" 
+* DICOM_DCM_CodeSystem#112163 //"Fibrocalcific" 
 
-* DICOM_DCM_CodeSystem#112164 "Flocculent" 
+* DICOM_DCM_CodeSystem#112164 //"Flocculent" 
 
-* http://snomed.info/sct#255288007 "Nodular" 
-* http://snomed.info/srt#R-403A7 "Nodular" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205297 "Nodular" 
+* http://snomed.info/sct#255288007 //"Nodular" 
+* http://snomed.info/srt#R-403A7 //"Nodular" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205297 //"Nodular" 
 
-* http://snomed.info/sct#83323007 "Ossification" 
-* http://snomed.info/srt#F-12100 "Ossification" 
-* http://terminology.hl7.org/CodeSystem/umls#83323007 "Ossification" 
+* http://snomed.info/sct#83323007 //"Ossification" 
+* http://snomed.info/srt#F-12100 //"Ossification" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#83323007 //"Ossification" 
 

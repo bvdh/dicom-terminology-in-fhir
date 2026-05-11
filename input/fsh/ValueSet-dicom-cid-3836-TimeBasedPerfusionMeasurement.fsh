@@ -9,13 +9,14 @@ Time-based Perfusion Measurement
 * ^version = "20051103"
 * ^title = "Time-based Perfusion Measurement"
 * ^name = "TimeBasedPerfusionMeasurement"
-* DICOM_DCM_CodeSystem#122631 "Signal Earliest Peak Time" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122631 //"Signal Earliest Peak Time" 
 
-* DICOM_DCM_CodeSystem#122633 "Signal Increase Start Time" 
+* DICOM_DCM_CodeSystem#122633 //"Signal Increase Start Time" 
 
-* DICOM_DCM_CodeSystem#122634 "Signal Time to Peak" 
+* DICOM_DCM_CodeSystem#122634 //"Signal Time to Peak" 
 
-* DICOM_DCM_CodeSystem#122638 "Signal Baseline Start" 
+* DICOM_DCM_CodeSystem#122638 //"Signal Baseline Start" 
 
-* DICOM_DCM_CodeSystem#122639 "Signal Baseline End" 
+* DICOM_DCM_CodeSystem#122639 //"Signal Baseline End" 
 

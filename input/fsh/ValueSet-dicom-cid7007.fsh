@@ -7,3 +7,4 @@ ASTM E 1762 provides the full definitions for the signature purpose OIDs defined
 * ^version = "None"
 * ^title = "Signature Purpose"
 * ^name = "Cid7007"
+* ^experimental = false

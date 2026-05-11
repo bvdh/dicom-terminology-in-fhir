@@ -9,11 +9,12 @@ Cardiac Contraction Phase
 * ^version = "20071031"
 * ^title = "Cardiac Contraction Phase"
 * ^name = "CardiacContractionPhase"
-* http://snomed.info/sct#111973004 "Systolic" 
-* http://snomed.info/srt#F-32020 "Systolic" 
-* http://terminology.hl7.org/CodeSystem/umls#C0039155 "Systolic" 
+* ^experimental = false
+* http://snomed.info/sct#111973004 //"Systolic" 
+* http://snomed.info/srt#F-32020 //"Systolic" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0039155 //"Systolic" 
 
-* http://snomed.info/sct#90892000 "Diastolic" 
-* http://snomed.info/srt#F-32010 "Diastolic" 
-* http://terminology.hl7.org/CodeSystem/umls#C0012000 "Diastolic" 
+* http://snomed.info/sct#90892000 //"Diastolic" 
+* http://snomed.info/srt#F-32010 //"Diastolic" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0012000 //"Diastolic" 
 

@@ -9,6 +9,7 @@ Percutaneous Entry
 * ^version = "20030327"
 * ^title = "Percutaneous Entry"
 * ^name = "PercutaneousEntry"
+* ^experimental = false
 * include codes from valueset CID_3746
 
 * include codes from valueset CID_3747

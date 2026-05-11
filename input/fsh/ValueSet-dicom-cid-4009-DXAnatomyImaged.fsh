@@ -9,5 +9,6 @@ DX Anatomy Imaged
 * ^version = "20040114"
 * ^title = "DX Anatomy Imaged"
 * ^name = "DXAnatomyImaged"
+* ^experimental = false
 * include codes from valueset CID_4031
 

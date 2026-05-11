@@ -9,5 +9,6 @@ Parametric Map Derivation Image Purpose of Reference
 * ^version = "20141110"
 * ^title = "Parametric Map Derivation Image Purpose of Reference"
 * ^name = "ParametricMapDerivationImagePurposeOfReference"
-* DICOM_DCM_CodeSystem#121322 "Source Image for Image Processing Operation" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121322 //"Source Image for Image Processing Operation" 
 

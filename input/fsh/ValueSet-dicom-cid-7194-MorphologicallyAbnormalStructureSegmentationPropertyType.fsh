@@ -9,6 +9,7 @@ Morphologically Abnormal Structure Segmentation Property Type
 * ^version = "20220402"
 * ^title = "Morphologically Abnormal Structure Segmentation Property Type"
 * ^name = "MorphologicallyAbnormalStructureSegmentationPropertyType"
+* ^experimental = false
 * include codes from valueset CID_7159
 
 * include codes from valueset CID_7199

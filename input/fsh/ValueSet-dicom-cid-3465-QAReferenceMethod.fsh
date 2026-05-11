@@ -9,9 +9,10 @@ QA Reference Method
 * ^version = "20040614"
 * ^title = "QA Reference Method"
 * ^name = "QAReferenceMethod"
-* DICOM_DCM_CodeSystem#122489 "Curve Fitted Reference" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122489 //"Curve Fitted Reference" 
 
-* DICOM_DCM_CodeSystem#122490 "Interpolated Local Reference" 
+* DICOM_DCM_CodeSystem#122490 //"Interpolated Local Reference" 
 
-* DICOM_DCM_CodeSystem#122491 "Mean Local Reference" 
+* DICOM_DCM_CodeSystem#122491 //"Mean Local Reference" 
 

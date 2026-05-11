@@ -9,11 +9,12 @@ From BI-RADS
 * ^version = "20060622"
 * ^title = "Posterior Acoustic Feature"
 * ^name = "PosteriorAcousticFeature"
-* DICOM_DCM_CodeSystem#111367 "No posterior acoustic features" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111367 //"No posterior acoustic features" 
 
-* DICOM_DCM_CodeSystem#111368 "Posterior enhancement" 
+* DICOM_DCM_CodeSystem#111368 //"Posterior enhancement" 
 
-* DICOM_DCM_CodeSystem#111369 "Posterior shadowing" 
+* DICOM_DCM_CodeSystem#111369 //"Posterior shadowing" 
 
-* DICOM_DCM_CodeSystem#111370 "Combined posterior enhancement and shadowing" 
+* DICOM_DCM_CodeSystem#111370 //"Combined posterior enhancement and shadowing" 
 

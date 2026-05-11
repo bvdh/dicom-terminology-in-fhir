@@ -9,13 +9,14 @@ Ophthalmic Thickness Deviation Category
 * ^version = "20110825"
 * ^title = "Ophthalmic Thickness Deviation Category"
 * ^name = "OphthalmicThicknessDeviationCategory"
-* DICOM_DCM_CodeSystem#111935 "p>5%" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111935 //"p>5%" 
 
-* DICOM_DCM_CodeSystem#111936 "p<5%" 
+* DICOM_DCM_CodeSystem#111936 //"p<5%" 
 
-* DICOM_DCM_CodeSystem#111937 "p<2%" 
+* DICOM_DCM_CodeSystem#111937 //"p<2%" 
 
-* DICOM_DCM_CodeSystem#111938 "p<1%" 
+* DICOM_DCM_CodeSystem#111938 //"p<1%" 
 
-* DICOM_DCM_CodeSystem#111939 "p<0.5%" 
+* DICOM_DCM_CodeSystem#111939 //"p<0.5%" 
 

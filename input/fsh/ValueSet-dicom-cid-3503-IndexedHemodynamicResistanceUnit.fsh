@@ -9,9 +9,10 @@ Indexed Hemodynamic Resistance Unit
 * ^version = "20120327"
 * ^title = "Indexed Hemodynamic Resistance Unit"
 * ^name = "IndexedHemodynamicResistanceUnit"
-* http://unitsofmeasure.org#[PRU]/m2 "P.R.U./m2" 
+* ^experimental = false
+* http://unitsofmeasure.org#[PRU]/m2 //"P.R.U./m2" 
 
-* http://unitsofmeasure.org#[wood'U]/m2 "Wood U/m2" 
+* http://unitsofmeasure.org#[wood'U]/m2 //"Wood U/m2" 
 
-* http://unitsofmeasure.org#dyn.s.cm-5/m2 "dyn.s.cm-5/m2" 
+* http://unitsofmeasure.org#dyn.s.cm-5/m2 //"dyn.s.cm-5/m2" 
 

@@ -9,13 +9,14 @@ Pre-Cath Angina Type
 * ^version = "20030327"
 * ^title = "Pre-Cath Angina Type"
 * ^name = "PreCathAnginaType"
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#49-I "Atypical Chest Pain" 
+* ^experimental = false
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#49-I //"Atypical Chest Pain" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#49-II "Stable Angina" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#49-II //"Stable Angina" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#49-IIIa "Acute Coronary Syndrome: Unstable Angina" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#49-IIIa //"Acute Coronary Syndrome: Unstable Angina" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#49-IIIb "Acute Coronary Syndrome: Non ST-Elevation Myocardial Infarction" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#49-IIIb //"Acute Coronary Syndrome: Non ST-Elevation Myocardial Infarction" 
 
-* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#49-IIIc "Acute Coronary Syndrome: ST-Elevation Myocardial Infarction" 
+* http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr#49-IIIc //"Acute Coronary Syndrome: ST-Elevation Myocardial Infarction" 
 

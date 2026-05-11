@@ -9,18 +9,19 @@ Fetal Biometry Ratio
 * ^version = "20030130"
 * ^title = "Fetal Biometry Ratio"
 * ^name = "FetalBiometryRatio"
-* http://loinc.org#11947-9 "HC/AC" 
-* http://terminology.hl7.org/CodeSystem/umls#C0552064 "HC/AC" 
+* ^experimental = false
+* http://loinc.org#11947-9 //"HC/AC" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0552064 //"HC/AC" 
 
-* http://loinc.org#11871-1 "FL/AC" 
-* http://terminology.hl7.org/CodeSystem/umls#C0551988 "FL/AC" 
+* http://loinc.org#11871-1 //"FL/AC" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0551988 //"FL/AC" 
 
-* http://loinc.org#11872-9 "FL/BPD" 
-* http://terminology.hl7.org/CodeSystem/umls#C0551989 "FL/BPD" 
+* http://loinc.org#11872-9 //"FL/BPD" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0551989 //"FL/BPD" 
 
-* http://loinc.org#11823-2 "Cephalic Index" 
-* http://terminology.hl7.org/CodeSystem/umls#C0551940 "Cephalic Index" 
+* http://loinc.org#11823-2 //"Cephalic Index" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0551940 //"Cephalic Index" 
 
-* http://loinc.org#11873-7 "FL/HC" 
-* http://terminology.hl7.org/CodeSystem/umls#C0551990 "FL/HC" 
+* http://loinc.org#11873-7 //"FL/HC" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0551990 //"FL/HC" 
 

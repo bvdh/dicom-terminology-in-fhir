@@ -9,26 +9,27 @@ Echocardiography Aorta Measurement
 * ^version = "20030918"
 * ^title = "Echocardiography Aorta Measurement"
 * ^name = "EchocardiographyAortaMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
-* http://loinc.org#18015-8 "Aortic Root Diameter" 
-* http://terminology.hl7.org/CodeSystem/umls#C0801065 "Aortic Root Diameter" 
+* http://loinc.org#18015-8 //"Aortic Root Diameter" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0801065 //"Aortic Root Diameter" 
 
-* http://loinc.org#18011-7 "Aortic Arch Diameter" 
-* http://terminology.hl7.org/CodeSystem/umls#C0801061 "Aortic Arch Diameter" 
+* http://loinc.org#18011-7 //"Aortic Arch Diameter" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0801061 //"Aortic Arch Diameter" 
 
-* http://loinc.org#18012-5 "Ascending Aortic Diameter" 
-* http://terminology.hl7.org/CodeSystem/umls#C0801062 "Ascending Aortic Diameter" 
+* http://loinc.org#18012-5 //"Ascending Aortic Diameter" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0801062 //"Ascending Aortic Diameter" 
 
-* http://loinc.org#18014-1 "Aortic Isthmus Diameter" 
-* http://terminology.hl7.org/CodeSystem/umls#C0801064 "Aortic Isthmus Diameter" 
+* http://loinc.org#18014-1 //"Aortic Isthmus Diameter" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0801064 //"Aortic Isthmus Diameter" 
 
-* http://loinc.org#18013-3 "Descending Aortic Diameter" 
-* http://terminology.hl7.org/CodeSystem/umls#C0801063 "Descending Aortic Diameter" 
+* http://loinc.org#18013-3 //"Descending Aortic Diameter" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0801063 //"Descending Aortic Diameter" 
 
-* http://loinc.org#17995-2 "Thoracic Aorta Coarctation Systolic Peak Instantaneous Gradient" 
-* http://terminology.hl7.org/CodeSystem/umls#C0801045 "Thoracic Aorta Coarctation Systolic Peak Instantaneous Gradient" 
+* http://loinc.org#17995-2 //"Thoracic Aorta Coarctation Systolic Peak Instantaneous Gradient" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0801045 //"Thoracic Aorta Coarctation Systolic Peak Instantaneous Gradient" 
 
-* http://loinc.org#29460-3 "Thoracic Aorta Coarctation Systolic Peak Velocity" 
-* http://terminology.hl7.org/CodeSystem/umls#C0944908 "Thoracic Aorta Coarctation Systolic Peak Velocity" 
+* http://loinc.org#29460-3 //"Thoracic Aorta Coarctation Systolic Peak Velocity" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0944908 //"Thoracic Aorta Coarctation Systolic Peak Velocity" 
 

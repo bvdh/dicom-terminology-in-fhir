@@ -9,15 +9,16 @@ Stress Imaging Quality Issue
 * ^version = "20080927"
 * ^title = "Stress Imaging Quality Issue"
 * ^name = "StressImagingQualityIssue"
-* DICOM_DCM_CodeSystem#111210 "Motion blur" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111210 //"Motion blur" 
 
-* DICOM_DCM_CodeSystem#122743 "Body habitus attenuation" 
+* DICOM_DCM_CodeSystem#122743 //"Body habitus attenuation" 
 
-* DICOM_DCM_CodeSystem#122744 "Breast attenuation" 
+* DICOM_DCM_CodeSystem#122744 //"Breast attenuation" 
 
-* DICOM_DCM_CodeSystem#122745 "Diaphragmatic attenuation" 
+* DICOM_DCM_CodeSystem#122745 //"Diaphragmatic attenuation" 
 
-* http://snomed.info/sct#429382003 "Subdiaphragmatic uptake" 
-* http://snomed.info/srt#F-04FD3 "Subdiaphragmatic uptake" 
-* http://terminology.hl7.org/CodeSystem/umls#C1997338 "Subdiaphragmatic uptake" 
+* http://snomed.info/sct#429382003 //"Subdiaphragmatic uptake" 
+* http://snomed.info/srt#F-04FD3 //"Subdiaphragmatic uptake" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1997338 //"Subdiaphragmatic uptake" 
 

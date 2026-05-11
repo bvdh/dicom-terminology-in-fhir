@@ -7,3 +7,4 @@ None
 * ^version = "None"
 * ^title = "Conjunctive Term (Retired)"
 * ^name = "Cid3685"
+* ^experimental = false

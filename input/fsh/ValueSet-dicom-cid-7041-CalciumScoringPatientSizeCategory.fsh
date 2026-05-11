@@ -9,5 +9,6 @@ Calcium Scoring Patient Size Category
 * ^version = "20170417"
 * ^title = "Calcium Scoring Patient Size Category"
 * ^name = "CalciumScoringPatientSizeCategory"
+* ^experimental = false
 * include codes from valueset CID_7042
 

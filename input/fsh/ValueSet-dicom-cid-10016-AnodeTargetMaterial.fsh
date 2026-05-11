@@ -9,15 +9,16 @@ Anode Target Material
 * ^version = "20190817"
 * ^title = "Anode Target Material"
 * ^name = "AnodeTargetMaterial"
-* http://snomed.info/sct#71128006 "Molybdenum" 
-* http://snomed.info/srt#C-15000 "Molybdenum" 
-* http://terminology.hl7.org/CodeSystem/umls#C0026402 "Molybdenum" 
+* ^experimental = false
+* http://snomed.info/sct#71128006 //"Molybdenum" 
+* http://snomed.info/srt#C-15000 //"Molybdenum" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0026402 //"Molybdenum" 
 
-* http://snomed.info/sct#59801003 "Rhodium" 
-* http://snomed.info/srt#C-16700 "Rhodium" 
-* http://terminology.hl7.org/CodeSystem/umls#C0035493 "Rhodium" 
+* http://snomed.info/sct#59801003 //"Rhodium" 
+* http://snomed.info/srt#C-16700 //"Rhodium" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0035493 //"Rhodium" 
 
-* http://snomed.info/sct#26194003 "Tungsten" 
-* http://snomed.info/srt#C-16400 "Tungsten" 
-* http://terminology.hl7.org/CodeSystem/umls#C0041383 "Tungsten" 
+* http://snomed.info/sct#26194003 //"Tungsten" 
+* http://snomed.info/srt#C-16400 //"Tungsten" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0041383 //"Tungsten" 
 

@@ -9,7 +9,8 @@ Circulatory Support Action
 * ^version = "20030327"
 * ^title = "Circulatory Support Action"
 * ^name = "CirculatorySupportAction"
-* DICOM_DCM_CodeSystem#121157 "Begin Circulatory Support" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121157 //"Begin Circulatory Support" 
 
-* DICOM_DCM_CodeSystem#121158 "End Circulatory Support" 
+* DICOM_DCM_CodeSystem#121158 //"End Circulatory Support" 
 

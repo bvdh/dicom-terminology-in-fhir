@@ -9,7 +9,8 @@ Ophthalmic Ultrasound Axial Measurements Type
 * ^version = "20100623"
 * ^title = "Ophthalmic Ultrasound Axial Measurements Type"
 * ^name = "OphthalmicUltrasoundAxialMeasurementsType"
-* DICOM_DCM_CodeSystem#111750 "Ultrasound Contact" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111750 //"Ultrasound Contact" 
 
-* DICOM_DCM_CodeSystem#111751 "Ultrasound Immersion" 
+* DICOM_DCM_CodeSystem#111751 //"Ultrasound Immersion" 
 

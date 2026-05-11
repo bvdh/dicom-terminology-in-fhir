@@ -9,9 +9,10 @@ CMDCTECC Calcium Scoring Patient Size Category
 * ^version = "20100127"
 * ^title = "CMDCTECC Calcium Scoring Patient Size Category"
 * ^name = "CMDCTECCCalciumScoringPatientSizeCategory"
-* DICOM_DCM_CodeSystem#113601 "Small: < 32.0 cm lateral thickness" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113601 //"Small: < 32.0 cm lateral thickness" 
 
-* DICOM_DCM_CodeSystem#113602 "Medium: 32.0-38.0 cm lateral thickness" 
+* DICOM_DCM_CodeSystem#113602 //"Medium: 32.0-38.0 cm lateral thickness" 
 
-* DICOM_DCM_CodeSystem#113603 "Large: > 38.0 cm lateral thickness" 
+* DICOM_DCM_CodeSystem#113603 //"Large: > 38.0 cm lateral thickness" 
 

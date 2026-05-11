@@ -9,15 +9,16 @@ Attenuation Coefficient Measurement
 * ^version = "20030108"
 * ^title = "Attenuation Coefficient Measurement"
 * ^name = "AttenuationCoefficientMeasurement"
-* DICOM_DCM_CodeSystem#112031 "Attenuation Coefficient" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112031 //"Attenuation Coefficient" 
 
-* DICOM_DCM_CodeSystem#112179 "Minimum Attenuation Coefficient" 
+* DICOM_DCM_CodeSystem#112179 //"Minimum Attenuation Coefficient" 
 
-* DICOM_DCM_CodeSystem#112180 "Maximum Attenuation Coefficient" 
+* DICOM_DCM_CodeSystem#112180 //"Maximum Attenuation Coefficient" 
 
-* DICOM_DCM_CodeSystem#112181 "Mean Attenuation Coefficient" 
+* DICOM_DCM_CodeSystem#112181 //"Mean Attenuation Coefficient" 
 
-* DICOM_DCM_CodeSystem#112182 "Median Attenuation Coefficient" 
+* DICOM_DCM_CodeSystem#112182 //"Median Attenuation Coefficient" 
 
-* DICOM_DCM_CodeSystem#112183 "Standard Deviation of Attenuation Coefficient" 
+* DICOM_DCM_CodeSystem#112183 //"Standard Deviation of Attenuation Coefficient" 
 

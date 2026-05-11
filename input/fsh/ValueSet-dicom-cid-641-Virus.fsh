@@ -9,11 +9,12 @@ Virus
 * ^version = "20151110"
 * ^title = "Virus"
 * ^name = "Virus"
-* http://snomed.info/sct#42024000 "Theiler's murine encephalomyelitis virus" 
-* http://snomed.info/srt#L-30606 "Theiler's murine encephalomyelitis virus" 
-* http://terminology.hl7.org/CodeSystem/umls#C0206425 "Theiler's murine encephalomyelitis virus" 
+* ^experimental = false
+* http://snomed.info/sct#42024000 //"Theiler's murine encephalomyelitis virus" 
+* http://snomed.info/srt#L-30606 //"Theiler's murine encephalomyelitis virus" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0206425 //"Theiler's murine encephalomyelitis virus" 
 
-* http://snomed.info/sct#112381006 "Adeno-associated virus group" 
-* http://snomed.info/srt#L-35500 "Adeno-associated virus group" 
-* http://terminology.hl7.org/CodeSystem/umls#C0001417 "Adeno-associated virus group" 
+* http://snomed.info/sct#112381006 //"Adeno-associated virus group" 
+* http://snomed.info/srt#L-35500 //"Adeno-associated virus group" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0001417 //"Adeno-associated virus group" 
 

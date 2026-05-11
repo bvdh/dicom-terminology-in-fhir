@@ -9,11 +9,12 @@ Stenosis Measurement Method
 * ^version = "20051103"
 * ^title = "Stenosis Measurement Method"
 * ^name = "StenosisMeasurementMethod"
-* DICOM_DCM_CodeSystem#122655 "NASCET" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122655 //"NASCET" 
 
-* DICOM_DCM_CodeSystem#122656 "ECST" 
+* DICOM_DCM_CodeSystem#122656 //"ECST" 
 
-* DICOM_DCM_CodeSystem#122650 "Area Based Method" 
+* DICOM_DCM_CodeSystem#122650 //"Area Based Method" 
 
-* DICOM_DCM_CodeSystem#122651 "Diameter Based Method" 
+* DICOM_DCM_CodeSystem#122651 //"Diameter Based Method" 
 

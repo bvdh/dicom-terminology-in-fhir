@@ -9,15 +9,16 @@ General External Radiotherapy Procedure Technique
 * ^version = "20181112"
 * ^title = "General External Radiotherapy Procedure Technique"
 * ^name = "GeneralExternalRadiotherapyProcedureTechnique"
-* DICOM_DCM_CodeSystem#130102 "Static Beam" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130102 //"Static Beam" 
 
-* DICOM_DCM_CodeSystem#130103 "Arc Beam" 
+* DICOM_DCM_CodeSystem#130103 //"Arc Beam" 
 
-* DICOM_DCM_CodeSystem#130104 "Conformal Arc Beam" 
+* DICOM_DCM_CodeSystem#130104 //"Conformal Arc Beam" 
 
-* DICOM_DCM_CodeSystem#130105 "Step and Shoot Beam" 
+* DICOM_DCM_CodeSystem#130105 //"Step and Shoot Beam" 
 
-* DICOM_DCM_CodeSystem#130106 "Sliding Window Beam" 
+* DICOM_DCM_CodeSystem#130106 //"Sliding Window Beam" 
 
-* DICOM_DCM_CodeSystem#130107 "VMAT" 
+* DICOM_DCM_CodeSystem#130107 //"VMAT" 
 

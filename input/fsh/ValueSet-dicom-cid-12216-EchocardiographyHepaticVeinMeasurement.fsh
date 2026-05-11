@@ -9,17 +9,18 @@ Echocardiography Hepatic Vein Measurement
 * ^version = "20030918"
 * ^title = "Echocardiography Hepatic Vein Measurement"
 * ^name = "EchocardiographyHepaticVeinMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
-* http://loinc.org#29471-0 "Hepatic Vein Systolic Peak Velocity" 
-* http://terminology.hl7.org/CodeSystem/umls#C0944919 "Hepatic Vein Systolic Peak Velocity" 
+* http://loinc.org#29471-0 //"Hepatic Vein Systolic Peak Velocity" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0944919 //"Hepatic Vein Systolic Peak Velocity" 
 
-* http://loinc.org#29472-8 "Hepatic Vein Diastolic Peak Velocity" 
-* http://terminology.hl7.org/CodeSystem/umls#C0944920 "Hepatic Vein Diastolic Peak Velocity" 
+* http://loinc.org#29472-8 //"Hepatic Vein Diastolic Peak Velocity" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0944920 //"Hepatic Vein Diastolic Peak Velocity" 
 
-* http://loinc.org#29473-6 "Hepatic Vein Systolic to Diastolic Ratio" 
-* http://terminology.hl7.org/CodeSystem/umls#C0944921 "Hepatic Vein Systolic to Diastolic Ratio" 
+* http://loinc.org#29473-6 //"Hepatic Vein Systolic to Diastolic Ratio" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0944921 //"Hepatic Vein Systolic to Diastolic Ratio" 
 
-* http://loinc.org#29474-4 "Hepatic Vein Atrial Contraction Reversal Peak Velocity" 
-* http://terminology.hl7.org/CodeSystem/umls#C0944922 "Hepatic Vein Atrial Contraction Reversal Peak Velocity" 
+* http://loinc.org#29474-4 //"Hepatic Vein Atrial Contraction Reversal Peak Velocity" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0944922 //"Hepatic Vein Atrial Contraction Reversal Peak Velocity" 
 

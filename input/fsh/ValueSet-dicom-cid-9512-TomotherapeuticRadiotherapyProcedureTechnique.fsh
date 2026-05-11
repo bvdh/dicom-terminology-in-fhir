@@ -9,7 +9,8 @@ Tomotherapeutic Radiotherapy Procedure Technique
 * ^version = "20181112"
 * ^title = "Tomotherapeutic Radiotherapy Procedure Technique"
 * ^name = "TomotherapeuticRadiotherapyProcedureTechnique"
-* DICOM_DCM_CodeSystem#130108 "Helical Beam" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130108 //"Helical Beam" 
 
-* DICOM_DCM_CodeSystem#130109 "Topographic Beam" 
+* DICOM_DCM_CodeSystem#130109 //"Topographic Beam" 
 

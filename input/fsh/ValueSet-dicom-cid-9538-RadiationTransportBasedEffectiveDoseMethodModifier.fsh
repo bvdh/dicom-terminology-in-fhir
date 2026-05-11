@@ -9,7 +9,8 @@ Radiation Transport-Based Effective Dose Method Modifier
 * ^version = "20181112"
 * ^title = "Radiation Transport-based Effective Dose Method Modifier"
 * ^name = "RadiationTransportBasedEffectiveDoseMethodModifier"
-* DICOM_DCM_CodeSystem#130128 "Local Effect Model" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130128 //"Local Effect Model" 
 
-* DICOM_DCM_CodeSystem#130129 "Microdosimetric Kinetic Model" 
+* DICOM_DCM_CodeSystem#130129 //"Microdosimetric Kinetic Model" 
 

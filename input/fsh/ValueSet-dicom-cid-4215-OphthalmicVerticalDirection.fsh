@@ -9,11 +9,12 @@ Ophthalmic Vertical Direction
 * ^version = "20080124"
 * ^title = "Ophthalmic Vertical Direction"
 * ^name = "OphthalmicVerticalDirection"
-* http://snomed.info/sct#255532002 "Up" 
-* http://snomed.info/srt#R-404BE "Up" 
-* http://terminology.hl7.org/CodeSystem/umls#C0547043 "Up" 
+* ^experimental = false
+* http://snomed.info/sct#255532002 //"Up" 
+* http://snomed.info/srt#R-404BE //"Up" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0547043 //"Up" 
 
-* http://snomed.info/sct#255518004 "Down" 
-* http://snomed.info/srt#R-404B3 "Down" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205104 "Down" 
+* http://snomed.info/sct#255518004 //"Down" 
+* http://snomed.info/srt#R-404B3 //"Down" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0205104 //"Down" 
 

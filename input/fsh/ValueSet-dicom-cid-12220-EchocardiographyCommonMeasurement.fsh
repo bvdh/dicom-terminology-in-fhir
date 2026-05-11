@@ -9,6 +9,7 @@ Echocardiography Common Measurement
 * ^version = "20030918"
 * ^title = "Echocardiography Common Measurement"
 * ^name = "EchocardiographyCommonMeasurement"
-* http://loinc.org#8867-4 "Heart rate" 
-* http://terminology.hl7.org/CodeSystem/umls#C0488794 "Heart rate" 
+* ^experimental = false
+* http://loinc.org#8867-4 //"Heart rate" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0488794 //"Heart rate" 
 

@@ -9,13 +9,14 @@ Calibration Object
 * ^version = "20040614"
 * ^title = "Calibration Object"
 * ^name = "CalibrationObject"
-* http://snomed.info/sct#19923001 "Catheter" 
-* http://snomed.info/srt#A-26800 "Catheter" 
-* http://terminology.hl7.org/CodeSystem/umls#C0085590 "Catheter" 
+* ^experimental = false
+* http://snomed.info/sct#19923001 //"Catheter" 
+* http://snomed.info/srt#A-26800 //"Catheter" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0085590 //"Catheter" 
 
-* http://snomed.info/sct#102304005 "Measuring Ruler" 
-* http://snomed.info/srt#A-10141 "Measuring Ruler" 
-* http://terminology.hl7.org/CodeSystem/umls#C0522637 "Measuring Ruler" 
+* http://snomed.info/sct#102304005 //"Measuring Ruler" 
+* http://snomed.info/srt#A-10141 //"Measuring Ruler" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0522637 //"Measuring Ruler" 
 
-* DICOM_DCM_CodeSystem#122485 "Sphere" 
+* DICOM_DCM_CodeSystem#122485 //"Sphere" 
 

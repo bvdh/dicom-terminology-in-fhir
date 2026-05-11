@@ -9,21 +9,22 @@ The concepts in the CID are intended to be a declarative statement to represent 
 * ^version = "20160908"
 * ^title = "RT Process Input"
 * ^name = "RTProcessInput"
-* DICOM_DCM_CodeSystem#128180 "For RT Workflow" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128180 //"For RT Workflow" 
 
-* DICOM_DCM_CodeSystem#128197 "For RT Prescription" 
+* DICOM_DCM_CodeSystem#128197 //"For RT Prescription" 
 
-* DICOM_DCM_CodeSystem#128198 "For RT Treatment Planning" 
+* DICOM_DCM_CodeSystem#128198 //"For RT Treatment Planning" 
 
-* DICOM_DCM_CodeSystem#128200 "For RT Plan Summation" 
+* DICOM_DCM_CodeSystem#128200 //"For RT Plan Summation" 
 
-* DICOM_DCM_CodeSystem#128201 "For Physician Review" 
+* DICOM_DCM_CodeSystem#128201 //"For Physician Review" 
 
-* DICOM_DCM_CodeSystem#128202 "For Physicist Review" 
+* DICOM_DCM_CodeSystem#128202 //"For Physicist Review" 
 
-* DICOM_DCM_CodeSystem#128204 "For Plan Quality Assurance" 
+* DICOM_DCM_CodeSystem#128204 //"For Plan Quality Assurance" 
 
-* DICOM_DCM_CodeSystem#128205 "For Machine Quality Assurance" 
+* DICOM_DCM_CodeSystem#128205 //"For Machine Quality Assurance" 
 
-* DICOM_DCM_CodeSystem#128206 "For Patient Setup Verification" 
+* DICOM_DCM_CodeSystem#128206 //"For Patient Setup Verification" 
 

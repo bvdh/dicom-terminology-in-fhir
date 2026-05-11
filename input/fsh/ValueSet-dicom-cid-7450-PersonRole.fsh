@@ -9,15 +9,16 @@ Person Role
 * ^version = "20040112"
 * ^title = "Person Role"
 * ^name = "PersonRole"
-* DICOM_DCM_CodeSystem#121025 "Patient" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121025 //"Patient" 
 
-* http://snomed.info/sct#223366009 "Healthcare professional" 
-* http://snomed.info/srt#J-00552 "Healthcare professional" 
-* http://terminology.hl7.org/CodeSystem/umls#C1704312 "Healthcare professional" 
+* http://snomed.info/sct#223366009 //"Healthcare professional" 
+* http://snomed.info/srt#J-00552 //"Healthcare professional" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C1704312 //"Healthcare professional" 
 
-* http://snomed.info/sct#113163005 "Friend" 
-* http://snomed.info/srt#S-11090 "Friend" 
-* http://terminology.hl7.org/CodeSystem/umls#C0079382 "Friend" 
+* http://snomed.info/sct#113163005 //"Friend" 
+* http://snomed.info/srt#S-11090 //"Friend" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0079382 //"Friend" 
 
 * include codes from valueset CID_7451
 

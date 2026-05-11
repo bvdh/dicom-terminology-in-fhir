@@ -9,6 +9,7 @@ Tracer Kinetic Modeling Covariate
 * ^version = "20141110"
 * ^title = "Tracer Kinetic Modeling Covariate"
 * ^name = "TracerKineticModelingCovariate"
-* http://loinc.org#20570-8 "Hematocrit" 
-* http://terminology.hl7.org/CodeSystem/umls#C0803379 "Hematocrit" 
+* ^experimental = false
+* http://loinc.org#20570-8 //"Hematocrit" 
+* http://terminology.hl7.org/CodeSystem/umls/sab#C0803379 //"Hematocrit" 
 

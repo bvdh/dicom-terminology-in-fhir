@@ -9,9 +9,10 @@ Numeric Value Unknown Qualifier
 * ^version = "20210120"
 * ^title = "Numeric Value Unknown Qualifier"
 * ^name = "NumericValueUnknownQualifier"
-* DICOM_DCM_CodeSystem#114007 "Measurement not attempted" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#114007 //"Measurement not attempted" 
 
-* DICOM_DCM_CodeSystem#114010 "Value unknown" 
+* DICOM_DCM_CodeSystem#114010 //"Value unknown" 
 
-* DICOM_DCM_CodeSystem#114011 "Value indeterminate" 
+* DICOM_DCM_CodeSystem#114011 //"Value indeterminate" 
 

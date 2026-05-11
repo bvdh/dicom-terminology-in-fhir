@@ -9,17 +9,18 @@ Blood Velocity Measurement
 * ^version = "20030327"
 * ^title = "Blood Velocity Measurement"
 * ^name = "BloodVelocityMeasurement"
-* DICOM_DCM_CodeSystem#122201 "Diastolic blood velocity, mean" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122201 //"Diastolic blood velocity, mean" 
 
-* DICOM_DCM_CodeSystem#122202 "Diastolic blood velocity, peak" 
+* DICOM_DCM_CodeSystem#122202 //"Diastolic blood velocity, peak" 
 
-* DICOM_DCM_CodeSystem#122203 "Systolic blood velocity, mean" 
+* DICOM_DCM_CodeSystem#122203 //"Systolic blood velocity, mean" 
 
-* DICOM_DCM_CodeSystem#122204 "Systolic blood velocity, peak" 
+* DICOM_DCM_CodeSystem#122204 //"Systolic blood velocity, peak" 
 
-* DICOM_DCM_CodeSystem#122205 "Blood velocity, mean" 
+* DICOM_DCM_CodeSystem#122205 //"Blood velocity, mean" 
 
-* DICOM_DCM_CodeSystem#122206 "Blood velocity, minimum" 
+* DICOM_DCM_CodeSystem#122206 //"Blood velocity, minimum" 
 
-* DICOM_DCM_CodeSystem#122207 "Blood velocity, peak" 
+* DICOM_DCM_CodeSystem#122207 //"Blood velocity, peak" 
 
