@@ -1,6 +1,7 @@
 import os
 from typing import List, Optional
 
+from constants import DICOM_BASE_URL
 from doc_book_tools import getDataDicomTable
 
 PART            = 'part04'
@@ -29,7 +30,7 @@ def writeSopClassesCodeSystem( fsh_path:str, dicom_path:str, canonicalVersion:st
         fsh_file.write('* ^caseSensitive = true\n')
         fsh_file.write('* ^content = #complete\n')
         fsh_file.write('* ^experimental = false\n\n')
-        # fsh_file.write(f'* ^url = "http://dicom.nema.org/resources/CodeSystem/{CODESYSTEM_NAME}"\n')
+        # fsh_file.write(f'* ^url = "{DICOM_BASE_URL}/resources/CodeSystem/{CODESYSTEM_NAME}"\n')
         fsh_file.write(f'* ^version = "{canonicalVersion}"\n')
 
         fsh_file.write('\n')

@@ -1,5 +1,6 @@
 # import os
 # from typing import List, Optional
+# from constants import DICOM_BASE_URL
 # from doc_book_tools import getDataDicomTable
 
 # PART = 'part06'
@@ -25,7 +26,7 @@
 #         fsh_file.write(f'Title: "{CODESYSTEM_TITLE}"\n')
 #         fsh_file.write(f'Description: "{CODESYSTEM_DESCRIPTION}"\n')
 #         # fsh_file.write('Copyright: "DICOM® is a registered trademark of the National Electrical Manufacturers Association for its standards publications relating to digital communications of medical information."\n\n')
-#         fsh_file.write(f'* ^url = "http://dicom.nema.org/resources/CodeSystem/{CODESYSTEM_NAME}"\n')
+#         fsh_file.write(f'* ^url = "{DICOM_BASE_URL}/resources/CodeSystem/{CODESYSTEM_NAME}"\n')
 #         fsh_file.write(f'* ^version = "{canonicalVersion}"\n')
         
 #         fsh_file.write('* ^caseSensitive = true\n')
