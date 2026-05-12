@@ -16,7 +16,6 @@ fsh-generated/
 template/
 output/
 dicom.nema.org/
-ig-template/
 
 wget-log.1
  
