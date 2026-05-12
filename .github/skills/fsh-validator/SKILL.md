@@ -8,7 +8,7 @@ argument-hint: 'What FSH file or error should be validated or fixed?'
 
 ## When to Use
 - Validate FSH files with SUSHI.
-- Fix SUSHI compiler errors in `input-src/fsh/` or generated FSH source.
+- Fix SUSHI compiler errors in `input/fsh/` or generated FSH source.
 - Check DICOM CodeSystems and ValueSets for syntax, semantic, and conformance issues.
 - Verify FSH fixes before running downstream IG build steps.
 
