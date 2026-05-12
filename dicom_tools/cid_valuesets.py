@@ -266,9 +266,14 @@ def writeTerminologyCodeSystem( fsh_path, title, values):
         fsh_file.write('\n')
 
         for value in values:
-            description = value[2]
+            description = value[2].strip() if value[2] else ""
             if ( len(value) > 2 and len(value[1])>0 ):
-                description += f" (UID={value[1].strip()})"
+                uid_part = f"(UID={value[1].strip()})"
+                # Add space before UID only if description has content
+                if description:
+                    description += f" {uid_part}"
+                else:
+                    description = uid_part
             
             fsh_file.write(f'* #{value[0]} "{value[0]}" "{description}"\n')
             

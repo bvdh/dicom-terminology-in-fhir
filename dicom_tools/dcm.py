@@ -16,8 +16,10 @@ CODESYSTEM_DESCRIPTION = f'{CODESYSTEM_TITLE} extracted from DICOM PS3.16 Table 
 
 
 def strip_markdown_links(text: str) -> str:
-    """Escape markdown links like [FK](2) so they render as text, not hyperlinks."""
-    return re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'\\[\1\\](\2)', text)
+    """Keep bracketed text literal for FSH strings and remove prior escaping."""
+    if not text:
+        return ''
+    return text.replace(r'\[', '[').replace(r'\]', ']')
 
 
 def writeDcmCodeSystem( fsh_path:str, dicom_path:str, canonicalVersion:str ) -> None:

@@ -39,7 +39,7 @@ def writeVrCodeSystem( fsh_path:str, dicom_path:str, canonicalVersion:str ) -> N
         title, value_list = getDataDicomTable(dicom_path, PART, TABLE_ID)
         for value in value_list:
             subValuesInValue0 = value[0].split(' ');
-            fsh_file.write(f'* #{subValuesInValue0[0]} "{cleanText(value[0])} " \n')
+            fsh_file.write(f'* #{subValuesInValue0[0]} "{cleanText(value[0])}" \n')
             # fsh_file.write(f'* #{toCamelCase(value[0])} "{value[0]}" \n')
             fsh_file.write(f'"""\n')
             fsh_file.write(f'{cleanText(value[1])}\n')

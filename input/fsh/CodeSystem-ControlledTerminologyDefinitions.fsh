@@ -58,7 +58,7 @@ Description: "The meanings of codes defined in DICOM, either explicitly or by re
 * #FMA ^property[0].code = #uid
 * #FMA ^property[0].valueString  = "2.16.840.1.113883.6.119"
 
-* #HPC "HPC" " (UID=2.16.840.1.113883.6.14)"
+* #HPC "HPC" "(UID=2.16.840.1.113883.6.14)"
 * #HPC ^property[0].code = #uid
 * #HPC ^property[0].valueString  = "2.16.840.1.113883.6.14"
 
@@ -128,7 +128,7 @@ Description: "The meanings of codes defined in DICOM, either explicitly or by re
 * #MAYOASRG ^property[0].code = #uid
 * #MAYOASRG ^property[0].valueString  = "1.2.840.10008.2.16.12"
 
-* #MDC "MDC" " (UID=2.16.840.1.113883.6.24)"
+* #MDC "MDC" "(UID=2.16.840.1.113883.6.24)"
 * #MDC ^property[0].code = #uid
 * #MDC ^property[0].valueString  = "2.16.840.1.113883.6.24"
 
@@ -142,11 +142,11 @@ Description: "The meanings of codes defined in DICOM, either explicitly or by re
 * #MSH ^property[0].code = #uid
 * #MSH ^property[0].valueString  = "2.16.840.1.113883.6.177"
 
-* #NBD "NBD" " (UID=2.16.840.1.113883.15.2)"
+* #NBD "NBD" "(UID=2.16.840.1.113883.15.2)"
 * #NBD ^property[0].code = #uid
 * #NBD ^property[0].valueString  = "2.16.840.1.113883.15.2"
 
-* #NBG "NBG" " (UID=2.16.840.1.113883.15.3)"
+* #NBG "NBG" "(UID=2.16.840.1.113883.15.3)"
 * #NBG ^property[0].code = #uid
 * #NBG ^property[0].valueString  = "2.16.840.1.113883.15.3"
 
@@ -178,7 +178,7 @@ Description: "The meanings of codes defined in DICOM, either explicitly or by re
 * #PATHLEX ^property[0].code = #uid
 * #PATHLEX ^property[0].valueString  = "1.3.6.1.4.1.19376.1.8.2.1"
 
-* #POS "POS" " (UID=2.16.840.1.113883.6.50)"
+* #POS "POS" "(UID=2.16.840.1.113883.6.50)"
 * #POS ^property[0].code = #uid
 * #POS ^property[0].valueString  = "2.16.840.1.113883.6.50"
 
@@ -250,7 +250,7 @@ Description: "The meanings of codes defined in DICOM, either explicitly or by re
 * #UNS ^property[0].code = #uid
 * #UNS ^property[0].valueString  = "1.2.840.10008.2.16.17"
 
-* #UPC "UPC" " (UID=2.16.840.1.113883.6.55)"
+* #UPC "UPC" "(UID=2.16.840.1.113883.6.55)"
 * #UPC ^property[0].code = #uid
 * #UPC ^property[0].valueString  = "2.16.840.1.113883.6.55"
 
