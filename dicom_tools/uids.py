@@ -5,7 +5,7 @@ from doc_book_tools import cleanText, getDataDicomTable
 
 CODESYSTEM_NAME = 'DICOM_UIDs'
 CODESYSTEM_ID = 'dicom-uids'
-CODESYSTEM_TITLE = 'DICOM® Unique Identifiers'
+CODESYSTEM_TITLE = 'DICOM® Unique Identifiers (All)'
 CODESYSTEM_DESCRIPTION = 'DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1.'
 
 class TableData:
@@ -18,7 +18,7 @@ class TableData:
         self.description = description
 
 UID = TableData( 
-    part = 'part06', table_id = 'A-1', id = 'dicom-uids-unique-identifiers', name = 'DicomUID_UniqueIdentifiers', title = 'DICOM® Unique Identifiers (ValueSet)', description = 'DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1.' )
+    part = 'part06', table_id = 'A-1', id = 'dicom-uids-unique-identifiers', name = 'DicomUID_UniqueIdentifiers', title = 'DICOM® Unique Identifiers', description = 'DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1.' )
 FRAME_OF_REFERENCE = TableData( 
     part = 'part06', table_id = 'A-2', id = 'dicom-uids-frame-of-reference', name = 'DICOM_UIS_WellknownFrameofReference', title = 'DICOM® Well Known Frame of Reference UID Values', description = 'DICOM® Well-known Frames of Reference from DICOM PS3.6 Table A-2.' )   
 CONTEXT_GROUP = TableData( 

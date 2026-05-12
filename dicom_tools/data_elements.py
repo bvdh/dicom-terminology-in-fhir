@@ -6,7 +6,7 @@ from doc_book_tools import getDataDicomTable
 
 CODESYSTEM_NAME = 'DICOM_Elements'
 CODESYSTEM_ID = 'dicom-elements'
-CODESYSTEM_TITLE = 'DICOM® Data Elements'	
+CODESYSTEM_TITLE = 'DICOM® Data Elements (all)'	
 CODESYSTEM_DESCRIPTION = 'DICOM® Data elements extracted from DICOM PS3.6.'
 
 SOURCES = [
@@ -43,7 +43,7 @@ SOURCES = [
         'label': '6-1',
         'name': 'DICOM_Data_Elements',
         'id': 'dicom-data-elements',
-        'title': 'DICOM® Data Elements (ValueSet)',
+        'title': 'DICOM® Data Elements',
         'description': 'DICOM® Data elements extracted from DICOM PS3.6 Table 6-1.',
         'url': 'https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_6.html'
     },
