@@ -3,8 +3,8 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.uv.dicom-terminology
-canonical:  http://dicom.org/terminology/fhir/uv
+id: dicom.uv-terminology
+canonical:  https://www.dicomstandard.org/terminology/fhir/uv
 # canonical:  https://dicom.nema.org/medical/dicom/current/output/fhir/
 name: DICOM Terminology in FHIR
 status: draft # draft | active | retired | unknown
@@ -15,13 +15,13 @@ releaseLabel: ci-build
 license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  - name: HL7 International / Imaging Integration
-  - url: http://www.hl7.org/Special/committees/imagemgt/index.cfm
+  - name: DICOM
+  - url: https://www.dicomstandard.org/
 contact:
-  - name: HL7 International / Imaging Integration
+  - name: DICOM / Work Group 6 
     telecom:
       - system: url
-        value: http://www.hl7.org/Special/committees/imagemgt/index.cfm
+        value: https://www.dicomstandard.org/
   - name: Jonathan Whitby
     telecom:
       - system: email
