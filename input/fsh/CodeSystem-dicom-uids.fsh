@@ -1,6 +1,6 @@
 CodeSystem: DICOM_UIDs
 Id: dicom-uids
-Title: "DICOM® Unique Identifiers"
+Title: "DICOM® Unique Identifiers (All)"
 Description: "DICOM® Unique Identifiers extracted from DICOM PS3.6 Table A-1."
 * ^version = "2026.2.20260327"
 * ^caseSensitive = true

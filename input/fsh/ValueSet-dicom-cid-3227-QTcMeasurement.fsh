@@ -10,19 +10,19 @@ Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10
 * ^title = "QTc Measurement (CID 3227)"
 * ^name = "QTcMeasurement"
 * ^experimental = false
-* urn:iso:std:iso:11073:10101#2:15876 //"QTc interval global" 
+* urn:iso:std:iso:11073:10101#146948 //"QTc interval global" 
 
-* urn:iso:std:iso:11073:10101#2:33792 //"QTc interval per lead" 
+* urn:iso:std:iso:11073:10101#164864 //"QTc interval per lead" 
 
-* urn:iso:std:iso:11073:10101#2:15880 //"QTc global using Bazett formula" 
+* urn:iso:std:iso:11073:10101#146952 //"QTc global using Bazett formula" 
 
-// * urn:iso:std:iso:11073:10101#2:15880 "QTc global using Framingham formula" 
+// * urn:iso:std:iso:11073:10101#146952 "QTc global using Framingham formula" 
 
-* urn:iso:std:iso:11073:10101#2:15892 //"QTc global using Fredericia formula" 
+* urn:iso:std:iso:11073:10101#146964 //"QTc global using Fredericia formula" 
 
-// * urn:iso:std:iso:11073:10101#2:15892 "QTc global using Hodges formula" 
+// * urn:iso:std:iso:11073:10101#146964 "QTc global using Hodges formula" 
 
-* urn:iso:std:iso:11073:10101#2:34048 //"QTc per lead using Bazett formula" 
+* urn:iso:std:iso:11073:10101#165120 //"QTc per lead using Bazett formula" 
 
-* urn:iso:std:iso:11073:10101#2:34304 //"QTc per lead using Fredericia formula" 
+* urn:iso:std:iso:11073:10101#165376 //"QTc per lead using Fredericia formula" 
 

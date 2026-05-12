@@ -10,25 +10,25 @@ Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10
 * ^title = "ECG Control Numeric Variable (CID 3690)"
 * ^name = "ECGControlNumericVariable"
 * ^experimental = false
-* urn:iso:std:iso:11073:10101#10:11393 //"Sample rate" 
+* urn:iso:std:iso:11073:10101#666753 //"Sample rate" 
 
-* urn:iso:std:iso:11073:10101#10:11394 //"Sensitivity" 
+* urn:iso:std:iso:11073:10101#666754 //"Sensitivity" 
 
-* urn:iso:std:iso:11073:10101#10:11395 //"Zero offset" 
+* urn:iso:std:iso:11073:10101#666755 //"Zero offset" 
 
-* urn:iso:std:iso:11073:10101#10:11397 //"Pad value" 
+* urn:iso:std:iso:11073:10101#666757 //"Pad value" 
 
-* urn:iso:std:iso:11073:10101#10:11398 //"Time skew" 
+* urn:iso:std:iso:11073:10101#666758 //"Time skew" 
 
-* urn:iso:std:iso:11073:10101#10:11399 //"Sample skew" 
+* urn:iso:std:iso:11073:10101#666759 //"Sample skew" 
 
-* urn:iso:std:iso:11073:10101#10:11400 //"Time offset" 
+* urn:iso:std:iso:11073:10101#666760 //"Time offset" 
 
-* urn:iso:std:iso:11073:10101#10:11403 //"Low pass filter cutoff freq" 
+* urn:iso:std:iso:11073:10101#666763 //"Low pass filter cutoff freq" 
 
-* urn:iso:std:iso:11073:10101#10:11408 //"Notch filter frequency" 
+* urn:iso:std:iso:11073:10101#666768 //"Notch filter frequency" 
 
-* urn:iso:std:iso:11073:10101#10:11409 //"Notch filter bandwidth" 
+* urn:iso:std:iso:11073:10101#666769 //"Notch filter bandwidth" 
 
-* urn:iso:std:iso:11073:10101#10:11418 //"Interpolator SNR" 
+* urn:iso:std:iso:11073:10101#666778 //"Interpolator SNR" 
 

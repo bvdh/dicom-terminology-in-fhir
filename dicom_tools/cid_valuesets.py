@@ -4,6 +4,8 @@ import xml.etree.ElementTree as ET
 
 from doc_book_tools import cleanText, getDataDicomTable, getElementText, getTableData,  getVariableListEntries, toCamelCase
 
+# defined in 
+# https://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_8.html
 FHIR_SYSTEM_DICTIONARY = dict(
             ACR  = 'http://terminology.hl7.org/CodeSystem/ACR',
             BARI = 'BARICodeSystem',
@@ -12,9 +14,9 @@ FHIR_SYSTEM_DICTIONARY = dict(
             FMA  = 'DigitalAnatomistFoundationalModelOfAnatomyCodeSystem',
             IBSI = 'IBSICodeSystem',
             I10 = 'http://hl7.org/fhir/sid/icd-10',
-            ITIS_TSN = 'http://terminology.hl7.org/CodeSystem/v2-0396',
-            LN   = 'http://loinc.org',
-            MDC  = 'urn:iso:std:iso:11073:10101',
+            ITIS_TSN = 'https://www.itis.gov/',  # no code system, but ITIS is a taxonomy that could be referenced
+            LN   = 'http://loinc.org',  
+            MDC  = 'urn:iso:std:iso:11073:10101',   #ISO/IEEE 11073 Medical Device Nomenclature, including all its subsections ([ISO/IEEE 11073-10101], [ISO/IEEE 11073-10101a], [ISO/IEEE 11073-10102], etc.), encoded as decimal strings <partition>:<element>
             MSH  = 'https://www.nlm.nih.gov/mesh',
             NCDR = 'http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr',
             NCIt = 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl',
@@ -30,6 +32,39 @@ FHIR_SYSTEM_DICTIONARY = dict(
             UMLS = 'http://terminology.hl7.org/CodeSystem/umls',
             UNS  = 'UNSCodeSystem'
         )
+
+
+def convert_mdc_code(code: str) -> str:
+    """
+    Convert MDC code from partition:term format to 32-bit decimal representation.
+    
+    According to IEEE 11073-10101, MDC codes are 32-bit unsigned integers where:
+    - Most significant 16 bits: partition number
+    - Least significant 16 bits: term code
+    
+    Formula: 32-bit_value = (partition << 16) | term_code
+    
+    Example: "2:19532" -> (2 << 16) | 19532 = 150604
+    
+    Args:
+        code: MDC code string in format "partition:term" or just term code
+        
+    Returns:
+        Decimal string representation of the 32-bit value
+    """
+    if ':' not in code:
+        return code  # Return as-is if not in partition:term format
+    
+    try:
+        partition_str, term_str = code.split(':', 1)
+        partition = int(partition_str.strip())
+        term = int(term_str.strip())
+        # Combine: most significant 16 bits (partition) + least significant 16 bits (term)
+        mdc_32bit = (partition << 16) | term
+        return str(mdc_32bit)
+    except (ValueError, AttributeError):
+        # Return original code if conversion fails
+        return code
 
 
 def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
@@ -141,6 +176,9 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
                                 coding_scheme = value[codingSchemeIndex].strip() if len(value) > codingSchemeIndex else None
                                 code          = value[codeValueIndex].strip()    if len(value) > codeValueIndex else None
                                 codeMeaning   = value[codeMeaningIndex].strip()  if len(value) > codeMeaningIndex else None
+                                if coding_scheme == 'MDC':
+                                    # Convert MDC code from partition:term format to 32-bit decimal representation
+                                    code = convert_mdc_code(code)
                                 system = FHIR_SYSTEM_DICTIONARY.get(coding_scheme, None)
                                 
                                 if system is not None:

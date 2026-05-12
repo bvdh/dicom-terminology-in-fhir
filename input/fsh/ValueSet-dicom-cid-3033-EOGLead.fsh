@@ -12,45 +12,45 @@ Description :
 * ^title = "EOG Lead (CID 3033)"
 * ^name = "EOGLead"
 * ^experimental = false
-* urn:iso:std:iso:11073:10101#7:1320 //"E0" 
+* urn:iso:std:iso:11073:10101#460072 //"E0" 
 
-* urn:iso:std:iso:11073:10101#7:1325 //"El1" 
+* urn:iso:std:iso:11073:10101#460077 //"El1" 
 
-* urn:iso:std:iso:11073:10101#7:1329 //"El2" 
+* urn:iso:std:iso:11073:10101#460081 //"El2" 
 
-* urn:iso:std:iso:11073:10101#7:1333 //"El3" 
+* urn:iso:std:iso:11073:10101#460085 //"El3" 
 
-* urn:iso:std:iso:11073:10101#7:1337 //"El4" 
+* urn:iso:std:iso:11073:10101#460089 //"El4" 
 
-* urn:iso:std:iso:11073:10101#7:1341 //"El5" 
+* urn:iso:std:iso:11073:10101#460093 //"El5" 
 
-* urn:iso:std:iso:11073:10101#7:1345 //"El6" 
+* urn:iso:std:iso:11073:10101#460097 //"El6" 
 
-* urn:iso:std:iso:11073:10101#7:1349 //"El7" 
+* urn:iso:std:iso:11073:10101#460101 //"El7" 
 
-* urn:iso:std:iso:11073:10101#7:1354 //"Er1" 
+* urn:iso:std:iso:11073:10101#460106 //"Er1" 
 
-* urn:iso:std:iso:11073:10101#7:1358 //"Er2" 
+* urn:iso:std:iso:11073:10101#460110 //"Er2" 
 
-* urn:iso:std:iso:11073:10101#7:1362 //"Er3" 
+* urn:iso:std:iso:11073:10101#460114 //"Er3" 
 
-* urn:iso:std:iso:11073:10101#7:1366 //"Er4" 
+* urn:iso:std:iso:11073:10101#460118 //"Er4" 
 
-* urn:iso:std:iso:11073:10101#7:1370 //"Er5" 
+* urn:iso:std:iso:11073:10101#460122 //"Er5" 
 
-* urn:iso:std:iso:11073:10101#7:1374 //"Er6" 
+* urn:iso:std:iso:11073:10101#460126 //"Er6" 
 
-* urn:iso:std:iso:11073:10101#7:1378 //"Er7" 
+* urn:iso:std:iso:11073:10101#460130 //"Er7" 
 
-* urn:iso:std:iso:11073:10101#7:1381 //"ElL" 
+* urn:iso:std:iso:11073:10101#460133 //"ElL" 
 
-* urn:iso:std:iso:11073:10101#7:1386 //"ErL" 
+* urn:iso:std:iso:11073:10101#460138 //"ErL" 
 
-* urn:iso:std:iso:11073:10101#7:1389 //"Ela" 
+* urn:iso:std:iso:11073:10101#460141 //"Ela" 
 
-* urn:iso:std:iso:11073:10101#7:1393 //"Elb" 
+* urn:iso:std:iso:11073:10101#460145 //"Elb" 
 
-* urn:iso:std:iso:11073:10101#7:1398 //"Era" 
+* urn:iso:std:iso:11073:10101#460150 //"Era" 
 
-* urn:iso:std:iso:11073:10101#7:1402 //"Erb" 
+* urn:iso:std:iso:11073:10101#460154 //"Erb" 
 

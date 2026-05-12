@@ -67,9 +67,9 @@ Codes that are now defined in SNOMED as 'ambiguous' (conceptstatus = 4) were pre
 * http://snomed.info/sct#447612001 //"Mus musculus" 
 * http://snomed.info/srt#L-87831 //"Mus musculus" 
 
-* http://terminology.hl7.org/CodeSystem/v2-0396#180278 //"Peromyscus leucopus" 
+* https://www.itis.gov/#180278 //"Peromyscus leucopus" 
 
-* http://terminology.hl7.org/CodeSystem/v2-0396#180276 //"Peromyscus maniculatus" 
+* https://www.itis.gov/#180276 //"Peromyscus maniculatus" 
 
 * http://snomed.info/sct#371564000 //"Rattus" 
 * http://snomed.info/srt#L-877FB //"Rattus" 
@@ -77,7 +77,7 @@ Codes that are now defined in SNOMED as 'ambiguous' (conceptstatus = 4) were pre
 * http://snomed.info/sct#371565004 //"Rattus norvegicus" 
 * http://snomed.info/srt#L-877FC //"Rattus norvegicus" 
 
-* http://terminology.hl7.org/CodeSystem/v2-0396#180346 //"Sigmodon genus" 
+* https://www.itis.gov/#180346 //"Sigmodon genus" 
 
 * http://snomed.info/sct#125076001 //"Cavia porcellus" 
 * http://snomed.info/srt#L-87A02 //"Cavia porcellus" 

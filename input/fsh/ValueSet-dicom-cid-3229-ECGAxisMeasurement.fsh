@@ -10,9 +10,9 @@ Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10
 * ^title = "ECG Axis Measurement (CID 3229)"
 * ^name = "ECGAxisMeasurement"
 * ^experimental = false
-* urn:iso:std:iso:11073:10101#2:16132 //"QRS axis" 
+* urn:iso:std:iso:11073:10101#147204 //"QRS axis" 
 
-* urn:iso:std:iso:11073:10101#2:16128 //"P Axis" 
+* urn:iso:std:iso:11073:10101#147200 //"P Axis" 
 
-* urn:iso:std:iso:11073:10101#2:16136 //"T axis" 
+* urn:iso:std:iso:11073:10101#147208 //"T axis" 
 

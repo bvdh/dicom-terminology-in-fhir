@@ -10,19 +10,19 @@ Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10
 * ^title = "ECG Control Text Variable (CID 3691)"
 * ^name = "ECGControlTextVariable"
 * ^experimental = false
-* urn:iso:std:iso:11073:10101#10:11402 //"Low pass filter" 
+* urn:iso:std:iso:11073:10101#666762 //"Low pass filter" 
 
-* urn:iso:std:iso:11073:10101#10:11404 //"High pass filter" 
+* urn:iso:std:iso:11073:10101#666764 //"High pass filter" 
 
-* urn:iso:std:iso:11073:10101#10:11406 //"High pass filter description" 
+* urn:iso:std:iso:11073:10101#666766 //"High pass filter description" 
 
-* urn:iso:std:iso:11073:10101#10:11407 //"Notch filter" 
+* urn:iso:std:iso:11073:10101#666767 //"Notch filter" 
 
-* urn:iso:std:iso:11073:10101#10:11410 //"Notch filter description" 
+* urn:iso:std:iso:11073:10101#666770 //"Notch filter description" 
 
-* urn:iso:std:iso:11073:10101#10:11412 //"Baseline description" 
+* urn:iso:std:iso:11073:10101#666772 //"Baseline description" 
 
-* urn:iso:std:iso:11073:10101#10:11414 //"Interpolator" 
+* urn:iso:std:iso:11073:10101#666774 //"Interpolator" 
 
-* urn:iso:std:iso:11073:10101#10:11416 //"Interpolator description" 
+* urn:iso:std:iso:11073:10101#666776 //"Interpolator description" 
 

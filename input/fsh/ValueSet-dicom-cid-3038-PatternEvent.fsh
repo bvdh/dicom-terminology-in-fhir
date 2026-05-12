@@ -10,45 +10,45 @@ Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10
 * ^title = "Pattern Event (CID 3038)"
 * ^name = "PatternEvent"
 * ^experimental = false
-* urn:iso:std:iso:11073:10101#3:3158 //"Irregular heart rate" 
+* urn:iso:std:iso:11073:10101#199766 //"Irregular heart rate" 
 
-* urn:iso:std:iso:11073:10101#3:3072 //"Apnea" 
+* urn:iso:std:iso:11073:10101#199680 //"Apnea" 
 
-* urn:iso:std:iso:11073:10101#3:3284 //"Apnea 15 sec" 
+* urn:iso:std:iso:11073:10101#199892 //"Apnea 15 sec" 
 
-* urn:iso:std:iso:11073:10101#3:3292 //"Apnea 30 sec" 
+* urn:iso:std:iso:11073:10101#199900 //"Apnea 30 sec" 
 
-* urn:iso:std:iso:11073:10101#3:3246 //"Desaturation" 
+* urn:iso:std:iso:11073:10101#199854 //"Desaturation" 
 
-* urn:iso:std:iso:11073:10101#3:3076 //"Asystole" 
+* urn:iso:std:iso:11073:10101#199684 //"Asystole" 
 
-* urn:iso:std:iso:11073:10101#3:3266 //"Arrhythmia event" 
+* urn:iso:std:iso:11073:10101#199874 //"Arrhythmia event" 
 
-* urn:iso:std:iso:11073:10101#3:3264 //"Clinical seizure discharge" 
+* urn:iso:std:iso:11073:10101#199872 //"Clinical seizure discharge" 
 
-* urn:iso:std:iso:11073:10101#3:3190 //"Supraventricular extrasystole" 
+* urn:iso:std:iso:11073:10101#199798 //"Supraventricular extrasystole" 
 
-* urn:iso:std:iso:11073:10101#3:3294 //"Pacer artifact" 
+* urn:iso:std:iso:11073:10101#199902 //"Pacer artifact" 
 
-* urn:iso:std:iso:11073:10101#3:3146 //"First-degree AV block" 
+* urn:iso:std:iso:11073:10101#199754 //"First-degree AV block" 
 
-* urn:iso:std:iso:11073:10101#3:3148 //"Second-degree AV block" 
+* urn:iso:std:iso:11073:10101#199756 //"Second-degree AV block" 
 
-* urn:iso:std:iso:11073:10101#3:3258 //"Third-degree AV block" 
+* urn:iso:std:iso:11073:10101#199866 //"Third-degree AV block" 
 
-* urn:iso:std:iso:11073:10101#3:3084 //"Bradycardia" 
+* urn:iso:std:iso:11073:10101#199692 //"Bradycardia" 
 
-* urn:iso:std:iso:11073:10101#3:3128 //"Atrial fibrillation" 
+* urn:iso:std:iso:11073:10101#199736 //"Atrial fibrillation" 
 
-* urn:iso:std:iso:11073:10101#3:3276 //"Atrial flutter" 
+* urn:iso:std:iso:11073:10101#199884 //"Atrial flutter" 
 
-* urn:iso:std:iso:11073:10101#3:3118 //"Irregular rhythm" 
+* urn:iso:std:iso:11073:10101#199726 //"Irregular rhythm" 
 
-* urn:iso:std:iso:11073:10101#3:3262 //"Sinus tachycardia" 
+* urn:iso:std:iso:11073:10101#199870 //"Sinus tachycardia" 
 
-* urn:iso:std:iso:11073:10101#3:3270 //"Sharp spikes" 
+* urn:iso:std:iso:11073:10101#199878 //"Sharp spikes" 
 
-* urn:iso:std:iso:11073:10101#3:3254 //"Spikes and waves" 
+* urn:iso:std:iso:11073:10101#199862 //"Spikes and waves" 
 
 * http://snomed.info/sct#68978004 //"Hyperventilation" 
 

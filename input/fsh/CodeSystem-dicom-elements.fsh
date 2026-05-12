@@ -1,6 +1,6 @@
 CodeSystem: DICOM_Elements
 Id: dicom-elements
-Title: "DICOM® Data Elements"
+Title: "DICOM® Data Elements (all)"
 Description: "DICOM® Data elements extracted from DICOM PS3.6."
 * ^caseSensitive = true
 * ^content = #complete

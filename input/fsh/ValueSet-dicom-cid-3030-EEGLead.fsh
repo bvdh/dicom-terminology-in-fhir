@@ -12,167 +12,167 @@ Description :
 * ^title = "EEG Lead (CID 3030)"
 * ^name = "EEGLead"
 * ^experimental = false
-* urn:iso:std:iso:11073:10101#7:996 //"Nz" 
+* urn:iso:std:iso:11073:10101#459748 //"Nz" 
 
-* urn:iso:std:iso:11073:10101#7:1000 //"Fpz" 
+* urn:iso:std:iso:11073:10101#459752 //"Fpz" 
 
-* urn:iso:std:iso:11073:10101#7:1004 //"AFz" 
+* urn:iso:std:iso:11073:10101#459756 //"AFz" 
 
-* urn:iso:std:iso:11073:10101#7:1008 //"Fz" 
+* urn:iso:std:iso:11073:10101#459760 //"Fz" 
 
-* urn:iso:std:iso:11073:10101#7:1012 //"FCz" 
+* urn:iso:std:iso:11073:10101#459764 //"FCz" 
 
-* urn:iso:std:iso:11073:10101#7:1016 //"Cz" 
+* urn:iso:std:iso:11073:10101#459768 //"Cz" 
 
-* urn:iso:std:iso:11073:10101#7:1020 //"CPz" 
+* urn:iso:std:iso:11073:10101#459772 //"CPz" 
 
-* urn:iso:std:iso:11073:10101#7:1024 //"Pz" 
+* urn:iso:std:iso:11073:10101#459776 //"Pz" 
 
-* urn:iso:std:iso:11073:10101#7:1028 //"POz" 
+* urn:iso:std:iso:11073:10101#459780 //"POz" 
 
-* urn:iso:std:iso:11073:10101#7:1032 //"Oz" 
+* urn:iso:std:iso:11073:10101#459784 //"Oz" 
 
-* urn:iso:std:iso:11073:10101#7:1036 //"Iz" 
+* urn:iso:std:iso:11073:10101#459788 //"Iz" 
 
-* urn:iso:std:iso:11073:10101#7:1041 //"Fp1" 
+* urn:iso:std:iso:11073:10101#459793 //"Fp1" 
 
-* urn:iso:std:iso:11073:10101#7:1042 //"Fp2" 
+* urn:iso:std:iso:11073:10101#459794 //"Fp2" 
 
-* urn:iso:std:iso:11073:10101#7:1049 //"F1" 
+* urn:iso:std:iso:11073:10101#459801 //"F1" 
 
-* urn:iso:std:iso:11073:10101#7:1054 //"F2" 
+* urn:iso:std:iso:11073:10101#459806 //"F2" 
 
-* urn:iso:std:iso:11073:10101#7:1057 //"F3" 
+* urn:iso:std:iso:11073:10101#459809 //"F3" 
 
-* urn:iso:std:iso:11073:10101#7:1062 //"F4" 
+* urn:iso:std:iso:11073:10101#459814 //"F4" 
 
-* urn:iso:std:iso:11073:10101#7:1065 //"F5" 
+* urn:iso:std:iso:11073:10101#459817 //"F5" 
 
-* urn:iso:std:iso:11073:10101#7:1070 //"F6" 
+* urn:iso:std:iso:11073:10101#459822 //"F6" 
 
-* urn:iso:std:iso:11073:10101#7:1073 //"F7" 
+* urn:iso:std:iso:11073:10101#459825 //"F7" 
 
-* urn:iso:std:iso:11073:10101#7:1078 //"F8" 
+* urn:iso:std:iso:11073:10101#459830 //"F8" 
 
-* urn:iso:std:iso:11073:10101#7:1081 //"F9" 
+* urn:iso:std:iso:11073:10101#459833 //"F9" 
 
-* urn:iso:std:iso:11073:10101#7:1086 //"F10" 
+* urn:iso:std:iso:11073:10101#459838 //"F10" 
 
-* urn:iso:std:iso:11073:10101#7:1089 //"FC1" 
+* urn:iso:std:iso:11073:10101#459841 //"FC1" 
 
-* urn:iso:std:iso:11073:10101#7:1094 //"FC2" 
+* urn:iso:std:iso:11073:10101#459846 //"FC2" 
 
-* urn:iso:std:iso:11073:10101#7:1097 //"FC3" 
+* urn:iso:std:iso:11073:10101#459849 //"FC3" 
 
-* urn:iso:std:iso:11073:10101#7:1102 //"FC4" 
+* urn:iso:std:iso:11073:10101#459854 //"FC4" 
 
-* urn:iso:std:iso:11073:10101#7:1105 //"FC5" 
+* urn:iso:std:iso:11073:10101#459857 //"FC5" 
 
-* urn:iso:std:iso:11073:10101#7:1110 //"FC6" 
+* urn:iso:std:iso:11073:10101#459862 //"FC6" 
 
-* urn:iso:std:iso:11073:10101#7:1113 //"FT7" 
+* urn:iso:std:iso:11073:10101#459865 //"FT7" 
 
-* urn:iso:std:iso:11073:10101#7:1118 //"FT8" 
+* urn:iso:std:iso:11073:10101#459870 //"FT8" 
 
-* urn:iso:std:iso:11073:10101#7:1121 //"FT9" 
+* urn:iso:std:iso:11073:10101#459873 //"FT9" 
 
-* urn:iso:std:iso:11073:10101#7:1126 //"FT10" 
+* urn:iso:std:iso:11073:10101#459878 //"FT10" 
 
-* urn:iso:std:iso:11073:10101#7:1129 //"C1" 
+* urn:iso:std:iso:11073:10101#459881 //"C1" 
 
-* urn:iso:std:iso:11073:10101#7:1134 //"C2" 
+* urn:iso:std:iso:11073:10101#459886 //"C2" 
 
-* urn:iso:std:iso:11073:10101#7:1137 //"C3" 
+* urn:iso:std:iso:11073:10101#459889 //"C3" 
 
-* urn:iso:std:iso:11073:10101#7:1142 //"C4" 
+* urn:iso:std:iso:11073:10101#459894 //"C4" 
 
-* urn:iso:std:iso:11073:10101#7:1145 //"C5" 
+* urn:iso:std:iso:11073:10101#459897 //"C5" 
 
-* urn:iso:std:iso:11073:10101#7:1150 //"C6" 
+* urn:iso:std:iso:11073:10101#459902 //"C6" 
 
-* urn:iso:std:iso:11073:10101#7:1153 //"CP1" 
+* urn:iso:std:iso:11073:10101#459905 //"CP1" 
 
-* urn:iso:std:iso:11073:10101#7:1158 //"CP2" 
+* urn:iso:std:iso:11073:10101#459910 //"CP2" 
 
-* urn:iso:std:iso:11073:10101#7:1161 //"CP3" 
+* urn:iso:std:iso:11073:10101#459913 //"CP3" 
 
-* urn:iso:std:iso:11073:10101#7:1166 //"CP4" 
+* urn:iso:std:iso:11073:10101#459918 //"CP4" 
 
-* urn:iso:std:iso:11073:10101#7:1169 //"CP5" 
+* urn:iso:std:iso:11073:10101#459921 //"CP5" 
 
-* urn:iso:std:iso:11073:10101#7:1174 //"CP6" 
+* urn:iso:std:iso:11073:10101#459926 //"CP6" 
 
-* urn:iso:std:iso:11073:10101#7:1177 //"P1" 
+* urn:iso:std:iso:11073:10101#459929 //"P1" 
 
-* urn:iso:std:iso:11073:10101#7:1182 //"P2" 
+* urn:iso:std:iso:11073:10101#459934 //"P2" 
 
-* urn:iso:std:iso:11073:10101#7:1185 //"P3" 
+* urn:iso:std:iso:11073:10101#459937 //"P3" 
 
-* urn:iso:std:iso:11073:10101#7:1190 //"P4" 
+* urn:iso:std:iso:11073:10101#459942 //"P4" 
 
-* urn:iso:std:iso:11073:10101#7:1193 //"P5" 
+* urn:iso:std:iso:11073:10101#459945 //"P5" 
 
-* urn:iso:std:iso:11073:10101#7:1198 //"P6" 
+* urn:iso:std:iso:11073:10101#459950 //"P6" 
 
-* urn:iso:std:iso:11073:10101#7:1201 //"P9" 
+* urn:iso:std:iso:11073:10101#459953 //"P9" 
 
-* urn:iso:std:iso:11073:10101#7:1206 //"P10" 
+* urn:iso:std:iso:11073:10101#459958 //"P10" 
 
-* urn:iso:std:iso:11073:10101#7:1209 //"O1" 
+* urn:iso:std:iso:11073:10101#459961 //"O1" 
 
-* urn:iso:std:iso:11073:10101#7:1214 //"O2" 
+* urn:iso:std:iso:11073:10101#459966 //"O2" 
 
-* urn:iso:std:iso:11073:10101#7:1217 //"AF3" 
+* urn:iso:std:iso:11073:10101#459969 //"AF3" 
 
-* urn:iso:std:iso:11073:10101#7:1222 //"AF4" 
+* urn:iso:std:iso:11073:10101#459974 //"AF4" 
 
-* urn:iso:std:iso:11073:10101#7:1225 //"AF7" 
+* urn:iso:std:iso:11073:10101#459977 //"AF7" 
 
-* urn:iso:std:iso:11073:10101#7:1230 //"AF8" 
+* urn:iso:std:iso:11073:10101#459982 //"AF8" 
 
-* urn:iso:std:iso:11073:10101#7:1233 //"PO3" 
+* urn:iso:std:iso:11073:10101#459985 //"PO3" 
 
-* urn:iso:std:iso:11073:10101#7:1238 //"PO4" 
+* urn:iso:std:iso:11073:10101#459990 //"PO4" 
 
-* urn:iso:std:iso:11073:10101#7:1241 //"PO7" 
+* urn:iso:std:iso:11073:10101#459993 //"PO7" 
 
-* urn:iso:std:iso:11073:10101#7:1246 //"PO8" 
+* urn:iso:std:iso:11073:10101#459998 //"PO8" 
 
-* urn:iso:std:iso:11073:10101#7:1249 //"T3" 
+* urn:iso:std:iso:11073:10101#460001 //"T3" 
 
-* urn:iso:std:iso:11073:10101#7:1254 //"T4" 
+* urn:iso:std:iso:11073:10101#460006 //"T4" 
 
-* urn:iso:std:iso:11073:10101#7:1257 //"T5" 
+* urn:iso:std:iso:11073:10101#460009 //"T5" 
 
-* urn:iso:std:iso:11073:10101#7:1262 //"T6" 
+* urn:iso:std:iso:11073:10101#460014 //"T6" 
 
-* urn:iso:std:iso:11073:10101#7:1265 //"T9" 
+* urn:iso:std:iso:11073:10101#460017 //"T9" 
 
-* urn:iso:std:iso:11073:10101#7:1270 //"T10" 
+* urn:iso:std:iso:11073:10101#460022 //"T10" 
 
-* urn:iso:std:iso:11073:10101#7:1273 //"TP7" 
+* urn:iso:std:iso:11073:10101#460025 //"TP7" 
 
-* urn:iso:std:iso:11073:10101#7:1278 //"TP8" 
+* urn:iso:std:iso:11073:10101#460030 //"TP8" 
 
-* urn:iso:std:iso:11073:10101#7:1281 //"TP9" 
+* urn:iso:std:iso:11073:10101#460033 //"TP9" 
 
-* urn:iso:std:iso:11073:10101#7:1286 //"TP10" 
+* urn:iso:std:iso:11073:10101#460038 //"TP10" 
 
-* urn:iso:std:iso:11073:10101#7:1289 //"A1" 
+* urn:iso:std:iso:11073:10101#460041 //"A1" 
 
-* urn:iso:std:iso:11073:10101#7:1290 //"A2" 
+* urn:iso:std:iso:11073:10101#460042 //"A2" 
 
-* urn:iso:std:iso:11073:10101#7:1297 //"T1" 
+* urn:iso:std:iso:11073:10101#460049 //"T1" 
 
-* urn:iso:std:iso:11073:10101#7:1298 //"T2" 
+* urn:iso:std:iso:11073:10101#460050 //"T2" 
 
-* urn:iso:std:iso:11073:10101#7:1305 //"Pg1" 
+* urn:iso:std:iso:11073:10101#460057 //"Pg1" 
 
-* urn:iso:std:iso:11073:10101#7:1306 //"Pg2" 
+* urn:iso:std:iso:11073:10101#460058 //"Pg2" 
 
-* urn:iso:std:iso:11073:10101#7:1313 //"Sp1" 
+* urn:iso:std:iso:11073:10101#460065 //"Sp1" 
 
-* urn:iso:std:iso:11073:10101#7:1314 //"Sp2" 
+* urn:iso:std:iso:11073:10101#460066 //"Sp2" 
 
 * DICOM_DCM_CodeSystem#130710 //"Fp9" 
 

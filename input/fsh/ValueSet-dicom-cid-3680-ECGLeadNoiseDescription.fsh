@@ -10,11 +10,11 @@ Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10
 * ^title = "ECG Lead Noise Description (CID 3680)"
 * ^name = "ECGLeadNoiseDescription"
 * ^experimental = false
-* urn:iso:std:iso:11073:10101#10:11200 //"No noise" 
+* urn:iso:std:iso:11073:10101#666560 //"No noise" 
 
-* urn:iso:std:iso:11073:10101#10:11216 //"Moderate noise" 
+* urn:iso:std:iso:11073:10101#666576 //"Moderate noise" 
 
-* urn:iso:std:iso:11073:10101#10:11232 //"Severe noise" 
+* urn:iso:std:iso:11073:10101#666592 //"Severe noise" 
 
-* urn:iso:std:iso:11073:10101#10:11248 //"No signal" 
+* urn:iso:std:iso:11073:10101#666608 //"No signal" 
 

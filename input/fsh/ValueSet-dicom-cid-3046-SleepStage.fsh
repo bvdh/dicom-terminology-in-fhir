@@ -10,37 +10,37 @@ Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10
 * ^title = "Sleep Stage (CID 3046)"
 * ^name = "SleepStage"
 * ^experimental = false
-* urn:iso:std:iso:11073:10101#2:23656 //"Sleep stage unspecified" 
+* urn:iso:std:iso:11073:10101#154728 //"Sleep stage unspecified" 
 
-* urn:iso:std:iso:11073:10101#2:23664 //"Sleep stage unstageable" 
+* urn:iso:std:iso:11073:10101#154736 //"Sleep stage unstageable" 
 
-* urn:iso:std:iso:11073:10101#2:23672 //"Sleep stage wake" 
+* urn:iso:std:iso:11073:10101#154744 //"Sleep stage wake" 
 
-* urn:iso:std:iso:11073:10101#2:23680 //"Sleep stage REM" 
+* urn:iso:std:iso:11073:10101#154752 //"Sleep stage REM" 
 
-* urn:iso:std:iso:11073:10101#2:23688 //"Sleep stage REM with sleep spindle" 
+* urn:iso:std:iso:11073:10101#154760 //"Sleep stage REM with sleep spindle" 
 
-* urn:iso:std:iso:11073:10101#2:23728 //"Alphadelta Sleep" 
+* urn:iso:std:iso:11073:10101#154800 //"Alphadelta Sleep" 
 
-* urn:iso:std:iso:11073:10101#2:23736 //"Sleep activity and event" 
+* urn:iso:std:iso:11073:10101#154808 //"Sleep activity and event" 
 
-* urn:iso:std:iso:11073:10101#2:23744 //"Sleep spindle" 
+* urn:iso:std:iso:11073:10101#154816 //"Sleep spindle" 
 
-* urn:iso:std:iso:11073:10101#2:23752 //"Sleep V wave" 
+* urn:iso:std:iso:11073:10101#154824 //"Sleep V wave" 
 
-* urn:iso:std:iso:11073:10101#2:23760 //"Sleep F wave" 
+* urn:iso:std:iso:11073:10101#154832 //"Sleep F wave" 
 
-* urn:iso:std:iso:11073:10101#2:23768 //"Sleep K complex" 
+* urn:iso:std:iso:11073:10101#154840 //"Sleep K complex" 
 
-* urn:iso:std:iso:11073:10101#2:23776 //"Positive occipital sharp transient of sleep" 
+* urn:iso:std:iso:11073:10101#154848 //"Positive occipital sharp transient of sleep" 
 
-* urn:iso:std:iso:11073:10101#2:23784 //"Sleep sawtooth wave" 
+* urn:iso:std:iso:11073:10101#154856 //"Sleep sawtooth wave" 
 
-* urn:iso:std:iso:11073:10101#2:23792 //"Sleep stage shift" 
+* urn:iso:std:iso:11073:10101#154864 //"Sleep stage shift" 
 
-* urn:iso:std:iso:11073:10101#2:23800 //"Sleep arousal" 
+* urn:iso:std:iso:11073:10101#154872 //"Sleep arousal" 
 
-* urn:iso:std:iso:11073:10101#2:23808 //"Sleep awakening" 
+* urn:iso:std:iso:11073:10101#154880 //"Sleep awakening" 
 
 * DICOM_DCM_CodeSystem#130834 //"Sleep Stage N1" 
 

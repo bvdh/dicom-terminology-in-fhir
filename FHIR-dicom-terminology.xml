@@ -371,7 +371,7 @@
 <artifact id="ValueSet/dicom-uids-context-group" key="ValueSet-dicom-uids-context-group" name="DICOM® Context Group UID Values"/>
 <artifact id="CodeSystem/dicom-dcm-codesystem" key="CodeSystem-dicom-dcm-codesystem" name="DICOM® Controlled Terminology Definitions (Coding Scheme Designator 'DCM' Coding Scheme Version '01')"/>
 <artifact id="ValueSet/dicom-data-elements" key="ValueSet-dicom-data-elements" name="DICOM® Data Elements"/>
-<artifact id="CodeSystem/dicom-elements" key="CodeSystem-dicom-elements" name="DICOM® Data Elements"/>
+<artifact id="CodeSystem/dicom-elements" key="CodeSystem-dicom-elements" name="DICOM® Data Elements (all)"/>
 <artifact id="ValueSet/dicom-directory-structure-elements" key="ValueSet-dicom-directory-structure-elements" name="DICOM® Directory Structure Elements"/>
 <artifact id="ValueSet/dicom-dynamic-rtp-payload-elements" key="ValueSet-dicom-dynamic-rtp-payload-elements" name="DICOM® Dynamic RTP Payload Elements"/>
 <artifact id="ValueSet/dicom-file-meta-elements" key="ValueSet-dicom-file-meta-elements" name="DICOM® File Meta Elements"/>
@@ -379,7 +379,7 @@
 <artifact id="ValueSet/dicom-uids-color-palletes" key="ValueSet-dicom-uids-color-palletes" name="DICOM® Standard Color Palettes"/>
 <artifact id="ValueSet/dicom-uids-template" key="ValueSet-dicom-uids-template" name="DICOM® Template UID Values"/>
 <artifact id="ValueSet/dicom-uids-unique-identifiers" key="ValueSet-dicom-uids-unique-identifiers" name="DICOM® Unique Identifiers"/>
-<artifact id="CodeSystem/dicom-uids" key="CodeSystem-dicom-uids" name="DICOM® Unique Identifiers"/>
+<artifact id="CodeSystem/dicom-uids" key="CodeSystem-dicom-uids" name="DICOM® Unique Identifiers (All)"/>
 <artifact id="CodeSystem/dicom-vr-encodings" key="CodeSystem-dicom-vr-encodings" name="DICOM® Value Representations"/>
 <artifact id="ValueSet/dicom-uids-frame-of-reference" key="ValueSet-dicom-uids-frame-of-reference" name="DICOM® Well Known Frame of Reference UID Values"/>
 <artifact id="ValueSet/dicom-cid-4009-DXAnatomyImaged" key="ValueSet-dicom-cid-4009-DXAnatomyImaged" name="DX Anatomy Imaged (CID 4009)"/>

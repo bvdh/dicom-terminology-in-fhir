@@ -10,27 +10,27 @@ Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10
 * ^title = "ECG Timing Measurement (CID 3228)"
 * ^name = "ECGTimingMeasurement"
 * ^experimental = false
-* urn:iso:std:iso:11073:10101#2:15872 //"PR interval global" 
+* urn:iso:std:iso:11073:10101#146944 //"PR interval global" 
 
-* urn:iso:std:iso:11073:10101#2:16160 //"QT interval global" 
+* urn:iso:std:iso:11073:10101#147232 //"QT interval global" 
 
-* urn:iso:std:iso:11073:10101#2:16156 //"QRS duration global" 
+* urn:iso:std:iso:11073:10101#147228 //"QRS duration global" 
 
-* urn:iso:std:iso:11073:10101#2:16184 //"P duration global" 
+* urn:iso:std:iso:11073:10101#147256 //"P duration global" 
 
-* urn:iso:std:iso:11073:10101#2:16140 //"PP interval global" 
+* urn:iso:std:iso:11073:10101#147212 //"PP interval global" 
 
-* urn:iso:std:iso:11073:10101#2:16168 //"RR interval global" 
+* urn:iso:std:iso:11073:10101#147240 //"RR interval global" 
 
-* urn:iso:std:iso:11073:10101#2:7168 //"PR interval per lead" 
+* urn:iso:std:iso:11073:10101#138240 //"PR interval per lead" 
 
-* urn:iso:std:iso:11073:10101#2:8192 //"QT interval per lead" 
+* urn:iso:std:iso:11073:10101#139264 //"QT interval per lead" 
 
-* urn:iso:std:iso:11073:10101#2:7936 //"QRS duration per lead" 
+* urn:iso:std:iso:11073:10101#139008 //"QRS duration per lead" 
 
-* urn:iso:std:iso:11073:10101#2:6656 //"P duration per lead" 
+* urn:iso:std:iso:11073:10101#137728 //"P duration per lead" 
 
-* urn:iso:std:iso:11073:10101#2:32768 //"PP interval per lead" 
+* urn:iso:std:iso:11073:10101#163840 //"PP interval per lead" 
 
-* urn:iso:std:iso:11073:10101#2:33024 //"RR interval per lead" 
+* urn:iso:std:iso:11073:10101#164096 //"RR interval per lead" 
 

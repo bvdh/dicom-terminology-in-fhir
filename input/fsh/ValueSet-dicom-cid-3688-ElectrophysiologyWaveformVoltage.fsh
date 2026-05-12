@@ -12,43 +12,43 @@ Description :
 * ^title = "Electrophysiology Waveform Voltage (CID 3688)"
 * ^name = "ElectrophysiologyWaveformVoltage"
 * ^experimental = false
-* urn:iso:std:iso:11073:10101#2:1024 //"J point Amplitude, per lead" 
+* urn:iso:std:iso:11073:10101#132096 //"J point Amplitude, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:14848 //"Amplitude at 20 ms into ST segment, per lead" 
+* urn:iso:std:iso:11073:10101#145920 //"Amplitude at 20 ms into ST segment, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:15104 //"Amplitude at 40 ms into ST segment, per lead" 
+* urn:iso:std:iso:11073:10101#146176 //"Amplitude at 40 ms into ST segment, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:14336 //"Amplitude at 60 ms into ST segment, per lead" 
+* urn:iso:std:iso:11073:10101#145408 //"Amplitude at 60 ms into ST segment, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:14592 //"Amplitude at 80 ms into ST segment, per lead" 
+* urn:iso:std:iso:11073:10101#145664 //"Amplitude at 80 ms into ST segment, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:1280 //"P maximum amplitude, per lead" 
+* urn:iso:std:iso:11073:10101#132352 //"P maximum amplitude, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:1536 //"P minimum amplitude, per lead" 
+* urn:iso:std:iso:11073:10101#132608 //"P minimum amplitude, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:3072 //"P3 amplitude, per lead" 
+* urn:iso:std:iso:11073:10101#134144 //"P3 amplitude, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:1792 //"Q amplitude, per lead" 
+* urn:iso:std:iso:11073:10101#132864 //"Q amplitude, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:2048 //"R amplitude, per lead" 
+* urn:iso:std:iso:11073:10101#133120 //"R amplitude, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:12800 //"R1 amplitude, per lead" 
+* urn:iso:std:iso:11073:10101#143872 //"R1 amplitude, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:13056 //"R2 amplitude, per lead" 
+* urn:iso:std:iso:11073:10101#144128 //"R2 amplitude, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:13312 //"R3 amplitude, per lead" 
+* urn:iso:std:iso:11073:10101#144384 //"R3 amplitude, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:2304 //"S amplitude, per lead" 
+* urn:iso:std:iso:11073:10101#133376 //"S amplitude, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:13568 //"S1 amplitude, per lead" 
+* urn:iso:std:iso:11073:10101#144640 //"S1 amplitude, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:13824 //"S2 amplitude, per lead" 
+* urn:iso:std:iso:11073:10101#144896 //"S2 amplitude, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:14080 //"S3 amplitude, per lead" 
+* urn:iso:std:iso:11073:10101#145152 //"S3 amplitude, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:2560 //"T maximum amplitude, per lead" 
+* urn:iso:std:iso:11073:10101#133632 //"T maximum amplitude, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:2816 //"T minimum amplitude, per lead" 
+* urn:iso:std:iso:11073:10101#133888 //"T minimum amplitude, per lead" 
 
-* urn:iso:std:iso:11073:10101#2:768 //"ST amplitude, per lead" 
+* urn:iso:std:iso:11073:10101#131840 //"ST amplitude, per lead" 
 
