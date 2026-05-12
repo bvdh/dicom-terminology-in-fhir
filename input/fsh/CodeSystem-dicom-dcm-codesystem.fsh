@@ -34622,20 +34622,20 @@ A Zr 89 Df-FK-PEG(3) peptide PET Radiotracer. See Jacobsen O et al. MicroPET Ima
 * #126761 ^property[1].code = #retired
 * #126761 ^property[1].valueBoolean  = false
 
-* #126762 "Df-[FK](2) ^89^Zr"
+* #126762 "Df-\[FK\](2) ^89^Zr"
 """
 Df-[fk](2)^89^zr:
-A Zr 89 Df-[FK](2) peptide PET Radiotracer. See Jacobsen O et al. MicroPET Imaging of Integrinv389 doi:10.1007/s11307-010-0458-y http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3137711/
+A Zr 89 Df-\[FK\](2) peptide PET Radiotracer. See Jacobsen O et al. MicroPET Imaging of Integrinv389 doi:10.1007/s11307-010-0458-y http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3137711/
 """
 * #126762 ^property[0].code = #keyword
 * #126762 ^property[0].valueString  = "Df-[fk](2)^89^zr"
 * #126762 ^property[1].code = #retired
 * #126762 ^property[1].valueBoolean  = false
 
-* #126763 "Df-[FK](2)-3PEG(4) ^89^Zr"
+* #126763 "Df-\[FK\](2)-3PEG(4) ^89^Zr"
 """
 Df-[fk](2)-3peg(4)^89^zr:
-A Zr 89 Df-[FK](2)-3PEG(4) peptide PET Radiotracer. See Jacobsen O et al. MicroPET Imaging of Integrinv389 doi:10.1007/s11307-010-0458-y http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3137711/
+A Zr 89 Df-\[FK\](2)-3PEG(4) peptide PET Radiotracer. See Jacobsen O et al. MicroPET Imaging of Integrinv389 doi:10.1007/s11307-010-0458-y http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3137711/
 """
 * #126763 ^property[0].code = #keyword
 * #126763 ^property[0].valueString  = "Df-[fk](2)-3peg(4)^89^zr"

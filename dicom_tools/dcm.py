@@ -15,6 +15,11 @@ CODESYSTEM_TITLE = 'DICOM® Controlled Terminology Definitions (Coding Scheme De
 CODESYSTEM_DESCRIPTION = f'{CODESYSTEM_TITLE} extracted from DICOM PS3.16 Table D-1.'
 
 
+def strip_markdown_links(text: str) -> str:
+    """Escape markdown links like [FK](2) so they render as text, not hyperlinks."""
+    return re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'\\[\1\\](\2)', text)
+
+
 def writeDcmCodeSystem( fsh_path:str, dicom_path:str, canonicalVersion:str ) -> None:
     # Write the code system for the data elements
     # This is a helper function for writeDataElements
@@ -53,10 +58,11 @@ def writeDcmCodeSystem( fsh_path:str, dicom_path:str, canonicalVersion:str ) -> 
         for row in table:
             if (len(row[0])>0):
                 code = row[0]
-                short = row[1]
+                short = strip_markdown_links(row[1])
                 keyword = toCamelCase(row[1])
                 retired = 'true' if len(row)>3 and len(row[3]) > 0 else 'false'
-                description = re.sub( r'(\n)+', '\n', f'{keyword}:\n{row[2]}\n{ "retired" if retired == 'true' else ""}'.strip())
+                safe_definition = strip_markdown_links(row[2])
+                description = re.sub( r'(\n)+', '\n', f'{keyword}:\n{safe_definition}\n{ "retired" if retired == 'true' else ""}'.strip())
                 fsh_file.write(f'* #{code} "{short}"\n')
                 fsh_file.write(f'"""\n')
                 fsh_file.write(description+'\n' )
