@@ -3,6 +3,8 @@ Id          : dicom-cid-12238-WallMotionScoringScheme
 Description :
 """
 Wall Motion Scoring Scheme
+
+The content in this ValueSet is based on [CID 12238](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12238.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.629"

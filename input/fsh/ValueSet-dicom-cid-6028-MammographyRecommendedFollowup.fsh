@@ -3,6 +3,8 @@ Id          : dicom-cid-6028-MammographyRecommendedFollowup
 Description :
 """
 In future extensions, Mammography Recommended Follow-up terms that are not derived from BI-RADS should be added to this Context Group.
+
+The content in this ValueSet is based on [CID 6028](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6028.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.358"
@@ -15,10 +17,8 @@ In future extensions, Mammography Recommended Follow-up terms that are not deriv
 * DICOM_DCM_CodeSystem#111121 //"Follow-up post biopsy as directed by clinician" 
 
 * http://snomed.info/sct#371572003 //"Nuclear medicine procedure" 
-* http://snomed.info/srt#P0-006F1 //"Nuclear medicine procedure" 
 
 * http://snomed.info/sct#386053000 //"Evaluation procedure" 
-* http://snomed.info/srt#P0-009B4 //"Evaluation procedure" 
 
 * DICOM_DCM_CodeSystem#111410 //"Surgical consult" 
 

@@ -5,6 +5,8 @@ Description :
 
  1 This Context Group may be extended with any of the concepts included in LOINC group27899-4
  2 Deprecated LOINC codes were used in previous versions of this Context Group. See PS3.16 2020e.
+
+The content in this ValueSet is based on [CID 7000](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7000.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.481"

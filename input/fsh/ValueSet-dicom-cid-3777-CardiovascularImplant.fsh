@@ -3,6 +3,8 @@ Id          : dicom-cid-3777-CardiovascularImplant
 Description :
 """
 Cardiovascular Implant
+
+The content in this ValueSet is based on [CID 3777](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3777.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.263"
@@ -11,11 +13,8 @@ Cardiovascular Implant
 * ^name = "CardiovascularImplant"
 * ^experimental = false
 * http://snomed.info/sct#14106009 //"Cardiac pacemaker" 
-* http://snomed.info/srt#A-11100 //"Cardiac pacemaker" 
 
 * http://snomed.info/sct#72506001 //"Implantable defibrillator" 
-* http://snomed.info/srt#A-11206 //"Implantable defibrillator" 
 
 * http://snomed.info/sct#360066001 //"Left ventricular assist device" 
-* http://snomed.info/srt#A-11FCD //"Left ventricular assist device" 
 

@@ -5,7 +5,7 @@ argument-hint: "Scope (severity/file/message), e.g. 'errors only' or 'file: inpu
 agent: "qa-report-analyzer"
 ---
 
-Run a targeted QA triage flow against [output/qa.html](../../output/qa.html).
+Run a targeted QA triage flow against [../../output/qa.txt](../../output/qa.txt) (plain text) or [../../output/qa.html](../../output/qa.html) (html).
 
 Collect or confirm these inputs first:
 - Target scope: severity, file path, or exact message text.

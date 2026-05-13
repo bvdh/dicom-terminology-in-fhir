@@ -3,6 +3,8 @@ Id          : dicom-cid-7464-GeneralRegionOfInterestMeasurementModifier
 Description :
 """
 General Region of Interest Measurement Modifier
+
+The content in this ValueSet is based on [CID 7464](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7464.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.951"
@@ -13,16 +15,12 @@ General Region of Interest Measurement Modifier
 * include codes from valueset CID_3488
 
 * http://snomed.info/sct#386136009 //"Standard Deviation" 
-* http://snomed.info/srt#R-10047 //"Standard Deviation" 
 
 * http://snomed.info/sct#255619001 //"Total" 
-* http://snomed.info/srt#R-40507 //"Total" 
 
 * http://snomed.info/sct#373099004 //"Median" 
-* http://snomed.info/srt#R-00319 //"Median" 
 
 * http://snomed.info/sct#373100007 //"Mode" 
-* http://snomed.info/srt#R-0032E //"Mode" 
 
 * DICOM_DCM_CodeSystem#126031 //"Peak Value Within ROI" 
 

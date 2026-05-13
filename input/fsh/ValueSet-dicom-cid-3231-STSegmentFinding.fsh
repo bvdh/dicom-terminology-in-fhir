@@ -3,6 +3,8 @@ Id          : dicom-cid-3231-STSegmentFinding
 Description :
 """
 ST Segment Finding
+
+The content in this ValueSet is based on [CID 3231](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3231.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.777"
@@ -11,7 +13,6 @@ ST Segment Finding
 * ^name = "STSegmentFinding"
 * ^experimental = false
 * http://snomed.info/sct#164929001 //"ST Interval Normal" 
-* http://snomed.info/srt#F-000C3 //"ST Interval Normal" 
 
 * DICOM_DCM_CodeSystem#122750 //"Non-diagnostic - low heart rate" 
 
@@ -20,10 +21,8 @@ ST Segment Finding
 * DICOM_DCM_CodeSystem#122752 //"Non-diagnostic - ventricular pacing or LBBB" 
 
 * http://snomed.info/sct#260408008 //"Weakly positive" 
-* http://snomed.info/srt#G-A205 //"Weakly positive" 
 
 * http://snomed.info/sct#10828004 //"Positive" 
-* http://snomed.info/srt#G-A200 //"Positive" 
 
 * DICOM_DCM_CodeSystem#122755 //"Strongly positive" 
 

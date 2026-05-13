@@ -3,6 +3,8 @@ Id          : dicom-cid-12265-CardiacUltrasoundAtriaAndAtrialSeptumMeasurement
 Description :
 """
 Cardiac Ultrasound Atria and Atrial Septum Measurement
+
+The content in this ValueSet is based on [CID 12265](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12265.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.846"
@@ -21,7 +23,6 @@ Cardiac Ultrasound Atria and Atrial Septum Measurement
 * include codes from valueset CID_12255
 
 * http://snomed.info/sct#118565006 //"Volume" 
-* http://snomed.info/srt#G-D705 //"Volume" 
 
 * http://loinc.org#17985-3 //"Left Atrium to Aortic Root Ratio" 
 

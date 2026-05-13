@@ -3,6 +3,8 @@ Id          : dicom-cid-10063-RadiationDoseEstimateDistributionRepresentation
 Description :
 """
 Radiation Dose Estimate Distribution Representation
+
+The content in this ValueSet is based on [CID 10063](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_10063.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1157"

@@ -3,6 +3,8 @@ Id          : dicom-cid-7021-MeasurementReportDocumentTitle
 Description :
 """
 Measurement Report Document Title
+
+The content in this ValueSet is based on [CID 7021](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7021.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.997"

@@ -3,6 +3,8 @@ Id          : dicom-cid-12290-CardiacUltrasoundPulmonaryArteryFindingSite
 Description :
 """
 Cardiac Ultrasound Pulmonary Artery Finding Site
+
+The content in this ValueSet is based on [CID 12290](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12290.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.870"
@@ -11,20 +13,14 @@ Cardiac Ultrasound Pulmonary Artery Finding Site
 * ^name = "CardiacUltrasoundPulmonaryArteryFindingSite"
 * ^experimental = false
 * http://snomed.info/sct#45341000 //"Pulmonary Trunk" 
-* http://snomed.info/srt#T-44100 //"Pulmonary Trunk" 
 
 * http://snomed.info/sct#50408007 //"Left pulmonary artery" 
-* http://snomed.info/srt#T-44400 //"Left pulmonary artery" 
 
 * http://snomed.info/sct#78480002 //"Right pulmonary artery" 
-* http://snomed.info/srt#T-44200 //"Right pulmonary artery" 
 
 * http://snomed.info/sct#81040000 //"Pulmonary Artery" 
-* http://snomed.info/srt#T-44000 //"Pulmonary Artery" 
 
 * http://snomed.info/sct#443096004 //"Aorta to Pulmonary Artery Connection" 
-* http://snomed.info/srt#T-D0877 //"Aorta to Pulmonary Artery Connection" 
 
 * http://snomed.info/sct#4432005 //"Ductus arteriosus" 
-* http://snomed.info/srt#T-F6845 //"Ductus arteriosus" 
 

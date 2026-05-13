@@ -3,6 +3,8 @@ Id          : dicom-cid-6051-BreastProcedureReason
 Description :
 """
 Some of these terms were obtained from BI-RADS
+
+The content in this ValueSet is based on [CID 6051](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6051.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.380"
@@ -23,18 +25,14 @@ Some of these terms were obtained from BI-RADS
 * DICOM_DCM_CodeSystem#111402 //"Clinical finding" 
 
 * http://snomed.info/sct#59214008 //"Reduction mammoplasty" 
-* http://snomed.info/srt#P1-48830 //"Reduction mammoplasty" 
 
 * http://snomed.info/sct#429479009 //"History of radiation therapy" 
-* http://snomed.info/srt#P0-099EB //"History of radiation therapy" 
 
 * http://snomed.info/sct#22890008 //"Augmentation mammoplasty" 
-* http://snomed.info/srt#P1-48840 //"Augmentation mammoplasty" 
 
 * DICOM_DCM_CodeSystem#111419 //"Additional evaluation requested from abnormal screening study" 
 
 * http://snomed.info/sct#384692006 //"Brachytherapy" 
-* http://snomed.info/srt#P5-C018A //"Brachytherapy" 
 
 * DICOM_DCM_CodeSystem#111420 //"History of benign breast biopsy" 
 
@@ -45,7 +43,6 @@ Some of these terms were obtained from BI-RADS
 * DICOM_DCM_CodeSystem#111125 //"Known biopsy proven malignancy" 
 
 * http://snomed.info/sct#415076002 //"Personal history of breast cancer" 
-* http://snomed.info/srt#G-03D3 //"Personal history of breast cancer" 
 
 * DICOM_DCM_CodeSystem#111590 //"Recall for technical reasons" 
 

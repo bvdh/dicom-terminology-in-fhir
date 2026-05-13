@@ -3,6 +3,8 @@ Id          : dicom-cid-9301-ModalityPPSDiscontinuationReason
 Description :
 """
 Modality PPS Discontinuation Reason
+
+The content in this ValueSet is based on [CID 9301](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9301.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.812"
@@ -45,8 +47,6 @@ Modality PPS Discontinuation Reason
 * DICOM_DCM_CodeSystem#110516 //"Equipment change" 
 
 * http://snomed.info/sct#95384003 //"Injection Site Extravasation" 
-* http://snomed.info/srt#D0-B0330 //"Injection Site Extravasation" 
 
 * http://snomed.info/sct#292094009 //"Radiopharmaceutical Adverse Reaction" 
-* http://snomed.info/srt#DF-10780 //"Radiopharmaceutical Adverse Reaction" 
 

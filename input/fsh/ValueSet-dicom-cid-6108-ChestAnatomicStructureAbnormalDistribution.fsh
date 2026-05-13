@@ -3,6 +3,8 @@ Id          : dicom-cid-6108-ChestAnatomicStructureAbnormalDistribution
 Description :
 """
 Original source of terms is [Fraser and Pare].
+
+The content in this ValueSet is based on [CID 6108](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6108.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.428"
@@ -11,7 +13,6 @@ Original source of terms is [Fraser and Pare].
 * ^name = "ChestAnatomicStructureAbnormalDistribution"
 * ^experimental = false
 * http://snomed.info/sct#76171001 //"Air-trapping" 
-* http://snomed.info/srt#F-20240 //"Air-trapping" 
 
 * DICOM_DCM_CodeSystem#112079 //"Architectural distortion" 
 

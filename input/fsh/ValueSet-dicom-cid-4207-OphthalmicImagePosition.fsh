@@ -3,6 +3,8 @@ Id          : dicom-cid-4207-OphthalmicImagePosition
 Description :
 """
 Ophthalmic Image Position
+
+The content in this ValueSet is based on [CID 4207](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4207.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.323"
@@ -11,25 +13,18 @@ Ophthalmic Image Position
 * ^name = "OphthalmicImagePosition"
 * ^experimental = false
 * http://snomed.info/sct#408734008 //"Diabetic Retinopathy Study field 1" 
-* http://snomed.info/srt#R-10229 //"Diabetic Retinopathy Study field 1" 
 
 * http://snomed.info/sct#410434001 //"Diabetic Retinopathy Study field 2" 
-* http://snomed.info/srt#R-1022A //"Diabetic Retinopathy Study field 2" 
 
 * http://snomed.info/sct#410435000 //"Diabetic Retinopathy Study field 3" 
-* http://snomed.info/srt#R-1022B //"Diabetic Retinopathy Study field 3" 
 
 * http://snomed.info/sct#410436004 //"Diabetic Retinopathy Study field 4" 
-* http://snomed.info/srt#R-1022C //"Diabetic Retinopathy Study field 4" 
 
 * http://snomed.info/sct#410437008 //"Diabetic Retinopathy Study field 5" 
-* http://snomed.info/srt#R-1022E //"Diabetic Retinopathy Study field 5" 
 
 * http://snomed.info/sct#410438003 //"Diabetic Retinopathy Study field 6" 
-* http://snomed.info/srt#R-1022F //"Diabetic Retinopathy Study field 6" 
 
 * http://snomed.info/sct#410439006 //"Diabetic Retinopathy Study field 7" 
-* http://snomed.info/srt#R-10231 //"Diabetic Retinopathy Study field 7" 
 
 * DICOM_DCM_CodeSystem#111621 //"Field 1 for Joslin 3 field" 
 

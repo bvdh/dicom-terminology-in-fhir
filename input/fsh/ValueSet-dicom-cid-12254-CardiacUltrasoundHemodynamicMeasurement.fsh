@@ -3,6 +3,8 @@ Id          : dicom-cid-12254-CardiacUltrasoundHemodynamicMeasurement
 Description :
 """
 Cardiac Ultrasound Hemodynamic Measurement
+
+The content in this ValueSet is based on [CID 12254](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12254.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.835"
@@ -29,7 +31,6 @@ Cardiac Ultrasound Hemodynamic Measurement
 * http://loinc.org#59119-8 //"Filling Time" 
 
 * http://snomed.info/sct#75367002 //"Blood Pressure" 
-* http://snomed.info/srt#F-31000 //"Blood Pressure" 
 
 * http://loinc.org#59086-9 //"Heart Rate-Corrected Ejection Time" 
 

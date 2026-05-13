@@ -3,6 +3,8 @@ Id          : dicom-cid-3724-SmokingHistory
 Description :
 """
 In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
+
+The content in this ValueSet is based on [CID 3724](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3724.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.225"
@@ -11,11 +13,8 @@ In prior editions, this Context Group included the NCDR 2.0b codes as the primar
 * ^name = "SmokingHistory"
 * ^experimental = false
 * http://snomed.info/sct#266919005 //"No History of Smoking" 
-* http://snomed.info/srt#F-9321F //"No History of Smoking" 
 
 * http://snomed.info/sct#77176002 //"Current Smoker" 
-* http://snomed.info/srt#S-32000 //"Current Smoker" 
 
 * http://snomed.info/sct#8517006 //"Former Smoker" 
-* http://snomed.info/srt#S-32070 //"Former Smoker" 
 

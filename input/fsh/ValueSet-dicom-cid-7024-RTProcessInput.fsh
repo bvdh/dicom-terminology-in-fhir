@@ -3,6 +3,8 @@ Id          : dicom-cid-7024-RTProcessInput
 Description :
 """
 The concepts in the CID are intended to be a declarative statement to represent the potential input of an operation, without implying that this operation is part of a particular workflow, that this input will be used at all in any subsequent operation, that only parts of the referenced instances will be used, or that instances other than those referenced will be used as input.
+
+The content in this ValueSet is based on [CID 7024](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7024.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1136"

@@ -3,6 +3,8 @@ Id          : dicom-cid-7472-VolumeMeasurement
 Description :
 """
 Volume Measurement
+
+The content in this ValueSet is based on [CID 7472](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7472.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.526"
@@ -11,7 +13,6 @@ Volume Measurement
 * ^name = "VolumeMeasurement"
 * ^experimental = false
 * http://snomed.info/sct#118565006 //"Volume" 
-* http://snomed.info/srt#G-D705 //"Volume" 
 
 * DICOM_DCM_CodeSystem#121216 //"Volume estimated from single 2D region" 
 

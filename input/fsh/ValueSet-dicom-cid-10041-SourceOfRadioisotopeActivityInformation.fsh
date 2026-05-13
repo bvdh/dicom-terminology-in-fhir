@@ -3,6 +3,8 @@ Id          : dicom-cid-10041-SourceOfRadioisotopeActivityInformation
 Description :
 """
 Source of Radioisotope Activity Information
+
+The content in this ValueSet is based on [CID 10041](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_10041.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.973"

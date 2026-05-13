@@ -3,6 +3,8 @@ Id          : dicom-cid-7160-PelvicOrganSegmentationType
 Description :
 """
 Pelvic Organ Segmentation Type
+
+The content in this ValueSet is based on [CID 7160](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7160.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.506"
@@ -11,28 +13,20 @@ Pelvic Organ Segmentation Type
 * ^name = "PelvicOrganSegmentationType"
 * ^experimental = false
 * http://snomed.info/sct#89837001 //"Bladder" 
-* http://snomed.info/srt#T-74000 //"Bladder" 
 
 * http://snomed.info/sct#71252005 //"Cervix" 
-* http://snomed.info/srt#T-83200 //"Cervix" 
 
 * http://snomed.info/sct#31435000 //"Fallopian tube" 
-* http://snomed.info/srt#T-88000 //"Fallopian tube" 
 
 * http://snomed.info/sct#45292006 //"Vulva" 
-* http://snomed.info/srt#T-81000 //"Vulva" 
 
 * http://snomed.info/sct#699886009 //"Female internal genitalia" 
-* http://snomed.info/srt#R-FB4D3 //"Female internal genitalia" 
 
 * http://snomed.info/sct#90418005 //"Male external genitalia" 
-* http://snomed.info/srt#T-90010 //"Male external genitalia" 
 
 * http://snomed.info/sct#38242008 //"Male internal genitalia" 
-* http://snomed.info/srt#T-90020 //"Male internal genitalia" 
 
 * http://snomed.info/sct#15497006 //"Ovary" 
-* http://snomed.info/srt#T-87000 //"Ovary" 
 
 * http://snomed.info/sct#816092008 //"Pelvis" 
 
@@ -43,23 +37,16 @@ Pelvic Organ Segmentation Type
 * http://snomed.info/sct#816991004 //"Pelvic cavity, true" 
 
 * http://snomed.info/sct#41216001 //"Prostate" 
-* http://snomed.info/srt#T-92000 //"Prostate" 
 
 * http://snomed.info/sct#34402009 //"Rectum" 
-* http://snomed.info/srt#T-59600 //"Rectum" 
 
 * http://snomed.info/sct#64739004 //"Seminal Vesicle" 
-* http://snomed.info/srt#T-93000 //"Seminal Vesicle" 
 
 * http://snomed.info/sct#40689003 //"Testis" 
-* http://snomed.info/srt#T-94000 //"Testis" 
 
 * http://snomed.info/sct#35039007 //"Uterus" 
-* http://snomed.info/srt#T-83000 //"Uterus" 
 
 * http://snomed.info/sct#76784001 //"Vagina" 
-* http://snomed.info/srt#T-82000 //"Vagina" 
 
 * http://snomed.info/sct#57671007 //"Vas deferens" 
-* http://snomed.info/srt#T-96000 //"Vas deferens" 
 

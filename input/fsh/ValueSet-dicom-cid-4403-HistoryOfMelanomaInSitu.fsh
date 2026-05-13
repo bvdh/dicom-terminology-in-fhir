@@ -3,6 +3,8 @@ Id          : dicom-cid-4403-HistoryOfMelanomaInSitu
 Description :
 """
 History of Melanoma in Situ
+
+The content in this ValueSet is based on [CID 4403](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4403.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1348"
@@ -11,5 +13,4 @@ History of Melanoma in Situ
 * ^name = "HistoryOfMelanomaInSitu"
 * ^experimental = false
 * http://snomed.info/sct#1251000119106 //"History of melanoma in situ of the skin" 
-* http://snomed.info/srt#R-FAC47 //"History of melanoma in situ of the skin" 
 

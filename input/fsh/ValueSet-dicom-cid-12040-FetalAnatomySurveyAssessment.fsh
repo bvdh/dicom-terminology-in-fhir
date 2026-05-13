@@ -3,6 +3,8 @@ Id          : dicom-cid-12040-FetalAnatomySurveyAssessment
 Description :
 """
 Fetal Anatomy Survey Assessment
+
+The content in this ValueSet is based on [CID 12040](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12040.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1550"
@@ -27,5 +29,4 @@ Fetal Anatomy Survey Assessment
 * include codes from valueset CID_12048
 
 * http://snomed.info/sct#55460000 //"Fetal Structure" 
-* http://snomed.info/srt#T-F5201 //"Fetal Structure" 
 

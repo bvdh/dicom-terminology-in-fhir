@@ -3,6 +3,8 @@ Id          : dicom-cid-7158-ArtifactSegmentationType
 Description :
 """
 Artifact Segmentation Type
+
+The content in this ValueSet is based on [CID 7158](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7158.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.504"
@@ -11,11 +13,8 @@ Artifact Segmentation Type
 * ^name = "ArtifactSegmentationType"
 * ^experimental = false
 * http://snomed.info/sct#272180002 //"Clothing" 
-* http://snomed.info/srt#A-00916 //"Clothing" 
 
 * http://snomed.info/sct#19227008 //"Foreign body" 
-* http://snomed.info/srt#M-30400 //"Foreign body" 
 
 * http://snomed.info/sct#86407004 //"Table" 
-* http://snomed.info/srt#A-17350 //"Table" 
 

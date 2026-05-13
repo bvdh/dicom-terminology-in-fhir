@@ -3,6 +3,8 @@ Id          : dicom-cid-7185-AbstractMultiDimensionalImageModelAxisOrientation
 Description :
 """
 Abstract Multi-dimensional Image Model Axis Orientation
+
+The content in this ValueSet is based on [CID 7185](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7185.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.922"

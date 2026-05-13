@@ -3,6 +3,8 @@ Id          : dicom-cid-6081-BreastCancerRiskFactor
 Description :
 """
 Some of these terms were obtained from BI-RADS
+
+The content in this ValueSet is based on [CID 6081](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6081.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.403"
@@ -21,7 +23,6 @@ Some of these terms were obtained from BI-RADS
 * DICOM_DCM_CodeSystem#111554 //"Post menopausal patient" 
 
 * http://snomed.info/sct#102877006 //"Nulliparous" 
-* http://snomed.info/srt#F-84430 //"Nulliparous" 
 
 * DICOM_DCM_CodeSystem#111555 //"Late child bearing (after 30)" 
 
@@ -32,7 +33,6 @@ Some of these terms were obtained from BI-RADS
 * DICOM_DCM_CodeSystem#111558 //"BRCA3 breast cancer gene" 
 
 * http://snomed.info/sct#429740004 //"Family history of breast cancer" 
-* http://snomed.info/srt#G-04C5 //"Family history of breast cancer" 
 
 * DICOM_DCM_CodeSystem#111559 //"Weak family history of breast cancer" 
 
@@ -45,5 +45,4 @@ Some of these terms were obtained from BI-RADS
 * DICOM_DCM_CodeSystem#111563 //"Family history unknown" 
 
 * http://snomed.info/sct#313376005 //"No family history of breast carcinoma" 
-* http://snomed.info/srt#R-207AD //"No family history of breast carcinoma" 
 

@@ -3,6 +3,8 @@ Id          : dicom-cid-7481-BreedRegistry
 Description :
 """
 The contents of this table were derived from the information available athttp://www.canadasguidetodogs.com/breederinfo/breedregistries.htm
+
+The content in this ValueSet is based on [CID 7481](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7481.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.530"

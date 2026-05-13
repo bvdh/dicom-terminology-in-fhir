@@ -10,6 +10,8 @@ Description :
  5 IANA language tag registrations may be obtained athttp://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
  6 In previous releases of the Standard, this Context Group formerly included the three letter language codes ofbiblio_ISO639-2 biblio_RFC_3066
  7 In previous releases of the Standard, this Context Group provided only language identifiers, with national or regional variant identified in a separate Attribute or Content Item.
+
+The content in this ValueSet is based on [CID 5000](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_5000.html).
 """
 * ^version = "None"
 * ^title = "Language (CID 5000)"

@@ -3,6 +3,8 @@ Id          : dicom-cid-272-SpecificObservationSubjectClass
 Description :
 """
 Specific Observation Subject Class
+
+The content in this ValueSet is based on [CID 272](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_272.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1457"
@@ -23,5 +25,4 @@ Specific Observation Subject Class
 * http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C85402 //"Imaging Region of Interest" 
 
 * http://snomed.info/sct#260893003 //"Waveform" 
-* http://snomed.info/srt#G-C0AE //"Waveform" 
 

@@ -3,6 +3,8 @@ Id          : dicom-cid-3440-PeripheralPulseLocation
 Description :
 """
 Peripheral Pulse Location
+
+The content in this ValueSet is based on [CID 3440](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3440.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.93"
@@ -11,26 +13,18 @@ Peripheral Pulse Location
 * ^name = "PeripheralPulseLocation"
 * ^experimental = false
 * http://snomed.info/sct#17137000 //"Brachial Artery" 
-* http://snomed.info/srt#T-47160 //"Brachial Artery" 
 
 * http://snomed.info/sct#69105007 //"Carotid Artery" 
-* http://snomed.info/srt#T-45010 //"Carotid Artery" 
 
 * http://snomed.info/sct#86547008 //"Dorsalis Pedis Artery" 
-* http://snomed.info/srt#T-47740 //"Dorsalis Pedis Artery" 
 
 * http://snomed.info/sct#7657000 //"Femoral Artery" 
-* http://snomed.info/srt#T-47400 //"Femoral Artery" 
 
 * http://snomed.info/sct#43899006 //"Popliteal Artery" 
-* http://snomed.info/srt#T-47500 //"Popliteal Artery" 
 
 * http://snomed.info/sct#13363002 //"Posterior Tibial Artery" 
-* http://snomed.info/srt#T-47600 //"Posterior Tibial Artery" 
 
 * http://snomed.info/sct#45631007 //"Radial Artery" 
-* http://snomed.info/srt#T-47300 //"Radial Artery" 
 
 * http://snomed.info/sct#44984001 //"Ulnar Artery" 
-* http://snomed.info/srt#T-47200 //"Ulnar Artery" 
 

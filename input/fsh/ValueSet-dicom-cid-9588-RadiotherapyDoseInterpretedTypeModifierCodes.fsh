@@ -3,6 +3,8 @@ Id          : dicom-cid-9588-RadiotherapyDoseInterpretedTypeModifierCodes
 Description :
 """
 Radiotherapy Dose Interpreted Type Modifier Codes
+
+The content in this ValueSet is based on [CID 9588](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9588.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1566"

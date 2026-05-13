@@ -3,6 +3,8 @@ Id          : dicom-cid-12279-CardiacUltrasoundFetalGeneralMeasurement
 Description :
 """
 Cardiac Ultrasound Fetal General Measurement
+
+The content in this ValueSet is based on [CID 12279](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12279.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.859"
@@ -29,7 +31,6 @@ Cardiac Ultrasound Fetal General Measurement
 * http://loinc.org#59078-6 //"Left Ventricle/Right Ventricle Diameter Ratio" 
 
 * http://snomed.info/sct#249192005 //"Number of umbilical arteries" 
-* http://snomed.info/srt#F-00AA0 //"Number of umbilical arteries" 
 
 * DICOM_DCM_CodeSystem#131350 //"Cardiac Axis Angle" 
 

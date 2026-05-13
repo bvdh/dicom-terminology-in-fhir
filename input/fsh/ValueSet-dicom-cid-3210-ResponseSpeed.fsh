@@ -3,6 +3,8 @@ Id          : dicom-cid-3210-ResponseSpeed
 Description :
 """
 Speed of Response
+
+The content in this ValueSet is based on [CID 3210](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3210.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.765"
@@ -11,11 +13,8 @@ Speed of Response
 * ^name = "ResponseSpeed"
 * ^experimental = false
 * http://snomed.info/sct#17621005 //"normal" 
-* http://snomed.info/srt#G-A460 //"normal" 
 
 * http://snomed.info/sct#428691001 //"accentuated" 
-* http://snomed.info/srt#R-40AA8 //"accentuated" 
 
 * http://snomed.info/sct#428247006 //"blunted" 
-* http://snomed.info/srt#R-40AA7 //"blunted" 
 

@@ -3,6 +3,8 @@ Id          : dicom-cid-7467-GrayLevelCooccurrenceMatrixMeasurement
 Description :
 """
 Gray Level Co-occurrence Matrix Measurement
+
+The content in this ValueSet is based on [CID 7467](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7467.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1000"

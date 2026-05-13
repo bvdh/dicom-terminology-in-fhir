@@ -3,6 +3,8 @@ Id          : dicom-cid-6092-UsageExposureQualitativeConcept
 Description :
 """
 Usage/Exposure Qualitative Concept
+
+The content in this ValueSet is based on [CID 6092](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6092.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.414"
@@ -11,7 +13,6 @@ Usage/Exposure Qualitative Concept
 * ^name = "UsageExposureQualitativeConcept"
 * ^experimental = false
 * http://snomed.info/sct#260911001 //"Dosage" 
-* http://snomed.info/srt#G-C0B7 //"Dosage" 
 
 * DICOM_DCM_CodeSystem#111578 //"Dose frequency" 
 

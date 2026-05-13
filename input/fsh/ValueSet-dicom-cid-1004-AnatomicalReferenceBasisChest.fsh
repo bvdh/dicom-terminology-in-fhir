@@ -3,6 +3,8 @@ Id          : dicom-cid-1004-AnatomicalReferenceBasisChest
 Description :
 """
 (26493002, SCT, 'Suprasternal Notch')
+
+The content in this ValueSet is based on [CID 1004](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_1004.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1125"
@@ -11,47 +13,32 @@ Description :
 * ^name = "AnatomicalReferenceBasisChest"
 * ^experimental = false
 * http://snomed.info/sct#85856004 //"Acromioclavicular Joint" 
-* http://snomed.info/srt#T-15420 //"Acromioclavicular Joint" 
 
 * http://snomed.info/sct#57034009 //"Aortic Arch" 
-* http://snomed.info/srt#T-42300 //"Aortic Arch" 
 
 * http://snomed.info/sct#13383001 //"Apex of heart" 
-* http://snomed.info/srt#T-32004 //"Apex of heart" 
 
 * http://snomed.info/sct#28700002 //"Carina" 
-* http://snomed.info/srt#T-25201 //"Carina" 
 
 * http://snomed.info/sct#264293000 //"Coronary artery graft" 
-* http://snomed.info/srt#T-41065 //"Coronary artery graft" 
 
 * http://snomed.info/sct#5798000 //"Diaphragm" 
-* http://snomed.info/srt#T-D3400 //"Diaphragm" 
 
 * http://snomed.info/sct#80891009 //"Heart" 
-* http://snomed.info/srt#T-32000 //"Heart" 
 
 * http://snomed.info/sct#39607008 //"Lung" 
-* http://snomed.info/srt#T-28000 //"Lung" 
 
 * http://snomed.info/sct#79601000 //"Scapula" 
-* http://snomed.info/srt#T-12280 //"Scapula" 
 
 * http://snomed.info/sct#16982005 //"Shoulder region structure" 
-* http://snomed.info/srt#T-D2220 //"Shoulder region structure" 
 
 * http://snomed.info/sct#7844006 //"Sternoclavicular Joint" 
-* http://snomed.info/srt#T-15610 //"Sternoclavicular Joint" 
 
 * http://snomed.info/sct#56873002 //"Sternum" 
-* http://snomed.info/srt#T-11210 //"Sternum" 
 
 * http://snomed.info/sct#26493002 //"Suprasternal Notch" 
-* http://snomed.info/srt#T-11218 //"Suprasternal Notch" 
 
 * http://snomed.info/sct#42973007 //"Thoracic Inlet" 
-* http://snomed.info/srt#T-D3160 //"Thoracic Inlet" 
 
 * http://snomed.info/sct#20298003 //"Xiphoid Process" 
-* http://snomed.info/srt#T-11227 //"Xiphoid Process" 
 

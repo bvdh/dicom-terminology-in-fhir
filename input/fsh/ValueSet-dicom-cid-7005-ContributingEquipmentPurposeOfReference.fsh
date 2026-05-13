@@ -3,6 +3,8 @@ Id          : dicom-cid-7005-ContributingEquipmentPurposeOfReference
 Description :
 """
 Contributing Equipment Purpose of Reference
+
+The content in this ValueSet is based on [CID 7005](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7005.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.486"

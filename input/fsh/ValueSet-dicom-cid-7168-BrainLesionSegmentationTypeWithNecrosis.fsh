@@ -3,6 +3,8 @@ Id          : dicom-cid-7168-BrainLesionSegmentationTypeWithNecrosis
 Description :
 """
 The same concept for non-enhancing tumor is used in this Context Group and when included insect_CID_7169 sect_CID_7169
+
+The content in this ValueSet is based on [CID 7168](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7168.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1280"
@@ -13,5 +15,4 @@ The same concept for non-enhancing tumor is used in this Context Group and when 
 * include codes from valueset CID_7169
 
 * http://snomed.info/sct#6574001 //"Necrosis" 
-* http://snomed.info/srt#M-54000 //"Necrosis" 
 

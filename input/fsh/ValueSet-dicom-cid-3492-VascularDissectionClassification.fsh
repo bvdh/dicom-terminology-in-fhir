@@ -3,6 +3,8 @@ Id          : dicom-cid-3492-VascularDissectionClassification
 Description :
 """
 Vascular Dissection Classification
+
+The content in this ValueSet is based on [CID 3492](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3492.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.126"
@@ -17,7 +19,6 @@ Vascular Dissection Classification
 * DICOM_DCM_CodeSystem#122397 //"Adventitial Dissection" 
 
 * http://snomed.info/sct#54493002 //"Intramural hematoma" 
-* http://snomed.info/srt#M-35063 //"Intramural hematoma" 
 
 * DICOM_DCM_CodeSystem#122388 //"Intra-stent Dissection" 
 

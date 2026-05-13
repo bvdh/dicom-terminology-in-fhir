@@ -3,6 +3,8 @@ Id          : dicom-cid-12266-CardiacUltrasoundMitralValveMeasurement
 Description :
 """
 Cardiac Ultrasound Mitral Valve Measurement
+
+The content in this ValueSet is based on [CID 12266](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12266.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.847"

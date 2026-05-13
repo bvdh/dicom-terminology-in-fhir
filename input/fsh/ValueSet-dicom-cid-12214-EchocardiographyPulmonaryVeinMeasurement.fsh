@@ -3,6 +3,8 @@ Id          : dicom-cid-12214-EchocardiographyPulmonaryVeinMeasurement
 Description :
 """
 Echocardiography Pulmonary Vein Measurement
+
+The content in this ValueSet is based on [CID 12214](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12214.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.606"
@@ -21,11 +23,8 @@ Echocardiography Pulmonary Vein Measurement
 * http://loinc.org#29453-8 //"Pulmonary Vein Atrial Contraction Reversal Peak Velocity" 
 
 * http://snomed.info/sct#399070007 //"Pulmonary Vein A-Wave Duration" 
-* http://snomed.info/srt#G-038B //"Pulmonary Vein A-Wave Duration" 
 
 * http://snomed.info/sct#399039004 //"Pulmonary Vein D-Wave Velocity Time Integral" 
-* http://snomed.info/srt#G-038D //"Pulmonary Vein D-Wave Velocity Time Integral" 
 
 * http://snomed.info/sct#399267001 //"Pulmonary Vein S-Wave Velocity Time Integral" 
-* http://snomed.info/srt#G-038C //"Pulmonary Vein S-Wave Velocity Time Integral" 
 

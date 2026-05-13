@@ -3,6 +3,8 @@ Id          : dicom-cid-6140-CalculationMethod
 Description :
 """
 Calculation Method
+
+The content in this ValueSet is based on [CID 6140](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6140.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.460"
@@ -11,7 +13,6 @@ Calculation Method
 * ^name = "CalculationMethod"
 * ^experimental = false
 * http://snomed.info/sct#414135002 //"Estimated" 
-* http://snomed.info/srt#R-10260 //"Estimated" 
 
 * DICOM_DCM_CodeSystem#112187 //"Unspecified method of calculation" 
 

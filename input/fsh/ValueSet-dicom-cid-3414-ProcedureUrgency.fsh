@@ -3,6 +3,8 @@ Id          : dicom-cid-3414-ProcedureUrgency
 Description :
 """
 Procedure Urgency
+
+The content in this ValueSet is based on [CID 3414](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3414.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.79"
@@ -11,14 +13,10 @@ Procedure Urgency
 * ^name = "ProcedureUrgency"
 * ^experimental = false
 * http://snomed.info/sct#103390000 //"Elective Procedure" 
-* http://snomed.info/srt#G-D210 //"Elective Procedure" 
 
 * http://snomed.info/sct#103391001 //"Urgent Procedure" 
-* http://snomed.info/srt#G-D216 //"Urgent Procedure" 
 
 * http://snomed.info/sct#25876001 //"Emergent Procedure" 
-* http://snomed.info/srt#G-D209 //"Emergent Procedure" 
 
 * http://snomed.info/sct#257950002 //"Salvage Procedure" 
-* http://snomed.info/srt#R-41C8D //"Salvage Procedure" 
 

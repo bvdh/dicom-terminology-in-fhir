@@ -3,6 +3,8 @@ Id          : dicom-cid-4237-LensConstantType
 Description :
 """
 Lens Constant Type
+
+The content in this ValueSet is based on [CID 4237](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4237.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.883"
@@ -11,7 +13,6 @@ Lens Constant Type
 * ^name = "LensConstantType"
 * ^experimental = false
 * http://snomed.info/sct#397263007 //"A-Constant" 
-* http://snomed.info/srt#F-048FA //"A-Constant" 
 
 * DICOM_DCM_CodeSystem#111768 //"ACD Constant" 
 

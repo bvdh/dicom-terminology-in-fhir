@@ -3,6 +3,8 @@ Id          : dicom-cid-3045-WaveformFilterLookupTableOutputMagnitudeUnit
 Description :
 """
 Waveform Filter Lookup Table Output Magnitude Unit
+
+The content in this ValueSet is based on [CID 3045](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3045.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1456"

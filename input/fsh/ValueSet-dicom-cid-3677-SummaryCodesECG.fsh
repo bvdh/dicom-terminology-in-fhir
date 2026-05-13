@@ -3,6 +3,8 @@ Id          : dicom-cid-3677-SummaryCodesECG
 Description :
 """
 A prior version of this Context Group used codes from the SCP-ECG vocabulary.
+
+The content in this ValueSet is based on [CID 3677](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3677.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.191"
@@ -11,16 +13,12 @@ A prior version of this Context Group used codes from the SCP-ECG vocabulary.
 * ^name = "SummaryCodesECG"
 * ^experimental = false
 * http://snomed.info/sct#164854000 //"Normal ECG" 
-* http://snomed.info/srt#F-000B7 //"Normal ECG" 
 
 * http://snomed.info/sct#102594003 //"Abnormal ECG" 
-* http://snomed.info/srt#F-38002 //"Abnormal ECG" 
 
 * http://snomed.info/sct#251135002 //"Borderline Normal ECG" 
-* http://snomed.info/srt#F-38056 //"Borderline Normal ECG" 
 
 * http://snomed.info/sct#370359005 //"ECG Equivocal" 
-* http://snomed.info/srt#F-38095 //"ECG Equivocal" 
 
 * DICOM_DCM_CodeSystem#122753 //"Non-diagnostic ECG" 
 

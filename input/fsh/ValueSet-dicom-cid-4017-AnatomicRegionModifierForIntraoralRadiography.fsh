@@ -3,6 +3,8 @@ Id          : dicom-cid-4017-AnatomicRegionModifierForIntraoralRadiography
 Description :
 """
 In a prior version of this table, SNOMED codes T-51005 through T-5100C were specified for various concepts. The use of these codes conflicts with their assignment to other concepts in SNOMED, and the set of concepts has been replaced. Also, SNOMED code T-5100D was specified for an Occlusal view; this code does not exist in SNOMED, and the concept is more properly considered as a view rather than an anatomic region, hence has been moved to CID 4010, and assigned the correct SNOMED code R-40810. Although there is minimal possibility of misinterpretation with SOP Instances that may include the deprecated use, receiving applications should be aware of this change; the deprecated codes are included inchapter_J
+
+The content in this ValueSet is based on [CID 4017](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4017.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.301"
@@ -11,26 +13,18 @@ In a prior version of this table, SNOMED codes T-51005 through T-5100C were spec
 * ^name = "AnatomicRegionModifierForIntraoralRadiography"
 * ^experimental = false
 * http://snomed.info/sct#699453001 //"Central incisor region" 
-* http://snomed.info/srt#R-FB322 //"Central incisor region" 
 
 * http://snomed.info/sct#699511000 //"Lateral incisor region" 
-* http://snomed.info/srt#R-FB35C //"Lateral incisor region" 
 
 * http://snomed.info/sct#699510004 //"Canine region" 
-* http://snomed.info/srt#R-FB35B //"Canine region" 
 
 * http://snomed.info/sct#699509009 //"First premolar region" 
-* http://snomed.info/srt#R-FB35A //"First premolar region" 
 
 * http://snomed.info/sct#699508001 //"Second premolar region" 
-* http://snomed.info/srt#R-FB359 //"Second premolar region" 
 
 * http://snomed.info/sct#699507006 //"First molar region" 
-* http://snomed.info/srt#R-FB358 //"First molar region" 
 
 * http://snomed.info/sct#699505003 //"Second molar region" 
-* http://snomed.info/srt#R-FB356 //"Second molar region" 
 
 * http://snomed.info/sct#699503005 //"Third molar region" 
-* http://snomed.info/srt#R-FB354 //"Third molar region" 
 

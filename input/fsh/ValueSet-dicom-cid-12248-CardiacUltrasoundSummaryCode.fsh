@@ -3,6 +3,8 @@ Id          : dicom-cid-12248-CardiacUltrasoundSummaryCode
 Description :
 """
 Cardiac Ultrasound Summary Code
+
+The content in this ValueSet is based on [CID 12248](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12248.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.829"
@@ -11,83 +13,56 @@ Cardiac Ultrasound Summary Code
 * ^name = "CardiacUltrasoundSummaryCode"
 * ^experimental = false
 * http://snomed.info/sct#18546004 //"Congenital stenosis of aortic valve" 
-* http://snomed.info/srt#D4-31810 //"Congenital stenosis of aortic valve" 
 
 * http://snomed.info/sct#70142008 //"Atrial Septal Defect" 
-* http://snomed.info/srt#D4-31220 //"Atrial Septal Defect" 
 
 * http://snomed.info/sct#60234000 //"Aortic regurgitation" 
-* http://snomed.info/srt#D3-29022 //"Aortic regurgitation" 
 
 * http://snomed.info/sct#60573004 //"Aortic stenosis" 
-* http://snomed.info/srt#D3-29021 //"Aortic stenosis" 
 
 * http://snomed.info/sct#287272002 //"Cardiomegaly" 
-* http://snomed.info/srt#D3-10008 //"Cardiomegaly" 
 
 * http://snomed.info/sct#7305005 //"Coarctation of the Aorta" 
-* http://snomed.info/srt#D4-32014 //"Coarctation of the Aorta" 
 
 * http://snomed.info/sct#360481003 //"Common atrioventricular canal" 
-* http://snomed.info/srt#D4-31303 //"Common atrioventricular canal" 
 
 * http://snomed.info/sct#26146002 //"Complete transposition of great vessels" 
-* http://snomed.info/srt#D4-31010 //"Complete transposition of great vessels" 
 
 * http://snomed.info/sct#3415004 //"Cyanosis" 
-* http://snomed.info/srt#M-04100 //"Cyanosis" 
 
 * http://snomed.info/sct#27637000 //"Dextrocardia" 
-* http://snomed.info/srt#D4-31B16 //"Dextrocardia" 
 
 * http://snomed.info/sct#218728005 //"Interrupted Aortic Arch" 
-* http://snomed.info/srt#D3-83001 //"Interrupted Aortic Arch" 
 
 * http://snomed.info/sct#16567006 //"Mesocardia" 
-* http://snomed.info/srt#D4-31B24 //"Mesocardia" 
 
 * http://snomed.info/sct#75053002 //"Acute febrile mucocutaneous lymph node syndrome" 
-* http://snomed.info/srt#D3-81660 //"Acute febrile mucocutaneous lymph node syndrome" 
 
 * http://snomed.info/sct#409712001 //"Mitral valve prolapse" 
-* http://snomed.info/srt#D3-1081C //"Mitral valve prolapse" 
 
 * http://snomed.info/sct#48724000 //"Mitral regurgitation" 
-* http://snomed.info/srt#D3-29012 //"Mitral regurgitation" 
 
 * http://snomed.info/sct#79619009 //"Mitral stenosis" 
-* http://snomed.info/srt#D3-29011 //"Mitral stenosis" 
 
 * http://snomed.info/sct#68237008 //"Partial anomalous pulmonary venous connection" 
-* http://snomed.info/srt#D4-33622 //"Partial anomalous pulmonary venous connection" 
 
 * http://snomed.info/sct#60732002 //"Atrial septal defect with endocardial cushion defect, partial" 
-* http://snomed.info/srt#D4-31310 //"Atrial septal defect with endocardial cushion defect, partial" 
 
 * http://snomed.info/sct#56786000 //"Pulmonic valve stenosis" 
-* http://snomed.info/srt#D3-29051 //"Pulmonic valve stenosis" 
 
 * http://snomed.info/sct#58718002 //"Rheumatic Fever" 
-* http://snomed.info/srt#D3-17100 //"Rheumatic Fever" 
 
 * http://snomed.info/sct#86299006 //"Tetralogy of Fallot" 
-* http://snomed.info/srt#D4-31110 //"Tetralogy of Fallot" 
 
 * http://snomed.info/sct#30288003 //"Ventricular Septal Defect" 
-* http://snomed.info/srt#D4-31150 //"Ventricular Septal Defect" 
 
 * http://snomed.info/sct#83799000 //"Corrected transposition of great vessels" 
-* http://snomed.info/srt#D4-31040 //"Corrected transposition of great vessels" 
 
 * http://snomed.info/sct#253590009 //"Pulmonary atresia with intact ventricular septum" 
-* http://snomed.info/srt#D3-29082 //"Pulmonary atresia with intact ventricular septum" 
 
 * http://snomed.info/sct#253591008 //"Pulmonary atresia with ventricular septal defect" 
-* http://snomed.info/srt#D4-31611 //"Pulmonary atresia with ventricular septal defect" 
 
 * http://snomed.info/sct#62067003 //"Hypoplastic left heart syndrome" 
-* http://snomed.info/srt#D4-31A00 //"Hypoplastic left heart syndrome" 
 
 * http://snomed.info/sct#443379009 //"Functional Single Ventricle" 
-* http://snomed.info/srt#D4-31125 //"Functional Single Ventricle" 
 

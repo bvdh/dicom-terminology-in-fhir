@@ -3,6 +3,8 @@ Id          : dicom-cid-6052-BreastImagingReportSectionTitle
 Description :
 """
 Breast Imaging Report Section Title
+
+The content in this ValueSet is based on [CID 6052](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6052.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.381"
@@ -25,7 +27,6 @@ Breast Imaging Report Section Title
 * http://loinc.org#55107-7 //"Addendum" 
 
 * http://snomed.info/sct#129715009 //"Breast composition" 
-* http://snomed.info/srt#F-01710 //"Breast composition" 
 
 * DICOM_DCM_CodeSystem#111413 //"Overall Assessment" 
 

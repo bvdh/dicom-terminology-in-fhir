@@ -3,6 +3,8 @@ Id          : dicom-cid-4274-EnFaceProcessingAlgorithmFamily
 Description :
 """
 En Face Processing Algorithm Family
+
+The content in this ValueSet is based on [CID 4274](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4274.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1496"

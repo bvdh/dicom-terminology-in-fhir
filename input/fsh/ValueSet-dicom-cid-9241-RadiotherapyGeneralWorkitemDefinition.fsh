@@ -3,6 +3,8 @@ Id          : dicom-cid-9241-RadiotherapyGeneralWorkitemDefinition
 Description :
 """
 Radiotherapy General Workitem Definition
+
+The content in this ValueSet is based on [CID 9241](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9241.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.931"

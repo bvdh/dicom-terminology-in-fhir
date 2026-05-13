@@ -3,6 +3,8 @@ Id          : dicom-cid-4285-MacularThicknessKeyMeasurements
 Description :
 """
 The Macular grid measurement concepts, based on the ETDRS grid, are included in LOINC panel57115-8 PS3.17 UU.5 En Face Measurements
+
+The content in this ValueSet is based on [CID 4285](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4285.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1538"

@@ -3,6 +3,8 @@ Id          : dicom-cid-10074-RDSRFrameOfReferenceOrigin
 Description :
 """
 RDSR Frame of Reference Origin
+
+The content in this ValueSet is based on [CID 10074](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_10074.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1364"

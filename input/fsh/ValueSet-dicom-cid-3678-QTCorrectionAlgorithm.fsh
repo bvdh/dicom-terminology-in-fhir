@@ -3,6 +3,8 @@ Id          : dicom-cid-3678-QTCorrectionAlgorithm
 Description :
 """
 A prior version of this Context Group used codes from the SCP-ECG vocabulary.
+
+The content in this ValueSet is based on [CID 3678](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3678.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.192"

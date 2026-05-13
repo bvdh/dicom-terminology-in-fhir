@@ -3,6 +3,8 @@ Id          : dicom-cid-12015-FetalGrowthEquationTable
 Description :
 """
 Fetal Growth Equation/Table
+
+The content in this ValueSet is based on [CID 12015](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12015.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.563"

@@ -5,6 +5,8 @@ Description :
 
  1 (241615005, SCT, 'MRI of breast') (30794-2, LN, 'breast mr')
  2 (46342-2, LN, 'breast ffd mammogram') (111409, DCM, 'Digital Mammography')
+
+The content in this ValueSet is based on [CID 6050](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6050.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.379"
@@ -15,55 +17,40 @@ Description :
 * DICOM_DCM_CodeSystem#111408 //"Film Screen Mammography" 
 
 * http://snomed.info/sct#47079000 //"Ultrasonography of breast" 
-* http://snomed.info/srt#P5-B8500 //"Ultrasonography of breast" 
 
 * http://snomed.info/sct#241615005 //"MRI of breast" 
-* http://snomed.info/srt#P5-0900D //"MRI of breast" 
 
 * http://snomed.info/sct#237380007 //"Pre-biopsy localization of breast lesion" 
-* http://snomed.info/srt#P1-48011 //"Pre-biopsy localization of breast lesion" 
 
 * http://snomed.info/sct#387736007 //"Fine needle aspiration of breast" 
-* http://snomed.info/srt#P1-48145 //"Fine needle aspiration of breast" 
 
 * http://snomed.info/sct#287572003 //"Diagnostic aspiration of breast cyst" 
-* http://snomed.info/srt#P1-48142 //"Diagnostic aspiration of breast cyst" 
 
 * http://snomed.info/sct#44578009 //"Core needle biopsy of breast" 
-* http://snomed.info/srt#P1-48304 //"Core needle biopsy of breast" 
 
 * http://snomed.info/sct#274331003 //"Breast - surgical biopsy" 
-* http://snomed.info/srt#P1-4830F //"Breast - surgical biopsy" 
 
 * http://snomed.info/sct#18102001 //"Mammary ductogram" 
-* http://snomed.info/srt#P5-40060 //"Mammary ductogram" 
 
 * http://snomed.info/sct#241539009 //"CT of breast" 
-* http://snomed.info/srt#P5-0801C //"CT of breast" 
 
 * http://snomed.info/sct#66377006 //"Radionuclide localization of tumor, limited area" 
-* http://snomed.info/srt#P5-D0042 //"Radionuclide localization of tumor, limited area" 
 
 * http://snomed.info/sct#80865008 //"Specimen radiography of breast" 
-* http://snomed.info/srt#P5-40030 //"Specimen radiography of breast" 
 
 * http://snomed.info/sct#46662001 //"Examination of breast" 
-* http://snomed.info/srt#P2-4A000 //"Examination of breast" 
 
 * DICOM_DCM_CodeSystem#111410 //"Surgical consult" 
 
 * DICOM_DCM_CodeSystem#111411 //"Mammography CAD" 
 
 * http://snomed.info/sct#396487001 //"Sentinel lymph node biopsy" 
-* http://snomed.info/srt#P1-65359 //"Sentinel lymph node biopsy" 
 
 * http://snomed.info/sct#169167001 //"Radioisotope scan of lymphatic system" 
-* http://snomed.info/srt#P5-D0061 //"Radioisotope scan of lymphatic system" 
 
 * DICOM_DCM_CodeSystem#111123 //"Marker placement" 
 
 * http://snomed.info/sct#45211000 //"Insertion of catheter" 
-* http://snomed.info/srt#P1-05535 //"Insertion of catheter" 
 
 * http://loinc.org#36626-0 //"breast - bilateral mammogram" 
 

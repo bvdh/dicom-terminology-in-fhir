@@ -3,6 +3,8 @@ Id          : dicom-cid-6029-RecommendedFollowupFromBIRADS
 Description :
 """
 From BI-RADS
+
+The content in this ValueSet is based on [CID 6029](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6029.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.359"
@@ -13,20 +15,16 @@ From BI-RADS
 * DICOM_DCM_CodeSystem#111135 //"Additional projections" 
 
 * http://snomed.info/sct#399163009 //"Magnification views" 
-* http://snomed.info/srt#R-102D6 //"Magnification views" 
 
 * http://snomed.info/sct#399055006 //"Spot compression" 
-* http://snomed.info/srt#R-102D7 //"Spot compression" 
 
 * DICOM_DCM_CodeSystem#111136 //"Spot magnification view(s)" 
 
 * http://snomed.info/sct#16310003 //"Diagnostic ultrasonography" 
-* http://snomed.info/srt#P5-B0000 //"Diagnostic ultrasonography" 
 
 * DICOM_DCM_CodeSystem#111138 //"Old films for comparison" 
 
 * http://snomed.info/sct#18102001 //"Mammary ductogram" 
-* http://snomed.info/srt#P5-40060 //"Mammary ductogram" 
 
 * DICOM_DCM_CodeSystem#111140 //"Normal interval follow-up" 
 
@@ -51,5 +49,4 @@ From BI-RADS
 * DICOM_DCM_CodeSystem#111122 //"Known biopsy proven malignancy - take appropriate action" 
 
 * http://snomed.info/sct#241615005 //"MRI of breast" 
-* http://snomed.info/srt#P5-0900D //"MRI of breast" 
 

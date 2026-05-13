@@ -3,6 +3,8 @@ Id          : dicom-cid-6112-PleuraAnatomyFindingOrFeature
 Description :
 """
 Original source of terms is [Fraser and Pare].
+
+The content in this ValueSet is based on [CID 6112](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6112.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.432"
@@ -13,7 +15,6 @@ Original source of terms is [Fraser and Pare].
 * DICOM_DCM_CodeSystem#112088 //"Anterior junction line" 
 
 * http://snomed.info/sct#278983006 //"Fissure of lung" 
-* http://snomed.info/srt#T-D051D //"Fissure of lung" 
 
 * DICOM_DCM_CodeSystem#112089 //"Posterior junction line" 
 

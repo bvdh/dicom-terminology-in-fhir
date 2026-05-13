@@ -3,6 +3,8 @@ Id          : dicom-cid-6105-AbnormalLucencyFindingOrFeature
 Description :
 """
 Original source of terms is [Fraser and Pare].
+
+The content in this ValueSet is based on [CID 6105](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6105.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.425"
@@ -17,13 +19,10 @@ Original source of terms is [Fraser and Pare].
 * DICOM_DCM_CodeSystem#112072 //"Air crescent" 
 
 * http://snomed.info/sct#76171001 //"Air-trapping" 
-* http://snomed.info/srt#F-20240 //"Air-trapping" 
 
 * DICOM_DCM_CodeSystem#112073 //"Halo sign" 
 
 * http://snomed.info/sct#16838000 //"Pneumomediastinum" 
-* http://snomed.info/srt#D2-81180 //"Pneumomediastinum" 
 
 * http://snomed.info/sct#36118008 //"Pneumothorax" 
-* http://snomed.info/srt#D2-80300 //"Pneumothorax" 
 

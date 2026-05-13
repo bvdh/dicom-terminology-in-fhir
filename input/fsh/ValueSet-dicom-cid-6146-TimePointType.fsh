@@ -6,6 +6,8 @@ Description :
  1 (C1442488, UMLS, 'Baseline') (C25213, NCIt, 'Baseline') (121079, DCM, 'Baseline')
  2 (C3539075, UMLS, 'Pretreatment') (C103341, NCIt, 'Pretreatment')
  3 (C1708760, UMLS, 'Nadir') (C43517, NCIt, 'Nadir')
+
+The content in this ValueSet is based on [CID 6146](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6146.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1002"
@@ -26,19 +28,14 @@ Description :
 * http://terminology.hl7.org/CodeSystem/umls#C1708760 //"Nadir" 
 
 * http://snomed.info/sct#262068006 //"Pre-operative" 
-* http://snomed.info/srt#R-413C5 //"Pre-operative" 
 
 * http://snomed.info/sct#262061000 //"Post-operative" 
-* http://snomed.info/srt#R-413B7 //"Post-operative" 
 
 * http://snomed.info/sct#264908009 //"Post-radiation" 
-* http://snomed.info/srt#R-424A6 //"Post-radiation" 
 
 * http://snomed.info/sct#262502001 //"Post-chemotherapy" 
-* http://snomed.info/srt#R-41AEA //"Post-chemotherapy" 
 
 * http://snomed.info/sct#1345242003 //"Maintenance antineoplastic therapy" 
 
 * http://snomed.info/sct#25173007 //"Recurrence of tumor" 
-* http://snomed.info/srt#G-F517 //"Recurrence of tumor" 
 

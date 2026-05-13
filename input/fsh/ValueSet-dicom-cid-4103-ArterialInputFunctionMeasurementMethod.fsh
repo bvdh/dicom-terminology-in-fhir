@@ -3,6 +3,8 @@ Id          : dicom-cid-4103-ArterialInputFunctionMeasurementMethod
 Description :
 """
 The anatomic location relevant to the application of any AIF method is not pre-coordinated in concepts in this Context Group. Typically these would be described by the Finding Site of any related measurements in the appropriate Template.
+
+The content in this ValueSet is based on [CID 4103](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4103.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.988"

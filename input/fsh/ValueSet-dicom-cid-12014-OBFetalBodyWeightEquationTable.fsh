@@ -3,6 +3,8 @@ Id          : dicom-cid-12014-OBFetalBodyWeightEquationTable
 Description :
 """
 OB Fetal Body Weight Equation/Table
+
+The content in this ValueSet is based on [CID 12014](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12014.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.562"

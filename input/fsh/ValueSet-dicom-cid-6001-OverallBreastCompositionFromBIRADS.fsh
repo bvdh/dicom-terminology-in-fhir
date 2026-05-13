@@ -3,6 +3,8 @@ Id          : dicom-cid-6001-OverallBreastCompositionFromBIRADS
 Description :
 """
 From BI-RADS Third Edition (National Mammography Database, E77)
+
+The content in this ValueSet is based on [CID 6001](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6001.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.331"
@@ -11,14 +13,10 @@ From BI-RADS Third Edition (National Mammography Database, E77)
 * ^name = "OverallBreastCompositionFromBIRADS"
 * ^experimental = false
 * http://snomed.info/sct#129716005 //"Almost entirely fat" 
-* http://snomed.info/srt#F-01711 //"Almost entirely fat" 
 
 * http://snomed.info/sct#129717001 //"Scattered fibroglandular densities" 
-* http://snomed.info/srt#F-01712 //"Scattered fibroglandular densities" 
 
 * http://snomed.info/sct#129718006 //"Heterogeneously dense" 
-* http://snomed.info/srt#F-01713 //"Heterogeneously dense" 
 
 * http://snomed.info/sct#129719003 //"Extremely dense" 
-* http://snomed.info/srt#F-01714 //"Extremely dense" 
 

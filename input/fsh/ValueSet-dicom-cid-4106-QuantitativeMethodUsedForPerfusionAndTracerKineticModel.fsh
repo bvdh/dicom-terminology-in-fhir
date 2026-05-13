@@ -4,6 +4,8 @@ Description :
 """
 
  1 Concepts from this Context Group may be used in measurement Templates to describe the measurement method of measurement on an ROI. E.g., NUM(126312, DCM, 'Ktrans') (370129005, SCT, 'Measurement Method') (126341, DCM, 'Extended Tofts Model')
+
+The content in this ValueSet is based on [CID 4106](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4106.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.991"

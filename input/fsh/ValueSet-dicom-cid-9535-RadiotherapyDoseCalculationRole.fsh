@@ -3,6 +3,8 @@ Id          : dicom-cid-9535-RadiotherapyDoseCalculationRole
 Description :
 """
 Radiotherapy Dose Calculation Role
+
+The content in this ValueSet is based on [CID 9535](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9535.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1245"

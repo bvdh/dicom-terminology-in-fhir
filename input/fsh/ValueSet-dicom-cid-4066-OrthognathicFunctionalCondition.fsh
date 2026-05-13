@@ -3,6 +3,8 @@ Id          : dicom-cid-4066-OrthognathicFunctionalCondition
 Description :
 """
 Orthognathic Functional Condition
+
+The content in this ValueSet is based on [CID 4066](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4066.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1506"
@@ -19,8 +21,6 @@ Orthognathic Functional Condition
 * http://snomed.info/sct#1336029003 //"Upper and lower lips in closed position" 
 
 * http://snomed.info/sct#225583004 //"Smiles" 
-* http://snomed.info/srt#F-A08FC //"Smiles" 
 
 * http://snomed.info/sct#262016004 //"Open mouth" 
-* http://snomed.info/srt#R-4136A //"Open mouth" 
 

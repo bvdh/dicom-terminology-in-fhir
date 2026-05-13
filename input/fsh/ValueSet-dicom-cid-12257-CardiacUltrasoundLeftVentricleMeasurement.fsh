@@ -3,6 +3,8 @@ Id          : dicom-cid-12257-CardiacUltrasoundLeftVentricleMeasurement
 Description :
 """
 Cardiac Ultrasound Left Ventricle Measurement
+
+The content in this ValueSet is based on [CID 12257](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12257.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.838"
@@ -27,12 +29,10 @@ Cardiac Ultrasound Left Ventricle Measurement
 * include codes from valueset CID_12255
 
 * http://snomed.info/sct#118565006 //"Volume" 
-* http://snomed.info/srt#G-D705 //"Volume" 
 
 * http://loinc.org#18155-2 //"Interventricular Septum to Posterior Wall Thickness Ratio" 
 
 * http://snomed.info/sct#399140004 //"Ratio of MV Peak Velocity to LV Peak Tissue Velocity E-Wave" 
-* http://snomed.info/srt#G-037B //"Ratio of MV Peak Velocity to LV Peak Tissue Velocity E-Wave" 
 
 * http://loinc.org#59097-6 //"Left Ventricle Meridional Wall Stress" 
 

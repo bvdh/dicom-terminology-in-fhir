@@ -3,6 +3,8 @@ Id          : dicom-cid-7453-PerformingRole
 Description :
 """
 Performing Role
+
+The content in this ValueSet is based on [CID 7453](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7453.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.517"
@@ -23,7 +25,6 @@ Performing Role
 * DICOM_DCM_CodeSystem#121099 //"Assisting" 
 
 * http://snomed.info/sct#413854007 //"Circulating Nurse" 
-* http://snomed.info/srt#J-0714B //"Circulating Nurse" 
 
 * DICOM_DCM_CodeSystem#121101 //"Standby" 
 

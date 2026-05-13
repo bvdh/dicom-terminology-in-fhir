@@ -3,6 +3,8 @@ Id          : dicom-cid-12300-CoreEchoMeasurement
 Description :
 """
 The Code Meaning shown here reflects the colloquial style by which the measurements were identified in the ASE articles and would likely be appropriate for displaying to users. However, implementers of clinical applications and databases will need to review the definitions of these measurements to correctly understand the full pre-coordinated semantics of the codes. Similarly, reuse of the codes based on the Code Meaning text without reviewing and confirming the applicability of the full semantics found in the code definitions is discouraged.
+
+The content in this ValueSet is based on [CID 12300](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12300.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1149"

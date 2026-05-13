@@ -3,6 +3,8 @@ Id          : dicom-cid-3110-NuclearCardiologyProtocol
 Description :
 """
 Nuclear Cardiology Protocol
+
+The content in this ValueSet is based on [CID 3110](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3110.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.742"
@@ -11,7 +13,6 @@ Nuclear Cardiology Protocol
 * ^name = "NuclearCardiologyProtocol"
 * ^experimental = false
 * http://snomed.info/sct#431511008 //"Stress thallium procedure" 
-* http://snomed.info/srt#P5-D300B //"Stress thallium procedure" 
 
 * DICOM_DCM_CodeSystem#122781 //"Rest thallium/stress technetium procedure" 
 

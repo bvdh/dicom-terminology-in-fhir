@@ -54,7 +54,7 @@ extension:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-  hl7.terminology: 6.1.0
+  hl7.terminology: 7.1.0
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:
 #     id: mcode
@@ -77,6 +77,8 @@ pages:
   index.md:
   development.md:
     title: Development & Architecture
+  remaining-issues.md:
+    title: Remaining Issues
 #
 #
 # The parameters property represents IG.definition.parameter. Rather
@@ -104,7 +106,7 @@ menu:
   Home: index.html
   Development: development.html
   Artifacts: artifacts.html
-
+  Remaining Issues: remaining-issues.html
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
 # │  resource. These properties are less commonly needed than those above.                         │

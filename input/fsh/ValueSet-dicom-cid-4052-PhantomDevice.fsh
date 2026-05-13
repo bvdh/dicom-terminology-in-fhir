@@ -3,6 +3,8 @@ Id          : dicom-cid-4052-PhantomDevice
 Description :
 """
 Phantom Device
+
+The content in this ValueSet is based on [CID 4052](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4052.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.315"
@@ -13,7 +15,6 @@ Phantom Device
 * include codes from valueset CID_4053
 
 * http://snomed.info/sct#706342009 //"Phantom" 
-* http://snomed.info/srt#R-FE0C7 //"Phantom" 
 
 * DICOM_DCM_CodeSystem#113682 //"ACR Accreditation Phantom - CT" 
 

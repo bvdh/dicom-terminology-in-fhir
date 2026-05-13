@@ -3,6 +3,8 @@ Id          : dicom-cid-3836-TimeBasedPerfusionMeasurement
 Description :
 """
 Time-based Perfusion Measurement
+
+The content in this ValueSet is based on [CID 3836](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3836.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.286"

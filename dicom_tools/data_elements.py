@@ -166,7 +166,7 @@ def writeDataElementsValueSet( fsh_path:str, source, value_list:List[List[str]],
         
         fsh_file.write('* ^status = #active\n\n')
         fsh_file.write('* ^experimental = false\n\n')
-        fsh_file.write(f'* ^url = "{DICOM_BASE_URL}/resources/ValueSet/{source['name']}"\n')
+        # fsh_file.write(f'* ^url = "{DICOM_BASE_URL}/resources/ValueSet/{source['name']}"\n')
         fsh_file.write(f'* ^version = "{canonicalVersion}"\n')
         
         for value in value_list:

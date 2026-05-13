@@ -3,6 +3,8 @@ Id          : dicom-cid-6053-BreastImagingReportElement
 Description :
 """
 Breast Imaging Report Element
+
+The content in this ValueSet is based on [CID 6053](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6053.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.382"
@@ -23,7 +25,6 @@ Breast Imaging Report Element
 * DICOM_DCM_CodeSystem#121077 //"Conclusion" 
 
 * http://snomed.info/sct#129715009 //"Breast composition" 
-* http://snomed.info/srt#F-01710 //"Breast composition" 
 
 * DICOM_DCM_CodeSystem#111413 //"Overall Assessment" 
 

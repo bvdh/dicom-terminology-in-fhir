@@ -3,6 +3,8 @@ Id          : dicom-cid-6120-ChestBorderDefinition
 Description :
 """
 Original source of terms is [Fraser and Pare].
+
+The content in this ValueSet is based on [CID 6120](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6120.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.440"
@@ -11,12 +13,10 @@ Original source of terms is [Fraser and Pare].
 * ^name = "ChestBorderDefinition"
 * ^experimental = false
 * http://snomed.info/sct#260409000 //"Well defined" 
-* http://snomed.info/srt#R-40771 //"Well defined" 
 
 * DICOM_DCM_CodeSystem#112137 //"Sharply defined" 
 
 * http://snomed.info/sct#300841009 //"Poorly defined" 
-* http://snomed.info/srt#R-428E7 //"Poorly defined" 
 
 * DICOM_DCM_CodeSystem#112138 //"Distinctly defined" 
 
@@ -27,5 +27,4 @@ Original source of terms is [Fraser and Pare].
 * DICOM_DCM_CodeSystem#112141 //"Poorly demarcated" 
 
 * http://snomed.info/sct#263706005 //"Circumscribed" 
-* http://snomed.info/srt#R-4205A //"Circumscribed" 
 

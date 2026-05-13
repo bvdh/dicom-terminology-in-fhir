@@ -3,6 +3,8 @@ Id          : dicom-cid-10002-IrradiationEventType
 Description :
 """
 Irradiation Event Type
+
+The content in this ValueSet is based on [CID 10002](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_10002.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.536"
@@ -11,7 +13,6 @@ Irradiation Event Type
 * ^name = "IrradiationEventType"
 * ^experimental = false
 * http://snomed.info/sct#44491008 //"Fluoroscopy" 
-* http://snomed.info/srt#P5-06000 //"Fluoroscopy" 
 
 * DICOM_DCM_CodeSystem#113611 //"Stationary Acquisition" 
 

@@ -16,10 +16,12 @@ CODESYSTEM_DESCRIPTION = f'{CODESYSTEM_TITLE} extracted from DICOM PS3.16 Table 
 
 
 def strip_markdown_links(text: str) -> str:
-    """Keep bracketed text literal for FSH strings and remove prior escaping."""
+    """Render markdown links as plain text and remove prior bracket escaping."""
     if not text:
         return ''
-    return text.replace(r'\[', '[').replace(r'\]', ']')
+    unescaped_text = text.replace(r'\\[', '[').replace(r'\\]', ']')
+    markdown_link_pattern = r'(?<!`)\[([^\]]+)\]\([^)]+\)(?!`)'
+    return re.sub(markdown_link_pattern, lambda m: m.group(1), unescaped_text)
 
 
 def writeDcmCodeSystem( fsh_path:str, dicom_path:str, canonicalVersion:str ) -> None:
@@ -47,10 +49,12 @@ def writeDcmCodeSystem( fsh_path:str, dicom_path:str, canonicalVersion:str ) -> 
         fsh_file.write('\n')
         fsh_file.write('* ^property[+].code = #keyword\n')
         fsh_file.write('* ^property[=].description = "keyword for the tag"\n')
+        fsh_file.write('* ^property[=].uri = "http://hl7.org/fhir/concept-properties#alternateCode"\n')
         fsh_file.write('* ^property[=].type = #string\n')
         fsh_file.write('\n')
         fsh_file.write('* ^property[+].code = #retired\n')
         fsh_file.write('* ^property[=].description = "Whether the code is retired"\n')
+        fsh_file.write('* ^property[=].uri = "http://hl7.org/fhir/concept-properties#inactive"\n')
         fsh_file.write('* ^property[=].type = #boolean\n')
         fsh_file.write('\n')
         # fsh_file.write(f'* ^url = "{DICOM_BASE_URL}/resources/ontology/DCM"\n')

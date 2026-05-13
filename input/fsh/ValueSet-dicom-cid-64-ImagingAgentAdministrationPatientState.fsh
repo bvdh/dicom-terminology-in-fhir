@@ -3,6 +3,8 @@ Id          : dicom-cid-64-ImagingAgentAdministrationPatientState
 Description :
 """
 Imaging Agent Administration Patient State
+
+The content in this ValueSet is based on [CID 64](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_64.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1254"
@@ -11,7 +13,6 @@ Imaging Agent Administration Patient State
 * ^name = "ImagingAgentAdministrationPatientState"
 * ^experimental = false
 * http://snomed.info/sct#39539005 //"Abnormal Renal Function" 
-* http://snomed.info/srt#F-70102 //"Abnormal Renal Function" 
 
 * DICOM_DCM_CodeSystem#113560 //"Acute unilateral renal blockage" 
 
@@ -22,45 +23,32 @@ Imaging Agent Administration Patient State
 * DICOM_DCM_CodeSystem#113563 //"Severely Jaundiced" 
 
 * http://snomed.info/sct#414417004 //"History of renal failure" 
-* http://snomed.info/srt#R-102B6 //"History of renal failure" 
 
 * http://snomed.info/sct#161445009 //"History of diabetes mellitus" 
-* http://snomed.info/srt#G-023F //"History of diabetes mellitus" 
 
 * http://snomed.info/sct#195967001 //"Asthma" 
-* http://snomed.info/srt#D2-00036 //"Asthma" 
 
 * http://snomed.info/sct#60573004 //"Aortic stenosis" 
-* http://snomed.info/srt#D3-29021 //"Aortic stenosis" 
 
 * http://snomed.info/sct#194828000 //"Angina pectoris" 
-* http://snomed.info/srt#D3-13012 //"Angina pectoris" 
 
 * http://snomed.info/sct#161505003 //"History of congestive heart failure" 
-* http://snomed.info/srt#G-026D //"History of congestive heart failure" 
 
 * http://snomed.info/sct#161501007 //"History of Hypertension" 
-* http://snomed.info/srt#G-0269 //"History of Hypertension" 
 
 * http://snomed.info/sct#70995007 //"Pulmonary hypertension" 
-* http://snomed.info/srt#D3-40300 //"Pulmonary hypertension" 
 
 * http://snomed.info/sct#85898001 //"Cardiomyopathy" 
-* http://snomed.info/srt#D3-20000 //"Cardiomyopathy" 
 
 * http://snomed.info/sct#48694002 //"Anxiety" 
-* http://snomed.info/srt#F-0B320 //"Anxiety" 
 
 * http://snomed.info/sct#35601003 //"Paraproteinemia" 
-* http://snomed.info/srt#M-97651 //"Paraproteinemia" 
 
 * http://snomed.info/sct#1162576007 //"Multiple myeloma" 
 
 * http://snomed.info/sct#440935004 //"History of Beta-blocking agents therapy" 
-* http://snomed.info/srt#P0-099F5 //"History of Beta-blocking agents therapy" 
 
 * http://snomed.info/sct#448216007 //"Malignant epithelial neoplasm of thyroid" 
-* http://snomed.info/srt#DF-00BEA //"Malignant epithelial neoplasm of thyroid" 
 
 * DICOM_DCM_CodeSystem#110503 //"Patient allergic to media/contrast" 
 

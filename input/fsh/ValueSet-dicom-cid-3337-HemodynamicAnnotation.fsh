@@ -3,6 +3,8 @@ Id          : dicom-cid-3337-HemodynamicAnnotation
 Description :
 """
 Hemodynamic Annotation
+
+The content in this ValueSet is based on [CID 3337](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3337.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.63"
@@ -23,13 +25,10 @@ Hemodynamic Annotation
 * DICOM_DCM_CodeSystem#109019 //"Beat detected (rejected)" 
 
 * http://snomed.info/sct#314453003 //"Average diastolic blood pressure" 
-* http://snomed.info/srt#F-00E22 //"Average diastolic blood pressure" 
 
 * http://snomed.info/sct#314451001 //"Minimum diastolic blood pressure" 
-* http://snomed.info/srt#F-00E1F //"Minimum diastolic blood pressure" 
 
 * http://snomed.info/sct#416190007 //"End diastole" 
-* http://snomed.info/srt#R-FAB5C //"End diastole" 
 
 * DICOM_DCM_CodeSystem#109023 //"End of expiration" 
 
@@ -44,7 +43,6 @@ Hemodynamic Annotation
 * DICOM_DCM_CodeSystem#109026 //"Max neg dp/dt" 
 
 * http://snomed.info/sct#6797001 //"Mean blood pressure" 
-* http://snomed.info/srt#F-31150 //"Mean blood pressure" 
 
 * DICOM_DCM_CodeSystem#109028 //"Peak of thermal cardiac output bolus" 
 
@@ -55,10 +53,8 @@ Hemodynamic Annotation
 * DICOM_DCM_CodeSystem#109031 //"Start of thermal CO" 
 
 * http://snomed.info/sct#314440001 //"Average systolic blood pressure" 
-* http://snomed.info/srt#F-00E14 //"Average systolic blood pressure" 
 
 * http://snomed.info/sct#314439003 //"Maximum systolic blood pressure" 
-* http://snomed.info/srt#F-00E11 //"Maximum systolic blood pressure" 
 
 * DICOM_DCM_CodeSystem#109072 //"Tau" 
 

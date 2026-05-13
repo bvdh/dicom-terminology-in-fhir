@@ -3,6 +3,8 @@ Id          : dicom-cid-6104-AbnormalOpacityFindingOrFeature
 Description :
 """
 Original source of terms is [Fraser and Pare].
+
+The content in this ValueSet is based on [CID 6104](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6104.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.424"
@@ -25,7 +27,6 @@ Original source of terms is [Fraser and Pare].
 * DICOM_DCM_CodeSystem#112004 //"Abnormal interstitial pattern" 
 
 * http://snomed.info/sct#308689002 //"Coin lesion" 
-* http://snomed.info/srt#F-20172 //"Coin lesion" 
 
 * DICOM_DCM_CodeSystem#112118 //"Density" 
 
@@ -36,12 +37,10 @@ Original source of terms is [Fraser and Pare].
 * DICOM_DCM_CodeSystem#112121 //"Infiltrate" 
 
 * http://snomed.info/sct#4147007 //"Mass" 
-* http://snomed.info/srt#M-03000 //"Mass" 
 
 * DICOM_DCM_CodeSystem#112122 //"Micronodule" 
 
 * http://snomed.info/sct#27925004 //"Nodule" 
-* http://snomed.info/srt#M-03010 //"Nodule" 
 
 * DICOM_DCM_CodeSystem#112001 //"Opacity" 
 
@@ -56,5 +55,4 @@ Original source of terms is [Fraser and Pare].
 * DICOM_DCM_CodeSystem#112127 //"Tree-in-bud sign" 
 
 * http://snomed.info/sct#59282003 //"Pulmonary embolism" 
-* http://snomed.info/srt#D3-40230 //"Pulmonary embolism" 
 

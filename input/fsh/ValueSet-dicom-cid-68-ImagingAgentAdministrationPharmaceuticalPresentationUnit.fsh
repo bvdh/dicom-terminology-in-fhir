@@ -3,6 +3,8 @@ Id          : dicom-cid-68-ImagingAgentAdministrationPharmaceuticalPresentatio
 Description :
 """
 The concept for syringe (unit of presentation) is used in this Context Group as distinct from syringe (physical object), which is used insect_CID_69
+
+The content in this ValueSet is based on [CID 68](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_68.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1258"
@@ -13,11 +15,8 @@ The concept for syringe (unit of presentation) is used in this Context Group as 
 * http://snomed.info/sct#733020007 //"Syringe" 
 
 * http://snomed.info/sct#706440002 //"Cartridge" 
-* http://snomed.info/srt#R-FEEFF //"Cartridge" 
 
 * http://snomed.info/sct#464557001 //"Parenteral/enteral solution bag" 
-* http://snomed.info/srt#R-FCBB8 //"Parenteral/enteral solution bag" 
 
 * http://snomed.info/sct#68276009 //"Bottle" 
-* http://snomed.info/srt#A-27500 //"Bottle" 
 

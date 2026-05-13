@@ -3,6 +3,8 @@ Id          : dicom-cid-10045-RadiopharmaceuticalPatientState
 Description :
 """
 Radiopharmaceutical Patient State
+
+The content in this ValueSet is based on [CID 10045](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_10045.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.977"
@@ -13,7 +15,6 @@ Radiopharmaceutical Patient State
 * include codes from valueset CID_3102
 
 * http://snomed.info/sct#39539005 //"Abnormal Renal Function" 
-* http://snomed.info/srt#F-70102 //"Abnormal Renal Function" 
 
 * DICOM_DCM_CodeSystem#113560 //"Acute unilateral renal blockage" 
 

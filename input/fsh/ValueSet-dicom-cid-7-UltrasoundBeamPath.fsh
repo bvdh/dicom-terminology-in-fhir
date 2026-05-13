@@ -3,6 +3,8 @@ Id          : dicom-cid-7-UltrasoundBeamPath
 Description :
 """
 Ultrasound Beam Path
+
+The content in this ValueSet is based on [CID 7](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.5"
@@ -11,50 +13,34 @@ Ultrasound Beam Path
 * ^name = "UltrasoundBeamPath"
 * ^experimental = false
 * http://snomed.info/sct#103381007 //"Trans-hepatic" 
-* http://snomed.info/srt#G-D027 //"Trans-hepatic" 
 
 * http://snomed.info/sct#103353001 //"Trans-gastric" 
-* http://snomed.info/srt#G-A1B2 //"Trans-gastric" 
 
 * http://snomed.info/sct#103348006 //"Trans-pleural" 
-* http://snomed.info/srt#G-A1A5 //"Trans-pleural" 
 
 * http://snomed.info/sct#103354007 //"Trans-mural" 
-* http://snomed.info/srt#G-A1B3 //"Trans-mural" 
 
 * http://snomed.info/sct#129226004 //"Trans-orbital" 
-* http://snomed.info/srt#G-D065 //"Trans-orbital" 
 
 * http://snomed.info/sct#103349003 //"Trans-pancreatic" 
-* http://snomed.info/srt#G-A1A6 //"Trans-pancreatic" 
 
 * http://snomed.info/sct#6706003 //"Trans-rectal" 
-* http://snomed.info/srt#G-D028 //"Trans-rectal" 
 
 * http://snomed.info/sct#103347001 //"Trans-renal" 
-* http://snomed.info/srt#G-A1A4 //"Trans-renal" 
 
 * http://snomed.info/sct#103382000 //"Trans-temporal" 
-* http://snomed.info/srt#G-D032 //"Trans-temporal" 
 
 * http://snomed.info/sct#103345009 //"Trans-thecal" 
-* http://snomed.info/srt#G-A1A2 //"Trans-thecal" 
 
 * http://snomed.info/sct#57257006 //"Trans-urethral" 
-* http://snomed.info/srt#G-D003 //"Trans-urethral" 
 
 * http://snomed.info/sct#103344008 //"Trans-vesical" 
-* http://snomed.info/srt#G-A1A1 //"Trans-vesical" 
 
 * http://snomed.info/sct#103346005 //"Trans-splenic" 
-* http://snomed.info/srt#G-A1A3 //"Trans-splenic" 
 
 * http://snomed.info/sct#103383005 //"Trans-esophageal" 
-* http://snomed.info/srt#G-D033 //"Trans-esophageal" 
 
 * http://snomed.info/sct#66739002 //"Trans-abdominal" 
-* http://snomed.info/srt#G-D001 //"Trans-abdominal" 
 
 * http://snomed.info/sct#54300008 //"Trans-vaginal" 
-* http://snomed.info/srt#G-D002 //"Trans-vaginal" 
 

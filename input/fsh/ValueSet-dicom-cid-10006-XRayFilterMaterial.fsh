@@ -3,6 +3,8 @@ Id          : dicom-cid-10006-XRayFilterMaterial
 Description :
 """
 X-Ray Filter Material
+
+The content in this ValueSet is based on [CID 10006](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_10006.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.539"
@@ -11,30 +13,22 @@ X-Ray Filter Material
 * ^name = "XRayFilterMaterial"
 * ^experimental = false
 * http://snomed.info/sct#71128006 //"Molybdenum" 
-* http://snomed.info/srt#C-15000 //"Molybdenum" 
 
 * http://snomed.info/sct#12503006 //"Aluminum" 
-* http://snomed.info/srt#C-12000 //"Aluminum" 
 
 * http://snomed.info/sct#66925006 //"Copper" 
-* http://snomed.info/srt#C-12700 //"Copper" 
 
 * http://snomed.info/sct#59801003 //"Rhodium" 
-* http://snomed.info/srt#C-16700 //"Rhodium" 
 
 * http://snomed.info/sct#767776000 //"Niobium" 
 
 * http://snomed.info/sct#767775001 //"Europium" 
 
 * http://snomed.info/sct#88488004 //"Lead" 
-* http://snomed.info/srt#C-13200 //"Lead" 
 
 * http://snomed.info/sct#45215009 //"Tantalum" 
-* http://snomed.info/srt#C-15600 //"Tantalum" 
 
 * http://snomed.info/sct#41967008 //"Silver" 
-* http://snomed.info/srt#C-13700 //"Silver" 
 
 * http://snomed.info/sct#12597001 //"Tin" 
-* http://snomed.info/srt#C-13900 //"Tin" 
 

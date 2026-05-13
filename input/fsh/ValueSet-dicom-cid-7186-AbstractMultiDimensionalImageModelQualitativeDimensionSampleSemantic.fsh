@@ -3,6 +3,8 @@ Id          : dicom-cid-7186-AbstractMultiDimensionalImageModelQualitativeDime
 Description :
 """
 Abstract Multi-dimensional Image Model Qualitative Dimension Sample Semantic
+
+The content in this ValueSet is based on [CID 7186](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7186.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.923"

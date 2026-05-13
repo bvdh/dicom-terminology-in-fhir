@@ -3,6 +3,8 @@ Id          : dicom-cid-3617-ValveFlow
 Description :
 """
 Valve Flow
+
+The content in this ValueSet is based on [CID 3617](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3617.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.167"
@@ -11,17 +13,12 @@ Valve Flow
 * ^name = "ValveFlow"
 * ^experimental = false
 * http://snomed.info/sct#371845001 //"Aortic Valve Flow" 
-* http://snomed.info/srt#R-002D3 //"Aortic Valve Flow" 
 
 * http://snomed.info/sct#371837006 //"Mitral Valve Flow" 
-* http://snomed.info/srt#R-0032D //"Mitral Valve Flow" 
 
 * http://snomed.info/sct#371846000 //"Pulmonary Valve Flow" 
-* http://snomed.info/srt#R-0035D //"Pulmonary Valve Flow" 
 
 * http://snomed.info/sct#371840006 //"Tricuspid Valve Flow" 
-* http://snomed.info/srt#R-00385 //"Tricuspid Valve Flow" 
 
 * http://snomed.info/sct#371839009 //"Derived Flow, Non-Valve" 
-* http://snomed.info/srt#R-00394 //"Derived Flow, Non-Valve" 
 

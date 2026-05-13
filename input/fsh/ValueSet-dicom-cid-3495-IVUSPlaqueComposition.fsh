@@ -3,6 +3,8 @@ Id          : dicom-cid-3495-IVUSPlaqueComposition
 Description :
 """
 IVUS Plaque Composition
+
+The content in this ValueSet is based on [CID 3495](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3495.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.129"
@@ -11,13 +13,10 @@ IVUS Plaque Composition
 * ^name = "IVUSPlaqueComposition"
 * ^experimental = false
 * http://snomed.info/sct#40772000 //"Fibrous Plaque" 
-* http://snomed.info/srt#M-78260 //"Fibrous Plaque" 
 
 * http://snomed.info/sct#237897009 //"Vascular Calcification" 
-* http://snomed.info/srt#D6-34737 //"Vascular Calcification" 
 
 * http://snomed.info/sct#396339007 //"Thrombus" 
-* http://snomed.info/srt#M-35001 //"Thrombus" 
 
 * DICOM_DCM_CodeSystem#122394 //"Fibro-Lipidic Plaque" 
 

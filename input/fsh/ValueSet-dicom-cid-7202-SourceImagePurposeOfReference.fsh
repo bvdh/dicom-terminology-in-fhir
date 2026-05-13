@@ -3,6 +3,8 @@ Id          : dicom-cid-7202-SourceImagePurposeOfReference
 Description :
 """
 Source Image Purpose of Reference
+
+The content in this ValueSet is based on [CID 7202](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7202.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.509"

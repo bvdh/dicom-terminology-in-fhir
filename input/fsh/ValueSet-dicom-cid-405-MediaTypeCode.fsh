@@ -3,6 +3,8 @@ Id          : dicom-cid-405-MediaTypeCode
 Description :
 """
 Media Type Code
+
+The content in this ValueSet is based on [CID 405](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_405.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.908"

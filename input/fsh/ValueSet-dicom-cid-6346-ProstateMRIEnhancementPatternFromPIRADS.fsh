@@ -3,6 +3,8 @@ Id          : dicom-cid-6346-ProstateMRIEnhancementPatternFromPIRADS
 Description :
 """
 Prostate MRI Enhancement Pattern from PI-RADS
+
+The content in this ValueSet is based on [CID 6346](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6346.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1403"

@@ -3,6 +3,8 @@ Id          : dicom-cid-12312-FetalEchocardiographyImageView
 Description :
 """
 Fetal Echocardiography Image View
+
+The content in this ValueSet is based on [CID 12312](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12312.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1498"
@@ -11,13 +13,10 @@ Fetal Echocardiography Image View
 * ^name = "FetalEchocardiographyImageView"
 * ^experimental = false
 * http://snomed.info/sct#103340004 //"Short axis" 
-* http://snomed.info/srt#G-A186 //"Short axis" 
 
 * http://snomed.info/sct#131185001 //"Vertical Long Axis" 
-* http://snomed.info/srt#G-A18A //"Vertical Long Axis" 
 
 * http://snomed.info/sct#131186000 //"Horizontal Long Axis" 
-* http://snomed.info/srt#G-A18B //"Horizontal Long Axis" 
 
 * DICOM_DCM_CodeSystem#131029 //"Four chamber view" 
 
@@ -34,5 +33,4 @@ Fetal Echocardiography Image View
 * DICOM_DCM_CodeSystem#131028 //"Left ventricular outflow tract view" 
 
 * http://snomed.info/sct#399195005 //"Right Ventricular Outflow Tract View" 
-* http://snomed.info/srt#G-039D //"Right Ventricular Outflow Tract View" 
 

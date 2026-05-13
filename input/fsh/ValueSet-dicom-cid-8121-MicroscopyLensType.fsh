@@ -3,6 +3,8 @@ Id          : dicom-cid-8121-MicroscopyLensType
 Description :
 """
 Microscopy Lens Type
+
+The content in this ValueSet is based on [CID 8121](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_8121.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.898"
@@ -11,11 +13,8 @@ Microscopy Lens Type
 * ^name = "MicroscopyLensType"
 * ^experimental = false
 * http://snomed.info/sct#445621001 //"High power non-immersion lens" 
-* http://snomed.info/srt#A-0011A //"High power non-immersion lens" 
 
 * http://snomed.info/sct#445622008 //"Oil immersion lens" 
-* http://snomed.info/srt#A-0011B //"Oil immersion lens" 
 
 * http://snomed.info/sct#445601002 //"Slide overview lens" 
-* http://snomed.info/srt#A-00118 //"Slide overview lens" 
 

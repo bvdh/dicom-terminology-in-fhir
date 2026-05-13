@@ -5,6 +5,8 @@ Description :
 
  1 (128295, DCM, 'Surface between Inner and Outer Segments of the photoreceptors') (128320, DCM, 'Inner surface of the ellipsoid zone') (128321, DCM, 'Midline of the ellipsoid zone') (128322, DCM, 'Outer surface of the ellipsoid zone')
  2 (128296, DCM, 'Surface of the interdigitation zone between retina and RPE') (128323, DCM, 'Inner surface of the interdigitation zone') (128324, DCM, 'Outer surface of the interdigitation zone')
+
+The content in this ValueSet is based on [CID 4273](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4273.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1153"
@@ -13,7 +15,6 @@ Description :
 * ^name = "RetinalSegmentationSurface"
 * ^experimental = false
 * http://snomed.info/sct#280677004 //"ILM - Internal limiting membrane" 
-* http://snomed.info/srt#T-AA62D //"ILM - Internal limiting membrane" 
 
 * DICOM_DCM_CodeSystem#128289 //"Outer surface of RNFL" 
 
@@ -28,7 +29,6 @@ Description :
 * DICOM_DCM_CodeSystem#128294 //"Outer surface of HFL" 
 
 * http://snomed.info/sct#76710003 //"ELM - External limiting membrane" 
-* http://snomed.info/srt#T-AA650 //"ELM - External limiting membrane" 
 
 * DICOM_DCM_CodeSystem#128297 //"Inner surface of the RPE" 
 
@@ -43,7 +43,6 @@ Description :
 * DICOM_DCM_CodeSystem#128302 //"Outer surface of the CC" 
 
 * http://snomed.info/sct#30322002 //"Lamina cribrosa of sclera" 
-* http://snomed.info/srt#T-AA120 //"Lamina cribrosa of sclera" 
 
 * DICOM_DCM_CodeSystem#128320 //"Inner surface of the ellipsoid zone" 
 

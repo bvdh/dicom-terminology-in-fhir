@@ -3,6 +3,8 @@ Id          : dicom-cid-6330-PIRADSv2T2WITZLesionAssessmentCategory
 Description :
 """
 PI-RADS v2 T2WI TZ Lesion Assessment Category
+
+The content in this ValueSet is based on [CID 6330](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6330.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1387"

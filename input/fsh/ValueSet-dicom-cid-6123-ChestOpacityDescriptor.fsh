@@ -3,6 +3,8 @@ Id          : dicom-cid-6123-ChestOpacityDescriptor
 Description :
 """
 Original source of terms is [Fraser and Pare].
+
+The content in this ValueSet is based on [CID 6123](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6123.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.443"

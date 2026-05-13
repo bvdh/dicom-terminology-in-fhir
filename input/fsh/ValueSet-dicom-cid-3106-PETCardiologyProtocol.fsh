@@ -3,6 +3,8 @@ Id          : dicom-cid-3106-PETCardiologyProtocol
 Description :
 """
 PET Cardiology Protocol
+
+The content in this ValueSet is based on [CID 3106](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3106.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.739"

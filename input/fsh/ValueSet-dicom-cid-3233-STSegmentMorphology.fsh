@@ -3,6 +3,8 @@ Id          : dicom-cid-3233-STSegmentMorphology
 Description :
 """
 ST Segment Morphology
+
+The content in this ValueSet is based on [CID 3233](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3233.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.779"
@@ -17,8 +19,6 @@ ST Segment Morphology
 * DICOM_DCM_CodeSystem#122759 //"ST Depression - Downsloping" 
 
 * http://snomed.info/sct#76388001 //"ST Elevation" 
-* http://snomed.info/srt#F-38277 //"ST Elevation" 
 
 * http://snomed.info/sct#26141007 //"ST Depression" 
-* http://snomed.info/srt#F-38278 //"ST Depression" 
 

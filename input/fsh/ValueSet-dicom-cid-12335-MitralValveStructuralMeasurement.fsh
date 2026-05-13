@@ -3,6 +3,8 @@ Id          : dicom-cid-12335-MitralValveStructuralMeasurement
 Description :
 """
 Mitral Valve Structural Measurement
+
+The content in this ValueSet is based on [CID 12335](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12335.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1520"

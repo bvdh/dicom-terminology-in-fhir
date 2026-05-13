@@ -3,6 +3,8 @@ Id          : dicom-cid-12302-EchoFindingObservationType
 Description :
 """
 Echo Finding Observation Type
+
+The content in this ValueSet is based on [CID 12302](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12302.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1143"
@@ -15,5 +17,4 @@ Echo Finding Observation Type
 * DICOM_DCM_CodeSystem#125312 //"Behavior of the Finding Site" 
 
 * http://snomed.info/sct#44324008 //"Hemodynamic Measurements" 
-* http://snomed.info/srt#PA-50030 //"Hemodynamic Measurements" 
 

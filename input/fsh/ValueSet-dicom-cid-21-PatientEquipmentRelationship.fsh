@@ -7,6 +7,8 @@ Description :
  2 For devices that do not have a conventional gantry geometry, the vendor of that device may describe in the Conformance Statement how the codes are interpreted with respect to the device geometry.
  3 (126830, DCM, 'left first') (126831, DCM, 'right first) (126832, DCM, 'posterior first) (126833, DCM, 'anterior first) (399220000, SCT, 'transverse')
  4 For quadrupeds, separate concepts for ventral and dorsal are not introduced, rather it is expected that anterior and posterior will be considered synonymous as they are when applied to the trunk.
+
+The content in this ValueSet is based on [CID 21](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_21.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.15"
@@ -15,16 +17,12 @@ Description :
 * ^name = "PatientEquipmentRelationship"
 * ^experimental = false
 * http://snomed.info/sct#399366008 //"oblique" 
-* http://snomed.info/srt#R-10516 //"oblique" 
 
 * http://snomed.info/sct#102540008 //"headfirst" 
-* http://snomed.info/srt#F-10470 //"headfirst" 
 
 * http://snomed.info/sct#102541007 //"feet-first" 
-* http://snomed.info/srt#F-10480 //"feet-first" 
 
 * http://snomed.info/sct#399220000 //"transverse" 
-* http://snomed.info/srt#R-10515 //"transverse" 
 
 * DICOM_DCM_CodeSystem#126830 //"left first" 
 

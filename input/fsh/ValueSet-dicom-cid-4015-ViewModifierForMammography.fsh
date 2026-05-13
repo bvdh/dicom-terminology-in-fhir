@@ -5,6 +5,8 @@ Description :
 
  1 The View ACR MQCM 1999 Equivalent is defined insect_CID_4014
  2 Some applications and View Modifier ACR MQCM 1999 equivalents have been extended by DICOM to incorporate additional known clinical use cases. The View Modifier ACR MQCM 1999 equivalent indicates its use as a prefix (shown by trailing '') or suffix (shown by preceding '') to the View ACR MQCM 1999 equivalent, or replacement for the View ACR MQCM 1999 equivalent.
+
+The content in this ValueSet is based on [CID 4015](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4015.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.299"
@@ -13,44 +15,30 @@ Description :
 * ^name = "ViewModifierForMammography"
 * ^experimental = false
 * http://snomed.info/sct#399161006 //"Cleavage" 
-* http://snomed.info/srt#R-102D2 //"Cleavage" 
 
 * http://snomed.info/sct#399011000 //"Axillary Tail" 
-* http://snomed.info/srt#R-102D1 //"Axillary Tail" 
 
 * http://snomed.info/sct#399197002 //"Rolled Lateral" 
-* http://snomed.info/srt#R-102D3 //"Rolled Lateral" 
 
 * http://snomed.info/sct#399226006 //"Rolled Medial" 
-* http://snomed.info/srt#R-102D4 //"Rolled Medial" 
 
 * http://snomed.info/sct#414493004 //"Rolled Inferior" 
-* http://snomed.info/srt#R-102CA //"Rolled Inferior" 
 
 * http://snomed.info/sct#415670009 //"Rolled Superior" 
-* http://snomed.info/srt#R-102C9 //"Rolled Superior" 
 
 * http://snomed.info/sct#399209000 //"Implant Displaced" 
-* http://snomed.info/srt#R-102D5 //"Implant Displaced" 
 
 * http://snomed.info/sct#399163009 //"Magnification" 
-* http://snomed.info/srt#R-102D6 //"Magnification" 
 
 * http://snomed.info/sct#399055006 //"Spot Compression" 
-* http://snomed.info/srt#R-102D7 //"Spot Compression" 
 
 * http://snomed.info/sct#399110001 //"Tangential" 
-* http://snomed.info/srt#R-102C2 //"Tangential" 
 
 * http://snomed.info/sct#442581004 //"Nipple in profile" 
-* http://snomed.info/srt#R-40AB3 //"Nipple in profile" 
 
 * http://snomed.info/sct#441752004 //"Anterior compression" 
-* http://snomed.info/srt#P2-00161 //"Anterior compression" 
 
 * http://snomed.info/sct#442593008 //"Infra-mammary fold" 
-* http://snomed.info/srt#R-40ABE //"Infra-mammary fold" 
 
 * http://snomed.info/sct#442580003 //"Axillary tissue" 
-* http://snomed.info/srt#R-40AB2 //"Axillary tissue" 
 

@@ -3,6 +3,8 @@ Id          : dicom-cid-7012-BestInSet
 Description :
 """
 Best in Set
+
+The content in this ValueSet is based on [CID 7012](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7012.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.492"

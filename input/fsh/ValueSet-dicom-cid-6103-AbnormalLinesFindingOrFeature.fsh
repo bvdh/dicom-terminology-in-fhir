@@ -3,6 +3,8 @@ Id          : dicom-cid-6103-AbnormalLinesFindingOrFeature
 Description :
 """
 Original source of terms is [Fraser and Pare].
+
+The content in this ValueSet is based on [CID 6103](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6103.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.423"
@@ -31,7 +33,6 @@ Original source of terms is [Fraser and Pare].
 * DICOM_DCM_CodeSystem#112112 //"Parenchymal band" 
 
 * http://snomed.info/sct#40779009 //"Plate-like atelectasis" 
-* http://snomed.info/srt#D2-60302 //"Plate-like atelectasis" 
 
 * DICOM_DCM_CodeSystem#112113 //"Reticular pattern" 
 

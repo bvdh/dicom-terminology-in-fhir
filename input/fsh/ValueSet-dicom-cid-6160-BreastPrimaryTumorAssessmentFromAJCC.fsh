@@ -3,6 +3,8 @@ Id          : dicom-cid-6160-BreastPrimaryTumorAssessmentFromAJCC
 Description :
 """
 Breast Primary Tumor Assessment From AJCC
+
+The content in this ValueSet is based on [CID 6160](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6160.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.474"

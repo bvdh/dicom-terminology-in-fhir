@@ -3,6 +3,8 @@ Id          : dicom-cid-29-AcquisitionModality
 Description :
 """
 This Context Group is not the complete set of codes that may appear in Modality (0008,0060); these are only the codes associated with orderable acquisition processes (not pre-acquisition activities or post-processing).
+
+The content in this ValueSet is based on [CID 29](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.19"

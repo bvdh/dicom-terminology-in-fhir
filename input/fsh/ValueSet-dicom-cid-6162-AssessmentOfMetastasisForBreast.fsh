@@ -3,6 +3,8 @@ Id          : dicom-cid-6162-AssessmentOfMetastasisForBreast
 Description :
 """
 Assessment of Metastasis for Breast
+
+The content in this ValueSet is based on [CID 6162](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6162.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.476"
@@ -11,7 +13,6 @@ Assessment of Metastasis for Breast
 * ^name = "AssessmentOfMetastasisForBreast"
 * ^experimental = false
 * http://snomed.info/sct#399593007 //"MX" 
-* http://snomed.info/srt#F-005BE //"MX" 
 
 * http://snomed.info/sct#1229901006 //"cM0" 
 

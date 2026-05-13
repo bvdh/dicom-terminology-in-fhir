@@ -18,7 +18,7 @@ FHIR_SYSTEM_DICTIONARY = dict(
             LN   = 'http://loinc.org',  
             MDC  = 'urn:iso:std:iso:11073:10101',   #ISO/IEEE 11073 Medical Device Nomenclature, including all its subsections ([ISO/IEEE 11073-10101], [ISO/IEEE 11073-10101a], [ISO/IEEE 11073-10102], etc.), encoded as decimal strings <partition>:<element>
             MSH  = 'https://www.nlm.nih.gov/mesh',
-            NCDR = 'http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr',
+            NCDR = 'https://cvquality.acc.org/NCDR', # invented - no code system found, but NCDR is a known registry that could be referenced
             NCIt = 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl',
             NDC  = 'http://hl7.org/fhir/sid/ndc',
             NEU  = 'NEUCodeSystem',
@@ -114,9 +114,16 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
             # Extract description
             description_elements = section.findall('.//db:para', ns)
             # description_text = ' '.join([cleanTextFromElement(desc) for desc in description_elements])
-            description_text = caption_text
+            description_text = caption_text or ''
             if note_text and len(note_text) > 0:
                 description_text = note_text
+            description_text = (
+                description_text
+                + '\n\n'
+                + 'The content in this ValueSet is based on '
+                + f'[{section_label}](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_{section_label.replace(" ","_")}.html).'
+            )
+
 
             # get keywords
             defined_terms = getVariableListEntries(section, dicom_path )
@@ -194,15 +201,16 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
                                 else:
                                     print(f'Unknown coding scheme: {coding_scheme}')
 
-                                if snomedRtIdxIndex >= 0 and len(value) > snomedRtIdxIndex and value[snomedRtIdxIndex] :
-                                    codeExpression = f'{FHIR_SYSTEM_DICTIONARY['SRT']}#{value[snomedRtIdxIndex]}'
-                                    if not codeExpression in writtenCodes:
-                                        fsh_file.write(f'* {codeExpression} //"{codeMeaning}" \n')
-                                    else:
-                                        fsh_file.write(f'// * {codeExpression} "{codeMeaning}" \n')
-                                    writtenCodes.add(codeExpression)
-                                    allcodes['SRT'][value[snomedRtIdxIndex]] = codeMeaning
-                                    snomedSct2RtMapping[code] = value[snomedRtIdxIndex].strip()
+                                # Exclude SRT codes
+                                # if snomedRtIdxIndex >= 0 and len(value) > snomedRtIdxIndex and value[snomedRtIdxIndex] :
+                                #     codeExpression = f'{FHIR_SYSTEM_DICTIONARY['SRT']}#{value[snomedRtIdxIndex]}'
+                                #     if not codeExpression in writtenCodes:
+                                #         fsh_file.write(f'* {codeExpression} //"{codeMeaning}" \n')
+                                #     else:
+                                #         fsh_file.write(f'// * {codeExpression} "{codeMeaning}" \n')
+                                #     writtenCodes.add(codeExpression)
+                                #     allcodes['SRT'][value[snomedRtIdxIndex]] = codeMeaning
+                                #     snomedSct2RtMapping[code] = value[snomedRtIdxIndex].strip()
 
                                 if umlsConceptUniqueIdIndex >= 0 and len(value) > umlsConceptUniqueIdIndex and value[umlsConceptUniqueIdIndex]:
                                     codeExpression = f'{FHIR_SYSTEM_DICTIONARY['UMLS']}#{value[umlsConceptUniqueIdIndex]}'

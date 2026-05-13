@@ -3,6 +3,8 @@ Id          : dicom-cid-6072-BreastImplantFinding
 Description :
 """
 These terms were obtained from BI-RADS
+
+The content in this ValueSet is based on [CID 6072](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6072.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.401"
@@ -25,7 +27,6 @@ These terms were obtained from BI-RADS
 * DICOM_DCM_CodeSystem#111509 //"Herniated implant" 
 
 * http://snomed.info/sct#237473006 //"Rupture of breast implant" 
-* http://snomed.info/srt#DD-66544 //"Rupture of breast implant" 
 
 * DICOM_DCM_CodeSystem#111510 //"Explantation" 
 

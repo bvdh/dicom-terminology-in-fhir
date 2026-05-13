@@ -3,6 +3,8 @@ Id          : dicom-cid-3232-STSegmentLocation
 Description :
 """
 ST Segment Location
+
+The content in this ValueSet is based on [CID 3232](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3232.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.778"
@@ -13,12 +15,10 @@ ST Segment Location
 * http://snomed.info/sct#1335839000 //"Left ventricle anterior segment" 
 
 * http://snomed.info/sct#367598003 //"Left ventricle inferior segment" 
-* http://snomed.info/srt#T-32638 //"Left ventricle inferior segment" 
 
 * http://snomed.info/sct#1335824001 //"Left ventricle lateral segment" 
 
 * http://snomed.info/sct#1335840003 //"Left ventricle septal segment" 
 
 * http://snomed.info/sct#128564006 //"Left ventricle apical segment" 
-* http://snomed.info/srt#T-32602 //"Left ventricle apical segment" 
 

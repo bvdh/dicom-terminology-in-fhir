@@ -3,6 +3,8 @@ Id          : dicom-cid-9402-IEC61217GantryPositionParameter
 Description :
 """
 IEC61217 Gantry Position Parameter
+
+The content in this ValueSet is based on [CID 9402](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9402.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1024"

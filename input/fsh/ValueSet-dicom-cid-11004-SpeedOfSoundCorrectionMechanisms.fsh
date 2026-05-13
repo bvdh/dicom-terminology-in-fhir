@@ -3,6 +3,8 @@ Id          : dicom-cid-11004-SpeedOfSoundCorrectionMechanisms
 Description :
 """
 Speed of Sound Correction Mechanisms
+
+The content in this ValueSet is based on [CID 11004](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_11004.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1474"

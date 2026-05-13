@@ -3,6 +3,8 @@ Id          : dicom-cid-12201-LeftVentricleLinearMeasurement
 Description :
 """
 Left Ventricle Linear Measurement
+
+The content in this ValueSet is based on [CID 12201](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12201.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.594"
@@ -35,8 +37,6 @@ Left Ventricle Linear Measurement
 * http://loinc.org#18152-9 //"Left Ventricle Posterior Wall Diastolic Thickness" 
 
 * http://snomed.info/sct#399063007 //"Left Ventricle Semi-major Axis Diastolic Dimension" 
-* http://snomed.info/srt#G-0377 //"Left Ventricle Semi-major Axis Diastolic Dimension" 
 
 * http://snomed.info/sct#399309003 //"Left Ventricle Truncated Semi-major Axis Diastolic Dimension" 
-* http://snomed.info/srt#G-0378 //"Left Ventricle Truncated Semi-major Axis Diastolic Dimension" 
 

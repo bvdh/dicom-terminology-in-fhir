@@ -3,6 +3,8 @@ Id          : dicom-cid-6022-Side
 Description :
 """
 In future extensions, Side terms that are not derived from BI-RADS should be added to this Context Group.
+
+The content in this ValueSet is based on [CID 6022](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6022.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.352"

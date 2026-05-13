@@ -3,6 +3,8 @@ Id          : dicom-cid-4021-PETRadiopharmaceutical
 Description :
 """
 PET Radiopharmaceutical
+
+The content in this ValueSet is based on [CID 4021](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4021.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.305"
@@ -23,12 +25,10 @@ PET Radiopharmaceutical
 * DICOM_DCM_CodeSystem#126750 //"7E11 ^89^Zr" 
 
 * http://snomed.info/sct#129513004 //"Acetate C^11^" 
-* http://snomed.info/srt#C-B1043 //"Acetate C^11^" 
 
 * DICOM_DCM_CodeSystem#126729 //"AGN-150998 ^89^Zr" 
 
 * http://snomed.info/sct#129508003 //"Ammonia N^13^" 
-* http://snomed.info/srt#C-B103C //"Ammonia N^13^" 
 
 * DICOM_DCM_CodeSystem#126754 //"Anti-B220 ^89^Zr" 
 
@@ -39,7 +39,6 @@ PET Radiopharmaceutical
 * DICOM_DCM_CodeSystem#126702 //"ATSM Cu^62^" 
 
 * http://snomed.info/sct#422855001 //"ATSM Cu^64^" 
-* http://snomed.info/srt#C-B07DB //"ATSM Cu^64^" 
 
 * DICOM_DCM_CodeSystem#126722 //"Benralizumab ^89^Zr" 
 
@@ -50,19 +49,14 @@ PET Radiopharmaceutical
 * DICOM_DCM_CodeSystem#126735 //"Brentuximab ^89^Zr" 
 
 * http://snomed.info/sct#422540000 //"Butanol O^15^" 
-* http://snomed.info/srt#C-B07DC //"Butanol O^15^" 
 
 * http://snomed.info/sct#129507008 //"Carbon dioxide O^15^" 
-* http://snomed.info/srt#C-B103B //"Carbon dioxide O^15^" 
 
 * http://snomed.info/sct#129515006 //"Carbon monoxide C^11^" 
-* http://snomed.info/srt#C-B1045 //"Carbon monoxide C^11^" 
 
 * http://snomed.info/sct#129506004 //"Carbon monoxide O^15^" 
-* http://snomed.info/srt#C-B103A //"Carbon monoxide O^15^" 
 
 * http://snomed.info/sct#129511002 //"Carfentanil C^11^" 
-* http://snomed.info/srt#C-B103F //"Carfentanil C^11^" 
 
 * DICOM_DCM_CodeSystem#126513 //"Cetuximab ^89^Zr" 
 
@@ -107,7 +101,6 @@ PET Radiopharmaceutical
 * http://terminology.hl7.org/CodeSystem/umls#C2713594 //"Edotreotide Ga^68^" 
 
 * http://snomed.info/sct#423498000 //"EDTA Ga^68^" 
-* http://snomed.info/srt#C-B07DD //"EDTA Ga^68^" 
 
 * DICOM_DCM_CodeSystem#126704 //"Fallypride C^11^" 
 
@@ -116,53 +109,40 @@ PET Radiopharmaceutical
 * DICOM_DCM_CodeSystem#126706 //"FLB 457 C^11^" 
 
 * http://snomed.info/sct#712736002 //"Florbetaben F^18^" 
-* http://snomed.info/srt#C-D6858 //"Florbetaben F^18^" 
 
 * http://snomed.info/sct#456995000 //"Florbetapir F^18^" 
-* http://snomed.info/srt#C-E0269 //"Florbetapir F^18^" 
 
 * http://snomed.info/sct#879808000 //"Flortaucipir F^18^" 
 
 * DICOM_DCM_CodeSystem#126503 //"Flubatine F^18^" 
 
 * http://snomed.info/sct#456999006 //"Fluciclatide F^18^" 
-* http://snomed.info/srt#C-E0265 //"Fluciclatide F^18^" 
 
 * http://snomed.info/sct#457000009 //"Fluciclovine F^18^" 
-* http://snomed.info/srt#C-E026A //"Fluciclovine F^18^" 
 
 * http://snomed.info/sct#423543007 //"Flumazenil C^11^" 
-* http://snomed.info/srt#C-B07DE //"Flumazenil C^11^" 
 
 * http://snomed.info/sct#422975006 //"Flumazenil F^18^" 
-* http://snomed.info/srt#C-B07DF //"Flumazenil F^18^" 
 
 * http://snomed.info/sct#424708001 //"Fluorethyltyrosin F^18^" 
-* http://snomed.info/srt#C-B07E0 //"Fluorethyltyrosin F^18^" 
 
 * http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C62520 //"Fluoroazomycin arabinoside F^18^" 
 
 * http://snomed.info/sct#423546004 //"Fluorobenzothiazole F^18^" 
-* http://snomed.info/srt#C-B07E4 //"Fluorobenzothiazole F^18^" 
 
 * http://snomed.info/sct#456992002 //"Fluorocholine F^18^" 
-* http://snomed.info/srt#C-E0273 //"Fluorocholine F^18^" 
 
 * http://snomed.info/sct#35321007 //"Fluorodeoxyglucose F^18^" 
-* http://snomed.info/srt#C-B1031 //"Fluorodeoxyglucose F^18^" 
 
 * http://snomed.info/sct#926372005 //"Fluoroestradiol F^18^" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C1541539 //"Fluoroetanidazole F^18^" 
 
 * http://snomed.info/sct#5811000122108 //"Fluoro-L-dopa F^18^" 
-* http://snomed.info/srt#C-E0241 //"Fluoro-L-dopa F^18^" 
 
 * http://snomed.info/sct#422763008 //"Fluoromethane F^18^" 
-* http://snomed.info/srt#C-B07E2 //"Fluoromethane F^18^" 
 
 * http://snomed.info/sct#422598008 //"Fluoromisonidazole F^18^" 
-* http://snomed.info/srt#C-B07E1 //"Fluoromisonidazole F^18^" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C2934038 //"Fluoropropyl-dihydrotetrabenazine F^18^" 
 
@@ -171,26 +151,22 @@ PET Radiopharmaceutical
 * DICOM_DCM_CodeSystem#126707 //"Fluorotriopride F^18^" 
 
 * http://snomed.info/sct#425236000 //"Fluorouracil F^18^" 
-* http://snomed.info/srt#C-B07E3 //"Fluorouracil F^18^" 
 
 * DICOM_DCM_CodeSystem#126718 //"Flurpiridaz F^18^" 
 
 * http://snomed.info/sct#456997008 //"Flutemetamol F^18^" 
-* http://snomed.info/srt#C-E0267 //"Flutemetamol F^18^" 
 
 * DICOM_DCM_CodeSystem#126748 //"Fresolimumab ^89^Zr" 
 
 * DICOM_DCM_CodeSystem#126731 //"GA201 ^89^Zr" 
 
 * http://snomed.info/sct#53315004 //"Germanium Ge^68^" 
-* http://snomed.info/srt#C-128A2 //"Germanium Ge^68^" 
 
 * DICOM_DCM_CodeSystem#126724 //"Glembatumumab vedotin ^89^Zr" 
 
 * DICOM_DCM_CodeSystem#126521 //"Glucose C^11^" 
 
 * http://snomed.info/sct#129509006 //"Glutamate N^13^" 
-* http://snomed.info/srt#C-B103D //"Glutamate N^13^" 
 
 * DICOM_DCM_CodeSystem#126709 //"Glutamine C^11^" 
 
@@ -207,10 +183,8 @@ PET Radiopharmaceutical
 * DICOM_DCM_CodeSystem#126730 //"MEDI-551 ^89^Zr" 
 
 * http://snomed.info/sct#424789007 //"Mespiperone C^11^" 
-* http://snomed.info/srt#C-B07E5 //"Mespiperone C^11^" 
 
 * http://snomed.info/sct#129510001 //"Methionine C^11^" 
-* http://snomed.info/srt#C-B103E //"Methionine C^11^" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C4506764 //"MK-6240 F^18^" 
 
@@ -221,7 +195,6 @@ PET Radiopharmaceutical
 * DICOM_DCM_CodeSystem#126511 //"Monoclonal Antibody ^89^Zr" 
 
 * http://snomed.info/sct#423249007 //"Monoclonal antibody I^124^" 
-* http://snomed.info/srt#C-114AA //"Monoclonal antibody I^124^" 
 
 * DICOM_DCM_CodeSystem#126753 //"Nanocolloidal albumin ^89^Zr" 
 
@@ -232,13 +205,10 @@ PET Radiopharmaceutical
 * DICOM_DCM_CodeSystem#126723 //"Ocaratuzumab ^89^Zr" 
 
 * http://snomed.info/sct#129504001 //"Oxygen O^15^" 
-* http://snomed.info/srt#C-B1038 //"Oxygen O^15^" 
 
 * http://snomed.info/sct#129505000 //"Oxygen-water O^15^" 
-* http://snomed.info/srt#C-B1039 //"Oxygen-water O^15^" 
 
 * http://snomed.info/sct#129514005 //"Palmitate C^11^" 
-* http://snomed.info/srt#C-B1044 //"Palmitate C^11^" 
 
 * DICOM_DCM_CodeSystem#126736 //"Panitumumab ^89^Zr" 
 
@@ -265,12 +235,10 @@ PET Radiopharmaceutical
 * DICOM_DCM_CodeSystem#126759 //"PSMA-617 Ga^68^" 
 
 * http://snomed.info/sct#422789008 //"PTSM Cu^62^" 
-* http://snomed.info/srt#C-B07E7 //"PTSM Cu^62^" 
 
 * DICOM_DCM_CodeSystem#126518 //"R1507 ^89^Zr" 
 
 * http://snomed.info/sct#129512009 //"Raclopride C^11^" 
-* http://snomed.info/srt#C-B1042 //"Raclopride C^11^" 
 
 * DICOM_DCM_CodeSystem#126742 //"Ranibizumab ^89^Zr" 
 
@@ -289,23 +257,18 @@ PET Radiopharmaceutical
 * DICOM_DCM_CodeSystem#126733 //"Roledumab ^89^Zr" 
 
 * http://snomed.info/sct#129503007 //"Rubidium chloride Rb^82^" 
-* http://snomed.info/srt#C-B1037 //"Rubidium chloride Rb^82^" 
 
 * DICOM_DCM_CodeSystem#126741 //"SAR3419 ^89^Zr" 
 
 * http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C122684 //"Sarcosine C^11^" 
 
 * http://snomed.info/sct#129501009 //"Sodium fluoride F^18^" 
-* http://snomed.info/srt#C-B1032 //"Sodium fluoride F^18^" 
 
 * http://snomed.info/sct#422980002 //"Sodium iodide I^124^" 
-* http://snomed.info/srt#C-B07E8 //"Sodium iodide I^124^" 
 
 * http://snomed.info/sct#71633006 //"Sodium Na^22^" 
-* http://snomed.info/srt#C-155A1 //"Sodium Na^22^" 
 
 * http://snomed.info/sct#129499001 //"Spiperone F^18^" 
-* http://snomed.info/srt#C-B1033 //"Spiperone F^18^" 
 
 * DICOM_DCM_CodeSystem#126502 //"T807 F^18^" 
 

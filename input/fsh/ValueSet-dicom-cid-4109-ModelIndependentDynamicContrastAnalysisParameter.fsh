@@ -3,6 +3,8 @@ Id          : dicom-cid-4109-ModelIndependentDynamicContrastAnalysisParameter
 Description :
 """
 (126326, DCM, 'IAUC90BN')BN http://www.rsna.org/QIBA_Protocols_and_Profiles.aspx AJR http://dx.doi.org/10.2214/AJR.09.3116 The type of contrast agent and the AIF used for blood normalization may or may not be post-coordinated. E.g., voxel-wise IAUCBN (246205007, SCT, 'Quantity') (126326, DCM, 'IAUC90BN') (370129005, SCT, 'Measurement Method') (126362, DCM, 'User-defined AIF ROI') (123011, DCM, 'Contrast Bolus/Agent') (58281002, SCT, 'Gadolinium') E.g., an IAUCBN NUM(126326, DCM, 'IAUC90BN') >HAS CONCEPT MOD: CODE(370129005, SCT, 'Measurement Method') (126364, DCM, 'Blind Estimation of AIF') Note that the generic ROI measurement templates do not have the contrast/bolus agent as a parameter; this may be implicit from context, or inherited from the (121058
+
+The content in this ValueSet is based on [CID 4109](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4109.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.994"

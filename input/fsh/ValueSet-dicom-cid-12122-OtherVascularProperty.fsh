@@ -3,6 +3,8 @@ Id          : dicom-cid-12122-OtherVascularProperty
 Description :
 """
 Other Vascular Property
+
+The content in this ValueSet is based on [CID 12122](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12122.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.588"
@@ -15,29 +17,22 @@ Other Vascular Property
 * http://loinc.org#20217-6 //"Deceleration Time" 
 
 * http://snomed.info/sct#397413000 //"Vessel lumen diameter" 
-* http://snomed.info/srt#G-0364 //"Vessel lumen diameter" 
 
 * http://snomed.info/sct#415815009 //"Vessel Intimal Diameter" 
-* http://snomed.info/srt#R-1025C //"Vessel Intimal Diameter" 
 
 * http://snomed.info/sct#415814008 //"Vessel Intimal Cross-Sectional Diameter" 
-* http://snomed.info/srt#R-1025D //"Vessel Intimal Cross-Sectional Diameter" 
 
 * http://snomed.info/sct#397414006 //"Vessel outside diameter" 
-* http://snomed.info/srt#G-0365 //"Vessel outside diameter" 
 
 * http://snomed.info/sct#397415007 //"Vessel lumen cross-sectional area" 
-* http://snomed.info/srt#G-0366 //"Vessel lumen cross-sectional area" 
 
 * http://loinc.org#33878-0 //"Volume flow" 
 
 * http://snomed.info/sct#413975003 //"Vessel depth from surface" 
-* http://snomed.info/srt#R-1025E //"Vessel depth from surface" 
 
 * http://loinc.org#20247-3 //"Peak Gradient" 
 
 * http://loinc.org#20256-4 //"Mean Gradient" 
 
 * http://snomed.info/sct#414599003 //"Length of Segment" 
-* http://snomed.info/srt#R-1025F //"Length of Segment" 
 

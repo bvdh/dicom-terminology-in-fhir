@@ -3,6 +3,8 @@ Id          : dicom-cid-8303-DisplayDeviceType
 Description :
 """
 Display Device Type
+
+The content in this ValueSet is based on [CID 8303](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_8303.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.983"

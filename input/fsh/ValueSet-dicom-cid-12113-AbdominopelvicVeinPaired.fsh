@@ -3,6 +3,8 @@ Id          : dicom-cid-12113-AbdominopelvicVeinPaired
 Description :
 """
 Abdominopelvic Vein (Paired)
+
+The content in this ValueSet is based on [CID 12113](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12113.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.580"
@@ -11,17 +13,12 @@ Abdominopelvic Vein (Paired)
 * ^name = "AbdominopelvicVeinPaired"
 * ^experimental = false
 * http://snomed.info/sct#46027005 //"Common iliac vein" 
-* http://snomed.info/srt#T-48920 //"Common iliac vein" 
 
 * http://snomed.info/sct#110568007 //"Gastric vein" 
-* http://snomed.info/srt#T-48820 //"Gastric vein" 
 
 * http://snomed.info/sct#397439002 //"Ileal vein" 
-* http://snomed.info/srt#G-0370 //"Ileal vein" 
 
 * http://snomed.info/sct#976004 //"Ovarian vein" 
-* http://snomed.info/srt#T-48780 //"Ovarian vein" 
 
 * http://snomed.info/sct#31688004 //"Testicular Vein" 
-* http://snomed.info/srt#T-48770 //"Testicular Vein" 
 

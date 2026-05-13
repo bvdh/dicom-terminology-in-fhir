@@ -3,6 +3,8 @@ Id          : dicom-cid-7165-AbstractSegmentationType
 Description :
 """
 The concept(17621005, SCT, 'Normal')
+
+The content in this ValueSet is based on [CID 7165](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7165.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.962"
@@ -13,12 +15,10 @@ The concept(17621005, SCT, 'Normal')
 * DICOM_DCM_CodeSystem#125040 //"Background" 
 
 * http://snomed.info/sct#85756007 //"Tissue" 
-* http://snomed.info/srt#T-D0050 //"Tissue" 
 
 * DICOM_DCM_CodeSystem#130751 //"Tissue not of interest" 
 
 * http://snomed.info/sct#289925000 //"Waste Material" 
-* http://snomed.info/srt#F-61779 //"Waste Material" 
 
 * DICOM_DCM_CodeSystem#125041 //"Registration Input" 
 
@@ -27,5 +27,4 @@ The concept(17621005, SCT, 'Normal')
 * http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94970 //"Reference Region" 
 
 * http://snomed.info/sct#17621005 //"Normal" 
-* http://snomed.info/srt#G-A460 //"Normal" 
 

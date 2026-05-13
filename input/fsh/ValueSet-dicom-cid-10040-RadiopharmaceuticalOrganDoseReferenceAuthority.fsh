@@ -3,6 +3,8 @@ Id          : dicom-cid-10040-RadiopharmaceuticalOrganDoseReferenceAuthority
 Description :
 """
 Radiopharmaceutical Organ Dose Reference Authority
+
+The content in this ValueSet is based on [CID 10040](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_10040.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.972"

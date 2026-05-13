@@ -3,6 +3,8 @@ Id          : dicom-cid-7180-AbstractMultiDimensionalImageModelComponentSemant
 Description :
 """
 Abstract Multi-dimensional Image Model Component Semantic
+
+The content in this ValueSet is based on [CID 7180](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7180.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.917"
@@ -75,7 +77,6 @@ Abstract Multi-dimensional Image Model Component Semantic
 * DICOM_DCM_CodeSystem#110828 //"Flow Velocity" 
 
 * http://snomed.info/sct#425704008 //"Power Doppler" 
-* http://snomed.info/srt#P0-02241 //"Power Doppler" 
 
 * DICOM_DCM_CodeSystem#110829 //"Flow Variance" 
 
@@ -178,7 +179,6 @@ Abstract Multi-dimensional Image Model Component Semantic
 * include codes from valueset CID_10070
 
 * http://snomed.info/sct#256674009 //"Fat" 
-* http://snomed.info/srt#T-D008A //"Fat" 
 
 * DICOM_DCM_CodeSystem#129100 //"Fat fraction" 
 
@@ -195,7 +195,6 @@ Abstract Multi-dimensional Image Model Component Semantic
 * DICOM_DCM_CodeSystem#113066 //"Time course of signal" 
 
 * http://snomed.info/sct#11713004 //"Water" 
-* http://snomed.info/srt#C-10120 //"Water" 
 
 * DICOM_DCM_CodeSystem#129103 //"Water fraction" 
 

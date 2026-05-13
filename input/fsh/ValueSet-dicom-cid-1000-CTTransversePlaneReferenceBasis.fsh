@@ -3,6 +3,8 @@ Id          : dicom-cid-1000-CTTransversePlaneReferenceBasis
 Description :
 """
 CT Transverse Plane Reference Basis
+
+The content in this ValueSet is based on [CID 1000](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_1000.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1121"
@@ -13,19 +15,14 @@ CT Transverse Plane Reference Basis
 * include codes from valueset CID_1001
 
 * http://snomed.info/sct#49755003 //"Morphologically Abnormal Structure" 
-* http://snomed.info/srt#M-01000 //"Morphologically Abnormal Structure" 
 
 * http://snomed.info/sct#16349000 //"Orthopedic device" 
-* http://snomed.info/srt#A-12000 //"Orthopedic device" 
 
 * http://snomed.info/sct#14106009 //"Cardiac pacemaker" 
-* http://snomed.info/srt#A-11100 //"Cardiac pacemaker" 
 
 * http://snomed.info/sct#40388003 //"Implant, device" 
-* http://snomed.info/srt#A-04010 //"Implant, device" 
 
 * http://snomed.info/sct#65818007 //"Stent, device" 
-* http://snomed.info/srt#A-25500 //"Stent, device" 
 
 * DICOM_DCM_CodeSystem#128160 //"Acquired Volume" 
 

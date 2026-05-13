@@ -3,6 +3,8 @@ Id          : dicom-cid-7159-LesionSegmentationType
 Description :
 """
 Lesion Segmentation Type
+
+The content in this ValueSet is based on [CID 7159](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7159.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.505"
@@ -11,46 +13,32 @@ Lesion Segmentation Type
 * ^name = "LesionSegmentationType"
 * ^experimental = false
 * http://snomed.info/sct#44132006 //"Abscess" 
-* http://snomed.info/srt#M-41610 //"Abscess" 
 
 * http://snomed.info/sct#75753009 //"Blood clot" 
-* http://snomed.info/srt#M-35000 //"Blood clot" 
 
 * http://snomed.info/sct#367643001 //"Cyst" 
-* http://snomed.info/srt#M-3340A //"Cyst" 
 
 * http://snomed.info/sct#79654002 //"Edema" 
-* http://snomed.info/srt#M-36300 //"Edema" 
 
 * http://snomed.info/sct#55584005 //"Embolus" 
-* http://snomed.info/srt#M-35300 //"Embolus" 
 
 * http://snomed.info/sct#50960005 //"Hemorrhage" 
-* http://snomed.info/srt#M-37000 //"Hemorrhage" 
 
 * http://snomed.info/sct#409774005 //"Inflammation" 
-* http://snomed.info/srt#M-0100C //"Inflammation" 
 
 * http://snomed.info/sct#52988006 //"Lesion" 
-* http://snomed.info/srt#M-01100 //"Lesion" 
 
 * http://snomed.info/sct#4147007 //"Mass" 
-* http://snomed.info/srt#M-03000 //"Mass" 
 
 * http://snomed.info/sct#6574001 //"Necrosis" 
-* http://snomed.info/srt#M-54000 //"Necrosis" 
 
 * http://snomed.info/sct#108369006 //"Neoplasm" 
-* http://snomed.info/srt#M-8FFFF //"Neoplasm" 
 
 * http://snomed.info/sct#372087000 //"Neoplasm, Primary" 
-* http://snomed.info/srt#DF-00651 //"Neoplasm, Primary" 
 
 * http://snomed.info/sct#14799000 //"Neoplasm, Secondary" 
-* http://snomed.info/srt#M-80006 //"Neoplasm, Secondary" 
 
 * http://snomed.info/sct#27925004 //"Nodule" 
-* http://snomed.info/srt#M-03010 //"Nodule" 
 
 * include codes from valueset CID_7168
 

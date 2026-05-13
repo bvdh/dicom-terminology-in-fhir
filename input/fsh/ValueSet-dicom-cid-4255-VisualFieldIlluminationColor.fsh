@@ -3,6 +3,8 @@ Id          : dicom-cid-4255-VisualFieldIlluminationColor
 Description :
 """
 Visual Field Illumination Color
+
+The content in this ValueSet is based on [CID 4255](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4255.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.914"
@@ -11,17 +13,12 @@ Visual Field Illumination Color
 * ^name = "VisualFieldIlluminationColor"
 * ^experimental = false
 * http://snomed.info/sct#371244009 //"Yellow" 
-* http://snomed.info/srt#G-A11D //"Yellow" 
 
 * http://snomed.info/sct#371251000 //"White" 
-* http://snomed.info/srt#G-A12B //"White" 
 
 * http://snomed.info/sct#371240000 //"Red" 
-* http://snomed.info/srt#G-A11A //"Red" 
 
 * http://snomed.info/sct#405738005 //"Blue" 
-* http://snomed.info/srt#G-A12F //"Blue" 
 
 * http://snomed.info/sct#371246006 //"Green" 
-* http://snomed.info/srt#G-A11E //"Green" 
 

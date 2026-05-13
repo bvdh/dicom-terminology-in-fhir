@@ -3,6 +3,8 @@ Id          : dicom-cid-9531-VolumeAndDoseDosimetricObjective
 Description :
 """
 Volume and Dose Dosimetric Objective
+
+The content in this ValueSet is based on [CID 9531](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9531.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1241"

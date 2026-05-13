@@ -3,6 +3,8 @@ Id          : dicom-cid-9231-WorkitemDefinition
 Description :
 """
 Workitem Definition
+
+The content in this ValueSet is based on [CID 9231](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9231.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.531"

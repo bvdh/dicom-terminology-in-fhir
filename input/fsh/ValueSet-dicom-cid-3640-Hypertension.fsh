@@ -3,6 +3,8 @@ Id          : dicom-cid-3640-Hypertension
 Description :
 """
 Hypertension
+
+The content in this ValueSet is based on [CID 3640](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3640.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.176"
@@ -11,8 +13,6 @@ Hypertension
 * ^name = "Hypertension"
 * ^experimental = false
 * http://snomed.info/sct#70995007 //"Pulmonary hypertension" 
-* http://snomed.info/srt#D3-40300 //"Pulmonary hypertension" 
 
 * http://snomed.info/sct#38341003 //"Systemic arterial hypertension" 
-* http://snomed.info/srt#D3-02000 //"Systemic arterial hypertension" 
 

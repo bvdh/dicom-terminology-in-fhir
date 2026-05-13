@@ -3,6 +3,8 @@ Id          : dicom-cid-6161-PathologicalRegionalLymphNodeAssessmentForBreast
 Description :
 """
 Pathological Regional Lymph Node Assessment for Breast
+
+The content in this ValueSet is based on [CID 6161](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6161.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.475"

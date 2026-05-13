@@ -6,6 +6,8 @@ Description :
  1 SNOMED has codes for the corticobulbar and corticospinal tracts and thalamic radiations in specific regions (e.g., internal capsule), but not generic codes independent of their regional location, so they are not used.
  2 (410726006, SCT, 'auditory radiation')
  3 (70105001, SCT, 'optic radiation')
+
+The content in this ValueSet is based on [CID 7702](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7702.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1014"
@@ -18,16 +20,12 @@ Description :
 * NEUCodeSystem#1320 //"corticospinal tract" 
 
 * http://snomed.info/sct#85637007 //"internal capsule" 
-* http://snomed.info/srt#T-A3700 //"internal capsule" 
 
 * http://snomed.info/sct#10517005 //"external capsule" 
-* http://snomed.info/srt#T-A3800 //"external capsule" 
 
 * http://snomed.info/sct#410726006 //"auditory radiation" 
-* http://snomed.info/srt#T-D0829 //"auditory radiation" 
 
 * http://snomed.info/sct#70105001 //"optic radiation" 
-* http://snomed.info/srt#T-A2880 //"optic radiation" 
 
 * NEUCodeSystem#1466 //"inferior optic radiation (Meyer's loop)" 
 

@@ -3,6 +3,8 @@ Id          : dicom-cid-3090-TimeSynchronizationChannelType
 Description :
 """
 Time Synchronization Channel Type
+
+The content in this ValueSet is based on [CID 3090](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3090.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.51"

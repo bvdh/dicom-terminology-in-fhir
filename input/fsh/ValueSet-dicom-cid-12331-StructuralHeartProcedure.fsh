@@ -3,6 +3,8 @@ Id          : dicom-cid-12331-StructuralHeartProcedure
 Description :
 """
 Structural Heart Procedure
+
+The content in this ValueSet is based on [CID 12331](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12331.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1516"
@@ -27,7 +29,6 @@ Structural Heart Procedure
 * http://snomed.info/sct#1231726001 //"Bioprosthetic mitral valve prosthesis transcatheter implantation" 
 
 * http://snomed.info/sct#8069005 //"Bioprosthetic mitral valve prosthesis transcatheter implantation" 
-* http://snomed.info/srt#P1-32512 //"Bioprosthetic mitral valve prosthesis transcatheter implantation" 
 
 * http://terminology.hl7.org/CodeSystem/umls#C0844084 //"Percutaneous closure of atrial septal defect" 
 

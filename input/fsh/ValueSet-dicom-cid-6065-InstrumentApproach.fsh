@@ -3,6 +3,8 @@ Id          : dicom-cid-6065-InstrumentApproach
 Description :
 """
 Instrument Approach
+
+The content in this ValueSet is based on [CID 6065](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6065.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.394"
@@ -11,16 +13,12 @@ Instrument Approach
 * ^name = "InstrumentApproach"
 * ^experimental = false
 * http://snomed.info/sct#255561001 //"Medial" 
-* http://snomed.info/srt#R-404D5 //"Medial" 
 
 * http://snomed.info/sct#49370004 //"Lateral" 
-* http://snomed.info/srt#G-A104 //"Lateral" 
 
 * http://snomed.info/sct#264217000 //"Superior" 
-* http://snomed.info/srt#R-42191 //"Superior" 
 
 * http://snomed.info/sct#261089000 //"Inferior" 
-* http://snomed.info/srt#R-4094A //"Inferior" 
 
 * DICOM_DCM_CodeSystem#111432 //"Inferolateral to superomedial" 
 

@@ -3,6 +3,8 @@ Id          : dicom-cid-402-AuditActiveParticipantRoleIDCode
 Description :
 """
 Audit Active Participant Role ID Code
+
+The content in this ValueSet is based on [CID 402](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_402.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.905"
@@ -25,5 +27,4 @@ Audit Active Participant Role ID Code
 * DICOM_DCM_CodeSystem#110156 //"Initiator Role ID" 
 
 * http://snomed.info/sct#125676002 //"Person" 
-* http://snomed.info/srt#S-00002 //"Person" 
 

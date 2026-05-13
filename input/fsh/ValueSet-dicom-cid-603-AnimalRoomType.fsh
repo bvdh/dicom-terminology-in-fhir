@@ -5,6 +5,8 @@ Description :
 
  1 Only rooms appropriate for animals in the context of in vivo imaging are described (e.g., not necropsy rooms, etc.)
  2 (398161000, SCT, 'Recovery room' (synonym of 'postoperative anesthesia care unit') is reused here even though its parent is 'Location within hospital premises (environment)', which is arguably specifically human. The same is true for(414485004, SCT, 'Induction room') (409688003, SCT, 'Isolation room')
+
+The content in this ValueSet is based on [CID 603](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_603.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1068"
@@ -19,11 +21,8 @@ Description :
 * DICOM_DCM_CodeSystem#127372 //"Imaging procedure room" 
 
 * http://snomed.info/sct#414485004 //"Induction room" 
-* http://snomed.info/srt#R-305D6 //"Induction room" 
 
 * http://snomed.info/sct#398161000 //"Recovery room" 
-* http://snomed.info/srt#R-305C3 //"Recovery room" 
 
 * http://snomed.info/sct#409688003 //"Isolation room" 
-* http://snomed.info/srt#R-305D3 //"Isolation room" 
 

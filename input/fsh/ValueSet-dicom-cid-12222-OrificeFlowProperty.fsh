@@ -5,6 +5,8 @@ Description :
 
  1 In a prior version of this Context Group, the codeLN: 11726-7 LN: 11726-7 LN: 20351-3 LN: 20355-4 Peak Blood Velocity
  2 In a prior version of this Context Group, the codeLN: 20352-1 LN: 20352-1 LN: 11692-1
+
+The content in this ValueSet is based on [CID 12222](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12222.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.614"
@@ -17,13 +19,10 @@ Description :
 * http://loinc.org#34141-2 //"Peak Instantaneous Flow Rate" 
 
 * http://snomed.info/sct#399367004 //"Cardiovascular Orifice Area" 
-* http://snomed.info/srt#G-038E //"Cardiovascular Orifice Area" 
 
 * http://snomed.info/sct#399027007 //"Cardiovascular Orifice Diameter" 
-* http://snomed.info/srt#G-038F //"Cardiovascular Orifice Diameter" 
 
 * http://snomed.info/sct#399301000 //"Regurgitant Fraction" 
-* http://snomed.info/srt#G-0390 //"Regurgitant Fraction" 
 
 * http://loinc.org#11653-3 //"End Diastolic Velocity" 
 

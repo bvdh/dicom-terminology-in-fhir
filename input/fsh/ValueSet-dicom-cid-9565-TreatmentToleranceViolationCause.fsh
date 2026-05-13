@@ -3,6 +3,8 @@ Id          : dicom-cid-9565-TreatmentToleranceViolationCause
 Description :
 """
 Treatment Tolerance Violation Cause
+
+The content in this ValueSet is based on [CID 9565](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9565.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1322"

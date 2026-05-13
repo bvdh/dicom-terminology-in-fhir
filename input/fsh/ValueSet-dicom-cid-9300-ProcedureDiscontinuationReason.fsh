@@ -3,6 +3,8 @@ Id          : dicom-cid-9300-ProcedureDiscontinuationReason
 Description :
 """
 Procedure Discontinuation Reason
+
+The content in this ValueSet is based on [CID 9300](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9300.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.533"

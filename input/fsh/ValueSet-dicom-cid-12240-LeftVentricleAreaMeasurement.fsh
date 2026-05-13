@@ -3,6 +3,8 @@ Id          : dicom-cid-12240-LeftVentricleAreaMeasurement
 Description :
 """
 Left Ventricle Area Measurement
+
+The content in this ValueSet is based on [CID 12240](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12240.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.631"
@@ -11,14 +13,10 @@ Left Ventricle Area Measurement
 * ^name = "LeftVentricleAreaMeasurement"
 * ^experimental = false
 * http://snomed.info/sct#399030000 //"Left Ventricular Systolic Area" 
-* http://snomed.info/srt#G-0374 //"Left Ventricular Systolic Area" 
 
 * http://snomed.info/sct#399109006 //"Left Ventricular Diastolic Area" 
-* http://snomed.info/srt#G-0375 //"Left Ventricular Diastolic Area" 
 
 * http://snomed.info/sct#399287000 //"Left Ventricular Fractional Area Change" 
-* http://snomed.info/srt#G-0376 //"Left Ventricular Fractional Area Change" 
 
 * http://snomed.info/sct#399293008 //"Left Ventricle Epicardial Diastolic Area, psax pap view" 
-* http://snomed.info/srt#G-0379 //"Left Ventricle Epicardial Diastolic Area, psax pap view" 
 

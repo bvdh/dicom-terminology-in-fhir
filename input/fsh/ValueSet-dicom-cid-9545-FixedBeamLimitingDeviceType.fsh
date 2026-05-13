@@ -3,6 +3,8 @@ Id          : dicom-cid-9545-FixedBeamLimitingDeviceType
 Description :
 """
 Fixed Beam Limiting Device Type
+
+The content in this ValueSet is based on [CID 9545](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9545.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1292"

@@ -3,6 +3,8 @@ Id          : dicom-cid-3814-StentComposition
 Description :
 """
 Stent Composition
+
+The content in this ValueSet is based on [CID 3814](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3814.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.273"
@@ -11,8 +13,6 @@ Stent Composition
 * ^name = "StentComposition"
 * ^experimental = false
 * http://snomed.info/sct#257363003 //"metal stent" 
-* http://snomed.info/srt#A-25502 //"metal stent" 
 
 * http://snomed.info/sct#257362008 //"plastic stent" 
-* http://snomed.info/srt#A-25501 //"plastic stent" 
 

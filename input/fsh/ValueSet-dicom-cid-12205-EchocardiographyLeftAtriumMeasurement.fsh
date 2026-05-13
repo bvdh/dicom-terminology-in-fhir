@@ -3,6 +3,8 @@ Id          : dicom-cid-12205-EchocardiographyLeftAtriumMeasurement
 Description :
 """
 Echocardiography Left Atrium Measurement
+
+The content in this ValueSet is based on [CID 12205](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12205.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.598"
@@ -21,5 +23,4 @@ Echocardiography Left Atrium Measurement
 * http://loinc.org#17977-0 //"Left Atrium Area A4C view" 
 
 * http://snomed.info/sct#399235004 //"Left Atrium Systolic Volume" 
-* http://snomed.info/srt#G-0383 //"Left Atrium Systolic Volume" 
 

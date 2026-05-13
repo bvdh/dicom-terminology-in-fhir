@@ -3,6 +3,8 @@ Id          : dicom-cid-4018-PrimaryAnatomicStructureForIntraoralRadiographyPe
 Description :
 """
 Primary Anatomic Structure for Intra-oral Radiography (Permanent Dentition - Designation of Teeth)
+
+The content in this ValueSet is based on [CID 4018](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4018.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.302"
@@ -11,17 +13,14 @@ Primary Anatomic Structure for Intra-oral Radiography (Permanent Dentition - Des
 * ^name = "PrimaryAnatomicStructureForIntraoralRadiographyPermanentDentitionDesignationOfTeeth"
 * ^experimental = false
 * http://snomed.info/sct#68085002 //"Permanent maxillary right third molar tooth" 
-* http://snomed.info/srt#T-54210 //"Permanent maxillary right third molar tooth" 
 
 * http://snomed.info/sct#863902006 //"Permanent maxillary right second molar tooth" 
 
 * http://snomed.info/sct#865995000 //"Permanent maxillary right first molar tooth" 
 
 * http://snomed.info/sct#36492000 //"Permanent maxillary right second premolar tooth" 
-* http://snomed.info/srt#T-54240 //"Permanent maxillary right second premolar tooth" 
 
 * http://snomed.info/sct#57826002 //"Permanent maxillary right first premolar tooth" 
-* http://snomed.info/srt#T-54250 //"Permanent maxillary right first premolar tooth" 
 
 * http://snomed.info/sct#860767006 //"Permanent maxillary right canine tooth" 
 
@@ -36,30 +35,24 @@ Primary Anatomic Structure for Intra-oral Radiography (Permanent Dentition - Des
 * http://snomed.info/sct#860780009 //"Permanent maxillary left canine tooth" 
 
 * http://snomed.info/sct#61897005 //"Permanent maxillary left first premolar tooth" 
-* http://snomed.info/srt#T-54320 //"Permanent maxillary left first premolar tooth" 
 
 * http://snomed.info/sct#23226009 //"Permanent maxillary left second premolar tooth" 
-* http://snomed.info/srt#T-54330 //"Permanent maxillary left second premolar tooth" 
 
 * http://snomed.info/sct#865988009 //"Permanent maxillary left first molar tooth" 
 
 * http://snomed.info/sct#863901004 //"Permanent maxillary left second molar tooth" 
 
 * http://snomed.info/sct#87704003 //"Permanent maxillary left third molar tooth" 
-* http://snomed.info/srt#T-54360 //"Permanent maxillary left third molar tooth" 
 
 * http://snomed.info/sct#74344005 //"Mandibular left third molar tooth" 
-* http://snomed.info/srt#T-54370 //"Mandibular left third molar tooth" 
 
 * http://snomed.info/sct#863898000 //"Mandibular left second molar tooth" 
 
 * http://snomed.info/sct#866006002 //"Mandibular left first molar tooth" 
 
 * http://snomed.info/sct#24573005 //"Mandibular left second premolar tooth" 
-* http://snomed.info/srt#T-54400 //"Mandibular left second premolar tooth" 
 
 * http://snomed.info/sct#2400006 //"Mandibular left first premolar tooth" 
-* http://snomed.info/srt#T-54410 //"Mandibular left first premolar tooth" 
 
 * http://snomed.info/sct#860782001 //"Mandibular left canine tooth" 
 
@@ -74,15 +67,12 @@ Primary Anatomic Structure for Intra-oral Radiography (Permanent Dentition - Des
 * http://snomed.info/sct#860785004 //"Mandibular right canine tooth" 
 
 * http://snomed.info/sct#80140008 //"Mandibular right first premolar tooth" 
-* http://snomed.info/srt#T-54480 //"Mandibular right first premolar tooth" 
 
 * http://snomed.info/sct#8873007 //"Mandibular right second premolar tooth" 
-* http://snomed.info/srt#T-54490 //"Mandibular right second premolar tooth" 
 
 * http://snomed.info/sct#866005003 //"Mandibular right first molar tooth" 
 
 * http://snomed.info/sct#863899008 //"Mandibular right second molar tooth" 
 
 * http://snomed.info/sct#38994002 //"Mandibular right third molar tooth" 
-* http://snomed.info/srt#T-54520 //"Mandibular right third molar tooth" 
 

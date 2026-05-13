@@ -3,6 +3,8 @@ Id          : dicom-cid-12208-EchocardiographyTricuspidValveMeasurement
 Description :
 """
 Echocardiography Tricuspid Valve Measurement
+
+The content in this ValueSet is based on [CID 12208](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12208.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.601"
@@ -23,7 +25,6 @@ Echocardiography Tricuspid Valve Measurement
 * http://loinc.org#20296-0 //"Time from Q wave to Tricuspid Valve Opens" 
 
 * http://snomed.info/sct#399282006 //"Tricuspid Valve Closure to Opening Time" 
-* http://snomed.info/srt#G-0389 //"Tricuspid Valve Closure to Opening Time" 
 
 * http://loinc.org#18034-9 //"Tricuspid Regurgitation dP/dt" 
 

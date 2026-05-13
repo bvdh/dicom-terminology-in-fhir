@@ -3,6 +3,8 @@ Id          : dicom-cid-6041-MammographyImageQualityFinding
 Description :
 """
 Mammography Image Quality Finding
+
+The content in this ValueSet is based on [CID 6041](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6041.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.371"

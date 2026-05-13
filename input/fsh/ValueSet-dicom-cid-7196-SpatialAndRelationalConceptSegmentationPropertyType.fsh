@@ -3,6 +3,8 @@ Id          : dicom-cid-7196-SpatialAndRelationalConceptSegmentationPropertyTy
 Description :
 """
 Some of the concepts in this Context Group are derived fromsect_CID_6109
+
+The content in this ValueSet is based on [CID 7196](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7196.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1195"

@@ -3,6 +3,8 @@ Id          : dicom-cid-3484-IVUSIndexRatio
 Description :
 """
 IVUS Index/Ratio
+
+The content in this ValueSet is based on [CID 3484](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3484.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.119"

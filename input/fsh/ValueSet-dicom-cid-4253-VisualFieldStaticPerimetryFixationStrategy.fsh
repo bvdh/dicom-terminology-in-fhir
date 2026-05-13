@@ -3,6 +3,8 @@ Id          : dicom-cid-4253-VisualFieldStaticPerimetryFixationStrategy
 Description :
 """
 Visual Field Static Perimetry Fixation Strategy
+
+The content in this ValueSet is based on [CID 4253](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4253.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.912"
@@ -19,5 +21,4 @@ Visual Field Static Perimetry Fixation Strategy
 * DICOM_DCM_CodeSystem#111846 //"Observation by Examiner" 
 
 * http://snomed.info/sct#260413007 //"None" 
-* http://snomed.info/srt#R-40775 //"None" 
 

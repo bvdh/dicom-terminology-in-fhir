@@ -3,6 +3,8 @@ Id          : dicom-cid-3416-RespirationRhythm
 Description :
 """
 Respiration Rhythm
+
+The content in this ValueSet is based on [CID 3416](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3416.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.81"
@@ -11,17 +13,12 @@ Respiration Rhythm
 * ^name = "RespirationRhythm"
 * ^experimental = false
 * http://snomed.info/sct#5467003 //"normal respiratory rhythm" 
-* http://snomed.info/srt#F-21301 //"normal respiratory rhythm" 
 
 * http://snomed.info/sct#248585001 //"irregular breathing" 
-* http://snomed.info/srt#F-21303 //"irregular breathing" 
 
 * http://snomed.info/sct#23141003 //"gasping respiration" 
-* http://snomed.info/srt#F-20130 //"gasping respiration" 
 
 * http://snomed.info/sct#248584002 //"abnormal respiratory rhythm" 
-* http://snomed.info/srt#F-21334 //"abnormal respiratory rhythm" 
 
 * http://snomed.info/sct#271824009 //"respiration intermittent" 
-* http://snomed.info/srt#F-21331 //"respiration intermittent" 
 

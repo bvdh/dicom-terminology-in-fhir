@@ -3,6 +3,8 @@ Id          : dicom-cid-4254-VisualFieldStaticPerimetryTestAnalysisResult
 Description :
 """
 Visual Field Static Perimetry Test Analysis Result
+
+The content in this ValueSet is based on [CID 4254](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4254.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.913"
@@ -21,5 +23,4 @@ Visual Field Static Perimetry Test Analysis Result
 * DICOM_DCM_CodeSystem#111851 //"Borderline and general reduction in sensitivity" 
 
 * http://snomed.info/sct#125112009 //"Within normal limits" 
-* http://snomed.info/srt#M-00101 //"Within normal limits" 
 

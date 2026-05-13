@@ -3,6 +3,8 @@ Id          : dicom-cid-12224-UltrasoundImageMode
 Description :
 """
 Ultrasound Image Mode
+
+The content in this ValueSet is based on [CID 12224](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12224.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.616"
@@ -11,31 +13,22 @@ Ultrasound Image Mode
 * ^name = "UltrasoundImageMode"
 * ^experimental = false
 * http://snomed.info/sct#399064001 //"2D mode" 
-* http://snomed.info/srt#G-03A2 //"2D mode" 
 
 * http://snomed.info/sct#261197005 //"Doppler Color Flow" 
-* http://snomed.info/srt#R-409E2 //"Doppler Color Flow" 
 
 * http://snomed.info/sct#399155008 //"M mode" 
-* http://snomed.info/srt#G-0394 //"M mode" 
 
 * http://snomed.info/sct#261199008 //"Doppler Pulsed" 
-* http://snomed.info/srt#R-409E4 //"Doppler Pulsed" 
 
 * http://snomed.info/sct#261198000 //"Doppler Continuous Wave" 
-* http://snomed.info/srt#R-409E3 //"Doppler Continuous Wave" 
 
 * http://snomed.info/sct#425704008 //"Power Doppler" 
-* http://snomed.info/srt#P0-02241 //"Power Doppler" 
 
 * http://snomed.info/sct#426865009 //"3D mode" 
-* http://snomed.info/srt#P0-02242 //"3D mode" 
 
 * http://snomed.info/sct#439858009 //"Tissue Doppler Imaging" 
-* http://snomed.info/srt#P5-B0128 //"Tissue Doppler Imaging" 
 
 * http://snomed.info/sct#399009009 //"B mode" 
-* http://snomed.info/srt#G-03AC //"B mode" 
 
 * DICOM_DCM_CodeSystem#130616 //"Point Shear Wave Elastography" 
 

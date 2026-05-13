@@ -3,6 +3,8 @@ Id          : dicom-cid-8134-AnatomicStructure
 Description :
 """
 Anatomic Structure
+
+The content in this ValueSet is based on [CID 8134](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_8134.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1312"
@@ -91,17 +93,12 @@ Anatomic Structure
 * include codes from valueset CID_7602
 
 * http://snomed.info/sct#36582005 //"Brachial plexus" 
-* http://snomed.info/srt#T-A9090 //"Brachial plexus" 
 
 * http://snomed.info/sct#87644002 //"Epididymis" 
-* http://snomed.info/srt#T-95000 //"Epididymis" 
 
 * http://snomed.info/sct#53342003 //"Internal nose" 
-* http://snomed.info/srt#T-21300 //"Internal nose" 
 
 * http://snomed.info/sct#78067005 //"Placenta" 
-* http://snomed.info/srt#T-F1100 //"Placenta" 
 
 * http://snomed.info/sct#29870000 //"Umbilical cord" 
-* http://snomed.info/srt#T-F1800 //"Umbilical cord" 
 

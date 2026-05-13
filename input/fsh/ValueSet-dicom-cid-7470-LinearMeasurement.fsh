@@ -3,6 +3,8 @@ Id          : dicom-cid-7470-LinearMeasurement
 Description :
 """
 Linear Measurement
+
+The content in this ValueSet is based on [CID 7470](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7470.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.524"
@@ -11,47 +13,34 @@ Linear Measurement
 * ^name = "LinearMeasurement"
 * ^experimental = false
 * http://snomed.info/sct#410668003 //"Length" 
-* http://snomed.info/srt#G-D7FE //"Length" 
 
 * DICOM_DCM_CodeSystem#121211 //"Path length" 
 
 * DICOM_DCM_CodeSystem#121206 //"Distance" 
 
 * http://snomed.info/sct#103355008 //"Width" 
-* http://snomed.info/srt#G-A220 //"Width" 
 
 * http://snomed.info/sct#131197000 //"Depth" 
-* http://snomed.info/srt#G-D785 //"Depth" 
 
 * http://snomed.info/sct#81827009 //"Diameter" 
-* http://snomed.info/srt#M-02550 //"Diameter" 
 
 * http://snomed.info/sct#103339001 //"Long Axis" 
-* http://snomed.info/srt#G-A185 //"Long Axis" 
 
 * http://snomed.info/sct#103340004 //"Short Axis" 
-* http://snomed.info/srt#G-A186 //"Short Axis" 
 
 * http://snomed.info/sct#131187009 //"Major Axis" 
-* http://snomed.info/srt#G-A193 //"Major Axis" 
 
 * http://snomed.info/sct#131188004 //"Minor Axis" 
-* http://snomed.info/srt#G-A194 //"Minor Axis" 
 
 * http://snomed.info/sct#131189007 //"Perpendicular Axis" 
-* http://snomed.info/srt#G-A195 //"Perpendicular Axis" 
 
 * http://snomed.info/sct#131190003 //"Radius" 
-* http://snomed.info/srt#G-A196 //"Radius" 
 
 * http://snomed.info/sct#131191004 //"Perimeter" 
-* http://snomed.info/srt#G-A197 //"Perimeter" 
 
 * http://snomed.info/sct#74551000 //"Circumference" 
-* http://snomed.info/srt#M-02560 //"Circumference" 
 
 * http://snomed.info/sct#131192006 //"Diameter of circumscribed circle" 
-* http://snomed.info/srt#G-A198 //"Diameter of circumscribed circle" 
 
 * DICOM_DCM_CodeSystem#121207 //"Height" 
 

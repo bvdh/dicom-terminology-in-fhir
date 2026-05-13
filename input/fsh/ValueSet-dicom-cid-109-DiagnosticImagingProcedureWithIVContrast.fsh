@@ -3,6 +3,8 @@ Id          : dicom-cid-109-DiagnosticImagingProcedureWithIVContrast
 Description :
 """
 Diagnostic Imaging Procedure with IV Contrast
+
+The content in this ValueSet is based on [CID 109](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_109.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1515"
@@ -13,7 +15,6 @@ Diagnostic Imaging Procedure with IV Contrast
 * http://snomed.info/sct#1331946003 //"CT with contrast" 
 
 * http://snomed.info/sct#444968003 //"CT arteriography of abdominal aorta with contrast" 
-* http://snomed.info/srt#P5-08123 //"CT arteriography of abdominal aorta with contrast" 
 
 * http://loinc.org#39142-5 //"CT perfusion head with contrast IV" 
 

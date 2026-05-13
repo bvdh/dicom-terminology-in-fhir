@@ -5,6 +5,8 @@ Description :
 
 * In previous releases of the Standard, this Context Group included codes of DCMR, using Coding Scheme Designator DCM. The preferable encoding of these concepts is using the LOINC codes, however, the support of equivalent DCMR codes is recommended for backward compatibility.
 * In a prior version of this Context Group, the code(18782-3, LN, 'Study Observation') (59776-5, LN, 'Procedure Findings')
+
+The content in this ValueSet is based on [CID 7001](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7001.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.482"

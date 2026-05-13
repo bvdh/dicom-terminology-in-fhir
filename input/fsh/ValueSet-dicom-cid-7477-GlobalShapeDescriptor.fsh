@@ -3,6 +3,8 @@ Id          : dicom-cid-7477-GlobalShapeDescriptor
 Description :
 """
 Global Shape Descriptor
+
+The content in this ValueSet is based on [CID 7477](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7477.html).
 """
 * ^version = "None"
 * ^title = "Global Shape Descriptor (CID 7477)"

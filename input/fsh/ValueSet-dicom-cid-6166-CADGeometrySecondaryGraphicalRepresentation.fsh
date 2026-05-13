@@ -3,6 +3,8 @@ Id          : dicom-cid-6166-CADGeometrySecondaryGraphicalRepresentation
 Description :
 """
 CAD Geometry Secondary Graphical Representation
+
+The content in this ValueSet is based on [CID 6166](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6166.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.480"
@@ -23,10 +25,8 @@ CAD Geometry Secondary Graphical Representation
 * DICOM_DCM_CodeSystem#113666 //"Pixelated spiculations" 
 
 * http://snomed.info/sct#103339001 //"Long axis" 
-* http://snomed.info/srt#G-A185 //"Long axis" 
 
 * http://snomed.info/sct#103340004 //"Short axis" 
-* http://snomed.info/srt#G-A186 //"Short axis" 
 
 * DICOM_DCM_CodeSystem#113669 //"Orthogonal location arc" 
 

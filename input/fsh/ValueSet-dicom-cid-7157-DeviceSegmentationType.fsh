@@ -3,6 +3,8 @@ Id          : dicom-cid-7157-DeviceSegmentationType
 Description :
 """
 Device Segmentation Type
+
+The content in this ValueSet is based on [CID 7157](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7157.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.503"
@@ -15,34 +17,24 @@ Device Segmentation Type
 * include codes from valueset CID_9506
 
 * http://snomed.info/sct#77444004 //"Bone Pin" 
-* http://snomed.info/srt#A-12024 //"Bone Pin" 
 
 * http://snomed.info/sct#68183006 //"Bone Screw" 
-* http://snomed.info/srt#A-12030 //"Bone Screw" 
 
 * http://snomed.info/sct#14106009 //"Cardiac Pacemaker" 
-* http://snomed.info/srt#A-11100 //"Cardiac Pacemaker" 
 
 * http://snomed.info/sct#72506001 //"Defibrillator" 
-* http://snomed.info/srt#A-11206 //"Defibrillator" 
 
 * http://snomed.info/sct#27606000 //"Dental Prosthesis" 
-* http://snomed.info/srt#A-04200 //"Dental Prosthesis" 
 
 * http://snomed.info/sct#272287005 //"Inlay Dental Restoration" 
-* http://snomed.info/srt#A-04036 //"Inlay Dental Restoration" 
 
 * http://snomed.info/sct#360066001 //"Left ventricular assist device" 
-* http://snomed.info/srt#A-11FCD //"Left ventricular assist device" 
 
 * http://snomed.info/sct#79068005 //"Needle" 
-* http://snomed.info/srt#A-30360 //"Needle" 
 
 * http://snomed.info/sct#19443004 //"Radioactive implant" 
-* http://snomed.info/srt#A-04034 //"Radioactive implant" 
 
 * http://snomed.info/sct#65818007 //"Stent" 
-* http://snomed.info/srt#A-25500 //"Stent" 
 
 * DICOM_DCM_CodeSystem#130340 //"Physical Compensator" 
 

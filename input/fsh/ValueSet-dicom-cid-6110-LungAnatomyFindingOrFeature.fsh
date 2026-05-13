@@ -3,6 +3,8 @@ Id          : dicom-cid-6110-LungAnatomyFindingOrFeature
 Description :
 """
 Original source of terms is [Fraser and Pare].
+
+The content in this ValueSet is based on [CID 6110](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6110.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.430"
@@ -11,12 +13,10 @@ Original source of terms is [Fraser and Pare].
 * ^name = "LungAnatomyFindingOrFeature"
 * ^experimental = false
 * http://snomed.info/sct#31094006 //"Lobe of lung" 
-* http://snomed.info/srt#T-28770 //"Lobe of lung" 
 
 * DICOM_DCM_CodeSystem#112085 //"Midlung window" 
 
 * DICOM_DCM_CodeSystem#112054 //"Secondary pulmonary lobule" 
 
 * http://snomed.info/sct#72674008 //"Segment of lung" 
-* http://snomed.info/srt#T-280D0 //"Segment of lung" 
 

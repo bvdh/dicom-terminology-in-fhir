@@ -3,6 +3,8 @@ Id          : dicom-cid-7031-ReasonForRemovalFromOperationalUse
 Description :
 """
 Reason for Removal from Operational Use
+
+The content in this ValueSet is based on [CID 7031](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7031.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1446"

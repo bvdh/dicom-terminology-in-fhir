@@ -3,6 +3,8 @@ Id          : dicom-cid-6014-MammographySingleImageFinding
 Description :
 """
 In future extensions, Mammography Single Image Finding terms that are not derived from BI-RADS should be added to this Context Group.
+
+The content in this ValueSet is based on [CID 6014](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6014.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.344"
@@ -21,5 +23,4 @@ In future extensions, Mammography Single Image Finding terms that are not derive
 * DICOM_DCM_CodeSystem#111102 //"Non-lesion" 
 
 * http://snomed.info/sct#24142002 //"Nipple" 
-* http://snomed.info/srt#T-04100 //"Nipple" 
 

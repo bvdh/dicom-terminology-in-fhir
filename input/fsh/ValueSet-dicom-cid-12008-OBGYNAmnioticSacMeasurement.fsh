@@ -3,6 +3,8 @@ Id          : dicom-cid-12008-OBGYNAmnioticSacMeasurement
 Description :
 """
 OB-GYN Amniotic Sac Measurement
+
+The content in this ValueSet is based on [CID 12008](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12008.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.557"
@@ -19,7 +21,6 @@ OB-GYN Amniotic Sac Measurement
 * http://loinc.org#11623-6 //"Fourth Quadrant Diameter" 
 
 * http://snomed.info/sct#81827009 //"Diameter" 
-* http://snomed.info/srt#M-02550 //"Diameter" 
 
 * http://loinc.org#11627-7 //"Amniotic Fluid Index" 
 

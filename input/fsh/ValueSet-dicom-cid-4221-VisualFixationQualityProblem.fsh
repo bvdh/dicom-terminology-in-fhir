@@ -3,6 +3,8 @@ Id          : dicom-cid-4221-VisualFixationQualityProblem
 Description :
 """
 Visual Fixation Quality Problem
+
+The content in this ValueSet is based on [CID 4221](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4221.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.820"
@@ -13,7 +15,6 @@ Visual Fixation Quality Problem
 * DICOM_DCM_CodeSystem#110518 //"Patient Movement" 
 
 * http://snomed.info/sct#251786004 //"Eccentric Fixation" 
-* http://snomed.info/srt#F-02FA4 //"Eccentric Fixation" 
 
 * DICOM_DCM_CodeSystem#110519 //"Operator Error" 
 

@@ -3,6 +3,8 @@ Id          : dicom-cid-609-AnimalFeedingMethod
 Description :
 """
 (C0425422, UMLS, 'Restricted diet')
+
+The content in this ValueSet is based on [CID 609](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_609.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1074"
@@ -17,5 +19,4 @@ Description :
 * DICOM_DCM_CodeSystem#127391 //"Food treat" 
 
 * http://snomed.info/sct#229912004 //"Gavage" 
-* http://snomed.info/srt#P2-00003 //"Gavage" 
 

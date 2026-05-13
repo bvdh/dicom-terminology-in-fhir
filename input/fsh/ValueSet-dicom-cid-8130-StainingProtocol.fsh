@@ -3,6 +3,8 @@ Id          : dicom-cid-8130-StainingProtocol
 Description :
 """
 Staining Protocol
+
+The content in this ValueSet is based on [CID 8130](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_8130.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.944"
@@ -11,11 +13,8 @@ Staining Protocol
 * ^name = "StainingProtocol"
 * ^experimental = false
 * http://snomed.info/sct#127790008 //"Staining" 
-* http://snomed.info/srt#P3-00003 //"Staining" 
 
 * http://snomed.info/sct#104210008 //"Hematoxylin and eosin stain method" 
-* http://snomed.info/srt#P3-50495 //"Hematoxylin and eosin stain method" 
 
 * http://snomed.info/sct#67122001 //"Acid fast stain method" 
-* http://snomed.info/srt#P3-50480 //"Acid fast stain method" 
 

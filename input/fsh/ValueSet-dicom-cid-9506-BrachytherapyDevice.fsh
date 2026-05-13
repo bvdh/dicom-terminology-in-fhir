@@ -3,6 +3,8 @@ Id          : dicom-cid-9506-BrachytherapyDevice
 Description :
 """
 Brachytherapy Device
+
+The content in this ValueSet is based on [CID 9506](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9506.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1216"

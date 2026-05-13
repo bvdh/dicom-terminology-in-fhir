@@ -3,6 +3,8 @@ Id          : dicom-cid-100-QuantitativeDiagnosticImagingProcedure
 Description :
 """
 Quantitative Diagnostic Imaging Procedure
+
+The content in this ValueSet is based on [CID 100](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_100.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.998"
@@ -11,10 +13,8 @@ Quantitative Diagnostic Imaging Procedure
 * ^name = "QuantitativeDiagnosticImagingProcedure"
 * ^experimental = false
 * http://snomed.info/sct#363679005 //"Imaging procedure" 
-* http://snomed.info/srt#P0-0099A //"Imaging procedure" 
 
 * http://snomed.info/sct#258177008 //"Magnetic resonance imaging guidance" 
-* http://snomed.info/srt#P5-09051 //"Magnetic resonance imaging guidance" 
 
 * DICOM_DCM_CodeSystem#126020 //"Multiparametric MRI" 
 
@@ -23,10 +23,8 @@ Quantitative Diagnostic Imaging Procedure
 * DICOM_DCM_CodeSystem#126022 //"Multiparametric MRI of whole body" 
 
 * http://snomed.info/sct#433139009 //"Dynamic magnetic resonance imaging of knee" 
-* http://snomed.info/srt#P5-0907F //"Dynamic magnetic resonance imaging of knee" 
 
 * http://snomed.info/sct#446315002 //"Dynamic magnetic resonance imaging of pelvis" 
-* http://snomed.info/srt#P5-70694 //"Dynamic magnetic resonance imaging of pelvis" 
 
 * http://loinc.org#25045-6 //"CT unspecified body region" 
 
@@ -43,7 +41,6 @@ Quantitative Diagnostic Imaging Procedure
 * http://loinc.org#44139-4 //"PET whole body" 
 
 * http://snomed.info/sct#443271005 //"PET/CT FDG imaging of whole body" 
-* http://snomed.info/srt#P5-080FF //"PET/CT FDG imaging of whole body" 
 
 * http://snomed.info/sct#764704008 //"PET/CT MET imaging of whole body" 
 

@@ -3,6 +3,8 @@ Id          : dicom-cid-7203-ImageDerivation
 Description :
 """
 This Context Group contains relaively generic descriptions of image processing, e.g.,(129104, DCM, 'Perfusion image analysis') sect_CID_4102
+
+The content in this ValueSet is based on [CID 7203](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7203.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.510"

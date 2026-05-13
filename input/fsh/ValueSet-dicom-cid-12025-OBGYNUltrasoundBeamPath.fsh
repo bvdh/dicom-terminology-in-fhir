@@ -3,6 +3,8 @@ Id          : dicom-cid-12025-OBGYNUltrasoundBeamPath
 Description :
 """
 OB-GYN Ultrasound Beam Path
+
+The content in this ValueSet is based on [CID 12025](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12025.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1320"
@@ -11,8 +13,6 @@ OB-GYN Ultrasound Beam Path
 * ^name = "OBGYNUltrasoundBeamPath"
 * ^experimental = false
 * http://snomed.info/sct#66739002 //"Trans-abdominal" 
-* http://snomed.info/srt#G-D001 //"Trans-abdominal" 
 
 * http://snomed.info/sct#54300008 //"Trans-vaginal" 
-* http://snomed.info/srt#G-D002 //"Trans-vaginal" 
 

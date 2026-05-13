@@ -3,6 +3,8 @@ Id          : dicom-cid-12304-CardiovascularMeasuredProperty
 Description :
 """
 Cardiovascular Measured Property
+
+The content in this ValueSet is based on [CID 12304](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12304.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1145"
@@ -15,24 +17,18 @@ Cardiovascular Measured Property
 * http://loinc.org#59130-5 //"Alias Velocity" 
 
 * http://snomed.info/sct#1483009 //"Angle" 
-* http://snomed.info/srt#G-A160 //"Angle" 
 
 * http://snomed.info/sct#42798000 //"Area" 
-* http://snomed.info/srt#G-A166 //"Area" 
 
 * http://snomed.info/sct#75367002 //"Blood Pressure" 
-* http://snomed.info/srt#F-31000 //"Blood Pressure" 
 
 * http://snomed.info/sct#70822001 //"Cardiac Ejection Fraction" 
-* http://snomed.info/srt#F-32070 //"Cardiac Ejection Fraction" 
 
 * http://snomed.info/sct#82799009 //"Cardiac Output" 
-* http://snomed.info/srt#F-32100 //"Cardiac Output" 
 
 * http://loinc.org#20217-6 //"Deceleration Time" 
 
 * http://snomed.info/sct#81827009 //"Diameter" 
-* http://snomed.info/srt#M-02550 //"Diameter" 
 
 * http://loinc.org#59120-6 //"dP/dt by US" 
 
@@ -49,25 +45,20 @@ Cardiovascular Measured Property
 * http://loinc.org#59090-1 //"Internal Dimension" 
 
 * http://snomed.info/sct#385673002 //"Interval" 
-* http://snomed.info/srt#G-D217 //"Interval" 
 
 * http://snomed.info/sct#410668003 //"Length" 
-* http://snomed.info/srt#G-D7FE //"Length" 
 
 * http://snomed.info/sct#118538004 //"Mass" 
-* http://snomed.info/srt#G-D701 //"Mass" 
 
 * DICOM_DCM_CodeSystem#125328 //"Maximum Orifice Area" 
 
 * http://snomed.info/sct#6797001 //"Mean Blood Pressure" 
-* http://snomed.info/srt#F-31150 //"Mean Blood Pressure" 
 
 * http://loinc.org#20352-1 //"Mean Blood Velocity" 
 
 * http://loinc.org#20256-4 //"Mean Gradient [Pressure] by Doppler" 
 
 * http://snomed.info/sct#131188004 //"Minor Axis" 
-* http://snomed.info/srt#G-A194 //"Minor Axis" 
 
 * http://loinc.org#59099-2 //"Myocardial Performance Index (Tei)" 
 
@@ -90,7 +81,6 @@ Cardiovascular Measured Property
 * http://loinc.org#12008-9 //"Pulsatility Index" 
 
 * http://snomed.info/sct#399301000 //"Regurgitant Fraction" 
-* http://snomed.info/srt#G-0390 //"Regurgitant Fraction" 
 
 * DICOM_DCM_CodeSystem#125332 //"Regurgitation Jet Area" 
 
@@ -99,19 +89,16 @@ Cardiovascular Measured Property
 * http://loinc.org#12023-8 //"Resistivity Index" 
 
 * http://snomed.info/sct#90096001 //"Stroke Volume" 
-* http://snomed.info/srt#F-32120 //"Stroke Volume" 
 
 * http://loinc.org#59089-3 //"Thickness" 
 
 * http://snomed.info/sct#251271006 //"Vascular Resistance" 
-* http://snomed.info/srt#F-02692 //"Vascular Resistance" 
 
 * http://loinc.org#20354-7 //"Velocity Time Integral" 
 
 * DICOM_DCM_CodeSystem#125334 //"Vena Contracta Width" 
 
 * http://snomed.info/sct#118565006 //"Volume" 
-* http://snomed.info/srt#G-D705 //"Volume" 
 
 * http://loinc.org#33878-0 //"Volume Flow Rate" 
 

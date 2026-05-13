@@ -3,6 +3,8 @@ Id          : dicom-cid-12016-EstimatedFetalWeightPercentileEquationTable
 Description :
 """
 LN:33183-5 LN:33183-5 LN:33183-5
+
+The content in this ValueSet is based on [CID 12016](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12016.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.564"

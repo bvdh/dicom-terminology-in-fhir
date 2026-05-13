@@ -3,6 +3,8 @@ Id          : dicom-cid-7300-ImplantMaterial
 Description :
 """
 Implant Material
+
+The content in this ValueSet is based on [CID 7300](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7300.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1031"
@@ -11,19 +13,14 @@ Implant Material
 * ^name = "ImplantMaterial"
 * ^experimental = false
 * http://snomed.info/sct#261250004 //"Nickel Titanium" 
-* http://snomed.info/srt#F-61166 //"Nickel Titanium" 
 
 * http://snomed.info/sct#256496006 //"Gold Alloy" 
-* http://snomed.info/srt#F-611FC //"Gold Alloy" 
 
 * http://snomed.info/sct#256506002 //"Stainless Steel Material" 
-* http://snomed.info/srt#F-61207 //"Stainless Steel Material" 
 
 * http://snomed.info/sct#412155002 //"Polymer" 
-* http://snomed.info/srt#F-61DF9 //"Polymer" 
 
 * http://snomed.info/sct#256501007 //"Carbon Fiber" 
-* http://snomed.info/srt#F-61202 //"Carbon Fiber" 
 
 * UNSCodeSystem#S31673 //"Stainless steel (SS316L)" 
 

@@ -3,6 +3,8 @@ Id          : dicom-cid-3209-StressImagingSummaryCode
 Description :
 """
 Stress Imaging Summary Code
+
+The content in this ValueSet is based on [CID 3209](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3209.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.764"
@@ -11,14 +13,10 @@ Stress Imaging Summary Code
 * ^name = "StressImagingSummaryCode"
 * ^experimental = false
 * http://snomed.info/sct#408573005 //"Imaging result normal" 
-* http://snomed.info/srt#F-04AB2 //"Imaging result normal" 
 
 * http://snomed.info/sct#408574004 //"Imaging result abnormal" 
-* http://snomed.info/srt#F-04AB3 //"Imaging result abnormal" 
 
 * http://snomed.info/sct#408379005 //"Imaging result equivocal" 
-* http://snomed.info/srt#F-04A13 //"Imaging result equivocal" 
 
 * http://snomed.info/sct#262008008 //"Not performed" 
-* http://snomed.info/srt#R-4135B //"Not performed" 
 

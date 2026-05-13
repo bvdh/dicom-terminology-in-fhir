@@ -3,6 +3,8 @@ Id          : dicom-cid-6142-CalculatedValue
 Description :
 """
 Calculated Value
+
+The content in this ValueSet is based on [CID 6142](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6142.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.462"
@@ -17,7 +19,6 @@ Calculated Value
 * DICOM_DCM_CodeSystem#112019 //"Calcification extent as percent of volume" 
 
 * http://snomed.info/sct#450360000 //"Coronary artery calcium score" 
-* http://snomed.info/srt#F-F3012 //"Coronary artery calcium score" 
 
 * DICOM_DCM_CodeSystem#112191 //"Breast tissue density" 
 

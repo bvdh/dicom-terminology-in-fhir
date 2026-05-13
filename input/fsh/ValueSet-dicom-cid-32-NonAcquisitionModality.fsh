@@ -3,6 +3,8 @@ Id          : dicom-cid-32-NonAcquisitionModality
 Description :
 """
 Many Composite SOP Instances with Modality (0008,0060) Values corresponding to Code Values from this Context Group are the result of post-processing, and are not directly associated with an orderable acquisition process.
+
+The content in this ValueSet is based on [CID 32](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_32.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1282"

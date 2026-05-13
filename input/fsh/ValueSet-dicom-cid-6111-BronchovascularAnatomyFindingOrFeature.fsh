@@ -3,6 +3,8 @@ Id          : dicom-cid-6111-BronchovascularAnatomyFindingOrFeature
 Description :
 """
 Original source of terms is [Fraser and Pare].
+
+The content in this ValueSet is based on [CID 6111](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6111.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.431"
@@ -11,18 +13,14 @@ Original source of terms is [Fraser and Pare].
 * ^name = "BronchovascularAnatomyFindingOrFeature"
 * ^experimental = false
 * http://snomed.info/sct#89187006 //"Airway structure" 
-* http://snomed.info/srt#T-20001 //"Airway structure" 
 
 * http://snomed.info/sct#955009 //"Bronchus" 
-* http://snomed.info/srt#T-26000 //"Bronchus" 
 
 * http://snomed.info/sct#28700002 //"Carina" 
-* http://snomed.info/srt#T-25201 //"Carina" 
 
 * DICOM_DCM_CodeSystem#112086 //"Carina angle" 
 
 * DICOM_DCM_CodeSystem#112087 //"Centrilobular structures" 
 
 * http://snomed.info/sct#46750007 //"Hilum of lung" 
-* http://snomed.info/srt#T-28080 //"Hilum of lung" 
 

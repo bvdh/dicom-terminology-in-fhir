@@ -2,7 +2,9 @@ ValueSet    : CID_3684
 Id          : dicom-cid3684
 Description :
 """
-None
+
+
+The content in this ValueSet is based on [CID 3684](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3684.html).
 """
 * ^version = "None"
 * ^title = "Trend (Retired) (CID 3684)"

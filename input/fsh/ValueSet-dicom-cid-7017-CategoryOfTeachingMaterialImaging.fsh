@@ -3,6 +3,8 @@ Id          : dicom-cid-7017-CategoryOfTeachingMaterialImaging
 Description :
 """
 The contents of this Context Group correspond to the American Board of Radiology categories in use at the time the IHE TCE Profile was developed.
+
+The content in this ValueSet is based on [CID 7017](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7017.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1181"

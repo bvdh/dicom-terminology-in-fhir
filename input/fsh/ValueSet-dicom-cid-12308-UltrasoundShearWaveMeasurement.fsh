@@ -3,6 +3,8 @@ Id          : dicom-cid-12308-UltrasoundShearWaveMeasurement
 Description :
 """
 Ultrasound Shear Wave Measurement
+
+The content in this ValueSet is based on [CID 12308](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12308.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1411"
@@ -19,5 +21,4 @@ Ultrasound Shear Wave Measurement
 * DICOM_DCM_CodeSystem#130613 //"ROI Depth" 
 
 * http://snomed.info/sct#131184002 //"Area of defined region" 
-* http://snomed.info/srt#G-A16A //"Area of defined region" 
 

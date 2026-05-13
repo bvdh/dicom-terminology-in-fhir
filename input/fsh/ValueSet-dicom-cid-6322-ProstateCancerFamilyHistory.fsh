@@ -3,6 +3,8 @@ Id          : dicom-cid-6322-ProstateCancerFamilyHistory
 Description :
 """
 Prostate Cancer Family History
+
+The content in this ValueSet is based on [CID 6322](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6322.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1379"
@@ -15,5 +17,4 @@ Prostate Cancer Family History
 * DICOM_DCM_CodeSystem#130587 //"No family history of prostate cancer" 
 
 * http://snomed.info/sct#407559004 //"Family history unknown" 
-* http://snomed.info/srt#F-03F6E //"Family history unknown" 
 

@@ -3,6 +3,8 @@ Id          : dicom-cid-3453-CardiacVolumeMethod
 Description :
 """
 Cardiac Volume Method
+
+The content in this ValueSet is based on [CID 3453](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3453.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.100"

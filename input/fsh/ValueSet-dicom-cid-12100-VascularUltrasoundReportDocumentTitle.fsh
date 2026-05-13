@@ -3,6 +3,8 @@ Id          : dicom-cid-12100-VascularUltrasoundReportDocumentTitle
 Description :
 """
 Vascular Ultrasound Report Document Title
+
+The content in this ValueSet is based on [CID 12100](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12100.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1315"
@@ -29,5 +31,4 @@ Vascular Ultrasound Report Document Title
 * http://loinc.org#39448-6 //"US Doppler Upper Extremity Vessels Report" 
 
 * http://snomed.info/sct#48526000 //"" 
-* http://snomed.info/srt#P5-B0111 //"" 
 

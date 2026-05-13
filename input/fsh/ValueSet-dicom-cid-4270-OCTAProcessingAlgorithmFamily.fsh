@@ -3,6 +3,8 @@ Id          : dicom-cid-4270-OCTAProcessingAlgorithmFamily
 Description :
 """
 OCT-A Processing Algorithm Family
+
+The content in this ValueSet is based on [CID 4270](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4270.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1150"

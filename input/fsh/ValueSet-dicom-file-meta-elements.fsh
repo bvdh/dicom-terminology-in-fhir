@@ -6,7 +6,6 @@ Description: "DICOM® File Meta elements extracted from DICOM PS3.6 Table 7-1."
 
 * ^experimental = false
 
-* ^url = "http://dicom.nema.org/resources/ValueSet/DICOM_File_Meta_Elements"
 * ^version = "2026.2.20260327"
 * DICOM_Elements#FileMetaInformationGroupLength "File Meta Information Group Length"
 * DICOM_Elements#FileMetaInformationVersion "File Meta Information Version"

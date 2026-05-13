@@ -3,6 +3,8 @@ Id          : dicom-cid-8301-TestPatternCode
 Description :
 """
 This CID formerly contained(109931, DCM, 'DIN Graycale Pattern') (109932, DCM, 'DIN Geometry Pattern') (109933, DCM, 'DIN Resolution Pattern') biblio_AAPM_OR03
+
+The content in this ValueSet is based on [CID 8301](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_8301.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.981"

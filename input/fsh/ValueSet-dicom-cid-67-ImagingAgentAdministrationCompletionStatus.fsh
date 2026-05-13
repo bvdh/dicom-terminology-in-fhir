@@ -3,6 +3,8 @@ Id          : dicom-cid-67-ImagingAgentAdministrationCompletionStatus
 Description :
 """
 Imaging Agent Administration Completion Status
+
+The content in this ValueSet is based on [CID 67](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_67.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1257"
@@ -11,7 +13,6 @@ Imaging Agent Administration Completion Status
 * ^name = "ImagingAgentAdministrationCompletionStatus"
 * ^experimental = false
 * http://snomed.info/sct#255594003 //"Complete" 
-* http://snomed.info/srt#R-404F1 //"Complete" 
 
 * DICOM_DCM_CodeSystem#130156 //"Terminated due to pressure above termination limit" 
 

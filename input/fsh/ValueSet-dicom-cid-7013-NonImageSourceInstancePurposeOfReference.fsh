@@ -3,6 +3,8 @@ Id          : dicom-cid-7013-NonImageSourceInstancePurposeOfReference
 Description :
 """
 This Context Group previously contained a code for 'source image', which has been removed.
+
+The content in this ValueSet is based on [CID 7013](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7013.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1134"

@@ -3,6 +3,8 @@ Id          : dicom-cid-3710-CoronaryDominance
 Description :
 """
 In prior editions, this Context Group included NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes (see PS3.16-2011).
+
+The content in this ValueSet is based on [CID 3710](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3710.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.211"
@@ -11,11 +13,8 @@ In prior editions, this Context Group included NCDR 2.0b codes as the primary se
 * ^name = "CoronaryDominance"
 * ^experimental = false
 * http://snomed.info/sct#253729004 //"Left Coronary Dominance" 
-* http://snomed.info/srt#D4-3252C //"Left Coronary Dominance" 
 
 * http://snomed.info/sct#253728007 //"Right Coronary Dominance" 
-* http://snomed.info/srt#D4-3252B //"Right Coronary Dominance" 
 
 * http://snomed.info/sct#253730009 //"Balanced Coronary Dominance" 
-* http://snomed.info/srt#D4-3252D //"Balanced Coronary Dominance" 
 

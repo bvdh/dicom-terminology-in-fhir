@@ -3,6 +3,8 @@ Id          : dicom-cid-6037-MammographyQuantitativeTemporalDifferenceType
 Description :
 """
 Mammography Quantitative Temporal Difference Type
+
+The content in this ValueSet is based on [CID 6037](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6037.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.367"
@@ -11,17 +13,12 @@ Mammography Quantitative Temporal Difference Type
 * ^name = "MammographyQuantitativeTemporalDifferenceType"
 * ^experimental = false
 * http://snomed.info/sct#129806009 //"Difference in size" 
-* http://snomed.info/srt#F-017B1 //"Difference in size" 
 
 * http://snomed.info/sct#129807000 //"Difference in opacity" 
-* http://snomed.info/srt#F-017B2 //"Difference in opacity" 
 
 * http://snomed.info/sct#129808005 //"Difference in location" 
-* http://snomed.info/srt#F-017B3 //"Difference in location" 
 
 * http://snomed.info/sct#129809002 //"Difference in spatial proximity" 
-* http://snomed.info/srt#F-017B4 //"Difference in spatial proximity" 
 
 * http://snomed.info/sct#129810007 //"Difference in number of calcifications" 
-* http://snomed.info/srt#F-017B5 //"Difference in number of calcifications" 
 

@@ -3,6 +3,8 @@ Id          : dicom-cid-7009-PurposeOfReferenceToPredecessorReport
 Description :
 """
 The concepts of replaced and addended correspond to REPLACEMENT and ADDENDUM in HL7 V2.6 Chapter 9, with the exception that an EDITED value is not supported due to incompatibility with HL7 CDA.
+
+The content in this ValueSet is based on [CID 7009](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7009.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.818"
