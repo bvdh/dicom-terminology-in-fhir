@@ -1,0 +1,52 @@
+ValueSet    : CID_12042
+Id          : dicom-cid-12042-FetalAnatomySurveyAssessmentFaceAndNeck
+Description :
+"""
+Fetal Anatomy Survey Assessment - Face and Neck
+
+The content in this ValueSet is based on [CID 12042](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12042.html).
+"""
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1552"
+* ^version = "20251113"
+* ^title = "Fetal Anatomy Survey Assessment - Face and Neck (CID 12042)"
+* ^name = "FetalAnatomySurveyAssessmentFaceAndNeck"
+* ^experimental = false
+* http://snomed.info/sct#52795006 //"Forehead" 
+
+* http://snomed.info/sct#363654007 //"Orbit" 
+
+* http://snomed.info/sct#81745001 //"Eyeball" 
+
+* http://snomed.info/sct#78076003 //"Eye Lens" 
+
+* DICOM_DCM_CodeSystem#131373 //"Midsagittal facial profile" 
+
+* http://snomed.info/sct#74386004 //"Nasal bone" 
+
+* http://snomed.info/sct#45206002 //"Nose" 
+
+* http://snomed.info/sct#1797002 //"Nostril" 
+
+* http://snomed.info/sct#72914001 //"Palate" 
+
+* http://snomed.info/sct#70925003 //"Maxilla" 
+
+* DICOM_DCM_CodeSystem#131372 //"Retronasal triangle" 
+
+* http://snomed.info/sct#11681001 //"Upper lip" 
+
+* http://snomed.info/sct#32032005 //"Lower Lip" 
+
+* http://snomed.info/sct#91609006 //"Mandible" 
+
+* http://snomed.info/sct#21974007 //"Tongue" 
+
+* http://snomed.info/sct#117590005 //"Ear" 
+
+* http://snomed.info/sct#45048000 //"Neck" 
+
+* http://snomed.info/sct#1187337007 //"Jugular fossa" 
+
+* DICOM_DCM_CodeSystem#131375 //"Jugular lymphatic sac" 
+

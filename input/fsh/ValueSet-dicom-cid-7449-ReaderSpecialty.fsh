@@ -3,33 +3,36 @@ Id          : dicom-cid-7449-ReaderSpecialty
 Description :
 """
 Reader Specialty
+
+The content in this ValueSet is based on [CID 7449](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7449.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1119"
 * ^version = "20160601"
-* ^title = "Reader Specialty"
+* ^title = "Reader Specialty (CID 7449)"
 * ^name = "ReaderSpecialty"
-* DICOMDCMCodeSystem#128006 "Abdominal Imaging Specialty" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128006 //"Abdominal Imaging Specialty" 
 
-* DICOMDCMCodeSystem#128007 "Cardiac Imaging Specialty" 
+* DICOM_DCM_CodeSystem#128007 //"Cardiac Imaging Specialty" 
 
-* DICOMDCMCodeSystem#128008 "Head and Neck Imaging Specialty" 
+* DICOM_DCM_CodeSystem#128008 //"Head and Neck Imaging Specialty" 
 
-* DICOMDCMCodeSystem#128009 "Musculoskeletal Imaging Specialty" 
+* DICOM_DCM_CodeSystem#128009 //"Musculoskeletal Imaging Specialty" 
 
-* DICOMDCMCodeSystem#128010 "Neurology Specialty" 
+* DICOM_DCM_CodeSystem#128010 //"Neurology Specialty" 
 
-* DICOMDCMCodeSystem#128011 "Neuroradiology Imaging Specialty" 
+* DICOM_DCM_CodeSystem#128011 //"Neuroradiology Imaging Specialty" 
 
-* DICOMDCMCodeSystem#128012 "OB/Gyn Imaging Specialty" 
+* DICOM_DCM_CodeSystem#128012 //"OB/Gyn Imaging Specialty" 
 
-* DICOMDCMCodeSystem#128013 "Oncologic Imaging Specialty" 
+* DICOM_DCM_CodeSystem#128013 //"Oncologic Imaging Specialty" 
 
-* DICOMDCMCodeSystem#128014 "Oncology Specialty" 
+* DICOM_DCM_CodeSystem#128014 //"Oncology Specialty" 
 
-* DICOMDCMCodeSystem#128015 "Thoracic Imaging Specialty" 
+* DICOM_DCM_CodeSystem#128015 //"Thoracic Imaging Specialty" 
 
-* DICOMDCMCodeSystem#128016 "Pediatric Imaging Specialty" 
+* DICOM_DCM_CodeSystem#128016 //"Pediatric Imaging Specialty" 
 
-* DICOMDCMCodeSystem#128017 "Vascular Imaging Specialty" 
+* DICOM_DCM_CodeSystem#128017 //"Vascular Imaging Specialty" 
 

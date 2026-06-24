@@ -2,19 +2,29 @@ import re
 import os
 from typing import List, Optional
 
+from constants import DICOM_BASE_URL
 from doc_book_tools import getDataDicomTable, toCamelCase
 
 
 TABLE_URL = 'https://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_D.html#table_D-1'
 PART             = 'part16'
 TABLE_ID         = 'D-1'
-CODESYSTEM_NAME  = 'DICOMDCMCodeSystem'
+CODESYSTEM_NAME  = 'DICOM_DCM_CodeSystem'
 CODESYSTEM_ID    = 'dicom-dcm-codesystem'
 CODESYSTEM_TITLE = 'DICOM® Controlled Terminology Definitions (Coding Scheme Designator \'DCM\' Coding Scheme Version \'01\')'
 CODESYSTEM_DESCRIPTION = f'{CODESYSTEM_TITLE} extracted from DICOM PS3.16 Table D-1.'
 
 
-def writeDcmCodeSystem( fsh_path:str, dicom_path:str ) -> None:
+def strip_markdown_links(text: str) -> str:
+    """Render markdown links as plain text and remove prior bracket escaping."""
+    if not text:
+        return ''
+    unescaped_text = text.replace(r'\\[', '[').replace(r'\\]', ']')
+    markdown_link_pattern = r'(?<!`)\[([^\]]+)\]\([^)]+\)(?!`)'
+    return re.sub(markdown_link_pattern, lambda m: m.group(1), unescaped_text)
+
+
+def writeDcmCodeSystem( fsh_path:str, dicom_path:str, canonicalVersion:str ) -> None:
     # Write the code system for the data elements
     # This is a helper function for writeDataElements
     # Input: data_elements - list of data elements
@@ -39,21 +49,26 @@ def writeDcmCodeSystem( fsh_path:str, dicom_path:str ) -> None:
         fsh_file.write('\n')
         fsh_file.write('* ^property[+].code = #keyword\n')
         fsh_file.write('* ^property[=].description = "keyword for the tag"\n')
+        fsh_file.write('* ^property[=].uri = "http://hl7.org/fhir/concept-properties#alternateCode"\n')
         fsh_file.write('* ^property[=].type = #string\n')
         fsh_file.write('\n')
         fsh_file.write('* ^property[+].code = #retired\n')
         fsh_file.write('* ^property[=].description = "Whether the code is retired"\n')
+        fsh_file.write('* ^property[=].uri = "http://hl7.org/fhir/concept-properties#inactive"\n')
         fsh_file.write('* ^property[=].type = #boolean\n')
         fsh_file.write('\n')
-        fsh_file.write('* ^url = "http://dicom.nema.org/resources/ontology/DCM"\n')
+        # fsh_file.write(f'* ^url = "{DICOM_BASE_URL}/resources/ontology/DCM"\n')
+        fsh_file.write(f'* ^version = "{canonicalVersion}"\n')
+        fsh_file.write('\n')
 
         for row in table:
             if (len(row[0])>0):
                 code = row[0]
-                short = row[1]
+                short = strip_markdown_links(row[1])
                 keyword = toCamelCase(row[1])
                 retired = 'true' if len(row)>3 and len(row[3]) > 0 else 'false'
-                description = re.sub( r'(\n)+', '\n', f'{keyword}:\n{row[2]}\n{ "retired" if retired == 'true' else ""}'.strip())
+                safe_definition = strip_markdown_links(row[2])
+                description = re.sub( r'(\n)+', '\n', f'{keyword}:\n{safe_definition}\n{ "retired" if retired == 'true' else ""}'.strip())
                 fsh_file.write(f'* #{code} "{short}"\n')
                 fsh_file.write(f'"""\n')
                 fsh_file.write(description+'\n' )

@@ -3,12 +3,15 @@ Id          : dicom-cid101
 Description :
 """
 Imaging Procedure
+
+The content in this ValueSet is based on [CID 101](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_101.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1436"
 * ^version = "20250401"
-* ^title = "Imaging Procedure"
+* ^title = "Imaging Procedure (CID 101)"
 * ^name = "Cid101"
+* ^experimental = false
 * include codes from valueset CID_100
 
 * include codes from valueset CID_102

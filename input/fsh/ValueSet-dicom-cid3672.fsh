@@ -2,8 +2,13 @@ ValueSet    : CID_3672
 Id          : dicom-cid3672
 Description :
 """
-A prior version of this Context Group used codes from the SCP-ECG vocabulary. Further information at Code Position 1 - Chamber(s) paced 2 - Chamber(s) sensed 3 - Response to sensing 4 - Rate modulation 5- Multisite pacing Code values O = None A = Atrium V = Ventricle D = Dual (A+V) S = Single(A or V - Mfr designation only) O = None A = Atrium V = Ventricle D = Dual (A+V) S = Single(A or V - Mfr designation only) O = None T = Triggered I = Inhibited D = Dual (T+I) O = None R = Rate modulation O = None A = Atrium V = Ventricle D = Dual (A+V)
+
+ 1 A prior version of this Context Group used codes from the SCP-ECG vocabulary.
+ 2 Further information athttp://www.hrsonline.org/Practice-Guidance/Clinical-Guidelines-Documents/2002-The-Revised-NASPE-BPEG-Generic-Code-for-Antibradycardia-AdaptiveRate-and-Multisite-Pacing
+
+The content in this ValueSet is based on [CID 3672](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3672.html).
 """
 * ^version = "None"
-* ^title = "Pacemaker"
+* ^title = "Pacemaker (CID 3672)"
 * ^name = "Cid3672"
+* ^experimental = false

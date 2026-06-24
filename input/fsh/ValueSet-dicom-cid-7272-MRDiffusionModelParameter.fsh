@@ -3,34 +3,36 @@ Id          : dicom-cid-7272-MRDiffusionModelParameter
 Description :
 """
 MR Diffusion Model Parameter
+
+The content in this ValueSet is based on [CID 7272](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7272.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1167"
 * ^version = "20170413"
-* ^title = "MR Diffusion Model Parameter"
+* ^title = "MR Diffusion Model Parameter (CID 7272)"
 * ^name = "MRDiffusionModelParameter"
-* DICOMDCMCodeSystem#113041 "Apparent Diffusion Coefficient" 
-* http://terminology.hl7.org/CodeSystem/umls#C3890194 "Apparent Diffusion Coefficient" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113041 //"Apparent Diffusion Coefficient" 
 
-* DICOMDCMCodeSystem#113289 "Diffusion Coefficient" 
+* DICOM_DCM_CodeSystem#113289 //"Diffusion Coefficient" 
 
-* DICOMDCMCodeSystem#113290 "Mono-exponential Apparent Diffusion Coefficient" 
+* DICOM_DCM_CodeSystem#113290 //"Mono-exponential Apparent Diffusion Coefficient" 
 
-* DICOMDCMCodeSystem#113291 "Slow Diffusion Coefficient" 
+* DICOM_DCM_CodeSystem#113291 //"Slow Diffusion Coefficient" 
 
-* DICOMDCMCodeSystem#113292 "Fast Diffusion Coefficient" 
+* DICOM_DCM_CodeSystem#113292 //"Fast Diffusion Coefficient" 
 
-* DICOMDCMCodeSystem#113293 "Fast Diffusion Coefficient Fraction" 
+* DICOM_DCM_CodeSystem#113293 //"Fast Diffusion Coefficient Fraction" 
 
-* DICOMDCMCodeSystem#113294 "Kurtosis Diffusion Coefficient" 
+* DICOM_DCM_CodeSystem#113294 //"Kurtosis Diffusion Coefficient" 
 
-* DICOMDCMCodeSystem#113295 "Gamma Distribution Scale Parameter" 
+* DICOM_DCM_CodeSystem#113295 //"Gamma Distribution Scale Parameter" 
 
-* DICOMDCMCodeSystem#113296 "Gamma Distribution Shape Parameter" 
+* DICOM_DCM_CodeSystem#113296 //"Gamma Distribution Shape Parameter" 
 
-* DICOMDCMCodeSystem#113297 "Gamma Distribution Mode" 
+* DICOM_DCM_CodeSystem#113297 //"Gamma Distribution Mode" 
 
-* DICOMDCMCodeSystem#113298 "Distributed Diffusion Coefficient" 
+* DICOM_DCM_CodeSystem#113298 //"Distributed Diffusion Coefficient" 
 
-* DICOMDCMCodeSystem#113299 "Anomalous Exponent Parameter" 
+* DICOM_DCM_CodeSystem#113299 //"Anomalous Exponent Parameter" 
 

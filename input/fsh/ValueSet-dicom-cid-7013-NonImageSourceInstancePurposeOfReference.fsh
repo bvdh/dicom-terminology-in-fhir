@@ -2,20 +2,23 @@ ValueSet    : CID_7013
 Id          : dicom-cid-7013-NonImageSourceInstancePurposeOfReference
 Description :
 """
-This Context Group previously contained a code for "source image", which has been removed.
+This Context Group previously contained a code for 'source image', which has been removed.
+
+The content in this ValueSet is based on [CID 7013](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7013.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1134"
 * ^version = "20200920"
-* ^title = "Non-Image Source Instance Purpose of Reference"
+* ^title = "Non-Image Source Instance Purpose of Reference (CID 7013)"
 * ^name = "NonImageSourceInstancePurposeOfReference"
-* DICOMDCMCodeSystem#128224 "Source measurement" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128224 //"Source measurement" 
 
-* DICOMDCMCodeSystem#128225 "Source report" 
+* DICOM_DCM_CodeSystem#128225 //"Source report" 
 
-* DICOMDCMCodeSystem#128226 "Source raw data" 
+* DICOM_DCM_CodeSystem#128226 //"Source raw data" 
 
-* DICOMDCMCodeSystem#125028 "Source Deformable Spatial Registration" 
+* DICOM_DCM_CodeSystem#125028 //"Source Deformable Spatial Registration" 
 
 * include codes from valueset CID_7019
 

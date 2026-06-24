@@ -1,9 +1,10 @@
 import os
 import xml.etree.ElementTree as ET
 from typing import List, Dict, Optional
+import re
 
 # Define namespace for DocBook elements
-ns = {'db': 'http://docbook.org/ns/docbook', 'xl' : 'http://www.w3.org/1999/xlink'}
+ns = {'db': 'http://docbook.org/ns/docbook', 'xl' : 'http://www.w3.org/1999/xlink', }
     
 def getDataDicomTable(dicom_path: str, part: str, table_id: str):
     """
@@ -66,24 +67,10 @@ def getDataDicomTable(dicom_path: str, part: str, table_id: str):
                 
                 for td in td_elements:
                 
-                    para_elements = td.findall('.//db:para', ns)
-                    link_elements = td.findall('.//db:link', ns)
-
-                    link_text = ''
-                    for link in link_elements:
-                        if link is not None:
-                            link_text = cleanText( link.text )
-                            link_text += cleanText( link    .get('{http://www.w3.org/1999/xlink}href') )
-                            i=0# link_text = cleanText( link_element.get('x1:href') )
-
-                    para_text = ''
-                    for para in para_elements:
-                        field_text = getParaText(para)
-
-                    field_text = field_text or link_text
-                    field_text = field_text.replace('"','')
+                    all_elements = td.findall('./*', ns)
+                    all_elements_txt = getElementText( td, dicom_path )
                     
-                    row_fields.append( field_text )        
+                    row_fields.append( all_elements_txt )        
 
                 table_elements.append(row_fields)
             
@@ -106,47 +93,116 @@ def toCamelCase( str: str ) -> str:
         camelStr+=word.capitalize()
     return camelStr
 
-def getElementText( element ):
-    elementText = '' 
-    paraNodes = element.findall( './/db:para', ns) if element != None else []
-    for paraNode in paraNodes:
-        para_text = getParaText(paraNode)
-        if para_text and len(para_text) > 0:
+def getElementText( element, dicom_path ):
+    elementText = ''
+    all_nodes = element.findall('./*', ns)
+    
+    # elementText = cleanText(element.text) if (element is not None) and len(all_nodes) == 0 else ''
+    
+    for node in all_nodes:
+        tag = node.tag
+        separator = ' '
+        
+        if ( tag.endswith("para") ):
+            text = cleanText( node.text )
+            other_text = getElementText( node, dicom_path )
+            if other_text and len(other_text)>0:
+                text = text + other_text
+                
+        elif ( tag.endswith("note") ):
+            text = getElementText( node, dicom_path )
+            if text and len(text) > 0:
+                text = "Note:" + text 
+
+        elif ( tag.endswith( 'olink' ) ):
+            text = ''
+            if node is not None:
+                olink_targetdoc = cleanText( node.get('targetdoc') )
+                olink_targetptr = cleanText( node.get('targetptr') )
+                olink_ptr = cleanText( node.get('ptr') )
+                olink_xrefstyle= cleanText( node.get('xrefstyle'))
+                text = getOlinkText( dicom_path, olink_targetdoc, olink_targetptr, olink_xrefstyle)
+                # print( f'{olink_targetdoc} {olink_targetptr} {olink_ptr} {olink_xrefstyle} ==> {text}')
+                
+        elif ( tag.endswith( 'itemizedlist') ):
+            text = ''
+            itemizeList = node.findall('./db:listitem', ns)
+            for item in itemizeList:
+                item_text = getElementText( item, dicom_path )
+                text += "\n* " + item_text
+            
+        elif ( tag.endswith( 'orderedlist') ):
+            text = ''
+            itemizeList = node.findall('./db:listitem', ns)
+            i = 1
+            for item in itemizeList:
+                item_text = getElementText( item, dicom_path )
+                text += f'\n {i} {item_text}'
+                i = i+1
+
+        elif ( tag.endswith('link')):
+            link_text = ''
+            text = cleanText( node.text )
+            href = cleanText( node.get('{http://www.w3.org/1999/xlink}href') )
+            show = cleanText( node.get('{http://www.w3.org/1999/xlink}show') )
+            text = text or href or show
+
+        elif ( tag.endswith('emphasis')):
+            text = cleanText( node.text )
+            other_text = getElementText( node, dicom_path )
+            if other_text and len(other_text)>0:
+                text = text + other_text
+        elif ( tag.endswith('xref')):
+            text = cleanText( node.get('linkend') )
+
+        elif ( tag.endswith('subscript')):
+            text = cleanText( node.text )
+            separator = ''
+        elif ( tag.endswith('superscript')):
+            text = cleanText( node.text )
+            separator = ''
+        elif ( tag.endswith('informaltable')):
+            # ignore
+            separator = ''
+            text = ''
+        elif ( tag.endswith('informalfigure')):
+            # ignore
+            separator = ''
+            text = ''
+        else:
+            print( f"unsupported tag: {tag}")
+            text = '-'
+
+        if text and len(text) > 0:
             if ( elementText):
-                elementText += ' '
-            elementText += para_text
+                elementText += separator
+            elementText = elementText + text    
+    # paraNodes = element.findall( './/db:para', ns) if element != None else []
+    # for paraNode in paraNodes:
+    #     para_text = getParaText(paraNode)
+    #     if para_text and len(para_text) > 0:
+    #         if ( elementText):
+    #             elementText += ' '
+    #         elementText = elementText + para_text
     return elementText
 
-def getParaText( element ):
-    para_text = cleanTextFromElement(element)
-    field_text = para_text
-                        
-    # Check for emphasis
-    emphasis_element = element.find('.//db:emphasis', ns  )
-    emphasis_text = cleanTextFromElement( emphasis_element )
-    emphasis_link_text = getLinks( emphasis_element )
-    if emphasis_link_text and len(emphasis_link_text) > 0:
-        emphasis_text = emphasis_text + ' ' + emphasis_link_text
-                        
-    # check for olink
-    olink_element = element.find('.//db:olink', ns)
-    olink_text = ''
-    if olink_element is not None:
-        olink_targetdoc = cleanText( olink_element.get('targetdoc') )
-        olink_ptr = cleanText( olink_element.get('ptr') )
-                            
-        olink_text = ( olink_targetdoc+' '+olink_ptr ).strip()           
+# def getParaText( element ):
+#     para_text = cleanTextFromElement(element)
 
-    # check for xref
-    xref_element = element.find('.//db:xref', ns)
-    xref_text = ''
-    if (xref_element is not None):
-        xref_text = cleanText( xref_element.get('linkend') )
+#     if para_text.find( 'xref' )>0 :
+#         print('embedded xref')
 
-    field_text = para_text + emphasis_text
-    if len(field_text) == 0 :
-        field_text = olink_text + xref_text
-    return field_text
+#     if para_text.find( 'emphasis' )>0 :
+#         print('embedded emphasis')
+    
+#     if para_text.find( 'olink' )>0 :
+#         print('embedded olink')
+
+#     element_text = getElementText( element, dicom_path )
+
+#     field_text = para_text or element_text
+
+#     return field_text
 
 def getLinks( element ):
     link_elements = element.findall('.//db:link', ns) if element != None else []
@@ -161,7 +217,7 @@ def getLinks( element ):
 
     return link_text
 
-def getVariableListEntries( element: ET.Element ) -> Dict[str, List[str]]:
+def getVariableListEntries( element: ET.Element, dicom_path: str ) -> Dict[str, List[str]]:
     variableLists = element.findall(".//db:variablelist", ns)
 
     variableListEntries = dict()
@@ -170,20 +226,20 @@ def getVariableListEntries( element: ET.Element ) -> Dict[str, List[str]]:
         for variable in variableList:
             
             termNode = variable.find(".//db:term", ns)
-            term = getParaText(termNode)
+            term = getElementText(termNode, dicom_path)
             variable_texts = []
 
             listItems = variable.findall(".//db:listitem", ns)
             for listItem in listItems:
                 paraNode = listItem.find( './/db:para', ns)
-                para_text = getParaText(listItem)
+                para_text = getElementText(paraNode, dicom_path)
                 variable_texts.append(para_text)
 
             variableListEntries[term] = variable_texts
 
     return variableListEntries
 
-def getTableData( element: ET.Element  )-> (List[List[str]], List[List[str]]):
+def getTableData( element: ET.Element, dicom_path: str )-> (List[List[str]], List[List[str]]):
     """
     Extract values from a table element.
     
@@ -201,7 +257,7 @@ def getTableData( element: ET.Element  )-> (List[List[str]], List[List[str]]):
     thead = table.find('.//db:thead', ns)
     tbody = table.find('.//db:tbody', ns)
     
-    headers = getRowValues(thead) if thead is not None else []
+    headers = getRowValues(thead, dicom_path) if thead is not None else []
     values = []
     
     rows = tbody.findall('.//db:tr', ns)
@@ -209,32 +265,33 @@ def getTableData( element: ET.Element  )-> (List[List[str]], List[List[str]]):
         tds = row.findall('.//db:td', ns)
         td_values = []
         for td in tds:
-            para_elements = td.findall('.//db:para', ns)
-            link_elements = td.findall('.//db:link', ns)
+            text= getElementText( td, dicom_path )
+            # para_elements = td.findall('.//db:para', ns)
+            # link_elements = td.findall('.//db:link', ns)
 
-            link_text = ''
-            for link in link_elements:
-                if link is not None:
-                    text = cleanText( link.text )
-                    href = cleanText( link.get('{http://www.w3.org/1999/xlink}href') )
-                    show = cleanText( link.get('{http://www.w3.org/1999/xlink}show') )
-                    link_text = text or href or show
+            # link_text = ''
+            # for link in link_elements:
+            #     if link is not None:
+            #         text = cleanText( link.text )
+            #         href = cleanText( link.get('{http://www.w3.org/1999/xlink}href') )
+            #         show = cleanText( link.get('{http://www.w3.org/1999/xlink}show') )
+            #         link_text = text or href or show
 
-            para_text = ''
-            for para in para_elements:
-                para_text = getParaText(para)
-                xref_element = para.find('.//db:xref', ns)
-                if xref_element is not None:
-                    xref_text = cleanText( xref_element.get('linkend') )
-                    if xref_text:
-                        para_text += f' ({xref_text})'
+            # para_text = ''
+            # for para in para_elements:
+            #     para_text = getElementText(para, dicom_path)
+            #     xref_element = para.find('.//db:xref', ns)
+            #     if xref_element is not None:
+            #         xref_text = cleanText( xref_element.get('linkend') )
+            #         if xref_text:
+            #             para_text += f' ({xref_text})'
 
-            td_values.append(para_text or link_text) 
+            td_values.append(text) 
         values.append(td_values)
 
     return headers, values
 
-def getRowValues( element: ET.Element ) -> List[List[str]]:
+def getRowValues( element: ET.Element, dicom_path: str ) -> List[List[str]]:
     """
     Extract values from a row element.
     
@@ -253,39 +310,24 @@ def getRowValues( element: ET.Element ) -> List[List[str]]:
         all = tds + ths
         td_values = []
         for td in all:
-            para_elements = td.findall('.//db:para', ns)
-            link_elements = td.findall('.//db:link', ns)
+            # para_elements = td.findall('.//db:para', ns)
+            # link_elements = td.findall('.//db:link', ns)
+            link_text = getElementText( td, dicom_path )
+            # link_text = ''
+            # for link in link_elements:
+            #     if link is not None:
+            #         text = cleanText( link.text )
+            #         href = cleanText( link.get('{http://www.w3.org/1999/xlink}href') )
+            #         show = cleanText( link.get('{http://www.w3.org/1999/xlink}show') )
+            #         link_text = text or href or show
 
-            link_text = ''
-            for link in link_elements:
-                if link is not None:
-                    text = cleanText( link.text )
-                    href = cleanText( link.get('{http://www.w3.org/1999/xlink}href') )
-                    show = cleanText( link.get('{http://www.w3.org/1999/xlink}show') )
-                    link_text = text or href or show
+            # para_text = ''
+            # for para in para_elements:
+            #     para_text = getElementText(para, dicom_path)
 
-            para_text = ''
-            for para in para_elements:
-                para_text = getParaText(para)
-
-            td_values.append(para_text or link_text) 
+            td_values.append(link_text) 
         values.append(td_values)
     return values
-
-
-def cleanTextFromElement( element: Optional[ET.Element]) -> str:
-    """
-    Clean text from an XML element, removing unwanted characters.
-    
-    Args:
-        element: XML element to extract text from
-        
-    Returns:
-        Cleaned text string
-    """
-    if element is not None and element.text is not None:
-        return element.text.encode("ascii", 'ignore').decode('ascii').strip()
-    return ''   
 
 def cleanText( str:str ) -> str:
     """
@@ -297,4 +339,148 @@ def cleanText( str:str ) -> str:
     Returns:
         Cleaned string
     """
-    return str.encode("ascii", 'ignore').decode('ascii').strip() if str else ''
+    if not str:
+        return ''
+    new_text = str.encode("ascii", 'ignore').decode('ascii').strip() if str else ''
+    while( new_text.find('"')>0 ):
+        new_text = new_text.replace('"',"'")
+    return new_text
+
+PART_TREE_ROOTS: Dict[str, List] = {}
+
+def loadPartTreeRoot( dicom_path: str, part: str ) -> List:
+    if part in PART_TREE_ROOTS:
+        return PART_TREE_ROOTS[part]
+    
+    filename = os.path.join(dicom_path, f'{part}/{part}.xml')
+    tree = ET.parse(filename)
+    root = tree.getroot()
+    PART_TREE_ROOTS[part] = root
+    return root
+
+def getOlinkText( dicom_path, targetdoc, targetptr, xrefstyle ) -> str:
+    part = ''
+    if targetdoc:
+        partNo = targetdoc.split('.')[-1]
+        if len(partNo) == 1:
+            partNo = '0' + partNo   
+    
+        part = 'part' + partNo
+        
+        # filename = os.path.join(dicom_path, f'{part}/{part}.xml')
+        # tree = ET.parse(filename)
+        # root = tree.getroot()
+        root = loadPartTreeRoot( dicom_path, part )
+        
+        # Try to find a section with id=targetptr, then get its first child element
+        section_element = root.find(f".//db:section[@{{http://www.w3.org/XML/1998/namespace}}id='{targetptr}']", ns)
+        if section_element is not None:
+            
+            # title
+            title_element = section_element.find('db:title', ns)
+            title_text = title_element.text 
+
+            # label
+            label = section_element.get('label')
+            
+            # document name
+            docName = targetdoc
+            
+            olink_text = docName;
+
+            if xrefstyle and 'select:' in xrefstyle:
+                # Extract everything after 'selec:'
+                after_select = xrefstyle.split('select:', 1)[1]
+                # Split by space and filter out empty strings
+                label_texts = [after_select.strip().split(' ')][0]
+                olink_text = ''
+                
+                for lbl in label_texts:
+                    if lbl == 'label':
+                        olink_text = olink_text + ' ' + label
+                    elif lbl == 'labelnumber':
+                        olink_text = olink_text + ' ' + label
+                    elif lbl == 'quotedtitle':
+                        olink_text = olink_text + ' ' + title_text
+                    elif lbl == 'title':
+                        olink_text = olink_text + ' ' + title_text
+                    elif lbl == 'docname':
+                        olink_text = olink_text + ' ' + docName
+                    else:
+                        print(f'Unknown xrefstyle label: {lbl}')
+        
+            return olink_text.strip()
+
+    if xrefstyle and 'select:' in xrefstyle:
+        # Extract everything after 'selec:'
+        after_select = xrefstyle.split('select:', 1)[1]
+        # Split by space and filter out empty strings
+        label_texts = [after_select.strip().split(' ')][0]
+        olink_text = ''
+        
+        for lbl in label_texts:
+            if lbl == 'labelnumber':
+                olink_text = olink_text + ' ' + targetdoc
+            else:
+                print(f'Unknown xrefstyle label: {lbl}')
+
+        
+    return olink_text.strip()
+
+def getCanonicalVersion(dicom_path: str) -> str:
+    """
+    Extract the publication date from the index.html file.
+    
+    Args:
+        index_html_path: Path to the index.html file
+
+    Returns:
+        Publication date as a string
+    """
+    part01Filename = os.path.join(dicom_path, 'part01', 'part01.xml')
+    indexFilename = os.path.join(dicom_path, 'part01', 'index.html')
+    
+    tree = ET.parse(part01Filename)
+    root = tree.getroot()
+
+    # Extract the <book><subtitle> from the XML
+    subtitle_element = root.find('.//db:subtitle', ns)
+    subtitle = subtitle_element.text.strip() if subtitle_element is not None and subtitle_element.text else ""
+    # Extract the string after "PS3.1" in the subtitle
+    
+    publicationVersion = '?'
+    if "PS3.1" in subtitle:
+        after_ps31 = subtitle.split("PS3.1", 1)[1].strip()
+        after_ps31_words = after_ps31.split(' ')
+        if len(after_ps31_words) > 1:
+            publicationVersion = after_ps31_words[0]
+    publicationVersionNumber = "?"
+    if publicationVersion and len(publicationVersion)>0:
+        if publicationVersion.endswith('a' ) :
+            publicationVersionNumber = 1
+        elif publicationVersion.endswith('b' ) :
+            publicationVersionNumber = 2
+        elif publicationVersion.endswith('c' ) :
+            publicationVersionNumber = 3
+        elif publicationVersion.endswith('d' ) :    
+            publicationVersionNumber = 4
+        elif publicationVersion.endswith('e' ) :    
+            publicationVersionNumber = 5
+        else:
+            publicationVersionNumber = "?"
+
+    publicationDate = "?"
+    with open(indexFilename, "r", encoding="utf-8") as f:
+        content = f.read()
+        date_pattern = r'\b\d{1,2}/\d{1,2}/\d{4}\b'
+        matches = re.findall(date_pattern, content)
+        if matches:
+            # Format date as MMDDYYYY with leading zeros
+            month, day, year = matches[0].split('/')
+            month = month.zfill(2)
+            day = day.zfill(2)
+            publicationDate = f"{year}{month}{day}"
+    cannonicalVersion = f"{publicationVersion[:4]}.{publicationVersionNumber}.{publicationDate}"
+    
+    
+    return cannonicalVersion

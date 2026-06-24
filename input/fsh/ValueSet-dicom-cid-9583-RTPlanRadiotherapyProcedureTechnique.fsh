@@ -3,12 +3,15 @@ Id          : dicom-cid-9583-RTPlanRadiotherapyProcedureTechnique
 Description :
 """
 RT Plan Radiotherapy Procedure Technique
+
+The content in this ValueSet is based on [CID 9583](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9583.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1486"
 * ^version = "20240616"
-* ^title = "RT Plan Radiotherapy Procedure Technique"
+* ^title = "RT Plan Radiotherapy Procedure Technique (CID 9583)"
 * ^name = "RTPlanRadiotherapyProcedureTechnique"
+* ^experimental = false
 * include codes from valueset CID_9511
 
 * include codes from valueset CID_9512

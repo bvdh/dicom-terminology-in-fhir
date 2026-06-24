@@ -3,12 +3,15 @@ Id          : dicom-cid-12103-VascularUltrasoundAnatomicLocation
 Description :
 """
 Vascular Ultrasound Anatomic Location
+
+The content in this ValueSet is based on [CID 12103](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12103.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.570"
 * ^version = "20030327"
-* ^title = "Vascular Ultrasound Anatomic Location"
+* ^title = "Vascular Ultrasound Anatomic Location (CID 12103)"
 * ^name = "VascularUltrasoundAnatomicLocation"
+* ^experimental = false
 * include codes from valueset CID_12104
 
 * include codes from valueset CID_12105

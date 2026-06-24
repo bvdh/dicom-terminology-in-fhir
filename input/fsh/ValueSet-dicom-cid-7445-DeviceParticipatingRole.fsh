@@ -3,15 +3,18 @@ Id          : dicom-cid-7445-DeviceParticipatingRole
 Description :
 """
 Device Participating Role
+
+The content in this ValueSet is based on [CID 7445](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7445.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1042"
 * ^version = "20120406"
-* ^title = "Device Participating Role"
+* ^title = "Device Participating Role (CID 7445)"
 * ^name = "DeviceParticipatingRole"
-* DICOMDCMCodeSystem#113859 "Irradiating Device" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113859 //"Irradiating Device" 
 
-* DICOMDCMCodeSystem#121097 "Recording" 
+* DICOM_DCM_CodeSystem#121097 //"Recording" 
 
-* DICOMDCMCodeSystem#113942 "X-Ray Reading Device" 
+* DICOM_DCM_CodeSystem#113942 //"X-Ray Reading Device" 
 

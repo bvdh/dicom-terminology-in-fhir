@@ -3,12 +3,15 @@ Id          : dicom-cid-12270-CardiacUltrasoundAorticValveMeasurement
 Description :
 """
 Cardiac Ultrasound Aortic Valve Measurement
+
+The content in this ValueSet is based on [CID 12270](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12270.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.851"
 * ^version = "20100317"
-* ^title = "Cardiac Ultrasound Aortic Valve Measurement"
+* ^title = "Cardiac Ultrasound Aortic Valve Measurement (CID 12270)"
 * ^name = "CardiacUltrasoundAorticValveMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
 * include codes from valueset CID_12222
@@ -23,6 +26,5 @@ Cardiac Ultrasound Aortic Valve Measurement
 
 * include codes from valueset CID_12254
 
-* http://loinc.org#17996-0 "Aortic Valve Cusp Separation" 
-* http://terminology.hl7.org/CodeSystem/umls#C0801046 "Aortic Valve Cusp Separation" 
+* http://loinc.org#17996-0 //"Aortic Valve Cusp Separation" 
 

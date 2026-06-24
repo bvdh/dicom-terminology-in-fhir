@@ -3,12 +3,15 @@ Id          : dicom-cid-12266-CardiacUltrasoundMitralValveMeasurement
 Description :
 """
 Cardiac Ultrasound Mitral Valve Measurement
+
+The content in this ValueSet is based on [CID 12266](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12266.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.847"
 * ^version = "20100317"
-* ^title = "Cardiac Ultrasound Mitral Valve Measurement"
+* ^title = "Cardiac Ultrasound Mitral Valve Measurement (CID 12266)"
 * ^name = "CardiacUltrasoundMitralValveMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12220
 
 * include codes from valueset CID_12222
@@ -25,12 +28,9 @@ Cardiac Ultrasound Mitral Valve Measurement
 
 * include codes from valueset CID_3612
 
-* http://loinc.org#18035-6 "Mitral Regurgitation dP/dt derived from Mitral Reg. velocity" 
-* http://terminology.hl7.org/CodeSystem/umls#C0801084 "Mitral Regurgitation dP/dt derived from Mitral Reg. velocity" 
+* http://loinc.org#18035-6 //"Mitral Regurgitation dP/dt derived from Mitral Reg. velocity" 
 
-* http://loinc.org#59098-4 "Mitral Valve E-septal Separation" 
-* http://terminology.hl7.org/CodeSystem/umls#C2923431 "Mitral Valve E-septal Separation" 
+* http://loinc.org#59098-4 //"Mitral Valve E-septal Separation" 
 
-* http://loinc.org#18036-4 "Mitral Valve EPSS, E wave" 
-* http://terminology.hl7.org/CodeSystem/umls#C0801085 "Mitral Valve EPSS, E wave" 
+* http://loinc.org#18036-4 //"Mitral Valve EPSS, E wave" 
 

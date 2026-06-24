@@ -3,12 +3,15 @@ Id          : dicom-cid-1001-AnatomicalReferenceBasis
 Description :
 """
 Anatomical Reference Basis
+
+The content in this ValueSet is based on [CID 1001](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_1001.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1122"
 * ^version = "20160905"
-* ^title = "Anatomical Reference Basis"
+* ^title = "Anatomical Reference Basis (CID 1001)"
 * ^name = "AnatomicalReferenceBasis"
+* ^experimental = false
 * include codes from valueset CID_1002
 
 * include codes from valueset CID_1003

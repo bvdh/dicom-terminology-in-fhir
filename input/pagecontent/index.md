@@ -1,3 +1,7 @@
 # DICOM Terminology in FHIR
 
-Feel free to modify this index page with your own awesome content!
+This IG presents a FHIR representation of the majority part of the terminology contained in the DICOM specification.
+
+## How the content is generated
+
+All content presented in this IG is generated directly from the DICOM docbook files.

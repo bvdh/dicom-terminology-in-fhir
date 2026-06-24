@@ -3,13 +3,16 @@ Id          : dicom-cid-9538-RadiationTransportBasedEffectiveDoseMethodModifie
 Description :
 """
 Radiation Transport-Based Effective Dose Method Modifier
+
+The content in this ValueSet is based on [CID 9538](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9538.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1248"
 * ^version = "20181112"
-* ^title = "Radiation Transport-based Effective Dose Method Modifier"
+* ^title = "Radiation Transport-based Effective Dose Method Modifier (CID 9538)"
 * ^name = "RadiationTransportBasedEffectiveDoseMethodModifier"
-* DICOMDCMCodeSystem#130128 "Local Effect Model" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130128 //"Local Effect Model" 
 
-* DICOMDCMCodeSystem#130129 "Microdosimetric Kinetic Model" 
+* DICOM_DCM_CodeSystem#130129 //"Microdosimetric Kinetic Model" 
 

@@ -3,23 +3,26 @@ Id          : dicom-cid-10017-XRayGrid
 Description :
 """
 X-Ray Grid
+
+The content in this ValueSet is based on [CID 10017](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_10017.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.549"
 * ^version = "20210903"
-* ^title = "X-Ray Grid"
+* ^title = "X-Ray Grid (CID 10017)"
 * ^name = "XRayGrid"
-* DICOMDCMCodeSystem#111641 "Fixed grid" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111641 //"Fixed grid" 
 
-* DICOMDCMCodeSystem#111642 "Focused grid" 
+* DICOM_DCM_CodeSystem#111642 //"Focused grid" 
 
-* DICOMDCMCodeSystem#111643 "Reciprocating grid" 
+* DICOM_DCM_CodeSystem#111643 //"Reciprocating grid" 
 
-* DICOMDCMCodeSystem#111644 "Parallel grid" 
+* DICOM_DCM_CodeSystem#111644 //"Parallel grid" 
 
-* DICOMDCMCodeSystem#111645 "Crossed grid" 
+* DICOM_DCM_CodeSystem#111645 //"Crossed grid" 
 
-* DICOMDCMCodeSystem#111646 "No grid" 
+* DICOM_DCM_CodeSystem#111646 //"No grid" 
 
-* DICOMDCMCodeSystem#111640 "Virtual grid" 
+* DICOM_DCM_CodeSystem#111640 //"Virtual grid" 
 

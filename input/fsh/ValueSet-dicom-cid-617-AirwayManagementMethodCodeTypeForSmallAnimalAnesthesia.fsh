@@ -3,13 +3,16 @@ Id          : dicom-cid-617-AirwayManagementMethodCodeTypeForSmallAnimalAnesth
 Description :
 """
 Airway Management Method Code Type for Small Animal Anesthesia
+
+The content in this ValueSet is based on [CID 617](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_617.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1082"
 * ^version = "20151110"
-* ^title = "Airway Management Method Code Type for Small Animal Anesthesia"
+* ^title = "Airway Management Method Code Type for Small Animal Anesthesia (CID 617)"
 * ^name = "AirwayManagementMethodCodeTypeForSmallAnimalAnesthesia"
+* ^experimental = false
 * include codes from valueset CID_618
 
-* DICOMDCMCodeSystem#127060 "Nose cone" 
+* DICOM_DCM_CodeSystem#127060 //"Nose cone" 
 

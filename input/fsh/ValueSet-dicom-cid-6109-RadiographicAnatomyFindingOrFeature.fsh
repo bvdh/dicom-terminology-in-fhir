@@ -3,12 +3,15 @@ Id          : dicom-cid-6109-RadiographicAnatomyFindingOrFeature
 Description :
 """
 Original source of terms is [Fraser and Pare].
+
+The content in this ValueSet is based on [CID 6109](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6109.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.429"
 * ^version = "20030108"
-* ^title = "Radiographic Anatomy Finding or Feature"
+* ^title = "Radiographic Anatomy Finding or Feature (CID 6109)"
 * ^name = "RadiographicAnatomyFindingOrFeature"
+* ^experimental = false
 * include codes from valueset CID_6110
 
 * include codes from valueset CID_6111
@@ -23,9 +26,9 @@ Original source of terms is [Fraser and Pare].
 
 * include codes from valueset CID_6117
 
-* DICOMDCMCodeSystem#112082 "Interface" 
+* DICOM_DCM_CodeSystem#112082 //"Interface" 
 
-* DICOMDCMCodeSystem#112083 "Line" 
+* DICOM_DCM_CodeSystem#112083 //"Line" 
 
-* DICOMDCMCodeSystem#112084 "Lucency" 
+* DICOM_DCM_CodeSystem#112084 //"Lucency" 
 

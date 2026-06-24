@@ -3,21 +3,18 @@ Id          : dicom-cid-6323-ProstateCancerTherapy
 Description :
 """
 Prostate Cancer Therapy
+
+The content in this ValueSet is based on [CID 6323](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6323.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1380"
 * ^version = "20210714"
-* ^title = "Prostate Cancer Therapy"
+* ^title = "Prostate Cancer Therapy (CID 6323)"
 * ^name = "ProstateCancerTherapy"
-* http://snomed.info/sct#707266006 "Androgen Deprivation Therapy" 
-* http://snomed.info/srt#R-FC5CD "Androgen Deprivation Therapy" 
-* http://terminology.hl7.org/CodeSystem/umls#C0279492 "Androgen Deprivation Therapy" 
+* ^experimental = false
+* http://snomed.info/sct#707266006 //"Androgen Deprivation Therapy" 
 
-* http://snomed.info/sct#425767004 "Implantation of radioactive seed into prostate" 
-* http://snomed.info/srt#P5-C0641 "Implantation of radioactive seed into prostate" 
-* http://terminology.hl7.org/CodeSystem/umls#C1960738 "Implantation of radioactive seed into prostate" 
+* http://snomed.info/sct#425767004 //"Implantation of radioactive seed into prostate" 
 
-* http://snomed.info/sct#90470006 "Prostatectomy" 
-* http://snomed.info/srt#P1-78320 "Prostatectomy" 
-* http://terminology.hl7.org/CodeSystem/umls#C0033573 "Prostatectomy" 
+* http://snomed.info/sct#90470006 //"Prostatectomy" 
 

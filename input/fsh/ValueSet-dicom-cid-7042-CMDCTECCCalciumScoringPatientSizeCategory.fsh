@@ -3,15 +3,18 @@ Id          : dicom-cid-7042-CMDCTECCCalciumScoringPatientSizeCategory
 Description :
 """
 CMDCTECC Calcium Scoring Patient Size Category
+
+The content in this ValueSet is based on [CID 7042](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7042.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.825"
 * ^version = "20100127"
-* ^title = "CMDCTECC Calcium Scoring Patient Size Category"
+* ^title = "CMDCTECC Calcium Scoring Patient Size Category (CID 7042)"
 * ^name = "CMDCTECCCalciumScoringPatientSizeCategory"
-* DICOMDCMCodeSystem#113601 "Small: < 32.0 cm lateral thickness" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113601 //"Small: < 32.0 cm lateral thickness" 
 
-* DICOMDCMCodeSystem#113602 "Medium: 32.0-38.0 cm lateral thickness" 
+* DICOM_DCM_CodeSystem#113602 //"Medium: 32.0-38.0 cm lateral thickness" 
 
-* DICOMDCMCodeSystem#113603 "Large: > 38.0 cm lateral thickness" 
+* DICOM_DCM_CodeSystem#113603 //"Large: > 38.0 cm lateral thickness" 
 

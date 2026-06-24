@@ -3,37 +3,26 @@ Id          : dicom-cid-3118-RiskLevel
 Description :
 """
 Level of Risk
+
+The content in this ValueSet is based on [CID 3118](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3118.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.750"
 * ^version = "20080927"
-* ^title = "Level of Risk"
+* ^title = "Level of Risk (CID 3118)"
 * ^name = "RiskLevel"
-* http://snomed.info/sct#427986001 "Normal risk" 
-* http://snomed.info/srt#G-4044 "Normal risk" 
-* http://terminology.hl7.org/CodeSystem/umls#C1998074 "Normal risk" 
+* ^experimental = false
+* http://snomed.info/sct#427986001 //"Normal risk" 
 
-* http://snomed.info/sct#75976002 "Low risk" 
-* http://snomed.info/srt#G-4041 "Low risk" 
-* http://terminology.hl7.org/CodeSystem/umls#C0332165 "Low risk" 
+* http://snomed.info/sct#75976002 //"Low risk" 
 
-* http://snomed.info/sct#429551001 "Low to moderate risk" 
-* http://snomed.info/srt#G-4045 "Low to moderate risk" 
-* http://terminology.hl7.org/CodeSystem/umls#C1998307 "Low to moderate risk" 
+* http://snomed.info/sct#429551001 //"Low to moderate risk" 
 
-* http://snomed.info/sct#25594002 "Moderate risk" 
-* http://snomed.info/srt#G-4042 "Moderate risk" 
-* http://terminology.hl7.org/CodeSystem/umls#C0332166 "Moderate risk" 
+* http://snomed.info/sct#25594002 //"Moderate risk" 
 
-* http://snomed.info/sct#429557002 "Moderate to high risk" 
-* http://snomed.info/srt#G-4046 "Moderate to high risk" 
-* http://terminology.hl7.org/CodeSystem/umls#C1998133 "Moderate to high risk" 
+* http://snomed.info/sct#429557002 //"Moderate to high risk" 
 
-* http://snomed.info/sct#15508007 "High risk" 
-* http://snomed.info/srt#G-4043 "High risk" 
-* http://terminology.hl7.org/CodeSystem/umls#C0332167 "High risk" 
+* http://snomed.info/sct#15508007 //"High risk" 
 
-* http://snomed.info/sct#64957009 "Uncertain risk" 
-* http://snomed.info/srt#G-A648 "Uncertain risk" 
-* http://terminology.hl7.org/CodeSystem/umls#C0087130 "Uncertain risk" 
+* http://snomed.info/sct#64957009 //"Uncertain risk" 
 

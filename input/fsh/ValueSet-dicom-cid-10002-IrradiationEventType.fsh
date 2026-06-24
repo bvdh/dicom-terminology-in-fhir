@@ -3,19 +3,20 @@ Id          : dicom-cid-10002-IrradiationEventType
 Description :
 """
 Irradiation Event Type
+
+The content in this ValueSet is based on [CID 10002](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_10002.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.536"
 * ^version = "20051101"
-* ^title = "Irradiation Event Type"
+* ^title = "Irradiation Event Type (CID 10002)"
 * ^name = "IrradiationEventType"
-* http://snomed.info/sct#44491008 "Fluoroscopy" 
-* http://snomed.info/srt#P5-06000 "Fluoroscopy" 
-* http://terminology.hl7.org/CodeSystem/umls#C0016356 "Fluoroscopy" 
+* ^experimental = false
+* http://snomed.info/sct#44491008 //"Fluoroscopy" 
 
-* DICOMDCMCodeSystem#113611 "Stationary Acquisition" 
+* DICOM_DCM_CodeSystem#113611 //"Stationary Acquisition" 
 
-* DICOMDCMCodeSystem#113612 "Stepping Acquisition" 
+* DICOM_DCM_CodeSystem#113612 //"Stepping Acquisition" 
 
-* DICOMDCMCodeSystem#113613 "Rotational Acquisition" 
+* DICOM_DCM_CodeSystem#113613 //"Rotational Acquisition" 
 

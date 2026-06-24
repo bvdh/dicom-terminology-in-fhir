@@ -3,12 +3,15 @@ Id          : dicom-cid-9520-SegmentedRTAccessoryDevice
 Description :
 """
 Segmented RT Accessory Device
+
+The content in this ValueSet is based on [CID 9520](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9520.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1230"
 * ^version = "20181112"
-* ^title = "Segmented RT Accessory Device"
+* ^title = "Segmented RT Accessory Device (CID 9520)"
 * ^name = "SegmentedRTAccessoryDevice"
+* ^experimental = false
 * include codes from valueset CID_9513
 
 * include codes from valueset CID_9506

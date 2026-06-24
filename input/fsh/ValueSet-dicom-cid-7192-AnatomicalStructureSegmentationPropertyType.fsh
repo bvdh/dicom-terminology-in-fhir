@@ -3,12 +3,15 @@ Id          : dicom-cid-7192-AnatomicalStructureSegmentationPropertyType
 Description :
 """
 Anatomical Structure Segmentation Property Type
+
+The content in this ValueSet is based on [CID 7192](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7192.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1191"
 * ^version = "20240915"
-* ^title = "Anatomical Structure Segmentation Property Type"
+* ^title = "Anatomical Structure Segmentation Property Type (CID 7192)"
 * ^name = "AnatomicalStructureSegmentationPropertyType"
+* ^experimental = false
 * include codes from valueset CID_4
 
 * include codes from valueset CID_3010
@@ -59,7 +62,5 @@ Anatomical Structure Segmentation Property Type
 
 * include codes from valueset CID_4275
 
-* http://snomed.info/sct#91806002 "Body cavity" 
-* http://snomed.info/srt#T-D00A3 "Body cavity" 
-* http://terminology.hl7.org/CodeSystem/umls#C0333343 "Body cavity" 
+* http://snomed.info/sct#91806002 //"Body cavity" 
 

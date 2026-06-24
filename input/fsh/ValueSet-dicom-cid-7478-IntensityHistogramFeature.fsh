@@ -3,55 +3,58 @@ Id          : dicom-cid-7478-IntensityHistogramFeature
 Description :
 """
 Intensity Histogram Feature
+
+The content in this ValueSet is based on [CID 7478](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7478.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1271"
 * ^version = "20190121"
-* ^title = "Intensity Histogram Feature"
+* ^title = "Intensity Histogram Feature (CID 7478)"
 * ^name = "IntensityHistogramFeature"
-* IBSICodeSystem#X6K6 "Intensity Histogram Mean" 
+* ^experimental = false
+* IBSICodeSystem#X6K6 //"Intensity Histogram Mean" 
 
-* IBSICodeSystem#CH89 "Intensity Histogram Variance" 
+* IBSICodeSystem#CH89 //"Intensity Histogram Variance" 
 
-* IBSICodeSystem#88K1 "Intensity Histogram Skewness" 
+* IBSICodeSystem#88K1 //"Intensity Histogram Skewness" 
 
-* IBSICodeSystem#C3I7 "Intensity Histogram Kurtosis" 
+* IBSICodeSystem#C3I7 //"Intensity Histogram Kurtosis" 
 
-* IBSICodeSystem#WIFQ "Intensity Histogram Median" 
+* IBSICodeSystem#WIFQ //"Intensity Histogram Median" 
 
-* IBSICodeSystem#1PR8 "Intensity Histogram Minimum Gray Level" 
+* IBSICodeSystem#1PR8 //"Intensity Histogram Minimum Gray Level" 
 
-* IBSICodeSystem#GPMT "Intensity Histogram 10th Percentile" 
+* IBSICodeSystem#GPMT //"Intensity Histogram 10th Percentile" 
 
-* IBSICodeSystem#OZ0C "Intensity Histogram 90th Percentile" 
+* IBSICodeSystem#OZ0C //"Intensity Histogram 90th Percentile" 
 
-* IBSICodeSystem#3NCY "Intensity Histogram Maximum Gray Level" 
+* IBSICodeSystem#3NCY //"Intensity Histogram Maximum Gray Level" 
 
-* IBSICodeSystem#AMMC "Intensity Histogram Mode" 
+* IBSICodeSystem#AMMC //"Intensity Histogram Mode" 
 
-* IBSICodeSystem#WR0O "Intensity Histogram Interquartile Range" 
+* IBSICodeSystem#WR0O //"Intensity Histogram Interquartile Range" 
 
-* IBSICodeSystem#5Z3W "Intensity Histogram Range" 
+* IBSICodeSystem#5Z3W //"Intensity Histogram Range" 
 
-* IBSICodeSystem#D2ZX "Intensity Histogram Mean Absolute Deviation" 
+* IBSICodeSystem#D2ZX //"Intensity Histogram Mean Absolute Deviation" 
 
-* IBSICodeSystem#WRZB "Intensity Histogram Robust Mean Absolute Deviation" 
+* IBSICodeSystem#WRZB //"Intensity Histogram Robust Mean Absolute Deviation" 
 
-* IBSICodeSystem#4RNL "Intensity Histogram Median Absolute Deviation" 
+* IBSICodeSystem#4RNL //"Intensity Histogram Median Absolute Deviation" 
 
-* IBSICodeSystem#CWYJ "Intensity Histogram Coefficient of Variation" 
+* IBSICodeSystem#CWYJ //"Intensity Histogram Coefficient of Variation" 
 
-* IBSICodeSystem#SLWD "Intensity Histogram Quartile Coefficient of Dispersion" 
+* IBSICodeSystem#SLWD //"Intensity Histogram Quartile Coefficient of Dispersion" 
 
-* IBSICodeSystem#TLU2 "Intensity Histogram Entropy" 
+* IBSICodeSystem#TLU2 //"Intensity Histogram Entropy" 
 
-* IBSICodeSystem#BJ5W "Intensity Histogram Uniformity" 
+* IBSICodeSystem#BJ5W //"Intensity Histogram Uniformity" 
 
-* IBSICodeSystem#12CE "Intensity Histogram Maximum Gradient" 
+* IBSICodeSystem#12CE //"Intensity Histogram Maximum Gradient" 
 
-* IBSICodeSystem#8E6O "Intensity Histogram Maximum Gradient Gray Level" 
+* IBSICodeSystem#8E6O //"Intensity Histogram Maximum Gradient Gray Level" 
 
-* IBSICodeSystem#VQB3 "Intensity Histogram Minimum Gradient" 
+* IBSICodeSystem#VQB3 //"Intensity Histogram Minimum Gradient" 
 
-* IBSICodeSystem#RHQZ "Intensity Histogram Minimum Gradient Gray Level" 
+* IBSICodeSystem#RHQZ //"Intensity Histogram Minimum Gradient Gray Level" 
 

@@ -2,16 +2,19 @@ ValueSet    : CID_6304
 Id          : dicom-cid-6304-ProstateSectorAnatomyFromPIRADSv21
 Description :
 """
-From
+Frombiblio_PIRADS21
+
+The content in this ValueSet is based on [CID 6304](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6304.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1306"
 * ^version = "20200117"
-* ^title = "Prostate Sector Anatomy from PI-RADS v2.1"
+* ^title = "Prostate Sector Anatomy from PI-RADS v2.1 (CID 6304)"
 * ^name = "ProstateSectorAnatomyFromPIRADSv21"
+* ^experimental = false
 * include codes from valueset CID_6301
 
-* http://snomed.info/sct#836427009 "Left posteromedial basal peripheral zone of prostate" 
+* http://snomed.info/sct#836427009 //"Left posteromedial basal peripheral zone of prostate" 
 
-* http://snomed.info/sct#836428004 "Right posteromedial basal peripheral zone of prostate" 
+* http://snomed.info/sct#836428004 //"Right posteromedial basal peripheral zone of prostate" 
 

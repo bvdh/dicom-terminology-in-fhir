@@ -3,25 +3,28 @@ Id          : dicom-cid-10047-GFRMeasurementMethod
 Description :
 """
 GFR Measurement Method
+
+The content in this ValueSet is based on [CID 10047](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_10047.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.979"
 * ^version = "20140419"
-* ^title = "GFR Measurement Method"
+* ^title = "GFR Measurement Method (CID 10047)"
 * ^name = "GFRMeasurementMethod"
-* DICOMDCMCodeSystem#113570 "Cockroft-Gault Formula estimation of GFR" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113570 //"Cockroft-Gault Formula estimation of GFR" 
 
-* DICOMDCMCodeSystem#113571 "CKD-EPI Formula estimation of GFR" 
+* DICOM_DCM_CodeSystem#113571 //"CKD-EPI Formula estimation of GFR" 
 
-* DICOMDCMCodeSystem#113572 "Glomerular Filtration Rate (MDRD)" 
+* DICOM_DCM_CodeSystem#113572 //"Glomerular Filtration Rate (MDRD)" 
 
-* DICOMDCMCodeSystem#113573 "Glomerular Filtration Rate non-black (MDRD)" 
+* DICOM_DCM_CodeSystem#113573 //"Glomerular Filtration Rate non-black (MDRD)" 
 
-* DICOMDCMCodeSystem#113574 "Glomerular Filtration Rate black (MDRD)" 
+* DICOM_DCM_CodeSystem#113574 //"Glomerular Filtration Rate black (MDRD)" 
 
-* DICOMDCMCodeSystem#113575 "Glomerular Filtration Rate female (MDRD)" 
+* DICOM_DCM_CodeSystem#113575 //"Glomerular Filtration Rate female (MDRD)" 
 
-* DICOMDCMCodeSystem#113576 "Glomerular Filtration Rate Cystatin-based formula" 
+* DICOM_DCM_CodeSystem#113576 //"Glomerular Filtration Rate Cystatin-based formula" 
 
-* DICOMDCMCodeSystem#113577 "Glomerular Filtration Rate Creatinine-based formula (Schwartz)" 
+* DICOM_DCM_CodeSystem#113577 //"Glomerular Filtration Rate Creatinine-based formula (Schwartz)" 
 

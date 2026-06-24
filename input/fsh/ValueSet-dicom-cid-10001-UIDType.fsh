@@ -3,17 +3,20 @@ Id          : dicom-cid-10001-UIDType
 Description :
 """
 UID Type
+
+The content in this ValueSet is based on [CID 10001](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_10001.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.535"
 * ^version = "20190327"
-* ^title = "UID Type"
+* ^title = "UID Type (CID 10001)"
 * ^name = "UIDType"
-* DICOMDCMCodeSystem#110180 "Study Instance UID" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#110180 //"Study Instance UID" 
 
-* DICOMDCMCodeSystem#112002 "Series Instance UID" 
+* DICOM_DCM_CodeSystem#112002 //"Series Instance UID" 
 
-* DICOMDCMCodeSystem#121126 "Performed Procedure Step SOP Instance UID" 
+* DICOM_DCM_CodeSystem#121126 //"Performed Procedure Step SOP Instance UID" 
 
-* DICOMDCMCodeSystem#113769 "Irradiation Event UID" 
+* DICOM_DCM_CodeSystem#113769 //"Irradiation Event UID" 
 

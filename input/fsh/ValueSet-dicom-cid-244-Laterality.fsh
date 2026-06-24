@@ -3,19 +3,18 @@ Id          : dicom-cid-244-Laterality
 Description :
 """
 Laterality
+
+The content in this ValueSet is based on [CID 244](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_244.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.37"
 * ^version = "20030108"
-* ^title = "Laterality"
+* ^title = "Laterality (CID 244)"
 * ^name = "Laterality"
+* ^experimental = false
 * include codes from valueset CID_247
 
-* http://snomed.info/sct#51440002 "Bilateral" 
-* http://snomed.info/srt#G-A102 "Bilateral" 
-* http://terminology.hl7.org/CodeSystem/umls#C0238767 "Bilateral" 
+* http://snomed.info/sct#51440002 //"Bilateral" 
 
-* http://snomed.info/sct#66459002 "Unilateral" 
-* http://snomed.info/srt#G-A103 "Unilateral" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205092 "Unilateral" 
+* http://snomed.info/sct#66459002 //"Unilateral" 
 

@@ -3,97 +3,100 @@ Id          : dicom-cid-29-AcquisitionModality
 Description :
 """
 This Context Group is not the complete set of codes that may appear in Modality (0008,0060); these are only the codes associated with orderable acquisition processes (not pre-acquisition activities or post-processing).
+
+The content in this ValueSet is based on [CID 29](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.19"
 * ^version = "20231115"
-* ^title = "Acquisition Modality"
+* ^title = "Acquisition Modality (CID 29)"
 * ^name = "AcquisitionModality"
-* DICOMDCMCodeSystem#AR "Autorefraction" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#AR //"Autorefraction" 
 
-* DICOMDCMCodeSystem#BI "Biomagnetic Imaging" 
+* DICOM_DCM_CodeSystem#BI //"Biomagnetic Imaging" 
 
-* DICOMDCMCodeSystem#BMD "Bone Mineral Densitometry" 
+* DICOM_DCM_CodeSystem#BMD //"Bone Mineral Densitometry" 
 
-* DICOMDCMCodeSystem#CR "Computed Radiography" 
+* DICOM_DCM_CodeSystem#CR //"Computed Radiography" 
 
-* DICOMDCMCodeSystem#CT "Computed Tomography" 
+* DICOM_DCM_CodeSystem#CT //"Computed Tomography" 
 
-* DICOMDCMCodeSystem#CFM "Confocal Microscopy" 
+* DICOM_DCM_CodeSystem#CFM //"Confocal Microscopy" 
 
-* DICOMDCMCodeSystem#DMS "Dermoscopy" 
+* DICOM_DCM_CodeSystem#DMS //"Dermoscopy" 
 
-* DICOMDCMCodeSystem#DG "Diaphanography" 
+* DICOM_DCM_CodeSystem#DG //"Diaphanography" 
 
-* DICOMDCMCodeSystem#DX "Digital Radiography" 
+* DICOM_DCM_CodeSystem#DX //"Digital Radiography" 
 
-* DICOMDCMCodeSystem#ES "Endoscopy" 
+* DICOM_DCM_CodeSystem#ES //"Endoscopy" 
 
-* DICOMDCMCodeSystem#XC "External-camera Photography" 
+* DICOM_DCM_CodeSystem#XC //"External-camera Photography" 
 
-* DICOMDCMCodeSystem#GM "General Microscopy" 
+* DICOM_DCM_CodeSystem#GM //"General Microscopy" 
 
-* DICOMDCMCodeSystem#IO "Intra-oral Radiography" 
+* DICOM_DCM_CodeSystem#IO //"Intra-oral Radiography" 
 
-* DICOMDCMCodeSystem#IVOCT "Intravascular Optical Coherence Tomography" 
+* DICOM_DCM_CodeSystem#IVOCT //"Intravascular Optical Coherence Tomography" 
 
-* DICOMDCMCodeSystem#IVUS "Intravascular Ultrasound" 
+* DICOM_DCM_CodeSystem#IVUS //"Intravascular Ultrasound" 
 
-* DICOMDCMCodeSystem#KER "Keratometry" 
+* DICOM_DCM_CodeSystem#KER //"Keratometry" 
 
-* DICOMDCMCodeSystem#LS "Laser surface scan" 
+* DICOM_DCM_CodeSystem#LS //"Laser surface scan" 
 
-* DICOMDCMCodeSystem#LEN "Lensometry" 
+* DICOM_DCM_CodeSystem#LEN //"Lensometry" 
 
-* DICOMDCMCodeSystem#MR "Magnetic Resonance" 
+* DICOM_DCM_CodeSystem#MR //"Magnetic Resonance" 
 
-* DICOMDCMCodeSystem#MG "Mammography" 
+* DICOM_DCM_CodeSystem#MG //"Mammography" 
 
-* DICOMDCMCodeSystem#NM "Nuclear Medicine" 
+* DICOM_DCM_CodeSystem#NM //"Nuclear Medicine" 
 
-* DICOMDCMCodeSystem#OAM "Ophthalmic Axial Measurements" 
+* DICOM_DCM_CodeSystem#OAM //"Ophthalmic Axial Measurements" 
 
-* DICOMDCMCodeSystem#OPM "Ophthalmic Mapping" 
+* DICOM_DCM_CodeSystem#OPM //"Ophthalmic Mapping" 
 
-* DICOMDCMCodeSystem#OP "Ophthalmic Photography" 
+* DICOM_DCM_CodeSystem#OP //"Ophthalmic Photography" 
 
-* DICOMDCMCodeSystem#OPT "Ophthalmic Tomography" 
+* DICOM_DCM_CodeSystem#OPT //"Ophthalmic Tomography" 
 
-* DICOMDCMCodeSystem#OPTBSV "Ophthalmic Tomography B-scan Volume Analysis" 
+* DICOM_DCM_CodeSystem#OPTBSV //"Ophthalmic Tomography B-scan Volume Analysis" 
 
-* DICOMDCMCodeSystem#OPTENF "Ophthalmic Tomography En Face" 
+* DICOM_DCM_CodeSystem#OPTENF //"Ophthalmic Tomography En Face" 
 
-* DICOMDCMCodeSystem#OPV "Ophthalmic Visual Field" 
+* DICOM_DCM_CodeSystem#OPV //"Ophthalmic Visual Field" 
 
-* DICOMDCMCodeSystem#OCT "Optical Coherence Tomography" 
+* DICOM_DCM_CodeSystem#OCT //"Optical Coherence Tomography" 
 
-* DICOMDCMCodeSystem#OSS "Optical Surface Scanner" 
+* DICOM_DCM_CodeSystem#OSS //"Optical Surface Scanner" 
 
-* DICOMDCMCodeSystem#PX "Panoramic X-Ray" 
+* DICOM_DCM_CodeSystem#PX //"Panoramic X-Ray" 
 
-* DICOMDCMCodeSystem#PA "Photoacoustic" 
+* DICOM_DCM_CodeSystem#PA //"Photoacoustic" 
 
-* DICOMDCMCodeSystem#PT "Positron emission tomography" 
+* DICOM_DCM_CodeSystem#PT //"Positron emission tomography" 
 
-* DICOMDCMCodeSystem#RF "Radiofluoroscopy" 
+* DICOM_DCM_CodeSystem#RF //"Radiofluoroscopy" 
 
-* DICOMDCMCodeSystem#RG "Radiographic imaging" 
+* DICOM_DCM_CodeSystem#RG //"Radiographic imaging" 
 
-* DICOMDCMCodeSystem#RTIMAGE "RT Image" 
+* DICOM_DCM_CodeSystem#RTIMAGE //"RT Image" 
 
-* DICOMDCMCodeSystem#SM "Slide Microscopy" 
+* DICOM_DCM_CodeSystem#SM //"Slide Microscopy" 
 
-* DICOMDCMCodeSystem#SRF "Subjective Refraction" 
+* DICOM_DCM_CodeSystem#SRF //"Subjective Refraction" 
 
-* DICOMDCMCodeSystem#TG "Thermography" 
+* DICOM_DCM_CodeSystem#TG //"Thermography" 
 
-* DICOMDCMCodeSystem#US "Ultrasound" 
+* DICOM_DCM_CodeSystem#US //"Ultrasound" 
 
-* DICOMDCMCodeSystem#BDUS "Ultrasound Bone Densitometry" 
+* DICOM_DCM_CodeSystem#BDUS //"Ultrasound Bone Densitometry" 
 
-* DICOMDCMCodeSystem#VA "Visual Acuity" 
+* DICOM_DCM_CodeSystem#VA //"Visual Acuity" 
 
-* DICOMDCMCodeSystem#XA "X-Ray Angiography" 
+* DICOM_DCM_CodeSystem#XA //"X-Ray Angiography" 
 
 * include codes from valueset CID_34
 

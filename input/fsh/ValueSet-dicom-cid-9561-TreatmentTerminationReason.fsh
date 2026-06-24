@@ -3,29 +3,32 @@ Id          : dicom-cid-9561-TreatmentTerminationReason
 Description :
 """
 Treatment Termination Reason
+
+The content in this ValueSet is based on [CID 9561](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9561.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1318"
 * ^version = "20240114"
-* ^title = "Treatment Termination Reason"
+* ^title = "Treatment Termination Reason (CID 9561)"
 * ^name = "TreatmentTerminationReason"
+* ^experimental = false
 * include codes from valueset CID_9568
 
-* DICOMDCMCodeSystem#110504 "Patient died" 
+* DICOM_DCM_CodeSystem#110504 //"Patient died" 
 
-* DICOMDCMCodeSystem#110505 "Patient refused to continue procedure" 
+* DICOM_DCM_CodeSystem#110505 //"Patient refused to continue procedure" 
 
-* DICOMDCMCodeSystem#110513 "Discontinued for unspecified reason" 
+* DICOM_DCM_CodeSystem#110513 //"Discontinued for unspecified reason" 
 
-* DICOMDCMCodeSystem#110515 "Patient condition prevented continuing" 
+* DICOM_DCM_CodeSystem#110515 //"Patient condition prevented continuing" 
 
-* DICOMDCMCodeSystem#110500 "Doctor canceled procedure" 
+* DICOM_DCM_CodeSystem#110500 //"Doctor canceled procedure" 
 
-* DICOMDCMCodeSystem#110501 "Equipment failure" 
+* DICOM_DCM_CodeSystem#110501 //"Equipment failure" 
 
-* DICOMDCMCodeSystem#110518 "Patient Movement" 
+* DICOM_DCM_CodeSystem#110518 //"Patient Movement" 
 
-* DICOMDCMCodeSystem#110519 "Operator Error" 
+* DICOM_DCM_CodeSystem#110519 //"Operator Error" 
 
-* DICOMDCMCodeSystem#110520 "Channel Obstruction" 
+* DICOM_DCM_CodeSystem#110520 //"Channel Obstruction" 
 

@@ -3,15 +3,18 @@ Id          : dicom-cid-8203-SurfaceScanRegistrationMethodType
 Description :
 """
 Surface Scan Registration Method Type
+
+The content in this ValueSet is based on [CID 8203](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_8203.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.956"
 * ^version = "20121129"
-* ^title = "Surface Scan Registration Method Type"
+* ^title = "Surface Scan Registration Method Type (CID 8203)"
 * ^name = "SurfaceScanRegistrationMethodType"
-* DICOMDCMCodeSystem#114213 "Iterative Closest Point" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#114213 //"Iterative Closest Point" 
 
-* DICOMDCMCodeSystem#125022 "Fiducial Alignment" 
+* DICOM_DCM_CodeSystem#125022 //"Fiducial Alignment" 
 
-* DICOMDCMCodeSystem#114215 "Freehand" 
+* DICOM_DCM_CodeSystem#114215 //"Freehand" 
 

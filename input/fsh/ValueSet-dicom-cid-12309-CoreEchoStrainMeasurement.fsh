@@ -3,35 +3,38 @@ Id          : dicom-cid-12309-CoreEchoStrainMeasurement
 Description :
 """
 Core Echo Strain Measurement
+
+The content in this ValueSet is based on [CID 12309](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12309.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1426"
 * ^version = "20211112"
-* ^title = "Core Echo Strain Measurement"
+* ^title = "Core Echo Strain Measurement (CID 12309)"
 * ^name = "CoreEchoStrainMeasurement"
-* DICOMDCMCodeSystem#130686 "LV End-systolic GLS Multiview Mean (Endocardial)" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130686 //"LV End-systolic GLS Multiview Mean (Endocardial)" 
 
-* DICOMDCMCodeSystem#130687 "LV End-systolic GLS 4CH (Endocardial)" 
+* DICOM_DCM_CodeSystem#130687 //"LV End-systolic GLS 4CH (Endocardial)" 
 
-* DICOMDCMCodeSystem#130688 "LV End-systolic GLS 2CH (Endocardial)" 
+* DICOM_DCM_CodeSystem#130688 //"LV End-systolic GLS 2CH (Endocardial)" 
 
-* DICOMDCMCodeSystem#130689 "LV End-systolic GLS ALAX (Endocardial)" 
+* DICOM_DCM_CodeSystem#130689 //"LV End-systolic GLS ALAX (Endocardial)" 
 
-* DICOMDCMCodeSystem#130698 "LV End-systolic Mechanical Dispersion" 
+* DICOM_DCM_CodeSystem#130698 //"LV End-systolic Mechanical Dispersion" 
 
-* DICOMDCMCodeSystem#130690 "LV Peak Systolic GLS Multiview Mean (Endocardial)" 
+* DICOM_DCM_CodeSystem#130690 //"LV Peak Systolic GLS Multiview Mean (Endocardial)" 
 
-* DICOMDCMCodeSystem#130691 "LV Peak Systolic GLS 4CH (Endocardial)" 
+* DICOM_DCM_CodeSystem#130691 //"LV Peak Systolic GLS 4CH (Endocardial)" 
 
-* DICOMDCMCodeSystem#130692 "LV Peak Systolic GLS 2CH (Endocardial)" 
+* DICOM_DCM_CodeSystem#130692 //"LV Peak Systolic GLS 2CH (Endocardial)" 
 
-* DICOMDCMCodeSystem#130693 "LV Peak Systolic GLS ALAX (Endocardial)" 
+* DICOM_DCM_CodeSystem#130693 //"LV Peak Systolic GLS ALAX (Endocardial)" 
 
-* DICOMDCMCodeSystem#130694 "LV Peak GLS Multiview Mean (Endocardial)" 
+* DICOM_DCM_CodeSystem#130694 //"LV Peak GLS Multiview Mean (Endocardial)" 
 
-* DICOMDCMCodeSystem#130695 "LV Peak GLS 4CH (Endocardial)" 
+* DICOM_DCM_CodeSystem#130695 //"LV Peak GLS 4CH (Endocardial)" 
 
-* DICOMDCMCodeSystem#130696 "LV Peak GLS 2CH (Endocardial)" 
+* DICOM_DCM_CodeSystem#130696 //"LV Peak GLS 2CH (Endocardial)" 
 
-* DICOMDCMCodeSystem#130697 "LV Peak GLS ALAX (Endocardial)" 
+* DICOM_DCM_CodeSystem#130697 //"LV Peak GLS ALAX (Endocardial)" 
 

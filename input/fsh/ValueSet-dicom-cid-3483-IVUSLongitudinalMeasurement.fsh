@@ -3,21 +3,20 @@ Id          : dicom-cid-3483-IVUSLongitudinalMeasurement
 Description :
 """
 IVUS Longitudinal Measurement
+
+The content in this ValueSet is based on [CID 3483](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3483.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.118"
 * ^version = "20050110"
-* ^title = "IVUS Longitudinal Measurement"
+* ^title = "IVUS Longitudinal Measurement (CID 3483)"
 * ^name = "IVUSLongitudinalMeasurement"
-* http://snomed.info/sct#408703009 "Stent Length" 
-* http://snomed.info/srt#R-101B0 "Stent Length" 
-* http://terminology.hl7.org/CodeSystem/umls#C1443253 "Stent Length" 
+* ^experimental = false
+* http://snomed.info/sct#408703009 //"Stent Length" 
 
-* http://snomed.info/sct#408716009 "Stenotic Lesion Length" 
-* http://snomed.info/srt#R-101BC "Stenotic Lesion Length" 
-* http://terminology.hl7.org/CodeSystem/umls#C1443266 "Stenotic Lesion Length" 
+* http://snomed.info/sct#408716009 //"Stenotic Lesion Length" 
 
-* DICOMDCMCodeSystem#122341 "Calcium Length" 
+* DICOM_DCM_CodeSystem#122341 //"Calcium Length" 
 
-* DICOMDCMCodeSystem#122364 "Stent Gap" 
+* DICOM_DCM_CodeSystem#122364 //"Stent Gap" 
 

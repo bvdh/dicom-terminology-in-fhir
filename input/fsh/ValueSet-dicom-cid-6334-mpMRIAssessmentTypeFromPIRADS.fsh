@@ -3,22 +3,22 @@ Id          : dicom-cid-6334-mpMRIAssessmentTypeFromPIRADS
 Description :
 """
 mpMRI Assessment Type from PI-RADS
+
+The content in this ValueSet is based on [CID 6334](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6334.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1391"
-* ^version = "20250122"
-* ^title = "MpMRI Assessment Type from PI-RADS"
+* ^version = "20250908"
+* ^title = "MpMRI Assessment Type from PI-RADS (CID 6334)"
 * ^name = "MpMRIAssessmentTypeFromPIRADS"
-* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9440 "Abnormality" 
-* http://terminology.hl7.org/CodeSystem/umls#C1704258 "Abnormality" 
+* ^experimental = false
+* http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9440 //"Abnormality" 
 
-* http://snomed.info/sct#300842002 "Shape" 
-* http://snomed.info/srt#G-C2FE "Shape" 
-* http://terminology.hl7.org/CodeSystem/umls#C0522512 "Shape" 
+* http://snomed.info/sct#300842002 //"Shape" 
 
-* DICOMDCMCodeSystem#111037 "Margins" 
+* http://snomed.info/sct#112233002 //"Margin" 
 
-* http://www.radlex.org#RID6049 "Signal characteristic" 
+* http://www.radlex.org#RID6049 //"Signal characteristic" 
 
-* http://www.radlex.org#RID6058 "Enhancement pattern" 
+* http://www.radlex.org#RID6058 //"Enhancement pattern" 
 

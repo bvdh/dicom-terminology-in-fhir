@@ -3,25 +3,24 @@ Id          : dicom-cid-10013-CTAcquisitionType
 Description :
 """
 CT Acquisition Type
+
+The content in this ValueSet is based on [CID 10013](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_10013.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.545"
 * ^version = "20160314"
-* ^title = "CT Acquisition Type"
+* ^title = "CT Acquisition Type (CID 10013)"
 * ^name = "CTAcquisitionType"
-* DICOMDCMCodeSystem#113804 "Sequenced Acquisition" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113804 //"Sequenced Acquisition" 
 
-* http://snomed.info/sct#116152004 "Spiral Acquisition" 
-* http://snomed.info/srt#P5-08001 "Spiral Acquisition" 
-* http://terminology.hl7.org/CodeSystem/umls#C0860888 "Spiral Acquisition" 
+* http://snomed.info/sct#116152004 //"Spiral Acquisition" 
 
-* DICOMDCMCodeSystem#113805 "Constant Angle Acquisition" 
+* DICOM_DCM_CodeSystem#113805 //"Constant Angle Acquisition" 
 
-* DICOMDCMCodeSystem#113806 "Stationary Acquisition" 
+* DICOM_DCM_CodeSystem#113806 //"Stationary Acquisition" 
 
-* DICOMDCMCodeSystem#113807 "Free Acquisition" 
+* DICOM_DCM_CodeSystem#113807 //"Free Acquisition" 
 
-* http://snomed.info/sct#702569007 "Cone Beam Acquisition" 
-* http://snomed.info/srt#R-FB8F1 "Cone Beam Acquisition" 
-* http://terminology.hl7.org/CodeSystem/umls#C3839509 "Cone Beam Acquisition" 
+* http://snomed.info/sct#702569007 //"Cone Beam Acquisition" 
 

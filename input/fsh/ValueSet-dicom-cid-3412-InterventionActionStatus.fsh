@@ -3,35 +3,38 @@ Id          : dicom-cid-3412-InterventionActionStatus
 Description :
 """
 Intervention Action/Status
+
+The content in this ValueSet is based on [CID 3412](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3412.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.77"
 * ^version = "20030327"
-* ^title = "Intervention Action/Status"
+* ^title = "Intervention Action/Status (CID 3412)"
 * ^name = "InterventionActionStatus"
-* DICOMDCMCodeSystem#122301 "Guidewire crossing lesion unsuccessful" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122301 //"Guidewire crossing lesion unsuccessful" 
 
-* DICOMDCMCodeSystem#122302 "Guidewire crossing lesion successful" 
+* DICOM_DCM_CodeSystem#122302 //"Guidewire crossing lesion successful" 
 
-* DICOMDCMCodeSystem#122303 "Angioplasty balloon inflated" 
+* DICOM_DCM_CodeSystem#122303 //"Angioplasty balloon inflated" 
 
-* DICOMDCMCodeSystem#122304 "Angioplasty balloon deflated" 
+* DICOM_DCM_CodeSystem#122304 //"Angioplasty balloon deflated" 
 
-* DICOMDCMCodeSystem#122305 "Device deployed" 
+* DICOM_DCM_CodeSystem#122305 //"Device deployed" 
 
-* DICOMDCMCodeSystem#122306 "Stent re-expanded" 
+* DICOM_DCM_CodeSystem#122306 //"Stent re-expanded" 
 
-* DICOMDCMCodeSystem#122307 "Object removed" 
+* DICOM_DCM_CodeSystem#122307 //"Object removed" 
 
-* DICOMDCMCodeSystem#122308 "Radiation applied" 
+* DICOM_DCM_CodeSystem#122308 //"Radiation applied" 
 
-* DICOMDCMCodeSystem#122309 "Radiation removed" 
+* DICOM_DCM_CodeSystem#122309 //"Radiation removed" 
 
-* DICOMDCMCodeSystem#122310 "Interventional device placement unsuccessful" 
+* DICOM_DCM_CodeSystem#122310 //"Interventional device placement unsuccessful" 
 
-* DICOMDCMCodeSystem#122311 "Interventional device placed" 
+* DICOM_DCM_CodeSystem#122311 //"Interventional device placed" 
 
-* DICOMDCMCodeSystem#122312 "Intervention performed" 
+* DICOM_DCM_CodeSystem#122312 //"Intervention performed" 
 
-* DICOMDCMCodeSystem#122313 "Interventional device withdrawn" 
+* DICOM_DCM_CodeSystem#122313 //"Interventional device withdrawn" 
 

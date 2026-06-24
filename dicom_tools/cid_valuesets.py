@@ -2,21 +2,23 @@ import os
 from typing import List
 import xml.etree.ElementTree as ET
 
-from doc_book_tools import cleanTextFromElement, getDataDicomTable, getElementText, getTableData,  getVariableListEntries, toCamelCase
+from doc_book_tools import cleanText, getDataDicomTable, getElementText, getTableData,  getVariableListEntries, toCamelCase
 
+# defined in 
+# https://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_8.html
 FHIR_SYSTEM_DICTIONARY = dict(
             ACR  = 'http://terminology.hl7.org/CodeSystem/ACR',
             BARI = 'BARICodeSystem',
             BI   = 'BICodeSystem',
-            DCM  = 'DICOMDCMCodeSystem',
+            DCM  = 'DICOM_DCM_CodeSystem',
             FMA  = 'DigitalAnatomistFoundationalModelOfAnatomyCodeSystem',
             IBSI = 'IBSICodeSystem',
             I10 = 'http://hl7.org/fhir/sid/icd-10',
-            ITIS_TSN = 'http://terminology.hl7.org/CodeSystem/v2-0396',
-            LN   = 'http://loinc.org',
-            MDC  = 'urn:iso:std:iso:11073:10101',
+            ITIS_TSN = 'https://www.itis.gov/',  # no code system, but ITIS is a taxonomy that could be referenced
+            LN   = 'http://loinc.org',  
+            MDC  = 'urn:iso:std:iso:11073:10101',   #ISO/IEEE 11073 Medical Device Nomenclature, including all its subsections ([ISO/IEEE 11073-10101], [ISO/IEEE 11073-10101a], [ISO/IEEE 11073-10102], etc.), encoded as decimal strings <partition>:<element>
             MSH  = 'https://www.nlm.nih.gov/mesh',
-            NCDR = 'http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr',
+            NCDR = 'https://cvquality.acc.org/NCDR', # invented - no code system found, but NCDR is a known registry that could be referenced
             NCIt = 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl',
             NDC  = 'http://hl7.org/fhir/sid/ndc',
             NEU  = 'NEUCodeSystem',
@@ -26,9 +28,43 @@ FHIR_SYSTEM_DICTIONARY = dict(
             SCT  = 'http://snomed.info/sct',
             SRT  = 'http://snomed.info/srt',
             UCUM = 'http://unitsofmeasure.org',
+            # UMLS = 'http://terminology.hl7.org/CodeSystem/umls/sab',
             UMLS = 'http://terminology.hl7.org/CodeSystem/umls',
             UNS  = 'UNSCodeSystem'
         )
+
+
+def convert_mdc_code(code: str) -> str:
+    """
+    Convert MDC code from partition:term format to 32-bit decimal representation.
+    
+    According to IEEE 11073-10101, MDC codes are 32-bit unsigned integers where:
+    - Most significant 16 bits: partition number
+    - Least significant 16 bits: term code
+    
+    Formula: 32-bit_value = (partition << 16) | term_code
+    
+    Example: "2:19532" -> (2 << 16) | 19532 = 150604
+    
+    Args:
+        code: MDC code string in format "partition:term" or just term code
+        
+    Returns:
+        Decimal string representation of the 32-bit value
+    """
+    if ':' not in code:
+        return code  # Return as-is if not in partition:term format
+    
+    try:
+        partition_str, term_str = code.split(':', 1)
+        partition = int(partition_str.strip())
+        term = int(term_str.strip())
+        # Combine: most significant 16 bits (partition) + least significant 16 bits (term)
+        mdc_32bit = (partition << 16) | term
+        return str(mdc_32bit)
+    except (ValueError, AttributeError):
+        # Return original code if conversion fails
+        return code
 
 
 def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
@@ -61,26 +97,36 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
             
             # Extract title
             title_element = section.find('.//db:title', ns)
-            title_text = cleanTextFromElement(title_element)
+            title_text = getElementText(title_element, dicom_path )
+            title_text = title_text if len(title_text)>0 else cleanText(title_element.text)
             title_text  = title_text[:1].upper() + title_text[1:]
 
             # Extract caption
             caption_element = section.find('.//db:caption', ns)
-            caption_text = cleanTextFromElement( caption_element )
+            caption_text = getElementText(caption_element, dicom_path ) if caption_element is not None else None
+            caption_text = caption_text if caption_text and len(caption_text)>0 else cleanText(caption_element.text) if caption_element is not None else None
 
             # Extract note
             note_element = section.find('.//db:note', ns)
-            note_text = getElementText(note_element)
+            note_text = getElementText(note_element, dicom_path ) if note_element is not None else None
+            note_text = note_text if note_text and len(note_text)>0 else cleanText(note_element.text) if note_element is not None else None   
 
             # Extract description
             description_elements = section.findall('.//db:para', ns)
             # description_text = ' '.join([cleanTextFromElement(desc) for desc in description_elements])
-            description_text = caption_text
+            description_text = caption_text or ''
             if note_text and len(note_text) > 0:
                 description_text = note_text
+            description_text = (
+                description_text
+                + '\n\n'
+                + 'The content in this ValueSet is based on '
+                + f'[{section_label}](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_{section_label.replace(" ","_")}.html).'
+            )
+
 
             # get keywords
-            defined_terms = getVariableListEntries(section )
+            defined_terms = getVariableListEntries(section, dicom_path )
             keywords = defined_terms.get('Keyword:', [])
             keyword  = keywords[0] if isinstance(keywords, List) and len(keywords) > 0 else f'{toCamelCase(section_label)}'
             keyword  = keyword[:1].upper() + keyword[1:]
@@ -94,7 +140,7 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
 
             if fhir_id is not None:
                 # Retrieve values
-                headers, values = getTableData(section) 
+                headers, values = getTableData(section, dicom_path) 
 
                 header = headers[0] if headers else []
                 codingSchemeIndex = header.index('Coding Scheme Designator') if 'Coding Scheme Designator' in header else -1
@@ -104,11 +150,12 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
                 umlsConceptUniqueIdIndex = header.index('UMLS Concept Unique ID') if 'UMLS Concept Unique ID' in header else -1
                 
                 fsh_filename = f'ValueSet-{fhir_id}.fsh'
+                cid_label = section_label.replace(' ','_')
                 print(f'Generating FHIR Shorthand for CID in {fsh_path}/{fsh_filename}')
 
                 # write value sets
                 with open(os.path.join(fsh_path, fsh_filename), 'w') as fsh_file:
-                    fsh_file.write(f'ValueSet    : {section_label.replace(' ','_')}\n')
+                    fsh_file.write(f'ValueSet    : {cid_label}\n')
                     fsh_file.write(f'Id          : {fhir_id[:64]}\n')
                     fsh_file.write(f'Description :\n')
                     fsh_file.write(f'"""\n')
@@ -118,8 +165,9 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
                         fsh_file.write(f'* ^identifier.system = "urn:ietf:rfc:3986"\n')
                         fsh_file.write(f'* ^identifier.value  = "urn:oid:{uid}"\n')
                     fsh_file.write(f'* ^version = "{version}"\n')
-                    fsh_file.write(f'* ^title = "{title_text}"\n')
+                    fsh_file.write(f'* ^title = "{title_text} ({section_label})"\n')
                     fsh_file.write(f'* ^name = "{keyword}"\n')
+                    fsh_file.write(f'* ^experimental = false\n')
 
                     includes = []
 
@@ -127,20 +175,25 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
                     writtenCodes = set()
                     for value in values:
                         if ( value[0].startswith('Include') ):
-                            include = value[0].replace('Include (', '').replace(')', '').strip()
+                            include = value[0].replace('Include', '').replace(')', '').strip()
                             includes.append(include)
                             fsh_file.write(f'* include codes from valueset {include.replace('sect_','')}\n\n')
                         else:
                             if codingSchemeIndex >= 0 and codeValueIndex >= 0 and codeMeaningIndex >= 0:
-                                coding_scheme = value[codingSchemeIndex].strip()
-                                code = value[codeValueIndex].strip()
-                                codeMeaning = value[codeMeaningIndex].strip()
+                                coding_scheme = value[codingSchemeIndex].strip() if len(value) > codingSchemeIndex else None
+                                code          = value[codeValueIndex].strip()    if len(value) > codeValueIndex else None
+                                codeMeaning   = value[codeMeaningIndex].strip()  if len(value) > codeMeaningIndex else None
+                                if coding_scheme == 'MDC':
+                                    # Convert MDC code from partition:term format to 32-bit decimal representation
+                                    code = convert_mdc_code(code)
                                 system = FHIR_SYSTEM_DICTIONARY.get(coding_scheme, None)
                                 
                                 if system is not None:
                                     codeExpression = f'{system}#{code}'
                                     if not codeExpression in writtenCodes:
-                                        fsh_file.write(f'* {codeExpression} "{codeMeaning}" \n')
+                                        fsh_file.write(f'* {codeExpression} //"{codeMeaning}" \n')
+                                        # fsh_file.write(f'* {codeExpression} ^designation.use = http://snomed.info/sct#900000000000013009 "Synonym (core metadata concept)" \n') 
+                                        # fsh_file.write(f'* {codeExpression} ^designation.value = "{codeMeaning}" // Display value in DICOM\n') 
                                     else:
                                         fsh_file.write(f'// * {codeExpression} "{codeMeaning}" \n')
                                     writtenCodes.add(codeExpression)
@@ -148,23 +201,25 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
                                 else:
                                     print(f'Unknown coding scheme: {coding_scheme}')
 
-                                if snomedRtIdxIndex >= 0 and len(value) > snomedRtIdxIndex and value[snomedRtIdxIndex] :
-                                    codeExpression = f'{FHIR_SYSTEM_DICTIONARY['SRT']}#{value[snomedRtIdxIndex]}'
-                                    if not codeExpression in writtenCodes:
-                                        fsh_file.write(f'* {codeExpression} "{codeMeaning}" \n')
-                                    else:
-                                        fsh_file.write(f'// * {codeExpression} "{codeMeaning}" \n')
-                                    writtenCodes.add(codeExpression)
-                                    allcodes['SRT'][value[snomedRtIdxIndex]] = codeMeaning
-                                    snomedSct2RtMapping[code] = value[snomedRtIdxIndex].strip()
+                                # Exclude SRT codes
+                                # if snomedRtIdxIndex >= 0 and len(value) > snomedRtIdxIndex and value[snomedRtIdxIndex] :
+                                #     codeExpression = f'{FHIR_SYSTEM_DICTIONARY['SRT']}#{value[snomedRtIdxIndex]}'
+                                #     if not codeExpression in writtenCodes:
+                                #         fsh_file.write(f'* {codeExpression} //"{codeMeaning}" \n')
+                                #     else:
+                                #         fsh_file.write(f'// * {codeExpression} "{codeMeaning}" \n')
+                                #     writtenCodes.add(codeExpression)
+                                #     allcodes['SRT'][value[snomedRtIdxIndex]] = codeMeaning
+                                #     snomedSct2RtMapping[code] = value[snomedRtIdxIndex].strip()
 
                                 if umlsConceptUniqueIdIndex >= 0 and len(value) > umlsConceptUniqueIdIndex and value[umlsConceptUniqueIdIndex]:
                                     codeExpression = f'{FHIR_SYSTEM_DICTIONARY['UMLS']}#{value[umlsConceptUniqueIdIndex]}'
-                                    if not codeExpression in writtenCodes:
-                                        fsh_file.write(f'* {codeExpression} "{codeMeaning}" \n')
-                                    else:
-                                        fsh_file.write(f'// * {codeExpression} "{codeMeaning}" \n')
-                                    writtenCodes.add(codeExpression)
+                                    # disabled as UMLS does not resolve
+                                    # if not codeExpression in writtenCodes:
+                                    #     fsh_file.write(f'* {codeExpression} //"{codeMeaning}" \n')
+                                    # else:
+                                    #     fsh_file.write(f'// * {codeExpression} "{codeMeaning}" \n')
+                                    # writtenCodes.add(codeExpression)
                                     allcodes['UMLS'][value[umlsConceptUniqueIdIndex]] = codeMeaning
 
                                     if ( snomedCt2UmlsMapping.get(code) is None ):
@@ -191,10 +246,10 @@ def writeCidValueSets( fsh_path:str, dicom_path:str ) -> None:
     writeSrtCodeSystemPart( fsh_path, dicomTerminologyData.get('SRT')[1], dicomTerminologyData.get('SRT')[2], allcodes['SRT'] )
     
     # write SNOMED CT to RT mapping
-    writeSnomedMappings( fsh_path, 'SCT', 'SRT', snomedSct2RtMapping, allcodes['SCT'] )
+    # writeSnomedMappings( fsh_path, 'SCT', 'SRT', snomedSct2RtMapping, allcodes['SCT'] )
     # write SNOMED RT to RT mapping
     # write SNOMED CT to UMLS mapping
-    writeSnomedMappings( fsh_path, 'SCT', 'UMLS', snomedCt2UmlsMapping, allcodes['SCT'] )
+    # writeSnomedMappings( fsh_path, 'SCT', 'UMLS', snomedCt2UmlsMapping, allcodes['SCT'] )
     # write SNOMED UMLS to CT mapping
 
 def writeTerminologyCodeSystem( fsh_path, title, values):
@@ -219,9 +274,14 @@ def writeTerminologyCodeSystem( fsh_path, title, values):
         fsh_file.write('\n')
 
         for value in values:
-            description = value[2]
+            description = value[2].strip() if value[2] else ""
             if ( len(value) > 2 and len(value[1])>0 ):
-                description += f" (UID={value[1].strip()})"
+                uid_part = f"(UID={value[1].strip()})"
+                # Add space before UID only if description has content
+                if description:
+                    description += f" {uid_part}"
+                else:
+                    description = uid_part
             
             fsh_file.write(f'* #{value[0]} "{value[0]}" "{description}"\n')
             

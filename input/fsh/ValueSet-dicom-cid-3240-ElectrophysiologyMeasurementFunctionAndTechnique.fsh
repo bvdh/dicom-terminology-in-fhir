@@ -3,25 +3,28 @@ Id          : dicom-cid-3240-ElectrophysiologyMeasurementFunctionAndTechnique
 Description :
 """
 Electrophysiology Measurement Function/Technique
+
+The content in this ValueSet is based on [CID 3240](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3240.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.53"
 * ^version = "20020904"
-* ^title = "Electrophysiology Measurement Function/Technique"
+* ^title = "Electrophysiology Measurement Function/Technique (CID 3240)"
 * ^name = "ElectrophysiologyMeasurementFunctionAndTechnique"
-* DICOMDCMCodeSystem#109006 "Differential signal" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#109006 //"Differential signal" 
 
-* DICOMDCMCodeSystem#109007 "His bundle electrogram" 
+* DICOM_DCM_CodeSystem#109007 //"His bundle electrogram" 
 
-* DICOMDCMCodeSystem#109008 "Monopole signal" 
+* DICOM_DCM_CodeSystem#109008 //"Monopole signal" 
 
-* DICOMDCMCodeSystem#109009 "Pacing (electrical) stimulus, voltage" 
+* DICOM_DCM_CodeSystem#109009 //"Pacing (electrical) stimulus, voltage" 
 
-* DICOMDCMCodeSystem#109010 "Radio frequency ablation, power" 
+* DICOM_DCM_CodeSystem#109010 //"Radio frequency ablation, power" 
 
-* DICOMDCMCodeSystem#109011 "Voltage measurement by basket catheter" 
+* DICOM_DCM_CodeSystem#109011 //"Voltage measurement by basket catheter" 
 
-* DICOMDCMCodeSystem#109012 "Voltage measurement by mapping catheter" 
+* DICOM_DCM_CodeSystem#109012 //"Voltage measurement by mapping catheter" 
 
-* DICOMDCMCodeSystem#109013 "Voltage measurement" 
+* DICOM_DCM_CodeSystem#109013 //"Voltage measurement" 
 

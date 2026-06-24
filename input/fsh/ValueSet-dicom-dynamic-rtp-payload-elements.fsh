@@ -6,4 +6,5 @@ Description: "DICOM® Dynamic RTP Payload elements extracted from DICOM PS3.6 Ta
 
 * ^experimental = false
 
+* ^version = "2026.2.20260327"
 * DICOM_Elements#CurrentFrameFunctionalGroupsSequence "Current Frame Functional Groups Sequence"

@@ -10,6 +10,7 @@ PS3.16 chapter_4 Symbols and Abbreviations
  - CSV : Comma-separated Values
  - DCID : Defined Context Group ID
  - DCMR : DICOM Content Mapping Resource
+ - DICOM : Digital Imaging and Communications in Medicine
  - DT : Defined Term
  - DTID : Defined Template ID
  - EV : Enumerated Value
@@ -22,6 +23,7 @@ PS3.16 chapter_4 Symbols and Abbreviations
  - MPPS : Modality Performed Procedure Step
  - NEMA : National Electrical Manufacturers Association
  - OWL : Web Ontology Language
+ - RDSR : Radiation Dose Structured Report
  - RECIST : Response Evaluation Criteria In Solid Tumors
  - SNOMED : Systematized Nomenclature of Medicine
  - TNAME : Template Name
@@ -40,6 +42,7 @@ PS3.16 sect_6.1.8 Condition
  - IFF : If and only if. Shall be present if the condition is TRUE; shall not be present otherwise.
 PS3.16 sect_7.1 Context Group Table Field Definition
 PS3.16 sect_TID_300 Measurement
+PS3.16 sect_TID_301 Measurement Content
 PS3.16 sect_TID_310 Measurement Properties
 PS3.16 sect_TID_311 Measurement Statistical Properties
 PS3.16 sect_TID_312 Normal Range Properties
@@ -64,6 +67,7 @@ PS3.16 sect_TID_1010 Subject Context, Device
 PS3.16 sect_TID_1015 Person Observer Description
 PS3.16 sect_TID_1020 Person Participant
 PS3.16 sect_TID_1021 Device Participant
+PS3.16 sect_TID_1025 Indications for Procedure
 PS3.16 sect_TID_1200 Language Designation
 PS3.16 sect_TID_1201 Language of Value
 PS3.16 sect_TID_1202 Language of Name and Value
@@ -203,7 +207,7 @@ PS3.16 sect_TID_3754 Waveform Library
 PS3.16 sect_TID_3755 Waveform Library Entry
 PS3.16 sect_TID_3756 Waveform Library Entry Descriptors
 PS3.16 sect_TID_3757 Waveform Library Entry Multiplex Group Descriptors
-PS3.16 sect_TID_3800 Cardiac Catheterization Report Root
+PS3.16 sect_TID_3800 Cardiac Catheterization Report
 PS3.16 sect_TID_3802 Cardiovascular Patient History
 PS3.16 sect_TID_3803 Patient Presentation, Cath
 PS3.16 sect_TID_3806 Cath Procedure
@@ -250,7 +254,7 @@ PS3.16 sect_TID_3926 Myocardial Perfusion Analysis
 PS3.16 sect_TID_3927 Report Summary
 PS3.16 sect_TID_3929 Cardiovascular Analysis Observation Context
 PS3.16 sect_TID_3990 Two Dimensional Measurement Graph
-PS3.16 sect_TID_4000 Mammography CAD Document Root
+PS3.16 sect_TID_4000 Mammography CAD Report
 PS3.16 sect_TID_4001 Mammography CAD Overall Impression/Recommendation
 PS3.16 sect_TID_4002 Mammography CAD Impression/Recommendation Body
 PS3.16 sect_TID_4003 Mammography CAD Individual Impression/Recommendation
@@ -274,7 +278,7 @@ PS3.16 sect_TID_4020 CAD Image Library Entry
 PS3.16 sect_TID_4021 Mammography CAD Geometry
 PS3.16 sect_TID_4022 CAD Observation Context
 PS3.16 sect_TID_4023 CAD Operating Points
-PS3.16 sect_TID_4100 Chest CAD Document Root
+PS3.16 sect_TID_4100 Chest CAD Report
 PS3.16 sect_TID_4101 Chest CAD Findings Summary
 PS3.16 sect_TID_4102 Chest CAD Composite Feature
 PS3.16 sect_TID_4103 Chest CAD Composite Feature Body
@@ -283,7 +287,7 @@ PS3.16 sect_TID_4105 Chest CAD Descriptors
 PS3.16 sect_TID_4106 Response Evaluation
 PS3.16 sect_TID_4107 Chest CAD Geometry
 PS3.16 sect_TID_4108 Tracking Identifier
-PS3.16 sect_TID_4120 Colon CAD Document Root
+PS3.16 sect_TID_4120 Colon CAD Report
 PS3.16 sect_TID_4121 Colon CAD Findings Summary
 PS3.16 sect_TID_4122 CAD Common Image Properties Entry
 PS3.16 sect_TID_4125 Colon CAD Composite Feature
@@ -328,6 +332,7 @@ PS3.16 sect_TID_5016 LWH Volume Group
 PS3.16 sect_TID_5017 Follicle Count Group
 PS3.16 sect_TID_5025 OB-GYN Fetal Vascular Ultrasound Measurement Group
 PS3.16 sect_TID_5026 OB-GYN Pelvic Vascular Ultrasound Measurement Group
+PS3.16 sect_TID_5030 Fetal Anatomy Survey Section
 PS3.16 sect_TID_5100 Vascular Ultrasound Report
 PS3.16 sect_TID_5101 Vascular Patient Characteristics
 PS3.16 sect_TID_5102 Vascular Procedure Summary Section
@@ -431,6 +436,7 @@ PS3.16 sect_TID_11022 Imaging Agent Administration Injector Events
 PS3.16 sect_TID_11023 Imaging Agent Administration Graph
 PS3.16 sect_TID_12000 General Ultrasound Report
 PS3.16 sect_TID_12001 Ultrasound Patient Characteristics
+PS3.16 sect_TID_12002 Ultrasound Attenuation Coefficient Section
 PS3.16 sect_CID_2 Anatomic Modifier
 PS3.16 sect_CID_4 Anatomic Region
 PS3.16 sect_CID_5 Transducer Approach
@@ -533,6 +539,7 @@ PS3.16 sect_CID_402 Audit Active Participant Role ID Code
 PS3.16 sect_CID_403 Security Alert Type Code
 PS3.16 sect_CID_404 Audit Participant Object ID Type Code
 PS3.16 sect_CID_405 Media Type Code
+PS3.16 sect_CID_406 Application Type Code
 PS3.16 sect_CID_501 Volumetric View Description
 PS3.16 sect_CID_502 Volumetric View Modifier
 PS3.16 sect_CID_601 Biosafety Level
@@ -585,6 +592,8 @@ PS3.16 sect_CID_701 Content Assessment Type
 PS3.16 sect_CID_702 RT Content Assessment Type
 PS3.16 sect_CID_703 Assessment Basis
 PS3.16 sect_CID_800 Protocol Assertion
+PS3.16 sect_CID_900 Sensitive Content Category
+PS3.16 sect_CID_901 Sensitive Content Detail
 PS3.16 sect_CID_1000 CT Transverse Plane Reference Basis
 PS3.16 sect_CID_1001 Anatomical Reference Basis
 PS3.16 sect_CID_1002 Anatomical Reference Basis - Head
@@ -1342,7 +1351,8 @@ PS3.16 sect_CID_7159 Lesion Segmentation Type
 PS3.16 sect_CID_7160 Pelvic Organ Segmentation Type
 PS3.16 sect_CID_7161 Physiology Segmentation Type
 PS3.16 sect_CID_7162 Surface Processing Algorithm Family
-PS3.16 sect_CID_7163 Breast Segmentation Types
+PS3.16 sect_CID_7163 Breast Tissue Segmentation Type
+PS3.16 sect_CID_7164 Quality Segmentation Property Type
 PS3.16 sect_CID_7165 Abstract Segmentation Type
 PS3.16 sect_CID_7166 Common Tissue Segmentation Type
 PS3.16 sect_CID_7167 Peripheral Nervous System Segmentation Type
@@ -1603,6 +1613,11 @@ PS3.16 sect_CID_9581 Radiotherapy Registration Mark
 PS3.16 sect_CID_9582 Radiotherapy Dose Region
 PS3.16 sect_CID_9583 RT Plan Radiotherapy Procedure Technique
 PS3.16 sect_CID_9584 RT Plan Approval Assertion
+PS3.16 sect_CID_9585 RT Dose Calculation Algorithm Family
+PS3.16 sect_CID_9586 Radiotherapy Dose Real World Units
+PS3.16 sect_CID_9587 Radiotherapy Dose Interpreted Type Codes
+PS3.16 sect_CID_9588 Radiotherapy Dose Interpreted Type Modifier Codes
+PS3.16 sect_CID_9589 Radiotherapy Dose Intent Codes
 PS3.16 sect_CID_10000 Scope of Accumulation
 PS3.16 sect_CID_10001 UID Type
 PS3.16 sect_CID_10002 Irradiation Event Type
@@ -1615,6 +1630,7 @@ PS3.16 sect_CID_10008 Dose Related Distance Measurement
 PS3.16 sect_CID_10009 Measured/Calculated
 PS3.16 sect_CID_10010 Dose Measurement Device
 PS3.16 sect_CID_10011 Effective Dose Evaluation Method
+PS3.16 sect_CID_10012 Dose Index for Dose Calibration
 PS3.16 sect_CID_10013 CT Acquisition Type
 PS3.16 sect_CID_10014 CT IV Contrast Imaging Technique
 PS3.16 sect_CID_10015 CT Dose Reference Authority
@@ -1631,6 +1647,8 @@ PS3.16 sect_CID_10031 CR/DR Mechanical Configuration
 PS3.16 sect_CID_10032 Projection X-Ray Acquisition Device Type
 PS3.16 sect_CID_10033 CT Reconstruction Algorithm
 PS3.16 sect_CID_10034 Reason for Repeating Acquisition
+PS3.16 sect_CID_10035 X-Ray Modulation Type
+PS3.16 sect_CID_10036 Metal Artifact Reduction Algorithm Family
 PS3.16 sect_CID_10040 Radiopharmaceutical Organ Dose Reference Authority
 PS3.16 sect_CID_10041 Source of Radioisotope Activity Information
 PS3.16 sect_CID_10043 Intravenous Extravasation Symptom
@@ -1685,13 +1703,26 @@ PS3.16 sect_CID_12022 Fetal Cranium Anatomic Site
 PS3.16 sect_CID_12023 Pelvis and Uterus Anatomic Site
 PS3.16 sect_CID_12024 OB-GYN Ultrasound Report Document Title
 PS3.16 sect_CID_12025 OB-GYN Ultrasound Beam Path
-PS3.16 sect_CID_12026 Estimated Delivery Date Methods
+PS3.16 sect_CID_12026 Estimated Delivery Date Method
+PS3.16 sect_CID_12027 Ultrasound Z-Score Population Index
+PS3.16 sect_CID_12028 Fetal Ultrasound Z-Score Reference Authority
 PS3.16 sect_CID_12030 Ultrasound Contrast/Bolus Agent
 PS3.16 sect_CID_12031 Protocol Interval Event
 PS3.16 sect_CID_12032 Transducer Scan Pattern
 PS3.16 sect_CID_12033 Ultrasound Transducer Geometry
 PS3.16 sect_CID_12034 Ultrasound Transducer Beam Steering
 PS3.16 sect_CID_12035 Ultrasound Transducer Application
+PS3.16 sect_CID_12036 Ultrasound Attenuation Imaging Site
+PS3.16 sect_CID_12040 Fetal Anatomy Survey Assessment
+PS3.16 sect_CID_12041 Fetal Anatomy Survey Assessment - Head
+PS3.16 sect_CID_12042 Fetal Anatomy Survey Assessment - Face and Neck
+PS3.16 sect_CID_12043 Fetal Anatomy Survey Assessment - Chest
+PS3.16 sect_CID_12044 Fetal Anatomy Survey Assessment - Heart
+PS3.16 sect_CID_12045 Fetal Anatomy Survey Assessment - Abdomen and Pelvis
+PS3.16 sect_CID_12046 Fetal Anatomy Survey Assessment - Spine
+PS3.16 sect_CID_12047 Fetal Anatomy Survey Assessment - Extremities
+PS3.16 sect_CID_12048 Fetal Anatomy Survey Assessment - Maternal
+PS3.16 sect_CID_12049 Fetal Anatomy Survey Practice Guideline
 PS3.16 sect_CID_12100 Vascular Ultrasound Report Document Title
 PS3.16 sect_CID_12101 Vascular Summary
 PS3.16 sect_CID_12102 Temporal Period Relating to Procedure or Therapy
@@ -1878,6 +1909,7 @@ PS3.16 sect_TID_15307 Acquisition Initiation Parameters
 PS3.16 sect_TID_15308 Imaging Source Geometry Parameters
 PS3.16 sect_TID_15309 Image Receptor Geometry Parameters
 PS3.16 sect_TID_15310 Imaging Device Position Parameters
+PS3.16 sect_TID_15311 RT Dose Calculation Model Parameters
 PS3.16 sect_TID_15400 Real-World Quantity Definition
 PS3.16 sect_TID_15401 Real-World Quantity Definition for X-Ray Attenuation Properties
 PS3.16 sect_N.1.1 ActPriority Value Set
@@ -2017,12 +2049,12 @@ PS3.4 sect_5.4.1 Use of DIMSE Services
  - U/M : The SCU may support and use the DIMSE Service. The SCP shall support the DIMSE Service.
  - U/U : The SCU may support and use the DIMSE Service. The SCP may support the DIMSE Service. If the SCP does not support the DIMSE Service used by the SCU, it shall return a Failure status.
 PS3.4 sect_5.4.2.1 DIMSE Service N-CREATE, N-SET, N-ACTION
- - Mandatory : The SCU shall provide the Attribute.
- - Optional : The SCU may or may not provide the Attribute.
- - Undefined : The SCU's usage of the Attribute is undefined.
+ - Mandatory : The SCU shall provide the Attribute with the command.
+ - Optional : The SCU may or may not provide the Attribute with the command.
+ - Not Allowed : The SCU shall not provide the Attribute with the command.
 PS3.4 sect_5.4.2.2 DIMSE Service N-GET, N-EVENT-REPORT
  - Optional : The SCU may retrieve the Attribute.
- - Undefined : The SCU's usage of the Attribute is undefined.
+ - Not Allowed : The SCU shall not request retrieval of the Attribute.
 PS3.4 None Type of container file.
 PS3.4 None Type of container file.
  - DICM : Single SOP Instance in DICOM File Format
@@ -2105,6 +2137,7 @@ PS3.3 chapter_4 Symbols and Abbreviations
  - PTV : Planning target volume
  - R&V : Record and verify
  - RCS : Reference Coordinate System
+ - RDSR : Radiation Dose Structured Reporting
  - ROI : Region of interest
  - RT : Radiotherapy
  - SAD : Source-axis distance
@@ -2437,8 +2470,14 @@ PS3.3 sect_C.7.6.1.1.5.1 Lossy Image Compression Method
 PS3.3 sect_C.7.6.3.1.2 Photometric Interpretation
  - MONOCHROME1 : Pixel data represent a single monochrome image plane. The minimum sample value is intended to be displayed as white after any VOI gray scale transformations have been performed. See
  - MONOCHROME2 : Pixel data represent a single monochrome image plane. The minimum sample value is intended to be displayed as black after any VOI gray scale transformations have been performed. See
- - PALETTE COLOR : Pixel data describe a color image with a single sample per pixel (single image plane). The pixel value is used as an index into each of the Red, Blue, and Green Palette Color Lookup Tables (0028,1101-1103&1201-1203). This Value may be used only when Samples per Pixel (0028,0002) has a Value of 1. May be used for pixel data in a Native (uncompressed) or Encapsulated (compressed) format; see
+ - PALETTE COLOR : Pixel data describe a color image with a single sample per pixel (single image plane).
+                                            The pixel value is used as an index into each of the Red, Blue, and Green Palette Color Lookup Tables (0028,1101-1103) and (0028,1201-1203).
+                                            This Value may be used only when Samples per Pixel (0028,0002) has a Value of 1.
+                                            May be used for pixel data in a Native (uncompressed) or Encapsulated (compressed) format; see
  - RGB : Pixel data represent a color image described by red, green, and blue image planes. The minimum sample value for each color plane represents minimum intensity of the color. This Value may be used only when Samples per Pixel (0028,0002) has a Value of 3. Planar Configuration (0028,0006) may be 0 or 1. May be used for pixel data in a Native (uncompressed) or Encapsulated (compressed) format; see
+ - HSV : Retired. See
+ - ARGB : Retired. See
+ - CMYK : Retired. See
  - YBR_FULL : Pixel data represent a color image described by one luminance (Y) and two chrominance planes (CB and CR). This photometric interpretation may be used only when Samples per Pixel (0028,0002) has a Value of 3. May be used for pixel data in a Native (uncompressed) or Encapsulated (compressed) format; see
  - YBR_FULL_422 : The same as YBR_FULL except that the CB and CR values are sampled horizontally at half the Y rate and as a result there are half as many CB and CR values as Y values.
  - YBR_PARTIAL_422 : Retired. See
@@ -2611,7 +2650,13 @@ PS3.3 None Indicates whether the image is created by means of Multi-energy techn
 PS3.3 None Direction of rotation of the source when relevant, about nearest principal axis of equipment.
  - CW : clockwise
  - CC : counter clockwise
-PS3.3 None A label describing the type of exposure modulation used for the purpose of limiting the dose.
+PS3.3 None Indicates whether or not metal artifact reduction (MAR) was applied.
+PS3.3 None A multi-valued label describing the type of exposure modulation used for the purpose of limiting the dose.
+ - NONE : Current is not modulated.
+ - ANGULAR : Current is modulated over different tube angles.
+ - LONGITUDINAL : Current is modulated along the axis of the table.
+ - ECG_BASED : Current is modulated based on the cardiac phase.
+ - ORGAN_BASED : Current is modulated based on the organs in the field of view.
 PS3.3 sect_C.8.2.1.1.1 Image Type
  - AXIAL : a CT Cross-sectional Image
  - LOCALIZER : a CT Localizer Image
@@ -2987,13 +3032,15 @@ PS3.3 sect_C.8.8.2.6.3 Bits Allocated
 PS3.3 sect_C.8.8.2.6.4 Bits Stored
 PS3.3 sect_C.8.8.2.6.6 Pixel Representation
  - 0000H : unsigned integer
-PS3.3 None Units used to describe dose.
+PS3.3 None Units of measurement for the dose.
  - GY : Gray
  - RELATIVE : dose relative to implicit reference value
-PS3.3 None Type of dose.
+ - CODED : unit described by code
+PS3.3 None Interpretation of the quantity represented in the dose volume.
  - PHYSICAL : physical dose
  - EFFECTIVE : physical dose after correction for biological effect using user-defined modeling technique
  - ERROR : difference between desired and planned dose
+ - CODED : described by code
 PS3.3 None The use of transformation in the calculation of the combined dose.
  - NONE : No transformation. Calculated on the original image set
  - RIGID : Only Rigid transform used (see definition in
@@ -3014,6 +3061,9 @@ PS3.3 None Specifies a list of patient heterogeneity characteristics used for ca
  - IMAGE : image data
  - ROI_OVERRIDE : one or more ROI densities override image or water values where they exist
  - WATER : entire volume treated as water equivalent
+PS3.3 None Describes choice of medium for energy deposition calculation for a voxel.
+ - DOSE_TO_WATER : Voxel calculation is modelled using material properties of water
+ - DOSE_TO_MEDIUM : Voxel calculation is modelled using material properties of a medium other than water, e.g., adipose tissue, muscle, cartilage, bone
 PS3.3 sect_C.8.8.3.4.1 Samples per Pixel
 PS3.3 sect_C.8.8.3.4.2 Photometric Interpretation
 PS3.3 sect_C.8.8.3.4.3 Bits Allocated
@@ -3279,6 +3329,10 @@ PS3.3 None Approval status at the time the SOP Instance was created.
  - APPROVED : Reviewer recorded that object met an implied criterion
  - UNAPPROVED : No review of object has been recorded
  - REJECTED : Reviewer recorded that object failed to meet an implied criterion
+PS3.3 None The origin of the content of this SOP Instance.
+ - DEVICE : The content has been recorded by the treatment device which performed the treatment delivery.
+ - USER : The content has been constructed based on user inputs.
+ - SIMULATION : he content has been constructed by a simulation of the treatment delivery.
 PS3.3 None Units used to describe measured dose.
  - GY : Gray
  - RELATIVE : Dose relative to implicit reference value
@@ -3709,6 +3763,12 @@ PS3.3 None Delivery Type of treatment.
 PS3.3 None Reason why the referenced channel is not to be delivered.
  - ALREADY_TREATED : The channel has been already delivered.
  - OTHER : This channel is not to be delivered for other reasons.
+PS3.3 None Measurement unit of machine dosimeter.
+ - MU : Monitor Unit
+ - MINUTE : Minute
+PS3.3 None Measurement unit of machine dosimeter.
+ - MU : Monitor Unit
+ - NP : Number of Particles
 PS3.3 None Type of Standardized Uptake Value (SUV).
  - BSA : body surface area
  - BW : body weight
@@ -3896,6 +3956,7 @@ PS3.3 sect_C.8.12.1.1.2 Bits Allocated, Bits Stored, and High Bit
 PS3.3 sect_C.8.12.1.1.3 Pixel Representation
 PS3.3 sect_C.8.12.1.1.4 Samples per Pixel
 PS3.3 sect_C.8.12.1.1.5 Planar Configuration
+ - 0 : color-by-pixel
 PS3.3 None Value 1 shall identify the Pixel Data Characteristics in accordance with 
 PS3.3 None Value 2 shall identify the Patient Examination Characteristics in accordance with 
 PS3.3 None Value 3 may be absent, but if present shall identify the members of a stereo pair, in which case Referenced Image Sequence (0008,1140) is used to identify the other member of the pair.
@@ -4236,12 +4297,18 @@ PS3.3 None Direction of rotation of the source about the gantry, as viewed while
  - CC : counter clockwise
 PS3.3 None Description of the algorithm used when reconstructing the image from the data acquired during the acquisition process.
 PS3.3 None A label describing the group to which Convolution Kernel (0018,1210).
-PS3.3 None A label describing the type of exposure modulation used for the purpose of limiting the dose.
+PS3.3 None A multi-valued label describing the type of exposure modulation used for the purpose of limiting the dose.
+ - NONE : Current is not modulated.
+ - ANGULAR : Current is modulated over different tube angles.
+ - LONGITUDINAL : Current is modulated along the axis of the table.
+ - ECG_BASED : Current is modulated based on the cardiac phase.
+ - ORGAN_BASED : Current is modulated based on the organs in the field of view.
 PS3.3 None Type of filter(s) inserted into the X-Ray beam.
 PS3.3 None Method used to decompose the acquired Multi-energy CT data into basis data.
  - PROJECTION_BASED : The acquired projection data was fully decomposed into basis projection data (i.e. sinograms).
  - IMAGE_BASED : The acquired projection data was fully reconstructed into images before being decomposed into basis image data.
  - HYBRID : The acquired projection data was reconstructed using knowledge in both projection and image space to produce basis image data. Decomposition and image reconstruction may be performed in a one-step approach.
+PS3.3 None Indicates whether or not metal artifact reduction (MAR) was applied.
 PS3.3 None Type of device, process or method that originally acquired the data used to create the images in this Series.
 PS3.3 None Number of samples (planes) in this image.
 PS3.3 None The number of samples (planes) containing information.
@@ -4940,6 +5007,7 @@ PS3.3 sect_C.11.15.1.2 Color Space
  - SRGB : ICC Profile (0028,2000) defines sRGB color space
  - ADOBERGB : ICC Profile (0028,2000) defines Adobe RGB color space
  - ROMMRGB : ICC Profile (0028,2000) defines ROMM RGB color space
+ - DISPLAYP3 : ICC Profile (0028,2000) defines Display-P3 color space
 PS3.3 None Type of layout of the Image Box. The types are primarily distinguished by their interaction technique.
  - TILED : A scrollable array of rectangles, each containing a single Frame of image pixel data.
  - STACK : A single rectangle containing a steppable single Frame, intended for user-controlled stepping through the image set, usually via continuous device interaction (e.g., mouse scrolling) or by single stepping (mouse or button click).
@@ -5124,21 +5192,21 @@ PS3.3 None Specifies whether image pixels are to be decimated or cropped if the 
  - DECIMATE : A magnification factor <1 to be applied to the image.
  - CROP : Some image rows and/or columns are to be deleted before printing. The specific algorithm for cropping shall be described in the SCP Conformance Statement.
  - FAIL : The SCP shall not crop or decimate
-PS3.3 None See 
-PS3.3 None See 
-PS3.3 None See 
-PS3.3 None See 
-PS3.3 None See 
-PS3.3 None See 
+PS3.3 None Number of samples (planes) in this image. See 
+PS3.3 None Specifies the intended interpretation of the pixel data. See 
+PS3.3 None Number of bits allocated for each pixel sample. Each sample shall have the same number of bits allocated. See 
+PS3.3 None Number of bits stored for each pixel sample. Each sample shall have the same number of bits stored. See 
+PS3.3 None Most significant bit for pixel sample data. Each sample shall have the same high bit. High Bit (0028,0102) shall be one less than Bits Stored (0028,0101). See 
+PS3.3 None Data representation of the pixel samples. Each sample shall have the same pixel representation.
  - 0 : unsigned integer
-PS3.3 None See 
-PS3.3 None See 
-PS3.3 None See 
- - 1 : frame interleave
-PS3.3 None See 
-PS3.3 None See 
-PS3.3 None See 
-PS3.3 None See 
+PS3.3 None Number of samples (planes) in this image. See 
+PS3.3 None Specifies the intended interpretation of the pixel data. See 
+PS3.3 None Indicates whether the pixel data are encoded color-by-plane or color-by-pixel. See 
+ - 1 : color-by-plane
+PS3.3 None Number of bits allocated for each pixel sample. Each sample shall have the same number of bits allocated. See 
+PS3.3 None Number of bits stored for each pixel sample. Each sample shall have the same number of bits stored. See 
+PS3.3 None Most significant bit for pixel sample data. Each sample shall have the same high bit. High Bit (0028,0102) shall be one less than Bits Stored (0028,0101). See 
+PS3.3 None Data representation of the pixel samples. Each sample shall have the same pixel representation.
  - 0000H : unsigned integer
 PS3.3 None Execution status of print job.
 PS3.3 None Additional information about Execution Status (2100,0020).
@@ -5591,6 +5659,7 @@ PS3.3 None The type of automated selection of the kVp value.
  - CNR_BASED : Value is selected based on Contrast to Noise Ratio.
  - DIAMETER_BASED : Value is selected based on patient diameter.
 PS3.3 None A multi-valued label describing the type of current modulation used for the purpose of limiting the dose.
+ - NONE : Current is not modulated.
  - ANGULAR : Current is modulated over different tube angles.
  - LONGITUDINAL : Current is modulated along the axis of the table.
  - ECG_BASED : Current is modulated based on the cardiac phase.
@@ -5697,6 +5766,18 @@ PS3.3 None Specifies the mounting side identified by the direction from the tip 
  - P : Positive mounting side. The axis intercept of the leaf tip is less than the axis intercept of the leaf tail.
  - N : Negative mounting side. The axis intercept of the leaf tip is greater than the axis intercept of the leaf tail.
  - M : values shall be provided, where M is the Number of Parallel RT Beam Delimiters (300A,0648), in the order of the Parallel RT Beam Delimiter Boundaries (300A,0649).
+PS3.3 None Delivery Type of treatment.
+ - TREATMENT : Normal patient treatment
+ - OPEN_PORTFILM : Portal image acquisition with open field
+ - TRMT_PORTFILM : Portal image acquisition with treatment port
+ - CONTINUATION : Continuation of interrupted treatment
+ - SETUP : No treatment beam is applied for this RT Beam. To be used for specifying the gantry, couch, and other machine positions where X-Ray set-up images or measurements are to be taken.
+ - VERIFICATION : Treatment used for Quality Assurance rather than patient treatment
+PS3.3 None Conditions under which treatment was terminated.
+ - NORMAL : treatment terminated normally
+ - OPERATOR : operator terminated treatment
+ - MACHINE : machine terminated treatment
+ - UNKNOWN : status at termination unknown
 PS3.3 None The method of specifying the location and orientation of the imaging source.
  - ABSOLUTE_MATRIX : Specified using absolute values represented by matrices describing the Imaging Source Coordinate System with respect to the Equipment Frame of Reference.
  - ABSOLUTE_PARAMS : Specified using absolute values for native parameters of a specific device.
@@ -5725,6 +5806,7 @@ PS3.3 sect_C.36.2.4.8.1.1 Frame Type
  - PLANNED : Image representing planned treatment position
  - TREATMENT : Image acquired at the actual treatment position or reconstructed based on the information about the actual treatment position
  - SIMULATION : Image acquired at a treatment device to simulate a potential treatment by a conventional simulator image
+PS3.3 None Specifies if the calculation model was commissioned when the dose data was produced.
 PS3.3 sect_C.36.3.1.1 Modality
  - RTINTENT : Radiotherapy Intent
  - RTRAD : RT Radiation
@@ -5890,6 +5972,7 @@ PS3.3 None -
 PS3.3 None -
 PS3.22 chapter_4 Symbols and Abbreviations
  - AVP : Audio Video Profile
+ - DICOM : Digital Imaging and Communications in Medicine
  - DICOM-RTV : DICOM Real-Time Video
  - NMOS : Networked Media Open Specifications
  - PTP : Precision Time Protocol
@@ -5901,8 +5984,10 @@ PS3.22 sect_6.2.1 RTP Header
  - payload type (PT) : The value of payload type is selected from the range 96-127. It is recommended to avoid numbers frequently used for audio (97) and video (96), and for example use 104 for DICOM Metadata Essence.
                                 The value shall be associated to the media type "application" and the subtype "dicom" in the SDP. E.g., (DICOM Metadata on port 12345):
 PS3.17 chapter_4 Symbols and Abbreviations
+ - DICOM : Digital Imaging and Communications in Medicine
  - FHIR : HL7 Fast Healthcare Interoperability Resources (draft standard)
  - MPPS : Modality Performed Procedure Step
+ - RDSR : Radiation Dose Structured Report
 PS3.17 sect_C.1 Domain of Application
  - ASTM E31.16 - E1467 : Specification for Transferring Digital Neurophysiological Data Between Independent Computer Systems
  - CEN TC251 PT5-007 - prENV1064 draft : Standard Communications Protocol for Computer-Assisted Electrocardiography (SCP-ECG).
@@ -5962,8 +6047,9 @@ PS3.17 sect_SSSS.1.5.1 Mapping of Polysomnographic Data to DICOM
  - Sleep Electroencephalogram Waveform Storage : The Sleep Electroencephalogram (EEG) Waveform Storage SOP Class is the specification of digitized electrical signals from the patient's encephalon collected on the skull surface, which has been acquired by an EEG modality or by an EEG acquisition function within a polysomnography modality.
  - Electromyogram Waveform Storage : The Electromyography (EMG) Waveform Storage SOP Class is the specification of digitized electrical signals evoked by the patient's muscle movements collected on the skin, which has been acquired by an EMG modality or by an EMG acquisition function within a neurophysiology recording device or a polysomnography modality.
  - Electrooculogram Waveform Storage : The Electrooculogram (EOG) Waveform Storage SOP Class is the specification of digitized electrical signals evoked by the patient's eye movements collected on the face, which has been acquired by an EOG modality or by an EOG acquisition function within a neurophysiology recording device or a polysomnography modality.
-PS3.18 chapter_4 Symbols and Abbreviated Terms
+PS3.18 chapter_4 Symbols and Abbreviations
  - ABNF : Augmented Backus-Naur Form. See
+ - CRUDL : Create, Read, Update, Delete, List; basic operations/actions on objects
  - DICOM : Digital Imaging and Communications in Medicine
  - HL7 : Health Level Seven
  - HTML : HyperText Markup Language
@@ -5976,12 +6062,18 @@ PS3.18 chapter_4 Symbols and Abbreviated Terms
  - IETF : Internet Engineering Task Force
  - IHE : Integrating the Healthcare Enterprise
  - JSON : JavaScript Object Notation
+ - MPPS : Modality Performed Procedure Step service.
+                        See
+ - MWL : Modality Worklist service; colloquial name for the Basic Worklist service.
+                        See
  - QIDO-RS : Query based on ID for DICOM Objects by RESTful Services
  - REST : Representational State Transfer, a web services architecture. See
  - RESTful : A service implemented using the REST architecture.
  - SOP : Service Object Pair
  - STOW-RS : STore Over the Web by RESTful Services
  - UID : Unique (DICOM) Identifier
+ - UPS : Unified Procedure Step service.
+                        See
  - UPS-RS : Unified Procedure Step by RESTful Services
  - URI : Uniform Resource Identifier. See
  - URL : Uniform Resource Locator. See
@@ -5998,9 +6090,11 @@ PS3.18 sect_7.1.2 RESTful Web Services and Resources
  - Worklist Web Service : Enables a user agent to manage the Worklist containing Workitems stored on an origin server.
  - Non-Patient Instance Web Service : Enables a user agent to manage Non-Patient Instances, e.g., Color Palettes, stored on an origin server.
  - Storage Commitment Service : The Storage Commitment Service enables a user agent to request the safekeeping of Instances on an origin server.
+ - Modality Scheduled Procedure Step Service : The Modality Scheduled Procedure Step Service enables a user agent to search for Scheduled Procedure Steps.
+ - Modality Performed Procedure Step Service : The Modality Performed Procedure Step Service enables a user agent to report progress on Performed Procedure Steps.
 PS3.18 sect_9.3 Transactions Overview
- - Retrieve DICOM Instance : This transaction retrieves a single Instance in the application/dicom Media Type.
- - Retrieve Rendered Instance : This transaction retrieves a single Instance in a Rendered Media Type.
+ - Retrieve DICOM Instance : This Transaction retrieves a single Instance in the application/dicom Media Type.
+ - Retrieve Rendered Instance : This Transaction retrieves a single Instance in a Rendered Media Type.
 PS3.18 sect_9.5.1.2.5 Source Image Region
  - xmin : the left column of the region
  - ymin : the top row of the region
@@ -6013,11 +6107,109 @@ PS3.18 sect_11.1.3 Common Media Types
  - multipart/related; type="application/dicom+xml"; boundary={boundary} : Specifies that the payload is a multipart message body where each part is a
  - application/dicom+json : Specifies that the payload is a JSON array containing Workitems, and each Workitem contains the appropriate Attributes. SeeSection F.2.
 PS3.18 sect_11.7.1.4 Request Payload
- - Transaction UID (0008,1195) : The request payload shall include a Transaction UID. The user agent creates the Transaction UID when requesting a transition to the IN PROGRESS state for a given Workitem. The user agent provides that Transaction UID in subsequent transactions with that Workitem.
+ - Transaction UID (0008,1195) : The request payload shall include a Transaction UID. The user agent creates the Transaction UID when requesting a transition to the IN PROGRESS state for a given Workitem. The user agent provides that Transaction UID in subsequent Transactions with that Workitem.
  - Procedure Step State (0074,1000) : The legal values correspond to the requested state transition. They are: "IN PROGRESS", "COMPLETED", or "CANCELED".
+PS3.18 sect_15.1.1 Resource Descriptions
+ - MPPS : A Data Set containing the Attributes specified in
 PS3.18 None Reason for the attribute modification.
  - COERCE : Replace values of attributes such as Patient Name, ID, Accession Number, for example, during import of media from an external institution, or reconciliation against a master patient index.
  - CORRECT : Replace incorrect values, such as Patient Name or ID, for example, when incorrect worklist item was chosen or operator input error.
+DICOM PS3 2025d None Supplements Incorporated
+ - None : DICOMweb Modality Procedure Step Services
+DICOM PS3 2025d None Correction Items Incorporated
+ - None : Add Dose Reporting Mode and Dose Calculation Model to RT Dose
+ - None : Update code meaning for Main Pulmonary Artery Vmax
+ - None : Add Description to Patient Location Fiducial in TID 10002 Accumulated X-Ray Dose
+ - None : Add rows for intended use of dose calibration in RDSR
+ - None : Clarify empty Value in multi-valued Data Element
+ - None : Add sub-template for UL Attenuation Imaging (ATI) measurements
+ - None : Salvage Details in RT Treatment Record and RT Ion Treatment Record
+ - None : Add organ dose ref authorities and attenuator categories, materials
+ - None : Correct Shared FG SQ description and inconsistencies
+ - None : Add Related Fields column to C-FIND SCP Status Codes in PS3.2
+ - None : Add more standard color spaces
+ - None : Add Indications to additional Ultrasound SR Templates
+ - None : Clarify when what Coded Entry Macro columns are relevant
+ - None : Clarify application/octet-stream can only contain uncompressed data
+ - None : Clarify odd number of 8-bit palette color LUT entries
+ - None : Correct inclusion of TID 300 with additional rows
+ - None : Correct duplicate rows in TID 3913 Aneurysm Properties
+ - None : Analysis Performed content item in TID 3905 should have HAS CONCEPT MOD relationship with Finding parent
+ - None : Finding Site content item in TID 3925 should have HAS CONCEPT MOD relationship with Finding parent
+ - None : Children of CODE Late Contrast Enhancement in TID 3926 Myocardial Perfusion Analysis have illegal HAS ACQ CONTEXT Relationship
+ - None : Clarify de-identification of Requesting Service
+ - None : Replace DCM code for Margin with SCT code
+ - None : Add anatomic concepts for middle and inner ear
+ - None : Clarification of inconsistent values of Pixel Presentation (0008,9205)
+ - None : PS3.3 10.40.1 correct reference to non-existing TID 175001
+ - None : Add missing abbreviation "RDSR" to various Parts
+ - None : Add missing references to retired definitions
+ - None : Clarify Concatenation Shared Functional Groups and Instance Creation Date
+ - None : Add More Fetal Cardiac Codes
+ - None : Add Clinical Fraction Number to RT Treatment Summary Record Module
+ - None : Add Dose Value to Dose Calibration Conditions
+ - None : Add Scan Spot Gantry and Patient Support Angle to Ion Beam Record
+ - None : RT Machine Verification Services Clarifications
+DICOM PS3 2026b None Supplements Incorporated
+DICOM PS3 2026b None Correction Items Incorporated
+ - None : Clarify matching of Required Keys of zero length
+ - None : Fix inconsistent use of name "Blending Presentation State"
+ - None : Clarify description of Image Type and Frame Type in Enhanced MR Image Module
+ - None : Correct multi-frame image media types for web services
+ - None : Clarify that bulk data value cannot be used to encode entire Sequences
+ - None : Add concepts for WSI QC to segmentation properties
+ - None : Unclear constraints on measurement units for Real World Value Mapping
+ - None : Include TID 1002 in TID 3700 with correct Relationship Type
+ - None : Length limit of Detector ID
+ - None : Describe payload consistently in message syntax
+ - None : Clarify behaviour of LUT operations when modules are absent in presentation state
+ - None : Replace retired orphan SNOMED code 244251006
+ - None : Retire DCM Codes from referenced DIN 6868-57
+ - None : Correction of typos in TIDs
+ - None : Correction of deprecated LOINC Code, and additions to H-1 LOINC Codes
+ - None : Clarification on Root TIDs - especially TID 3202, TID 3213
+ - None : Clarify how the SCP knows what SCUs to notify for MPPS
+ - None : Add Protocol Approvals to NPI Service
+ - None : Clarify how the origin server knows what user agents to notify in UPS-RS
+ - None : Add Placenta to Cervix Internal Os Distance Measurement
+ - None : Enhance Z-scores in SR Templates
+ - None : General Anatomy Optional Macro in RT Structure Set IOD
+ - None : Add Purpose of Reference to Referenced Instance and Image Sequences in Encapsulated Document Module
+ - None : Update DICOM to reflect changes in IHTSDO SNOMED CT-DICOM Subset for JUL 2025 INT Release
+ - None : Allow TILED_FULL for Float and Double Float Pixel Data
+ - None : Completeness of PS3.16 L-5 Pairedness vs. L-1 Body Part Examined
+ - None : Correction of wrong SNOMED Coded Concepts in CID 4061 and CID 12325
+ - None : Extend X-Ray Frame Acquisition Macro
+ - None : Improve the description of the search media type of the Search Transaction
+ - None : Remove first dash of Accept media types in several sections
+ - None : Remove WAVEFORM from Relationship Content Constraints for Colon CAD SR IOD
+ - None : Add metal artifact reduction metadata in CT
+DICOM PS3 2025e None Supplements Incorporated
+ - None : Ultrasound Fetal Anatomy Survey Structured Report Extensions
+DICOM PS3 2025e None Correction Items Incorporated
+ - None : Fix Requirement Type Final State Cells
+ - None : Changes from Sup190 are not fully reflected in PS3.17 samples
+ - None : Clarify Normalized Support terminology
+ - None : Adjust Description According Figure for 3D Ultrasound Source and Derived Images
+ - None : Adjust Ophthalmic Photography Image Module Attribute Description for Referenced Image Sequence
+ - None : Add Key Object Selection for withdrawal of rejection term to CID7010
+ - None : Correct Waveform Module attribute descriptions
+ - None : Clarify that X eliminates sequence
+ - None : De-identify waveform labels and names
+ - None : Add Radiopharmaceuticals
+ - None : Photometric Interpretation Compatibility
+ - None : Correct Code Meaning for Backrest Pitch Angle, Shin Rest Position and Heel Stop Position
+ - None : Add new codes to RT Dose Derivation CID
+ - None : Clarify use of Specific Character Set in JSON/XML
+ - None : Clarify concepts for thoracic cavity, thorax and chest
+ - None : Clarify single frame WSI
+ - None : Add 2C to the Behavior of DICOMweb UPS Search
+ - None : Define Quotation Mark
+ - None : Make lists of VRs that may have an Undefined Length consistent and clarify use of Undefined Lengths for VRs
+ - None : Harmonize capitalization of Data Element Types
+ - None : Consistently use defined terms "Bulk Data" and "Bulk Data URI" in PS3.18
+ - None : Clarify definition of Pixel Aspect Ratio and Presentation Pixel Aspect Ratio
+ - None : Fix various inconsistencies in the Audit Trail Message Format Profile
 DICOM PS3 2025c None Supplements Incorporated
  - None : Eyecare Measurement Templates
 DICOM PS3 2025c None Correction Items Incorporated
@@ -6216,6 +6408,7 @@ PS3.15 chapter_4 Symbols and Abbreviations
  - OID : Object Identifier (analogous to UID)
  - PDU : Protocol Data Unit
  - RDN : Relative Distinguished Name
+ - RDSR : Radiation Dose Structured Report
  - RFC : Request For Comment (used for standards issued by the IETF)
  - RR : Resource Record (when used in the context of DNS)
  - RSA : Rivest-Shamir-Adleman
@@ -6234,22 +6427,170 @@ PS3.15 sect_A.5.2 General Message Format Conventions
  - U : This element or attribute is user optional. The creator may include it or omit it.
  - MC : This element or attribute is mandatory if a specified condition is true.
  - UC : This element or attribute may be present only if a specified condition is true, if the user chooses to include it.
-PS3.15 None -
+PS3.15 para_3ea961cc-29ae-4e22-b7d8-5f96bdf751b0 -
  - C : Create a new database object, such as Placing an Order
  - R : Read/View/Print/Query Display or print data, such as a Doctor Census
  - U : Update data, such as Revise Patient Information
  - D : Delete items, such as a master file record
  - E : Execute a system or application function such as log-on, program execution, or use of an object's method
-PS3.15 None When a particular event has some aspects that succeeded and some that failed, then one message shall be generated for successful actions and one message for the failed actions (i.e., not a single message with mixed results).
+PS3.15 para_e7393636-6f89-4b69-8103-29d4d29d9873 -
  - 0 : Success
  - 4 : Minor failure; action restarted, e.g., invalid password with first retry
  - 8 : Serious failure; action terminated, e.g., invalid password with excess retries
  - 12 : Major failure; action made unavailable, e.g., user account disabled due to excessive invalid log-on attempts
-PS3.15 None -
+PS3.15 para_5a75ad85-3cda-47aa-9ed0-781b6d106313 -
  - 1 : Person
  - 2 : System Object
  - 3 : Organization
  - 4 : Other
+PS3.15 para_5f39fe31-67f3-4572-b3f6-3142e1cda3f5 -
+ - E : Execute
+PS3.15 para_1cd2e0cc-0c33-4307-97f8-62645f8a7ede -
+ - R : read
+PS3.15 para_d9c2ad48-acce-4732-ae26-26da9125f76d -
+ - 2 : System Object
+PS3.15 para_f72ad506-f38b-4426-96e6-ac443b9cb18e -
+ - 13 : Security Resource
+PS3.15 para_71bc3e87-7d42-4000-8775-2298239be7f1 -
+ - 12 : URI
+PS3.15 para_81cec541-a633-497a-93d0-f2fc6ef21ca2 -
+PS3.15 para_d8b2c5a0-d8dc-456f-a366-8e64092bc850 -
+ - E : Execute
+PS3.15 para_9612a35e-7bc6-47cc-8448-34c47535a515 -
+ - 2 : System Object
+PS3.15 para_5cfad272-af73-4518-b482-afa98ca62e20 -
+ - 3 : Report
+PS3.15 para_f2e7df1f-6bbc-48b2-8f49-b8eafeeadd67 -
+ - 1 : Person
+PS3.15 para_afb36105-bc04-4da6-8773-58f4ad191d19 -
+ - 1 : Patient
+PS3.15 para_e131e54c-3dc1-4520-b667-de5f029fd098 -
+ - 2 : Patient Number
+PS3.15 para_8e7e5f28-9588-4ce7-af89-5e584438c9f0 -
+ - R : Read
+PS3.15 para_acf7289e-ba89-4d70-9135-6667fe3aa80a -
+PS3.15 para_e27d1517-decf-4486-958d-d2cd06ac9578 -
+ - 2 : System Object
+PS3.15 para_8a5b93b3-bf8a-4f2a-a7c2-0770bb622c55 -
+ - 3 : 3 = Report
+PS3.15 para_2ae5779c-36e6-400b-b5fb-c54bca85eed2 -
+ - 1 : Person
+PS3.15 para_4e3398da-550a-451a-862b-b27b9b35dc40 -
+ - 1 : Patient
+PS3.15 para_e3712d94-0c6b-4190-a604-13b76f9b8cf0 -
+ - 2 : Patient Number
+PS3.15 para_55f04481-836f-4d35-b377-dad2862da830 -
+ - C : Create
+PS3.15 para_9922da5e-c47a-4ca3-8e60-aa146509fd7e -
+PS3.15 para_cd0f96e6-71c0-47e8-9816-afe04456552c -
+ - 2 : System Object
+PS3.15 para_3b64973c-66ae-4c58-bdc6-937882bf7819 -
+ - 3 : Report
+PS3.15 para_9897b47d-cabd-41c1-baf2-a80a0ce7111f -
+ - 1 : Person
+PS3.15 para_f636b9fe-10bd-4c1f-948a-b5b01f1f5fba -
+ - 1 : Patient
+PS3.15 para_63249e80-b031-4bd6-ab2f-483c7b6de110 -
+ - 2 : Patient Number
+PS3.15 para_5eb05b08-6002-4ff2-920c-aede20266240 -
+ - C : Create
+ - R : Read
+ - U : Update
+ - D : Delete
+PS3.15 para_6ee57ef6-739b-452b-b351-29920d2f6f65 -
+ - 2 : System Object
+PS3.15 para_012be5d2-da87-4049-9b1c-ba3d77c073cf -
+ - 3 : Report
+PS3.15 para_6fae92c5-7b65-4a3a-98f5-691685243edd -
+ - 1 : Person
+PS3.15 para_3527b8b1-89e5-454c-b84d-47963429beb5 -
+ - 1 : Patient
+PS3.15 para_e5f53acc-273f-495a-bf90-33c8d4c4a70c -
+ - 2 : Patient Number
+PS3.15 para_a29795d7-bbf3-4918-b89f-46b53d7ddeb3 -
+ - C : (Create) if the receiver did not hold copies of the SOP Instances transferred
+ - R : (Read) if the receiver already holds copies of the SOP Instances transferred, and has determined that no changes are needed to the copies held.
+ - U : (Update) if the receiver is altering its held copies to reconcile differences between the held copies and the received copies.
+PS3.15 para_fe5412ec-af8a-4ae4-9499-1155658812ab -
+ - 2 : System Object
+PS3.15 para_95c90973-2a61-4c6c-b599-77f51f1b8da6 -
+ - 3 : Report
+PS3.15 para_67a0073c-f4a9-4aca-9312-85aad6d89079 -
+ - 1 : Person
+PS3.15 para_4da36a1b-37cb-40da-9c04-3d190e322843 -
+ - 1 : Patient
+PS3.15 para_25a13784-96b0-4c01-899f-8ee90d83729c -
+ - 2 : Patient Number
+PS3.15 para_97d0a540-7304-4752-9500-5bc8019da846 -
+ - D : Delete
+PS3.15 para_8aa30896-6a7e-4fc3-98fa-0eaca0a01f1a -
+ - 2 : System Object
+PS3.15 para_52810bc2-aa0c-41e3-baf2-39ba1d8c2f25 -
+ - 3 : Report
+PS3.15 para_3e45b745-fb50-4d53-88f5-669c7a99191a -
+ - 1 : Person
+PS3.15 para_2002f7ae-9ecd-4eea-83ed-f3cdfb2a1f1c -
+ - 1 : Patient
+PS3.15 para_c30ddd6b-26e2-4f05-a4f7-16362060f9d2 -
+ - 2 : Patient Number
+PS3.15 para_795c6ab9-207a-4272-a349-be467396df27 -
+ - E : Execute
+PS3.15 para_cf70ce4a-34c5-458a-9d00-fc5cb8c6d199 -
+PS3.15 para_a3ad1f5a-0984-4aa8-992f-47b1cdb21ee9 -
+ - E : Execute
+PS3.15 para_07c56ffc-93d5-4383-bfd3-b48000fe9b58 -
+ - 2 : System Object
+PS3.15 para_d04e041a-23e8-4776-8904-c83440d7edae -
+ - 3 : Report
+PS3.15 para_4c651555-9dac-422c-a43b-ed04c10403d4 -
+ - E : Execute
+PS3.15 para_a7a202cf-f537-4688-b45c-7227aaff11ef -
+PS3.15 para_85d9756d-e46a-4dee-87bd-e2be3a5078e8 -
+ - 2 : System Object
+PS3.15 para_6815e1e2-eed0-4768-8349-30e6ddac94f1 -
+ - 5 : Master File
+ - 13 : Security Resource
+PS3.15 para_9fbce05e-40d4-40d2-bd03-58946d153ecc -
+ - 12 : URI
+PS3.15 para_43c9a53f-3fdb-46cb-af3a-74ea889e723b -
+ - E : Execute
+PS3.15 para_a27fe25c-c84e-4d57-8773-95242835da6b -
+ - C : Create
+ - R : Read
+ - U : Update
+ - D : Delete
+PS3.15 para_3b12925f-56d8-428a-b0f4-254244d58922 -
+ - 1 : Person
+PS3.15 para_2f50b36e-390f-4f02-b8c6-1ca953480d2a -
+ - 1 : Patient
+PS3.15 para_e97a3ab3-4823-4751-8440-903567fadd35 -
+ - 2 : Patient Number
+PS3.15 para_59fdeea9-44b8-45d5-8078-fc1443f2677a -
+ - C : Create
+ - R : Read
+ - U : Update
+ - D : Delete
+PS3.15 para_4b10c06e-8b73-400a-885e-cf3b284ffde6 -
+ - 1 : Person
+PS3.15 para_bf49b055-8890-4077-8031-44c72d2674e3 -
+ - 1 : Patient)
+PS3.15 para_79c63327-a507-468c-bded-5216f10cfa23 -
+ - 2 : Patient Number
+PS3.15 para_23ebce19-dd1d-4b94-bd44-8be9497400dc -
+ - C : Create
+ - R : Read
+ - U : Update
+ - D : Delete
+PS3.15 para_7883aa13-ae73-4571-872c-bd4c092e1cbb -
+ - 2 : System Object
+PS3.15 para_fc0e33fe-6dad-44a7-aeab-a8d6a8c6e0db -
+ - 3 : Report
+PS3.15 para_bffb2016-7fbe-4be9-af0a-5f8cdebaf280 -
+ - 1 : Person
+PS3.15 para_9a69fee7-7866-4ac3-a29e-7c7f72b47cb1 -
+ - 1 : Patient
+PS3.15 para_2cfdbea6-7e0b-4834-9940-61a4121a4002 -
+ - 2 : Patient Number
 PS3.15 sect_F.1.1.2 Use Case Roles
  - Actor: : DNS Client
  - Role: : Needs IP address, has the DNS Hostname
@@ -6361,6 +6702,7 @@ PS3.6 chapter_4 Symbols and Abbreviations
  - JIRA : Japan Medical Imaging and Radiological Systems Industries Association
  - NEMA : National Electrical Manufacturers Association
  - OSI : Open Systems Interconnection
+ - RDSR : Radiation Dose Structured Report
  - TCP/IP : Transmission Control Protocol/Internet Protocol
  - UID : Unique Identifier
  - VM : Value Multiplicity

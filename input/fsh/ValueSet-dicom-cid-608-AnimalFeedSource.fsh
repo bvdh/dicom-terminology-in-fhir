@@ -2,15 +2,17 @@ ValueSet    : CID_608
 Id          : dicom-cid-608-AnimalFeedSource
 Description :
 """
-Animal Feed Source
+(C1547887, UMLS, 'Commercial product')
+
+The content in this ValueSet is based on [CID 608](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_608.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1073"
 * ^version = "20151110"
-* ^title = "Animal Feed Source"
+* ^title = "Animal Feed Source (CID 608)"
 * ^name = "AnimalFeedSource"
-* http://terminology.hl7.org/CodeSystem/umls#C1547887 "Commercial product" 
-// * http://terminology.hl7.org/CodeSystem/umls#C1547887 "Commercial product" 
+* ^experimental = false
+* http://terminology.hl7.org/CodeSystem/umls#C1547887 //"Commercial product" 
 
-* DICOMDCMCodeSystem#127390 "Locally manufactured product" 
+* DICOM_DCM_CodeSystem#127390 //"Locally manufactured product" 
 

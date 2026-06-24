@@ -3,17 +3,18 @@ Id          : dicom-cid-4407-LesionPalpationFinding
 Description :
 """
 Lesion Palpation Finding
+
+The content in this ValueSet is based on [CID 4407](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4407.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1352"
 * ^version = "20231115"
-* ^title = "Lesion Palpation Finding"
+* ^title = "Lesion Palpation Finding (CID 4407)"
 * ^name = "LesionPalpationFinding"
-* DICOMDCMCodeSystem#130485 "Firm skin lesion" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130485 //"Firm skin lesion" 
 
-* DICOMDCMCodeSystem#130486 "Raised skin lesion" 
-* http://terminology.hl7.org/CodeSystem/umls#C0748816 "Raised skin lesion" 
+* DICOM_DCM_CodeSystem#130486 //"Raised skin lesion" 
 
-* http://terminology.hl7.org/CodeSystem/umls#C2071496 "Mobile skin lesion" 
-// * http://terminology.hl7.org/CodeSystem/umls#C2071496 "Mobile skin lesion" 
+* http://terminology.hl7.org/CodeSystem/umls#C2071496 //"Mobile skin lesion" 
 

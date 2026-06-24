@@ -3,31 +3,34 @@ Id          : dicom-cid-9231-WorkitemDefinition
 Description :
 """
 Workitem Definition
+
+The content in this ValueSet is based on [CID 9231](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9231.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.531"
 * ^version = "20160601"
-* ^title = "Workitem Definition"
+* ^title = "Workitem Definition (CID 9231)"
 * ^name = "WorkitemDefinition"
-* DICOMDCMCodeSystem#110001 "Image Processing" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#110001 //"Image Processing" 
 
-* DICOMDCMCodeSystem#110002 "Quality Control" 
+* DICOM_DCM_CodeSystem#110002 //"Quality Control" 
 
-* DICOMDCMCodeSystem#110003 "Computer Aided Diagnosis" 
+* DICOM_DCM_CodeSystem#110003 //"Computer Aided Diagnosis" 
 
-* DICOMDCMCodeSystem#110004 "Computer Aided Detection" 
+* DICOM_DCM_CodeSystem#110004 //"Computer Aided Detection" 
 
-* DICOMDCMCodeSystem#110005 "Interpretation" 
+* DICOM_DCM_CodeSystem#110005 //"Interpretation" 
 
-* DICOMDCMCodeSystem#110006 "Transcription" 
+* DICOM_DCM_CodeSystem#110006 //"Transcription" 
 
-* DICOMDCMCodeSystem#110007 "Report Verification" 
+* DICOM_DCM_CodeSystem#110007 //"Report Verification" 
 
-* DICOMDCMCodeSystem#128001 "Add Addendum to Report" 
+* DICOM_DCM_CodeSystem#128001 //"Add Addendum to Report" 
 
-* DICOMDCMCodeSystem#110008 "Print" 
+* DICOM_DCM_CodeSystem#110008 //"Print" 
 
-* DICOMDCMCodeSystem#110009 "No subsequent Workitems" 
+* DICOM_DCM_CodeSystem#110009 //"No subsequent Workitems" 
 
-* DICOMDCMCodeSystem#110013 "Media Import" 
+* DICOM_DCM_CodeSystem#110013 //"Media Import" 
 

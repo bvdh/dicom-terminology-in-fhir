@@ -3,21 +3,24 @@ Id          : dicom-cid-9571-PatientTreatmentPreparationMethod
 Description :
 """
 Patient Treatment Preparation Method
+
+The content in this ValueSet is based on [CID 9571](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9571.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1418"
 * ^version = "20210906"
-* ^title = "Patient Treatment Preparation Method"
+* ^title = "Patient Treatment Preparation Method (CID 9571)"
 * ^name = "PatientTreatmentPreparationMethod"
-* DICOMDCMCodeSystem#130630 "Isocentric Setup Method" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130630 //"Isocentric Setup Method" 
 
-* DICOMDCMCodeSystem#130631 "Controlled SSD Setup Method" 
+* DICOM_DCM_CodeSystem#130631 //"Controlled SSD Setup Method" 
 
-* DICOMDCMCodeSystem#130632 "TBI Setup Method" 
+* DICOM_DCM_CodeSystem#130632 //"TBI Setup Method" 
 
-* DICOMDCMCodeSystem#130633 "Stereotactic Setup Method" 
+* DICOM_DCM_CodeSystem#130633 //"Stereotactic Setup Method" 
 
-* DICOMDCMCodeSystem#130634 "Skin Apposition Setup Method" 
+* DICOM_DCM_CodeSystem#130634 //"Skin Apposition Setup Method" 
 
-* DICOMDCMCodeSystem#130635 "Ocular Gaze Setup Method" 
+* DICOM_DCM_CodeSystem#130635 //"Ocular Gaze Setup Method" 
 

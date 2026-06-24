@@ -3,21 +3,24 @@ Id          : dicom-cid-10063-RadiationDoseEstimateDistributionRepresentation
 Description :
 """
 Radiation Dose Estimate Distribution Representation
+
+The content in this ValueSet is based on [CID 10063](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_10063.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1157"
 * ^version = "20170405"
-* ^title = "Radiation Dose Estimate Distribution Representation"
+* ^title = "Radiation Dose Estimate Distribution Representation (CID 10063)"
 * ^name = "RadiationDoseEstimateDistributionRepresentation"
-* DICOMDCMCodeSystem#128484 "Isodose" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128484 //"Isodose" 
 
-* DICOMDCMCodeSystem#128485 "Skin Dose Map" 
+* DICOM_DCM_CodeSystem#128485 //"Skin Dose Map" 
 
-* DICOMDCMCodeSystem#128487 "3D Dose Map" 
+* DICOM_DCM_CodeSystem#128487 //"3D Dose Map" 
 
-* DICOMDCMCodeSystem#128488 "Dose Gradient" 
+* DICOM_DCM_CodeSystem#128488 //"Dose Gradient" 
 
-* DICOMDCMCodeSystem#128496 "Dose Point Cloud" 
+* DICOM_DCM_CodeSystem#128496 //"Dose Point Cloud" 
 
-* DICOMDCMCodeSystem#121342 "Dose Image" 
+* DICOM_DCM_CodeSystem#121342 //"Dose Image" 
 

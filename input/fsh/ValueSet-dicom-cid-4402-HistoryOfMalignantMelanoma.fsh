@@ -3,17 +3,16 @@ Id          : dicom-cid-4402-HistoryOfMalignantMelanoma
 Description :
 """
 History of Malignant Melanoma
+
+The content in this ValueSet is based on [CID 4402](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4402.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1347"
 * ^version = "20201115"
-* ^title = "History of Malignant Melanoma"
+* ^title = "History of Malignant Melanoma (CID 4402)"
 * ^name = "HistoryOfMalignantMelanoma"
-* http://snomed.info/sct#161432005 "History of malignant melanoma" 
-* http://snomed.info/srt#G-0239 "History of malignant melanoma" 
-* http://terminology.hl7.org/CodeSystem/umls#C0457969 "History of malignant melanoma" 
+* ^experimental = false
+* http://snomed.info/sct#161432005 //"History of malignant melanoma" 
 
-* http://snomed.info/sct#321000119108 "History of malignant melanoma of the skin" 
-* http://snomed.info/srt#R-FAC46 "History of malignant melanoma of the skin" 
-* http://terminology.hl7.org/CodeSystem/umls#C3266389 "History of malignant melanoma of the skin" 
+* http://snomed.info/sct#321000119108 //"History of malignant melanoma of the skin" 
 

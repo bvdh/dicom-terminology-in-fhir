@@ -3,23 +3,26 @@ Id          : dicom-cid-6123-ChestOpacityDescriptor
 Description :
 """
 Original source of terms is [Fraser and Pare].
+
+The content in this ValueSet is based on [CID 6123](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6123.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.443"
 * ^version = "20030108"
-* ^title = "Chest Opacity Descriptor"
+* ^title = "Chest Opacity Descriptor (CID 6123)"
 * ^name = "ChestOpacityDescriptor"
-* DICOMDCMCodeSystem#112146 "Acinar" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112146 //"Acinar" 
 
-* DICOMDCMCodeSystem#112147 "Air space" 
+* DICOM_DCM_CodeSystem#112147 //"Air space" 
 
-* DICOMDCMCodeSystem#112148 "Fibronodular" 
+* DICOM_DCM_CodeSystem#112148 //"Fibronodular" 
 
-* DICOMDCMCodeSystem#112149 "Fluffy" 
+* DICOM_DCM_CodeSystem#112149 //"Fluffy" 
 
-* DICOMDCMCodeSystem#112150 "Linear" 
+* DICOM_DCM_CodeSystem#112150 //"Linear" 
 
-* DICOMDCMCodeSystem#112151 "Profusion" 
+* DICOM_DCM_CodeSystem#112151 //"Profusion" 
 
-* DICOMDCMCodeSystem#112152 "Silhouette sign" 
+* DICOM_DCM_CodeSystem#112152 //"Silhouette sign" 
 

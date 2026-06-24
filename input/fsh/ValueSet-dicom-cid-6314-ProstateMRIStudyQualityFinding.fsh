@@ -3,23 +3,26 @@ Id          : dicom-cid-6314-ProstateMRIStudyQualityFinding
 Description :
 """
 Prostate MRI Study Quality Finding
+
+The content in this ValueSet is based on [CID 6314](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6314.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1371"
 * ^version = "20210714"
-* ^title = "Prostate MRI Study Quality Finding"
+* ^title = "Prostate MRI Study Quality Finding (CID 6314)"
 * ^name = "ProstateMRIStudyQualityFinding"
-* DICOMDCMCodeSystem#130570 "Protocol not followed" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130570 //"Protocol not followed" 
 
-* DICOMDCMCodeSystem#130571 "Coil placement concern" 
+* DICOM_DCM_CodeSystem#130571 //"Coil placement concern" 
 
-* DICOMDCMCodeSystem#130572 "Coil selection concern" 
+* DICOM_DCM_CodeSystem#130572 //"Coil selection concern" 
 
-* DICOMDCMCodeSystem#130573 "Study performed did not match request" 
+* DICOM_DCM_CodeSystem#130573 //"Study performed did not match request" 
 
-* DICOMDCMCodeSystem#130574 "Incomplete study" 
+* DICOM_DCM_CodeSystem#130574 //"Incomplete study" 
 
-* DICOMDCMCodeSystem#130575 "Suboptimal patient preparation" 
+* DICOM_DCM_CodeSystem#130575 //"Suboptimal patient preparation" 
 
-* http://www.radlex.org#RID11281 "Suboptimal patient positioning" 
+* http://www.radlex.org#RID11281 //"Suboptimal patient positioning" 
 

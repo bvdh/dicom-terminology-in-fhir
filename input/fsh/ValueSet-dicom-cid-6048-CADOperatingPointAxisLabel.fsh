@@ -3,25 +3,28 @@ Id          : dicom-cid-6048-CADOperatingPointAxisLabel
 Description :
 """
 CAD Operating Point Axis Label
+
+The content in this ValueSet is based on [CID 6048](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6048.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.378"
 * ^version = "20060612"
-* ^title = "CAD Operating Point Axis Label"
+* ^title = "CAD Operating Point Axis Label (CID 6048)"
 * ^name = "CADOperatingPointAxisLabel"
-* DICOMDCMCodeSystem#111012 "Certainty of Finding" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111012 //"Certainty of Finding" 
 
-* DICOMDCMCodeSystem#111047 "Probability of cancer" 
+* DICOM_DCM_CodeSystem#111047 //"Probability of cancer" 
 
-* DICOMDCMCodeSystem#111086 "False Markers per Image" 
+* DICOM_DCM_CodeSystem#111086 //"False Markers per Image" 
 
-* DICOMDCMCodeSystem#111087 "False Markers per Case" 
+* DICOM_DCM_CodeSystem#111087 //"False Markers per Case" 
 
-* DICOMDCMCodeSystem#111088 "Case Sensitivity" 
+* DICOM_DCM_CodeSystem#111088 //"Case Sensitivity" 
 
-* DICOMDCMCodeSystem#111089 "Lesion Sensitivity" 
+* DICOM_DCM_CodeSystem#111089 //"Lesion Sensitivity" 
 
-* DICOMDCMCodeSystem#111090 "Case Specificity" 
+* DICOM_DCM_CodeSystem#111090 //"Case Specificity" 
 
-* DICOMDCMCodeSystem#111091 "Image Specificity" 
+* DICOM_DCM_CodeSystem#111091 //"Image Specificity" 
 

@@ -3,29 +3,22 @@ Id          : dicom-cid-3676-LeadMeasurementTechnique
 Description :
 """
 Lead Measurement Technique
+
+The content in this ValueSet is based on [CID 3676](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3676.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.190"
 * ^version = "20180325"
-* ^title = "Lead Measurement Technique"
+* ^title = "Lead Measurement Technique (CID 3676)"
 * ^name = "LeadMeasurementTechnique"
-* http://snomed.info/sct#373098007 "Averaged" 
-* http://snomed.info/srt#R-00317 "Averaged" 
-* http://terminology.hl7.org/CodeSystem/umls#C1298794 "Averaged" 
+* ^experimental = false
+* http://snomed.info/sct#373098007 //"Averaged" 
 
-* http://snomed.info/sct#373115008 "Routine" 
-* http://snomed.info/srt#R-0036D "Routine" 
-* http://terminology.hl7.org/CodeSystem/umls#C1298806 "Routine" 
+* http://snomed.info/sct#373115008 //"Routine" 
 
-* http://snomed.info/sct#373099004 "Median" 
-* http://snomed.info/srt#R-00319 "Median" 
-* http://terminology.hl7.org/CodeSystem/umls#C1298795 "Median" 
+* http://snomed.info/sct#373099004 //"Median" 
 
-* http://snomed.info/sct#371916004 "Representative" 
-* http://snomed.info/srt#R-0036A "Representative" 
-* http://terminology.hl7.org/CodeSystem/umls#C1299385 "Representative" 
+* http://snomed.info/sct#371916004 //"Representative" 
 
-* http://snomed.info/sct#371871002 "Single Beats" 
-* http://snomed.info/srt#R-00373 "Single Beats" 
-* http://terminology.hl7.org/CodeSystem/umls#C1299345 "Single Beats" 
+* http://snomed.info/sct#371871002 //"Single Beats" 
 

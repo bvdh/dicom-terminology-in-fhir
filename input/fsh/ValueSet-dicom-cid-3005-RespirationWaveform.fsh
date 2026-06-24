@@ -3,67 +3,70 @@ Id          : dicom-cid-3005-RespirationWaveform
 Description :
 """
 Respiration Waveform
+
+The content in this ValueSet is based on [CID 3005](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3005.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.804"
 * ^version = "20200623"
-* ^title = "Respiration Waveform"
+* ^title = "Respiration Waveform (CID 3005)"
 * ^name = "RespirationWaveform"
-* DICOMDCMCodeSystem#109117 "Respiration Waveform" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#109117 //"Respiration Waveform" 
 
-* DICOMDCMCodeSystem#130416 "Airflow Thermistor" 
+* DICOM_DCM_CodeSystem#130416 //"Airflow Thermistor" 
 
-* DICOMDCMCodeSystem#130417 "Airflow Thermocouple" 
+* DICOM_DCM_CodeSystem#130417 //"Airflow Thermocouple" 
 
-* DICOMDCMCodeSystem#130418 "Airflow Nasal Prong" 
+* DICOM_DCM_CodeSystem#130418 //"Airflow Nasal Prong" 
 
-* DICOMDCMCodeSystem#130419 "Airflow PVDF" 
+* DICOM_DCM_CodeSystem#130419 //"Airflow PVDF" 
 
-* DICOMDCMCodeSystem#130420 "Airflow CPAP" 
+* DICOM_DCM_CodeSystem#130420 //"Airflow CPAP" 
 
-* DICOMDCMCodeSystem#130421 "Airflow" 
+* DICOM_DCM_CodeSystem#130421 //"Airflow" 
 
-* DICOMDCMCodeSystem#130422 "PAP Pressure" 
+* DICOM_DCM_CodeSystem#130422 //"PAP Pressure" 
 
-* DICOMDCMCodeSystem#130423 "PAP Leak Pressure" 
+* DICOM_DCM_CodeSystem#130423 //"PAP Leak Pressure" 
 
-* DICOMDCMCodeSystem#130424 "PAP Tidal Volume" 
+* DICOM_DCM_CodeSystem#130424 //"PAP Tidal Volume" 
 
-* DICOMDCMCodeSystem#130425 "Esophageal Pressure" 
+* DICOM_DCM_CodeSystem#130425 //"Esophageal Pressure" 
 
-* DICOMDCMCodeSystem#130426 "Respiratory Pressure" 
+* DICOM_DCM_CodeSystem#130426 //"Respiratory Pressure" 
 
-* DICOMDCMCodeSystem#130427 "Thoracic Respiratory Inductance" 
+* DICOM_DCM_CodeSystem#130427 //"Thoracic Respiratory Inductance" 
 
-* DICOMDCMCodeSystem#130428 "Abdominal Respiratory Inductance" 
+* DICOM_DCM_CodeSystem#130428 //"Abdominal Respiratory Inductance" 
 
-* DICOMDCMCodeSystem#130429 "Thoracic Respiratory PVDF" 
+* DICOM_DCM_CodeSystem#130429 //"Thoracic Respiratory PVDF" 
 
-* DICOMDCMCodeSystem#130430 "Abdominal Respiratory PVDF" 
+* DICOM_DCM_CodeSystem#130430 //"Abdominal Respiratory PVDF" 
 
-* DICOMDCMCodeSystem#130431 "Thoracic Respiratory Effort" 
+* DICOM_DCM_CodeSystem#130431 //"Thoracic Respiratory Effort" 
 
-* DICOMDCMCodeSystem#130432 "Abdominal Respiratory Effort" 
+* DICOM_DCM_CodeSystem#130432 //"Abdominal Respiratory Effort" 
 
-* DICOMDCMCodeSystem#130433 "Respiratory Effort" 
+* DICOM_DCM_CodeSystem#130433 //"Respiratory Effort" 
 
-* DICOMDCMCodeSystem#130434 "CO2 Transcutaneous" 
+* DICOM_DCM_CodeSystem#130434 //"CO2 Transcutaneous" 
 
-* DICOMDCMCodeSystem#130435 "CO2 Waveform End-tidal Main-stream" 
+* DICOM_DCM_CodeSystem#130435 //"CO2 Waveform End-tidal Main-stream" 
 
-* DICOMDCMCodeSystem#130436 "CO2 Trend End-tidal Main-stream" 
+* DICOM_DCM_CodeSystem#130436 //"CO2 Trend End-tidal Main-stream" 
 
-* DICOMDCMCodeSystem#130437 "CO2 Waveform End-tidal Side-stream" 
+* DICOM_DCM_CodeSystem#130437 //"CO2 Waveform End-tidal Side-stream" 
 
-* DICOMDCMCodeSystem#130438 "CO2 Trend End-tidal Side-stream" 
+* DICOM_DCM_CodeSystem#130438 //"CO2 Trend End-tidal Side-stream" 
 
-* DICOMDCMCodeSystem#130439 "CO2 Waveform Main-stream" 
+* DICOM_DCM_CodeSystem#130439 //"CO2 Waveform Main-stream" 
 
-* DICOMDCMCodeSystem#130440 "CO2 Waveform Side-stream" 
+* DICOM_DCM_CodeSystem#130440 //"CO2 Waveform Side-stream" 
 
-* DICOMDCMCodeSystem#130441 "CO2 Trend Main-stream" 
+* DICOM_DCM_CodeSystem#130441 //"CO2 Trend Main-stream" 
 
-* DICOMDCMCodeSystem#130442 "CO2 Trend Side-stream" 
+* DICOM_DCM_CodeSystem#130442 //"CO2 Trend Side-stream" 
 
-* DICOMDCMCodeSystem#130443 "CO2 Respiration" 
+* DICOM_DCM_CodeSystem#130443 //"CO2 Respiration" 
 

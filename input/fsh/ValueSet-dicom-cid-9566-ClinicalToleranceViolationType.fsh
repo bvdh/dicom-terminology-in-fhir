@@ -3,15 +3,18 @@ Id          : dicom-cid-9566-ClinicalToleranceViolationType
 Description :
 """
 Clinical Tolerance Violation Type
+
+The content in this ValueSet is based on [CID 9566](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9566.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1323"
 * ^version = "20200624"
-* ^title = "Clinical Tolerance Violation Type"
+* ^title = "Clinical Tolerance Violation Type (CID 9566)"
 * ^name = "ClinicalToleranceViolationType"
-* DICOMDCMCodeSystem#130468 "Beam Targeting Tolerance Violation" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130468 //"Beam Targeting Tolerance Violation" 
 
-* DICOMDCMCodeSystem#130469 "Meterset Tolerance Violation" 
+* DICOM_DCM_CodeSystem#130469 //"Meterset Tolerance Violation" 
 
-* DICOMDCMCodeSystem#130470 "Delivery Rate Tolerance Violation" 
+* DICOM_DCM_CodeSystem#130470 //"Delivery Rate Tolerance Violation" 
 

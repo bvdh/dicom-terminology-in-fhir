@@ -3,12 +3,15 @@ Id          : dicom-cid-9500-DosimetricObjectiveType
 Description :
 """
 Dosimetric Objective Type
+
+The content in this ValueSet is based on [CID 9500](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9500.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1210"
 * ^version = "20181112"
-* ^title = "Dosimetric Objective Type"
+* ^title = "Dosimetric Objective Type (CID 9500)"
 * ^name = "DosimetricObjectiveType"
+* ^experimental = false
 * include codes from valueset CID_9532
 
 * include codes from valueset CID_9529
@@ -17,11 +20,11 @@ Dosimetric Objective Type
 
 * include codes from valueset CID_9531
 
-* DICOMDCMCodeSystem#130074 "Specified Conformity Index" 
+* DICOM_DCM_CodeSystem#130074 //"Specified Conformity Index" 
 
-* DICOMDCMCodeSystem#130075 "Specified Healthy Tissue Conformity Index" 
+* DICOM_DCM_CodeSystem#130075 //"Specified Healthy Tissue Conformity Index" 
 
-* DICOMDCMCodeSystem#130076 "Specified Conformation Number" 
+* DICOM_DCM_CodeSystem#130076 //"Specified Conformation Number" 
 
-* DICOMDCMCodeSystem#130077 "Specified Homogeneity Index" 
+* DICOM_DCM_CodeSystem#130077 //"Specified Homogeneity Index" 
 

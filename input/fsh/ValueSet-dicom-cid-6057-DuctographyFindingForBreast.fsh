@@ -3,27 +3,28 @@ Id          : dicom-cid-6057-DuctographyFindingForBreast
 Description :
 """
 These terms were obtained from BI-RADS
+
+The content in this ValueSet is based on [CID 6057](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6057.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.386"
 * ^version = "20040112"
-* ^title = "Ductography Finding for Breast"
+* ^title = "Ductography Finding for Breast (CID 6057)"
 * ^name = "DuctographyFindingForBreast"
-* DICOMDCMCodeSystem#111287 "Normal breast tissue" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111287 //"Normal breast tissue" 
 
-* DICOMDCMCodeSystem#111425 "Intraluminal filling defect" 
+* DICOM_DCM_CodeSystem#111425 //"Intraluminal filling defect" 
 
-* http://snomed.info/sct#22049009 "Mammary duct ectasia" 
-* http://snomed.info/srt#D7-90370 "Mammary duct ectasia" 
-* http://terminology.hl7.org/CodeSystem/umls#C0152442 "Mammary duct ectasia" 
+* http://snomed.info/sct#22049009 //"Mammary duct ectasia" 
 
-* DICOMDCMCodeSystem#111426 "Multiple filling defect" 
+* DICOM_DCM_CodeSystem#111426 //"Multiple filling defect" 
 
-* DICOMDCMCodeSystem#111427 "Abrupt duct termination" 
+* DICOM_DCM_CodeSystem#111427 //"Abrupt duct termination" 
 
-* DICOMDCMCodeSystem#111428 "Extravasation" 
+* DICOM_DCM_CodeSystem#111428 //"Extravasation" 
 
-* DICOMDCMCodeSystem#111429 "Duct narrowing" 
+* DICOM_DCM_CodeSystem#111429 //"Duct narrowing" 
 
-* DICOMDCMCodeSystem#111430 "Cyst fill" 
+* DICOM_DCM_CodeSystem#111430 //"Cyst fill" 
 

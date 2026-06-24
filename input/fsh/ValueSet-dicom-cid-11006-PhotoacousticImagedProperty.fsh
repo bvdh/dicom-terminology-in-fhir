@@ -3,33 +3,28 @@ Id          : dicom-cid-11006-PhotoacousticImagedProperty
 Description :
 """
 Photoacoustic Imaged Property
+
+The content in this ValueSet is based on [CID 11006](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_11006.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1476"
 * ^version = "20230626"
-* ^title = "Photoacoustic Imaged Property"
+* ^title = "Photoacoustic Imaged Property (CID 11006)"
 * ^name = "PhotoacousticImagedProperty"
-* DICOMDCMCodeSystem#110819 "Blood Oxygenation Level" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#110819 //"Blood Oxygenation Level" 
 
-* DICOMDCMCodeSystem#130823 "Blood Deoxygenation Level" 
+* DICOM_DCM_CodeSystem#130823 //"Blood Deoxygenation Level" 
 
-* http://snomed.info/sct#38082009 "Hemoglobin" 
-* http://snomed.info/srt#F-D5000 "Hemoglobin" 
-* http://terminology.hl7.org/CodeSystem/umls#C0019046 "Hemoglobin" 
+* http://snomed.info/sct#38082009 //"Hemoglobin" 
 
-* DICOMDCMCodeSystem#110830 "Elasticity" 
+* DICOM_DCM_CodeSystem#110830 //"Elasticity" 
 
-* DICOMDCMCodeSystem#110831 "Perfusion" 
+* DICOM_DCM_CodeSystem#110831 //"Perfusion" 
 
-* http://snomed.info/sct#59094002 "Melanin" 
-* http://snomed.info/srt#F-62750 "Melanin" 
-* http://terminology.hl7.org/CodeSystem/umls#C0025196 "Melanin" 
+* http://snomed.info/sct#59094002 //"Melanin" 
 
-* http://snomed.info/sct#11713004 "Water" 
-* http://snomed.info/srt#C-10120 "Water" 
-* http://terminology.hl7.org/CodeSystem/umls#C0043047 "Water" 
+* http://snomed.info/sct#11713004 //"Water" 
 
-* http://snomed.info/sct#70106000 "Lipid" 
-* http://snomed.info/srt#F-63600 "Lipid" 
-* http://terminology.hl7.org/CodeSystem/umls#C0023779 "Lipid" 
+* http://snomed.info/sct#70106000 //"Lipid" 
 

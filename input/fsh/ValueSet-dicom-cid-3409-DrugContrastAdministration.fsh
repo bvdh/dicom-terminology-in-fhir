@@ -3,25 +3,28 @@ Id          : dicom-cid-3409-DrugContrastAdministration
 Description :
 """
 Drug/Contrast Administration
+
+The content in this ValueSet is based on [CID 3409](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3409.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.74"
 * ^version = "20030327"
-* ^title = "Drug/Contrast Administration"
+* ^title = "Drug/Contrast Administration (CID 3409)"
 * ^name = "DrugContrastAdministration"
-* DICOMDCMCodeSystem#122081 "Drug start" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122081 //"Drug start" 
 
-* DICOMDCMCodeSystem#122082 "Drug end" 
+* DICOM_DCM_CodeSystem#122082 //"Drug end" 
 
-* DICOMDCMCodeSystem#122083 "Drug administered" 
+* DICOM_DCM_CodeSystem#122083 //"Drug administered" 
 
-* DICOMDCMCodeSystem#122084 "Contrast start" 
+* DICOM_DCM_CodeSystem#122084 //"Contrast start" 
 
-* DICOMDCMCodeSystem#122085 "Contrast end" 
+* DICOM_DCM_CodeSystem#122085 //"Contrast end" 
 
-* DICOMDCMCodeSystem#122086 "Contrast administered" 
+* DICOM_DCM_CodeSystem#122086 //"Contrast administered" 
 
-* DICOMDCMCodeSystem#122087 "Infusate start" 
+* DICOM_DCM_CodeSystem#122087 //"Infusate start" 
 
-* DICOMDCMCodeSystem#122088 "Infusate end" 
+* DICOM_DCM_CodeSystem#122088 //"Infusate end" 
 

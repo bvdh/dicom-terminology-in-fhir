@@ -4,18 +4,40 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+    
+        
         {
-            "name": "Python Debugger: export dicom",
+            "name": "Python Debugger: export docbook current",
             "type": "debugpy",
             "request": "launch",
-            "program": "dicom_tools/createDicomFhirResources.py",
+            "program": "${workspaceFolder}/dicom_tools/createDicomFhirResourcesFromDocBook.py",
+            "cwd": "${workspaceFolder}/dicom_tools",
             "console": "integratedTerminal"
         },
         {
-            "name": "Python Debugger: export docbook",
+            "name": "Python Debugger: export docbook 2026b",
             "type": "debugpy",
             "request": "launch",
-            "program": "dicom_tools/createDicomFhirResourcesFromDocBook.py",
+            "program": "${workspaceFolder}/dicom_tools/createDicomFhirResourcesFromDocBook.py",
+            "args": ["--dicom_version", "2026b"],
+            "cwd": "${workspaceFolder}/dicom_tools",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python Debugger: export docbook current (module)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "createDicomFhirResourcesFromDocBook",
+            "cwd": "${workspaceFolder}/dicom_tools",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python Debugger: export docbook 2026b (module)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "createDicomFhirResourcesFromDocBook",
+            "args": ["--dicom_version", "2026b"],
+            "cwd": "${workspaceFolder}/dicom_tools",
             "console": "integratedTerminal"
         }
     ]

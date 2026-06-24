@@ -3,12 +3,14 @@ Id          : dicom-cid-4110-TracerKineticModelingCovariate
 Description :
 """
 Tracer Kinetic Modeling Covariate
+
+The content in this ValueSet is based on [CID 4110](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4110.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.995"
 * ^version = "20141110"
-* ^title = "Tracer Kinetic Modeling Covariate"
+* ^title = "Tracer Kinetic Modeling Covariate (CID 4110)"
 * ^name = "TracerKineticModelingCovariate"
-* http://loinc.org#20570-8 "Hematocrit" 
-* http://terminology.hl7.org/CodeSystem/umls#C0803379 "Hematocrit" 
+* ^experimental = false
+* http://loinc.org#20570-8 //"Hematocrit" 
 

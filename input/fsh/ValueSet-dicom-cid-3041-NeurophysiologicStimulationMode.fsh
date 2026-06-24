@@ -2,12 +2,15 @@ ValueSet    : CID_3041
 Id          : dicom-cid-3041-NeurophysiologicStimulationMode
 Description :
 """
-Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10102 available through
+Codes reprinted by permission of IEEE, Copyright 2004 by IEEE. ISO/IEEE 11073-10102 available throughhttp://standards.ieee.org/
+
+The content in this ValueSet is based on [CID 3041](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3041.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1361"
 * ^version = "20210325"
-* ^title = "Neurophysiologic Stimulation Mode"
+* ^title = "Neurophysiologic Stimulation Mode (CID 3041)"
 * ^name = "NeurophysiologicStimulationMode"
-* urn:iso:std:iso:11073:10101#2:53539 "Flash stimulus" 
+* ^experimental = false
+* urn:iso:std:iso:11073:10101#184611 //"Flash stimulus" 
 

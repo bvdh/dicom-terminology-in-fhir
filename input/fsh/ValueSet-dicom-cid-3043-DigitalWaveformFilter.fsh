@@ -3,17 +3,20 @@ Id          : dicom-cid-3043-DigitalWaveformFilter
 Description :
 """
 Digital Waveform Filter
+
+The content in this ValueSet is based on [CID 3043](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3043.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1454"
 * ^version = "20220630"
-* ^title = "Digital Waveform Filter"
+* ^title = "Digital Waveform Filter (CID 3043)"
 * ^name = "DigitalWaveformFilter"
-* DICOMDCMCodeSystem#130770 "FIR filter" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130770 //"FIR filter" 
 
-* DICOMDCMCodeSystem#130771 "CIC filter" 
+* DICOM_DCM_CodeSystem#130771 //"CIC filter" 
 
-* DICOMDCMCodeSystem#130772 "IIR filter" 
+* DICOM_DCM_CodeSystem#130772 //"IIR filter" 
 
-* DICOMDCMCodeSystem#130773 "Biquad filter" 
+* DICOM_DCM_CodeSystem#130773 //"Biquad filter" 
 

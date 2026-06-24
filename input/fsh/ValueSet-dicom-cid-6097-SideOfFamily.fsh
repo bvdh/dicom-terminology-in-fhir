@@ -3,15 +3,16 @@ Id          : dicom-cid-6097-SideOfFamily
 Description :
 """
 Side of Family
+
+The content in this ValueSet is based on [CID 6097](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6097.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.419"
 * ^version = "20040112"
-* ^title = "Side of Family"
+* ^title = "Side of Family (CID 6097)"
 * ^name = "SideOfFamily"
-* DICOMDCMCodeSystem#111541 "Maternal" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111541 //"Maternal" 
 
-* http://snomed.info/sct#224944003 "Paternal" 
-* http://snomed.info/srt#R-40333 "Paternal" 
-* http://terminology.hl7.org/CodeSystem/umls#C0337493 "Paternal" 
+* http://snomed.info/sct#224944003 //"Paternal" 
 

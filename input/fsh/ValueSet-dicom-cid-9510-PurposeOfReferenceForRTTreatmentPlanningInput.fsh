@@ -3,19 +3,22 @@ Id          : dicom-cid-9510-PurposeOfReferenceForRTTreatmentPlanningInput
 Description :
 """
 Purpose of Reference for RT Treatment Planning Input
+
+The content in this ValueSet is based on [CID 9510](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9510.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1220"
 * ^version = "20250330"
-* ^title = "Purpose of Reference For RT Treatment Planning Input"
+* ^title = "Purpose of Reference For RT Treatment Planning Input (CID 9510)"
 * ^name = "PurposeOfReferenceForRTTreatmentPlanningInput"
-* DICOMDCMCodeSystem#128181 "Diagnostic Source Images" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128181 //"Diagnostic Source Images" 
 
-* DICOMDCMCodeSystem#128182 "Segmentation Result" 
+* DICOM_DCM_CodeSystem#128182 //"Segmentation Result" 
 
-* DICOMDCMCodeSystem#128183 "Registration Result" 
+* DICOM_DCM_CodeSystem#128183 //"Registration Result" 
 
-* DICOMDCMCodeSystem#128185 "RT Prescription Result" 
+* DICOM_DCM_CodeSystem#128185 //"RT Prescription Result" 
 
-* DICOMDCMCodeSystem#130137 "RT Treatment Planning Input Images" 
+* DICOM_DCM_CodeSystem#130137 //"RT Treatment Planning Input Images" 
 

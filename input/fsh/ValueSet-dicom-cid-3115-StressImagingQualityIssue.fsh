@@ -3,21 +3,22 @@ Id          : dicom-cid-3115-StressImagingQualityIssue
 Description :
 """
 Stress Imaging Quality Issue
+
+The content in this ValueSet is based on [CID 3115](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3115.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.747"
 * ^version = "20080927"
-* ^title = "Stress Imaging Quality Issue"
+* ^title = "Stress Imaging Quality Issue (CID 3115)"
 * ^name = "StressImagingQualityIssue"
-* DICOMDCMCodeSystem#111210 "Motion blur" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111210 //"Motion blur" 
 
-* DICOMDCMCodeSystem#122743 "Body habitus attenuation" 
+* DICOM_DCM_CodeSystem#122743 //"Body habitus attenuation" 
 
-* DICOMDCMCodeSystem#122744 "Breast attenuation" 
+* DICOM_DCM_CodeSystem#122744 //"Breast attenuation" 
 
-* DICOMDCMCodeSystem#122745 "Diaphragmatic attenuation" 
+* DICOM_DCM_CodeSystem#122745 //"Diaphragmatic attenuation" 
 
-* http://snomed.info/sct#429382003 "Subdiaphragmatic uptake" 
-* http://snomed.info/srt#F-04FD3 "Subdiaphragmatic uptake" 
-* http://terminology.hl7.org/CodeSystem/umls#C1997338 "Subdiaphragmatic uptake" 
+* http://snomed.info/sct#429382003 //"Subdiaphragmatic uptake" 
 

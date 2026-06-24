@@ -3,27 +3,30 @@ Id          : dicom-cid-6106-AbnormalTextureFindingOrFeature
 Description :
 """
 Original source of terms is [Fraser and Pare].
+
+The content in this ValueSet is based on [CID 6106](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6106.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.426"
 * ^version = "20030108"
-* ^title = "Abnormal Texture Finding or Feature"
+* ^title = "Abnormal Texture Finding or Feature (CID 6106)"
 * ^name = "AbnormalTextureFindingOrFeature"
-* DICOMDCMCodeSystem#112067 "Nodular pattern" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112067 //"Nodular pattern" 
 
-* DICOMDCMCodeSystem#112065 "Reticulonodular pattern" 
+* DICOM_DCM_CodeSystem#112065 //"Reticulonodular pattern" 
 
-* DICOMDCMCodeSystem#112004 "Abnormal interstitial pattern" 
+* DICOM_DCM_CodeSystem#112004 //"Abnormal interstitial pattern" 
 
-* DICOMDCMCodeSystem#112128 "Granular pattern" 
+* DICOM_DCM_CodeSystem#112128 //"Granular pattern" 
 
-* DICOMDCMCodeSystem#112106 "Honeycomb pattern" 
+* DICOM_DCM_CodeSystem#112106 //"Honeycomb pattern" 
 
-* DICOMDCMCodeSystem#112129 "Miliary pattern" 
+* DICOM_DCM_CodeSystem#112129 //"Miliary pattern" 
 
-* DICOMDCMCodeSystem#112130 "Mosaic pattern" 
+* DICOM_DCM_CodeSystem#112130 //"Mosaic pattern" 
 
-* DICOMDCMCodeSystem#112113 "Reticular pattern" 
+* DICOM_DCM_CodeSystem#112113 //"Reticular pattern" 
 
-* DICOMDCMCodeSystem#112125 "Small irregular opacities" 
+* DICOM_DCM_CodeSystem#112125 //"Small irregular opacities" 
 

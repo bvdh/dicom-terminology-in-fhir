@@ -3,29 +3,32 @@ Id          : dicom-cid-12228-EchocardiographyVolumeMethod
 Description :
 """
 Echocardiography Volume Method
+
+The content in this ValueSet is based on [CID 12228](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12228.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.619"
 * ^version = "20100317"
-* ^title = "Echocardiography Volume Method"
+* ^title = "Echocardiography Volume Method (CID 12228)"
 * ^name = "EchocardiographyVolumeMethod"
-* DICOMDCMCodeSystem#125204 "Area-Length Biplane" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#125204 //"Area-Length Biplane" 
 
-* DICOMDCMCodeSystem#125205 "Area-Length Single Plane" 
+* DICOM_DCM_CodeSystem#125205 //"Area-Length Single Plane" 
 
-* DICOMDCMCodeSystem#125211 "Biplane Ellipse" 
+* DICOM_DCM_CodeSystem#125211 //"Biplane Ellipse" 
 
-* DICOMDCMCodeSystem#125226 "Single Plane Ellipse" 
+* DICOM_DCM_CodeSystem#125226 //"Single Plane Ellipse" 
 
-* DICOMDCMCodeSystem#125206 "Cube Method" 
+* DICOM_DCM_CodeSystem#125206 //"Cube Method" 
 
-* DICOMDCMCodeSystem#125207 "Method of Disks, Biplane" 
+* DICOM_DCM_CodeSystem#125207 //"Method of Disks, Biplane" 
 
-* DICOMDCMCodeSystem#125208 "Method of Disks, Single Plane" 
+* DICOM_DCM_CodeSystem#125208 //"Method of Disks, Single Plane" 
 
-* DICOMDCMCodeSystem#125209 "Teichholz" 
+* DICOM_DCM_CodeSystem#125209 //"Teichholz" 
 
-* DICOMDCMCodeSystem#125227 "Modified Simpson" 
+* DICOM_DCM_CodeSystem#125227 //"Modified Simpson" 
 
-* DICOMDCMCodeSystem#125228 "Bullet Method" 
+* DICOM_DCM_CodeSystem#125228 //"Bullet Method" 
 

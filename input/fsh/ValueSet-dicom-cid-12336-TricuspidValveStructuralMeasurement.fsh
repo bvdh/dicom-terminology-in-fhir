@@ -3,27 +3,30 @@ Id          : dicom-cid-12336-TricuspidValveStructuralMeasurement
 Description :
 """
 Tricuspid Valve Structural Measurement
+
+The content in this ValueSet is based on [CID 12336](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12336.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1521"
 * ^version = "20250405"
-* ^title = "Tricuspid Valve Structural Measurement"
+* ^title = "Tricuspid Valve Structural Measurement (CID 12336)"
 * ^name = "TricuspidValveStructuralMeasurement"
-* DICOMDCMCodeSystem#131208 "Tricuspid annulus area" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#131208 //"Tricuspid annulus area" 
 
-* DICOMDCMCodeSystem#131209 "Tricuspid annulus area diastolic systolic ratio" 
+* DICOM_DCM_CodeSystem#131209 //"Tricuspid annulus area diastolic systolic ratio" 
 
-* DICOMDCMCodeSystem#131210 "Tricuspid annulus perimeter" 
+* DICOM_DCM_CodeSystem#131210 //"Tricuspid annulus perimeter" 
 
-* DICOMDCMCodeSystem#131211 "Tricuspid valve coaptation length" 
+* DICOM_DCM_CodeSystem#131211 //"Tricuspid valve coaptation length" 
 
-* DICOMDCMCodeSystem#131212 "Tricuspid valve major axis diastole" 
+* DICOM_DCM_CodeSystem#131212 //"Tricuspid valve major axis diastole" 
 
-* DICOMDCMCodeSystem#131213 "Tricuspid valve minor axis" 
+* DICOM_DCM_CodeSystem#131213 //"Tricuspid valve minor axis" 
 
-* DICOMDCMCodeSystem#131214 "Tricuspid valve sphericity index" 
+* DICOM_DCM_CodeSystem#131214 //"Tricuspid valve sphericity index" 
 
-* DICOMDCMCodeSystem#131215 "Tricuspid valve tenting height" 
+* DICOM_DCM_CodeSystem#131215 //"Tricuspid valve tenting height" 
 
-* DICOMDCMCodeSystem#131216 "Tricuspid valve tenting volume" 
+* DICOM_DCM_CodeSystem#131216 //"Tricuspid valve tenting volume" 
 

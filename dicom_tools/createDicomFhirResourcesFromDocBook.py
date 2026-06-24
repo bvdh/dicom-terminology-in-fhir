@@ -8,14 +8,12 @@ from pathlib import Path
 from data_elements import writeDataElementsCodeSystemAndValueSets
 from dcm import writeDcmCodeSystem
 from cid_valuesets import writeCidValueSets
-from uids_color_templates import writeColorPalletesCodeSystem
-from uids_context_groups import writeContextUidsCodeSystem
-from uids_template import writeTemplateUidsCodeSystem
-from uids_frame_of_reference import writeFrameOfReferenceUidsCodeSystem
-from enumarated_fields import writeEnumeratedFields
-from uid_main import writeUidsCodeSystem
-from sop_classes import writeSopClassesCodeSystem
+from value_type_definition import writeValueTypeDefinitionCodeSystem
+from uids import writeUidsCodeSystemAndValueSets
+from doc_book_tools import getCanonicalVersion
+from downloadAllValueSets import downloadAllDicomValueSets
 from vr_table import writeVrCodeSystem
+from anatomical_region_and_body_part import writeAnatomicalRegionAndBodyPartValueSets
 from variable_lists import writeVariableLists
 
 def main(args=None):
@@ -31,18 +29,22 @@ def main(args=None):
     resources_path = args.fsh_path or os.path.join(Path(__file__).parent.parent, 'input', 'resources')
     dicom_version = args.dicom_version or 'current'
     dicom_path = os.path.join(Path(__file__).parent.parent, 'dicom.nema.org', 'medical', 'dicom', dicom_version, 'source', 'docbook');
+       
+    canonicalVersion = getCanonicalVersion( dicom_path )
 
-    writeDataElementsCodeSystemAndValueSets( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeDcmCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeSopClassesCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeVrCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
-    # writeEnumeratedFields( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeFrameOfReferenceUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeContextUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeTemplateUidsCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
-    writeColorPalletesCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path )
+    writeUidsCodeSystemAndValueSets( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
+    writeDataElementsCodeSystemAndValueSets( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
+    writeDcmCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
+    writeVrCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
+    writeValueTypeDefinitionCodeSystem( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
+    writeAnatomicalRegionAndBodyPartValueSets( fsh_path=fsh_path, dicom_path=dicom_path, canonicalVersion=canonicalVersion )
+
+    # 202603 - alignment with DICOM - define Valuesets here
     writeCidValueSets( fsh_path=fsh_path, dicom_path=dicom_path )
+
+    # writeEnumeratedFields( fsh_path=fsh_path, dicom_path=dicom_path )
+
+    # downloadAllDicomValueSets( resources_path=resources_path )
     
     # writeVariableLists( fsh_path=fsh_path, dicom_path=dicom_path )
     

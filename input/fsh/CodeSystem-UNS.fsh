@@ -1,7 +1,7 @@
 CodeSystem: UNSCodeSystem
 Id: dicom-codesystem-UNS
 Title: "UNS"
-Description: "Unified numbering system (UNS) for metals and alloys"
+Description: "Unified numbering system (UNS) for metals and alloysbiblio_SAE-J1086_201210"
 * ^caseSensitive = true
 * ^content = #fragment
 * ^experimental = false

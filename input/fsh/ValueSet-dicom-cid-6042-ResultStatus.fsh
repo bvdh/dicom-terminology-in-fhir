@@ -3,17 +3,20 @@ Id          : dicom-cid-6042-ResultStatus
 Description :
 """
 Result Status
+
+The content in this ValueSet is based on [CID 6042](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6042.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.372"
 * ^version = "20020904"
-* ^title = "Result Status"
+* ^title = "Result Status (CID 6042)"
 * ^name = "ResultStatus"
-* DICOMDCMCodeSystem#111222 "Succeeded" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111222 //"Succeeded" 
 
-* DICOMDCMCodeSystem#111223 "Partially Succeeded" 
+* DICOM_DCM_CodeSystem#111223 //"Partially Succeeded" 
 
-* DICOMDCMCodeSystem#111224 "Failed" 
+* DICOM_DCM_CodeSystem#111224 //"Failed" 
 
-* DICOMDCMCodeSystem#111225 "Not Attempted" 
+* DICOM_DCM_CodeSystem#111225 //"Not Attempted" 
 

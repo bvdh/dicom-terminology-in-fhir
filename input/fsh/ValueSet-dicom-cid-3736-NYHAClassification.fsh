@@ -3,25 +3,20 @@ Id          : dicom-cid-3736-NYHAClassification
 Description :
 """
 In prior editions, this Context Group included the NCDR 2.0b codes as the primary set. These have been replaced with equivalent SNOMED codes.
+
+The content in this ValueSet is based on [CID 3736](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3736.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.233"
 * ^version = "20070827"
-* ^title = "NYHA Classification"
+* ^title = "NYHA Classification (CID 3736)"
 * ^name = "NYHAClassification"
-* http://snomed.info/sct#420300004 "NYHA Class I" 
-* http://snomed.info/srt#F-3018B "NYHA Class I" 
-* http://terminology.hl7.org/CodeSystem/umls#C1319793 "NYHA Class I" 
+* ^experimental = false
+* http://snomed.info/sct#420300004 //"NYHA Class I" 
 
-* http://snomed.info/sct#421704003 "NYHA Class II" 
-* http://snomed.info/srt#F-3018C "NYHA Class II" 
-* http://terminology.hl7.org/CodeSystem/umls#C1319794 "NYHA Class II" 
+* http://snomed.info/sct#421704003 //"NYHA Class II" 
 
-* http://snomed.info/sct#420913000 "NYHA Class III" 
-* http://snomed.info/srt#F-3018D "NYHA Class III" 
-* http://terminology.hl7.org/CodeSystem/umls#C1319795 "NYHA Class III" 
+* http://snomed.info/sct#420913000 //"NYHA Class III" 
 
-* http://snomed.info/sct#422293003 "NYHA Class IV" 
-* http://snomed.info/srt#F-3018E "NYHA Class IV" 
-* http://terminology.hl7.org/CodeSystem/umls#C1319796 "NYHA Class IV" 
+* http://snomed.info/sct#422293003 //"NYHA Class IV" 
 

@@ -3,17 +3,20 @@ Id          : dicom-cid-6318-ProstateDWIMRIQualityFinding
 Description :
 """
 Prostate DWI MRI Quality Finding
+
+The content in this ValueSet is based on [CID 6318](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6318.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1375"
 * ^version = "20210714"
-* ^title = "Prostate DWI MRI Quality Finding"
+* ^title = "Prostate DWI MRI Quality Finding (CID 6318)"
 * ^name = "ProstateDWIMRIQualityFinding"
-* DICOMDCMCodeSystem#130583 "Expected b-value is missing" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130583 //"Expected b-value is missing" 
 
-* DICOMDCMCodeSystem#130584 "Severe distortion in the area of interest" 
+* DICOM_DCM_CodeSystem#130584 //"Severe distortion in the area of interest" 
 
-* DICOMDCMCodeSystem#130585 "Expected ADC map is missing" 
+* DICOM_DCM_CodeSystem#130585 //"Expected ADC map is missing" 
 
-* DICOMDCMCodeSystem#130586 "Distortion artifact in the area of interest" 
+* DICOM_DCM_CodeSystem#130586 //"Distortion artifact in the area of interest" 
 

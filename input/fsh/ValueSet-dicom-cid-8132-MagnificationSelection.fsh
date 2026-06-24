@@ -3,17 +3,20 @@ Id          : dicom-cid-8132-MagnificationSelection
 Description :
 """
 Magnification Selection
+
+The content in this ValueSet is based on [CID 8132](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_8132.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.949"
 * ^version = "20120605"
-* ^title = "Magnification Selection"
+* ^title = "Magnification Selection (CID 8132)"
 * ^name = "MagnificationSelection"
-* DICOMDCMCodeSystem#112715 "5X" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112715 //"5X" 
 
-* DICOMDCMCodeSystem#112716 "10X" 
+* DICOM_DCM_CodeSystem#112716 //"10X" 
 
-* DICOMDCMCodeSystem#112717 "20X" 
+* DICOM_DCM_CodeSystem#112717 //"20X" 
 
-* DICOMDCMCodeSystem#112718 "40X" 
+* DICOM_DCM_CodeSystem#112718 //"40X" 
 

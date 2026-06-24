@@ -3,13 +3,16 @@ Id          : dicom-cid-3551-VentilationAction
 Description :
 """
 Ventilation Action
+
+The content in this ValueSet is based on [CID 3551](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3551.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.147"
 * ^version = "20030327"
-* ^title = "Ventilation Action"
+* ^title = "Ventilation Action (CID 3551)"
 * ^name = "VentilationAction"
-* DICOMDCMCodeSystem#121168 "Begin Ventilation" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121168 //"Begin Ventilation" 
 
-* DICOMDCMCodeSystem#121169 "End Ventilation" 
+* DICOM_DCM_CodeSystem#121169 //"End Ventilation" 
 

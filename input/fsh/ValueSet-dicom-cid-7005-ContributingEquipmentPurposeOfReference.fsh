@@ -3,31 +3,34 @@ Id          : dicom-cid-7005-ContributingEquipmentPurposeOfReference
 Description :
 """
 Contributing Equipment Purpose of Reference
+
+The content in this ValueSet is based on [CID 7005](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7005.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.486"
 * ^version = "20240324"
-* ^title = "Contributing Equipment Purpose of Reference"
+* ^title = "Contributing Equipment Purpose of Reference (CID 7005)"
 * ^name = "ContributingEquipmentPurposeOfReference"
-* DICOMDCMCodeSystem#109101 "Acquisition Equipment" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#109101 //"Acquisition Equipment" 
 
-* DICOMDCMCodeSystem#109102 "Processing Equipment" 
+* DICOM_DCM_CodeSystem#109102 //"Processing Equipment" 
 
-* DICOMDCMCodeSystem#109103 "Modifying Equipment" 
+* DICOM_DCM_CodeSystem#109103 //"Modifying Equipment" 
 
-* DICOMDCMCodeSystem#109104 "De-identifying Equipment" 
+* DICOM_DCM_CodeSystem#109104 //"De-identifying Equipment" 
 
-* DICOMDCMCodeSystem#109105 "Frame Extracting Equipment" 
+* DICOM_DCM_CodeSystem#109105 //"Frame Extracting Equipment" 
 
-* DICOMDCMCodeSystem#109106 "Enhanced Multi-frame Conversion Equipment" 
+* DICOM_DCM_CodeSystem#109106 //"Enhanced Multi-frame Conversion Equipment" 
 
-* DICOMDCMCodeSystem#MEDIM "Portable Media Importer Equipment" 
+* DICOM_DCM_CodeSystem#MEDIM //"Portable Media Importer Equipment" 
 
-* DICOMDCMCodeSystem#FILMD "Film Digitizer" 
+* DICOM_DCM_CodeSystem#FILMD //"Film Digitizer" 
 
-* DICOMDCMCodeSystem#DOCD "Document Digitizer Equipment" 
+* DICOM_DCM_CodeSystem#DOCD //"Document Digitizer Equipment" 
 
-* DICOMDCMCodeSystem#VIDD "Video Tape Digitizer Equipment" 
+* DICOM_DCM_CodeSystem#VIDD //"Video Tape Digitizer Equipment" 
 
-* DICOMDCMCodeSystem#109100 "Synthesizing Equipment" 
+* DICOM_DCM_CodeSystem#109100 //"Synthesizing Equipment" 
 

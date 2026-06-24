@@ -3,25 +3,28 @@ Id          : dicom-cid-9302-MediaImportPPSDiscontinuationReason
 Description :
 """
 Media Import PPS Discontinuation Reason
+
+The content in this ValueSet is based on [CID 9302](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9302.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.813"
 * ^version = "20090616"
-* ^title = "Media Import PPS Discontinuation Reason"
+* ^title = "Media Import PPS Discontinuation Reason (CID 9302)"
 * ^name = "MediaImportPPSDiscontinuationReason"
-* DICOMDCMCodeSystem#110521 "Objects incorrectly formatted" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#110521 //"Objects incorrectly formatted" 
 
-* DICOMDCMCodeSystem#110522 "Object Types not supported" 
+* DICOM_DCM_CodeSystem#110522 //"Object Types not supported" 
 
-* DICOMDCMCodeSystem#110523 "Object Set incomplete" 
+* DICOM_DCM_CodeSystem#110523 //"Object Set incomplete" 
 
-* DICOMDCMCodeSystem#110524 "Media Failure" 
+* DICOM_DCM_CodeSystem#110524 //"Media Failure" 
 
-* DICOMDCMCodeSystem#110501 "Equipment failure" 
+* DICOM_DCM_CodeSystem#110501 //"Equipment failure" 
 
-* DICOMDCMCodeSystem#110510 "Duplicate order" 
+* DICOM_DCM_CodeSystem#110510 //"Duplicate order" 
 
-* DICOMDCMCodeSystem#110513 "Discontinued for unspecified reason" 
+* DICOM_DCM_CodeSystem#110513 //"Discontinued for unspecified reason" 
 
-* DICOMDCMCodeSystem#110514 "Incorrect worklist entry selected" 
+* DICOM_DCM_CodeSystem#110514 //"Incorrect worklist entry selected" 
 

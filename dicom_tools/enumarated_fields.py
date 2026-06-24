@@ -4,7 +4,7 @@ from doc_book_tools import getDataDicomTable
 PART                   = 'part03'
 TABLE_ID               = 'C.11-1'
 TABLE_URI              = 'https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.11.html#sect_C.11.1.1.2'
-CODESYSTEM_NAME        = 'DICOMModalityLutAndRescaleType'
+CODESYSTEM_NAME        = 'DICOM_ModalityLutAndRescaleType'
 CODESYSTEM_ID          = 'dicom-modality-lut-and-rescale-type'
 CODESYSTEM_TITLE       = 'DICOM® Modality LUT and Rescale Type'
 CODESYSTEM_DESCRIPTION = 'DICOM® Modality LUT and Rescale Type extracted from DICOM PS3.3 Table C.11-1.'

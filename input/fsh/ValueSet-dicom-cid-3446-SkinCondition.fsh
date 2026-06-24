@@ -3,27 +3,30 @@ Id          : dicom-cid-3446-SkinCondition
 Description :
 """
 Skin Condition
+
+The content in this ValueSet is based on [CID 3446](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3446.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.96"
 * ^version = "20030327"
-* ^title = "Skin Condition"
+* ^title = "Skin Condition (CID 3446)"
 * ^name = "SkinCondition"
-* DICOMDCMCodeSystem#122271 "skin condition Warm" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122271 //"skin condition Warm" 
 
-* DICOMDCMCodeSystem#122272 "skin condition Cool" 
+* DICOM_DCM_CodeSystem#122272 //"skin condition Cool" 
 
-* DICOMDCMCodeSystem#122273 "skin condition Cold" 
+* DICOM_DCM_CodeSystem#122273 //"skin condition Cold" 
 
-* DICOMDCMCodeSystem#122274 "skin condition Dry" 
+* DICOM_DCM_CodeSystem#122274 //"skin condition Dry" 
 
-* DICOMDCMCodeSystem#122275 "skin condition Clammy" 
+* DICOM_DCM_CodeSystem#122275 //"skin condition Clammy" 
 
-* DICOMDCMCodeSystem#122276 "skin condition Diaphoretic" 
+* DICOM_DCM_CodeSystem#122276 //"skin condition Diaphoretic" 
 
-* DICOMDCMCodeSystem#122277 "skin condition Flush" 
+* DICOM_DCM_CodeSystem#122277 //"skin condition Flush" 
 
-* DICOMDCMCodeSystem#122278 "skin condition Mottled" 
+* DICOM_DCM_CodeSystem#122278 //"skin condition Mottled" 
 
-* DICOMDCMCodeSystem#122279 "skin condition Pale" 
+* DICOM_DCM_CodeSystem#122279 //"skin condition Pale" 
 

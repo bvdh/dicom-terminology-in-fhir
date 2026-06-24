@@ -3,17 +3,20 @@ Id          : dicom-cid-3486-VascularMeasurementSite
 Description :
 """
 Vascular Measurement Site
+
+The content in this ValueSet is based on [CID 3486](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3486.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.121"
 * ^version = "20051103"
-* ^title = "Vascular Measurement Site"
+* ^title = "Vascular Measurement Site (CID 3486)"
 * ^name = "VascularMeasurementSite"
-* DICOMDCMCodeSystem#122380 "Proximal Reference" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122380 //"Proximal Reference" 
 
-* DICOMDCMCodeSystem#122381 "Distal Reference" 
+* DICOM_DCM_CodeSystem#122381 //"Distal Reference" 
 
-* DICOMDCMCodeSystem#122382 "Site of Lumen Minimum" 
+* DICOM_DCM_CodeSystem#122382 //"Site of Lumen Minimum" 
 
-* DICOMDCMCodeSystem#122687 "Site of Lumen Maximum" 
+* DICOM_DCM_CodeSystem#122687 //"Site of Lumen Maximum" 
 

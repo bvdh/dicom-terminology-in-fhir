@@ -3,31 +3,34 @@ Id          : dicom-cid-7017-CategoryOfTeachingMaterialImaging
 Description :
 """
 The contents of this Context Group correspond to the American Board of Radiology categories in use at the time the IHE TCE Profile was developed.
+
+The content in this ValueSet is based on [CID 7017](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7017.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1181"
 * ^version = "20170914"
-* ^title = "Category of Teaching Material - Imaging"
+* ^title = "Category of Teaching Material - Imaging (CID 7017)"
 * ^name = "CategoryOfTeachingMaterialImaging"
-* DICOMDCMCodeSystem#128728 "Musculoskeletal imaging subject matter" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128728 //"Musculoskeletal imaging subject matter" 
 
-* DICOMDCMCodeSystem#128729 "Pulmonary imaging subject matter" 
+* DICOM_DCM_CodeSystem#128729 //"Pulmonary imaging subject matter" 
 
-* DICOMDCMCodeSystem#128730 "Cardiovascular imaging subject matter" 
+* DICOM_DCM_CodeSystem#128730 //"Cardiovascular imaging subject matter" 
 
-* DICOMDCMCodeSystem#128731 "Gastrointestinal imaging subject matter" 
+* DICOM_DCM_CodeSystem#128731 //"Gastrointestinal imaging subject matter" 
 
-* DICOMDCMCodeSystem#128732 "Genitourinary imaging subject matter" 
+* DICOM_DCM_CodeSystem#128732 //"Genitourinary imaging subject matter" 
 
-* DICOMDCMCodeSystem#128733 "Neuroimaging subject matter" 
+* DICOM_DCM_CodeSystem#128733 //"Neuroimaging subject matter" 
 
-* DICOMDCMCodeSystem#128734 "Vascular and interventional imaging subject matter" 
+* DICOM_DCM_CodeSystem#128734 //"Vascular and interventional imaging subject matter" 
 
-* DICOMDCMCodeSystem#128735 "Nuclear medicine imaging subject matter" 
+* DICOM_DCM_CodeSystem#128735 //"Nuclear medicine imaging subject matter" 
 
-* DICOMDCMCodeSystem#128736 "Ultrasound imaging subject matter" 
+* DICOM_DCM_CodeSystem#128736 //"Ultrasound imaging subject matter" 
 
-* DICOMDCMCodeSystem#128737 "Pediatric imaging subject matter" 
+* DICOM_DCM_CodeSystem#128737 //"Pediatric imaging subject matter" 
 
-* DICOMDCMCodeSystem#128738 "Breast imaging subject matter" 
+* DICOM_DCM_CodeSystem#128738 //"Breast imaging subject matter" 
 

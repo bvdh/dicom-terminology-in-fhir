@@ -3,21 +3,24 @@ Id          : dicom-cid-7456-AgeUnit
 Description :
 """
 Age Unit
+
+The content in this ValueSet is based on [CID 7456](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7456.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.520"
 * ^version = "20020904"
-* ^title = "Age Unit"
+* ^title = "Age Unit (CID 7456)"
 * ^name = "AgeUnit"
-* http://unitsofmeasure.org#a "year" 
+* ^experimental = false
+* http://unitsofmeasure.org#a //"year" 
 
-* http://unitsofmeasure.org#mo "month" 
+* http://unitsofmeasure.org#mo //"month" 
 
-* http://unitsofmeasure.org#wk "week" 
+* http://unitsofmeasure.org#wk //"week" 
 
-* http://unitsofmeasure.org#d "day" 
+* http://unitsofmeasure.org#d //"day" 
 
-* http://unitsofmeasure.org#h "hour" 
+* http://unitsofmeasure.org#h //"hour" 
 
-* http://unitsofmeasure.org#min "minute" 
+* http://unitsofmeasure.org#min //"minute" 
 

@@ -3,21 +3,24 @@ Id          : dicom-cid-4252-VisualFieldStaticPerimetryScreeningTestMode
 Description :
 """
 Visual Field Static Perimetry Screening Test Mode
+
+The content in this ValueSet is based on [CID 4252](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4252.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.911"
 * ^version = "20100827"
-* ^title = "Visual Field Static Perimetry Screening Test Mode"
+* ^title = "Visual Field Static Perimetry Screening Test Mode (CID 4252)"
 * ^name = "VisualFieldStaticPerimetryScreeningTestMode"
-* DICOMDCMCodeSystem#111838 "Age corrected" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111838 //"Age corrected" 
 
-* DICOMDCMCodeSystem#111839 "Threshold related" 
+* DICOM_DCM_CodeSystem#111839 //"Threshold related" 
 
-* DICOMDCMCodeSystem#111840 "Single luminance" 
+* DICOM_DCM_CodeSystem#111840 //"Single luminance" 
 
-* DICOMDCMCodeSystem#111841 "Foveal sensitivity related" 
+* DICOM_DCM_CodeSystem#111841 //"Foveal sensitivity related" 
 
-* DICOMDCMCodeSystem#111842 "Related to non macular sensitivity" 
+* DICOM_DCM_CodeSystem#111842 //"Related to non macular sensitivity" 
 
-* DICOMDCMCodeSystem#121410 "User chosen value" 
+* DICOM_DCM_CodeSystem#121410 //"User chosen value" 
 

@@ -3,27 +3,30 @@ Id          : dicom-cid-7262-DiffusionTractographyAlgorithmFamily
 Description :
 """
 Diffusion Tractography Algorithm Family
+
+The content in this ValueSet is based on [CID 7262](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7262.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1061"
 * ^version = "20150918"
-* ^title = "Diffusion Tractography Algorithm Family"
+* ^title = "Diffusion Tractography Algorithm Family (CID 7262)"
 * ^name = "DiffusionTractographyAlgorithmFamily"
-* DICOMDCMCodeSystem#113211 "Deterministic" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113211 //"Deterministic" 
 
-* DICOMDCMCodeSystem#113212 "Probabilistic" 
+* DICOM_DCM_CodeSystem#113212 //"Probabilistic" 
 
-* DICOMDCMCodeSystem#113213 "Global" 
+* DICOM_DCM_CodeSystem#113213 //"Global" 
 
-* DICOMDCMCodeSystem#113214 "FACT" 
+* DICOM_DCM_CodeSystem#113214 //"FACT" 
 
-* DICOMDCMCodeSystem#113215 "Streamline" 
+* DICOM_DCM_CodeSystem#113215 //"Streamline" 
 
-* DICOMDCMCodeSystem#113216 "TEND" 
+* DICOM_DCM_CodeSystem#113216 //"TEND" 
 
-* DICOMDCMCodeSystem#113217 "Bootstrap" 
+* DICOM_DCM_CodeSystem#113217 //"Bootstrap" 
 
-* DICOMDCMCodeSystem#113218 "Euler" 
+* DICOM_DCM_CodeSystem#113218 //"Euler" 
 
-* DICOMDCMCodeSystem#113219 "Runge-Kutta" 
+* DICOM_DCM_CodeSystem#113219 //"Runge-Kutta" 
 

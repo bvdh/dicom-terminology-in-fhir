@@ -3,17 +3,16 @@ Id          : dicom-cid-12306-EchoFlowDirection
 Description :
 """
 Echo Flow Direction
+
+The content in this ValueSet is based on [CID 12306](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12306.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1147"
 * ^version = "20161109"
-* ^title = "Echo Flow Direction"
+* ^title = "Echo Flow Direction (CID 12306)"
 * ^name = "EchoFlowDirection"
-* http://snomed.info/sct#263677008 "Antegrade Direction" 
-* http://snomed.info/srt#R-42047 "Antegrade Direction" 
-* http://terminology.hl7.org/CodeSystem/umls#C0589502 "Antegrade Direction" 
+* ^experimental = false
+* http://snomed.info/sct#263677008 //"Antegrade Direction" 
 
-* http://snomed.info/sct#312004007 "Retrograde Direction" 
-* http://snomed.info/srt#R-42E61 "Retrograde Direction" 
-* http://terminology.hl7.org/CodeSystem/umls#C0439784 "Retrograde Direction" 
+* http://snomed.info/sct#312004007 //"Retrograde Direction" 
 

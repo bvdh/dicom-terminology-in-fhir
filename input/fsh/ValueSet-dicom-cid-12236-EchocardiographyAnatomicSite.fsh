@@ -3,12 +3,15 @@ Id          : dicom-cid-12236-EchocardiographyAnatomicSite
 Description :
 """
 Echocardiography Anatomic Site
+
+The content in this ValueSet is based on [CID 12236](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12236.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.627"
 * ^version = "20110818"
-* ^title = "Echocardiography Anatomic Site"
+* ^title = "Echocardiography Anatomic Site (CID 12236)"
 * ^name = "EchocardiographyAnatomicSite"
+* ^experimental = false
 * include codes from valueset CID_12235
 
 * include codes from valueset CID_12223
@@ -21,11 +24,7 @@ Echocardiography Anatomic Site
 
 * include codes from valueset CID_12244
 
-* http://snomed.info/sct#253678000 "Thoracic Aortic Coarctation" 
-* http://snomed.info/srt#D4-32030 "Thoracic Aortic Coarctation" 
-* http://terminology.hl7.org/CodeSystem/umls#C0345086 "Thoracic Aortic Coarctation" 
+* http://snomed.info/sct#253678000 //"Thoracic Aortic Coarctation" 
 
-* http://snomed.info/sct#373945007 "Pericardial effusion" 
-* http://snomed.info/srt#D3-90008 "Pericardial effusion" 
-* http://terminology.hl7.org/CodeSystem/umls#C0031039 "Pericardial effusion" 
+* http://snomed.info/sct#373945007 //"Pericardial effusion" 
 

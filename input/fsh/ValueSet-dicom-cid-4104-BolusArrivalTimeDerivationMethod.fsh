@@ -3,15 +3,18 @@ Id          : dicom-cid-4104-BolusArrivalTimeDerivationMethod
 Description :
 """
 Bolus Arrival Time Derivation Method
+
+The content in this ValueSet is based on [CID 4104](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4104.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.989"
 * ^version = "20141110"
-* ^title = "Bolus Arrival Time Derivation Method"
+* ^title = "Bolus Arrival Time Derivation Method (CID 4104)"
 * ^name = "BolusArrivalTimeDerivationMethod"
-* DICOMDCMCodeSystem#126373 "Temporal Derivative Exceeds Threshold" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#126373 //"Temporal Derivative Exceeds Threshold" 
 
-* DICOMDCMCodeSystem#126370 "Time of Peak Concentration" 
+* DICOM_DCM_CodeSystem#126370 //"Time of Peak Concentration" 
 
-* DICOMDCMCodeSystem#126372 "Time of Leading Half-Peak Concentration" 
+* DICOM_DCM_CodeSystem#126372 //"Time of Leading Half-Peak Concentration" 
 

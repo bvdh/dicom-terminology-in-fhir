@@ -3,23 +3,26 @@ Id          : dicom-cid-3613-HemodynamicTimeMeasurement
 Description :
 """
 Hemodynamic Time Measurement
+
+The content in this ValueSet is based on [CID 3613](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3613.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.163"
 * ^version = "20030327"
-* ^title = "Hemodynamic Time Measurement"
+* ^title = "Hemodynamic Time Measurement (CID 3613)"
 * ^name = "HemodynamicTimeMeasurement"
-* DICOMDCMCodeSystem#122182 "R-R interval" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122182 //"R-R interval" 
 
-* DICOMDCMCodeSystem#109072 "Tau" 
+* DICOM_DCM_CodeSystem#109072 //"Tau" 
 
-* DICOMDCMCodeSystem#122211 "Left Ventricular ejection time" 
+* DICOM_DCM_CodeSystem#122211 //"Left Ventricular ejection time" 
 
-* DICOMDCMCodeSystem#122212 "Left Ventricular filling time" 
+* DICOM_DCM_CodeSystem#122212 //"Left Ventricular filling time" 
 
-* DICOMDCMCodeSystem#122213 "Right Ventricular ejection time" 
+* DICOM_DCM_CodeSystem#122213 //"Right Ventricular ejection time" 
 
-* DICOMDCMCodeSystem#122214 "Right Ventricular filling time" 
+* DICOM_DCM_CodeSystem#122214 //"Right Ventricular filling time" 
 
-* DICOMDCMCodeSystem#109071 "Indicator mean transit time" 
+* DICOM_DCM_CodeSystem#109071 //"Indicator mean transit time" 
 

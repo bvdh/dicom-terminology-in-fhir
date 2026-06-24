@@ -3,19 +3,22 @@ Id          : dicom-cid-4289-GanglionCellSectorMethods
 Description :
 """
 Ganglion Cell Sector Methods
+
+The content in this ValueSet is based on [CID 4289](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4289.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1542"
 * ^version = "20250707"
-* ^title = "Ganglion Cell Sector Methods"
+* ^title = "Ganglion Cell Sector Methods (CID 4289)"
 * ^name = "GanglionCellSectorMethods"
-* DICOMDCMCodeSystem#131301 "Semicircular sectors" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#131301 //"Semicircular sectors" 
 
-* DICOMDCMCodeSystem#131302 "Quadrant sectors" 
+* DICOM_DCM_CodeSystem#131302 //"Quadrant sectors" 
 
-* DICOMDCMCodeSystem#131303 "SNIT rectangular sectors" 
+* DICOM_DCM_CodeSystem#131303 //"SNIT rectangular sectors" 
 
-* DICOMDCMCodeSystem#131304 "Elliptical annulus sectors" 
+* DICOM_DCM_CodeSystem#131304 //"Elliptical annulus sectors" 
 
-* DICOMDCMCodeSystem#131307 "Posterior pole 8x8 grid" 
+* DICOM_DCM_CodeSystem#131307 //"Posterior pole 8x8 grid" 
 

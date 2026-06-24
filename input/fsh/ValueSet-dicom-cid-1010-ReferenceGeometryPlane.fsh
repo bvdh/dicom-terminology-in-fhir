@@ -3,31 +3,34 @@ Id          : dicom-cid-1010-ReferenceGeometryPlane
 Description :
 """
 Reference Geometry - Plane
+
+The content in this ValueSet is based on [CID 1010](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_1010.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1128"
 * ^version = "20160905"
-* ^title = "Reference Geometry - Plane"
+* ^title = "Reference Geometry - Plane (CID 1010)"
 * ^name = "ReferenceGeometryPlane"
-* DICOMDCMCodeSystem#128128 "Plane through Anterior Extent" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128128 //"Plane through Anterior Extent" 
 
-* DICOMDCMCodeSystem#128123 "Plane through Distal Extent" 
+* DICOM_DCM_CodeSystem#128123 //"Plane through Distal Extent" 
 
-* DICOMDCMCodeSystem#128121 "Plane through Inferior Extent" 
+* DICOM_DCM_CodeSystem#128121 //"Plane through Inferior Extent" 
 
-* DICOMDCMCodeSystem#128125 "Plane through Lateral Extent" 
+* DICOM_DCM_CodeSystem#128125 //"Plane through Lateral Extent" 
 
-* DICOMDCMCodeSystem#128126 "Plane through Leftmost Extent" 
+* DICOM_DCM_CodeSystem#128126 //"Plane through Leftmost Extent" 
 
-* DICOMDCMCodeSystem#128124 "Plane through Medial Extent" 
+* DICOM_DCM_CodeSystem#128124 //"Plane through Medial Extent" 
 
-* DICOMDCMCodeSystem#128130 "Plane through Center" 
+* DICOM_DCM_CodeSystem#128130 //"Plane through Center" 
 
-* DICOMDCMCodeSystem#128129 "Plane through Posterior Extent" 
+* DICOM_DCM_CodeSystem#128129 //"Plane through Posterior Extent" 
 
-* DICOMDCMCodeSystem#128122 "Plane through Proximal Extent" 
+* DICOM_DCM_CodeSystem#128122 //"Plane through Proximal Extent" 
 
-* DICOMDCMCodeSystem#128127 "Plane through Rightmost Extent" 
+* DICOM_DCM_CodeSystem#128127 //"Plane through Rightmost Extent" 
 
-* DICOMDCMCodeSystem#128120 "Plane through Superior Extent" 
+* DICOM_DCM_CodeSystem#128120 //"Plane through Superior Extent" 
 

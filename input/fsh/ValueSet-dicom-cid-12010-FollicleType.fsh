@@ -3,19 +3,22 @@ Id          : dicom-cid-12010-FollicleType
 Description :
 """
 Follicle Type
+
+The content in this ValueSet is based on [CID 12010](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12010.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1491"
 * ^version = "20240912"
-* ^title = "Follicle Type"
+* ^title = "Follicle Type (CID 12010)"
 * ^name = "FollicleType"
-* DICOMDCMCodeSystem#130909 "Dominant Follicle" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130909 //"Dominant Follicle" 
 
-* DICOMDCMCodeSystem#130910 "Antral Follicle" 
+* DICOM_DCM_CodeSystem#130910 //"Antral Follicle" 
 
-* DICOMDCMCodeSystem#130911 "Secondary Follicle" 
+* DICOM_DCM_CodeSystem#130911 //"Secondary Follicle" 
 
-* DICOMDCMCodeSystem#130912 "Primary Follicle" 
+* DICOM_DCM_CodeSystem#130912 //"Primary Follicle" 
 
-* DICOMDCMCodeSystem#130913 "Primordial Follicle" 
+* DICOM_DCM_CodeSystem#130913 //"Primordial Follicle" 
 

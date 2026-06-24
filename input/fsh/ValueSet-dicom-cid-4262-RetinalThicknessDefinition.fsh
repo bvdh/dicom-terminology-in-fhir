@@ -3,19 +3,22 @@ Id          : dicom-cid-4262-RetinalThicknessDefinition
 Description :
 """
 Retinal Thickness Definition
+
+The content in this ValueSet is based on [CID 4262](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4262.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.938"
 * ^version = "20110825"
-* ^title = "Retinal Thickness Definition"
+* ^title = "Retinal Thickness Definition (CID 4262)"
 * ^name = "RetinalThicknessDefinition"
-* DICOMDCMCodeSystem#111925 "Retinal nerve fiber layer thickness" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111925 //"Retinal nerve fiber layer thickness" 
 
-* DICOMDCMCodeSystem#111926 "Ganglion cell complex thickness" 
+* DICOM_DCM_CodeSystem#111926 //"Ganglion cell complex thickness" 
 
-* DICOMDCMCodeSystem#111927 "Total retinal thickness (ILM to IS-OS)" 
+* DICOM_DCM_CodeSystem#111927 //"Total retinal thickness (ILM to IS-OS)" 
 
-* DICOMDCMCodeSystem#111928 "Total retinal thickness (ILM to RPE)" 
+* DICOM_DCM_CodeSystem#111928 //"Total retinal thickness (ILM to RPE)" 
 
-* DICOMDCMCodeSystem#111929 "Total retinal thickness (ILM to BM)" 
+* DICOM_DCM_CodeSystem#111929 //"Total retinal thickness (ILM to BM)" 
 

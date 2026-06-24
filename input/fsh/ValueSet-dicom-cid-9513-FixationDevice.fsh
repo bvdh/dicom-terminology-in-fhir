@@ -3,63 +3,58 @@ Id          : dicom-cid-9513-FixationDevice
 Description :
 """
 Fixation Device
+
+The content in this ValueSet is based on [CID 9513](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9513.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1223"
 * ^version = "20240612"
-* ^title = "Fixation Device"
+* ^title = "Fixation Device (CID 9513)"
 * ^name = "FixationDevice"
-* http://snomed.info/sct#228745001 "Bite block" 
-* http://snomed.info/srt#A-01105 "Bite block" 
-* http://terminology.hl7.org/CodeSystem/umls#C0179321 "Bite block" 
+* ^experimental = false
+* http://snomed.info/sct#228745001 //"Bite block" 
 
-* DICOMDCMCodeSystem#130110 "Headframe" 
+* DICOM_DCM_CodeSystem#130110 //"Headframe" 
 
-* DICOMDCMCodeSystem#130111 "Head Mask" 
+* DICOM_DCM_CodeSystem#130111 //"Head Mask" 
 
-* DICOMDCMCodeSystem#130112 "Head and Neck Mask" 
+* DICOM_DCM_CodeSystem#130112 //"Head and Neck Mask" 
 
-* DICOMDCMCodeSystem#130113 "Mold" 
+* DICOM_DCM_CodeSystem#130113 //"Mold" 
 
-* DICOMDCMCodeSystem#130114 "Cast" 
+* DICOM_DCM_CodeSystem#130114 //"Cast" 
 
-* http://snomed.info/sct#706683002 "Headrest" 
-* http://snomed.info/srt#R-FEEC3 "Headrest" 
-* http://terminology.hl7.org/CodeSystem/umls#C0181130 "Headrest" 
+* http://snomed.info/sct#706683002 //"Headrest" 
 
-* DICOMDCMCodeSystem#130116 "Breast Board" 
+* DICOM_DCM_CodeSystem#130116 //"Breast Board" 
 
-* DICOMDCMCodeSystem#130117 "Body Frame" 
+* DICOM_DCM_CodeSystem#130117 //"Body Frame" 
 
-* DICOMDCMCodeSystem#130118 "Vacuum Mold" 
+* DICOM_DCM_CodeSystem#130118 //"Vacuum Mold" 
 
-* DICOMDCMCodeSystem#130119 "Whole Body Pod" 
+* DICOM_DCM_CodeSystem#130119 //"Whole Body Pod" 
 
-* DICOMDCMCodeSystem#130120 "Rectal Balloon" 
+* DICOM_DCM_CodeSystem#130120 //"Rectal Balloon" 
 
-* DICOMDCMCodeSystem#130121 "Vaginal Cylinder" 
+* DICOM_DCM_CodeSystem#130121 //"Vaginal Cylinder" 
 
-* DICOMDCMCodeSystem#130653 "Breast Bridge" 
+* DICOM_DCM_CodeSystem#130653 //"Breast Bridge" 
 
-* DICOMDCMCodeSystem#130654 "Abdominal Compression Belt" 
+* DICOM_DCM_CodeSystem#130654 //"Abdominal Compression Belt" 
 
-* DICOMDCMCodeSystem#130655 "Abdominal Compression Arch" 
+* DICOM_DCM_CodeSystem#130655 //"Abdominal Compression Arch" 
 
-* DICOMDCMCodeSystem#130656 "Head Fixation Board" 
+* DICOM_DCM_CodeSystem#130656 //"Head Fixation Board" 
 
-* http://snomed.info/sct#20406008 "Backrest" 
-* http://snomed.info/srt#A-12260 "Backrest" 
-* http://terminology.hl7.org/CodeSystem/umls#C0336586 "Backrest" 
+* http://snomed.info/sct#20406008 //"Backrest" 
 
-* DICOMDCMCodeSystem#130852 "Shin Rest" 
+* DICOM_DCM_CodeSystem#130852 //"Shin Rest" 
 
-* DICOMDCMCodeSystem#130853 "Heel Stop" 
+* DICOM_DCM_CodeSystem#130853 //"Heel Stop" 
 
-* http://snomed.info/sct#468115008 "Armrest" 
-* http://snomed.info/srt#R-FCFCC "Armrest" 
-* http://terminology.hl7.org/CodeSystem/umls#C3880585 "Armrest" 
+* http://snomed.info/sct#468115008 //"Armrest" 
 
-* DICOMDCMCodeSystem#130854 "Hand Grips" 
+* DICOM_DCM_CodeSystem#130854 //"Hand Grips" 
 
-* DICOMDCMCodeSystem#130855 "Seat Pan" 
+* DICOM_DCM_CodeSystem#130855 //"Seat Pan" 
 

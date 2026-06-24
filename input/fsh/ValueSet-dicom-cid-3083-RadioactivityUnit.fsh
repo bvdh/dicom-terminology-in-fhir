@@ -3,15 +3,18 @@ Id          : dicom-cid-3083-RadioactivityUnit
 Description :
 """
 Unit Radioactivity
+
+The content in this ValueSet is based on [CID 3083](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3083.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.737"
 * ^version = "20080927"
-* ^title = "Radioactivity Unit"
+* ^title = "Radioactivity Unit (CID 3083)"
 * ^name = "RadioactivityUnit"
-* http://unitsofmeasure.org#Bq "becquerel" 
+* ^experimental = false
+* http://unitsofmeasure.org#Bq //"becquerel" 
 
-* http://unitsofmeasure.org#MBq "megabecquerel" 
+* http://unitsofmeasure.org#MBq //"megabecquerel" 
 
-* http://unitsofmeasure.org#mCi "millicurie" 
+* http://unitsofmeasure.org#mCi //"millicurie" 
 

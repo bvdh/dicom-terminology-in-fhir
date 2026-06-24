@@ -3,17 +3,18 @@ Id          : dicom-cid-3468-EDVolume
 Description :
 """
 ED Volume
+
+The content in this ValueSet is based on [CID 3468](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3468.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.110"
 * ^version = "20110124"
-* ^title = "ED Volume"
+* ^title = "ED Volume (CID 3468)"
 * ^name = "EDVolume"
-* http://loinc.org#8821-1 "Left Ventricular ED Volume" 
-* http://terminology.hl7.org/CodeSystem/umls#C0488738 "Left Ventricular ED Volume" 
+* ^experimental = false
+* http://loinc.org#8821-1 //"Left Ventricular ED Volume" 
 
-* http://loinc.org#8822-9 "Right Ventricular ED Volume" 
-* http://terminology.hl7.org/CodeSystem/umls#C0488739 "Right Ventricular ED Volume" 
+* http://loinc.org#8822-9 //"Right Ventricular ED Volume" 
 
-* DICOMDCMCodeSystem#122407 "Left Atrial ED Volume" 
+* DICOM_DCM_CodeSystem#122407 //"Left Atrial ED Volume" 
 

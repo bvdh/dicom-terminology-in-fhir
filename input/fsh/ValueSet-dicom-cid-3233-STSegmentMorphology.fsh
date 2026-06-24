@@ -3,23 +3,22 @@ Id          : dicom-cid-3233-STSegmentMorphology
 Description :
 """
 ST Segment Morphology
+
+The content in this ValueSet is based on [CID 3233](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3233.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.779"
 * ^version = "20080927"
-* ^title = "ST Segment Morphology"
+* ^title = "ST Segment Morphology (CID 3233)"
 * ^name = "STSegmentMorphology"
-* DICOMDCMCodeSystem#122757 "ST Depression - Horizontal" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#122757 //"ST Depression - Horizontal" 
 
-* DICOMDCMCodeSystem#122758 "ST Depression - Upsloping" 
+* DICOM_DCM_CodeSystem#122758 //"ST Depression - Upsloping" 
 
-* DICOMDCMCodeSystem#122759 "ST Depression - Downsloping" 
+* DICOM_DCM_CodeSystem#122759 //"ST Depression - Downsloping" 
 
-* http://snomed.info/sct#76388001 "ST Elevation" 
-* http://snomed.info/srt#F-38277 "ST Elevation" 
-* http://terminology.hl7.org/CodeSystem/umls#C0520886 "ST Elevation" 
+* http://snomed.info/sct#76388001 //"ST Elevation" 
 
-* http://snomed.info/sct#26141007 "ST Depression" 
-* http://snomed.info/srt#F-38278 "ST Depression" 
-* http://terminology.hl7.org/CodeSystem/umls#C0520887 "ST Depression" 
+* http://snomed.info/sct#26141007 //"ST Depression" 
 

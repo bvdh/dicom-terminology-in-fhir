@@ -3,19 +3,22 @@ Id          : dicom-cid-3090-TimeSynchronizationChannelType
 Description :
 """
 Time Synchronization Channel Type
+
+The content in this ValueSet is based on [CID 3090](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3090.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.51"
 * ^version = "20020904"
-* ^title = "Time Synchronization Channel Type"
+* ^title = "Time Synchronization Channel Type (CID 3090)"
 * ^name = "TimeSynchronizationChannelType"
-* DICOMDCMCodeSystem#109001 "Digital timecode (NOS)" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#109001 //"Digital timecode (NOS)" 
 
-* DICOMDCMCodeSystem#109002 "ECG-based gating signal, processed" 
+* DICOM_DCM_CodeSystem#109002 //"ECG-based gating signal, processed" 
 
-* DICOMDCMCodeSystem#109003 "IRIG-B timecode" 
+* DICOM_DCM_CodeSystem#109003 //"IRIG-B timecode" 
 
-* DICOMDCMCodeSystem#109004 "X-Ray Fluoroscopy On Signal" 
+* DICOM_DCM_CodeSystem#109004 //"X-Ray Fluoroscopy On Signal" 
 
-* DICOMDCMCodeSystem#109005 "X-Ray On Trigger" 
+* DICOM_DCM_CodeSystem#109005 //"X-Ray On Trigger" 
 

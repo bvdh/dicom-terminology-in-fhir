@@ -3,13 +3,16 @@ Id          : dicom-cid-3021-CADRADSStenosisAssessmentModifier
 Description :
 """
 CAD-RADS Stenosis Assessment Modifier
+
+The content in this ValueSet is based on [CID 3021](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3021.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1430"
 * ^version = "20211114"
-* ^title = "CAD-RADS Stenosis Assessment Modifier"
+* ^title = "CAD-RADS Stenosis Assessment Modifier (CID 3021)"
 * ^name = "CADRADSStenosisAssessmentModifier"
-* DICOMDCMCodeSystem#130728 "4A - Severe stenosis" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130728 //"4A - Severe stenosis" 
 
-* DICOMDCMCodeSystem#130729 "4B - Severe stenosis" 
+* DICOM_DCM_CodeSystem#130729 //"4B - Severe stenosis" 
 

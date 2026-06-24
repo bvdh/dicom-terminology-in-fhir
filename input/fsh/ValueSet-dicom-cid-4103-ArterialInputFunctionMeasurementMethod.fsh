@@ -3,19 +3,22 @@ Id          : dicom-cid-4103-ArterialInputFunctionMeasurementMethod
 Description :
 """
 The anatomic location relevant to the application of any AIF method is not pre-coordinated in concepts in this Context Group. Typically these would be described by the Finding Site of any related measurements in the appropriate Template.
+
+The content in this ValueSet is based on [CID 4103](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4103.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.988"
 * ^version = "20141110"
-* ^title = "Arterial Input Function Measurement Method"
+* ^title = "Arterial Input Function Measurement Method (CID 4103)"
 * ^name = "ArterialInputFunctionMeasurementMethod"
-* DICOMDCMCodeSystem#126360 "AIF Ignored" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#126360 //"AIF Ignored" 
 
-* DICOMDCMCodeSystem#126361 "Population Averaged AIF" 
+* DICOM_DCM_CodeSystem#126361 //"Population Averaged AIF" 
 
-* DICOMDCMCodeSystem#126362 "User-defined AIF ROI" 
+* DICOM_DCM_CodeSystem#126362 //"User-defined AIF ROI" 
 
-* DICOMDCMCodeSystem#126363 "Automatically Detected AIF ROI" 
+* DICOM_DCM_CodeSystem#126363 //"Automatically Detected AIF ROI" 
 
-* DICOMDCMCodeSystem#126364 "Blind Estimation of AIF" 
+* DICOM_DCM_CodeSystem#126364 //"Blind Estimation of AIF" 
 

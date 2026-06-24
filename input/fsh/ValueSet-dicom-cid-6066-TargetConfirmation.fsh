@@ -3,23 +3,26 @@ Id          : dicom-cid-6066-TargetConfirmation
 Description :
 """
 Target Confirmation
+
+The content in this ValueSet is based on [CID 6066](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6066.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.395"
 * ^version = "20040112"
-* ^title = "Target Confirmation"
+* ^title = "Target Confirmation (CID 6066)"
 * ^name = "TargetConfirmation"
-* DICOMDCMCodeSystem#111443 "Target completely contained in the specimen" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111443 //"Target completely contained in the specimen" 
 
-* DICOMDCMCodeSystem#111444 "Target partially obtained in the specimen" 
+* DICOM_DCM_CodeSystem#111444 //"Target partially obtained in the specimen" 
 
-* DICOMDCMCodeSystem#111445 "Target not in the specimen" 
+* DICOM_DCM_CodeSystem#111445 //"Target not in the specimen" 
 
-* DICOMDCMCodeSystem#111446 "Calcifications seen in the core" 
+* DICOM_DCM_CodeSystem#111446 //"Calcifications seen in the core" 
 
-* DICOMDCMCodeSystem#111447 "Lesion completely removed" 
+* DICOM_DCM_CodeSystem#111447 //"Lesion completely removed" 
 
-* DICOMDCMCodeSystem#111448 "Lesion partially removed" 
+* DICOM_DCM_CodeSystem#111448 //"Lesion partially removed" 
 
-* DICOMDCMCodeSystem#111449 "Fluid obtained" 
+* DICOM_DCM_CodeSystem#111449 //"Fluid obtained" 
 

@@ -3,27 +3,34 @@ Id          : dicom-cid-10040-RadiopharmaceuticalOrganDoseReferenceAuthority
 Description :
 """
 Radiopharmaceutical Organ Dose Reference Authority
+
+The content in this ValueSet is based on [CID 10040](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_10040.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.972"
-* ^version = "20140419"
-* ^title = "Radiopharmaceutical Organ Dose Reference Authority"
+* ^version = "20250907"
+* ^title = "Radiopharmaceutical Organ Dose Reference Authority (CID 10040)"
 * ^name = "RadiopharmaceuticalOrganDoseReferenceAuthority"
-* DICOMDCMCodeSystem#113520 "MIRD Pamphlet 1" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#113520 //"MIRD Pamphlet 1" 
 
-* DICOMDCMCodeSystem#113521 "ICRP Publication 53" 
+* DICOM_DCM_CodeSystem#113521 //"ICRP Publication 53" 
 
-* DICOMDCMCodeSystem#113526 "MIRDOSE" 
+* DICOM_DCM_CodeSystem#113526 //"MIRDOSE" 
 
-* DICOMDCMCodeSystem#113527 "OLINDA-EXM" 
+* DICOM_DCM_CodeSystem#113527 //"OLINDA-EXM" 
 
-* DICOMDCMCodeSystem#113528 "Package Insert" 
+* DICOM_DCM_CodeSystem#113528 //"Package Insert" 
 
-* DICOMDCMCodeSystem#113529 "Institutionally Approved Estimates" 
+* DICOM_DCM_CodeSystem#113529 //"Institutionally Approved Estimates" 
 
-* DICOMDCMCodeSystem#113530 "Investigational New Drug" 
+* DICOM_DCM_CodeSystem#113530 //"Investigational New Drug" 
 
-* DICOMDCMCodeSystem#113522 "ICRP Publication 80" 
+* DICOM_DCM_CodeSystem#113522 //"ICRP Publication 80" 
 
-* DICOMDCMCodeSystem#113523 "ICRP Publication 106" 
+* DICOM_DCM_CodeSystem#113523 //"ICRP Publication 106" 
+
+* DICOM_DCM_CodeSystem#113524 //"ICRP Publication 128" 
+
+* DICOM_DCM_CodeSystem#113525 //"RADAR 2017" 
 

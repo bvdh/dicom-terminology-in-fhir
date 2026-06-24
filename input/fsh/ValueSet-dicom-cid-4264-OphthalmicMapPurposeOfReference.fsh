@@ -3,15 +3,18 @@ Id          : dicom-cid-4264-OphthalmicMapPurposeOfReference
 Description :
 """
 Ophthalmic Map Purpose of Reference
+
+The content in this ValueSet is based on [CID 4264](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4264.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.940"
 * ^version = "20110825"
-* ^title = "Ophthalmic Map Purpose of Reference"
+* ^title = "Ophthalmic Map Purpose of Reference (CID 4264)"
 * ^name = "OphthalmicMapPurposeOfReference"
-* DICOMDCMCodeSystem#121311 "Localizer" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121311 //"Localizer" 
 
-* DICOMDCMCodeSystem#121322 "Source image for image processing operation" 
+* DICOM_DCM_CodeSystem#121322 //"Source image for image processing operation" 
 
-* DICOMDCMCodeSystem#111933 "Related ophthalmic thickness map" 
+* DICOM_DCM_CodeSystem#111933 //"Related ophthalmic thickness map" 
 

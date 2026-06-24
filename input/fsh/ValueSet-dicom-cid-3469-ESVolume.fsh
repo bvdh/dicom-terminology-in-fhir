@@ -3,17 +3,18 @@ Id          : dicom-cid-3469-ESVolume
 Description :
 """
 ES Volume
+
+The content in this ValueSet is based on [CID 3469](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3469.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.111"
 * ^version = "20040614"
-* ^title = "ES Volume"
+* ^title = "ES Volume (CID 3469)"
 * ^name = "ESVolume"
-* http://loinc.org#8823-7 "Left Ventricular ES Volume" 
-* http://terminology.hl7.org/CodeSystem/umls#C0488740 "Left Ventricular ES Volume" 
+* ^experimental = false
+* http://loinc.org#8823-7 //"Left Ventricular ES Volume" 
 
-* http://loinc.org#8824-5 "Right Ventricular ES Volume" 
-* http://terminology.hl7.org/CodeSystem/umls#C0488741 "Right Ventricular ES Volume" 
+* http://loinc.org#8824-5 //"Right Ventricular ES Volume" 
 
-* DICOMDCMCodeSystem#122408 "Left Atrial ES Volume" 
+* DICOM_DCM_CodeSystem#122408 //"Left Atrial ES Volume" 
 

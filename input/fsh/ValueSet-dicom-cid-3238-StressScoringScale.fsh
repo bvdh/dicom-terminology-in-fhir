@@ -3,21 +3,22 @@ Id          : dicom-cid-3238-StressScoringScale
 Description :
 """
 Stress Scoring Scale
+
+The content in this ValueSet is based on [CID 3238](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3238.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.784"
 * ^version = "20080927"
-* ^title = "Stress Scoring Scale"
+* ^title = "Stress Scoring Scale (CID 3238)"
 * ^name = "StressScoringScale"
-* http://snomed.info/sct#304915008 "Duke treadmill score" 
-* http://snomed.info/srt#G-E002 "Duke treadmill score" 
-* http://terminology.hl7.org/CodeSystem/umls#C0582804 "Duke treadmill score" 
+* ^experimental = false
+* http://snomed.info/sct#304915008 //"Duke treadmill score" 
 
-* DICOMDCMCodeSystem#122770 "Ratio of achieved to predicted maximal oxygen consumption" 
+* DICOM_DCM_CodeSystem#122770 //"Ratio of achieved to predicted maximal oxygen consumption" 
 
-* DICOMDCMCodeSystem#122771 "Ratio of achieved to predicted functional capacity" 
+* DICOM_DCM_CodeSystem#122771 //"Ratio of achieved to predicted functional capacity" 
 
-* DICOMDCMCodeSystem#122772 "Aerobic index" 
+* DICOM_DCM_CodeSystem#122772 //"Aerobic index" 
 
-* DICOMDCMCodeSystem#122773 "ST/HR Index" 
+* DICOM_DCM_CodeSystem#122773 //"ST/HR Index" 
 

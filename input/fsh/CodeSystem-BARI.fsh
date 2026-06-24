@@ -1,7 +1,7 @@
 CodeSystem: BARICodeSystem
 Id: dicom-codesystem-BARI
 Title: "BARI"
-Description: "Bypass Angioplasty Revascularization Investigation"
+Description: "Bypass Angioplasty Revascularization Investigationbiblio_Alderman_1992 biblio_Scanlon_1999"
 * ^caseSensitive = true
 * ^content = #fragment
 * ^experimental = false

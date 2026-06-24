@@ -3,15 +3,16 @@ Id          : dicom-cid-7553-GenericPurposeOfReferenceToCoordinatesInMeasureme
 Description :
 """
 Generic Purpose of Reference to Coordinates in Measurement
+
+The content in this ValueSet is based on [CID 7553](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7553.html).
 """
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1345"
-* ^version = "20200920"
-* ^title = "Generic Purpose of Reference to Coordinates in Measurement"
+* ^version = "None"
+* ^title = "Generic Purpose of Reference to Coordinates in Measurement (CID 7553)"
 * ^name = "GenericPurposeOfReferenceToCoordinatesInMeasurement"
-* DICOMDCMCodeSystem#121223 "Arm of angle" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#121223 //"Arm of angle" 
 
-* DICOMDCMCodeSystem#121225 "Vector" 
+* DICOM_DCM_CodeSystem#121225 //"Vector" 
 
-* DICOMDCMCodeSystem#121226 "Approximate spatial location" 
+* DICOM_DCM_CodeSystem#121226 //"Approximate spatial location" 
 

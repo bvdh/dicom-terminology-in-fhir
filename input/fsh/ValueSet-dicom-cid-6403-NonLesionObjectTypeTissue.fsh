@@ -3,13 +3,14 @@ Id          : dicom-cid-6403-NonLesionObjectTypeTissue
 Description :
 """
 Non-lesion Object Type - Tissue
+
+The content in this ValueSet is based on [CID 6403](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6403.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1187"
 * ^version = "20170914"
-* ^title = "Non-lesion Object Type - Tissue"
+* ^title = "Non-lesion Object Type - Tissue (CID 6403)"
 * ^name = "NonLesionObjectTypeTissue"
-* http://snomed.info/sct#12402003 "Scar tissue" 
-* http://snomed.info/srt#M-78060 "Scar tissue" 
-* http://terminology.hl7.org/CodeSystem/umls#C2004491 "Scar tissue" 
+* ^experimental = false
+* http://snomed.info/sct#12402003 //"Scar tissue" 
 

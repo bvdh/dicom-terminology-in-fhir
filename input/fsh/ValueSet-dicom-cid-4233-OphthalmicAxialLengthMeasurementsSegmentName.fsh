@@ -3,25 +3,22 @@ Id          : dicom-cid-4233-OphthalmicAxialLengthMeasurementsSegmentName
 Description :
 """
 Ophthalmic Axial Length Measurements Segment Name
+
+The content in this ValueSet is based on [CID 4233](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4233.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.879"
 * ^version = "20100623"
-* ^title = "Ophthalmic Axial Length Measurements Segment Name"
+* ^title = "Ophthalmic Axial Length Measurements Segment Name (CID 4233)"
 * ^name = "OphthalmicAxialLengthMeasurementsSegmentName"
-* http://snomed.info/sct#28726007 "Cornea" 
-* http://snomed.info/srt#T-AA200 "Cornea" 
-* http://terminology.hl7.org/CodeSystem/umls#C0010031 "Cornea" 
+* ^experimental = false
+* http://snomed.info/sct#28726007 //"Cornea" 
 
-* http://snomed.info/sct#31636006 "Anterior Chamber" 
-* http://snomed.info/srt#T-AA050 "Anterior Chamber" 
-* http://terminology.hl7.org/CodeSystem/umls#C0003151 "Anterior Chamber" 
+* http://snomed.info/sct#31636006 //"Anterior Chamber" 
 
-* DICOMDCMCodeSystem#111778 "Single or Anterior Lens" 
+* DICOM_DCM_CodeSystem#111778 //"Single or Anterior Lens" 
 
-* DICOMDCMCodeSystem#111779 "Posterior Lens" 
+* DICOM_DCM_CodeSystem#111779 //"Posterior Lens" 
 
-* http://snomed.info/sct#26386000 "Vitreous Cavity" 
-* http://snomed.info/srt#T-AA079 "Vitreous Cavity" 
-* http://terminology.hl7.org/CodeSystem/umls#C0229095 "Vitreous Cavity" 
+* http://snomed.info/sct#26386000 //"Vitreous Cavity" 
 

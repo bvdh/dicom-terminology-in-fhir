@@ -3,29 +3,32 @@ Id          : dicom-cid-4272-OPTScanPatternType
 Description :
 """
 OPT Scan Pattern Type
+
+The content in this ValueSet is based on [CID 4272](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4272.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1152"
 * ^version = "20170405"
-* ^title = "OPT Scan Pattern Type"
+* ^title = "OPT Scan Pattern Type (CID 4272)"
 * ^name = "OPTScanPatternType"
-* DICOMDCMCodeSystem#128279 "Cube B-scan pattern" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#128279 //"Cube B-scan pattern" 
 
-* DICOMDCMCodeSystem#128280 "Raster B-scan pattern" 
+* DICOM_DCM_CodeSystem#128280 //"Raster B-scan pattern" 
 
-* DICOMDCMCodeSystem#128281 "Line B-scan pattern" 
+* DICOM_DCM_CodeSystem#128281 //"Line B-scan pattern" 
 
-* DICOMDCMCodeSystem#128282 "Radial B-scan pattern" 
+* DICOM_DCM_CodeSystem#128282 //"Radial B-scan pattern" 
 
-* DICOMDCMCodeSystem#128283 "Cross B-scan pattern" 
+* DICOM_DCM_CodeSystem#128283 //"Cross B-scan pattern" 
 
-* DICOMDCMCodeSystem#128284 "Circle B-scan pattern" 
+* DICOM_DCM_CodeSystem#128284 //"Circle B-scan pattern" 
 
-* DICOMDCMCodeSystem#128285 "Concentric circle B-scan pattern" 
+* DICOM_DCM_CodeSystem#128285 //"Concentric circle B-scan pattern" 
 
-* DICOMDCMCodeSystem#128286 "Circle-raster B-scan pattern" 
+* DICOM_DCM_CodeSystem#128286 //"Circle-raster B-scan pattern" 
 
-* DICOMDCMCodeSystem#128287 "Circle-radial B-scan pattern" 
+* DICOM_DCM_CodeSystem#128287 //"Circle-radial B-scan pattern" 
 
-* DICOMDCMCodeSystem#128288 "Grid B-scan pattern" 
+* DICOM_DCM_CodeSystem#128288 //"Grid B-scan pattern" 
 

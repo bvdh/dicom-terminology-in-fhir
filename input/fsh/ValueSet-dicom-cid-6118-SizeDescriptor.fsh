@@ -3,31 +3,26 @@ Id          : dicom-cid-6118-SizeDescriptor
 Description :
 """
 Size Descriptor
+
+The content in this ValueSet is based on [CID 6118](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6118.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.438"
 * ^version = "20030108"
-* ^title = "Size Descriptor"
+* ^title = "Size Descriptor (CID 6118)"
 * ^name = "SizeDescriptor"
-* DICOMDCMCodeSystem#112131 "Extremely small" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#112131 //"Extremely small" 
 
-* DICOMDCMCodeSystem#112132 "Very small" 
+* DICOM_DCM_CodeSystem#112132 //"Very small" 
 
-* http://snomed.info/sct#255507004 "Small" 
-* http://snomed.info/srt#R-404A8 "Small" 
-* http://terminology.hl7.org/CodeSystem/umls#C0700321 "Small" 
+* http://snomed.info/sct#255507004 //"Small" 
 
-* http://snomed.info/sct#255508009 "Medium" 
-* http://snomed.info/srt#R-404A9 "Medium" 
-* http://terminology.hl7.org/CodeSystem/umls#C0439536 "Medium" 
+* http://snomed.info/sct#255508009 //"Medium" 
 
-* http://snomed.info/sct#255509001 "Large" 
-* http://snomed.info/srt#R-404AA "Large" 
-* http://terminology.hl7.org/CodeSystem/umls#C0549177 "Large" 
+* http://snomed.info/sct#255509001 //"Large" 
 
-* http://snomed.info/sct#260376009 "Enlarged" 
-* http://snomed.info/srt#R-40750 "Enlarged" 
-* http://terminology.hl7.org/CodeSystem/umls#C0442800 "Enlarged" 
+* http://snomed.info/sct#260376009 //"Enlarged" 
 
-* DICOMDCMCodeSystem#112133 "Too small" 
+* DICOM_DCM_CodeSystem#112133 //"Too small" 
 

@@ -3,23 +3,26 @@ Id          : dicom-cid-9565-TreatmentToleranceViolationCause
 Description :
 """
 Treatment Tolerance Violation Cause
+
+The content in this ValueSet is based on [CID 9565](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_9565.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1322"
 * ^version = "20200624"
-* ^title = "Treatment Tolerance Violation Cause"
+* ^title = "Treatment Tolerance Violation Cause (CID 9565)"
 * ^name = "TreatmentToleranceViolationCause"
-* DICOMDCMCodeSystem#130461 "Inappropriate Patient Orientation" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#130461 //"Inappropriate Patient Orientation" 
 
-* DICOMDCMCodeSystem#130462 "Inappropriate Patient Position" 
+* DICOM_DCM_CodeSystem#130462 //"Inappropriate Patient Position" 
 
-* DICOMDCMCodeSystem#130463 "Machine Not Available" 
+* DICOM_DCM_CodeSystem#130463 //"Machine Not Available" 
 
-* DICOMDCMCodeSystem#130464 "Change in Patient Anatomy" 
+* DICOM_DCM_CodeSystem#130464 //"Change in Patient Anatomy" 
 
-* DICOMDCMCodeSystem#130465 "Machine Calibration Adjustment" 
+* DICOM_DCM_CodeSystem#130465 //"Machine Calibration Adjustment" 
 
-* DICOMDCMCodeSystem#130466 "Unavailability of a Beam Modifier" 
+* DICOM_DCM_CodeSystem#130466 //"Unavailability of a Beam Modifier" 
 
-* DICOMDCMCodeSystem#130467 "Machine Capability License Expired" 
+* DICOM_DCM_CodeSystem#130467 //"Machine Capability License Expired" 
 

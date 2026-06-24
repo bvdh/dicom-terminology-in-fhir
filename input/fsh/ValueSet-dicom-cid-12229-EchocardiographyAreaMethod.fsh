@@ -3,23 +3,26 @@ Id          : dicom-cid-12229-EchocardiographyAreaMethod
 Description :
 """
 Echocardiography Area Method
+
+The content in this ValueSet is based on [CID 12229](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12229.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.620"
 * ^version = "20030918"
-* ^title = "Echocardiography Area Method"
+* ^title = "Echocardiography Area Method (CID 12229)"
 * ^name = "EchocardiographyAreaMethod"
-* DICOMDCMCodeSystem#125210 "Area by Pressure Half-Time" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#125210 //"Area by Pressure Half-Time" 
 
-* DICOMDCMCodeSystem#125212 "Continuity Equation" 
+* DICOM_DCM_CodeSystem#125212 //"Continuity Equation" 
 
-* DICOMDCMCodeSystem#125213 "Continuity Equation by Mean Velocity" 
+* DICOM_DCM_CodeSystem#125213 //"Continuity Equation by Mean Velocity" 
 
-* DICOMDCMCodeSystem#125214 "Continuity Equation by Peak Velocity" 
+* DICOM_DCM_CodeSystem#125214 //"Continuity Equation by Peak Velocity" 
 
-* DICOMDCMCodeSystem#125215 "Continuity Equation by Velocity Time Integral" 
+* DICOM_DCM_CodeSystem#125215 //"Continuity Equation by Velocity Time Integral" 
 
-* DICOMDCMCodeSystem#125216 "Proximal Isovelocity Surface Area" 
+* DICOM_DCM_CodeSystem#125216 //"Proximal Isovelocity Surface Area" 
 
-* DICOMDCMCodeSystem#125220 "Planimetry" 
+* DICOM_DCM_CodeSystem#125220 //"Planimetry" 
 

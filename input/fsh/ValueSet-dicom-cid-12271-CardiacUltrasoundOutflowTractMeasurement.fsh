@@ -3,12 +3,15 @@ Id          : dicom-cid-12271-CardiacUltrasoundOutflowTractMeasurement
 Description :
 """
 Cardiac Ultrasound Outflow Tract Measurement
+
+The content in this ValueSet is based on [CID 12271](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_12271.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.852"
 * ^version = "20240920"
-* ^title = "Cardiac Ultrasound Outflow Tract Measurement"
+* ^title = "Cardiac Ultrasound Outflow Tract Measurement (CID 12271)"
 * ^name = "CardiacUltrasoundOutflowTractMeasurement"
+* ^experimental = false
 * include codes from valueset CID_12257
 
 * include codes from valueset CID_12258

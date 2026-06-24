@@ -3,12 +3,15 @@ Id          : dicom-cid-501-VolumetricViewDescription
 Description :
 """
 Volumetric View Description
+
+The content in this ValueSet is based on [CID 501](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_501.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1057"
 * ^version = "20150915"
-* ^title = "Volumetric View Description"
+* ^title = "Volumetric View Description (CID 501)"
 * ^name = "VolumetricViewDescription"
+* ^experimental = false
 * include codes from valueset CID_6
 
 * include codes from valueset CID_26

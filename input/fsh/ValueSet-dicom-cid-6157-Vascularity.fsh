@@ -3,19 +3,22 @@ Id          : dicom-cid-6157-Vascularity
 Description :
 """
 From BI-RADS
+
+The content in this ValueSet is based on [CID 6157](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_6157.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.471"
 * ^version = "20050822"
-* ^title = "Vascularity"
+* ^title = "Vascularity (CID 6157)"
 * ^name = "Vascularity"
-* DICOMDCMCodeSystem#111373 "Vascularity not present" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#111373 //"Vascularity not present" 
 
-* DICOMDCMCodeSystem#111374 "Vascularity not assessed" 
+* DICOM_DCM_CodeSystem#111374 //"Vascularity not assessed" 
 
-* DICOMDCMCodeSystem#111375 "Vascularity present in lesion" 
+* DICOM_DCM_CodeSystem#111375 //"Vascularity present in lesion" 
 
-* DICOMDCMCodeSystem#111376 "Vascularity present immediately adjacent to lesion" 
+* DICOM_DCM_CodeSystem#111376 //"Vascularity present immediately adjacent to lesion" 
 
-* DICOMDCMCodeSystem#111377 "Diffusely increased vascularity in surrounding tissue" 
+* DICOM_DCM_CodeSystem#111377 //"Diffusely increased vascularity in surrounding tissue" 
 

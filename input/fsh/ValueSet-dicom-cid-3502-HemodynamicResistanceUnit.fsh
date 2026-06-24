@@ -3,15 +3,18 @@ Id          : dicom-cid-3502-HemodynamicResistanceUnit
 Description :
 """
 P.R.U. is in units of mm[Hg].s/ml; Wood Units is in mm[Hg].min/l
+
+The content in this ValueSet is based on [CID 3502](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3502.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.133"
 * ^version = "20120327"
-* ^title = "Hemodynamic Resistance Unit"
+* ^title = "Hemodynamic Resistance Unit (CID 3502)"
 * ^name = "HemodynamicResistanceUnit"
-* http://unitsofmeasure.org#[PRU] "P.R.U." 
+* ^experimental = false
+* http://unitsofmeasure.org#[PRU] //"P.R.U." 
 
-* http://unitsofmeasure.org#[wood'U] "Wood U" 
+* http://unitsofmeasure.org#[wood'U] //"Wood U" 
 
-* http://unitsofmeasure.org#dyn.s.cm-5 "dyn.s.cm-5" 
+* http://unitsofmeasure.org#dyn.s.cm-5 //"dyn.s.cm-5" 
 

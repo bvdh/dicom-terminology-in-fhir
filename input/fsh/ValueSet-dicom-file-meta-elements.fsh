@@ -6,6 +6,7 @@ Description: "DICOM® File Meta elements extracted from DICOM PS3.6 Table 7-1."
 
 * ^experimental = false
 
+* ^version = "2026.2.20260327"
 * DICOM_Elements#FileMetaInformationGroupLength "File Meta Information Group Length"
 * DICOM_Elements#FileMetaInformationVersion "File Meta Information Version"
 * DICOM_Elements#MediaStorageSOPClassUID "Media Storage SOP Class UID"

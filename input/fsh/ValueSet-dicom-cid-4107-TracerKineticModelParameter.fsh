@@ -3,19 +3,22 @@ Id          : dicom-cid-4107-TracerKineticModelParameter
 Description :
 """
 Tracer Kinetic Model Parameter
+
+The content in this ValueSet is based on [CID 4107](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4107.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.992"
 * ^version = "20141110"
-* ^title = "Tracer Kinetic Model Parameter"
+* ^title = "Tracer Kinetic Model Parameter (CID 4107)"
 * ^name = "TracerKineticModelParameter"
-* DICOMDCMCodeSystem#126312 "Ktrans" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#126312 //"Ktrans" 
 
-* DICOMDCMCodeSystem#126313 "kep" 
+* DICOM_DCM_CodeSystem#126313 //"kep" 
 
-* DICOMDCMCodeSystem#126314 "ve" 
+* DICOM_DCM_CodeSystem#126314 //"ve" 
 
-* DICOMDCMCodeSystem#126330 "tau_m" 
+* DICOM_DCM_CodeSystem#126330 //"tau_m" 
 
-* DICOMDCMCodeSystem#126331 "vp" 
+* DICOM_DCM_CodeSystem#126331 //"vp" 
 

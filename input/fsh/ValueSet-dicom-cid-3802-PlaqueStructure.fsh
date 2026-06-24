@@ -3,33 +3,24 @@ Id          : dicom-cid-3802-PlaqueStructure
 Description :
 """
 Plaque Structure
+
+The content in this ValueSet is based on [CID 3802](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_3802.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.264"
 * ^version = "20051103"
-* ^title = "Plaque Structure"
+* ^title = "Plaque Structure (CID 3802)"
 * ^name = "PlaqueStructure"
-* http://snomed.info/sct#255423002 "fibrous" 
-* http://snomed.info/srt#R-40448 "fibrous" 
-* http://terminology.hl7.org/CodeSystem/umls#C0439709 "fibrous" 
+* ^experimental = false
+* http://snomed.info/sct#255423002 //"fibrous" 
 
-* http://snomed.info/sct#29185008 "fatty degeneration" 
-* http://snomed.info/srt#M-50080 "fatty degeneration" 
-* http://terminology.hl7.org/CodeSystem/umls#C0152254 "fatty degeneration" 
+* http://snomed.info/sct#29185008 //"fatty degeneration" 
 
-* http://snomed.info/sct#18115005 "pathologic calcification" 
-* http://snomed.info/srt#M-55420 "pathologic calcification" 
-* http://terminology.hl7.org/CodeSystem/umls#C0006663 "pathologic calcification" 
+* http://snomed.info/sct#18115005 //"pathologic calcification" 
 
-* http://snomed.info/sct#76197007 "hyperplasia" 
-* http://snomed.info/srt#M-72000 "hyperplasia" 
-* http://terminology.hl7.org/CodeSystem/umls#C0020507 "hyperplasia" 
+* http://snomed.info/sct#76197007 //"hyperplasia" 
 
-* http://snomed.info/sct#17589002 "non-calcified" 
-* http://snomed.info/srt#G-A265 "non-calcified" 
-* http://terminology.hl7.org/CodeSystem/umls#C0332209 "non-calcified" 
+* http://snomed.info/sct#17589002 //"non-calcified" 
 
-* http://snomed.info/sct#26242008 "mixed" 
-* http://snomed.info/srt#G-A660 "mixed" 
-* http://terminology.hl7.org/CodeSystem/umls#C0205430 "mixed" 
+* http://snomed.info/sct#26242008 //"mixed" 
 

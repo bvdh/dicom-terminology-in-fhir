@@ -3,27 +3,30 @@ Id          : dicom-cid-4283-RNFLSectorMeasurements
 Description :
 """
 RNFL Sector Measurements
+
+The content in this ValueSet is based on [CID 4283](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4283.html).
 """
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value  = "urn:oid:1.2.840.10008.6.1.1536"
 * ^version = "20250707"
-* ^title = "RNFL Sector Measurements"
+* ^title = "RNFL Sector Measurements (CID 4283)"
 * ^name = "RNFLSectorMeasurements"
-* DICOMDCMCodeSystem#131264 "RNFL average thickness" 
+* ^experimental = false
+* DICOM_DCM_CodeSystem#131264 //"RNFL average thickness" 
 
-* DICOMDCMCodeSystem#131265 "RNFL inferior sector thickness" 
+* DICOM_DCM_CodeSystem#131265 //"RNFL inferior sector thickness" 
 
-* DICOMDCMCodeSystem#131266 "RNFL superior sector thickness" 
+* DICOM_DCM_CodeSystem#131266 //"RNFL superior sector thickness" 
 
-* DICOMDCMCodeSystem#131267 "RNFL temporal sector thickness" 
+* DICOM_DCM_CodeSystem#131267 //"RNFL temporal sector thickness" 
 
-* DICOMDCMCodeSystem#131268 "RNFL nasal sector thickness" 
+* DICOM_DCM_CodeSystem#131268 //"RNFL nasal sector thickness" 
 
-* DICOMDCMCodeSystem#131269 "RNFL nasal-superior sector thickness" 
+* DICOM_DCM_CodeSystem#131269 //"RNFL nasal-superior sector thickness" 
 
-* DICOMDCMCodeSystem#131270 "RNFL nasal-inferior sector thickness" 
+* DICOM_DCM_CodeSystem#131270 //"RNFL nasal-inferior sector thickness" 
 
-* DICOMDCMCodeSystem#131271 "RNFL temporal-inferior sector thickness" 
+* DICOM_DCM_CodeSystem#131271 //"RNFL temporal-inferior sector thickness" 
 
-* DICOMDCMCodeSystem#131272 "RNFL temporal-superior sector thickness" 
+* DICOM_DCM_CodeSystem#131272 //"RNFL temporal-superior sector thickness" 
 
